@@ -1,0 +1,73 @@
+{
+  "book": "Matthew",
+  "chapter": 9,
+  "title": "The Lord of the Harvest",
+  "translation": "BSB",
+  "verses": [
+    {"num": 1, "text": "Jesus got into a boat, crossed over, and came to His own town."},
+    {"num": 2, "text": "Just then some men brought to Him a paralytic lying on a mat. When Jesus saw their faith, He said to the paralytic, \"Take courage, son; your sins are forgiven.\""},
+    {"num": 3, "text": "On seeing this, some of the scribes said to themselves, \"This man is blaspheming!\""},
+    {"num": 4, "text": "But Jesus knew what they were thinking and said, \"Why do you harbor evil in your hearts?"},
+    {"num": 5, "text": "Which is easier: to say, 'Your sins are forgiven,' or to say, 'Get up and walk'?"},
+    {"num": 6, "text": "But so that you may know that the Son of Man has authority on earth to forgive sins...\" Then He said to the paralytic, \"Get up, pick up your mat, and go home.\""},
+    {"num": 7, "text": "And the man got up and went home."},
+    {"num": 8, "text": "When the crowds saw this, they were filled with awe and glorified God, who had given such authority to men."},
+    {"num": 9, "text": "As Jesus went on from there, He saw a man named Matthew sitting at the tax booth. \"Follow Me,\" He told him, and Matthew got up and followed Him."},
+    {"num": 10, "text": "Later, as Jesus was dining at Matthew's house, many tax collectors and sinners came and ate with Him and His disciples."},
+    {"num": 11, "text": "When the Pharisees saw this, they asked His disciples, \"Why does your Teacher eat with tax collectors and sinners?\""},
+    {"num": 12, "text": "On hearing this, Jesus said, \"It is not the healthy who need a doctor, but the sick."},
+    {"num": 13, "text": "But go and learn what this means: 'I desire mercy, not sacrifice.' For I have not come to call the righteous, but sinners.\""},
+    {"num": 14, "text": "Then John's disciples came to Jesus and asked, \"Why is it that we and the Pharisees fast so often, but Your disciples do not fast?\""},
+    {"num": 15, "text": "Jesus replied, \"How can the guests of the bridegroom mourn while He is with them? But the time will come when the bridegroom will be taken from them; then they will fast."},
+    {"num": 16, "text": "No one sews a patch of unshrunk cloth on an old garment. For the patch will pull away from the garment, and a worse tear will result."},
+    {"num": 17, "text": "Neither do men pour new wine into old wineskins. If they do, the skins will burst, the wine will spill, and the wineskins will be ruined. Instead, they pour new wine into new wineskins, and both are preserved.\""},
+    {"num": 18, "text": "While Jesus was saying these things, a synagogue leader came and knelt before Him. \"My daughter has just died,\" he said. \"But come and place Your hand on her, and she will live.\""},
+    {"num": 19, "text": "So Jesus got up and went with him, along with His disciples."},
+    {"num": 20, "text": "Suddenly a woman who had suffered from bleeding for twelve years came up behind Him and touched the fringe of His cloak."},
+    {"num": 21, "text": "She said to herself, \"If only I touch His cloak, I will be healed.\""},
+    {"num": 22, "text": "Jesus turned and saw her. \"Take courage, daughter,\" He said, \"your faith has healed you.\" And the woman was healed from that very hour."},
+    {"num": 23, "text": "When Jesus entered the house of the synagogue leader, He saw the flute players and the noisy crowd."},
+    {"num": 24, "text": "\"Go away,\" He told them. \"The girl is not dead, but asleep.\" And they laughed at Him."},
+    {"num": 25, "text": "After the crowd had been put outside, Jesus went in and took the girl by the hand, and she got up."},
+    {"num": 26, "text": "And the news about this spread throughout that region."},
+    {"num": 27, "text": "As Jesus went on from there, two blind men followed Him, crying out, \"Have mercy on us, Son of David!\""},
+    {"num": 28, "text": "After Jesus had entered the house, the blind men came to Him. \"Do you believe that I am able to do this?\" He asked. \"Yes, Lord,\" they answered."},
+    {"num": 29, "text": "Then He touched their eyes and said, \"According to your faith will it be done to you.\""},
+    {"num": 30, "text": "And their eyes were opened. Jesus warned them sternly, \"See that no one finds out about this!\""},
+    {"num": 31, "text": "But they went out and spread the news about Him throughout the land."},
+    {"num": 32, "text": "As they were leaving, a demon-possessed man who was mute was brought to Jesus."},
+    {"num": 33, "text": "And when the demon had been driven out, the man began to speak. The crowds were amazed and said, \"Nothing like this has ever been seen in Israel!\""},
+    {"num": 34, "text": "But the Pharisees said, \"It is by the prince of demons that He drives out demons.\""},
+    {"num": 35, "text": "Jesus went through all the towns and villages, teaching in their synagogues, preaching the gospel of the kingdom, and healing every disease and sickness."},
+    {"num": 36, "text": "When He saw the crowds, He was moved with compassion for them, because they were harassed and helpless, like sheep without a shepherd."},
+    {"num": 37, "text": "Then He said to His disciples, \"The harvest is plentiful, but the workers are few."},
+    {"num": 38, "text": "Ask the Lord of the harvest, therefore, to send out workers into His harvest.\""}
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Narrative — a continued sequence of miracle accounts, including the Gospel author's own call as a disciple, now interwoven with the first open conflict with religious leaders.",
+    "audience": "Jewish-Christian readers, especially attentive to Jesus' inclusion of tax collectors and sinners, and His direct challenge to Pharisaic assumptions about who belongs at God's table.",
+    "mapLabel": "CAPERNAUM",
+    "setting": "Only God was understood to have the authority to forgive sin (Isaiah 43:25, Psalm 103:3) — Jesus' declaration to the paralytic (v.2) is a direct claim to that divine prerogative. Tax collectors like Matthew leased collection territory from Rome and could charge extra for personal profit, making them widely despised as collaborators.",
+    "custom": "Friends lowering a paralyzed man to Jesus (implied by v.2, detailed further in Mark's parallel) reflects the common flat, mud-covered roof construction of Galilean homes. The bleeding woman's touch of Jesus' cloak fringe (v.20) refers to the tzitzit, tassels worn on the corners of a garment per Jewish law.",
+    "timelineImmediate": "Continues Jesus' Galilean ministry directly after chapter 8's miracles, and includes His calling of Matthew himself (v.9) — a notably personal moment in the Gospel Matthew is writing.",
+    "timelineBible": "Jesus' healings of blindness and muteness in this chapter echo Isaiah's prophecy that in the day of salvation \"the eyes of the blind will be opened\" (Isaiah 35:5-6), and His quotation of Hosea 6:6 (\"I desire mercy, not sacrifice,\" v.13) places Him directly within the prophetic tradition critiquing empty ritual.",
+    "translation": [
+      { "english": "forgiven", "greek": "ἀφίενταί (aphientai)", "verseRef": "v.2, 5-6", "meaning": "Implies a release or letting go — the same verb family used for canceling a debt." },
+      { "english": "follow", "greek": "ἀκολούθει (akolouthei)", "verseRef": "v.9", "meaning": "A present imperative — ongoing, continuous discipleship rather than a single decision." },
+      { "english": "new", "greek": "καινός (kainos)", "verseRef": "v.16-17", "meaning": "Fresh and unprecedented, not merely \"another one\" — signals something genuinely different arriving, not a repair of the old." },
+      { "english": "faith", "greek": "πίστις (pistis)", "verseRef": "v.22, 29", "meaning": "Trust and belief in action — repeatedly the deciding factor in who receives healing in this chapter." },
+      { "english": "compassion", "greek": "ἐσπλαγχνίσθη (esplanchnisthē)", "verseRef": "v.36", "meaning": "A visceral, gut-level empathy — among the strongest words in Greek for being moved by another's suffering." }
+    ],
+    "gospelParallels": [
+      { "ref": "Mark 2:1-12", "note": "Mark's fuller account of the paralytic, including the detail of friends digging through the roof." },
+      { "ref": "Luke 5:27-32", "note": "Luke's version of Matthew's (Levi's) call and the dinner that followed." },
+      { "ref": "Mark 5:21-43", "note": "Mark's longer account of Jairus's daughter and the bleeding woman, including her twelve years of suffering." }
+    ],
+    "otBackground": [
+      { "ref": "Isaiah 43:25", "note": "God alone blots out transgressions — the claim implicit in Jesus forgiving sin in v.2." },
+      { "ref": "Hosea 6:6", "note": "\"I desire mercy, not sacrifice\" — quoted directly by Jesus in v.13." },
+      { "ref": "Isaiah 35:5-6", "note": "The prophecy that the blind will see and the mute will speak in the day of salvation, echoed in v.27-33." }
+    ]
+  }
+}
