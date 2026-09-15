@@ -1,0 +1,11 @@
+{
+  "books": [
+    {
+      "slug": "matthew",
+      "name": "Matthew",
+      "testament": "New",
+      "totalChapters": 28,
+      "availableChapters": [1, 2, 3, 4, 5]
+    }
+  ]
+}
