@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verse Inspector</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink: #171B22;
+    --ink-raised: #1F2430;
+    --ink-deep: #101319;
+    --parchment: #EDE6D6;
+    --parchment-dim: #B9B0A0;
+    --gold: #C9A227;
+    --gold-dim: #8A7326;
+    --burgundy: #8C4646;
+    --verdigris: #5C7A6B;
+    --line: rgba(237,230,214,0.12);
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color: transparent;}
+  html,body{margin:0; padding:0; height:100%;}
+  body{
+    background: #0B0D11;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Sans', sans-serif;
+    min-height:100vh;
+    padding: 24px 12px;
+  }
+
+  .phone{
+    width: 390px;
+    max-width: 100%;
+    height: 780px;
+    max-height: 92vh;
+    background: var(--ink);
+    border-radius: 36px;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.55), 0 0 0 8px #05060a;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .screen-area{
+    flex:1;
+    min-height:0;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+  }
+  .screen{ display:none; flex-direction:column; flex:1; min-height:0; }
+  .screen.active{ display:flex; }
+
+  /* ---------- Read screen ---------- */
+  .reader{
+    flex:1;
+    overflow-y:auto;
+    padding: 26px 28px 40px;
+  }
+  .reader::-webkit-scrollbar{display:none;}
+
+  .book-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    margin: 0 0 4px;
+  }
+  .translation-tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    color:var(--parchment-dim);
+    opacity:0.7;
+    margin:0 0 18px;
+    letter-spacing:0.04em;
+  }
+  .chapter-title{
+    font-family:'Fraunces', serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--parchment);
+    margin: 0 0 24px;
+  }
+
+  .verse{
+    font-family:'Fraunces', serif;
+    font-size: 18px;
+    line-height: 1.72;
+    color: var(--parchment);
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 1px 3px;
+    margin-left: -3px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .verse:active{ background: rgba(201,162,39,0.16); }
+  .verse.active{
+    background: rgba(201,162,39,0.16);
+    color: #F5E9BE;
+  }
+  .verse-num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--gold-dim);
+    vertical-align: super;
+    margin-right: 3px;
+  }
+
+  .hint{
+    margin-top: 26px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 12.5px;
+    color: var(--parchment-dim);
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .hint svg{ flex-shrink:0; opacity:0.7; }
+  .empty-note{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--parchment-dim);
+    padding: 40px 0;
+  }
+
+  /* ---------- Generic placeholder screens ---------- */
+  .placeholder-screen{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding: 40px;
+    gap: 16px;
+  }
+  .placeholder-icon{
+    width:56px; height:56px;
+    border-radius: 50%;
+    background: rgba(201,162,39,0.1);
+    display:flex; align-items:center; justify-content:center;
+    color: var(--gold);
+  }
+  .placeholder-icon svg{ width:26px; height:26px; }
+  .placeholder-title{
+    font-family:'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--parchment);
+    margin: 0;
+  }
+  .placeholder-text{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--parchment-dim);
+    margin: 0;
+    max-width: 260px;
+  }
+  .placeholder-tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    background: rgba(201,162,39,0.08);
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+
+  /* ---------- Book navigator screen ---------- */
+  .nav-header{
+    display:flex;
+    align-items:center;
+    gap: 12px;
+    padding: 20px 22px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-back-btn{
+    background:none; border:none; cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+    width:30px; height:30px;
+    color: var(--parchment);
+  }
+  .nav-header-title{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:18px;
+    color: var(--parchment);
+  }
+  .nav-list{
+    flex:1;
+    overflow-y:auto;
+    padding: 8px 20px 30px;
+  }
+  .nav-list::-webkit-scrollbar{display:none;}
+  .nav-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 16px 6px;
+    border-bottom: 1px solid var(--line);
+    cursor:pointer;
+  }
+  .nav-item-name{
+    font-family:'Fraunces', serif;
+    font-size: 17px;
+    color: var(--parchment);
+  }
+  .nav-item-meta{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--parchment-dim);
+  }
+  .nav-chapter-grid{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 16px 20px 30px;
+  }
+  .nav-chapter-cell{
+    aspect-ratio: 1;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--ink-raised);
+    color: var(--parchment);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 14px;
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer;
+  }
+  .nav-chapter-cell.unavailable{
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  /* ---------- Bottom sheet (summary) ---------- */
+  .sheet-backdrop{
+    position:absolute; inset:0;
+    background: rgba(5,6,10,0.55);
+    opacity:0; pointer-events:none;
+    transition: opacity 0.25s ease;
+    z-index: 15;
+  }
+  .sheet-backdrop.open{ opacity:1; pointer-events:auto; }
+
+  .sheet{
+    position:absolute; left:0; right:0; bottom:0;
+    background: var(--ink-raised);
+    border-radius: 22px 22px 0 0;
+    padding: 10px 24px 20px;
+    transform: translateY(105%);
+    transition: transform 0.32s cubic-bezier(.2,.8,.25,1);
+    z-index: 16;
+    box-shadow: 0 -20px 50px rgba(0,0,0,0.4);
+    max-height: 76%;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+  .sheet::-webkit-scrollbar{ display:none; }
+  .sheet.open{ transform: translateY(0); }
+
+  .sheet-handle{
+    width:36px; height:4px; border-radius:2px;
+    background: var(--parchment-dim);
+    opacity:0.4;
+    margin: 4px auto 14px;
+  }
+
+  .sheet-ref{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing:0.06em;
+    color: var(--gold);
+    margin: 0 0 5px;
+  }
+  .sheet-verse-text{
+    font-family:'Fraunces', serif;
+    font-size: 15.5px;
+    line-height:1.48;
+    color: var(--parchment);
+    margin: 0 0 14px;
+  }
+
+  .summary-row{
+    display:flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-top: 1px solid var(--line);
+  }
+  .summary-row:first-of-type{ border-top:none; }
+  .summary-icon{
+    width:24px; height:24px;
+    flex-shrink:0;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .summary-icon svg{ width:16px; height:16px; }
+  .summary-text-label{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing:0.05em;
+    color: var(--parchment-dim);
+    margin: 0 0 2px;
+  }
+  .summary-text-value{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    line-height:1.38;
+    color: var(--parchment);
+    margin:0;
+  }
+  .summary-text-value .greek{
+    font-family:'IBM Plex Mono', monospace;
+    color: var(--gold);
+  }
+
+  .dive-btn{
+    width:100%;
+    margin-top: 16px;
+    padding: 13px;
+    border:none;
+    border-radius: 12px;
+    background: var(--gold);
+    color: #201A08;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    cursor:pointer;
+  }
+  .dive-btn:active{ background: var(--gold-dim); }
+
+  /* ---------- Deep Dive screen ---------- */
+  .dd-header{
+    padding: 14px 20px 0;
+    display:flex;
+    align-items:center;
+    gap: 12px;
+  }
+  .dd-book-title{
+    font-family:'Fraunces', serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--parchment);
+    flex-shrink: 0;
+  }
+  .dd-chapter-switcher{
+    display:flex;
+    gap: 6px;
+    overflow-x:auto;
+    padding-bottom: 4px;
+    flex: 1;
+    min-width: 0;
+  }
+  .dd-chapter-switcher::-webkit-scrollbar{display:none;}
+  .dd-chapter-pill{
+    width: 28px; height: 28px;
+    flex-shrink:0;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--parchment-dim);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    cursor: pointer;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .dd-chapter-pill.active{
+    background: var(--gold);
+    color: #201A08;
+    border-color: var(--gold);
+    font-weight: 600;
+  }
+
+  .folder-tabs{
+    display:flex;
+    gap: 3px;
+    padding: 12px 18px 0;
+    position: relative;
+    z-index: 2;
+  }
+  .folder-tab{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 4px;
+    padding: 9px 2px 11px;
+    border-radius: 10px 10px 0 0;
+    background: var(--ink-deep);
+    color: var(--parchment-dim);
+    border: 1px solid var(--line);
+    border-bottom: none;
+    cursor: pointer;
+    transform: translateY(5px);
+    transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+  }
+  .folder-tab svg{ width: 15px; height: 15px; }
+  .folder-tab span{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 8px;
+    letter-spacing: 0;
+    text-align:center;
+    line-height:1.1;
+    white-space: nowrap;
+  }
+  .folder-tab.active{
+    background: var(--ink-raised);
+    color: var(--gold);
+    transform: translateY(0);
+    z-index: 3;
+  }
+
+  .folder-content-wrap{
+    flex:1;
+    min-height:0;
+    margin: 0 18px 18px;
+    background: var(--ink-raised);
+    border: 1px solid var(--line);
+    border-radius: 0 10px 10px 10px;
+    position: relative;
+    z-index: 1;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.3);
+  }
+  .folder-content{
+    flex:1;
+    overflow-y:auto;
+    padding: 22px 22px 26px;
+  }
+  .folder-content::-webkit-scrollbar{display:none;}
+
+  .tab-panel{ display:none; animation: fadein 0.22s ease; }
+  .tab-panel.active{ display:block; }
+  @keyframes fadein{ from{opacity:0; transform:translateY(5px);} to{opacity:1; transform:translateY(0);} }
+
+  .panel-eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.06em;
+    color: var(--gold);
+    margin: 0 0 10px;
+  }
+  .panel-heading{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:22px;
+    color: var(--parchment);
+    margin: 0 0 14px;
+    line-height:1.25;
+  }
+  .panel-text{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:14px;
+    line-height:1.68;
+    color: var(--parchment);
+    margin: 0 0 14px;
+  }
+  .panel-text.dim{ color: var(--parchment-dim); font-size:13px; }
+
+  .word-card{
+    padding: 13px 0;
+    border-top: 1px solid var(--line);
+  }
+  .word-card:first-of-type{ border-top:none; }
+  .word-head{
+    display:flex; align-items:baseline; gap:10px; margin-bottom:5px;
+    flex-wrap: wrap;
+  }
+  .word-english{
+    font-family:'Fraunces', serif;
+    font-style: italic;
+    font-size:14.5px;
+    color: var(--parchment);
+  }
+  .word-greek{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:15px;
+    color: var(--gold);
+  }
+  .word-verseref{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10.5px;
+    color: var(--parchment-dim);
+    background: rgba(237,230,214,0.08);
+    padding: 2px 7px;
+    border-radius: 10px;
+  }
+  .word-meaning{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:13px;
+    line-height:1.55;
+    color: var(--parchment);
+    margin:0;
+  }
+
+  .xref-card{
+    display:flex; justify-content:space-between; align-items:center; gap:14px;
+    padding: 12px 0;
+    border-top: 1px solid var(--line);
+  }
+  .xref-card:first-of-type{ border-top:none; }
+  .xref-ref{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    color: var(--burgundy);
+    background: rgba(140,70,70,0.15);
+    padding: 4px 9px;
+    border-radius: 8px;
+    flex-shrink:0;
+    white-space:nowrap;
+  }
+  .xref-note{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:12.5px;
+    line-height:1.45;
+    color: var(--parchment-dim);
+    text-align:right;
+  }
+
+  .map-frame{
+    width:100%; height:120px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(92,122,107,0.28), rgba(92,122,107,0.06));
+    border: 1px solid rgba(92,122,107,0.35);
+    display:flex; align-items:center; justify-content:center;
+    margin-bottom: 16px;
+    position:relative;
+    overflow:hidden;
+  }
+  .map-pin{
+    display:flex; flex-direction:column; align-items:center; gap:6px;
+    text-align:center;
+    padding: 0 20px;
+  }
+  .map-pin-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color: var(--verdigris);
+  }
+
+  /* ---------- Bottom nav bar ---------- */
+  .bottom-nav{
+    display:flex;
+    align-items:flex-end;
+    border-top: 1px solid var(--line);
+    background: var(--ink);
+    padding: 8px 6px calc(10px + env(safe-area-inset-bottom, 0px));
+    position: relative;
+    z-index: 8;
+    flex-shrink: 0;
+  }
+  .nav-btn{
+    flex:1;
+    display:flex; flex-direction:column; align-items:center; gap:4px;
+    background:none; border:none; cursor:pointer;
+    padding: 6px 2px;
+    color: var(--parchment-dim);
+  }
+  .nav-btn svg{ width:20px; height:20px; }
+  .nav-btn span{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:9px;
+    letter-spacing:0.02em;
+  }
+  .nav-btn.active{ color: var(--gold); }
+
+  .nav-btn-center{
+    flex:1;
+    display:flex; flex-direction:column; align-items:center; gap:3px;
+    margin-top: -22px;
+  }
+  .nav-center-circle{
+    width:52px; height:52px;
+    border-radius:50%;
+    background: linear-gradient(160deg, var(--gold), var(--gold-dim));
+    border: 4px solid var(--ink);
+    display:flex; align-items:center; justify-content:center;
+    box-shadow: 0 6px 16px rgba(201,162,39,0.35);
+  }
+  .nav-center-circle svg{ width:24px; height:24px; color:#201A08; }
+  .nav-btn-center span{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:9px;
+    color: var(--gold);
+    letter-spacing:0.02em;
+  }
+</style>
+</head>
+<body>
+
+<div class="phone">
+  <div class="screen-area">
+
+    <!-- READ SCREEN -->
+    <div class="screen active" id="screen-read">
+      <div class="reader" id="reader">
+        <p class="book-label" id="bookLabel">Loading…</p>
+        <p class="translation-tag">BEREAN STANDARD BIBLE · PUBLIC DOMAIN</p>
+        <h1 class="chapter-title" id="chapterTitle"></h1>
+        <div id="verseList"></div>
+        <div class="hint">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 6l6 6-6 6"/></svg>
+          Tap a verse for context
+        </div>
+      </div>
+    </div>
+
+    <!-- BOOK NAVIGATOR SCREEN -->
+    <div class="screen" id="screen-booknav">
+      <div class="nav-header">
+        <button class="nav-back-btn" id="navBackBtn" style="visibility:hidden;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="nav-header-title" id="navHeaderTitle">Books</div>
+      </div>
+      <div class="nav-list" id="navBookList"></div>
+      <div class="nav-chapter-grid" id="navChapterGrid" style="display:none;"></div>
+    </div>
+
+    <!-- DEEP DIVE SCREEN -->
+    <div class="screen" id="screen-deepdive">
+      <div class="dd-header">
+        <span class="dd-book-title" id="ddBookTitle">Matthew</span>
+        <div class="dd-chapter-switcher" id="ddChapterSwitcher"></div>
+      </div>
+
+      <div class="folder-tabs" id="folderTabs">
+        <button class="folder-tab active" data-tab="context">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+          <span>Author</span>
+        </button>
+        <button class="folder-tab" data-tab="setting">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 20l-5.5-2V4L9 6m0 14l6-2m-6 2V6m6 12l5.5 2V6L15 4m0 14V4m0 2L9 4"/></svg>
+          <span>Setting</span>
+        </button>
+        <button class="folder-tab" data-tab="timeline">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <span>Timeline</span>
+        </button>
+        <button class="folder-tab" data-tab="translation">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M15 3v5h5"/></svg>
+          <span>Translation</span>
+        </button>
+        <button class="folder-tab" data-tab="xref">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 17H7a5 5 0 0 1 0-10h2"/><path d="M15 7h2a5 5 0 0 1 0 10h-2"/><path d="M8 12h8"/></svg>
+          <span>Refs</span>
+        </button>
+      </div>
+
+      <div class="folder-content-wrap">
+        <div class="folder-content" id="folderContent">
+
+          <div class="tab-panel active" data-panel="context">
+            <p class="panel-eyebrow">AUTHOR &amp; CONTEXT</p>
+            <h2 class="panel-heading" id="ctxHeading"></h2>
+            <p class="panel-text" id="ctxAuthorText"></p>
+            <div class="word-card">
+              <div class="word-head"><span class="word-verseref" style="color:var(--parchment-dim); background:none; padding:0;">GENRE</span></div>
+              <p class="word-meaning" id="ctxGenre"></p>
+            </div>
+            <div class="word-card">
+              <div class="word-head"><span class="word-verseref" style="color:var(--parchment-dim); background:none; padding:0;">AUDIENCE</span></div>
+              <p class="word-meaning" id="ctxAudience"></p>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="setting">
+            <p class="panel-eyebrow">SETTING</p>
+            <h2 class="panel-heading" id="settingHeading"></h2>
+            <div class="map-frame">
+              <div class="map-pin">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5C7A6B" stroke-width="1.6"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                <span class="map-pin-label" id="settingMapLabel"></span>
+              </div>
+            </div>
+            <p class="panel-text" id="settingText"></p>
+            <div class="word-card">
+              <div class="word-head"><span class="word-verseref" style="color:var(--parchment-dim); background:none; padding:0;">CUSTOM</span></div>
+              <p class="word-meaning" id="settingCustom"></p>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="timeline">
+            <p class="panel-eyebrow">STRUCTURE &amp; TIMELINE</p>
+            <h2 class="panel-heading">In the story of Jesus</h2>
+            <p class="panel-text" id="timelineImmediate"></p>
+            <div class="word-card" style="border-top: 1px solid var(--line); margin-top:4px; padding-top:18px;">
+              <p class="panel-eyebrow" style="margin-bottom:8px;">BIBLE-WIDE TIMELINE</p>
+              <p class="panel-text dim" style="margin-bottom:14px;" id="timelineBible"></p>
+              <div class="map-frame" style="height:56px; opacity:0.55;">
+                <div class="map-pin">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5C7A6B" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+                  <span class="map-pin-label">Full interactive timeline — coming soon</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="translation">
+            <p class="panel-eyebrow">TRANSLATION · KEYWORDS IN THIS CHAPTER</p>
+            <h2 class="panel-heading" id="translationHeading"></h2>
+            <div id="translationList"></div>
+          </div>
+
+          <div class="tab-panel" data-panel="xref">
+            <p class="panel-eyebrow">CROSS-REFERENCES</p>
+            <h2 class="panel-heading">Sister scriptures</h2>
+            <p class="panel-eyebrow" style="margin-top:4px;">GOSPEL PARALLELS</p>
+            <div id="gospelParallelsList"></div>
+            <p class="panel-eyebrow" style="margin-top:22px;">OLD TESTAMENT BACKGROUND</p>
+            <div id="otBackgroundList"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- GAMES SCREEN (placeholder) -->
+    <div class="screen" id="screen-games">
+      <div class="placeholder-screen">
+        <div class="placeholder-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><circle cx="17.5" cy="13" r="0.8" fill="currentColor"/></svg>
+        </div>
+        <p class="placeholder-tag">Coming soon</p>
+        <h2 class="placeholder-title">Games</h2>
+        <p class="placeholder-text">Trivia, verse challenges, and more — built once there's enough chapter content to draw from.</p>
+      </div>
+    </div>
+
+    <!-- TIMELINE SCREEN (placeholder) -->
+    <div class="screen" id="screen-timeline">
+      <div class="placeholder-screen">
+        <div class="placeholder-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        </div>
+        <p class="placeholder-tag">Coming soon</p>
+        <h2 class="placeholder-title">Timeline</h2>
+        <p class="placeholder-text">The full interactive Bible timeline — every era, prophecy, and life of Jesus, zoomable from a single verse out to all of Scripture.</p>
+      </div>
+    </div>
+
+    <!-- SETTINGS SCREEN (placeholder) -->
+    <div class="screen" id="screen-settings">
+      <div class="placeholder-screen">
+        <div class="placeholder-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </div>
+        <p class="placeholder-tag">Coming soon</p>
+        <h2 class="placeholder-title">Settings</h2>
+        <p class="placeholder-text">Account, translation preferences, and reading options will live here.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SUMMARY BOTTOM SHEET -->
+  <div class="sheet-backdrop" id="backdrop"></div>
+  <div class="sheet" id="sheet">
+    <div class="sheet-handle"></div>
+    <p class="sheet-ref" id="sheetRef"></p>
+    <p class="sheet-verse-text" id="sheetVerseText"></p>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">AUTHOR</p>
+        <p class="summary-text-value" id="sheetAuthor"></p>
+      </div>
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M15 3v5h5"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">TRANSLATION</p>
+        <p class="summary-text-value" id="sheetTranslation"></p>
+      </div>
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><path d="M9 20l-5.5-2V4L9 6m0 14l6-2m-6 2V6m6 12l5.5 2V6L15 4m0 14V4m0 2L9 4"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">MAP &amp; SETTING</p>
+        <p class="summary-text-value" id="sheetSetting"></p>
+      </div>
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">TIMELINE</p>
+        <p class="summary-text-value" id="sheetTimeline"></p>
+      </div>
+    </div>
+
+    <button class="dive-btn" id="diveBtn">Chapter Deep Dive</button>
+  </div>
+
+  <!-- BOTTOM NAV BAR -->
+  <nav class="bottom-nav">
+    <button class="nav-btn" id="navBtnBook" data-screen="booknav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+      <span>Read</span>
+    </button>
+    <button class="nav-btn" id="navBtnGames" data-screen="games">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><circle cx="17.5" cy="13" r="0.8" fill="currentColor"/></svg>
+      <span>Games</span>
+    </button>
+    <div class="nav-btn-center">
+      <button class="nav-center-circle" id="navBtnDeepDive" data-screen="deepdive">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      </button>
+      <span>Deep Dive</span>
+    </div>
+    <button class="nav-btn" id="navBtnTimeline" data-screen="timeline">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+      <span>Timeline</span>
+    </button>
+    <button class="nav-btn" id="navBtnSettings" data-screen="settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      <span>Settings</span>
+    </button>
+  </nav>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
