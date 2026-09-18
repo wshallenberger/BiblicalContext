@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verse Inspector</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<style>
+  :root{
+    --ink: #171B22;
+    --ink-raised: #1F2430;
+    --ink-deep: #101319;
+    --parchment: #EDE6D6;
+    --parchment-dim: #B9B0A0;
+    --gold: #C9A227;
+    --gold-dim: #8A7326;
+    --burgundy: #8C4646;
+    --verdigris: #5C7A6B;
+    --line: rgba(237,230,214,0.12);
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color: transparent;}
+  html,body{margin:0; padding:0; height:100%;}
+  body{
+    background: #0B0D11;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Sans', sans-serif;
+    min-height:100vh;
+    min-height:100dvh;
+    padding: 24px 12px;
+  }
+
+  .phone{
+    width: 390px;
+    max-width: 100%;
+    height: 780px;
+    max-height: 92vh;
+    max-height: 92dvh;
+    background: var(--ink);
+    border-radius: 36px;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.55), 0 0 0 8px #05060a;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+  }
+
+  /* On an actual phone screen, drop the floating-mockup chrome and
+     go edge-to-edge so the bottom nav behaves like a real app bar. */
+  @media (max-width: 480px){
+    body{ padding:0; }
+    .phone{
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+      max-height: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  }
+
+  .screen-area{
+    flex:1;
+    min-height:0;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+  }
+  .screen{ display:none; flex-direction:column; flex:1; min-height:0; }
+  .screen.active{ display:flex; }
+
+  /* ---------- Read screen ---------- */
+  .reader{
+    flex:1;
+    overflow-y:auto;
+    padding: 26px 28px 40px;
+  }
+  .reader::-webkit-scrollbar{display:none;}
+
+  .book-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    margin: 0 0 4px;
+  }
+  .translation-tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    color:var(--parchment-dim);
+    opacity:0.7;
+    margin:0 0 18px;
+    letter-spacing:0.04em;
+  }
+  .chapter-title{
+    font-family:'Fraunces', serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: var(--parchment);
+    margin: 0 0 24px;
+  }
+
+  .verse{
+    font-family:'Fraunces', serif;
+    font-size: 18px;
+    line-height: 1.72;
+    color: var(--parchment);
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 1px 3px;
+    margin-left: -3px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .verse:active{ background: rgba(201,162,39,0.16); }
+  .verse.active{
+    background: rgba(201,162,39,0.16);
+    color: #F5E9BE;
+  }
+  .verse-num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--gold-dim);
+    vertical-align: super;
+    margin-right: 3px;
+  }
+
+  .hint{
+    margin-top: 26px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 12.5px;
+    color: var(--parchment-dim);
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .hint svg{ flex-shrink:0; opacity:0.7; }
+  .empty-note{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--parchment-dim);
+    padding: 40px 0;
+  }
+
+  /* ---------- Generic placeholder screens ---------- */
+  .placeholder-screen{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding: 40px;
+    gap: 16px;
+  }
+  .placeholder-icon{
+    width:56px; height:56px;
+    border-radius: 50%;
+    background: rgba(201,162,39,0.1);
+    display:flex; align-items:center; justify-content:center;
+    color: var(--gold);
+  }
+  .placeholder-icon svg{ width:26px; height:26px; }
+  .placeholder-title{
+    font-family:'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--parchment);
+    margin: 0;
+  }
+  .placeholder-text{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--parchment-dim);
+    margin: 0;
+    max-width: 260px;
+  }
+  .placeholder-tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    background: rgba(201,162,39,0.08);
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+
+  /* ---------- Book navigator screen ---------- */
+  .nav-header{
+    display:flex;
+    align-items:center;
+    gap: 12px;
+    padding: 20px 22px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-back-btn{
+    background:none; border:none; cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+    width:30px; height:30px;
+    color: var(--parchment);
+  }
+  .nav-header-title{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:18px;
+    color: var(--parchment);
+  }
+  .nav-list{
+    flex:1;
+    overflow-y:auto;
+    padding: 8px 20px 30px;
+  }
+  .nav-list::-webkit-scrollbar{display:none;}
+  .nav-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 16px 6px;
+    border-bottom: 1px solid var(--line);
+    cursor:pointer;
+  }
+  .nav-item-name{
+    font-family:'Fraunces', serif;
+    font-size: 17px;
+    color: var(--parchment);
+  }
+  .nav-item-meta{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--parchment-dim);
+  }
+  .nav-chapter-grid{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 16px 20px 30px;
+  }
+  .nav-chapter-cell{
+    aspect-ratio: 1;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--ink-raised);
+    color: var(--parchment);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 14px;
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer;
+  }
+  .nav-chapter-cell.unavailable{
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  /* ---------- Bottom sheet (summary) ---------- */
+  .sheet-backdrop{
+    position:absolute; inset:0;
+    background: rgba(5,6,10,0.55);
+    opacity:0; pointer-events:none;
+    transition: opacity 0.25s ease;
+    z-index: 15;
+  }
+  .sheet-backdrop.open{ opacity:1; pointer-events:auto; }
+
+  .sheet{
+    position:absolute; left:0; right:0; bottom:0;
+    background: var(--ink-raised);
+    border-radius: 22px 22px 0 0;
+    padding: 10px 24px 20px;
+    transform: translateY(105%);
+    transition: transform 0.32s cubic-bezier(.2,.8,.25,1);
+    z-index: 16;
+    box-shadow: 0 -20px 50px rgba(0,0,0,0.4);
+    max-height: 76%;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+  .sheet::-webkit-scrollbar{ display:none; }
+  .sheet.open{ transform: translateY(0); }
+
+  .sheet-handle{
+    width:36px; height:4px; border-radius:2px;
+    background: var(--parchment-dim);
+    opacity:0.4;
+    margin: 4px auto 14px;
+  }
+
+  .sheet-ref{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing:0.06em;
+    color: var(--gold);
+    margin: 0 0 5px;
+  }
+  .sheet-verse-text{
+    font-family:'Fraunces', serif;
+    font-size: 15.5px;
+    line-height:1.48;
+    color: var(--parchment);
+    margin: 0 0 14px;
+  }
+
+  .summary-row{
+    display:flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-top: 1px solid var(--line);
+  }
+  .summary-row:first-of-type{ border-top:none; }
+  .summary-icon{
+    width:24px; height:24px;
+    flex-shrink:0;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .summary-icon svg{ width:16px; height:16px; }
+  .summary-text-label{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing:0.05em;
+    color: var(--parchment-dim);
+    margin: 0 0 2px;
+  }
+  .summary-text-value{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    line-height:1.38;
+    color: var(--parchment);
+    margin:0;
+  }
+  .summary-text-value .greek{
+    font-family:'IBM Plex Mono', monospace;
+    color: var(--gold);
+  }
+
+  .dive-btn{
+    width:100%;
+    margin-top: 16px;
+    padding: 13px;
+    border:none;
+    border-radius: 12px;
+    background: var(--gold);
+    color: #201A08;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    cursor:pointer;
+  }
+  .dive-btn:active{ background: var(--gold-dim); }
+
+  /* ---------- Deep Dive screen ---------- */
+  .quick-nav{
+    display:flex;
+    gap: 8px;
+    padding: 14px 20px 12px;
+    border-bottom: 1px solid var(--line);
+    flex-shrink: 0;
+  }
+  .quick-nav-select{
+    flex:1;
+    min-width: 0;
+    background: var(--ink-raised);
+    color: var(--parchment);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 12.5px;
+    padding: 9px 26px 9px 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23B9B0A0' stroke-width='2'><path d='M6 9l6 6 6-6'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 14px;
+  }
+
+  .dd-header.quick-nav{
+    padding: 8px 12px 8px;
+  }
+  .folder-tabs{
+    display:flex;
+    gap: 3px;
+    padding: 6px 10px 0;
+    flex-shrink: 0;
+  }
+  .folder-tab{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 3px;
+    padding: 7px 2px 8px;
+    border-radius: 8px 8px 0 0;
+    background: var(--ink-deep);
+    color: var(--parchment-dim);
+    border: 1px solid var(--line);
+    cursor: pointer;
+    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+  }
+  .folder-tab svg{ width: 15px; height: 15px; }
+  .folder-tab span{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align:center;
+    line-height:1.15;
+    white-space: nowrap;
+  }
+  .folder-tab.active{
+    background: var(--ink-raised);
+    color: var(--gold);
+    border-bottom-color: var(--ink-raised);
+  }
+
+  .folder-content-wrap{
+    flex:1;
+    min-height:0;
+    margin: 0 6px 6px;
+    background: var(--ink-raised);
+    border: 1px solid var(--line);
+    border-radius: 0 8px 8px 8px;
+    display:flex;
+    flex-direction:column;
+  }
+  .folder-content{
+    flex:1;
+    overflow-y:auto;
+    padding: 14px 12px 16px;
+  }
+  .folder-content::-webkit-scrollbar{display:none;}
+
+  .tab-panel{ display:none; animation: fadein 0.22s ease; }
+  .tab-panel.active{ display:block; }
+  @keyframes fadein{ from{opacity:0; transform:translateY(5px);} to{opacity:1; transform:translateY(0);} }
+
+  .panel-eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.06em;
+    color: var(--gold);
+    margin: 0 0 10px;
+  }
+  .ctx-chapter-title{
+    font-family:'Fraunces', serif;
+    font-weight: 500;
+    font-size: 16.5px;
+    color: var(--parchment);
+    margin: 0 0 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--line);
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ctx-timeline-link{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+    padding: 9px 14px;
+    background: rgba(201,162,39,0.08);
+    border: 1px solid rgba(201,162,39,0.3);
+    border-radius: 9px;
+    color: var(--gold);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    cursor: pointer;
+  }
+  .commentary-card{
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+  }
+  .commentary-card:first-of-type{ border-top:none; }
+  .commentary-source{
+    font-family:'Fraunces', serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--gold);
+    margin: 0 0 3px;
+  }
+  .commentary-year{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--parchment-dim);
+    margin: 0 0 8px;
+  }
+  .commentary-note{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13.5px;
+    line-height: 1.62;
+    color: var(--parchment);
+    margin: 0 0 9px;
+  }
+  .commentary-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--verdigris);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-decoration: none;
+  }
+  .harmony-link{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 6px 11px;
+    background: rgba(92,122,107,0.1);
+    border: 1px solid rgba(92,122,107,0.35);
+    border-radius: 8px;
+    color: var(--verdigris);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .harmony-header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px 14px;
+    border-bottom: 1px solid var(--line);
+    flex-shrink: 0;
+  }
+  .harmony-back{
+    background: none;
+    border: none;
+    color: var(--parchment);
+    cursor: pointer;
+    padding: 4px;
+    flex-shrink: 0;
+  }
+  .harmony-pane{
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 16px 20px;
+  }
+  .harmony-block-title{
+    font-family:'Fraunces', serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: var(--gold);
+    margin: 0 0 4px;
+  }
+  .harmony-block-subtitle{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 12.5px;
+    color: var(--parchment-dim);
+    margin: 0 0 14px;
+    font-style: italic;
+  }
+  .harmony-verse{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--parchment);
+    margin: 0 0 10px;
+  }
+  .harmony-vnum{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--gold);
+    margin-right: 7px;
+    vertical-align: super;
+  }
+  .harmony-split-divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    color: var(--gold-dim);
+    padding: 7px 0;
+    background: var(--ink-deep);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.03em;
+  }
+  .ctx-author-label-spaced{
+    margin-top: 12px;
+  }
+  .spark-notes{
+    background: rgba(92,122,107,0.08);
+    border: 1px solid rgba(92,122,107,0.3);
+    border-radius: 10px;
+    padding: 13px 14px;
+    margin-bottom: 4px;
+  }
+  .accordion{
+    margin-top: 4px;
+  }
+  .accordion-item{
+    border-bottom: 1px solid var(--line);
+  }
+  .accordion-item:first-child{
+    border-top: 1px solid var(--line);
+  }
+  .accordion-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 2px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  .accordion-label{
+    flex: 1;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    color: var(--parchment);
+  }
+  .accordion-chevron{
+    transition: transform 0.2s;
+    flex-shrink: 0;
+  }
+  .accordion-chevron.open{
+    transform: rotate(180deg);
+  }
+  .accordion-body{
+    display: none;
+    padding: 0 2px 16px 26px;
+  }
+  .accordion-body.open{
+    display: block;
+  }
+  .accordion-place{
+    font-family:'Fraunces', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--parchment);
+    margin: 0 0 8px;
+  }
+  .ctx-subhead{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--gold);
+    margin: 0 0 8px;
+  }
+  .ctx-subhead-spaced{
+    margin-top: 22px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+  }
+  .ctx-subtext{
+    margin-top: 8px;
+    font-size: 12.5px;
+  }
+  .ctx-author-block{
+    margin-top: 26px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+  }
+  .ctx-author-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: var(--parchment-dim);
+    margin: 0 0 6px;
+  }
+  .ctx-author-text{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--parchment-dim);
+    margin: 0 0 4px;
+  }
+  .panel-heading{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:22px;
+    color: var(--parchment);
+    margin: 0 0 14px;
+    line-height:1.25;
+  }
+  .panel-text{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:13.5px;
+    line-height:1.62;
+    color: var(--parchment);
+    margin: 0 0 14px;
+  }
+  .panel-text.dim{ color: var(--parchment-dim); font-size:13px; }
+
+  .word-card{
+    padding: 16px 0;
+    border-top: 1px solid var(--line);
+  }
+  .word-card:first-of-type{ border-top:none; }
+  .word-title-row{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:10px;
+  }
+  .word-english{
+    font-family:'Fraunces', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--parchment);
+  }
+  .word-verseref{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 11px;
+    color: var(--parchment-dim);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .word-greek{
+    display: block;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: var(--gold);
+    margin-top: 3px;
+  }
+  .word-meaning{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:13.5px;
+    line-height:1.62;
+    color: var(--parchment);
+    margin: 10px 0 0;
+  }
+  .word-usage-toggle{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-top: 12px;
+    padding: 8px 0 0;
+    background:none;
+    border:none;
+    border-top: 1px dashed var(--line);
+    cursor:pointer;
+    color: var(--verdigris);
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    text-align:left;
+  }
+  .word-usage-toggle svg{ transition: transform 0.2s ease; flex-shrink:0; }
+  .word-usage-toggle.open svg{ transform: rotate(90deg); }
+  .word-usage-panel{
+    display:none;
+    margin-top: 10px;
+    padding: 4px 14px;
+    background: rgba(237,230,214,0.04);
+    border-radius: 10px;
+  }
+  .word-usage-panel.open{ display:block; }
+  .word-usage-item{
+    padding: 10px 0;
+    border-top: 1px solid var(--line);
+  }
+  .word-usage-item:first-child{ border-top:none; }
+  .word-usage-ref{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--gold);
+    margin: 0 0 3px;
+  }
+  .word-usage-text{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--parchment-dim);
+    font-style: italic;
+    margin: 0;
+  }
+  .word-usage-note{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 11.5px;
+    color: var(--parchment-dim);
+    font-style: italic;
+    margin: 10px 0 6px;
+  }
+
+  .xref-card{
+    padding: 13px 0;
+    border-top: 1px solid var(--line);
+  }
+  .xref-card:first-of-type{ border-top:none; }
+  .xref-ref{
+    display:inline-block;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    font-weight:600;
+    color: var(--burgundy);
+    background: rgba(140,70,70,0.15);
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-bottom: 7px;
+  }
+  .xref-note{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:13.5px;
+    line-height:1.62;
+    color: var(--parchment);
+    margin: 0;
+  }
+
+  .timeline-header{
+    padding: 20px 20px 4px;
+    flex-shrink: 0;
+  }
+  .timeline-heading{
+    font-family:'Fraunces', serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--parchment);
+    margin: 4px 0 6px;
+  }
+  .timeline-subtext{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    color: var(--parchment-dim);
+    margin: 0 0 12px;
+  }
+  .timeline-list{
+    flex: 1;
+    overflow-y: auto;
+    padding: 4px 20px 24px;
+    position: relative;
+    --tl-event-size: 14px;
+    --tl-ref-size: 11.5px;
+    --tl-dot-size: 17px;
+    --tl-gap: 14px;
+    --tl-pad: 12px;
+  }
+  .timeline-list.size-sm{
+    --tl-event-size: 12px;
+    --tl-ref-size: 10px;
+    --tl-dot-size: 13px;
+    --tl-gap: 10px;
+    --tl-pad: 8px;
+  }
+  .timeline-list.size-lg{
+    --tl-event-size: 16.5px;
+    --tl-ref-size: 13px;
+    --tl-dot-size: 21px;
+    --tl-gap: 18px;
+    --tl-pad: 16px;
+  }
+  .timeline-list::before{
+    content: '';
+    position: absolute;
+    left: calc(20px + (var(--tl-dot-size) / 2) - 0.5px);
+    top: 8px;
+    bottom: 24px;
+    width: 1px;
+    background: var(--line);
+  }
+  .timeline-item{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--tl-gap);
+    padding: var(--tl-pad) 0;
+    text-align: left;
+    background: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+  .timeline-dot{
+    flex-shrink: 0;
+    width: var(--tl-dot-size); height: var(--tl-dot-size);
+    border-radius: 50%;
+    background: var(--ink-raised);
+    border: 2px solid var(--gold);
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+  }
+  .timeline-item-body{
+    flex: 1;
+    min-width: 0;
+  }
+  .timeline-event{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: var(--tl-event-size);
+    font-weight: 500;
+    color: var(--parchment);
+    line-height: 1.4;
+    margin: 0 0 4px;
+  }
+  .timeline-ref{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: var(--tl-ref-size);
+    color: var(--verdigris);
+  }
+  .timeline-size-controls{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  .timeline-size-btn{
+    width: 26px; height: 26px;
+    border-radius: 7px;
+    background: var(--ink-raised);
+    border: 1px solid var(--line);
+    color: var(--parchment-dim);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .timeline-size-btn.active{
+    color: var(--gold);
+    border-color: rgba(201,162,39,0.4);
+    background: rgba(201,162,39,0.08);
+  }
+  .map-frame{
+    width:100%; height:150px;
+    border-radius: 14px;
+    background: rgba(92,122,107,0.06);
+    border: 1px solid rgba(92,122,107,0.35);
+    margin-bottom: 10px;
+    position:relative;
+    overflow:hidden;
+  }
+  #regionMap{
+    width:100%; height:100%;
+    display:block;
+    background: #EAE0C8;
+  }
+  #liveMap{
+    width:100%; height:100%;
+    border-radius: inherit;
+  }
+  .rmap-region{ stroke: #4A3B28; stroke-width: 0.6; stroke-dasharray: 2,1.4; }
+  .rmap-water{ fill: #9FB8C4; stroke: none; }
+  .rmap-river{ fill:none; stroke: #7A9CAA; stroke-width:1.3; }
+  .rmap-region-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    fill: rgba(58,46,31,0.55);
+    text-anchor: middle;
+  }
+  .rmap-city-dot{ fill: #3A2E1F; }
+  .rmap-city-label{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 5px;
+    fill: #3A2E1F;
+  }
+  .rmap-marker-ring{
+    fill: none;
+    stroke: #C9A227;
+    stroke-width: 1.4;
+    opacity: 0.55;
+  }
+  .rmap-marker-dot{ fill: #C9A227; stroke: #3A2E1F; stroke-width: 0.8; }
+  .rmap-marker-label-bg{ fill: rgba(58,46,31,0.92); }
+  .rmap-marker-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 6px;
+    font-weight: 600;
+    fill: #EAE0C8;
+  }
+
+  /* ---------- Setting tab: image carousel ---------- */
+  .image-carousel{
+    position: relative;
+    width: 100%;
+    height: min(58vh, 500px);
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--ink-deep);
+    border: 1px solid var(--line);
+    margin-bottom: 8px;
+  }
+  .carousel-slide{
+    display:none;
+    width:100%; height:100%;
+  }
+  .carousel-slide.active{ display:block; }
+  .carousel-slide img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    background: var(--ink-deep);
+    display: block;
+  }
+  .carousel-slide .map-frame{
+    height:100%; margin-bottom:0; border-radius:0; border:none;
+  }
+  .carousel-placeholder{
+    width:100%; height:100%;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap: 8px;
+    color: var(--parchment-dim);
+    background: linear-gradient(135deg, rgba(92,122,107,0.14), rgba(92,122,107,0.03));
+    text-align:center;
+    padding: 0 24px;
+  }
+  .carousel-placeholder span{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 11px;
+  }
+  .carousel-arrow{
+    position:absolute;
+    top:50%; transform:translateY(-50%);
+    width:28px; height:28px;
+    border-radius:50%;
+    border:1px solid rgba(237,230,214,0.25);
+    background: rgba(11,13,17,0.55);
+    color: var(--parchment);
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer;
+    z-index: 5;
+  }
+  .carousel-arrow-left{ left:8px; }
+  .carousel-arrow-right{ right:8px; }
+  .carousel-dots{
+    position:absolute;
+    bottom:8px; left:50%; transform:translateX(-50%);
+    display:flex; gap:5px;
+    z-index:5;
+  }
+  .carousel-dot{
+    width:5px; height:5px; border-radius:50%;
+    background: rgba(237,230,214,0.35);
+  }
+  .carousel-dot.active{ background: var(--gold); }
+  .carousel-caption{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color: var(--verdigris);
+    margin: 0 0 16px;
+  }
+  .panel-heading-small{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .map-pin{
+    display:flex; flex-direction:column; align-items:center; gap:6px;
+    text-align:center;
+    padding: 0 20px;
+    height:100%;
+    justify-content:center;
+  }
+  .map-pin-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color: var(--verdigris);
+  }
+
+  /* ---------- Bottom nav bar ---------- */
+  .bottom-nav{
+    display:flex;
+    align-items:flex-end;
+    border-top: 1px solid var(--line);
+    background: var(--ink);
+    padding: 8px 6px calc(10px + env(safe-area-inset-bottom, 0px));
+    position: relative;
+    z-index: 8;
+    flex-shrink: 0;
+  }
+  .nav-btn{
+    flex:1;
+    display:flex; flex-direction:column; align-items:center; gap:4px;
+    background:none; border:none; cursor:pointer;
+    padding: 6px 2px;
+    color: var(--parchment-dim);
+  }
+  .nav-btn svg{ width:20px; height:20px; }
+  .nav-btn span{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:9px;
+    letter-spacing:0.02em;
+  }
+  .nav-btn.active{ color: var(--gold); }
+
+  .nav-btn-center{
+    flex:1;
+    display:flex; flex-direction:column; align-items:center; gap:3px;
+    margin-top: -22px;
+  }
+  .nav-center-circle{
+    width:52px; height:52px;
+    border-radius:50%;
+    background: linear-gradient(160deg, var(--gold), var(--gold-dim));
+    border: 4px solid var(--ink);
+    display:flex; align-items:center; justify-content:center;
+    box-shadow: 0 6px 16px rgba(201,162,39,0.35);
+  }
+  .nav-center-circle svg{ width:24px; height:24px; color:#201A08; }
+  .nav-btn-center span{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:9px;
+    color: var(--gold);
+    letter-spacing:0.02em;
+  }
+</style>
+</head>
+<body>
+
+<div class="phone">
+  <div class="screen-area">
+
+    <!-- READ SCREEN -->
+    <div class="screen active" id="screen-read">
+      <div class="quick-nav">
+        <select class="quick-nav-select" id="readBookSelect"></select>
+        <select class="quick-nav-select" id="readChapterSelect"></select>
+      </div>
+      <div class="reader" id="reader">
+        <p class="book-label" id="bookLabel">Loading…</p>
+        <p class="translation-tag">BEREAN STANDARD BIBLE · PUBLIC DOMAIN</p>
+        <h1 class="chapter-title" id="chapterTitle"></h1>
+        <div id="verseList"></div>
+        <div class="hint">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 6l6 6-6 6"/></svg>
+          Tap a verse for context
+        </div>
+      </div>
+    </div>
+
+    <!-- BOOK NAVIGATOR SCREEN -->
+    <div class="screen" id="screen-booknav">
+      <div class="nav-header">
+        <button class="nav-back-btn" id="navBackBtn" style="visibility:hidden;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="nav-header-title" id="navHeaderTitle">Books</div>
+      </div>
+      <div class="nav-list" id="navBookList"></div>
+      <div class="nav-chapter-grid" id="navChapterGrid" style="display:none;"></div>
+    </div>
+
+    <!-- DEEP DIVE SCREEN -->
+    <div class="screen" id="screen-deepdive">
+      <div class="dd-header quick-nav">
+        <select class="quick-nav-select" id="ddBookSelect"></select>
+        <select class="quick-nav-select" id="ddChapterSelect"></select>
+      </div>
+
+      <div class="folder-tabs" id="folderTabs">
+        <button class="folder-tab active" data-tab="context">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 20l-5.5-2V4L9 6m0 14l6-2m-6 2V6m6 12l5.5 2V6L15 4m0 14V4m0 2L9 4"/></svg>
+          <span>Context</span>
+        </button>
+        <button class="folder-tab" data-tab="translation">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M15 3v5h5"/></svg>
+          <span>Translation</span>
+        </button>
+        <button class="folder-tab" data-tab="xref">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 17H7a5 5 0 0 1 0-10h2"/><path d="M15 7h2a5 5 0 0 1 0 10h-2"/><path d="M8 12h8"/></svg>
+          <span>References</span>
+        </button>
+        <button class="folder-tab" data-tab="commentary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span>Commentary</span>
+        </button>
+        <button class="folder-tab" data-tab="gallery">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="14" rx="1.5"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 20"/></svg>
+          <span>Map &amp; Gallery</span>
+        </button>
+      </div>
+
+      <div class="folder-content-wrap">
+        <div class="folder-content" id="folderContent">
+
+          <div class="tab-panel active" data-panel="context">
+            <h2 class="ctx-chapter-title" id="ctxChapterTitle"></h2>
+
+            <div class="spark-notes">
+              <p class="ctx-subhead" style="color:var(--verdigris); margin-bottom:6px;">SUMMARY</p>
+              <p class="panel-text" id="sparkNotesText" style="margin:0;"></p>
+            </div>
+
+            <div class="accordion" id="contextAccordion"></div>
+          </div>
+
+          <div class="tab-panel" data-panel="commentary">
+            <p class="panel-eyebrow">COMMENTARY · CLASSIC VOICES ON THIS CHAPTER</p>
+            <p class="panel-text dim" style="margin-bottom:16px;">Public-domain 19th-century commentators, paraphrased and linked to their full original writing.</p>
+            <div id="commentaryList"></div>
+          </div>
+
+          <div class="tab-panel" data-panel="gallery">
+            <div class="image-carousel" id="imageCarousel">
+              <div class="carousel-slide active" data-slide="map">
+                <svg id="regionMap" viewBox="0 0 160 320" preserveAspectRatio="xMidYMid meet"></svg>
+                <div id="liveMap" style="display:none;"></div>
+              </div>
+              <div class="carousel-slide" data-slide="historical" id="historicalSlide">
+                <div class="carousel-placeholder">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="14" rx="1.5"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 20"/></svg>
+                  <span>Historical artwork — to be added</span>
+                </div>
+              </div>
+              <div class="carousel-slide" data-slide="current" id="currentSlide">
+                <div class="carousel-placeholder">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="14" rx="1.5"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 20"/></svg>
+                  <span>Present-day photo — to be added</span>
+                </div>
+              </div>
+              <button class="carousel-arrow carousel-arrow-left" id="carouselPrev" aria-label="Previous image">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+              </button>
+              <button class="carousel-arrow carousel-arrow-right" id="carouselNext" aria-label="Next image">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+              <div class="carousel-dots" id="carouselDots">
+                <span class="carousel-dot active"></span>
+                <span class="carousel-dot"></span>
+                <span class="carousel-dot"></span>
+              </div>
+            </div>
+            <p class="carousel-caption" id="carouselCaption"></p>
+          </div>
+
+          <div class="tab-panel" data-panel="translation">
+            <p class="panel-eyebrow">TRANSLATION · KEYWORDS IN THIS CHAPTER</p>
+            <h2 class="panel-heading" id="translationHeading"></h2>
+            <div id="translationList"></div>
+          </div>
+
+          <div class="tab-panel" data-panel="xref">
+            <p class="panel-eyebrow">CROSS-REFERENCES</p>
+            <h2 class="panel-heading">Sister scriptures</h2>
+            <p class="panel-eyebrow" style="margin-top:4px;">GOSPEL PARALLELS</p>
+            <div id="gospelParallelsList"></div>
+            <p class="panel-eyebrow" style="margin-top:22px;">OLD TESTAMENT BACKGROUND</p>
+            <div id="otBackgroundList"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- GAMES SCREEN (placeholder) -->
+    <div class="screen" id="screen-games">
+      <div class="placeholder-screen">
+        <div class="placeholder-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><circle cx="17.5" cy="13" r="0.8" fill="currentColor"/></svg>
+        </div>
+        <p class="placeholder-tag">Coming soon</p>
+        <h2 class="placeholder-title">Games</h2>
+        <p class="placeholder-text">Trivia, verse challenges, and more — built once there's enough chapter content to draw from.</p>
+      </div>
+    </div>
+
+    <!-- TIMELINE SCREEN -->
+    <!-- HARMONY SCREEN -->
+    <div class="screen" id="screen-harmony">
+      <div class="harmony-header">
+        <button class="harmony-back" id="harmonyBackBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <p class="panel-eyebrow" style="margin:0;">READ SIDE BY SIDE</p>
+      </div>
+      <div class="harmony-pane">
+        <h2 class="harmony-block-title" id="harmonyTitleA"></h2>
+        <p class="harmony-block-subtitle" id="harmonySubtitleA"></p>
+        <div id="harmonyVersesA"></div>
+      </div>
+      <div class="harmony-split-divider">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 18L2 12l6-6M16 6l6 6-6 6"/></svg>
+        <span>each half scrolls independently</span>
+      </div>
+      <div class="harmony-pane">
+        <h2 class="harmony-block-title" id="harmonyTitleB"></h2>
+        <p class="harmony-block-subtitle" id="harmonySubtitleB"></p>
+        <div id="harmonyVersesB"></div>
+      </div>
+    </div>
+
+    <div class="screen" id="screen-timeline">
+      <div class="timeline-header">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:10px;">
+          <div>
+            <p class="panel-eyebrow">THE STORY SO FAR</p>
+            <h2 class="timeline-heading">Timeline</h2>
+          </div>
+          <div class="timeline-size-controls" id="timelineSizeControls">
+            <button class="timeline-size-btn" data-size="sm">S</button>
+            <button class="timeline-size-btn active" data-size="md">M</button>
+            <button class="timeline-size-btn" data-size="lg">L</button>
+          </div>
+        </div>
+        <p class="timeline-subtext">Key moments, in order — tap any to jump straight there.</p>
+      </div>
+      <div class="timeline-list size-md" id="timelineList"></div>
+    </div>
+
+    <!-- SETTINGS SCREEN (placeholder) -->
+    <div class="screen" id="screen-settings">
+      <div class="placeholder-screen">
+        <div class="placeholder-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </div>
+        <p class="placeholder-tag">Coming soon</p>
+        <h2 class="placeholder-title">Settings</h2>
+        <p class="placeholder-text">Account, translation preferences, and reading options will live here.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SUMMARY BOTTOM SHEET -->
+  <div class="sheet-backdrop" id="backdrop"></div>
+  <div class="sheet" id="sheet">
+    <div class="sheet-handle"></div>
+    <p class="sheet-ref" id="sheetRef"></p>
+    <p class="sheet-verse-text" id="sheetVerseText"></p>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M15 3v5h5"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">TRANSLATION</p>
+        <p class="summary-text-value" id="sheetTranslation"></p>
+      </div>
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><path d="M9 20l-5.5-2V4L9 6m0 14l6-2m-6 2V6m6 12l5.5 2V6L15 4m0 14V4m0 2L9 4"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">MAP &amp; SETTING</p>
+        <p class="summary-text-value" id="sheetSetting"></p>
+      </div>
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">TIMELINE</p>
+        <p class="summary-text-value" id="sheetTimeline"></p>
+      </div>
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1.6"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+      </div>
+      <div>
+        <p class="summary-text-label">AUTHOR</p>
+        <p class="summary-text-value" id="sheetAuthor"></p>
+      </div>
+    </div>
+
+    <button class="dive-btn" id="diveBtn">Chapter Deep Dive</button>
+  </div>
+
+  <!-- BOTTOM NAV BAR -->
+  <nav class="bottom-nav">
+    <button class="nav-btn" id="navBtnBook" data-screen="booknav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+      <span>Read</span>
+    </button>
+    <button class="nav-btn" id="navBtnGames" data-screen="games">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><circle cx="17.5" cy="13" r="0.8" fill="currentColor"/></svg>
+      <span>Games</span>
+    </button>
+    <div class="nav-btn-center">
+      <button class="nav-center-circle" id="navBtnDeepDive" data-screen="deepdive">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      </button>
+      <span>Deep Dive</span>
+    </div>
+    <button class="nav-btn" id="navBtnTimeline" data-screen="timeline">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+      <span>Timeline</span>
+    </button>
+    <button class="nav-btn" id="navBtnSettings" data-screen="settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      <span>Settings</span>
+    </button>
+  </nav>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
