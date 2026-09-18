@@ -1,0 +1,272 @@
+{
+  "book": "Matthew",
+  "chapter": 11,
+  "title": "John's Inquiry",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "After Jesus had finished instructing His twelve disciples, He went on from there to teach and preach in their cities."
+    },
+    {
+      "num": 2,
+      "text": "Meanwhile John heard in prison about the works of Christ, and he sent his disciples"
+    },
+    {
+      "num": 3,
+      "text": "to ask Him, \"Are You the One who was to come, or should we look for someone else?\""
+    },
+    {
+      "num": 4,
+      "text": "Jesus replied, \"Go back and report to John what you hear and see:"
+    },
+    {
+      "num": 5,
+      "text": "The blind receive sight, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, and the good news is preached to the poor."
+    },
+    {
+      "num": 6,
+      "text": "Blessed is the one who does not fall away on account of Me.\""
+    },
+    {
+      "num": 7,
+      "text": "As John's disciples were leaving, Jesus began to speak to the crowds about John: \"What did you go out into the wilderness to see? A reed swaying in the wind?"
+    },
+    {
+      "num": 8,
+      "text": "Otherwise, what did you go out to see? A man dressed in fine clothes? Look, those who wear fine clothing are found in kings' palaces."
+    },
+    {
+      "num": 9,
+      "text": "What then did you go out to see? A prophet? Yes, I tell you, and more than a prophet."
+    },
+    {
+      "num": 10,
+      "text": "This is the one about whom it is written: 'Behold, I will send My messenger ahead of You, who will prepare Your way before You.'"
+    },
+    {
+      "num": 11,
+      "text": "Truly I tell you, among those born of women there has risen no one greater than John the Baptist. Yet even the least in the kingdom of heaven is greater than he."
+    },
+    {
+      "num": 12,
+      "text": "From the days of John the Baptist until now, the kingdom of heaven has been subject to violence, and the violent lay claim to it."
+    },
+    {
+      "num": 13,
+      "text": "For all the Prophets and the Law prophesied until John."
+    },
+    {
+      "num": 14,
+      "text": "And if you are willing to accept it, he is the Elijah who was to come."
+    },
+    {
+      "num": 15,
+      "text": "He who has ears, let him hear."
+    },
+    {
+      "num": 16,
+      "text": "To what can I compare this generation? They are like children sitting in the marketplaces and calling out to others:"
+    },
+    {
+      "num": 17,
+      "text": "'We played the flute for you, and you did not dance; we sang a dirge, and you did not mourn.'"
+    },
+    {
+      "num": 18,
+      "text": "For John came neither eating nor drinking, and they say, 'He has a demon!'"
+    },
+    {
+      "num": 19,
+      "text": "The Son of Man came eating and drinking, and they say, 'Look at this glutton and drunkard, a friend of tax collectors and sinners!' But wisdom is vindicated by her actions.\""
+    },
+    {
+      "num": 20,
+      "text": "Then Jesus began to denounce the cities in which most of His miracles had been performed, because they did not repent."
+    },
+    {
+      "num": 21,
+      "text": "\"Woe to you, Chorazin! Woe to you, Bethsaida! For if the miracles that were performed in you had been performed in Tyre and Sidon, they would have repented long ago in sackcloth and ashes."
+    },
+    {
+      "num": 22,
+      "text": "But I tell you, it will be more bearable for Tyre and Sidon on the day of judgment than for you."
+    },
+    {
+      "num": 23,
+      "text": "And you, Capernaum, will you be lifted up to heaven? No, you will be brought down to Hades! For if the miracles that were performed in you had been performed in Sodom, it would have remained to this day."
+    },
+    {
+      "num": 24,
+      "text": "But I tell you that it will be more bearable for Sodom on the day of judgment than for you.\""
+    },
+    {
+      "num": 25,
+      "text": "At that time Jesus declared, \"I praise You, Father, Lord of heaven and earth, because You have hidden these things from the wise and learned, and revealed them to little children."
+    },
+    {
+      "num": 26,
+      "text": "Yes, Father, for this was well-pleasing in Your sight."
+    },
+    {
+      "num": 27,
+      "text": "All things have been entrusted to Me by My Father. No one knows the Son except the Father, and no one knows the Father except the Son and those to whom the Son chooses to reveal Him."
+    },
+    {
+      "num": 28,
+      "text": "Come to Me, all you who are weary and burdened, and I will give you rest."
+    },
+    {
+      "num": 29,
+      "text": "Take My yoke upon you and learn from Me, for I am gentle and humble in heart, and you will find rest for your souls."
+    },
+    {
+      "num": 30,
+      "text": "For My yoke is easy and My burden is light.\""
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Narrative interwoven with teaching \u2014 John's imprisoned inquiry, Jesus' testimony about him, woes against unrepentant cities, and a closing invitation.",
+    "audience": "Jewish-Christian readers, watching the tension rise between excited early response and growing resistance to Jesus.",
+    "mapLabel": "GALILEE \u2014 CHORAZIN, BETHSAIDA, CAPERNAUM",
+    "setting": "John the Baptist is imprisoned at Machaerus, a fortress east of the Dead Sea, jailed by Herod Antipas for condemning his unlawful marriage. This chapter marks a turning point in Matthew's narrative \u2014 early excitement giving way to indecisive crowds and unmoved cities.",
+    "custom": "First-century village children mimicked weddings (with flutes) and funerals (with dirges) in play \u2014 the image Jesus uses in v.16-17 to describe a generation that refuses to respond to either John's austerity or His own joy.",
+    "timelineImmediate": "Follows directly after Jesus finishes commissioning the Twelve in chapter 10. John, now imprisoned, sends messengers to ask Jesus directly whether He is the promised Messiah \u2014 even John, the one who first identified Him, wrestles with doubt.",
+    "timelineBible": "Jesus lists healing after healing (v.5) as an intentional echo of Isaiah's messianic signs (Isaiah 35:5-6, 61:1) \u2014 pointing back centuries to confirm, in John's darkest hour, that the promised age had actually arrived.",
+    "translation": [
+      {
+        "english": "fall away",
+        "greek": "\u03c3\u03ba\u03b1\u03bd\u03b4\u03b1\u03bb\u03b9\u03c3\u03b8\u1fc7 (skandalisth\u0113)",
+        "verseRef": "v.6",
+        "meaning": "Related to the word for a trap's trigger \u2014 to stumble or be caused to sin, here specifically over Jesus not matching expectations.",
+        "occurrences": {
+          "total": 29,
+          "sampleRefs": [
+            "Matthew 26:31",
+            "John 16:1",
+            "Romans 14:21"
+          ]
+        }
+      },
+      {
+        "english": "forcefully advancing",
+        "greek": "\u03b2\u03b9\u03ac\u03b6\u03b5\u03c4\u03b1\u03b9 (biazetai)",
+        "verseRef": "v.12",
+        "meaning": "A difficult, debated verb \u2014 can mean the kingdom advances with force, or that forceful people are seizing it. Either reading stresses urgency.",
+        "occurrences": {
+          "total": 2,
+          "sampleRefs": [
+            "Luke 16:16"
+          ],
+          "note": "Used only twice in the whole New Testament \u2014 here, and in Luke's parallel account of this same saying. One of the rarest and most debated verbs in the Gospels."
+        }
+      },
+      {
+        "english": "Elijah",
+        "greek": "\u1f28\u03bb\u03af\u03b1\u03c2 (\u0112lias)",
+        "verseRef": "v.14",
+        "meaning": "Jesus identifies John with the promised forerunner of Malachi 4:5 \u2014 not literally Elijah reincarnated, but fulfilling his expected role.",
+        "occurrences": {
+          "total": 29,
+          "sampleRefs": [
+            "Luke 4:25",
+            "John 1:21",
+            "James 5:17"
+          ]
+        }
+      },
+      {
+        "english": "rest",
+        "greek": "\u1f00\u03bd\u03ac\u03c0\u03b1\u03c5\u03c3\u03b9\u03bd (anapausin)",
+        "verseRef": "v.28-29",
+        "meaning": "Refreshment or relief \u2014 the same word family used for Sabbath rest, now offered personally by Jesus rather than through a day or a law.",
+        "occurrences": {
+          "total": 5,
+          "sampleRefs": [
+            "Matthew 12:43",
+            "Revelation 4:8",
+            "Revelation 14:11"
+          ]
+        }
+      },
+      {
+        "english": "yoke",
+        "greek": "\u03b6\u03c5\u03b3\u03cc\u03c2 (zygos)",
+        "verseRef": "v.29-30",
+        "meaning": "The wooden frame joining oxen to a plow \u2014 rabbis also used \"yoke\" for their teaching of the Law; Jesus offers His own yoke as a better fit.",
+        "occurrences": {
+          "total": 6,
+          "sampleRefs": [
+            "Acts 15:10",
+            "Galatians 5:1",
+            "1 Timothy 6:1"
+          ]
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Luke 7:18-35",
+        "note": "Luke's fuller parallel account of John's inquiry and Jesus' testimony about him.",
+        "verses": "1-19"
+      },
+      {
+        "ref": "Luke 10:13-16",
+        "note": "Luke's version of the woes against Chorazin, Bethsaida, and Capernaum.",
+        "verses": "20-24"
+      },
+      {
+        "ref": "Luke 10:21-24",
+        "note": "Luke's parallel to Jesus' prayer of thanksgiving and the invitation that follows.",
+        "verses": "25-27"
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Malachi 3:1",
+        "note": "The promised messenger who prepares the way \u2014 quoted directly by Jesus about John in v.10."
+      },
+      {
+        "ref": "Isaiah 35:5-6",
+        "note": "The messianic signs Jesus lists in v.5 as proof of His identity to John."
+      },
+      {
+        "ref": "Genesis 19 / Ezekiel 26-28",
+        "note": "The judgment on Sodom and on Tyre and Sidon, background for Jesus' comparisons in v.21-24."
+      }
+    ],
+    "mapCoords": {
+      "lat": 32.9137,
+      "lng": 35.5628,
+      "zoom": 8.5,
+      "placeName": "Chorazin, Galilee"
+    },
+    "sparkNotes": "John the Baptist, now imprisoned, sends messengers asking if Jesus is truly the One \u2014 and Jesus points to His miracles as proof. \"Forcefully advancing\" is one of the rarest verbs in the New Testament, used only here and in Luke's parallel account, and Jesus' answer directly echoes Isaiah 35:5-6's list of messianic signs.",
+    "commentary": [
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry draws out the wordplay hidden in \"rest\" \u2014 Christ, he notes, is our true Noah, a name that itself means rest. He reads the yoke not as an added burden but a lighter one traded for a heavier: \"you are under a yoke which makes you weary; shake that off and try mine, which will make you easy.\"",
+        "url": "https://biblehub.com/commentaries/mhc/matthew/11.htm"
+      },
+      {
+        "source": "Adam Clarke",
+        "year": "1810s",
+        "note": "Clarke argues the Greek word translated \"woe\" is better read as \"alas\" \u2014 an exclamation of pity rather than a curse of wrath, changing the whole tone of Jesus' words toward these towns. He also notes the real irony of it: Bethsaida itself, one of the condemned towns, had already given the world three of the twelve apostles \u2014 Philip, Andrew, and Peter.",
+        "url": "https://sacred-texts.com/bib/cmt/clarke/mat011.htm"
+      },
+      {
+        "source": "Jamieson, Fausset & Brown",
+        "year": "1871",
+        "note": "JFB points out that Capernaum's rebuke is sharper than Chorazin's or Bethsaida's precisely because it had more to lose \u2014 as the town where Jesus actually made His home throughout His Galilean ministry, it was, in their words, \"the most favored spot upon earth,\" and its privilege only deepened its responsibility.",
+        "url": "https://www.studylight.org/commentaries/eng/jfb/matthew-11.html"
+      }
+    ],
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Saint_John_the_Baptist_Sees_Jesus_from_Afar_(Saint_Jean-Baptiste_voit_J%C3%A9sus_de_loin)_-_James_Tissot_-_overall.jpg",
+      "caption": "Saint John the Baptist Sees Jesus from Afar, by James Tissot (1886-1894)",
+      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
+    }
+  }
+}

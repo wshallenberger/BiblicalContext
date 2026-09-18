@@ -1,0 +1,207 @@
+{
+  "book": "Matthew",
+  "chapter": 2,
+  "title": "The Pilgrimage of the Magi",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "After Jesus was born in Bethlehem in Judea, during the time of King Herod, Magi from the east arrived in Jerusalem,"
+    },
+    {
+      "num": 2,
+      "text": "asking, \"Where is the One who has been born King of the Jews? We saw His star in the east and have come to worship Him.\""
+    },
+    {
+      "num": 3,
+      "text": "When King Herod heard this, he was disturbed, and all Jerusalem with him."
+    },
+    {
+      "num": 4,
+      "text": "And when he had assembled all the chief priests and scribes of the people, he asked them where the Christ was to be born."
+    },
+    {
+      "num": 5,
+      "text": "\"In Bethlehem in Judea,\" they replied, \"for this is what the prophet has written:"
+    },
+    {
+      "num": 6,
+      "text": "'But you, Bethlehem, in the land of Judah, are by no means least among the rulers of Judah, for out of you will come a ruler who will be the shepherd of My people Israel.'\""
+    },
+    {
+      "num": 7,
+      "text": "Then Herod called the Magi secretly and learned from them the exact time the star had appeared."
+    },
+    {
+      "num": 8,
+      "text": "And sending them to Bethlehem, he said: \"Go and search carefully for the Child, and when you find Him, report to me, so that I too may go and worship Him.\""
+    },
+    {
+      "num": 9,
+      "text": "After they had heard the king, they went on their way, and the star they had seen in the east went ahead of them until it stood over the place where the Child was."
+    },
+    {
+      "num": 10,
+      "text": "When they saw the star, they rejoiced with great delight."
+    },
+    {
+      "num": 11,
+      "text": "On coming to the house, they saw the Child with His mother Mary, and they fell down and worshiped Him. Then they opened their treasures and presented Him with gifts of gold and frankincense and myrrh."
+    },
+    {
+      "num": 12,
+      "text": "And having been warned in a dream not to return to Herod, they withdrew to their country by another route."
+    },
+    {
+      "num": 13,
+      "text": "When the Magi had gone, an angel of the Lord appeared to Joseph in a dream. \"Get up!\" he said. \"Take the Child and His mother and flee to Egypt. Stay there until I tell you, for Herod is going to search for the Child to kill Him.\""
+    },
+    {
+      "num": 14,
+      "text": "So he got up, took the Child and His mother by night, and withdrew to Egypt,"
+    },
+    {
+      "num": 15,
+      "text": "where he stayed until the death of Herod. This fulfilled what the Lord had spoken through the prophet: \"Out of Egypt I called My Son.\""
+    },
+    {
+      "num": 16,
+      "text": "When Herod saw that he had been outwitted by the Magi, he was filled with rage. Sending orders, he put to death all the boys in Bethlehem and its vicinity who were two years old and under, according to the time he had learned from the Magi."
+    },
+    {
+      "num": 17,
+      "text": "Then what was spoken through the prophet Jeremiah was fulfilled:"
+    },
+    {
+      "num": 18,
+      "text": "\"A voice is heard in Ramah, weeping and great mourning, Rachel weeping for her children and refusing to be comforted, because they are no more.\""
+    },
+    {
+      "num": 19,
+      "text": "After Herod died, an angel of the Lord appeared in a dream to Joseph in Egypt."
+    },
+    {
+      "num": 20,
+      "text": "\"Get up!\" he said. \"Take the Child and His mother and go to the land of Israel, for those seeking the Child's life are now dead.\""
+    },
+    {
+      "num": 21,
+      "text": "So Joseph got up, took the Child and His mother, and went to the land of Israel."
+    },
+    {
+      "num": 22,
+      "text": "But when he learned that Archelaus was reigning in Judea in place of his father Herod, he was afraid to go there. And having been warned in a dream, he withdrew to the district of Galilee,"
+    },
+    {
+      "num": 23,
+      "text": "and he went and lived in a town called Nazareth. So was fulfilled what was spoken through the prophets: \"He will be called a Nazarene.\""
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Narrative \u2014 a sequence of four connected episodes tied together by fulfilled prophecy.",
+    "audience": "Jewish-Christian readers, for whom each Old Testament fulfillment (Micah, Hosea, Jeremiah) built the case that Jesus was the promised Messiah despite an unlikely, dangerous start.",
+    "mapLabel": "BETHLEHEM \u2192 EGYPT \u2192 NAZARETH",
+    "setting": "Herod the Great rules Judea as a Roman client king (37-4 BC) \u2014 a brilliant builder and ruthless ruler known for killing rivals, including his own family. Bethlehem sits about six miles south of Jerusalem; Galilee, where the family eventually settles, was viewed by Judeans as rustic backcountry.",
+    "custom": "The Magi were likely scholar-astrologers from Persia, a class that studied stars and dreams for signs \u2014 their gifts of gold, frankincense, and myrrh were fitting tribute for a king.",
+    "timelineImmediate": "The infancy of Jesus \u2014 within roughly the first two years of His life, well before any public ministry. This is the most dangerous stretch of His early years.",
+    "timelineBible": "Matthew deliberately echoes Israel's own history here \u2014 a family fleeing to Egypt, a ruler killing infant boys \u2014 retracing the pattern of Moses' infancy and the Exodus, showing Jesus recapitulating Israel's story.",
+    "translation": [
+      {
+        "english": "Magi",
+        "greek": "\u03bc\u03ac\u03b3\u03bf\u03b9 (magoi)",
+        "verseRef": "v.1",
+        "meaning": "Scholar-astrologers, likely from Persia or Babylon \u2014 the same class of court advisers Daniel once served among.",
+        "occurrences": {
+          "total": 6,
+          "sampleRefs": [
+            "Acts 13:6",
+            "Acts 13:8"
+          ],
+          "note": "The same word is used later in Acts for Elymas, a sorcerer who opposed Paul \u2014 a reminder that \"magos\" could describe either a respected astrologer or a con artist, depending on the context."
+        }
+      },
+      {
+        "english": "worshiped",
+        "greek": "\u03c0\u03c1\u03bf\u03c3\u03b5\u03ba\u03cd\u03bd\u03b7\u03c3\u03b1\u03bd (prosekyn\u0113san)",
+        "verseRef": "v.11",
+        "meaning": "To fall down and bow \u2014 a physical act of homage, not merely admiration.",
+        "occurrences": {
+          "total": 60,
+          "sampleRefs": [
+            "Matthew 4:10",
+            "Matthew 28:17",
+            "Revelation 19:10"
+          ]
+        }
+      },
+      {
+        "english": "Nazarene",
+        "greek": "\u039d\u03b1\u03b6\u03c9\u03c1\u03b1\u1fd6\u03bf\u03c2 (Naz\u014draios)",
+        "verseRef": "v.23",
+        "meaning": "Ties Jesus to Nazareth, an obscure Galilean village \u2014 Matthew reads this into the prophetic pattern of a despised, humble Messiah.",
+        "occurrences": {
+          "total": 13,
+          "sampleRefs": [
+            "Matthew 26:71",
+            "John 18:5",
+            "Acts 24:5"
+          ],
+          "note": "By Acts 24:5, the word has grown from a description of Jesus into a label for His followers \u2014 \"the sect of the Nazarenes.\""
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Luke 2:1-20",
+        "note": "Luke's very different infancy account \u2014 shepherds instead of Magi \u2014 complements rather than duplicates Matthew's version."
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Micah 5:2",
+        "note": "The prophecy of Bethlehem as the Messiah's birthplace, quoted directly by the chief priests in v.6."
+      },
+      {
+        "ref": "Hosea 11:1",
+        "note": "\"Out of Egypt I called My Son\" \u2014 originally about Israel's exodus, applied by Matthew to Jesus."
+      },
+      {
+        "ref": "Jeremiah 31:15",
+        "note": "Rachel weeping for her children \u2014 the lament Matthew connects to Herod's massacre."
+      }
+    ],
+    "commentary": [
+      {
+        "source": "Albert Barnes",
+        "year": "1832",
+        "note": "Barnes takes a notably historical, less speculative approach than his contemporaries \u2014 he identifies the Magi as respected Persian or Arabian court philosophers and astronomers, not sorcerers, and treats their star as most likely a low-altitude luminous phenomenon rather than a literal star, since actual stars are far too vast and distant to guide travelers on a road. He connects their expectation of a coming king to Balaam's ancient prophecy in Numbers 24:17.",
+        "url": "https://biblehub.com/commentaries/barnes/matthew/2.htm"
+      },
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry paints Herod's scheme in vivid terms: thinking he had \"burnt the hive\" by killing the infants of Bethlehem, Herod imagined he had also \"killed the master bee\" \u2014 but God only laughs at such plots from heaven. Henry also draws out a striking irony: Egypt, historically a place of bondage and idolatry for Israel, becomes in this moment the very place of safety for the infant Christ.",
+        "url": "https://biblehub.com/commentaries/mhc/matthew/2.htm"
+      },
+      {
+        "source": "Jamieson, Fausset & Brown",
+        "year": "1871",
+        "note": "JFB notes Herod's questioning of the wise men was calculated and secretive \u2014 he needed the star's exact timing to estimate the child's age, and didn't want his intentions suspected. When his plan ultimately failed, JFB observes that Herod wasn't outwitted by the wise men at all, but by God Himself, who \"disappointeth the devices of the crafty.\"",
+        "url": "https://biblehub.com/commentaries/jfb/matthew/2.htm"
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7054,
+      "lng": 35.2024,
+      "zoom": 6,
+      "placeName": "Bethlehem, Judea"
+    },
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Magi_Journeying_(Les_rois_mages_en_voyage)_-_James_Tissot_-_overall.jpg",
+      "caption": "The Magi Journeying, by James Tissot (1886-1894)",
+      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
+    },
+    "sparkNotes": "Magi from the East follow a star to worship the newborn king, triggering Herod's jealous, murderous response. The same Greek word for \"Magi\" later describes a sorcerer in Acts 13 \u2014 and Matthew reads the whole episode through Micah 5:2's centuries-old prophecy naming Bethlehem."
+  }
+}

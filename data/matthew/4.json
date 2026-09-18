@@ -1,0 +1,221 @@
+{
+  "book": "Matthew",
+  "chapter": 4,
+  "title": "The Temptation of Jesus",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Then Jesus was led by the Spirit into the wilderness to be tempted by the devil."
+    },
+    {
+      "num": 2,
+      "text": "After fasting forty days and forty nights, He was hungry."
+    },
+    {
+      "num": 3,
+      "text": "The tempter came to Him and said, \"If You are the Son of God, tell these stones to become bread.\""
+    },
+    {
+      "num": 4,
+      "text": "But Jesus answered, \"It is written: 'Man shall not live on bread alone, but on every word that comes from the mouth of God.'\""
+    },
+    {
+      "num": 5,
+      "text": "Then the devil took Him to the holy city and set Him on the pinnacle of the temple."
+    },
+    {
+      "num": 6,
+      "text": "\"If You are the Son of God,\" he said, \"throw Yourself down. For it is written: 'He will command His angels concerning You, and they will lift You up in their hands, so that You will not strike Your foot against a stone.'\""
+    },
+    {
+      "num": 7,
+      "text": "Jesus replied, \"It is also written: 'Do not put the Lord your God to the test.'\""
+    },
+    {
+      "num": 8,
+      "text": "Again, the devil took Him to a very high mountain and showed Him all the kingdoms of the world and their glory."
+    },
+    {
+      "num": 9,
+      "text": "\"All this I will give You,\" he said, \"if You will fall down and worship me.\""
+    },
+    {
+      "num": 10,
+      "text": "\"Away from Me, Satan!\" Jesus told him. \"For it is written: 'Worship the Lord your God and serve Him only.'\""
+    },
+    {
+      "num": 11,
+      "text": "Then the devil left Him, and angels came and ministered to Him."
+    },
+    {
+      "num": 12,
+      "text": "When Jesus heard that John had been imprisoned, He withdrew to Galilee."
+    },
+    {
+      "num": 13,
+      "text": "Leaving Nazareth, He went and lived in Capernaum, which is by the sea in the region of Zebulun and Naphtali,"
+    },
+    {
+      "num": 14,
+      "text": "to fulfill what was spoken through the prophet Isaiah:"
+    },
+    {
+      "num": 15,
+      "text": "\"Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles\u2014"
+    },
+    {
+      "num": 16,
+      "text": "the people living in darkness have seen a great light; on those living in the land of the shadow of death, a light has dawned.\""
+    },
+    {
+      "num": 17,
+      "text": "From that time on Jesus began to preach, \"Repent, for the kingdom of heaven is near.\""
+    },
+    {
+      "num": 18,
+      "text": "As Jesus was walking beside the Sea of Galilee, He saw two brothers, Simon called Peter and his brother Andrew. They were casting a net into the sea, for they were fishermen."
+    },
+    {
+      "num": 19,
+      "text": "\"Come, follow Me,\" Jesus said, \"and I will make you fishers of men.\""
+    },
+    {
+      "num": 20,
+      "text": "And at once they left their nets and followed Him."
+    },
+    {
+      "num": 21,
+      "text": "Going on from there, He saw two other brothers, James son of Zebedee and his brother John. They were in a boat with their father Zebedee, mending their nets. Jesus called them,"
+    },
+    {
+      "num": 22,
+      "text": "and immediately they left the boat and their father and followed Him."
+    },
+    {
+      "num": 23,
+      "text": "Jesus went throughout Galilee, teaching in their synagogues, preaching the gospel of the kingdom, and healing every disease and sickness among the people."
+    },
+    {
+      "num": 24,
+      "text": "News about Him spread all over Syria, and people brought to Him all who were ill with various diseases, those suffering acute pain, the demon-possessed, those having seizures, and the paralyzed, and He healed them."
+    },
+    {
+      "num": 25,
+      "text": "Large crowds followed Him, having come from Galilee, the Decapolis, Jerusalem, Judea, and beyond the Jordan."
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Narrative \u2014 temptation account followed by the launch of Jesus' public ministry.",
+    "audience": "Jewish-Christian readers who would recognize Jesus quoting Deuteronomy three times, succeeding where Israel itself had failed during its own forty years of wilderness testing.",
+    "mapLabel": "JUDEAN WILDERNESS \u2192 CAPERNAUM, GALILEE",
+    "setting": "The rugged Judean desert west of the Dead Sea, then a deliberate move north to Capernaum \u2014 a fishing town on the Sea of Galilee sitting on the Via Maris, a major trade highway linking Egypt and Damascus.",
+    "custom": "Forty days of fasting deliberately parallels Israel's forty years in the wilderness and Moses' forty-day fast on Sinai \u2014 where Israel failed repeatedly, Jesus stands firm.",
+    "timelineImmediate": "Immediately after His baptism in chapter 3 \u2014 this marks the true beginning of Jesus' public ministry, roughly three years before the crucifixion.",
+    "timelineBible": "This is the launch point of everything that follows in the Gospels \u2014 every teaching, healing, and confrontation in the rest of Matthew flows out of this chapter's opening act of public ministry.",
+    "translation": [
+      {
+        "english": "tempted",
+        "greek": "\u03c0\u03b5\u03b9\u03c1\u03b1\u03c3\u03b8\u1fc6\u03bd\u03b1\u03b9 (peirasth\u0113nai)",
+        "verseRef": "v.1",
+        "meaning": "Can mean either \"tempted\" or \"tested\" \u2014 the same event functions as both an attack and a proof of character.",
+        "occurrences": {
+          "total": 39,
+          "sampleRefs": [
+            "Mark 1:13",
+            "Hebrews 4:15",
+            "James 1:13"
+          ]
+        }
+      },
+      {
+        "english": "repent",
+        "greek": "\u03bc\u03b5\u03c4\u03b1\u03bd\u03bf\u03b5\u1fd6\u03bd (metanoein)",
+        "verseRef": "v.17",
+        "meaning": "The same call John used in chapter 3 \u2014 Jesus now takes up and embodies the message Himself.",
+        "occurrences": {
+          "total": 34,
+          "sampleRefs": [
+            "Mark 1:15",
+            "Luke 13:3",
+            "Acts 2:38"
+          ]
+        }
+      },
+      {
+        "english": "fishers of men",
+        "greek": "\u1f01\u03bb\u03b9\u03b5\u1fd6\u03c2 \u1f00\u03bd\u03b8\u03c1\u03ce\u03c0\u03c9\u03bd (halieis anthr\u014dp\u014dn)",
+        "verseRef": "v.19",
+        "meaning": "A deliberate play on the disciples' actual trade \u2014 turning a fishing metaphor into a calling.",
+        "occurrences": {
+          "total": 5,
+          "sampleRefs": [
+            "Mark 1:16",
+            "Mark 1:17",
+            "Luke 5:2"
+          ],
+          "note": "The word for \"fisherman\" appears nowhere else in the New Testament outside this same calling scene, told three times across the Gospels."
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Mark 1:12-13",
+        "note": "Mark's much shorter account of the same wilderness temptation.",
+        "verses": "1-11"
+      },
+      {
+        "ref": "Luke 4:1-13",
+        "note": "Luke records the same three temptations in a different order.",
+        "verses": "1-11"
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 8:3",
+        "note": "\"Man does not live on bread alone\" \u2014 Jesus' first response to the devil, quoted directly."
+      },
+      {
+        "ref": "Deuteronomy 6:16",
+        "note": "\"Do not put the Lord your God to the test\" \u2014 Jesus' second response."
+      },
+      {
+        "ref": "Isaiah 9:1-2",
+        "note": "The prophecy of light dawning on Galilee, quoted as fulfilled in v.15-16."
+      }
+    ],
+    "commentary": [
+      {
+        "source": "John Wesley",
+        "year": "1754",
+        "note": "Wesley connects Jesus' forty days in the wilderness directly to two towering Old Testament precedents: Moses, who fasted forty days as the giver of the Law, and Elijah, who did the same as its great restorer. He also flags a subtle but deliberate difference in wording \u2014 Jesus tells Satan here to \"get thee hence,\" a full dismissal, distinct from the softer \"get thee behind me\" He later says to Peter for a very different kind of correction.",
+        "url": "https://www.studylight.org/commentaries/eng/wen/matthew-4.html"
+      },
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry observes that temptation directly follows Jesus' greatest moment of divine affirmation at His baptism \u2014 a pattern he sees throughout Scripture, where great privilege and special favor never exempt anyone from being tested. He draws a deliberate parallel between Satan's triumph over the first Adam in Eden and his ultimate defeat here by Christ, the second Adam.",
+        "url": "https://biblehub.com/commentaries/mhc/matthew/4.htm"
+      },
+      {
+        "source": "Jamieson, Fausset & Brown",
+        "year": "1871",
+        "note": "JFB carefully notes how Matthew's account of calling Peter and Andrew differs from John's Gospel \u2014 in John, Andrew first seeks out Jesus while still in Judea; here, Jesus Himself directly calls the two brothers by the Sea of Galilee, after returning north following John's arrest. They treat these as two distinct moments, not a contradiction.",
+        "url": "https://biblehub.com/commentaries/jfb/matthew/4.htm"
+      }
+    ],
+    "mapCoords": {
+      "lat": 32.8807,
+      "lng": 35.5753,
+      "zoom": 8.5,
+      "placeName": "Capernaum, Sea of Galilee"
+    },
+    "sparkNotes": "Satan tempts Jesus three times in the wilderness; each time Jesus answers with Scripture rather than power. All three of His replies come from Deuteronomy, starting with Deuteronomy 8:3 \u2014 and immediately afterward He calls His first disciples away from their nets.",
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ary_Scheffer_-_The_Temptation_of_Christ_(1854).jpg",
+      "caption": "The Temptation of Christ, by Ary Scheffer (1854)",
+      "credit": "Public domain \u2014 Wikimedia Commons"
+    }
+  }
+}

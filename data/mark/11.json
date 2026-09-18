@@ -1,0 +1,242 @@
+{
+  "book": "Mark",
+  "chapter": 11,
+  "title": "The Triumphal Entry",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "As they approached Jerusalem and came to Bethphage and Bethany at the Mount of Olives, Jesus sent out two of His disciples"
+    },
+    {
+      "num": 2,
+      "text": "and said to them, \"Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here."
+    },
+    {
+      "num": 3,
+      "text": "If anyone asks, 'Why are you doing this?' tell him, 'The Lord needs it and will return it shortly.'\""
+    },
+    {
+      "num": 4,
+      "text": "So they went and found the colt outside in the street, tied at a doorway. They untied it,"
+    },
+    {
+      "num": 5,
+      "text": "and some who were standing there asked, \"Why are you untying the colt?\""
+    },
+    {
+      "num": 6,
+      "text": "The disciples answered as Jesus had instructed them, and the people gave them permission."
+    },
+    {
+      "num": 7,
+      "text": "Then they led the colt to Jesus and threw their cloaks over it, and He sat on it."
+    },
+    {
+      "num": 8,
+      "text": "Many in the crowd spread their cloaks on the road, while others spread branches they had cut from the fields."
+    },
+    {
+      "num": 9,
+      "text": "The ones who went ahead and those who followed were shouting: \"Hosanna!\" \"Blessed is He who comes in the name of the Lord!\""
+    },
+    {
+      "num": 10,
+      "text": "\"Blessed is the coming kingdom of our father David!\" \"Hosanna in the highest!\""
+    },
+    {
+      "num": 11,
+      "text": "Then Jesus entered Jerusalem and went into the temple courts. He looked around at everything, but since it was already late, He went out to Bethany with the Twelve."
+    },
+    {
+      "num": 12,
+      "text": "The next day, when they had left Bethany, Jesus was hungry."
+    },
+    {
+      "num": 13,
+      "text": "Seeing in the distance a fig tree in leaf, He went to see if there was any fruit on it. But when He reached it, He found nothing on it except leaves, since it was not the season for figs."
+    },
+    {
+      "num": 14,
+      "text": "Then He said to the tree, \"May no one ever eat of your fruit again.\" And His disciples heard this statement."
+    },
+    {
+      "num": 15,
+      "text": "When they arrived in Jerusalem, Jesus entered the temple courts and began to drive out those who were buying and selling there. He overturned the tables of the money changers and the seats of those selling doves."
+    },
+    {
+      "num": 16,
+      "text": "And He would not allow anyone to carry merchandise through the temple courts."
+    },
+    {
+      "num": 17,
+      "text": "Then Jesus began to teach them, and He declared, \"Is it not written: 'My house will be called a house of prayer for all the nations'? But you have made it 'a den of robbers.'\""
+    },
+    {
+      "num": 18,
+      "text": "When the chief priests and scribes heard this, they looked for a way to kill Him. For they were afraid of Him, because the whole crowd was astonished at His teaching."
+    },
+    {
+      "num": 19,
+      "text": "And when evening came, Jesus and His disciples went out of the city."
+    },
+    {
+      "num": 20,
+      "text": "As they were walking back in the morning, they saw the fig tree withered from its roots."
+    },
+    {
+      "num": 21,
+      "text": "Peter remembered it and said, \"Look, Rabbi! The fig tree You cursed has withered.\""
+    },
+    {
+      "num": 22,
+      "text": "\"Have faith in God,\" Jesus said to them."
+    },
+    {
+      "num": 23,
+      "text": "\"Truly I tell you that if anyone says to this mountain, 'Be lifted up and thrown into the sea,' and has no doubt in his heart but believes that it will happen, it will be done for him."
+    },
+    {
+      "num": 24,
+      "text": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours."
+    },
+    {
+      "num": 25,
+      "text": "And when you stand to pray, if you hold anything against another, forgive it, so that your Father in heaven will forgive your trespasses as well.\""
+    },
+    {
+      "num": 27,
+      "text": "After their return to Jerusalem, Jesus was walking in the temple courts, and the chief priests, scribes, and elders came up to Him."
+    },
+    {
+      "num": 28,
+      "text": "\"By what authority are You doing these things?\" they asked. \"And who gave You the authority to do them?\""
+    },
+    {
+      "num": 29,
+      "text": "\"I will ask you one question,\" Jesus replied, \"and if you answer Me, I will tell you by what authority I am doing these things."
+    },
+    {
+      "num": 30,
+      "text": "John's baptism\u2014was it from heaven or from men? Answer Me!\""
+    },
+    {
+      "num": 31,
+      "text": "They deliberated among themselves what they should answer: \"If we say, 'From heaven,' He will ask, 'Why then did you not believe him?'"
+    },
+    {
+      "num": 32,
+      "text": "But if we say, 'From men'...\" they were afraid of the people, for they all held that John truly was a prophet."
+    },
+    {
+      "num": 33,
+      "text": "So they answered, \"We do not know.\" And Jesus replied, \"Neither will I tell you by what authority I am doing these things.\""
+    }
+  ],
+  "context": {
+    "author": "Traditionally John Mark, a companion of Peter",
+    "genre": "Narrative Gospel \u2014 the opening of Passion Week, framing a temple confrontation between two halves of a single symbolic story about a fig tree",
+    "audience": "Roman Christian readers, watching Jesus openly claim messianic identity in the most public, contested space in Judaism",
+    "mapLabel": "JERUSALEM, MOUNT OF OLIVES",
+    "setting": "Passover week, when Jerusalem's population swelled several times over with pilgrims. Jesus enters from the east, crossing the Mount of Olives through Bethphage and Bethany \u2014 a route soaked in messianic expectation, since pilgrims approaching from that direction were already primed to look for a king.",
+    "custom": "Spreading cloaks and branches on the road was a recognized way to honor entering royalty. Money-changers in the temple exchanged ordinary coinage for the special Tyrian shekels required for temple offerings, and dove-sellers supplied birds for the poor's sacrifices \u2014 legitimate services in principle, but ones Jesus judged had become exploitative and profit-driven.",
+    "timelineImmediate": "Mark deliberately splits the fig tree story into two halves (cursed in v.12-14, found withered in v.20-25) and wraps the temple cleansing inside them \u2014 a literary technique called intercalation, using the fig tree as a living commentary on the temple's own fruitlessness.",
+    "timelineBible": "The crowd's shout directly quotes Psalm 118:25-26, a pilgrim psalm sung ascending to the temple at Passover, while Jesus' donkey-riding entry fulfills Zechariah 9:9's centuries-old picture of a humble, peaceable king.",
+    "sparkNotes": "Jesus enters Jerusalem on a colt to shouts of \"Hosanna,\" fulfilling Zechariah's prophecy of a humble king, then curses a fruitless fig tree and overturns the money changers' tables in the temple \u2014 two acts Mark deliberately weaves together as one message about hollow, fruitless religion. When religious leaders demand to know His authority, Jesus answers with a question about John the Baptist they're too afraid to answer either way.",
+    "translation": [
+      {
+        "english": "Hosanna",
+        "greek": "\u1f61\u03c3\u03b1\u03bd\u03bd\u03ac (h\u014dsanna)",
+        "verseRef": "v.9-10",
+        "meaning": "A transliteration of a Hebrew cry meaning \"save, we pray\" \u2014 originally a plea, it had become a shout of praise drawn from Psalm 118.",
+        "occurrences": {
+          "total": 6,
+          "sampleRefs": [
+            "Matthew 21:9",
+            "John 12:13"
+          ],
+          "note": "Used only in the four Gospel accounts of this one event \u2014 nowhere else in the New Testament."
+        }
+      },
+      {
+        "english": "den of robbers",
+        "greek": "\u03c3\u03c0\u03ae\u03bb\u03b1\u03b9\u03bf\u03bd \u03bb\u1fc3\u03c3\u03c4\u1ff6\u03bd (sp\u0113laion l\u0113st\u014dn)",
+        "verseRef": "v.17",
+        "meaning": "Jesus pairs two Old Testament quotes back to back \u2014 Isaiah's vision of a house of prayer for all nations against Jeremiah's rebuke of a temple turned safe haven for wrongdoing."
+      },
+      {
+        "english": "faith",
+        "greek": "\u03c0\u03af\u03c3\u03c4\u03b9\u03bd (pistin)",
+        "verseRef": "v.22",
+        "meaning": "Trust and belief in action \u2014 Jesus' one-line teaching launches directly into His striking claim about mountain-moving prayer.",
+        "occurrences": {
+          "total": 243,
+          "sampleRefs": [
+            "Romans 10:17",
+            "Hebrews 11:1",
+            "James 2:17"
+          ]
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Matthew 21:1-22",
+        "note": "Matthew's parallel account, which places the fig tree's withering immediately after the cursing rather than split across two days."
+      },
+      {
+        "ref": "Luke 19:28-48",
+        "note": "Luke's version, which adds Jesus weeping over Jerusalem before entering the city."
+      },
+      {
+        "ref": "John 12:12-19",
+        "note": "John's account of the same triumphal entry, from a different vantage point."
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Zechariah 9:9",
+        "note": "The King coming \"righteous and having salvation, gentle and riding on a donkey\" \u2014 directly fulfilled in Jesus' entry."
+      },
+      {
+        "ref": "Psalm 118:25-26",
+        "note": "The exact pilgrim psalm the crowd is quoting when they shout \"Hosanna\" and \"blessed is he who comes.\""
+      },
+      {
+        "ref": "Isaiah 56:7 / Jeremiah 7:11",
+        "note": "The two prophecies Jesus quotes together in His rebuke of the temple's commerce."
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7783,
+      "lng": 35.2345,
+      "zoom": 10.5,
+      "placeName": "Temple Mount, Jerusalem"
+    },
+    "commentary": [
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry reads the fig tree's curse as \"the reverse of the first blessing, Be fruitful\" \u2014 a deliberate echo of Genesis, turning God's original command to creation into its opposite for a tree that only pretended fruitfulness through its leaves. He treats it as a type of the Jewish religious establishment: full of impressive outward show, but no actual fruit for Christ to find.",
+        "url": "https://biblehub.com/commentaries/mhcw/mark/11.htm"
+      },
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry notes Mark deliberately splits the fig tree story into two halves, wrapping the temple cleansing inside it \u2014 the cursing happens on one morning, the withering is discovered the next, with the temple incident sitting between them. Read together, the withered tree becomes a living commentary on exactly what Jesus found wrong with the temple: outward show without inward fruit.",
+        "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/mark/11"
+      },
+      {
+        "source": "J.C. Ryle",
+        "year": "1857",
+        "note": "Ryle calls the fig tree episode 'a parable in deeds, as full of meaning as any of our Lord's parables in words' \u2014 rich in the leaves of a formal religion, but barren of any actual fruit, standing as a living warning to 'the Jewish Church' of that very generation.",
+        "url": "https://www.preceptaustin.org/j-c-ryle-gospel-of-mark-commentary"
+      }
+    ],
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_Christ's_Entry_into_Jerusalem.jpg",
+      "caption": "Christ's Entry into Jerusalem, by Gustave Dor\u00e9 (1866)",
+      "credit": "Public domain \u2014 Wikimedia Commons"
+    }
+  }
+}

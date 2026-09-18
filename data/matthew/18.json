@@ -1,0 +1,283 @@
+{
+  "book": "Matthew",
+  "chapter": 18,
+  "title": "The Greatest in the Kingdom",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "At that time the disciples came to Jesus and asked, \"Who then is the greatest in the kingdom of heaven?\""
+    },
+    {
+      "num": 2,
+      "text": "Jesus invited a little child to stand among them."
+    },
+    {
+      "num": 3,
+      "text": "\"Truly I tell you,\" He said, \"unless you change and become like little children, you will never enter the kingdom of heaven."
+    },
+    {
+      "num": 4,
+      "text": "Therefore, whoever humbles himself like this little child is the greatest in the kingdom of heaven."
+    },
+    {
+      "num": 5,
+      "text": "And whoever welcomes a little child like this in My name welcomes Me."
+    },
+    {
+      "num": 6,
+      "text": "But if anyone causes one of these little ones who believe in Me to stumble, it would be better for him to have a large millstone hung around his neck and to be drowned in the depths of the sea."
+    },
+    {
+      "num": 7,
+      "text": "Woe to the world for the causes of sin. These stumbling blocks must come, but woe to the man through whom they come!"
+    },
+    {
+      "num": 8,
+      "text": "If your hand or your foot causes you to sin, cut it off and throw it away. It is better for you to enter life crippled or lame than to have two hands and two feet and be thrown into the eternal fire."
+    },
+    {
+      "num": 9,
+      "text": "And if your eye causes you to sin, gouge it out and throw it away. It is better for you to enter life with one eye than to have two eyes and be thrown into the fire of hell."
+    },
+    {
+      "num": 10,
+      "text": "See that you do not look down on any of these little ones. For I tell you that their angels in heaven always see the face of My Father in heaven."
+    },
+    {
+      "num": 12,
+      "text": "What do you think? If a man has a hundred sheep and one of them goes astray, will he not leave the ninety-nine on the hills and go out to search for the one that is lost?"
+    },
+    {
+      "num": 13,
+      "text": "And if he finds it, truly I tell you, he rejoices more over that one sheep than over the ninety-nine that did not go astray."
+    },
+    {
+      "num": 14,
+      "text": "In the same way, your Father in heaven is not willing that any of these little ones should perish."
+    },
+    {
+      "num": 15,
+      "text": "If your brother sins against you, go and confront him privately. If he listens to you, you have won your brother over."
+    },
+    {
+      "num": 16,
+      "text": "But if he will not listen, take one or two others along, so that 'every matter may be established by the testimony of two or three witnesses.'"
+    },
+    {
+      "num": 17,
+      "text": "If he refuses to listen to them, tell it to the church. And if he refuses to listen even to the church, regard him as you would a pagan or a tax collector."
+    },
+    {
+      "num": 18,
+      "text": "Truly I tell you, whatever you bind on earth will be bound in heaven, and whatever you loose on earth will be loosed in heaven."
+    },
+    {
+      "num": 19,
+      "text": "Again, I tell you truly that if two of you on the earth agree about anything you ask for, it will be done for you by My Father in heaven."
+    },
+    {
+      "num": 20,
+      "text": "For where two or three gather together in My name, there am I with them.\""
+    },
+    {
+      "num": 21,
+      "text": "Then Peter came to Jesus and asked, \"Lord, how many times shall I forgive my brother who sins against me? Up to seven times?\""
+    },
+    {
+      "num": 22,
+      "text": "Jesus answered, \"I tell you, not just seven times, but seventy-seven times!"
+    },
+    {
+      "num": 23,
+      "text": "Because of this, the kingdom of heaven is like a king who wanted to settle accounts with his servants."
+    },
+    {
+      "num": 24,
+      "text": "As he began the settlements, a debtor owing ten thousand talents was brought to him."
+    },
+    {
+      "num": 25,
+      "text": "Since the man was unable to pay, the master ordered that he be sold to pay his debt, along with his wife and children and everything he owned."
+    },
+    {
+      "num": 26,
+      "text": "Then the servant fell on his knees before him. 'Have patience with me,' he begged, 'and I will pay back everything.'"
+    },
+    {
+      "num": 27,
+      "text": "His master had compassion on him, forgave his debt, and released him."
+    },
+    {
+      "num": 28,
+      "text": "But when that servant went out, he found one of his fellow servants who owed him a hundred denarii. He grabbed him and began to choke him, saying, 'Pay back what you owe me!'"
+    },
+    {
+      "num": 29,
+      "text": "So his fellow servant fell down and begged him, 'Have patience with me, and I will pay you back.'"
+    },
+    {
+      "num": 30,
+      "text": "But he refused. Instead, he went and had the man thrown into prison until he could pay his debt."
+    },
+    {
+      "num": 31,
+      "text": "When his fellow servants saw what had happened, they were greatly distressed, and they went and recounted all of this to their master."
+    },
+    {
+      "num": 32,
+      "text": "Then the master summoned him and said, 'You wicked servant! I forgave all your debt because you begged me."
+    },
+    {
+      "num": 33,
+      "text": "Shouldn't you have had mercy on your fellow servant, just as I had on you?'"
+    },
+    {
+      "num": 34,
+      "text": "In anger his master turned him over to the jailers to be tortured, until he should repay all that he owed."
+    },
+    {
+      "num": 35,
+      "text": "That is how My heavenly Father will treat each of you unless you forgive your brother from your heart.\""
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Teaching discourse \u2014 the fourth of Jesus' five major blocks of teaching in Matthew, focused entirely on how the community of disciples should treat one another.",
+    "audience": "Jesus' disciples directly, and by extension every faith community reading Matthew's Gospel afterward, on questions of humility, care for the vulnerable, conflict, and forgiveness.",
+    "mapLabel": "GALILEE",
+    "setting": "In first-century Judea, children held essentially no social status \u2014 placing a child at the literal center of the discussion in v.2 upends the disciples' assumptions about greatness before Jesus says a word.",
+    "custom": "Millstones (v.6) were massive circular stones, typically turned by a donkey, far too heavy to be a casual image \u2014 the horror of being drowned with one tied to the neck is the entire point. Legal disputes in Israel were customarily settled by private discussion first, then escalated to two or three witnesses per Deuteronomy 19:15, the exact process Jesus outlines in v.15-17.",
+    "timelineImmediate": "Follows directly after the disciples' question about greatness, prompted likely by rivalry stirred up after Peter's prominent role in the previous two chapters \u2014 Jesus redirects the whole conversation toward humility, protection of the vulnerable, and forgiveness.",
+    "timelineBible": "\"Seventy-seven times\" (v.22) directly reverses Lamech's ancient boast of violent revenge in Genesis 4:24 \u2014 where Lamech vowed seventy-sevenfold vengeance, Jesus commands seventy-sevenfold mercy instead.",
+    "translation": [
+      {
+        "english": "little ones",
+        "greek": "\u03bc\u03b9\u03ba\u03c1\u1ff6\u03bd (mikr\u014dn)",
+        "verseRef": "v.6, 10, 14",
+        "meaning": "Can refer to children literally, or more broadly to vulnerable, young-in-faith believers \u2014 Jesus' warnings apply to both readings.",
+        "occurrences": {
+          "total": 46,
+          "sampleRefs": [
+            "Mark 9:42",
+            "Luke 19:3",
+            "1 Corinthians 5:6"
+          ],
+          "note": "This broader word covers anything small \u2014 a little while, a little faith, a little flock. The specific phrase \"little ones\" for vulnerable people appears just 3 times, all here in this chapter."
+        }
+      },
+      {
+        "english": "stumble",
+        "greek": "\u03c3\u03ba\u03b1\u03bd\u03b4\u03b1\u03bb\u03af\u03c3\u1fc3 (skandalis\u0113)",
+        "verseRef": "v.6-9",
+        "meaning": "To cause someone to fall into sin \u2014 related to the word for a trap's trigger mechanism.",
+        "occurrences": {
+          "total": 29,
+          "sampleRefs": [
+            "Matthew 26:31",
+            "John 16:1",
+            "Romans 14:21"
+          ]
+        }
+      },
+      {
+        "english": "won your brother over",
+        "greek": "\u1f10\u03ba\u03ad\u03c1\u03b4\u03b7\u03c3\u03b1\u03c2 (ekerd\u0113sas)",
+        "verseRef": "v.15",
+        "meaning": "Literally \"gained\" \u2014 a commercial term repurposed for relational restoration, framing reconciliation as something genuinely won back.",
+        "occurrences": {
+          "total": 16,
+          "sampleRefs": [
+            "Matthew 16:26",
+            "1 Corinthians 9:19-22",
+            "James 4:13"
+          ]
+        }
+      },
+      {
+        "english": "seventy-seven times",
+        "greek": "\u1f11\u03b2\u03b4\u03bf\u03bc\u03b7\u03ba\u03bf\u03bd\u03c4\u03ac\u03ba\u03b9\u03c2 \u1f11\u03c0\u03c4\u03ac (hebdom\u0113kontakis hepta)",
+        "verseRef": "v.22",
+        "meaning": "Could also be read \"seventy times seven\" \u2014 either way, the number signals limitless forgiveness, not a literal ceiling to count toward."
+      },
+      {
+        "english": "compassion",
+        "greek": "\u03c3\u03c0\u03bb\u03b1\u03b3\u03c7\u03bd\u03b9\u03c3\u03b8\u03b5\u1f76\u03c2 (splanchnistheis)",
+        "verseRef": "v.27",
+        "meaning": "The same visceral empathy word used for Jesus elsewhere \u2014 here describing the king's motive for forgiving an impossible debt.",
+        "occurrences": {
+          "total": 12,
+          "sampleRefs": [
+            "Mark 6:34",
+            "Luke 10:33",
+            "Luke 15:20"
+          ],
+          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables \u2014 including this king, the good Samaritan, and the father of the prodigal son."
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Mark 9:33-41",
+        "note": "Mark's shorter parallel to the dispute about greatness.",
+        "verses": "1-6"
+      },
+      {
+        "ref": "Luke 15:1-7",
+        "note": "Luke's version of the lost sheep parable, in a slightly different context.",
+        "verses": "10-14"
+      },
+      {
+        "ref": "Luke 17:1-4",
+        "note": "Luke's parallel warning about causing others to stumble.",
+        "verses": "6-9"
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 19:15",
+        "note": "The two-or-three-witnesses principle Jesus applies directly to church conflict in v.16."
+      },
+      {
+        "ref": "Genesis 4:24",
+        "note": "Lamech's boast of sevenfold, then seventy-sevenfold revenge \u2014 reversed by Jesus into a command for limitless forgiveness."
+      },
+      {
+        "ref": "Ezekiel 34:2-10",
+        "note": "God's rebuke of shepherds who neglect and harm the flock, background for the warnings about \"little ones\" in v.6-10."
+      }
+    ],
+    "mapCoords": {
+      "lat": 32.8807,
+      "lng": 35.5753,
+      "zoom": 7.5,
+      "placeName": "Galilee"
+    },
+    "sparkNotes": "Asked who is greatest in the kingdom, Jesus places a child at the center and teaches forgiveness without limit. \"Won your brother over\" is a commercial term for financial gain repurposed for reconciliation, and Jesus' call for seventy-seven-fold forgiveness directly reverses Lamech's boast of violent revenge in Genesis 4:24.",
+    "commentary": [
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry notes Peter's proposed cap on forgiveness \u2014 seven times \u2014 already sounded generous to him, likely drawing on Proverbs 24:16's \"a just man falls seven times.\" Jesus' answer isn't a new, larger number to count toward, but a refusal to count at all: \"it does not look well for us to keep count of the offences done against us.\"",
+        "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_018.cfm"
+      },
+      {
+        "source": "Adam Clarke",
+        "year": "1810s",
+        "note": "Clarke does the actual math on the unforgiving servant's debt: ten thousand talents of gold would equal roughly \u00a367.5 million sterling \u2014 by his reckoning, equal to the entire annual revenue of the British Empire in his own day. He also connects \"seventy times seven\" directly back to Lamech's boast of vengeance in Genesis 4:24, reading Jesus' number as a deliberate reversal of that ancient threat.",
+        "url": "https://sacred-texts.com/bib/cmt/clarke/mat018.htm"
+      },
+      {
+        "source": "Albert Barnes",
+        "year": "1832",
+        "note": "Barnes grounds the millstone image in real detail \u2014 the Greek specifies the large kind turned by a mule or donkey, not the small handheld sort, making the punishment described genuinely severe rather than a loose figure of speech.",
+        "url": "https://www.scripturespot.com/commentators/albert-barnes/commentaries/matthew/18/6"
+      }
+    ],
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Vignon_-_Parable_of_the_Unforgiving_Servant.jpg",
+      "caption": "Parable of the Unforgiving Servant, by Claude Vignon (17th century)",
+      "credit": "Public domain \u2014 Wikimedia Commons"
+    }
+  }
+}

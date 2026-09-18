@@ -1,0 +1,270 @@
+{
+  "book": "Matthew",
+  "chapter": 7,
+  "title": "The Narrow Gate",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "\"Do not judge, or you will be judged."
+    },
+    {
+      "num": 2,
+      "text": "For with the same judgment you pronounce, you will be judged, and with the measure you use, it will be measured to you."
+    },
+    {
+      "num": 3,
+      "text": "Why do you look at the speck in your brother's eye but fail to notice the beam in your own eye?"
+    },
+    {
+      "num": 4,
+      "text": "How can you say to your brother, 'Let me take the speck out of your eye,' while there is still a beam in your own eye?"
+    },
+    {
+      "num": 5,
+      "text": "You hypocrite! First take the beam out of your own eye, and then you will see clearly to remove the speck from your brother's eye."
+    },
+    {
+      "num": 6,
+      "text": "Do not give dogs what is holy; do not throw your pearls before swine. If you do, they may trample them under their feet, and then turn and tear you to pieces."
+    },
+    {
+      "num": 7,
+      "text": "Ask, and it will be given to you; seek, and you will find; knock, and the door will be opened to you."
+    },
+    {
+      "num": 8,
+      "text": "For everyone who asks receives; he who seeks finds; and to him who knocks, the door will be opened."
+    },
+    {
+      "num": 9,
+      "text": "Which of you, if his son asks for bread, will give him a stone?"
+    },
+    {
+      "num": 10,
+      "text": "Or if he asks for a fish, will give him a snake?"
+    },
+    {
+      "num": 11,
+      "text": "So if you who are evil know how to give good gifts to your children, how much more will your Father in heaven give good things to those who ask Him!"
+    },
+    {
+      "num": 12,
+      "text": "In everything, then, do to others as you would have them do to you. For this is the essence of the Law and the Prophets."
+    },
+    {
+      "num": 13,
+      "text": "Enter through the narrow gate. For wide is the gate and broad is the way that leads to destruction, and many enter through it."
+    },
+    {
+      "num": 14,
+      "text": "But small is the gate and narrow the way that leads to life, and only a few find it."
+    },
+    {
+      "num": 15,
+      "text": "Beware of false prophets. They come to you in sheep's clothing, but inwardly they are ravenous wolves."
+    },
+    {
+      "num": 16,
+      "text": "By their fruit you will recognize them. Are grapes gathered from thornbushes, or figs from thistles?"
+    },
+    {
+      "num": 17,
+      "text": "Likewise, every good tree bears good fruit, but a bad tree bears bad fruit."
+    },
+    {
+      "num": 18,
+      "text": "A good tree cannot bear bad fruit, and a bad tree cannot bear good fruit."
+    },
+    {
+      "num": 19,
+      "text": "Every tree that does not bear good fruit is cut down and thrown into the fire."
+    },
+    {
+      "num": 20,
+      "text": "So then, by their fruit you will recognize them."
+    },
+    {
+      "num": 21,
+      "text": "Not everyone who says to Me, 'Lord, Lord,' will enter the kingdom of heaven, but only he who does the will of My Father in heaven."
+    },
+    {
+      "num": 22,
+      "text": "Many will say to Me on that day, 'Lord, Lord, did we not prophesy in Your name, and in Your name drive out demons and perform many miracles?'"
+    },
+    {
+      "num": 23,
+      "text": "Then I will tell them plainly, 'I never knew you; depart from Me, you workers of lawlessness!'"
+    },
+    {
+      "num": 24,
+      "text": "Therefore everyone who hears these words of Mine and acts on them is like a wise man who built his house on the rock."
+    },
+    {
+      "num": 25,
+      "text": "The rain fell, the torrents raged, and the winds blew and beat against that house; yet it did not fall, because its foundation was on the rock."
+    },
+    {
+      "num": 26,
+      "text": "But everyone who hears these words of Mine and does not act on them is like a foolish man who built his house on sand."
+    },
+    {
+      "num": 27,
+      "text": "The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell \u2014 and great was its collapse!\""
+    },
+    {
+      "num": 28,
+      "text": "When Jesus had finished saying these things, the crowds were astonished at His teaching,"
+    },
+    {
+      "num": 29,
+      "text": "because He taught as one who had authority, and not as their scribes."
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Teaching discourse \u2014 the closing section of the Sermon on the Mount, moving through a series of short, image-driven sayings.",
+    "audience": "The same Galilean crowd, plus Jewish-Christian readers weighing whether Jesus' authority exceeded that of their own scribes.",
+    "mapLabel": "A GALILEAN HILLSIDE, NEAR CAPERNAUM",
+    "setting": "This chapter closes the Sermon on the Mount. Jesus is still early in His ministry, gathering disciples and redefining righteousness beyond the traditions of the scribes and Pharisees.",
+    "custom": "Narrow city gates forced travelers to set down baggage before entering \u2014 a vivid image behind v.13-14. Sudden winter rains in the region could turn dry wadis into raging torrents, sweeping away homes without a solid foundation, the backdrop for the closing parable.",
+    "timelineImmediate": "The conclusion of the Sermon on the Mount (chapters 5-7) \u2014 still early in Jesus' public ministry, before He descends the mountain in chapter 8.",
+    "timelineBible": "The crowd's astonishment that Jesus taught \"as one who had authority\" (v.29) echoes Isaiah's prophecy that the Spirit of wisdom and authority would rest on the coming Messiah (Isaiah 11:2).",
+    "translation": [
+      {
+        "english": "judge",
+        "greek": "\u03ba\u03c1\u03af\u03bd\u03c9 (krin\u014d)",
+        "verseRef": "v.1-2",
+        "meaning": "To form a critical, condemning opinion \u2014 Jesus targets the condemning spirit, not ordinary discernment.",
+        "occurrences": {
+          "total": 114,
+          "sampleRefs": [
+            "John 3:17",
+            "Romans 14:13",
+            "James 4:12"
+          ]
+        }
+      },
+      {
+        "english": "ask / seek / knock",
+        "greek": "\u03b1\u1f30\u03c4\u03ad\u03c9 / \u03b6\u03b7\u03c4\u03ad\u03c9 / \u03ba\u03c1\u03bf\u03cd\u03c9 (aite\u014d / z\u0113te\u014d / krou\u014d)",
+        "verseRef": "v.7-8",
+        "meaning": "All three verbs are present imperatives, implying continuous, persistent action rather than a single request.",
+        "occurrences": {
+          "total": 70,
+          "sampleRefs": [
+            "Matthew 21:22",
+            "James 4:2-3",
+            "1 John 5:16"
+          ],
+          "note": "Figure given is for \"ask\" (aite\u014d) alone \u2014 \"seek\" (z\u0113te\u014d, 117x) and \"knock\" (krou\u014d, 9x) each carry their own separate count."
+        }
+      },
+      {
+        "english": "narrow",
+        "greek": "\u03c3\u03c4\u03b5\u03bd\u03cc\u03c2 (stenos)",
+        "verseRef": "v.13-14",
+        "meaning": "Implies constriction \u2014 a way that requires setting things down to pass through, not just a smaller road.",
+        "occurrences": {
+          "total": 3,
+          "sampleRefs": [
+            "Matthew 7:14",
+            "Luke 13:24"
+          ],
+          "note": "Used only three times in the entire New Testament, always for this same narrow-gate image."
+        }
+      },
+      {
+        "english": "fruit",
+        "greek": "\u03ba\u03b1\u03c1\u03c0\u03cc\u03c2 (karpos)",
+        "verseRef": "v.16-20",
+        "meaning": "The visible, tangible outcome of a life or teaching \u2014 Jesus' test for genuine versus false prophets.",
+        "occurrences": {
+          "total": 66,
+          "sampleRefs": [
+            "John 15:2",
+            "Galatians 5:22",
+            "Ephesians 5:9"
+          ]
+        }
+      },
+      {
+        "english": "authority",
+        "greek": "\u1f10\u03be\u03bf\u03c5\u03c3\u03af\u03b1 (exousia)",
+        "verseRef": "v.29",
+        "meaning": "Rightful power and command \u2014 what set Jesus apart from the scribes, who typically taught by citing prior rabbis.",
+        "occurrences": {
+          "total": 102,
+          "sampleRefs": [
+            "Matthew 28:18",
+            "John 5:27",
+            "Romans 13:1"
+          ]
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Luke 6:37-42",
+        "note": "Luke's parallel teaching on judging others and the speck and the beam.",
+        "verses": "1-6"
+      },
+      {
+        "ref": "Luke 11:5-13",
+        "note": "Luke's version of \"ask, seek, knock,\" expanded with the parable of the persistent friend.",
+        "verses": "7-11"
+      },
+      {
+        "ref": "Luke 6:46-49",
+        "note": "Luke's version of the wise and foolish builders.",
+        "verses": "24-27"
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Leviticus 19:17-18",
+        "note": "\"Do not hate your brother in your heart... rebuke your neighbor frankly\" \u2014 background for the teaching on judgment."
+      },
+      {
+        "ref": "Deuteronomy 30:19",
+        "note": "Israel set before \"life and death... choose life\" \u2014 an early version of the two-ways image behind the narrow gate."
+      },
+      {
+        "ref": "Psalm 1",
+        "note": "Paints the same two paths \u2014 one blessed, one perishing \u2014 that Jesus develops throughout this chapter."
+      }
+    ],
+    "mapCoords": {
+      "lat": 32.8756,
+      "lng": 35.545,
+      "zoom": 9.5,
+      "placeName": "Mount of Beatitudes, near Capernaum"
+    },
+    "sparkNotes": "The Sermon closes with warnings against judging others and the choice between a narrow and a broad gate. \"Narrow\" appears only three times in the entire New Testament, always for this same image \u2014 while \"judge\" (114 uses) shows just how often the New Testament returns to this exact warning.",
+    "commentary": [
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry reads \"judge not\" as forbidding us from sitting in a seat that isn't ours \u2014 we may judge our own actions, but not assume the authority to pronounce on someone else's heart or eternal state, since that belongs to God alone. He treats the wise and foolish builders as two audiences, not two doctrines: both hear the same sermon, but only one actually does what it says.",
+        "url": "https://biblehub.com/commentaries/mhc/matthew/7.htm"
+      },
+      {
+        "source": "Adam Clarke",
+        "year": "1810s",
+        "note": "Clarke notes the Greek word order in v.6 is naturally reversed for clarity in translation \u2014 \"dogs\" pairs with \"rend you\" and \"swine\" with \"trample underfoot,\" a common stylistic transposition in ancient writing. He also calls the Golden Rule the sum of everything the Law and Prophets teach about how people ought to treat one another.",
+        "url": "https://sacred-texts.com/bib/cmt/clarke/mat007.htm"
+      },
+      {
+        "source": "John Gill",
+        "year": "1740s",
+        "note": "Gill reads \"pearls before swine\" less as a blanket rule about withholding truth, and more as caution specifically about persistent, ill-natured rebuke \u2014 continuing to press correction on someone who has clearly shown no openness to receiving it, where the effort risks real loss and produces only hostility in return.",
+        "url": "https://www.studylight.org/commentary/matthew/7-6.html"
+      }
+    ],
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dore_Bible_Sermon_on_the_Mount.jpg",
+      "caption": "The Sermon on the Mount, by Gustave Dor\u00e9 (1866)",
+      "credit": "Public domain \u2014 Wikimedia Commons"
+    }
+  }
+}
