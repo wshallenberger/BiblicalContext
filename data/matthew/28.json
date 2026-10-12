@@ -1,0 +1,212 @@
+{
+  "book": "Matthew",
+  "chapter": 28,
+  "title": "The Resurrection",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "After the Sabbath, at dawn on the first day of the week, Mary Magdalene and the other Mary went to see the tomb."
+    },
+    {
+      "num": 2,
+      "text": "Suddenly there was a great earthquake, for an angel of the Lord descended from heaven, rolled away the stone, and sat on it."
+    },
+    {
+      "num": 3,
+      "text": "His appearance was like lightning, and his clothes were white as snow."
+    },
+    {
+      "num": 4,
+      "text": "The guards trembled in fear of him and became like dead men."
+    },
+    {
+      "num": 5,
+      "text": "But the angel said to the women, \"Do not be afraid, for I know that you are looking for Jesus, who was crucified."
+    },
+    {
+      "num": 6,
+      "text": "He is not here; He has risen, just as He said! Come, see the place where He lay."
+    },
+    {
+      "num": 7,
+      "text": "Then go quickly and tell His disciples, 'He has risen from the dead and is going ahead of you into Galilee. There you will see Him.' See, I have told you.\""
+    },
+    {
+      "num": 8,
+      "text": "So they hurried away from the tomb in fear and great joy, and ran to tell His disciples."
+    },
+    {
+      "num": 9,
+      "text": "Suddenly Jesus met them and said, \"Greetings!\" They came to Him, grasped His feet, and worshiped Him."
+    },
+    {
+      "num": 10,
+      "text": "\"Do not be afraid,\" said Jesus. \"Go and tell My brothers to go to Galilee. There they will see Me.\""
+    },
+    {
+      "num": 11,
+      "text": "While the women were on their way, some of the guards went into the city and reported to the chief priests all that had happened."
+    },
+    {
+      "num": 12,
+      "text": "And after the chief priests had met with the elders and formed a plan, they gave the soldiers a large sum of money"
+    },
+    {
+      "num": 13,
+      "text": "and instructed them: \"You are to say, 'His disciples came by night and stole Him away while we were asleep.'"
+    },
+    {
+      "num": 14,
+      "text": "If this report reaches the governor, we will satisfy him and keep you out of trouble.\""
+    },
+    {
+      "num": 15,
+      "text": "So the guards took the money and did as they were instructed. And this account has been circulated among the Jews to this very day."
+    },
+    {
+      "num": 16,
+      "text": "Meanwhile, the eleven disciples went to Galilee, to the mountain Jesus had designated."
+    },
+    {
+      "num": 17,
+      "text": "When they saw Him, they worshiped Him, but some doubted."
+    },
+    {
+      "num": 18,
+      "text": "Then Jesus came to them and said, \"All authority in heaven and on earth has been given to Me."
+    },
+    {
+      "num": 19,
+      "text": "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,"
+    },
+    {
+      "num": 20,
+      "text": "and teaching them to obey all that I have commanded you. And surely I am with you always, even to the end of the age.\""
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Narrative closing with direct commissioning speech \u2014 the empty tomb, the risen Jesus meeting the women, the authorities' cover-up attempt, and the Great Commission that ends the Gospel.",
+    "audience": "Jewish-Christian readers, given the climactic resolution to everything the Gospel has pointed toward since chapter 16's first passion prediction \u2014 and sent outward, in the closing verses, toward the whole world.",
+    "mapLabel": "THE TOMB, JERUSALEM \u2192 A MOUNTAIN IN GALILEE",
+    "setting": "Dawn on the first day of the week \u2014 Sunday, following the Sabbath rest. Roman guard units assigned to a tomb typically numbered four to sixteen soldiers; falling asleep on duty carried the death penalty, which explains why they needed a substantial bribe to accept blame for an empty tomb.",
+    "custom": "Women preparing to visit and anoint a body (implied here, explicit in the other Gospels) reflects standard first-century burial custom \u2014 visiting a tomb on the third day was also common practice, intended to confirm death had truly occurred.",
+    "timelineImmediate": "This is the Gospel's climax and closing scene \u2014 the empty tomb resolves everything Jesus predicted about His own death and resurrection, and the Great Commission on the Galilean mountain closes the book by sending the story forward into the disciples' \u2014 and the reader's \u2014 own future.",
+    "timelineBible": "Jesus' resurrection ministry deliberately returns to Galilee (v.7, 16) \u2014 the same region where His public ministry first began in chapter 4 \u2014 framing the whole Gospel as a journey that starts and ends in the same place, now sending outward to \"all nations\" rather than staying local.",
+    "translation": [
+      {
+        "english": "He has risen",
+        "greek": "\u1f20\u03b3\u03ad\u03c1\u03b8\u03b7 (\u0113gerth\u0113)",
+        "verseRef": "v.6",
+        "meaning": "A passive verb form \u2014 implying God's own action in raising Jesus, rather than Jesus raising Himself under His own power alone.",
+        "occurrences": {
+          "total": 144,
+          "sampleRefs": [
+            "John 5:21",
+            "1 Corinthians 15:15",
+            "James 5:15"
+          ],
+          "note": "A very common word overall (also used for ordinary waking or healing) \u2014 its meaning here comes entirely from context, not rarity."
+        }
+      },
+      {
+        "english": "make disciples",
+        "greek": "\u03bc\u03b1\u03b8\u03b7\u03c4\u03b5\u03cd\u03c3\u03b1\u03c4\u03b5 (math\u0113teusate)",
+        "verseRef": "v.19",
+        "meaning": "Not merely \"convert\" but form into committed, lifelong learners and followers \u2014 a deeper, ongoing relationship than a single decision.",
+        "occurrences": {
+          "total": 4,
+          "sampleRefs": [
+            "Matthew 13:52",
+            "Matthew 27:57",
+            "Acts 14:21"
+          ],
+          "note": "Used only four times in the whole New Testament \u2014 and three of those four are in Matthew alone."
+        }
+      },
+      {
+        "english": "all authority",
+        "greek": "\u03c0\u1fb6\u03c3\u03b1 \u1f10\u03be\u03bf\u03c5\u03c3\u03af\u03b1 (pasa exousia)",
+        "verseRef": "v.18",
+        "meaning": "Complete, comprehensive authority \u2014 echoing Daniel 7:14's vision of the Son of Man receiving dominion, glory, and a kingdom from God directly.",
+        "occurrences": {
+          "total": 102,
+          "sampleRefs": [
+            "Matthew 7:29",
+            "John 5:27",
+            "Romans 13:1"
+          ]
+        }
+      },
+      {
+        "english": "to the end of the age",
+        "greek": "\u1f15\u03c9\u03c2 \u03c4\u1fc6\u03c2 \u03c3\u03c5\u03bd\u03c4\u03b5\u03bb\u03b5\u03af\u03b1\u03c2 \u03c4\u03bf\u1fe6 \u03b1\u1f30\u1ff6\u03bd\u03bf\u03c2 (he\u014ds t\u0113s synteleias tou ai\u014dnos)",
+        "verseRef": "v.20",
+        "meaning": "Until the completion of the present world order \u2014 Jesus' promised presence isn't temporary but spans the entire era of the Gospel's proclamation."
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Mark 16:1-8",
+        "note": "Mark's account of the empty tomb, ending abruptly with the women's fear and amazement.",
+        "verses": "1-10"
+      },
+      {
+        "ref": "Luke 24:1-12",
+        "note": "Luke's version, which adds the road to Emmaus and a Jerusalem appearance.",
+        "verses": "1-10"
+      },
+      {
+        "ref": "John 20-21",
+        "note": "John's fuller account, including Thomas's doubt and a breakfast appearance by the Sea of Galilee."
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Daniel 7:13-14",
+        "note": "The Son of Man receiving all authority, glory, and an everlasting kingdom \u2014 directly echoed in Jesus' declaration in v.18."
+      },
+      {
+        "ref": "Genesis 12:3",
+        "note": "God's promise that all nations would be blessed through Abraham's offspring \u2014 finding its fulfillment in the Great Commission's reach to \"all nations.\""
+      },
+      {
+        "ref": "Psalm 16:10",
+        "note": "\"You will not abandon my soul to Sheol\" \u2014 read by the early church as a resurrection prophecy fulfilled in this chapter."
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7784,
+      "lng": 35.2297,
+      "zoom": 8.5,
+      "placeName": "The tomb, Jerusalem"
+    },
+    "sparkNotes": "Women find the tomb empty, and Jesus commissions His eleven disciples in Galilee to make disciples of all nations. \"Make disciples\" appears only four times in the whole New Testament, three of them in Matthew alone \u2014 and Jesus' claim to \"all authority\" directly echoes Daniel 7:13-14's vision of dominion given to the Son of Man.",
+    "commentary": [
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry sees deliberate design in a small detail people often skip past: God ordered it so that witnesses would see Christ risen, but not actually see him rise \u2014 the same principle, he notes, that governed the incarnation itself, \"a mystery... so was this second incarnation.\" He also poetically contrasts the earth's two reactions: it \"shook for fear\" receiving Christ's body at death, then \"leaped for joy\" at His exaltation in the resurrection earthquake.",
+        "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_028.cfm"
+      },
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "On the soldiers' bribed cover story, Henry notes it had remarkable staying power \u2014 citing Justin Martyr's record that the Jewish authorities were still circulating this same fabricated \"stolen body\" explanation to Jewish communities abroad decades later, treating it as a deliberate, sustained campaign rather than a one-time lie.",
+        "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/matthew/28"
+      },
+      {
+        "source": "John Gill",
+        "year": "1740s",
+        "note": "Gill makes a careful grammatical point about 'teach all nations, baptizing them': in the Greek, 'them' doesn't grammatically match 'all nations' (a neuter noun) but rather 'disciples,' implied by the verb 'make disciples' just before it \u2014 meaning the command is to baptize those actually taught and won as disciples, not indiscriminately baptize entire populations.",
+        "url": "https://johngill.thekingsbible.com/CommentaryVerse/40/28/19"
+      }
+    ],
+    "historicalImage": {
+      "url": "https://www.gutenberg.org/files/8710/8710-h/images/091.jpg",
+      "caption": "The Angel at the Sepulcher, by Gustave Dor\u00e9 (1866)",
+      "credit": "Public domain \u2014 Project Gutenberg"
+    }
+  }
+}

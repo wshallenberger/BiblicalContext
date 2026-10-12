@@ -167,6 +167,8 @@ function ensureLiveMap() {
   });
 
   liveMap.on('load', () => {
+    const cc = currentChapterData && currentChapterData.context;
+    if (cc && cc.biblePlaces) { bibleOnlyStyle(liveMap); return; }
     const el = document.createElement('div');
     el.style.cssText = `
       width:26px;height:26px;
@@ -182,6 +184,42 @@ function ensureLiveMap() {
   });
 }
 
+
+// ---------- Bible-only place layer (data from OpenBible.info, CC BY 4.0) ----------
+function bibleOnlyStyle(map) {
+  const layers = (map.getStyle().layers || []);
+  layers.forEach(l => {
+    const id = l.id.toLowerCase();
+    if (l.type === 'symbol' || /road|bridge|tunnel|rail|aeroway|boundary|housenumber|poi|building/.test(id)) {
+      try { map.setLayoutProperty(l.id, 'visibility', 'none'); } catch (e) {}
+    }
+  });
+}
+function makeBibleMarker(pl, interactive, bookLabel, chapter) {
+  const el = document.createElement('div');
+  el.className = 'bp-marker';
+  el.innerHTML = '<span class="bp-dot"></span><span class="bp-label">' + pl.name + '</span>';
+  el.style.pointerEvents = interactive ? 'auto' : 'none';
+  return el;
+}
+function addBibleMarkers(map, ctx, interactive, store) {
+  (store || []).forEach(m => m.remove());
+  const out = [];
+  (ctx.biblePlaces || []).forEach(pl => {
+    const el = makeBibleMarker(pl, interactive);
+    const m = new maplibregl.Marker({ element: el, anchor: 'left' }).setLngLat([pl.lng, pl.lat]).addTo(map);
+    if (interactive) {
+      const refs = (pl.verses || []).map(v => currentChapterData.chapter + ':' + v).join(', ');
+      const pop = new maplibregl.Popup({ offset: 12, closeButton: false })
+        .setHTML('<b>' + pl.name + '</b><br><span style="font-size:11px">' + currentChapterData.book + ' ' + refs + '</span>');
+      m.setPopup(pop);
+    }
+    out.push(m);
+  });
+  return out;
+}
+let liveBibleMarkers = [];
+
 let liveMapMarker = null;
 
 function updateLiveMap(coords, placeName) {
@@ -190,7 +228,12 @@ function updateLiveMap(coords, placeName) {
   const setPos = () => {
     liveMap.jumpTo({ center: [coords.lng, coords.lat], zoom: coords.zoom || 12 });
     if (liveMapMarker) liveMapMarker.setLngLat([coords.lng, coords.lat]);
+    const cc = currentChapterData && currentChapterData.context;
+    if (cc && cc.biblePlaces) { bibleOnlyStyle(liveMap); if (liveMapMarker) liveMapMarker.remove(); }
   };
+  { const cc = currentChapterData && currentChapterData.context;
+    if (cc && cc.biblePlaces) liveBibleMarkers = addBibleMarkers(liveMap, cc, true, liveBibleMarkers);
+    else { liveBibleMarkers.forEach(m => m.remove()); liveBibleMarkers = []; } }
   if (liveMap.loaded()) setPos(); else liveMap.once('load', setPos);
   requestAnimationFrame(() => liveMap.resize());
 }
@@ -694,6 +737,7 @@ function renderFolderContent() {
     <div class="au-row"><p class="ctx-subhead">GENRE</p><p class="panel-text">${ctx.genre}</p></div>
     <div class="au-row"><p class="ctx-subhead">AUDIENCE</p><p class="panel-text">${ctx.audience}</p></div>`;
   renderOverview(ctx);
+  fillTemplateTabs(ctx);
 
   document.getElementById('translationHeading').textContent =
     `Key words across ${currentChapterData.book} ${currentChapterData.chapter}`;
@@ -863,6 +907,36 @@ async function openHarmony(bookA, chA, verseStartA, verseEndA, bookB, chB, verse
   goToScreen('harmony');
 }
 
+// Ignore taps that are really scroll gestures: a tap that stops momentum scrolling, or a touch that moved.
+let lastOvScroll = 0, ovTouchMoved = false, ovTouchX = 0, ovTouchY = 0;
+(function () {
+  const fc = document.getElementById('folderContent');
+  fc.addEventListener('scroll', () => { lastOvScroll = Date.now(); }, { passive: true });
+  fc.addEventListener('touchstart', e => { ovTouchMoved = false; ovTouchX = e.touches[0].clientX; ovTouchY = e.touches[0].clientY; }, { passive: true });
+  fc.addEventListener('touchmove', e => {
+    if (Math.abs(e.touches[0].clientX - ovTouchX) > 8 || Math.abs(e.touches[0].clientY - ovTouchY) > 8) ovTouchMoved = true;
+  }, { passive: true });
+})();
+
+function fillTemplateTabs(ctx) {
+  const ov = ctx.overview || {};
+  const arch = document.querySelector('[data-panel="archaeology"]');
+  if (arch) {
+    const img = ov.archaeologyImage;
+    const items = Array.isArray(ov.archaeology) ? ov.archaeology : [];
+    arch.innerHTML = '<p class="panel-eyebrow">ARCHAEOLOGY</p>' +
+      (img && img.url ? `<div class="arch-photo"><img src="${displayImageUrl(img.url)}" alt="${escHtml(img.name || '')}" loading="lazy" decoding="async" onerror="this.parentNode.remove()"><span>${escHtml(img.name || '')}</span></div>` : '') +
+      (items.length ? items.map(x => `<div class="au-row"><p class="ctx-subhead">${escHtml(x.h)}</p><p class="panel-text">${escHtml(x.t)}</p></div>`).join('') + '<p class="panel-text dim">Fuller write-ups coming soon.</p>'
+        : '<div class="tpl-card"><p class="panel-text dim" style="margin:0;">Sites, digs and artifacts tied to this chapter. Coming soon.</p></div>');
+  }
+  const dis = document.querySelector('[data-panel="discussion"]');
+  if (dis) {
+    dis.innerHTML = '<p class="panel-eyebrow">THEOLOGY &amp; DISCUSSION</p>' +
+      (ov.discussion ? `<div class="au-row"><p class="ctx-subhead">TO THINK ABOUT</p><p class="panel-text">${escHtml(ov.discussion)}</p></div><p class="panel-text dim">More theology notes and questions coming soon.</p>`
+        : '<div class="tpl-card"><p class="panel-text dim" style="margin:0;">Theology notes and open discussion questions for this chapter. Coming soon.</p></div>');
+  }
+}
+
 // ---------- Overview tab (only for chapters that carry context.overview) ----------
 function escHtml(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -896,12 +970,12 @@ function renderOverview(ctx) {
   }).join('') + '</span>';
   const clip = (s, n) => { s = String(s).replace(/<[^>]*>/g, ''); return s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : s; };
   const firstSentence = s => { s = String(s).replace(/<[^>]*>/g, '').trim(); const m = s.match(/^(.+?)([.:])(\s|$)/); return m ? m[1] + '.' : s; };
-  const seg = v => Array.isArray(v)
-    ? '<span class="ov-segs">' + v.map(x => `<span class="ov-seg"><b>${escHtml(x.h)}</b><span>${escHtml(x.t)}</span></span>`).join('') + '</span>'
+  const seg = (v, col) => Array.isArray(v)
+    ? '<span class="ov-segs">' + v.map(x => `<span class="ov-seg"><b style="color:${col}">${escHtml(x.h)}</b><span>${escHtml(x.t)}</span></span>`).join('') + '</span>'
     : `<span class="ov-sn ov-sn6">${escHtml(v || '')}</span>`;
   const refLine = r => `<span class="ov-ref"><b>${escHtml(r.ref)}</b><span>${escHtml((ov.refNotes && ov.refNotes[r.ref]) || clip(r.note, 22))}</span></span>`;
-  const refs = '<span class="ov-subh">GOSPEL PARALLELS</span>' + (ctx.gospelParallels || []).slice(0, 1).map(refLine).join('') +
-    '<span class="ov-subh" style="margin-top:4px;">OLD TESTAMENT</span>' + (ctx.otBackground || []).slice(0, 2).map(refLine).join('');
+  const refs = '<span class="ov-subh" style="color:var(--burgundy)">GOSPEL PARALLELS</span>' + (ctx.gospelParallels || []).slice(0, 1).map(refLine).join('') +
+    '<span class="ov-subh" style="margin-top:4px;color:var(--burgundy)">OLD TESTAMENT</span>' + (ctx.otBackground || []).slice(0, 2).map(refLine).join('');
   const voices = (ctx.commentary || []).slice(0, 2).map((c, i) =>
     `<div class="ov-q"><b>${escHtml(c.source)}</b><span class="ov-qt ov-qt${i}">${escHtml(i === 0 ? firstSentence(c.note) : String(c.note).replace(/<[^>]*>/g, ''))}</span></div>`).join('');
   const tl = (ov.timeline || []).map(t => `<div><b>${escHtml(t.when)}</b>${escHtml(t.label)}</div>`).join('');
@@ -918,33 +992,38 @@ function renderOverview(ctx) {
       ${ctx.currentImage && ctx.currentImage.url
         ? `<button class="ov-blk ov-setblk" data-go="gallery" data-section="setting"><span class="ov-setphoto"><img src="${displayImageUrl(ctx.currentImage.url)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">SETTING<i>›</i></span><span class="ov-placename">${escHtml(place)}</span></span><span class="ov-setdesc">${escHtml(ov.settingLine || '')}</span></button>`
         : block('', 'SETTING', 'var(--verdigris)', 'gallery', `<span class="ov-sn ov-sn3">${escHtml(place)}. ${escHtml(ov.settingLine || '')}</span>`, 'setting')}
-      ${block('', 'HISTORY', 'var(--blue)', 'context', seg(ov.history), 'setting')}
-      ${block('', 'CUSTOMS', 'var(--burgundy)', 'context', seg(ov.customs), 'setting')}
+      ${block('', 'HISTORY', 'var(--blue)', 'context', seg(ov.history, 'var(--verdigris)'), 'setting')}
+      ${block('', 'CUSTOMS', 'var(--burgundy)', 'context', seg(ov.customs, 'var(--blue)'), 'setting')}
       ${block('', 'TRANSLATIONS', 'var(--gold)', 'translation', words)}
       ${img ? `<button class="ov-blk ov-full ov-artblk" data-go="gallery"><img src="${displayImageUrl(img.url)}" alt="${escHtml(img.caption)}" loading="lazy" decoding="async"><span class="ov-artlabel">ART<i>›</i></span><span class="ov-artcap">${escHtml(img.caption)}</span></button>` : block('ov-full', 'ART', 'var(--gold)', 'gallery', '<span class="ov-sn">Artwork coming soon.</span>')}
       ${block('', 'REFERENCES', 'var(--gold)', 'xref', refs)}
       ${block('', 'COMMENTARY', 'var(--burgundy)', 'commentary', voices)}
-      ${block('', 'ARCHAEOLOGY', 'var(--blue)', 'archaeology', ov.archaeology ? seg(ov.archaeology) : '<span class="ov-sn ov-sn3">Sites, digs and artifacts tied to this chapter. Coming soon.</span>')}
-      ${block('', 'AUTHOR', 'var(--verdigris)', 'author', `<span class="ov-aname">${escHtml(ov.author || clip(ctx.author, 70))}</span><span class="ov-kv"><span><em>GENRE</em>${escHtml(ov.genre || String(ctx.genre).split(/[,—.]/)[0])}</span><span><em>AUDIENCE</em>${escHtml(ov.audience || clip(ctx.audience, 60))}</span></span>`, 'writing')}
+      ${ov.archaeologyImage && ov.archaeologyImage.url
+        ? `<button class="ov-blk ov-setblk" data-go="archaeology"><span class="ov-setphoto"><img src="${displayImageUrl(ov.archaeologyImage.url)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">ARCHAEOLOGY<i>›</i></span><span class="ov-placename">${escHtml(ov.archaeologyImage.name || '')}</span></span><span class="ov-setdesc">${escHtml(ov.archaeologyImage.desc || '')}</span></button>`
+        : block('', 'ARCHAEOLOGY', 'var(--blue)', 'archaeology', ov.archaeology ? seg(ov.archaeology, 'var(--gold)') : '<span class="ov-sn ov-sn3">Sites, digs and artifacts tied to this chapter. Coming soon.</span>')}
+      ${block('ov-top', 'AUTHOR', 'var(--verdigris)', 'author', `<span class="ov-aname">${escHtml(ov.author || clip(ctx.author, 70))}</span><span class="ov-kv"><span><em>GENRE</em>${escHtml(ov.genre || String(ctx.genre).split(/[,—.]/)[0])}</span><span><em>AUDIENCE</em>${escHtml(ov.audience || clip(ctx.audience, 60))}</span></span>`, 'writing')}
       ${block('ov-full', 'TIMELINE', 'var(--blue)', 'context', `<span class="ov-rail">${tl}</span>`, 'timeline')}
       <button class="ov-blk ov-soon" data-go="discussion"><span class="ov-h" style="color:var(--verdigris)">DISCUSSION<i>›</i></span><span class="ov-sn ov-sn5">${escHtml(ov.discussion || 'Theology and discussion questions. Coming soon.')}</span></button>
       <div class="ov-blk ov-soon"><span class="ov-h" style="color:var(--burgundy)">PEOPLE &amp; PLACES<i></i></span><ul class="ov-bul">${(ov.peoplePlaces || (ov.people || []).concat(ov.places || []).map(n => ({ n, d: '' }))).map(x => `<li><b>${escHtml(x.n)}</b>${x.d ? ' · ' + escHtml(x.d) : ''}</li>`).join('')}</ul></div>
       <button class="ov-blk ov-soon" data-go="notes"><span class="ov-h" style="color:var(--gold)">NOTES<i>›</i></span><span class="ov-sn ov-sn5">Write your own ideas and questions for this chapter.</span></button>
       <div class="ov-blk ov-soon"><span class="ov-h" style="color:var(--blue)">BOOK OVERVIEW<i></i></span><span class="ov-sn ov-sn5">${escHtml(ov.book || '')}</span></div>
-      <button class="ov-blk ov-full ov-mapblk" data-go="gallery"><span class="ov-maplive" id="ovMapLive"></span><span class="ov-artlabel">MAP<i>›</i></span></button>
+      <button class="ov-blk ov-full ov-mapblk" data-go="gallery"><span class="ov-maplive" id="ovMapLive"></span><span class="ov-artlabel">MAP<i>›</i></span>${ctx.biblePlacesCredit ? `<span class="ov-credit">${escHtml(ctx.biblePlacesCredit)}</span>` : ''}</button>
     </div>`;
 
   const ttl = panel.querySelector('.ov-title');
   const fitTitle = () => { let fs = 17; ttl.style.fontSize = fs + 'px'; while (ttl.scrollWidth > ttl.clientWidth && fs > 10) { fs -= 0.5; ttl.style.fontSize = fs + 'px'; } };
   fitTitle();
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitTitle);
-  const fitWords = () => panel.querySelectorAll('.ov-w1').forEach(el => { let fs = 12; el.style.fontSize = fs + 'px'; while (el.scrollWidth > el.clientWidth && fs > 8) { fs -= 0.5; el.style.fontSize = fs + 'px'; } });
+  const fitWords = () => panel.querySelectorAll('.ov-w1').forEach(el => { let fs = 11.5; el.style.fontSize = fs + 'px'; while (el.scrollWidth > el.clientWidth && fs > 8) { fs -= 0.5; el.style.fontSize = fs + 'px'; } });
   fitWords();
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitWords);
+  if (document.fonts) document.fonts.addEventListener('loadingdone', fitWords);
+  [300, 900, 2000].forEach(t => setTimeout(fitWords, t));
   initOvMap(ctx);
   setTimeout(updateOvMore, 60);
   panel.querySelectorAll('button.ov-blk').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (ev) => {
+      if (Date.now() - lastOvScroll < 350 || ovTouchMoved) { ev.preventDefault(); return; }
       const target = btn.dataset.go;
       setTab(tabOrder.indexOf(target));
       const sec = btn.dataset.section;
@@ -984,11 +1063,20 @@ function initOvMap(ctx) {
       container: el,
       style: 'https://tiles.openfreemap.org/styles/liberty',
       center: [ctx.mapCoords.lng, ctx.mapCoords.lat],
-      zoom: ctx.mapCoords.zoom || 12,
+      zoom: (ctx.mapCoords.zoom || 10) + 2,
       interactive: false,
       attributionControl: false
     });
+    if (ctx.biblePlaces) {
+      addBibleMarkers(ovMap, ctx, false);
+      const near = ctx.biblePlaces.filter(p => Math.abs(p.lat - ctx.mapCoords.lat) < 0.25 && Math.abs(p.lng - ctx.mapCoords.lng) < 0.25);
+      if (near.length > 1) {
+        const lngs = near.map(p => p.lng), lats = near.map(p => p.lat);
+        ovMap.fitBounds([[Math.min(...lngs), Math.min(...lats)], [Math.max(...lngs), Math.max(...lats)]], { padding: { left: 60, right: 60, top: 35, bottom: 25 }, maxZoom: 10.5, duration: 0 });
+      }
+    }
     ovMap.on('load', () => {
+      if (ctx.biblePlaces) { bibleOnlyStyle(ovMap); return; }
       const dot = document.createElement('div');
       dot.style.cssText = 'width:12px;height:12px;border-radius:50%;background:#C9A227;border:2.5px solid #3A2E1F;';
       new maplibregl.Marker({ element: dot }).setLngLat([ctx.mapCoords.lng, ctx.mapCoords.lat]).addTo(ovMap);

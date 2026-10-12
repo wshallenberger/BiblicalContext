@@ -1,0 +1,192 @@
+{
+  "book": "Matthew",
+  "chapter": 3,
+  "title": "The Mission of John the Baptist",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "In those days John the Baptist came, preaching in the wilderness of Judea"
+    },
+    {
+      "num": 2,
+      "text": "and saying, \"Repent, for the kingdom of heaven is near.\""
+    },
+    {
+      "num": 3,
+      "text": "This is he who was spoken of through the prophet Isaiah: \"A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for Him.'\""
+    },
+    {
+      "num": 4,
+      "text": "John wore a garment of camel's hair, with a leather belt around his waist. His food was locusts and wild honey."
+    },
+    {
+      "num": 5,
+      "text": "People went out to him from Jerusalem and all Judea and the whole region around the Jordan."
+    },
+    {
+      "num": 6,
+      "text": "Confessing their sins, they were baptized by him in the Jordan River."
+    },
+    {
+      "num": 7,
+      "text": "But when John saw many of the Pharisees and Sadducees coming to his place of baptism, he said to them, \"You brood of vipers, who warned you to flee from the coming wrath?"
+    },
+    {
+      "num": 8,
+      "text": "Produce fruit, then, in keeping with repentance."
+    },
+    {
+      "num": 9,
+      "text": "And do not presume to say to yourselves, 'We have Abraham as our father.' For I tell you that out of these stones God can raise up children for Abraham."
+    },
+    {
+      "num": 10,
+      "text": "The axe lies ready at the root of the trees, and every tree that does not produce good fruit will be cut down and thrown into the fire."
+    },
+    {
+      "num": 11,
+      "text": "I baptize you with water for repentance, but after me will come One more powerful than I, whose sandals I am not worthy to carry. He will baptize you with the Holy Spirit and with fire."
+    },
+    {
+      "num": 12,
+      "text": "His winnowing fork is in His hand to clear His threshing floor and to gather His wheat into the barn; but He will burn up the chaff with unquenchable fire.\""
+    },
+    {
+      "num": 13,
+      "text": "At that time Jesus came from Galilee to the Jordan to be baptized by John."
+    },
+    {
+      "num": 14,
+      "text": "But John tried to prevent Him, saying, \"I need to be baptized by You, and do You come to me?\""
+    },
+    {
+      "num": 15,
+      "text": "\"Let it be so now,\" Jesus replied. \"It is fitting for us to fulfill all righteousness in this way.\" Then John permitted Him."
+    },
+    {
+      "num": 16,
+      "text": "As soon as Jesus was baptized, He went up out of the water. Suddenly the heavens were opened, and He saw the Spirit of God descending like a dove and resting on Him."
+    },
+    {
+      "num": 17,
+      "text": "And a voice from heaven said, \"This is My beloved Son, in whom I am well pleased!\""
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Narrative combined with prophetic proclamation \u2014 John's preaching is quoted directly, in the style of an Old Testament prophet's oracle.",
+    "audience": "Jewish-Christian readers who would recognize John as the promised forerunner and Jesus' baptism as a Trinitarian turning point.",
+    "mapLabel": "WILDERNESS OF JUDEA \u00b7 JORDAN RIVER",
+    "setting": "About AD 26-29, under Roman rule. Israel had gone centuries without a widely recognized prophet \u2014 John's sudden appearance breaks that long silence, deliberately echoing Elijah in both message and appearance.",
+    "custom": "John's camel-hair garment and leather belt mirror Elijah's description in 2 Kings 1:8. Ritual washing existed in Judaism already, but John's baptism was distinct \u2014 it required personal repentance and pointed forward to the Messiah.",
+    "timelineImmediate": "The final moment before Jesus' public ministry begins \u2014 Jesus is baptized here at around age 30, and this scene functions as the hinge between His hidden years and His public mission.",
+    "timelineBible": "John the Baptist is often called the last of the Old Testament-style prophets, closing out that long line even as he introduces the New Testament story \u2014 a bridge chapter in the Bible's own timeline.",
+    "translation": [
+      {
+        "english": "repent",
+        "greek": "\u03bc\u03b5\u03c4\u03b1\u03bd\u03bf\u03b5\u1fd6\u03c4\u03b5 (metanoeite)",
+        "verseRef": "v.2",
+        "meaning": "Literally a change of mind \u2014 not just remorse, but a real turn in direction.",
+        "occurrences": {
+          "total": 34,
+          "sampleRefs": [
+            "Mark 1:15",
+            "Luke 13:3",
+            "Acts 2:38",
+            "Revelation 2:5"
+          ]
+        }
+      },
+      {
+        "english": "brood of vipers",
+        "greek": "\u03b3\u03b5\u03bd\u03bd\u03ae\u03bc\u03b1\u03c4\u03b1 \u1f10\u03c7\u03b9\u03b4\u03bd\u1ff6\u03bd (genn\u0113mata echidn\u014dn)",
+        "verseRef": "v.7",
+        "meaning": "A sharp, confrontational insult aimed specifically at religious leaders relying on status rather than genuine change.",
+        "occurrences": {
+          "total": 4,
+          "sampleRefs": [
+            "Matthew 12:34",
+            "Matthew 23:33",
+            "Luke 3:7"
+          ],
+          "note": "Used only as this exact rebuke, always aimed at religious leaders \u2014 the related word for a literal snake appears just once more, biting Paul's hand in Acts 28:3."
+        }
+      },
+      {
+        "english": "well pleased",
+        "greek": "\u03b5\u1f50\u03b4\u03cc\u03ba\u03b7\u03c3\u03b1 (eudok\u0113sa)",
+        "verseRef": "v.17",
+        "meaning": "A settled, delighted approval \u2014 the Father's declaration over Jesus before His ministry has even begun.",
+        "occurrences": {
+          "total": 21,
+          "sampleRefs": [
+            "Mark 1:11",
+            "Luke 3:22",
+            "2 Peter 1:17"
+          ]
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Mark 1:1-11",
+        "note": "Mark opens his entire Gospel with this same scene."
+      },
+      {
+        "ref": "Luke 3:1-22",
+        "note": "Luke adds more detail on John's specific ethical instructions to different groups."
+      },
+      {
+        "ref": "John 1:19-34",
+        "note": "John's Gospel adds John the Baptist's own testimony identifying Jesus as \"the Lamb of God.\""
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Isaiah 40:3",
+        "note": "\"A voice crying in the wilderness\" \u2014 quoted directly as describing John's role."
+      },
+      {
+        "ref": "Malachi 3:1",
+        "note": "The promised messenger who prepares the way before the Lord."
+      },
+      {
+        "ref": "Psalm 2:7",
+        "note": "\"You are My Son\" \u2014 echoed in the Father's declaration at the baptism."
+      }
+    ],
+    "commentary": [
+      {
+        "source": "John Gill",
+        "year": "1740s",
+        "note": "Drawing on rabbinic writings, Gill notes that Jewish tradition itself directly tied repentance to the Messiah's arrival \u2014 one saying held that Israel would remain unredeemed without national repentance, but that even a single day of it could bring the Messiah at once. Read this way, John's call to repent wasn't a new idea to his listeners; it plugged directly into an expectation many of them already held.",
+        "url": "https://www.studylight.org/commentaries/eng/geb/matthew-3.html"
+      },
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry poetically frames John as \"the morning star\" whose rising gives way to Christ, \"the Sun of righteousness.\" He notes that Jesus submitted to baptism despite having no sin of His own to confess \u2014 deliberately modeling the pattern of doing first and teaching second, which Henry says every minister of the gospel ought to follow after Him.",
+        "url": "https://biblehub.com/commentaries/mhc/matthew/3.htm"
+      },
+      {
+        "source": "Jamieson, Fausset & Brown",
+        "year": "1871",
+        "note": "JFB points out that \"the kingdom of heaven is at hand\" is a phrase found in none of the other Gospels, yet appears nearly thirty times in Matthew alone \u2014 a mark of this Gospel's distinctly Jewish framing. On \"brood of vipers,\" they read it as a charge that the Pharisees and Sadducees, despite their mutual rivalry, were united in poisoning the nation's true spiritual life.",
+        "url": "https://biblehub.com/commentaries/jfb/matthew/3.htm"
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.8367,
+      "lng": 35.5436,
+      "zoom": 7.5,
+      "placeName": "Jordan River, near Bethany beyond the Jordan"
+    },
+    "sparkNotes": "John the Baptist calls Israel to repent in the wilderness, then baptizes Jesus, marking the public start of His ministry. \"Brood of vipers\" appears only four times in the whole New Testament, always this exact rebuke \u2014 and John's wilderness role fulfills Isaiah 40:3's prophecy of a voice crying out.",
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_John_the_Baptist_baptizes_Jesus.jpg",
+      "caption": "John the Baptist Baptizes Jesus, by Gustave Dor\u00e9",
+      "credit": "Public domain \u2014 Wikimedia Commons"
+    }
+  }
+}

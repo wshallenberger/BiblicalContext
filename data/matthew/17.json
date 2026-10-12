@@ -1,0 +1,236 @@
+{
+  "book": "Matthew",
+  "chapter": 17,
+  "title": "The Transfiguration",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "After six days Jesus took with Him Peter, James, and John the brother of James, and led them up a high mountain by themselves."
+    },
+    {
+      "num": 2,
+      "text": "There He was transfigured before them. His face shone like the sun, and His clothes became as white as the light."
+    },
+    {
+      "num": 3,
+      "text": "Suddenly Moses and Elijah appeared before them, talking with Jesus."
+    },
+    {
+      "num": 4,
+      "text": "Peter said to Jesus, \"Lord, it is good for us to be here. If You wish, I will put up three shelters \u2014 one for You, one for Moses, and one for Elijah.\""
+    },
+    {
+      "num": 5,
+      "text": "While Peter was still speaking, a bright cloud enveloped them, and a voice from the cloud said, \"This is My beloved Son, in whom I am well pleased. Listen to Him!\""
+    },
+    {
+      "num": 6,
+      "text": "When the disciples heard this, they fell facedown in terror."
+    },
+    {
+      "num": 7,
+      "text": "Then Jesus came over and touched them. \"Get up,\" He said. \"Do not be afraid.\""
+    },
+    {
+      "num": 8,
+      "text": "And when they looked up, they saw no one except Jesus."
+    },
+    {
+      "num": 9,
+      "text": "As they were coming down the mountain, Jesus commanded them, \"Do not tell anyone about this vision until the Son of Man has been raised from the dead.\""
+    },
+    {
+      "num": 10,
+      "text": "The disciples asked Him, \"Why then do the scribes say that Elijah must come first?\""
+    },
+    {
+      "num": 11,
+      "text": "Jesus replied, \"Elijah does indeed come, and he will restore all things."
+    },
+    {
+      "num": 12,
+      "text": "But I tell you that Elijah has already come, and they did not recognize him, but have done to him whatever they wished. In the same way, the Son of Man will suffer at their hands.\""
+    },
+    {
+      "num": 13,
+      "text": "Then the disciples understood that He was speaking to them about John the Baptist."
+    },
+    {
+      "num": 14,
+      "text": "When they came to the crowd, a man came up to Jesus and knelt before Him."
+    },
+    {
+      "num": 15,
+      "text": "\"Lord, have mercy on my son,\" he said. \"He has seizures and is suffering terribly. He often falls into the fire or into the water."
+    },
+    {
+      "num": 16,
+      "text": "I brought him to Your disciples, but they could not heal him.\""
+    },
+    {
+      "num": 17,
+      "text": "\"O unbelieving and perverse generation!\" Jesus replied. \"How long must I remain with you? How long must I put up with you? Bring the boy here to Me.\""
+    },
+    {
+      "num": 18,
+      "text": "Then Jesus rebuked the demon, and it came out of the boy, and he was healed from that moment."
+    },
+    {
+      "num": 19,
+      "text": "Afterward the disciples came to Jesus privately and asked, \"Why couldn't we drive it out?\""
+    },
+    {
+      "num": 20,
+      "text": "\"Because you have so little faith,\" He answered. \"For truly I tell you, if you have faith the size of a mustard seed, you can say to this mountain, 'Move from here to there,' and it will move. Nothing will be impossible for you.\""
+    },
+    {
+      "num": 22,
+      "text": "When they gathered together in Galilee, Jesus told them, \"The Son of Man is about to be delivered into the hands of men."
+    },
+    {
+      "num": 23,
+      "text": "They will kill Him, and on the third day He will be raised to life.\" And the disciples were deeply grieved."
+    },
+    {
+      "num": 24,
+      "text": "After they had arrived in Capernaum, the collectors of the two-drachma tax came to Peter and asked, \"Does your Teacher pay the two drachmas?\""
+    },
+    {
+      "num": 25,
+      "text": "\"Yes,\" he answered. When Peter entered the house, Jesus preempted him. \"What do you think, Simon?\" He asked. \"From whom do the kings of the earth collect customs and taxes: from their own sons, or from others?\""
+    },
+    {
+      "num": 26,
+      "text": "\"From others,\" Peter answered. \"Then the sons are exempt,\" Jesus said to him."
+    },
+    {
+      "num": 27,
+      "text": "\"But so that we may not offend them, go to the sea, cast a hook, and take the first fish you catch. When you open its mouth, you will find a four-drachma coin. Take it and give it to them for My tax and yours.\""
+    }
+  ],
+  "context": {
+    "author": "Matthew, writing to a Jewish audience",
+    "genre": "Narrative \u2014 the Transfiguration, followed by a healing account, a second passion prediction, and a brief teaching on the temple tax.",
+    "audience": "Jewish-Christian readers, given a momentary glimpse of Jesus' divine glory just as the narrative turns toward His suffering.",
+    "mapLabel": "A HIGH MOUNTAIN, THEN CAPERNAUM",
+    "setting": "The unnamed \"high mountain\" is traditionally linked to Mount Tabor, though many scholars favor Mount Hermon, closer to Caesarea Philippi where the previous chapter's events took place. This occurs roughly six months before the crucifixion, under Roman rule with Herod Antipas governing Galilee.",
+    "custom": "The two-drachma temple tax (v.24) was an annual payment expected of every adult Jewish male to support temple upkeep, based on Exodus 30:13-16 \u2014 Jesus' point about \"sons\" being exempt from a king's tax makes a claim about His own identity before He agrees to pay anyway.",
+    "timelineImmediate": "Occurs about six days after Peter's confession and the first passion prediction in chapter 16 \u2014 this mountaintop glimpse of glory comes just before Jesus' ministry turns decisively toward Jerusalem and the cross.",
+    "timelineBible": "Moses and Elijah appearing with Jesus (v.3) represents the Law and the Prophets \u2014 the entire Old Testament \u2014 visibly affirming Him, while the shining face deliberately echoes Moses' own glowing face after meeting God in Exodus 34:29-35.",
+    "translation": [
+      {
+        "english": "transfigured",
+        "greek": "\u03bc\u03b5\u03c4\u03b5\u03bc\u03bf\u03c1\u03c6\u03ce\u03b8\u03b7 (metemorph\u014dth\u0113)",
+        "verseRef": "v.2",
+        "meaning": "A visible transformation in form \u2014 the same root as the English word \"metamorphosis,\" describing a literal, outward change.",
+        "occurrences": {
+          "total": 4,
+          "sampleRefs": [
+            "Mark 9:2",
+            "Romans 12:2",
+            "2 Corinthians 3:18"
+          ],
+          "note": "Used only four times \u2014 twice for this one event, and twice more (translated \"transformed\") for the believer's own ongoing spiritual change."
+        }
+      },
+      {
+        "english": "listen to Him",
+        "greek": "\u1f00\u03ba\u03bf\u03cd\u03b5\u03c4\u03b5 \u03b1\u1f50\u03c4\u03bf\u1fe6 (akouete autou)",
+        "verseRef": "v.5",
+        "meaning": "A present imperative \u2014 ongoing, continuous listening \u2014 echoing Moses' promise in Deuteronomy 18:15 of a coming prophet whose words must be heeded."
+      },
+      {
+        "english": "restore",
+        "greek": "\u1f00\u03c0\u03bf\u03ba\u03b1\u03c4\u03b1\u03c3\u03c4\u03ae\u03c3\u03b5\u03b9 (apokatast\u0113sei)",
+        "verseRef": "v.11",
+        "meaning": "To set right or bring back to a proper state \u2014 the expected role of Elijah before the Messiah's arrival, per Malachi 4:5-6.",
+        "occurrences": {
+          "total": 8,
+          "sampleRefs": [
+            "Matthew 12:13",
+            "Mark 8:25",
+            "Acts 1:6"
+          ]
+        }
+      },
+      {
+        "english": "little faith",
+        "greek": "\u1f40\u03bb\u03b9\u03b3\u03bf\u03c0\u03b9\u03c3\u03c4\u03af\u03b1\u03bd (oligopistian)",
+        "verseRef": "v.20",
+        "meaning": "The noun form of the same word used for Peter sinking on the water in chapter 14 \u2014 here explaining the disciples' failed healing attempt.",
+        "occurrences": {
+          "total": 5,
+          "sampleRefs": [
+            "Matthew 8:26",
+            "Matthew 16:8",
+            "Luke 12:28"
+          ]
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Mark 9:2-13",
+        "note": "Mark's parallel account of the Transfiguration, with similar detail.",
+        "verses": "1-13"
+      },
+      {
+        "ref": "Luke 9:28-36",
+        "note": "Luke's version, which adds that Jesus, Moses, and Elijah spoke of His coming \"departure\" in Jerusalem.",
+        "verses": "1-13"
+      },
+      {
+        "ref": "2 Peter 1:16-18",
+        "note": "Peter's own later reference to the Transfiguration as eyewitness proof of Jesus' majesty.",
+        "verses": "1-8"
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Exodus 34:29-35",
+        "note": "Moses' face shining after meeting with God \u2014 the visual precedent for Jesus' transfiguration."
+      },
+      {
+        "ref": "Exodus 24:15-18",
+        "note": "The cloud, mountain, and voice at Sinai, paralleling the Transfiguration's setting."
+      },
+      {
+        "ref": "Malachi 4:5",
+        "note": "The promise of Elijah's return before the Day of the Lord, discussed by Jesus and the disciples in v.10-13."
+      }
+    ],
+    "mapCoords": {
+      "lat": 33.4144,
+      "lng": 35.8492,
+      "zoom": 6.5,
+      "placeName": "Mount Hermon (traditional Transfiguration site)"
+    },
+    "sparkNotes": "Jesus is transfigured on a mountain before three disciples, His face shining like the sun as Moses and Elijah appear beside Him. \"Transfigured\" shares its root with the word Paul later uses for a believer's own \"transformation\" \u2014 and the scene deliberately echoes Moses' own glowing face after meeting God in Exodus 34.",
+    "commentary": [
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry reads the moment the vision fades \u2014 \"they saw no man, save Jesus only\" \u2014 as the whole point condensed into five words: whatever authority Moses and Elijah carried as prophets, they were willing to see it entirely transferred to Christ, whose silence at \"hear him\" was itself their consent.",
+        "url": "https://www.biblestudytools.com/commentaries/matthew-henry-complete/matthew/17.html"
+      },
+      {
+        "source": "Jamieson, Fausset & Brown",
+        "year": "1871",
+        "note": "JFB draws a precise distinction most readers miss: the temple tax in this chapter was an ecclesiastical due, not a civil tax like the one debated with Caesar's coin later in chapter 22 \u2014 and they argue the whole force of Jesus' reasoning about kings not taxing their own children depends on keeping that distinction clear.",
+        "url": "https://www.blueletterbible.org/Comm/jfb/Mat/Mat_017.cfm"
+      },
+      {
+        "source": "John Gill",
+        "year": "1740s",
+        "note": "Gill notes that \"faith as a grain of mustard seed\" wasn't an image Jesus invented on the spot \u2014 it was already a known proverbial phrase in Jewish sources for describing something impossibly small in quantity, which makes Jesus' point sharper: even that little is enough.",
+        "url": "https://www.studylight.org/commentary/matthew/17-20.html"
+      }
+    ],
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_The_Transfiguration.jpg",
+      "caption": "The Transfiguration, by Gustave Dor\u00e9 (1866)",
+      "credit": "Public domain \u2014 Wikimedia Commons"
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "book": "Mark",
+  "chapter": 16,
+  "title": "The Resurrection",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "When the Sabbath was over, Mary Magdalene, Mary the mother of James, and Salome bought spices so they could go and anoint the body of Jesus."
+    },
+    {
+      "num": 2,
+      "text": "Very early on the first day of the week, just after sunrise, they went to the tomb."
+    },
+    {
+      "num": 3,
+      "text": "They were asking one another, \"Who will roll away the stone from the entrance of the tomb?\""
+    },
+    {
+      "num": 4,
+      "text": "But when they looked up, they saw that the stone had been rolled away, even though it was extremely large."
+    },
+    {
+      "num": 5,
+      "text": "When they entered the tomb, they saw a young man dressed in a white robe sitting on the right side, and they were alarmed."
+    },
+    {
+      "num": 6,
+      "text": "But he said to them, \"Do not be alarmed. You are looking for Jesus the Nazarene, who was crucified. He has risen! He is not here! See the place where they put Him."
+    },
+    {
+      "num": 7,
+      "text": "But go, tell His disciples and Peter, 'He is going ahead of you into Galilee. There you will see Him, just as He told you.'\""
+    },
+    {
+      "num": 8,
+      "text": "So the women left the tomb and ran away, trembling and bewildered. And in their fear they did not say a word to anyone."
+    },
+    {
+      "num": 9,
+      "text": "Early on the first day of the week, after Jesus had risen, He appeared first to Mary Magdalene, from whom He had driven out seven demons."
+    },
+    {
+      "num": 10,
+      "text": "She went and told those who had been with Him, who were mourning and weeping."
+    },
+    {
+      "num": 11,
+      "text": "And when they heard that Jesus was alive and she had seen Him, they did not believe it."
+    },
+    {
+      "num": 12,
+      "text": "After this, Jesus appeared in a different form to two of them as they walked along in the country."
+    },
+    {
+      "num": 13,
+      "text": "And they went back and reported it to the rest, but they did not believe them either."
+    },
+    {
+      "num": 14,
+      "text": "Later, as they were eating, Jesus appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen."
+    },
+    {
+      "num": 15,
+      "text": "And He said to them, \"Go into all the world and preach the gospel to every creature."
+    },
+    {
+      "num": 16,
+      "text": "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned."
+    },
+    {
+      "num": 17,
+      "text": "And these signs will accompany those who believe: In My name they will drive out demons; they will speak in new tongues;"
+    },
+    {
+      "num": 18,
+      "text": "they will pick up snakes with their hands, and if they drink any deadly poison, it will not harm them; they will lay their hands on the sick, and they will be made well.\""
+    },
+    {
+      "num": 19,
+      "text": "After the Lord Jesus had spoken to them, He was taken up into heaven and sat down at the right hand of God."
+    },
+    {
+      "num": 20,
+      "text": "And they went out and preached everywhere, and the Lord worked through them, confirming His word by the signs that accompanied it."
+    }
+  ],
+  "context": {
+    "author": "Traditionally John Mark, a companion of Peter",
+    "genre": "Narrative Gospel \u2014 the empty tomb, Jesus' resurrection appearances, and a closing commission, bringing the whole Gospel to its climax",
+    "audience": "Roman Christian readers, arriving at the event the entire book has been building toward since its opening line",
+    "mapLabel": "THE GARDEN TOMB, JERUSALEM",
+    "setting": "The tomb near Golgotha, at first light on the Sunday following Passover \u2014 the women arrive with spices to complete the burial anointing that had to be rushed before the Sabbath began at sundown on the day of Jesus' death.",
+    "custom": "Completing a body's anointing after burial was standard Jewish practice when death occurred too close to the Sabbath for full preparation \u2014 exactly the situation Mark 15:42 describes. A woman's testimony carried little legal weight in the culture of the time, which makes Mark's choice to have women be the first witnesses to the empty tomb an unusual, and by most reckonings unlikely, detail to have simply invented. Worth knowing: verses 9-20 are a well-known textual question \u2014 some of the earliest surviving manuscripts end the Gospel at verse 8, while others include a shorter or longer ending. The BSB prints this longer ending as the traditional text, flagged with a footnote, since it's attested by the majority of later manuscripts and by early church writers such as Irenaeus.",
+    "timelineImmediate": "This chapter closes the whole Gospel \u2014 the empty tomb, a sequence of resurrection appearances met with real, repeated disbelief from the disciples, and finally Jesus' commission to \"go into all the world,\" setting the stage for the book of Acts.",
+    "timelineBible": "The angel's directive to \"go, tell His disciples and Peter\" (v.7) singles Peter out by name for reassurance after his threefold denial in chapter 14 \u2014 a small, deliberate note of grace inside the resurrection announcement itself.",
+    "sparkNotes": "Women arrive at the tomb at dawn to finish anointing Jesus' body and find the stone already rolled away and the tomb empty \u2014 a young man in white tells them Jesus has risen and is going ahead of them to Galilee. In the verses that follow, Jesus appears repeatedly to His followers, meets real and repeated disbelief each time, and closes with the command to take the gospel to the whole world before being taken up into heaven.",
+    "translation": [
+      {
+        "english": "risen",
+        "greek": "\u1f20\u03b3\u03ad\u03c1\u03b8\u03b7 (\u0113gerth\u0113)",
+        "verseRef": "v.6, 9, 14",
+        "meaning": "A passive verb form \u2014 implying God's own action in raising Jesus, rather than Jesus raising Himself under His own power alone.",
+        "occurrences": {
+          "total": 144,
+          "sampleRefs": [
+            "Matthew 28:6",
+            "1 Corinthians 15:15",
+            "James 5:15"
+          ],
+          "note": "A very common word overall (also used for ordinary waking or healing) \u2014 its meaning here comes entirely from context, not rarity."
+        }
+      },
+      {
+        "english": "gospel",
+        "greek": "\u03b5\u1f50\u03b1\u03b3\u03b3\u03ad\u03bb\u03b9\u03bf\u03bd (euangelion)",
+        "verseRef": "v.15",
+        "meaning": "The same word that opened the entire book in Mark 1:1 \u2014 the Gospel ends exactly where it began, now commissioned to spread to \"every creature.\"",
+        "occurrences": {
+          "total": 76,
+          "sampleRefs": [
+            "Romans 1:16",
+            "Mark 1:1",
+            "Mark 13:10"
+          ]
+        }
+      }
+    ],
+    "gospelParallels": [
+      {
+        "ref": "Matthew 28:1-20",
+        "note": "Matthew's parallel account of the empty tomb and the Great Commission."
+      },
+      {
+        "ref": "Luke 24:1-53",
+        "note": "Luke's fuller version, including the extended Emmaus road encounter."
+      },
+      {
+        "ref": "John 20:1-21:25",
+        "note": "John's account, with detailed appearances to Mary Magdalene and to Thomas specifically."
+      }
+    ],
+    "otBackground": [
+      {
+        "ref": "Psalm 16:10",
+        "note": "\"You will not abandon me to Sheol\" \u2014 read by the early church as anticipating the resurrection."
+      },
+      {
+        "ref": "Jonah 1:17",
+        "note": "Three days in the great fish, which Jesus Himself pointed to as a sign of His own coming three days in the tomb."
+      },
+      {
+        "ref": "Leviticus 23:10-11",
+        "note": "The Feast of Firstfruits, observed on the day after the Sabbath during Passover week \u2014 the same day tradition places the resurrection."
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7784,
+      "lng": 35.2297,
+      "zoom": 12.5,
+      "placeName": "Garden Tomb, near Golgotha"
+    },
+    "commentary": [
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "Henry marks the day itself as a turning point in history: \"this sabbath is over, and the first day of the week is the first day of a new world.\" He describes the women's visit to the tomb as \"not a superstitious one, but a pious one\" \u2014 genuine devotion, not empty ritual, bringing them there before dawn.",
+        "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/mark/16"
+      },
+      {
+        "source": "Matthew Henry",
+        "year": "1710",
+        "note": "On the angel's gentle \"be not affrighted,\" Henry notes that angels don't only rejoice over a sinner's conversion, but over a believer's comfort too \u2014 the point of the announcement wasn't just information, but genuine consolation for people who had every reason to still be afraid.",
+        "url": "https://www.biblestudytools.com/commentaries/matthew-henry-complete/mark/16.html"
+      },
+      {
+        "source": "J.C. Ryle",
+        "year": "1857",
+        "note": "Ryle points to the courage the errand itself required: visiting a grave in the dim light of dawn would try any woman, but to do so for someone executed as a common criminal, whom their own nation had despised, was 'a mighty boldness indeed' \u2014 the kind of act, he says, that shows the real difference between weak faith and strong faith.",
+        "url": "https://gracegems.org/Ryle/mark16.htm"
+      }
+    ],
+    "historicalImage": {
+      "url": "https://www.gutenberg.org/files/8710/8710-h/images/091.jpg",
+      "caption": "The Angel at the Sepulcher, by Gustave Dor\u00e9 (1866)",
+      "credit": "Public domain \u2014 Project Gutenberg"
+    }
+  }
+}
