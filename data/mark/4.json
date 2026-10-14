@@ -34,7 +34,7 @@
     },
     {
       "num": 8,
-      "text": "Still other seed fell on good soil, where it sprouted, grew up, and produced a crop\u2014one bearing thirtyfold, another sixtyfold, and another a hundredfold.\""
+      "text": "Still other seed fell on good soil, where it sprouted, grew up, and produced a crop—one bearing thirtyfold, another sixtyfold, and another a hundredfold.\""
     },
     {
       "num": 9,
@@ -82,7 +82,7 @@
     },
     {
       "num": 20,
-      "text": "Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop\u2014thirtyfold, sixtyfold, or a hundredfold.\""
+      "text": "Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop—thirtyfold, sixtyfold, or a hundredfold.\""
     },
     {
       "num": 21,
@@ -114,7 +114,7 @@
     },
     {
       "num": 28,
-      "text": "All by itself the earth produces a crop\u2014first the stalk, then the head, then grain that ripens within."
+      "text": "All by itself the earth produces a crop—first the stalk, then the head, then grain that ripens within."
     },
     {
       "num": 29,
@@ -171,20 +171,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Teaching discourse \u2014 a connected block of parables about the kingdom of God, closing with a nature miracle that demonstrates the authority those parables describe",
+    "genre": "Teaching discourse — a connected block of parables about the kingdom of God, closing with a nature miracle that demonstrates the authority those parables describe",
     "audience": "Roman Christian readers, given both the public parables and the private explanation reserved only for Jesus' inner circle",
     "mapLabel": "SEA OF GALILEE SHORELINE",
     "setting": "The Sea of Galilee's shoreline acts as a natural amphitheater, and teaching from a boat gave Jesus both distance from the crush of the crowd and a way for His voice to carry across the water to the shore.",
-    "custom": "Galilean farmers scattered seed by hand before plowing, meaning some inevitably landed on hardened footpaths, thin soil over limestone shelf, or ground still thick with thornbush roots \u2014 every detail in the parable would have matched something the crowd could see from where they stood.",
-    "timelineImmediate": "Mark groups several parables into one extended teaching session by the sea, then closes the chapter with the storm-calming miracle \u2014 pairing Jesus' words about the kingdom with a direct demonstration of the authority behind them.",
-    "timelineBible": "Jesus' explanation for teaching in parables (v.12) directly quotes Isaiah 6:9-10, a passage originally describing Israel's spiritual dullness in Isaiah's own day \u2014 Jesus applies the same centuries-old diagnosis to His own generation.",
-    "sparkNotes": "Jesus teaches an extended block of kingdom parables from a boat \u2014 the sower, the lamp, the growing seed, the mustard seed \u2014 then that evening calms a violent storm with two words: \"Silence! Be still!\" Mark notes Jesus explained everything privately to His own disciples but left the crowds with parables alone, a deliberate distinction Jesus grounds directly in Isaiah's centuries-old warning about seeing without perceiving.",
+    "custom": "Galilean farmers scattered seed by hand before plowing, meaning some inevitably landed on hardened footpaths, thin soil over limestone shelf, or ground still thick with thornbush roots — every detail in the parable would have matched something the crowd could see from where they stood.",
+    "timelineImmediate": "Mark groups several parables into one extended teaching session by the sea, then closes the chapter with the storm-calming miracle — pairing Jesus' words about the kingdom with a direct demonstration of the authority behind them.",
+    "timelineBible": "Jesus' explanation for teaching in parables (v.12) directly quotes Isaiah 6:9-10, a passage originally describing Israel's spiritual dullness in Isaiah's own day — Jesus applies the same centuries-old diagnosis to His own generation.",
+    "sparkNotes": "Jesus teaches an extended block of kingdom parables from a boat — the sower, the lamp, the growing seed, the mustard seed — then that evening calms a violent storm with two words: \"Silence! Be still!\" Mark notes Jesus explained everything privately to His own disciples but left the crowds with parables alone, a deliberate distinction Jesus grounds directly in Isaiah's centuries-old warning about seeing without perceiving.",
     "translation": [
       {
         "english": "parable",
-        "greek": "\u03c0\u03b1\u03c1\u03b1\u03b2\u03bf\u03bb\u03b1\u1fd6\u03c2 (parabolais)",
+        "greek": "παραβολαῖς (parabolais)",
         "verseRef": "v.2, 10-13, 30, 33-34",
-        "meaning": "A comparison placed alongside a truth being taught \u2014 often a story from ordinary life used to illustrate something about the kingdom of God.",
+        "meaning": "A comparison placed alongside a truth being taught — often a story from ordinary life used to illustrate something about the kingdom of God.",
         "occurrences": {
           "total": 50,
           "sampleRefs": [
@@ -192,14 +192,15 @@
             "Luke 8:11",
             "Hebrews 9:9"
           ],
-          "note": "Nearly all fifty uses cluster in the Synoptic Gospels around Jesus' own teaching \u2014 it appears only twice outside them, both in Hebrews."
-        }
+          "note": "Nearly all fifty uses cluster in the Synoptic Gospels around Jesus' own teaching — it appears only twice outside them, both in Hebrews."
+        },
+        "gloss": "Short story, comparison"
       },
       {
         "english": "mystery",
-        "greek": "\u03bc\u03c5\u03c3\u03c4\u03ae\u03c1\u03b9\u03bf\u03bd (myst\u0113rion)",
+        "greek": "μυστήριον (mystērion)",
         "verseRef": "v.11",
-        "meaning": "Divine secrets, previously hidden, now being disclosed \u2014 not permanently unknowable, but revealed selectively to those given ears to hear.",
+        "meaning": "Divine secrets, previously hidden, now being disclosed — not permanently unknowable, but revealed selectively to those given ears to hear.",
         "occurrences": {
           "total": 27,
           "sampleRefs": [
@@ -207,11 +208,12 @@
             "Ephesians 1:9",
             "Colossians 1:26"
           ]
-        }
+        },
+        "gloss": "A secret now shown"
       },
       {
         "english": "immediately",
-        "greek": "\u03b5\u1f50\u03b8\u1f7a\u03c2 (euthys)",
+        "greek": "εὐθὺς (euthys)",
         "verseRef": "v.5, 15, 16, 17, 29",
         "meaning": "Mark's signature word, threading through this whole chapter of parables.",
         "occurrences": {
@@ -222,7 +224,8 @@
             "Mark 5:42"
           ],
           "note": "The overwhelming majority of this word's New Testament uses are packed into Mark's sixteen short chapters alone."
-        }
+        },
+        "gloss": "At once, straightaway"
       }
     ],
     "gospelParallels": [
@@ -245,15 +248,15 @@
     "otBackground": [
       {
         "ref": "Isaiah 6:9-10",
-        "note": "Seeing without perceiving, hearing without understanding \u2014 quoted directly by Jesus to explain His use of parables."
+        "note": "Seeing without perceiving, hearing without understanding — quoted directly by Jesus to explain His use of parables."
       },
       {
         "ref": "Psalm 107:23-30",
-        "note": "Sailors crying out to God in a storm, who then stills the wind and waves \u2014 the same pattern Jesus enacts in v.39."
+        "note": "Sailors crying out to God in a storm, who then stills the wind and waves — the same pattern Jesus enacts in v.39."
       },
       {
         "ref": "Ezekiel 17:22-24",
-        "note": "A great tree sheltering birds in its branches \u2014 background imagery echoed directly in the mustard seed parable."
+        "note": "A great tree sheltering birds in its branches — background imagery echoed directly in the mustard seed parable."
       }
     ],
     "mapCoords": {
@@ -266,26 +269,112 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry pictures the sower scattering seed indiscriminately, quoting Ecclesiastes 11:1's image of sowing \"beside all waters\" \u2014 the word of God given out to everyone alike, not knowing in advance where it will land or what it will produce. Ministers, he says, are sowers in the same pattern, not judges of the soil.",
+        "note": "Henry pictures the sower scattering seed indiscriminately, quoting Ecclesiastes 11:1's image of sowing \"beside all waters\" — the word of God given out to everyone alike, not knowing in advance where it will land or what it will produce. Ministers, he says, are sowers in the same pattern, not judges of the soil.",
         "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/mark/4"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB points out something the text leaves deliberately open: Jesus never actually identifies who the sower is. They read this as intentional \u2014 since the seed is the word of God, anyone who scatters that word, in any generation, can be understood as a sower in the same parable, not just Jesus Himself.",
+        "note": "JFB points out something the text leaves deliberately open: Jesus never actually identifies who the sower is. They read this as intentional — since the seed is the word of God, anyone who scatters that word, in any generation, can be understood as a sower in the same parable, not just Jesus Himself.",
         "url": "https://en.wikipedia.org/wiki/Mark_4"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle writes with real force about the storm-calming: 'He speaks to the waves, and they submit to His command. He turns the raging storm into a calm with a few words \u2014 'Peace, be still.' The elements knew the voice of their Master, and, like obedient servants, were quiet at once.' No stormy passion, he adds, is too strong for the same Christ to tame.",
+        "note": "Ryle writes with real force about the storm-calming: 'He speaks to the waves, and they submit to His command. He turns the raging storm into a calm with a few words — 'Peace, be still.' The elements knew the voice of their Master, and, like obedient servants, were quiet at once.' No stormy passion, he adds, is too strong for the same Christ to tame.",
         "url": "https://www.preceptaustin.org/pdf/63945/"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JesusCalmingtheTempestDore.jpg",
-      "caption": "Jesus Calming the Tempest, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "caption": "Jesus Calming the Tempest, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Teaching from a boat, Jesus tells the parable of the sower, then the lamp, the growing seed, and the mustard seed. That evening he calms a storm on the lake and asks the disciples why they were afraid.",
+      "settingLine": "The lakeshore, then a boat on the Sea of Galilee.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Parables",
+          "t": "Teachers used short stories to make ideas easy to remember."
+        },
+        {
+          "h": "Storms",
+          "t": "Cold air off the hills can whip up sudden storms on the lake."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sowing Seed",
+          "t": "Farmers scattered seed by hand before plowing it under."
+        },
+        {
+          "h": "Boat Pulpit",
+          "t": "The curved shore works like an amphitheater, carrying a voice across the water."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Galilee Boat",
+          "t": "A first-century fishing boat found in the lake in 1986 is displayed at Ginosar."
+        },
+        {
+          "h": "Tabgha",
+          "t": "The shoreline near Tabgha has ancient harbor structures."
+        }
+      ],
+      "discussion": "The disciples saw Jesus calm the storm and still wondered who He was. What storm do you need Him to speak to?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Parables and miracle",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 13:1-32": "Parables of the kingdom",
+        "Isaiah 6:9-10": "Seeing without perceiving",
+        "Psalm 107:23-30": "A storm stilled"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The sower",
+          "d": "Spreads word"
+        },
+        {
+          "n": "Crowds",
+          "d": "On the shore"
+        },
+        {
+          "n": "The disciples",
+          "d": "Afraid"
+        },
+        {
+          "n": "The lake",
+          "d": "Stormy"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Shore",
+          "label": "The sower"
+        },
+        {
+          "when": "Teaching",
+          "label": "Lamp and seed"
+        },
+        {
+          "when": "Evening",
+          "label": "Crossing the lake"
+        },
+        {
+          "when": "The storm",
+          "label": "Wind stilled"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginosar_from_above.JPG",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: יעקב / Wikimedia Commons"
     }
   }
 }

@@ -156,7 +156,8 @@
             "Luke 12:36",
             "Acts 24:15"
           ]
-        }
+        },
+        "gloss": "Receives, takes in"
       },
       {
         "english": "repents",
@@ -170,13 +171,17 @@
             "Luke 17:3",
             "Acts 3:19"
           ]
-        }
+        },
+        "gloss": "Changes his mind"
       },
       {
         "english": "came to his senses",
         "greek": "εἰς ἑαυτὸν ἐλθών (eis heauton elthōn)",
         "verseRef": "v.17",
-        "meaning": "Literally \"coming to himself.\" The phrase describes sinful life as a kind of madness, and the turn home begins with seeing things as they are."
+        "meaning": "Literally \"coming to himself.\" The phrase describes sinful life as a kind of madness, and the turn home begins with seeing things as they are.",
+        "gloss": "Came to his senses",
+        "ovGreek": "εἰς ἑαυτὸν",
+        "ovEnglish": "Came to himself"
       },
       {
         "english": "filled with compassion",
@@ -252,6 +257,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Return_of_the_Prodigal_Son_(Le_retour_de_l'enfant_prodigue)_-_James_Tissot.jpg",
       "caption": "The Return of the Prodigal Son, by James Tissot (1886-1894), Luke 15:20",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "The Pharisees grumble that Jesus welcomes sinners, so He tells of a lost sheep, a lost coin, and a lost son. In each, the finder throws a party. The younger son is welcomed home by a running father, while the older brother stays outside.",
+      "settingLine": "Tax collectors and sinners gathered around Jesus.",
+      "placeName": "On the road to Jerusalem",
+      "history": [
+        {
+          "h": "Outcasts",
+          "t": "Tax collectors and \"sinners\" were kept at a distance by respectable society."
+        },
+        {
+          "h": "Eating Together",
+          "t": "Sharing a meal meant fellowship, so \"He eats with them\" was a serious charge."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Dividing Estates",
+          "t": "A father rarely divided his estate while alive, so the younger son's request was an insult."
+        },
+        {
+          "h": "Running Father",
+          "t": "Dignified older men didn't run, so the father's sprint broke every social rule."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Silver Drachma",
+          "t": "Silver drachmas like the lost coin were worth about a day's wage."
+        },
+        {
+          "h": "Sheepfolds",
+          "t": "Stone sheepfolds still dot the Judean hills, where flocks spent the night."
+        }
+      ],
+      "discussion": "The older brother did everything right, yet felt shut out. Why does Jesus leave his ending open?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Parables",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 18:12-14": "Lost sheep",
+        "Ezekiel 34:11-16": "God seeks His sheep",
+        "Psalm 23": "The Lord my shepherd"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Younger son",
+          "d": "Came home"
+        },
+        {
+          "n": "Older son",
+          "d": "Stayed outside"
+        },
+        {
+          "n": "The father",
+          "d": "Ran to him"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Grumbling"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Complaint",
+          "label": "Pharisees grumble"
+        },
+        {
+          "when": "Story 1",
+          "label": "Lost sheep"
+        },
+        {
+          "when": "Story 2",
+          "label": "Lost coin"
+        },
+        {
+          "when": "Story 3",
+          "label": "Two sons"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day On the road to Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

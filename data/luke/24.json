@@ -240,7 +240,8 @@
             "Luke 24:34",
             "1 Corinthians 15:4"
           ]
-        }
+        },
+        "gloss": "Was raised up"
       },
       {
         "english": "opened",
@@ -254,13 +255,17 @@
             "Luke 24:31",
             "Acts 16:14"
           ]
-        }
+        },
+        "gloss": "To open fully"
       },
       {
         "english": "beginning with Moses",
         "greek": "ἀρξάμενος ἀπὸ Μωϋσέως (arxamenos apo Mōuseōs)",
         "verseRef": "v.27",
-        "meaning": "Jesus read the Old Testament as a unified story pointing to Himself. Luke does not record the exact passages, which leaves readers to find them for themselves."
+        "meaning": "Jesus read the Old Testament as a unified story pointing to Himself. Luke does not record the exact passages, which leaves readers to find them for themselves.",
+        "gloss": "Starting with Moses",
+        "ovGreek": "ἀρξάμενος",
+        "ovEnglish": "Beginning"
       },
       {
         "english": "witnesses",
@@ -380,6 +385,130 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Pilgrims_of_Emmaus_on_the_Road_(Les_pèlerins_d'Emmaüs_en_chemin)_-_James_Tissot.jpg",
       "caption": "The Pilgrims of Emmaus on the Road, by James Tissot (1886-1894), Luke 24:13-35",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Women find the tomb empty, and two men in dazzling clothes say Jesus has risen. Two disciples on the road to Emmaus walk with Him without recognizing Him until He breaks bread. He appears to the eleven, opens their minds to the Scriptures, and ascends.",
+      "settingLine": "The tomb, the road to Emmaus, and Jerusalem.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "The First Day",
+          "t": "The women came at dawn on the first day, after resting on the Sabbath."
+        },
+        {
+          "h": "Emmaus Road",
+          "t": "Emmaus lay a few miles from Jerusalem, and its exact site is still debated."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Burial Spices",
+          "t": "Spices honored the body, so the women did not expect a resurrection."
+        },
+        {
+          "h": "Breaking Bread",
+          "t": "The host broke and blessed bread to start a meal, when they recognized Him."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Rolling Stones",
+          "t": "Rock-cut tombs of the time were sealed with rolling disk stones, as in the story."
+        },
+        {
+          "h": "Emmaus Sites",
+          "t": "Several places claim to be Emmaus, including Emmaus-Nicopolis and Abu Ghosh."
+        }
+      ],
+      "discussion": "Why might the disciples have been kept from recognizing Jesus until He broke the bread?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 28:1-10": "The empty tomb",
+        "Psalm 16:8-11": "Not left in the grave",
+        "Isaiah 53:10-12": "The Servant's reward"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The women",
+          "d": "First there"
+        },
+        {
+          "n": "Cleopas",
+          "d": "To Emmaus"
+        },
+        {
+          "n": "Peter",
+          "d": "Ran to the tomb"
+        },
+        {
+          "n": "Emmaus",
+          "d": "Village road"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Dawn",
+          "label": "Empty tomb"
+        },
+        {
+          "when": "Afternoon",
+          "label": "Road to Emmaus"
+        },
+        {
+          "when": "Evening",
+          "label": "Jesus appears"
+        },
+        {
+          "when": "Later",
+          "label": "Ascension"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          13,
+          18,
+          33,
+          47,
+          49,
+          52
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Emmaus",
+        "lat": 31.7929,
+        "lng": 35.1642,
+        "verses": [
+          13,
+          28,
+          35
+        ],
+        "slug": "emmaus"
+      },
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          50
+        ],
+        "slug": "bethany-1"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.4
   }
 }

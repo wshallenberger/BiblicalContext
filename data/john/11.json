@@ -248,19 +248,28 @@
         "english": "I am the resurrection and the life",
         "greek": "ἐγώ εἰμι ἡ ἀνάστασις καὶ ἡ ζωή (egō eimi hē anastasis kai hē zōē)",
         "verseRef": "v.25",
-        "meaning": "The fifth of Jesus' seven \"I am\" declarations in John — He doesn't simply promise a future resurrection but identifies Himself personally as the source of it, present tense, standing right in front of Martha."
+        "meaning": "The fifth of Jesus' seven \"I am\" declarations in John — He doesn't simply promise a future resurrection but identifies Himself personally as the source of it, present tense, standing right in front of Martha.",
+        "gloss": "Resurrection",
+        "ovGreek": "ἡ ἀνάστασις",
+        "ovEnglish": "Resurrection"
       },
       {
         "english": "Jesus wept",
         "greek": "ἐδάκρυσεν ὁ Ἰησοῦς (edakrysen ho Iēsous)",
         "verseRef": "v.35",
-        "meaning": "The shortest verse in the entire Bible, using a different, gentler word for weeping than the loud wailing of the professional mourners around Him — a quiet, personal grief distinct from the crowd's noise."
+        "meaning": "The shortest verse in the entire Bible, using a different, gentler word for weeping than the loud wailing of the professional mourners around Him — a quiet, personal grief distinct from the crowd's noise.",
+        "gloss": "Jesus wept",
+        "ovGreek": "ἐδάκρυσεν",
+        "ovEnglish": "Jesus wept"
       },
       {
         "english": "deeply moved",
         "greek": "ἐνεβριμήσατο (enebrimēsato)",
         "verseRef": "v.33, 38",
-        "meaning": "A notably strong word, closer to \"snorted\" or \"was outraged\" than simple sadness — many readers understand this as Jesus' visceral anger at death itself, the intrusion it represents into a world He made for life."
+        "meaning": "A notably strong word, closer to \"snorted\" or \"was outraged\" than simple sadness — many readers understand this as Jesus' visceral anger at death itself, the intrusion it represents into a world He made for life.",
+        "gloss": "Deeply troubled",
+        "ovGreek": "ἐνεβριμήσατο",
+        "ovEnglish": "Deeply moved"
       }
     ],
     "gospelParallels": [],
@@ -308,6 +317,126 @@
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/080.jpg",
       "caption": "The Resurrection of Lazarus, by Gustave Doré (1866)",
       "credit": "Public domain — Project Gutenberg"
-    }
+    },
+    "overview": {
+      "summary": "Lazarus of Bethany dies while Jesus is away, and Jesus tells Martha He is the resurrection and the life. He weeps, calls Lazarus out of the tomb, and the leaders then plot His death, with Caiaphas saying one man should die for the people.",
+      "settingLine": "Bethany, two miles from Jerusalem.",
+      "placeName": "Bethany, near Jerusalem",
+      "history": [
+        {
+          "h": "Four Days",
+          "t": "Jews believed the spirit lingered three days, so four days proved real death."
+        },
+        {
+          "h": "The Plot",
+          "t": "The Sanhedrin feared Rome would destroy the temple if the crowds rallied to Jesus."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Mourning",
+          "t": "Professional mourners and visitors comforted the family for a week."
+        },
+        {
+          "h": "Burial",
+          "t": "Bodies were wrapped in linen and laid in a rock-cut tomb sealed with a stone."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Bethany Tomb",
+          "t": "A rock-cut tomb in al-Eizariya has been honored as Lazarus' tomb since early times."
+        },
+        {
+          "h": "Rolling Stones",
+          "t": "Round and flat stones sealed some Jerusalem-area tombs."
+        }
+      ],
+      "discussion": "Jesus wept even though He knew He would raise Lazarus. What does that say about how God sees grief?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Miracle and narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "1 Kings 17:17-24 / 2 Kings 4:32-37": "Prophets raise children",
+        "Isaiah 53:5-8": "A servant dies for others",
+        "Daniel 12:2": "Many will awake"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Lazarus",
+          "d": "Raised"
+        },
+        {
+          "n": "Martha",
+          "d": "Confesses"
+        },
+        {
+          "n": "Mary",
+          "d": "At His feet"
+        },
+        {
+          "n": "Caiaphas",
+          "d": "High priest"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Message",
+          "label": "Lazarus is ill"
+        },
+        {
+          "when": "Delay",
+          "label": "Two days"
+        },
+        {
+          "when": "Bethany",
+          "label": "Jesus weeps"
+        },
+        {
+          "when": "Tomb",
+          "label": "Lazarus raised"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Bethany, near Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          1,
+          17,
+          18
+        ],
+        "slug": "bethany-1"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          18,
+          54,
+          55
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Ephraim",
+        "lat": 31.9544,
+        "lng": 35.3003,
+        "verses": [
+          54
+        ],
+        "slug": "ephraim-2"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

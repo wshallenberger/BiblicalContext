@@ -147,20 +147,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 another Sabbath healing, a summary of Jesus' widening fame, the naming of the Twelve, and a sharp confrontation with both scribes and His own family",
+    "genre": "Narrative Gospel — another Sabbath healing, a summary of Jesus' widening fame, the naming of the Twelve, and a sharp confrontation with both scribes and His own family",
     "audience": "Roman Christian readers watching opposition to Jesus escalate from questioning to an actual death plot",
     "mapLabel": "GALILEE, SEA OF GALILEE",
-    "setting": "The healing opens in a synagogue, almost certainly Capernaum's again. The crowd that follows in v.7-8 comes from a strikingly wide geographic spread \u2014 Galilee, Judea, Jerusalem, Idumea (Edom, south of Judea), across the Jordan, and even the Gentile coastal cities of Tyre and Sidon.",
-    "custom": "Pharisees and Herodians were natural political rivals \u2014 Herodians supported Rome's client king, while Pharisees resented foreign rule. Their willingness to conspire together against Jesus (v.6) shows just how seriously His growing authority was being taken.",
-    "timelineImmediate": "The healing of the withered hand triggers the first explicit murder plot against Jesus in Mark's Gospel \u2014 everything that follows in this chapter (appointing the Twelve, the Beelzebul controversy, His family's concern) unfolds under that new, darker shadow.",
-    "timelineBible": "The choice of twelve apostles deliberately mirrors Israel's twelve tribes (Exodus 24:4) \u2014 a symbolic re-founding of God's people around Jesus, rather than merely gathering a study group.",
-    "sparkNotes": "Jesus heals a withered hand on the Sabbath, which immediately triggers a death plot between two groups who otherwise despised each other \u2014 Pharisees and Herodians. He then appoints His twelve apostles by name (including the nickname \"Sons of Thunder\" for James and John, whose meaning isn't fully explained), before facing accusations from scribes and concern from His own family in the same breath, culminating in His redefinition of what family actually means.",
+    "setting": "The healing opens in a synagogue, almost certainly Capernaum's again. The crowd that follows in v.7-8 comes from a strikingly wide geographic spread — Galilee, Judea, Jerusalem, Idumea (Edom, south of Judea), across the Jordan, and even the Gentile coastal cities of Tyre and Sidon.",
+    "custom": "Pharisees and Herodians were natural political rivals — Herodians supported Rome's client king, while Pharisees resented foreign rule. Their willingness to conspire together against Jesus (v.6) shows just how seriously His growing authority was being taken.",
+    "timelineImmediate": "The healing of the withered hand triggers the first explicit murder plot against Jesus in Mark's Gospel — everything that follows in this chapter (appointing the Twelve, the Beelzebul controversy, His family's concern) unfolds under that new, darker shadow.",
+    "timelineBible": "The choice of twelve apostles deliberately mirrors Israel's twelve tribes (Exodus 24:4) — a symbolic re-founding of God's people around Jesus, rather than merely gathering a study group.",
+    "sparkNotes": "Jesus heals a withered hand on the Sabbath, which immediately triggers a death plot between two groups who otherwise despised each other — Pharisees and Herodians. He then appoints His twelve apostles by name (including the nickname \"Sons of Thunder\" for James and John, whose meaning isn't fully explained), before facing accusations from scribes and concern from His own family in the same breath, culminating in His redefinition of what family actually means.",
     "translation": [
       {
         "english": "withered",
-        "greek": "\u03be\u03b7\u03c1\u03ac\u03bd (x\u0113ran)",
+        "greek": "ξηράν (xēran)",
         "verseRef": "v.1, 3",
-        "meaning": "Shriveled, dried, deprived of natural strength \u2014 used elsewhere in the NT almost exclusively for this same condition of a hand.",
+        "meaning": "Shriveled, dried, deprived of natural strength — used elsewhere in the NT almost exclusively for this same condition of a hand.",
         "occurrences": {
           "total": 8,
           "sampleRefs": [
@@ -169,19 +169,21 @@
             "Luke 6:8"
           ],
           "note": "Half its New Testament uses describe this same kind of withered hand; the rest describe dry land or ground."
-        }
+        },
+        "gloss": "Dried up, withered"
       },
       {
         "english": "Boanerges",
-        "greek": "\u0392\u03bf\u03b1\u03bd\u03b7\u03c1\u03b3\u03ad\u03c2 (Boan\u0113rges)",
+        "greek": "Βοανηργές (Boanērges)",
         "verseRef": "v.17",
-        "meaning": "An Aramaic nickname meaning \"Sons of Thunder,\" given by Jesus to James and John \u2014 Mark preserves the original sound rather than only translating it, and never explains exactly why."
+        "meaning": "An Aramaic nickname meaning \"Sons of Thunder,\" given by Jesus to James and John — Mark preserves the original sound rather than only translating it, and never explains exactly why.",
+        "gloss": "Sons of thunder"
       },
       {
         "english": "apostles",
-        "greek": "\u1f00\u03c0\u03bf\u03c3\u03c4\u03cc\u03bb\u03bf\u03c5\u03c2 (apostolous)",
+        "greek": "ἀποστόλους (apostolous)",
         "verseRef": "v.14",
-        "meaning": "Literally \"ones sent\" \u2014 the term marks a formal commissioning, not just a follower.",
+        "meaning": "Literally \"ones sent\" — the term marks a formal commissioning, not just a follower.",
         "occurrences": {
           "total": 80,
           "sampleRefs": [
@@ -189,7 +191,8 @@
             "Acts 1:26",
             "Romans 1:1"
           ]
-        }
+        },
+        "gloss": "Those sent out"
       }
     ],
     "gospelParallels": [
@@ -212,15 +215,15 @@
     "otBackground": [
       {
         "ref": "1 Kings 13:4-6",
-        "note": "King Jeroboam's hand withers and is later restored \u2014 a precedent for God's power over a rebellious hand."
+        "note": "King Jeroboam's hand withers and is later restored — a precedent for God's power over a rebellious hand."
       },
       {
         "ref": "Exodus 24:4",
-        "note": "The twelve pillars representing Israel's twelve tribes \u2014 background for Jesus choosing exactly twelve apostles."
+        "note": "The twelve pillars representing Israel's twelve tribes — background for Jesus choosing exactly twelve apostles."
       },
       {
         "ref": "Isaiah 5:20",
-        "note": "\"Woe to those who call evil good and good evil\" \u2014 echoed in the scribes' inversion of Jesus' Spirit-empowered work as demonic."
+        "note": "\"Woe to those who call evil good and good evil\" — echoed in the scribes' inversion of Jesus' Spirit-empowered work as demonic."
       }
     ],
     "mapCoords": {
@@ -233,7 +236,7 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry draws a spiritual parallel from the physical healing: \"our hands are spiritually withered, the powers of our souls weakened by sin, and disabled for that which is good\" \u2014 the same healing power at work in the synagogue that day is what's needed for the soul. He also notes Jesus asks the Pharisees a question they can't safely answer either way, which is exactly why \"they held their peace.\"",
+        "note": "Henry draws a spiritual parallel from the physical healing: \"our hands are spiritually withered, the powers of our souls weakened by sin, and disabled for that which is good\" — the same healing power at work in the synagogue that day is what's needed for the soul. He also notes Jesus asks the Pharisees a question they can't safely answer either way, which is exactly why \"they held their peace.\"",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mar/Mar_003.cfm"
       },
       {
@@ -252,7 +255,93 @@
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Man_with_the_Withered_Hand_(L%27homme_%C3%A0_la_main_dess%C3%A9ch%C3%A9e)_-_James_Tissot_-_overall.jpg",
       "caption": "The Man with the Withered Hand, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus heals a man's withered hand on the Sabbath, and the Pharisees and Herodians plot against Him. He chooses the Twelve, answers the charge that He works by Satan, and says that whoever does God's will is His family.",
+      "settingLine": "A synagogue, a mountain, then a house.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Herodians",
+          "t": "Supporters of Herod's family, usually rivals of the Pharisees."
+        },
+        {
+          "h": "The Twelve",
+          "t": "Twelve apostles echoed the twelve tribes of Israel."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sabbath Healing",
+          "t": "Many rabbis allowed healing on the Sabbath only to save a life."
+        },
+        {
+          "h": "Family Honor",
+          "t": "Family was a person's greatest loyalty, so Jesus' words shocked."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Galilean Synagogues",
+          "t": "Early synagogues at Gamla and Magdala show where such teaching happened."
+        },
+        {
+          "h": "Magdala",
+          "t": "Excavations at Magdala uncovered a first-century synagogue with a carved stone."
+        }
+      ],
+      "discussion": "Jesus asked whether it is lawful to do good on the Sabbath. How do we weigh rules against compassion?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 12:9-14": "The withered hand",
+        "1 Kings 13:4-6": "A hand withered, restored",
+        "Exodus 24:4": "Twelve pillars for Israel"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Plotted"
+        },
+        {
+          "n": "Herodians",
+          "d": "Plotted"
+        },
+        {
+          "n": "The Twelve",
+          "d": "Chosen"
+        },
+        {
+          "n": "Boanerges",
+          "d": "Thunder"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Sabbath",
+          "label": "Hand healed"
+        },
+        {
+          "when": "Crowds",
+          "label": "From all regions"
+        },
+        {
+          "when": "Mountain",
+          "label": "The Twelve"
+        },
+        {
+          "when": "A house",
+          "label": "True family"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

@@ -172,7 +172,8 @@
             "Romans 14:13",
             "1 Corinthians 1:23"
           ]
-        }
+        },
+        "gloss": "Traps, causes to fall"
       },
       {
         "english": "cleansed",
@@ -186,7 +187,8 @@
             "Luke 5:13",
             "Acts 10:15"
           ]
-        }
+        },
+        "gloss": "Were made clean"
       },
       {
         "english": "in your midst",
@@ -199,7 +201,8 @@
             "Matthew 23:26",
             "Luke 17:21"
           ]
-        }
+        },
+        "gloss": "Inside you or among you"
       },
       {
         "english": "revealed",
@@ -310,6 +313,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Healing_of_Ten_Lepers_(Guérison_de_dix_lépreux)_-_James_Tissot.jpg",
       "caption": "The Healing of Ten Lepers, by James Tissot (1886-1894), Luke 17:11-19",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus warns against causing others to stumble and tells His disciples to forgive without limit. He heals ten lepers, and only a Samaritan returns to give thanks. Asked when the kingdom comes, He says it is already in their midst.",
+      "settingLine": "The border between Samaria and Galilee.",
+      "placeName": "Between Samaria and Galilee",
+      "history": [
+        {
+          "h": "Borderlands",
+          "t": "The border region mixed Jews and Samaritans, who normally kept their distance."
+        },
+        {
+          "h": "Kingdom Hopes",
+          "t": "Many expected the kingdom with signs and force, so Jesus' answer surprised them."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Priest Check",
+          "t": "A priest had to declare a leper clean, so going to him meant trusting before healing."
+        },
+        {
+          "h": "Lepers' Distance",
+          "t": "Lepers had to stay away and call out \"unclean,\" so these men stood far off."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Mount Gerizim",
+          "t": "Ruins on the mountain show the Samaritans' rival place of worship."
+        },
+        {
+          "h": "Sebaste",
+          "t": "Herod rebuilt Samaria as Sebaste, and its Roman ruins still stand."
+        }
+      ],
+      "discussion": "Ten were healed and only one came back to thank Him. Does gratitude matter to God, or only to us?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and teaching",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 18:6-7": "Causing others to stumble",
+        "Leviticus 13-14": "Laws for leprosy",
+        "2 Kings 5:1-14": "Naaman healed"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Samaritan",
+          "d": "Returned"
+        },
+        {
+          "n": "Ten lepers",
+          "d": "Cried for mercy"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Asked about it"
+        },
+        {
+          "n": "Lot's wife",
+          "d": "A warning"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Teaching",
+          "label": "Stumbling, forgiveness"
+        },
+        {
+          "when": "A request",
+          "label": "Increase our faith"
+        },
+        {
+          "when": "Border",
+          "label": "Ten lepers healed"
+        },
+        {
+          "when": "Question",
+          "label": "The kingdom's coming"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Between Samaria and Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

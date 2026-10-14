@@ -252,7 +252,8 @@
             "1 Thessalonians 5:21",
             "Hebrews 3:6"
           ]
-        }
+        },
+        "gloss": "Hold fast"
       },
       {
         "english": "Legion",
@@ -266,7 +267,8 @@
             "Mark 5:9",
             "Mark 5:15"
           ]
-        }
+        },
+        "gloss": "A Roman army unit"
       },
       {
         "english": "the Abyss",
@@ -280,7 +282,8 @@
             "Revelation 9:1",
             "Revelation 20:3"
           ]
-        }
+        },
+        "gloss": "The bottomless deep"
       }
     ],
     "gospelParallels": [
@@ -398,6 +401,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JesusCalmingtheTempestDore.jpg",
       "caption": "Jesus Calming the Tempest, by Gustave Doré",
       "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus tours Galilee with the Twelve and women who support Him, and tells the parable of the sower. He calms a storm, frees a man named Legion, heals a woman, and raises Jairus' daughter.",
+      "settingLine": "Galilee, then across the lake to the Gerasenes.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Women Disciples",
+          "t": "Women supporting a rabbi was unusual, and Joanna's husband served Herod's household."
+        },
+        {
+          "h": "Gerasenes",
+          "t": "Their region was mostly Gentile, which explains the herd of pigs."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sowing",
+          "t": "Seed was scattered by hand before plowing, so some landed on paths, rock and thorns."
+        },
+        {
+          "h": "Unclean Woman",
+          "t": "Her bleeding made her ritually unclean, so touching Jesus' cloak was a bold risk."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Kursi",
+          "t": "A Byzantine monastery and church stand on the steep shore, the traditional site."
+        },
+        {
+          "h": "Galilee Boat",
+          "t": "The 1986 boat, about 27 feet long, shows the kind the disciples used."
+        }
+      ],
+      "discussion": "The disciples asked, \"Don't You care that we are perishing?\" Is it wrong to bring God our fears?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and teaching",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 13:1-23": "Sower and the soils",
+        "Isaiah 6:9-10": "Hearing, not understanding",
+        "Isaiah 55:10-11": "God's word, like rain"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Jairus",
+          "d": "Synagogue leader"
+        },
+        {
+          "n": "Legion",
+          "d": "Freed man"
+        },
+        {
+          "n": "Joanna",
+          "d": "Supporter"
+        },
+        {
+          "n": "Gerasenes",
+          "d": "East shore"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Tour",
+          "label": "Parable of the sower"
+        },
+        {
+          "when": "One day",
+          "label": "Storm calmed"
+        },
+        {
+          "when": "Far shore",
+          "label": "Legion freed"
+        },
+        {
+          "when": "Back",
+          "label": "Jairus' daughter"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

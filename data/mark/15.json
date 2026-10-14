@@ -191,20 +191,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 the trial before Pilate, mockery, crucifixion, death, and burial, told with almost no editorial comment, letting the events themselves carry the weight",
+    "genre": "Narrative Gospel — the trial before Pilate, mockery, crucifixion, death, and burial, told with almost no editorial comment, letting the events themselves carry the weight",
     "audience": "Roman Christian readers, given an account of a Roman method of execution they would have understood all too well firsthand",
     "mapLabel": "GOLGOTHA, JERUSALEM",
-    "setting": "Jesus is tried before Pontius Pilate, Roman governor of Judea from AD 26-36, then taken to Golgotha \u2014 \"the Place of the Skull\" \u2014 traditionally identified with the site beneath the Church of the Holy Sepulchre, just outside the first-century city walls.",
-    "custom": "Pilate's custom of releasing a prisoner at the feast isn't independently attested outside the Gospels, but fits a plausible pattern of Roman provincial governance aimed at keeping restless populations calm during high-tension festivals. Wine mixed with myrrh was commonly offered before crucifixion as a mild painkiller \u2014 Jesus refuses it, apparently choosing to face the full weight of what's coming with unclouded awareness.",
+    "setting": "Jesus is tried before Pontius Pilate, Roman governor of Judea from AD 26-36, then taken to Golgotha — \"the Place of the Skull\" — traditionally identified with the site beneath the Church of the Holy Sepulchre, just outside the first-century city walls.",
+    "custom": "Pilate's custom of releasing a prisoner at the feast isn't independently attested outside the Gospels, but fits a plausible pattern of Roman provincial governance aimed at keeping restless populations calm during high-tension festivals. Wine mixed with myrrh was commonly offered before crucifixion as a mild painkiller — Jesus refuses it, apparently choosing to face the full weight of what's coming with unclouded awareness.",
     "timelineImmediate": "This chapter covers roughly nine hours of a single day, from early-morning trial to a three-in-the-afternoon death and same-day burial, driven by the practical urgency of completing everything before the Sabbath began at sundown.",
-    "timelineBible": "Jesus' cry \"Eloi, Eloi, lema sabachthani\" quotes Psalm 22:1 word for word, and the soldiers casting lots for His garments (v.24) fulfills Psalm 22:18 with striking precision \u2014 a psalm of suffering written roughly a thousand years earlier.",
-    "sparkNotes": "Jesus is tried before Pilate, who finds no real fault in Him but hands Him over anyway to satisfy the crowd demanding Barabbas's release instead. Soldiers mock Him as a fake king, then crucify Him at Golgotha between two criminals \u2014 and at His death, the temple veil tears in two and a Roman centurion, of all people, declares, \"Truly this man was the Son of God.\" Joseph of Arimathea, a member of the very council that condemned Him, boldly asks for His body and buries it before sundown.",
+    "timelineBible": "Jesus' cry \"Eloi, Eloi, lema sabachthani\" quotes Psalm 22:1 word for word, and the soldiers casting lots for His garments (v.24) fulfills Psalm 22:18 with striking precision — a psalm of suffering written roughly a thousand years earlier.",
+    "sparkNotes": "Jesus is tried before Pilate, who finds no real fault in Him but hands Him over anyway to satisfy the crowd demanding Barabbas's release instead. Soldiers mock Him as a fake king, then crucify Him at Golgotha between two criminals — and at His death, the temple veil tears in two and a Roman centurion, of all people, declares, \"Truly this man was the Son of God.\" Joseph of Arimathea, a member of the very council that condemned Him, boldly asks for His body and buries it before sundown.",
     "translation": [
       {
         "english": "crucified",
-        "greek": "\u1f10\u03c3\u03c4\u03b1\u03cd\u03c1\u03c9\u03c3\u03b1\u03bd (estaur\u014dsan)",
+        "greek": "ἐσταύρωσαν (estaurōsan)",
         "verseRef": "v.13-15, 20, 24-25, 27",
-        "meaning": "The Roman method of execution reserved largely for slaves, rebels, and the basest criminals \u2014 a deliberately shameful, public death.",
+        "meaning": "The Roman method of execution reserved largely for slaves, rebels, and the basest criminals — a deliberately shameful, public death.",
         "occurrences": {
           "total": 46,
           "sampleRefs": [
@@ -212,19 +212,23 @@
             "1 Corinthians 1:23",
             "Galatians 5:24"
           ]
-        }
+        },
+        "gloss": "Nailed to a cross"
       },
       {
         "english": "Eloi, Eloi, lema sabachthani",
-        "greek": "\u1f18\u03bb\u03c9\u1fd2 \u1f18\u03bb\u03c9\u1fd2 \u03bb\u03b5\u03bc\u1f70 \u03c3\u03b1\u03b2\u03b1\u03c7\u03b8\u03b1\u03bd\u03af (El\u014di El\u014di lema sabachthani)",
+        "greek": "Ἐλωῒ Ἐλωῒ λεμὰ σαβαχθανί (Elōi Elōi lema sabachthani)",
         "verseRef": "v.34",
-        "meaning": "Aramaic, quoting Psalm 22:1 directly \u2014 \"My God, My God, why have You forsaken Me?\" \u2014 the only words from the cross Mark records."
+        "meaning": "Aramaic, quoting Psalm 22:1 directly — \"My God, My God, why have You forsaken Me?\" — the only words from the cross Mark records.",
+        "gloss": "My God, my God",
+        "ovGreek": "Ἐλωῒ Ἐλωῒ",
+        "ovEnglish": "Eloi, Eloi"
       },
       {
         "english": "veil",
-        "greek": "\u03ba\u03b1\u03c4\u03b1\u03c0\u03ad\u03c4\u03b1\u03c3\u03bc\u03b1 (katapetasma)",
+        "greek": "καταπέτασμα (katapetasma)",
         "verseRef": "v.38",
-        "meaning": "The curtain separating the temple's Most Holy Place from the rest \u2014 its tearing \"from top to bottom\" pictures a barrier removed by God's own action, not torn from below by human hands.",
+        "meaning": "The curtain separating the temple's Most Holy Place from the rest — its tearing \"from top to bottom\" pictures a barrier removed by God's own action, not torn from below by human hands.",
         "occurrences": {
           "total": 6,
           "sampleRefs": [
@@ -232,8 +236,9 @@
             "Hebrews 6:19",
             "Hebrews 10:20"
           ],
-          "note": "Hebrews later calls Jesus' own body this same word \u2014 \"the veil, that is, His flesh\" \u2014 tying His torn body directly to the temple veil torn at His death."
-        }
+          "note": "Hebrews later calls Jesus' own body this same word — \"the veil, that is, His flesh\" — tying His torn body directly to the temple veil torn at His death."
+        },
+        "gloss": "The temple curtain"
       }
     ],
     "gospelParallels": [
@@ -253,7 +258,7 @@
     "otBackground": [
       {
         "ref": "Psalm 22:1",
-        "note": "\"My God, My God, why have You forsaken Me\" \u2014 quoted word for word as Jesus' cry from the cross."
+        "note": "\"My God, My God, why have You forsaken Me\" — quoted word for word as Jesus' cry from the cross."
       },
       {
         "ref": "Psalm 22:18",
@@ -261,7 +266,7 @@
       },
       {
         "ref": "Isaiah 53:9",
-        "note": "The suffering servant given \"a grave with the rich\" \u2014 echoed in Joseph of Arimathea's wealthy, honorable tomb."
+        "note": "The suffering servant given \"a grave with the rich\" — echoed in Joseph of Arimathea's wealthy, honorable tomb."
       }
     ],
     "mapCoords": {
@@ -274,26 +279,149 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry connects Jesus being bound directly to Psalm 118:27's language of sacrifices bound with cords \u2014 \"Christ was bound, to make bonds easy to us.\" He also cites Cicero's own description of crucifixion, teterrimum supplicium, \"a most tremendous punishment,\" noting Christ met death in its most extreme, deliberately shameful form \u2014 the death reserved for slaves and the worst criminals \u2014 and thereby conquered it.",
+        "note": "Henry connects Jesus being bound directly to Psalm 118:27's language of sacrifices bound with cords — \"Christ was bound, to make bonds easy to us.\" He also cites Cicero's own description of crucifixion, teterrimum supplicium, \"a most tremendous punishment,\" noting Christ met death in its most extreme, deliberately shameful form — the death reserved for slaves and the worst criminals — and thereby conquered it.",
         "url": "https://biblehub.com/commentaries/mhcw/mark/15.htm"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "On Pilate releasing Barabbas, Henry notes the irony sharply: Pilate released \"the scandal and plague of their nation\" while condemning \"the glory and blessing of their nation\" \u2014 not from conviction, but simply to keep the crowd quiet, \"willing to content the people.\" Political expedience, not justice, decided who lived and who died that day.",
+        "note": "On Pilate releasing Barabbas, Henry notes the irony sharply: Pilate released \"the scandal and plague of their nation\" while condemning \"the glory and blessing of their nation\" — not from conviction, but simply to keep the crowd quiet, \"willing to content the people.\" Political expedience, not justice, decided who lived and who died that day.",
         "url": "https://biblehub.com/commentaries/mhcw/mark/15.htm"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle calls Barabbas's release 'a vivid emblem of the manner in which God pardons and justifies the ungodly' \u2014 a guilty man walking free while an innocent one dies in his place, the exact shape of the exchange at the center of the gospel itself.",
+        "note": "Ryle calls Barabbas's release 'a vivid emblem of the manner in which God pardons and justifies the ungodly' — a guilty man walking free while an innocent one dies in his place, the exact shape of the exchange at the center of the gospel itself.",
         "url": "https://www.preceptaustin.org/j-c-ryle-gospel-of-mark-commentary"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Mark 15, but \"The Perfect Penitent\" in <em>Mere Christianity</em> is a reflection on what the cross is for. He says that the central Christian belief is that Christ's death put us right with God and gave us a fresh start, and that how it works is less important than the fact. The explanation he offers is that only God made human could submit and repent perfectly on our behalf. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://assets.litcharts.com/lit/mere-christianity/book-2-chapter-4-the-perfect-penitent"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_Crucifixion_of_Jesus.jpg",
-      "caption": "Crucifixion of Jesus, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Crucifixion of Jesus, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "At dawn Jesus is handed to Pilate, who releases Barabbas and has Jesus flogged. He is crucified at Golgotha, cries out in the words of Psalm 22, and dies. A centurion confesses, and Joseph of Arimathea buries Him.",
+      "settingLine": "Pilate's headquarters, then Golgotha.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Pilate",
+          "t": "Pilate governed Judea from AD 26 to 36 and was known for harshness."
+        },
+        {
+          "h": "Crucifixion",
+          "t": "Rome crucified rebels publicly to frighten others into obedience."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Roman Flogging",
+          "t": "Prisoners were beaten before crucifixion, often weakening them."
+        },
+        {
+          "h": "The Titulus",
+          "t": "A written charge was fixed above the condemned person on the cross."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Heel Bone",
+          "t": "A heel bone with an iron nail was found in a Jerusalem tomb of this era."
+        },
+        {
+          "h": "Pilate Stone",
+          "t": "A stone from Caesarea names Pontius Pilate as prefect of Judea."
+        }
+      ],
+      "discussion": "A Roman centurion called Jesus the Son of God as He died. Why might that confession come from him?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 27:1-61": "Trial and burial",
+        "Psalm 22:1": "My God, why?",
+        "Psalm 22:18": "Lots cast for clothes"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pilate",
+          "d": "Governor"
+        },
+        {
+          "n": "Barabbas",
+          "d": "Freed"
+        },
+        {
+          "n": "Simon",
+          "d": "From Cyrene"
+        },
+        {
+          "n": "Joseph",
+          "d": "Buried Him"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Dawn",
+          "label": "Before Pilate"
+        },
+        {
+          "when": "Nine",
+          "label": "Crucified"
+        },
+        {
+          "when": "Noon",
+          "label": "Darkness falls"
+        },
+        {
+          "when": "Evening",
+          "label": "Laid in a tomb"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Golgotha",
+        "lat": 31.7784,
+        "lng": 35.2298,
+        "verses": [
+          22
+        ],
+        "slug": "golgotha"
+      },
+      {
+        "name": "Arimathea",
+        "lat": 32.0281,
+        "lng": 35.0194,
+        "verses": [
+          43
+        ],
+        "slug": "arimathea"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          41
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

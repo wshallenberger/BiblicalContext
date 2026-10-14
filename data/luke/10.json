@@ -196,7 +196,8 @@
             "Romans 13:9",
             "James 2:8"
           ]
-        }
+        },
+        "gloss": "One who is near"
       },
       {
         "english": "inn",
@@ -209,7 +210,8 @@
             "Luke 10:34"
           ],
           "note": "The word and its related word for innkeeper in verse 35 each appear only here in the New Testament."
-        }
+        },
+        "gloss": "Place to receive all"
       },
       {
         "english": "distracted",
@@ -221,7 +223,8 @@
           "sampleRefs": [
             "Luke 10:40"
           ]
-        }
+        },
+        "gloss": "Pulled in many directions"
       }
     ],
     "gospelParallels": [
@@ -298,6 +301,142 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Good_Samaritan_(Le_bon_samaritain)_-_James_Tissot.jpg",
       "caption": "The Good Samaritan, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus sends out seventy-two in pairs and rejoices when they return. A lawyer asks who his neighbor is, and Jesus tells the story of the Good Samaritan. At Martha's home, He says Mary has chosen the better part.",
+      "settingLine": "Galilean towns, the Jericho road, and Martha's home.",
+      "placeName": "Jerusalem, Judea",
+      "history": [
+        {
+          "h": "Samaritans",
+          "t": "Jews and Samaritans were bitter rivals, split over worship and centuries of mistrust."
+        },
+        {
+          "h": "Jericho Road",
+          "t": "It drops about 3,300 feet in 17 miles through rocky hills, a known haunt of robbers."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Passing By",
+          "t": "A priest or Levite touching a corpse became unclean, which may explain why they avoided him."
+        },
+        {
+          "h": "At His Feet",
+          "t": "Sitting at a teacher's feet was the place of a disciple, usually a man's role."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Jericho Road",
+          "t": "The old road still runs through desert canyons, with a traditional inn site along it."
+        },
+        {
+          "h": "Chorazin",
+          "t": "Its ruins include a black basalt synagogue, from a town Jesus warned."
+        }
+      ],
+      "discussion": "Jesus answered \"Who is my neighbor?\" by asking who acted as one. Who is hardest for you to see that way?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and parable",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 9:35-38": "Plentiful harvest",
+        "Genesis 10": "Table of the nations",
+        "Deuteronomy 6:5": "Love the Lord"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Samaritan",
+          "d": "Helper"
+        },
+        {
+          "n": "Martha",
+          "d": "Busy host"
+        },
+        {
+          "n": "Mary",
+          "d": "At Jesus' feet"
+        },
+        {
+          "n": "Jericho",
+          "d": "Down the road"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Sent",
+          "label": "Seventy-two go out"
+        },
+        {
+          "when": "Return",
+          "label": "Joy, names in heaven"
+        },
+        {
+          "when": "A lawyer",
+          "label": "Good Samaritan"
+        },
+        {
+          "when": "A village",
+          "label": "Martha and Mary"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem, Judea",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          30,
+          38
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Jericho",
+        "lat": 31.8519,
+        "lng": 35.4362,
+        "verses": [
+          30
+        ],
+        "slug": "jericho-2"
+      },
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          15
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Chorazin",
+        "lat": 32.9114,
+        "lng": 35.5639,
+        "verses": [
+          13
+        ],
+        "slug": "chorazin"
+      },
+      {
+        "name": "Bethsaida",
+        "lat": 32.9104,
+        "lng": 35.631,
+        "verses": [
+          13
+        ],
+        "slug": "bethsaida-1"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

@@ -211,19 +211,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Extended teaching discourse \u2014 the first half of the Olivet Discourse, Jesus' longest sustained prophetic teaching, given privately to His disciples.",
-    "audience": "The disciples alone, asking privately about the temple's destruction and the sign of Jesus' coming \u2014 this is intimate, direct instruction, not public teaching for the crowds.",
+    "genre": "Extended teaching discourse — the first half of the Olivet Discourse, Jesus' longest sustained prophetic teaching, given privately to His disciples.",
+    "audience": "The disciples alone, asking privately about the temple's destruction and the sign of Jesus' coming — this is intimate, direct instruction, not public teaching for the crowds.",
     "mapLabel": "THE MOUNT OF OLIVES, OVERLOOKING JERUSALEM",
-    "setting": "It's likely Tuesday of Passion Week. Jesus has just left the magnificently rebuilt temple \u2014 its white marble and gold famous throughout the region \u2014 and sits on the Mount of Olives, which offers a direct, sweeping view back across the Kidron Valley to the temple He has just predicted will fall.",
-    "custom": "Flat rooftops (v.17) were used as everyday living space, reachable by an external staircase \u2014 Jesus' warning pictures someone fleeing so urgently they don't even go back down inside the house first, grabbing nothing on the way out.",
-    "timelineImmediate": "Delivered privately on the Mount of Olives, this chapter opens the last major teaching block before Jesus' arrest \u2014 a direct response to the disciples' shock at His prediction that the temple would be utterly destroyed.",
-    "timelineBible": "Jesus' phrase \"the abomination of desolation\" (v.15) deliberately echoes Daniel 9:27, 11:31, and 12:11 \u2014 instructing His disciples to read His words back through that centuries-old prophetic image rather than treating this as an entirely new revelation.",
+    "setting": "It's likely Tuesday of Passion Week. Jesus has just left the magnificently rebuilt temple — its white marble and gold famous throughout the region — and sits on the Mount of Olives, which offers a direct, sweeping view back across the Kidron Valley to the temple He has just predicted will fall.",
+    "custom": "Flat rooftops (v.17) were used as everyday living space, reachable by an external staircase — Jesus' warning pictures someone fleeing so urgently they don't even go back down inside the house first, grabbing nothing on the way out.",
+    "timelineImmediate": "Delivered privately on the Mount of Olives, this chapter opens the last major teaching block before Jesus' arrest — a direct response to the disciples' shock at His prediction that the temple would be utterly destroyed.",
+    "timelineBible": "Jesus' phrase \"the abomination of desolation\" (v.15) deliberately echoes Daniel 9:27, 11:31, and 12:11 — instructing His disciples to read His words back through that centuries-old prophetic image rather than treating this as an entirely new revelation.",
     "translation": [
       {
         "english": "birth pains",
-        "greek": "\u1f60\u03b4\u03af\u03bd\u03c9\u03bd (\u014ddin\u014dn)",
+        "greek": "ὠδίνων (ōdinōn)",
         "verseRef": "v.8",
-        "meaning": "The pains of labor and childbirth \u2014 used to describe early, escalating signs that point toward something inevitable, not yet the culmination itself.",
+        "meaning": "The pains of labor and childbirth — used to describe early, escalating signs that point toward something inevitable, not yet the culmination itself.",
         "occurrences": {
           "total": 4,
           "sampleRefs": [
@@ -232,25 +232,30 @@
             "1 Thessalonians 5:3"
           ],
           "note": "Also used once, strikingly, for \"the pains of death\" that could not hold Jesus in the tomb (Acts 2:24)."
-        }
+        },
+        "gloss": "Labor pains"
       },
       {
         "english": "abomination of desolation",
-        "greek": "\u03c4\u1f78 \u03b2\u03b4\u03ad\u03bb\u03c5\u03b3\u03bc\u03b1 \u03c4\u1fc6\u03c2 \u1f10\u03c1\u03b7\u03bc\u03ce\u03c3\u03b5\u03c9\u03c2 (to bdelygma t\u0113s er\u0113m\u014dse\u014ds)",
+        "greek": "τὸ βδέλυγμα τῆς ἐρημώσεως (to bdelygma tēs erēmōseōs)",
         "verseRef": "v.15",
-        "meaning": "A detestable act that causes desecration \u2014 directly quoting the phrase from the book of Daniel, which Jesus tells His hearers to \"understand\" by returning to that text."
+        "meaning": "A detestable act that causes desecration — directly quoting the phrase from the book of Daniel, which Jesus tells His hearers to \"understand\" by returning to that text.",
+        "gloss": "A detestable thing",
+        "ovGreek": "βδέλυγμα",
+        "ovEnglish": "Abomination"
       },
       {
         "english": "this generation",
-        "greek": "\u1f21 \u03b3\u03b5\u03bd\u03b5\u1f70 \u03b1\u1f55\u03c4\u03b7 (h\u0113 genea haut\u0113)",
+        "greek": "ἡ γενεὰ αὕτη (hē genea hautē)",
         "verseRef": "v.34",
-        "meaning": "A genuinely debated phrase \u2014 could mean the generation alive at the time, or more broadly the Jewish people as an ongoing generation across history."
+        "meaning": "A genuinely debated phrase — could mean the generation alive at the time, or more broadly the Jewish people as an ongoing generation across history.",
+        "gloss": "This generation"
       },
       {
         "english": "keep watch",
-        "greek": "\u03b3\u03c1\u03b7\u03b3\u03bf\u03c1\u03b5\u1fd6\u03c4\u03b5 (gr\u0113goreite)",
+        "greek": "γρηγορεῖτε (grēgoreite)",
         "verseRef": "v.42",
-        "meaning": "A present imperative \u2014 continuous, ongoing alertness rather than a single moment of readiness.",
+        "meaning": "A present imperative — continuous, ongoing alertness rather than a single moment of readiness.",
         "occurrences": {
           "total": 23,
           "sampleRefs": [
@@ -278,11 +283,11 @@
       },
       {
         "ref": "Isaiah 13:10 / 34:4",
-        "note": "Cosmic darkening imagery \u2014 sun, moon, and stars \u2014 echoed in Jesus' description of the tribulation's aftermath."
+        "note": "Cosmic darkening imagery — sun, moon, and stars — echoed in Jesus' description of the tribulation's aftermath."
       },
       {
         "ref": "Daniel 7:13-14",
-        "note": "The \"Son of Man\" coming on the clouds with authority \u2014 the image Jesus directly applies to Himself in v.30."
+        "note": "The \"Son of Man\" coming on the clouds with authority — the image Jesus directly applies to Himself in v.30."
       }
     ],
     "mapCoords": {
@@ -291,31 +296,138 @@
       "zoom": 10.5,
       "placeName": "The Mount of Olives"
     },
-    "sparkNotes": "On the Mount of Olives, Jesus predicts the temple's destruction and describes the signs preceding His return. \"Birth pains,\" used for these early signs, is the same word later used for the pains of death that couldn't hold Jesus in the tomb (Acts 2:24) \u2014 and His self-description as \"Son of Man coming on the clouds\" directly quotes Daniel 7:13-14.",
+    "sparkNotes": "On the Mount of Olives, Jesus predicts the temple's destruction and describes the signs preceding His return. \"Birth pains,\" used for these early signs, is the same word later used for the pains of death that couldn't hold Jesus in the tomb (Acts 2:24) — and His self-description as \"Son of Man coming on the clouds\" directly quotes Daniel 7:13-14.",
     "commentary": [
       {
         "source": "John Wesley",
         "year": "1754",
-        "note": "Wesley notes the weight of the moment often gets lost in a familiar story: this was the last time Jesus ever entered the temple. He \"took his final leave of it, never to return more to it\" \u2014 the prediction of its destruction wasn't abstract prophecy from a distance, but His parting words on walking out the door for good.",
+        "note": "Wesley notes the weight of the moment often gets lost in a familiar story: this was the last time Jesus ever entered the temple. He \"took his final leave of it, never to return more to it\" — the prediction of its destruction wasn't abstract prophecy from a distance, but His parting words on walking out the door for good.",
         "url": "https://biblehub.com/commentaries/matthew/24-1.htm"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill reads the disciples' admiration of the temple's stones and buildings as revealing exactly what Jesus is about to challenge \u2014 they were, in his words, \"intent on the outward splendour, and worldly grandeur\" of the structure, finding it almost unbelievable that something built so massive and firm could ever actually fall.",
+        "note": "Gill reads the disciples' admiration of the temple's stones and buildings as revealing exactly what Jesus is about to challenge — they were, in his words, \"intent on the outward splendour, and worldly grandeur\" of the structure, finding it almost unbelievable that something built so massive and firm could ever actually fall.",
         "url": "https://biblehub.com/commentaries/matthew/24-1.htm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke offers a linguistic note on v.36: the Greek word translated 'hour' was also used by both biblical and secular ancient writers to mean 'season' more broadly \u2014 worth knowing when weighing exactly how precise a timeframe the verse is actually claiming is unknown.",
+        "note": "Clarke offers a linguistic note on v.36: the Greek word translated 'hour' was also used by both biblical and secular ancient writers to mean 'season' more broadly — worth knowing when weighing exactly how precise a timeframe the verse is actually claiming is unknown.",
         "url": "https://www.studylight.org/commentary/matthew/24-36.html"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Prophecy_of_the_Destruction_of_the_Temple_(La_pr%C3%A9dication_de_la_ruine_du_Temple)_-_James_Tissot.jpg",
       "caption": "The Prophecy of the Destruction of the Temple, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
-    }
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "On the Mount of Olives, Jesus tells His disciples the temple will be torn down. He warns of deceivers, wars, persecution, and the coming of the Son of Man, and urges them to watch, since no one knows the day or hour.",
+      "settingLine": "The Mount of Olives, across from the temple.",
+      "placeName": "Mount of Olives, Jerusalem",
+      "history": [
+        {
+          "h": "The Temple",
+          "t": "Its gleaming stone and gold made the idea of its fall seem unthinkable."
+        },
+        {
+          "h": "AD 70",
+          "t": "Rome destroyed the temple in AD 70, about forty years later."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Rooftops",
+          "t": "Flat roofs were living space with outside stairs, so fleeing meant not going back inside."
+        },
+        {
+          "h": "Sabbath Travel",
+          "t": "Travel on the Sabbath was limited, which would make a Sabbath flight harder."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Fallen Stones",
+          "t": "Huge stones thrown from the temple walls in AD 70 still lie where they fell."
+        },
+        {
+          "h": "Burnt House",
+          "t": "A burned house in Jerusalem's Jewish Quarter shows the fire of AD 70."
+        }
+      ],
+      "discussion": "Jesus said no one knows the day or hour. Why do people keep trying to predict it?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Prophetic discourse",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 13:1-37": "Olivet teaching",
+        "Daniel 9:27 / 11:31 / 12:11": "Desolating abomination",
+        "Isaiah 13:10 / 34:4": "Sun and stars darkened"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Disciples",
+          "d": "Ask for signs"
+        },
+        {
+          "n": "False christs",
+          "d": "Deceivers"
+        },
+        {
+          "n": "Noah",
+          "d": "A warning"
+        },
+        {
+          "n": "Daniel",
+          "d": "Prophet quoted"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Leaving",
+          "label": "Temple's fall foretold"
+        },
+        {
+          "when": "Question",
+          "label": "Signs asked"
+        },
+        {
+          "when": "Warnings",
+          "label": "Troubles ahead"
+        },
+        {
+          "when": "Finally",
+          "label": "Be ready"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Mount of Olives, Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          3
+        ],
+        "slug": "mount-of-olives"
+      },
+      {
+        "name": "Temple",
+        "lat": 31.7778,
+        "lng": 35.2356,
+        "verses": [
+          15
+        ],
+        "slug": "holy-place-2"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

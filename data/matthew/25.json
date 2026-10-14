@@ -62,7 +62,7 @@
     },
     {
       "num": 15,
-      "text": "To one he gave five talents, to another two talents, and to another one talent \u2014 each according to his own ability. And he went on his journey."
+      "text": "To one he gave five talents, to another two talents, and to another one talent — each according to his own ability. And he went on his journey."
     },
     {
       "num": 16,
@@ -191,36 +191,40 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Teaching discourse \u2014 the second half of the Olivet Discourse, three connected parables (or, for the sheep and goats, a direct prophetic scene) illustrating what readiness for the kingdom actually looks like.",
-    "audience": "The disciples privately, on the Mount of Olives \u2014 a direct continuation of chapter 24's audience and setting.",
+    "genre": "Teaching discourse — the second half of the Olivet Discourse, three connected parables (or, for the sheep and goats, a direct prophetic scene) illustrating what readiness for the kingdom actually looks like.",
+    "audience": "The disciples privately, on the Mount of Olives — a direct continuation of chapter 24's audience and setting.",
     "mapLabel": "THE MOUNT OF OLIVES, OVERLOOKING JERUSALEM",
     "setting": "Still Passover week, with the same private setting as chapter 24. Each of the three teachings answers the same underlying question from the disciples: what does it look like to actually be ready when the master returns?",
-    "custom": "First-century village weddings had the groom fetch the bride from her father's house at night, with attendants lighting the way using small olive-oil lamps that burned only 15-30 minutes before needing more fuel \u2014 explaining exactly why the \"wise\" virgins carried an extra flask and the \"foolish\" ones didn't.",
-    "timelineImmediate": "Continues directly from chapter 24 \u2014 these three teachings function as Jesus' practical application of everything He's just said about watchfulness, urging His disciples toward specific, concrete readiness rather than passive waiting.",
-    "timelineBible": "The sheep-and-goats scene deliberately echoes Daniel 7:13-14, where the \"Son of Man\" receives authority, glory, and a kingdom \u2014 Jesus positions Himself directly in that role as the one who will judge all nations gathered before His throne.",
+    "custom": "First-century village weddings had the groom fetch the bride from her father's house at night, with attendants lighting the way using small olive-oil lamps that burned only 15-30 minutes before needing more fuel — explaining exactly why the \"wise\" virgins carried an extra flask and the \"foolish\" ones didn't.",
+    "timelineImmediate": "Continues directly from chapter 24 — these three teachings function as Jesus' practical application of everything He's just said about watchfulness, urging His disciples toward specific, concrete readiness rather than passive waiting.",
+    "timelineBible": "The sheep-and-goats scene deliberately echoes Daniel 7:13-14, where the \"Son of Man\" receives authority, glory, and a kingdom — Jesus positions Himself directly in that role as the one who will judge all nations gathered before His throne.",
     "translation": [
       {
         "english": "talent",
-        "greek": "\u03c4\u03ac\u03bb\u03b1\u03bd\u03c4\u03bf\u03bd (talanton)",
+        "greek": "τάλαντον (talanton)",
         "verseRef": "v.15-28",
-        "meaning": "A unit of weight/money worth roughly twenty years' wages for a laborer \u2014 even the smallest amount given (one talent) represented an enormous sum, not a trivial gift.",
+        "meaning": "A unit of weight/money worth roughly twenty years' wages for a laborer — even the smallest amount given (one talent) represented an enormous sum, not a trivial gift.",
         "occurrences": {
           "total": 15,
           "sampleRefs": [],
-          "note": "Every single use of this word in the New Testament falls within this one parable \u2014 it appears nowhere else."
-        }
+          "note": "Every single use of this word in the New Testament falls within this one parable — it appears nowhere else."
+        },
+        "gloss": "A large sum of silver"
       },
       {
         "english": "well done, good and faithful servant",
-        "greek": "\u03b5\u1f56, \u03b4\u03bf\u1fe6\u03bb\u03b5 \u1f00\u03b3\u03b1\u03b8\u1f72 \u03ba\u03b1\u1f76 \u03c0\u03b9\u03c3\u03c4\u03ad (eu, doule agathe kai piste)",
+        "greek": "εὖ, δοῦλε ἀγαθὲ καὶ πιστέ (eu, doule agathe kai piste)",
         "verseRef": "v.21, 23",
-        "meaning": "The master's identical commendation to both the five-talent and two-talent servant \u2014 reward is tied to faithfulness with what was given, not to the raw amount produced."
+        "meaning": "The master's identical commendation to both the five-talent and two-talent servant — reward is tied to faithfulness with what was given, not to the raw amount produced.",
+        "gloss": "Faithful in little",
+        "ovGreek": "εὖ, δοῦλε",
+        "ovEnglish": "Well done"
       },
       {
         "english": "least of these",
-        "greek": "\u03c4\u1ff6\u03bd \u1f10\u03bb\u03b1\u03c7\u03af\u03c3\u03c4\u03c9\u03bd (t\u014dn elachist\u014dn)",
+        "greek": "τῶν ἐλαχίστων (tōn elachistōn)",
         "verseRef": "v.40, 45",
-        "meaning": "The smallest or most insignificant \u2014 Jesus identifies Himself directly with society's most overlooked, making how they're treated the deciding criterion of judgment.",
+        "meaning": "The smallest or most insignificant — Jesus identifies Himself directly with society's most overlooked, making how they're treated the deciding criterion of judgment.",
         "occurrences": {
           "total": 13,
           "sampleRefs": [
@@ -228,7 +232,8 @@
             "Matthew 5:19",
             "Luke 16:10"
           ]
-        }
+        },
+        "gloss": "The smallest ones"
       }
     ],
     "gospelParallels": [
@@ -245,15 +250,15 @@
     "otBackground": [
       {
         "ref": "Ezekiel 34:17-22",
-        "note": "God separating \"fat\" sheep from \"lean\" sheep in judgment \u2014 background imagery for the sheep and goats scene."
+        "note": "God separating \"fat\" sheep from \"lean\" sheep in judgment — background imagery for the sheep and goats scene."
       },
       {
         "ref": "Isaiah 62:5",
-        "note": "God pictured rejoicing over His people like a bridegroom \u2014 background for the wedding imagery in the ten virgins."
+        "note": "God pictured rejoicing over His people like a bridegroom — background for the wedding imagery in the ten virgins."
       },
       {
         "ref": "Daniel 7:13-14",
-        "note": "The Son of Man receiving glory and authority to judge \u2014 directly echoed in v.31 as Jesus describes His own return."
+        "note": "The Son of Man receiving glory and authority to judge — directly echoed in v.31 as Jesus describes His own return."
       }
     ],
     "mapCoords": {
@@ -262,31 +267,123 @@
       "zoom": 10.5,
       "placeName": "The Mount of Olives"
     },
-    "sparkNotes": "Three parables press the same point: ten bridesmaids, servants entrusted with money, and a king separating sheep from goats. Every single New Testament use of the word \"talent\" falls within this one parable \u2014 nowhere else \u2014 and the sheep-and-goats scene again echoes Daniel 7:13-14's vision of the Son of Man receiving authority to judge.",
+    "sparkNotes": "Three parables press the same point: ten bridesmaids, servants entrusted with money, and a king separating sheep from goats. Every single New Testament use of the word \"talent\" falls within this one parable — nowhere else — and the sheep-and-goats scene again echoes Daniel 7:13-14's vision of the Son of Man receiving authority to judge.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry explains a detail easy to miss: ten wasn't a random number for the parable's bridesmaids \u2014 Jewish custom generally required at least ten people present for a synagogue service, a circumcision, a Passover, or a wedding (as when Boaz married Ruth with ten witnesses). The parable's math is drawn straight from real social practice, not invented for the story.",
+        "note": "Henry explains a detail easy to miss: ten wasn't a random number for the parable's bridesmaids — Jewish custom generally required at least ten people present for a synagogue service, a circumcision, a Passover, or a wedding (as when Boaz married Ruth with ten witnesses). The parable's math is drawn straight from real social practice, not invented for the story.",
         "url": "https://www.christianity.com/bible/commentary.php?com=mh&b=40&c=25"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke reads the choice of animals itself as meaningful: sheep have long been considered emblems of mildness, simplicity, patience, and usefulness, while goats carried the opposite associations in ancient thought \u2014 the imagery itself, familiar to any first-century listener with flocks, was already doing some of the teaching before a word of explanation was given.",
+        "note": "Clarke reads the choice of animals itself as meaningful: sheep have long been considered emblems of mildness, simplicity, patience, and usefulness, while goats carried the opposite associations in ancient thought — the imagery itself, familiar to any first-century listener with flocks, was already doing some of the teaching before a word of explanation was given.",
         "url": "https://lifehopeandtruth.com/prophecy/kingdom-of-god/parables-of-jesus/parable-sheep-goats/"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill notes the custom behind the parable was genuinely widespread, not unique to Jewish practice: meeting the bridegroom at night and escorting him home by lamplight was shared by other ancient eastern peoples as well \u2014 the scene would have needed no explanation to Jesus' listeners.",
+        "note": "Gill notes the custom behind the parable was genuinely widespread, not unique to Jewish practice: meeting the bridegroom at night and escorting him home by lamplight was shared by other ancient eastern peoples as well — the scene would have needed no explanation to Jesus' listeners.",
         "url": "https://www.christianity.com/bible/commentary/john-gill/matthew/25"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1949",
+        "note": "Lewis does not comment on Matthew 25, but his sermon \"The Weight of Glory\" speaks to verse 40, \"whatever you did for one of the least of these.\" He says there are no ordinary people: you have never talked to a mere mortal, and the person next to you is either a creature headed for glory or one headed for something terrible. That is why, he says, the load of your neighbor's glory should be laid on your back, and why it matters how you treat them. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://www.thegospelcoalition.org/blogs/justin-taylor/c-s-lewis-you-have-never-talked-to-a-mere-mortal/"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francken,_Hieronymus_the_Younger_-_Parable_of_the_Wise_and_Foolish_Virgins_-_c._1616.jpg",
       "caption": "Parable of the Wise and Foolish Virgins, by Hieronymus Francken the Younger (c. 1616)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus tells three stories about being ready: ten bridesmaids waiting for the bridegroom, servants entrusted with talents, and the Son of Man separating sheep from goats by how they treated the least of these.",
+      "settingLine": "The Mount of Olives, during the Olivet discourse.",
+      "placeName": "Mount of Olives, Jerusalem",
+      "history": [
+        {
+          "h": "Wedding Feasts",
+          "t": "A wedding feast could last days, and a late groom was not unusual."
+        },
+        {
+          "h": "A Talent",
+          "t": "A talent was a huge sum, roughly many years of a laborer's pay."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Oil Lamps",
+          "t": "Small clay lamps burned only a short while, so spare oil was needed."
+        },
+        {
+          "h": "Shepherd's Sorting",
+          "t": "Shepherds in Israel often sorted sheep and goats apart at day's end."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Clay Lamps",
+          "t": "Small clay lamps with a spout are common finds across Judea."
+        },
+        {
+          "h": "Weights",
+          "t": "Stone weights show how large sums of silver were measured."
+        }
+      ],
+      "discussion": "The sheep and goats are judged by how they treated \"the least of these.\" Who might that be around you?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Parables and judgment",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 19:11-27": "Parable of the minas",
+        "Ezekiel 34:17-22": "God judges the flock",
+        "Isaiah 62:5": "God as bridegroom"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Bridesmaids",
+          "d": "Ten waiting"
+        },
+        {
+          "n": "Servants",
+          "d": "Trusted"
+        },
+        {
+          "n": "The Master",
+          "d": "Returns"
+        },
+        {
+          "n": "Son of Man",
+          "d": "Judges"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Parable",
+          "label": "Ten bridesmaids"
+        },
+        {
+          "when": "Parable",
+          "label": "The talents"
+        },
+        {
+          "when": "Then",
+          "label": "The Son of Man comes"
+        },
+        {
+          "when": "Judgment",
+          "label": "Sheep and goats"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Mount of Olives, Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
     }
   }
 }

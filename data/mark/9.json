@@ -22,7 +22,7 @@
     },
     {
       "num": 5,
-      "text": "Peter said to Jesus, \"Rabbi, it is good for us to be here. Let us put up three shelters\u2014one for You, one for Moses, and one for Elijah.\""
+      "text": "Peter said to Jesus, \"Rabbi, it is good for us to be here. Let us put up three shelters—one for You, one for Moses, and one for Elijah.\""
     },
     {
       "num": 6,
@@ -199,20 +199,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 the Transfiguration, a healing that exposes the disciples' limits, a second passion prediction, and teaching on humility and radical seriousness about sin",
+    "genre": "Narrative Gospel — the Transfiguration, a healing that exposes the disciples' limits, a second passion prediction, and teaching on humility and radical seriousness about sin",
     "audience": "Roman Christian readers, given a glimpse of divine glory immediately followed by a hard lesson in the disciples' own repeated failure to understand",
     "mapLabel": "A HIGH MOUNTAIN",
-    "setting": "The unnamed mountain is traditionally linked to Mount Tabor, though many scholars favor Mount Hermon, near Caesarea Philippi where the previous chapter's events took place. \"Gehenna,\" the word Jesus uses repeatedly for hell in this chapter, was a real valley just south of Jerusalem \u2014 historically a site of child sacrifice under wicked kings, later used to burn refuse and the bodies of criminals.",
-    "custom": "Peter's offer to build three shelters (v.5) draws on the Feast of Tabernacles tradition of temporary booths \u2014 a natural, if premature, response to standing before Moses, Elijah, and a transfigured Jesus at once.",
-    "timelineImmediate": "This mountaintop vision follows six days after Peter's confession and the first passion prediction in chapter 8 \u2014 a brief glimpse of glory before the narrative turns decisively toward Jerusalem and the cross, confirmed by the second, more detailed passion prediction later in this same chapter.",
-    "timelineBible": "Moses and Elijah appearing alongside Jesus represent the Law and the Prophets \u2014 essentially the entire Hebrew Bible \u2014 visibly affirming Him, while His radiant clothing deliberately echoes Moses' own glowing face after meeting God in Exodus 34:29-35.",
-    "sparkNotes": "Jesus is transfigured before three disciples on a mountain, His clothes dazzling white as Moses and Elijah appear beside Him and a voice from a cloud declares, \"This is My beloved Son.\" Coming down, He heals a boy the other disciples couldn't help, teaches that greatness means becoming last and servant of all, and closes with some of His starkest warnings in the whole Gospel about the seriousness of sin, using \"Gehenna\" \u2014 a real valley outside Jerusalem \u2014 as His image for judgment.",
+    "setting": "The unnamed mountain is traditionally linked to Mount Tabor, though many scholars favor Mount Hermon, near Caesarea Philippi where the previous chapter's events took place. \"Gehenna,\" the word Jesus uses repeatedly for hell in this chapter, was a real valley just south of Jerusalem — historically a site of child sacrifice under wicked kings, later used to burn refuse and the bodies of criminals.",
+    "custom": "Peter's offer to build three shelters (v.5) draws on the Feast of Tabernacles tradition of temporary booths — a natural, if premature, response to standing before Moses, Elijah, and a transfigured Jesus at once.",
+    "timelineImmediate": "This mountaintop vision follows six days after Peter's confession and the first passion prediction in chapter 8 — a brief glimpse of glory before the narrative turns decisively toward Jerusalem and the cross, confirmed by the second, more detailed passion prediction later in this same chapter.",
+    "timelineBible": "Moses and Elijah appearing alongside Jesus represent the Law and the Prophets — essentially the entire Hebrew Bible — visibly affirming Him, while His radiant clothing deliberately echoes Moses' own glowing face after meeting God in Exodus 34:29-35.",
+    "sparkNotes": "Jesus is transfigured before three disciples on a mountain, His clothes dazzling white as Moses and Elijah appear beside Him and a voice from a cloud declares, \"This is My beloved Son.\" Coming down, He heals a boy the other disciples couldn't help, teaches that greatness means becoming last and servant of all, and closes with some of His starkest warnings in the whole Gospel about the seriousness of sin, using \"Gehenna\" — a real valley outside Jerusalem — as His image for judgment.",
     "translation": [
       {
         "english": "transfigured",
-        "greek": "\u03bc\u03b5\u03c4\u03b5\u03bc\u03bf\u03c1\u03c6\u03ce\u03b8\u03b7 (metemorph\u014dth\u0113)",
+        "greek": "μετεμορφώθη (metemorphōthē)",
         "verseRef": "v.2",
-        "meaning": "A visible transformation in form \u2014 the same root as the English word \"metamorphosis,\" describing a literal, outward change.",
+        "meaning": "A visible transformation in form — the same root as the English word \"metamorphosis,\" describing a literal, outward change.",
         "occurrences": {
           "total": 4,
           "sampleRefs": [
@@ -220,12 +220,13 @@
             "Romans 12:2",
             "2 Corinthians 3:18"
           ],
-          "note": "Used only four times \u2014 twice for this one event, and twice more (translated \"transformed\") for a believer's own ongoing spiritual change."
-        }
+          "note": "Used only four times — twice for this one event, and twice more (translated \"transformed\") for a believer's own ongoing spiritual change."
+        },
+        "gloss": "Changed in form"
       },
       {
         "english": "hell",
-        "greek": "\u03b3\u03ad\u03b5\u03bd\u03bd\u03b1\u03bd (geennan)",
+        "greek": "γέενναν (geennan)",
         "verseRef": "v.43, 45, 47",
         "meaning": "A transliteration of the Hebrew for the \"Valley of Hinnom,\" a real ravine just outside Jerusalem's walls, historically associated with child sacrifice under corrupt kings and later used for burning refuse.",
         "occurrences": {
@@ -235,12 +236,13 @@
             "Matthew 23:33",
             "James 3:6"
           ],
-          "note": "All twelve New Testament uses fall in the Synoptic Gospels and James \u2014 the word never appears in John's writings or in Paul's letters."
-        }
+          "note": "All twelve New Testament uses fall in the Synoptic Gospels and James — the word never appears in John's writings or in Paul's letters."
+        },
+        "gloss": "The valley of Hinnom"
       },
       {
         "english": "salt",
-        "greek": "\u1f05\u03bb\u03b1\u03c2 (halas)",
+        "greek": "ἅλας (halas)",
         "verseRef": "v.49-50",
         "meaning": "A preservative and seasoning agent in the ancient world, used here as an image for a distinct, preserving quality believers are meant to carry.",
         "occurrences": {
@@ -250,7 +252,8 @@
             "Luke 14:34",
             "Colossians 4:6"
           ]
-        }
+        },
+        "gloss": "Salt"
       }
     ],
     "gospelParallels": [
@@ -273,7 +276,7 @@
     "otBackground": [
       {
         "ref": "Exodus 34:29-35",
-        "note": "Moses' face shining after meeting with God \u2014 the visual precedent for Jesus' transfiguration."
+        "note": "Moses' face shining after meeting with God — the visual precedent for Jesus' transfiguration."
       },
       {
         "ref": "Malachi 4:5",
@@ -281,7 +284,7 @@
       },
       {
         "ref": "Isaiah 66:24",
-        "note": "\"Their worm never dies, and the fire is never quenched\" \u2014 quoted directly by Jesus in v.48."
+        "note": "\"Their worm never dies, and the fire is never quenched\" — quoted directly by Jesus in v.48."
       }
     ],
     "mapCoords": {
@@ -294,13 +297,13 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry notes the one real distinguishing feature of this particular case: the spirit had possessed the boy since early childhood, \"and that strengthened his interest, and confirmed his hold\" \u2014 much like a chronic disease made harder to cure the longer it's allowed to take root. Jesus' answer to the disciples' private question wasn't a rebuke, but practical instruction for next time.",
+        "note": "Henry notes the one real distinguishing feature of this particular case: the spirit had possessed the boy since early childhood, \"and that strengthened his interest, and confirmed his hold\" — much like a chronic disease made harder to cure the longer it's allowed to take root. Jesus' answer to the disciples' private question wasn't a rebuke, but practical instruction for next time.",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mar/Mar_009.cfm"
       },
       {
         "source": "John Chrysostom",
         "year": "c. 390",
-        "note": "The early church father Chrysostom reads \"this kind\" as referring to an especially powerful, obstinate class of demon, requiring prayer and fasting specifically because these disciplines \"lift men up from the flesh to God\" \u2014 not a magic formula, but a genuine spiritual reorientation that made the disciples capable of what mere technique could not accomplish.",
+        "note": "The early church father Chrysostom reads \"this kind\" as referring to an especially powerful, obstinate class of demon, requiring prayer and fasting specifically because these disciplines \"lift men up from the flesh to God\" — not a magic formula, but a genuine spiritual reorientation that made the disciples capable of what mere technique could not accomplish.",
         "url": "https://en.wikipedia.org/wiki/Exorcising_a_boy_possessed_by_a_demon"
       },
       {
@@ -312,8 +315,107 @@
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_The_Transfiguration.jpg",
-      "caption": "The Transfiguration, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "The Transfiguration, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "On a high mountain Jesus is transfigured before Peter, James and John, with Moses and Elijah beside Him. Below, He heals a boy the disciples could not, predicts His death again, and warns about stumbling and hell.",
+      "settingLine": "A high mountain, then Capernaum.",
+      "placeName": "Mount Hermon (traditional)",
+      "history": [
+        {
+          "h": "Elijah",
+          "t": "Many expected Elijah to return before the Messiah, as Malachi said."
+        },
+        {
+          "h": "Gehenna",
+          "t": "Gehenna was the Hinnom Valley south of Jerusalem, once a place of child sacrifice."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Shelters",
+          "t": "Peter's offer to build shelters recalls the booths of the Feast of Tabernacles."
+        },
+        {
+          "h": "Salt",
+          "t": "Salt preserved food and sealed covenants, so \"have salt\" meant staying faithful."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Mount Tabor",
+          "t": "A church crowns Mount Tabor, the site tradition has long linked with the event."
+        },
+        {
+          "h": "Hinnom Valley",
+          "t": "The valley still lies south of Jerusalem's old city walls."
+        }
+      ],
+      "discussion": "The voice said, \"This is my beloved Son; listen to Him.\" What do you find hardest to listen to?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative and teaching",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 17:1-13": "The Transfiguration",
+        "Exodus 34:29-35": "Moses' shining face",
+        "Malachi 4:5": "Elijah to return"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Offers shelters"
+        },
+        {
+          "n": "Moses",
+          "d": "Appears"
+        },
+        {
+          "n": "Elijah",
+          "d": "Appears"
+        },
+        {
+          "n": "A father",
+          "d": "Pleads"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Mountain",
+          "label": "Transfigured"
+        },
+        {
+          "when": "Descent",
+          "label": "Elijah discussed"
+        },
+        {
+          "when": "Below",
+          "label": "Boy healed"
+        },
+        {
+          "when": "Capernaum",
+          "label": "Who is greatest?"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermonsnow.jpg",
+      "caption": "Present-day Mount Hermon (traditional)",
+      "credit": "Photo: Almog / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          33
+        ],
+        "slug": "capernaum"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.7
   }
 }

@@ -143,19 +143,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 a rapid sequence of miracle accounts, moving from Jesus' words (ch. 5-7) to His works.",
+    "genre": "Narrative — a rapid sequence of miracle accounts, moving from Jesus' words (ch. 5-7) to His works.",
     "audience": "Jewish-Christian readers, with particular attention to a Roman centurion's faith (v.5-13), which foreshadows the Gospel's later reach to the Gentiles.",
     "mapLabel": "CAPERNAUM AND THE SEA OF GALILEE",
-    "setting": "Capernaum sat on the Via Maris, a major trade route linking Egypt and Damascus, making it a bustling hub of both Jewish and Gentile life. Touching a leper technically violated the purity laws of Leviticus 13-14 \u2014 Jesus' willingness to do so is itself part of the account.",
-    "custom": "A Roman centurion commanded roughly 80 soldiers and represented occupying military power \u2014 his approaching a Jewish teacher, and Jesus' willingness to help him, was a notable crossing of social lines. Pig herding, seen in the Gadarenes account, was common in the Decapolis, a largely Gentile region where pork was not a dietary restriction.",
-    "timelineImmediate": "Opens immediately after the Sermon on the Mount \u2014 \"when Jesus came down from the mountain\" (v.1) \u2014 still early in His public ministry, now moving from teaching into a demonstration of authority through miracles.",
+    "setting": "Capernaum sat on the Via Maris, a major trade route linking Egypt and Damascus, making it a bustling hub of both Jewish and Gentile life. Touching a leper technically violated the purity laws of Leviticus 13-14 — Jesus' willingness to do so is itself part of the account.",
+    "custom": "A Roman centurion commanded roughly 80 soldiers and represented occupying military power — his approaching a Jewish teacher, and Jesus' willingness to help him, was a notable crossing of social lines. Pig herding, seen in the Gadarenes account, was common in the Decapolis, a largely Gentile region where pork was not a dietary restriction.",
+    "timelineImmediate": "Opens immediately after the Sermon on the Mount — \"when Jesus came down from the mountain\" (v.1) — still early in His public ministry, now moving from teaching into a demonstration of authority through miracles.",
     "timelineBible": "Matthew explicitly quotes Isaiah's Suffering Servant prophecy (v.17) as fulfilled in these healings, tying Jesus' ministry of physical restoration back to that centuries-old Old Testament prophecy.",
     "translation": [
       {
         "english": "clean",
-        "greek": "\u03ba\u03b1\u03b8\u03b1\u03c1\u03af\u03b6\u03c9 (kathariz\u014d)",
+        "greek": "καθαρίζω (katharizō)",
         "verseRef": "v.2-3",
-        "meaning": "Carries both a physical and ceremonial sense \u2014 the leper is healed and restored to worship community at once.",
+        "meaning": "Carries both a physical and ceremonial sense — the leper is healed and restored to worship community at once.",
         "occurrences": {
           "total": 31,
           "sampleRefs": [
@@ -163,13 +163,14 @@
             "Acts 15:9",
             "Hebrews 9:14"
           ]
-        }
+        },
+        "gloss": "To make clean"
       },
       {
         "english": "servant",
-        "greek": "\u03c0\u03b1\u1fd6\u03c2 (pais)",
+        "greek": "παῖς (pais)",
         "verseRef": "v.6, 8, 13",
-        "meaning": "Can mean servant or child \u2014 the exact relationship to the centurion is intentionally ambiguous in the Greek.",
+        "meaning": "Can mean servant or child — the exact relationship to the centurion is intentionally ambiguous in the Greek.",
         "occurrences": {
           "total": 24,
           "sampleRefs": [
@@ -177,13 +178,14 @@
             "Luke 9:42",
             "Acts 4:27"
           ]
-        }
+        },
+        "gloss": "Child, servant"
       },
       {
         "english": "authority",
-        "greek": "\u1f10\u03be\u03bf\u03c5\u03c3\u03af\u03b1 (exousia)",
+        "greek": "ἐξουσία (exousia)",
         "verseRef": "v.9, 27",
-        "meaning": "The same word used for Jesus' teaching authority in 7:29 \u2014 here demonstrated in action rather than words.",
+        "meaning": "The same word used for Jesus' teaching authority in 7:29 — here demonstrated in action rather than words.",
         "occurrences": {
           "total": 102,
           "sampleRefs": [
@@ -191,13 +193,14 @@
             "John 5:27",
             "Romans 13:1"
           ]
-        }
+        },
+        "gloss": "Right and power to act"
       },
       {
         "english": "Son of God",
-        "greek": "\u03c5\u1f31\u1f72 \u03c4\u03bf\u1fe6 \u0398\u03b5\u03bf\u1fe6 (huie tou Theou)",
+        "greek": "υἱὲ τοῦ Θεοῦ (huie tou Theou)",
         "verseRef": "v.29",
-        "meaning": "Spoken by the demons themselves \u2014 a title the human disciples are still only beginning to grasp at this point in the story."
+        "meaning": "Spoken by the demons themselves — a title the human disciples are still only beginning to grasp at this point in the story."
       }
     ],
     "gospelParallels": [
@@ -229,11 +232,11 @@
       },
       {
         "ref": "Isaiah 53:4",
-        "note": "\"He took up our infirmities and carried our diseases\" \u2014 quoted directly as fulfilled in v.17."
+        "note": "\"He took up our infirmities and carried our diseases\" — quoted directly as fulfilled in v.17."
       },
       {
         "ref": "Psalm 107:23-29",
-        "note": "God ruling over the seas and stilling storms \u2014 background for Jesus calming the storm in v.23-27."
+        "note": "God ruling over the seas and stilling storms — background for Jesus calming the storm in v.23-27."
       }
     ],
     "mapCoords": {
@@ -242,31 +245,139 @@
       "zoom": 8.5,
       "placeName": "Capernaum, Sea of Galilee"
     },
-    "sparkNotes": "A rapid sequence of healings \u2014 a leper, a centurion's servant, a storm calmed with a word \u2014 shows Jesus' authority over sickness and nature alike. Matthew explicitly ties the healings to Isaiah 53:4's suffering servant who \"took up our infirmities,\" and \"clean\" (31 uses) carries both a physical and ceremonial meaning at once.",
+    "sparkNotes": "A rapid sequence of healings — a leper, a centurion's servant, a storm calmed with a word — shows Jesus' authority over sickness and nature alike. Matthew explicitly ties the healings to Isaiah 53:4's suffering servant who \"took up our infirmities,\" and \"clean\" (31 uses) carries both a physical and ceremonial meaning at once.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry draws out a quiet contrast: Moses' first recorded miracle was healing himself of leprosy, while Christ's early miracles are entirely for others' sake. On the storm, he notes this was the only time in the Gospels we read of Jesus sleeping \u2014 not from anxious exhaustion, but a serene, trusting rest, allowed to continue specifically to test the disciples' own faith while He seemed to be doing nothing at all.",
+        "note": "Henry draws out a quiet contrast: Moses' first recorded miracle was healing himself of leprosy, while Christ's early miracles are entirely for others' sake. On the storm, he notes this was the only time in the Gospels we read of Jesus sleeping — not from anxious exhaustion, but a serene, trusting rest, allowed to continue specifically to test the disciples' own faith while He seemed to be doing nothing at all.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/8.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB notes the leper's request is remarkably confident in substance yet humble in form \u2014 \"if You are willing, You can\" \u2014 certain of Jesus' power while leaving His willingness entirely open. They also observe this may well be the very first leper Jesus healed, since all three Synoptic Gospels record only this one case.",
+        "note": "JFB notes the leper's request is remarkably confident in substance yet humble in form — \"if You are willing, You can\" — certain of Jesus' power while leaving His willingness entirely open. They also observe this may well be the very first leper Jesus healed, since all three Synoptic Gospels record only this one case.",
         "url": "https://biblehub.com/commentaries/jfb/matthew/8.htm"
       },
       {
         "source": "Albert Barnes",
         "year": "1832",
-        "note": "On \"the Son of Man has nowhere to lay His head,\" Barnes draws a stark contrast: people of wealth and even open wickedness sleep on couches of ease, while the very foxes and birds have shelters of their own \u2014 yet the One who made them had no home and no pillow to call His own.",
+        "note": "On \"the Son of Man has nowhere to lay His head,\" Barnes draws a stark contrast: people of wealth and even open wickedness sleep on couches of ease, while the very foxes and birds have shelters of their own — yet the One who made them had no home and no pillow to call His own.",
         "url": "https://www.studylight.org/commentaries/eng/bnb/matthew-8.html"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JesusCalmingtheTempestDore.jpg",
-      "caption": "Jesus Calming the Tempest, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Jesus Calming the Tempest, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus heals a leper, a centurion's servant, and Peter's mother-in-law. He calms a storm with a word and frees two men from demons in the region of the Gadarenes. Matthew ties these healings to the suffering servant of Isaiah.",
+      "settingLine": "Capernaum, the lake, and the far shore.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Centurions",
+          "t": "A centurion led about 100 soldiers and stood for the occupying power."
+        },
+        {
+          "h": "Touching Lepers",
+          "t": "Lepers were cut off from the community, so Jesus touching one was a bold act."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Leper's Offering",
+          "t": "A healed leper brought offerings to the priest, as the Law of Moses required."
+        },
+        {
+          "h": "Kingdom Feast",
+          "t": "Gentiles feasting with Abraham was a shocking picture of the kingdom."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Capernaum",
+          "t": "Digs found basalt houses, with one honored as Peter's under a later church."
+        },
+        {
+          "h": "Gadara",
+          "t": "Ruins at Umm Qais include a theater, a colonnaded street and tombs."
+        }
+      ],
+      "discussion": "After the storm, the disciples asked, \"What kind of man is this?\" How would you have answered?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative of miracles",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 1:40-45": "Leper cleansed",
+        "Leviticus 14:1-32": "Rites for cleansing",
+        "Isaiah 53:4": "He took our infirmities"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Centurion",
+          "d": "Roman officer"
+        },
+        {
+          "n": "Leper",
+          "d": "Made clean"
+        },
+        {
+          "n": "Disciples",
+          "d": "Caught in storm"
+        },
+        {
+          "n": "Gadara",
+          "d": "East shore"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Mountain",
+          "label": "Leper cleansed"
+        },
+        {
+          "when": "Capernaum",
+          "label": "Servant healed"
+        },
+        {
+          "when": "Evening",
+          "label": "Many healed"
+        },
+        {
+          "when": "The lake",
+          "label": "Storm calmed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          5
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Gadara",
+        "lat": 32.656,
+        "lng": 35.6794,
+        "verses": [
+          28
+        ],
+        "slug": "gadara"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.4
   }
 }

@@ -143,19 +143,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Teaching discourse \u2014 continues the Sermon on the Mount, moving from public conduct into private devotion.",
+    "genre": "Teaching discourse — continues the Sermon on the Mount, moving from public conduct into private devotion.",
     "audience": "The same Galilean crowd on the hillside, and Jewish-Christian readers weighing how Jesus' teaching on righteousness compares to the Pharisaic practice around them.",
     "mapLabel": "A GALILEAN HILLSIDE, NEAR CAPERNAUM",
-    "setting": "First-century Judean society prized public honor. Acts of charity were sometimes announced with a trumpet-like signal at festivals, and prominent giving chests sat in synagogues \u2014 the very stage Jesus tells His listeners to walk away from.",
-    "custom": "Pharisaic piety fasted twice weekly, often leaving faces deliberately pale and unwashed to advertise the discipline \u2014 the opposite of what Jesus instructs in v.17.",
-    "timelineImmediate": "A direct continuation of chapter 5 \u2014 same hillside, same sermon, same audience, still early in Jesus' public ministry.",
-    "timelineBible": "The Lord's Prayer Jesus teaches here (v.9-13) echoes older Old Testament prayer patterns \u2014 addressing God's name, kingdom, and will before turning to human need, a structure found in prayers like Ezekiel 36:23 and Daniel 2:44.",
+    "setting": "First-century Judean society prized public honor. Acts of charity were sometimes announced with a trumpet-like signal at festivals, and prominent giving chests sat in synagogues — the very stage Jesus tells His listeners to walk away from.",
+    "custom": "Pharisaic piety fasted twice weekly, often leaving faces deliberately pale and unwashed to advertise the discipline — the opposite of what Jesus instructs in v.17.",
+    "timelineImmediate": "A direct continuation of chapter 5 — same hillside, same sermon, same audience, still early in Jesus' public ministry.",
+    "timelineBible": "The Lord's Prayer Jesus teaches here (v.9-13) echoes older Old Testament prayer patterns — addressing God's name, kingdom, and will before turning to human need, a structure found in prayers like Ezekiel 36:23 and Daniel 2:44.",
     "translation": [
       {
         "english": "little faith",
-        "greek": "\u1f40\u03bb\u03b9\u03b3\u03cc\u03c0\u03b9\u03c3\u03c4\u03bf\u03b9 (oligopistoi)",
+        "greek": "ὀλιγόπιστοι (oligopistoi)",
         "verseRef": "v.30",
-        "meaning": "A term Jesus reserves for His own disciples' anxious doubt \u2014 not unbelief in outsiders.",
+        "meaning": "A term Jesus reserves for His own disciples' anxious doubt — not unbelief in outsiders.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -164,13 +164,14 @@
             "Matthew 16:8",
             "Luke 12:28"
           ]
-        }
+        },
+        "gloss": "Small in trust"
       },
       {
         "english": "worry",
-        "greek": "\u03bc\u03b5\u03c1\u03b9\u03bc\u03bd\u1fb6\u03c4\u03b5 (merimnate)",
+        "greek": "μεριμνᾶτε (merimnate)",
         "verseRef": "v.25, 31, 34",
-        "meaning": "Anxious, worried preoccupation. The BSB renders it \"worry\" \u2014 the older KJV's \"take no thought\" can undersell the emotional weight the Greek actually carries.",
+        "meaning": "Anxious, worried preoccupation. The BSB renders it \"worry\" — the older KJV's \"take no thought\" can undersell the emotional weight the Greek actually carries.",
         "occurrences": {
           "total": 19,
           "sampleRefs": [
@@ -178,11 +179,12 @@
             "1 Corinthians 7:32",
             "Philippians 4:6"
           ]
-        }
+        },
+        "gloss": "To be anxious"
       },
       {
         "english": "Gentiles",
-        "greek": "\u1f14\u03b8\u03bd\u03b7 (ethn\u0113)",
+        "greek": "ἔθνη (ethnē)",
         "verseRef": "v.32",
         "meaning": "Nations outside the covenant, used here as a foil for how God's people shouldn't live.",
         "occurrences": {
@@ -193,13 +195,14 @@
             "Acts 11:18",
             "Romans 1:5"
           ]
-        }
+        },
+        "gloss": "The nations"
       },
       {
         "english": "seek",
-        "greek": "\u03b6\u03b7\u03c4\u03b5\u1fd6\u03c4\u03b5 (z\u0113teite)",
+        "greek": "ζητεῖτε (zēteite)",
         "verseRef": "v.33",
-        "meaning": "Present imperative \u2014 \"keep on seeking,\" not a single act but continuous pursuit.",
+        "meaning": "Present imperative — \"keep on seeking,\" not a single act but continuous pursuit.",
         "occurrences": {
           "total": 117,
           "sampleRefs": [
@@ -211,9 +214,9 @@
       },
       {
         "english": "kingdom",
-        "greek": "\u03b2\u03b1\u03c3\u03b9\u03bb\u03b5\u03af\u03b1 (basileia)",
+        "greek": "βασιλεία (basileia)",
         "verseRef": "v.33",
-        "meaning": "Kingdom \u2014 both God's present reign in the lives of His people now, and the literal, physical kingdom Jesus will one day establish on earth at His return. Scripture presents both, not one instead of the other.",
+        "meaning": "Kingdom — both God's present reign in the lives of His people now, and the literal, physical kingdom Jesus will one day establish on earth at His return. Scripture presents both, not one instead of the other.",
         "occurrences": {
           "total": 163,
           "sampleRefs": [
@@ -226,7 +229,7 @@
       },
       {
         "english": "enough",
-        "greek": "\u1f00\u03c1\u03ba\u03b5\u03c4\u1f78\u03bd (arketon)",
+        "greek": "ἀρκετὸν (arketon)",
         "verseRef": "v.34",
         "meaning": "Sufficient, adequate. The BSB's \"today has enough trouble of its own\" carries the same sense as the older \"sufficient unto the day.\"",
         "occurrences": {
@@ -239,7 +242,7 @@
       },
       {
         "english": "money",
-        "greek": "\u03bc\u03b1\u03bc\u03c9\u03bd\u1fb6\u03c2 (mam\u014dnas)",
+        "greek": "μαμωνᾶς (mamōnas)",
         "verseRef": "v.24",
         "meaning": "An Aramaic loanword for wealth, personified here as a rival master. Some translations render it \"mammon\" rather than \"money.\"",
         "occurrences": {
@@ -253,9 +256,9 @@
       },
       {
         "english": "hypocrites",
-        "greek": "\u1f51\u03c0\u03bf\u03ba\u03c1\u03b9\u03c4\u03b1\u03af (hypokritai)",
+        "greek": "ὑποκριταί (hypokritai)",
         "verseRef": "v.2, 5, 16",
-        "meaning": "Literally \"stage actors\" \u2014 performing piety for an audience. Appears three times, a running theme for the whole chapter.",
+        "meaning": "Literally \"stage actors\" — performing piety for an audience. Appears three times, a running theme for the whole chapter.",
         "occurrences": {
           "total": 20,
           "sampleRefs": [
@@ -267,15 +270,15 @@
       },
       {
         "english": "daily",
-        "greek": "\u1f10\u03c0\u03b9\u03bf\u03cd\u03c3\u03b9\u03bf\u03c2 (epiousios)",
+        "greek": "ἐπιούσιος (epiousios)",
         "verseRef": "v.11",
-        "meaning": "A rare word, possibly \"bread for the coming day.\" Still debated among scholars \u2014 one of the most disputed single words in the New Testament.",
+        "meaning": "A rare word, possibly \"bread for the coming day.\" Still debated among scholars — one of the most disputed single words in the New Testament.",
         "occurrences": {
           "total": 2,
           "sampleRefs": [
             "Luke 11:3"
           ],
-          "note": "The rarest word in this chapter \u2014 found nowhere else in the New Testament, and nowhere in surviving Greek literature before it. Coined, it seems, for the Lord's Prayer itself."
+          "note": "The rarest word in this chapter — found nowhere else in the New Testament, and nowhere in surviving Greek literature before it. Coined, it seems, for the Lord's Prayer itself."
         }
       }
     ],
@@ -303,11 +306,11 @@
       },
       {
         "ref": "Proverbs 19:17",
-        "note": "\"Whoever is kind to the poor lends to the LORD\" \u2014 the logic behind secret giving."
+        "note": "\"Whoever is kind to the poor lends to the LORD\" — the logic behind secret giving."
       },
       {
         "ref": "1 Samuel 16:7",
-        "note": "\"Man looks at the outward appearance, but the LORD looks at the heart\" \u2014 the verse underlying the whole chapter's contrast between public performance and private sincerity."
+        "note": "\"Man looks at the outward appearance, but the LORD looks at the heart\" — the verse underlying the whole chapter's contrast between public performance and private sincerity."
       }
     ],
     "mapCoords": {
@@ -316,31 +319,123 @@
       "zoom": 9.5,
       "placeName": "Mount of Beatitudes, near Capernaum"
     },
-    "sparkNotes": "Jesus contrasts private devotion with showy religious performance in giving, prayer, and fasting, then teaches trust over anxiety. \"Daily\" (as in daily bread) is the rarest word in this chapter \u2014 found nowhere else in the New Testament, seemingly coined for the Lord's Prayer itself \u2014 while \"kingdom\" appears a striking 163 times across the whole New Testament.",
+    "sparkNotes": "Jesus contrasts private devotion with showy religious performance in giving, prayer, and fasting, then teaches trust over anxiety. \"Daily\" (as in daily bread) is the rarest word in this chapter — found nowhere else in the New Testament, seemingly coined for the Lord's Prayer itself — while \"kingdom\" appears a striking 163 times across the whole New Testament.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry treats \"treasure\" broadly \u2014 not just money, but whatever the soul values most and rests its confidence in. He reads laying up treasure in heaven as tied directly to sincere giving, praying, and fasting done for God's eyes rather than a human audience, closing with his memorable point that where the treasure is, the heart cannot help but follow.",
+        "note": "Henry treats \"treasure\" broadly — not just money, but whatever the soul values most and rests its confidence in. He reads laying up treasure in heaven as tied directly to sincere giving, praying, and fasting done for God's eyes rather than a human audience, closing with his memorable point that where the treasure is, the heart cannot help but follow.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/6.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB dives into real scholarly disagreement over \"daily bread\" \u2014 the Greek word appears nowhere else in ancient literature, so its exact sense had to be reconstructed from its parts. They side with the majority reading, \"bread sufficient for today's need,\" over the minority view that it means \"bread for tomorrow,\" partly because the latter seems to contradict Jesus' own point in v.34 about not worrying over tomorrow.",
+        "note": "JFB dives into real scholarly disagreement over \"daily bread\" — the Greek word appears nowhere else in ancient literature, so its exact sense had to be reconstructed from its parts. They side with the majority reading, \"bread sufficient for today's need,\" over the minority view that it means \"bread for tomorrow,\" partly because the latter seems to contradict Jesus' own point in v.34 about not worrying over tomorrow.",
         "url": "https://www.blueletterbible.org/Comm/jfb/Mat/Mat_006.cfm"
       },
       {
         "source": "John Wesley",
         "year": "1754",
-        "note": "On \"seek first the kingdom of God,\" Wesley stresses the word first isn't about sequence but priority \u2014 not seeking the kingdom before other things and then moving on, but making it the single aim that reorders everything else. He notes that whoever truly seeks it first will, in time, come to seek it as the only thing that ultimately matters.",
+        "note": "On \"seek first the kingdom of God,\" Wesley stresses the word first isn't about sequence but priority — not seeking the kingdom before other things and then moving on, but making it the single aim that reorders everything else. He notes that whoever truly seeks it first will, in time, come to seek it as the only thing that ultimately matters.",
         "url": "https://www.studylight.org/commentaries/eng/wen/matthew-6.html"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Matthew 6 verse by verse, but his chapter \"Forgiveness\" in <em>Mere Christianity</em> begins with the line in the Lord's Prayer about forgiving those who trespass against us (v.12, 14-15). He says we cannot be forgiven unless we forgive, and that this is a hard saying, not an arbitrary one. His practical help is that we already manage to hate the wrong in ourselves while still loving ourselves, so we can do the same for others. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://www.litcharts.com/lit/mere-christianity/book-3-chapter-7-forgiveness"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dore_Bible_Sermon_on_the_Mount.jpg",
-      "caption": "The Sermon on the Mount, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "caption": "The Sermon on the Mount, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus warns against doing good to be seen, then teaches giving, prayer, and fasting done in secret. He gives the Lord's Prayer, says to store treasure in heaven, and tells His followers not to worry because the Father cares.",
+      "settingLine": "The same mountainside above the lake.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Public Piety",
+          "t": "Giving, prayer and fasting were visible parts of Jewish life, so showing off was tempting."
+        },
+        {
+          "h": "Money Worries",
+          "t": "Roman taxes and rich landowners made money a real worry for ordinary families."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Fasting",
+          "t": "Pious Jews fasted twice a week, and some looked pale on purpose to be noticed."
+        },
+        {
+          "h": "Anointing",
+          "t": "Anointing the head with oil was normal grooming, so fasting should look ordinary."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Stone Benches",
+          "t": "Stone benches in first-century synagogues show where Jews prayed and gathered."
+        },
+        {
+          "h": "Storehouses",
+          "t": "Excavated silos and storerooms show how people stored wealth against hard years."
+        }
+      ],
+      "discussion": "Jesus says not to worry, but worry feels unavoidable. What is He asking us to do instead?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Teaching discourse",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 11:1-4": "Shorter Lord's Prayer",
+        "Deuteronomy 15:11": "Open hands to the poor",
+        "Proverbs 19:17": "Kindness lent to God"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Father",
+          "d": "Sees in secret"
+        },
+        {
+          "n": "Hypocrites",
+          "d": "Actors"
+        },
+        {
+          "n": "Solomon",
+          "d": "Splendid king"
+        },
+        {
+          "n": "Gentiles",
+          "d": "Seek things"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Giving",
+          "label": "In secret"
+        },
+        {
+          "when": "Praying",
+          "label": "The Lord's Prayer"
+        },
+        {
+          "when": "Fasting",
+          "label": "Without show"
+        },
+        {
+          "when": "Trusting",
+          "label": "Don't worry"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

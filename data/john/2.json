@@ -129,7 +129,8 @@
             "Acts 2:22"
           ],
           "note": "John himself states his purpose directly near the book's end: these signs are written — so that readers — may believe (20:30-31)."
-        }
+        },
+        "gloss": "A sign that points"
       },
       {
         "english": "zeal",
@@ -143,7 +144,8 @@
             "2 Corinthians 11:2",
             "Philippians 3:6"
           ]
-        }
+        },
+        "gloss": "Burning passion"
       }
     ],
     "gospelParallels": [
@@ -200,6 +202,115 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Marriage_at_Cana_(Les_noces_de_Cana)_-_James_Tissot_-_overall.jpg",
       "caption": "The Marriage at Cana, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "At a wedding in Cana Jesus turns water into wine, His first sign. He goes to Jerusalem for Passover, drives the sellers from the temple, and says the temple of His body will be raised in three days.",
+      "settingLine": "Cana in Galilee, then the Jerusalem temple.",
+      "placeName": "Galilee",
+      "history": [
+        {
+          "h": "Wedding Feasts",
+          "t": "Weddings lasted days, and running out of wine shamed the host."
+        },
+        {
+          "h": "The Temple",
+          "t": "Herod's temple had been under construction for forty-six years."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Stone Jars",
+          "t": "Large stone jars held water for ritual washing, since stone stayed pure."
+        },
+        {
+          "h": "The Steward",
+          "t": "The master of the feast served the best wine first, which Jesus' wine reversed."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Cana",
+          "t": "Khirbet Qana, a ruin north of Nazareth, is a leading candidate for ancient Cana."
+        },
+        {
+          "h": "Stone Vessels",
+          "t": "Carved stone jars are common finds in Jewish homes of this era."
+        }
+      ],
+      "discussion": "John calls the water into wine a sign. What do you think it points to about who Jesus is?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 21:12-17": "Later temple cleansing",
+        "Psalm 69:9": "Zeal for your house",
+        "Isaiah 56:7": "A house of prayer"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Mary",
+          "d": "Notices need"
+        },
+        {
+          "n": "The steward",
+          "d": "Tastes wine"
+        },
+        {
+          "n": "Disciples",
+          "d": "Believe"
+        },
+        {
+          "n": "Merchants",
+          "d": "Driven out"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Third day",
+          "label": "Wedding at Cana"
+        },
+        {
+          "when": "Then",
+          "label": "To Capernaum"
+        },
+        {
+          "when": "Passover",
+          "label": "To Jerusalem"
+        },
+        {
+          "when": "Temple",
+          "label": "Cleansed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginosar_from_above.JPG",
+      "caption": "Present-day Galilee",
+      "credit": "Photo: יעקב / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Cana",
+        "lat": 32.8222,
+        "lng": 35.3027,
+        "verses": [
+          1,
+          11
+        ],
+        "slug": "cana"
+      },
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          12
+        ],
+        "slug": "capernaum"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.4
   }
 }

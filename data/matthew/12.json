@@ -207,19 +207,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative with extended controversy dialogue \u2014 a sequence of confrontations with religious leaders, interspersed with healing and teaching.",
+    "genre": "Narrative with extended controversy dialogue — a sequence of confrontations with religious leaders, interspersed with healing and teaching.",
     "audience": "Jewish-Christian readers weighing rising Pharisaic opposition to Jesus against His growing display of authority and prophetic fulfillment.",
     "mapLabel": "GALILEE",
-    "setting": "Galilee and Judea under Roman occupation (c. AD 28-30), where Pharisees emphasized strict Sabbath observance, oral tradition, and ritual purity. This chapter marks the point where opposition turns lethal \u2014 the Pharisees begin actively plotting Jesus' death (v.14).",
-    "custom": "Pharisaic tradition counted the disciples' plucking grain as a form of \"reaping,\" technically forbidden work on the Sabbath \u2014 Jesus responds by appealing to Scripture (David eating consecrated bread) rather than disputing the classification itself.",
-    "timelineImmediate": "Continues Jesus' Galilean ministry, now marked by escalating conflict \u2014 this is the chapter where Pharisaic opposition shifts from questioning to an active plot to kill Him (v.14).",
+    "setting": "Galilee and Judea under Roman occupation (c. AD 28-30), where Pharisees emphasized strict Sabbath observance, oral tradition, and ritual purity. This chapter marks the point where opposition turns lethal — the Pharisees begin actively plotting Jesus' death (v.14).",
+    "custom": "Pharisaic tradition counted the disciples' plucking grain as a form of \"reaping,\" technically forbidden work on the Sabbath — Jesus responds by appealing to Scripture (David eating consecrated bread) rather than disputing the classification itself.",
+    "timelineImmediate": "Continues Jesus' Galilean ministry, now marked by escalating conflict — this is the chapter where Pharisaic opposition shifts from questioning to an active plot to kill Him (v.14).",
     "timelineBible": "Matthew directly quotes Isaiah's Servant Song (Isaiah 42:1-4) as fulfilled in Jesus' gentle, non-confrontational healing ministry (v.18-21), tying His quiet withdrawal from conflict back to a centuries-old prophetic portrait.",
     "translation": [
       {
         "english": "Lord",
-        "greek": "\u03ba\u03cd\u03c1\u03b9\u03bf\u03c2 (kyrios)",
+        "greek": "κύριος (kyrios)",
         "verseRef": "v.8",
-        "meaning": "Jesus claims direct authority over the Sabbath itself \u2014 not merely permission to reinterpret it, but lordship over the institution.",
+        "meaning": "Jesus claims direct authority over the Sabbath itself — not merely permission to reinterpret it, but lordship over the institution.",
         "occurrences": {
           "total": 722,
           "sampleRefs": [
@@ -228,13 +228,14 @@
             "Philippians 2:11"
           ],
           "note": "One of the most common words in the New Testament, applied to God, to Jesus, and sometimes simply as a respectful \"sir.\""
-        }
+        },
+        "gloss": "Master, owner"
       },
       {
         "english": "mercy",
-        "greek": "\u1f14\u03bb\u03b5\u03bf\u03c2 (eleos)",
+        "greek": "ἔλεος (eleos)",
         "verseRef": "v.7",
-        "meaning": "Quoting Hosea 6:6 \u2014 steadfast compassion valued above ritual correctness, a repeated theme across Matthew's Gospel.",
+        "meaning": "Quoting Hosea 6:6 — steadfast compassion valued above ritual correctness, a repeated theme across Matthew's Gospel.",
         "occurrences": {
           "total": 27,
           "sampleRefs": [
@@ -242,13 +243,14 @@
             "Luke 10:37",
             "Ephesians 2:4"
           ]
-        }
+        },
+        "gloss": "Kindness, compassion"
       },
       {
         "english": "blasphemy",
-        "greek": "\u03b2\u03bb\u03b1\u03c3\u03c6\u03b7\u03bc\u03af\u03b1 (blasph\u0113mia)",
+        "greek": "βλασφημία (blasphēmia)",
         "verseRef": "v.31-32",
-        "meaning": "Deliberate, hardened slander \u2014 Jesus' warning targets a willful, settled rejection of the Spirit's testimony, not an isolated doubt.",
+        "meaning": "Deliberate, hardened slander — Jesus' warning targets a willful, settled rejection of the Spirit's testimony, not an isolated doubt.",
         "occurrences": {
           "total": 18,
           "sampleRefs": [
@@ -256,13 +258,14 @@
             "Ephesians 4:31",
             "Colossians 3:8"
           ]
-        }
+        },
+        "gloss": "Slander, insult"
       },
       {
         "english": "fruit",
-        "greek": "\u03ba\u03b1\u03c1\u03c0\u03cc\u03c2 (karpos)",
+        "greek": "καρπός (karpos)",
         "verseRef": "v.33",
-        "meaning": "The visible outcome of an inner nature \u2014 the same test for words in this chapter that chapter 7 applied to false prophets.",
+        "meaning": "The visible outcome of an inner nature — the same test for words in this chapter that chapter 7 applied to false prophets.",
         "occurrences": {
           "total": 66,
           "sampleRefs": [
@@ -274,9 +277,9 @@
       },
       {
         "english": "sign",
-        "greek": "\u03c3\u03b7\u03bc\u03b5\u1fd6\u03bf\u03bd (s\u0113meion)",
+        "greek": "σημεῖον (sēmeion)",
         "verseRef": "v.38-39",
-        "meaning": "A miraculous proof demanded on request \u2014 Jesus refuses this kind of sign, offering only \"the sign of Jonah\" pointing to His coming death and resurrection.",
+        "meaning": "A miraculous proof demanded on request — Jesus refuses this kind of sign, offering only \"the sign of Jonah\" pointing to His coming death and resurrection.",
         "occurrences": {
           "total": 77,
           "sampleRefs": [
@@ -307,7 +310,7 @@
     "otBackground": [
       {
         "ref": "1 Samuel 21:1-7",
-        "note": "David eating the consecrated bread \u2014 the precedent Jesus cites in v.3-4."
+        "note": "David eating the consecrated bread — the precedent Jesus cites in v.3-4."
       },
       {
         "ref": "Isaiah 42:1-4",
@@ -315,7 +318,7 @@
       },
       {
         "ref": "Jonah 1:17",
-        "note": "Jonah's three days in the fish \u2014 the sign Jesus points to as a preview of His own burial and resurrection."
+        "note": "Jonah's three days in the fish — the sign Jesus points to as a preview of His own burial and resurrection."
       }
     ],
     "mapCoords": {
@@ -324,18 +327,18 @@
       "zoom": 7.5,
       "placeName": "Galilee"
     },
-    "sparkNotes": "Jesus defends His disciples for picking grain on the Sabbath and heals a man's hand, openly claiming Lordship over the Sabbath itself. \"Lord\" is one of the most common words in the whole New Testament (722 uses), which makes Jesus' specific claim to it here all the more pointed \u2014 and He points back to Jonah's three days as the only sign He'll give.",
+    "sparkNotes": "Jesus defends His disciples for picking grain on the Sabbath and heals a man's hand, openly claiming Lordship over the Sabbath itself. \"Lord\" is one of the most common words in the whole New Testament (722 uses), which makes Jesus' specific claim to it here all the more pointed — and He points back to Jonah's three days as the only sign He'll give.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry has a memorable line for the name Beelzebub \u2014 literally \"the god of a fly\" or dunghill god \u2014 remarking on how far the accusation falls: \"How art thou fallen, O Lucifer! from an angel of light, to be a lord of flies! Yet this is the prince of the devils too.\" He reads the whole controversy as pure envy, since the Pharisees never questioned that other exorcists among their own ranks acted by God's Spirit.",
+        "note": "Henry has a memorable line for the name Beelzebub — literally \"the god of a fly\" or dunghill god — remarking on how far the accusation falls: \"How art thou fallen, O Lucifer! from an angel of light, to be a lord of flies! Yet this is the prince of the devils too.\" He reads the whole controversy as pure envy, since the Pharisees never questioned that other exorcists among their own ranks acted by God's Spirit.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/12.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB calls Jesus' logic here \"irresistible\" \u2014 no divided kingdom, city, or household can stand for long, so the accusation that He casts out Satan by Satan's own power is simply incoherent on its own terms. They're careful to note the unpardonable sin isn't harsher than other sins in its nature, but in its finality \u2014 a settled, willful rejection that shuts the door on the very means of forgiveness itself.",
+        "note": "JFB calls Jesus' logic here \"irresistible\" — no divided kingdom, city, or household can stand for long, so the accusation that He casts out Satan by Satan's own power is simply incoherent on its own terms. They're careful to note the unpardonable sin isn't harsher than other sins in its nature, but in its finality — a settled, willful rejection that shuts the door on the very means of forgiveness itself.",
         "url": "https://www.blueletterbible.org/Comm/jfb/Mat/Mat_012.cfm"
       },
       {
@@ -347,8 +350,94 @@
     ],
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/065.jpg",
-      "caption": "The Dumb Man Possessed, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Project Gutenberg"
+      "caption": "The Dumb Man Possessed, by Gustave Doré (1866)",
+      "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Jesus defends His disciples for picking grain on the Sabbath and heals a man's hand. When accused of using Satan's power, He answers, then points to the sign of Jonah. He says His true family are those who do the Father's will.",
+      "settingLine": "Grainfields, a synagogue, and a crowded house.",
+      "placeName": "Galilee",
+      "history": [
+        {
+          "h": "Sabbath Law",
+          "t": "Pharisees counted plucking grain as reaping, work the Sabbath forbade."
+        },
+        {
+          "h": "Growing Plots",
+          "t": "After the Sabbath healing, the Pharisees began plotting how to destroy Jesus."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sabbath Mercy",
+          "t": "Most rabbis allowed rescuing a sheep on the Sabbath, which Jesus uses in His answer."
+        },
+        {
+          "h": "Three Days",
+          "t": "Jonah's three days in the fish become the pattern for Jesus' own burial."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Nineveh",
+          "t": "Excavations uncovered Assyria's palaces and a library of clay tablets."
+        },
+        {
+          "h": "Galilee Synagogues",
+          "t": "Early synagogues have been found across Galilee, at places like Gamla and Magdala."
+        }
+      ],
+      "discussion": "Jesus said some words against the Spirit won't be forgiven. Why do you think He drew that line?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative and controversy",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 2:23-28": "Grainfield dispute",
+        "1 Samuel 21:1-7": "David eats sacred bread",
+        "Isaiah 42:1-4": "The gentle Servant"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Plotting"
+        },
+        {
+          "n": "Jonah",
+          "d": "The sign"
+        },
+        {
+          "n": "Solomon",
+          "d": "Wise king"
+        },
+        {
+          "n": "Nineveh",
+          "d": "Repented"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Sabbath",
+          "label": "Grain picked"
+        },
+        {
+          "when": "Same day",
+          "label": "Hand healed"
+        },
+        {
+          "when": "Then",
+          "label": "Satan accusation"
+        },
+        {
+          "when": "Asked",
+          "label": "Sign of Jonah"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

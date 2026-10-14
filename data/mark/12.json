@@ -183,20 +183,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 a parable of judgment, three successive trap questions from three different factions, and two contrasting closing pictures of religious sincerity and its opposite",
+    "genre": "Narrative Gospel — a parable of judgment, three successive trap questions from three different factions, and two contrasting closing pictures of religious sincerity and its opposite",
     "audience": "Roman Christian readers, watching Jesus out-argue every faction of Jewish leadership in a single day inside the temple",
     "mapLabel": "TEMPLE MOUNT, JERUSALEM",
-    "setting": "Likely the Wednesday of Passion Week, in the temple courts. Mark groups the Pharisees, Herodians, Sadducees, and scribes together in quick succession \u2014 normally rival factions, momentarily united in trying to trap Jesus in His own words.",
-    "custom": "A Roman denarius bore Caesar's image and an inscription calling him \"son of the divine Augustus\" \u2014 many Jews viewed carrying the coin at all as a compromise with idolatry, which is exactly what makes Jesus' question about whose image it bears so pointed. The Sadducees' hypothetical draws on a real legal practice, levirate marriage, requiring a man to marry his deceased brother's childless widow.",
-    "timelineImmediate": "This chapter is a single, sustained day of public confrontation in the temple \u2014 a parable exposing the leaders' own guilt, three separate trap questions in a row, and closing with Jesus praising the quiet devotion of a poor widow no one else even noticed.",
-    "timelineBible": "The vineyard parable directly echoes Isaiah 5:1-7's own vineyard image for Israel, while Jesus applies Psalm 118:22's rejected cornerstone directly to Himself \u2014 the same verse quoted again later in Acts 4:11 and 1 Peter 2:7.",
-    "sparkNotes": "Jesus tells a parable about a vineyard's murderous tenants that the religious leaders immediately recognize is aimed at them, then survives three separate trap questions in a row \u2014 on taxes, on the resurrection, and on the greatest commandment. He closes by quoting Psalm 110 to stump the scribes on the Messiah's identity, then points His disciples to a poor widow's two small coins as the truest measure of generosity He's seen all day.",
+    "setting": "Likely the Wednesday of Passion Week, in the temple courts. Mark groups the Pharisees, Herodians, Sadducees, and scribes together in quick succession — normally rival factions, momentarily united in trying to trap Jesus in His own words.",
+    "custom": "A Roman denarius bore Caesar's image and an inscription calling him \"son of the divine Augustus\" — many Jews viewed carrying the coin at all as a compromise with idolatry, which is exactly what makes Jesus' question about whose image it bears so pointed. The Sadducees' hypothetical draws on a real legal practice, levirate marriage, requiring a man to marry his deceased brother's childless widow.",
+    "timelineImmediate": "This chapter is a single, sustained day of public confrontation in the temple — a parable exposing the leaders' own guilt, three separate trap questions in a row, and closing with Jesus praising the quiet devotion of a poor widow no one else even noticed.",
+    "timelineBible": "The vineyard parable directly echoes Isaiah 5:1-7's own vineyard image for Israel, while Jesus applies Psalm 118:22's rejected cornerstone directly to Himself — the same verse quoted again later in Acts 4:11 and 1 Peter 2:7.",
+    "sparkNotes": "Jesus tells a parable about a vineyard's murderous tenants that the religious leaders immediately recognize is aimed at them, then survives three separate trap questions in a row — on taxes, on the resurrection, and on the greatest commandment. He closes by quoting Psalm 110 to stump the scribes on the Messiah's identity, then points His disciples to a poor widow's two small coins as the truest measure of generosity He's seen all day.",
     "translation": [
       {
         "english": "cornerstone",
-        "greek": "\u03ba\u03b5\u03c6\u03b1\u03bb\u1f74\u03bd \u03b3\u03c9\u03bd\u03af\u03b1\u03c2 (kephal\u0113n g\u014dnias)",
+        "greek": "κεφαλὴν γωνίας (kephalēn gōnias)",
         "verseRef": "v.10",
-        "meaning": "Literally \"head of the corner\" \u2014 the load-bearing stone a whole structure depends on, quoted from Psalm 118 and applied by Jesus to Himself, right after telling a parable about His own rejection.",
+        "meaning": "Literally \"head of the corner\" — the load-bearing stone a whole structure depends on, quoted from Psalm 118 and applied by Jesus to Himself, right after telling a parable about His own rejection.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -205,13 +205,14 @@
             "1 Peter 2:7"
           ],
           "note": "This is quoted directly from Psalm 118:22, making it one of the most repeated Old Testament quotations anywhere in the New Testament."
-        }
+        },
+        "gloss": "Head of the corner"
       },
       {
         "english": "Lord",
-        "greek": "\u03ba\u03cd\u03c1\u03b9\u03bf\u03c2 (kyrios)",
+        "greek": "κύριος (kyrios)",
         "verseRef": "v.29, 36-37",
-        "meaning": "Used repeatedly in this chapter \u2014 first in the Shema's declaration that \"the Lord is One,\" then in Jesus' own puzzle about how David could call his own descendant \"Lord.\"",
+        "meaning": "Used repeatedly in this chapter — first in the Shema's declaration that \"the Lord is One,\" then in Jesus' own puzzle about how David could call his own descendant \"Lord.\"",
         "occurrences": {
           "total": 722,
           "sampleRefs": [
@@ -220,13 +221,14 @@
             "Philippians 2:11"
           ],
           "note": "One of the most common words in the whole New Testament, applied to God, to Jesus, and sometimes simply as a respectful \"sir.\""
-        }
+        },
+        "gloss": "Master, Lord"
       },
       {
         "english": "resurrection",
-        "greek": "\u1f00\u03bd\u03ac\u03c3\u03c4\u03b1\u03c3\u03b9\u03c2 (anastasis)",
+        "greek": "ἀνάστασις (anastasis)",
         "verseRef": "v.18, 23",
-        "meaning": "A rising again \u2014 the very concept the Sadducees rejected, since they accepted only the first five books of the Hebrew Bible as authoritative.",
+        "meaning": "A rising again — the very concept the Sadducees rejected, since they accepted only the first five books of the Hebrew Bible as authoritative.",
         "occurrences": {
           "total": 42,
           "sampleRefs": [
@@ -234,7 +236,8 @@
             "Acts 17:32",
             "Acts 23:8"
           ]
-        }
+        },
+        "gloss": "A rising again"
       }
     ],
     "gospelParallels": [
@@ -260,11 +263,11 @@
       },
       {
         "ref": "Deuteronomy 6:4-5 / Leviticus 19:18",
-        "note": "The two commandments Jesus names as greatest \u2014 combining them this way was itself a notable move."
+        "note": "The two commandments Jesus names as greatest — combining them this way was itself a notable move."
       },
       {
         "ref": "Psalm 110:1",
-        "note": "\"The Lord said to my Lord\" \u2014 quoted directly by Jesus to press the scribes on the Messiah's true identity."
+        "note": "\"The Lord said to my Lord\" — quoted directly by Jesus to press the scribes on the Messiah's true identity."
       }
     ],
     "mapCoords": {
@@ -277,26 +280,112 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry defends the widow against an objection readers might raise on her behalf: why give away money she could barely spare, rather than keeping it for herself? His answer is that Christ Himself settled the question by commending her \u2014 proof, in Henry's view, that giving according to ability, even out of real scarcity, is accepted \"as if they had been two pounds\" rather than two small coins.",
+        "note": "Henry defends the widow against an objection readers might raise on her behalf: why give away money she could barely spare, rather than keeping it for herself? His answer is that Christ Himself settled the question by commending her — proof, in Henry's view, that giving according to ability, even out of real scarcity, is accepted \"as if they had been two pounds\" rather than two small coins.",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mar/Mar_012.cfm"
       },
       {
         "source": "Matthew Poole",
         "year": "1685",
-        "note": "Poole works out the actual value of the widow's gift in real terms: Mark tells us two mites made one quadrans, and a denarius (a full day's wage for a laborer) was worth far more than that \u2014 her total offering, by any reasonable estimate, came to a small fraction of a single day's pay.",
+        "note": "Poole works out the actual value of the widow's gift in real terms: Mark tells us two mites made one quadrans, and a denarius (a full day's wage for a laborer) was worth far more than that — her total offering, by any reasonable estimate, came to a small fraction of a single day's pay.",
         "url": "https://enduringword.com/bible-commentary/mark-12/"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill works out the exact value of the widow's two mites: a quadrans, the fourth part of a Roman as, itself already the smallest coin in common circulation \u2014 making her gift, in strict monetary terms, about as small a sum as existed. Its worth to Jesus, he notes, was measured by what it cost her, not by what it was worth to anyone else.",
+        "note": "Gill works out the exact value of the widow's two mites: a quadrans, the fourth part of a Roman as, itself already the smallest coin in common circulation — making her gift, in strict monetary terms, about as small a sum as existed. Its worth to Jesus, he notes, was measured by what it cost her, not by what it was worth to anyone else.",
         "url": "https://www.biblestudytools.com/mark/12-42.html"
       }
     ],
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/071.jpg",
-      "caption": "The Widow's Mite, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Project Gutenberg"
+      "caption": "The Widow's Mite, by Gustave Doré (1866)",
+      "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Jesus tells the parable of the wicked tenants and answers questions on taxes, the resurrection, and the greatest commandment. He asks how David's son can be David's Lord, warns of the scribes, and praises a poor widow's two coins.",
+      "settingLine": "The temple courts in Jerusalem.",
+      "placeName": "Temple Mount, Jerusalem",
+      "history": [
+        {
+          "h": "Sadducees",
+          "t": "A priestly group who denied resurrection and accepted only the Torah."
+        },
+        {
+          "h": "The Widow's Coins",
+          "t": "Two lepta were the smallest coins in use, worth a fraction of a day's wage."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Vineyards",
+          "t": "Landowners often leased vineyards, collecting a share of the fruit."
+        },
+        {
+          "h": "Treasury Chests",
+          "t": "Thirteen trumpet-shaped chests in the Court of Women received offerings."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "A Lepton",
+          "t": "Tiny bronze coins of this era are common finds in Jerusalem."
+        },
+        {
+          "h": "Western Wall",
+          "t": "Huge Herodian stones still form the base of the temple platform."
+        }
+      ],
+      "discussion": "Jesus noticed a widow's two small coins. What do you think He sees when we give?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Controversy",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 21:33-46": "The wicked tenants",
+        "Isaiah 5:1-7": "The vineyard song",
+        "Deuteronomy 6:4-5 / Leviticus 19:18": "Love God, love neighbor"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Set a trap"
+        },
+        {
+          "n": "Sadducees",
+          "d": "Resurrection"
+        },
+        {
+          "n": "A scribe",
+          "d": "Asks first"
+        },
+        {
+          "n": "A widow",
+          "d": "Gave all"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Parable",
+          "label": "Wicked tenants"
+        },
+        {
+          "when": "Question",
+          "label": "Taxes to Caesar"
+        },
+        {
+          "when": "Question",
+          "label": "The greatest command"
+        },
+        {
+          "when": "Afterward",
+          "label": "The widow's gift"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Temple Mount, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

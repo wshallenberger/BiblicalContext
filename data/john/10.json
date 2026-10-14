@@ -188,19 +188,28 @@
         "english": "good shepherd",
         "greek": "ὁ ποιμὴν ὁ καλός (ho poimēn ho kalos)",
         "verseRef": "v.11, 14",
-        "meaning": "The word translated \"good\" here means more than morally good — it carries the sense of noble, genuine, the real thing as opposed to a counterfeit, directly contrasting Jesus with the \"hired hand\" described just after."
+        "meaning": "The word translated \"good\" here means more than morally good — it carries the sense of noble, genuine, the real thing as opposed to a counterfeit, directly contrasting Jesus with the \"hired hand\" described just after.",
+        "gloss": "Good shepherd",
+        "ovGreek": "ὁ ποιμὴν ὁ καλός",
+        "ovEnglish": "Good shepherd"
       },
       {
         "english": "one flock and one shepherd",
         "greek": "μία ποίμνη, εἷς ποιμήν (mia poimnē, heis poimēn)",
         "verseRef": "v.16",
-        "meaning": "Jesus' reference to \"other sheep not of this fold\" points forward to Gentile believers eventually joining Jewish believers in a single unified flock — a major theme picked up throughout the rest of the New Testament."
+        "meaning": "Jesus' reference to \"other sheep not of this fold\" points forward to Gentile believers eventually joining Jewish believers in a single unified flock — a major theme picked up throughout the rest of the New Testament.",
+        "gloss": "One flock",
+        "ovGreek": "μία ποίμνη",
+        "ovEnglish": "One flock"
       },
       {
         "english": "I and the Father are one",
         "greek": "ἐγὼ καὶ ὁ Πατὴρ ἕν ἐσμεν (egō kai ho Patēr hen esmen)",
         "verseRef": "v.30",
-        "meaning": "The Greek word for \"one\" here is neuter, not masculine — grammatically pointing to unity of essence and purpose rather than Jesus claiming to literally be the same person as the Father."
+        "meaning": "The Greek word for \"one\" here is neuter, not masculine — grammatically pointing to unity of essence and purpose rather than Jesus claiming to literally be the same person as the Father.",
+        "gloss": "We are one",
+        "ovGreek": "ἕν ἐσμεν",
+        "ovEnglish": "We are one"
       }
     ],
     "gospelParallels": [],
@@ -248,6 +257,113 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Good_Shepherd_(Le_bon_pasteur)_-_James_Tissot_-_overall.jpg",
       "caption": "The Good Shepherd, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus calls Himself the door and the good shepherd who lays down His life. At the Feast of Dedication in the temple He says His sheep hear His voice and that He and the Father are one, and some try to stone Him.",
+      "settingLine": "The temple, at the Feast of Dedication.",
+      "placeName": "Solomon's Porch, Jerusalem",
+      "history": [
+        {
+          "h": "Dedication",
+          "t": "Hanukkah remembered the temple's rededication after the Maccabean revolt."
+        },
+        {
+          "h": "Shepherds",
+          "t": "Prophets often called Israel's leaders shepherds, good or bad."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sheepfolds",
+          "t": "At night several flocks shared a pen, and each sheep knew its own shepherd's voice."
+        },
+        {
+          "h": "The Door",
+          "t": "A shepherd could lie across the pen's opening to guard it."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Temple Platform",
+          "t": "The eastern wall of Herod's platform stands near where Solomon's Porch was."
+        },
+        {
+          "h": "Shepherd Caves",
+          "t": "Rock-cut folds and cisterns survive in the Judean hills."
+        }
+      ],
+      "discussion": "Jesus said His sheep know His voice. How do you recognize that voice among all the others?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Teaching",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Ezekiel 34:11-16, 23": "God shepherds His flock",
+        "Psalm 23:1": "The Lord is my shepherd",
+        "Psalm 82:6": "You are gods"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Shepherd",
+          "d": "Knows sheep"
+        },
+        {
+          "n": "The hired hand",
+          "d": "Flees"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Don't grasp"
+        },
+        {
+          "n": "Leaders",
+          "d": "Pick up stones"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Teaching",
+          "label": "The door"
+        },
+        {
+          "when": "Teaching",
+          "label": "The good shepherd"
+        },
+        {
+          "when": "Winter",
+          "label": "Feast of Dedication"
+        },
+        {
+          "when": "Climax",
+          "label": "I and the Father"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Solomon's Porch, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Solomon's Porch",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          23
+        ],
+        "slug": "solomons-portico"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          22
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

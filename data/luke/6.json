@@ -224,7 +224,8 @@
             "Romans 1:1",
             "Galatians 1:1"
           ]
-        }
+        },
+        "gloss": "Those sent out"
       },
       {
         "english": "blessed",
@@ -238,7 +239,8 @@
             "John 20:29",
             "Revelation 1:3"
           ]
-        }
+        },
+        "gloss": "Happy, favored by God"
       },
       {
         "english": "merciful",
@@ -251,7 +253,8 @@
             "James 5:11"
           ],
           "note": "Only here (twice in verse 36) and in James 5:11."
-        }
+        },
+        "gloss": "Compassionate, tender"
       }
     ],
     "gospelParallels": [
@@ -364,6 +367,123 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dore_Bible_Sermon_on_the_Mount.jpg",
       "caption": "The Sermon on the Mount, by Gustave Doré (1866)",
       "credit": "Public domain — Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus defends picking grain on the Sabbath and heals a man's withered hand. After a night of prayer He chooses twelve apostles. On a level place He gives blessings and woes and teaches love for enemies.",
+      "settingLine": "Galilean grainfields, a mountain, a level plain.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Sabbath Rules",
+          "t": "Pharisees counted rubbing grain by hand as work, which the Sabbath forbade."
+        },
+        {
+          "h": "A Mixed Crowd",
+          "t": "Crowds came from Judea and the Tyre and Sidon coast, Jews and Gentiles alike."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Cloak and Tunic",
+          "t": "The cloak was the outer garment, so giving both layers meant giving nearly everything."
+        },
+        {
+          "h": "Lap of Grain",
+          "t": "The \"lap\" was a garment fold, used to carry a large measure of grain."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Mount of Beatitudes",
+          "t": "Tradition places this teaching on a hill above the lake, with a chapel built in 1938."
+        },
+        {
+          "h": "Tyre",
+          "t": "Roman-era ruins show a wealthy port city whose people came to hear Jesus."
+        }
+      ],
+      "discussion": "Jesus says \"Blessed are you who are poor\" and \"woe to you who are rich.\" Is He condemning wealth, or something deeper?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and teaching",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 12:1-8": "Grainfield dispute",
+        "1 Samuel 21:1-6": "David eats the sacred bread",
+        "Deuteronomy 27-28": "Blessings and curses"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Law teachers"
+        },
+        {
+          "n": "The Twelve",
+          "d": "Apostles"
+        },
+        {
+          "n": "Tyre & Sidon",
+          "d": "Ports"
+        },
+        {
+          "n": "David",
+          "d": "Israel's king"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Sabbath",
+          "label": "Grain, withered hand"
+        },
+        {
+          "when": "Night",
+          "label": "Prayer on the mountain"
+        },
+        {
+          "when": "Dawn",
+          "label": "Twelve chosen"
+        },
+        {
+          "when": "Then",
+          "label": "Sermon on the Plain"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Tyre",
+        "lat": 33.2708,
+        "lng": 35.1961,
+        "verses": [
+          17
+        ],
+        "slug": "tyre"
+      },
+      {
+        "name": "Sidon",
+        "lat": 33.561,
+        "lng": 35.3719,
+        "verses": [
+          17
+        ],
+        "slug": "sidon"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          17
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 1.5
   }
 }

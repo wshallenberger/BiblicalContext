@@ -127,19 +127,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative interwoven with teaching \u2014 John's imprisoned inquiry, Jesus' testimony about him, woes against unrepentant cities, and a closing invitation.",
+    "genre": "Narrative interwoven with teaching — John's imprisoned inquiry, Jesus' testimony about him, woes against unrepentant cities, and a closing invitation.",
     "audience": "Jewish-Christian readers, watching the tension rise between excited early response and growing resistance to Jesus.",
-    "mapLabel": "GALILEE \u2014 CHORAZIN, BETHSAIDA, CAPERNAUM",
-    "setting": "John the Baptist is imprisoned at Machaerus, a fortress east of the Dead Sea, jailed by Herod Antipas for condemning his unlawful marriage. This chapter marks a turning point in Matthew's narrative \u2014 early excitement giving way to indecisive crowds and unmoved cities.",
-    "custom": "First-century village children mimicked weddings (with flutes) and funerals (with dirges) in play \u2014 the image Jesus uses in v.16-17 to describe a generation that refuses to respond to either John's austerity or His own joy.",
-    "timelineImmediate": "Follows directly after Jesus finishes commissioning the Twelve in chapter 10. John, now imprisoned, sends messengers to ask Jesus directly whether He is the promised Messiah \u2014 even John, the one who first identified Him, wrestles with doubt.",
-    "timelineBible": "Jesus lists healing after healing (v.5) as an intentional echo of Isaiah's messianic signs (Isaiah 35:5-6, 61:1) \u2014 pointing back centuries to confirm, in John's darkest hour, that the promised age had actually arrived.",
+    "mapLabel": "GALILEE — CHORAZIN, BETHSAIDA, CAPERNAUM",
+    "setting": "John the Baptist is imprisoned at Machaerus, a fortress east of the Dead Sea, jailed by Herod Antipas for condemning his unlawful marriage. This chapter marks a turning point in Matthew's narrative — early excitement giving way to indecisive crowds and unmoved cities.",
+    "custom": "First-century village children mimicked weddings (with flutes) and funerals (with dirges) in play — the image Jesus uses in v.16-17 to describe a generation that refuses to respond to either John's austerity or His own joy.",
+    "timelineImmediate": "Follows directly after Jesus finishes commissioning the Twelve in chapter 10. John, now imprisoned, sends messengers to ask Jesus directly whether He is the promised Messiah — even John, the one who first identified Him, wrestles with doubt.",
+    "timelineBible": "Jesus lists healing after healing (v.5) as an intentional echo of Isaiah's messianic signs (Isaiah 35:5-6, 61:1) — pointing back centuries to confirm, in John's darkest hour, that the promised age had actually arrived.",
     "translation": [
       {
         "english": "fall away",
-        "greek": "\u03c3\u03ba\u03b1\u03bd\u03b4\u03b1\u03bb\u03b9\u03c3\u03b8\u1fc7 (skandalisth\u0113)",
+        "greek": "σκανδαλισθῇ (skandalisthē)",
         "verseRef": "v.6",
-        "meaning": "Related to the word for a trap's trigger \u2014 to stumble or be caused to sin, here specifically over Jesus not matching expectations.",
+        "meaning": "Related to the word for a trap's trigger — to stumble or be caused to sin, here specifically over Jesus not matching expectations.",
         "occurrences": {
           "total": 29,
           "sampleRefs": [
@@ -147,26 +147,28 @@
             "John 16:1",
             "Romans 14:21"
           ]
-        }
+        },
+        "gloss": "To be tripped up"
       },
       {
         "english": "forcefully advancing",
-        "greek": "\u03b2\u03b9\u03ac\u03b6\u03b5\u03c4\u03b1\u03b9 (biazetai)",
+        "greek": "βιάζεται (biazetai)",
         "verseRef": "v.12",
-        "meaning": "A difficult, debated verb \u2014 can mean the kingdom advances with force, or that forceful people are seizing it. Either reading stresses urgency.",
+        "meaning": "A difficult, debated verb — can mean the kingdom advances with force, or that forceful people are seizing it. Either reading stresses urgency.",
         "occurrences": {
           "total": 2,
           "sampleRefs": [
             "Luke 16:16"
           ],
-          "note": "Used only twice in the whole New Testament \u2014 here, and in Luke's parallel account of this same saying. One of the rarest and most debated verbs in the Gospels."
-        }
+          "note": "Used only twice in the whole New Testament — here, and in Luke's parallel account of this same saying. One of the rarest and most debated verbs in the Gospels."
+        },
+        "gloss": "Pushes forward"
       },
       {
         "english": "Elijah",
-        "greek": "\u1f28\u03bb\u03af\u03b1\u03c2 (\u0112lias)",
+        "greek": "Ἠλίας (Ēlias)",
         "verseRef": "v.14",
-        "meaning": "Jesus identifies John with the promised forerunner of Malachi 4:5 \u2014 not literally Elijah reincarnated, but fulfilling his expected role.",
+        "meaning": "Jesus identifies John with the promised forerunner of Malachi 4:5 — not literally Elijah reincarnated, but fulfilling his expected role.",
         "occurrences": {
           "total": 29,
           "sampleRefs": [
@@ -174,13 +176,14 @@
             "John 1:21",
             "James 5:17"
           ]
-        }
+        },
+        "gloss": "My God is Yahweh"
       },
       {
         "english": "rest",
-        "greek": "\u1f00\u03bd\u03ac\u03c0\u03b1\u03c5\u03c3\u03b9\u03bd (anapausin)",
+        "greek": "ἀνάπαυσιν (anapausin)",
         "verseRef": "v.28-29",
-        "meaning": "Refreshment or relief \u2014 the same word family used for Sabbath rest, now offered personally by Jesus rather than through a day or a law.",
+        "meaning": "Refreshment or relief — the same word family used for Sabbath rest, now offered personally by Jesus rather than through a day or a law.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -192,9 +195,9 @@
       },
       {
         "english": "yoke",
-        "greek": "\u03b6\u03c5\u03b3\u03cc\u03c2 (zygos)",
+        "greek": "ζυγός (zygos)",
         "verseRef": "v.29-30",
-        "meaning": "The wooden frame joining oxen to a plow \u2014 rabbis also used \"yoke\" for their teaching of the Law; Jesus offers His own yoke as a better fit.",
+        "meaning": "The wooden frame joining oxen to a plow — rabbis also used \"yoke\" for their teaching of the Law; Jesus offers His own yoke as a better fit.",
         "occurrences": {
           "total": 6,
           "sampleRefs": [
@@ -225,7 +228,7 @@
     "otBackground": [
       {
         "ref": "Malachi 3:1",
-        "note": "The promised messenger who prepares the way \u2014 quoted directly by Jesus about John in v.10."
+        "note": "The promised messenger who prepares the way — quoted directly by Jesus about John in v.10."
       },
       {
         "ref": "Isaiah 35:5-6",
@@ -242,31 +245,168 @@
       "zoom": 8.5,
       "placeName": "Chorazin, Galilee"
     },
-    "sparkNotes": "John the Baptist, now imprisoned, sends messengers asking if Jesus is truly the One \u2014 and Jesus points to His miracles as proof. \"Forcefully advancing\" is one of the rarest verbs in the New Testament, used only here and in Luke's parallel account, and Jesus' answer directly echoes Isaiah 35:5-6's list of messianic signs.",
+    "sparkNotes": "John the Baptist, now imprisoned, sends messengers asking if Jesus is truly the One — and Jesus points to His miracles as proof. \"Forcefully advancing\" is one of the rarest verbs in the New Testament, used only here and in Luke's parallel account, and Jesus' answer directly echoes Isaiah 35:5-6's list of messianic signs.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry draws out the wordplay hidden in \"rest\" \u2014 Christ, he notes, is our true Noah, a name that itself means rest. He reads the yoke not as an added burden but a lighter one traded for a heavier: \"you are under a yoke which makes you weary; shake that off and try mine, which will make you easy.\"",
+        "note": "Henry draws out the wordplay hidden in \"rest\" — Christ, he notes, is our true Noah, a name that itself means rest. He reads the yoke not as an added burden but a lighter one traded for a heavier: \"you are under a yoke which makes you weary; shake that off and try mine, which will make you easy.\"",
         "url": "https://biblehub.com/commentaries/mhc/matthew/11.htm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke argues the Greek word translated \"woe\" is better read as \"alas\" \u2014 an exclamation of pity rather than a curse of wrath, changing the whole tone of Jesus' words toward these towns. He also notes the real irony of it: Bethsaida itself, one of the condemned towns, had already given the world three of the twelve apostles \u2014 Philip, Andrew, and Peter.",
+        "note": "Clarke argues the Greek word translated \"woe\" is better read as \"alas\" — an exclamation of pity rather than a curse of wrath, changing the whole tone of Jesus' words toward these towns. He also notes the real irony of it: Bethsaida itself, one of the condemned towns, had already given the world three of the twelve apostles — Philip, Andrew, and Peter.",
         "url": "https://sacred-texts.com/bib/cmt/clarke/mat011.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB points out that Capernaum's rebuke is sharper than Chorazin's or Bethsaida's precisely because it had more to lose \u2014 as the town where Jesus actually made His home throughout His Galilean ministry, it was, in their words, \"the most favored spot upon earth,\" and its privilege only deepened its responsibility.",
+        "note": "JFB points out that Capernaum's rebuke is sharper than Chorazin's or Bethsaida's precisely because it had more to lose — as the town where Jesus actually made His home throughout His Galilean ministry, it was, in their words, \"the most favored spot upon earth,\" and its privilege only deepened its responsibility.",
         "url": "https://www.studylight.org/commentaries/eng/jfb/matthew-11.html"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Saint_John_the_Baptist_Sees_Jesus_from_Afar_(Saint_Jean-Baptiste_voit_J%C3%A9sus_de_loin)_-_James_Tissot_-_overall.jpg",
       "caption": "Saint John the Baptist Sees Jesus from Afar, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
-    }
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "John the Baptist, in prison, sends disciples to ask if Jesus is the One. Jesus points to His works and praises John. He warns the unrepentant towns, thanks the Father, and invites the weary to come to Him for rest.",
+      "settingLine": "Galilean towns, including Chorazin.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "John's Prison",
+          "t": "Herod Antipas had jailed John, so he asked his question from a cell."
+        },
+        {
+          "h": "Cities Warned",
+          "t": "Chorazin, Bethsaida and Capernaum were Jesus' main towns, and He warned them most."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Children's Games",
+          "t": "Village children played at weddings and funerals, the image Jesus uses for a stubborn crowd."
+        },
+        {
+          "h": "The Yoke",
+          "t": "A yoke joined two animals to share a load, and teachers called their teaching a yoke."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Chorazin",
+          "t": "The excavated town has a black basalt synagogue and ritual baths."
+        },
+        {
+          "h": "Bethsaida",
+          "t": "Digs at et-Tell found a fishing town on the lake, a city Jesus named."
+        }
+      ],
+      "discussion": "Jesus said His yoke is easy and His burden light, yet following Him costs much. How do both fit?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Teaching",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 7:18-35": "John's question",
+        "Malachi 3:1": "Messenger sent ahead",
+        "Isaiah 35:5-6": "Signs of the Messiah"
+      },
+      "peoplePlaces": [
+        {
+          "n": "John",
+          "d": "In prison"
+        },
+        {
+          "n": "Chorazin",
+          "d": "Warned"
+        },
+        {
+          "n": "Capernaum",
+          "d": "Warned"
+        },
+        {
+          "n": "Tyre & Sidon",
+          "d": "Gentile cities"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "From prison",
+          "label": "John's question"
+        },
+        {
+          "when": "Then",
+          "label": "Praise of John"
+        },
+        {
+          "when": "Next",
+          "label": "Towns warned"
+        },
+        {
+          "when": "Last",
+          "label": "Come to Me"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Chorazin",
+        "lat": 32.9114,
+        "lng": 35.5639,
+        "verses": [
+          21
+        ],
+        "slug": "chorazin"
+      },
+      {
+        "name": "Bethsaida",
+        "lat": 32.9104,
+        "lng": 35.631,
+        "verses": [
+          21
+        ],
+        "slug": "bethsaida-1"
+      },
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          23
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Tyre",
+        "lat": 33.2708,
+        "lng": 35.1961,
+        "verses": [
+          21,
+          22
+        ],
+        "slug": "tyre"
+      },
+      {
+        "name": "Sidon",
+        "lat": 33.561,
+        "lng": 35.3719,
+        "verses": [
+          21,
+          22
+        ],
+        "slug": "sidon"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.8
   }
 }

@@ -99,33 +99,34 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 a sequence of four connected episodes tied together by fulfilled prophecy.",
+    "genre": "Narrative — a sequence of four connected episodes tied together by fulfilled prophecy.",
     "audience": "Jewish-Christian readers, for whom each Old Testament fulfillment (Micah, Hosea, Jeremiah) built the case that Jesus was the promised Messiah despite an unlikely, dangerous start.",
-    "mapLabel": "BETHLEHEM \u2192 EGYPT \u2192 NAZARETH",
-    "setting": "Herod the Great rules Judea as a Roman client king (37-4 BC) \u2014 a brilliant builder and ruthless ruler known for killing rivals, including his own family. Bethlehem sits about six miles south of Jerusalem; Galilee, where the family eventually settles, was viewed by Judeans as rustic backcountry.",
-    "custom": "The Magi were likely scholar-astrologers from Persia, a class that studied stars and dreams for signs \u2014 their gifts of gold, frankincense, and myrrh were fitting tribute for a king.",
-    "timelineImmediate": "The infancy of Jesus \u2014 within roughly the first two years of His life, well before any public ministry. This is the most dangerous stretch of His early years.",
-    "timelineBible": "Matthew deliberately echoes Israel's own history here \u2014 a family fleeing to Egypt, a ruler killing infant boys \u2014 retracing the pattern of Moses' infancy and the Exodus, showing Jesus recapitulating Israel's story.",
+    "mapLabel": "BETHLEHEM → EGYPT → NAZARETH",
+    "setting": "Herod the Great rules Judea as a Roman client king (37-4 BC) — a brilliant builder and ruthless ruler known for killing rivals, including his own family. Bethlehem sits about six miles south of Jerusalem; Galilee, where the family eventually settles, was viewed by Judeans as rustic backcountry.",
+    "custom": "The Magi were likely scholar-astrologers from Persia, a class that studied stars and dreams for signs — their gifts of gold, frankincense, and myrrh were fitting tribute for a king.",
+    "timelineImmediate": "The infancy of Jesus — within roughly the first two years of His life, well before any public ministry. This is the most dangerous stretch of His early years.",
+    "timelineBible": "Matthew deliberately echoes Israel's own history here — a family fleeing to Egypt, a ruler killing infant boys — retracing the pattern of Moses' infancy and the Exodus, showing Jesus recapitulating Israel's story.",
     "translation": [
       {
         "english": "Magi",
-        "greek": "\u03bc\u03ac\u03b3\u03bf\u03b9 (magoi)",
+        "greek": "μάγοι (magoi)",
         "verseRef": "v.1",
-        "meaning": "Scholar-astrologers, likely from Persia or Babylon \u2014 the same class of court advisers Daniel once served among.",
+        "meaning": "Scholar-astrologers, likely from Persia or Babylon — the same class of court advisers Daniel once served among.",
         "occurrences": {
           "total": 6,
           "sampleRefs": [
             "Acts 13:6",
             "Acts 13:8"
           ],
-          "note": "The same word is used later in Acts for Elymas, a sorcerer who opposed Paul \u2014 a reminder that \"magos\" could describe either a respected astrologer or a con artist, depending on the context."
-        }
+          "note": "The same word is used later in Acts for Elymas, a sorcerer who opposed Paul — a reminder that \"magos\" could describe either a respected astrologer or a con artist, depending on the context."
+        },
+        "gloss": "Eastern scholar-priests"
       },
       {
         "english": "worshiped",
-        "greek": "\u03c0\u03c1\u03bf\u03c3\u03b5\u03ba\u03cd\u03bd\u03b7\u03c3\u03b1\u03bd (prosekyn\u0113san)",
+        "greek": "προσεκύνησαν (prosekynēsan)",
         "verseRef": "v.11",
-        "meaning": "To fall down and bow \u2014 a physical act of homage, not merely admiration.",
+        "meaning": "To fall down and bow — a physical act of homage, not merely admiration.",
         "occurrences": {
           "total": 60,
           "sampleRefs": [
@@ -133,13 +134,14 @@
             "Matthew 28:17",
             "Revelation 19:10"
           ]
-        }
+        },
+        "gloss": "Bowed down, paid homage"
       },
       {
         "english": "Nazarene",
-        "greek": "\u039d\u03b1\u03b6\u03c9\u03c1\u03b1\u1fd6\u03bf\u03c2 (Naz\u014draios)",
+        "greek": "Ναζωραῖος (Nazōraios)",
         "verseRef": "v.23",
-        "meaning": "Ties Jesus to Nazareth, an obscure Galilean village \u2014 Matthew reads this into the prophetic pattern of a despised, humble Messiah.",
+        "meaning": "Ties Jesus to Nazareth, an obscure Galilean village — Matthew reads this into the prophetic pattern of a despised, humble Messiah.",
         "occurrences": {
           "total": 13,
           "sampleRefs": [
@@ -147,14 +149,15 @@
             "John 18:5",
             "Acts 24:5"
           ],
-          "note": "By Acts 24:5, the word has grown from a description of Jesus into a label for His followers \u2014 \"the sect of the Nazarenes.\""
-        }
+          "note": "By Acts 24:5, the word has grown from a description of Jesus into a label for His followers — \"the sect of the Nazarenes.\""
+        },
+        "gloss": "From Nazareth"
       }
     ],
     "gospelParallels": [
       {
         "ref": "Luke 2:1-20",
-        "note": "Luke's very different infancy account \u2014 shepherds instead of Magi \u2014 complements rather than duplicates Matthew's version."
+        "note": "Luke's very different infancy account — shepherds instead of Magi — complements rather than duplicates Matthew's version."
       }
     ],
     "otBackground": [
@@ -164,30 +167,30 @@
       },
       {
         "ref": "Hosea 11:1",
-        "note": "\"Out of Egypt I called My Son\" \u2014 originally about Israel's exodus, applied by Matthew to Jesus."
+        "note": "\"Out of Egypt I called My Son\" — originally about Israel's exodus, applied by Matthew to Jesus."
       },
       {
         "ref": "Jeremiah 31:15",
-        "note": "Rachel weeping for her children \u2014 the lament Matthew connects to Herod's massacre."
+        "note": "Rachel weeping for her children — the lament Matthew connects to Herod's massacre."
       }
     ],
     "commentary": [
       {
         "source": "Albert Barnes",
         "year": "1832",
-        "note": "Barnes takes a notably historical, less speculative approach than his contemporaries \u2014 he identifies the Magi as respected Persian or Arabian court philosophers and astronomers, not sorcerers, and treats their star as most likely a low-altitude luminous phenomenon rather than a literal star, since actual stars are far too vast and distant to guide travelers on a road. He connects their expectation of a coming king to Balaam's ancient prophecy in Numbers 24:17.",
+        "note": "Barnes takes a notably historical, less speculative approach than his contemporaries — he identifies the Magi as respected Persian or Arabian court philosophers and astronomers, not sorcerers, and treats their star as most likely a low-altitude luminous phenomenon rather than a literal star, since actual stars are far too vast and distant to guide travelers on a road. He connects their expectation of a coming king to Balaam's ancient prophecy in Numbers 24:17.",
         "url": "https://biblehub.com/commentaries/barnes/matthew/2.htm"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry paints Herod's scheme in vivid terms: thinking he had \"burnt the hive\" by killing the infants of Bethlehem, Herod imagined he had also \"killed the master bee\" \u2014 but God only laughs at such plots from heaven. Henry also draws out a striking irony: Egypt, historically a place of bondage and idolatry for Israel, becomes in this moment the very place of safety for the infant Christ.",
+        "note": "Henry paints Herod's scheme in vivid terms: thinking he had \"burnt the hive\" by killing the infants of Bethlehem, Herod imagined he had also \"killed the master bee\" — but God only laughs at such plots from heaven. Henry also draws out a striking irony: Egypt, historically a place of bondage and idolatry for Israel, becomes in this moment the very place of safety for the infant Christ.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/2.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB notes Herod's questioning of the wise men was calculated and secretive \u2014 he needed the star's exact timing to estimate the child's age, and didn't want his intentions suspected. When his plan ultimately failed, JFB observes that Herod wasn't outwitted by the wise men at all, but by God Himself, who \"disappointeth the devices of the crafty.\"",
+        "note": "JFB notes Herod's questioning of the wise men was calculated and secretive — he needed the star's exact timing to estimate the child's age, and didn't want his intentions suspected. When his plan ultimately failed, JFB observes that Herod wasn't outwitted by the wise men at all, but by God Himself, who \"disappointeth the devices of the crafty.\"",
         "url": "https://biblehub.com/commentaries/jfb/matthew/2.htm"
       }
     ],
@@ -200,8 +203,139 @@
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Magi_Journeying_(Les_rois_mages_en_voyage)_-_James_Tissot_-_overall.jpg",
       "caption": "The Magi Journeying, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
     },
-    "sparkNotes": "Magi from the East follow a star to worship the newborn king, triggering Herod's jealous, murderous response. The same Greek word for \"Magi\" later describes a sorcerer in Acts 13 \u2014 and Matthew reads the whole episode through Micah 5:2's centuries-old prophecy naming Bethlehem."
+    "sparkNotes": "Magi from the East follow a star to worship the newborn king, triggering Herod's jealous, murderous response. The same Greek word for \"Magi\" later describes a sorcerer in Acts 13 — and Matthew reads the whole episode through Micah 5:2's centuries-old prophecy naming Bethlehem.",
+    "overview": {
+      "summary": "Magi from the East follow a star to Jerusalem and ask where the newborn king of the Jews is. Herod learns the Messiah is to be born in Bethlehem, and the Magi worship Jesus. Joseph takes the family to Egypt, then settles in Nazareth.",
+      "settingLine": "Jerusalem, Bethlehem, Egypt, then Nazareth.",
+      "placeName": "Bethlehem, Judea",
+      "history": [
+        {
+          "h": "Herod the Great",
+          "t": "Herod ruled 37 to 4 BC, built grand projects, and killed rivals, even his own sons."
+        },
+        {
+          "h": "The East",
+          "t": "Visitors from the East stirred fears, since Parthia had invaded Judea decades earlier."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Wise Men",
+          "t": "Magi were scholar-priests who studied stars and dreams, likely from Persia."
+        },
+        {
+          "h": "Royal Gifts",
+          "t": "Gold, frankincense and myrrh were costly gifts, fit for a king."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Herodium",
+          "t": "Archaeologists found what they believe is Herod's tomb at this fortress in 2007."
+        },
+        {
+          "h": "Temple Mount",
+          "t": "Herod's huge temple platform still stands, including the Western Wall."
+        }
+      ],
+      "discussion": "The Magi traveled far to worship a child, while Jerusalem's leaders knew the prophecy and stayed home. Why?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 2:1-20": "Shepherds, not Magi",
+        "Micah 5:2": "Ruler from Bethlehem",
+        "Hosea 11:1": "Called out of Egypt"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Magi",
+          "d": "From the East"
+        },
+        {
+          "n": "Herod",
+          "d": "King of Judea"
+        },
+        {
+          "n": "Joseph",
+          "d": "Obeys dreams"
+        },
+        {
+          "n": "Bethlehem",
+          "d": "Birth town"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "~5 BC",
+          "label": "Jesus is born"
+        },
+        {
+          "when": "Later",
+          "label": "Magi visit"
+        },
+        {
+          "when": "Soon",
+          "label": "Flight to Egypt"
+        },
+        {
+          "when": "After 4 BC",
+          "label": "Settle in Nazareth"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_the_Nativity_(Bethlehem,_2008).jpg",
+      "caption": "Present-day Bethlehem, Judea",
+      "credit": "Photo: Berthold Werner / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Bethlehem",
+        "lat": 31.7043,
+        "lng": 35.2076,
+        "verses": [
+          1,
+          5,
+          6,
+          8,
+          9,
+          16
+        ],
+        "slug": "bethlehem-1"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          1,
+          3
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          23
+        ],
+        "slug": "nazareth"
+      },
+      {
+        "name": "Ramah",
+        "lat": 31.8543,
+        "lng": 35.2316,
+        "verses": [
+          18
+        ],
+        "slug": "ramah-1"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

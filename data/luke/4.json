@@ -204,7 +204,8 @@
             "Hebrews 4:15",
             "James 1:13"
           ]
-        }
+        },
+        "gloss": "Being tested or tempted"
       },
       {
         "english": "anointed",
@@ -218,7 +219,8 @@
             "Acts 10:38",
             "Hebrews 1:9"
           ]
-        }
+        },
+        "gloss": "To anoint with oil"
       },
       {
         "english": "authority",
@@ -232,7 +234,8 @@
             "Luke 10:19",
             "Romans 13:1"
           ]
-        }
+        },
+        "gloss": "Right and power to act"
       }
     ],
     "gospelParallels": [
@@ -334,6 +337,125 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ary_Scheffer_-_The_Temptation_of_Christ_(1854).jpg",
       "caption": "The Temptation of Christ, by Ary Scheffer (1854)",
       "credit": "Public domain — Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Full of the Spirit, Jesus resists three temptations in the wilderness by answering with Scripture. In Nazareth He reads Isaiah's promise of good news and is rejected by His hometown. In Capernaum He teaches with authority, drives out a demon, and heals many.",
+      "settingLine": "The wilderness, Nazareth, then Capernaum.",
+      "placeName": "Nazareth, Galilee",
+      "history": [
+        {
+          "h": "Jewish Hopes",
+          "t": "Many Jews longed for an anointed deliverer to free them from foreign rule."
+        },
+        {
+          "h": "Capernaum",
+          "t": "It sat on a busy trade route near the border of Herod Antipas' territory."
+        }
+      ],
+      "customs": [
+        {
+          "h": "The Scroll",
+          "t": "A reader stood to read, and the teacher sat down to speak, as Jesus does here."
+        },
+        {
+          "h": "Jubilee Year",
+          "t": "The \"year of the Lord's favor\" echoes Jubilee, when debts were erased and slaves freed."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Capernaum",
+          "t": "A limestone synagogue sits on older basalt walls from the first-century town."
+        },
+        {
+          "h": "Isaiah Scroll",
+          "t": "The complete Isaiah scroll found at Qumran shows what a scroll like His looked like."
+        }
+      ],
+      "discussion": "Each temptation offered something good by the wrong means. How do you tell a good thing from a shortcut?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Historical narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 4:1-11": "Same tests, new order",
+        "Deuteronomy 8:3": "Not by bread alone",
+        "Deuteronomy 6:13, 16": "Worship God, don't test Him"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The devil",
+          "d": "The tempter"
+        },
+        {
+          "n": "Nazareth",
+          "d": "Hometown"
+        },
+        {
+          "n": "Capernaum",
+          "d": "Lake town"
+        },
+        {
+          "n": "Wilderness",
+          "d": "Testing"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "40 days",
+          "label": "Wilderness testing"
+        },
+        {
+          "when": "Sabbath",
+          "label": "Rejected at Nazareth"
+        },
+        {
+          "when": "Sabbath",
+          "label": "Teaching in Capernaum"
+        },
+        {
+          "when": "Evening",
+          "label": "Many healed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Israel_Nazareth_Old_City_Altstadt_Verk%C3%BCndigungsbasilika_Church_of_Annunciation_(34714423420).jpg",
+      "caption": "Present-day Nazareth, Galilee",
+      "credit": "Photo: FLASHPACKER TRAVELGUIDE / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          16,
+          34
+        ],
+        "slug": "nazareth"
+      },
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          23,
+          31
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          9
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.6
   }
 }

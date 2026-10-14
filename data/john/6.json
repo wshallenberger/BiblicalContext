@@ -304,7 +304,10 @@
         "english": "I am the bread of life",
         "greek": "ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς (egō eimi ho artos tēs zōēs)",
         "verseRef": "v.35, 48, 51",
-        "meaning": "The first of Jesus' seven great \"I am\" declarations in John's Gospel, deliberately echoing God's own self-naming in Exodus 3:14 while directly contrasting Himself with the temporary manna Moses provided."
+        "meaning": "The first of Jesus' seven great \"I am\" declarations in John's Gospel, deliberately echoing God's own self-naming in Exodus 3:14 while directly contrasting Himself with the temporary manna Moses provided.",
+        "gloss": "Bread of life",
+        "ovGreek": "ἄρτος τῆς ζωῆς",
+        "ovEnglish": "Bread of life"
       },
       {
         "english": "grumble",
@@ -318,13 +321,15 @@
             "1 Corinthians 10:10",
             "Luke 5:30"
           ]
-        }
+        },
+        "gloss": "To murmur"
       },
       {
         "english": "draws",
         "greek": "ἑλκύσῃ (helkysē)",
         "verseRef": "v.44",
-        "meaning": "A strong verb of pulling or dragging, used elsewhere for hauling in a heavy fishing net — Jesus describes coming to faith as something the Father actively initiates, not simply an unaided human decision."
+        "meaning": "A strong verb of pulling or dragging, used elsewhere for hauling in a heavy fishing net — Jesus describes coming to faith as something the Father actively initiates, not simply an unaided human decision.",
+        "gloss": "Draws, pulls toward"
       }
     ],
     "gospelParallels": [
@@ -385,6 +390,125 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JesusFeedingMultitude.jpg",
       "caption": "Christ Feeding the Multitude, by Gustave Doré",
       "credit": "Public domain — Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus feeds five thousand with five loaves and two fish, then walks on the lake. Next day in Capernaum He says He is the bread of life, and many disciples turn away, though Peter says Jesus has the words of eternal life.",
+      "settingLine": "The far shore of the lake, then Capernaum's synagogue.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Passover Near",
+          "t": "The feast recalled the exodus, when God fed Israel with manna."
+        },
+        {
+          "h": "Barley Loaves",
+          "t": "Barley was the poor man's bread, a boy's small lunch."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Grumbling",
+          "t": "The crowd grumbled just as Israel did against Moses in the wilderness."
+        },
+        {
+          "h": "Eating Flesh",
+          "t": "Jesus' words sounded shocking, since the Law forbade drinking blood."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Tabgha",
+          "t": "A fifth-century church holds a mosaic of loaves and fish on the shore."
+        },
+        {
+          "h": "Galilee Boat",
+          "t": "A first-century fishing boat was recovered from the mud in 1986."
+        }
+      ],
+      "discussion": "Many followers left when Jesus' teaching got hard. What makes you stay when it does?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Miracles and discourse",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 14:13-33": "Feeding and walking",
+        "Exodus 16:4-15": "Manna from heaven",
+        "Psalm 78:24": "Bread from heaven"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Philip",
+          "d": "Counts cost"
+        },
+        {
+          "n": "Andrew",
+          "d": "Finds a boy"
+        },
+        {
+          "n": "The crowd",
+          "d": "Seeks bread"
+        },
+        {
+          "n": "Peter",
+          "d": "Stays"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Hillside",
+          "label": "Five thousand fed"
+        },
+        {
+          "when": "Night",
+          "label": "Walks on water"
+        },
+        {
+          "when": "Capernaum",
+          "label": "Bread of life"
+        },
+        {
+          "when": "Then",
+          "label": "Many leave"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          17,
+          24,
+          59
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Tiberias",
+        "lat": 32.7736,
+        "lng": 35.5442,
+        "verses": [
+          23
+        ],
+        "slug": "tiberias"
+      },
+      {
+        "name": "Sea of Galilee",
+        "lat": 32.8189,
+        "lng": 35.59,
+        "verses": [
+          1
+        ],
+        "slug": "sea-of-galilee"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.4
   }
 }

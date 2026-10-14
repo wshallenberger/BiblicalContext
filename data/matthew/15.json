@@ -163,19 +163,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 a confrontation over tradition, followed by teaching, a notable Gentile healing account, and a second feeding miracle.",
+    "genre": "Narrative — a confrontation over tradition, followed by teaching, a notable Gentile healing account, and a second feeding miracle.",
     "audience": "Jewish-Christian readers weighing the difference between man-made tradition and God's actual commands, and watching Jesus' mission visibly widen toward Gentiles.",
-    "mapLabel": "GALILEE \u2192 TYRE AND SIDON \u2192 THE DECAPOLIS",
-    "setting": "By the first century, Pharisaic oral tradition (later written in the Mishnah) had grown into an extensive code \u2014 ceremonial hand-washing before meals was part of this tradition, not something commanded in the Law of Moses itself, which is the core of Jesus' challenge in v.1-9.",
-    "custom": "The \"Corban\" loophole (implied in v.5-6) allowed someone to declare money \"devoted to God\" and thereby legally withhold it from aging parents \u2014 a technically legal maneuver Jesus calls out as nullifying the actual command to honor one's father and mother.",
-    "timelineImmediate": "Jesus deliberately travels into Gentile territory (Tyre and Sidon), where the Canaanite woman's faith becomes a turning point \u2014 a preview of the Gospel's eventual reach beyond Israel, well before the Great Commission formally opens that door in chapter 28.",
-    "timelineBible": "This is the second feeding miracle in Matthew (compare chapter 14's feeding of the five thousand) \u2014 the seven baskets left over here, versus twelve after the earlier miracle, are often read as a subtle shift from a Jewish audience (twelve tribes) toward Gentile inclusion (seven, a number of completeness).",
+    "mapLabel": "GALILEE → TYRE AND SIDON → THE DECAPOLIS",
+    "setting": "By the first century, Pharisaic oral tradition (later written in the Mishnah) had grown into an extensive code — ceremonial hand-washing before meals was part of this tradition, not something commanded in the Law of Moses itself, which is the core of Jesus' challenge in v.1-9.",
+    "custom": "The \"Corban\" loophole (implied in v.5-6) allowed someone to declare money \"devoted to God\" and thereby legally withhold it from aging parents — a technically legal maneuver Jesus calls out as nullifying the actual command to honor one's father and mother.",
+    "timelineImmediate": "Jesus deliberately travels into Gentile territory (Tyre and Sidon), where the Canaanite woman's faith becomes a turning point — a preview of the Gospel's eventual reach beyond Israel, well before the Great Commission formally opens that door in chapter 28.",
+    "timelineBible": "This is the second feeding miracle in Matthew (compare chapter 14's feeding of the five thousand) — the seven baskets left over here, versus twelve after the earlier miracle, are often read as a subtle shift from a Jewish audience (twelve tribes) toward Gentile inclusion (seven, a number of completeness).",
     "translation": [
       {
         "english": "tradition",
-        "greek": "\u03c0\u03b1\u03c1\u03ac\u03b4\u03bf\u03c3\u03b9\u03c2 (paradosis)",
+        "greek": "παράδοσις (paradosis)",
         "verseRef": "v.2-6",
-        "meaning": "Handed-down human custom \u2014 Jesus' argument throughout this section is that tradition had come to override, rather than support, God's actual commands.",
+        "meaning": "Handed-down human custom — Jesus' argument throughout this section is that tradition had come to override, rather than support, God's actual commands.",
         "occurrences": {
           "total": 13,
           "sampleRefs": [
@@ -183,13 +183,14 @@
             "Galatians 1:14",
             "2 Thessalonians 3:6"
           ]
-        }
+        },
+        "gloss": "Handed down"
       },
       {
         "english": "defile",
-        "greek": "\u03ba\u03bf\u03b9\u03bd\u03bf\u1fd6 (koinoi)",
+        "greek": "κοινοῖ (koinoi)",
         "verseRef": "v.11, 18-20",
-        "meaning": "To make common or ceremonially unclean \u2014 the dispute in this passage (v.1-9) is over the Pharisees' hand-washing tradition, never commanded in the Law of Moses, not the Levitical food laws. Jesus relocates the source of defilement from that external ritual to the internal condition of the heart.",
+        "meaning": "To make common or ceremonially unclean — the dispute in this passage (v.1-9) is over the Pharisees' hand-washing tradition, never commanded in the Law of Moses, not the Levitical food laws. Jesus relocates the source of defilement from that external ritual to the internal condition of the heart.",
         "occurrences": {
           "total": 14,
           "sampleRefs": [
@@ -197,33 +198,35 @@
             "Hebrews 9:13",
             "Revelation 21:27"
           ]
-        }
+        },
+        "gloss": "To make common, unclean"
       },
       {
         "english": "dogs",
-        "greek": "\u03ba\u03c5\u03bd\u03b1\u03c1\u03af\u03bf\u03b9\u03c2 (kynariois)",
+        "greek": "κυναρίοις (kynariois)",
         "verseRef": "v.26-27",
-        "meaning": "A diminutive form \u2014 closer to \"little dogs\" or household pets than the harsher term for wild street dogs, softening (though not eliminating) the edge of the exchange.",
+        "meaning": "A diminutive form — closer to \"little dogs\" or household pets than the harsher term for wild street dogs, softening (though not eliminating) the edge of the exchange.",
         "occurrences": {
           "total": 4,
           "sampleRefs": [
             "Mark 7:27",
             "Mark 7:28"
           ],
-          "note": "Used only in this one story \u2014 told twice, once in Matthew and once in Mark \u2014 and nowhere else in the New Testament."
-        }
+          "note": "Used only in this one story — told twice, once in Matthew and once in Mark — and nowhere else in the New Testament."
+        },
+        "gloss": "Little dogs, pets"
       },
       {
         "english": "great",
-        "greek": "\u03bc\u03b5\u03b3\u03ac\u03bb\u03b7 (megal\u0113)",
+        "greek": "μεγάλη (megalē)",
         "verseRef": "v.28",
-        "meaning": "Jesus' assessment of the Canaanite woman's faith \u2014 the only time in Matthew's Gospel He describes anyone's faith this way."
+        "meaning": "Jesus' assessment of the Canaanite woman's faith — the only time in Matthew's Gospel He describes anyone's faith this way."
       },
       {
         "english": "compassion",
-        "greek": "\u03c3\u03c0\u03bb\u03b1\u03b3\u03c7\u03bd\u03af\u03b6\u03bf\u03bc\u03b1\u03b9 (splanchnizomai)",
+        "greek": "σπλαγχνίζομαι (splanchnizomai)",
         "verseRef": "v.32",
-        "meaning": "The same visceral empathy word used before the first feeding miracle in chapter 14 \u2014 Matthew frames both feedings as acts of compassion, not just displays of power.",
+        "meaning": "The same visceral empathy word used before the first feeding miracle in chapter 14 — Matthew frames both feedings as acts of compassion, not just displays of power.",
         "occurrences": {
           "total": 12,
           "sampleRefs": [
@@ -231,7 +234,7 @@
             "Luke 10:33",
             "Luke 15:20"
           ],
-          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables \u2014 the good Samaritan, the forgiving master, and the father of the prodigal son."
+          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables — the good Samaritan, the forgiving master, and the father of the prodigal son."
         }
       }
     ],
@@ -255,15 +258,15 @@
     "otBackground": [
       {
         "ref": "Exodus 20:12 / 21:17",
-        "note": "The command to honor father and mother, and the penalty for cursing them \u2014 both quoted directly by Jesus in v.4."
+        "note": "The command to honor father and mother, and the penalty for cursing them — both quoted directly by Jesus in v.4."
       },
       {
         "ref": "Isaiah 29:13",
-        "note": "\"These people honor Me with their lips\" \u2014 quoted directly by Jesus in v.8-9."
+        "note": "\"These people honor Me with their lips\" — quoted directly by Jesus in v.8-9."
       },
       {
         "ref": "2 Kings 4:42-44",
-        "note": "Elisha's earlier, smaller-scale bread multiplication \u2014 a precedent for the feeding of the four thousand."
+        "note": "Elisha's earlier, smaller-scale bread multiplication — a precedent for the feeding of the four thousand."
       }
     ],
     "mapCoords": {
@@ -272,18 +275,18 @@
       "zoom": 6.5,
       "placeName": "Tyre, Phoenicia"
     },
-    "sparkNotes": "Jesus confronts the Pharisees for elevating tradition over God's actual commands, then a Canaanite woman's persistent faith earns her daughter's healing. \"Dogs,\" the word Jesus uses in that exchange, appears only in this one story across the whole New Testament \u2014 and His rebuke of the Pharisees directly quotes Isaiah 29:13's \"these people honor Me with their lips.\"",
+    "sparkNotes": "Jesus confronts the Pharisees for elevating tradition over God's actual commands, then a Canaanite woman's persistent faith earns her daughter's healing. \"Dogs,\" the word Jesus uses in that exchange, appears only in this one story across the whole New Testament — and His rebuke of the Pharisees directly quotes Isaiah 29:13's \"these people honor Me with their lips.\"",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry is explicit that Jesus \"doth not yet repeal the law of the distinction of meats (that was not done till Acts 10), but the tradition of the elders\" \u2014 a mainstream 18th-century reading that lines up with the same distinction drawn in this chapter's own Translation notes: the dispute is about handwashing custom, not Levitical food law.",
+        "note": "Henry is explicit that Jesus \"doth not yet repeal the law of the distinction of meats (that was not done till Acts 10), but the tradition of the elders\" — a mainstream 18th-century reading that lines up with the same distinction drawn in this chapter's own Translation notes: the dispute is about handwashing custom, not Levitical food law.",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_015.cfm"
       },
       {
         "source": "Albert Barnes",
         "year": "1832",
-        "note": "Barnes summarizes the whole passage in one clean line: \"it is not the neglect of washing the body which defiles; it is the deep, inward corruption of the heart\" \u2014 and lists evil thoughts first among the things that actually pollute a person, since thought precedes and produces every other named sin on Jesus' list.",
+        "note": "Barnes summarizes the whole passage in one clean line: \"it is not the neglect of washing the body which defiles; it is the deep, inward corruption of the heart\" — and lists evil thoughts first among the things that actually pollute a person, since thought precedes and produces every other named sin on Jesus' list.",
         "url": "https://biblehub.com/commentaries/matthew/15-20.htm"
       },
       {
@@ -295,8 +298,143 @@
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HealingGustaveDore.jpg",
-      "caption": "Jesus Healing the Sick, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Jesus Healing the Sick, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "The Pharisees accuse Jesus' disciples of breaking tradition, and Jesus says it is what comes from the heart that defiles. He heals the daughter of a Canaanite woman who persists in faith, then heals many and feeds four thousand.",
+      "settingLine": "Galilee, then the region of Tyre and Sidon.",
+      "placeName": "Tyre, Phoenicia",
+      "history": [
+        {
+          "h": "Oral Tradition",
+          "t": "Pharisees guarded the Law with traditions handed down by elders, and Jesus questioned them."
+        },
+        {
+          "h": "Jews and Gentiles",
+          "t": "Jews and their Phoenician neighbors shared trade and a long, uneasy history."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Hand Washing",
+          "t": "Ritual hand washing before meals was a tradition, not a command of Moses."
+        },
+        {
+          "h": "Corban",
+          "t": "Declaring money \"Corban\" set it aside for God, a loophole to avoid supporting parents."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Tyre",
+          "t": "Ruins at Al-Mina include Roman columns and a wide colonnaded road."
+        },
+        {
+          "h": "Stone Jars",
+          "t": "Large stone jars, made to avoid impurity, are common in Jewish homes of this time."
+        }
+      ],
+      "discussion": "Jesus said what comes out of the heart is what defiles. Does that make outward religious habits useless?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Controversy and miracles",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 7:1-23": "Clean and unclean",
+        "Exodus 20:12 / 21:17": "Honor your parents",
+        "Isaiah 29:13": "Lips near, hearts far"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Tradition"
+        },
+        {
+          "n": "A mother",
+          "d": "Faith"
+        },
+        {
+          "n": "Tyre & Sidon",
+          "d": "Gentile coast"
+        },
+        {
+          "n": "Magadan",
+          "d": "Lake town"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Debate",
+          "label": "Tradition and the heart"
+        },
+        {
+          "when": "Tyre",
+          "label": "A mother's faith"
+        },
+        {
+          "when": "Galilee",
+          "label": "Many healed"
+        },
+        {
+          "when": "Hillside",
+          "label": "Four thousand fed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Remains_of_ancient_columns_at_Al_Mina_excavation_site,_Tyre,_Lebanon.jpg",
+      "caption": "Present-day Tyre, Phoenicia",
+      "credit": "Photo: Vyacheslav Argenberg / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Tyre",
+        "lat": 33.2708,
+        "lng": 35.1961,
+        "verses": [
+          21
+        ],
+        "slug": "tyre"
+      },
+      {
+        "name": "Sidon",
+        "lat": 33.561,
+        "lng": 35.3719,
+        "verses": [
+          21
+        ],
+        "slug": "sidon"
+      },
+      {
+        "name": "Sea of Galilee",
+        "lat": 32.8189,
+        "lng": 35.59,
+        "verses": [
+          29
+        ],
+        "slug": "sea-of-galilee"
+      },
+      {
+        "name": "Magadan",
+        "lat": 32.8271,
+        "lng": 35.5136,
+        "verses": [
+          39
+        ],
+        "slug": "magadan"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          1
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.6
   }
 }

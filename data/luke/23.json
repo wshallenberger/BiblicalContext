@@ -248,7 +248,8 @@
             "Luke 23:14",
             "John 18:38"
           ]
-        }
+        },
+        "gloss": "No ground for a charge"
       },
       {
         "english": "forgive",
@@ -262,7 +263,8 @@
             "Luke 11:4",
             "Acts 7:60"
           ]
-        }
+        },
+        "gloss": "Let go, release"
       },
       {
         "english": "Paradise",
@@ -276,7 +278,8 @@
             "2 Corinthians 12:4",
             "Revelation 2:7"
           ]
-        }
+        },
+        "gloss": "A garden, a park"
       },
       {
         "english": "commit",
@@ -430,12 +433,137 @@
         "year": "1740s",
         "note": "Gill says Herod and Pilate, who had been at odds (possibly over the Galileans of Luke 13:1), were reconciled by the trial and united against Christ, which he connects with Psalm 2:1. He reads \"today you will be with Me in Paradise\" as heaven, not an earthly garden, and argues that the word \"today\" shows Christ's soul went straight to heaven at death. The three hours' darkness was a preternatural eclipse, and the torn veil fulfills Amos 8:9. He takes \"spirit\" in verse 46 to mean Jesus' human soul and stresses that He gave up His life voluntarily.",
         "url": "https://www.christianity.com/bible/commentary/john-gill/luke/23"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Luke 23, but \"The Perfect Penitent\" in <em>Mere Christianity</em> reflects on why the cross happened. He says the fact that Christ's death put us right with God matters more than any one theory of how it works. His own best attempt is that only a perfectly good person could repent perfectly, so God became man to offer that repentance for us. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://assets.litcharts.com/lit/mere-christianity/book-2-chapter-4-the-perfect-penitent"
       }
     ],
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/088.jpg",
       "caption": "The Crucifixion, by Gustave Doré (1866), Luke 23:33-46",
       "credit": "Public domain — Project Gutenberg"
-    }
+    },
+    "overview": {
+      "summary": "The council brings Jesus to Pilate, who finds Him innocent and sends Him to Herod. The crowd demands Barabbas, and Jesus is crucified between two criminals, praying for forgiveness. He dies, and Joseph of Arimathea lays His body in a new tomb.",
+      "settingLine": "Pilate's court, Golgotha, and a tomb.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Pilate",
+          "t": "Pilate governed Judea for about ten years and was known for harshness toward Jews."
+        },
+        {
+          "h": "Herod Antipas",
+          "t": "Antipas was in Jerusalem for Passover and had long wanted to see Jesus."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Crucifixion",
+          "t": "Rome used it for slaves and rebels, a slow, public death meant to terrify."
+        },
+        {
+          "h": "Quick Burial",
+          "t": "Burial had to happen before the Sabbath began, so the women prepared spices later."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Heel Bone",
+          "t": "A crucified man's heel bone, with a nail, was found in a Jerusalem tomb in 1968."
+        },
+        {
+          "h": "Holy Sepulchre",
+          "t": "The church stands over the traditional sites of the cross and the tomb."
+        }
+      ],
+      "discussion": "Pilate declared Jesus innocent three times and still gave in. Why do people go along with what they know is wrong?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 27:1-2, 11-14": "Trial before Pilate",
+        "Isaiah 53:7-12": "The suffering servant",
+        "Psalm 22:1-18": "A cry of abandonment"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pilate",
+          "d": "Governor"
+        },
+        {
+          "n": "Barabbas",
+          "d": "Set free"
+        },
+        {
+          "n": "Simon",
+          "d": "Carried the cross"
+        },
+        {
+          "n": "Joseph",
+          "d": "Gave a tomb"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Morning",
+          "label": "Trial"
+        },
+        {
+          "when": "Then",
+          "label": "Barabbas freed"
+        },
+        {
+          "when": "Noon to 3",
+          "label": "Crucifixion"
+        },
+        {
+          "when": "Evening",
+          "label": "Burial"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          5,
+          7,
+          19,
+          28
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Golgotha",
+        "lat": 31.7784,
+        "lng": 35.2298,
+        "verses": [
+          33
+        ],
+        "slug": "golgotha"
+      },
+      {
+        "name": "Arimathea",
+        "lat": 32.0281,
+        "lng": 35.0194,
+        "verses": [
+          50
+        ],
+        "slug": "arimathea"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

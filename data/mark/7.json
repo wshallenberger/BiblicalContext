@@ -10,7 +10,7 @@
     },
     {
       "num": 2,
-      "text": "and they saw some of His disciples eating with hands that were defiled\u2014that is, unwashed."
+      "text": "and they saw some of His disciples eating with hands that were defiled—that is, unwashed."
     },
     {
       "num": 3,
@@ -151,20 +151,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 a confrontation over tradition, followed by teaching, a Gentile healing account, and a second Gentile-territory miracle",
+    "genre": "Narrative Gospel — a confrontation over tradition, followed by teaching, a Gentile healing account, and a second Gentile-territory miracle",
     "audience": "Roman Christian readers, likely themselves Gentile, watching Jesus' mission and mercy visibly widen beyond Israel's borders",
     "mapLabel": "TYRE, PHOENICIA",
-    "setting": "The chapter opens near Gennesaret in Jewish Galilee, then moves deliberately into Gentile territory \u2014 first Tyre, an old, wealthy Phoenician port city, then through Sidon and into the Decapolis. Pharisaic oral tradition (later written down as the Mishnah) had by this era grown into an extensive, detailed code well beyond anything commanded in the Law of Moses itself.",
-    "custom": "Ceremonial hand-washing before meals wasn't a hygiene practice but a ritual purity custom, extended by the Pharisees from priestly regulations to everyday eating. The \"Corban\" loophole let someone declare their assets \"devoted to God,\" legally shielding wealth from supporting aging parents \u2014 a technically lawful maneuver Jesus calls out as nullifying God's actual command.",
-    "timelineImmediate": "A sharp confrontation over tradition versus God's actual commands is followed by Jesus deliberately withdrawing into Gentile territory \u2014 the Canaanite woman's persistent faith and the healing of a deaf man there both anticipate the Gospel's eventual reach to the whole world.",
-    "timelineBible": "Jesus' rebuke of the Pharisees directly quotes Isaiah 29:13's \"these people honor Me with their lips\" \u2014 a prophecy originally aimed at Isaiah's own generation, now applied by Jesus word for word to the religious leaders standing in front of Him.",
-    "sparkNotes": "Pharisees confront Jesus over His disciples skipping ceremonial hand-washing, and Jesus responds by quoting Isaiah directly against their tradition, then relocating true defilement from ritual to the heart \u2014 a claim Mark himself editorializes on directly in the text: \"(Thus all foods are clean.)\" Jesus then withdraws into Gentile territory, where a Canaanite mother's persistent faith and a deaf man's healing both preview a mission reaching well beyond Israel.",
+    "setting": "The chapter opens near Gennesaret in Jewish Galilee, then moves deliberately into Gentile territory — first Tyre, an old, wealthy Phoenician port city, then through Sidon and into the Decapolis. Pharisaic oral tradition (later written down as the Mishnah) had by this era grown into an extensive, detailed code well beyond anything commanded in the Law of Moses itself.",
+    "custom": "Ceremonial hand-washing before meals wasn't a hygiene practice but a ritual purity custom, extended by the Pharisees from priestly regulations to everyday eating. The \"Corban\" loophole let someone declare their assets \"devoted to God,\" legally shielding wealth from supporting aging parents — a technically lawful maneuver Jesus calls out as nullifying God's actual command.",
+    "timelineImmediate": "A sharp confrontation over tradition versus God's actual commands is followed by Jesus deliberately withdrawing into Gentile territory — the Canaanite woman's persistent faith and the healing of a deaf man there both anticipate the Gospel's eventual reach to the whole world.",
+    "timelineBible": "Jesus' rebuke of the Pharisees directly quotes Isaiah 29:13's \"these people honor Me with their lips\" — a prophecy originally aimed at Isaiah's own generation, now applied by Jesus word for word to the religious leaders standing in front of Him.",
+    "sparkNotes": "Pharisees confront Jesus over His disciples skipping ceremonial hand-washing, and Jesus responds by quoting Isaiah directly against their tradition, then relocating true defilement from ritual to the heart — a claim Mark himself editorializes on directly in the text: \"(Thus all foods are clean.)\" Jesus then withdraws into Gentile territory, where a Canaanite mother's persistent faith and a deaf man's healing both preview a mission reaching well beyond Israel.",
     "translation": [
       {
         "english": "tradition",
-        "greek": "\u03c0\u03b1\u03c1\u03ac\u03b4\u03bf\u03c3\u03b9\u03bd (paradosin)",
+        "greek": "παράδοσιν (paradosin)",
         "verseRef": "v.3-13",
-        "meaning": "Handed-down human custom \u2014 Jesus' whole argument is that tradition had come to override, rather than support, God's actual commands.",
+        "meaning": "Handed-down human custom — Jesus' whole argument is that tradition had come to override, rather than support, God's actual commands.",
         "occurrences": {
           "total": 13,
           "sampleRefs": [
@@ -172,13 +172,14 @@
             "Galatians 1:14",
             "2 Thessalonians 3:6"
           ]
-        }
+        },
+        "gloss": "Handed down"
       },
       {
         "english": "defile",
-        "greek": "\u03ba\u03bf\u03b9\u03bd\u03bf\u1fd6 (koinoi)",
+        "greek": "κοινοῖ (koinoi)",
         "verseRef": "v.2, 15, 18, 20, 23",
-        "meaning": "To make common or ceremonially unclean \u2014 Jesus relocates the source of defilement from external ritual to the internal condition of the heart.",
+        "meaning": "To make common or ceremonially unclean — Jesus relocates the source of defilement from external ritual to the internal condition of the heart.",
         "occurrences": {
           "total": 14,
           "sampleRefs": [
@@ -186,14 +187,16 @@
             "Hebrews 9:13",
             "Revelation 21:27"
           ],
-          "note": "The parenthetical note in v.19, \u201c(Thus all foods are clean),\u201d appears to be Mark's own editorial aside rather than part of Jesus' spoken words \u2014 the immediate dispute in this passage is specifically about handwashing tradition (v.1-5), not the Levitical food laws."
-        }
+          "note": "The parenthetical note in v.19, “(Thus all foods are clean),” appears to be Mark's own editorial aside rather than part of Jesus' spoken words — the immediate dispute in this passage is specifically about handwashing tradition (v.1-5), not the Levitical food laws."
+        },
+        "gloss": "Make unclean"
       },
       {
         "english": "Ephphatha",
-        "greek": "\u1f18\u03c6\u03c6\u03b1\u03b8\u03ac (Ephphatha)",
+        "greek": "Ἐφφαθά (Ephphatha)",
         "verseRef": "v.34",
-        "meaning": "Aramaic for \"be opened\" \u2014 Mark preserves Jesus' actual spoken word before translating it, the same eyewitness-style detail found in \"Talitha koum\" back in chapter 5."
+        "meaning": "Aramaic for \"be opened\" — Mark preserves Jesus' actual spoken word before translating it, the same eyewitness-style detail found in \"Talitha koum\" back in chapter 5.",
+        "gloss": "Be opened"
       }
     ],
     "gospelParallels": [
@@ -219,7 +222,7 @@
       },
       {
         "ref": "Isaiah 29:13",
-        "note": "\"These people honor Me with their lips\" \u2014 quoted directly by Jesus in v.6-7."
+        "note": "\"These people honor Me with their lips\" — quoted directly by Jesus in v.6-7."
       },
       {
         "ref": "Leviticus 11",
@@ -236,26 +239,145 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry notes that hand-washing itself \"was a cleanly custom, and no harm in it\" \u2014 the real problem wasn't the practice but the Pharisees making it a binding religious law rather than a matter of personal choice. He points out their sharper complaint wasn't really \"why don't your disciples wash,\" but \"why don't they follow the tradition of the elders\" \u2014 revealing what they actually cared about defending.",
+        "note": "Henry notes that hand-washing itself \"was a cleanly custom, and no harm in it\" — the real problem wasn't the practice but the Pharisees making it a binding religious law rather than a matter of personal choice. He points out their sharper complaint wasn't really \"why don't your disciples wash,\" but \"why don't they follow the tradition of the elders\" — revealing what they actually cared about defending.",
         "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/mark/7"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "On the Syrophoenician woman, Henry stresses just how far outside Israel's covenant she stood \u2014 \"a stranger to the commonwealth of Israel, an alien to the covenant of promise,\" with no claim on Jesus by nationality or religion. Her persistence despite that, he suggests, is exactly what makes her faith so striking.",
+        "note": "On the Syrophoenician woman, Henry stresses just how far outside Israel's covenant she stood — \"a stranger to the commonwealth of Israel, an alien to the covenant of promise,\" with no claim on Jesus by nationality or religion. Her persistence despite that, he suggests, is exactly what makes her faith so striking.",
         "url": "https://www.biblestudytools.com/commentaries/matthew-henry-complete/mark/7.html"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle frames the central lesson plainly: 'the heart is the chief source of defilement and impurity in God's sight. Moral purity does not depend on washing or not washing \u2014 touching things or not touching them, eating things or not eating them, as the Scribes and Pharisees taught.' He commends anyone who, like the psalmist, prays 'teach me thy statutes' rather than resting content with outward observance alone.",
+        "note": "Ryle frames the central lesson plainly: 'the heart is the chief source of defilement and impurity in God's sight. Moral purity does not depend on washing or not washing — touching things or not touching them, eating things or not eating them, as the Scribes and Pharisees taught.' He commends anyone who, like the psalmist, prays 'teach me thy statutes' rather than resting content with outward observance alone.",
         "url": "https://www.preceptaustin.org/j-c-ryle-gospel-of-mark-commentary"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Germain_Drouais_-_The_Woman_of_Canaan_at_the_Feet_of_Christ_-_WGA06696.jpg",
       "caption": "The Woman of Canaan at the Feet of Christ, by Jean-Germain Drouais (1784)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Pharisees from Jerusalem object that the disciples eat with unwashed hands, and Jesus says defilement comes from the heart. He heals a Gentile woman's daughter near Tyre, then opens the ears of a deaf man in the Decapolis.",
+      "settingLine": "Galilee, then Tyre, Sidon and the Decapolis.",
+      "placeName": "Tyre, Phoenicia",
+      "history": [
+        {
+          "h": "Elders' Tradition",
+          "t": "Pharisees treated handed-down rules as nearly equal to the Law."
+        },
+        {
+          "h": "Gentile Coast",
+          "t": "Tyre and Sidon were Phoenician cities with a mixed, mostly pagan population."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Ritual Washing",
+          "t": "Washing hands, cups and couches was a Pharisaic tradition, not a Mosaic command."
+        },
+        {
+          "h": "Corban",
+          "t": "Calling goods \"Corban\" dedicated them to God, which some used to avoid helping parents."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Stone Vessels",
+          "t": "Carved stone jars, which resisted impurity, are common in Jewish homes of this period."
+        },
+        {
+          "h": "Tyre",
+          "t": "Excavations show Roman streets, columns and a huge hippodrome."
+        }
+      ],
+      "discussion": "Jesus said nothing from outside can defile, but what comes out can. What does the heart produce in your day?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Controversy and miracles",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 15:1-20": "What defiles",
+        "Exodus 20:12 / 21:17": "Honor your parents",
+        "Isaiah 29:13": "Lips near, hearts far"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Tradition"
+        },
+        {
+          "n": "Scribes",
+          "d": "From Jerusalem"
+        },
+        {
+          "n": "A mother",
+          "d": "Gentile"
+        },
+        {
+          "n": "A deaf man",
+          "d": "Healed"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Debate",
+          "label": "Clean and unclean"
+        },
+        {
+          "when": "Tyre",
+          "label": "A mother's plea"
+        },
+        {
+          "when": "Decapolis",
+          "label": "Deaf man healed"
+        },
+        {
+          "when": "Then",
+          "label": "Crowds amazed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Remains_of_ancient_columns_at_Al_Mina_excavation_site,_Tyre,_Lebanon.jpg",
+      "caption": "Present-day Tyre, Phoenicia",
+      "credit": "Photo: Vyacheslav Argenberg / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Tyre",
+        "lat": 33.2708,
+        "lng": 35.1961,
+        "verses": [
+          24,
+          31
+        ],
+        "slug": "tyre"
+      },
+      {
+        "name": "Sidon",
+        "lat": 33.561,
+        "lng": 35.3719,
+        "verses": [
+          24,
+          31
+        ],
+        "slug": "sidon"
+      },
+      {
+        "name": "Sea of Galilee",
+        "lat": 32.8189,
+        "lng": 35.59,
+        "verses": [
+          31
+        ],
+        "slug": "sea-of-galilee"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.6
   }
 }

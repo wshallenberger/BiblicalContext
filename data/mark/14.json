@@ -82,7 +82,7 @@
     },
     {
       "num": 20,
-      "text": "He answered, \"It is one of the Twelve\u2014the one who is dipping his hand into the bowl with Me."
+      "text": "He answered, \"It is one of the Twelve—the one who is dipping his hand into the bowl with Me."
     },
     {
       "num": 21,
@@ -295,26 +295,27 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 the longest chapter in Mark, moving from a woman's costly devotion through the Last Supper into arrest, trial, and Peter's collapse into denial",
+    "genre": "Narrative Gospel — the longest chapter in Mark, moving from a woman's costly devotion through the Last Supper into arrest, trial, and Peter's collapse into denial",
     "audience": "Roman Christian readers, given an unflinching, detailed account of Jesus' final hours and His closest disciple's failure",
     "mapLabel": "GETHSEMANE",
-    "setting": "Bethany, an upper room in Jerusalem, and finally the olive grove of Gethsemane at the foot of the Mount of Olives \u2014 \"Gethsemane\" itself means \"oil press,\" and ancient olive trees still growing there today may descend from trees present in the first century.",
-    "custom": "Pure nard was imported from India and worth roughly a year's wages \u2014 breaking the alabaster jar meant the whole flask had to be used at once, since it couldn't be resealed, making the woman's gift total and irreversible. The Passover meal required a lamb sacrificed at the temple and eaten in a properly prepared room, which is exactly what the disciples are sent ahead to arrange.",
-    "timelineImmediate": "This single chapter carries the entire emotional arc from Bethany's quiet devotion through Judas's betrayal, the Last Supper's new covenant, Gethsemane's agony, and Jesus' arrest and trial \u2014 ending with Peter's three denials fulfilling, almost to the letter, what Jesus predicted just hours earlier.",
+    "setting": "Bethany, an upper room in Jerusalem, and finally the olive grove of Gethsemane at the foot of the Mount of Olives — \"Gethsemane\" itself means \"oil press,\" and ancient olive trees still growing there today may descend from trees present in the first century.",
+    "custom": "Pure nard was imported from India and worth roughly a year's wages — breaking the alabaster jar meant the whole flask had to be used at once, since it couldn't be resealed, making the woman's gift total and irreversible. The Passover meal required a lamb sacrificed at the temple and eaten in a properly prepared room, which is exactly what the disciples are sent ahead to arrange.",
+    "timelineImmediate": "This single chapter carries the entire emotional arc from Bethany's quiet devotion through Judas's betrayal, the Last Supper's new covenant, Gethsemane's agony, and Jesus' arrest and trial — ending with Peter's three denials fulfilling, almost to the letter, what Jesus predicted just hours earlier.",
     "timelineBible": "Jesus' words over the cup, \"my blood of the covenant, poured out for many,\" directly recall Moses splashing sacrificial blood on the people at Sinai in Exodus 24:8, while His silence before false accusations echoes Isaiah 53:7's suffering servant who \"did not open His mouth.\"",
-    "sparkNotes": "A woman anoints Jesus with costly perfume in an act He calls a preparation for burial, while Judas simultaneously arranges to betray Him for money. At the Last Supper Jesus institutes what becomes the Lord's Supper, then prays in Gethsemane so anguished He asks the Father, \"Abba,\" to take the cup from Him if possible \u2014 a word used only three times anywhere in the New Testament. By night's end He's arrested, falsely tried, and Peter has denied Him three times exactly as predicted, breaking down in tears the moment the rooster crows.",
+    "sparkNotes": "A woman anoints Jesus with costly perfume in an act He calls a preparation for burial, while Judas simultaneously arranges to betray Him for money. At the Last Supper Jesus institutes what becomes the Lord's Supper, then prays in Gethsemane so anguished He asks the Father, \"Abba,\" to take the cup from Him if possible — a word used only three times anywhere in the New Testament. By night's end He's arrested, falsely tried, and Peter has denied Him three times exactly as predicted, breaking down in tears the moment the rooster crows.",
     "translation": [
       {
         "english": "beautiful deed",
-        "greek": "\u1f14\u03c1\u03b3\u03bf\u03bd \u03ba\u03b1\u03bb\u1f78\u03bd (ergon kalon)",
+        "greek": "ἔργον καλὸν (ergon kalon)",
         "verseRef": "v.6",
-        "meaning": "Jesus' description of the woman's anointing \u2014 a genuinely fine, fitting act, defended directly against the disciples' criticism of it as wasteful."
+        "meaning": "Jesus' description of the woman's anointing — a genuinely fine, fitting act, defended directly against the disciples' criticism of it as wasteful.",
+        "gloss": "A good work"
       },
       {
         "english": "covenant",
-        "greek": "\u03b4\u03b9\u03b1\u03b8\u03ae\u03ba\u03b7\u03c2 (diath\u0113k\u0113s)",
+        "greek": "διαθήκης (diathēkēs)",
         "verseRef": "v.24",
-        "meaning": "A solemn, binding agreement \u2014 Jesus applies this term to His own blood, directly invoking Exodus 24:8's covenant-ratifying blood and Jeremiah's promised new covenant.",
+        "meaning": "A solemn, binding agreement — Jesus applies this term to His own blood, directly invoking Exodus 24:8's covenant-ratifying blood and Jeremiah's promised new covenant.",
         "occurrences": {
           "total": 33,
           "sampleRefs": [
@@ -322,21 +323,23 @@
             "Hebrews 8:6",
             "Hebrews 9:15"
           ]
-        }
+        },
+        "gloss": "A binding agreement"
       },
       {
         "english": "Abba",
-        "greek": "\u1f08\u03b2\u03b2\u03ac (Abba)",
+        "greek": "Ἀββά (Abba)",
         "verseRef": "v.36",
-        "meaning": "An Aramaic term of intimate address for a father \u2014 Mark preserves the original word directly alongside its Greek translation, capturing Jesus' own private language of prayer.",
+        "meaning": "An Aramaic term of intimate address for a father — Mark preserves the original word directly alongside its Greek translation, capturing Jesus' own private language of prayer.",
         "occurrences": {
           "total": 3,
           "sampleRefs": [
             "Romans 8:15",
             "Galatians 4:6"
           ],
-          "note": "Used only three times in the entire New Testament \u2014 here by Jesus Himself, and twice more when Paul describes believers crying out the very same word by the Spirit's prompting."
-        }
+          "note": "Used only three times in the entire New Testament — here by Jesus Himself, and twice more when Paul describes believers crying out the very same word by the Spirit's prompting."
+        },
+        "gloss": "Father"
       }
     ],
     "gospelParallels": [
@@ -356,15 +359,15 @@
     "otBackground": [
       {
         "ref": "Exodus 24:8",
-        "note": "Moses sprinkling covenant-ratifying blood on the people at Sinai \u2014 directly echoed in Jesus' words over the cup."
+        "note": "Moses sprinkling covenant-ratifying blood on the people at Sinai — directly echoed in Jesus' words over the cup."
       },
       {
         "ref": "Zechariah 13:7",
-        "note": "\"I will strike the Shepherd, and the sheep will be scattered\" \u2014 quoted directly by Jesus to predict the disciples' coming collapse."
+        "note": "\"I will strike the Shepherd, and the sheep will be scattered\" — quoted directly by Jesus to predict the disciples' coming collapse."
       },
       {
         "ref": "Isaiah 53:7",
-        "note": "The suffering servant who \"did not open His mouth\" \u2014 echoed in Jesus' silence before His accusers."
+        "note": "The suffering servant who \"did not open His mouth\" — echoed in Jesus' silence before His accusers."
       }
     ],
     "mapCoords": {
@@ -383,7 +386,7 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry speculates on how Judas may have rationalized his betrayal to himself \u2014 reasoning that since Jesus Himself had repeatedly said He must be betrayed, surely acting it out couldn't really be counted against him, \"for who hath resisted his will?\" He treats this as a warning about how easily people twist God's foreknowledge into an excuse for their own choices.",
+        "note": "Henry speculates on how Judas may have rationalized his betrayal to himself — reasoning that since Jesus Himself had repeatedly said He must be betrayed, surely acting it out couldn't really be counted against him, \"for who hath resisted his will?\" He treats this as a warning about how easily people twist God's foreknowledge into an excuse for their own choices.",
         "url": "https://www.studylight.org/commentaries/eng/mhm/mark-14.html"
       },
       {
@@ -395,8 +398,133 @@
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_Judas_betrays_Jesus_with_a_kiss.jpg",
-      "caption": "Judas Betrays Jesus with a Kiss, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Judas Betrays Jesus with a Kiss, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "A woman anoints Jesus at Bethany and Judas agrees to betray Him. Jesus shares the Passover meal, prays in Gethsemane, is arrested, and tried before the council while Peter denies Him three times.",
+      "settingLine": "Bethany, an upper room, then Gethsemane.",
+      "placeName": "Gethsemane, Jerusalem",
+      "history": [
+        {
+          "h": "Passover",
+          "t": "The meal remembered Israel's rescue from Egypt."
+        },
+        {
+          "h": "The Council",
+          "t": "The Sanhedrin of seventy elders and priests met under the high priest."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Reclining",
+          "t": "Guests reclined at the table, so those beside Jesus shared the same dish."
+        },
+        {
+          "h": "Abba",
+          "t": "Abba was the family word for father, used in prayer with tenderness."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Olive Press",
+          "t": "Gethsemane means \"oil press,\" and ancient presses lie on the slope."
+        },
+        {
+          "h": "The Upper Room",
+          "t": "The traditional room stands on Mount Zion, though its exact place is uncertain."
+        }
+      ],
+      "discussion": "Jesus prayed, \"Not what I will, but what you will.\" When has that prayer been hardest for you?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 26:1-75": "The same night",
+        "Exodus 24:8": "Covenant blood",
+        "Zechariah 13:7": "Strike the shepherd"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Judas",
+          "d": "Betrayer"
+        },
+        {
+          "n": "Peter",
+          "d": "Denied Him"
+        },
+        {
+          "n": "Caiaphas",
+          "d": "High priest"
+        },
+        {
+          "n": "A young man",
+          "d": "Fled"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Bethany",
+          "label": "Anointing"
+        },
+        {
+          "when": "Upper room",
+          "label": "The Passover"
+        },
+        {
+          "when": "Gethsemane",
+          "label": "Prayer, arrest"
+        },
+        {
+          "when": "Night",
+          "label": "Before the council"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Getsemane2.JPG",
+      "caption": "Present-day Gethsemane, Jerusalem",
+      "credit": "Photo: Mewasul / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          3
+        ],
+        "slug": "bethany-1"
+      },
+      {
+        "name": "Gethsemane",
+        "lat": 31.7794,
+        "lng": 35.2394,
+        "verses": [
+          32
+        ],
+        "slug": "gethsemane"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          26
+        ],
+        "slug": "mount-of-olives"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          13
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

@@ -110,7 +110,7 @@
     },
     {
       "num": 27,
-      "text": "and whoever wants to be first among you must be your slave \u2014"
+      "text": "and whoever wants to be first among you must be your slave —"
     },
     {
       "num": 28,
@@ -143,25 +143,26 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Parable followed by narrative \u2014 a teaching on kingdom generosity, the third and most detailed passion prediction, a family's request, and a healing.",
+    "genre": "Parable followed by narrative — a teaching on kingdom generosity, the third and most detailed passion prediction, a family's request, and a healing.",
     "audience": "Jewish-Christian readers, watching Jesus deliberately overturn expectations about reward, status, and greatness as He nears Jerusalem.",
     "mapLabel": "TOWARD JERUSALEM, VIA JERICHO",
-    "setting": "Day laborers in this era gathered in village marketplaces before dawn hoping to be hired for the day \u2014 a standard workday ran roughly 6am to 6pm, and any day without work meant no food. Jesus' landowner returning four separate times (9am, noon, 3pm, 5pm) to keep hiring reflects unusual, deliberate generosity.",
-    "custom": "A denarius (v.2) was the standard daily wage for unskilled labor \u2014 Roman coins bearing Tiberius Caesar's image from this exact period have been recovered by archaeologists, confirming the coin's use and value.",
-    "timelineImmediate": "This chapter sits between Peter's question about reward (closing chapter 19) and the Triumphal Entry (opening chapter 21) \u2014 the parable directly answers Peter, while the third passion prediction (v.17-19) is Jesus' most explicit yet, naming crucifixion specifically for the first time.",
-    "timelineBible": "\"A ransom for many\" (v.28) draws on Exodus 30:12-16, where silver ransomed a life, and anticipates Isaiah 53:11-12's suffering servant who bears the guilt of \"many\" \u2014 language the earliest church (1 Timothy 2:5-6, 1 Peter 1:18-19) read directly back onto Jesus.",
+    "setting": "Day laborers in this era gathered in village marketplaces before dawn hoping to be hired for the day — a standard workday ran roughly 6am to 6pm, and any day without work meant no food. Jesus' landowner returning four separate times (9am, noon, 3pm, 5pm) to keep hiring reflects unusual, deliberate generosity.",
+    "custom": "A denarius (v.2) was the standard daily wage for unskilled labor — Roman coins bearing Tiberius Caesar's image from this exact period have been recovered by archaeologists, confirming the coin's use and value.",
+    "timelineImmediate": "This chapter sits between Peter's question about reward (closing chapter 19) and the Triumphal Entry (opening chapter 21) — the parable directly answers Peter, while the third passion prediction (v.17-19) is Jesus' most explicit yet, naming crucifixion specifically for the first time.",
+    "timelineBible": "\"A ransom for many\" (v.28) draws on Exodus 30:12-16, where silver ransomed a life, and anticipates Isaiah 53:11-12's suffering servant who bears the guilt of \"many\" — language the earliest church (1 Timothy 2:5-6, 1 Peter 1:18-19) read directly back onto Jesus.",
     "translation": [
       {
         "english": "generous",
-        "greek": "\u1f00\u03b3\u03b1\u03b8\u03cc\u03c2 (agathos)",
+        "greek": "ἀγαθός (agathos)",
         "verseRef": "v.15",
-        "meaning": "Literally \"good\" \u2014 the landowner's question is really \"is your eye evil because mine is good,\" contrasting envy with generosity as opposite postures of the heart."
+        "meaning": "Literally \"good\" — the landowner's question is really \"is your eye evil because mine is good,\" contrasting envy with generosity as opposite postures of the heart.",
+        "gloss": "Good, kind"
       },
       {
         "english": "cup",
-        "greek": "\u03c0\u03bf\u03c4\u03ae\u03c1\u03b9\u03bf\u03bd (pot\u0113rion)",
+        "greek": "ποτήριον (potērion)",
         "verseRef": "v.22-23",
-        "meaning": "A common image for one's appointed portion or fate \u2014 here specifically Jesus' coming suffering, which He says James and John will indeed share.",
+        "meaning": "A common image for one's appointed portion or fate — here specifically Jesus' coming suffering, which He says James and John will indeed share.",
         "occurrences": {
           "total": 31,
           "sampleRefs": [
@@ -169,13 +170,14 @@
             "Mark 14:36",
             "1 Corinthians 11:25"
           ]
-        }
+        },
+        "gloss": "A drinking cup"
       },
       {
         "english": "servant / slave",
-        "greek": "\u03b4\u03b9\u03ac\u03ba\u03bf\u03bd\u03bf\u03c2 / \u03b4\u03bf\u1fe6\u03bb\u03bf\u03c2 (diakonos / doulos)",
+        "greek": "διάκονος / δοῦλος (diakonos / doulos)",
         "verseRef": "v.26-27",
-        "meaning": "Two escalating terms for lowly service \u2014 Jesus moves from the more general \"servant\" to the starker \"slave\" to make His point about greatness unmistakable.",
+        "meaning": "Two escalating terms for lowly service — Jesus moves from the more general \"servant\" to the starker \"slave\" to make His point about greatness unmistakable.",
         "occurrences": {
           "total": 126,
           "sampleRefs": [
@@ -183,20 +185,23 @@
             "Romans 6:19",
             "Philippians 2:7"
           ],
-          "note": "Figure given is for \"doulos\" (slave), the starker of the two terms \u2014 \"diakonos\" (servant), the milder word, has its own separate, smaller count."
-        }
+          "note": "Figure given is for \"doulos\" (slave), the starker of the two terms — \"diakonos\" (servant), the milder word, has its own separate, smaller count."
+        },
+        "gloss": "One who serves",
+        "ovGreek": "διάκονος",
+        "ovEnglish": "Servant"
       },
       {
         "english": "ransom",
-        "greek": "\u03bb\u03cd\u03c4\u03c1\u03bf\u03bd (lytron)",
+        "greek": "λύτρον (lytron)",
         "verseRef": "v.28",
-        "meaning": "The price paid to free a slave or captive \u2014 Jesus applies this economic/legal term directly to His own coming death.",
+        "meaning": "The price paid to free a slave or captive — Jesus applies this economic/legal term directly to His own coming death.",
         "occurrences": {
           "total": 2,
           "sampleRefs": [
             "Mark 10:45"
           ],
-          "note": "Used only twice in the whole New Testament \u2014 here and in Mark's parallel account of this same saying \u2014 and both times on Jesus' own lips about His own death."
+          "note": "Used only twice in the whole New Testament — here and in Mark's parallel account of this same saying — and both times on Jesus' own lips about His own death."
         }
       }
     ],
@@ -221,7 +226,7 @@
       },
       {
         "ref": "Isaiah 53:11-12",
-        "note": "The suffering servant bearing the guilt of \"many\" \u2014 closely echoed in Jesus' description of His own coming death."
+        "note": "The suffering servant bearing the guilt of \"many\" — closely echoed in Jesus' description of His own coming death."
       }
     ],
     "mapCoords": {
@@ -230,31 +235,139 @@
       "zoom": 7.5,
       "placeName": "Jericho"
     },
-    "sparkNotes": "A landowner pays every vineyard worker the same wage regardless of hours worked, illustrating God's generosity. Jesus then predicts His death a third time using the word \"ransom\" \u2014 used only twice in the whole New Testament \u2014 directly echoing Isaiah 53:11-12's suffering servant who bears the guilt of many.",
+    "sparkNotes": "A landowner pays every vineyard worker the same wage regardless of hours worked, illustrating God's generosity. Jesus then predicts His death a third time using the word \"ransom\" — used only twice in the whole New Testament — directly echoing Isaiah 53:11-12's suffering servant who bears the guilt of many.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry reads the parable's core point as a correction, not a contradiction: the reward for a life of service isn't wages earned by the hour, but a gift given by grace \u2014 \"not as wages for the value of their work, but as the gift of God.\" To the grumbling laborer, the master's answer is simple: you received exactly what you agreed to; his generosity elsewhere took nothing from you.",
+        "note": "Henry reads the parable's core point as a correction, not a contradiction: the reward for a life of service isn't wages earned by the hour, but a gift given by grace — \"not as wages for the value of their work, but as the gift of God.\" To the grumbling laborer, the master's answer is simple: you received exactly what you agreed to; his generosity elsewhere took nothing from you.",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_020.cfm"
       },
       {
         "source": "Charles Spurgeon",
         "year": "1860s",
-        "note": "Spurgeon notes the emotional turn in the early workers' reaction: they had exactly what was promised, a fair wage, freely agreed to \u2014 yet \"as soon as the penny was in their hand, a murmur was in their mouth.\" Their only real grievance, he observes dryly, was that the master had been too generous to those who worked less.",
+        "note": "Spurgeon notes the emotional turn in the early workers' reaction: they had exactly what was promised, a fair wage, freely agreed to — yet \"as soon as the penny was in their hand, a murmur was in their mouth.\" Their only real grievance, he observes dryly, was that the master had been too generous to those who worked less.",
         "url": "https://www.preceptaustin.org/matthew-20-commentary-spurgeon"
       },
       {
         "source": "John Wesley",
         "year": "1754",
-        "note": "Wesley works out the actual value of a day's wage for his own 18th-century readers: the Roman penny (denarius) equaled roughly fourteen cents in his era's money \u2014 a modest but real sum, making the landowner's generosity to the last-hired workers genuinely costly, not merely symbolic.",
+        "note": "Wesley works out the actual value of a day's wage for his own 18th-century readers: the Roman penny (denarius) equaled roughly fourteen cents in his era's money — a modest but real sum, making the landowner's generosity to the last-hired workers genuinely costly, not merely symbolic.",
         "url": "https://www.christianity.com/bible/kjv/matthew/20"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Parable_of_the_Laborers_in_the_Vineyard.jpg",
       "caption": "Parable of the Laborers in the Vineyard, by Rembrandt",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus tells of workers hired at different hours who all receive the same pay. He predicts His death a third time and says the Son of Man came to serve and give His life as a ransom. Two blind men near Jericho are healed.",
+      "settingLine": "The road to Jerusalem, ending at Jericho.",
+      "placeName": "Near Jericho",
+      "history": [
+        {
+          "h": "Day Laborers",
+          "t": "Landless workers waited in the marketplace each day hoping to be hired."
+        },
+        {
+          "h": "Ransom",
+          "t": "A ransom was the price paid to free a slave or captive, a familiar idea."
+        }
+      ],
+      "customs": [
+        {
+          "h": "The Denarius",
+          "t": "A denarius was a day's wage for a laborer."
+        },
+        {
+          "h": "Hours of the Day",
+          "t": "The day counted from sunrise, so the eleventh hour was near sunset."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Tiberius Coins",
+          "t": "Silver denarii with Tiberius' image have been found across Judea."
+        },
+        {
+          "h": "Herod's Jericho",
+          "t": "Excavated palaces show the wealth of the road's last stop."
+        }
+      ],
+      "discussion": "The first workers thought the pay unfair, though they got what was agreed. What does that say about fairness and grace?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Parable and narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 10:32-45": "Third prediction",
+        "Isaiah 5:1-7": "The vineyard song",
+        "Exodus 30:12-16": "Atonement money"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Landowner",
+          "d": "Generous"
+        },
+        {
+          "n": "Workers",
+          "d": "Hired all day"
+        },
+        {
+          "n": "Two brothers",
+          "d": "Seek seats"
+        },
+        {
+          "n": "Two blind men",
+          "d": "Healed"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Parable",
+          "label": "Vineyard workers"
+        },
+        {
+          "when": "Road",
+          "label": "Death foretold"
+        },
+        {
+          "when": "Request",
+          "label": "Seats of honor"
+        },
+        {
+          "when": "Jericho",
+          "label": "Blind men healed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Near Jericho",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          17,
+          18
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Jericho",
+        "lat": 31.8519,
+        "lng": 35.4362,
+        "verses": [
+          29
+        ],
+        "slug": "jericho-2"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

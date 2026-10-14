@@ -144,19 +144,24 @@
         "english": "first day of the week",
         "greek": "μιᾷ τῶν σαββάτων (mia tōn sabbatōn)",
         "verseRef": "v.1, 19",
-        "meaning": "Literally \"one of the Sabbaths\" — the standard way of naming the day after the Sabbath. It is the same phrase used in all four Gospel accounts of the empty tomb."
+        "meaning": "Literally \"one of the Sabbaths\" — the standard way of naming the day after the Sabbath. It is the same phrase used in all four Gospel accounts of the empty tomb.",
+        "gloss": "First day of the week",
+        "ovGreek": "μιᾷ τῶν σαββάτων",
+        "ovEnglish": "First day"
       },
       {
         "english": "Rabboni",
         "greek": "ῥαββουνί (rhabbouni)",
         "verseRef": "v.16",
-        "meaning": "An Aramaic form of \"Rabbi\" that John translates for his readers as \"Teacher.\" It is a deeply personal address, and it is the moment of recognition: Mary knows Him only when He says her name."
+        "meaning": "An Aramaic form of \"Rabbi\" that John translates for his readers as \"Teacher.\" It is a deeply personal address, and it is the moment of recognition: Mary knows Him only when He says her name.",
+        "gloss": "Teacher"
       },
       {
         "english": "believe",
         "greek": "πιστεύητε (pisteuēte)",
         "verseRef": "v.31",
-        "meaning": "Some early manuscripts have a tense that means \"come to believe,\" others a tense that means \"continue to believe,\" which is why the Berean Standard Bible footnotes this verse. Either way, John states that the whole book exists to lead to faith that brings life."
+        "meaning": "Some early manuscripts have a tense that means \"come to believe,\" others a tense that means \"continue to believe,\" which is why the Berean Standard Bible footnotes this verse. Either way, John states that the whole book exists to lead to faith that brings life.",
+        "gloss": "Believe"
       }
     ],
     "gospelParallels": [
@@ -220,6 +225,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Mary_Magdalene_Questions_the_Angels_in_the_Tomb_(Madeleine_dans_le_tombeau_interroge_les_anges)_-_James_Tissot.jpg",
       "caption": "Mary Magdalene Questions the Angels in the Tomb, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "On Sunday morning Mary Magdalene finds the stone moved, and Peter and John run to the empty tomb. Jesus appears to Mary, to the disciples, and a week later to Thomas, who says my Lord and my God. John says these things are written so you may believe.",
+      "settingLine": "The garden tomb, then a locked room.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "First Witness",
+          "t": "Mary Magdalene, whose word was not valued in court, is the first to see Him."
+        },
+        {
+          "h": "Thomas",
+          "t": "Thomas refused to believe until he saw the wounds."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Linen Wrappings",
+          "t": "Burial cloths and a separate face cloth lay neatly in the tomb."
+        },
+        {
+          "h": "Locked Doors",
+          "t": "The disciples feared the Jewish leaders after the crucifixion."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Burial Cave",
+          "t": "Rock-cut tombs with rolling stones are found around Jerusalem."
+        },
+        {
+          "h": "Holy Sepulchre",
+          "t": "The church marks the tomb site honored since the fourth century."
+        }
+      ],
+      "discussion": "Jesus said, \"Blessed are those who have not seen and yet have believed.\" What does believing without seeing look like?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 28:1-10": "Women at the tomb",
+        "Psalm 16:10": "No decay for the Holy One",
+        "Genesis 2:7": "God breathes life"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Mary",
+          "d": "First to see"
+        },
+        {
+          "n": "Peter",
+          "d": "Entered"
+        },
+        {
+          "n": "Thomas",
+          "d": "Doubted"
+        },
+        {
+          "n": "The beloved",
+          "d": "Believed"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Dawn",
+          "label": "Tomb empty"
+        },
+        {
+          "when": "Garden",
+          "label": "Mary sees Jesus"
+        },
+        {
+          "when": "Evening",
+          "label": "Disciples see Him"
+        },
+        {
+          "when": "A week later",
+          "label": "Thomas believes"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

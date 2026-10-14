@@ -232,13 +232,17 @@
         "english": "My time has not yet come",
         "greek": "ὁ καιρὸς ὁ ἐμὸς οὔπω πάρεστιν (ho kairos ho emos oupō parestin)",
         "verseRef": "v.6, 8",
-        "meaning": "Kairos refers to an appointed, significant moment rather than clock-time — Jesus repeatedly uses this same phrase throughout John's Gospel to describe His death and glorification as an event under His Father's timing, not human pressure."
+        "meaning": "Kairos refers to an appointed, significant moment rather than clock-time — Jesus repeatedly uses this same phrase throughout John's Gospel to describe His death and glorification as an event under His Father's timing, not human pressure.",
+        "gloss": "My time",
+        "ovGreek": "ὁ καιρὸς ὁ ἐμὸς",
+        "ovEnglish": "My time"
       },
       {
         "english": "living water",
         "greek": "ὕδωρ ζῶν (hydōr zōn)",
         "verseRef": "v.38",
-        "meaning": "The same phrase Jesus used with the Samaritan woman in chapter 4 — here John explicitly identifies it for the reader as a symbol for the Holy Spirit, \"whom those who believed in Him were later to receive.\""
+        "meaning": "The same phrase Jesus used with the Samaritan woman in chapter 4 — here John explicitly identifies it for the reader as a symbol for the Holy Spirit, \"whom those who believed in Him were later to receive.\"",
+        "gloss": "Living water"
       },
       {
         "english": "the Christ",
@@ -252,7 +256,8 @@
             "Romans 1:1",
             "Philippians 1:21"
           ]
-        }
+        },
+        "gloss": "The Christ"
       }
     ],
     "gospelParallels": [],
@@ -300,6 +305,113 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Jesus_Teaches_in_the_Synagogues_(J%C3%A9sus_enseigne_dans_les_synagogues)_-_James_Tissot.jpg",
       "caption": "Jesus Teaches in the Synagogues, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus' brothers urge Him to go to the Feast of Tabernacles, and He goes up quietly midway through. He teaches in the temple, cries out that anyone thirsty should come to Him, and the crowds, officers, and Nicodemus divide over Him.",
+      "settingLine": "Galilee, then the Jerusalem temple at Tabernacles.",
+      "placeName": "Temple Mount, Jerusalem",
+      "history": [
+        {
+          "h": "Feast of Booths",
+          "t": "Pilgrims lived in leafy shelters for a week to remember the wilderness."
+        },
+        {
+          "h": "Where from?",
+          "t": "Many thought the Christ must come from Bethlehem, not Galilee."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Water Pouring",
+          "t": "Priests poured water at the altar each morning of the feast."
+        },
+        {
+          "h": "Lamp Lighting",
+          "t": "Great lamps lit the temple courts at night during Tabernacles."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Pool of Siloam",
+          "t": "A first-century pool and steps were uncovered where the water was drawn."
+        },
+        {
+          "h": "Temple Steps",
+          "t": "Broad stairs on the south side led pilgrims up to the temple."
+        }
+      ],
+      "discussion": "Jesus said, \"If anyone thirsts, let him come to me.\" What thirst does that speak to?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Teaching and controversy",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Leviticus 23:34-43": "The Feast of Booths",
+        "Isaiah 55:1": "Come, all who thirst",
+        "Micah 5:2": "Ruler from Bethlehem"
+      },
+      "peoplePlaces": [
+        {
+          "n": "His brothers",
+          "d": "Don't believe"
+        },
+        {
+          "n": "Nicodemus",
+          "d": "Urges fairness"
+        },
+        {
+          "n": "Officers",
+          "d": "Amazed"
+        },
+        {
+          "n": "The crowd",
+          "d": "Divided"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Galilee",
+          "label": "Brothers urge"
+        },
+        {
+          "when": "Midweek",
+          "label": "Teaches in temple"
+        },
+        {
+          "when": "Last day",
+          "label": "Living water"
+        },
+        {
+          "when": "Then",
+          "label": "Leaders divided"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Temple Mount, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          25
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Bethlehem",
+        "lat": 31.7043,
+        "lng": 35.2076,
+        "verses": [
+          42
+        ],
+        "slug": "bethlehem-1"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

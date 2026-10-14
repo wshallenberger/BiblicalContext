@@ -349,7 +349,8 @@
             "Acts 11:4"
           ],
           "note": "All five uses are in Luke and Acts."
-        }
+        },
+        "gloss": "in proper sequence"
       },
       {
         "english": "highly favored",
@@ -362,7 +363,8 @@
             "Ephesians 1:6"
           ],
           "note": "This verb (charitoō) appears only here and in Ephesians 1:6."
-        }
+        },
+        "gloss": "Shown special favor"
       },
       {
         "english": "overshadow",
@@ -376,7 +378,8 @@
             "Luke 9:34",
             "Acts 5:15"
           ]
-        }
+        },
+        "gloss": "To cast a shadow over"
       }
     ],
     "gospelParallels": [
@@ -444,6 +447,115 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Annunciation_(L%27annonciation)_-_James_Tissot_-_overall.jpg",
       "caption": "The Annunciation, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Luke begins by promising an orderly account. Gabriel tells the priest Zechariah that his aged wife Elizabeth will bear John, then tells Mary she will bear the Son of the Most High. Mary sings the Magnificat, and John is born and named.",
+      "settingLine": "Jerusalem's temple, Nazareth, and Judea's hills.",
+      "placeName": "Nazareth, Galilee",
+      "history": [
+        {
+          "h": "Herod's Reign",
+          "t": "Herod the Great rules as Rome's client king and is still rebuilding the temple."
+        },
+        {
+          "h": "Silent Centuries",
+          "t": "Roughly 400 years had passed since the last Old Testament prophet."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Priestly Lots",
+          "t": "Priests drew lots for the rare honor of burning incense in the holy place."
+        },
+        {
+          "h": "Naming Day",
+          "t": "Boys were named at circumcision on day eight, and neighbors expected the family name."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Ein Karem",
+          "t": "Tradition places Elizabeth's home here, marked today by the Church of the Visitation."
+        },
+        {
+          "h": "Nazareth",
+          "t": "Digs show a small farming village of simple stone-and-cave homes."
+        }
+      ],
+      "discussion": "Zechariah and Mary both asked \"How can this be?\" He went silent, and she was blessed. What's the difference?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Historical narrative with songs",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 1:18-25": "Birth, from Joseph's view",
+        "Malachi 4:5-6": "An Elijah-like messenger",
+        "1 Samuel 2:1-10": "Hannah's song of praise"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Zechariah",
+          "d": "Priest"
+        },
+        {
+          "n": "Gabriel",
+          "d": "Angel"
+        },
+        {
+          "n": "Elizabeth",
+          "d": "Mary's kin"
+        },
+        {
+          "n": "Nazareth",
+          "d": "Mary's town"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Before",
+          "label": "Zechariah's vision"
+        },
+        {
+          "when": "Month 6",
+          "label": "Gabriel visits Mary"
+        },
+        {
+          "when": "Months 6–9",
+          "label": "Mary stays with Elizabeth"
+        },
+        {
+          "when": "Month 9",
+          "label": "John born, named"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Israel_Nazareth_Old_City_Altstadt_Verk%C3%BCndigungsbasilika_Church_of_Annunciation_(34714423420).jpg",
+      "caption": "Present-day Nazareth, Galilee",
+      "credit": "Photo: FLASHPACKER TRAVELGUIDE / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Temple",
+        "lat": 31.7778,
+        "lng": 35.2356,
+        "verses": [
+          9,
+          21,
+          22
+        ],
+        "slug": "holy-place-2"
+      },
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          26
+        ],
+        "slug": "nazareth"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

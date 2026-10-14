@@ -256,19 +256,28 @@
         "english": "I am the light of the world",
         "greek": "ἐγώ εἰμι τὸ φῶς τοῦ κόσμου (egō eimi to phōs tou kosmou)",
         "verseRef": "v.12",
-        "meaning": "The second of Jesus' seven great \"I am\" declarations in John, spoken against the literal backdrop of the Feast of Tabernacles' nightly temple lighting ceremony."
+        "meaning": "The second of Jesus' seven great \"I am\" declarations in John, spoken against the literal backdrop of the Feast of Tabernacles' nightly temple lighting ceremony.",
+        "gloss": "Light of the world",
+        "ovGreek": "φῶς τοῦ κόσμου",
+        "ovEnglish": "Light of the world"
       },
       {
         "english": "the truth will set you free",
         "greek": "ἡ ἀλήθεια ἐλευθερώσει ὑμᾶς (hē alētheia eleutherōsei hymas)",
         "verseRef": "v.32",
-        "meaning": "One of the most quoted lines in the Gospel — Jesus redefines freedom entirely, from political or ancestral status to freedom from slavery to sin itself."
+        "meaning": "One of the most quoted lines in the Gospel — Jesus redefines freedom entirely, from political or ancestral status to freedom from slavery to sin itself.",
+        "gloss": "The truth frees",
+        "ovGreek": "ἐλευθερώσει",
+        "ovEnglish": "Will set free"
       },
       {
         "english": "before Abraham was born, I am",
         "greek": "πρὶν Ἀβραὰμ γενέσθαι ἐγὼ εἰμί (prin Abraam genesthai egō eimi)",
         "verseRef": "v.58",
-        "meaning": "The climactic seventh use of the unqualified \"I am\" in this chapter alone, deliberately echoing God's own self-naming to Moses in Exodus 3:14 — not merely a claim of existing before Abraham, but of sharing God's own eternal, timeless name."
+        "meaning": "The climactic seventh use of the unqualified \"I am\" in this chapter alone, deliberately echoing God's own self-naming to Moses in Exodus 3:14 — not merely a claim of existing before Abraham, but of sharing God's own eternal, timeless name.",
+        "gloss": "I am",
+        "ovGreek": "ἐγὼ εἰμί",
+        "ovEnglish": "I am"
       }
     ],
     "gospelParallels": [],
@@ -310,12 +319,116 @@
         "year": "2000s",
         "note": "Guzik points out a detail easy to miss: 'there was also a man involved in this very act of adultery — yet the guilty man was not brought before Jesus for judgment.' The accusers' selective enforcement, he suggests, exposes their real motive as trapping Jesus rather than genuinely upholding the Law.",
         "url": "https://enduringword.com/bible-commentary/john-8/"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on John 8, but his chapter \"The Shocking Alternative\" in <em>Mere Christianity</em> is about claims like verse 58, \"Before Abraham was born, I am!\" He says that a man who claimed to be before Abraham and to be the great I AM would be either a lunatic or a liar, and that nobody should patronize Him as a wise moralist. He asks his reader to face the choice and does not leave a middle option. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://phbf.org/the-shocking-alternative/"
       }
     ],
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/079.jpg",
       "caption": "Jesus and the Woman Taken in Adultery, by Gustave Doré (1866)",
       "credit": "Public domain — Project Gutenberg"
-    }
+    },
+    "overview": {
+      "summary": "Jesus forgives a woman caught in adultery, then says He is the light of the world. He tells those who believe that the truth will set them free, and says that before Abraham was, I am. They pick up stones, but He slips away.",
+      "settingLine": "The temple courts in Jerusalem.",
+      "placeName": "Temple Mount, Jerusalem",
+      "history": [
+        {
+          "h": "The Woman",
+          "t": "The Law prescribed death for adultery, though trials needed two witnesses."
+        },
+        {
+          "h": "Abraham's Children",
+          "t": "Descent from Abraham gave Jews a deep sense of security."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Writing in Dust",
+          "t": "Jesus wrote on the ground, and John never says what."
+        },
+        {
+          "h": "Lamp Stands",
+          "t": "Giant lamps in the Court of Women lit the temple during Tabernacles."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Southern Steps",
+          "t": "Broad steps on the temple platform's south side lead to the old Huldah Gates."
+        },
+        {
+          "h": "Temple Treasury",
+          "t": "Chambers along the Court of Women held the offering chests."
+        }
+      ],
+      "discussion": "Jesus told the woman, \"Neither do I condemn you; go and sin no more.\" How do grace and truth fit together?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Teaching and controversy",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Leviticus 20:10 / Deuteronomy 22:22-24": "Penalty for adultery",
+        "Exodus 3:14": "I AM WHO I AM",
+        "Genesis 15:6 / 22:1-18": "Abraham's faith"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The woman",
+          "d": "Caught"
+        },
+        {
+          "n": "Scribes",
+          "d": "Accusers"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Challenge"
+        },
+        {
+          "n": "Abraham",
+          "d": "Rejoiced"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Dawn",
+          "label": "Woman brought"
+        },
+        {
+          "when": "Words",
+          "label": "Light of the world"
+        },
+        {
+          "when": "Debate",
+          "label": "Truth makes free"
+        },
+        {
+          "when": "Climax",
+          "label": "Before Abraham, I am"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Temple Mount, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          1
+        ],
+        "slug": "mount-of-olives"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

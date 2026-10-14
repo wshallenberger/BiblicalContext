@@ -159,20 +159,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 a second feeding miracle, a demand for a sign, a warning about corrupting influence, a two-stage healing, and the Gospel's structural turning point",
+    "genre": "Narrative Gospel — a second feeding miracle, a demand for a sign, a warning about corrupting influence, a two-stage healing, and the Gospel's structural turning point",
     "audience": "Roman Christian readers, watching the disciples' understanding grow only gradually, step by step, mirrored by the unusual two-stage healing at its center",
     "mapLabel": "CAESAREA PHILIPPI",
-    "setting": "This chapter moves through Gentile Decapolis territory (feeding four thousand), Dalmanutha on the western shore, Bethsaida, and finally north to Caesarea Philippi at the base of Mount Hermon \u2014 a city built around pagan shrines to the god Pan, a strikingly idol-filled backdrop for Peter's confession that Jesus is the Christ.",
-    "custom": "Rabbis typically taught by citing a chain of earlier authorities behind their interpretation. \"Leaven\" as a teaching image drew on something every listener understood physically \u2014 a small amount works through an entire batch of dough, exactly how Jesus describes corrupting influence spreading quietly through a whole community.",
-    "timelineImmediate": "This chapter is the structural hinge of Mark's whole Gospel \u2014 Peter's confession at Caesarea Philippi is followed immediately by Jesus' first direct, explicit prediction of His coming death and resurrection, turning the narrative decisively from Galilean ministry toward the road to Jerusalem.",
-    "timelineBible": "Peter's confession that Jesus is \"the Christ\" (v.29) directly invokes the royal covenant God made with David in 2 Samuel 7:12-16 \u2014 not simply calling Jesus a good teacher, but identifying Him with a centuries-old promise of a coming King.",
-    "sparkNotes": "Jesus feeds four thousand people, refuses the Pharisees' demand for a sign, then heals a blind man in two distinct stages \u2014 the only miracle in the Gospels performed this way, mirroring the disciples' own gradual understanding. At Caesarea Philippi, Peter confesses \"You are the Christ,\" and Jesus immediately predicts His coming death for the first time, rebuking Peter sharply when he objects, before calling everyone present to take up their own cross.",
+    "setting": "This chapter moves through Gentile Decapolis territory (feeding four thousand), Dalmanutha on the western shore, Bethsaida, and finally north to Caesarea Philippi at the base of Mount Hermon — a city built around pagan shrines to the god Pan, a strikingly idol-filled backdrop for Peter's confession that Jesus is the Christ.",
+    "custom": "Rabbis typically taught by citing a chain of earlier authorities behind their interpretation. \"Leaven\" as a teaching image drew on something every listener understood physically — a small amount works through an entire batch of dough, exactly how Jesus describes corrupting influence spreading quietly through a whole community.",
+    "timelineImmediate": "This chapter is the structural hinge of Mark's whole Gospel — Peter's confession at Caesarea Philippi is followed immediately by Jesus' first direct, explicit prediction of His coming death and resurrection, turning the narrative decisively from Galilean ministry toward the road to Jerusalem.",
+    "timelineBible": "Peter's confession that Jesus is \"the Christ\" (v.29) directly invokes the royal covenant God made with David in 2 Samuel 7:12-16 — not simply calling Jesus a good teacher, but identifying Him with a centuries-old promise of a coming King.",
+    "sparkNotes": "Jesus feeds four thousand people, refuses the Pharisees' demand for a sign, then heals a blind man in two distinct stages — the only miracle in the Gospels performed this way, mirroring the disciples' own gradual understanding. At Caesarea Philippi, Peter confesses \"You are the Christ,\" and Jesus immediately predicts His coming death for the first time, rebuking Peter sharply when he objects, before calling everyone present to take up their own cross.",
     "translation": [
       {
         "english": "Christ",
-        "greek": "\u03a7\u03c1\u03b9\u03c3\u03c4\u03cc\u03c2 (Christos)",
+        "greek": "Χριστός (Christos)",
         "verseRef": "v.29",
-        "meaning": "\"Anointed One\" \u2014 the Greek equivalent of the Hebrew \"Messiah,\" God's promised King.",
+        "meaning": "\"Anointed One\" — the Greek equivalent of the Hebrew \"Messiah,\" God's promised King.",
         "occurrences": {
           "total": 538,
           "sampleRefs": [
@@ -180,14 +180,15 @@
             "Romans 1:1",
             "Philippians 1:21"
           ],
-          "note": "One of the most common words in the whole New Testament \u2014 hundreds of uses across the Gospels, Acts, and every epistle."
-        }
+          "note": "One of the most common words in the whole New Testament — hundreds of uses across the Gospels, Acts, and every epistle."
+        },
+        "gloss": "The Anointed One"
       },
       {
         "english": "cross",
-        "greek": "\u03c3\u03c4\u03b1\u03c5\u03c1\u1f78\u03bd (stauron)",
+        "greek": "σταυρὸν (stauron)",
         "verseRef": "v.34",
-        "meaning": "A literal Roman execution instrument, here used as a call to voluntary, daily self-denial \u2014 a genuinely shocking image to a first-century audience for whom crucifixion was a real, visible form of state execution.",
+        "meaning": "A literal Roman execution instrument, here used as a call to voluntary, daily self-denial — a genuinely shocking image to a first-century audience for whom crucifixion was a real, visible form of state execution.",
         "occurrences": {
           "total": 27,
           "sampleRefs": [
@@ -195,13 +196,15 @@
             "Galatians 6:14",
             "1 Corinthians 1:18"
           ]
-        }
+        },
+        "gloss": "A cross beam"
       },
       {
         "english": "soul",
-        "greek": "\u03c8\u03c5\u03c7\u03ae\u03bd (psych\u0113n)",
+        "greek": "ψυχήν (psychēn)",
         "verseRef": "v.35-37",
-        "meaning": "One's whole life or true self \u2014 the same word can mean simply \"life\" or the deeper, eternal self, and Jesus deliberately plays on both senses in these four verses."
+        "meaning": "One's whole life or true self — the same word can mean simply \"life\" or the deeper, eternal self, and Jesus deliberately plays on both senses in these four verses.",
+        "gloss": "Life, self"
       }
     ],
     "gospelParallels": [
@@ -228,11 +231,11 @@
       },
       {
         "ref": "Isaiah 6:9-10 / Jeremiah 5:21",
-        "note": "\"Having eyes, do you not see?\" \u2014 a phrase Jesus draws directly from this Old Testament pattern of spiritual blindness."
+        "note": "\"Having eyes, do you not see?\" — a phrase Jesus draws directly from this Old Testament pattern of spiritual blindness."
       },
       {
         "ref": "Isaiah 53:10",
-        "note": "The suffering servant's death as divine necessity \u2014 background for Jesus' \"must suffer\" language in His first passion prediction."
+        "note": "The suffering servant's death as divine necessity — background for Jesus' \"must suffer\" language in His first passion prediction."
       }
     ],
     "mapCoords": {
@@ -245,26 +248,140 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry notices Jesus doesn't simply repeat His earlier method: with five loaves He fed five thousand, but rather than reasoning \"five fed five thousand, so four should feed four thousand,\" He takes all seven loaves available this time and uses every bit of them \u2014 teaching, in Henry's words, that we should \"take things as they are, and accommodate ourselves to them; use what we have, and make the best of that which is.\"",
+        "note": "Henry notices Jesus doesn't simply repeat His earlier method: with five loaves He fed five thousand, but rather than reasoning \"five fed five thousand, so four should feed four thousand,\" He takes all seven loaves available this time and uses every bit of them — teaching, in Henry's words, that we should \"take things as they are, and accommodate ourselves to them; use what we have, and make the best of that which is.\"",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mar/Mar_008.cfm"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry credits the crowd's devotion directly: many had come from far away and their food had long since run out, \"yet they continued with Christ, and did not speak of leaving him till he spoke of dismissing them\" \u2014 true zeal, he notes, makes nothing of hardship in the pursuit of what it values.",
+        "note": "Henry credits the crowd's devotion directly: many had come from far away and their food had long since run out, \"yet they continued with Christ, and did not speak of leaving him till he spoke of dismissing them\" — true zeal, he notes, makes nothing of hardship in the pursuit of what it values.",
         "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/mark/8"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle points to 'the strange mixture of grace and infirmity which may be found in the heart of a true Christian' in Peter's sudden turn \u2014 the very man who had just made such a noble confession, moments later presuming to rebuke his own Master for speaking of His coming death.",
+        "note": "Ryle points to 'the strange mixture of grace and infirmity which may be found in the heart of a true Christian' in Peter's sudden turn — the very man who had just made such a noble confession, moments later presuming to rebuke his own Master for speaking of His coming death.",
         "url": "https://www.studylight.org/commentaries/eng/ryl/mark-8.html"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Mark 8, but his chapter \"The Shocking Alternative\" in <em>Mere Christianity</em> is an extended answer to Jesus' question to the disciples in verse 29, \"Who do you say that I am?\" He says the one thing we must not say is that He was a great human teacher and nothing more. Jesus has not left that option open, so each of us has to decide whether He was mad, bad, or exactly who He said. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://phbf.org/the-shocking-alternative/"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Get_Thee_Behind_Me_Satan_(R%C3%A9tire-toi_Satan)_-_James_Tissot.jpg",
       "caption": "Get Thee Behind Me, Satan, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
-    }
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus feeds four thousand and heals a blind man at Bethsaida in two stages. At Caesarea Philippi Peter confesses Him as the Christ, Jesus foretells His suffering, and He calls anyone who would follow to take up a cross.",
+      "settingLine": "The Decapolis, Bethsaida, then Caesarea Philippi.",
+      "placeName": "Near Mount Hermon",
+      "history": [
+        {
+          "h": "Caesarea Philippi",
+          "t": "A pagan city by a spring, with a shrine to the god Pan."
+        },
+        {
+          "h": "Cross Bearers",
+          "t": "Condemned men carried their own crossbeam, so the image was grim."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Leaven",
+          "t": "A little leaven spreads through all the dough, standing for hidden influence."
+        },
+        {
+          "h": "Spit as Medicine",
+          "t": "Saliva was a folk remedy, though Jesus needed no such help."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Banias",
+          "t": "A cave and spring below Hermon preserve niches for the god Pan."
+        },
+        {
+          "h": "Bethsaida",
+          "t": "At et-Tell, a fishing village with large houses lies near the lake."
+        }
+      ],
+      "discussion": "Peter got the title right but the meaning wrong. How can we confess Christ and still want Him on our terms?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative and teaching",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 15:32-39": "Four thousand fed",
+        "2 Samuel 7:12-16": "A son of David",
+        "Isaiah 6:9-10 / Jeremiah 5:21": "Eyes that do not see"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Confesses"
+        },
+        {
+          "n": "A blind man",
+          "d": "Healed"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Want a sign"
+        },
+        {
+          "n": "The crowd",
+          "d": "Called to follow"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Hillside",
+          "label": "Four thousand fed"
+        },
+        {
+          "when": "Warning",
+          "label": "The yeast"
+        },
+        {
+          "when": "Bethsaida",
+          "label": "A blind man sees"
+        },
+        {
+          "when": "Caesarea",
+          "label": "Peter's confession"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermonsnow.jpg",
+      "caption": "Present-day Near Mount Hermon",
+      "credit": "Photo: Almog / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Caesarea Philippi",
+        "lat": 33.2461,
+        "lng": 35.6933,
+        "verses": [
+          27
+        ],
+        "slug": "caesarea-philippi"
+      },
+      {
+        "name": "Bethsaida",
+        "lat": 32.9104,
+        "lng": 35.631,
+        "verses": [
+          22
+        ],
+        "slug": "bethsaida-2"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

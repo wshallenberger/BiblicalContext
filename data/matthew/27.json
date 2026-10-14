@@ -271,38 +271,42 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 the trial before Pilate, the crucifixion, Jesus' death, and burial, closing with the religious leaders' attempt to guard against a resurrection claim.",
-    "audience": "Jewish-Christian readers watching Roman and Jewish authority converge in condemning an innocent man, while unmistakable signs \u2014 the torn veil, the earthquake, a Roman centurion's confession \u2014 testify otherwise.",
-    "mapLabel": "JERUSALEM \u2192 GOLGOTHA",
+    "genre": "Narrative — the trial before Pilate, the crucifixion, Jesus' death, and burial, closing with the religious leaders' attempt to guard against a resurrection claim.",
+    "audience": "Jewish-Christian readers watching Roman and Jewish authority converge in condemning an innocent man, while unmistakable signs — the torn veil, the earthquake, a Roman centurion's confession — testify otherwise.",
+    "mapLabel": "JERUSALEM → GOLGOTHA",
     "setting": "Roman governors alone held authority over capital punishment, which is why the chief priests must hand Jesus to Pilate rather than execute Him themselves. Pilate's headquarters was likely the Antonia Fortress, adjoining the temple.",
-    "custom": "It was the governor's custom to release one prisoner chosen by the crowd at Passover (v.15) \u2014 a practice not confirmed outside the Gospels but consistent with Rome's general strategy of small conciliatory gestures toward occupied populations during volatile religious festivals.",
-    "timelineImmediate": "The chapter that the entire Gospel has moved toward since Jesus' first passion prediction in chapter 16 \u2014 from dawn trial to afternoon death to evening burial, all within a single day.",
-    "timelineBible": "Matthew explicitly ties the death scene to Psalm 22 \u2014 the mocking (\"He trusts in God, let God deliver Him,\" echoing Psalm 22:8), the divided garments (Psalm 22:18), and Jesus' own cry of forsakenness (opening Psalm 22:1 directly) \u2014 a psalm written roughly a thousand years earlier that describes suffering in strikingly specific detail.",
+    "custom": "It was the governor's custom to release one prisoner chosen by the crowd at Passover (v.15) — a practice not confirmed outside the Gospels but consistent with Rome's general strategy of small conciliatory gestures toward occupied populations during volatile religious festivals.",
+    "timelineImmediate": "The chapter that the entire Gospel has moved toward since Jesus' first passion prediction in chapter 16 — from dawn trial to afternoon death to evening burial, all within a single day.",
+    "timelineBible": "Matthew explicitly ties the death scene to Psalm 22 — the mocking (\"He trusts in God, let God deliver Him,\" echoing Psalm 22:8), the divided garments (Psalm 22:18), and Jesus' own cry of forsakenness (opening Psalm 22:1 directly) — a psalm written roughly a thousand years earlier that describes suffering in strikingly specific detail.",
     "translation": [
       {
         "english": "innocent",
-        "greek": "\u1f00\u03b8\u1ff7\u03bf\u03c2 (ath\u014dos)",
+        "greek": "ἀθῷος (athōos)",
         "verseRef": "v.24",
-        "meaning": "Free of guilt or blame \u2014 Pilate's own word for Jesus even as he hands Him over to be crucified, a stated verdict that contradicts his own action.",
+        "meaning": "Free of guilt or blame — Pilate's own word for Jesus even as he hands Him over to be crucified, a stated verdict that contradicts his own action.",
         "occurrences": {
           "total": 2,
           "sampleRefs": [
             "Matthew 27:4"
           ],
-          "note": "Used only twice in the entire New Testament, and both times right here in this same chapter \u2014 first by Judas, then by Pilate."
-        }
+          "note": "Used only twice in the entire New Testament, and both times right here in this same chapter — first by Judas, then by Pilate."
+        },
+        "gloss": "Innocent, blameless"
       },
       {
         "english": "Eli, Eli, lema sabachthani",
-        "greek": "\u1f28\u03bb\u03af \u1f20\u03bb\u03af \u03bb\u03b5\u03bc\u1f70 \u03c3\u03b1\u03b2\u03b1\u03c7\u03b8\u03b1\u03bd\u03af (\u0112li \u0113li lema sabachthani)",
+        "greek": "Ἠλί ἠλί λεμὰ σαβαχθανί (Ēli ēli lema sabachthani)",
         "verseRef": "v.46",
-        "meaning": "Aramaic, quoting Psalm 22:1 directly \u2014 \"My God, My God, why have You forsaken Me?\" \u2014 the only words from the cross Matthew records."
+        "meaning": "Aramaic, quoting Psalm 22:1 directly — \"My God, My God, why have You forsaken Me?\" — the only words from the cross Matthew records.",
+        "gloss": "My God, my God",
+        "ovGreek": "Ὀλί Ὀλί",
+        "ovEnglish": "Eli, Eli"
       },
       {
         "english": "veil",
-        "greek": "\u03ba\u03b1\u03c4\u03b1\u03c0\u03ad\u03c4\u03b1\u03c3\u03bc\u03b1 (katapetasma)",
+        "greek": "καταπέτασμα (katapetasma)",
         "verseRef": "v.51",
-        "meaning": "The curtain separating the temple's Most Holy Place from the rest \u2014 its tearing \"from top to bottom\" pictures a barrier removed by God's own action, not torn from below by human hands.",
+        "meaning": "The curtain separating the temple's Most Holy Place from the rest — its tearing \"from top to bottom\" pictures a barrier removed by God's own action, not torn from below by human hands.",
         "occurrences": {
           "total": 6,
           "sampleRefs": [
@@ -310,8 +314,9 @@
             "Hebrews 6:19",
             "Hebrews 10:20"
           ],
-          "note": "Hebrews later calls Jesus' own body this same word \u2014 \"the veil, that is, His flesh\" \u2014 tying His torn body directly to the temple veil torn at His death."
-        }
+          "note": "Hebrews later calls Jesus' own body this same word — \"the veil, that is, His flesh\" — tying His torn body directly to the temple veil torn at His death."
+        },
+        "gloss": "The temple curtain"
       }
     ],
     "gospelParallels": [
@@ -331,15 +336,15 @@
     "otBackground": [
       {
         "ref": "Zechariah 11:12-13",
-        "note": "The rejected shepherd's wages thrown \"to the potter\" \u2014 echoed in the chief priests' use of Judas' returned silver to buy the potter's field."
+        "note": "The rejected shepherd's wages thrown \"to the potter\" — echoed in the chief priests' use of Judas' returned silver to buy the potter's field."
       },
       {
         "ref": "Psalm 22",
-        "note": "An extraordinarily detailed psalm of suffering \u2014 mocking, divided garments, and the cry of abandonment are all echoed directly in the crucifixion scene."
+        "note": "An extraordinarily detailed psalm of suffering — mocking, divided garments, and the cry of abandonment are all echoed directly in the crucifixion scene."
       },
       {
         "ref": "Isaiah 53:9",
-        "note": "The suffering servant \"assigned a grave with the rich\" \u2014 fulfilled in Jesus' burial in Joseph of Arimathea's own tomb."
+        "note": "The suffering servant \"assigned a grave with the rich\" — fulfilled in Jesus' burial in Joseph of Arimathea's own tomb."
       }
     ],
     "mapCoords": {
@@ -348,31 +353,163 @@
       "zoom": 10.5,
       "placeName": "Golgotha, outside the old city walls"
     },
-    "sparkNotes": "Jesus stands trial before Pilate, is crucified between two criminals, and dies as the temple veil tears in two. \"Innocent\" appears only twice in the whole New Testament, both times right here \u2014 first from Judas, then from Pilate himself \u2014 while the entire scene echoes Psalm 22's extraordinarily specific, thousand-year-old picture of suffering.",
+    "sparkNotes": "Jesus stands trial before Pilate, is crucified between two criminals, and dies as the temple veil tears in two. \"Innocent\" appears only twice in the whole New Testament, both times right here — first from Judas, then from Pilate himself — while the entire scene echoes Psalm 22's extraordinarily specific, thousand-year-old picture of suffering.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry catches the strange logic of Pilate's hand-washing: \"what nonsense was this, to condemn him, and yet protest that he was innocent of his blood\" \u2014 declaring innocence while actively signing the death warrant anyway. He reads the centurion's confession as a genuinely remarkable turn: the very soldiers assigned to guard and mock Jesus become the ones who end up testifying for Him.",
+        "note": "Henry catches the strange logic of Pilate's hand-washing: \"what nonsense was this, to condemn him, and yet protest that he was innocent of his blood\" — declaring innocence while actively signing the death warrant anyway. He reads the centurion's confession as a genuinely remarkable turn: the very soldiers assigned to guard and mock Jesus become the ones who end up testifying for Him.",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_027.cfm"
       },
       {
         "source": "B.W. Johnson",
         "year": "1891",
-        "note": "Johnson's People's New Testament commentary offers a precise linguistic note on the centurion's confession: as a Roman soldier raised in a polytheistic world, his Greek words more literally mean \"a son of a god\" rather than \"the Son of God\" in the full Christian sense \u2014 remarkable testimony from a pagan witness, even without later doctrinal precision behind it.",
+        "note": "Johnson's People's New Testament commentary offers a precise linguistic note on the centurion's confession: as a Roman soldier raised in a polytheistic world, his Greek words more literally mean \"a son of a god\" rather than \"the Son of God\" in the full Christian sense — remarkable testimony from a pagan witness, even without later doctrinal precision behind it.",
         "url": "https://www.biblestudytools.com/commentaries/peoples-new-testament/matthew/27.html"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill notes Barabbas is called 'notable' in a double sense \u2014 famous or rather infamous, a known thief, insurrectionist, and murderer, someone 'deserving of death' by any standard. He reads Pilate's framing of the choice \u2014 Barabbas or 'Jesus, who is called the Christ' \u2014 as deliberately setting the worst possible contrast, expecting the crowd to obviously choose Jesus.",
+        "note": "Gill notes Barabbas is called 'notable' in a double sense — famous or rather infamous, a known thief, insurrectionist, and murderer, someone 'deserving of death' by any standard. He reads Pilate's framing of the choice — Barabbas or 'Jesus, who is called the Christ' — as deliberately setting the worst possible contrast, expecting the crowd to obviously choose Jesus.",
         "url": "https://www.christianity.com/bible/commentary/john-gill/matthew/27"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Matthew 27, but his chapter \"The Perfect Penitent\" in <em>Mere Christianity</em> asks what the crucifixion accomplished. He says the fact matters more than any one theory about it. He then makes a striking argument: perfect repentance would require a perfect person, but a perfect person would have nothing to repent of, so God had to become human to do for us what we cannot do for ourselves. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://assets.litcharts.com/lit/mere-christianity/book-2-chapter-4-the-perfect-penitent"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_Crucifixion_of_Jesus.jpg",
-      "caption": "Crucifixion of Jesus, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Crucifixion of Jesus, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus is handed over to Pilate, sentenced, and crucified at Golgotha between two criminals. He dies, the temple veil is torn, and Joseph of Arimathea buries Him in his own tomb.",
+      "settingLine": "Pilate's headquarters, then Golgotha.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Pontius Pilate",
+          "t": "Pilate governed Judea from AD 26 to 36 and was known for harsh rule."
+        },
+        {
+          "h": "Crucifixion",
+          "t": "Rome used crucifixion to punish rebels and slaves as a public warning."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Passover Pardon",
+          "t": "A prisoner was released at the festival, a gesture to calm the crowds."
+        },
+        {
+          "h": "Burial",
+          "t": "Bodies were wrapped in cloth and laid in rock-cut tombs sealed with a stone."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Heel Bone",
+          "t": "A heel bone pierced by a nail was found in a Jerusalem tomb of this era."
+        },
+        {
+          "h": "Pilate Stone",
+          "t": "A stone from Caesarea names Pontius Pilate as prefect of Judea."
+        }
+      ],
+      "discussion": "Pilate called Jesus innocent, yet gave Him up. What pressures lead people to act against what they know?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 15:1-47": "Trial and crucifixion",
+        "Zechariah 11:12-13": "Silver thrown to the potter",
+        "Psalm 22": "A psalm of suffering"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pilate",
+          "d": "Governor"
+        },
+        {
+          "n": "Barabbas",
+          "d": "Released"
+        },
+        {
+          "n": "Joseph",
+          "d": "From Arimathea"
+        },
+        {
+          "n": "Golgotha",
+          "d": "The skull"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Morning",
+          "label": "Judas' end"
+        },
+        {
+          "when": "Trial",
+          "label": "Before Pilate"
+        },
+        {
+          "when": "Noon",
+          "label": "Darkness falls"
+        },
+        {
+          "when": "Evening",
+          "label": "Laid in a tomb"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Golgotha",
+        "lat": 31.7784,
+        "lng": 35.2298,
+        "verses": [
+          33
+        ],
+        "slug": "golgotha"
+      },
+      {
+        "name": "Arimathea",
+        "lat": 32.0281,
+        "lng": 35.0194,
+        "verses": [
+          57
+        ],
+        "slug": "arimathea"
+      },
+      {
+        "name": "Akeldama",
+        "lat": 31.7684,
+        "lng": 35.2329,
+        "verses": [
+          8
+        ],
+        "slug": "akeldama"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          53
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

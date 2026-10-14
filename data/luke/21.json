@@ -180,7 +180,8 @@
             "1 Corinthians 16:17",
             "Philippians 2:30"
           ]
-        }
+        },
+        "gloss": "What is lacking"
       },
       {
         "english": "surrounded",
@@ -194,13 +195,17 @@
             "John 10:24",
             "Acts 14:20"
           ]
-        }
+        },
+        "gloss": "Encircled"
       },
       {
         "english": "the times of the Gentiles",
         "greek": "καιροὶ ἐθνῶν (kairoi ethnōn)",
         "verseRef": "v.24",
-        "meaning": "A period during which the nations tread down Jerusalem. Readers differ on its length and meaning, but Jesus speaks of it as a fixed span with an end."
+        "meaning": "A period during which the nations tread down Jerusalem. Readers differ on its length and meaning, but Jesus speaks of it as a fixed span with an end.",
+        "gloss": "Gentile times",
+        "ovGreek": "καιροὶ ἐθνῶν",
+        "ovEnglish": "Gentile times"
       },
       {
         "english": "redemption",
@@ -337,6 +342,115 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Widow's_Mite_(Le_denier_de_la_veuve)_-_James_Tissot.jpg",
       "caption": "The Widow's Mite, by James Tissot (1886-1894), Luke 21:1-4",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus praises a poor widow's small gift, then tells His disciples the temple will be torn down. He warns of deception, wars, persecution, and Jerusalem surrounded by armies, and urges them to stay alert and pray.",
+      "settingLine": "The temple courts, then the Mount of Olives.",
+      "placeName": "Temple Mount, Jerusalem",
+      "history": [
+        {
+          "h": "Herod's Temple",
+          "t": "Herod's rebuilt temple was a wonder of the world, which makes the prediction shocking."
+        },
+        {
+          "h": "AD 70",
+          "t": "Rome destroyed Jerusalem and the temple in AD 70, about forty years later."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Treasury Chests",
+          "t": "Thirteen trumpet-shaped chests held offerings, so large gifts were heard dropping in."
+        },
+        {
+          "h": "Lepta",
+          "t": "Two lepta were the smallest coins, worth a tiny fraction of a day's wage."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Fallen Stones",
+          "t": "Huge stones thrown down from the temple walls in AD 70 still lie where they fell."
+        },
+        {
+          "h": "Lepta Coins",
+          "t": "Tiny bronze lepta have been found in Jerusalem, many no bigger than a fingernail."
+        }
+      ],
+      "discussion": "Jesus praised the widow's two coins over the large gifts. How do you measure generosity?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and prophecy",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Mark 12:41-44": "Widow's two coins",
+        "Daniel 7:13-14": "Son of Man in glory",
+        "Joel 2:30-31": "Signs in sun and moon"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The widow",
+          "d": "Gave all"
+        },
+        {
+          "n": "The rich",
+          "d": "Gave extra"
+        },
+        {
+          "n": "Disciples",
+          "d": "Admire temple"
+        },
+        {
+          "n": "Jerusalem",
+          "d": "Besieged"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Treasury",
+          "label": "Widow's gift"
+        },
+        {
+          "when": "Temple",
+          "label": "Stones thrown down"
+        },
+        {
+          "when": "Question",
+          "label": "Signs of the end"
+        },
+        {
+          "when": "Evenings",
+          "label": "On the Mount of Olives"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Temple Mount, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          20,
+          21,
+          24
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          37
+        ],
+        "slug": "mount-of-olives"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

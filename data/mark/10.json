@@ -122,7 +122,7 @@
     },
     {
       "num": 30,
-      "text": "will fail to receive a hundredfold in the present age\u2014houses and brothers and sisters and mothers and children and fields, along with persecutions\u2014and in the age to come, eternal life."
+      "text": "will fail to receive a hundredfold in the present age—houses and brothers and sisters and mothers and children and fields, along with persecutions—and in the age to come, eternal life."
     },
     {
       "num": 31,
@@ -215,39 +215,42 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 teaching on marriage, children, wealth, a third and most detailed passion prediction, a request for status, and a healing that closes Jesus' whole Galilean-to-Jerusalem journey",
+    "genre": "Narrative Gospel — teaching on marriage, children, wealth, a third and most detailed passion prediction, a request for status, and a healing that closes Jesus' whole Galilean-to-Jerusalem journey",
     "audience": "Roman Christian readers, watching Jesus repeatedly overturn expectations about status and reward as He nears Jerusalem",
     "mapLabel": "JERICHO",
     "setting": "The chapter opens in Judea beyond the Jordan (the region of Perea, under Herod Antipas) and closes at Jericho, one of the world's oldest continuously inhabited cities, about fifteen miles northeast of Jerusalem along a steep, dangerous pilgrim road climbing roughly 3,300 feet.",
-    "custom": "A formal certificate of divorce (Deuteronomy 24:1-4) was a real, legally binding Jewish practice; papyrus examples from this era have survived. Rabbis of the period actively debated how liberally that provision could be applied \u2014 Jesus bypasses the debate entirely by returning to the creation account itself.",
-    "timelineImmediate": "Jesus delivers His third and most explicit passion prediction yet \u2014 now naming mockery, spitting, and flogging specifically \u2014 immediately before James and John ask for the two most honored seats beside Him, a request Mark places right where its poor timing is most obvious.",
+    "custom": "A formal certificate of divorce (Deuteronomy 24:1-4) was a real, legally binding Jewish practice; papyrus examples from this era have survived. Rabbis of the period actively debated how liberally that provision could be applied — Jesus bypasses the debate entirely by returning to the creation account itself.",
+    "timelineImmediate": "Jesus delivers His third and most explicit passion prediction yet — now naming mockery, spitting, and flogging specifically — immediately before James and John ask for the two most honored seats beside Him, a request Mark places right where its poor timing is most obvious.",
     "timelineBible": "Jesus grounds His entire teaching on marriage not in Moses' later concession but in the original creation account itself (v.6-8, quoting Genesis 1:27 and 2:24), treating Genesis as the standard even Moses' own provision for hardness of heart had departed from.",
-    "sparkNotes": "Jesus teaches that marriage was designed as a permanent union from creation itself, welcomes the children His disciples try to turn away, and watches a rich man walk away sorrowful rather than sell his possessions to follow Him. After His third and most detailed prediction of His coming death, James and John ask for the two places of highest honor beside Him \u2014 prompting Jesus to redefine greatness as service, \"to give His life as a ransom for many,\" just before healing a blind beggar who immediately follows Him on the road to Jerusalem.",
+    "sparkNotes": "Jesus teaches that marriage was designed as a permanent union from creation itself, welcomes the children His disciples try to turn away, and watches a rich man walk away sorrowful rather than sell his possessions to follow Him. After His third and most detailed prediction of His coming death, James and John ask for the two places of highest honor beside Him — prompting Jesus to redefine greatness as service, \"to give His life as a ransom for many,\" just before healing a blind beggar who immediately follows Him on the road to Jerusalem.",
     "translation": [
       {
         "english": "one flesh",
-        "greek": "\u03c3\u03ac\u03c1\u03ba\u03b1 \u03bc\u03af\u03b1\u03bd (sarka mian)",
+        "greek": "σάρκα μίαν (sarka mian)",
         "verseRef": "v.8",
-        "meaning": "Quoting Genesis 2:24 directly \u2014 describes a union so complete it's treated as a single entity, the basis for Jesus' teaching against divorce."
+        "meaning": "Quoting Genesis 2:24 directly — describes a union so complete it's treated as a single entity, the basis for Jesus' teaching against divorce.",
+        "gloss": "One flesh"
       },
       {
         "english": "eternal life",
-        "greek": "\u03b6\u03c9\u1f74\u03bd \u03b1\u1f30\u03ce\u03bd\u03b9\u03bf\u03bd (z\u014d\u0113n ai\u014dnion)",
+        "greek": "ζωὴν αἰώνιον (zōēn aiōnion)",
         "verseRef": "v.17, 30",
-        "meaning": "Not merely unending duration but a whole quality of life belonging to the age to come \u2014 the rich man's actual question, and Jesus' closing promise to those who leave everything to follow Him."
+        "meaning": "Not merely unending duration but a whole quality of life belonging to the age to come — the rich man's actual question, and Jesus' closing promise to those who leave everything to follow Him.",
+        "gloss": "Life of the age to come"
       },
       {
         "english": "ransom",
-        "greek": "\u03bb\u03cd\u03c4\u03c1\u03bf\u03bd (lytron)",
+        "greek": "λύτρον (lytron)",
         "verseRef": "v.45",
-        "meaning": "The price paid to free a slave or captive \u2014 Jesus applies this economic and legal term directly to His own coming death.",
+        "meaning": "The price paid to free a slave or captive — Jesus applies this economic and legal term directly to His own coming death.",
         "occurrences": {
           "total": 2,
           "sampleRefs": [
             "Matthew 20:28"
           ],
-          "note": "Used only twice in the whole New Testament \u2014 here and in Matthew's parallel account of this same saying \u2014 both times on Jesus' own lips about His own death."
-        }
+          "note": "Used only twice in the whole New Testament — here and in Matthew's parallel account of this same saying — both times on Jesus' own lips about His own death."
+        },
+        "gloss": "A price to free someone"
       }
     ],
     "gospelParallels": [
@@ -278,7 +281,7 @@
       },
       {
         "ref": "Isaiah 53:10-12",
-        "note": "The suffering servant bearing the guilt of \"many\" \u2014 closely echoed in Jesus' description of His own coming death as a ransom."
+        "note": "The suffering servant bearing the guilt of \"many\" — closely echoed in Jesus' description of His own coming death as a ransom."
       }
     ],
     "mapCoords": {
@@ -291,13 +294,13 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry emphasizes something easy to rush past: \"Jesus, beholding him, loved him\" \u2014 Christ's genuine affection for the rich young man is stated plainly even though Henry knows the story ends in the man walking away. He reads it as proof that \"Christ particularly loves to see young people, and rich people, asking the way to heaven,\" regardless of how the individual case turns out.",
+        "note": "Henry emphasizes something easy to rush past: \"Jesus, beholding him, loved him\" — Christ's genuine affection for the rich young man is stated plainly even though Henry knows the story ends in the man walking away. He reads it as proof that \"Christ particularly loves to see young people, and rich people, asking the way to heaven,\" regardless of how the individual case turns out.",
         "url": "https://biblehub.com/commentaries/mhcw/mark/10.htm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke notes the small but telling detail in Bartimaeus's name itself: the Syriac word \"bar\" simply means \"son,\" so \"Bartimaeus\" is literally \"son of Timaeus\" \u2014 Mark preserves both the Aramaic patronymic and its meaning together, the kind of small linguistic detail that shows genuine familiarity with the local language and culture.",
+        "note": "Clarke notes the small but telling detail in Bartimaeus's name itself: the Syriac word \"bar\" simply means \"son,\" so \"Bartimaeus\" is literally \"son of Timaeus\" — Mark preserves both the Aramaic patronymic and its meaning together, the kind of small linguistic detail that shows genuine familiarity with the local language and culture.",
         "url": "https://www.bibliaplus.org/en/commentaries/2/matthew-henry-commentary-on-the-whole-bible/mark/10/46-52"
       },
       {
@@ -310,7 +313,125 @@
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoffman-ChristAndTheRichYoungRuler.jpg",
       "caption": "Christ and the Rich Young Ruler, by Heinrich Hofmann",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Pharisees test Jesus about divorce, and He points back to creation. He blesses the children, tells a rich man to sell all he has, and a third time predicts His death. He says the Son of Man came to give His life as a ransom and heals blind Bartimaeus at Jericho.",
+      "settingLine": "Beyond the Jordan, then up the road from Jericho.",
+      "placeName": "Jordan River",
+      "history": [
+        {
+          "h": "Wealth",
+          "t": "Many saw riches as a sign of God's blessing, so the disciples were stunned."
+        },
+        {
+          "h": "Ransom",
+          "t": "A ransom was the price paid to free a slave or captive."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Welcoming Children",
+          "t": "Teachers were often given children to bless, though disciples tried to block them."
+        },
+        {
+          "h": "Beggars",
+          "t": "Blind beggars sat by city gates, relying on pilgrims to give alms."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Roman Road",
+          "t": "A paved Roman road ran up from Jericho to Jerusalem."
+        },
+        {
+          "h": "Herod's Jericho",
+          "t": "Palaces at Tulul Abu el-Alayiq show the wealth of Herod's winter capital."
+        }
+      ],
+      "discussion": "Jesus loved the rich man yet asked for everything. What would He ask of you?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Teaching and narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 19:1-30": "Divorce, children, rich man",
+        "Genesis 1:27 / 2:24": "Created male and female",
+        "Deuteronomy 24:1-4": "Moses on divorce"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Tested Him"
+        },
+        {
+          "n": "A rich man",
+          "d": "Went away"
+        },
+        {
+          "n": "James, John",
+          "d": "Seek honor"
+        },
+        {
+          "n": "Bartimaeus",
+          "d": "Blind beggar"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Question",
+          "label": "On divorce"
+        },
+        {
+          "when": "Children",
+          "label": "Blessed"
+        },
+        {
+          "when": "The rich man",
+          "label": "Asks about life"
+        },
+        {
+          "when": "Jericho",
+          "label": "Bartimaeus sees"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+      "caption": "Present-day Jordan River",
+      "credit": "Photo: Bill Rice / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jericho",
+        "lat": 31.8519,
+        "lng": 35.4362,
+        "verses": [
+          46
+        ],
+        "slug": "jericho-2"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          17,
+          32,
+          33
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Jordan",
+        "lat": 31.7614,
+        "lng": 35.5583,
+        "verses": [
+          1
+        ],
+        "slug": "jordan"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

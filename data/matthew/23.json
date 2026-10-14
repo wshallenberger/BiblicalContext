@@ -159,19 +159,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Teaching discourse \u2014 a formal, escalating denunciation (the \"seven woes\") followed by a heartbroken lament, delivered in the temple courts.",
-    "audience": "Both the crowds and Jesus' own disciples (v.1) hear this \u2014 a public warning about religious leadership, not a private aside.",
+    "genre": "Teaching discourse — a formal, escalating denunciation (the \"seven woes\") followed by a heartbroken lament, delivered in the temple courts.",
+    "audience": "Both the crowds and Jesus' own disciples (v.1) hear this — a public warning about religious leadership, not a private aside.",
     "mapLabel": "JERUSALEM TEMPLE COURTS",
     "setting": "Almost certainly Tuesday of Passion Week, in the temple courts, immediately after Jesus has silenced every group that tried to trap Him in chapter 22. This is His last public teaching before the Olivet Discourse and His arrest.",
-    "custom": "Phylacteries \u2014 small leather boxes containing Scripture passages, bound to the arm and forehead per Deuteronomy 6:4-9 \u2014 and tassels (tzitzit) worn on garment corners per Numbers 15:38 were genuine, commanded religious practices. Jesus' critique isn't the practices themselves but leaders enlarging them for visible display.",
-    "timelineImmediate": "The last public confrontation before Jesus withdraws to the Mount of Olives for the Olivet Discourse in chapters 24-25 \u2014 this chapter closes His public teaching ministry in the temple entirely.",
-    "timelineBible": "Jesus' reference to bloodshed \"from Abel to Zechariah\" (v.35) spans the entire Hebrew canon as it was ordered in His day \u2014 Abel's murder opens Genesis, and Zechariah's murder closes 2 Chronicles, making this a comprehensive charge covering the full sweep of Scripture's history of rejected prophets.",
+    "custom": "Phylacteries — small leather boxes containing Scripture passages, bound to the arm and forehead per Deuteronomy 6:4-9 — and tassels (tzitzit) worn on garment corners per Numbers 15:38 were genuine, commanded religious practices. Jesus' critique isn't the practices themselves but leaders enlarging them for visible display.",
+    "timelineImmediate": "The last public confrontation before Jesus withdraws to the Mount of Olives for the Olivet Discourse in chapters 24-25 — this chapter closes His public teaching ministry in the temple entirely.",
+    "timelineBible": "Jesus' reference to bloodshed \"from Abel to Zechariah\" (v.35) spans the entire Hebrew canon as it was ordered in His day — Abel's murder opens Genesis, and Zechariah's murder closes 2 Chronicles, making this a comprehensive charge covering the full sweep of Scripture's history of rejected prophets.",
     "translation": [
       {
         "english": "hypocrites",
-        "greek": "\u1f51\u03c0\u03bf\u03ba\u03c1\u03b9\u03c4\u03b1\u03af (hypokritai)",
+        "greek": "ὑποκριταί (hypokritai)",
         "verseRef": "v.13-29",
-        "meaning": "Repeated seven times across the woes \u2014 originally \"stage actors,\" describing a practiced gap between public performance and private reality.",
+        "meaning": "Repeated seven times across the woes — originally \"stage actors,\" describing a practiced gap between public performance and private reality.",
         "occurrences": {
           "total": 20,
           "sampleRefs": [
@@ -179,31 +179,34 @@
             "Luke 12:56"
           ],
           "note": "17 of its 20 total New Testament uses are in Matthew alone."
-        }
+        },
+        "gloss": "Actors on a stage"
       },
       {
         "english": "blind guides",
-        "greek": "\u1f41\u03b4\u03b7\u03b3\u03bf\u1f76 \u03c4\u03c5\u03c6\u03bb\u03bf\u03af (hod\u0113goi typhloi)",
+        "greek": "ὁδηγοὶ τυφλοί (hodēgoi typhloi)",
         "verseRef": "v.16, 24",
-        "meaning": "Those responsible for showing others the way while unable to see it themselves \u2014 a particularly sharp image for religious teachers."
+        "meaning": "Those responsible for showing others the way while unable to see it themselves — a particularly sharp image for religious teachers.",
+        "gloss": "Blind leaders"
       },
       {
         "english": "weightier matters",
-        "greek": "\u03c4\u1f70 \u03b2\u03b1\u03c1\u03cd\u03c4\u03b5\u03c1\u03b1 (ta barytera)",
+        "greek": "τὰ βαρύτερα (ta barytera)",
         "verseRef": "v.23",
-        "meaning": "The heavier, more substantial requirements of the law \u2014 justice, mercy, faithfulness \u2014 contrasted with minor tithing details some leaders over-focused on."
+        "meaning": "The heavier, more substantial requirements of the law — justice, mercy, faithfulness — contrasted with minor tithing details some leaders over-focused on.",
+        "gloss": "The heavier things"
       },
       {
         "english": "whitewashed",
-        "greek": "\u03ba\u03b5\u03ba\u03bf\u03bd\u03b9\u03b1\u03bc\u03ad\u03bd\u03bf\u03b9\u03c2 (kekoniamenois)",
+        "greek": "κεκονιαμένοις (kekoniamenois)",
         "verseRef": "v.27",
-        "meaning": "Tombs were painted white before Passover so pilgrims would visually avoid stepping on them and becoming ceremonially unclean \u2014 a beautiful surface hiding decay.",
+        "meaning": "Tombs were painted white before Passover so pilgrims would visually avoid stepping on them and becoming ceremonially unclean — a beautiful surface hiding decay.",
         "occurrences": {
           "total": 2,
           "sampleRefs": [
             "Acts 23:3"
           ],
-          "note": "Used only twice in the whole New Testament \u2014 here, and later when Paul himself calls a corrupt high priest \"you whitewashed wall,\" echoing Jesus' own image."
+          "note": "Used only twice in the whole New Testament — here, and later when Paul himself calls a corrupt high priest \"you whitewashed wall,\" echoing Jesus' own image."
         }
       }
     ],
@@ -227,15 +230,15 @@
     "otBackground": [
       {
         "ref": "Genesis 4",
-        "note": "The murder of Abel \u2014 the opening act of righteous bloodshed Jesus references in v.35."
+        "note": "The murder of Abel — the opening act of righteous bloodshed Jesus references in v.35."
       },
       {
         "ref": "2 Chronicles 24:20-22",
-        "note": "The murder of Zechariah son of Jehoiada \"between the temple and the altar\" \u2014 the closing act of bloodshed Jesus references."
+        "note": "The murder of Zechariah son of Jehoiada \"between the temple and the altar\" — the closing act of bloodshed Jesus references."
       },
       {
         "ref": "Psalm 118:26",
-        "note": "\"Blessed is He who comes in the name of the Lord\" \u2014 the words Jesus says Jerusalem will one day cry out, closing His lament in v.39."
+        "note": "\"Blessed is He who comes in the name of the Lord\" — the words Jesus says Jerusalem will one day cry out, closing His lament in v.39."
       }
     ],
     "mapCoords": {
@@ -244,31 +247,129 @@
       "zoom": 10.5,
       "placeName": "The Temple Mount, Jerusalem"
     },
-    "sparkNotes": "Jesus pronounces a series of woes against the scribes and Pharisees for valuing appearance over substance. \"Whitewashed,\" describing their outward beauty hiding inward decay, is used only twice in the New Testament \u2014 Paul later borrows the same image against a corrupt high priest in Acts \u2014 and Jesus closes by quoting Psalm 118:26, the same verse the crowds shouted at His triumphal entry.",
+    "sparkNotes": "Jesus pronounces a series of woes against the scribes and Pharisees for valuing appearance over substance. \"Whitewashed,\" describing their outward beauty hiding inward decay, is used only twice in the New Testament — Paul later borrows the same image against a corrupt high priest in Acts — and Jesus closes by quoting Psalm 118:26, the same verse the crowds shouted at His triumphal entry.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry reads the whole chapter as showing outward religion dressed up over inward rot \u2014 \"the righteousness of the scribes and Pharisees was like the ornaments of a grave, or dressing up a dead body, only for show.\" He notes the self-deceiving irony of v.30: they build monuments honoring prophets their own ancestors killed, never suspecting they're about to repeat the pattern.",
+        "note": "Henry reads the whole chapter as showing outward religion dressed up over inward rot — \"the righteousness of the scribes and Pharisees was like the ornaments of a grave, or dressing up a dead body, only for show.\" He notes the self-deceiving irony of v.30: they build monuments honoring prophets their own ancestors killed, never suspecting they're about to repeat the pattern.",
         "url": "https://www.kingjamesbibleonline.org/Matthew-23_Commentary-Henry/"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB adds a vivid, timely detail: Jewish custom whitewashed tombs on a fixed day each year, specifically to make them more visible so pilgrims wouldn't accidentally touch one and become ceremonially unclean. Jesus was very likely speaking with freshly whitewashed tombs gleaming in plain view all around Him \u2014 not a random metaphor, but a picture drawn from what everyone could see that very day.",
+        "note": "JFB adds a vivid, timely detail: Jewish custom whitewashed tombs on a fixed day each year, specifically to make them more visible so pilgrims wouldn't accidentally touch one and become ceremonially unclean. Jesus was very likely speaking with freshly whitewashed tombs gleaming in plain view all around Him — not a random metaphor, but a picture drawn from what everyone could see that very day.",
         "url": "https://www.studylight.org/commentary/matthew/23-27.html"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill unpacks 'mercy' as 'all acts of compassion to the distressed, relieving the necessitous, distributing to their wants' \u2014 precisely the practical, hands-on kindness he says the Pharisees 'very little practised, being a set of cruel, hard hearted, and covetous persons' beneath their meticulous tithing of garden herbs.",
+        "note": "Gill unpacks 'mercy' as 'all acts of compassion to the distressed, relieving the necessitous, distributing to their wants' — precisely the practical, hands-on kindness he says the Pharisees 'very little practised, being a set of cruel, hard hearted, and covetous persons' beneath their meticulous tithing of garden herbs.",
         "url": "https://johngill.thekingsbible.com/CommentaryVerse/40/23/23"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Pharisees_Question_Jesus_(Les_pharisiens_questionnent_J%C3%A9sus)_-_James_Tissot.jpg",
       "caption": "The Pharisees Question Jesus, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
-    }
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus warns the crowds about the scribes and Pharisees, who teach well but do not practice it. He pronounces a series of woes on their hypocrisy, calls them whitewashed tombs, and grieves over Jerusalem.",
+      "settingLine": "The temple courts in Jerusalem.",
+      "placeName": "Temple Mount, Jerusalem",
+      "history": [
+        {
+          "h": "Teachers of the Law",
+          "t": "Scribes and Pharisees were respected teachers, which made Jesus' public rebuke striking."
+        },
+        {
+          "h": "Prophets Killed",
+          "t": "Jerusalem had a history of killing prophets, which Jesus names."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Phylacteries",
+          "t": "Small leather boxes of Scripture were worn on the arm and forehead, and some wore showy ones."
+        },
+        {
+          "h": "Whitewashed Tombs",
+          "t": "Tombs were whitewashed so travelers wouldn't touch them and become unclean."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Kidron Tombs",
+          "t": "Monumental tombs in the Kidron Valley, like Zechariah's, honor Jerusalem's dead."
+        },
+        {
+          "h": "Phylactery Cases",
+          "t": "Tiny leather cases with Scripture scrolls were found in the Judean desert."
+        }
+      ],
+      "discussion": "Jesus said the Pharisees' words were right but their lives were not. How do we avoid saying one thing and doing another?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Rebuke and lament",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 11:37-54": "Woes at a Pharisee's meal",
+        "Genesis 4": "Abel's blood",
+        "2 Chronicles 24:20-22": "Zechariah killed in the temple"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Scribes",
+          "d": "Law experts"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Strict observers"
+        },
+        {
+          "n": "Abel",
+          "d": "First slain"
+        },
+        {
+          "n": "Zechariah",
+          "d": "Slain in temple"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "To the crowds",
+          "label": "Practice what you teach"
+        },
+        {
+          "when": "Woes",
+          "label": "Rebukes of hypocrisy"
+        },
+        {
+          "when": "Charge",
+          "label": "Prophets killed"
+        },
+        {
+          "when": "Lament",
+          "label": "Over Jerusalem"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Temple Mount, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          37
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

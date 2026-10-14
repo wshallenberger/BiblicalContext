@@ -124,19 +124,22 @@
         "english": "eternal life",
         "greek": "ἡ αἰώνιος ζωή (hē aiōnios zōē)",
         "verseRef": "v.2-3",
-        "meaning": "Jesus gives a definition here that is easy to miss: eternal life is not primarily described as endless duration, but as knowing \"the only true God, and Jesus Christ, whom You have sent\" — a life defined by relationship and knowledge."
+        "meaning": "Jesus gives a definition here that is easy to miss: eternal life is not primarily described as endless duration, but as knowing \"the only true God, and Jesus Christ, whom You have sent\" — a life defined by relationship and knowledge.",
+        "gloss": "Eternal life"
       },
       {
         "english": "sanctify",
         "greek": "ἁγίασον (hagiason)",
         "verseRef": "v.17, 19",
-        "meaning": "To set apart for God's purposes. Jesus asks that the disciples be sanctified by the truth, then says He sanctifies Himself for their sake — the same word applied to both, with the result that they too may be truly set apart."
+        "meaning": "To set apart for God's purposes. Jesus asks that the disciples be sanctified by the truth, then says He sanctifies Himself for their sake — the same word applied to both, with the result that they too may be truly set apart.",
+        "gloss": "Set apart, make holy"
       },
       {
         "english": "one",
         "greek": "ἕν (hen)",
         "verseRef": "v.11, 21-23",
-        "meaning": "The unity Jesus asks for is modeled on His unity with the Father — and strikingly, He asks that believers be \"one as We are one,\" and that they be \"in Us.\" The same word is used for the unity believers are invited into, which points to a relational unity of purpose and love."
+        "meaning": "The unity Jesus asks for is modeled on His unity with the Father — and strikingly, He asks that believers be \"one as We are one,\" and that they be \"in Us.\" The same word is used for the unity believers are invited into, which points to a relational unity of purpose and love.",
+        "gloss": "One"
       }
     ],
     "gospelParallels": [],
@@ -184,6 +187,92 @@
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/084.jpg",
       "caption": "Prayer of Jesus in the Garden of Olives, by Gustave Doré (1866) — the same night as the prayer of John 17",
       "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Jesus lifts His eyes and prays. He asks the Father to glorify the Son, to protect and sanctify His disciples, and that all who believe through them would be one.",
+      "settingLine": "Spoken aloud before leaving the upper room.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "The Hour",
+          "t": "Jesus prays knowing the cross is hours away."
+        },
+        {
+          "h": "Intercession",
+          "t": "The high priest carried Israel's names on his heart, as Jesus does in prayer."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Looking Up",
+          "t": "Jews often prayed with eyes lifted toward heaven."
+        },
+        {
+          "h": "Father's Name",
+          "t": "God's name stood for His character and presence."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Priestly Garments",
+          "t": "Breastplate stones of twelve tribes are described in Exodus 28."
+        },
+        {
+          "h": "Silver Scrolls",
+          "t": "Tiny silver scrolls near Jerusalem carry the priestly blessing from about 600 BC."
+        }
+      ],
+      "discussion": "Jesus prayed that His followers would be one. What keeps believers divided today?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Prayer",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Exodus 28:29": "Names on the heart",
+        "Exodus 3:13-15": "The divine name",
+        "Numbers 6:24-26": "The priestly blessing"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Father",
+          "d": "Addressed"
+        },
+        {
+          "n": "The disciples",
+          "d": "Prayed for"
+        },
+        {
+          "n": "Believers",
+          "d": "Future"
+        },
+        {
+          "n": "Judas",
+          "d": "Lost"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Prayer",
+          "label": "For Himself"
+        },
+        {
+          "when": "Prayer",
+          "label": "For the disciples"
+        },
+        {
+          "when": "Prayer",
+          "label": "For future believers"
+        },
+        {
+          "when": "End",
+          "label": "That the love may be in them"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

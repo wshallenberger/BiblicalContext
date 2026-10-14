@@ -144,19 +144,24 @@
         "english": "I am the way, the truth, and the life",
         "greek": "ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή (egō eimi hē hodos kai hē alētheia kai hē zōē)",
         "verseRef": "v.6",
-        "meaning": "The sixth of Jesus' seven great \"I am\" declarations in John — not simply claiming to show a way, but to personally be the only path to the Father, an exclusive claim that has shaped Christian theology ever since."
+        "meaning": "The sixth of Jesus' seven great \"I am\" declarations in John — not simply claiming to show a way, but to personally be the only path to the Father, an exclusive claim that has shaped Christian theology ever since.",
+        "gloss": "The way",
+        "ovGreek": "ἡ ὁδός",
+        "ovEnglish": "The way"
       },
       {
         "english": "Helper",
         "greek": "παράκλητος (paraklētos)",
         "verseRef": "v.16, 26",
-        "meaning": "Literally \"one called alongside\" — an advocate, comforter, or counselor summoned to help in a time of need. This same Greek word is used of Jesus Himself in 1 John 2:1, suggesting real continuity between Christ's own ministry and the Spirit's."
+        "meaning": "Literally \"one called alongside\" — an advocate, comforter, or counselor summoned to help in a time of need. This same Greek word is used of Jesus Himself in 1 John 2:1, suggesting real continuity between Christ's own ministry and the Spirit's.",
+        "gloss": "Helper, advocate"
       },
       {
         "english": "peace",
         "greek": "εἰρήνη (eirēnē)",
         "verseRef": "v.27",
-        "meaning": "Echoes the Hebrew shalom, a rich word for wholeness and well-being far beyond the absence of conflict — Jesus explicitly distinguishes His gift from the world's fragile, circumstance-dependent version of peace."
+        "meaning": "Echoes the Hebrew shalom, a rich word for wholeness and well-being far beyond the absence of conflict — Jesus explicitly distinguishes His gift from the world's fragile, circumstance-dependent version of peace.",
+        "gloss": "Peace, wholeness"
       }
     ],
     "gospelParallels": [],
@@ -204,6 +209,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Address_to_Saint_Philip_(Allocution_%C3%A0_Saint_Philippe)_-_James_Tissot.jpg",
       "caption": "Address to Saint Philip, by James Tissot (1886-1894) — “He who has seen Me has seen the Father”",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus tells the troubled disciples that He is going to prepare a place for them, and that He is the way, the truth, and the life. He promises the Holy Spirit as the Helper and leaves His peace with them.",
+      "settingLine": "The upper room, Thursday night.",
+      "placeName": "Mount Zion, Jerusalem",
+      "history": [
+        {
+          "h": "Many Rooms",
+          "t": "The Father's house pictures a large home with space for the family."
+        },
+        {
+          "h": "Philip's Request",
+          "t": "Philip wanted to see the Father, and Jesus said seeing Him is seeing the Father."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Preparing a Place",
+          "t": "A groom prepared a room at his father's house before the wedding."
+        },
+        {
+          "h": "Shalom",
+          "t": "Peace was the usual Jewish greeting, meaning wholeness, not only calm."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Cenacle",
+          "t": "The Crusader-era building on Mount Zion marks the traditional upper room."
+        },
+        {
+          "h": "First-century House",
+          "t": "Houses in Jerusalem's upper city had multiple rooms around a courtyard."
+        }
+      ],
+      "discussion": "Jesus said, \"Let not your hearts be troubled.\" What troubles you most tonight?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Farewell discourse",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Exodus 33:18-23": "Seeing God's glory",
+        "Numbers 6:24-26": "The blessing of peace",
+        "Isaiah 63:9-14": "God's Spirit guides"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Thomas",
+          "d": "Asks the way"
+        },
+        {
+          "n": "Philip",
+          "d": "Show us"
+        },
+        {
+          "n": "Judas",
+          "d": "Not Iscariot"
+        },
+        {
+          "n": "The Helper",
+          "d": "Promised"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Comfort",
+          "label": "Do not be troubled"
+        },
+        {
+          "when": "Question",
+          "label": "The way"
+        },
+        {
+          "when": "Request",
+          "label": "Show us the Father"
+        },
+        {
+          "when": "Promise",
+          "label": "The Helper"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Mount Zion, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

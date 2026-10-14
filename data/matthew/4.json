@@ -62,7 +62,7 @@
     },
     {
       "num": 15,
-      "text": "\"Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles\u2014"
+      "text": "\"Land of Zebulun and land of Naphtali, the Way of the Sea, beyond the Jordan, Galilee of the Gentiles—"
     },
     {
       "num": 16,
@@ -107,19 +107,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 temptation account followed by the launch of Jesus' public ministry.",
+    "genre": "Narrative — temptation account followed by the launch of Jesus' public ministry.",
     "audience": "Jewish-Christian readers who would recognize Jesus quoting Deuteronomy three times, succeeding where Israel itself had failed during its own forty years of wilderness testing.",
-    "mapLabel": "JUDEAN WILDERNESS \u2192 CAPERNAUM, GALILEE",
-    "setting": "The rugged Judean desert west of the Dead Sea, then a deliberate move north to Capernaum \u2014 a fishing town on the Sea of Galilee sitting on the Via Maris, a major trade highway linking Egypt and Damascus.",
-    "custom": "Forty days of fasting deliberately parallels Israel's forty years in the wilderness and Moses' forty-day fast on Sinai \u2014 where Israel failed repeatedly, Jesus stands firm.",
-    "timelineImmediate": "Immediately after His baptism in chapter 3 \u2014 this marks the true beginning of Jesus' public ministry, roughly three years before the crucifixion.",
-    "timelineBible": "This is the launch point of everything that follows in the Gospels \u2014 every teaching, healing, and confrontation in the rest of Matthew flows out of this chapter's opening act of public ministry.",
+    "mapLabel": "JUDEAN WILDERNESS → CAPERNAUM, GALILEE",
+    "setting": "The rugged Judean desert west of the Dead Sea, then a deliberate move north to Capernaum — a fishing town on the Sea of Galilee sitting on the Via Maris, a major trade highway linking Egypt and Damascus.",
+    "custom": "Forty days of fasting deliberately parallels Israel's forty years in the wilderness and Moses' forty-day fast on Sinai — where Israel failed repeatedly, Jesus stands firm.",
+    "timelineImmediate": "Immediately after His baptism in chapter 3 — this marks the true beginning of Jesus' public ministry, roughly three years before the crucifixion.",
+    "timelineBible": "This is the launch point of everything that follows in the Gospels — every teaching, healing, and confrontation in the rest of Matthew flows out of this chapter's opening act of public ministry.",
     "translation": [
       {
         "english": "tempted",
-        "greek": "\u03c0\u03b5\u03b9\u03c1\u03b1\u03c3\u03b8\u1fc6\u03bd\u03b1\u03b9 (peirasth\u0113nai)",
+        "greek": "πειρασθῆναι (peirasthēnai)",
         "verseRef": "v.1",
-        "meaning": "Can mean either \"tempted\" or \"tested\" \u2014 the same event functions as both an attack and a proof of character.",
+        "meaning": "Can mean either \"tempted\" or \"tested\" — the same event functions as both an attack and a proof of character.",
         "occurrences": {
           "total": 39,
           "sampleRefs": [
@@ -127,13 +127,14 @@
             "Hebrews 4:15",
             "James 1:13"
           ]
-        }
+        },
+        "gloss": "To be tested"
       },
       {
         "english": "repent",
-        "greek": "\u03bc\u03b5\u03c4\u03b1\u03bd\u03bf\u03b5\u1fd6\u03bd (metanoein)",
+        "greek": "μετανοεῖν (metanoein)",
         "verseRef": "v.17",
-        "meaning": "The same call John used in chapter 3 \u2014 Jesus now takes up and embodies the message Himself.",
+        "meaning": "The same call John used in chapter 3 — Jesus now takes up and embodies the message Himself.",
         "occurrences": {
           "total": 34,
           "sampleRefs": [
@@ -141,13 +142,14 @@
             "Luke 13:3",
             "Acts 2:38"
           ]
-        }
+        },
+        "gloss": "Change your mind"
       },
       {
         "english": "fishers of men",
-        "greek": "\u1f01\u03bb\u03b9\u03b5\u1fd6\u03c2 \u1f00\u03bd\u03b8\u03c1\u03ce\u03c0\u03c9\u03bd (halieis anthr\u014dp\u014dn)",
+        "greek": "ἁλιεῖς ἀνθρώπων (halieis anthrōpōn)",
         "verseRef": "v.19",
-        "meaning": "A deliberate play on the disciples' actual trade \u2014 turning a fishing metaphor into a calling.",
+        "meaning": "A deliberate play on the disciples' actual trade — turning a fishing metaphor into a calling.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -156,7 +158,8 @@
             "Luke 5:2"
           ],
           "note": "The word for \"fisherman\" appears nowhere else in the New Testament outside this same calling scene, told three times across the Gospels."
-        }
+        },
+        "gloss": "Fishers of people"
       }
     ],
     "gospelParallels": [
@@ -174,11 +177,11 @@
     "otBackground": [
       {
         "ref": "Deuteronomy 8:3",
-        "note": "\"Man does not live on bread alone\" \u2014 Jesus' first response to the devil, quoted directly."
+        "note": "\"Man does not live on bread alone\" — Jesus' first response to the devil, quoted directly."
       },
       {
         "ref": "Deuteronomy 6:16",
-        "note": "\"Do not put the Lord your God to the test\" \u2014 Jesus' second response."
+        "note": "\"Do not put the Lord your God to the test\" — Jesus' second response."
       },
       {
         "ref": "Isaiah 9:1-2",
@@ -189,19 +192,19 @@
       {
         "source": "John Wesley",
         "year": "1754",
-        "note": "Wesley connects Jesus' forty days in the wilderness directly to two towering Old Testament precedents: Moses, who fasted forty days as the giver of the Law, and Elijah, who did the same as its great restorer. He also flags a subtle but deliberate difference in wording \u2014 Jesus tells Satan here to \"get thee hence,\" a full dismissal, distinct from the softer \"get thee behind me\" He later says to Peter for a very different kind of correction.",
+        "note": "Wesley connects Jesus' forty days in the wilderness directly to two towering Old Testament precedents: Moses, who fasted forty days as the giver of the Law, and Elijah, who did the same as its great restorer. He also flags a subtle but deliberate difference in wording — Jesus tells Satan here to \"get thee hence,\" a full dismissal, distinct from the softer \"get thee behind me\" He later says to Peter for a very different kind of correction.",
         "url": "https://www.studylight.org/commentaries/eng/wen/matthew-4.html"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry observes that temptation directly follows Jesus' greatest moment of divine affirmation at His baptism \u2014 a pattern he sees throughout Scripture, where great privilege and special favor never exempt anyone from being tested. He draws a deliberate parallel between Satan's triumph over the first Adam in Eden and his ultimate defeat here by Christ, the second Adam.",
+        "note": "Henry observes that temptation directly follows Jesus' greatest moment of divine affirmation at His baptism — a pattern he sees throughout Scripture, where great privilege and special favor never exempt anyone from being tested. He draws a deliberate parallel between Satan's triumph over the first Adam in Eden and his ultimate defeat here by Christ, the second Adam.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/4.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB carefully notes how Matthew's account of calling Peter and Andrew differs from John's Gospel \u2014 in John, Andrew first seeks out Jesus while still in Judea; here, Jesus Himself directly calls the two brothers by the Sea of Galilee, after returning north following John's arrest. They treat these as two distinct moments, not a contradiction.",
+        "note": "JFB carefully notes how Matthew's account of calling Peter and Andrew differs from John's Gospel — in John, Andrew first seeks out Jesus while still in Judea; here, Jesus Himself directly calls the two brothers by the Sea of Galilee, after returning north following John's arrest. They treat these as two distinct moments, not a contradiction.",
         "url": "https://biblehub.com/commentaries/jfb/matthew/4.htm"
       }
     ],
@@ -211,11 +214,148 @@
       "zoom": 8.5,
       "placeName": "Capernaum, Sea of Galilee"
     },
-    "sparkNotes": "Satan tempts Jesus three times in the wilderness; each time Jesus answers with Scripture rather than power. All three of His replies come from Deuteronomy, starting with Deuteronomy 8:3 \u2014 and immediately afterward He calls His first disciples away from their nets.",
+    "sparkNotes": "Satan tempts Jesus three times in the wilderness; each time Jesus answers with Scripture rather than power. All three of His replies come from Deuteronomy, starting with Deuteronomy 8:3 — and immediately afterward He calls His first disciples away from their nets.",
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ary_Scheffer_-_The_Temptation_of_Christ_(1854).jpg",
       "caption": "The Temptation of Christ, by Ary Scheffer (1854)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "After His baptism, Jesus fasts forty days and resists three temptations by quoting Scripture. He moves to Capernaum and begins preaching, calls four fishermen, and heals crowds across Galilee.",
+      "settingLine": "The wilderness, then Capernaum on the lake.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Galilee",
+          "t": "It had many Gentiles and was seen by Judeans as rural backcountry."
+        },
+        {
+          "h": "Fishing Trade",
+          "t": "Fishing was a family business, so leaving boats and nets meant leaving income."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Forty Days",
+          "t": "Forty days echoes Israel's forty years in the wilderness and Moses' fast on Sinai."
+        },
+        {
+          "h": "Casting Nets",
+          "t": "Fishermen cast round nets by hand, then mended them on the shore."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Capernaum",
+          "t": "Digs found basalt houses, with one honored as Peter's under a later church."
+        },
+        {
+          "h": "Galilee Boat",
+          "t": "A boat about 2,000 years old, found in 1986, shows what fishermen used."
+        }
+      ],
+      "discussion": "Satan quotes Scripture too. How can you tell when Scripture is being used well or badly?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 1:12-13": "Brief temptation",
+        "Deuteronomy 8:3": "Not by bread alone",
+        "Deuteronomy 6:16": "Don't test God"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Satan",
+          "d": "The tempter"
+        },
+        {
+          "n": "Peter",
+          "d": "Fisherman"
+        },
+        {
+          "n": "Andrew",
+          "d": "Peter's brother"
+        },
+        {
+          "n": "Capernaum",
+          "d": "Lake town"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "40 days",
+          "label": "Fasting, testing"
+        },
+        {
+          "when": "Then",
+          "label": "Moves to Capernaum"
+        },
+        {
+          "when": "Soon",
+          "label": "Four fishermen called"
+        },
+        {
+          "when": "Galilee",
+          "label": "Teaching, healing"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          13
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          13
+        ],
+        "slug": "nazareth"
+      },
+      {
+        "name": "Sea of Galilee",
+        "lat": 32.8189,
+        "lng": 35.59,
+        "verses": [
+          18
+        ],
+        "slug": "sea-of-galilee"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          5,
+          25
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Jordan",
+        "lat": 31.7614,
+        "lng": 35.5583,
+        "verses": [
+          15,
+          25
+        ],
+        "slug": "jordan"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

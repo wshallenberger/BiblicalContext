@@ -184,19 +184,26 @@
         "english": "sent",
         "greek": "Σιλωάμ, ὃ ἑρμηνεύεται Ἀπεσταλμένος (Silōam, ho hermēneuetai Apestalmenos)",
         "verseRef": "v.7",
-        "meaning": "John pauses to translate the pool's name directly for the reader — \"Siloam\" means \"Sent,\" a quiet but deliberate echo of Jesus' own repeated description of Himself throughout this Gospel as the One sent by the Father."
+        "meaning": "John pauses to translate the pool's name directly for the reader — \"Siloam\" means \"Sent,\" a quiet but deliberate echo of Jesus' own repeated description of Himself throughout this Gospel as the One sent by the Father.",
+        "gloss": "Sent",
+        "ovGreek": "Σιλωάμ",
+        "ovEnglish": "Sent"
       },
       {
         "english": "I was blind, but now I see",
         "greek": "τυφλὸς ὢν ἄρτι βλέπω (typhlos ōn arti blepō)",
         "verseRef": "v.25",
-        "meaning": "The man's simplest and most famous line — he refuses to be drawn into theological argument about Jesus' status, sticking instead to the one fact he can testify to firsthand."
+        "meaning": "The man's simplest and most famous line — he refuses to be drawn into theological argument about Jesus' status, sticking instead to the one fact he can testify to firsthand.",
+        "gloss": "I was blind, now see",
+        "ovGreek": "ἄρτι βλέπω",
+        "ovEnglish": "Now I see"
       },
       {
         "english": "blind",
         "greek": "τυφλός (typhlos)",
         "verseRef": "v.39-41",
-        "meaning": "Used throughout this chapter in a deliberate double sense — literal physical blindness for the healed man, and a spiritual blindness Jesus applies pointedly to the Pharisees who claim to see clearly."
+        "meaning": "Used throughout this chapter in a deliberate double sense — literal physical blindness for the healed man, and a spiritual blindness Jesus applies pointedly to the Pharisees who claim to see clearly.",
+        "gloss": "Unable to see"
       }
     ],
     "gospelParallels": [],
@@ -244,6 +251,105 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Healed_Blind_Man_Tells_His_Story_to_the_Jews_(L%27aveugle-n%C3%A9_gu%C3%A9ri_s%27explique_avec_les_Juifs)_-_James_Tissot.jpg",
       "caption": "The Healed Blind Man Tells His Story to the Jews, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus heals a man born blind by anointing his eyes and sending him to wash in the pool of Siloam. The Pharisees question him and his parents, and the man worships Jesus while the leaders stay blind.",
+      "settingLine": "Jerusalem and the pool of Siloam.",
+      "placeName": "Pool of Siloam, Jerusalem",
+      "history": [
+        {
+          "h": "Sin and Suffering",
+          "t": "Many assumed illness was punishment for sin, and Jesus rejected that."
+        },
+        {
+          "h": "Synagogue Ban",
+          "t": "People who confessed Jesus as Christ could be put out of the synagogue."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Mud and Spit",
+          "t": "Saliva was a folk remedy, though Jesus needed no medicine."
+        },
+        {
+          "h": "Siloam Water",
+          "t": "Water from Siloam was drawn each morning for the Tabernacles ceremony."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Pool of Siloam",
+          "t": "A large stepped pool from the time of Jesus was uncovered in 2004."
+        },
+        {
+          "h": "Hezekiah's Tunnel",
+          "t": "The tunnel carries the Gihon spring water to Siloam."
+        }
+      ],
+      "discussion": "The man could say only, \"I was blind, now I see.\" What simple thing can you say for certain?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Miracle and dialogue",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Job 1-2": "Suffering without cause",
+        "Isaiah 42:6-7": "Opening blind eyes",
+        "Isaiah 6:9-10": "Seeing but not seeing"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The man",
+          "d": "Born blind"
+        },
+        {
+          "n": "His parents",
+          "d": "Afraid"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Interrogate"
+        },
+        {
+          "n": "Siloam",
+          "d": "Sent"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Passing by",
+          "label": "Man seen"
+        },
+        {
+          "when": "Mud",
+          "label": "Eyes anointed"
+        },
+        {
+          "when": "Siloam",
+          "label": "He washes, sees"
+        },
+        {
+          "when": "Questions",
+          "label": "Pharisees press"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Pool of Siloam, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Siloam",
+        "lat": 31.7706,
+        "lng": 35.235,
+        "verses": [
+          7,
+          11
+        ],
+        "slug": "siloam"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

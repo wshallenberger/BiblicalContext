@@ -307,25 +307,26 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 the opening of the Passion sequence: a plot, an anointing, a betrayal arranged, the Last Supper, Gethsemane, arrest, trial, and Peter's collapse under pressure.",
+    "genre": "Narrative — the opening of the Passion sequence: a plot, an anointing, a betrayal arranged, the Last Supper, Gethsemane, arrest, trial, and Peter's collapse under pressure.",
     "audience": "Jewish-Christian readers watching devotion (the anointing woman), betrayal (Judas), courage under agony (Jesus in Gethsemane), and failure (Peter) all unfold within a single night.",
-    "mapLabel": "BETHANY \u2192 JERUSALEM \u2192 GETHSEMANE",
-    "setting": "Passover in Jerusalem, with the city swollen by pilgrims and Roman troops watching closely. The chief priests, gathered at Caiaphas' residence, explicitly fear a riot if they move against Jesus publicly during the feast \u2014 a fear that shapes their entire secretive plan.",
-    "custom": "Reclining at table (v.20) was the customary posture for a formal meal, especially Passover \u2014 guests ate lying on one side, propped on an elbow, which is why \"dipping into the bowl\" together (v.23) was physically close enough to identify a specific person.",
-    "timelineImmediate": "This is the night the entire Gospel has been building toward \u2014 the Last Supper establishes what becomes the Lord's Supper, and by the chapter's end Jesus has been arrested, falsely tried, and abandoned by every one of His closest followers.",
-    "timelineBible": "The thirty pieces of silver Judas is paid (v.15) directly fulfills Zechariah 11:12-13's prophecy of a shepherd's wages being thrown to a potter \u2014 a detail written roughly 500 years before the event Matthew records.",
+    "mapLabel": "BETHANY → JERUSALEM → GETHSEMANE",
+    "setting": "Passover in Jerusalem, with the city swollen by pilgrims and Roman troops watching closely. The chief priests, gathered at Caiaphas' residence, explicitly fear a riot if they move against Jesus publicly during the feast — a fear that shapes their entire secretive plan.",
+    "custom": "Reclining at table (v.20) was the customary posture for a formal meal, especially Passover — guests ate lying on one side, propped on an elbow, which is why \"dipping into the bowl\" together (v.23) was physically close enough to identify a specific person.",
+    "timelineImmediate": "This is the night the entire Gospel has been building toward — the Last Supper establishes what becomes the Lord's Supper, and by the chapter's end Jesus has been arrested, falsely tried, and abandoned by every one of His closest followers.",
+    "timelineBible": "The thirty pieces of silver Judas is paid (v.15) directly fulfills Zechariah 11:12-13's prophecy of a shepherd's wages being thrown to a potter — a detail written roughly 500 years before the event Matthew records.",
     "translation": [
       {
         "english": "beautiful deed",
-        "greek": "\u1f14\u03c1\u03b3\u03bf\u03bd \u03ba\u03b1\u03bb\u1f78\u03bd (ergon kalon)",
+        "greek": "ἔργον καλὸν (ergon kalon)",
         "verseRef": "v.10",
-        "meaning": "Jesus' description of the woman's anointing \u2014 a genuinely fine, fitting act, defended directly against the disciples' criticism of it as wasteful."
+        "meaning": "Jesus' description of the woman's anointing — a genuinely fine, fitting act, defended directly against the disciples' criticism of it as wasteful.",
+        "gloss": "A good work"
       },
       {
         "english": "covenant",
-        "greek": "\u03b4\u03b9\u03b1\u03b8\u03ae\u03ba\u03b7\u03c2 (diath\u0113k\u0113s)",
+        "greek": "διαθήκης (diathēkēs)",
         "verseRef": "v.28",
-        "meaning": "A solemn, binding agreement \u2014 Jesus applies this term to His own blood, directly invoking Exodus 24:8's covenant-ratifying blood and Jeremiah's promised new covenant.",
+        "meaning": "A solemn, binding agreement — Jesus applies this term to His own blood, directly invoking Exodus 24:8's covenant-ratifying blood and Jeremiah's promised new covenant.",
         "occurrences": {
           "total": 33,
           "sampleRefs": [
@@ -333,13 +334,14 @@
             "Hebrews 8:6",
             "Hebrews 9:15"
           ]
-        }
+        },
+        "gloss": "A binding agreement"
       },
       {
         "english": "sorrowful",
-        "greek": "\u03c0\u03b5\u03c1\u03af\u03bb\u03c5\u03c0\u03cc\u03c2 (perilypos)",
+        "greek": "περίλυπός (perilypos)",
         "verseRef": "v.38",
-        "meaning": "Surrounded by grief, deeply and thoroughly sorrowful \u2014 Jesus' own description of His emotional state just before Gethsemane, an unusually direct window into His inner experience.",
+        "meaning": "Surrounded by grief, deeply and thoroughly sorrowful — Jesus' own description of His emotional state just before Gethsemane, an unusually direct window into His inner experience.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -347,14 +349,15 @@
             "Mark 14:34",
             "Luke 18:23"
           ],
-          "note": "Used only five times, exclusively in the Synoptic Gospels \u2014 never elsewhere in the New Testament."
-        }
+          "note": "Used only five times, exclusively in the Synoptic Gospels — never elsewhere in the New Testament."
+        },
+        "gloss": "Deeply grieved"
       },
       {
         "english": "blasphemed",
-        "greek": "\u1f10\u03b2\u03bb\u03b1\u03c3\u03c6\u03ae\u03bc\u03b7\u03c3\u03b5\u03bd (eblasph\u0113m\u0113sen)",
+        "greek": "ἐβλασφήμησεν (eblasphēmēsen)",
         "verseRef": "v.65",
-        "meaning": "The high priest's verdict the moment Jesus affirms He is the Christ, the Son of God \u2014 treating a true claim as blasphemy is the very charge that seals His condemnation.",
+        "meaning": "The high priest's verdict the moment Jesus affirms He is the Christ, the Son of God — treating a true claim as blasphemy is the very charge that seals His condemnation.",
         "occurrences": {
           "total": 35,
           "sampleRefs": [
@@ -383,15 +386,15 @@
     "otBackground": [
       {
         "ref": "Zechariah 11:12-13",
-        "note": "The thirty pieces of silver, thrown to a potter \u2014 fulfilled precisely in Judas' payment and later disposal of the money."
+        "note": "The thirty pieces of silver, thrown to a potter — fulfilled precisely in Judas' payment and later disposal of the money."
       },
       {
         "ref": "Zechariah 13:7",
-        "note": "\"I will strike the Shepherd, and the sheep will be scattered\" \u2014 quoted directly by Jesus in v.31."
+        "note": "\"I will strike the Shepherd, and the sheep will be scattered\" — quoted directly by Jesus in v.31."
       },
       {
         "ref": "Psalm 41:9",
-        "note": "\"Even my close friend...has lifted up his heel against me\" \u2014 the betrayal-by-a-trusted-companion pattern echoed in Judas' act."
+        "note": "\"Even my close friend...has lifted up his heel against me\" — the betrayal-by-a-trusted-companion pattern echoed in Judas' act."
       }
     ],
     "mapCoords": {
@@ -400,31 +403,147 @@
       "zoom": 9.5,
       "placeName": "Gethsemane, at the foot of the Mount of Olives"
     },
-    "sparkNotes": "A woman anoints Jesus for burial, Judas arranges His betrayal, and at the Last Supper Jesus institutes what becomes the Lord's Supper. \"Covenant,\" spoken over the cup, appears 33 times across the New Testament \u2014 and Judas's thirty pieces of silver fulfills Zechariah 11:12-13's prophecy, written roughly 500 years earlier.",
+    "sparkNotes": "A woman anoints Jesus for burial, Judas arranges His betrayal, and at the Last Supper Jesus institutes what becomes the Lord's Supper. \"Covenant,\" spoken over the cup, appears 33 times across the New Testament — and Judas's thirty pieces of silver fulfills Zechariah 11:12-13's prophecy, written roughly 500 years earlier.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry translates the name Gethsemane directly \u2014 an olive press, a place where olives were crushed under weight to yield their oil \u2014 a name that becomes almost unbearably fitting for what happens there. He also captures Judas's audacity in one striking line, imagining Jesus' unspoken thought as the traitor approaches face to face: \"do you betray me to my very face?\"",
+        "note": "Henry translates the name Gethsemane directly — an olive press, a place where olives were crushed under weight to yield their oil — a name that becomes almost unbearably fitting for what happens there. He also captures Judas's audacity in one striking line, imagining Jesus' unspoken thought as the traitor approaches face to face: \"do you betray me to my very face?\"",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_026.cfm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke notes thirty pieces of silver wasn't an arbitrary sum \u2014 it was the exact legal compensation fixed in Exodus 21:32 for a slave gored to death by someone else's ox. The chief priests, whether they intended it or not, valued Jesus at precisely the price of the lowest, most replaceable life the law recognized.",
+        "note": "Clarke notes thirty pieces of silver wasn't an arbitrary sum — it was the exact legal compensation fixed in Exodus 21:32 for a slave gored to death by someone else's ox. The chief priests, whether they intended it or not, valued Jesus at precisely the price of the lowest, most replaceable life the law recognized.",
         "url": "https://www.studylight.org/commentaries/eng/acc/matthew-26.html"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill surveys the range of ways 'cup' was used as an image in that era \u2014 a physician's dose given to a patient, a poison given to condemn a criminal, or simply the portion a host allotted each guest at a meal. Whichever background sense Jesus had in mind, Gill's point stands: the cup represents something specifically allotted to Him by His Father, not a fate simply stumbled into.",
+        "note": "Gill surveys the range of ways 'cup' was used as an image in that era — a physician's dose given to a patient, a poison given to condemn a criminal, or simply the portion a host allotted each guest at a meal. Whichever background sense Jesus had in mind, Gill's point stands: the cup represents something specifically allotted to Him by His Father, not a fate simply stumbled into.",
         "url": "https://www.biblestudytools.com/commentaries/gills-exposition-of-the-bible/matthew-26-39.html"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DoreJesusPrayingintheGarden.jpg",
-      "caption": "Jesus Praying in the Garden, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Jesus Praying in the Garden, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "A woman anoints Jesus in Bethany, and Judas agrees to betray Him. Jesus shares the Passover with His disciples, prays in Gethsemane, is arrested, and is tried by Caiaphas while Peter denies Him.",
+      "settingLine": "Bethany, an upper room, then Gethsemane.",
+      "placeName": "Gethsemane, Jerusalem",
+      "history": [
+        {
+          "h": "Passover",
+          "t": "Jerusalem swelled with pilgrims who came to remember the exodus."
+        },
+        {
+          "h": "Caiaphas",
+          "t": "Caiaphas was high priest from AD 18 to 36 and worked closely with Rome."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Reclining",
+          "t": "At Passover guests reclined at table, so a dipped bowl was shared closely."
+        },
+        {
+          "h": "The Cup",
+          "t": "Several cups of wine were drunk during the Passover meal."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Olive Press",
+          "t": "Gethsemane means \"oil press,\" and ancient presses survive nearby."
+        },
+        {
+          "h": "Caiaphas Tomb",
+          "t": "An ossuary inscribed with Caiaphas' family name was found in Jerusalem."
+        }
+      ],
+      "discussion": "Jesus asked His friends to stay awake, and they fell asleep. What makes it hard to keep watch with someone?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 14:1-72": "Last Supper and arrest",
+        "Zechariah 11:12-13": "Thirty pieces of silver",
+        "Zechariah 13:7": "Strike the shepherd"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Judas",
+          "d": "Betrayer"
+        },
+        {
+          "n": "Peter",
+          "d": "Denied Him"
+        },
+        {
+          "n": "Caiaphas",
+          "d": "High priest"
+        },
+        {
+          "n": "Gethsemane",
+          "d": "Oil press"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Bethany",
+          "label": "Anointing"
+        },
+        {
+          "when": "Upper room",
+          "label": "The Passover"
+        },
+        {
+          "when": "Gethsemane",
+          "label": "Prayer, arrest"
+        },
+        {
+          "when": "Night",
+          "label": "Before Caiaphas"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Getsemane2.JPG",
+      "caption": "Present-day Gethsemane, Jerusalem",
+      "credit": "Photo: Mewasul / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          6
+        ],
+        "slug": "bethany-1"
+      },
+      {
+        "name": "Gethsemane",
+        "lat": 31.7794,
+        "lng": 35.2394,
+        "verses": [
+          36
+        ],
+        "slug": "gethsemane"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          30
+        ],
+        "slug": "mount-of-olives"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

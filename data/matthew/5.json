@@ -199,19 +199,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Teaching discourse \u2014 the first and longest of Jesus' five major blocks of teaching in this Gospel.",
-    "audience": "A mixed Galilean crowd on the hillside, and \u2014 through Matthew's Gospel \u2014 Jewish-Christian readers weighing Jesus' relationship to the Law of Moses.",
+    "genre": "Teaching discourse — the first and longest of Jesus' five major blocks of teaching in this Gospel.",
+    "audience": "A mixed Galilean crowd on the hillside, and — through Matthew's Gospel — Jewish-Christian readers weighing Jesus' relationship to the Law of Moses.",
     "mapLabel": "A GALILEAN HILLSIDE, NEAR CAPERNAUM",
-    "setting": "Traditionally located near the \"Horns of Hattin\" overlooking the Sea of Galilee \u2014 a natural amphitheater where a seated teacher's voice could carry to a large crowd. Jewish religious life at the time centered on synagogue teaching and Pharisaic tradition, the very target of much of this sermon.",
-    "custom": "Sitting down to teach (v.1) was the customary posture of a rabbi with authority \u2014 Jesus visibly takes that role. The everyday images throughout (salt, oil lamps, city walls) would have been immediately familiar to His audience.",
-    "timelineImmediate": "Early in Jesus' public ministry, not long after calling His first disciples in chapter 4 \u2014 this is His inaugural and longest sustained block of public teaching.",
-    "timelineBible": "The Sermon on the Mount is often read against Moses receiving the Law on Mount Sinai \u2014 Jesus teaching from a mountain deliberately echoes that scene, positioning Him as delivering not a replacement but a deeper fulfillment of it.",
+    "setting": "Traditionally located near the \"Horns of Hattin\" overlooking the Sea of Galilee — a natural amphitheater where a seated teacher's voice could carry to a large crowd. Jewish religious life at the time centered on synagogue teaching and Pharisaic tradition, the very target of much of this sermon.",
+    "custom": "Sitting down to teach (v.1) was the customary posture of a rabbi with authority — Jesus visibly takes that role. The everyday images throughout (salt, oil lamps, city walls) would have been immediately familiar to His audience.",
+    "timelineImmediate": "Early in Jesus' public ministry, not long after calling His first disciples in chapter 4 — this is His inaugural and longest sustained block of public teaching.",
+    "timelineBible": "The Sermon on the Mount is often read against Moses receiving the Law on Mount Sinai — Jesus teaching from a mountain deliberately echoes that scene, positioning Him as delivering not a replacement but a deeper fulfillment of it.",
     "translation": [
       {
         "english": "blessed",
-        "greek": "\u03bc\u03b1\u03ba\u03ac\u03c1\u03b9\u03bf\u03b9 (makarioi)",
+        "greek": "μακάριοι (makarioi)",
         "verseRef": "v.3-11",
-        "meaning": "A state of deep, God-given well-being \u2014 not fleeting happiness dependent on circumstance.",
+        "meaning": "A state of deep, God-given well-being — not fleeting happiness dependent on circumstance.",
         "occurrences": {
           "total": 50,
           "sampleRefs": [
@@ -220,13 +220,14 @@
             "James 1:12",
             "Revelation 1:3"
           ]
-        }
+        },
+        "gloss": "Happy, favored by God"
       },
       {
         "english": "fulfill",
-        "greek": "\u03c0\u03bb\u03b7\u03c1\u1ff6\u03c3\u03b1\u03b9 (pl\u0113r\u014dsai)",
+        "greek": "πληρῶσαι (plērōsai)",
         "verseRef": "v.17",
-        "meaning": "To bring to full meaning or completion \u2014 Jesus isn't discarding the Law, He's completing what it always pointed toward.",
+        "meaning": "To bring to full meaning or completion — Jesus isn't discarding the Law, He's completing what it always pointed toward.",
         "occurrences": {
           "total": 88,
           "sampleRefs": [
@@ -234,13 +235,14 @@
             "John 15:11",
             "Luke 24:44"
           ]
-        }
+        },
+        "gloss": "To fill up, complete"
       },
       {
         "english": "perfect",
-        "greek": "\u03c4\u03ad\u03bb\u03b5\u03b9\u03bf\u03c2 (teleios)",
+        "greek": "τέλειος (teleios)",
         "verseRef": "v.48",
-        "meaning": "Better understood as \"complete\" or \"mature\" rather than flawless \u2014 wholehearted love that mirrors God's own impartial character.",
+        "meaning": "Better understood as \"complete\" or \"mature\" rather than flawless — wholehearted love that mirrors God's own impartial character.",
         "occurrences": {
           "total": 19,
           "sampleRefs": [
@@ -248,7 +250,8 @@
             "1 Corinthians 2:6",
             "Colossians 1:28"
           ]
-        }
+        },
+        "gloss": "Complete, whole"
       }
     ],
     "gospelParallels": [
@@ -268,27 +271,33 @@
       },
       {
         "ref": "Psalm 37:11",
-        "note": "\"The meek shall inherit the land\" \u2014 the background for the Beatitude in v.5."
+        "note": "\"The meek shall inherit the land\" — the background for the Beatitude in v.5."
       }
     ],
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry makes a striking observation: classical philosophers never counted humility among the virtues, yet Christ places poverty of spirit first, before every other beatitude. He reads it as the necessary foundation for all the rest \u2014 \"those who would build high must begin low\" \u2014 self-emptying as the soil in which every other grace can take root.",
+        "note": "Henry makes a striking observation: classical philosophers never counted humility among the virtues, yet Christ places poverty of spirit first, before every other beatitude. He reads it as the necessary foundation for all the rest — \"those who would build high must begin low\" — self-emptying as the soil in which every other grace can take root.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/5.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "On \"salt of the earth,\" JFB notes real scholarly disagreement over whether salt can even chemically lose its saltiness \u2014 but argues the point of Jesus' image doesn't depend on resolving that question. What matters is the implication: if the very thing meant to preserve the world's moral health loses its own distinct character, nothing else is left to do that job.",
+        "note": "On \"salt of the earth,\" JFB notes real scholarly disagreement over whether salt can even chemically lose its saltiness — but argues the point of Jesus' image doesn't depend on resolving that question. What matters is the implication: if the very thing meant to preserve the world's moral health loses its own distinct character, nothing else is left to do that job.",
         "url": "https://www.blueletterbible.org/Comm/jfb/Mat/Mat_005.cfm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke traces \"mercy\" to its Latin root \u2014 miserans (pitying) joined with cor (heart) \u2014 literally \"pain of heart\" felt on another's behalf. He also grounds \"a city set on a hill\" in real geography, citing a 17th-century traveler's account of the actual rise near the Sea of Galilee traditionally identified as the site of this sermon.",
+        "note": "Clarke traces \"mercy\" to its Latin root — miserans (pitying) joined with cor (heart) — literally \"pain of heart\" felt on another's behalf. He also grounds \"a city set on a hill\" in real geography, citing a 17th-century traveler's account of the actual rise near the Sea of Galilee traditionally identified as the site of this sermon.",
         "url": "https://www.sacred-texts.com/bib/cmt/clarke/mat005.htm"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Matthew 5 verse by verse, but his chapter \"Counting the Cost\" in <em>Mere Christianity</em> takes up verse 48, \"Be perfect.\" He says we should expect more than a patch-up job: God means to make us what He says, like a man who thinks he is having a few leaks fixed and finds that the owner is building a palace on the spot. The standard of the Sermon on the Mount is not impossible, he argues, because God supplies what it asks. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://assets.litcharts.com/lit/mere-christianity/book-4-chapter-9-counting-the-cost"
       }
     ],
     "mapCoords": {
@@ -297,11 +306,97 @@
       "zoom": 9.5,
       "placeName": "Mount of Beatitudes, near Capernaum"
     },
-    "sparkNotes": "The Sermon on the Mount opens with the Beatitudes, redefining blessedness around humility rather than status. \"Perfect\" here is the same word James later uses for spiritual maturity, not flawlessness \u2014 and the Beatitudes themselves echo Psalm 37:11's promise that the meek will inherit the earth.",
+    "sparkNotes": "The Sermon on the Mount opens with the Beatitudes, redefining blessedness around humility rather than status. \"Perfect\" here is the same word James later uses for spiritual maturity, not flawlessness — and the Beatitudes themselves echo Psalm 37:11's promise that the meek will inherit the earth.",
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dore_Bible_Sermon_on_the_Mount.jpg",
-      "caption": "The Sermon on the Mount, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "caption": "The Sermon on the Mount, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus goes up a mountain and teaches His disciples, beginning with the Beatitudes. He calls them salt and light, says He came to fulfill the Law, and deepens its commands on anger, oaths, revenge, and love for enemies.",
+      "settingLine": "A mountainside above the Sea of Galilee.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "The Law's Teachers",
+          "t": "Scribes and Pharisees were the model of righteousness, so Jesus' higher standard shocked."
+        },
+        {
+          "h": "Roman Rule",
+          "t": "Soldiers could force civilians to carry loads, behind \"go the second mile.\""
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sitting to Teach",
+          "t": "A rabbi sat to teach with authority, so Jesus visibly takes that role."
+        },
+        {
+          "h": "Eye for Eye",
+          "t": "The law capped revenge at equal payback, and Jesus goes further by asking for none."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Mount of Beatitudes",
+          "t": "Tradition places this sermon on a hill above the lake, with a chapel built in 1938."
+        },
+        {
+          "h": "Oil Lamps",
+          "t": "Small clay oil lamps, found in huge numbers, lit homes like the one in His picture."
+        }
+      ],
+      "discussion": "Jesus says, \"Be perfect, as your Father is perfect.\" How can anyone hear that as good news?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Teaching discourse",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 6:20-49": "Sermon on the Plain",
+        "Psalm 1": "Two ways to live",
+        "Exodus 20 / Leviticus 19 / Deuteronomy": "Commands Jesus deepens"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Disciples",
+          "d": "Taught first"
+        },
+        {
+          "n": "The crowds",
+          "d": "Listening in"
+        },
+        {
+          "n": "Moses",
+          "d": "Lawgiver"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Law teachers"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Mountain",
+          "label": "Beatitudes"
+        },
+        {
+          "when": "Then",
+          "label": "Salt and light"
+        },
+        {
+          "when": "Then",
+          "label": "Fulfilling the Law"
+        },
+        {
+          "when": "Then",
+          "label": "Love your enemies"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

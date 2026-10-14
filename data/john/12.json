@@ -220,19 +220,24 @@
         "english": "the hour has come",
         "greek": "ἐλήλυθεν ἡ ὥρα (elēlythen hē hōra)",
         "verseRef": "v.23",
-        "meaning": "John has been building toward this exact phrase since Jesus told His mother at Cana, \"My hour has not yet come\" (2:4) — this is the moment that changes, marking the shift from public ministry to the Passion."
+        "meaning": "John has been building toward this exact phrase since Jesus told His mother at Cana, \"My hour has not yet come\" (2:4) — this is the moment that changes, marking the shift from public ministry to the Passion.",
+        "gloss": "The hour has come",
+        "ovGreek": "ἐλήλυθεν ἡ ὤρα",
+        "ovEnglish": "The hour"
       },
       {
         "english": "lifted up",
         "greek": "ὑψωθῶ (hypsōthō)",
         "verseRef": "v.32-33",
-        "meaning": "A deliberate double meaning — the same word can describe both physical elevation and exaltation to honor, letting Jesus speak of His crucifixion and His glorification in a single word."
+        "meaning": "A deliberate double meaning — the same word can describe both physical elevation and exaltation to honor, letting Jesus speak of His crucifixion and His glorification in a single word.",
+        "gloss": "Lifted up"
       },
       {
         "english": "believed",
         "greek": "ἐπίστευσαν (episteusan)",
         "verseRef": "v.37-43",
-        "meaning": "John closes his account of Jesus' public ministry by directly naming the tragedy at its center — not a lack of evidence, but a real, describable resistance to believing what the signs plainly showed."
+        "meaning": "John closes his account of Jesus' public ministry by directly naming the tragedy at its center — not a lack of evidence, but a real, describable resistance to believing what the signs plainly showed.",
+        "gloss": "They believed"
       }
     ],
     "gospelParallels": [
@@ -293,6 +298,115 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Ointment_of_the_Magdalene_(Le_parfum_de_Madeleine)_-_James_Tissot.jpg",
       "caption": "The Ointment of the Magdalene, by James Tissot (1886-1894) — Tissot's title for the anointing at Bethany",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Mary anoints Jesus' feet at Bethany, and the crowd greets Him in Jerusalem as the king on a donkey. Greeks ask to see Him, and He says the hour has come, that a grain must die to bear fruit, and that He will be lifted up.",
+      "settingLine": "Bethany, then the road into Jerusalem.",
+      "placeName": "Mount of Olives, Jerusalem",
+      "history": [
+        {
+          "h": "Plot Widens",
+          "t": "The leaders also planned to kill Lazarus because many believed through him."
+        },
+        {
+          "h": "Greeks",
+          "t": "Gentile God-fearers came to worship at Passover."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Perfume",
+          "t": "Nard was an imported perfume worth about a year's wages."
+        },
+        {
+          "h": "Palm Branches",
+          "t": "Palms were a national symbol, welcoming a hoped-for king."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Nard Jars",
+          "t": "Alabaster flasks for costly perfume are found in Jerusalem tombs."
+        },
+        {
+          "h": "Olivet Road",
+          "t": "The ancient road down the Mount of Olives into the city still survives in part."
+        }
+      ],
+      "discussion": "Judas called Mary's gift a waste. What do we call wasteful that Jesus calls beautiful?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 26:6-13": "Anointing at Bethany",
+        "Zechariah 9:9": "A king on a donkey",
+        "Psalm 118:25-26": "Hosanna"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Mary",
+          "d": "Anointed Him"
+        },
+        {
+          "n": "Judas",
+          "d": "Objected"
+        },
+        {
+          "n": "Lazarus",
+          "d": "Living proof"
+        },
+        {
+          "n": "Greeks",
+          "d": "Seek Jesus"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Bethany",
+          "label": "Dinner, anointing"
+        },
+        {
+          "when": "Next day",
+          "label": "The donkey ride"
+        },
+        {
+          "when": "Greeks",
+          "label": "Ask to see Him"
+        },
+        {
+          "when": "Voice",
+          "label": "From heaven"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Mount of Olives, Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          1
+        ],
+        "slug": "bethany-1"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          11,
+          12,
+          20
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

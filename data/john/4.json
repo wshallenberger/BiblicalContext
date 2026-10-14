@@ -236,7 +236,8 @@
         "english": "living water",
         "greek": "ὕδωρ ζῶν (hydōr zōn)",
         "verseRef": "v.10-11",
-        "meaning": "In everyday use, this phrase simply meant fresh, flowing water as opposed to stagnant well water — the woman initially hears it this way, while Jesus means something entirely different: a permanent, internal spring of eternal life."
+        "meaning": "In everyday use, this phrase simply meant fresh, flowing water as opposed to stagnant well water — the woman initially hears it this way, while Jesus means something entirely different: a permanent, internal spring of eternal life.",
+        "gloss": "Living water"
       },
       {
         "english": "worship",
@@ -250,13 +251,17 @@
             "Revelation 4:10",
             "Revelation 19:10"
           ]
-        }
+        },
+        "gloss": "To bow, worship"
       },
       {
         "english": "Savior of the world",
         "greek": "ὁ σωτὴρ τοῦ κόσμου (ho sōtēr tou kosmou)",
         "verseRef": "v.42",
-        "meaning": "A remarkable confession from the Samaritan townspeople — not a merely local or Jewish title, but a universal one, spoken by people usually excluded from Jewish messianic hope altogether."
+        "meaning": "A remarkable confession from the Samaritan townspeople — not a merely local or Jewish title, but a universal one, spoken by people usually excluded from Jewish messianic hope altogether.",
+        "gloss": "Savior of the world",
+        "ovGreek": "σωτὴρ",
+        "ovEnglish": "Savior of the world"
       }
     ],
     "gospelParallels": [
@@ -313,6 +318,134 @@
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/078.jpg",
       "caption": "Jesus and the Woman of Samaria, by Gustave Doré (1866)",
       "credit": "Public domain — Project Gutenberg"
-    }
+    },
+    "overview": {
+      "summary": "At Jacob's well in Sychar Jesus asks a Samaritan woman for water and offers her living water. She tells her town, and many believe. He then returns to Cana and heals an official's son from a distance.",
+      "settingLine": "Jacob's well in Samaria, then Cana.",
+      "placeName": "Jordan Valley",
+      "history": [
+        {
+          "h": "Jews and Samaritans",
+          "t": "Centuries of hostility split Jews from Samaritans over worship and descent."
+        },
+        {
+          "h": "Mount Gerizim",
+          "t": "Samaritans worshiped on Gerizim, while Jews insisted on Jerusalem."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Noon at the Well",
+          "t": "Women drew water in cool morning or evening, so noon hints she avoided others."
+        },
+        {
+          "h": "Shared Cup",
+          "t": "Jews often avoided Samaritan cups and bowls as unclean."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Jacob's Well",
+          "t": "A deep well near Nablus has been honored as Jacob's Well since early centuries."
+        },
+        {
+          "h": "Gerizim Temple",
+          "t": "Excavations on Gerizim uncovered a Samaritan temple platform."
+        }
+      ],
+      "discussion": "Jesus crossed social lines to speak with her. Who is hard for you to approach?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Dialogue and narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 8:5-13": "A distant healing",
+        "Genesis 33:18-20": "Jacob's land at Shechem",
+        "2 Kings 17:24-41": "Origin of the Samaritans"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The woman",
+          "d": "Samaritan"
+        },
+        {
+          "n": "The disciples",
+          "d": "Surprised"
+        },
+        {
+          "n": "Townspeople",
+          "d": "Believe"
+        },
+        {
+          "n": "An official",
+          "d": "Pleads"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Noon",
+          "label": "At the well"
+        },
+        {
+          "when": "Dialogue",
+          "label": "Living water"
+        },
+        {
+          "when": "Two days",
+          "label": "Sychar believes"
+        },
+        {
+          "when": "Cana",
+          "label": "The boy healed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+      "caption": "Present-day Jordan Valley",
+      "credit": "Photo: Bill Rice / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Sychar",
+        "lat": 32.2178,
+        "lng": 35.289,
+        "verses": [
+          5
+        ],
+        "slug": "sychar"
+      },
+      {
+        "name": "Mount Gerizim",
+        "lat": 32.1994,
+        "lng": 35.2728,
+        "verses": [
+          20
+        ],
+        "slug": "mount-gerizim"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          20,
+          21,
+          45
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Cana",
+        "lat": 32.8222,
+        "lng": 35.3027,
+        "verses": [
+          46
+        ],
+        "slug": "cana"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.6
   }
 }

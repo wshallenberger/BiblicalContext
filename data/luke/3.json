@@ -180,7 +180,8 @@
             "Acts 20:21",
             "Romans 2:4"
           ]
-        }
+        },
+        "gloss": "A change of mind"
       },
       {
         "english": "baptism",
@@ -194,7 +195,8 @@
             "Acts 19:3",
             "Romans 6:4"
           ]
-        }
+        },
+        "gloss": "A dipping, immersion"
       },
       {
         "english": "winnowing fork",
@@ -207,7 +209,8 @@
             "Matthew 3:12"
           ],
           "note": "Only here and in the parallel in Matthew 3:12."
-        }
+        },
+        "gloss": "Tool to toss grain"
       }
     ],
     "gospelParallels": [
@@ -285,6 +288,104 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_John_the_Baptist_baptizes_Jesus.jpg",
       "caption": "John the Baptist Baptizes Jesus, by Gustave Doré",
       "credit": "Public domain — Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Luke dates John's preaching to the reign of Tiberius, then shows crowds repenting in practical ways. Jesus is baptized, the Spirit descends like a dove, and a voice calls Him the beloved Son. Luke closes with a genealogy running back to Adam.",
+      "settingLine": "The wilderness and the Jordan River valley.",
+      "placeName": "Jordan River",
+      "history": [
+        {
+          "h": "Fixed Date",
+          "t": "Luke names Tiberius, Pilate, Herod and the high priests to fix the date near AD 29."
+        },
+        {
+          "h": "Herod Antipas",
+          "t": "Antipas ruled Galilee and later jailed John for criticizing his marriage."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Winnowing",
+          "t": "Farmers tossed grain into the wind so the wheat fell and the chaff blew away."
+        },
+        {
+          "h": "Tax Collectors",
+          "t": "They collected for Rome and often took extra, so John's advice to them is specific."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Al-Maghtas",
+          "t": "A UNESCO site in Jordan with ancient churches, near the traditional baptism place."
+        },
+        {
+          "h": "Machaerus",
+          "t": "Josephus says Herod jailed John at this desert fortress east of the Dead Sea."
+        }
+      ],
+      "discussion": "Jesus was baptized though He had no sins to repent of. Why do you think He went into the water?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Historical narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 3:1-12": "John's preaching",
+        "Isaiah 40:3-5": "Voice in the wilderness",
+        "Psalm 2:7": "\"You are My Son\""
+      },
+      "peoplePlaces": [
+        {
+          "n": "John",
+          "d": "The Baptist"
+        },
+        {
+          "n": "Tiberius",
+          "d": "Emperor"
+        },
+        {
+          "n": "Antipas",
+          "d": "Galilee's ruler"
+        },
+        {
+          "n": "Jordan",
+          "d": "Baptism site"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "~AD 29",
+          "label": "John preaches"
+        },
+        {
+          "when": "Soon",
+          "label": "Crowds baptized"
+        },
+        {
+          "when": "Then",
+          "label": "Jesus baptized"
+        },
+        {
+          "when": "Age ~30",
+          "label": "Ministry begins"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+      "caption": "Present-day Jordan River",
+      "credit": "Photo: Bill Rice / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jordan",
+        "lat": 31.7614,
+        "lng": 35.5583,
+        "verses": [
+          3
+        ],
+        "slug": "jordan"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

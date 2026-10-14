@@ -34,7 +34,7 @@
     },
     {
       "num": 8,
-      "text": "He instructed them to take nothing but a staff for the journey\u2014no bread, no bag, no money in their belts\u2014"
+      "text": "He instructed them to take nothing but a staff for the journey—no bread, no bag, no money in their belts—"
     },
     {
       "num": 9,
@@ -154,7 +154,7 @@
     },
     {
       "num": 38,
-      "text": "\"Go and see how many loaves you have,\" He told them. And after checking, they said, \"Five\u2014and two fish.\""
+      "text": "\"Go and see how many loaves you have,\" He told them. And after checking, they said, \"Five—and two fish.\""
     },
     {
       "num": 39,
@@ -198,7 +198,7 @@
     },
     {
       "num": 49,
-      "text": "but when they saw Him walking on the sea, they cried out, thinking He was a ghost\u2014"
+      "text": "but when they saw Him walking on the sea, they cried out, thinking He was a ghost—"
     },
     {
       "num": 50,
@@ -226,25 +226,25 @@
     },
     {
       "num": 56,
-      "text": "And wherever He went\u2014villages and towns and countrysides\u2014they laid the sick in the marketplaces and begged Him just to let them touch the fringe of His cloak. And all who touched Him were healed."
+      "text": "And wherever He went—villages and towns and countrysides—they laid the sick in the marketplaces and begged Him just to let them touch the fringe of His cloak. And all who touched Him were healed."
     }
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 rejection at home, a mission narrative, an extended flashback to John's execution, and two of Jesus' best-attested miracles",
-    "audience": "Roman Christian readers watching belief and unbelief play out side by side \u2014 a hometown's scorn, a corrupt king's guilty conscience, and crowds who can't get enough",
+    "genre": "Narrative Gospel — rejection at home, a mission narrative, an extended flashback to John's execution, and two of Jesus' best-attested miracles",
+    "audience": "Roman Christian readers watching belief and unbelief play out side by side — a hometown's scorn, a corrupt king's guilty conscience, and crowds who can't get enough",
     "mapLabel": "NAZARETH, THEN GALILEE",
-    "setting": "Nazareth was a small, close-knit Galilean village of likely fewer than 500 residents \u2014 everyone genuinely did know Jesus' family, which is precisely what makes their unbelief so pointed. The chapter's flashback to John's death likely took place at Machaerus, Herod Antipas's desert fortress east of the Dead Sea.",
-    "custom": "Shaking dust from one's feet (v.11) mirrored the practice of Jewish travelers symbolically removing pagan soil upon returning home \u2014 using the gesture against fellow Israelites was a pointed warning. Herod's birthday banquet, with its rash public oath before nobles and commanders, reflects the kind of honor-bound promise a king of that era couldn't easily walk back without losing face.",
-    "timelineImmediate": "Jesus is rejected in His own hometown, then sends the Twelve out on their first solo mission \u2014 while they're gone, Mark inserts the full backstory of John's death, before returning to the disciples' report and the feeding of the five thousand that follows immediately after.",
-    "timelineBible": "Mark alone notes the crowd sat on \"green grass\" (v.39), placing the feeding miracle near Passover \u2014 deliberately echoing Israel's wilderness wandering, when God spread a table of manna in a desolate place (Psalm 78:19).",
-    "sparkNotes": "Jesus is rejected in His own hometown of Nazareth, then sends His twelve disciples out two by two before Mark flashes back to tell the full, grim story of John the Baptist's execution at Herod's birthday banquet. The chapter closes with two of the best-known miracles in the Gospels back to back \u2014 feeding five thousand with five loaves and two fish, then walking on the water that same night, declaring \"Take courage! It is I\" in words that echo God's own self-naming to Moses.",
+    "setting": "Nazareth was a small, close-knit Galilean village of likely fewer than 500 residents — everyone genuinely did know Jesus' family, which is precisely what makes their unbelief so pointed. The chapter's flashback to John's death likely took place at Machaerus, Herod Antipas's desert fortress east of the Dead Sea.",
+    "custom": "Shaking dust from one's feet (v.11) mirrored the practice of Jewish travelers symbolically removing pagan soil upon returning home — using the gesture against fellow Israelites was a pointed warning. Herod's birthday banquet, with its rash public oath before nobles and commanders, reflects the kind of honor-bound promise a king of that era couldn't easily walk back without losing face.",
+    "timelineImmediate": "Jesus is rejected in His own hometown, then sends the Twelve out on their first solo mission — while they're gone, Mark inserts the full backstory of John's death, before returning to the disciples' report and the feeding of the five thousand that follows immediately after.",
+    "timelineBible": "Mark alone notes the crowd sat on \"green grass\" (v.39), placing the feeding miracle near Passover — deliberately echoing Israel's wilderness wandering, when God spread a table of manna in a desolate place (Psalm 78:19).",
+    "sparkNotes": "Jesus is rejected in His own hometown of Nazareth, then sends His twelve disciples out two by two before Mark flashes back to tell the full, grim story of John the Baptist's execution at Herod's birthday banquet. The chapter closes with two of the best-known miracles in the Gospels back to back — feeding five thousand with five loaves and two fish, then walking on the water that same night, declaring \"Take courage! It is I\" in words that echo God's own self-naming to Moses.",
     "translation": [
       {
         "english": "prophet",
-        "greek": "\u03c0\u03c1\u03bf\u03c6\u03ae\u03c4\u03b7\u03c2 (proph\u0113t\u0113s)",
+        "greek": "προφήτης (prophētēs)",
         "verseRef": "v.4, 15",
-        "meaning": "One who speaks forth God's message \u2014 not always predicting the future, but declaring God's word for a specific moment.",
+        "meaning": "One who speaks forth God's message — not always predicting the future, but declaring God's word for a specific moment.",
         "occurrences": {
           "total": 144,
           "sampleRefs": [
@@ -252,11 +252,12 @@
             "Luke 24:25",
             "Hebrews 11:32"
           ]
-        }
+        },
+        "gloss": "A speaker for God"
       },
       {
         "english": "authority",
-        "greek": "\u1f10\u03be\u03bf\u03c5\u03c3\u03af\u03b1\u03bd (exousian)",
+        "greek": "ἐξουσίαν (exousian)",
         "verseRef": "v.7",
         "meaning": "The same rightful power Jesus Himself carries, now explicitly delegated to His twelve disciples for their own mission.",
         "occurrences": {
@@ -266,13 +267,14 @@
             "John 5:27",
             "Romans 13:1"
           ]
-        }
+        },
+        "gloss": "Right, power"
       },
       {
         "english": "compassion",
-        "greek": "\u1f10\u03c3\u03c0\u03bb\u03b1\u03b3\u03c7\u03bd\u03af\u03c3\u03b8\u03b7 (esplanchnisth\u0113)",
+        "greek": "ἐσπλαγχνίσθη (esplanchnisthē)",
         "verseRef": "v.34",
-        "meaning": "A visceral, gut-level empathy \u2014 among the strongest words in Greek for being moved by another's suffering.",
+        "meaning": "A visceral, gut-level empathy — among the strongest words in Greek for being moved by another's suffering.",
         "occurrences": {
           "total": 12,
           "sampleRefs": [
@@ -280,8 +282,9 @@
             "Luke 10:33",
             "Luke 15:20"
           ],
-          "note": "Used only for Jesus Himself, or for a clear Christ-figure in His own parables \u2014 the good Samaritan, the forgiving master, the father of the prodigal son."
-        }
+          "note": "Used only for Jesus Himself, or for a clear Christ-figure in His own parables — the good Samaritan, the forgiving master, the father of the prodigal son."
+        },
+        "gloss": "Moved with pity"
       }
     ],
     "gospelParallels": [
@@ -304,15 +307,15 @@
     "otBackground": [
       {
         "ref": "Leviticus 18:16",
-        "note": "The law against marrying a brother's wife \u2014 the basis of John's rebuke of Herod."
+        "note": "The law against marrying a brother's wife — the basis of John's rebuke of Herod."
       },
       {
         "ref": "Psalm 78:19",
-        "note": "\"Can God prepare a table in the wilderness?\" \u2014 directly answered by the feeding of the five thousand."
+        "note": "\"Can God prepare a table in the wilderness?\" — directly answered by the feeding of the five thousand."
       },
       {
         "ref": "Job 9:8",
-        "note": "God alone \"treads on the waves of the sea\" \u2014 the exact authority Jesus displays by walking on water."
+        "note": "God alone \"treads on the waves of the sea\" — the exact authority Jesus displays by walking on water."
       }
     ],
     "mapCoords": {
@@ -325,26 +328,143 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry notes the grim irony in Herod's guilty conscience: \"he feared John while he lived, and now, when he thought he had got clear of him, fears him ten times worse when he is dead.\" He observes this is a case of \"the terrors of strong conviction, where there is not the truth of a saving conversion\" \u2014 real fear of God without real repentance.",
+        "note": "Henry notes the grim irony in Herod's guilty conscience: \"he feared John while he lived, and now, when he thought he had got clear of him, fears him ten times worse when he is dead.\" He observes this is a case of \"the terrors of strong conviction, where there is not the truth of a saving conversion\" — real fear of God without real repentance.",
         "url": "https://www.ccel.org/h/henry/mhc2/MHC41006.HTM"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "On the feeding miracle, Henry notes Jesus didn't delegate the blessing to a disciple but \"craved\" it Himself before the bread multiplied \u2014 and observes that the crowd, unlike the disciples who wanted to send everyone away hungry, never once asked to leave, since they \"esteemed the words of Christ's mouth more than their necessary food.\"",
+        "note": "On the feeding miracle, Henry notes Jesus didn't delegate the blessing to a disciple but \"craved\" it Himself before the bread multiplied — and observes that the crowd, unlike the disciples who wanted to send everyone away hungry, never once asked to leave, since they \"esteemed the words of Christ's mouth more than their necessary food.\"",
         "url": "https://www.biblestudytools.com/commentaries/matthew-henry-complete/mark/6.html"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle draws out 'the amazing power of truth over the conscience' in Herod's reaction: he feared John while alive and was troubled about him after death, though Herod himself never repented. He observes that 'seeds often spring up and bear fruit, when the sower, like John the Baptist, is dead or gone' \u2014 the prophet's influence outlasted his execution.",
+        "note": "Ryle draws out 'the amazing power of truth over the conscience' in Herod's reaction: he feared John while alive and was troubled about him after death, though Herod himself never repented. He observes that 'seeds often spring up and bear fruit, when the sower, like John the Baptist, is dead or gone' — the prophet's influence outlasted his execution.",
         "url": "https://www.preceptaustin.org/j-c-ryle-gospel-of-mark-commentary"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jesus_walks_on_the_sea.jpg",
-      "caption": "Jesus Walks on the Sea, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Jesus Walks on the Sea, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus is rejected in Nazareth, sends out the Twelve in pairs, and hears of John's death at Herod's banquet. He feeds five thousand, walks on the lake, and heals many at Gennesaret.",
+      "settingLine": "Nazareth, the hills, then the lake.",
+      "placeName": "Gennesaret, Galilee",
+      "history": [
+        {
+          "h": "Herod Antipas",
+          "t": "He ruled Galilee and jailed John for criticizing his marriage."
+        },
+        {
+          "h": "Rejected",
+          "t": "Locals knew Jesus as a carpenter, so His claims seemed too much."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Shaking Dust",
+          "t": "Shaking dust off one's feet signaled a break with a town."
+        },
+        {
+          "h": "Banquet Oath",
+          "t": "A king could not easily take back a vow made in front of guests."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Machaerus",
+          "t": "Herod's fortress east of the Dead Sea is where John is thought to have died."
+        },
+        {
+          "h": "Bethsaida",
+          "t": "Excavations at et-Tell have found a city on the lake's north shore."
+        }
+      ],
+      "discussion": "Jesus sent the Twelve out with nothing extra. What would it take for you to travel that light?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 13:53-58": "Rejected at Nazareth",
+        "Leviticus 18:16": "Brother's wife forbidden",
+        "Psalm 78:19": "A table in the wilderness"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Herod",
+          "d": "Tetrarch"
+        },
+        {
+          "n": "Herodias",
+          "d": "Held a grudge"
+        },
+        {
+          "n": "The Twelve",
+          "d": "Sent out"
+        },
+        {
+          "n": "Five thousand",
+          "d": "Fed"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Nazareth",
+          "label": "Rejected"
+        },
+        {
+          "when": "Villages",
+          "label": "Twelve sent out"
+        },
+        {
+          "when": "Banquet",
+          "label": "John's death"
+        },
+        {
+          "when": "Hillside",
+          "label": "Five thousand fed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginosar_from_above.JPG",
+      "caption": "Present-day Gennesaret, Galilee",
+      "credit": "Photo: יעקב / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          1
+        ],
+        "slug": "nazareth"
+      },
+      {
+        "name": "Bethsaida",
+        "lat": 32.9104,
+        "lng": 35.631,
+        "verses": [
+          45
+        ],
+        "slug": "bethsaida-2"
+      },
+      {
+        "name": "Gennesaret",
+        "lat": 32.8606,
+        "lng": 35.5072,
+        "verses": [
+          53
+        ],
+        "slug": "gennesaret"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

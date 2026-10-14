@@ -191,19 +191,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 the entry into Jerusalem, the temple cleansing, and a sequence of confrontations and parables that begin the final week before the crucifixion.",
-    "audience": "Jewish-Christian readers, watching Jesus openly claim messianic identity in the most public, prophetically loaded way yet \u2014 and watching religious authority respond with open hostility rather than the awe of Passover crowds.",
-    "mapLabel": "BETHPHAGE \u2192 JERUSALEM TEMPLE",
-    "setting": "Passover week drew enormous crowds into Jerusalem \u2014 possibly over a million pilgrims. The route from Bethphage descends the Mount of Olives ridge into a sweeping view of the city and Temple Mount, making Jesus' entry a deliberate, public declaration rather than a quiet arrival.",
-    "custom": "Money changers in the temple's Court of the Gentiles swapped ordinary coins for the Tyrian silver required for temple offerings, often at exploitative rates \u2014 the commerce Jesus overturns had effectively taken over the one court where non-Jews were permitted to pray.",
-    "timelineImmediate": "This is the turning point of the entire Gospel \u2014 Jesus enters Jerusalem publicly for the first time as the narrative shifts decisively from Galilean ministry to the final week that ends at the cross.",
-    "timelineBible": "The donkey-riding entry directly and deliberately fulfills Zechariah 9:9's prophecy of a gentle, peaceable king \u2014 a calculated contrast to a conquering king arriving on a warhorse, which is exactly the kind of Messiah many in the crowd were hoping for.",
+    "genre": "Narrative — the entry into Jerusalem, the temple cleansing, and a sequence of confrontations and parables that begin the final week before the crucifixion.",
+    "audience": "Jewish-Christian readers, watching Jesus openly claim messianic identity in the most public, prophetically loaded way yet — and watching religious authority respond with open hostility rather than the awe of Passover crowds.",
+    "mapLabel": "BETHPHAGE → JERUSALEM TEMPLE",
+    "setting": "Passover week drew enormous crowds into Jerusalem — possibly over a million pilgrims. The route from Bethphage descends the Mount of Olives ridge into a sweeping view of the city and Temple Mount, making Jesus' entry a deliberate, public declaration rather than a quiet arrival.",
+    "custom": "Money changers in the temple's Court of the Gentiles swapped ordinary coins for the Tyrian silver required for temple offerings, often at exploitative rates — the commerce Jesus overturns had effectively taken over the one court where non-Jews were permitted to pray.",
+    "timelineImmediate": "This is the turning point of the entire Gospel — Jesus enters Jerusalem publicly for the first time as the narrative shifts decisively from Galilean ministry to the final week that ends at the cross.",
+    "timelineBible": "The donkey-riding entry directly and deliberately fulfills Zechariah 9:9's prophecy of a gentle, peaceable king — a calculated contrast to a conquering king arriving on a warhorse, which is exactly the kind of Messiah many in the crowd were hoping for.",
     "translation": [
       {
         "english": "Hosanna",
-        "greek": "\u1f61\u03c3\u03b1\u03bd\u03bd\u03ac (h\u014dsanna)",
+        "greek": "ὡσαννά (hōsanna)",
         "verseRef": "v.9, 15",
-        "meaning": "A transliteration of a Hebrew cry meaning \"save, we pray\" \u2014 originally a plea, it had become a shout of praise drawn from Psalm 118.",
+        "meaning": "A transliteration of a Hebrew cry meaning \"save, we pray\" — originally a plea, it had become a shout of praise drawn from Psalm 118.",
         "occurrences": {
           "total": 6,
           "sampleRefs": [
@@ -211,20 +211,24 @@
             "Mark 11:10",
             "John 12:13"
           ],
-          "note": "Used only in the four Gospel accounts of this one event \u2014 nowhere else in the New Testament."
-        }
+          "note": "Used only in the four Gospel accounts of this one event — nowhere else in the New Testament."
+        },
+        "gloss": "Save, we pray"
       },
       {
         "english": "house of prayer / den of robbers",
-        "greek": "\u03bf\u1f36\u03ba\u03bf\u03c2 \u03c0\u03c1\u03bf\u03c3\u03b5\u03c5\u03c7\u1fc6\u03c2 / \u03c3\u03c0\u03ae\u03bb\u03b1\u03b9\u03bf\u03bd \u03bb\u1fc3\u03c3\u03c4\u1ff6\u03bd (oikos proseuch\u0113s / sp\u0113laion l\u0113st\u014dn)",
+        "greek": "οἶκος προσευχῆς / σπήλαιον λῃστῶν (oikos proseuchēs / spēlaion lēstōn)",
         "verseRef": "v.13",
-        "meaning": "Jesus quotes Isaiah and Jeremiah back to back \u2014 pairing the temple's intended purpose with what it has become."
+        "meaning": "Jesus quotes Isaiah and Jeremiah back to back — pairing the temple's intended purpose with what it has become.",
+        "gloss": "A hideout for bandits",
+        "ovGreek": "σπήλαιον λῃστῶν",
+        "ovEnglish": "Den of robbers"
       },
       {
         "english": "cornerstone",
-        "greek": "\u03ba\u03b5\u03c6\u03b1\u03bb\u1f74\u03bd \u03b3\u03c9\u03bd\u03af\u03b1\u03c2 (kephal\u0113n g\u014dnias)",
+        "greek": "κεφαλὴν γωνίας (kephalēn gōnias)",
         "verseRef": "v.42",
-        "meaning": "Literally \"head of the corner\" \u2014 the load-bearing stone a whole structure depends on, quoted from Psalm 118 and applied by Jesus to Himself.",
+        "meaning": "Literally \"head of the corner\" — the load-bearing stone a whole structure depends on, quoted from Psalm 118 and applied by Jesus to Himself.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -233,7 +237,8 @@
             "1 Peter 2:7"
           ],
           "note": "This is quoted directly from Psalm 118:22, making it one of the most repeated Old Testament quotations anywhere in the New Testament."
-        }
+        },
+        "gloss": "Head of the corner"
       }
     ],
     "gospelParallels": [
@@ -264,7 +269,7 @@
       },
       {
         "ref": "Psalm 118:22-23",
-        "note": "\"The stone the builders rejected\" \u2014 quoted directly by Jesus at the close of the parable of the tenants."
+        "note": "\"The stone the builders rejected\" — quoted directly by Jesus at the close of the parable of the tenants."
       }
     ],
     "mapCoords": {
@@ -273,31 +278,158 @@
       "zoom": 10.5,
       "placeName": "The Temple Mount, Jerusalem"
     },
-    "sparkNotes": "Jesus enters Jerusalem on a donkey to shouts of \"Hosanna,\" then overturns the money changers' tables in the temple. \"Hosanna\" appears only in the Gospel accounts of this one event, nowhere else in the New Testament \u2014 fulfilling Zechariah 9:9's centuries-old prophecy of a gentle king riding a donkey.",
+    "sparkNotes": "Jesus enters Jerusalem on a donkey to shouts of \"Hosanna,\" then overturns the money changers' tables in the temple. \"Hosanna\" appears only in the Gospel accounts of this one event, nowhere else in the New Testament — fulfilling Zechariah 9:9's centuries-old prophecy of a gentle king riding a donkey.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry reads the fig tree as a picture of hypocrisy in general \u2014 leaves without fruit, a plausible show without real substance, which withers as soon as it's tested. He draws a pointed, sobering connection forward: how quickly the nation's own \"fig tree\" would wither after the crowd's cry a few days later, \"His blood be on us, and our children.\"",
+        "note": "Henry reads the fig tree as a picture of hypocrisy in general — leaves without fruit, a plausible show without real substance, which withers as soon as it's tested. He draws a pointed, sobering connection forward: how quickly the nation's own \"fig tree\" would wither after the crowd's cry a few days later, \"His blood be on us, and our children.\"",
         "url": "https://bible.somd.com/henry/H40C021.shtml"
       },
       {
         "source": "John MacArthur",
         "year": "1980s",
-        "note": "MacArthur frames the temple cleansing and the fig tree's cursing as two connected acts of the same sovereign authority \u2014 one denouncing corrupted religion, the other denouncing a fruitless nation. He notes that Matthew compresses two mornings (the cursing and the discovery of it withered) into one continuous account, a common and accepted way ancient historians told a story.",
+        "note": "MacArthur frames the temple cleansing and the fig tree's cursing as two connected acts of the same sovereign authority — one denouncing corrupted religion, the other denouncing a fruitless nation. He notes that Matthew compresses two mornings (the cursing and the discovery of it withered) into one continuous account, a common and accepted way ancient historians told a story.",
         "url": "https://www.gty.org/library/sermons-library/2352/the-way-of-the-fig-tree-promise-without-performance"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill notes that Bethphage itself means 'house of figs,' named for the fig trees covering that stretch of the Mount of Olives \u2014 which makes it a striking detail that Jesus' triumphal entry begins from a place named for figs, just two days before He curses a fig tree found full of leaves but no fruit nearby.",
+        "note": "Gill notes that Bethphage itself means 'house of figs,' named for the fig trees covering that stretch of the Mount of Olives — which makes it a striking detail that Jesus' triumphal entry begins from a place named for figs, just two days before He curses a fig tree found full of leaves but no fruit nearby.",
         "url": "https://www.studylight.org/commentaries/eng/geb/matthew-21.html"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_Christ's_Entry_into_Jerusalem.jpg",
-      "caption": "Christ's Entry into Jerusalem, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Christ's Entry into Jerusalem, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus rides a donkey into Jerusalem to shouts of Hosanna, then drives the sellers from the temple. He curses a fig tree, answers questions about His authority, and tells parables about two sons and wicked tenants.",
+      "settingLine": "The Mount of Olives, then Jerusalem's temple.",
+      "placeName": "Mount of Olives, Jerusalem",
+      "history": [
+        {
+          "h": "Passover Crowds",
+          "t": "Pilgrims filled Jerusalem for Passover, ready to cheer a king."
+        },
+        {
+          "h": "Temple Business",
+          "t": "The temple ran on Tyrian silver, so money changers worked in the courts."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Donkey Ride",
+          "t": "A king on a donkey meant peace, not war, unlike a king on a war horse."
+        },
+        {
+          "h": "Cloaks and Branches",
+          "t": "Spreading cloaks and branches on the road honored a king."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Temple Mount",
+          "t": "Herod's huge platform still stands, with steps where crowds gathered."
+        },
+        {
+          "h": "Tyrian Shekels",
+          "t": "Tyrian silver shekels, used for the temple tax, are common finds in Jerusalem."
+        }
+      ],
+      "discussion": "The crowd shouted \"Hosanna\" for a gentle king. What were they really hoping for?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative and parables",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 11:1-11": "Triumphal entry",
+        "Zechariah 9:9": "A king on a donkey",
+        "Isaiah 56:7 / Jeremiah 7:11": "House of prayer, den of thieves"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Crowds",
+          "d": "Hosanna"
+        },
+        {
+          "n": "Merchants",
+          "d": "Driven out"
+        },
+        {
+          "n": "Priests",
+          "d": "Challenge"
+        },
+        {
+          "n": "Bethphage",
+          "d": "Donkey village"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "The ride",
+          "label": "Entry on a donkey"
+        },
+        {
+          "when": "Then",
+          "label": "Temple cleared"
+        },
+        {
+          "when": "Morning",
+          "label": "Fig tree withers"
+        },
+        {
+          "when": "In temple",
+          "label": "Authority questioned"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Mount of Olives, Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          1,
+          10,
+          18
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          1
+        ],
+        "slug": "mount-of-olives"
+      },
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          17
+        ],
+        "slug": "bethany-1"
+      },
+      {
+        "name": "Bethphage",
+        "lat": 31.7776,
+        "lng": 35.2508,
+        "verses": [
+          1
+        ],
+        "slug": "bethphage"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

@@ -164,7 +164,8 @@
         "english": "born again",
         "greek": "γεννηθῇ ἄνωθεν (gennēthē anōthen)",
         "verseRef": "v.3, 7",
-        "meaning": "The Greek word anōthen genuinely carries both senses at once — \"again\" and \"from above\" — which is likely exactly why Nicodemus misunderstands Jesus as talking about a literal second physical birth."
+        "meaning": "The Greek word anōthen genuinely carries both senses at once — \"again\" and \"from above\" — which is likely exactly why Nicodemus misunderstands Jesus as talking about a literal second physical birth.",
+        "gloss": "Born from above"
       },
       {
         "english": "world",
@@ -179,13 +180,15 @@
             "1 Corinthians 1:27"
           ],
           "note": "John uses this word far more than any other New Testament writer — it's one of his signature terms."
-        }
+        },
+        "gloss": "The world, mankind"
       },
       {
         "english": "eternal life",
         "greek": "ζωὴν αἰώνιον (zōēn aiōnion)",
         "verseRef": "v.15-16, 36",
-        "meaning": "Not simply endless duration, but a whole different quality of life belonging to God's own kingdom — a life John presents as already available now to whoever believes, not only after death."
+        "meaning": "Not simply endless duration, but a whole different quality of life belonging to God's own kingdom — a life John presents as already available now to whoever believes, not only after death.",
+        "gloss": "Life of the age to come"
       }
     ],
     "gospelParallels": [],
@@ -227,12 +230,135 @@
         "year": "1740s",
         "note": "Gill notes the real historical shape of John's decrease: not just in public esteem, but quite literally in circumstance — 'quickly after this he was put into prison, and there put to death.' His willing decrease wasn't abstract humility; it led directly and soon to his own execution.",
         "url": "https://www.studylight.org/commentary/john/3-30.html"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on John 3 verse by verse, but \"Making and Begetting\" in <em>Mere Christianity</em> explains why Jesus is called the only begotten Son (v.16). He says that to beget is to bring forth something of the same kind as yourself, while to make is to produce something different, like a man who begets a child but builds a statue. He then argues that the new birth in verses 3-8 is meant to turn creatures into sons, a different kind of life from the one we have by nature. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://restlesspilgrim.net/blog/?p=65366"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Interview_between_Jesus_and_Nicodemus_(Entretien_de_J%C3%A9sus_et_de_Nicod%C3%A8me)_-_James_Tissot.jpg",
       "caption": "Interview between Jesus and Nicodemus, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "At night Nicodemus, a Pharisee, visits Jesus, who tells him he must be born from above. Jesus explains that God so loved the world that He gave His Son, and John the Baptist says he must decrease while Jesus increases.",
+      "settingLine": "Jerusalem at night, then the Judean countryside.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Nicodemus",
+          "t": "A member of the Sanhedrin and a respected teacher of Israel."
+        },
+        {
+          "h": "Two Baptizers",
+          "t": "Jesus' disciples and John both baptized at once, which stirred rivalry."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Night Visit",
+          "t": "Teachers often studied by night, away from crowds and scrutiny."
+        },
+        {
+          "h": "Wind and Spirit",
+          "t": "Hebrew and Greek use one word for wind, breath and spirit."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Mikveh Pools",
+          "t": "Stepped ritual baths are found across Jerusalem from this period."
+        },
+        {
+          "h": "Hezekiah's Tunnel",
+          "t": "A water tunnel still runs beneath the old city from the Gihon Spring."
+        }
+      ],
+      "discussion": "Jesus told Nicodemus he must be born again. What does a fresh start look like for someone already religious?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Dialogue and teaching",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Numbers 21:4-9": "The bronze serpent",
+        "Ezekiel 36:25-27": "A new heart and spirit",
+        "Genesis 22:1-14": "Abraham's only son"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Nicodemus",
+          "d": "A Pharisee"
+        },
+        {
+          "n": "Jesus",
+          "d": "The teacher"
+        },
+        {
+          "n": "John",
+          "d": "Baptizing"
+        },
+        {
+          "n": "Aenon",
+          "d": "Many springs"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Night",
+          "label": "Nicodemus visits"
+        },
+        {
+          "when": "Teaching",
+          "label": "Born from above"
+        },
+        {
+          "when": "Judea",
+          "label": "Jesus baptizes"
+        },
+        {
+          "when": "John",
+          "label": "He must increase"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          22
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Aenon",
+        "lat": 32.3815,
+        "lng": 35.5282,
+        "verses": [
+          23
+        ],
+        "slug": "aenon"
+      },
+      {
+        "name": "Salim",
+        "lat": 32.3992,
+        "lng": 35.5264,
+        "verses": [
+          23
+        ],
+        "slug": "salim"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.8
   }
 }

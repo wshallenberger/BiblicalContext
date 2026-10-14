@@ -168,7 +168,8 @@
             "Luke 15:7",
             "Acts 2:38"
           ]
-        }
+        },
+        "gloss": "Change your mind"
       },
       {
         "english": "disability",
@@ -182,13 +183,17 @@
             "Luke 8:2",
             "2 Corinthians 12:9"
           ]
-        }
+        },
+        "gloss": "Weakness, illness"
       },
       {
         "english": "daughter of Abraham",
         "greek": "θυγατέρα Ἀβραάμ (thygatera Abraam)",
         "verseRef": "v.16",
-        "meaning": "This title gives the woman the dignity of covenant standing in the very synagogue where she was ignored. Jesus sets it against the leader's claim that she should wait for another day."
+        "meaning": "This title gives the woman the dignity of covenant standing in the very synagogue where she was ignored. Jesus sets it against the leader's claim that she should wait for another day.",
+        "gloss": "Of Abraham's family",
+        "ovGreek": "θυγάτερα",
+        "ovEnglish": "Daughter"
       },
       {
         "english": "narrow",
@@ -308,6 +313,116 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Vine_Dresser_and_the_Fig_Tree_(Le_vigneron_et_le_figuier)_-_James_Tissot.jpg",
       "caption": "The Vine Dresser and the Fig Tree, by James Tissot (1886-1894), the parable of Luke 13:6-9",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus says tragedy is not proof of guilt and calls everyone to repent, then tells of a fig tree given one more year. He frees a bent woman on the Sabbath, warns of a narrow door, and grieves over Jerusalem.",
+      "settingLine": "Towns and synagogues on the road to Jerusalem.",
+      "placeName": "On the road to Jerusalem",
+      "history": [
+        {
+          "h": "Pilate's Cruelty",
+          "t": "Pilate killed Galilean worshipers at their sacrifices, shocking the whole region."
+        },
+        {
+          "h": "Herod Antipas",
+          "t": "Antipas ruled Galilee and had killed John, so a warning about him was no empty threat."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sabbath Care",
+          "t": "Many Jews allowed leading an animal to water on the Sabbath, which Jesus uses in His answer."
+        },
+        {
+          "h": "Mustard, Yeast",
+          "t": "Both were everyday items, so small things growing large was easy to picture."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Pool of Siloam",
+          "t": "The first-century pool was uncovered in 2004, with stone steps used by pilgrims."
+        },
+        {
+          "h": "Pilate Stone",
+          "t": "A stone found at Caesarea in 1961 names Pontius Pilate as prefect of Judea."
+        }
+      ],
+      "discussion": "Jesus said victims of tragedy were no worse sinners than others. How should we think about suffering and blame?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and teaching",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 13:31-33": "Mustard seed and yeast",
+        "Isaiah 5:1-7": "The vineyard song",
+        "Daniel 4:12": "A tree sheltering birds"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pilate",
+          "d": "Roman governor"
+        },
+        {
+          "n": "Herod",
+          "d": "\"That fox\""
+        },
+        {
+          "n": "Bent woman",
+          "d": "Healed"
+        },
+        {
+          "n": "Siloam",
+          "d": "Tower and pool"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "News",
+          "label": "Pilate's victims"
+        },
+        {
+          "when": "Parable",
+          "label": "Barren fig tree"
+        },
+        {
+          "when": "Sabbath",
+          "label": "Bent woman freed"
+        },
+        {
+          "when": "Warning",
+          "label": "Herod and Jerusalem"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day On the road to Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          4,
+          22,
+          33,
+          34
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Siloam",
+        "lat": 31.7706,
+        "lng": 35.235,
+        "verses": [
+          4
+        ],
+        "slug": "siloam"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

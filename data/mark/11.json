@@ -118,7 +118,7 @@
     },
     {
       "num": 30,
-      "text": "John's baptism\u2014was it from heaven or from men? Answer Me!\""
+      "text": "John's baptism—was it from heaven or from men? Answer Me!\""
     },
     {
       "num": 31,
@@ -135,40 +135,44 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 the opening of Passion Week, framing a temple confrontation between two halves of a single symbolic story about a fig tree",
+    "genre": "Narrative Gospel — the opening of Passion Week, framing a temple confrontation between two halves of a single symbolic story about a fig tree",
     "audience": "Roman Christian readers, watching Jesus openly claim messianic identity in the most public, contested space in Judaism",
     "mapLabel": "JERUSALEM, MOUNT OF OLIVES",
-    "setting": "Passover week, when Jerusalem's population swelled several times over with pilgrims. Jesus enters from the east, crossing the Mount of Olives through Bethphage and Bethany \u2014 a route soaked in messianic expectation, since pilgrims approaching from that direction were already primed to look for a king.",
-    "custom": "Spreading cloaks and branches on the road was a recognized way to honor entering royalty. Money-changers in the temple exchanged ordinary coinage for the special Tyrian shekels required for temple offerings, and dove-sellers supplied birds for the poor's sacrifices \u2014 legitimate services in principle, but ones Jesus judged had become exploitative and profit-driven.",
-    "timelineImmediate": "Mark deliberately splits the fig tree story into two halves (cursed in v.12-14, found withered in v.20-25) and wraps the temple cleansing inside them \u2014 a literary technique called intercalation, using the fig tree as a living commentary on the temple's own fruitlessness.",
+    "setting": "Passover week, when Jerusalem's population swelled several times over with pilgrims. Jesus enters from the east, crossing the Mount of Olives through Bethphage and Bethany — a route soaked in messianic expectation, since pilgrims approaching from that direction were already primed to look for a king.",
+    "custom": "Spreading cloaks and branches on the road was a recognized way to honor entering royalty. Money-changers in the temple exchanged ordinary coinage for the special Tyrian shekels required for temple offerings, and dove-sellers supplied birds for the poor's sacrifices — legitimate services in principle, but ones Jesus judged had become exploitative and profit-driven.",
+    "timelineImmediate": "Mark deliberately splits the fig tree story into two halves (cursed in v.12-14, found withered in v.20-25) and wraps the temple cleansing inside them — a literary technique called intercalation, using the fig tree as a living commentary on the temple's own fruitlessness.",
     "timelineBible": "The crowd's shout directly quotes Psalm 118:25-26, a pilgrim psalm sung ascending to the temple at Passover, while Jesus' donkey-riding entry fulfills Zechariah 9:9's centuries-old picture of a humble, peaceable king.",
-    "sparkNotes": "Jesus enters Jerusalem on a colt to shouts of \"Hosanna,\" fulfilling Zechariah's prophecy of a humble king, then curses a fruitless fig tree and overturns the money changers' tables in the temple \u2014 two acts Mark deliberately weaves together as one message about hollow, fruitless religion. When religious leaders demand to know His authority, Jesus answers with a question about John the Baptist they're too afraid to answer either way.",
+    "sparkNotes": "Jesus enters Jerusalem on a colt to shouts of \"Hosanna,\" fulfilling Zechariah's prophecy of a humble king, then curses a fruitless fig tree and overturns the money changers' tables in the temple — two acts Mark deliberately weaves together as one message about hollow, fruitless religion. When religious leaders demand to know His authority, Jesus answers with a question about John the Baptist they're too afraid to answer either way.",
     "translation": [
       {
         "english": "Hosanna",
-        "greek": "\u1f61\u03c3\u03b1\u03bd\u03bd\u03ac (h\u014dsanna)",
+        "greek": "ὡσαννά (hōsanna)",
         "verseRef": "v.9-10",
-        "meaning": "A transliteration of a Hebrew cry meaning \"save, we pray\" \u2014 originally a plea, it had become a shout of praise drawn from Psalm 118.",
+        "meaning": "A transliteration of a Hebrew cry meaning \"save, we pray\" — originally a plea, it had become a shout of praise drawn from Psalm 118.",
         "occurrences": {
           "total": 6,
           "sampleRefs": [
             "Matthew 21:9",
             "John 12:13"
           ],
-          "note": "Used only in the four Gospel accounts of this one event \u2014 nowhere else in the New Testament."
-        }
+          "note": "Used only in the four Gospel accounts of this one event — nowhere else in the New Testament."
+        },
+        "gloss": "Save, we pray"
       },
       {
         "english": "den of robbers",
-        "greek": "\u03c3\u03c0\u03ae\u03bb\u03b1\u03b9\u03bf\u03bd \u03bb\u1fc3\u03c3\u03c4\u1ff6\u03bd (sp\u0113laion l\u0113st\u014dn)",
+        "greek": "σπήλαιον λῃστῶν (spēlaion lēstōn)",
         "verseRef": "v.17",
-        "meaning": "Jesus pairs two Old Testament quotes back to back \u2014 Isaiah's vision of a house of prayer for all nations against Jeremiah's rebuke of a temple turned safe haven for wrongdoing."
+        "meaning": "Jesus pairs two Old Testament quotes back to back — Isaiah's vision of a house of prayer for all nations against Jeremiah's rebuke of a temple turned safe haven for wrongdoing.",
+        "gloss": "A hideout for bandits",
+        "ovGreek": "σπήλαιον λῃστῶν",
+        "ovEnglish": "Den of robbers"
       },
       {
         "english": "faith",
-        "greek": "\u03c0\u03af\u03c3\u03c4\u03b9\u03bd (pistin)",
+        "greek": "πίστιν (pistin)",
         "verseRef": "v.22",
-        "meaning": "Trust and belief in action \u2014 Jesus' one-line teaching launches directly into His striking claim about mountain-moving prayer.",
+        "meaning": "Trust and belief in action — Jesus' one-line teaching launches directly into His striking claim about mountain-moving prayer.",
         "occurrences": {
           "total": 243,
           "sampleRefs": [
@@ -176,7 +180,8 @@
             "Hebrews 11:1",
             "James 2:17"
           ]
-        }
+        },
+        "gloss": "Trust, belief"
       }
     ],
     "gospelParallels": [
@@ -196,7 +201,7 @@
     "otBackground": [
       {
         "ref": "Zechariah 9:9",
-        "note": "The King coming \"righteous and having salvation, gentle and riding on a donkey\" \u2014 directly fulfilled in Jesus' entry."
+        "note": "The King coming \"righteous and having salvation, gentle and riding on a donkey\" — directly fulfilled in Jesus' entry."
       },
       {
         "ref": "Psalm 118:25-26",
@@ -217,26 +222,156 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry reads the fig tree's curse as \"the reverse of the first blessing, Be fruitful\" \u2014 a deliberate echo of Genesis, turning God's original command to creation into its opposite for a tree that only pretended fruitfulness through its leaves. He treats it as a type of the Jewish religious establishment: full of impressive outward show, but no actual fruit for Christ to find.",
+        "note": "Henry reads the fig tree's curse as \"the reverse of the first blessing, Be fruitful\" — a deliberate echo of Genesis, turning God's original command to creation into its opposite for a tree that only pretended fruitfulness through its leaves. He treats it as a type of the Jewish religious establishment: full of impressive outward show, but no actual fruit for Christ to find.",
         "url": "https://biblehub.com/commentaries/mhcw/mark/11.htm"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry notes Mark deliberately splits the fig tree story into two halves, wrapping the temple cleansing inside it \u2014 the cursing happens on one morning, the withering is discovered the next, with the temple incident sitting between them. Read together, the withered tree becomes a living commentary on exactly what Jesus found wrong with the temple: outward show without inward fruit.",
+        "note": "Henry notes Mark deliberately splits the fig tree story into two halves, wrapping the temple cleansing inside it — the cursing happens on one morning, the withering is discovered the next, with the temple incident sitting between them. Read together, the withered tree becomes a living commentary on exactly what Jesus found wrong with the temple: outward show without inward fruit.",
         "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/mark/11"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle calls the fig tree episode 'a parable in deeds, as full of meaning as any of our Lord's parables in words' \u2014 rich in the leaves of a formal religion, but barren of any actual fruit, standing as a living warning to 'the Jewish Church' of that very generation.",
+        "note": "Ryle calls the fig tree episode 'a parable in deeds, as full of meaning as any of our Lord's parables in words' — rich in the leaves of a formal religion, but barren of any actual fruit, standing as a living warning to 'the Jewish Church' of that very generation.",
         "url": "https://www.preceptaustin.org/j-c-ryle-gospel-of-mark-commentary"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_Christ's_Entry_into_Jerusalem.jpg",
-      "caption": "Christ's Entry into Jerusalem, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Christ's Entry into Jerusalem, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus rides a colt into Jerusalem as crowds shout Hosanna. He curses a fig tree, drives the sellers from the temple, and is challenged by the chief priests about His authority.",
+      "settingLine": "The Mount of Olives, then the temple.",
+      "placeName": "Mount of Olives, Jerusalem",
+      "history": [
+        {
+          "h": "Passover Pilgrims",
+          "t": "Crowds filled the city, eager to cheer a king."
+        },
+        {
+          "h": "The Temple Court",
+          "t": "Buying and selling filled the Court of the Gentiles, the only place nations could pray."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Palm and Cloak",
+          "t": "Spreading cloaks and leafy branches on the road honored a king."
+        },
+        {
+          "h": "Donkey",
+          "t": "A king on a donkey came in peace, not on a war horse."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Temple Mount",
+          "t": "Herod's huge platform survives, with the steps used by pilgrims."
+        },
+        {
+          "h": "Pilgrim Road",
+          "t": "A stepped street ran from the Pool of Siloam up to the temple."
+        }
+      ],
+      "discussion": "The crowd cheered for a king who never fit their plan. What plans do we hope Jesus will bless?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 21:1-22": "Entry, cleansing, fig tree",
+        "Zechariah 9:9": "A king on a donkey",
+        "Psalm 118:25-26": "Hosanna"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The crowd",
+          "d": "Shout Hosanna"
+        },
+        {
+          "n": "Disciples",
+          "d": "Fetch the colt"
+        },
+        {
+          "n": "Merchants",
+          "d": "Driven out"
+        },
+        {
+          "n": "Priests",
+          "d": "Challenge"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Bethphage",
+          "label": "Colt fetched"
+        },
+        {
+          "when": "The ride",
+          "label": "Hosanna"
+        },
+        {
+          "when": "Next day",
+          "label": "Fig tree, temple"
+        },
+        {
+          "when": "Morning",
+          "label": "Withered tree"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Mount of Olives, Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          1,
+          11,
+          15,
+          27
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          1
+        ],
+        "slug": "mount-of-olives"
+      },
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          1,
+          11,
+          12
+        ],
+        "slug": "bethany-1"
+      },
+      {
+        "name": "Bethphage",
+        "lat": 31.7776,
+        "lng": 35.2508,
+        "verses": [
+          1
+        ],
+        "slug": "bethphage"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

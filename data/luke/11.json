@@ -243,7 +243,8 @@
             "Matthew 6:11"
           ],
           "note": "Only here and in Matthew 6:11."
-        }
+        },
+        "gloss": "For the coming day"
       },
       {
         "english": "persistence",
@@ -256,7 +257,8 @@
             "Luke 11:8"
           ],
           "note": "The only time this word appears in the New Testament."
-        }
+        },
+        "gloss": "Shameless boldness"
       },
       {
         "english": "Beelzebul",
@@ -270,7 +272,8 @@
             "Mark 3:22",
             "Luke 11:15"
           ]
-        }
+        },
+        "gloss": "A name for Satan"
       }
     ],
     "gospelParallels": [
@@ -373,6 +376,92 @@
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/065.jpg",
       "caption": "The Dumb Man Possessed, by Gustave Doré (1866)",
       "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "A disciple asks Jesus to teach them to pray, and He gives a short prayer and a lesson on persistence. Accused of casting out demons by Beelzebul, He answers and points to the sign of Jonah. At a Pharisee's meal, He pronounces woes on the religious leaders.",
+      "settingLine": "The road to Jerusalem, ending at a Pharisee's meal.",
+      "placeName": "On the road to Jerusalem",
+      "history": [
+        {
+          "h": "Jewish Prayer",
+          "t": "Teachers often gave followers a short prayer, and John had done this for his own."
+        },
+        {
+          "h": "Pharisees",
+          "t": "Pharisees were respected for strict purity and tithing, which makes Jesus' woes startling."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Midnight Guest",
+          "t": "A village home had one room, so waking for a late guest meant waking the whole family."
+        },
+        {
+          "h": "Hand Washing",
+          "t": "Pharisees washed before meals for purity, so Jesus skipping it was noticed."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Nineveh",
+          "t": "Excavations uncovered Assyria's great palaces and a library of clay tablets."
+        },
+        {
+          "h": "Ritual Baths",
+          "t": "Stepped baths found across Judea reflect the purity concern behind these meals."
+        }
+      ],
+      "discussion": "Jesus said to ask, seek and knock, yet some prayers go unanswered. How do we read that promise honestly?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Teaching and controversy",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 6:9-13": "Longer Lord's Prayer",
+        "Exodus 8:19": "\"Finger of God\"",
+        "Jonah 3:1-10": "Nineveh repents"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Disciples",
+          "d": "Ask for prayer"
+        },
+        {
+          "n": "Beelzebul",
+          "d": "Demon ruler"
+        },
+        {
+          "n": "Jonah",
+          "d": "Sign of Nineveh"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Dinner host"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Praying",
+          "label": "Lord's Prayer"
+        },
+        {
+          "when": "Then",
+          "label": "Persistent friend"
+        },
+        {
+          "when": "Accused",
+          "label": "Beelzebul answer"
+        },
+        {
+          "when": "A meal",
+          "label": "Woes pronounced"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day On the road to Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

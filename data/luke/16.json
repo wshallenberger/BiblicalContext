@@ -152,7 +152,8 @@
             "Luke 16:9",
             "Luke 16:13"
           ]
-        }
+        },
+        "gloss": "Money, wealth"
       },
       {
         "english": "shrewdly",
@@ -164,7 +165,8 @@
           "sampleRefs": [
             "Luke 16:8"
           ]
-        }
+        },
+        "gloss": "Wisely, with foresight"
       },
       {
         "english": "Hades",
@@ -178,7 +180,8 @@
             "Acts 2:27",
             "Revelation 20:13"
           ]
-        }
+        },
+        "gloss": "The realm of the dead"
       },
       {
         "english": "chasm",
@@ -278,6 +281,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Poor_Lazarus_at_the_Rich_Man's_Door_(Le_pauvre_Lazare_à_la_porte_du_riche)_-_James_Tissot.jpg",
       "caption": "The Poor Lazarus at the Rich Man's Door, by James Tissot (1886-1894), Luke 16:19-21",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus tells of a manager facing dismissal who cuts his master's debts, and teaches that no one can serve both God and money. The Pharisees sneer, so He tells of a rich man who ignored Lazarus, and their places are reversed after death.",
+      "settingLine": "The road, then a rich man's gate in a story.",
+      "placeName": "On the road to Jerusalem",
+      "history": [
+        {
+          "h": "Large Estates",
+          "t": "Wealthy landowners used managers and rented land to tenants who paid in oil or grain."
+        },
+        {
+          "h": "Love of Money",
+          "t": "Luke says the Pharisees loved money, so Jesus' warning struck close to home."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Commissions",
+          "t": "Managers often added a commission to debts, which this manager may have cut from his own share."
+        },
+        {
+          "h": "At the Gate",
+          "t": "Lazarus lay at the gate with dogs licking his sores, showing how complete his neglect was."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Olive Presses",
+          "t": "Stone olive presses across Galilee show how important oil was for trade."
+        },
+        {
+          "h": "Rock Tombs",
+          "t": "Rich men's rock-cut tombs near Jerusalem show how wealth marked even burial."
+        }
+      ],
+      "discussion": "The rich man never harmed Lazarus. He simply ignored him. How can neglect be a serious sin?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Parables and teaching",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 6:24": "God and money",
+        "Deuteronomy 15:7-11": "Open hand to the poor",
+        "Isaiah 58:6-7": "True fasting is justice"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Manager",
+          "d": "Steward"
+        },
+        {
+          "n": "Master",
+          "d": "Praised him"
+        },
+        {
+          "n": "Lazarus",
+          "d": "Poor man"
+        },
+        {
+          "n": "Abraham",
+          "d": "In the story"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Parable",
+          "label": "Shrewd manager"
+        },
+        {
+          "when": "Teaching",
+          "label": "God or money"
+        },
+        {
+          "when": "Parable",
+          "label": "Rich man, Lazarus"
+        },
+        {
+          "when": "After death",
+          "label": "Roles reversed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day On the road to Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

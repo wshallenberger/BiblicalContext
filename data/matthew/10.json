@@ -175,19 +175,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "A commissioning discourse \u2014 Jesus' instructions to the Twelve, framed within brief narrative (naming them, sending them out).",
+    "genre": "A commissioning discourse — Jesus' instructions to the Twelve, framed within brief narrative (naming them, sending them out).",
     "audience": "Directly, the Twelve apostles He names and sends; by extension, every future messenger and missionary reading Matthew's Gospel afterward.",
     "mapLabel": "GALILEE, SENT OUT ACROSS ISRAEL",
-    "setting": "Likely around AD 28-29, under Roman occupation. Jewish expectation of a conquering Messiah ran high \u2014 Jesus instead commissions unarmed, itinerant healers who preach repentance rather than revolt.",
-    "custom": "Shaking dust off one's feet (v.14) was a rabbinic act normally used when leaving Gentile territory, to symbolize separation from defilement \u2014 using it against unwelcoming Jewish towns would have been a startling reversal. Synagogue leaders could legally administer up to 39 lashes (Deuteronomy 25:3), the punishment Jesus warns His disciples to expect in v.17.",
-    "timelineImmediate": "A turning point in the Gospel \u2014 Jesus names the Twelve and sends them out to extend His own ministry, the first time His authority is delegated to others.",
-    "timelineBible": "Jesus deliberately limits this first mission to Israel alone (v.5-6), previewing the far wider Great Commission to \"all nations\" that will close the Gospel in Matthew 28:19 \u2014 a narrowing here that sets up the eventual widening.",
+    "setting": "Likely around AD 28-29, under Roman occupation. Jewish expectation of a conquering Messiah ran high — Jesus instead commissions unarmed, itinerant healers who preach repentance rather than revolt.",
+    "custom": "Shaking dust off one's feet (v.14) was a rabbinic act normally used when leaving Gentile territory, to symbolize separation from defilement — using it against unwelcoming Jewish towns would have been a startling reversal. Synagogue leaders could legally administer up to 39 lashes (Deuteronomy 25:3), the punishment Jesus warns His disciples to expect in v.17.",
+    "timelineImmediate": "A turning point in the Gospel — Jesus names the Twelve and sends them out to extend His own ministry, the first time His authority is delegated to others.",
+    "timelineBible": "Jesus deliberately limits this first mission to Israel alone (v.5-6), previewing the far wider Great Commission to \"all nations\" that will close the Gospel in Matthew 28:19 — a narrowing here that sets up the eventual widening.",
     "translation": [
       {
         "english": "apostles",
-        "greek": "\u1f00\u03c0\u03cc\u03c3\u03c4\u03bf\u03bb\u03bf\u03b9 (apostoloi)",
+        "greek": "ἀπόστολοι (apostoloi)",
         "verseRef": "v.2",
-        "meaning": "Literally \"ones sent\" \u2014 the term marks a formal commissioning, not just a follower.",
+        "meaning": "Literally \"ones sent\" — the term marks a formal commissioning, not just a follower.",
         "occurrences": {
           "total": 80,
           "sampleRefs": [
@@ -195,14 +195,15 @@
             "Acts 1:26",
             "Romans 1:1"
           ],
-          "note": "Of its 80 New Testament uses, 68 fall in Luke's writings (his Gospel and Acts) and Paul's letters \u2014 this single mention in Matthew 10:2 is notably rare for this Gospel."
-        }
+          "note": "Of its 80 New Testament uses, 68 fall in Luke's writings (his Gospel and Acts) and Paul's letters — this single mention in Matthew 10:2 is notably rare for this Gospel."
+        },
+        "gloss": "Those sent out"
       },
       {
         "english": "kingdom",
-        "greek": "\u03b2\u03b1\u03c3\u03b9\u03bb\u03b5\u03af\u03b1 (basileia)",
+        "greek": "βασιλεία (basileia)",
         "verseRef": "v.7",
-        "meaning": "Same word as in chapters 5-6 \u2014 God's present reign now, and the literal kingdom still to come at Christ's return, the core of the message the Twelve are sent to preach.",
+        "meaning": "Same word as in chapters 5-6 — God's present reign now, and the literal kingdom still to come at Christ's return, the core of the message the Twelve are sent to preach.",
         "occurrences": {
           "total": 163,
           "sampleRefs": [
@@ -211,13 +212,14 @@
             "1 Corinthians 15:24",
             "Revelation 12:10"
           ]
-        }
+        },
+        "gloss": "Royal rule"
       },
       {
         "english": "persecute",
-        "greek": "\u03b4\u03b9\u03ce\u03be\u03bf\u03c5\u03c3\u03b9\u03bd (di\u014dxousin)",
+        "greek": "διώξουσιν (diōxousin)",
         "verseRef": "v.23",
-        "meaning": "To pursue or hunt down \u2014 conveys active hostility, not passive dislike.",
+        "meaning": "To pursue or hunt down — conveys active hostility, not passive dislike.",
         "occurrences": {
           "total": 44,
           "sampleRefs": [
@@ -225,13 +227,14 @@
             "Acts 9:4",
             "Romans 12:14"
           ]
-        }
+        },
+        "gloss": "To chase, hunt down"
       },
       {
         "english": "confesses",
-        "greek": "\u1f41\u03bc\u03bf\u03bb\u03bf\u03b3\u03ae\u03c3\u03b5\u03b9 (homolog\u0113sei)",
+        "greek": "ὁμολογήσει (homologēsei)",
         "verseRef": "v.32",
-        "meaning": "A public, formal declaration \u2014 the same word family used elsewhere for open testimony in court.",
+        "meaning": "A public, formal declaration — the same word family used elsewhere for open testimony in court.",
         "occurrences": {
           "total": 23,
           "sampleRefs": [
@@ -243,9 +246,9 @@
       },
       {
         "english": "worthy",
-        "greek": "\u1f04\u03be\u03b9\u03bf\u03c2 (axios)",
+        "greek": "ἄξιος (axios)",
         "verseRef": "v.11, 37-38",
-        "meaning": "Fitting or deserving \u2014 used repeatedly throughout the chapter to describe both hosts (v.11) and disciples' own priorities (v.37-38).",
+        "meaning": "Fitting or deserving — used repeatedly throughout the chapter to describe both hosts (v.11) and disciples' own priorities (v.37-38).",
         "occurrences": {
           "total": 41,
           "sampleRefs": [
@@ -276,7 +279,7 @@
     "otBackground": [
       {
         "ref": "Micah 7:6",
-        "note": "Family turned against family \u2014 quoted directly by Jesus in v.35-36."
+        "note": "Family turned against family — quoted directly by Jesus in v.35-36."
       },
       {
         "ref": "Isaiah 61:1",
@@ -298,26 +301,112 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry connects the number twelve directly to Israel's twelve tribes, casting the apostles as spiritual fathers meant to beget a new people for God. He also notes that the harshest warnings here \u2014 governors, kings, death itself \u2014 mostly outran what the Twelve actually faced on this first short mission; Jesus was preparing them for the far larger, harder commission still to come after His resurrection.",
+        "note": "Henry connects the number twelve directly to Israel's twelve tribes, casting the apostles as spiritual fathers meant to beget a new people for God. He also notes that the harshest warnings here — governors, kings, death itself — mostly outran what the Twelve actually faced on this first short mission; Jesus was preparing them for the far larger, harder commission still to come after His resurrection.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/10.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "On shaking the dust off one's feet (v.14), JFB notes this kind of symbolic, wordless gesture was common across ancient cultures, not unique to Israel \u2014 and observes it's still practiced in parts of the world today as a way of visibly renouncing responsibility for how a message was received.",
+        "note": "On shaking the dust off one's feet (v.14), JFB notes this kind of symbolic, wordless gesture was common across ancient cultures, not unique to Israel — and observes it's still practiced in parts of the world today as a way of visibly renouncing responsibility for how a message was received.",
         "url": "https://www.blueletterbible.org/Comm/jfb/Mat/Mat_010.cfm"
       },
       {
         "source": "Albert Barnes",
         "year": "1832",
-        "note": "Barnes grounds the sparrow illustration in real, observed detail \u2014 sparrows in that region were common, small, and famously bold, nesting almost anywhere without any sense of belonging. His logic runs simply: if God attends even to creatures this ordinary and this cheap, His care for people made in His image runs deeper still.",
+        "note": "Barnes grounds the sparrow illustration in real, observed detail — sparrows in that region were common, small, and famously bold, nesting almost anywhere without any sense of belonging. His logic runs simply: if God attends even to creatures this ordinary and this cheap, His care for people made in His image runs deeper still.",
         "url": "https://biblehub.com/commentaries/matthew/10-29.htm"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_He_Sent_them_out_Two_by_Two_(Il_les_envoya_deux_%C3%A0_deux)_-_James_Tissot_-_overall.jpg",
       "caption": "He Sent Them Out Two by Two, by James Tissot (1886-1896)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus calls the Twelve by name and sends them to the lost sheep of Israel with authority to heal. He warns them of persecution, tells them not to fear, and says that following Him may divide families.",
+      "settingLine": "Galilean towns, sending out the Twelve.",
+      "placeName": "Galilee",
+      "history": [
+        {
+          "h": "Lost Sheep",
+          "t": "The mission began with Israel's own towns before reaching beyond them."
+        },
+        {
+          "h": "Persecution",
+          "t": "Synagogue courts could flog members, and Roman governors could try them."
+        }
+      ],
+      "customs": [
+        {
+          "h": "No Extra Gear",
+          "t": "Traveling light made the Twelve depend on each town's hospitality."
+        },
+        {
+          "h": "Dust Off",
+          "t": "Shaking dust from the feet marked leaving non-Jewish land, so here it was a solemn warning."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Synagogues",
+          "t": "First-century synagogues at Gamla and Masada show where such courts met."
+        },
+        {
+          "h": "Small Coins",
+          "t": "Small bronze coins like the assarion are what Jesus says buys a sparrow."
+        }
+      ],
+      "discussion": "Jesus said He came \"not to bring peace, but a sword.\" What do you think He means?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Teaching and commissioning",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 3:13-19": "The Twelve named",
+        "Micah 7:6": "Households divided",
+        "Isaiah 61:1": "Good news to the poor"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Twelve",
+          "d": "Sent out"
+        },
+        {
+          "n": "Peter",
+          "d": "Named first"
+        },
+        {
+          "n": "Judas",
+          "d": "Named last"
+        },
+        {
+          "n": "Sodom",
+          "d": "Warning"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Called",
+          "label": "Twelve named"
+        },
+        {
+          "when": "Sent",
+          "label": "Heal and preach"
+        },
+        {
+          "when": "Warned",
+          "label": "Persecution ahead"
+        },
+        {
+          "when": "Promised",
+          "label": "Reward for welcome"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

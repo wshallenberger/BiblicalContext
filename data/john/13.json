@@ -172,19 +172,22 @@
         "english": "washed",
         "greek": "νίπτειν (niptein)",
         "verseRef": "v.5, 12, 14",
-        "meaning": "Specifically refers to washing a part of the body (as opposed to full bathing) — a word for an everyday, lowly household task, not a ceremonial or symbolic act in its ordinary usage."
+        "meaning": "Specifically refers to washing a part of the body (as opposed to full bathing) — a word for an everyday, lowly household task, not a ceremonial or symbolic act in its ordinary usage.",
+        "gloss": "To wash with water"
       },
       {
         "english": "new commandment",
         "greek": "ἐντολὴν καινήν (entolēn kainēn)",
         "verseRef": "v.34",
-        "meaning": "Not new in the sense that loving one's neighbor was never commanded before, but new in its standard — love measured against Jesus' own self-giving love, a fresh and much higher bar than anything commanded previously."
+        "meaning": "Not new in the sense that loving one's neighbor was never commanded before, but new in its standard — love measured against Jesus' own self-giving love, a fresh and much higher bar than anything commanded previously.",
+        "gloss": "A new command"
       },
       {
         "english": "betray",
         "greek": "παραδίδωμι (paradidōmi)",
         "verseRef": "v.2, 11, 21",
-        "meaning": "Literally \"to hand over\" or \"deliver up\" — the same word used throughout the Passion narrative for handing Jesus over to His accusers, giving Judas's specific betrayal a grim, almost legal precision."
+        "meaning": "Literally \"to hand over\" or \"deliver up\" — the same word used throughout the Passion narrative for handing Jesus over to His accusers, giving Judas's specific betrayal a grim, almost legal precision.",
+        "gloss": "To hand over"
       }
     ],
     "gospelParallels": [
@@ -245,6 +248,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Washing_of_the_Feet_(Le_lavement_des_pieds)_-_James_Tissot.jpg",
       "caption": "The Washing of the Feet, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "At supper Jesus washes His disciples' feet and says to do as He has done. He predicts that Judas will betray Him and Peter will deny Him, and gives a new commandment to love one another as He loved them.",
+      "settingLine": "An upper room in Jerusalem.",
+      "placeName": "Mount Zion, Jerusalem",
+      "history": [
+        {
+          "h": "Servant's Task",
+          "t": "Washing feet was the work of the lowest slave, not a teacher."
+        },
+        {
+          "h": "Passover Eve",
+          "t": "The meal took place just before the feast."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Dusty Roads",
+          "t": "People wore sandals on dusty roads, so a host provided water for feet."
+        },
+        {
+          "h": "Dipped Bread",
+          "t": "Giving a morsel to a guest honored him, which made the betrayal sharper."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Mount Zion",
+          "t": "The traditional room, called the Cenacle, stands in the Crusader-era building."
+        },
+        {
+          "h": "Basins",
+          "t": "Stone and clay basins for foot washing are found in wealthy Jerusalem homes."
+        }
+      ],
+      "discussion": "Jesus washed the feet of the one who would betray Him. What does that say about love?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Narrative and teaching",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 26:20-25": "Betrayer foretold",
+        "Psalm 41:9": "A friend lifts his heel",
+        "Isaiah 52:13-15": "The exalted servant"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Refuses, relents"
+        },
+        {
+          "n": "Judas",
+          "d": "Leaves"
+        },
+        {
+          "n": "Disciples",
+          "d": "Learn to serve"
+        },
+        {
+          "n": "The beloved",
+          "d": "Beside Jesus"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Supper",
+          "label": "Feet washed"
+        },
+        {
+          "when": "Teaching",
+          "label": "Servant example"
+        },
+        {
+          "when": "Dinner",
+          "label": "Betrayer named"
+        },
+        {
+          "when": "Then",
+          "label": "New commandment"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Mount Zion, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

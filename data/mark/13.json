@@ -142,7 +142,7 @@
     },
     {
       "num": 35,
-      "text": "Therefore keep watch, because you do not know when the master of the house will return\u2014whether in the evening, at midnight, when the rooster crows, or in the morning."
+      "text": "Therefore keep watch, because you do not know when the master of the house will return—whether in the evening, at midnight, when the rooster crows, or in the morning."
     },
     {
       "num": 36,
@@ -155,20 +155,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Apocalyptic discourse \u2014 Jesus' longest single teaching block in Mark, delivered privately to His four closest disciples on a mountainside overlooking the very temple He has just left",
+    "genre": "Apocalyptic discourse — Jesus' longest single teaching block in Mark, delivered privately to His four closest disciples on a mountainside overlooking the very temple He has just left",
     "audience": "Roman Christian readers, quite possibly already living through the persecution and upheaval this chapter describes, needing both warning and hope",
     "mapLabel": "MOUNT OF OLIVES",
-    "setting": "Seated on the Mount of Olives directly across the Kidron Valley from the temple, Jesus can see the very buildings He has just predicted will be leveled \u2014 a detail that gives His words unusual visual weight for the four disciples listening.",
-    "custom": "Fleeing to rooftops or leaving a field in progress reflects real first-century Judean village life, where houses had external staircases to flat roofs and fields lay just outside town \u2014 Jesus' warnings assume His listeners' actual physical surroundings.",
-    "timelineImmediate": "This is Jesus' last extended teaching before the Passion narrative begins in chapter 14 \u2014 a private discourse answering the disciples' question about the temple's coming destruction that widens into a broader picture of the era between His first and second coming.",
+    "setting": "Seated on the Mount of Olives directly across the Kidron Valley from the temple, Jesus can see the very buildings He has just predicted will be leveled — a detail that gives His words unusual visual weight for the four disciples listening.",
+    "custom": "Fleeing to rooftops or leaving a field in progress reflects real first-century Judean village life, where houses had external staircases to flat roofs and fields lay just outside town — Jesus' warnings assume His listeners' actual physical surroundings.",
+    "timelineImmediate": "This is Jesus' last extended teaching before the Passion narrative begins in chapter 14 — a private discourse answering the disciples' question about the temple's coming destruction that widens into a broader picture of the era between His first and second coming.",
     "timelineBible": "Jesus' description of the Son of Man \"coming in the clouds with great power and glory\" directly quotes Daniel 7:13-14's vision of an exalted figure given everlasting dominion, while the darkened sun and falling stars echo Isaiah 13:10 and Joel 2:10's earlier prophetic imagery for divine judgment.",
-    "sparkNotes": "Jesus predicts the temple's total destruction, then privately tells Peter, James, John, and Andrew what to watch for \u2014 wars, earthquakes, false messiahs, and a specific \"abomination of desolation\" that should trigger immediate flight. He closes by admitting even He doesn't know the exact day or hour, only the Father does, and presses the same point four different ways: stay awake, keep watch.",
+    "sparkNotes": "Jesus predicts the temple's total destruction, then privately tells Peter, James, John, and Andrew what to watch for — wars, earthquakes, false messiahs, and a specific \"abomination of desolation\" that should trigger immediate flight. He closes by admitting even He doesn't know the exact day or hour, only the Father does, and presses the same point four different ways: stay awake, keep watch.",
     "translation": [
       {
         "english": "birth pains",
-        "greek": "\u1f60\u03b4\u03af\u03bd\u03c9\u03bd (\u014ddin\u014dn)",
+        "greek": "ὠδίνων (ōdinōn)",
         "verseRef": "v.8",
-        "meaning": "The pains of labor and childbirth \u2014 used to describe early, escalating signs that point toward something inevitable, not yet the culmination itself.",
+        "meaning": "The pains of labor and childbirth — used to describe early, escalating signs that point toward something inevitable, not yet the culmination itself.",
         "occurrences": {
           "total": 4,
           "sampleRefs": [
@@ -177,13 +177,14 @@
             "1 Thessalonians 5:3"
           ],
           "note": "Also used once, strikingly, for \"the pains of death\" that could not hold Jesus in the tomb (Acts 2:24)."
-        }
+        },
+        "gloss": "Labor pains"
       },
       {
         "english": "gospel",
-        "greek": "\u03b5\u1f50\u03b1\u03b3\u03b3\u03ad\u03bb\u03b9\u03bf\u03bd (euangelion)",
+        "greek": "εὐαγγέλιον (euangelion)",
         "verseRef": "v.10",
-        "meaning": "The same word that opens the whole book in Mark 1:1 \u2014 here Jesus ties its worldwide proclamation directly to the timeline of the end.",
+        "meaning": "The same word that opens the whole book in Mark 1:1 — here Jesus ties its worldwide proclamation directly to the timeline of the end.",
         "occurrences": {
           "total": 76,
           "sampleRefs": [
@@ -191,13 +192,17 @@
             "Mark 1:1",
             "Mark 16:15"
           ]
-        }
+        },
+        "gloss": "Good news"
       },
       {
         "english": "abomination of desolation",
-        "greek": "\u03c4\u1f78 \u03b2\u03b4\u03ad\u03bb\u03c5\u03b3\u03bc\u03b1 \u03c4\u1fc6\u03c2 \u1f10\u03c1\u03b7\u03bc\u03ce\u03c3\u03b5\u03c9\u03c2 (to bdelygma t\u0113s er\u0113m\u014dse\u014ds)",
+        "greek": "τὸ βδέλυγμα τῆς ἐρημώσεως (to bdelygma tēs erēmōseōs)",
         "verseRef": "v.14",
-        "meaning": "A detestable act that causes desecration \u2014 directly quoting the phrase from the book of Daniel, which Jesus tells His hearers to \"understand\" by returning to that text themselves."
+        "meaning": "A detestable act that causes desecration — directly quoting the phrase from the book of Daniel, which Jesus tells His hearers to \"understand\" by returning to that text themselves.",
+        "gloss": "A detestable thing",
+        "ovGreek": "βδέλυγμα",
+        "ovEnglish": "Abomination"
       }
     ],
     "gospelParallels": [
@@ -217,11 +222,11 @@
       },
       {
         "ref": "Isaiah 13:10 / Joel 2:10",
-        "note": "Earlier prophetic images of cosmic upheaval \u2014 darkened sun, falling stars \u2014 echoed directly in v.24-25."
+        "note": "Earlier prophetic images of cosmic upheaval — darkened sun, falling stars — echoed directly in v.24-25."
       },
       {
         "ref": "Daniel 7:13-14",
-        "note": "The Son of Man receiving everlasting dominion and glory \u2014 directly quoted in Jesus' description of His own return."
+        "note": "The Son of Man receiving everlasting dominion and glory — directly quoted in Jesus' description of His own return."
       }
     ],
     "mapCoords": {
@@ -234,13 +239,13 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry notices the disciples trying to draw Jesus back into admiring the temple He'd just left in disgust \u2014 \"how apt many of Christ's own disciples are to idolize things that look great.\" His response, Henry notes, shows \"how little Christ values external pomp, where there is not real purity\": impressive architecture offers no protection when what it houses has gone rotten.",
+        "note": "Henry notices the disciples trying to draw Jesus back into admiring the temple He'd just left in disgust — \"how apt many of Christ's own disciples are to idolize things that look great.\" His response, Henry notes, shows \"how little Christ values external pomp, where there is not real purity\": impressive architecture offers no protection when what it houses has gone rotten.",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mar/Mar_013.cfm"
       },
       {
         "source": "Historical note",
         "year": "",
-        "note": "Ancient historians record that when Roman forces under Titus burned the temple in AD 70, gold decoration melted and ran into the cracks between the stones \u2014 leading soldiers to pry apart literally every stone in the search for it. Whatever the original intent behind Jesus' words, \"not one stone left upon another\" was fulfilled with striking, almost accidental literalness.",
+        "note": "Ancient historians record that when Roman forces under Titus burned the temple in AD 70, gold decoration melted and ran into the cracks between the stones — leading soldiers to pry apart literally every stone in the search for it. Whatever the original intent behind Jesus' words, \"not one stone left upon another\" was fulfilled with striking, almost accidental literalness.",
         "url": "https://www.nateholdridge.com/blog/reasons-the-olivet-discourse-points-to-future-events"
       },
       {
@@ -253,7 +258,105 @@
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Prophecy_of_the_Destruction_of_the_Temple_(La_pr%C3%A9dication_de_la_ruine_du_Temple)_-_James_Tissot.jpg",
       "caption": "The Prophecy of the Destruction of the Temple, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
-    }
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "As He leaves the temple, Jesus tells four disciples not one stone will stay on another. Sitting on the Mount of Olives He warns of deceivers, wars and persecution, the abomination of desolation, and the coming of the Son of Man.",
+      "settingLine": "The Mount of Olives, facing the temple.",
+      "placeName": "Mount of Olives, Jerusalem",
+      "history": [
+        {
+          "h": "The Temple",
+          "t": "Its white stone and gold made its fall seem unthinkable."
+        },
+        {
+          "h": "AD 70",
+          "t": "Rome burned the temple in AD 70, about forty years later."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Flat Roofs",
+          "t": "Roofs were living space with outside stairs, so fleeing meant not going back in."
+        },
+        {
+          "h": "Watches of Night",
+          "t": "Roman time divided night into four watches, and servants stayed alert."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Fallen Stones",
+          "t": "Huge stones thrown from the temple walls in AD 70 still lie on the street below."
+        },
+        {
+          "h": "Burnt House",
+          "t": "A burned house in Jerusalem's Jewish Quarter shows the fire of AD 70."
+        }
+      ],
+      "discussion": "Jesus said no one knows the day or hour, only to stay awake. What does staying awake look like for you?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Prophetic discourse",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 24:1-51": "The Olivet discourse",
+        "Daniel 9:27 / 11:31 / 12:11": "Desolating abomination",
+        "Isaiah 13:10 / Joel 2:10": "Sun and moon darkened"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter, James",
+          "d": "Ask when"
+        },
+        {
+          "n": "John, Andrew",
+          "d": "Ask when"
+        },
+        {
+          "n": "False christs",
+          "d": "Deceivers"
+        },
+        {
+          "n": "The Son of Man",
+          "d": "Returns"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Leaving",
+          "label": "Temple's fall foretold"
+        },
+        {
+          "when": "Question",
+          "label": "Signs asked"
+        },
+        {
+          "when": "Warnings",
+          "label": "Troubles ahead"
+        },
+        {
+          "when": "Finally",
+          "label": "Stay awake"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Mount of Olives, Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          3
+        ],
+        "slug": "mount-of-olives"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

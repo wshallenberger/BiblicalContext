@@ -143,19 +143,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Teaching discourse \u2014 the fourth of Jesus' five major blocks of teaching in Matthew, focused entirely on how the community of disciples should treat one another.",
+    "genre": "Teaching discourse — the fourth of Jesus' five major blocks of teaching in Matthew, focused entirely on how the community of disciples should treat one another.",
     "audience": "Jesus' disciples directly, and by extension every faith community reading Matthew's Gospel afterward, on questions of humility, care for the vulnerable, conflict, and forgiveness.",
     "mapLabel": "GALILEE",
-    "setting": "In first-century Judea, children held essentially no social status \u2014 placing a child at the literal center of the discussion in v.2 upends the disciples' assumptions about greatness before Jesus says a word.",
-    "custom": "Millstones (v.6) were massive circular stones, typically turned by a donkey, far too heavy to be a casual image \u2014 the horror of being drowned with one tied to the neck is the entire point. Legal disputes in Israel were customarily settled by private discussion first, then escalated to two or three witnesses per Deuteronomy 19:15, the exact process Jesus outlines in v.15-17.",
-    "timelineImmediate": "Follows directly after the disciples' question about greatness, prompted likely by rivalry stirred up after Peter's prominent role in the previous two chapters \u2014 Jesus redirects the whole conversation toward humility, protection of the vulnerable, and forgiveness.",
-    "timelineBible": "\"Seventy-seven times\" (v.22) directly reverses Lamech's ancient boast of violent revenge in Genesis 4:24 \u2014 where Lamech vowed seventy-sevenfold vengeance, Jesus commands seventy-sevenfold mercy instead.",
+    "setting": "In first-century Judea, children held essentially no social status — placing a child at the literal center of the discussion in v.2 upends the disciples' assumptions about greatness before Jesus says a word.",
+    "custom": "Millstones (v.6) were massive circular stones, typically turned by a donkey, far too heavy to be a casual image — the horror of being drowned with one tied to the neck is the entire point. Legal disputes in Israel were customarily settled by private discussion first, then escalated to two or three witnesses per Deuteronomy 19:15, the exact process Jesus outlines in v.15-17.",
+    "timelineImmediate": "Follows directly after the disciples' question about greatness, prompted likely by rivalry stirred up after Peter's prominent role in the previous two chapters — Jesus redirects the whole conversation toward humility, protection of the vulnerable, and forgiveness.",
+    "timelineBible": "\"Seventy-seven times\" (v.22) directly reverses Lamech's ancient boast of violent revenge in Genesis 4:24 — where Lamech vowed seventy-sevenfold vengeance, Jesus commands seventy-sevenfold mercy instead.",
     "translation": [
       {
         "english": "little ones",
-        "greek": "\u03bc\u03b9\u03ba\u03c1\u1ff6\u03bd (mikr\u014dn)",
+        "greek": "μικρῶν (mikrōn)",
         "verseRef": "v.6, 10, 14",
-        "meaning": "Can refer to children literally, or more broadly to vulnerable, young-in-faith believers \u2014 Jesus' warnings apply to both readings.",
+        "meaning": "Can refer to children literally, or more broadly to vulnerable, young-in-faith believers — Jesus' warnings apply to both readings.",
         "occurrences": {
           "total": 46,
           "sampleRefs": [
@@ -163,14 +163,15 @@
             "Luke 19:3",
             "1 Corinthians 5:6"
           ],
-          "note": "This broader word covers anything small \u2014 a little while, a little faith, a little flock. The specific phrase \"little ones\" for vulnerable people appears just 3 times, all here in this chapter."
-        }
+          "note": "This broader word covers anything small — a little while, a little faith, a little flock. The specific phrase \"little ones\" for vulnerable people appears just 3 times, all here in this chapter."
+        },
+        "gloss": "The small and lowly"
       },
       {
         "english": "stumble",
-        "greek": "\u03c3\u03ba\u03b1\u03bd\u03b4\u03b1\u03bb\u03af\u03c3\u1fc3 (skandalis\u0113)",
+        "greek": "σκανδαλίσῃ (skandalisē)",
         "verseRef": "v.6-9",
-        "meaning": "To cause someone to fall into sin \u2014 related to the word for a trap's trigger mechanism.",
+        "meaning": "To cause someone to fall into sin — related to the word for a trap's trigger mechanism.",
         "occurrences": {
           "total": 29,
           "sampleRefs": [
@@ -178,13 +179,14 @@
             "John 16:1",
             "Romans 14:21"
           ]
-        }
+        },
+        "gloss": "To cause to fall"
       },
       {
         "english": "won your brother over",
-        "greek": "\u1f10\u03ba\u03ad\u03c1\u03b4\u03b7\u03c3\u03b1\u03c2 (ekerd\u0113sas)",
+        "greek": "ἐκέρδησας (ekerdēsas)",
         "verseRef": "v.15",
-        "meaning": "Literally \"gained\" \u2014 a commercial term repurposed for relational restoration, framing reconciliation as something genuinely won back.",
+        "meaning": "Literally \"gained\" — a commercial term repurposed for relational restoration, framing reconciliation as something genuinely won back.",
         "occurrences": {
           "total": 16,
           "sampleRefs": [
@@ -192,19 +194,22 @@
             "1 Corinthians 9:19-22",
             "James 4:13"
           ]
-        }
+        },
+        "gloss": "You gained a brother",
+        "ovGreek": "ἐκέρδησας",
+        "ovEnglish": "Won over"
       },
       {
         "english": "seventy-seven times",
-        "greek": "\u1f11\u03b2\u03b4\u03bf\u03bc\u03b7\u03ba\u03bf\u03bd\u03c4\u03ac\u03ba\u03b9\u03c2 \u1f11\u03c0\u03c4\u03ac (hebdom\u0113kontakis hepta)",
+        "greek": "ἑβδομηκοντάκις ἑπτά (hebdomēkontakis hepta)",
         "verseRef": "v.22",
-        "meaning": "Could also be read \"seventy times seven\" \u2014 either way, the number signals limitless forgiveness, not a literal ceiling to count toward."
+        "meaning": "Could also be read \"seventy times seven\" — either way, the number signals limitless forgiveness, not a literal ceiling to count toward."
       },
       {
         "english": "compassion",
-        "greek": "\u03c3\u03c0\u03bb\u03b1\u03b3\u03c7\u03bd\u03b9\u03c3\u03b8\u03b5\u1f76\u03c2 (splanchnistheis)",
+        "greek": "σπλαγχνισθεὶς (splanchnistheis)",
         "verseRef": "v.27",
-        "meaning": "The same visceral empathy word used for Jesus elsewhere \u2014 here describing the king's motive for forgiving an impossible debt.",
+        "meaning": "The same visceral empathy word used for Jesus elsewhere — here describing the king's motive for forgiving an impossible debt.",
         "occurrences": {
           "total": 12,
           "sampleRefs": [
@@ -212,7 +217,7 @@
             "Luke 10:33",
             "Luke 15:20"
           ],
-          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables \u2014 including this king, the good Samaritan, and the father of the prodigal son."
+          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables — including this king, the good Samaritan, and the father of the prodigal son."
         }
       }
     ],
@@ -240,7 +245,7 @@
       },
       {
         "ref": "Genesis 4:24",
-        "note": "Lamech's boast of sevenfold, then seventy-sevenfold revenge \u2014 reversed by Jesus into a command for limitless forgiveness."
+        "note": "Lamech's boast of sevenfold, then seventy-sevenfold revenge — reversed by Jesus into a command for limitless forgiveness."
       },
       {
         "ref": "Ezekiel 34:2-10",
@@ -258,26 +263,118 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry notes Peter's proposed cap on forgiveness \u2014 seven times \u2014 already sounded generous to him, likely drawing on Proverbs 24:16's \"a just man falls seven times.\" Jesus' answer isn't a new, larger number to count toward, but a refusal to count at all: \"it does not look well for us to keep count of the offences done against us.\"",
+        "note": "Henry notes Peter's proposed cap on forgiveness — seven times — already sounded generous to him, likely drawing on Proverbs 24:16's \"a just man falls seven times.\" Jesus' answer isn't a new, larger number to count toward, but a refusal to count at all: \"it does not look well for us to keep count of the offences done against us.\"",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_018.cfm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke does the actual math on the unforgiving servant's debt: ten thousand talents of gold would equal roughly \u00a367.5 million sterling \u2014 by his reckoning, equal to the entire annual revenue of the British Empire in his own day. He also connects \"seventy times seven\" directly back to Lamech's boast of vengeance in Genesis 4:24, reading Jesus' number as a deliberate reversal of that ancient threat.",
+        "note": "Clarke does the actual math on the unforgiving servant's debt: ten thousand talents of gold would equal roughly £67.5 million sterling — by his reckoning, equal to the entire annual revenue of the British Empire in his own day. He also connects \"seventy times seven\" directly back to Lamech's boast of vengeance in Genesis 4:24, reading Jesus' number as a deliberate reversal of that ancient threat.",
         "url": "https://sacred-texts.com/bib/cmt/clarke/mat018.htm"
       },
       {
         "source": "Albert Barnes",
         "year": "1832",
-        "note": "Barnes grounds the millstone image in real detail \u2014 the Greek specifies the large kind turned by a mule or donkey, not the small handheld sort, making the punishment described genuinely severe rather than a loose figure of speech.",
+        "note": "Barnes grounds the millstone image in real detail — the Greek specifies the large kind turned by a mule or donkey, not the small handheld sort, making the punishment described genuinely severe rather than a loose figure of speech.",
         "url": "https://www.scripturespot.com/commentators/albert-barnes/commentaries/matthew/18/6"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Matthew 18, but his chapter \"Forgiveness\" in <em>Mere Christianity</em> is a close companion to the parable of the unforgiving servant (v.21-35). He says forgiving is easy to admire in theory and hard when it is a particular person who has wronged us. He distinguishes between hating the wrong and the wrongdoer, and says that loving an enemy means wishing that person's good, not feeling fond of them. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://www.litcharts.com/lit/mere-christianity/book-3-chapter-7-forgiveness"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Vignon_-_Parable_of_the_Unforgiving_Servant.jpg",
       "caption": "Parable of the Unforgiving Servant, by Claude Vignon (17th century)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus puts a child among the disciples and says the greatest in the kingdom are humble. He teaches about the lost sheep, correcting a brother, and forgiving seventy-seven times, ending with the parable of the unforgiving servant.",
+      "settingLine": "A house in Capernaum.",
+      "placeName": "Capernaum, Galilee",
+      "history": [
+        {
+          "h": "Children",
+          "t": "Children had no status in the ancient world, so honoring one was a shock."
+        },
+        {
+          "h": "Huge Debts",
+          "t": "Ten thousand talents was a vast sum, far more than a servant could ever repay."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Millstone",
+          "t": "A donkey millstone was massive, so being drowned with one was a terrifying image."
+        },
+        {
+          "h": "Two Witnesses",
+          "t": "The Law required two or three witnesses to settle a matter, as in the steps Jesus gives."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Millstones",
+          "t": "Large basalt millstones, turned by donkeys, are found across Galilee."
+        },
+        {
+          "h": "Stone Weights",
+          "t": "Ancient weights show how large sums were measured, a talent being about 75 pounds."
+        }
+      ],
+      "discussion": "Jesus said to forgive seventy-seven times. Is forgiveness a feeling, a decision, or both?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Teaching",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 9:33-41": "Who is greatest",
+        "Deuteronomy 19:15": "Two or three witnesses",
+        "Genesis 4:24": "Lamech's boast of revenge"
+      },
+      "peoplePlaces": [
+        {
+          "n": "A child",
+          "d": "The model"
+        },
+        {
+          "n": "Peter",
+          "d": "Asks how often"
+        },
+        {
+          "n": "The king",
+          "d": "Cancels debt"
+        },
+        {
+          "n": "The servant",
+          "d": "No mercy"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "A question",
+          "label": "Who is greatest?"
+        },
+        {
+          "when": "Teaching",
+          "label": "The lost sheep"
+        },
+        {
+          "when": "Teaching",
+          "label": "Correcting a brother"
+        },
+        {
+          "when": "Parable",
+          "label": "Unforgiving servant"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Capernaum, Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

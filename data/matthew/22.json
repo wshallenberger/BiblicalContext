@@ -191,19 +191,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Parable followed by a sequence of confrontational questions and Jesus' own counter-question \u2014 a rapid back-and-forth designed to expose motive as much as answer content.",
-    "audience": "Jewish-Christian readers watching every major faction \u2014 Pharisees, Herodians, Sadducees \u2014 take a turn attempting to trap Jesus, only to be silenced in each attempt.",
+    "genre": "Parable followed by a sequence of confrontational questions and Jesus' own counter-question — a rapid back-and-forth designed to expose motive as much as answer content.",
+    "audience": "Jewish-Christian readers watching every major faction — Pharisees, Herodians, Sadducees — take a turn attempting to trap Jesus, only to be silenced in each attempt.",
     "mapLabel": "JERUSALEM TEMPLE COURTS",
-    "setting": "This chapter takes place entirely within the temple courts during the final week before the crucifixion. Tension is at its peak \u2014 religious leaders sense their authority slipping in front of the crowds and escalate from questioning to open entrapment attempts.",
-    "custom": "A Roman denarius (v.19) bore Tiberius Caesar's image and an inscription naming him \"son of the divine Augustus\" \u2014 showing such a coin inside the temple was itself provocative, which is exactly why Jesus asks them to produce one rather than producing it Himself.",
-    "timelineImmediate": "Continues directly from the temple confrontations of chapter 21 \u2014 this is the last day Jesus teaches publicly in the temple before the Olivet Discourse and the events leading to His arrest.",
-    "timelineBible": "Jesus' closing question about Psalm 110 (v.41-46) isn't a random test \u2014 it draws on a psalm David himself wrote, addressing his own descendant as \"Lord,\" a paradox meant to point His hearers toward a Messiah who is more than merely David's royal heir.",
+    "setting": "This chapter takes place entirely within the temple courts during the final week before the crucifixion. Tension is at its peak — religious leaders sense their authority slipping in front of the crowds and escalate from questioning to open entrapment attempts.",
+    "custom": "A Roman denarius (v.19) bore Tiberius Caesar's image and an inscription naming him \"son of the divine Augustus\" — showing such a coin inside the temple was itself provocative, which is exactly why Jesus asks them to produce one rather than producing it Himself.",
+    "timelineImmediate": "Continues directly from the temple confrontations of chapter 21 — this is the last day Jesus teaches publicly in the temple before the Olivet Discourse and the events leading to His arrest.",
+    "timelineBible": "Jesus' closing question about Psalm 110 (v.41-46) isn't a random test — it draws on a psalm David himself wrote, addressing his own descendant as \"Lord,\" a paradox meant to point His hearers toward a Messiah who is more than merely David's royal heir.",
     "translation": [
       {
         "english": "render / give back",
-        "greek": "\u1f00\u03c0\u03cc\u03b4\u03bf\u03c4\u03b5 (apodote)",
+        "greek": "ἀπόδοτε (apodote)",
         "verseRef": "v.21",
-        "meaning": "Implies giving back what is rightfully owed \u2014 Jesus' famous answer distinguishes civic obligation from ultimate allegiance without collapsing one into the other.",
+        "meaning": "Implies giving back what is rightfully owed — Jesus' famous answer distinguishes civic obligation from ultimate allegiance without collapsing one into the other.",
         "occurrences": {
           "total": 48,
           "sampleRefs": [
@@ -211,13 +211,14 @@
             "Romans 12:17",
             "Romans 13:7"
           ]
-        }
+        },
+        "gloss": "Pay back what is owed"
       },
       {
         "english": "resurrection",
-        "greek": "\u1f00\u03bd\u03ac\u03c3\u03c4\u03b1\u03c3\u03b9\u03c2 (anastasis)",
+        "greek": "ἀνάστασις (anastasis)",
         "verseRef": "v.23, 28, 30-31",
-        "meaning": "A rising again \u2014 the central concept the Sadducees rejected outright, since they accepted only the first five books of the Hebrew Bible as authoritative.",
+        "meaning": "A rising again — the central concept the Sadducees rejected outright, since they accepted only the first five books of the Hebrew Bible as authoritative.",
         "occurrences": {
           "total": 42,
           "sampleRefs": [
@@ -225,13 +226,14 @@
             "Acts 17:32",
             "Acts 23:8"
           ]
-        }
+        },
+        "gloss": "A standing up again"
       },
       {
         "english": "love",
-        "greek": "\u1f00\u03b3\u03b1\u03c0\u03ae\u03c3\u03b5\u03b9\u03c2 (agap\u0113seis)",
+        "greek": "ἀγαπήσεις (agapēseis)",
         "verseRef": "v.37, 39",
-        "meaning": "A deliberate, chosen love rather than a feeling \u2014 the same verb form used throughout the two commandments Jesus names as the whole Law's foundation.",
+        "meaning": "A deliberate, chosen love rather than a feeling — the same verb form used throughout the two commandments Jesus names as the whole Law's foundation.",
         "occurrences": {
           "total": 143,
           "sampleRefs": [
@@ -239,13 +241,14 @@
             "1 Corinthians 13:1",
             "1 John 4:8"
           ]
-        }
+        },
+        "gloss": "Choose, care for"
       },
       {
         "english": "hang on",
-        "greek": "\u03ba\u03c1\u03ad\u03bc\u03b1\u03c4\u03b1\u03b9 (krematai)",
+        "greek": "κρέμαται (krematai)",
         "verseRef": "v.40",
-        "meaning": "Literally \"to hang from\" \u2014 Jesus pictures the entire Law and Prophets as suspended from, and dependent on, these two commandments.",
+        "meaning": "Literally \"to hang from\" — Jesus pictures the entire Law and Prophets as suspended from, and dependent on, these two commandments.",
         "occurrences": {
           "total": 7,
           "sampleRefs": [
@@ -281,11 +284,11 @@
       },
       {
         "ref": "Deuteronomy 6:5 / Leviticus 19:18",
-        "note": "The two Old Testament commands Jesus names as the greatest \u2014 love of God and love of neighbor."
+        "note": "The two Old Testament commands Jesus names as the greatest — love of God and love of neighbor."
       },
       {
         "ref": "Psalm 110:1",
-        "note": "\"The LORD said to my Lord\" \u2014 quoted directly by Jesus in His closing question about the Messiah's identity."
+        "note": "\"The LORD said to my Lord\" — quoted directly by Jesus in His closing question about the Messiah's identity."
       }
     ],
     "mapCoords": {
@@ -294,31 +297,117 @@
       "zoom": 10.5,
       "placeName": "The Temple Mount, Jerusalem"
     },
-    "sparkNotes": "Jesus tells a wedding-banquet parable, then answers a series of trap questions about taxes, resurrection, and the greatest commandment. \"Hang on,\" used here for how the Law \"hangs\" on love, is the same word later used for Jesus Himself hanging on the cross \u2014 and His closing question draws on Psalm 110:1, a psalm David wrote about his own greater descendant.",
+    "sparkNotes": "Jesus tells a wedding-banquet parable, then answers a series of trap questions about taxes, resurrection, and the greatest commandment. \"Hang on,\" used here for how the Law \"hangs\" on love, is the same word later used for Jesus Himself hanging on the cross — and His closing question draws on Psalm 110:1, a psalm David wrote about his own greater descendant.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry catches a subtlety in the word \"render\": Jesus doesn't say \"give\" Caesar his coin, but \"render\" or \"restore\" it \u2014 acknowledging it was already Caesar's by virtue of whose image it bore. He sums up the whole answer in one line: \"if our purses be Caesar's, our consciences are God's.\"",
+        "note": "Henry catches a subtlety in the word \"render\": Jesus doesn't say \"give\" Caesar his coin, but \"render\" or \"restore\" it — acknowledging it was already Caesar's by virtue of whose image it bore. He sums up the whole answer in one line: \"if our purses be Caesar's, our consciences are God's.\"",
         "url": "https://www.blueletterbible.org/Comm/mhc/Mat/Mat_022.cfm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "On the wedding garment, Clarke draws in real ancient custom: it was standard at Near Eastern and Greek celebrations for the host to provide festive robes for guests, so the man without one had no excuse \u2014 he could have simply asked for one. He even cites Homer's Odyssey, where Telemachus is bathed and given fitting garments upon arriving at a wedding feast, as the same custom in Greek literature.",
+        "note": "On the wedding garment, Clarke draws in real ancient custom: it was standard at Near Eastern and Greek celebrations for the host to provide festive robes for guests, so the man without one had no excuse — he could have simply asked for one. He even cites Homer's Odyssey, where Telemachus is bathed and given fitting garments upon arriving at a wedding feast, as the same custom in Greek literature.",
         "url": "https://www.sacred-texts.com/bib/cmt/clarke/mat022.htm"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill grounds the wedding parable in real Jewish custom: fathers traditionally paid for and hosted their son's marriage feast \u2014 he cites the rabbinic principle directly, 'a father marries his son, and makes a feast for him, and the expense is the father's.' The king in the parable is following an ordinary, recognizable social pattern, not an invented scenario.",
+        "note": "Gill grounds the wedding parable in real Jewish custom: fathers traditionally paid for and hosted their son's marriage feast — he cites the rabbinic principle directly, 'a father marries his son, and makes a feast for him, and the expense is the father's.' The king in the parable is following an ordinary, recognizable social pattern, not an invented scenario.",
         "url": "https://sacred-texts.com/bib/cmt/gill/mat022.htm"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_Jesus_talks_of_the_tribute_money.jpg",
-      "caption": "Christ and the Tribute Money, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "caption": "Christ and the Tribute Money, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus tells of a wedding banquet where the invited guests refuse to come. He answers trick questions about taxes, the resurrection, and the greatest commandment, then asks how David's son can also be David's Lord.",
+      "settingLine": "The temple courts in Jerusalem.",
+      "placeName": "Temple Mount, Jerusalem",
+      "history": [
+        {
+          "h": "Rival Groups",
+          "t": "Pharisees, Herodians and Sadducees disagreed on much, yet teamed up to trap Jesus."
+        },
+        {
+          "h": "Roman Tax",
+          "t": "Many Jews hated paying tax to Caesar, so the question was a trap."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Wedding Robes",
+          "t": "Guests were expected to dress properly for a wedding feast, as a sign of respect."
+        },
+        {
+          "h": "Levirate Marriage",
+          "t": "A childless widow married her husband's brother to carry on the family line."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "The Denarius",
+          "t": "Silver denarii with Tiberius' image and title have been found across Judea."
+        },
+        {
+          "h": "Herod's Temple",
+          "t": "Herod's temple platform still stands, with huge stones in the Western Wall."
+        }
+      ],
+      "discussion": "Jesus said all the Law hangs on loving God and neighbor. Could everything else really come down to that?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Parable and controversy",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 14:15-24": "The great banquet",
+        "Deuteronomy 25:5": "Marry the brother's widow",
+        "Deuteronomy 6:5 / Leviticus 19:18": "Love God, love neighbor"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pharisees",
+          "d": "Set a trap"
+        },
+        {
+          "n": "Herodians",
+          "d": "Pro-Herod"
+        },
+        {
+          "n": "Sadducees",
+          "d": "Priestly party"
+        },
+        {
+          "n": "A lawyer",
+          "d": "Test question"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Parable",
+          "label": "Wedding banquet"
+        },
+        {
+          "when": "Question",
+          "label": "Taxes to Caesar"
+        },
+        {
+          "when": "Question",
+          "label": "The resurrection"
+        },
+        {
+          "when": "Question",
+          "label": "Greatest commandment"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Temple Mount, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

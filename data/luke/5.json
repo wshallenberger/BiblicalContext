@@ -185,7 +185,8 @@
             "Romans 5:8"
           ],
           "note": "Luke uses this word more than any other Gospel writer."
-        }
+        },
+        "gloss": "One who misses the mark"
       },
       {
         "english": "catch",
@@ -198,7 +199,8 @@
             "2 Timothy 2:26"
           ],
           "note": "Only here and in 2 Timothy 2:26."
-        }
+        },
+        "gloss": "To catch alive"
       },
       {
         "english": "tiles",
@@ -210,7 +212,8 @@
           "sampleRefs": [
             "Luke 5:19"
           ]
-        }
+        },
+        "gloss": "Clay roof tiles"
       }
     ],
     "gospelParallels": [
@@ -311,12 +314,116 @@
         "year": "1878",
         "note": "Ellicott notes that the saying about old wine in verse 39 is peculiar to Luke. He reads the old wine as the religion that animated a person's former life, and the new wine as \"the freer, nobler life-power of the gospel,\" so it is no surprise that people used to the older system hesitate over the new, much as the Pharisees \"were shrinking from the freedom of which our Lord set the example.\"",
         "url": "https://www.studylight.org/commentaries/eng/ebc/luke-5.html"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Luke 5, but \"The Shocking Alternative\" in <em>Mere Christianity</em> turns on verses 20-24, where Jesus tells the paralytic his sins are forgiven. Lewis points out that we can only forgive wrongs done to ourselves, so a man who forgives every sin is claiming to be the one against whom all sin is committed. That claim, he says, leaves no room for treating Jesus as merely a good man. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://phbf.org/the-shocking-alternative/"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Miraculous_Draught_of_Fishes_(La_p%C3%AAche_miraculeuse)_-_James_Tissot_-_overall.jpg",
       "caption": "The Miraculous Draught of Fishes, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "After a night of catching nothing, Peter hauls in a huge catch at Jesus' word and is called to catch people. Jesus cleanses a leper, forgives and heals a paralyzed man lowered through a roof, and calls the tax collector Levi.",
+      "settingLine": "The Sea of Galilee shore, then Capernaum.",
+      "placeName": "Lake of Gennesaret",
+      "history": [
+        {
+          "h": "Fishing Trade",
+          "t": "Fishing was a major Galilean trade, with crews working in partnership."
+        },
+        {
+          "h": "Tax Collectors",
+          "t": "Rome let locals collect taxes and keep extra, so tax men were widely despised."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Leprosy",
+          "t": "A leper lived apart and was ritually unclean, so Jesus' touch broke a strong taboo."
+        },
+        {
+          "h": "Roof Entry",
+          "t": "Roofs were beams covered with branches and clay, so a crowd could open one."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Capernaum",
+          "t": "Digs reveal small basalt houses, with one honored as Peter's under a later church."
+        },
+        {
+          "h": "Galilee Boat",
+          "t": "A fishing boat about 2,000 years old was found in the lake mud in 1986."
+        }
+      ],
+      "discussion": "Peter said \"Depart from me,\" and Jesus called him anyway. What does that say about who God uses?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Historical narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 4:18-22": "Fishermen called",
+        "Isaiah 6:5": "\"I am a man of unclean lips\"",
+        "Jeremiah 16:16": "God sends fishers"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Fisherman"
+        },
+        {
+          "n": "Levi",
+          "d": "Tax collector"
+        },
+        {
+          "n": "Capernaum",
+          "d": "Lake town"
+        },
+        {
+          "n": "Gennesaret",
+          "d": "The lake"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Morning",
+          "label": "Great catch"
+        },
+        {
+          "when": "Soon",
+          "label": "Leper cleansed"
+        },
+        {
+          "when": "One day",
+          "label": "Paralytic healed"
+        },
+        {
+          "when": "Then",
+          "label": "Levi called"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginosar_from_above.JPG",
+      "caption": "Present-day Lake of Gennesaret",
+      "credit": "Photo: יעקב / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Gennesaret",
+        "lat": 32.8606,
+        "lng": 35.5072,
+        "verses": [
+          1
+        ],
+        "slug": "gennesaret"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

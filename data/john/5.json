@@ -204,7 +204,10 @@
         "english": "equal with God",
         "greek": "ἴσον ἑαυτὸν ποιῶν τῷ Θεῷ (ison heauton poiōn tō Theō)",
         "verseRef": "v.18",
-        "meaning": "John's own editorial comment, not Jesus' own words — explaining exactly why calling God \"My Father\" was heard as such a serious claim by His Jewish opponents."
+        "meaning": "John's own editorial comment, not Jesus' own words — explaining exactly why calling God \"My Father\" was heard as such a serious claim by His Jewish opponents.",
+        "gloss": "Equal to God",
+        "ovGreek": "ἴσον τῷ Θεῷ",
+        "ovEnglish": "Equal with God"
       },
       {
         "english": "testify",
@@ -219,7 +222,8 @@
             "Revelation 1:2"
           ],
           "note": "John uses this word far more than any other NT writer — another of his signature terms, tightly linked to his interest in evidence and belief."
-        }
+        },
+        "gloss": "Bear witness"
       },
       {
         "english": "resurrection",
@@ -233,7 +237,8 @@
             "Acts 17:32",
             "Acts 23:8"
           ]
-        }
+        },
+        "gloss": "A rising again"
       }
     ],
     "gospelParallels": [],
@@ -281,6 +286,104 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Piscina_Probatica_or_Pool_of_Bethesda_(La_piscine_probatique_ou_de_Bethesda)_-_James_Tissot_-_overall.jpg",
       "caption": "The Pool of Bethesda, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "At the pool of Bethesda Jesus heals a man who had been ill for thirty-eight years, on a Sabbath. When leaders object, He says He does what He sees the Father doing and that the Son gives life and judges.",
+      "settingLine": "The pool of Bethesda by the Sheep Gate.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Sabbath Law",
+          "t": "Carrying a mat on the Sabbath was counted as work."
+        },
+        {
+          "h": "Pilgrim Feast",
+          "t": "An unnamed feast brought crowds to Jerusalem."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Five Porticoes",
+          "t": "The pool was ringed by covered colonnades where the sick waited."
+        },
+        {
+          "h": "Stirring Water",
+          "t": "Some believed an angel stirred the water to heal."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Bethesda Pools",
+          "t": "Two large pools with colonnades were found near St. Anne's Church."
+        },
+        {
+          "h": "Healing Shrine",
+          "t": "Later Roman shrines to Asclepius stood nearby."
+        }
+      ],
+      "discussion": "Jesus asked, \"Do you want to be healed?\" Why might that be a harder question than it sounds?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Miracle and discourse",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Daniel 7:13-14": "Authority given to the Son",
+        "Daniel 12:2": "Two resurrections",
+        "Deuteronomy 18:15-18": "A prophet like Moses"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The man",
+          "d": "Ill 38 years"
+        },
+        {
+          "n": "Jewish leaders",
+          "d": "Object"
+        },
+        {
+          "n": "Moses",
+          "d": "Wrote of Him"
+        },
+        {
+          "n": "Bethesda",
+          "d": "House of mercy"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "The pool",
+          "label": "Man healed"
+        },
+        {
+          "when": "Sabbath",
+          "label": "Leaders object"
+        },
+        {
+          "when": "Claim",
+          "label": "Equal with God"
+        },
+        {
+          "when": "Witnesses",
+          "label": "Four testify"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Bethesda",
+        "lat": 31.7814,
+        "lng": 35.2358,
+        "verses": [
+          2
+        ],
+        "slug": "bethesda"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

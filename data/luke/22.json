@@ -312,7 +312,10 @@
             "1 Corinthians 11:24",
             "Hebrews 10:3"
           ]
-        }
+        },
+        "gloss": "A calling to mind",
+        "ovGreek": "ἀνάμνησιν",
+        "ovEnglish": "Remembrance"
       },
       {
         "english": "new covenant",
@@ -326,7 +329,8 @@
             "2 Corinthians 3:6",
             "Hebrews 8:8"
           ]
-        }
+        },
+        "gloss": "A new binding agreement"
       },
       {
         "english": "sift",
@@ -338,7 +342,8 @@
           "sampleRefs": [
             "Luke 22:31"
           ]
-        }
+        },
+        "gloss": "To shake in a sieve"
       },
       {
         "english": "anguish",
@@ -511,6 +516,113 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DoreJesusPrayingintheGarden.jpg",
       "caption": "Jesus Praying in the Garden, by Gustave Doré (1866), Luke 22:39-46",
       "credit": "Public domain — Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Judas agrees to betray Jesus, and Jesus shares a Passover meal with His disciples, giving the bread and cup as the new covenant. He prays in agony on the Mount of Olives, is arrested, and Peter denies knowing Him three times.",
+      "settingLine": "An upper room, Gethsemane, and a courtyard.",
+      "placeName": "Gethsemane, Jerusalem",
+      "history": [
+        {
+          "h": "Passover Crowds",
+          "t": "Pilgrims packed Jerusalem for Passover, which is why the leaders wanted a quiet arrest."
+        },
+        {
+          "h": "Temple Guard",
+          "t": "The temple had its own guard, which the chief priests used to arrest Jesus at night."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Passover Meal",
+          "t": "The meal recalled Israel's rescue from Egypt, with unleavened bread, bitter herbs and wine."
+        },
+        {
+          "h": "Olive Press",
+          "t": "Gethsemane means \"olive press,\" from the oil pressed on that hillside."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Upper Room",
+          "t": "The traditional room on Mount Zion is a medieval hall built over earlier sites."
+        },
+        {
+          "h": "Caiaphas",
+          "t": "An ossuary with his family's name was found in Jerusalem in 1990."
+        }
+      ],
+      "discussion": "Jesus told Peter He had prayed for him before the denial. How does that change what failure means?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 26:1-5": "The plot to kill Jesus",
+        "Exodus 12:1-14": "The first Passover",
+        "Jeremiah 31:31-34": "The promised new covenant"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Judas",
+          "d": "Betrays Him"
+        },
+        {
+          "n": "Peter",
+          "d": "Denies Him"
+        },
+        {
+          "n": "The Twelve",
+          "d": "At the table"
+        },
+        {
+          "n": "Olives",
+          "d": "Place of prayer"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Before",
+          "label": "Judas agrees"
+        },
+        {
+          "when": "Evening",
+          "label": "Passover meal"
+        },
+        {
+          "when": "Night",
+          "label": "Prayer, arrest"
+        },
+        {
+          "when": "Dawn",
+          "label": "Peter's denial"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Getsemane2.JPG",
+      "caption": "Present-day Gethsemane, Jerusalem",
+      "credit": "Photo: Mewasul / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          10
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          39
+        ],
+        "slug": "mount-of-olives"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

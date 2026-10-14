@@ -188,19 +188,24 @@
         "english": "It is finished",
         "greek": "Τετέλεσται (Tetelestai)",
         "verseRef": "v.30",
-        "meaning": "A single Greek word in the perfect tense: something completed, with its results still standing. Jesus has just been described as knowing \"everything had now been accomplished\" (v.28), so the word reads as the announcement of a task done, not a cry of defeat."
+        "meaning": "A single Greek word in the perfect tense: something completed, with its results still standing. Jesus has just been described as knowing \"everything had now been accomplished\" (v.28), so the word reads as the announcement of a task done, not a cry of defeat.",
+        "gloss": "It is finished"
       },
       {
         "english": "yielded up",
         "greek": "παρέδωκεν (paredōken)",
         "verseRef": "v.30",
-        "meaning": "Literally \"handed over\" — the same verb family John has used all through the story for Judas betraying Jesus and for Jesus being delivered to Pilate and then to be crucified (v.16). Here it is Jesus Himself who hands over His spirit."
+        "meaning": "Literally \"handed over\" — the same verb family John has used all through the story for Judas betraying Jesus and for Jesus being delivered to Pilate and then to be crucified (v.16). Here it is Jesus Himself who hands over His spirit.",
+        "gloss": "Gave up"
       },
       {
         "english": "Stone Pavement",
         "greek": "Λιθόστρωτον / Γαββαθα (Lithostrōton / Gabbatha)",
         "verseRef": "v.13",
-        "meaning": "John gives the place its Greek name and its Aramaic name together. Excavated paving stones in Jerusalem, some scratched with markings from Roman soldiers' games, are often linked to this location."
+        "meaning": "John gives the place its Greek name and its Aramaic name together. Excavated paving stones in Jerusalem, some scratched with markings from Roman soldiers' games, are often linked to this location.",
+        "gloss": "Stone Pavement",
+        "ovGreek": "Λιθόστρωτον",
+        "ovEnglish": "Stone Pavement"
       }
     ],
     "gospelParallels": [
@@ -284,6 +289,132 @@
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/088.jpg",
       "caption": "The Crucifixion, by Gustave Doré (1866)",
       "credit": "Public domain — Project Gutenberg"
-    }
+    },
+    "overview": {
+      "summary": "Pilate has Jesus flogged and mocked, then hands Him over. Jesus carries His cross to Golgotha and is crucified, says it is finished, and dies. Joseph of Arimathea and Nicodemus bury Him in a new tomb in a garden.",
+      "settingLine": "The Stone Pavement, then Golgotha.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Crown of Thorns",
+          "t": "Soldiers mocked Him as a king with a robe and thorns."
+        },
+        {
+          "h": "The Title",
+          "t": "Pilate's sign read Jesus of Nazareth, the King of the Jews, in three languages."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Dividing Clothes",
+          "t": "Soldiers claimed the executed man's clothing, and cast lots for the seamless one."
+        },
+        {
+          "h": "Burial Spices",
+          "t": "About seventy-five pounds of spices were wrapped with the linen."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Stone Pavement",
+          "t": "Large Roman paving stones near the Antonia site are linked to Gabbatha."
+        },
+        {
+          "h": "Holy Sepulchre",
+          "t": "The church stands over a quarry tomb area just outside the first-century wall."
+        }
+      ],
+      "discussion": "Jesus said, \"It is finished.\" What do you think was finished?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 27:27-31": "Mocked by soldiers",
+        "Psalm 22:18": "Lots for His clothes",
+        "Exodus 12:46 / Psalm 34:20": "No bone broken"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Pilate",
+          "d": "Governor"
+        },
+        {
+          "n": "Mary",
+          "d": "At the cross"
+        },
+        {
+          "n": "The beloved",
+          "d": "Cared for her"
+        },
+        {
+          "n": "Joseph",
+          "d": "Buried Him"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Morning",
+          "label": "Before Pilate"
+        },
+        {
+          "when": "Noon",
+          "label": "Crucified"
+        },
+        {
+          "when": "Afternoon",
+          "label": "It is finished"
+        },
+        {
+          "when": "Evening",
+          "label": "Buried in a garden"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Golgotha",
+        "lat": 31.7784,
+        "lng": 35.2298,
+        "verses": [
+          17
+        ],
+        "slug": "golgotha"
+      },
+      {
+        "name": "Gabbatha",
+        "lat": 31.7761,
+        "lng": 35.228,
+        "verses": [
+          13
+        ],
+        "slug": "gabbatha"
+      },
+      {
+        "name": "Arimathea",
+        "lat": 32.0281,
+        "lng": 35.0194,
+        "verses": [
+          38
+        ],
+        "slug": "arimathea"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          20
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

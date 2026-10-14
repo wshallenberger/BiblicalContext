@@ -220,7 +220,10 @@
             "Luke 15:8",
             "Luke 19:10"
           ]
-        }
+        },
+        "gloss": "To rescue the lost",
+        "ovGreek": "σῶσαι",
+        "ovEnglish": "Save"
       },
       {
         "english": "minas",
@@ -234,7 +237,8 @@
             "Luke 19:16",
             "Luke 19:25"
           ]
-        }
+        },
+        "gloss": "About 100 days' pay"
       },
       {
         "english": "visitation",
@@ -248,7 +252,8 @@
             "Acts 1:20",
             "1 Peter 2:12"
           ]
-        }
+        },
+        "gloss": "A visit from God"
       },
       {
         "english": "den of robbers",
@@ -358,6 +363,143 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Zacchaeus_in_the_Sycamore_Awaiting_the_Passage_of_Jesus_(Zachée_sur_le_sycomore_attendant_le_passage_de_Jésus)_-_James_Tissot.jpg",
       "caption": "Zacchaeus in the Sycamore Awaiting the Passage of Jesus, by James Tissot (1886-1894), Luke 19:1-10",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "In Jericho, the tax collector Zacchaeus climbs a tree to see Jesus, and Jesus stays at his home. After the parable of the ten minas, Jesus rides a colt into Jerusalem as crowds praise Him. He weeps over the city and clears the temple.",
+      "settingLine": "Jericho, the climb to Jerusalem, and the temple.",
+      "placeName": "Mount of Olives, Jerusalem",
+      "history": [
+        {
+          "h": "Jericho",
+          "t": "It was a rich tax and trade center, so its chief tax collector was wealthy."
+        },
+        {
+          "h": "Archelaus",
+          "t": "Herod's son traveled to Rome to claim a kingdom, much like the nobleman in the story."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Tax Farming",
+          "t": "Chief tax collectors bought the right to collect for Rome and kept the extra."
+        },
+        {
+          "h": "Cloaks on the Road",
+          "t": "Spreading cloaks on the road honored a king, as when Jehu was crowned."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Herod's Jericho",
+          "t": "Excavated winter palaces near Jericho show how rich the town was."
+        },
+        {
+          "h": "Mount of Olives",
+          "t": "Jewish burial caves cover the slope that looks over the temple area."
+        }
+      ],
+      "discussion": "Zacchaeus gave away half his goods after meeting Jesus, though no one asked. What does real change look like?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and parable",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 25:14-30": "Talents, a similar story",
+        "Exodus 22:1": "Repaying fourfold",
+        "Ezekiel 34:16": "God seeks the lost"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Zacchaeus",
+          "d": "Tax chief"
+        },
+        {
+          "n": "Bethphage",
+          "d": "Near Olives"
+        },
+        {
+          "n": "Jericho",
+          "d": "City of palms"
+        },
+        {
+          "n": "Nobleman",
+          "d": "Seeks a throne"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Jericho",
+          "label": "Zacchaeus"
+        },
+        {
+          "when": "Then",
+          "label": "Ten minas"
+        },
+        {
+          "when": "The ride",
+          "label": "Entry to Jerusalem"
+        },
+        {
+          "when": "Temple",
+          "label": "Sellers driven out"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Mount of Olives, Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          11,
+          28,
+          41
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7779,
+        "lng": 35.2457,
+        "verses": [
+          29,
+          37
+        ],
+        "slug": "mount-of-olives"
+      },
+      {
+        "name": "Bethany",
+        "lat": 31.7717,
+        "lng": 35.2559,
+        "verses": [
+          29
+        ],
+        "slug": "bethany-1"
+      },
+      {
+        "name": "Bethphage",
+        "lat": 31.7776,
+        "lng": 35.2508,
+        "verses": [
+          29
+        ],
+        "slug": "bethphage"
+      },
+      {
+        "name": "Jericho",
+        "lat": 31.8519,
+        "lng": 35.4362,
+        "verses": [
+          1
+        ],
+        "slug": "jericho-2"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

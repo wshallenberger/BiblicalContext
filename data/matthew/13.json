@@ -34,7 +34,7 @@
     },
     {
       "num": 8,
-      "text": "Still other seed fell on good soil and produced a crop \u2014 a hundredfold, sixtyfold, or thirtyfold."
+      "text": "Still other seed fell on good soil and produced a crop — a hundredfold, sixtyfold, or thirtyfold."
     },
     {
       "num": 9,
@@ -94,7 +94,7 @@
     },
     {
       "num": 23,
-      "text": "But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop \u2014 a hundredfold, sixtyfold, or thirtyfold.\""
+      "text": "But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop — a hundredfold, sixtyfold, or thirtyfold.\""
     },
     {
       "num": 24,
@@ -239,19 +239,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Teaching discourse \u2014 a connected sequence of seven parables about the kingdom of heaven, closing with a brief narrative of rejection at Nazareth.",
+    "genre": "Teaching discourse — a connected sequence of seven parables about the kingdom of heaven, closing with a brief narrative of rejection at Nazareth.",
     "audience": "Mixed crowds on the shore hear the parables themselves; the deeper explanations are reserved for the disciples privately, a distinction Jesus addresses directly in v.10-17.",
     "mapLabel": "SEA OF GALILEE SHORELINE, THEN NAZARETH",
     "setting": "The Sea of Galilee's shoreline near Tabgha forms a natural amphitheater, and a boat becomes an instant pulpit for the large crowds gathering around Jesus. This chapter opens a new teaching block centered on \"the kingdom of heaven,\" a phrase Matthew uses more than thirty times across his Gospel.",
-    "custom": "The \"weeds\" in the parable of the weeds (v.24-30) are likely darnel, a plant that looks identical to wheat until mature \u2014 Roman law actually banned deliberately sowing darnel in an enemy's field, matching the malicious act Jesus describes.",
-    "timelineImmediate": "A shift in teaching style \u2014 after growing opposition in chapter 12, Jesus begins speaking to crowds only in parables, reserving direct explanation for His disciples alone (v.34, v.10-17).",
-    "timelineBible": "Matthew notes that Jesus' use of parables itself fulfills Psalm 78:2 (v.35), and His warning about spiritual dullness directly quotes Isaiah 6:9-10 \u2014 connecting His teaching method to centuries-old prophecy about how people would respond to God's word.",
+    "custom": "The \"weeds\" in the parable of the weeds (v.24-30) are likely darnel, a plant that looks identical to wheat until mature — Roman law actually banned deliberately sowing darnel in an enemy's field, matching the malicious act Jesus describes.",
+    "timelineImmediate": "A shift in teaching style — after growing opposition in chapter 12, Jesus begins speaking to crowds only in parables, reserving direct explanation for His disciples alone (v.34, v.10-17).",
+    "timelineBible": "Matthew notes that Jesus' use of parables itself fulfills Psalm 78:2 (v.35), and His warning about spiritual dullness directly quotes Isaiah 6:9-10 — connecting His teaching method to centuries-old prophecy about how people would respond to God's word.",
     "translation": [
       {
         "english": "mysteries",
-        "greek": "\u03bc\u03c5\u03c3\u03c4\u03ae\u03c1\u03b9\u03b1 (myst\u0113ria)",
+        "greek": "μυστήρια (mystēria)",
         "verseRef": "v.11",
-        "meaning": "Divine secrets, previously hidden, now being disclosed \u2014 not permanently unknowable, but revealed selectively at this moment.",
+        "meaning": "Divine secrets, previously hidden, now being disclosed — not permanently unknowable, but revealed selectively at this moment.",
         "occurrences": {
           "total": 27,
           "sampleRefs": [
@@ -259,37 +259,40 @@
             "Ephesians 1:9",
             "Colossians 1:26"
           ]
-        }
+        },
+        "gloss": "Hidden truths"
       },
       {
         "english": "understand",
-        "greek": "\u03c3\u03c5\u03bd\u03af\u03b7\u03bc\u03b9 (syni\u0113mi)",
+        "greek": "συνίημι (syniēmi)",
         "verseRef": "v.19, 23",
-        "meaning": "Implies real comprehension leading to acceptance, not mere intellectual awareness \u2014 the deciding factor between the different soils.",
+        "meaning": "Implies real comprehension leading to acceptance, not mere intellectual awareness — the deciding factor between the different soils.",
         "occurrences": {
           "total": 26,
           "sampleRefs": [
             "Romans 3:11",
             "Ephesians 5:17"
           ]
-        }
+        },
+        "gloss": "To bring together"
       },
       {
         "english": "weeds",
-        "greek": "\u03b6\u03b9\u03b6\u03ac\u03bd\u03b9\u03b1 (zizania)",
+        "greek": "ζιζάνια (zizania)",
         "verseRef": "v.25-30",
-        "meaning": "Refers specifically to darnel, a weed nearly indistinguishable from wheat until harvest \u2014 explaining why the servants can't simply pull it early.",
+        "meaning": "Refers specifically to darnel, a weed nearly indistinguishable from wheat until harvest — explaining why the servants can't simply pull it early.",
         "occurrences": {
           "total": 8,
           "sampleRefs": [],
-          "note": "Used only in this one chapter \u2014 the parable of the weeds and Jesus' private explanation of it. Nowhere else in the New Testament."
-        }
+          "note": "Used only in this one chapter — the parable of the weeds and Jesus' private explanation of it. Nowhere else in the New Testament."
+        },
+        "gloss": "Darnel, a wheat-like weed"
       },
       {
         "english": "leavened",
-        "greek": "\u03b6\u03c5\u03bc\u03cc\u03c9 (zymo\u014d)",
+        "greek": "ζυμόω (zymoō)",
         "verseRef": "v.33",
-        "meaning": "To cause fermentation or rising \u2014 here a positive image of the kingdom's quiet, pervasive influence, unlike leaven's usual negative use elsewhere in Scripture.",
+        "meaning": "To cause fermentation or rising — here a positive image of the kingdom's quiet, pervasive influence, unlike leaven's usual negative use elsewhere in Scripture.",
         "occurrences": {
           "total": 4,
           "sampleRefs": [
@@ -297,14 +300,14 @@
             "1 Corinthians 5:6",
             "Galatians 5:9"
           ],
-          "note": "Only four uses total \u2014 evenly split between this positive kingdom image and Paul's later warnings about leaven's negative, corrupting influence."
+          "note": "Only four uses total — evenly split between this positive kingdom image and Paul's later warnings about leaven's negative, corrupting influence."
         }
       },
       {
         "english": "treasure",
-        "greek": "\u03b8\u03b7\u03c3\u03b1\u03c5\u03c1\u03cc\u03c2 (th\u0113sauros)",
+        "greek": "θησαυρός (thēsauros)",
         "verseRef": "v.44",
-        "meaning": "Something of immense, buried worth \u2014 in a world without banks, burying valuables was a common and realistic practice, grounding the parable's imagery.",
+        "meaning": "Something of immense, buried worth — in a world without banks, burying valuables was a common and realistic practice, grounding the parable's imagery.",
         "occurrences": {
           "total": 17,
           "sampleRefs": [
@@ -339,11 +342,11 @@
       },
       {
         "ref": "Psalm 78:2",
-        "note": "\"I will open My mouth in parables\" \u2014 quoted directly in v.35 as fulfilled."
+        "note": "\"I will open My mouth in parables\" — quoted directly in v.35 as fulfilled."
       },
       {
         "ref": "Daniel 12:3",
-        "note": "\"The righteous will shine like the sun\" \u2014 echoed in Jesus' explanation of the weeds in v.43."
+        "note": "\"The righteous will shine like the sun\" — echoed in Jesus' explanation of the weeds in v.43."
       }
     ],
     "mapCoords": {
@@ -357,26 +360,124 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry reads the wheat-and-tares parable as a claim of ownership as much as a warning \u2014 \"the world is Christ's field... whatever power and interest the devil has in it is usurped and unjust; when Christ comes to take possession, he comes whose right it is.\" He treats the mustard seed and leaven as two pictures of the same truth: the gospel's beginnings look small, but its end is anything but.",
+        "note": "Henry reads the wheat-and-tares parable as a claim of ownership as much as a warning — \"the world is Christ's field... whatever power and interest the devil has in it is usurped and unjust; when Christ comes to take possession, he comes whose right it is.\" He treats the mustard seed and leaven as two pictures of the same truth: the gospel's beginnings look small, but its end is anything but.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/13.htm"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "On the pearl of great price, Gill reads the merchant as Christ Himself, seeking out His elect \u2014 people who are precious to Him not because of any excellence in themselves, but purely because of the value He assigns them by His own grace, as His portion and inheritance.",
+        "note": "On the pearl of great price, Gill reads the merchant as Christ Himself, seeking out His elect — people who are precious to Him not because of any excellence in themselves, but purely because of the value He assigns them by His own grace, as His portion and inheritance.",
         "url": "https://www.biblestudytools.com/commentaries/gills-exposition-of-the-bible/matthew-13-45.html"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "On the hardened wayside soil, Clarke offers one of his more memorable lines: it pictures \"a heart where Satan has ingress, egress, regress, and progress \u2014 in a word, the devil's thoroughfare.\" He's careful to note the unfruitfulness in the other soils isn't from bad seed or a careless sower, since the same seed is sown everywhere alike \u2014 the difference lies entirely in the ground that receives it.",
+        "note": "On the hardened wayside soil, Clarke offers one of his more memorable lines: it pictures \"a heart where Satan has ingress, egress, regress, and progress — in a word, the devil's thoroughfare.\" He's careful to note the unfruitfulness in the other soils isn't from bad seed or a careless sower, since the same seed is sown everywhere alike — the difference lies entirely in the ground that receives it.",
         "url": "https://www.studylight.org/commentaries/acc/matthew-13.html"
       }
     ],
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/066.jpg",
-      "caption": "Christ in the Synagogue, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Project Gutenberg"
-    }
+      "caption": "Christ in the Synagogue, by Gustave Doré (1866)",
+      "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Jesus teaches in parables for the first time, describing the kingdom through a sower, weeds, a mustard seed, yeast, and hidden treasure. He explains why He uses parables, and His hometown rejects Him.",
+      "settingLine": "By the lake, then in a house and at Nazareth.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Farming Life",
+          "t": "Most hearers were farmers or fishermen, so seeds and nets were familiar pictures."
+        },
+        {
+          "h": "Hometown",
+          "t": "Nazareth's people knew Jesus' family, which made His wisdom hard to accept."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Darnel",
+          "t": "The weeds were likely darnel, which looks like wheat until it matures."
+        },
+        {
+          "h": "Mustard Seed",
+          "t": "A mustard seed was proverbially tiny, yet the plant grew into a large shrub."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Boats",
+          "t": "A boat found in the lake mud in 1986 shows how Jesus could teach from one."
+        },
+        {
+          "h": "Threshing Floors",
+          "t": "Rock-cut threshing floors still dot Galilee, where wheat and chaff were separated."
+        }
+      ],
+      "discussion": "Jesus said He teaches in parables so some won't understand. Why would He do that?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Parables",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 4:1-34": "Parables by the sea",
+        "Isaiah 6:9-10": "Hearing without perceiving",
+        "Psalm 78:2": "Speaking in parables"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The sower",
+          "d": "Scatters seed"
+        },
+        {
+          "n": "Disciples",
+          "d": "Told more"
+        },
+        {
+          "n": "His brothers",
+          "d": "Named"
+        },
+        {
+          "n": "Nazareth",
+          "d": "Rejects Him"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "By the sea",
+          "label": "Parable of the sower"
+        },
+        {
+          "when": "Then",
+          "label": "Weeds, mustard seed"
+        },
+        {
+          "when": "At home",
+          "label": "Explained to disciples"
+        },
+        {
+          "when": "Nazareth",
+          "label": "Rejected"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          54
+        ],
+        "slug": "nazareth"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

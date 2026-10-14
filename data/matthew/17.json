@@ -18,7 +18,7 @@
     },
     {
       "num": 4,
-      "text": "Peter said to Jesus, \"Lord, it is good for us to be here. If You wish, I will put up three shelters \u2014 one for You, one for Moses, and one for Elijah.\""
+      "text": "Peter said to Jesus, \"Lord, it is good for us to be here. If You wish, I will put up three shelters — one for You, one for Moses, and one for Elijah.\""
     },
     {
       "num": 5,
@@ -111,19 +111,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 the Transfiguration, followed by a healing account, a second passion prediction, and a brief teaching on the temple tax.",
+    "genre": "Narrative — the Transfiguration, followed by a healing account, a second passion prediction, and a brief teaching on the temple tax.",
     "audience": "Jewish-Christian readers, given a momentary glimpse of Jesus' divine glory just as the narrative turns toward His suffering.",
     "mapLabel": "A HIGH MOUNTAIN, THEN CAPERNAUM",
     "setting": "The unnamed \"high mountain\" is traditionally linked to Mount Tabor, though many scholars favor Mount Hermon, closer to Caesarea Philippi where the previous chapter's events took place. This occurs roughly six months before the crucifixion, under Roman rule with Herod Antipas governing Galilee.",
-    "custom": "The two-drachma temple tax (v.24) was an annual payment expected of every adult Jewish male to support temple upkeep, based on Exodus 30:13-16 \u2014 Jesus' point about \"sons\" being exempt from a king's tax makes a claim about His own identity before He agrees to pay anyway.",
-    "timelineImmediate": "Occurs about six days after Peter's confession and the first passion prediction in chapter 16 \u2014 this mountaintop glimpse of glory comes just before Jesus' ministry turns decisively toward Jerusalem and the cross.",
-    "timelineBible": "Moses and Elijah appearing with Jesus (v.3) represents the Law and the Prophets \u2014 the entire Old Testament \u2014 visibly affirming Him, while the shining face deliberately echoes Moses' own glowing face after meeting God in Exodus 34:29-35.",
+    "custom": "The two-drachma temple tax (v.24) was an annual payment expected of every adult Jewish male to support temple upkeep, based on Exodus 30:13-16 — Jesus' point about \"sons\" being exempt from a king's tax makes a claim about His own identity before He agrees to pay anyway.",
+    "timelineImmediate": "Occurs about six days after Peter's confession and the first passion prediction in chapter 16 — this mountaintop glimpse of glory comes just before Jesus' ministry turns decisively toward Jerusalem and the cross.",
+    "timelineBible": "Moses and Elijah appearing with Jesus (v.3) represents the Law and the Prophets — the entire Old Testament — visibly affirming Him, while the shining face deliberately echoes Moses' own glowing face after meeting God in Exodus 34:29-35.",
     "translation": [
       {
         "english": "transfigured",
-        "greek": "\u03bc\u03b5\u03c4\u03b5\u03bc\u03bf\u03c1\u03c6\u03ce\u03b8\u03b7 (metemorph\u014dth\u0113)",
+        "greek": "μετεμορφώθη (metemorphōthē)",
         "verseRef": "v.2",
-        "meaning": "A visible transformation in form \u2014 the same root as the English word \"metamorphosis,\" describing a literal, outward change.",
+        "meaning": "A visible transformation in form — the same root as the English word \"metamorphosis,\" describing a literal, outward change.",
         "occurrences": {
           "total": 4,
           "sampleRefs": [
@@ -131,20 +131,22 @@
             "Romans 12:2",
             "2 Corinthians 3:18"
           ],
-          "note": "Used only four times \u2014 twice for this one event, and twice more (translated \"transformed\") for the believer's own ongoing spiritual change."
-        }
+          "note": "Used only four times — twice for this one event, and twice more (translated \"transformed\") for the believer's own ongoing spiritual change."
+        },
+        "gloss": "Changed in form"
       },
       {
         "english": "listen to Him",
-        "greek": "\u1f00\u03ba\u03bf\u03cd\u03b5\u03c4\u03b5 \u03b1\u1f50\u03c4\u03bf\u1fe6 (akouete autou)",
+        "greek": "ἀκούετε αὐτοῦ (akouete autou)",
         "verseRef": "v.5",
-        "meaning": "A present imperative \u2014 ongoing, continuous listening \u2014 echoing Moses' promise in Deuteronomy 18:15 of a coming prophet whose words must be heeded."
+        "meaning": "A present imperative — ongoing, continuous listening — echoing Moses' promise in Deuteronomy 18:15 of a coming prophet whose words must be heeded.",
+        "gloss": "Keep listening to Him"
       },
       {
         "english": "restore",
-        "greek": "\u1f00\u03c0\u03bf\u03ba\u03b1\u03c4\u03b1\u03c3\u03c4\u03ae\u03c3\u03b5\u03b9 (apokatast\u0113sei)",
+        "greek": "ἀποκαταστήσει (apokatastēsei)",
         "verseRef": "v.11",
-        "meaning": "To set right or bring back to a proper state \u2014 the expected role of Elijah before the Messiah's arrival, per Malachi 4:5-6.",
+        "meaning": "To set right or bring back to a proper state — the expected role of Elijah before the Messiah's arrival, per Malachi 4:5-6.",
         "occurrences": {
           "total": 8,
           "sampleRefs": [
@@ -152,13 +154,14 @@
             "Mark 8:25",
             "Acts 1:6"
           ]
-        }
+        },
+        "gloss": "To set right again"
       },
       {
         "english": "little faith",
-        "greek": "\u1f40\u03bb\u03b9\u03b3\u03bf\u03c0\u03b9\u03c3\u03c4\u03af\u03b1\u03bd (oligopistian)",
+        "greek": "ὀλιγοπιστίαν (oligopistian)",
         "verseRef": "v.20",
-        "meaning": "The noun form of the same word used for Peter sinking on the water in chapter 14 \u2014 here explaining the disciples' failed healing attempt.",
+        "meaning": "The noun form of the same word used for Peter sinking on the water in chapter 14 — here explaining the disciples' failed healing attempt.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -189,7 +192,7 @@
     "otBackground": [
       {
         "ref": "Exodus 34:29-35",
-        "note": "Moses' face shining after meeting with God \u2014 the visual precedent for Jesus' transfiguration."
+        "note": "Moses' face shining after meeting with God — the visual precedent for Jesus' transfiguration."
       },
       {
         "ref": "Exodus 24:15-18",
@@ -206,31 +209,117 @@
       "zoom": 6.5,
       "placeName": "Mount Hermon (traditional Transfiguration site)"
     },
-    "sparkNotes": "Jesus is transfigured on a mountain before three disciples, His face shining like the sun as Moses and Elijah appear beside Him. \"Transfigured\" shares its root with the word Paul later uses for a believer's own \"transformation\" \u2014 and the scene deliberately echoes Moses' own glowing face after meeting God in Exodus 34.",
+    "sparkNotes": "Jesus is transfigured on a mountain before three disciples, His face shining like the sun as Moses and Elijah appear beside Him. \"Transfigured\" shares its root with the word Paul later uses for a believer's own \"transformation\" — and the scene deliberately echoes Moses' own glowing face after meeting God in Exodus 34.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry reads the moment the vision fades \u2014 \"they saw no man, save Jesus only\" \u2014 as the whole point condensed into five words: whatever authority Moses and Elijah carried as prophets, they were willing to see it entirely transferred to Christ, whose silence at \"hear him\" was itself their consent.",
+        "note": "Henry reads the moment the vision fades — \"they saw no man, save Jesus only\" — as the whole point condensed into five words: whatever authority Moses and Elijah carried as prophets, they were willing to see it entirely transferred to Christ, whose silence at \"hear him\" was itself their consent.",
         "url": "https://www.biblestudytools.com/commentaries/matthew-henry-complete/matthew/17.html"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB draws a precise distinction most readers miss: the temple tax in this chapter was an ecclesiastical due, not a civil tax like the one debated with Caesar's coin later in chapter 22 \u2014 and they argue the whole force of Jesus' reasoning about kings not taxing their own children depends on keeping that distinction clear.",
+        "note": "JFB draws a precise distinction most readers miss: the temple tax in this chapter was an ecclesiastical due, not a civil tax like the one debated with Caesar's coin later in chapter 22 — and they argue the whole force of Jesus' reasoning about kings not taxing their own children depends on keeping that distinction clear.",
         "url": "https://www.blueletterbible.org/Comm/jfb/Mat/Mat_017.cfm"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill notes that \"faith as a grain of mustard seed\" wasn't an image Jesus invented on the spot \u2014 it was already a known proverbial phrase in Jewish sources for describing something impossibly small in quantity, which makes Jesus' point sharper: even that little is enough.",
+        "note": "Gill notes that \"faith as a grain of mustard seed\" wasn't an image Jesus invented on the spot — it was already a known proverbial phrase in Jewish sources for describing something impossibly small in quantity, which makes Jesus' point sharper: even that little is enough.",
         "url": "https://www.studylight.org/commentary/matthew/17-20.html"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_The_Transfiguration.jpg",
-      "caption": "The Transfiguration, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "caption": "The Transfiguration, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus is transfigured before Peter, James and John, and Moses and Elijah appear. A voice from the cloud says to listen to Him. He heals a boy the disciples could not, predicts His death again, and pays the temple tax with a coin from a fish.",
+      "settingLine": "A high mountain, then Capernaum.",
+      "placeName": "Mount Hermon (traditional)",
+      "history": [
+        {
+          "h": "Temple Tax",
+          "t": "Every adult Jewish man paid two drachmas a year toward temple upkeep."
+        },
+        {
+          "h": "Elijah's Return",
+          "t": "Many expected Elijah to come before the Messiah, as Malachi promised."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Shelters",
+          "t": "Peter's offer of shelters recalls the booths built at the Feast of Tabernacles."
+        },
+        {
+          "h": "Mustard Seed",
+          "t": "A mustard seed was proverbially tiny, so even small faith can do great things."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Mount Tabor",
+          "t": "A church on Mount Tabor honors the Transfiguration, though the Gospels name no mountain."
+        },
+        {
+          "h": "Tyrian Silver",
+          "t": "Tyrian silver coins, like the one in the fish, are common finds in Jerusalem."
+        }
+      ],
+      "discussion": "At the Transfiguration a voice said, \"Listen to Him.\" What do you think the disciples most needed to hear?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 9:2-13": "Transfiguration",
+        "Exodus 34:29-35": "Moses' shining face",
+        "Exodus 24:15-18": "Cloud on Sinai"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Offers shelters"
+        },
+        {
+          "n": "Moses",
+          "d": "Appears"
+        },
+        {
+          "n": "Elijah",
+          "d": "Appears"
+        },
+        {
+          "n": "The three",
+          "d": "Witnesses"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "6 days later",
+          "label": "Up the mountain"
+        },
+        {
+          "when": "Summit",
+          "label": "Transfigured"
+        },
+        {
+          "when": "Below",
+          "label": "Boy healed"
+        },
+        {
+          "when": "Capernaum",
+          "label": "The temple tax"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermonsnow.jpg",
+      "caption": "Present-day Mount Hermon (traditional)",
+      "credit": "Photo: Almog / Wikimedia Commons"
     }
   }
 }

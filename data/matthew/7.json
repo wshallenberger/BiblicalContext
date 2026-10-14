@@ -110,7 +110,7 @@
     },
     {
       "num": 27,
-      "text": "The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell \u2014 and great was its collapse!\""
+      "text": "The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell — and great was its collapse!\""
     },
     {
       "num": 28,
@@ -123,19 +123,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Teaching discourse \u2014 the closing section of the Sermon on the Mount, moving through a series of short, image-driven sayings.",
+    "genre": "Teaching discourse — the closing section of the Sermon on the Mount, moving through a series of short, image-driven sayings.",
     "audience": "The same Galilean crowd, plus Jewish-Christian readers weighing whether Jesus' authority exceeded that of their own scribes.",
     "mapLabel": "A GALILEAN HILLSIDE, NEAR CAPERNAUM",
     "setting": "This chapter closes the Sermon on the Mount. Jesus is still early in His ministry, gathering disciples and redefining righteousness beyond the traditions of the scribes and Pharisees.",
-    "custom": "Narrow city gates forced travelers to set down baggage before entering \u2014 a vivid image behind v.13-14. Sudden winter rains in the region could turn dry wadis into raging torrents, sweeping away homes without a solid foundation, the backdrop for the closing parable.",
-    "timelineImmediate": "The conclusion of the Sermon on the Mount (chapters 5-7) \u2014 still early in Jesus' public ministry, before He descends the mountain in chapter 8.",
+    "custom": "Narrow city gates forced travelers to set down baggage before entering — a vivid image behind v.13-14. Sudden winter rains in the region could turn dry wadis into raging torrents, sweeping away homes without a solid foundation, the backdrop for the closing parable.",
+    "timelineImmediate": "The conclusion of the Sermon on the Mount (chapters 5-7) — still early in Jesus' public ministry, before He descends the mountain in chapter 8.",
     "timelineBible": "The crowd's astonishment that Jesus taught \"as one who had authority\" (v.29) echoes Isaiah's prophecy that the Spirit of wisdom and authority would rest on the coming Messiah (Isaiah 11:2).",
     "translation": [
       {
         "english": "judge",
-        "greek": "\u03ba\u03c1\u03af\u03bd\u03c9 (krin\u014d)",
+        "greek": "κρίνω (krinō)",
         "verseRef": "v.1-2",
-        "meaning": "To form a critical, condemning opinion \u2014 Jesus targets the condemning spirit, not ordinary discernment.",
+        "meaning": "To form a critical, condemning opinion — Jesus targets the condemning spirit, not ordinary discernment.",
         "occurrences": {
           "total": 114,
           "sampleRefs": [
@@ -143,11 +143,12 @@
             "Romans 14:13",
             "James 4:12"
           ]
-        }
+        },
+        "gloss": "To decide, condemn"
       },
       {
         "english": "ask / seek / knock",
-        "greek": "\u03b1\u1f30\u03c4\u03ad\u03c9 / \u03b6\u03b7\u03c4\u03ad\u03c9 / \u03ba\u03c1\u03bf\u03cd\u03c9 (aite\u014d / z\u0113te\u014d / krou\u014d)",
+        "greek": "αἰτέω / ζητέω / κρούω (aiteō / zēteō / krouō)",
         "verseRef": "v.7-8",
         "meaning": "All three verbs are present imperatives, implying continuous, persistent action rather than a single request.",
         "occurrences": {
@@ -157,14 +158,17 @@
             "James 4:2-3",
             "1 John 5:16"
           ],
-          "note": "Figure given is for \"ask\" (aite\u014d) alone \u2014 \"seek\" (z\u0113te\u014d, 117x) and \"knock\" (krou\u014d, 9x) each carry their own separate count."
-        }
+          "note": "Figure given is for \"ask\" (aiteō) alone — \"seek\" (zēteō, 117x) and \"knock\" (krouō, 9x) each carry their own separate count."
+        },
+        "gloss": "Keep asking",
+        "ovGreek": "ζητέω",
+        "ovEnglish": "Seek"
       },
       {
         "english": "narrow",
-        "greek": "\u03c3\u03c4\u03b5\u03bd\u03cc\u03c2 (stenos)",
+        "greek": "στενός (stenos)",
         "verseRef": "v.13-14",
-        "meaning": "Implies constriction \u2014 a way that requires setting things down to pass through, not just a smaller road.",
+        "meaning": "Implies constriction — a way that requires setting things down to pass through, not just a smaller road.",
         "occurrences": {
           "total": 3,
           "sampleRefs": [
@@ -172,13 +176,14 @@
             "Luke 13:24"
           ],
           "note": "Used only three times in the entire New Testament, always for this same narrow-gate image."
-        }
+        },
+        "gloss": "Tight, hemmed in"
       },
       {
         "english": "fruit",
-        "greek": "\u03ba\u03b1\u03c1\u03c0\u03cc\u03c2 (karpos)",
+        "greek": "καρπός (karpos)",
         "verseRef": "v.16-20",
-        "meaning": "The visible, tangible outcome of a life or teaching \u2014 Jesus' test for genuine versus false prophets.",
+        "meaning": "The visible, tangible outcome of a life or teaching — Jesus' test for genuine versus false prophets.",
         "occurrences": {
           "total": 66,
           "sampleRefs": [
@@ -190,9 +195,9 @@
       },
       {
         "english": "authority",
-        "greek": "\u1f10\u03be\u03bf\u03c5\u03c3\u03af\u03b1 (exousia)",
+        "greek": "ἐξουσία (exousia)",
         "verseRef": "v.29",
-        "meaning": "Rightful power and command \u2014 what set Jesus apart from the scribes, who typically taught by citing prior rabbis.",
+        "meaning": "Rightful power and command — what set Jesus apart from the scribes, who typically taught by citing prior rabbis.",
         "occurrences": {
           "total": 102,
           "sampleRefs": [
@@ -223,15 +228,15 @@
     "otBackground": [
       {
         "ref": "Leviticus 19:17-18",
-        "note": "\"Do not hate your brother in your heart... rebuke your neighbor frankly\" \u2014 background for the teaching on judgment."
+        "note": "\"Do not hate your brother in your heart... rebuke your neighbor frankly\" — background for the teaching on judgment."
       },
       {
         "ref": "Deuteronomy 30:19",
-        "note": "Israel set before \"life and death... choose life\" \u2014 an early version of the two-ways image behind the narrow gate."
+        "note": "Israel set before \"life and death... choose life\" — an early version of the two-ways image behind the narrow gate."
       },
       {
         "ref": "Psalm 1",
-        "note": "Paints the same two paths \u2014 one blessed, one perishing \u2014 that Jesus develops throughout this chapter."
+        "note": "Paints the same two paths — one blessed, one perishing — that Jesus develops throughout this chapter."
       }
     ],
     "mapCoords": {
@@ -240,31 +245,117 @@
       "zoom": 9.5,
       "placeName": "Mount of Beatitudes, near Capernaum"
     },
-    "sparkNotes": "The Sermon closes with warnings against judging others and the choice between a narrow and a broad gate. \"Narrow\" appears only three times in the entire New Testament, always for this same image \u2014 while \"judge\" (114 uses) shows just how often the New Testament returns to this exact warning.",
+    "sparkNotes": "The Sermon closes with warnings against judging others and the choice between a narrow and a broad gate. \"Narrow\" appears only three times in the entire New Testament, always for this same image — while \"judge\" (114 uses) shows just how often the New Testament returns to this exact warning.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry reads \"judge not\" as forbidding us from sitting in a seat that isn't ours \u2014 we may judge our own actions, but not assume the authority to pronounce on someone else's heart or eternal state, since that belongs to God alone. He treats the wise and foolish builders as two audiences, not two doctrines: both hear the same sermon, but only one actually does what it says.",
+        "note": "Henry reads \"judge not\" as forbidding us from sitting in a seat that isn't ours — we may judge our own actions, but not assume the authority to pronounce on someone else's heart or eternal state, since that belongs to God alone. He treats the wise and foolish builders as two audiences, not two doctrines: both hear the same sermon, but only one actually does what it says.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/7.htm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke notes the Greek word order in v.6 is naturally reversed for clarity in translation \u2014 \"dogs\" pairs with \"rend you\" and \"swine\" with \"trample underfoot,\" a common stylistic transposition in ancient writing. He also calls the Golden Rule the sum of everything the Law and Prophets teach about how people ought to treat one another.",
+        "note": "Clarke notes the Greek word order in v.6 is naturally reversed for clarity in translation — \"dogs\" pairs with \"rend you\" and \"swine\" with \"trample underfoot,\" a common stylistic transposition in ancient writing. He also calls the Golden Rule the sum of everything the Law and Prophets teach about how people ought to treat one another.",
         "url": "https://sacred-texts.com/bib/cmt/clarke/mat007.htm"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill reads \"pearls before swine\" less as a blanket rule about withholding truth, and more as caution specifically about persistent, ill-natured rebuke \u2014 continuing to press correction on someone who has clearly shown no openness to receiving it, where the effort risks real loss and produces only hostility in return.",
+        "note": "Gill reads \"pearls before swine\" less as a blanket rule about withholding truth, and more as caution specifically about persistent, ill-natured rebuke — continuing to press correction on someone who has clearly shown no openness to receiving it, where the effort risks real loss and produces only hostility in return.",
         "url": "https://www.studylight.org/commentary/matthew/7-6.html"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dore_Bible_Sermon_on_the_Mount.jpg",
-      "caption": "The Sermon on the Mount, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "caption": "The Sermon on the Mount, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus teaches against judging and says to ask, seek, and knock. He urges entering by the narrow gate and warns about false prophets and empty words. The sermon ends with houses built on rock and sand, and the crowds are amazed.",
+      "settingLine": "The mountainside above the lake.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "False Prophets",
+          "t": "Traveling teachers were common, so Jesus gives a test: look at the fruit."
+        },
+        {
+          "h": "Teachers of the Law",
+          "t": "Scribes quoted earlier rabbis, but Jesus taught on His own authority."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Narrow Gates",
+          "t": "Narrow city gates forced travelers to set down loads before entering."
+        },
+        {
+          "h": "Winter Floods",
+          "t": "Sudden rains turned dry riverbeds into torrents that swept away poor foundations."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Rock Foundations",
+          "t": "Many excavated homes rest on bedrock or stone, the kind the wise builder chose."
+        },
+        {
+          "h": "Terraced Vineyards",
+          "t": "Ancient terraces and presses show how central grapes and figs were to Galilee."
+        }
+      ],
+      "discussion": "Jesus says, \"Do not judge,\" yet warns about false prophets. How do you tell discernment from judging?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Teaching discourse",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 6:37-42": "Judging and the speck",
+        "Leviticus 19:17-18": "Love your neighbor",
+        "Deuteronomy 30:19": "Choose life"
+      },
+      "peoplePlaces": [
+        {
+          "n": "False prophets",
+          "d": "Wolves"
+        },
+        {
+          "n": "Wise man",
+          "d": "On rock"
+        },
+        {
+          "n": "Foolish man",
+          "d": "On sand"
+        },
+        {
+          "n": "The crowds",
+          "d": "Amazed"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Judging",
+          "label": "Speck and log"
+        },
+        {
+          "when": "Asking",
+          "label": "Seek and knock"
+        },
+        {
+          "when": "Two gates",
+          "label": "Narrow and wide"
+        },
+        {
+          "when": "Two houses",
+          "label": "Rock and sand"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
     }
   }
 }

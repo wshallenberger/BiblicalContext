@@ -179,26 +179,27 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 three consecutive miracle stories, each escalating in scope: deliverance, chronic illness, and death itself",
+    "genre": "Narrative Gospel — three consecutive miracle stories, each escalating in scope: deliverance, chronic illness, and death itself",
     "audience": "Roman Christian readers, watching Jesus' authority proven across the spiritual, physical, and mortal realms in a single chapter",
     "mapLabel": "GERASENES, DECAPOLIS",
-    "setting": "The eastern shore of the Sea of Galilee, in Gentile territory \u2014 the region of the Gerasenes sat within the Decapolis, ten largely Greek-influenced cities. A large pig herd (unthinkable in Jewish territory, since pigs were unclean under Mosaic law) instantly signals this is Gentile land.",
-    "custom": "Tombs were natural, cave-like dwellings cut into hillsides, and dwelling among them made a person ritually unclean on top of whatever affliction they already carried. A Roman legion typically numbered five to six thousand soldiers \u2014 the demon's chosen name signals overwhelming, organized spiritual occupation, not a single affliction.",
-    "timelineImmediate": "Three miracles in one chapter, moving in a deliberate arc from delivering a man overrun by many spirits, to healing a woman's twelve-year illness, to raising a twelve-year-old girl from death \u2014 the escalating scope has led many readers to see this as a structured triad.",
-    "timelineBible": "Jesus' authority over evil spirits so complete they beg permission before acting (v.10-13) echoes Psalm 107:14's picture of God breaking chains and setting prisoners free \u2014 an image originally about physical captivity, now enacted against spiritual captivity instead.",
-    "sparkNotes": "Jesus crosses into Gentile territory and frees a man possessed by \"Legion\" \u2014 so many spirits they beg to enter a nearby pig herd instead of leaving the region. Back on the western shore, a woman touches His cloak after twelve years of bleeding and is healed instantly, and Jesus raises Jairus's twelve-year-old daughter from death with just two Aramaic words, \"Talitha koum,\" which Mark preserves in the original alongside their translation.",
+    "setting": "The eastern shore of the Sea of Galilee, in Gentile territory — the region of the Gerasenes sat within the Decapolis, ten largely Greek-influenced cities. A large pig herd (unthinkable in Jewish territory, since pigs were unclean under Mosaic law) instantly signals this is Gentile land.",
+    "custom": "Tombs were natural, cave-like dwellings cut into hillsides, and dwelling among them made a person ritually unclean on top of whatever affliction they already carried. A Roman legion typically numbered five to six thousand soldiers — the demon's chosen name signals overwhelming, organized spiritual occupation, not a single affliction.",
+    "timelineImmediate": "Three miracles in one chapter, moving in a deliberate arc from delivering a man overrun by many spirits, to healing a woman's twelve-year illness, to raising a twelve-year-old girl from death — the escalating scope has led many readers to see this as a structured triad.",
+    "timelineBible": "Jesus' authority over evil spirits so complete they beg permission before acting (v.10-13) echoes Psalm 107:14's picture of God breaking chains and setting prisoners free — an image originally about physical captivity, now enacted against spiritual captivity instead.",
+    "sparkNotes": "Jesus crosses into Gentile territory and frees a man possessed by \"Legion\" — so many spirits they beg to enter a nearby pig herd instead of leaving the region. Back on the western shore, a woman touches His cloak after twelve years of bleeding and is healed instantly, and Jesus raises Jairus's twelve-year-old daughter from death with just two Aramaic words, \"Talitha koum,\" which Mark preserves in the original alongside their translation.",
     "translation": [
       {
         "english": "Legion",
-        "greek": "\u039b\u03b5\u03b3\u03b9\u1f7c\u03bd (Legi\u014dn)",
+        "greek": "Λεγιὼν (Legiōn)",
         "verseRef": "v.9",
-        "meaning": "A direct loanword from the Roman military unit of five to six thousand soldiers \u2014 the demon's own chosen name, signaling massive, organized spiritual occupation rather than a single affliction."
+        "meaning": "A direct loanword from the Roman military unit of five to six thousand soldiers — the demon's own chosen name, signaling massive, organized spiritual occupation rather than a single affliction.",
+        "gloss": "A Roman unit"
       },
       {
         "english": "faith",
-        "greek": "\u03c0\u03af\u03c3\u03c4\u03b9\u03c2 (pistis)",
+        "greek": "πίστις (pistis)",
         "verseRef": "v.34, 36",
-        "meaning": "Trust and belief in action \u2014 the deciding factor Jesus names in both the bleeding woman's healing and His instruction to Jairus.",
+        "meaning": "Trust and belief in action — the deciding factor Jesus names in both the bleeding woman's healing and His instruction to Jairus.",
         "occurrences": {
           "total": 243,
           "sampleRefs": [
@@ -206,13 +207,15 @@
             "Hebrews 11:1",
             "James 2:17"
           ]
-        }
+        },
+        "gloss": "Trust, faith"
       },
       {
         "english": "Talitha koum",
-        "greek": "\u03a4\u03b1\u03bb\u03b9\u03b8\u03ac \u03ba\u03bf\u03cd\u03bc (Talitha koum)",
+        "greek": "Ταλιθά κούμ (Talitha koum)",
         "verseRef": "v.41",
-        "meaning": "Aramaic for \"little girl, get up\" \u2014 Mark preserves Jesus' actual spoken words before translating them, a detail widely read as coming from an eyewitness who was in the room, likely Peter."
+        "meaning": "Aramaic for \"little girl, get up\" — Mark preserves Jesus' actual spoken words before translating them, a detail widely read as coming from an eyewitness who was in the room, likely Peter.",
+        "gloss": "Little girl, rise"
       }
     ],
     "gospelParallels": [
@@ -234,15 +237,15 @@
     "otBackground": [
       {
         "ref": "Leviticus 11:7",
-        "note": "Pigs declared unclean under the Law \u2014 background for the herd's presence confirming this is Gentile territory."
+        "note": "Pigs declared unclean under the Law — background for the herd's presence confirming this is Gentile territory."
       },
       {
         "ref": "Psalm 107:14",
-        "note": "God breaking chains and freeing prisoners from darkness \u2014 echoed in the deliverance of the chained demoniac."
+        "note": "God breaking chains and freeing prisoners from darkness — echoed in the deliverance of the chained demoniac."
       },
       {
         "ref": "2 Kings 4:32-37",
-        "note": "Elisha raising a child from death in a private room \u2014 a precedent for Jesus raising Jairus's daughter with only a few witnesses present."
+        "note": "Elisha raising a child from death in a private room — a precedent for Jesus raising Jairus's daughter with only a few witnesses present."
       }
     ],
     "mapCoords": {
@@ -255,26 +258,112 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry draws a deliberate contrast between the chapter's two petitioners: Jairus comes openly, publicly falling at Jesus' feet as a respected synagogue ruler, while the bleeding woman comes clandestinely, hoping to \"steal\" a cure unnoticed in the crush of the crowd. Both get exactly what they came for \u2014 \"as secret acts of sin, so secret acts of faith, are known to the Lord Jesus, and are under his eye.\"",
+        "note": "Henry draws a deliberate contrast between the chapter's two petitioners: Jairus comes openly, publicly falling at Jesus' feet as a respected synagogue ruler, while the bleeding woman comes clandestinely, hoping to \"steal\" a cure unnoticed in the crush of the crowd. Both get exactly what they came for — \"as secret acts of sin, so secret acts of faith, are known to the Lord Jesus, and are under his eye.\"",
         "url": "https://www.studylight.org/commentaries/eng/mhm/mark-5.html"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "On the mourners who laugh at Jesus for saying the girl is only \"sleeping,\" Henry notes their scorn actually strengthens the case for the miracle rather than weakening it \u2014 their reaction proves beyond dispute that everyone present, including the family, genuinely believed the child was dead.",
+        "note": "On the mourners who laugh at Jesus for saying the girl is only \"sleeping,\" Henry notes their scorn actually strengthens the case for the miracle rather than weakening it — their reaction proves beyond dispute that everyone present, including the family, genuinely believed the child was dead.",
         "url": "https://biblehub.com/commentaries/mhcw/mark/5.htm"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle draws out a lesson from Jairus's status: 'rank places no man beyond the reach of sorrow. Jairus was a ruler; yet sickness and trouble came to his house.' On the raising itself, he writes plainly: 'the keys of death are in our Lord Jesus Christ's hands' \u2014 a power no synagogue office or social standing could have purchased.",
+        "note": "Ryle draws out a lesson from Jairus's status: 'rank places no man beyond the reach of sorrow. Jairus was a ruler; yet sickness and trouble came to his house.' On the raising itself, he writes plainly: 'the keys of death are in our Lord Jesus Christ's hands' — a power no synagogue office or social standing could have purchased.",
         "url": "https://www.preceptaustin.org/j-c-ryle-gospel-of-mark-commentary"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_Jesus_raises_the_daughter_of_Jairus_from_the_dead.jpg",
-      "caption": "Jesus Raises the Daughter of Jairus, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
+      "caption": "Jesus Raises the Daughter of Jairus, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus frees a man called Legion in the region of the Gerasenes and the demons enter a herd of pigs. Back across the lake, a woman is healed by touching His cloak, and Jairus' daughter is raised.",
+      "settingLine": "The east shore, then Capernaum.",
+      "placeName": "Gadara, Jordan",
+      "history": [
+        {
+          "h": "Decapolis",
+          "t": "A league of ten Greek cities east of Galilee, where Gentiles lived."
+        },
+        {
+          "h": "Legion",
+          "t": "A Roman legion was five to six thousand soldiers."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Tombs",
+          "t": "Hillside caves served as tombs, and touching the dead made one unclean."
+        },
+        {
+          "h": "Bleeding",
+          "t": "A woman with a flow of blood was ritually unclean and kept apart."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Kursi",
+          "t": "A Byzantine monastery at Kursi marks the traditional site of the pigs."
+        },
+        {
+          "h": "Rock Tombs",
+          "t": "Cave tombs cut into hillsides are common around the lake."
+        }
+      ],
+      "discussion": "The healed man wanted to go with Jesus, but was told to go home. When is staying the harder calling?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Miracles",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 8:28-34": "Two demon-possessed men",
+        "Leviticus 11:7": "Pigs are unclean",
+        "Psalm 107:14": "Chains broken"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Legion",
+          "d": "Set free"
+        },
+        {
+          "n": "The woman",
+          "d": "Healed"
+        },
+        {
+          "n": "Jairus",
+          "d": "A father"
+        },
+        {
+          "n": "Gerasenes",
+          "d": "Gentile area"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "East shore",
+          "label": "Legion cast out"
+        },
+        {
+          "when": "Return",
+          "label": "Crowds gather"
+        },
+        {
+          "when": "In a crowd",
+          "label": "Cloak touched"
+        },
+        {
+          "when": "Jairus' house",
+          "label": "Girl raised"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gadara,_Jordan_(34420510671).jpg",
+      "caption": "Present-day Gadara, Jordan",
+      "credit": "Photo: Carole Raddato / Wikimedia Commons"
     }
   }
 }

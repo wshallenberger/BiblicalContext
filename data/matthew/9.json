@@ -159,19 +159,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 a continued sequence of miracle accounts, including the Gospel author's own call as a disciple, now interwoven with the first open conflict with religious leaders.",
+    "genre": "Narrative — a continued sequence of miracle accounts, including the Gospel author's own call as a disciple, now interwoven with the first open conflict with religious leaders.",
     "audience": "Jewish-Christian readers, especially attentive to Jesus' inclusion of tax collectors and sinners, and His direct challenge to Pharisaic assumptions about who belongs at God's table.",
     "mapLabel": "CAPERNAUM",
-    "setting": "Only God was understood to have the authority to forgive sin (Isaiah 43:25, Psalm 103:3) \u2014 Jesus' declaration to the paralytic (v.2) is a direct claim to that divine prerogative. Tax collectors like Matthew leased collection territory from Rome and could charge extra for personal profit, making them widely despised as collaborators.",
+    "setting": "Only God was understood to have the authority to forgive sin (Isaiah 43:25, Psalm 103:3) — Jesus' declaration to the paralytic (v.2) is a direct claim to that divine prerogative. Tax collectors like Matthew leased collection territory from Rome and could charge extra for personal profit, making them widely despised as collaborators.",
     "custom": "Friends lowering a paralyzed man to Jesus (implied by v.2, detailed further in Mark's parallel) reflects the common flat, mud-covered roof construction of Galilean homes. The bleeding woman's touch of Jesus' cloak fringe (v.20) refers to the tzitzit, tassels worn on the corners of a garment per Jewish law.",
-    "timelineImmediate": "Continues Jesus' Galilean ministry directly after chapter 8's miracles, and includes His calling of Matthew himself (v.9) \u2014 a notably personal moment in the Gospel Matthew is writing.",
+    "timelineImmediate": "Continues Jesus' Galilean ministry directly after chapter 8's miracles, and includes His calling of Matthew himself (v.9) — a notably personal moment in the Gospel Matthew is writing.",
     "timelineBible": "Jesus' healings of blindness and muteness in this chapter echo Isaiah's prophecy that in the day of salvation \"the eyes of the blind will be opened\" (Isaiah 35:5-6), and His quotation of Hosea 6:6 (\"I desire mercy, not sacrifice,\" v.13) places Him directly within the prophetic tradition critiquing empty ritual.",
     "translation": [
       {
         "english": "forgiven",
-        "greek": "\u1f00\u03c6\u03af\u03b5\u03bd\u03c4\u03b1\u03af (aphientai)",
+        "greek": "ἀφίενταί (aphientai)",
         "verseRef": "v.2, 5-6",
-        "meaning": "Implies a release or letting go \u2014 the same verb family used for canceling a debt.",
+        "meaning": "Implies a release or letting go — the same verb family used for canceling a debt.",
         "occurrences": {
           "total": 143,
           "sampleRefs": [
@@ -179,27 +179,29 @@
             "Luke 23:34",
             "1 John 1:9"
           ],
-          "note": "This broader root covers \"leave,\" \"let go,\" and \"forgive\" alike \u2014 only around a third of its uses are specifically about forgiving sin."
-        }
+          "note": "This broader root covers \"leave,\" \"let go,\" and \"forgive\" alike — only around a third of its uses are specifically about forgiving sin."
+        },
+        "gloss": "Sent away, released"
       },
       {
         "english": "follow",
-        "greek": "\u1f00\u03ba\u03bf\u03bb\u03bf\u03cd\u03b8\u03b5\u03b9 (akolouthei)",
+        "greek": "ἀκολούθει (akolouthei)",
         "verseRef": "v.9",
-        "meaning": "A present imperative \u2014 ongoing, continuous discipleship rather than a single decision.",
+        "meaning": "A present imperative — ongoing, continuous discipleship rather than a single decision.",
         "occurrences": {
           "total": 90,
           "sampleRefs": [
             "John 1:43",
             "Revelation 14:4"
           ]
-        }
+        },
+        "gloss": "Keep following Me"
       },
       {
         "english": "new",
-        "greek": "\u03ba\u03b1\u03b9\u03bd\u03cc\u03c2 (kainos)",
+        "greek": "καινός (kainos)",
         "verseRef": "v.16-17",
-        "meaning": "Fresh and unprecedented, not merely \"another one\" \u2014 signals something genuinely different arriving, not a repair of the old.",
+        "meaning": "Fresh and unprecedented, not merely \"another one\" — signals something genuinely different arriving, not a repair of the old.",
         "occurrences": {
           "total": 42,
           "sampleRefs": [
@@ -207,13 +209,14 @@
             "Hebrews 8:13",
             "Revelation 21:5"
           ]
-        }
+        },
+        "gloss": "Fresh, unused"
       },
       {
         "english": "faith",
-        "greek": "\u03c0\u03af\u03c3\u03c4\u03b9\u03c2 (pistis)",
+        "greek": "πίστις (pistis)",
         "verseRef": "v.22, 29",
-        "meaning": "Trust and belief in action \u2014 repeatedly the deciding factor in who receives healing in this chapter.",
+        "meaning": "Trust and belief in action — repeatedly the deciding factor in who receives healing in this chapter.",
         "occurrences": {
           "total": 243,
           "sampleRefs": [
@@ -225,9 +228,9 @@
       },
       {
         "english": "compassion",
-        "greek": "\u1f10\u03c3\u03c0\u03bb\u03b1\u03b3\u03c7\u03bd\u03af\u03c3\u03b8\u03b7 (esplanchnisth\u0113)",
+        "greek": "ἐσπλαγχνίσθη (esplanchnisthē)",
         "verseRef": "v.36",
-        "meaning": "A visceral, gut-level empathy \u2014 among the strongest words in Greek for being moved by another's suffering.",
+        "meaning": "A visceral, gut-level empathy — among the strongest words in Greek for being moved by another's suffering.",
         "occurrences": {
           "total": 12,
           "sampleRefs": [
@@ -235,7 +238,7 @@
             "Luke 10:33",
             "Luke 15:20"
           ],
-          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables \u2014 the good Samaritan, the forgiving master, and the father of the prodigal son."
+          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables — the good Samaritan, the forgiving master, and the father of the prodigal son."
         }
       }
     ],
@@ -259,11 +262,11 @@
     "otBackground": [
       {
         "ref": "Isaiah 43:25",
-        "note": "God alone blots out transgressions \u2014 the claim implicit in Jesus forgiving sin in v.2."
+        "note": "God alone blots out transgressions — the claim implicit in Jesus forgiving sin in v.2."
       },
       {
         "ref": "Hosea 6:6",
-        "note": "\"I desire mercy, not sacrifice\" \u2014 quoted directly by Jesus in v.13."
+        "note": "\"I desire mercy, not sacrifice\" — quoted directly by Jesus in v.13."
       },
       {
         "ref": "Isaiah 35:5-6",
@@ -276,31 +279,129 @@
       "zoom": 8.5,
       "placeName": "Capernaum"
     },
-    "sparkNotes": "Jesus forgives and heals a paralyzed man, calls Matthew the tax collector to follow Him, and is moved with compassion for the crowds. \"Compassion\" is reserved almost exclusively for Jesus across the whole New Testament \u2014 used only 12 times total \u2014 and Jesus twice quotes Hosea 6:6's \"I desire mercy, not sacrifice\" as His guiding principle here.",
+    "sparkNotes": "Jesus forgives and heals a paralyzed man, calls Matthew the tax collector to follow Him, and is moved with compassion for the crowds. \"Compassion\" is reserved almost exclusively for Jesus across the whole New Testament — used only 12 times total — and Jesus twice quotes Hosea 6:6's \"I desire mercy, not sacrifice\" as His guiding principle here.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry treats forgiveness and healing as two sides of one act \u2014 sin, in his reading, is the deeper disease, and the physical cure is offered almost as visible proof that the invisible cure has already taken place. He also draws a quiet parallel between the word that raised the paralytic (\"Arise\") and the word that called Matthew himself (\"Follow Me\") \u2014 the same divine power working through both.",
+        "note": "Henry treats forgiveness and healing as two sides of one act — sin, in his reading, is the deeper disease, and the physical cure is offered almost as visible proof that the invisible cure has already taken place. He also draws a quiet parallel between the word that raised the paralytic (\"Arise\") and the word that called Matthew himself (\"Follow Me\") — the same divine power working through both.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/9.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB flags a genuine textual question worth knowing: the phrase \"to repentance\" at the end of v.13 has doubtful manuscript support here and in Mark's parallel, though it's undisputed in Luke's version of the same saying \u2014 the kind of small but real variant careful readers of old manuscripts have to weigh.",
+        "note": "JFB flags a genuine textual question worth knowing: the phrase \"to repentance\" at the end of v.13 has doubtful manuscript support here and in Mark's parallel, though it's undisputed in Luke's version of the same saying — the kind of small but real variant careful readers of old manuscripts have to weigh.",
         "url": "https://www.biblestudytools.com/commentaries/jamieson-fausset-brown/matthew/matthew-9.html"
       },
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill leans into the physician metaphor directly \u2014 Jesus wasn't associating with tax collectors and sinners as a companion sharing their life, but as a doctor visiting the sick, which was not only lawful but commendable. The Pharisees, in his reading, weren't actually well; they simply didn't know themselves sick, which is precisely why they saw no need to come to Him.",
+        "note": "Gill leans into the physician metaphor directly — Jesus wasn't associating with tax collectors and sinners as a companion sharing their life, but as a doctor visiting the sick, which was not only lawful but commendable. The Pharisees, in his reading, weren't actually well; they simply didn't know themselves sick, which is precisely why they saw no need to come to Him.",
         "url": "https://www.truthaccordingtoscripture.com/commentaries/geb/matthew-9.php"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_Jesus_raises_the_daughter_of_Jairus_from_the_dead.jpg",
-      "caption": "Jesus Raises the Daughter of Jairus, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Jesus Raises the Daughter of Jairus, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus forgives and heals a paralyzed man, calls the tax collector Matthew, and eats with sinners. He heals a woman and raises a ruler's daughter, then heals the blind and mute. Seeing the crowds, He has compassion and says the harvest is plentiful.",
+      "settingLine": "Capernaum's homes, streets and a tax booth.",
+      "placeName": "Sea of Galilee",
+      "history": [
+        {
+          "h": "Tax Collectors",
+          "t": "They worked for Rome and were despised, so Jesus calling one was striking."
+        },
+        {
+          "h": "Pharisees' Concern",
+          "t": "Pharisees avoided sinners to stay pure, so Jesus' table company troubled them."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Roof Entry",
+          "t": "Flat roofs of beams and clay could be opened, as when friends lowered the paralytic."
+        },
+        {
+          "h": "Mourners",
+          "t": "Flute players and wailing mourners were hired at a death, so they were already there."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Capernaum",
+          "t": "Digs found small basalt houses, with one honored as Peter's under a later church."
+        },
+        {
+          "h": "Ossuaries",
+          "t": "Stone bone boxes from this era show families gathering bones after a year."
+        }
+      ],
+      "discussion": "Jesus said \"I desire mercy, not sacrifice\" to those who criticized His company. When do rules and mercy pull apart?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative of miracles",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 2:1-12": "Paralytic lowered down",
+        "Isaiah 43:25": "God forgives sins",
+        "Hosea 6:6": "Mercy, not sacrifice"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Matthew",
+          "d": "Tax collector"
+        },
+        {
+          "n": "Paralytic",
+          "d": "Healed"
+        },
+        {
+          "n": "A ruler",
+          "d": "Daughter raised"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Questioned Him"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Capernaum",
+          "label": "Paralytic healed"
+        },
+        {
+          "when": "Then",
+          "label": "Matthew called"
+        },
+        {
+          "when": "A dinner",
+          "label": "Fasting question"
+        },
+        {
+          "when": "Later",
+          "label": "Daughter raised"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Sea of Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Sea of Galilee",
+        "lat": 32.8189,
+        "lng": 35.59,
+        "verses": [
+          1
+        ],
+        "slug": "sea-of-galilee"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

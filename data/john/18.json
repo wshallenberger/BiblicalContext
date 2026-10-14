@@ -180,19 +180,22 @@
         "english": "I am He",
         "greek": "ἐγώ εἰμι (egō eimi)",
         "verseRef": "v.5-6, 8",
-        "meaning": "The Greek is simply \"I am\" — English translations add \"He.\" John has used this same phrase in several other places, and here the arresting party's reaction of drawing back and falling to the ground is striking, whatever one makes of the exact wording."
+        "meaning": "The Greek is simply \"I am\" — English translations add \"He.\" John has used this same phrase in several other places, and here the arresting party's reaction of drawing back and falling to the ground is striking, whatever one makes of the exact wording.",
+        "gloss": "I am he"
       },
       {
         "english": "insurrectionist",
         "greek": "λῃστής (lēstēs)",
         "verseRef": "v.40",
-        "meaning": "Often translated \"robber\" in older versions, but the word frequently described armed bandits or revolutionaries rather than petty thieves. The crowd demands the release of an armed rebel rather than the one Pilate has just said he finds no charge against."
+        "meaning": "Often translated \"robber\" in older versions, but the word frequently described armed bandits or revolutionaries rather than petty thieves. The crowd demands the release of an armed rebel rather than the one Pilate has just said he finds no charge against.",
+        "gloss": "Bandit, rebel"
       },
       {
         "english": "truth",
         "greek": "ἀλήθεια (alētheia)",
         "verseRef": "v.37-38",
-        "meaning": "Jesus says He came to testify to the truth and that everyone who belongs to the truth listens to His voice. Pilate's reply, \"What is truth?\" is left unanswered in the text — and he walks out before Jesus can respond."
+        "meaning": "Jesus says He came to testify to the truth and that everyone who belongs to the truth listens to His voice. Pilate's reply, \"What is truth?\" is left unanswered in the text — and he walks out before Jesus can respond.",
+        "gloss": "Truth"
       }
     ],
     "gospelParallels": [
@@ -266,6 +269,104 @@
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/085.jpg",
       "caption": "The Betrayal, by Gustave Doré (1866)",
       "credit": "Public domain — Project Gutenberg"
-    }
+    },
+    "overview": {
+      "summary": "Jesus is arrested across the Kidron Valley after Judas leads soldiers to the garden. He is taken to Annas and Caiaphas while Peter denies Him three times, then brought before Pilate, who finds no guilt in Him.",
+      "settingLine": "A garden across the Kidron, then Pilate's headquarters.",
+      "placeName": "Gethsemane, Jerusalem",
+      "history": [
+        {
+          "h": "Annas",
+          "t": "Annas was the former high priest and the power behind Caiaphas."
+        },
+        {
+          "h": "Roman Authority",
+          "t": "Only Rome could execute, so the leaders brought Jesus to Pilate."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Charcoal Fire",
+          "t": "People warmed themselves at night around fires of charcoal."
+        },
+        {
+          "h": "Passover",
+          "t": "The leaders avoided Pilate's headquarters so they would stay ritually clean."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Caiaphas' House",
+          "t": "Excavations on Mount Zion reveal large first-century homes of the priestly aristocracy."
+        },
+        {
+          "h": "Antonia Fortress",
+          "t": "Roman soldiers were stationed in a fortress beside the temple."
+        }
+      ],
+      "discussion": "Pilate asked, \"What is truth?\" and left before an answer. Why do we sometimes ask questions we don't want answered?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 26:47-56": "The arrest",
+        "Isaiah 53:7-8": "Silent before accusers",
+        "Psalm 41:9": "Betrayed by a friend"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Judas",
+          "d": "Led the guard"
+        },
+        {
+          "n": "Peter",
+          "d": "Struck, denied"
+        },
+        {
+          "n": "Annas",
+          "d": "Questioned Him"
+        },
+        {
+          "n": "Pilate",
+          "d": "Governor"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Garden",
+          "label": "Arrest"
+        },
+        {
+          "when": "Night",
+          "label": "Before Annas"
+        },
+        {
+          "when": "Courtyard",
+          "label": "Peter denies"
+        },
+        {
+          "when": "Dawn",
+          "label": "Before Pilate"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Getsemane2.JPG",
+      "caption": "Present-day Gethsemane, Jerusalem",
+      "credit": "Photo: Mewasul / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Kidron Valley",
+        "lat": 31.7803,
+        "lng": 35.24,
+        "verses": [
+          1
+        ],
+        "slug": "kidron"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

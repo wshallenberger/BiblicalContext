@@ -128,19 +128,22 @@
         "english": "remain",
         "greek": "μένω (menō)",
         "verseRef": "v.4-10",
-        "meaning": "Also translated \"abide\" in older versions — it means to stay put, to keep on, to dwell. The word appears over forty times in John's Gospel, and eleven times in this one short chapter, making it the central idea of the passage."
+        "meaning": "Also translated \"abide\" in older versions — it means to stay put, to keep on, to dwell. The word appears over forty times in John's Gospel, and eleven times in this one short chapter, making it the central idea of the passage.",
+        "gloss": "Remain, abide"
       },
       {
         "english": "prunes",
         "greek": "καθαίρει (kathairei)",
         "verseRef": "v.2",
-        "meaning": "The verb means to cleanse or clean, and it sits right beside the word for \"clean\" in the very next verse (katharoi) — a deliberate wordplay linking the Father's pruning with the cleansing that has already been done through Jesus' word."
+        "meaning": "The verb means to cleanse or clean, and it sits right beside the word for \"clean\" in the very next verse (katharoi) — a deliberate wordplay linking the Father's pruning with the cleansing that has already been done through Jesus' word.",
+        "gloss": "Cleans, prunes"
       },
       {
         "english": "friends",
         "greek": "φίλους (philous)",
         "verseRef": "v.13-15",
-        "meaning": "Jesus draws a clear line between a servant, who simply carries out orders without knowing the reasons, and a friend, who has been told the whole purpose. What makes the disciples friends is that He has made everything He learned from the Father known to them."
+        "meaning": "Jesus draws a clear line between a servant, who simply carries out orders without knowing the reasons, and a friend, who has been told the whole purpose. What makes the disciples friends is that He has made everything He learned from the Father known to them.",
+        "gloss": "Friends"
       }
     ],
     "gospelParallels": [],
@@ -188,6 +191,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Our_Lord_Jesus_Christ_(Notre-Seigneur_J%C3%A9sus-Christ)_-_James_Tissot.jpg",
       "caption": "Our Lord Jesus Christ, by James Tissot (1886-1894), from his upper-room sequence",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Jesus says He is the true vine and the Father the gardener. His followers must remain in Him to bear fruit, love one another, and expect the world's hatred, with the Spirit to testify alongside them.",
+      "settingLine": "On the road to the Garden of Gethsemane.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Israel the Vine",
+          "t": "The prophets often described Israel as God's vine or vineyard."
+        },
+        {
+          "h": "Hated Without Cause",
+          "t": "Jesus quotes the Psalms to say the world's hatred was foretold."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Pruning",
+          "t": "Vinedressers cut back branches in winter so the vine bears more."
+        },
+        {
+          "h": "Burning Branches",
+          "t": "Dead branches were gathered and burned as fuel."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Wine Presses",
+          "t": "Rock-cut presses and vats appear in vineyards across Judea."
+        },
+        {
+          "h": "Temple Vine",
+          "t": "A golden vine decorated the temple entrance, a symbol of Israel."
+        }
+      ],
+      "discussion": "Jesus says, \"Apart from me you can do nothing.\" What does staying connected look like in daily life?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Farewell discourse",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Isaiah 5:1-7": "Israel the vineyard",
+        "Psalm 80:8-16": "A vine from Egypt",
+        "Psalm 69:4 / 35:19": "Hated without cause"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Father",
+          "d": "Vinedresser"
+        },
+        {
+          "n": "Branches",
+          "d": "Believers"
+        },
+        {
+          "n": "The world",
+          "d": "Hates Him"
+        },
+        {
+          "n": "The Spirit",
+          "d": "Testifies"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Image",
+          "label": "The true vine"
+        },
+        {
+          "when": "Command",
+          "label": "Remain in me"
+        },
+        {
+          "when": "Love",
+          "label": "Friends, not servants"
+        },
+        {
+          "when": "Warning",
+          "label": "The world's hatred"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

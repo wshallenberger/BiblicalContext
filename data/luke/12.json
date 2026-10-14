@@ -264,7 +264,8 @@
             "Mark 12:15",
             "Galatians 2:13"
           ]
-        }
+        },
+        "gloss": "Acting a part"
       },
       {
         "english": "greed",
@@ -278,7 +279,8 @@
             "Romans 1:29",
             "Colossians 3:5"
           ]
-        }
+        },
+        "gloss": "Wanting more"
       },
       {
         "english": "worry",
@@ -292,7 +294,8 @@
             "Luke 10:41",
             "Philippians 4:6"
           ]
-        }
+        },
+        "gloss": "To be anxious"
       }
     ],
     "gospelParallels": [
@@ -405,6 +408,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Foolish_Virgins_(Les_vierges_folles)_-_James_Tissot.jpg",
       "caption": "The Foolish Virgins, by James Tissot (1886-1894) — Matthew 25's parable of lamps and readiness, which echoes Luke 12:35-40",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Before a huge crowd, Jesus warns against hypocrisy and tells His disciples to fear God, not people, since the Father knows every sparrow. He tells of a rich fool, then urges trust over worry and readiness for the Master's return.",
+      "settingLine": "A huge crowd on the road to Jerusalem.",
+      "placeName": "On the road to Jerusalem",
+      "history": [
+        {
+          "h": "Growing Danger",
+          "t": "Opposition was rising, so His words about fearing those who kill the body were real."
+        },
+        {
+          "h": "Family Land",
+          "t": "Land was family wealth, and rabbis were often asked to settle inheritance disputes."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sparrows",
+          "t": "Sparrows were the cheapest bird sold for food, five for two small coins."
+        },
+        {
+          "h": "Lamps Burning",
+          "t": "Servants waiting for a master's late return kept their robes tucked up and lamps lit."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Oil Lamps",
+          "t": "Clay lamps like those in Jesus' teaching are among the most common finds in Judea and Galilee."
+        },
+        {
+          "h": "Storage Pits",
+          "t": "Rock-cut pits and silos show how large landowners stored their grain."
+        }
+      ],
+      "discussion": "The rich man was called a fool, though he only planned ahead. What exactly was his mistake?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Teaching",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 16:5-12": "Yeast of the Pharisees",
+        "Micah 7:6": "Divided households",
+        "Psalm 147:9 / Job 38:41": "God feeds the birds"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Disciples",
+          "d": "Warned first"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Their yeast"
+        },
+        {
+          "n": "The rich man",
+          "d": "Fool"
+        },
+        {
+          "n": "Solomon",
+          "d": "Splendid king"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Warning",
+          "label": "Beware hypocrisy"
+        },
+        {
+          "when": "A request",
+          "label": "The rich fool"
+        },
+        {
+          "when": "Next",
+          "label": "Do not worry"
+        },
+        {
+          "when": "Finally",
+          "label": "Be ready"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day On the road to Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

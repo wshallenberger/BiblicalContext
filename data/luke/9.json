@@ -276,7 +276,8 @@
             "2 Peter 1:15"
           ],
           "note": "Only here, in Hebrews 11:22, and in 2 Peter 1:15."
-        }
+        },
+        "gloss": "A way out, an exodus"
       },
       {
         "english": "deny",
@@ -290,7 +291,8 @@
             "Mark 14:30",
             "Luke 22:34"
           ]
-        }
+        },
+        "gloss": "Say no to oneself"
       },
       {
         "english": "Master",
@@ -305,7 +307,8 @@
             "Luke 17:13"
           ],
           "note": "All seven uses are in Luke."
-        }
+        },
+        "gloss": "Overseer, commander"
       }
     ],
     "gospelParallels": [
@@ -448,6 +451,116 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dore_-_The_Transfiguration.jpg",
       "caption": "The Transfiguration, by Gustave Doré (1866)",
       "credit": "Public domain — Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus sends the Twelve out, then feeds five thousand near Bethsaida. Peter calls Him the Christ, and Jesus foretells His death and calls followers to take up a cross. After the Transfiguration, He sets His face toward Jerusalem.",
+      "settingLine": "Galilee, Bethsaida, and a mountain, then Jerusalem.",
+      "placeName": "Near Bethsaida",
+      "history": [
+        {
+          "h": "Herod's Fear",
+          "t": "Herod Antipas had beheaded John and wondered if Jesus was John raised again."
+        },
+        {
+          "h": "Messiah Hopes",
+          "t": "Many expected a conquering Messiah, so talk of a cross shocked the disciples."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Dust Off",
+          "t": "Shaking dust off the feet marked leaving non-Jewish land, so here it was a pointed warning."
+        },
+        {
+          "h": "Groups of Fifty",
+          "t": "Sitting in groups of fifty matched the orderly pattern of a pilgrim meal."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Bethsaida",
+          "t": "Digs at et-Tell found a fishing town, including a fisherman's house and a winemaker's."
+        },
+        {
+          "h": "Mount Tabor",
+          "t": "A church honors the Transfiguration there, though Luke names no mountain."
+        }
+      ],
+      "discussion": "Jesus asked, \"Who do you say that I am?\" How would you answer, and what would it cost?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 10:5-15": "Twelve sent out",
+        "Exodus 24:15-18": "Cloud on Sinai",
+        "Deuteronomy 18:15": "A prophet like Moses"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Confesses Christ"
+        },
+        {
+          "n": "Herod",
+          "d": "Perplexed ruler"
+        },
+        {
+          "n": "Moses",
+          "d": "On the mountain"
+        },
+        {
+          "n": "Bethsaida",
+          "d": "Fishing town"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Early",
+          "label": "Twelve sent out"
+        },
+        {
+          "when": "Return",
+          "label": "Five thousand fed"
+        },
+        {
+          "when": "Then",
+          "label": "Peter's confession"
+        },
+        {
+          "when": "8 days later",
+          "label": "Transfiguration"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Near Bethsaida",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Bethsaida",
+        "lat": 32.9104,
+        "lng": 35.631,
+        "verses": [
+          10
+        ],
+        "slug": "bethsaida-2"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          31,
+          51,
+          53
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 1.5
   }
 }

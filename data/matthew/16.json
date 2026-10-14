@@ -119,19 +119,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative with central teaching \u2014 a confrontation over signs, a private confession of Jesus' identity, and the first prediction of His death.",
+    "genre": "Narrative with central teaching — a confrontation over signs, a private confession of Jesus' identity, and the first prediction of His death.",
     "audience": "Jewish-Christian readers watching the story pivot: from public ministry and miracles toward Jerusalem, the cross, and what following Jesus will actually cost.",
     "mapLabel": "CAESAREA PHILIPPI, THEN TOWARD JERUSALEM",
-    "setting": "Caesarea Philippi sat at the base of Mount Hermon, a region filled with pagan shrines, including a grotto dedicated to the god Pan \u2014 a strikingly public, idol-filled backdrop for Peter's confession of Jesus as \"the Son of the living God.\" The Pharisees and Sadducees, normally opposed to each other, unite here in testing Jesus.",
-    "custom": "\"Leaven\" as a teaching metaphor (v.6-12) drew on something every listener understood physically \u2014 a small amount of yeast permeates an entire batch of dough, exactly how Jesus describes false teaching spreading quietly through a community.",
-    "timelineImmediate": "A hinge point in the Gospel \u2014 Peter's confession at Caesarea Philippi is followed immediately by Jesus' first direct prediction of His coming death and resurrection in Jerusalem, a turn the narrative has been building toward since chapter 1.",
-    "timelineBible": "\"The Christ, the Son of the living God\" (v.16) directly invokes the royal covenant God made with David in 2 Samuel 7:12-16 \u2014 Peter isn't just calling Jesus a good teacher, he's identifying Him with a centuries-old promise of a coming King.",
+    "setting": "Caesarea Philippi sat at the base of Mount Hermon, a region filled with pagan shrines, including a grotto dedicated to the god Pan — a strikingly public, idol-filled backdrop for Peter's confession of Jesus as \"the Son of the living God.\" The Pharisees and Sadducees, normally opposed to each other, unite here in testing Jesus.",
+    "custom": "\"Leaven\" as a teaching metaphor (v.6-12) drew on something every listener understood physically — a small amount of yeast permeates an entire batch of dough, exactly how Jesus describes false teaching spreading quietly through a community.",
+    "timelineImmediate": "A hinge point in the Gospel — Peter's confession at Caesarea Philippi is followed immediately by Jesus' first direct prediction of His coming death and resurrection in Jerusalem, a turn the narrative has been building toward since chapter 1.",
+    "timelineBible": "\"The Christ, the Son of the living God\" (v.16) directly invokes the royal covenant God made with David in 2 Samuel 7:12-16 — Peter isn't just calling Jesus a good teacher, he's identifying Him with a centuries-old promise of a coming King.",
     "translation": [
       {
         "english": "sign",
-        "greek": "\u03c3\u03b7\u03bc\u03b5\u1fd6\u03bf\u03bd (s\u0113meion)",
+        "greek": "σημεῖον (sēmeion)",
         "verseRef": "v.1, 4",
-        "meaning": "A miraculous proof demanded on request \u2014 Jesus again refuses this kind of sign, pointing back to \"the sign of Jonah\" from chapter 12.",
+        "meaning": "A miraculous proof demanded on request — Jesus again refuses this kind of sign, pointing back to \"the sign of Jonah\" from chapter 12.",
         "occurrences": {
           "total": 77,
           "sampleRefs": [
@@ -139,13 +139,14 @@
             "Acts 2:43",
             "2 Corinthians 12:12"
           ]
-        }
+        },
+        "gloss": "A mark that points"
       },
       {
         "english": "Christ",
-        "greek": "\u03a7\u03c1\u03b9\u03c3\u03c4\u03cc\u03c2 (Christos)",
+        "greek": "Χριστός (Christos)",
         "verseRef": "v.16",
-        "meaning": "\"Anointed One\" \u2014 the Greek equivalent of the Hebrew \"Messiah,\" God's promised King.",
+        "meaning": "\"Anointed One\" — the Greek equivalent of the Hebrew \"Messiah,\" God's promised King.",
         "occurrences": {
           "total": 538,
           "sampleRefs": [
@@ -153,27 +154,29 @@
             "Romans 1:1",
             "Philippians 1:21"
           ],
-          "note": "One of the most common words in the whole New Testament \u2014 hundreds of uses across the Gospels, Acts, and every epistle."
-        }
+          "note": "One of the most common words in the whole New Testament — hundreds of uses across the Gospels, Acts, and every epistle."
+        },
+        "gloss": "The Anointed One"
       },
       {
         "english": "rock",
-        "greek": "\u03c0\u03ad\u03c4\u03c1\u03b1 (petra)",
+        "greek": "πέτρα (petra)",
         "verseRef": "v.18",
-        "meaning": "A distinct word from \"Peter\" (Petros, meaning a small stone) \u2014 the foundation Jesus builds on is debated as either Peter himself or the truth Peter just confessed.",
+        "meaning": "A distinct word from \"Peter\" (Petros, meaning a small stone) — the foundation Jesus builds on is debated as either Peter himself or the truth Peter just confessed.",
         "occurrences": {
           "total": 16,
           "sampleRefs": [
             "Matthew 27:60",
             "1 Corinthians 10:4"
           ]
-        }
+        },
+        "gloss": "A mass of bedrock"
       },
       {
         "english": "church",
-        "greek": "\u1f10\u03ba\u03ba\u03bb\u03b7\u03c3\u03af\u03b1 (ekkl\u0113sia)",
+        "greek": "ἐκκλησία (ekklēsia)",
         "verseRef": "v.18",
-        "meaning": "This is the very first use of the word in Matthew's Gospel \u2014 an assembly or gathering, here referring to the community Jesus will build.",
+        "meaning": "This is the very first use of the word in Matthew's Gospel — an assembly or gathering, here referring to the community Jesus will build.",
         "occurrences": {
           "total": 114,
           "sampleRefs": [
@@ -181,14 +184,14 @@
             "Romans 16:5",
             "1 Corinthians 14:4"
           ],
-          "note": "Matthew uses this word only twice in his whole Gospel (here and in 18:17) \u2014 it becomes far more central later, especially in Acts and Paul's letters."
+          "note": "Matthew uses this word only twice in his whole Gospel (here and in 18:17) — it becomes far more central later, especially in Acts and Paul's letters."
         }
       },
       {
         "english": "deny himself",
-        "greek": "\u1f00\u03c0\u03b1\u03c1\u03bd\u03b7\u03c3\u03ac\u03c3\u03b8\u03c9 (aparn\u0113sasth\u014d)",
+        "greek": "ἀπαρνησάσθω (aparnēsasthō)",
         "verseRef": "v.24",
-        "meaning": "To disown or renounce \u2014 the same verb family used later for Peter's own denial of Jesus, giving this call to discipleship real weight in hindsight.",
+        "meaning": "To disown or renounce — the same verb family used later for Peter's own denial of Jesus, giving this call to discipleship real weight in hindsight.",
         "occurrences": {
           "total": 11,
           "sampleRefs": [
@@ -223,11 +226,11 @@
       },
       {
         "ref": "Jonah 1:17",
-        "note": "Jonah's three days in the fish \u2014 the sign Jesus again points to instead of a new miracle."
+        "note": "Jonah's three days in the fish — the sign Jesus again points to instead of a new miracle."
       },
       {
         "ref": "Psalm 118:22",
-        "note": "\"The stone the builders rejected\" \u2014 later applied to Jesus as the rock/cornerstone, connected to the imagery in v.18."
+        "note": "\"The stone the builders rejected\" — later applied to Jesus as the rock/cornerstone, connected to the imagery in v.18."
       }
     ],
     "mapCoords": {
@@ -236,31 +239,145 @@
       "zoom": 7.5,
       "placeName": "Caesarea Philippi"
     },
-    "sparkNotes": "Peter confesses Jesus as the Christ, and Jesus immediately predicts His coming death for the first time, rebuking Peter when he objects. The wordplay on \"rock\" here is deliberate \u2014 a different Greek word from \"Peter\" himself \u2014 and closes with Jesus quoting Psalm 118:22's rejected cornerstone, a verse He'll return to again in chapter 21.",
+    "sparkNotes": "Peter confesses Jesus as the Christ, and Jesus immediately predicts His coming death for the first time, rebuking Peter when he objects. The wordplay on \"rock\" here is deliberate — a different Greek word from \"Peter\" himself — and closes with Jesus quoting Psalm 118:22's rejected cornerstone, a verse He'll return to again in chapter 21.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry is careful about what the \"rock\" actually is: \"without doubt Christ himself is the Rock, the tried foundation of the church... Peter's confession is this rock as to doctrine\" \u2014 the truth Peter spoke, not merely the man who spoke it, is what the church is built on.",
+        "note": "Henry is careful about what the \"rock\" actually is: \"without doubt Christ himself is the Rock, the tried foundation of the church... Peter's confession is this rock as to doctrine\" — the truth Peter spoke, not merely the man who spoke it, is what the church is built on.",
         "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/matthew/16"
       },
       {
         "source": "Johann Bengel",
         "year": "1742",
-        "note": "On the keys, Bengel makes a precise textual observation: Jesus says \"the keys of the kingdom of heaven,\" not \"of the Church\" and not \"of the kingdoms of the world\" \u2014 a deliberately narrower scope than later tradition sometimes assumed, tied specifically to admission into the kingdom itself.",
+        "note": "On the keys, Bengel makes a precise textual observation: Jesus says \"the keys of the kingdom of heaven,\" not \"of the Church\" and not \"of the kingdoms of the world\" — a deliberately narrower scope than later tradition sometimes assumed, tied specifically to admission into the kingdom itself.",
         "url": "https://biblehub.com/commentaries/matthew/16-19.htm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke reads the \"leaven of the Pharisees and Sadducees\" as false doctrine working exactly like literal leaven \u2014 quietly permeating and reshaping an entire mindset from within. He breaks \"deny himself\" into a deliberate progression: renouncing self-dependence, accepting whatever hardship following Christ brings, and imitating Jesus' own example step by step.",
+        "note": "Clarke reads the \"leaven of the Pharisees and Sadducees\" as false doctrine working exactly like literal leaven — quietly permeating and reshaping an entire mindset from within. He breaks \"deny himself\" into a deliberate progression: renouncing self-dependence, accepting whatever hardship following Christ brings, and imitating Jesus' own example step by step.",
         "url": "https://godrules.net/library/clarke/clarkemat16.htm"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Matthew 16, but his chapter \"The Shocking Alternative\" in <em>Mere Christianity</em> is about Peter's question in verses 13-16: who is Jesus? He argues against calling Jesus a great moral teacher while denying that He is God. A man who spoke as Jesus did, he says, would be either a lunatic, on the level of a man who says he is a poached egg, or something worse, so we must choose between that and worshiping Him as Lord. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://phbf.org/the-shocking-alternative/"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Get_Thee_Behind_Me_Satan_(R%C3%A9tire-toi_Satan)_-_James_Tissot.jpg",
       "caption": "Get Thee Behind Me, Satan, by James Tissot (1886-1894)",
-      "credit": "Public domain \u2014 Brooklyn Museum / Wikimedia Commons"
-    }
+      "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "The Pharisees and Sadducees ask for a sign, and Jesus warns of their yeast. At Caesarea Philippi, Peter confesses that Jesus is the Christ, and Jesus announces He must suffer and die. He calls His followers to take up their cross.",
+      "settingLine": "The lake's shore, then Caesarea Philippi.",
+      "placeName": "Near Mount Hermon",
+      "history": [
+        {
+          "h": "Caesarea Philippi",
+          "t": "Herod's son Philip rebuilt it near a shrine to Pan, a center of pagan worship."
+        },
+        {
+          "h": "Messiah Hopes",
+          "t": "Many expected a conquering king, so a suffering Messiah was hard to hear."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Yeast",
+          "t": "A little yeast spreads through a whole batch of dough, which Jesus uses for false teaching."
+        },
+        {
+          "h": "Keys",
+          "t": "Keys marked a steward's authority over a house, as in Isaiah 22."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Pan's Cave",
+          "t": "At Banias, a cave and temple niches honor Pan beside a spring below Mount Hermon."
+        },
+        {
+          "h": "Herod's Temple",
+          "t": "Banias digs show Roman-era baths and a temple Herod built for Augustus."
+        }
+      ],
+      "discussion": "Peter answered correctly and was rebuked within minutes. What changed between his two moments?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Teaching and confession",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 8:27-33": "Peter's confession",
+        "2 Samuel 7:12-16": "Promise of David's throne",
+        "Jonah 1:17": "Three days in the fish"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Confesses Christ"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Seek a sign"
+        },
+        {
+          "n": "Sadducees",
+          "d": "Seek a sign"
+        },
+        {
+          "n": "Banias",
+          "d": "Pan's city"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Lakeshore",
+          "label": "Asking for a sign"
+        },
+        {
+          "when": "Warning",
+          "label": "Yeast of the Pharisees"
+        },
+        {
+          "when": "Caesarea",
+          "label": "Peter's confession"
+        },
+        {
+          "when": "Then",
+          "label": "The cross foretold"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermonsnow.jpg",
+      "caption": "Present-day Near Mount Hermon",
+      "credit": "Photo: Almog / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Caesarea Philippi",
+        "lat": 33.2461,
+        "lng": 35.6933,
+        "verses": [
+          13
+        ],
+        "slug": "caesarea-philippi"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          21
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 1.6
   }
 }

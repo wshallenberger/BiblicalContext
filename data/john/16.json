@@ -152,19 +152,22 @@
         "english": "convict",
         "greek": "ἐλέγξει (elenxei)",
         "verseRef": "v.8",
-        "meaning": "A courtroom-flavored word meaning to expose, reprove, or bring to light with proof. The Spirit's work in the world is described as presenting evidence on three counts: sin, righteousness, and judgment."
+        "meaning": "A courtroom-flavored word meaning to expose, reprove, or bring to light with proof. The Spirit's work in the world is described as presenting evidence on three counts: sin, righteousness, and judgment.",
+        "gloss": "Convict, expose"
       },
       {
         "english": "a little while",
         "greek": "μικρόν (mikron)",
         "verseRef": "v.16-19",
-        "meaning": "Literally \"a small\" — a short span of time. The word is repeated so often in these verses that the disciples fixate on it, repeatedly asking one another what it could mean, which is why Jesus stops to explain it with the childbirth image."
+        "meaning": "Literally \"a small\" — a short span of time. The word is repeated so often in these verses that the disciples fixate on it, repeatedly asking one another what it could mean, which is why Jesus stops to explain it with the childbirth image.",
+        "gloss": "A little while"
       },
       {
         "english": "tribulation",
         "greek": "θλῖψις (thlipsis)",
         "verseRef": "v.33",
-        "meaning": "Literally pressure or squeezing — the word was used for crushing grapes or olives. Jesus uses it for the real hardship His followers will face in the world, immediately balanced by His statement that He has already overcome it."
+        "meaning": "Literally pressure or squeezing — the word was used for crushing grapes or olives. Jesus uses it for the real hardship His followers will face in the world, immediately balanced by His statement that He has already overcome it.",
+        "gloss": "Trouble, pressure"
       }
     ],
     "gospelParallels": [],
@@ -212,6 +215,92 @@
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/082.jpg",
       "caption": "The Last Supper, by Gustave Doré (1866) — the night of the farewell discourse",
       "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Jesus warns that the disciples will be put out of synagogues and killed, and promises that the Spirit will guide them into truth. Their grief will turn to joy like a woman after childbirth, and He tells them to take heart because He has overcome the world.",
+      "settingLine": "Between the upper room and Gethsemane.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Expulsion",
+          "t": "Being put out of the synagogue meant losing community and livelihood."
+        },
+        {
+          "h": "Scattering",
+          "t": "Zechariah's shepherd and scattered sheep were fulfilled that night."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Childbirth Image",
+          "t": "The prophets often used labor pains as a picture of pain turning to joy."
+        },
+        {
+          "h": "Asking in a Name",
+          "t": "To ask in someone's name meant coming with their authority."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Synagogue Remains",
+          "t": "Early synagogues at Masada and Herodium show how Jewish communities gathered."
+        },
+        {
+          "h": "Kidron Valley",
+          "t": "The path to Gethsemane crossed the Kidron Valley east of the city."
+        }
+      ],
+      "discussion": "Jesus said, \"In the world you will have tribulation. But take heart.\" How do those two fit together?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Farewell discourse",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Isaiah 66:7-9": "Labor and joy",
+        "Jeremiah 31:33-34": "A new covenant",
+        "Zechariah 13:7": "Sheep scattered"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Spirit",
+          "d": "Guides"
+        },
+        {
+          "n": "The world",
+          "d": "Convicted"
+        },
+        {
+          "n": "The disciples",
+          "d": "Will scatter"
+        },
+        {
+          "n": "A mother",
+          "d": "Pain to joy"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Warning",
+          "label": "Hatred coming"
+        },
+        {
+          "when": "Promise",
+          "label": "The Spirit's work"
+        },
+        {
+          "when": "Image",
+          "label": "Pain to joy"
+        },
+        {
+          "when": "Close",
+          "label": "Take heart"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

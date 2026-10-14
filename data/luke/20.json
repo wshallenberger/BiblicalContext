@@ -216,7 +216,8 @@
             "Luke 5:24",
             "Matthew 28:18"
           ]
-        }
+        },
+        "gloss": "Right and power to act"
       },
       {
         "english": "cornerstone",
@@ -230,7 +231,8 @@
             "Acts 4:11",
             "1 Peter 2:7"
           ]
-        }
+        },
+        "gloss": "Head of the corner"
       },
       {
         "english": "duplicity",
@@ -244,7 +246,8 @@
             "1 Corinthians 3:19",
             "2 Corinthians 4:2"
           ]
-        }
+        },
+        "gloss": "Craftiness"
       },
       {
         "english": "sons of the resurrection",
@@ -362,6 +365,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Tribute_Money_(Le_denier_de_César)_-_James_Tissot.jpg",
       "caption": "The Tribute Money, by James Tissot (1886-1894), Luke 20:20-26",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "In the temple, Jewish leaders challenge Jesus' authority, and He answers with a question about John's baptism. He tells the parable of the tenants and answers questions about taxes and the resurrection.",
+      "settingLine": "The temple courts in Jerusalem.",
+      "placeName": "Temple Mount, Jerusalem",
+      "history": [
+        {
+          "h": "Temple Leaders",
+          "t": "Chief priests and elders ran the temple under Rome, and Jesus threatened their authority."
+        },
+        {
+          "h": "Roman Tax",
+          "t": "Many Jews hated the tax to Caesar, so the question was a trap."
+        }
+      ],
+      "customs": [
+        {
+          "h": "The Denarius",
+          "t": "The silver denarius, a day's wage, carried the emperor's image and a claim to divinity."
+        },
+        {
+          "h": "Levirate Marriage",
+          "t": "A childless widow married her husband's brother to continue the family line."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Temple Mount",
+          "t": "Herod's huge platform still stands, including the Western Wall's massive stones."
+        },
+        {
+          "h": "Giant Stones",
+          "t": "Herod's builders cut enormous blocks, some weighing hundreds of tons."
+        }
+      ],
+      "discussion": "Jesus said, \"Give to Caesar what is Caesar's, and to God what is God's.\" What belongs to each?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Teaching and controversy",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 21:23-27": "Authority questioned",
+        "Isaiah 5:1-7": "The vineyard song",
+        "Psalm 118:22-23": "The rejected cornerstone"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Chief priests",
+          "d": "Rulers"
+        },
+        {
+          "n": "Sadducees",
+          "d": "Priestly party"
+        },
+        {
+          "n": "Scribes",
+          "d": "Law experts"
+        },
+        {
+          "n": "Caesar",
+          "d": "Roman emperor"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Question",
+          "label": "By what authority?"
+        },
+        {
+          "when": "Parable",
+          "label": "The tenants"
+        },
+        {
+          "when": "Tax",
+          "label": "Caesar's coin"
+        },
+        {
+          "when": "Last",
+          "label": "Whose son is Christ?"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Temple Mount, Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

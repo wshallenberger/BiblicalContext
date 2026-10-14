@@ -200,7 +200,8 @@
             "2 Corinthians 4:1",
             "Galatians 6:9"
           ]
-        }
+        },
+        "gloss": "To grow weary"
       },
       {
         "english": "justified",
@@ -214,7 +215,8 @@
             "Romans 3:24",
             "Galatians 2:16"
           ]
-        }
+        },
+        "gloss": "Declared right with God"
       },
       {
         "english": "have mercy",
@@ -227,7 +229,8 @@
             "Luke 18:13",
             "Hebrews 8:12"
           ]
-        }
+        },
+        "gloss": "Be merciful to me"
       },
       {
         "english": "Son of David",
@@ -330,6 +333,122 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Pharisee_and_the_Publican_(Le_pharisien_et_le_publicain)_-_James_Tissot.jpg",
       "caption": "The Pharisee and the Publican, by James Tissot (1886-1894), Luke 18:9-14",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "Jesus teaches persistent prayer through a widow and a judge, and humility through a Pharisee and a tax collector. He welcomes children, and a rich ruler walks away sad. Near Jericho, He predicts His death and heals a blind beggar.",
+      "settingLine": "The road to Jerusalem, ending near Jericho.",
+      "placeName": "Near Jericho",
+      "history": [
+        {
+          "h": "Widows",
+          "t": "Widows had few legal protections, so a widow pleading with a judge was truly powerless."
+        },
+        {
+          "h": "Jericho",
+          "t": "It lay about 15 miles from Jerusalem, the last stop before the long climb."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Twice a Week",
+          "t": "Pharisees fasted Mondays and Thursdays and tithed carefully, so his claims were real."
+        },
+        {
+          "h": "Beating the Breast",
+          "t": "Beating the breast was a sign of deep grief and shame."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Tell es-Sultan",
+          "t": "Ancient Jericho's mound is among the oldest cities known, but Jesus' Jericho lay nearby."
+        },
+        {
+          "h": "Herod's Palaces",
+          "t": "Herod's winter palaces near Jericho have been excavated, with pools and gardens."
+        }
+      ],
+      "discussion": "The Pharisee thanked God he wasn't like others. How do we avoid his trap without a new kind of pride?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Parables and narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 19:13-15": "Children welcomed",
+        "Exodus 22:22-24": "God hears the widow",
+        "Psalm 51:1-4": "A prayer for mercy"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The widow",
+          "d": "Kept asking"
+        },
+        {
+          "n": "Tax collector",
+          "d": "Humble"
+        },
+        {
+          "n": "Rich ruler",
+          "d": "Walked away"
+        },
+        {
+          "n": "Blind man",
+          "d": "Beggar"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Parable",
+          "label": "Widow and judge"
+        },
+        {
+          "when": "Parable",
+          "label": "Pharisee, tax collector"
+        },
+        {
+          "when": "Meeting",
+          "label": "Children, rich ruler"
+        },
+        {
+          "when": "Jericho",
+          "label": "Blind man healed"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Near Jericho",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jericho",
+        "lat": 31.8519,
+        "lng": 35.4362,
+        "verses": [
+          35
+        ],
+        "slug": "jericho-2"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          31
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          37
+        ],
+        "slug": "nazareth"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

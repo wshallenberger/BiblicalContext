@@ -98,7 +98,7 @@
     },
     {
       "num": 24,
-      "text": "\"What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are\u2014the Holy One of God!\""
+      "text": "\"What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!\""
     },
     {
       "num": 25,
@@ -187,20 +187,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter, writing what early church sources describe as Peter's own eyewitness memories set down in Rome",
-    "genre": "Narrative Gospel \u2014 the shortest and, most scholars agree, the earliest-written of the four, marked by a fast, breathless pace",
-    "audience": "Likely Roman Christians, probably facing persecution, who needed confidence that Jesus is the powerful, suffering Son of God \u2014 Mark explains Jewish customs for readers who wouldn't already know them, a sign of a non-Jewish audience.",
+    "genre": "Narrative Gospel — the shortest and, most scholars agree, the earliest-written of the four, marked by a fast, breathless pace",
+    "audience": "Likely Roman Christians, probably facing persecution, who needed confidence that Jesus is the powerful, suffering Son of God — Mark explains Jewish customs for readers who wouldn't already know them, a sign of a non-Jewish audience.",
     "mapLabel": "CAPERNAUM, SEA OF GALILEE",
-    "setting": "Mark opens with no birth narrative at all \u2014 a deliberate choice, plunging straight into John the Baptist and Jesus' baptism. Capernaum, on the Sea of Galilee's northwest shore, quickly becomes the operational base for everything that follows in this chapter.",
-    "custom": "Rabbis of this era typically taught by citing the chain of earlier teachers behind a given interpretation. Jesus notably doesn't \u2014 He teaches directly, in His own voice, which is exactly what the astonished crowd in the Capernaum synagogue immediately picks up on.",
-    "timelineImmediate": "This is the opening chapter of the entire Gospel \u2014 Mark introduces Jesus already as an adult, baptized and driven into the wilderness, then moves immediately into public ministry with barely a pause for explanation.",
+    "setting": "Mark opens with no birth narrative at all — a deliberate choice, plunging straight into John the Baptist and Jesus' baptism. Capernaum, on the Sea of Galilee's northwest shore, quickly becomes the operational base for everything that follows in this chapter.",
+    "custom": "Rabbis of this era typically taught by citing the chain of earlier teachers behind a given interpretation. Jesus notably doesn't — He teaches directly, in His own voice, which is exactly what the astonished crowd in the Capernaum synagogue immediately picks up on.",
+    "timelineImmediate": "This is the opening chapter of the entire Gospel — Mark introduces Jesus already as an adult, baptized and driven into the wilderness, then moves immediately into public ministry with barely a pause for explanation.",
     "timelineBible": "Mark opens by directly quoting a combined text from Malachi 3:1 and Isaiah 40:3, presenting John the Baptist as the fulfillment of a specific, centuries-old prophetic expectation before Jesus even appears on the page.",
-    "sparkNotes": "Mark opens with no birth story at all \u2014 straight to John the Baptist, Jesus' baptism, and a forty-day wilderness temptation, all within the first thirteen verses. The word \"immediately\" (euthys) appears constantly through this chapter and the rest of Mark \u2014 of its 59 total New Testament uses, the overwhelming majority are in Mark alone, giving the whole Gospel its breathless, urgent pace right from the start.",
+    "sparkNotes": "Mark opens with no birth story at all — straight to John the Baptist, Jesus' baptism, and a forty-day wilderness temptation, all within the first thirteen verses. The word \"immediately\" (euthys) appears constantly through this chapter and the rest of Mark — of its 59 total New Testament uses, the overwhelming majority are in Mark alone, giving the whole Gospel its breathless, urgent pace right from the start.",
     "translation": [
       {
         "english": "gospel",
-        "greek": "\u03b5\u1f50\u03b1\u03b3\u03b3\u03ad\u03bb\u03b9\u03bf\u03bd (euangelion)",
+        "greek": "εὐαγγέλιον (euangelion)",
         "verseRef": "v.1, 14-15",
-        "meaning": "Literally \"good news\" \u2014 the very first word of Mark's opening line, naming the entire book before a single event has happened.",
+        "meaning": "Literally \"good news\" — the very first word of Mark's opening line, naming the entire book before a single event has happened.",
         "occurrences": {
           "total": 76,
           "sampleRefs": [
@@ -208,14 +208,15 @@
             "Mark 13:10",
             "Mark 16:15"
           ],
-          "note": "Mark uses this word more often relative to his Gospel's short length than any other Gospel writer \u2014 fitting, since he names his whole work by it in the very first verse."
-        }
+          "note": "Mark uses this word more often relative to his Gospel's short length than any other Gospel writer — fitting, since he names his whole work by it in the very first verse."
+        },
+        "gloss": "Good news"
       },
       {
         "english": "immediately",
-        "greek": "\u03b5\u1f50\u03b8\u1f7a\u03c2 (euthys)",
+        "greek": "εὐθὺς (euthys)",
         "verseRef": "v.10, 12, 18, 20, 21, 23, 28, 29, 30, 42, 43",
-        "meaning": "Mark's signature word, appearing constantly through this single chapter alone \u2014 it gives the whole Gospel its rapid, urgent pace.",
+        "meaning": "Mark's signature word, appearing constantly through this single chapter alone — it gives the whole Gospel its rapid, urgent pace.",
         "occurrences": {
           "total": 59,
           "sampleRefs": [
@@ -223,14 +224,15 @@
             "Mark 5:30",
             "Mark 5:42"
           ],
-          "note": "The overwhelming majority of this word's New Testament uses are packed into Mark's sixteen short chapters \u2014 more than any other Gospel by a wide margin."
-        }
+          "note": "The overwhelming majority of this word's New Testament uses are packed into Mark's sixteen short chapters — more than any other Gospel by a wide margin."
+        },
+        "gloss": "At once, straightaway"
       },
       {
         "english": "tempted",
-        "greek": "\u03c0\u03b5\u03b9\u03c1\u03b1\u03b6\u03cc\u03bc\u03b5\u03bd\u03bf\u03c2 (peirazomenos)",
+        "greek": "πειραζόμενος (peirazomenos)",
         "verseRef": "v.13",
-        "meaning": "Can mean either \"tempted\" or \"tested\" \u2014 the same event functions as both an attack and a proof of character.",
+        "meaning": "Can mean either \"tempted\" or \"tested\" — the same event functions as both an attack and a proof of character.",
         "occurrences": {
           "total": 39,
           "sampleRefs": [
@@ -238,13 +240,14 @@
             "Hebrews 4:15",
             "James 1:13"
           ]
-        }
+        },
+        "gloss": "Being tested"
       },
       {
         "english": "authority",
-        "greek": "\u1f10\u03be\u03bf\u03c5\u03c3\u03af\u03b1\u03bd (exousian)",
+        "greek": "ἐξουσίαν (exousian)",
         "verseRef": "v.22, 27",
-        "meaning": "Rightful power and command \u2014 what set Jesus apart from the scribes, who typically taught by citing prior rabbis rather than speaking on their own authority.",
+        "meaning": "Rightful power and command — what set Jesus apart from the scribes, who typically taught by citing prior rabbis rather than speaking on their own authority.",
         "occurrences": {
           "total": 102,
           "sampleRefs": [
@@ -275,34 +278,34 @@
     "otBackground": [
       {
         "ref": "Malachi 3:1",
-        "note": "The promised messenger preparing the way \u2014 quoted directly in v.2."
+        "note": "The promised messenger preparing the way — quoted directly in v.2."
       },
       {
         "ref": "Isaiah 40:3",
-        "note": "\"A voice calling in the wilderness\" \u2014 quoted directly in v.3, identifying John's role."
+        "note": "\"A voice calling in the wilderness\" — quoted directly in v.3, identifying John's role."
       },
       {
         "ref": "2 Kings 1:8",
-        "note": "Elijah's rough, hairy garment \u2014 the model behind John's own camel-hair clothing, hinting he's the promised Elijah-like forerunner."
+        "note": "Elijah's rough, hairy garment — the model behind John's own camel-hair clothing, hinting he's the promised Elijah-like forerunner."
       }
     ],
     "commentary": [
       {
         "source": "John Gill",
         "year": "1740s",
-        "note": "Gill draws out the significance of Jesus physically touching the leper in v.41 \u2014 under the Law, touching a leper made a person ceremonially unclean, and no ordinary person would have risked it. Gill reads Jesus' willingness to do so anyway as showing His purity working outward to cleanse, rather than the leper's uncleanness working inward to defile Him \u2014 the opposite direction the Law assumed contact would run.",
+        "note": "Gill draws out the significance of Jesus physically touching the leper in v.41 — under the Law, touching a leper made a person ceremonially unclean, and no ordinary person would have risked it. Gill reads Jesus' willingness to do so anyway as showing His purity working outward to cleanse, rather than the leper's uncleanness working inward to defile Him — the opposite direction the Law assumed contact would run.",
         "url": "https://www.bibliaplus.org/en/mark/1/41"
       },
       {
         "source": "Matthew Henry",
         "year": "1710s",
-        "note": "Henry points out that unlike Matthew and Luke, Mark skips the nativity entirely and opens with John's ministry \u2014 treating this, not the birth, as the actual \"beginning of the gospel.\" He observes that the chapter's two Old Testament quotations, from Malachi and Isaiah, were written roughly three centuries apart yet both point to this exact same moment. He also notes that John's austere, self-denying way of living was itself an early expression of the gospel spirit, well before he preached a single word.",
+        "note": "Henry points out that unlike Matthew and Luke, Mark skips the nativity entirely and opens with John's ministry — treating this, not the birth, as the actual \"beginning of the gospel.\" He observes that the chapter's two Old Testament quotations, from Malachi and Isaiah, were written roughly three centuries apart yet both point to this exact same moment. He also notes that John's austere, self-denying way of living was itself an early expression of the gospel spirit, well before he preached a single word.",
         "url": "https://biblehub.com/commentaries/mhc/mark/1.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB highlights Mark's characteristic abruptness \u2014 skipping everything that came before to plunge straight into John's ministry, as if impatient to reach Jesus's public life. They make an interesting observation: despite being the shortest of the four Gospels overall, Mark is often the fullest and most detailed in the specific scenes it does choose to include.",
+        "note": "JFB highlights Mark's characteristic abruptness — skipping everything that came before to plunge straight into John's ministry, as if impatient to reach Jesus's public life. They make an interesting observation: despite being the shortest of the four Gospels overall, Mark is often the fullest and most detailed in the specific scenes it does choose to include.",
         "url": "https://biblehub.com/commentaries/jfb/mark/1.htm"
       }
     ],
@@ -314,8 +317,126 @@
     },
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DoreJohntheBaptistPreachingintheWilderness.jpg",
-      "caption": "John the Baptist Preaching in the Wilderness, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "John the Baptist Preaching in the Wilderness, by Gustave Doré (1866)",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Mark opens with John the Baptist and the baptism of Jesus, who is tempted in the wilderness. He calls fishermen, teaches with authority in Capernaum, casts out a demon, and heals Peter's mother-in-law and a leper.",
+      "settingLine": "The Jordan, then Capernaum in Galilee.",
+      "placeName": "Jordan River",
+      "history": [
+        {
+          "h": "Isaiah's Voice",
+          "t": "Mark begins with Isaiah's words about a messenger preparing the way."
+        },
+        {
+          "h": "Fishermen",
+          "t": "Galilean fishermen often worked in family crews and owned boats."
+        }
+      ],
+      "customs": [
+        {
+          "h": "John's Clothes",
+          "t": "Camel hair and a leather belt recalled the prophet Elijah."
+        },
+        {
+          "h": "Synagogue Teaching",
+          "t": "Teachers usually quoted earlier rabbis, but Jesus spoke on His own authority."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Capernaum Synagogue",
+          "t": "A later white limestone synagogue stands over the first-century basalt one."
+        },
+        {
+          "h": "Peter's House",
+          "t": "An early house church was built over a home in Capernaum."
+        }
+      ],
+      "discussion": "Jesus called fishermen, and they left their nets at once. What would make you follow so quickly?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 3:1-17": "John and the baptism",
+        "Malachi 3:1": "A messenger sent ahead",
+        "Isaiah 40:3": "A voice in the wilderness"
+      },
+      "peoplePlaces": [
+        {
+          "n": "John",
+          "d": "The Baptist"
+        },
+        {
+          "n": "Simon",
+          "d": "Fisherman"
+        },
+        {
+          "n": "Andrew",
+          "d": "Fisherman"
+        },
+        {
+          "n": "Capernaum",
+          "d": "His base"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Jordan",
+          "label": "John baptizes"
+        },
+        {
+          "when": "Wilderness",
+          "label": "Tempted"
+        },
+        {
+          "when": "Galilee",
+          "label": "Calls fishermen"
+        },
+        {
+          "when": "Capernaum",
+          "label": "Teaches, heals"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+      "caption": "Present-day Jordan River",
+      "credit": "Photo: Bill Rice / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          21
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Nazareth",
+        "lat": 32.7021,
+        "lng": 35.2977,
+        "verses": [
+          9,
+          24
+        ],
+        "slug": "nazareth"
+      },
+      {
+        "name": "Sea of Galilee",
+        "lat": 32.8189,
+        "lng": 35.59,
+        "verses": [
+          16
+        ],
+        "slug": "sea-of-galilee"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.4
   }
 }

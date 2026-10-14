@@ -228,7 +228,8 @@
             "Mark 6:6",
             "Luke 24:12"
           ]
-        }
+        },
+        "gloss": "Was amazed"
       },
       {
         "english": "compassion",
@@ -243,7 +244,8 @@
             "Luke 15:20"
           ],
           "note": "Luke uses this word for three of the best-known characters in his Gospel."
-        }
+        },
+        "gloss": "Moved in the gut"
       },
       {
         "english": "forgiven",
@@ -257,7 +259,8 @@
             "Acts 8:22",
             "1 John 1:9"
           ]
-        }
+        },
+        "gloss": "Have been released"
       }
     ],
     "gospelParallels": [
@@ -334,6 +337,114 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Resurrection_of_the_Widow%27s_Son_at_Nain_(La_r%C3%A9surrection_du_fils_de_la_veuve_de_Na%C3%AFm)_-_James_Tissot_-_overall.jpg",
       "caption": "The Resurrection of the Widow's Son at Nain, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "A Roman centurion trusts that Jesus' word alone can heal his servant, and Jesus marvels at his faith. At Nain, Jesus raises a widow's only son. John asks from prison if He is the one, and a sinful woman washes Jesus' feet and is forgiven.",
+      "settingLine": "Capernaum, then the village of Nain.",
+      "placeName": "Nain, Galilee",
+      "history": [
+        {
+          "h": "Centurions",
+          "t": "Centurions led about 100 soldiers, and this Gentile had won over Capernaum's Jewish elders."
+        },
+        {
+          "h": "John in Prison",
+          "t": "John asked from prison, where Herod Antipas had locked him up for rebuking him."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Open Bier",
+          "t": "The dead were carried on an open bier and buried the same day, followed by mourners."
+        },
+        {
+          "h": "Reclining",
+          "t": "Guests reclined at meals with feet to the side, so the woman could reach Jesus' feet."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Capernaum",
+          "t": "Basalt foundations lie under the later synagogue, fitting the centurion's gift."
+        },
+        {
+          "h": "Alabaster Flask",
+          "t": "Small perfume flasks like the woman's are common finds from first-century sites."
+        }
+      ],
+      "discussion": "John asked from prison, \"Are You the one?\" Can honest doubt live alongside real faith?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Historical narrative",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 8:5-13": "Centurion's servant",
+        "1 Kings 17:17-24": "Elijah raises a widow's son",
+        "Isaiah 35:5-6": "The blind see, the lame walk"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Centurion",
+          "d": "Roman officer"
+        },
+        {
+          "n": "John",
+          "d": "The Baptist"
+        },
+        {
+          "n": "Simon",
+          "d": "Pharisee host"
+        },
+        {
+          "n": "Nain",
+          "d": "Galilean village"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Capernaum",
+          "label": "Servant healed"
+        },
+        {
+          "when": "Soon after",
+          "label": "Widow's son raised"
+        },
+        {
+          "when": "Later",
+          "label": "John's question"
+        },
+        {
+          "when": "Dinner",
+          "label": "Woman forgiven"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Niin_120.jpg",
+      "caption": "Present-day Nain, Galilee",
+      "credit": "Photo: Ori~ / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          1
+        ],
+        "slug": "capernaum"
+      },
+      {
+        "name": "Nain",
+        "lat": 32.6307,
+        "lng": 35.3501,
+        "verses": [
+          11
+        ],
+        "slug": "nain"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

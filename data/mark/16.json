@@ -87,20 +87,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 the empty tomb, Jesus' resurrection appearances, and a closing commission, bringing the whole Gospel to its climax",
+    "genre": "Narrative Gospel — the empty tomb, Jesus' resurrection appearances, and a closing commission, bringing the whole Gospel to its climax",
     "audience": "Roman Christian readers, arriving at the event the entire book has been building toward since its opening line",
     "mapLabel": "THE GARDEN TOMB, JERUSALEM",
-    "setting": "The tomb near Golgotha, at first light on the Sunday following Passover \u2014 the women arrive with spices to complete the burial anointing that had to be rushed before the Sabbath began at sundown on the day of Jesus' death.",
-    "custom": "Completing a body's anointing after burial was standard Jewish practice when death occurred too close to the Sabbath for full preparation \u2014 exactly the situation Mark 15:42 describes. A woman's testimony carried little legal weight in the culture of the time, which makes Mark's choice to have women be the first witnesses to the empty tomb an unusual, and by most reckonings unlikely, detail to have simply invented. Worth knowing: verses 9-20 are a well-known textual question \u2014 some of the earliest surviving manuscripts end the Gospel at verse 8, while others include a shorter or longer ending. The BSB prints this longer ending as the traditional text, flagged with a footnote, since it's attested by the majority of later manuscripts and by early church writers such as Irenaeus.",
-    "timelineImmediate": "This chapter closes the whole Gospel \u2014 the empty tomb, a sequence of resurrection appearances met with real, repeated disbelief from the disciples, and finally Jesus' commission to \"go into all the world,\" setting the stage for the book of Acts.",
-    "timelineBible": "The angel's directive to \"go, tell His disciples and Peter\" (v.7) singles Peter out by name for reassurance after his threefold denial in chapter 14 \u2014 a small, deliberate note of grace inside the resurrection announcement itself.",
-    "sparkNotes": "Women arrive at the tomb at dawn to finish anointing Jesus' body and find the stone already rolled away and the tomb empty \u2014 a young man in white tells them Jesus has risen and is going ahead of them to Galilee. In the verses that follow, Jesus appears repeatedly to His followers, meets real and repeated disbelief each time, and closes with the command to take the gospel to the whole world before being taken up into heaven.",
+    "setting": "The tomb near Golgotha, at first light on the Sunday following Passover — the women arrive with spices to complete the burial anointing that had to be rushed before the Sabbath began at sundown on the day of Jesus' death.",
+    "custom": "Completing a body's anointing after burial was standard Jewish practice when death occurred too close to the Sabbath for full preparation — exactly the situation Mark 15:42 describes. A woman's testimony carried little legal weight in the culture of the time, which makes Mark's choice to have women be the first witnesses to the empty tomb an unusual, and by most reckonings unlikely, detail to have simply invented. Worth knowing: verses 9-20 are a well-known textual question — some of the earliest surviving manuscripts end the Gospel at verse 8, while others include a shorter or longer ending. The BSB prints this longer ending as the traditional text, flagged with a footnote, since it's attested by the majority of later manuscripts and by early church writers such as Irenaeus.",
+    "timelineImmediate": "This chapter closes the whole Gospel — the empty tomb, a sequence of resurrection appearances met with real, repeated disbelief from the disciples, and finally Jesus' commission to \"go into all the world,\" setting the stage for the book of Acts.",
+    "timelineBible": "The angel's directive to \"go, tell His disciples and Peter\" (v.7) singles Peter out by name for reassurance after his threefold denial in chapter 14 — a small, deliberate note of grace inside the resurrection announcement itself.",
+    "sparkNotes": "Women arrive at the tomb at dawn to finish anointing Jesus' body and find the stone already rolled away and the tomb empty — a young man in white tells them Jesus has risen and is going ahead of them to Galilee. In the verses that follow, Jesus appears repeatedly to His followers, meets real and repeated disbelief each time, and closes with the command to take the gospel to the whole world before being taken up into heaven.",
     "translation": [
       {
         "english": "risen",
-        "greek": "\u1f20\u03b3\u03ad\u03c1\u03b8\u03b7 (\u0113gerth\u0113)",
+        "greek": "ἠγέρθη (ēgerthē)",
         "verseRef": "v.6, 9, 14",
-        "meaning": "A passive verb form \u2014 implying God's own action in raising Jesus, rather than Jesus raising Himself under His own power alone.",
+        "meaning": "A passive verb form — implying God's own action in raising Jesus, rather than Jesus raising Himself under His own power alone.",
         "occurrences": {
           "total": 144,
           "sampleRefs": [
@@ -108,14 +108,15 @@
             "1 Corinthians 15:15",
             "James 5:15"
           ],
-          "note": "A very common word overall (also used for ordinary waking or healing) \u2014 its meaning here comes entirely from context, not rarity."
-        }
+          "note": "A very common word overall (also used for ordinary waking or healing) — its meaning here comes entirely from context, not rarity."
+        },
+        "gloss": "Has risen"
       },
       {
         "english": "gospel",
-        "greek": "\u03b5\u1f50\u03b1\u03b3\u03b3\u03ad\u03bb\u03b9\u03bf\u03bd (euangelion)",
+        "greek": "εὐαγγέλιον (euangelion)",
         "verseRef": "v.15",
-        "meaning": "The same word that opened the entire book in Mark 1:1 \u2014 the Gospel ends exactly where it began, now commissioned to spread to \"every creature.\"",
+        "meaning": "The same word that opened the entire book in Mark 1:1 — the Gospel ends exactly where it began, now commissioned to spread to \"every creature.\"",
         "occurrences": {
           "total": 76,
           "sampleRefs": [
@@ -123,7 +124,8 @@
             "Mark 1:1",
             "Mark 13:10"
           ]
-        }
+        },
+        "gloss": "Good news"
       }
     ],
     "gospelParallels": [
@@ -143,7 +145,7 @@
     "otBackground": [
       {
         "ref": "Psalm 16:10",
-        "note": "\"You will not abandon me to Sheol\" \u2014 read by the early church as anticipating the resurrection."
+        "note": "\"You will not abandon me to Sheol\" — read by the early church as anticipating the resurrection."
       },
       {
         "ref": "Jonah 1:17",
@@ -151,7 +153,7 @@
       },
       {
         "ref": "Leviticus 23:10-11",
-        "note": "The Feast of Firstfruits, observed on the day after the Sabbath during Passover week \u2014 the same day tradition places the resurrection."
+        "note": "The Feast of Firstfruits, observed on the day after the Sabbath during Passover week — the same day tradition places the resurrection."
       }
     ],
     "mapCoords": {
@@ -164,26 +166,134 @@
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry marks the day itself as a turning point in history: \"this sabbath is over, and the first day of the week is the first day of a new world.\" He describes the women's visit to the tomb as \"not a superstitious one, but a pious one\" \u2014 genuine devotion, not empty ritual, bringing them there before dawn.",
+        "note": "Henry marks the day itself as a turning point in history: \"this sabbath is over, and the first day of the week is the first day of a new world.\" He describes the women's visit to the tomb as \"not a superstitious one, but a pious one\" — genuine devotion, not empty ritual, bringing them there before dawn.",
         "url": "https://www.christianity.com/bible/commentary/matthew-henry-complete/mark/16"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "On the angel's gentle \"be not affrighted,\" Henry notes that angels don't only rejoice over a sinner's conversion, but over a believer's comfort too \u2014 the point of the announcement wasn't just information, but genuine consolation for people who had every reason to still be afraid.",
+        "note": "On the angel's gentle \"be not affrighted,\" Henry notes that angels don't only rejoice over a sinner's conversion, but over a believer's comfort too — the point of the announcement wasn't just information, but genuine consolation for people who had every reason to still be afraid.",
         "url": "https://www.biblestudytools.com/commentaries/matthew-henry-complete/mark/16.html"
       },
       {
         "source": "J.C. Ryle",
         "year": "1857",
-        "note": "Ryle points to the courage the errand itself required: visiting a grave in the dim light of dawn would try any woman, but to do so for someone executed as a common criminal, whom their own nation had despised, was 'a mighty boldness indeed' \u2014 the kind of act, he says, that shows the real difference between weak faith and strong faith.",
+        "note": "Ryle points to the courage the errand itself required: visiting a grave in the dim light of dawn would try any woman, but to do so for someone executed as a common criminal, whom their own nation had despised, was 'a mighty boldness indeed' — the kind of act, he says, that shows the real difference between weak faith and strong faith.",
         "url": "https://gracegems.org/Ryle/mark16.htm"
       }
     ],
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/091.jpg",
-      "caption": "The Angel at the Sepulcher, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Project Gutenberg"
-    }
+      "caption": "The Angel at the Sepulcher, by Gustave Doré (1866)",
+      "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Early on Sunday three women find the stone rolled away and a young man in white tells them Jesus has risen. The earliest manuscripts end here, afraid, and later endings add appearances and the commission to preach the gospel.",
+      "settingLine": "The tomb at dawn.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "The Women",
+          "t": "They went to anoint the body, because burial had been rushed before the Sabbath."
+        },
+        {
+          "h": "The Endings",
+          "t": "The oldest manuscripts end at verse 8, and later endings were added."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Anointing",
+          "t": "Spices honored the dead and eased the smell, they did not preserve the body."
+        },
+        {
+          "h": "Sabbath Rest",
+          "t": "Work stopped from Friday sunset, so the women waited until Sunday."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Rolling Stones",
+          "t": "Round stones in a groove sealed some Jerusalem tombs."
+        },
+        {
+          "h": "Garden Tomb",
+          "t": "Two sites, the Garden Tomb and the Holy Sepulchre, are visited as the burial place."
+        }
+      ],
+      "discussion": "The women fled in fear and said nothing at first. What do you do with news that is too big to take in?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 28:1-20": "Empty tomb, commission",
+        "Psalm 16:10": "Not abandoned to Sheol",
+        "Jonah 1:17": "Three days"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Mary",
+          "d": "Magdalene"
+        },
+        {
+          "n": "Salome",
+          "d": "Witness"
+        },
+        {
+          "n": "A young man",
+          "d": "In white"
+        },
+        {
+          "n": "Peter",
+          "d": "Named"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Friday",
+          "label": "Buried"
+        },
+        {
+          "when": "Sabbath",
+          "label": "Waiting"
+        },
+        {
+          "when": "Dawn",
+          "label": "Tomb empty"
+        },
+        {
+          "when": "Afterward",
+          "label": "Appearances"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/121296-Jerusalem-Mount-of-Olives_(27524566831).jpg",
+      "caption": "Present-day Jerusalem",
+      "credit": "Photo: xiquinhosilva / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          12
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Galilee",
+        "lat": 32.76,
+        "lng": 35.527,
+        "verses": [
+          7
+        ],
+        "slug": "galilee-1"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 1.3
   }
 }

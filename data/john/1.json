@@ -233,13 +233,17 @@
             "Revelation 19:13"
           ],
           "note": "Used hundreds of times throughout the NT for an ordinary word or message — only John uses it, with the definite article, as a direct title for Jesus."
-        }
+        },
+        "gloss": "The Word, reason"
       },
       {
         "english": "Lamb of God",
         "greek": "ὁ Ἀμνὸς τοῦ Θεοῦ (ho Amnos tou Theou)",
         "verseRef": "v.29, 36",
-        "meaning": "John the Baptist's declaration draws directly on the Passover lamb and the daily temple sacrifices, presenting Jesus as the sacrifice that actually accomplishes what those symbols could only picture."
+        "meaning": "John the Baptist's declaration draws directly on the Passover lamb and the daily temple sacrifices, presenting Jesus as the sacrifice that actually accomplishes what those symbols could only picture.",
+        "gloss": "Sacrificial lamb",
+        "ovGreek": "Ἀμνὸς τοῦ Θεοῦ",
+        "ovEnglish": "Lamb of God"
       },
       {
         "english": "Christ",
@@ -253,7 +257,8 @@
             "Romans 1:1",
             "Philippians 1:21"
           ]
-        }
+        },
+        "gloss": "The Anointed One"
       }
     ],
     "gospelParallels": [
@@ -308,12 +313,126 @@
         "year": "c. 390",
         "note": "On Nathanael's confession, the early church father Chrysostom reads it as full recognition, not partial: 'Thou art He who was expected, thou art He who was sought for.' He credits Jesus' unexpected knowledge of Nathanael's private moment under the fig tree as proof enough — evidence Nathanael 'could not doubt for an instant.'",
         "url": "https://en.wikipedia.org/wiki/John_1:49"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1947",
+        "note": "Lewis does not comment on John 1 by verse, but his <em>Miracles</em> chapter \"The Grand Miracle\" is about verse 14, \"The Word became flesh.\" He calls the Incarnation the central miracle of Christianity and says that every other miracle either prepares for it or flows from it. He compares it to a diver who goes down to the bottom of the sea and rises with the lost things in his hands. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://christianhistoryinstitute.org/magazine/article/advent-devotional-12"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_Saint_John_the_Baptist_Sees_Jesus_from_Afar_(Saint_Jean-Baptiste_voit_J%C3%A9sus_de_loin)_-_James_Tissot_-_overall.jpg",
       "caption": "Saint John the Baptist Sees Jesus from Afar, by James Tissot (1886-1894)",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
-    }
+    },
+    "overview": {
+      "summary": "John opens with the Word who was with God and became flesh. John the Baptist points to Jesus as the Lamb of God, and Andrew, Simon, Philip and Nathanael begin to follow Him.",
+      "settingLine": "The Jordan, then toward Galilee.",
+      "placeName": "Jordan River",
+      "history": [
+        {
+          "h": "The Word",
+          "t": "Greek thinkers used logos for the order behind the world, and John fills it with a person."
+        },
+        {
+          "h": "Messiah Hopes",
+          "t": "Priests asked John if he was the Christ, Elijah, or the Prophet."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Baptism",
+          "t": "Washing was common in Judaism, but John's baptism called for repentance."
+        },
+        {
+          "h": "Lamb",
+          "t": "Lambs were offered daily and at Passover, a picture of sacrifice."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Al-Maghtas",
+          "t": "Byzantine churches and pools mark the traditional baptism site east of the Jordan."
+        },
+        {
+          "h": "Qasr al-Yahud",
+          "t": "Pilgrims also visit the river's west bank, with its own ruined churches."
+        }
+      ],
+      "discussion": "John's prologue says the Word became flesh and lived among us. Why does it matter that God came near in person?",
+      "book": "The fourth Gospel · 21 chapters. Written so readers would believe Jesus is the Christ, the Son of God.",
+      "author": "John",
+      "genre": "Prologue and narrative",
+      "audience": "Jews and Gentiles",
+      "refNotes": {
+        "Matthew 3:1-12": "John the Baptist",
+        "Genesis 1:1": "In the beginning",
+        "Isaiah 40:3": "A voice in the wilderness"
+      },
+      "peoplePlaces": [
+        {
+          "n": "John",
+          "d": "The Baptist"
+        },
+        {
+          "n": "Andrew",
+          "d": "First disciple"
+        },
+        {
+          "n": "Simon",
+          "d": "Called Cephas"
+        },
+        {
+          "n": "Nathanael",
+          "d": "From Cana"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Beginning",
+          "label": "The Word"
+        },
+        {
+          "when": "Jordan",
+          "label": "John bears witness"
+        },
+        {
+          "when": "Next day",
+          "label": "Lamb of God"
+        },
+        {
+          "when": "Galilee",
+          "label": "Disciples called"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+      "caption": "Present-day Jordan River",
+      "credit": "Photo: Bill Rice / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Jordan",
+        "lat": 31.7614,
+        "lng": 35.5583,
+        "verses": [
+          28
+        ],
+        "slug": "jordan"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          19
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)",
+    "biblePlacesRadius": 0.5
   }
 }

@@ -166,7 +166,8 @@
           "sampleRefs": [
             "Luke 14:2"
           ]
-        }
+        },
+        "gloss": "Swollen with fluid"
       },
       {
         "english": "hate",
@@ -180,7 +181,8 @@
             "Luke 16:13",
             "Matthew 10:37"
           ]
-        }
+        },
+        "gloss": "To love less"
       },
       {
         "english": "compel",
@@ -194,7 +196,8 @@
             "Acts 26:11",
             "Galatians 2:3"
           ]
-        }
+        },
+        "gloss": "To urge strongly"
       },
       {
         "english": "count the cost",
@@ -284,6 +287,92 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn_Museum_-_The_Last_Supper_(La_Cène_légale)_-_James_Tissot.jpg",
       "caption": "The Last Supper, by James Tissot (1886-1894). Used here for the table-fellowship setting of Luke 14, where Jesus teaches at a meal; it does not depict this chapter's events.",
       "credit": "Public domain — Brooklyn Museum / Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "At a Sabbath dinner, Jesus heals a man and tells guests to take the lowest seat and invite those who cannot repay. He tells of a great banquet whose guests make excuses, then tells the crowds to count the cost of following Him.",
+      "settingLine": "A Pharisee's Sabbath dinner, then the road.",
+      "placeName": "On the road to Jerusalem",
+      "history": [
+        {
+          "h": "Sabbath Dinners",
+          "t": "These meals were a main social event, and the guest list was carefully chosen."
+        },
+        {
+          "h": "Honor and Shame",
+          "t": "Seating showed rank, so taking the best seat risked public embarrassment."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Seating",
+          "t": "Seats nearest the host were places of honor, and guests competed for them."
+        },
+        {
+          "h": "Repaying Meals",
+          "t": "A dinner was expected to be repaid, so inviting the poor broke the pattern."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Dining Rooms",
+          "t": "Wealthy homes in Jerusalem had dining rooms built for reclining guests."
+        },
+        {
+          "h": "Stone Jars",
+          "t": "Large stone jars, used for purity and wine, are common finds in Jewish homes."
+        }
+      ],
+      "discussion": "Jesus says we must \"hate\" family to follow Him. What do you think He means?",
+      "book": "The third Gospel · 24 chapters. Written as an orderly account, with Acts as its sequel.",
+      "author": "Luke",
+      "genre": "Narrative and parable",
+      "audience": "Theophilus and a broad, largely Gentile readership",
+      "refNotes": {
+        "Matthew 22:1-14": "Wedding feast parable",
+        "Proverbs 25:6-7": "Don't take the best seat",
+        "Isaiah 25:6-9": "God's feast for all peoples"
+      },
+      "peoplePlaces": [
+        {
+          "n": "A Pharisee",
+          "d": "Dinner host"
+        },
+        {
+          "n": "The poor",
+          "d": "True guests"
+        },
+        {
+          "n": "Guests",
+          "d": "Make excuses"
+        },
+        {
+          "n": "The crowds",
+          "d": "Following"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Sabbath",
+          "label": "Dropsy healed"
+        },
+        {
+          "when": "At dinner",
+          "label": "Seats and guests"
+        },
+        {
+          "when": "The feast",
+          "label": "Excuses given"
+        },
+        {
+          "when": "On the road",
+          "label": "Count the cost"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day On the road to Jerusalem",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }

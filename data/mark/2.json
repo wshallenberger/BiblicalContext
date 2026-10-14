@@ -62,7 +62,7 @@
     },
     {
       "num": 15,
-      "text": "While Jesus was dining at Levi's house, many tax collectors and sinners were eating with Him and His disciples\u2014for there were many who followed Him."
+      "text": "While Jesus was dining at Levi's house, many tax collectors and sinners were eating with Him and His disciples—for there were many who followed Him."
     },
     {
       "num": 16,
@@ -119,20 +119,20 @@
   ],
   "context": {
     "author": "Traditionally John Mark, a companion of Peter",
-    "genre": "Narrative Gospel \u2014 five short, tightly linked controversy stories, each ending with Jesus overturning a religious assumption",
+    "genre": "Narrative Gospel — five short, tightly linked controversy stories, each ending with Jesus overturning a religious assumption",
     "audience": "Roman Christian readers watching Jesus' authority collide, again and again, with the religious establishment's expectations",
     "mapLabel": "CAPERNAUM, SEA OF GALILEE",
-    "setting": "Capernaum again, likely at Peter's own house, packed so tightly that four men resort to digging through the roof. First-century Galilean homes used flat roofs made of branches, mud, and packed earth over wooden beams \u2014 genuinely possible to open up from above without structural danger.",
-    "custom": "Pharisaic tradition had expanded fasting well beyond the Day of Atonement into a twice-weekly practice. Jesus' bridegroom imagery would have been immediately understood as a wedding metaphor \u2014 wedding guests were specifically exempted from fasting obligations during the celebration itself.",
-    "timelineImmediate": "Five back-to-back conflict stories \u2014 forgiving sins, eating with sinners, skipping fasts, and two separate Sabbath disputes \u2014 building toward the Pharisees' and Herodians' plot to kill Jesus that opens chapter 3.",
-    "timelineBible": "Jesus' claim to forgive sins directly invokes Isaiah 43:25, where God alone declares \"I, even I, am He who blots out your transgressions\" \u2014 the scribes' objection in v.7 is theologically correct on its own terms, which is exactly what makes Jesus' claim so pointed.",
-    "sparkNotes": "Four friends dig through a roof to lower a paralyzed man to Jesus, who forgives his sins before healing him \u2014 a deliberate order that provokes the scribes' unspoken charge of blasphemy. The chapter closes with Jesus and the Pharisees clashing over the Sabbath itself, ending in His boldest claim yet: \"the Son of Man is Lord even of the Sabbath.\"",
+    "setting": "Capernaum again, likely at Peter's own house, packed so tightly that four men resort to digging through the roof. First-century Galilean homes used flat roofs made of branches, mud, and packed earth over wooden beams — genuinely possible to open up from above without structural danger.",
+    "custom": "Pharisaic tradition had expanded fasting well beyond the Day of Atonement into a twice-weekly practice. Jesus' bridegroom imagery would have been immediately understood as a wedding metaphor — wedding guests were specifically exempted from fasting obligations during the celebration itself.",
+    "timelineImmediate": "Five back-to-back conflict stories — forgiving sins, eating with sinners, skipping fasts, and two separate Sabbath disputes — building toward the Pharisees' and Herodians' plot to kill Jesus that opens chapter 3.",
+    "timelineBible": "Jesus' claim to forgive sins directly invokes Isaiah 43:25, where God alone declares \"I, even I, am He who blots out your transgressions\" — the scribes' objection in v.7 is theologically correct on its own terms, which is exactly what makes Jesus' claim so pointed.",
+    "sparkNotes": "Four friends dig through a roof to lower a paralyzed man to Jesus, who forgives his sins before healing him — a deliberate order that provokes the scribes' unspoken charge of blasphemy. The chapter closes with Jesus and the Pharisees clashing over the Sabbath itself, ending in His boldest claim yet: \"the Son of Man is Lord even of the Sabbath.\"",
     "translation": [
       {
         "english": "forgiven",
-        "greek": "\u1f00\u03c6\u03af\u03b5\u03bd\u03c4\u03b1\u03af (aphientai)",
+        "greek": "ἀφίενταί (aphientai)",
         "verseRef": "v.5, 7, 9-10",
-        "meaning": "Implies a release or letting go \u2014 the same verb family used elsewhere for canceling a debt.",
+        "meaning": "Implies a release or letting go — the same verb family used elsewhere for canceling a debt.",
         "occurrences": {
           "total": 143,
           "sampleRefs": [
@@ -140,20 +140,22 @@
             "Luke 23:34",
             "1 John 1:9"
           ],
-          "note": "This broader root covers \"leave,\" \"let go,\" and \"forgive\" alike \u2014 only around a third of its uses are specifically about forgiving sin."
-        }
+          "note": "This broader root covers \"leave,\" \"let go,\" and \"forgive\" alike — only around a third of its uses are specifically about forgiving sin."
+        },
+        "gloss": "Are forgiven"
       },
       {
         "english": "Son of Man",
-        "greek": "\u1f41 \u03c5\u1f31\u1f78\u03c2 \u03c4\u03bf\u1fe6 \u1f00\u03bd\u03b8\u03c1\u03ce\u03c0\u03bf\u03c5 (ho huios tou anthropou)",
+        "greek": "ὁ υἱὸς τοῦ ἀνθρώπου (ho huios tou anthropou)",
         "verseRef": "v.10, 28",
-        "meaning": "Jesus' favorite self-designation throughout Mark, appearing here for the first time \u2014 it draws on Daniel 7's vision of a figure given everlasting dominion, while sounding humble on the surface."
+        "meaning": "Jesus' favorite self-designation throughout Mark, appearing here for the first time — it draws on Daniel 7's vision of a figure given everlasting dominion, while sounding humble on the surface.",
+        "gloss": "The Son of Man"
       },
       {
         "english": "new",
-        "greek": "\u03ba\u03b1\u03b9\u03bd\u1f78\u03bd (kainon)",
+        "greek": "καινὸν (kainon)",
         "verseRef": "v.21-22",
-        "meaning": "Fresh and unprecedented, not merely \"another one\" \u2014 Jesus' two short parables both stress that what He brings can't simply be patched onto the old system.",
+        "meaning": "Fresh and unprecedented, not merely \"another one\" — Jesus' two short parables both stress that what He brings can't simply be patched onto the old system.",
         "occurrences": {
           "total": 42,
           "sampleRefs": [
@@ -161,7 +163,8 @@
             "Hebrews 8:13",
             "Revelation 21:5"
           ]
-        }
+        },
+        "gloss": "Fresh, brand new"
       }
     ],
     "gospelParallels": [
@@ -179,35 +182,41 @@
     "otBackground": [
       {
         "ref": "Isaiah 43:25",
-        "note": "God alone blots out transgressions \u2014 the theological principle behind the scribes' objection in v.7."
+        "note": "God alone blots out transgressions — the theological principle behind the scribes' objection in v.7."
       },
       {
         "ref": "1 Samuel 21:1-6",
-        "note": "David eating the consecrated bread when hungry \u2014 the precedent Jesus cites directly in v.25-26."
+        "note": "David eating the consecrated bread when hungry — the precedent Jesus cites directly in v.25-26."
       },
       {
         "ref": "Genesis 2:2-3 / Exodus 20:8-11",
-        "note": "The Sabbath's origin at creation and its place in the Ten Commandments \u2014 background for Jesus' claim of Lordship over it."
+        "note": "The Sabbath's origin at creation and its place in the Ten Commandments — background for Jesus' claim of Lordship over it."
       }
     ],
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710s",
-        "note": "Henry reads Jesus' choice to forgive before healing as deliberate: \"pardon of sin strikes at the root of all diseases,\" since sin is, in his words, the true disease of the soul. The physical healing becomes almost secondary \u2014 a visible sign of the deeper, invisible work Jesus had already done.",
+        "note": "Henry reads Jesus' choice to forgive before healing as deliberate: \"pardon of sin strikes at the root of all diseases,\" since sin is, in his words, the true disease of the soul. The physical healing becomes almost secondary — a visible sign of the deeper, invisible work Jesus had already done.",
         "url": "https://biblehub.com/commentaries/mhc/mark/2.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB notes something easy to miss: all three Gospel accounts specifically say Jesus saw \"their faith\" \u2014 not just the paralyzed man's, but his four friends' as well. It was a shared, active faith, one that pushed through a crowded doorway and tore open a roof rather than accepting defeat.",
+        "note": "JFB notes something easy to miss: all three Gospel accounts specifically say Jesus saw \"their faith\" — not just the paralyzed man's, but his four friends' as well. It was a shared, active faith, one that pushed through a crowded doorway and tore open a roof rather than accepting defeat.",
         "url": "https://biblehub.com/commentaries/jfb/mark/2.htm"
       },
       {
         "source": "John Calvin",
         "year": "1555",
-        "note": "Calvin frames the whole miracle as a kind of proof by demonstration \u2014 since forgiveness itself can't be visibly tested, Christ intentionally paired His invisible claim to forgive sins with a visible, undeniable sign (the healing) to confirm and seal an authority that could otherwise only be taken on faith.",
+        "note": "Calvin frames the whole miracle as a kind of proof by demonstration — since forgiveness itself can't be visibly tested, Christ intentionally paired His invisible claim to forgive sins with a visible, undeniable sign (the healing) to confirm and seal an authority that could otherwise only be taken on faith.",
         "url": "https://biblehub.com/commentaries/calvin/mark/2.htm"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1952",
+        "note": "Lewis does not comment on Mark 2, but \"The Shocking Alternative\" in <em>Mere Christianity</em> centers on Jesus' words to the paralytic, \"Your sins are forgiven\" (v.5-10). Lewis says that anyone can forgive a wrong done to himself, but a man who forgives wrongs done to other people is making an absurd claim unless he is the one whom every sin offends. So the claim to forgive sins is part of why Jesus cannot be reduced to a good teacher. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://phbf.org/the-shocking-alternative/"
       }
     ],
     "mapCoords": {
@@ -218,8 +227,106 @@
     },
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/067.jpg",
-      "caption": "The Disciples Plucking Corn on the Sabbath, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Project Gutenberg"
-    }
+      "caption": "The Disciples Plucking Corn on the Sabbath, by Gustave Doré (1866)",
+      "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Four friends lower a paralyzed man through a roof, and Jesus forgives and heals him. He eats with tax collectors, is asked about fasting, and says the Son of Man is Lord even of the Sabbath.",
+      "settingLine": "A house in Capernaum.",
+      "placeName": "Capernaum, Galilee",
+      "history": [
+        {
+          "h": "Tax Collectors",
+          "t": "They worked for Rome and were hated as collaborators who took extra."
+        },
+        {
+          "h": "Fasting",
+          "t": "Some Pharisees fasted twice a week, a practice beyond the Law."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Flat Roofs",
+          "t": "Roofs of beams, branches and clay could be opened from above."
+        },
+        {
+          "h": "Wine Skins",
+          "t": "Old skins grew stiff and would burst if filled with fermenting wine."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Galilean Houses",
+          "t": "Capernaum houses were small basalt homes around shared courtyards."
+        },
+        {
+          "h": "Tax Booths",
+          "t": "Customs stations stood along the lakeshore road near Capernaum."
+        }
+      ],
+      "discussion": "Jesus forgave the man's sins before healing him. Why might forgiveness have been the bigger need?",
+      "book": "The second Gospel · 16 chapters. A fast-moving account of Jesus as the suffering Servant.",
+      "author": "Mark",
+      "genre": "Narrative and conflict",
+      "audience": "Roman and Gentile readers",
+      "refNotes": {
+        "Matthew 9:1-17": "Paralytic and Matthew",
+        "Isaiah 43:25": "God blots out sins",
+        "1 Samuel 21:1-6": "David and the bread"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Four friends",
+          "d": "Carried him"
+        },
+        {
+          "n": "Levi",
+          "d": "Tax collector"
+        },
+        {
+          "n": "Pharisees",
+          "d": "Questioned"
+        },
+        {
+          "n": "The scribes",
+          "d": "Objected"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "A house",
+          "label": "Roof opened"
+        },
+        {
+          "when": "Then",
+          "label": "Levi called"
+        },
+        {
+          "when": "Dinner",
+          "label": "With sinners"
+        },
+        {
+          "when": "Sabbath",
+          "label": "Grain plucked"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_the_Mount_of_Beatitudes,_2019_(04).jpg",
+      "caption": "Present-day Capernaum, Galilee",
+      "credit": "Photo: Bahnfrend / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Capernaum",
+        "lat": 32.8811,
+        "lng": 35.575,
+        "verses": [
+          1
+        ],
+        "slug": "capernaum"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

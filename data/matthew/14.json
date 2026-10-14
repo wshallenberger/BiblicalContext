@@ -151,19 +151,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Narrative \u2014 a flashback account of John's execution, followed by two of Jesus' best-known miracles.",
+    "genre": "Narrative — a flashback account of John's execution, followed by two of Jesus' best-known miracles.",
     "audience": "Jewish-Christian readers watching John's fate foreshadow Jesus' own coming suffering under a weak ruler swayed by political pressure.",
-    "mapLabel": "GALILEE \u2014 A SOLITARY SHORE, THEN GENNESARET",
-    "setting": "Herod Antipas ruled Galilee and Perea (4 BC-AD 39) from his capital Tiberias, on the Sea of Galilee. His marriage to Herodias, his brother's wife, broke Leviticus 18:16 \u2014 John's public rebuke of that marriage is what led to his imprisonment and death.",
-    "custom": "Herod's oath, made rashly in front of dinner guests, obligated him by the social expectations of the time to honor it publicly even after regretting it \u2014 a dynamic Matthew highlights as a real constraint, not merely royal whim.",
-    "timelineImmediate": "Opens with news of John's execution reaching Jesus, prompting Him to withdraw \u2014 but the crowds follow, leading directly into the feeding of the five thousand and the walking on water, two of the most well-attested miracles across all four Gospels.",
-    "timelineBible": "Jesus' declaration \"It is I\" (v.27) is, in Greek, the same phrase (eg\u014d eimi) God uses to reveal His name in Exodus 3:14 \u2014 a subtle but direct echo tying this moment to God's self-revelation at the burning bush.",
+    "mapLabel": "GALILEE — A SOLITARY SHORE, THEN GENNESARET",
+    "setting": "Herod Antipas ruled Galilee and Perea (4 BC-AD 39) from his capital Tiberias, on the Sea of Galilee. His marriage to Herodias, his brother's wife, broke Leviticus 18:16 — John's public rebuke of that marriage is what led to his imprisonment and death.",
+    "custom": "Herod's oath, made rashly in front of dinner guests, obligated him by the social expectations of the time to honor it publicly even after regretting it — a dynamic Matthew highlights as a real constraint, not merely royal whim.",
+    "timelineImmediate": "Opens with news of John's execution reaching Jesus, prompting Him to withdraw — but the crowds follow, leading directly into the feeding of the five thousand and the walking on water, two of the most well-attested miracles across all four Gospels.",
+    "timelineBible": "Jesus' declaration \"It is I\" (v.27) is, in Greek, the same phrase (egō eimi) God uses to reveal His name in Exodus 3:14 — a subtle but direct echo tying this moment to God's self-revelation at the burning bush.",
     "translation": [
       {
         "english": "compassion",
-        "greek": "\u1f10\u03c3\u03c0\u03bb\u03b1\u03b3\u03c7\u03bd\u03af\u03c3\u03b8\u03b7 (esplanchnisth\u0113)",
+        "greek": "ἐσπλαγχνίσθη (esplanchnisthē)",
         "verseRef": "v.14",
-        "meaning": "A visceral, gut-level empathy \u2014 Jesus ministers to the crowd even while presumably still grieving John's death.",
+        "meaning": "A visceral, gut-level empathy — Jesus ministers to the crowd even while presumably still grieving John's death.",
         "occurrences": {
           "total": 12,
           "sampleRefs": [
@@ -171,20 +171,22 @@
             "Luke 10:33",
             "Luke 15:20"
           ],
-          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables \u2014 the good Samaritan, the forgiving master, and the father of the prodigal son."
-        }
+          "note": "Used only for Jesus Himself, or for a clear Christ-figure in three of His parables — the good Samaritan, the forgiving master, and the father of the prodigal son."
+        },
+        "gloss": "Moved in the gut"
       },
       {
         "english": "It is I",
-        "greek": "\u1f10\u03b3\u03ce \u03b5\u1f30\u03bc\u03b9 (eg\u014d eimi)",
+        "greek": "ἐγώ εἰμι (egō eimi)",
         "verseRef": "v.27",
-        "meaning": "The same self-identifying phrase God uses in Exodus 3:14 \u2014 likely more than a simple \"it's me,\" carrying divine resonance."
+        "meaning": "The same self-identifying phrase God uses in Exodus 3:14 — likely more than a simple \"it's me,\" carrying divine resonance.",
+        "gloss": "I am"
       },
       {
         "english": "take courage",
-        "greek": "\u03b8\u03b1\u03c1\u03c3\u03b5\u1fd6\u03c4\u03b5 (tharseite)",
+        "greek": "θαρσεῖτε (tharseite)",
         "verseRef": "v.27",
-        "meaning": "A command to be bold or of good cheer \u2014 the same word Jesus uses elsewhere when reassuring the fearful.",
+        "meaning": "A command to be bold or of good cheer — the same word Jesus uses elsewhere when reassuring the fearful.",
         "occurrences": {
           "total": 7,
           "sampleRefs": [
@@ -192,20 +194,21 @@
             "John 16:33",
             "Acts 23:11"
           ],
-          "note": "Always spoken as a command, never a description \u2014 five times by Jesus, once by the risen Lord to Paul, and once echoed back by a crowd."
-        }
+          "note": "Always spoken as a command, never a description — five times by Jesus, once by the risen Lord to Paul, and once echoed back by a crowd."
+        },
+        "gloss": "Be bold, take heart"
       },
       {
         "english": "doubt",
-        "greek": "\u1f10\u03b4\u03af\u03c3\u03c4\u03b1\u03c3\u03b1\u03c2 (edistasas)",
+        "greek": "ἐδίστασας (edistasas)",
         "verseRef": "v.31",
-        "meaning": "To waver or hesitate between two decisions \u2014 describes Peter's divided attention between Jesus and the wind, not outright disbelief.",
+        "meaning": "To waver or hesitate between two decisions — describes Peter's divided attention between Jesus and the wind, not outright disbelief.",
         "occurrences": {
           "total": 2,
           "sampleRefs": [
             "Matthew 28:17"
           ],
-          "note": "Used only twice in the whole New Testament, and both times in Matthew alone \u2014 here with Peter on the water, and again with the disciples on the mountain after the resurrection."
+          "note": "Used only twice in the whole New Testament, and both times in Matthew alone — here with Peter on the water, and again with the disciples on the mountain after the resurrection."
         }
       }
     ],
@@ -237,7 +240,7 @@
       },
       {
         "ref": "Job 9:8 / Psalm 107:28-30",
-        "note": "God described as treading on the sea and stilling storms \u2014 background for Jesus walking on water and calming the wind."
+        "note": "God described as treading on the sea and stilling storms — background for Jesus walking on water and calming the wind."
       }
     ],
     "mapCoords": {
@@ -246,31 +249,129 @@
       "zoom": 8.5,
       "placeName": "Plain of Gennesaret"
     },
-    "sparkNotes": "Herod beheads John the Baptist, and Jesus withdraws \u2014 only to feed five thousand and walk on water that same night. \"Doubt,\" used to describe Peter sinking on the water, appears only twice in the whole New Testament, both times in Matthew alone \u2014 and Jesus walking on the sea echoes Job 9:8's picture of God treading the waves.",
+    "sparkNotes": "Herod beheads John the Baptist, and Jesus withdraws — only to feed five thousand and walk on water that same night. \"Doubt,\" used to describe Peter sinking on the water, appears only twice in the whole New Testament, both times in Matthew alone — and Jesus walking on the sea echoes Job 9:8's picture of God treading the waves.",
     "commentary": [
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry catches Herod's hollow, superstitious guilt precisely: \"the devils believe and tremble, but they never believe and repent\" \u2014 terror of conscience without any real change of heart. He also notes the timing isn't accidental: crowds pressed harder toward Jesus after John's martyrdom than before, since \"the blood of the martyrs is the seed of the church.\"",
+        "note": "Henry catches Herod's hollow, superstitious guilt precisely: \"the devils believe and tremble, but they never believe and repent\" — terror of conscience without any real change of heart. He also notes the timing isn't accidental: crowds pressed harder toward Jesus after John's martyrdom than before, since \"the blood of the martyrs is the seed of the church.\"",
         "url": "https://biblehub.com/commentaries/mhc/matthew/14.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB catches a precise nuance in Peter's Greek that's easy to miss in translation \u2014 he doesn't ask Jesus to \"let\" him come, but to \"command\" him, using the language of an order rather than a permission. Read that way, his request looks less like impulsive boldness and more like a deliberate act of submission to whatever Jesus would say.",
+        "note": "JFB catches a precise nuance in Peter's Greek that's easy to miss in translation — he doesn't ask Jesus to \"let\" him come, but to \"command\" him, using the language of an order rather than a permission. Read that way, his request looks less like impulsive boldness and more like a deliberate act of submission to whatever Jesus would say.",
         "url": "https://www.ccel.org/j/jfb/jfb/JFB40.htm"
       },
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke argues that when Jesus \"blessed\" the loaves, the object of that blessing was God Himself, not the bread \u2014 following standard Jewish custom of blessing the Giver rather than the gift. He also stresses the scale of the miracle plainly: five loaves fed five thousand men (plus women and children), with twelve baskets of fragments left over \u2014 more surplus than the entire original supply.",
+        "note": "Clarke argues that when Jesus \"blessed\" the loaves, the object of that blessing was God Himself, not the bread — following standard Jewish custom of blessing the Giver rather than the gift. He also stresses the scale of the miracle plainly: five loaves fed five thousand men (plus women and children), with twelve baskets of fragments left over — more surplus than the entire original supply.",
         "url": "https://www.bibliaplus.org/en/commentaries/7/adam-clarke-bible-commentary/matthew/14/19"
       }
     ],
     "historicalImage": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JesusFeedingMultitude.jpg",
-      "caption": "Christ Feeding the Multitude, by Gustave Dor\u00e9",
-      "credit": "Public domain \u2014 Wikimedia Commons"
-    }
+      "caption": "Christ Feeding the Multitude, by Gustave Doré",
+      "credit": "Public domain — Wikimedia Commons"
+    },
+    "overview": {
+      "summary": "Herod beheads John the Baptist at a birthday feast. Jesus withdraws, then feeds five thousand with five loaves and two fish. That night He walks on the water, and Peter sinks when he doubts.",
+      "settingLine": "Herod's feast, the lake, and the Gennesaret shore.",
+      "placeName": "Plain of Gennesaret",
+      "history": [
+        {
+          "h": "Herod Antipas",
+          "t": "Antipas married his brother's wife, and John's rebuke of it cost him his life."
+        },
+        {
+          "h": "Birthday Feast",
+          "t": "Rulers' banquets drew officials and leaders, making Herod's oath a public one."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Rash Oaths",
+          "t": "A public oath was hard to break without losing face, so Herod gave the order."
+        },
+        {
+          "h": "Night Watches",
+          "t": "The fourth watch came before dawn, so Jesus reached them in the last hours of night."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Machaerus",
+          "t": "Josephus says John was jailed at this fortress east of the Dead Sea."
+        },
+        {
+          "h": "Galilee Boat",
+          "t": "A boat about 2,000 years old, found in 1986, shows what fishermen rowed."
+        }
+      ],
+      "discussion": "Peter asked, \"Lord, command me to come to You.\" Was that faith, or testing?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Mark 6:14-29": "John's death",
+        "Leviticus 18:16": "Law on a brother's wife",
+        "2 Kings 4:42-44": "Elisha feeds a hundred"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Herod",
+          "d": "Ruler"
+        },
+        {
+          "n": "Herodias",
+          "d": "Grudge"
+        },
+        {
+          "n": "Peter",
+          "d": "Sinks, saved"
+        },
+        {
+          "n": "Gennesaret",
+          "d": "Lake plain"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Earlier",
+          "label": "John beheaded"
+        },
+        {
+          "when": "Evening",
+          "label": "Five thousand fed"
+        },
+        {
+          "when": "Night",
+          "label": "Walks on water"
+        },
+        {
+          "when": "Morning",
+          "label": "Gennesaret healings"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginosar_from_above.JPG",
+      "caption": "Present-day Plain of Gennesaret",
+      "credit": "Photo: יעקב / Wikimedia Commons"
+    },
+    "biblePlaces": [
+      {
+        "name": "Gennesaret",
+        "lat": 32.8606,
+        "lng": 35.5072,
+        "verses": [
+          34
+        ],
+        "slug": "gennesaret"
+      }
+    ],
+    "biblePlacesCredit": "Places: OpenBible.info (CC BY 4.0)"
   }
 }

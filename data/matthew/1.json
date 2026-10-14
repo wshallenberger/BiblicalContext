@@ -107,19 +107,19 @@
   ],
   "context": {
     "author": "Matthew, writing to a Jewish audience",
-    "genre": "Genealogy (v.1-17) opening into narrative (v.18-25) \u2014 a formal legal record before the story proper begins.",
-    "audience": "Jewish-Christian readers who needed Jesus' ancestry established immediately \u2014 a royal line through David, a covenant line through Abraham.",
-    "mapLabel": "JUDEA \u2014 before Jesus' birth",
-    "setting": "Judea under Roman rule, with Herod the Great as client king. Lineage mattered enormously here \u2014 for property, priesthood, and above all for any claim to be the promised Messiah, who Scripture said would come from David's line.",
-    "custom": "Betrothal was legally binding in first-century Judea \u2014 breaking it required a formal divorce, which is why Joseph's plan to end things \"quietly\" (v.19) was an act of mercy, not a small gesture.",
-    "timelineImmediate": "The very starting point \u2014 Jesus' legal ancestry and birth, before any public ministry, any teaching, any miracle. Everything else in the Gospel builds forward from this chapter.",
-    "timelineBible": "This genealogy itself sweeps across nearly two thousand years of the Bible's own timeline in seventeen verses \u2014 from Abraham, through King David, through the Babylonian exile, arriving at Jesus. It's a compressed preview of the whole Old Testament storyline.",
+    "genre": "Genealogy (v.1-17) opening into narrative (v.18-25) — a formal legal record before the story proper begins.",
+    "audience": "Jewish-Christian readers who needed Jesus' ancestry established immediately — a royal line through David, a covenant line through Abraham.",
+    "mapLabel": "JUDEA — before Jesus' birth",
+    "setting": "Judea under Roman rule, with Herod the Great as client king. Lineage mattered enormously here — for property, priesthood, and above all for any claim to be the promised Messiah, who Scripture said would come from David's line.",
+    "custom": "Betrothal was legally binding in first-century Judea — breaking it required a formal divorce, which is why Joseph's plan to end things \"quietly\" (v.19) was an act of mercy, not a small gesture.",
+    "timelineImmediate": "The very starting point — Jesus' legal ancestry and birth, before any public ministry, any teaching, any miracle. Everything else in the Gospel builds forward from this chapter.",
+    "timelineBible": "This genealogy itself sweeps across nearly two thousand years of the Bible's own timeline in seventeen verses — from Abraham, through King David, through the Babylonian exile, arriving at Jesus. It's a compressed preview of the whole Old Testament storyline.",
     "translation": [
       {
         "english": "genealogy",
-        "greek": "\u03b3\u03b5\u03bd\u03ad\u03c3\u03b5\u03c9\u03c2 (genese\u014ds)",
+        "greek": "γενέσεως (geneseōs)",
         "verseRef": "v.1",
-        "meaning": "Can also be translated \"origin\" or \"beginning\" \u2014 the same word that opens Genesis in the Greek Old Testament, quietly framing Jesus as a new beginning.",
+        "meaning": "Can also be translated \"origin\" or \"beginning\" — the same word that opens Genesis in the Greek Old Testament, quietly framing Jesus as a new beginning.",
         "occurrences": {
           "total": 5,
           "sampleRefs": [
@@ -128,13 +128,14 @@
             "James 1:23",
             "James 3:6"
           ]
-        }
+        },
+        "gloss": "Origin, beginning"
       },
       {
         "english": "virgin",
-        "greek": "\u03c0\u03b1\u03c1\u03b8\u03ad\u03bd\u03bf\u03c2 (parthenos)",
+        "greek": "παρθένος (parthenos)",
         "verseRef": "v.23",
-        "meaning": "The word Matthew uses when quoting Isaiah 7:14 \u2014 specifically denotes a woman who has not had sexual relations, not simply a young woman.",
+        "meaning": "The word Matthew uses when quoting Isaiah 7:14 — specifically denotes a woman who has not had sexual relations, not simply a young woman.",
         "occurrences": {
           "total": 15,
           "sampleRefs": [
@@ -143,28 +144,30 @@
             "1 Corinthians 7:25",
             "Revelation 14:4"
           ]
-        }
+        },
+        "gloss": "A young unmarried woman"
       },
       {
         "english": "Immanuel",
-        "greek": "\u1f18\u03bc\u03bc\u03b1\u03bd\u03bf\u03c5\u03ae\u03bb (Emmanou\u0113l)",
+        "greek": "Ἐμμανουήλ (Emmanouēl)",
         "verseRef": "v.23",
-        "meaning": "Hebrew for \"God with us\" \u2014 Matthew explains the meaning directly in the text, one of several places he pauses to translate a name for his readers.",
+        "meaning": "Hebrew for \"God with us\" — Matthew explains the meaning directly in the text, one of several places he pauses to translate a name for his readers.",
         "occurrences": {
           "total": 1,
           "sampleRefs": [],
-          "note": "The only time this name appears anywhere in the New Testament \u2014 Matthew borrows it once, directly from Isaiah 7:14, and never uses it again."
-        }
+          "note": "The only time this name appears anywhere in the New Testament — Matthew borrows it once, directly from Isaiah 7:14, and never uses it again."
+        },
+        "gloss": "God with us"
       },
       {
         "english": "Jesus",
-        "greek": "\u1f38\u03b7\u03c3\u03bf\u1fe6\u03c2 (I\u0113sous)",
+        "greek": "Ἰησοῦς (Iēsous)",
         "verseRef": "v.21",
-        "meaning": "Greek form of the Hebrew Yeshua, meaning \"the LORD saves\" \u2014 the angel's instruction ties the name directly to His mission.",
+        "meaning": "Greek form of the Hebrew Yeshua, meaning \"the LORD saves\" — the angel's instruction ties the name directly to His mission.",
         "occurrences": {
           "total": 975,
           "sampleRefs": [],
-          "note": "His own name, used roughly 975 times across the New Testament \u2014 too common to list \"sample\" references for."
+          "note": "His own name, used roughly 975 times across the New Testament — too common to list \"sample\" references for."
         }
       }
     ],
@@ -178,7 +181,7 @@
     "otBackground": [
       {
         "ref": "2 Samuel 7:12-16",
-        "note": "God's covenant promise to David of an everlasting throne \u2014 the promise this genealogy is built to fulfill."
+        "note": "God's covenant promise to David of an everlasting throne — the promise this genealogy is built to fulfill."
       },
       {
         "ref": "Isaiah 7:14",
@@ -193,20 +196,26 @@
       {
         "source": "Adam Clarke",
         "year": "1810s",
-        "note": "Clarke draws attention to the four women named in the genealogy \u2014 Tamar and Bathsheba, both involved in scandal, and Rahab and Ruth, both Gentiles with no natural claim to Israel's covenant. He reads their inclusion as a deliberate signal, planted right at the Gospel's opening, that Christ came to save sinners and that God's salvation was never intended for Jews alone.",
+        "note": "Clarke draws attention to the four women named in the genealogy — Tamar and Bathsheba, both involved in scandal, and Rahab and Ruth, both Gentiles with no natural claim to Israel's covenant. He reads their inclusion as a deliberate signal, planted right at the Gospel's opening, that Christ came to save sinners and that God's salvation was never intended for Jews alone.",
         "url": "https://www.sacred-texts.com/bib/cmt/clarke/mat001.htm"
       },
       {
         "source": "Matthew Henry",
         "year": "1710",
-        "note": "Henry argues this genealogy is neither pointless nor a vanity project \u2014 it functions as legal evidence, proving Jesus's right to be recognized as the promised descendant of both Abraham and David. He reads the three sets of fourteen generations as tracing the family's rise, its peak under the kings, and its long decline \u2014 until Christ \"shines forth\" out of what had become, by Joseph's day, just a humble carpenter's household.",
+        "note": "Henry argues this genealogy is neither pointless nor a vanity project — it functions as legal evidence, proving Jesus's right to be recognized as the promised descendant of both Abraham and David. He reads the three sets of fourteen generations as tracing the family's rise, its peak under the kings, and its long decline — until Christ \"shines forth\" out of what had become, by Joseph's day, just a humble carpenter's household.",
         "url": "https://biblehub.com/commentaries/mhc/matthew/1.htm"
       },
       {
         "source": "Jamieson, Fausset & Brown",
         "year": "1871",
-        "note": "JFB notes that \"the book of the generation\" is a distinctly Jewish phrase (it echoes Genesis 5:1), functioning as a title for just this genealogy section rather than the whole Gospel. They stress this is specifically Joseph's lineage \u2014 and although Joseph wasn't Jesus's biological father, his own well-established descent from David was exactly what secured Jesus's legal claim to that same royal line.",
+        "note": "JFB notes that \"the book of the generation\" is a distinctly Jewish phrase (it echoes Genesis 5:1), functioning as a title for just this genealogy section rather than the whole Gospel. They stress this is specifically Joseph's lineage — and although Joseph wasn't Jesus's biological father, his own well-established descent from David was exactly what secured Jesus's legal claim to that same royal line.",
         "url": "https://biblehub.com/commentaries/jfb/matthew/1.htm"
+      },
+      {
+        "source": "C. S. Lewis",
+        "year": "1947",
+        "note": "Lewis does not comment on Matthew 1, but in <em>Miracles</em> his chapter \"The Grand Miracle\" treats the Incarnation as the central miracle of Christianity, with the others either preparing for it or following from it. He pictures it as a great descent, like a diver who goes down to the bottom of the sea and rises again with the lost things in his hands. That is what \"Immanuel, God with us\" (v.23) claims. (Paraphrased; Lewis's works remain under copyright.)",
+        "url": "https://christianhistoryinstitute.org/magazine/article/advent-devotional-12"
       }
     ],
     "mapCoords": {
@@ -215,11 +224,97 @@
       "zoom": 7.5,
       "placeName": "Bethlehem"
     },
-    "sparkNotes": "Matthew opens with a genealogy tracing Jesus back through David to Abraham, then an angel explains Mary's pregnancy to Joseph. The name Immanuel appears here and nowhere else in the New Testament, quoted directly from Isaiah 7:14 \u2014 and the genealogy itself echoes God's covenant promise to David in 2 Samuel 7:12-16.",
+    "sparkNotes": "Matthew opens with a genealogy tracing Jesus back through David to Abraham, then an angel explains Mary's pregnancy to Joseph. The name Immanuel appears here and nowhere else in the New Testament, quoted directly from Isaiah 7:14 — and the genealogy itself echoes God's covenant promise to David in 2 Samuel 7:12-16.",
     "historicalImage": {
       "url": "https://www.gutenberg.org/files/8710/8710-h/images/057.jpg",
-      "caption": "The Nativity, by Gustave Dor\u00e9 (1866)",
-      "credit": "Public domain \u2014 Project Gutenberg"
+      "caption": "The Nativity, by Gustave Doré (1866)",
+      "credit": "Public domain — Project Gutenberg"
+    },
+    "overview": {
+      "summary": "Matthew opens with a genealogy tracing Jesus through David back to Abraham. An angel then explains Mary's pregnancy to Joseph in a dream. Joseph obeys, takes Mary as his wife, and names the child Jesus.",
+      "settingLine": "Judea under Roman rule and Herod the Great.",
+      "placeName": "Jerusalem, Judea",
+      "history": [
+        {
+          "h": "Lineage",
+          "t": "Ancestry decided property, priesthood and any claim to the throne of David."
+        },
+        {
+          "h": "Herod the King",
+          "t": "Herod the Great rules as Rome's client king and has no claim to David's throne."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Betrothal",
+          "t": "Betrothal was legally binding, so ending it took a formal divorce."
+        },
+        {
+          "h": "Naming",
+          "t": "When Joseph names the child, he legally claims Him as his own son."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Tel Dan Stele",
+          "t": "A 9th-century BC inscription names the \"House of David,\" an outside record of his line."
+        },
+        {
+          "h": "Family Records",
+          "t": "Josephus says priestly families kept careful written genealogies."
+        }
+      ],
+      "discussion": "Matthew names four women in a genealogy of men, several with unexpected backgrounds. Why include them?",
+      "book": "The first Gospel · 28 chapters. Written to show Jesus as the Messiah the Old Testament promised.",
+      "author": "Matthew",
+      "genre": "Genealogy and narrative",
+      "audience": "Jewish-Christian readers",
+      "refNotes": {
+        "Luke 3:23-38": "Genealogy, traced to Adam",
+        "2 Samuel 7:12-16": "Promise of David's throne",
+        "Isaiah 7:14": "The sign of Immanuel"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Joseph",
+          "d": "Son of David"
+        },
+        {
+          "n": "Mary",
+          "d": "Jesus' mother"
+        },
+        {
+          "n": "David",
+          "d": "Israel's king"
+        },
+        {
+          "n": "Abraham",
+          "d": "Patriarch"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "~2000 BC",
+          "label": "Abraham"
+        },
+        {
+          "when": "~1000 BC",
+          "label": "King David"
+        },
+        {
+          "when": "586 BC",
+          "label": "Exile to Babylon"
+        },
+        {
+          "when": "~5 BC",
+          "label": "Jesus is born"
+        }
+      ]
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Present-day Jerusalem, Judea",
+      "credit": "Photo: Godot13 / Wikimedia Commons"
     }
   }
 }
