@@ -27,10 +27,7 @@ const diveBtn = document.getElementById('diveBtn');
 
 const sheetRef = document.getElementById('sheetRef');
 const sheetVerseText = document.getElementById('sheetVerseText');
-const sheetAuthor = document.getElementById('sheetAuthor');
-const sheetTranslation = document.getElementById('sheetTranslation');
-const sheetSetting = document.getElementById('sheetSetting');
-const sheetTimeline = document.getElementById('sheetTimeline');
+const sheetGrid = document.getElementById('sheetGrid');
 
 const navBackBtn = document.getElementById('navBackBtn');
 const navHeaderTitle = document.getElementById('navHeaderTitle');
@@ -678,6 +675,180 @@ function findTranslationEntry(verseNum) {
   return null;
 }
 
+// Verse sheet: same compact tiles as the chapter Overview. Each tile opens its tab.
+function renderSheetTiles(ch, verseNum) {
+  const ctx = ch.context, ov = ctx.overview || null;
+  const strip = x => String(x == null ? '' : x).replace(/<[^>]*>/g, '').trim();
+  const clipTo = (x, n) => { x = strip(x); return x.length > n ? x.slice(0, n - 1).replace(/\s+\S*$/, '') + '\u2026' : x; };
+  const firstS = x => { x = strip(x); const m = x.match(/^(.+?[.!?])(\s|$)/); return m ? m[1] : x; };
+  const tile = (label, color, go, inner, section) =>
+    `<button class="ov-blk" data-go="${go}" ${section ? `data-section="${section}"` : ''}><span class="ov-h" style="color:${color}">${label}<i>\u203a</i></span>${inner}</button>`;
+
+  const t = findTranslationEntry(verseNum);
+  let tr;
+  if (t) {
+    const def = t.gloss || firstS(t.meaning);
+    tr = `<span class="ov-words"><span class="ov-w"><span class="ov-w1"><span class="ov-greek"><b>${escHtml(t.ovGreek || String(t.greek).split(' (')[0])}</b></span> \u2013 <b>${escHtml((t.ovEnglish || t.english).charAt(0).toUpperCase() + (t.ovEnglish || t.english).slice(1))}</b></span></span></span><span class="ov-sn ov-sn5 sh-def">${escHtml(clipTo(def, 90))}</span>`;
+  } else {
+    tr = `<span class="ov-sn ov-sn5">No keyword in this verse. Tap to see the chapter's key words.</span>`;
+  }
+
+  const place = (ov && ov.placeName) || (ctx.mapCoords && ctx.mapCoords.placeName) || toTitleCase(strip(ctx.mapLabel).split('\u2014')[0].trim());
+  const settingLine = ov && ov.settingLine ? ov.settingLine : firstS(ctx.setting);
+  const setting = `<span class="ov-sn ov-sn5">${escHtml(clipTo(place + '. ' + settingLine, 130))}</span>`;
+
+  const timeline = `<span class="ov-sn ov-sn5">${escHtml(clipTo(String(ctx.timelineImmediate).split(' \u2014 ')[0], 120))}</span>`;
+
+  const author = ov && ov.author
+    ? `<span class="ov-aname">${escHtml(ov.author)}</span><span class="ov-sn ov-sn3 sh-def">${escHtml(ov.genre || '')}</span>`
+    : `<span class="ov-sn ov-sn5">${escHtml(clipTo(ctx.author, 90))}</span>`;
+
+  sheetGrid.innerHTML =
+    tile('TRANSLATION', 'var(--gold)', 'translation', tr) +
+    tile('SETTING', 'var(--verdigris)', 'context', setting, 'setting') +
+    tile('TIMELINE', 'var(--blue)', 'context', timeline, 'timeline') +
+    tile('AUTHOR', 'var(--verdigris)', 'author', author);
+
+  const w1 = sheetGrid.querySelector('.ov-w1');
+  if (w1) { let fs = 12.5; w1.style.fontSize = fs + 'px'; while (w1.scrollWidth > w1.clientWidth && fs > 8) { fs -= 0.5; w1.style.fontSize = fs + 'px'; } }
+
+  sheetGrid.querySelectorAll('.ov-blk').forEach(btn => btn.addEventListener('click', () => {
+    backdrop.classList.remove('open');
+    sheet.classList.remove('open');
+    goToScreen('deepdive');
+    setTab(tabOrder.indexOf(btn.dataset.go));
+    const sec = btn.dataset.section;
+    if (btn.dataset.go === 'context' && sec) {
+      const head = document.querySelector(`.accordion-head[data-section="${sec}"]`);
+      if (head && !accordionOpen[sec]) head.click();
+      if (head) head.scrollIntoView({ block: 'start' });
+    }
+  }));
+}
+
+
+// Word-by-word view (verse sheet + Translation tab). Data: STEP Bible (CC BY 4.0), one file per chapter, loaded on demand.
+const wordCache = {};
+let wbwSeq = 0, wbwTabSeq = 0, wbwTabVerse = 1, wbwTabKey = '';
+function loadWords(slug, chap) {
+  const key = slug + '/' + chap;
+  if (!(key in wordCache)) {
+    wordCache[key] = fetch(`data/words/${slug}/${chap}.json`).then(r => (r.ok ? r.json() : null)).catch(() => null);
+  }
+  return wordCache[key];
+}
+function wbwClass(morph) {
+  const k = String(morph || '').split(' · ')[0];
+  if (k === 'Verb') return 'v';
+  if (k === 'Noun') return 'n';
+  if (k === 'Adjective' || /pronoun/i.test(k)) return 'a';
+  return 'o';
+}
+const wbwTrim = s => String(s).replace(/[\s·,.;:·;¶—]+$/g, '');
+function drawWbw(box, words, data, big) {
+  const counts = {};
+  Object.values(data).forEach(vw => vw.forEach(w => { if (w[3]) counts[w[3]] = (counts[w[3]] || 0) + 1; }));
+  box.innerHTML =
+    `<div class="wbw-legend"><span class="c-v">Verb</span><span class="c-n">Noun</span><span class="c-a">Adjective / pronoun</span><span class="c-o">Little words</span></div>` +
+    `<div class="wbw-row${big ? ' big' : ''}">${words.map((w, i) => `<button class="wbw-chip c-${wbwClass(w[6])}" data-i="${i}"><span class="g">${escHtml(wbwTrim(w[0]))}</span><span class="e">${escHtml(w[2])}</span></button>`).join('')}</div>` +
+    `<div class="wbw-card" style="display:none"></div>` +
+    `<p class="wbw-credit">Word data: <a href="https://www.stepbible.org" target="_blank" rel="noopener">STEP Bible</a> · CC BY 4.0</p>`;
+  const card = box.querySelector('.wbw-card');
+  box.querySelectorAll('.wbw-chip').forEach(chip => chip.addEventListener('click', () => {
+    const w = words[Number(chip.dataset.i)];
+    box.querySelectorAll('.wbw-chip').forEach(c => c.classList.toggle('on', c === chip));
+    const lex = w[4] ? `${escHtml(w[4])}${w[5] ? ' · ' + escHtml(w[5]) : ''}${w[3] ? ' · ' + escHtml(w[3]) : ''}` : '';
+    const n = w[3] ? counts[w[3]] : 0;
+    card.innerHTML =
+      `<div class="bg">${escHtml(wbwTrim(w[0]))}<i>${escHtml(w[1])}</i></div>` +
+      `<div class="ln"><b>IN THIS VERSE</b>${escHtml(wbwTrim(w[2]))}</div>` +
+      (lex ? `<div class="ln"><b>ROOT</b>${lex}</div>` : '') +
+      (w[6] ? `<div class="ln"><b>GRAMMAR</b>${escHtml(w[6])}</div>` : '') +
+      (n ? `<div class="ln"><b>IN THIS CHAPTER</b>${n} time${n === 1 ? '' : 's'}</div>` : '');
+    card.style.display = '';
+    try { card.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } catch (e) {}
+  }));
+}
+async function renderWordStrip(verseNum) {
+  const box = document.getElementById('wbw');
+  const seq = ++wbwSeq;
+  box.style.display = 'none';
+  box.innerHTML = '';
+  const data = await loadWords(currentBook, currentChapterNum);
+  if (seq !== wbwSeq) return;
+  const words = data && data[String(verseNum)];
+  if (!words || !words.length) return;
+  box.innerHTML = '<div class="wbw-h">TRANSLATION WORD BY WORD<span>tap a word</span></div><div class="wbw-body"></div>';
+  drawWbw(box.querySelector('.wbw-body'), words, data, false);
+  box.style.display = '';
+}
+async function renderWbwTab() {
+  const vers = document.getElementById('wbwVers');
+  if (!vers || !currentChapterData) return;
+  const key = currentBook + '/' + currentChapterNum;
+  if (key !== wbwTabKey) { wbwTabKey = key; wbwTabVerse = 1; }
+  const seq = ++wbwTabSeq;
+  const data = await loadWords(currentBook, currentChapterNum);
+  if (seq !== wbwTabSeq) return;
+  const verses = currentChapterData.verses;
+  if (!verses.some(v => v.num === wbwTabVerse)) wbwTabVerse = verses[0].num;
+  vers.innerHTML = verses.map(v => `<button class="wbw-vn${v.num === wbwTabVerse ? ' on' : ''}${data && data[String(v.num)] ? '' : ' none'}" data-v="${v.num}">${v.num}</button>`).join('');
+  vers.querySelectorAll('.wbw-vn').forEach(b => b.addEventListener('click', () => { wbwTabVerse = Number(b.dataset.v); renderWbwTab(); }));
+  const on = vers.querySelector('.wbw-vn.on');
+  if (on) { try { vers.scrollTo({ left: Math.max(0, on.offsetLeft - 40) }); } catch (e) {} }
+  const vv = verses.find(v => v.num === wbwTabVerse);
+  document.getElementById('wbwVtext').textContent = vv ? vv.text : '';
+  const body = document.getElementById('wbwTabBody');
+  const words = data && data[String(wbwTabVerse)];
+  if (!words || !words.length) {
+    body.innerHTML = '<p class="panel-text dim">No word-by-word data for this verse. Some verses appear only in later manuscripts and are left out of the earliest Greek text.</p>';
+    return;
+  }
+  drawWbw(body, words, data, true);
+}
+
+// "Learn more" pills in the verse sheet: jump to the matching Overview block (or tab).
+function renderLearnMore(ch, verseNum) {
+  const pills = [
+    ['Setting', 'var(--verdigris)', 'SETTING', 'gallery'],
+    ['History', 'var(--blue)', 'HISTORY', 'context'],
+    ['Customs', 'var(--burgundy)', 'CUSTOMS', 'context'],
+    ['Original words', 'var(--gold)', null, 'translation'],
+    ['Archaeology', 'var(--blue)', 'ARCHAEOLOGY', 'archaeology'],
+    ['Author', 'var(--verdigris)', 'AUTHOR', 'author'],
+    ['Timeline', 'var(--blue)', 'TIMELINE', 'context']
+  ];
+  sheetGrid.innerHTML = '<p class="learn-h">LEARN MORE ABOUT THIS CHAPTER</p><div class="learn-row">' +
+    pills.map((p, i) => `<button class="learn-pill" data-i="${i}" style="color:${p[1]}">${p[0]}<i>›</i></button>`).join('') + '</div>';
+  sheetGrid.querySelectorAll('.learn-pill').forEach(btn => btn.addEventListener('click', () => {
+    const p = pills[Number(btn.dataset.i)];
+    backdrop.classList.remove('open');
+    sheet.classList.remove('open');
+    goToScreen('deepdive');
+    if (!p[2]) {
+      wbwTabVerse = verseNum;
+      setTab(tabOrder.indexOf('translation'));
+      renderWbwTab();
+      return;
+    }
+    if (tabOrder[0] === 'overview') {
+      setTab(0);
+      setTimeout(() => {
+        const blk = Array.from(document.querySelectorAll('[data-panel="overview"] .ov-blk')).find(b => {
+          const hd = b.querySelector('.ov-h');
+          return hd && hd.textContent.replace(/[›\s]+$/, '').trim() === p[2];
+        });
+        if (blk) {
+          try { blk.scrollIntoView({ block: 'center', behavior: 'smooth' }); } catch (e) {}
+          blk.classList.remove('ov-flash'); void blk.offsetWidth; blk.classList.add('ov-flash');
+        }
+      }, 120);
+    } else {
+      setTab(tabOrder.indexOf(p[3]));
+    }
+  }));
+}
+
 function openSummary(verseNum) {
   const ch = currentChapterData;
   document.querySelectorAll('.verse').forEach(v =>
@@ -687,16 +858,10 @@ function openSummary(verseNum) {
   const verseEntry = ch.verses.find(v => v.num === verseNum);
   sheetRef.textContent = `${ch.book.toUpperCase()} ${ch.chapter}:${verseNum}`;
   sheetVerseText.textContent = `"${verseEntry.text}"`;
-  sheetAuthor.textContent = ch.context.author;
-  sheetSetting.textContent = ch.context.mapLabel + ' — ' + ch.context.setting.split('.')[0] + '.';
-
-  const t = findTranslationEntry(verseNum);
-  if (t) {
-    sheetTranslation.innerHTML = `"${t.english}" — <span class="greek">${t.greek.split(' ')[0]}</span> — ${t.meaning}`;
-  } else {
-    sheetTranslation.innerHTML = `See the Translation tab for this chapter's keywords — no single term is spotlighted for this specific verse.`;
-  }
-  sheetTimeline.textContent = ch.context.timelineImmediate.split(' — ')[0] || ch.context.timelineImmediate;
+  wbwTabVerse = verseNum;
+  renderLearnMore(ch, verseNum);
+  renderWordStrip(verseNum);
+  if (document.getElementById('wbwVers') && document.getElementById('wbwVers').children.length) renderWbwTab();
 
   backdrop.classList.add('open');
   sheet.classList.add('open');
@@ -711,6 +876,7 @@ diveBtn.addEventListener('click', () => {
   backdrop.classList.remove('open');
   sheet.classList.remove('open');
   goToScreen('deepdive');
+  if (tabOrder[0] === 'overview') setTab(0);
 });
 
 // ---------- Deep Dive screen ----------
@@ -768,6 +934,8 @@ function renderFolderContent() {
   tList.querySelectorAll('.word-usage-toggle').forEach(btn => {
     btn.addEventListener('click', () => toggleWordUsage(btn, ctx.translation[parseInt(btn.dataset.idx)]));
   });
+
+  renderWbwTab();
 
   const cList = document.getElementById('commentaryList');
   if (ctx.commentary && ctx.commentary.length) {
@@ -962,11 +1130,11 @@ function renderOverview(ctx) {
   else activeTabIndex = Math.max(0, tabOrder.indexOf(prevName));
 
   const img = ctx.historicalImage;
-  const place = ctx.mapCoords && ctx.mapCoords.placeName ? ctx.mapCoords.placeName : toTitleCase((ctx.mapLabel || '').split('—')[0].trim());
+  const place = ov.placeName || (ctx.mapCoords && ctx.mapCoords.placeName ? ctx.mapCoords.placeName : toTitleCase((ctx.mapLabel || '').split('—')[0].trim()));
   const words = '<span class="ov-words">' + (ctx.translation || []).slice(0, 3).map(w => {
     const gloss = w.gloss || String(w.meaning).split('.')[0];
     const cap = gloss.charAt(0).toUpperCase() + gloss.slice(1);
-    return `<span class="ov-w"><span class="ov-w1"><span class="ov-greek"><b>${escHtml(String(w.greek).split(' (')[0])}</b></span> – <b>${escHtml(w.english.charAt(0).toUpperCase() + w.english.slice(1))}</b></span><span class="ov-def">${escHtml(cap)}</span></span>`;
+    return `<span class="ov-w"><span class="ov-w1"><span class="ov-greek"><b>${escHtml(w.ovGreek || String(w.greek).split(' (')[0])}</b></span> – <b>${escHtml((w.ovEnglish || w.english).charAt(0).toUpperCase() + (w.ovEnglish || w.english).slice(1))}</b></span><span class="ov-def">${escHtml(cap)}</span></span>`;
   }).join('') + '</span>';
   const clip = (s, n) => { s = String(s).replace(/<[^>]*>/g, ''); return s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : s; };
   const firstSentence = s => { s = String(s).replace(/<[^>]*>/g, '').trim(); const m = s.match(/^(.+?)([.:])(\s|$)/); return m ? m[1] + '.' : s; };
@@ -974,8 +1142,10 @@ function renderOverview(ctx) {
     ? '<span class="ov-segs">' + v.map(x => `<span class="ov-seg"><b style="color:${col}">${escHtml(x.h)}</b><span>${escHtml(x.t)}</span></span>`).join('') + '</span>'
     : `<span class="ov-sn ov-sn6">${escHtml(v || '')}</span>`;
   const refLine = r => `<span class="ov-ref"><b>${escHtml(r.ref)}</b><span>${escHtml((ov.refNotes && ov.refNotes[r.ref]) || clip(r.note, 22))}</span></span>`;
-  const refs = '<span class="ov-subh" style="color:var(--burgundy)">GOSPEL PARALLELS</span>' + (ctx.gospelParallels || []).slice(0, 1).map(refLine).join('') +
-    '<span class="ov-subh" style="margin-top:4px;color:var(--burgundy)">OLD TESTAMENT</span>' + (ctx.otBackground || []).slice(0, 2).map(refLine).join('');
+  const gps = (ctx.gospelParallels || []).slice(0, 1);
+  const ots = (ctx.otBackground || []).slice(0, gps.length ? 2 : 3);
+  const refs = (gps.length ? '<span class="ov-subh" style="color:var(--burgundy)">GOSPEL PARALLELS</span>' + gps.map(refLine).join('') : '') +
+    '<span class="ov-subh"' + (gps.length ? ' style="margin-top:4px;color:var(--burgundy)"' : ' style="color:var(--burgundy)"') + '>OLD TESTAMENT</span>' + ots.map(refLine).join('');
   const voices = (ctx.commentary || []).slice(0, 2).map((c, i) =>
     `<div class="ov-q"><b>${escHtml(c.source)}</b><span class="ov-qt ov-qt${i}">${escHtml(i === 0 ? firstSentence(c.note) : String(c.note).replace(/<[^>]*>/g, ''))}</span></div>`).join('');
   const tl = (ov.timeline || []).map(t => `<div><b>${escHtml(t.when)}</b>${escHtml(t.label)}</div>`).join('');
@@ -1069,7 +1239,8 @@ function initOvMap(ctx) {
     });
     if (ctx.biblePlaces) {
       addBibleMarkers(ovMap, ctx, false);
-      const near = ctx.biblePlaces.filter(p => Math.abs(p.lat - ctx.mapCoords.lat) < 0.25 && Math.abs(p.lng - ctx.mapCoords.lng) < 0.25);
+      const rad = ctx.biblePlacesRadius || 0.25;
+      const near = ctx.biblePlaces.filter(p => Math.abs(p.lat - ctx.mapCoords.lat) < rad && Math.abs(p.lng - ctx.mapCoords.lng) < rad);
       if (near.length > 1) {
         const lngs = near.map(p => p.lng), lats = near.map(p => p.lat);
         ovMap.fitBounds([[Math.min(...lngs), Math.min(...lats)], [Math.max(...lngs), Math.max(...lats)]], { padding: { left: 60, right: 60, top: 35, bottom: 25 }, maxZoom: 10.5, duration: 0 });
