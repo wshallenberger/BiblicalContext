@@ -8,10 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script>
-try{var tp=new URLSearchParams(location.search).get('theme');if(tp==='light'||tp==='dark'){localStorage.setItem('fbTheme',tp);}else if(tp==='system'){localStorage.removeItem('fbTheme');}
-var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttribute('data-theme',th);}}catch(e){}
-</script>
+<meta name="color-scheme" content="light">
+<script>try{localStorage.removeItem("fbTheme");}catch(e){}document.documentElement.setAttribute("data-theme","light");</script>
 <style>
   :root{
     --ink: #f4efe3;
@@ -35,20 +33,6 @@ var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttrib
     --bezel: #cfc6ae;
     --shadow-rgb: 60,50,30;
     color-scheme: light;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --ink: #171B22; --ink-raised: #202634; --ink-deep: #131720; --parchment: #EDE6D6; --parchment-dim: #a49d8c;
-      --gold: #C9A227; --gold-dim: #8A7326; --burgundy: #c27a7a; --verdigris: #7fa492; --blue: #8a9ad0; --line: #333a48;
-      --gold-rgb: 201,162,39; --green-rgb: 127,164,146; --wine-rgb: 194,122,122; --fg-rgb: 237,230,214;
-      --on-gold: #201A08; --verse-active: #F5E9BE; --page: #0B0D11; --bezel: #05060a; --shadow-rgb: 0,0,0; color-scheme: dark;
-    }
-  }
-  :root[data-theme="dark"]{
-    --ink: #171B22; --ink-raised: #202634; --ink-deep: #131720; --parchment: #EDE6D6; --parchment-dim: #a49d8c;
-    --gold: #C9A227; --gold-dim: #8A7326; --burgundy: #c27a7a; --verdigris: #7fa492; --blue: #8a9ad0; --line: #333a48;
-    --gold-rgb: 201,162,39; --green-rgb: 127,164,146; --wine-rgb: 194,122,122; --fg-rgb: 237,230,214;
-    --on-gold: #201A08; --verse-active: #F5E9BE; --page: #0B0D11; --bezel: #05060a; --shadow-rgb: 0,0,0; color-scheme: dark;
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color: transparent;}
   html,body{margin:0; padding:0; height:100%; -webkit-text-size-adjust:100%; text-size-adjust:100%;}
@@ -341,6 +325,36 @@ var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttrib
   .wbw-vn.none{ opacity:.45; }
   .wbw-vtext{ font-family:'Literata',serif; font-size:14px; line-height:1.5; color:var(--parchment); margin:0 0 12px; }
   .wbw-tab{ margin-top:34px; padding-top:22px; border-top:1px solid var(--line); }
+  .cm-grid{ display:grid; grid-template-columns:1fr 1fr; gap:7px; }
+  .cm-tile{ display:flex; flex-direction:column; gap:2px; text-align:left; min-width:0; background:var(--ink); border:1px solid var(--line); border-radius:10px; padding:7px 9px 8px; color:var(--parchment); cursor:pointer; font-family:'IBM Plex Sans',sans-serif; }
+  .cm-tile.on{ border-color:var(--burgundy); box-shadow:0 0 0 1px var(--burgundy); background:var(--ink-raised); }
+  .cm-who{ font-weight:600; font-size:11.5px; color:var(--burgundy); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .cm-work{ font-size:9px; color:var(--parchment-dim); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-bottom:2px; }
+  .cm-prev{ font-family:'Literata',serif; font-size:10.5px; line-height:1.38; color:var(--parchment); display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden; }
+  .cm-detail{ margin-top:8px; background:var(--ink); border:1px solid var(--line); border-radius:10px; padding:10px 12px 11px; }
+  .cm-dh{ display:flex; align-items:baseline; gap:8px; margin-bottom:5px; font-family:'IBM Plex Sans',sans-serif; }
+  .cm-dh b{ font-size:12px; color:var(--burgundy); }
+  .cm-dh span{ font-size:10px; color:var(--parchment-dim); }
+  .cm-detail p{ margin:0 0 8px; font-family:'Literata',serif; font-size:12px; line-height:1.55; color:var(--parchment); }
+  .cm-link{ font-family:'IBM Plex Sans',sans-serif; font-size:10.5px; color:var(--gold); text-decoration:none; border-bottom:1px solid var(--gold-dim); }
+  .cm-credit{ margin:4px 0 0; font-family:'IBM Plex Sans',sans-serif; font-size:9.5px; line-height:1.4; color:var(--parchment-dim); }
+  .cm-credit a{ color:inherit; }
+  .cm-legend{ margin:0 0 8px; font-family:'IBM Plex Sans',sans-serif; font-size:9.5px; letter-spacing:.02em; color:var(--parchment-dim); }
+  .cm-legend i{ font-style:normal; color:var(--gold); }
+  .cm-legend em{ font-style:normal; color:var(--burgundy); }
+  .cm-tile.m .cm-who{ color:var(--gold); }
+  .cm-tile.m.on{ border-color:var(--gold); box-shadow:0 0 0 1px var(--gold); }
+  .cm-dh.m b{ color:var(--gold); }
+  .cm-dtitle{ margin:0 0 4px; font-family:'IBM Plex Sans',sans-serif; font-size:11px; font-weight:600; color:var(--parchment); }
+  .cm-prev.t{ font-family:'IBM Plex Sans',sans-serif; font-weight:500; }
+  details.cm-chapter{ margin-top:26px; border-top:1px solid var(--line); padding-top:12px; }
+  details.cm-chapter summary{ cursor:pointer; list-style:none; font-family:'IBM Plex Sans',sans-serif; font-size:10px; letter-spacing:.14em; font-weight:600; color:var(--parchment-dim); }
+  details.cm-chapter summary::-webkit-details-marker{ display:none; }
+  details.cm-chapter summary::after{ content:' ›'; }
+  details.cm-chapter[open] summary::after{ content:' ⌄'; }
+  details.cm-chapter #commentaryList{ margin-top:12px; }
+  .ov-vline{ display:block; margin-top:5px; font-family:'IBM Plex Sans',sans-serif; font-size:9.5px; line-height:1.35; color:var(--parchment-dim); text-align:center; }
+  .ov-vline b{ font-weight:600; color:var(--gold); }
   .sheet-learn{ margin:0 0 6px; }
   .learn-h{ font-family:'IBM Plex Sans',sans-serif; font-size:10px; letter-spacing:.14em; font-weight:600; color:var(--parchment-dim); margin:0 0 7px; }
   .learn-row{ display:flex; flex-wrap:wrap; gap:6px; }
@@ -1308,6 +1322,136 @@ var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttrib
     letter-spacing:0.02em;
   }
   html, body { overscroll-behavior-y: contain; }
+
+  /* ---------- Sleeker verse sheet (compact) ---------- */
+  .sheet{ padding:8px 18px 14px; border-radius:18px 18px 0 0; }
+  .sheet .sheet-handle{ margin:2px auto 8px; width:32px; }
+  .sheet .sheet-ref{ font-size:10px; margin:0 0 3px; }
+  .sheet .sheet-verse-text{ font-size:13.5px; line-height:1.42; margin:0 0 9px; }
+  .sheet .wbw{ margin:0 0 9px; }
+  .sheet .wbw-h{ font-size:9px; margin:0 0 4px; }
+  .sheet .wbw-h span{ font-size:9.5px; }
+  .sheet .wbw-legend{ gap:2px 9px; margin:0 0 5px; font-size:8.5px; }
+  .sheet .wbw-legend span::before{ width:5px; height:5px; margin-right:3px; }
+  .sheet .wbw-row{ gap:3px; }
+  .sheet .wbw-chip{ min-width:28px; max-width:90px; padding:1px 4px 2px; border-radius:6px; border-top-width:2px; }
+  .sheet .wbw-chip .g{ font-size:11.5px; line-height:1.2; }
+  .sheet .wbw-chip .e{ font-size:8.5px; margin-top:0; }
+  .sheet .wbw-card{ margin-top:6px; padding:8px 10px; border-radius:10px; font-size:11px; line-height:1.4; }
+  .sheet .wbw-card .bg{ font-size:18px; }
+  .sheet .wbw-card .bg i{ font-size:11px; }
+  .sheet .wbw-card .ln{ margin-top:4px; grid-template-columns:96px 1fr; }
+  .sheet .wbw-card .ln b{ font-size:8px; white-space:nowrap; }
+  .sheet .wbw-credit{ margin:4px 0 0; font-size:8.5px; }
+  .sheet .cm-grid{ gap:5px; }
+  .sheet .cm-tile{ padding:5px 7px 6px; border-radius:8px; gap:1px; }
+  .sheet .cm-who{ font-size:10.5px; }
+  .sheet .cm-work{ font-size:8px; margin-bottom:1px; }
+  .sheet .cm-prev{ font-size:9.5px; line-height:1.32; -webkit-line-clamp:3; }
+  .sheet .cm-detail{ margin-top:6px; padding:8px 10px 9px; border-radius:8px; }
+  .sheet .cm-dh b{ font-size:11px; }
+  .sheet .cm-dh span{ font-size:9px; }
+  .sheet .cm-detail p{ font-size:11px; line-height:1.5; margin:0 0 6px; }
+  .sheet .cm-link{ font-size:9.5px; }
+  .sheet .cm-credit{ font-size:8.5px; line-height:1.35; margin:3px 0 0; }
+  .sheet .cm-legend{ font-size:8.5px; margin:0 0 5px; }
+  .sheet .learn-h{ font-size:9px; margin:0 0 5px; }
+  .sheet .learn-row{ gap:4px; }
+  .sheet .learn-pill{ padding:3px 8px; font-size:10px; }
+  .sheet .sheet-learn{ margin:0 0 4px; }
+  .sheet .dive-btn{ padding:9px 14px; font-size:13px; border-radius:11px; margin-top:8px; }
+
+  .cm-detail p.cm-dblurb{ font-family:'IBM Plex Sans',sans-serif; font-size:11px; line-height:1.4; color:var(--parchment-dim); margin:0 0 7px; }
+  .sheet .cm-detail p.cm-dblurb{ font-size:10px; margin:0 0 5px; }
+  .sheet .wbw-row{ gap:4px; }
+  .sheet .wbw-chip{ min-width:30px; padding:2px 5px 2px; }
+  .sheet .wbw-chip .g{ font-size:12.5px; }
+  .sheet .wbw-chip .e{ font-size:9px; }
+
+  /* ---------- Deep Dive sections: defined panels, expandable cards ---------- */
+  .sec{ background:var(--ink-raised); border:1px solid var(--line); border-radius:14px; padding:12px 14px 14px; margin:0 0 22px; }
+  .sec-head{ display:flex; align-items:center; justify-content:space-between; gap:10px; padding:0 0 8px; margin:0 0 12px; border-bottom:2px solid var(--gold); }
+  .sec-title{ font-family:'Literata',serif; font-weight:500; font-size:16px; line-height:1.25; color:var(--parchment); margin:0; }
+  .sec-sub{ font-family:'IBM Plex Sans',sans-serif; font-size:11px; color:var(--parchment-dim); white-space:nowrap; }
+  .sec-select{ appearance:none; -webkit-appearance:none; font-family:'IBM Plex Sans',sans-serif; font-size:12.5px; font-weight:600; color:var(--ink); background:var(--gold) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' fill='none' stroke='%23fffaf0' stroke-width='1.6'/></svg>") no-repeat right 10px center; border:none; border-radius:999px; padding:6px 28px 6px 12px; cursor:pointer; max-width:60%; }
+  .sec .wbw-vtext{ font-size:13.5px; margin:0 0 10px; }
+  .sec .cm-legend{ margin:0 0 6px; }
+  .sec .wbw-card{ margin-top:8px; }
+  .sec .cm-detail{ background:var(--ink-raised); }
+  .sec .word-card, .sec .commentary-card{ position:relative; background:var(--ink); border:1px solid var(--line); border-radius:11px; padding:10px 12px 10px; margin:0 0 8px; }
+  .sec .word-card:last-child, .sec .commentary-card:last-child{ margin-bottom:0; }
+  .sec .word-card:first-of-type, .sec .commentary-card:first-of-type{ border-top:1px solid var(--line); }
+  .sec .word-english{ font-size:16px; }
+  .sec .word-greek{ font-size:13px; }
+  .sec .word-meaning, .sec .commentary-note{ font-size:13px; line-height:1.5; margin:6px 0 0; }
+  .sec .commentary-note{ margin:0; }
+  .sec .commentary-source{ font-size:14px; margin:0; display:inline; }
+  .sec .commentary-year{ display:inline; margin:0 0 0 8px; }
+  .exp .exp-body{ display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .exp.open .exp-body{ display:block; -webkit-line-clamp:unset; overflow:visible; }
+  .exp.can{ cursor:pointer; }
+  .exp-more{ display:none; align-items:center; gap:5px; margin-top:6px; font-family:'IBM Plex Sans',sans-serif; font-size:11px; font-weight:600; color:var(--verdigris); }
+  .exp.can .exp-more{ display:flex; }
+  .exp-more svg{ transition:transform .2s ease; }
+  .exp.open .exp-more svg{ transform:rotate(180deg); }
+  .exp-extra{ display:none; }
+  .exp.open .exp-extra{ display:block; }
+  .exp-extra .commentary-link{ margin-top:8px; }
+  .kw-count{ margin:8px 0 0; font-family:'IBM Plex Sans',sans-serif; font-size:11.5px; color:var(--parchment-dim); }
+  .sec .word-usage-toggle{ margin-top:8px; }
+  .sec .xref-card{ background:var(--ink); border:1px solid var(--line); border-radius:11px; padding:10px 12px; margin:0 0 8px; }
+  .sec .xref-card:last-child{ margin-bottom:0; }
+  .sec .xref-card:first-of-type{ border-top:1px solid var(--line); }
+  .cm-pb{ font-family:'IBM Plex Sans',sans-serif; font-size:8.5px; line-height:1.3; color:var(--parchment-dim); display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; margin-top:2px; }
+  .cm-tile .cm-prev.t{ -webkit-line-clamp:2; }
+  .sheet .cm-tile .cm-prev.t{ -webkit-line-clamp:2; }
+  .cm-tile .cm-pb{ font-style:italic; }
+  .cm-dh b{ white-space:nowrap; }
+  .cm-grid .cm-tile:last-child:nth-child(odd){ grid-column:1 / -1; }
+
+  /* ---------- Round 3: slightly larger sheet text, 3-chapter timeline, author block ---------- */
+  .sheet .sheet-ref{ font-size:10.5px; }
+  .sheet .sheet-verse-text{ font-size:14.5px; line-height:1.45; }
+  .sheet .wbw-h{ font-size:9.5px; } .sheet .wbw-h span{ font-size:10px; }
+  .sheet .wbw-legend{ font-size:9px; }
+  .sheet .wbw-chip .g{ font-size:13px; } .sheet .wbw-chip .e{ font-size:9.5px; }
+  .sheet .wbw-card{ font-size:11.5px; } .sheet .wbw-card .ln b{ font-size:8.5px; }
+  .sheet .cm-who{ font-size:11px; } .sheet .cm-work{ font-size:8.5px; }
+  .sheet .cm-prev{ font-size:10.5px; }
+  .sheet .cm-detail p{ font-size:11.5px; }
+  .sheet .cm-dh b{ font-size:11.5px; } .sheet .cm-dh span{ font-size:9.5px; } .sheet .cm-link{ font-size:10px; }
+  .sheet .learn-pill{ font-size:10.5px; }
+  .sheet-grid .ov-blk .ov-sn{ font-size:12.5px; }
+  /* title-only tiles now read like every other commentary tile */
+  .cm-prev.t, .cm-tile .cm-prev.t, .sheet .cm-tile .cm-prev.t{ font-family:'Literata',serif; font-weight:400; -webkit-line-clamp:4; }
+  .sheet .cm-tile .cm-prev.t{ -webkit-line-clamp:3; }
+  .cm-detail p.cm-dsrc{ font-family:'IBM Plex Sans',sans-serif; font-size:11px; line-height:1.45; color:var(--parchment-dim); margin:0 0 8px; padding-top:7px; border-top:1px solid var(--line); }
+  .sheet .cm-detail p.cm-dsrc{ font-size:10.5px; margin:0 0 6px; padding-top:6px; }
+  .cm-detail p.cm-dsrc b{ color:var(--parchment); font-weight:600; }
+  /* timeline: before / this chapter / after */
+  .ov-tl3{ display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:0; margin:4px 0 0; align-items:stretch; }
+  .tl-seg{ display:flex; flex-direction:column; gap:2px; padding:6px 7px 7px; border:1px solid var(--line); background:var(--ink); text-align:center; min-width:0; }
+  .tl-seg em{ font-family:'IBM Plex Mono',monospace; font-style:normal; font-size:8.5px; letter-spacing:.04em; color:var(--parchment-dim); }
+  .tl-seg span{ font-size:11px; line-height:1.3; display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden; color:var(--parchment-dim); }
+  .tl-seg.tl-side:first-child{ border-radius:10px 0 0 10px; clip-path:none; }
+  .tl-seg.tl-side:last-child{ border-radius:0 10px 10px 0; }
+  .tl-seg.tl-mid{ background:var(--blue); border-color:var(--blue); border-radius:0; position:relative; z-index:1; margin:-3px 0; }
+  .tl-seg.tl-mid em{ color:rgba(255,255,255,.8); }
+  .tl-seg.tl-mid span{ color:#fff; font-weight:600; -webkit-line-clamp:4; }
+  .tl-seg.tl-edge{ opacity:.7; }
+  .ov-tlcap{ font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:.08em; color:var(--parchment-dim); margin-top:8px; }
+  .ov-tlblk .ov-rail{ margin-top:0; }
+  /* author block: spread evenly so it matches its neighbour */
+  .ov-top{ justify-content:flex-start !important; gap:6px; }
+  .ov-top .ov-kv{ gap:6px; }
+  .ov-top .ov-kv span{ font-size:11.5px; line-height:1.3; }
+
+  .kw-world{ margin:8px 0 0; padding:7px 10px 8px; background:var(--ink-raised); border-left:3px solid var(--gold); border-radius:0 8px 8px 0; font-family:'IBM Plex Sans',sans-serif; font-size:12.5px; line-height:1.5; color:var(--parchment); }
+  .sec .kw-world{ background:var(--ink-raised); }
+  .kw-world b{ display:block; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:9px; letter-spacing:.1em; color:var(--gold); margin:0 0 2px; }
+  .wbw-card .ln.wd{ align-items:start; }
+  .wbw-card .ln.wd span{ display:block; }
+  .sheet .wbw-card .ln.wd{ grid-template-columns:96px 1fr; }
 </style>
 </head>
 <body>
@@ -1386,9 +1530,16 @@ var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttrib
           </div>
 
           <div class="tab-panel" data-panel="commentary">
-            <p class="panel-eyebrow">COMMENTARY · CLASSIC VOICES ON THIS CHAPTER</p>
-            <p class="panel-text dim" style="margin-bottom:16px;">Public-domain 19th-century commentators, paraphrased and linked to their full original writing.</p>
-            <div id="commentaryList"></div>
+            <section class="sec">
+              <div class="sec-head"><h3 class="sec-title">Whole chapter</h3><span class="sec-sub" id="cmChapSub"></span></div>
+              <div id="commentaryList"></div>
+            </section>
+            <section class="sec">
+              <div class="sec-head"><h3 class="sec-title">Verse by verse</h3><select class="sec-select" id="cmVers" aria-label="Choose a verse"></select></div>
+              <p class="cm-legend"><i>Gold:</i> modern voices · <em>Red:</em> early church</p>
+              <p class="wbw-vtext" id="cmVtext"></p>
+              <div id="cmTabBody"></div>
+            </section>
           </div>
 
           <div class="tab-panel" data-panel="gallery">
@@ -1425,15 +1576,15 @@ var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttrib
           </div>
 
           <div class="tab-panel" data-panel="translation">
-            <p class="panel-eyebrow">TRANSLATION · KEYWORDS IN THIS CHAPTER</p>
-            <h2 class="panel-heading" id="translationHeading"></h2>
-            <div id="translationList"></div>
-            <div class="wbw-tab" id="wbwTab">
-              <p class="panel-eyebrow">TRANSLATION · WORD BY WORD, VERSE BY VERSE</p>
-              <div class="wbw-vers" id="wbwVers"></div>
+            <section class="sec">
+              <div class="sec-head"><h3 class="sec-title" id="translationHeading"></h3><span class="sec-sub" id="kwSub"></span></div>
+              <div id="translationList"></div>
+            </section>
+            <section class="sec" id="wbwTab">
+              <div class="sec-head"><h3 class="sec-title">Word by word</h3><select class="sec-select" id="wbwVers" aria-label="Choose a verse"></select></div>
               <p class="wbw-vtext" id="wbwVtext"></p>
               <div id="wbwTabBody"></div>
-            </div>
+            </section>
           </div>
 
           <div class="tab-panel" data-panel="author"><div id="authorPanel"></div></div>
@@ -1450,12 +1601,14 @@ var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttrib
             <div class="tpl-card"><p class="panel-text dim" style="margin:0;">Write your own ideas and questions for this chapter.</p></div>
           </div>
           <div class="tab-panel" data-panel="xref">
-            <p class="panel-eyebrow">CROSS-REFERENCES</p>
-            <h2 class="panel-heading">Sister scriptures</h2>
-            <p class="panel-eyebrow" style="margin-top:4px;">GOSPEL PARALLELS</p>
-            <div id="gospelParallelsList"></div>
-            <p class="panel-eyebrow" style="margin-top:22px;">OLD TESTAMENT BACKGROUND</p>
-            <div id="otBackgroundList"></div>
+            <section class="sec">
+              <div class="sec-head"><h3 class="sec-title">Gospel Parallels</h3><span class="sec-sub" id="gpSub"></span></div>
+              <div id="gospelParallelsList"></div>
+            </section>
+            <section class="sec">
+              <div class="sec-head"><h3 class="sec-title">Old Testament Background</h3><span class="sec-sub" id="otSub"></span></div>
+              <div id="otBackgroundList"></div>
+            </section>
           </div>
 
         </div>
@@ -1539,6 +1692,7 @@ var th=localStorage.getItem('fbTheme');if(th){document.documentElement.setAttrib
     <p class="sheet-verse-text" id="sheetVerseText"></p>
 
     <div class="wbw" id="wbw" style="display:none"></div>
+    <div class="wbw" id="cmSheet" style="display:none"></div>
     <div class="sheet-learn" id="sheetGrid"></div>
 
     <button class="dive-btn" id="diveBtn">Chapter Deep Dive</button>

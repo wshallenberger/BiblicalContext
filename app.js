@@ -1,6 +1,18 @@
 // ---------- State ----------
 let manifest = null;
 let timelineData = null;
+let WW = { w: {}, k: {}, e: {} };
+const wwP = fetch('data/word-world.json').then(r => (r.ok ? r.json() : null)).then(j => { if (j) WW = j; }).catch(() => {});
+let SUM = {};
+const sumP = fetch('data/summaries.json').then(r => (r.ok ? r.json() : {})).then(j => { SUM = j || {}; }).catch(() => {});
+let chapterIndex = null;
+const chapterIndexP = fetch('data/chapter-index.json').then(r => (r.ok ? r.json() : null)).then(j => { chapterIndex = j; return j; }).catch(() => null);
+const GOSPEL_FACTS = {
+  matthew: { written: 'Probably AD 60s–80s; date is debated', focus: 'Jesus as the promised Messiah-King who fulfills Israel’s Scriptures' },
+  mark: { written: 'Probably AD 50s–60s, often linked to Rome', focus: 'Fast-moving account of Jesus as the suffering Son of God' },
+  luke: { written: 'Probably AD 60s–80s, with Acts as its sequel', focus: 'Jesus’ mercy to outsiders, the poor and the overlooked' },
+  john: { written: 'Probably AD 80s–90s, often linked to Ephesus', focus: 'Signs and “I am” sayings that call for belief and life' }
+};
 let currentBook = null;
 let currentChapterNum = null;
 let currentChapterData = null;
@@ -399,7 +411,15 @@ async function init() {
   goToScreen('read');
 
   navButtons.forEach(btn => {
-    btn.addEventListener('click', () => goToScreen(btn.dataset.screen));
+    btn.addEventListener('click', () => {
+      // From a Deep Dive, the Read tab returns to the reader at the chapter being studied.
+      if (btn.dataset.screen === 'booknav' && currentScreen === 'deepdive') {
+        goToScreen('read');
+        try { const sc = document.querySelector('#screen-read .scroll, #screen-read'); if (sc) sc.scrollTop = 0; } catch (e) {}
+        return;
+      }
+      goToScreen(btn.dataset.screen);
+    });
   });
 }
 
@@ -520,7 +540,7 @@ function goToScreen(name) {
   screens.forEach(s => s.classList.toggle('active', s.id === `screen-${name}`));
 
   document.querySelectorAll('.nav-btn, .nav-btn-center button').forEach(b => {
-    b.classList.toggle('active', b.dataset.screen === name);
+    b.classList.toggle('active', b.dataset.screen === name || (name === 'read' && b.dataset.screen === 'booknav'));
   });
 
   if (name === 'booknav') {
@@ -623,6 +643,23 @@ navBackBtn.addEventListener('click', () => {
   renderBookNav();
 });
 
+// Extra keywords + Greek corrections live in one file, merged into each chapter as it loads.
+let kwExtraP = null;
+function loadKwExtra() {
+  return kwExtraP || (kwExtraP = fetch('data/keywords-extra.json').then(r => (r.ok ? r.json() : null)).catch(() => null));
+}
+function applyKwExtra(ch, kx) {
+  if (!kx || !ch || !ch.context || ch.context._kwx) return;
+  const key = currentBook + '/' + currentChapterNum;
+  const tr = ch.context.translation || (ch.context.translation = []);
+  const fx = kx.fixes && kx.fixes[key];
+  if (fx) tr.forEach(e => { if (fx[e.english]) e.greek = fx[e.english]; });
+  const have = new Set(tr.map(e => e.english));
+  ((kx.add && kx.add[key]) || []).forEach(e => { if (!have.has(e.english)) tr.push(e); });
+  if (kx.discussion && kx.discussion[key] && ch.context.overview) { ch.context.overview.discussion = kx.discussion[key]; if (kx.discussionShort && kx.discussionShort[key]) ch.context.overview.discussionShort = kx.discussionShort[key]; }
+  ch.context._kwx = true;
+}
+
 // ---------- Load + render a chapter (Read screen) ----------
 async function loadChapter() {
   bookLabel.textContent = 'Loading…';
@@ -630,6 +667,8 @@ async function loadChapter() {
 
   try {
     currentChapterData = await fetchJSON(`data/${currentBook}/${currentChapterNum}.json`);
+    applyKwExtra(currentChapterData, await loadKwExtra());
+    await wwP;
   } catch (err) {
     bookLabel.textContent = '';
     chapterTitle.textContent = '';
@@ -752,7 +791,7 @@ function drawWbw(box, words, data, big) {
     `<div class="wbw-legend"><span class="c-v">Verb</span><span class="c-n">Noun</span><span class="c-a">Adjective / pronoun</span><span class="c-o">Little words</span></div>` +
     `<div class="wbw-row${big ? ' big' : ''}">${words.map((w, i) => `<button class="wbw-chip c-${wbwClass(w[6])}" data-i="${i}"><span class="g">${escHtml(wbwTrim(w[0]))}</span><span class="e">${escHtml(w[2])}</span></button>`).join('')}</div>` +
     `<div class="wbw-card" style="display:none"></div>` +
-    `<p class="wbw-credit">Word data: <a href="https://www.stepbible.org" target="_blank" rel="noopener">STEP Bible</a> · CC BY 4.0</p>`;
+    (big ? `<p class="wbw-credit">Word data: <a href="https://www.stepbible.org" target="_blank" rel="noopener">STEP Bible</a> · CC BY 4.0</p>` : '');
   const card = box.querySelector('.wbw-card');
   box.querySelectorAll('.wbw-chip').forEach(chip => chip.addEventListener('click', () => {
     const w = words[Number(chip.dataset.i)];
@@ -762,6 +801,7 @@ function drawWbw(box, words, data, big) {
     card.innerHTML =
       `<div class="bg">${escHtml(wbwTrim(w[0]))}<i>${escHtml(w[1])}</i></div>` +
       `<div class="ln"><b>IN THIS VERSE</b>${escHtml(wbwTrim(w[2]))}</div>` +
+      (worldFor(null, w[3]) ? `<div class="ln wd"><b>IN THEIR WORLD</b><span>${escHtml(worldFor(null, w[3]))}</span></div>` : '') +
       (lex ? `<div class="ln"><b>ROOT</b>${lex}</div>` : '') +
       (w[6] ? `<div class="ln"><b>GRAMMAR</b>${escHtml(w[6])}</div>` : '') +
       (n ? `<div class="ln"><b>IN THIS CHAPTER</b>${n} time${n === 1 ? '' : 's'}</div>` : '');
@@ -792,10 +832,9 @@ async function renderWbwTab() {
   if (seq !== wbwTabSeq) return;
   const verses = currentChapterData.verses;
   if (!verses.some(v => v.num === wbwTabVerse)) wbwTabVerse = verses[0].num;
-  vers.innerHTML = verses.map(v => `<button class="wbw-vn${v.num === wbwTabVerse ? ' on' : ''}${data && data[String(v.num)] ? '' : ' none'}" data-v="${v.num}">${v.num}</button>`).join('');
-  vers.querySelectorAll('.wbw-vn').forEach(b => b.addEventListener('click', () => { wbwTabVerse = Number(b.dataset.v); renderWbwTab(); }));
-  const on = vers.querySelector('.wbw-vn.on');
-  if (on) { try { vers.scrollTo({ left: Math.max(0, on.offsetLeft - 40) }); } catch (e) {} }
+  vers.innerHTML = verses.map(v => `<option value="${v.num}"${v.num === wbwTabVerse ? ' selected' : ''}>${escHtml(currentChapterData.book)} ${currentChapterNum}:${v.num}</option>`).join('');
+  vers.value = String(wbwTabVerse);
+  vers.onchange = () => { wbwTabVerse = Number(vers.value); renderWbwTab(); };
   const vv = verses.find(v => v.num === wbwTabVerse);
   document.getElementById('wbwVtext').textContent = vv ? vv.text : '';
   const body = document.getElementById('wbwTabBody');
@@ -807,6 +846,179 @@ async function renderWbwTab() {
   drawWbw(body, words, data, true);
 }
 
+
+// Per-verse commentary: four tiles, up to three modern voices plus early-church writers.
+// Data is prebuilt into data/mix/<book>.json (keyed by chapter). Entry: [kind m|e, who, work, preview, url, range, fullText?]
+const cmCache = {};
+const cmBookCache = {};
+let cmSeq = 0, cmTabSeq = 0, cmTabVerse = 1, cmTabKey = '';
+// One file per Gospel (data/mix/<book>.json, keyed by chapter); falls back to the older per-chapter files.
+function loadCommentary(slug, chap) {
+  const key = slug + '/' + chap;
+  if (!(key in cmCache)) {
+    if (!(slug in cmBookCache)) cmBookCache[slug] = fetch(`data/mix/${slug}.json`).then(r => (r.ok ? r.json() : null)).catch(() => null);
+    cmCache[key] = cmBookCache[slug].then(book => {
+      if (book && book[String(chap)]) return book[String(chap)];
+      return fetch(`data/mix/${slug}/${chap}.json`).then(r => (r.ok ? r.json() : null)).catch(() => null);
+    });
+  }
+  return cmCache[key].then(r => sumP.then(() => r));
+}
+const cmShort = { 'Augustine of Hippo': 'Augustine', 'Origen of Alexandria': 'Origen', 'Ambrose of Milan': 'Ambrose', 'Hilary of Poitiers': 'Hilary', 'Gregory the Dialogist': 'Gregory the Great', 'Basil of Caesarea': 'Basil', 'Alcuin of York': 'Alcuin', 'Remigius of Rheims': 'Remigius', 'Cyril of Alexandria': 'Cyril of Alexandria', 'Tim Mackie · BibleProject': 'Tim Mackie' };
+function cmLinkLabel(e) {
+  const u = e[4] || '';
+  if (e[0] === 'e') return 'Read the full text ↗';
+  if (/desiringgod/.test(u)) return 'Open on Desiring God ↗';
+  if (/enduringword/.test(u)) return 'Read on Enduring Word ↗';
+  if (/biblegateway/.test(u)) return 'Matthew Henry, full commentary ↗';
+  if (/bibleproject/.test(u)) return 'Open on BibleProject ↗';
+  if (/openlibrary/.test(u)) return 'Find the book ↗';
+  if (/ccel\.org/.test(u)) return 'Read Ryle on CCEL ↗';
+  if (/preceptaustin/.test(u)) return 'Read Spurgeon\'s commentary ↗';
+  if (/spurgeon/.test(u)) return 'Read the sermon ↗';
+  if (/gospelinlife/.test(u)) return /book-of-the-bible/.test(u) ? 'See his sermons on this chapter ↗' : 'Listen or read on Gospel in Life ↗';
+  if (/coe22\.com/.test(u)) return 'Watch the sermon ↗';
+  if (/petersonacademy/.test(u)) return 'See the course ↗';
+  if (/podcast\.de|spotify|podbean|listennotes|podcasts\.apple/.test(u)) return 'Listen to the episode ↗';
+  return 'Open ↗';
+}
+function cmCredit(list) {
+  const has = k => list.some(e => e[0] === k);
+  const own = [];
+  if (list.some(e => /Guzik/.test(e[1]))) own.push('Guzik');
+  if (list.some(e => /Lewis/.test(e[1]))) own.push('Lewis');
+  if (list.some(e => /Mackie|BibleProject/.test(e[1]))) own.push('BibleProject');
+  const bits = [];
+  if (own.length) bits.push(own.join(' and ') + ' ' + (own.length > 1 ? 'are' : 'is') + ' summarized in our own words');
+  if (list.some(e => /Henry/.test(e[1]) && e[2].indexOf('link') < 0)) bits.push('Henry is quoted from the public-domain Concise Commentary');
+  if (list.some(e => /Comer/.test(e[1]))) bits.push('Comer’s tile is a short summary of his teaching');
+  if (list.some(e => e[7] === 'c' && /Spurgeon/.test(e[1]))) bits.push('Spurgeon’s commentary tiles are short summaries in our own words');
+  if (list.some(e => e[7] === 'c' && /Ryle/.test(e[1]))) bits.push('Ryle’s tiles are short summaries of his Expository Thoughts, in our own words');
+  if (list.some(e => e[7] === 'c' && /Piper/.test(e[1]))) bits.push('Piper book tiles are short pointers to the book, in our own words');
+  if (list.some(e => /Peterson/.test(e[1]))) bits.push('Peterson’s course is paid, with a preview');
+  if (has('e')) bits.push('early-church excerpts are public-domain translations via <a href="https://historicalchristian.faith" target="_blank" rel="noopener">historicalchristian.faith</a>');
+  return bits.length ? bits.join('; ').replace(/^./, c => c.toUpperCase()) + '.' : '';
+}
+
+// One-sentence "what is this link" line for tiles that otherwise show only a title.
+function linkBlurb(e, sm) {
+  const work = e[2] || '', u = e[4] || '', who = e[1] || '';
+  const parts = work.split(' · ');
+  const last = parts[parts.length - 1] || '';
+  let r = 'this passage';
+  const mv = last.match(/^(vv?)\.(.+)$/);
+  if (mv) r = (mv[1] === 'v' ? 'verse ' : 'verses ') + mv[2];
+  else if (/^[1-3]?\s?[A-Z][a-z]+ \d/.test(last)) r = last;
+  const pretty = x => x.replace(/-/g, ' ').replace(/\b(god|christ)s\b/g, "$1's").replace(/(^|\s)[a-z]/g, c => c.toUpperCase()).replace(/\b(Of|The|And|To|In|A|On|For)\b(?!^)/g, m => m.toLowerCase()).replace(/^./, c => c.toUpperCase());
+  if (who === 'John Piper') {
+    const seg = (u.match(/desiringgod\.org\/([^/]+)\/(?:([^/]+)\/)?/) || []);
+    const kind = seg[1] || '';
+    const medium = /Video/.test(work) ? 'video' : /Audio/.test(work) ? 'audio' : '';
+    if (/Excerpt/.test(work)) return `A short clip pulled from one of Piper’s longer messages, on ${r}.`;
+    if (kind === 'scripture') return 'Every Desiring God sermon, article and devotional filed under this chapter.';
+    if (kind === 'messages') return `A full-length ${medium ? medium + ' ' : ''}sermon by Piper on ${r}, centered on God’s glory and our joy in him.`;
+    if (kind === 'articles') return sm && sm.by ? `A written Desiring God article by ${sm.by} on ${r}; part of the Desiring God library Piper founded.` : `A written Desiring God article drawing on ${r}; shorter and more focused than a sermon.`;
+    if (kind === 'solid-joys') return `A short daily devotional from Piper’s Solid Joys series, built around ${r}.`;
+    if (kind === 'interviews') return `Ask Pastor John: Piper answers a listener’s question connected to ${r} in a short podcast episode.`;
+    if (kind === 'labs') return `Look at the Book: a guided video where Piper marks up the text on screen and walks through ${r} line by line.`;
+    if (kind === 'light-and-truth') return `A short teaching from Piper’s Light + Truth series${seg[2] ? ' “' + pretty(seg[2]) + '”' : ''}, tying ${r} into a larger Bible theme.`;
+    return '';
+  }
+  if (who === 'Tim Keller') {
+    const series = parts[1] && !/^all sermons/.test(parts[1]) ? ` from his “${parts[1]}” series` : '';
+    if (sm && sm.by) return `A sermon by ${sm.by}, preached on ${r}.`;
+    return `A full sermon by Keller${series}, preached on ${r}, unpacking the text and showing how it points to Christ.`;
+  }
+  if (who === 'Joby Martin' || who === 'Eleven22 Church') {
+    const series = parts[1] ? `“${parts[1]}”` : 'a sermon series';
+    const guest = (sm && sm.by) || (e[3].match(/·\s*(.+)$/) || [])[1];
+    return guest ? `A sermon by guest preacher ${guest} in Eleven22’s ${series}, on ${r}.` : `A sermon by Joby Martin in Eleven22’s ${series}, on ${r}, in a conversational, story-driven style.`;
+  }
+  if (who === 'Charles Spurgeon') {
+    const n = (work.match(/#(\d+)/) || [])[1];
+    return `Spurgeon’s own sermon${n ? ' no. ' + n : ''} preaching ${r}; vivid, Christ-centered Victorian preaching, opened as a PDF.`;
+  }
+  return '';
+}
+function drawCommentary(box, entries, openFirst, showCredit) {
+  const list = entries.slice(0, 4);
+  const rawSum = e => SUM[e[4]] || null;
+  const sumOf = e => { const x = rawSum(e); return x && x.s ? x : null; };
+  const who = e => { const x = rawSum(e); return escHtml(x && x.by ? x.by : (cmShort[e[1]] || e[1])); };
+  const isTitle = e => e[7] !== 'c' && (e[1] === 'John Piper' || e[1] === 'Charles Spurgeon' || e[7] === 't');
+  box.innerHTML =
+    `<div class="cm-grid">${list.map((e, i) => `<button class="cm-tile ${e[0]}" type="button" data-i="${i}">
+        <span class="cm-who">${who(e)}</span>
+        <span class="cm-work">${escHtml(e[2])}${e[5] ? ' · ' + escHtml(e[5]) : ''}</span>
+        <span class="cm-prev${isTitle(e) ? ' t' : ''}">${escHtml(isTitle(e) && sumOf(e) ? sumOf(e).s : e[3])}</span>
+      </button>`).join('')}</div>` +
+    `<div class="cm-detail" style="display:none"></div>` +
+    (showCredit && cmCredit(list) ? `<p class="cm-credit">${cmCredit(list)}</p>` : '');
+  const detail = box.querySelector('.cm-detail');
+  const tiles = box.querySelectorAll('.cm-tile');
+  const pick = i => {
+    const e = list[i];
+    const was = tiles[i].classList.contains('on');
+    tiles.forEach(t => t.classList.remove('on'));
+    if (was) { detail.style.display = 'none'; return; }
+    tiles[i].classList.add('on');
+    const body = e[6] && e[0] === 'm' && /Guzik/.test(e[1]) ? `<p class="cm-dtitle">${escHtml(e[6])}</p><p>${escHtml(e[3])}</p>` : isTitle(e) ? `<p class="cm-dtitle">${escHtml(e[3])}</p>` + (sumOf(e) ? `<p>${escHtml(sumOf(e).s)}</p>` : '') + (linkBlurb(e, rawSum(e)) ? `<p class="${sumOf(e) ? 'cm-dsrc' : 'cm-dblurb'}">${escHtml(linkBlurb(e, rawSum(e)))}</p>` : '') : `<p>${escHtml(e[3])}</p>`;
+    detail.innerHTML = `<div class="cm-dh ${e[0]}"><b>${who(e)}</b><span>${escHtml(e[2])}${e[5] ? ' · ' + escHtml(e[5]) : ''}</span></div>${body}` +
+      (e[4] ? `<a class="cm-link" href="${escHtml(e[4])}" target="_blank" rel="noopener">${cmLinkLabel(e)}</a>` : '');
+    detail.style.display = '';
+    try { detail.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } catch (err) {}
+  };
+  tiles.forEach((t, i) => t.addEventListener('click', () => pick(i)));
+  if (openFirst && tiles.length) pick(0);
+}
+async function renderSheetCommentary(verseNum) {
+  const box = document.getElementById('cmSheet');
+  const seq = ++cmSeq;
+  box.style.display = 'none';
+  box.innerHTML = '';
+  const data = await loadCommentary(currentBook, currentChapterNum);
+  if (seq !== cmSeq) return;
+  const ents = data && data[String(verseNum)];
+  if (!ents || !ents.length) return;
+  box.innerHTML = '<div class="wbw-h">COMMENTARY<span>gold = modern voices · red = early church</span></div><div class="cm-body"></div>';
+  drawCommentary(box.querySelector('.cm-body'), ents, false);
+  box.style.display = '';
+}
+async function renderCmTab() {
+  const vers = document.getElementById('cmVers');
+  if (!vers || !currentChapterData) return;
+  const key = currentBook + '/' + currentChapterNum;
+  if (key !== cmTabKey) { cmTabKey = key; cmTabVerse = 1; }
+  const seq = ++cmTabSeq;
+  const data = await loadCommentary(currentBook, currentChapterNum);
+  if (seq !== cmTabSeq) return;
+  const verses = currentChapterData.verses;
+  if (!verses.some(v => v.num === cmTabVerse)) cmTabVerse = verses[0].num;
+  vers.innerHTML = verses.map(v => `<option value="${v.num}"${v.num === cmTabVerse ? ' selected' : ''}>${escHtml(currentChapterData.book)} ${currentChapterNum}:${v.num}</option>`).join('');
+  vers.value = String(cmTabVerse);
+  vers.onchange = () => { cmTabVerse = Number(vers.value); renderCmTab(); };
+  const vv = verses.find(v => v.num === cmTabVerse);
+  document.getElementById('cmVtext').textContent = vv ? vv.text : '';
+  const body = document.getElementById('cmTabBody');
+  const ents = data && data[String(cmTabVerse)];
+  if (!ents || !ents.length) { body.innerHTML = '<p class="panel-text dim">Commentary could not be loaded. Check your connection and try again.</p>'; return; }
+  drawCommentary(body, ents, true, true);
+}
+// Overview: one small line naming the modern voices that appear in this chapter's commentary.
+async function fillOvVoices(panel) {
+  const blk = panel.querySelector('.ov-blk[data-go="commentary"]');
+  if (!blk) return;
+  const key = currentBook + '/' + currentChapterNum;
+  const data = await loadCommentary(currentBook, currentChapterNum);
+  if (key !== currentBook + '/' + currentChapterNum || !data || !data._s) return;
+  const names = data._s.map(n => cmShort[n] || n).slice(0, 5);
+  if (!names.length) return;
+  const s = document.createElement('span');
+  s.className = 'ov-vline';
+  s.innerHTML = '<b>Modern voices:</b> ' + names.map(escHtml).join(' · ');
+  blk.appendChild(s);
+}
+
 // "Learn more" pills in the verse sheet: jump to the matching Overview block (or tab).
 function renderLearnMore(ch, verseNum) {
   const pills = [
@@ -814,6 +1026,7 @@ function renderLearnMore(ch, verseNum) {
     ['History', 'var(--blue)', 'HISTORY', 'context'],
     ['Customs', 'var(--burgundy)', 'CUSTOMS', 'context'],
     ['Original words', 'var(--gold)', null, 'translation'],
+    ['Commentary', 'var(--burgundy)', '__cm', 'commentary'],
     ['Archaeology', 'var(--blue)', 'ARCHAEOLOGY', 'archaeology'],
     ['Author', 'var(--verdigris)', 'AUTHOR', 'author'],
     ['Timeline', 'var(--blue)', 'TIMELINE', 'context']
@@ -825,6 +1038,12 @@ function renderLearnMore(ch, verseNum) {
     backdrop.classList.remove('open');
     sheet.classList.remove('open');
     goToScreen('deepdive');
+    if (p[2] === '__cm') {
+      cmTabVerse = verseNum;
+      setTab(tabOrder.indexOf('commentary'));
+      renderCmTab();
+      return;
+    }
     if (!p[2]) {
       wbwTabVerse = verseNum;
       setTab(tabOrder.indexOf('translation'));
@@ -859,8 +1078,10 @@ function openSummary(verseNum) {
   sheetRef.textContent = `${ch.book.toUpperCase()} ${ch.chapter}:${verseNum}`;
   sheetVerseText.textContent = `"${verseEntry.text}"`;
   wbwTabVerse = verseNum;
+  cmTabVerse = verseNum;
   renderLearnMore(ch, verseNum);
   renderWordStrip(verseNum);
+  renderSheetCommentary(verseNum);
   if (document.getElementById('wbwVers') && document.getElementById('wbwVers').children.length) renderWbwTab();
 
   backdrop.classList.add('open');
@@ -909,9 +1130,10 @@ function renderFolderContent() {
     `Key words across ${currentChapterData.book} ${currentChapterData.chapter}`;
   const tList = document.getElementById('translationList');
   tList.innerHTML = '';
+  document.getElementById('kwSub').textContent = ctx.translation.length + ' words';
   ctx.translation.forEach((entry, idx) => {
     const div = document.createElement('div');
-    div.className = 'word-card';
+    div.className = 'word-card exp';
     const hasOcc = entry.occurrences && entry.occurrences.total;
     const usageBlock = hasOcc ? `
       <button class="word-usage-toggle" data-idx="${idx}">
@@ -919,15 +1141,17 @@ function renderFolderContent() {
         Used ${entry.occurrences.total}\u00d7 in the New Testament
       </button>
       <div class="word-usage-panel" id="wordUsage${idx}"></div>
-    ` : '';
+    ` : (entry.gospelCount ? `<p class="kw-count">Appears ${entry.gospelCount}\u00d7 in the Gospel chapters in this app.</p>` : '');
     div.innerHTML = `
       <div class="word-title-row">
         <span class="word-english">${entry.english}</span>
         <span class="word-verseref">${entry.verseRef}</span>
       </div>
       <span class="word-greek">${entry.greek}</span>
-      <p class="word-meaning">${entry.meaning}</p>
-      ${usageBlock}
+      <p class="word-meaning exp-body">${entry.meaning}</p>
+      ${(() => { const w = worldFor(Object.assign({ _wk: currentBook + '/' + currentChapterNum + '|' + String(entry.english).toLowerCase() }, entry)); return w ? `<p class="kw-world"><b>IN THEIR WORLD</b>${escHtml(w)}</p>` : ''; })()}
+      <div class="exp-extra">${usageBlock}</div>
+      <span class="exp-more"><span class="exp-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
     `;
     tList.appendChild(div);
   });
@@ -935,26 +1159,35 @@ function renderFolderContent() {
     btn.addEventListener('click', () => toggleWordUsage(btn, ctx.translation[parseInt(btn.dataset.idx)]));
   });
 
+  wireExpand(tList);
   renderWbwTab();
+  renderCmTab();
 
   const cList = document.getElementById('commentaryList');
   if (ctx.commentary && ctx.commentary.length) {
+    document.getElementById('cmChapSub').textContent = ctx.commentary.length + ' commentators';
     cList.innerHTML = ctx.commentary.map(entry => `
-      <div class="commentary-card">
-        <p class="commentary-source">${entry.source}</p>
-        <p class="commentary-year">${entry.year}</p>
-        <p class="commentary-note">${entry.note}</p>
-        <a class="commentary-link" href="${entry.url}" target="_blank" rel="noopener">
-          Read the full commentary
-          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
-        </a>
+      <div class="commentary-card exp">
+        <div><span class="commentary-source">${entry.source}</span><span class="commentary-year">${entry.year}</span></div>
+        <p class="commentary-note exp-body" style="margin-top:6px">${entry.note}</p>
+        <div class="exp-extra">
+          <a class="commentary-link" href="${entry.url}" target="_blank" rel="noopener">
+            Read the full commentary
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+        <span class="exp-more"><span class="exp-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
       </div>
     `).join('');
   } else {
+    document.getElementById('cmChapSub').textContent = '';
     cList.innerHTML = `<p class="panel-text dim">No commentary added for this chapter yet.</p>`;
   }
 
+  wireExpand(cList);
   const gList = document.getElementById('gospelParallelsList');
+  document.getElementById('gpSub').textContent = ctx.gospelParallels.length ? ctx.gospelParallels.length + (ctx.gospelParallels.length === 1 ? ' passage' : ' passages') : '';
+  document.getElementById('otSub').textContent = ctx.otBackground.length ? ctx.otBackground.length + (ctx.otBackground.length === 1 ? ' passage' : ' passages') : '';
   gList.innerHTML = '';
   ctx.gospelParallels.forEach(entry => {
     const div = document.createElement('div');
@@ -988,6 +1221,31 @@ function renderFolderContent() {
     div.className = 'xref-card';
     div.innerHTML = `<div class="xref-ref">${entry.ref}</div><p class="xref-note">${entry.note}</p>`;
     oList.appendChild(div);
+  });
+}
+
+// Tap-to-expand cards: a short preview shows by default; tapping reveals the whole entry.
+
+// "How this word was used in their world" snippet, by keyword (english / chapter) or by Strong's number.
+function worldFor(entry, strongs) {
+  const eng = String(entry && entry.english || '').toLowerCase();
+  if (eng && WW.e[eng]) return WW.e[eng];
+  if (entry && entry._wk && WW.k[entry._wk] && WW.w[WW.k[entry._wk]]) return WW.w[WW.k[entry._wk]];
+  if (strongs && WW.w[strongs]) return WW.w[strongs];
+  return '';
+}
+function wireExpand(root) {
+  root.querySelectorAll('.exp').forEach(c => {
+    const extra = c.querySelector('.exp-extra'), body = c.querySelector('.exp-body');
+    const hasExtra = extra && extra.textContent.trim().length > 0;
+    const long = body && body.textContent.length > 100;
+    if (!hasExtra && !long) { const m = c.querySelector('.exp-more'); if (m) m.remove(); return; }
+    c.classList.add('can');
+    c.addEventListener('click', e => {
+      if (e.target.closest('a, .word-usage-toggle, .word-usage-panel')) return;
+      const open = c.classList.toggle('open');
+      const l = c.querySelector('.exp-lbl'); if (l) l.textContent = open ? 'Show less' : 'Read more';
+    });
   });
 }
 
@@ -1150,6 +1408,16 @@ function renderOverview(ctx) {
     `<div class="ov-q"><b>${escHtml(c.source)}</b><span class="ov-qt ov-qt${i}">${escHtml(i === 0 ? firstSentence(c.note) : String(c.note).replace(/<[^>]*>/g, ''))}</span></div>`).join('');
   const tl = (ov.timeline || []).map(t => `<div><b>${escHtml(t.when)}</b>${escHtml(t.label)}</div>`).join('');
 
+  const tl3Html = () => {
+    const slug = currentBook, n = currentChapterNum;
+    const nm = getShortName(slug);
+    const bk = manifest.books.find(b => b.slug === slug);
+    const total = bk ? bk.totalChapters : 0;
+    const ttl = k => (chapterIndex && chapterIndex[slug] && chapterIndex[slug][String(k)]) || '';
+    const prev = n > 1 ? `<span class="tl-seg tl-side"><em>BEFORE · ${escHtml(nm)} ${n - 1}</em><span>${escHtml(ttl(n - 1))}</span></span>` : `<span class="tl-seg tl-side tl-edge"><em>BEFORE</em><span>The start of ${escHtml(bk ? bk.name : '')}’s Gospel</span></span>`;
+    const next = n < total ? `<span class="tl-seg tl-side"><em>AFTER · ${escHtml(nm)} ${n + 1}</em><span>${escHtml(ttl(n + 1))}</span></span>` : `<span class="tl-seg tl-side tl-edge"><em>AFTER</em><span>The end of ${escHtml(bk ? bk.name : '')}’s Gospel</span></span>`;
+    return prev + `<span class="tl-seg tl-mid"><em>NOW · ${escHtml(nm)} ${n}</em><span>${escHtml(currentChapterData.title)}</span></span>` + next;
+  };
   const block = (cls, label, color, go, inner, section) =>
     `<button class="ov-blk ${cls}" data-go="${go}" ${section ? `data-section="${section}"` : ''}>
        <span class="ov-h" style="color:${color}">${label}<i>›</i></span>${inner}
@@ -1171,15 +1439,16 @@ function renderOverview(ctx) {
       ${ov.archaeologyImage && ov.archaeologyImage.url
         ? `<button class="ov-blk ov-setblk" data-go="archaeology"><span class="ov-setphoto"><img src="${displayImageUrl(ov.archaeologyImage.url)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">ARCHAEOLOGY<i>›</i></span><span class="ov-placename">${escHtml(ov.archaeologyImage.name || '')}</span></span><span class="ov-setdesc">${escHtml(ov.archaeologyImage.desc || '')}</span></button>`
         : block('', 'ARCHAEOLOGY', 'var(--blue)', 'archaeology', ov.archaeology ? seg(ov.archaeology, 'var(--gold)') : '<span class="ov-sn ov-sn3">Sites, digs and artifacts tied to this chapter. Coming soon.</span>')}
-      ${block('ov-top', 'AUTHOR', 'var(--verdigris)', 'author', `<span class="ov-aname">${escHtml(ov.author || clip(ctx.author, 70))}</span><span class="ov-kv"><span><em>GENRE</em>${escHtml(ov.genre || String(ctx.genre).split(/[,—.]/)[0])}</span><span><em>AUDIENCE</em>${escHtml(ov.audience || clip(ctx.audience, 60))}</span></span>`, 'writing')}
-      ${block('ov-full', 'TIMELINE', 'var(--blue)', 'context', `<span class="ov-rail">${tl}</span>`, 'timeline')}
-      <button class="ov-blk ov-soon" data-go="discussion"><span class="ov-h" style="color:var(--verdigris)">DISCUSSION<i>›</i></span><span class="ov-sn ov-sn5">${escHtml(ov.discussion || 'Theology and discussion questions. Coming soon.')}</span></button>
+      ${block('ov-top', 'AUTHOR', 'var(--verdigris)', 'author', `<span class="ov-aname">${escHtml(ov.author || clip(ctx.author, 70))}</span><span class="ov-kv"><span><em>GENRE</em>${escHtml(ov.genre || String(ctx.genre).split(/[,—.]/)[0])}</span><span><em>AUDIENCE</em>${escHtml(ov.audience || clip(ctx.audience, 60))}</span>${GOSPEL_FACTS[currentBook] ? `<span><em>WRITTEN</em>${escHtml(GOSPEL_FACTS[currentBook].written)}</span><span><em>FOCUS</em>${escHtml(GOSPEL_FACTS[currentBook].focus)}</span>` : ''}</span>`, 'writing')}
+      ${block('ov-full ov-tlblk', 'TIMELINE', 'var(--blue)', 'context', `<span class="ov-tl3" id="ovTl3">${tl3Html()}</span><span class="ov-tlcap">IN THIS CHAPTER</span><span class="ov-rail">${tl}</span>`, 'timeline')}
+      <button class="ov-blk ov-soon" data-go="discussion"><span class="ov-h" style="color:var(--verdigris)">DISCUSSION<i>›</i></span><span class="ov-sn ov-sn5">${escHtml(ov.discussionShort || ov.discussion || 'Theology and discussion questions. Coming soon.')}</span></button>
       <div class="ov-blk ov-soon"><span class="ov-h" style="color:var(--burgundy)">PEOPLE &amp; PLACES<i></i></span><ul class="ov-bul">${(ov.peoplePlaces || (ov.people || []).concat(ov.places || []).map(n => ({ n, d: '' }))).map(x => `<li><b>${escHtml(x.n)}</b>${x.d ? ' · ' + escHtml(x.d) : ''}</li>`).join('')}</ul></div>
       <button class="ov-blk ov-soon" data-go="notes"><span class="ov-h" style="color:var(--gold)">NOTES<i>›</i></span><span class="ov-sn ov-sn5">Write your own ideas and questions for this chapter.</span></button>
       <div class="ov-blk ov-soon"><span class="ov-h" style="color:var(--blue)">BOOK OVERVIEW<i></i></span><span class="ov-sn ov-sn5">${escHtml(ov.book || '')}</span></div>
       <button class="ov-blk ov-full ov-mapblk" data-go="gallery"><span class="ov-maplive" id="ovMapLive"></span><span class="ov-artlabel">MAP<i>›</i></span>${ctx.biblePlacesCredit ? `<span class="ov-credit">${escHtml(ctx.biblePlacesCredit)}</span>` : ''}</button>
     </div>`;
 
+  if (!chapterIndex) chapterIndexP.then(() => { const el = panel.querySelector('#ovTl3'); if (el && chapterIndex) el.innerHTML = tl3Html(); });
   const ttl = panel.querySelector('.ov-title');
   const fitTitle = () => { let fs = 17; ttl.style.fontSize = fs + 'px'; while (ttl.scrollWidth > ttl.clientWidth && fs > 10) { fs -= 0.5; ttl.style.fontSize = fs + 'px'; } };
   fitTitle();
@@ -1190,6 +1459,7 @@ function renderOverview(ctx) {
   if (document.fonts) document.fonts.addEventListener('loadingdone', fitWords);
   [300, 900, 2000].forEach(t => setTimeout(fitWords, t));
   initOvMap(ctx);
+  fillOvVoices(panel);
   setTimeout(updateOvMore, 60);
   panel.querySelectorAll('button.ov-blk').forEach(btn => {
     btn.addEventListener('click', (ev) => {
