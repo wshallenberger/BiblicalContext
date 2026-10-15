@@ -485,7 +485,11 @@
   .pick-ch.cur{ border-color:var(--gold); color:var(--gold); }
   .pick-ch:disabled{ opacity:0.3; cursor:default; }
   .arch-photo{ position:relative; border-radius:10px; overflow:hidden; margin:10px 0 16px; }
-  .arch-photo img{ display:block; width:100%; height:auto; }
+  .arch-photo img{ display:block; width:100%; height:auto; max-height:340px; object-fit:cover; }
+  .arch-fig{ margin:0 0 4px; }
+  .arch-fig figcaption{ font:12px/1.45 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); margin:-8px 2px 14px; }
+  .arch-more{ margin:18px 0 8px; }
+  .arch-card .arch-photo{ margin:6px 0 10px; }
   .arch-photo span{ position:absolute; left:0; right:0; bottom:0; padding:16px 10px 6px; color:#fff; font-size:11px; text-align:center; background:linear-gradient(to top, rgba(0,0,0,0.65), transparent); }
   .tpl-card{ border:1px dashed var(--line); border-radius:12px; padding:16px; margin-top:10px; }
   .au-row{ margin-bottom:16px; }
@@ -621,6 +625,7 @@
   .ov-setblk > .ov-setphoto{ position:relative; flex:8 1 0; min-height:0; overflow:hidden; display:block; }
   .ov-setblk > .ov-setphoto img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transform:scale(1.55); }
   .ov-setblk .ov-artlabel{ z-index:2; padding:10px 11px 18px; }
+  .ov-setblk.ov-setfit > .ov-setphoto img{ transform:none; }
   .ov-setblk .ov-placename{ position:absolute; left:0; right:0; bottom:0; z-index:2; padding:12px 6px 3px; font-size:9px; color:#fff; text-align:center; background:linear-gradient(to top, rgba(0,0,0,0.65), transparent); }
   .ov-setblk > .ov-setdesc{ flex:2 1 0; display:flex; align-items:center; justify-content:center; padding:4px 8px; font-size:10.5px; line-height:1.3; color:var(--parchment-dim); }
   .ov-qt{ font-size:11px; }
@@ -1452,6 +1457,129 @@
   .wbw-card .ln.wd{ align-items:start; }
   .wbw-card .ln.wd span{ display:block; }
   .sheet .wbw-card .ln.wd{ grid-template-columns:96px 1fr; }
+
+  /* ---------- Round 4: sectioned verse sheet, keyword chips, read-more ---------- */
+  .sheet #wbw, .sheet #cmSheet, .sheet .sheet-learn{ border:1px solid; border-left-width:4px; border-radius:12px; padding:9px 10px 10px; margin:0 0 9px; }
+  .sheet #wbw{ background:#f8f1d9; border-color:#e5d7a3; border-left-color:var(--gold); }
+  .sheet #cmSheet{ background:#f8ece9; border-color:#e7d0cb; border-left-color:var(--burgundy); }
+  .sheet .sheet-learn{ background:#ecf0f6; border-color:#d3dbe9; border-left-color:var(--blue); margin-bottom:4px; }
+  .sheet #cmSheet .cm-tile{ background:#fffdf7; }
+  .sheet #wbw .wbw-w, .sheet #wbw .wbw-chip{ background:#fffdf7; }
+  .sheet .learn-pill{ background:#fffdf7; }
+  .sheet .learn-h{ color:var(--blue); }
+  .sheet #cmSheet .wbw-h{ color:var(--burgundy); }
+  .sheet .sheet-verse-text{ padding-bottom:9px; border-bottom:1px solid var(--line); margin-bottom:10px; }
+
+  .kw-chips{ display:flex; flex-wrap:wrap; gap:6px; margin:0 0 12px; }
+  .kw-chip{ background:var(--ink-raised); border:1px solid var(--line); border-radius:999px; padding:5px 11px; font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:500; color:var(--gold); cursor:pointer; }
+  .kw-chip:active{ background:var(--ink-deep); }
+  .word-card{ scroll-margin-top:10px; }
+  .word-card.kw-flash{ animation:ovflash 1.4s ease-out 1; }
+
+  .rm-body{ display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; margin-bottom:6px; }
+  .rm.open .rm-body{ display:block; -webkit-line-clamp:unset; overflow:visible; }
+  .rm-btn{ display:none; align-items:center; gap:5px; background:none; border:0; padding:0 0 10px; font-family:'IBM Plex Sans',sans-serif; font-size:11.5px; font-weight:600; color:var(--verdigris); cursor:pointer; }
+  .rm.can .rm-btn{ display:inline-flex; }
+  .rm .rm-btn svg{ transition:transform .2s ease; }
+  .rm.open .rm-btn svg{ transform:rotate(180deg); }
+  .rm:not(.can) .rm-body{ margin-bottom:14px; }
+  .spark-notes .rm-body{ margin-bottom:4px; }
+  .spark-notes .rm-btn{ padding-bottom:0; }
+
+  /* ---------- Map screen ---------- */
+  #screen-map{ position:relative; }
+  .map-wrap{ position:relative; flex:1; min-height:0; background:var(--ink-deep); overflow:hidden; }
+  #bigMap{ position:absolute; inset:0; }
+  .map-dock{ position:absolute; left:10px; right:10px; bottom:10px; z-index:5; display:flex; flex-direction:column; gap:5px; pointer-events:none; }
+  .map-dock > *{ pointer-events:auto; }
+  .map-top{ background:rgba(255,250,240,.78); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); border:1px solid rgba(120,95,55,.22); border-radius:12px; padding:5px 7px; box-shadow:0 2px 10px rgba(var(--shadow-rgb),.14); display:flex; flex-direction:column; gap:4px; font-family:'IBM Plex Sans',sans-serif; }
+  .map-seg{ display:flex; flex:0 0 auto; background:rgba(255,255,255,.45); border:1px solid var(--line); border-radius:999px; padding:1px; }
+  .map-seg button{ flex:1; border:0; background:none; border-radius:999px; padding:3px 9px; font-family:inherit; font-size:10.5px; font-weight:500; color:var(--parchment-dim); cursor:pointer; }
+  .map-seg button.on{ background:var(--gold); color:#fffaf0; font-weight:600; }
+  .map-chips{ display:flex; gap:6px; overflow-x:auto; scrollbar-width:none; padding:1px 2px 2px; margin:-1px -2px -2px; }
+  .map-chips::-webkit-scrollbar{ display:none; }
+  .map-chip{ flex:0 0 auto; display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,.5); border:1px solid var(--line); border-radius:999px; padding:2px 8px; font-family:inherit; font-size:10.5px; font-weight:500; color:var(--parchment); cursor:pointer; }
+  .map-chip i{ width:7px; height:7px; border-radius:50%; background:var(--gold); display:inline-block; }
+  .map-chip.on{ border-color:var(--gold); box-shadow:0 0 0 1px var(--gold); font-weight:600; }
+  .map-row{ display:flex; align-items:center; gap:6px; }
+  .map-sel{ flex:0 1 auto; max-width:112px; background:rgba(255,255,255,.5); border:1px solid var(--line); border-radius:8px; padding:2px 4px; font-family:inherit; font-size:11px; color:var(--parchment); }
+  .map-count{ flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:10.5px; color:var(--parchment-dim); }
+  .map-listbtn{ background:var(--gold); color:#fffaf0; border:0; border-radius:999px; padding:3px 11px; font-family:inherit; font-size:10.5px; font-weight:600; cursor:pointer; }
+  .map-msg{ position:absolute; left:14px; right:14px; top:50%; transform:translateY(-50%); z-index:4; background:rgba(255,250,240,.96); border:1px solid var(--line); border-radius:12px; padding:12px 14px; font-family:'IBM Plex Sans',sans-serif; font-size:13px; line-height:1.5; color:var(--parchment); text-align:center; }
+  .map-card{ position:absolute; left:10px; right:10px; bottom:calc(var(--dock-h,80px) + 18px); z-index:6; max-height:min(58%, calc(100% - var(--dock-h,80px) - 90px)); overflow-y:auto; background:var(--ink-raised); border:1px solid var(--line); border-left:4px solid var(--gold); border-radius:14px; padding:11px 13px 12px; box-shadow:0 6px 24px rgba(var(--shadow-rgb),.28); font-family:'IBM Plex Sans',sans-serif; scrollbar-width:none; }
+  .map-card::-webkit-scrollbar{ display:none; }
+  .mc-x{ position:absolute; top:6px; right:9px; background:none; border:0; font-size:20px; line-height:1; color:var(--parchment-dim); cursor:pointer; }
+  .mc-place{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.08em; color:var(--gold); text-transform:uppercase; margin:0 22px 3px 0; }
+  .mc-title{ font-family:'Literata',serif; font-weight:500; font-size:17px; line-height:1.25; color:var(--parchment); margin:0 22px 6px 0; }
+  .mc-sum{ font-size:13px; line-height:1.5; color:var(--parchment); margin:0 0 8px; }
+  .mc-note{ font-size:11.5px; line-height:1.4; color:var(--parchment-dim); margin:0 0 8px; font-style:italic; }
+  .mc-refs{ display:flex; flex-wrap:wrap; gap:6px; margin:0 0 8px; }
+  .mc-ref{ background:var(--ink); border:1px solid var(--line); border-radius:999px; padding:4px 10px; font-family:inherit; font-size:11.5px; font-weight:500; color:var(--gold); cursor:pointer; }
+  .mc-dive{ width:100%; background:var(--gold); color:#fffaf0; border:0; border-radius:10px; padding:8px 12px; font-family:inherit; font-size:12.5px; font-weight:600; cursor:pointer; }
+  .mc-pick{ display:block; width:100%; text-align:left; background:var(--ink); border:1px solid var(--line); border-radius:10px; padding:7px 10px; margin:0 0 6px; font-family:inherit; cursor:pointer; color:var(--parchment); }
+  .mc-pick b{ display:block; font-size:12.5px; font-weight:600; }
+  .mc-pick span{ display:block; font-size:11px; color:var(--parchment-dim); }
+  .map-list{ position:absolute; left:0; right:0; bottom:0; z-index:7; height:62%; background:var(--ink-raised); border-top:1px solid var(--line); border-radius:18px 18px 0 0; box-shadow:0 -10px 30px rgba(var(--shadow-rgb),.25); display:flex; flex-direction:column; font-family:'IBM Plex Sans',sans-serif; }
+  .map-list[hidden], .map-card[hidden], .map-msg[hidden]{ display:none; }
+  .map-list-h{ display:flex; align-items:center; justify-content:space-between; padding:11px 16px 8px; font-size:12px; font-weight:600; letter-spacing:.06em; color:var(--gold); }
+  .map-list-h button{ background:none; border:0; font-size:22px; line-height:1; color:var(--parchment-dim); cursor:pointer; }
+  .map-list-body{ flex:1; overflow-y:auto; padding:0 12px 14px; scrollbar-width:none; }
+  .map-li{ display:flex; gap:10px; align-items:center; width:100%; text-align:left; background:var(--ink); border:1px solid var(--line); border-radius:10px; padding:8px 10px; margin:0 0 6px; cursor:pointer; font-family:inherit; color:var(--parchment); }
+  .map-li b{ display:block; font-size:13px; font-weight:600; line-height:1.3; }
+  .map-li span{ display:block; font-size:11px; color:var(--parchment-dim); margin-top:1px; }
+
+  /* ---- photo markers ---- */
+  .pm-wrap{ cursor:pointer; }
+  .pm{ position:relative; width:54px; height:54px; border-radius:50%; background:var(--kc); border:3px solid var(--kc); box-shadow:0 0 0 2px #fffaf0, 0 4px 12px rgba(40,28,10,.42); animation:pmIn .35s cubic-bezier(.2,.9,.3,1.3) both; transition:transform .18s ease, box-shadow .18s ease; }
+  .pm img{ width:100%; height:100%; border-radius:50%; object-fit:cover; display:block; background:#d9cfb8; -webkit-user-drag:none; user-select:none; }
+  .pm:hover{ transform:scale(1.08); }
+  .pm-wrap.sel{ z-index:5; }
+  .pm-wrap.sel .pm{ transform:scale(1.22); box-shadow:0 0 0 3px #C9A227, 0 0 0 7px rgba(201,162,39,.30), 0 6px 16px rgba(40,28,10,.5); }
+  .pm-k{ position:absolute; right:-6px; bottom:-5px; width:21px; height:21px; border-radius:50%; background:var(--kc); color:#fffaf0; border:2px solid #fffaf0; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 4px rgba(0,0,0,.3); }
+  .pm-k svg{ width:12px; height:12px; }
+  .pm-back{ position:absolute; left:0; top:0; width:54px; height:54px; border-radius:50%; overflow:hidden; background:#d9cfb8; border:2.5px solid #fffaf0; box-shadow:0 3px 8px rgba(40,28,10,.4); box-sizing:border-box; }
+  .pm-back img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .pm-back.b1{ transform:translate(-15px,4px) rotate(-10deg) scale(.88); }
+  .pm-back.b2{ transform:translate(15px,2px) rotate(10deg) scale(.88); }
+  .pm-n{ position:absolute; left:-6px; top:-6px; min-width:21px; height:21px; padding:0 5px; box-sizing:border-box; border-radius:11px; background:#2b2113; color:#fffaf0; border:2px solid #fffaf0; font:600 11px/17px 'IBM Plex Sans',sans-serif; text-align:center; }
+  .pm.cp{ border-style:dashed; background:#fffaf0; }
+  .pm-wrap.sel .pm-lab{ display:block; }
+  .pm-lab{ display:none; position:absolute; left:50%; top:100%; transform:translateX(-50%); margin-top:7px; max-width:132px; padding:2px 8px; border-radius:999px; background:rgba(255,250,240,.96); color:#2b2113; font:500 10.5px/1.35 'IBM Plex Sans',sans-serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; box-shadow:0 1px 5px rgba(0,0,0,.25); pointer-events:none; }
+  #bigMap.z-lab .pm-lab{ display:block; }
+  @keyframes pmIn{ from{ opacity:0; transform:scale(.45); } to{ opacity:1; transform:scale(1); } }
+  .map-legend{ display:flex; gap:5px; }
+  .map-legend button{ display:inline-flex; align-items:center; gap:6px; background:rgba(255,250,240,.82); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); border:1.5px solid var(--kc); border-radius:999px; padding:2px 8px 2px 5px; font:500 10px 'IBM Plex Sans',sans-serif; color:#2b2113; cursor:pointer; box-shadow:0 2px 8px rgba(40,28,10,.2); }
+  .map-legend button svg{ width:11px; height:11px; color:var(--kc); }
+  .map-legend button.on{ background:var(--kc); color:#fffaf0; }
+  /* zoom buttons: small, top-right; attribution rides just above the dock/card */
+  #bigMap .maplibregl-ctrl-top-right{ top:8px; right:8px; }
+  #bigMap .maplibregl-ctrl-group{ border-radius:8px; background:rgba(255,250,240,.82); box-shadow:0 1px 6px rgba(0,0,0,.22); }
+  #bigMap .maplibregl-ctrl-group button{ width:26px; height:26px; }
+  #bigMap .maplibregl-ctrl-group button .maplibregl-ctrl-icon{ background-size:18px 18px; background-position:center; }
+  #bigMap .maplibregl-ctrl-bottom-right, #bigMap .maplibregl-ctrl-bottom-left{ bottom:var(--map-inset,84px); transition:bottom .2s; }
+  .map-legend button.on svg{ color:#fffaf0; }
+  /* card gallery */
+  .mc-gal{ margin:-2px 0 9px; }
+  .mc-track{ display:flex; gap:8px; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; }
+  .mc-track::-webkit-scrollbar{ display:none; }
+  .mc-slide{ flex:0 0 100%; margin:0; scroll-snap-align:start; }
+  .mc-img{ position:relative; height:150px; border-radius:10px; overflow:hidden; background:#d9cfb8; }
+  .mc-img img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .mc-noimg{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-size:11.5px; color:var(--parchment-dim); }
+  .mc-kind{ position:absolute; left:8px; top:8px; display:inline-flex; align-items:center; gap:5px; background:var(--kc); color:#fffaf0; border-radius:999px; padding:3px 9px 3px 6px; font:600 10.5px 'IBM Plex Sans',sans-serif; letter-spacing:.03em; box-shadow:0 1px 5px rgba(0,0,0,.3); }
+  .mc-kind svg{ width:12px; height:12px; }
+  .mc-slide figcaption{ font-size:11px; line-height:1.4; color:var(--parchment-dim); margin:5px 2px 0; }
+  .mc-cr{ font-style:italic; }
+  .mc-src{ color:var(--gold); text-decoration:none; font-weight:600; white-space:nowrap; }
+  .mc-dots{ display:flex; justify-content:center; gap:5px; margin-top:6px; }
+  .mc-dots i{ width:6px; height:6px; border-radius:50%; background:var(--line); display:block; }
+  .mc-dots i.on{ background:var(--gold); }
+  /* thumbnails in picker + list */
+  .mc-pick{ display:flex; align-items:center; gap:10px; }
+  .mc-pick .th, .map-li .th{ flex:0 0 auto; width:38px; height:38px; border-radius:50%; overflow:hidden; background:#d9cfb8; border:2px solid var(--bc,#8a6d0b); box-sizing:border-box; }
+  .mc-pick .th img, .map-li .th img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .mc-pick .tx{ flex:1; min-width:0; }
+  .verse.map-flash{ background:rgba(201,162,39,.28); border-radius:6px; transition:background 1s; }
 </style>
 </head>
 <body>
@@ -1523,7 +1651,7 @@
 
             <div class="spark-notes">
               <p class="ctx-subhead" style="color:var(--verdigris); margin-bottom:6px;">SUMMARY</p>
-              <p class="panel-text" id="sparkNotesText" style="margin:0;"></p>
+              <div id="sparkNotesText"></div>
             </div>
 
             <div class="accordion" id="contextAccordion"></div>
@@ -1578,6 +1706,7 @@
           <div class="tab-panel" data-panel="translation">
             <section class="sec">
               <div class="sec-head"><h3 class="sec-title" id="translationHeading"></h3><span class="sec-sub" id="kwSub"></span></div>
+              <div class="kw-chips" id="kwChips"></div>
               <div id="translationList"></div>
             </section>
             <section class="sec" id="wbwTab">
@@ -1615,15 +1744,34 @@
       </div>
     </div>
 
-    <!-- GAMES SCREEN (placeholder) -->
-    <div class="screen" id="screen-games">
-      <div class="placeholder-screen">
-        <div class="placeholder-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><circle cx="17.5" cy="13" r="0.8" fill="currentColor"/></svg>
+    <!-- MAP SCREEN -->
+    <div class="screen" id="screen-map">
+      <div class="map-wrap">
+        <div id="bigMap"></div>
+        <div class="map-dock" id="mapDock">
+        <div class="map-legend" id="mapLegend" aria-label="Photo types">
+          <button type="button" data-k="art" style="--kc:#8C4646"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.6a6.4 6.4 0 1 0 0 12.8c1.2 0 1.6-.8 1.1-1.6-.5-.8-.1-1.9 1-1.9H12a2.4 2.4 0 0 0 2.4-2.4C14.4 4.5 11.6 1.6 8 1.6z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="5" cy="7.2" r="1.05" fill="currentColor"/><circle cx="8" cy="4.9" r="1.05" fill="currentColor"/><circle cx="11" cy="6.6" r="1.05" fill="currentColor"/></svg>Art</button>
+          <button type="button" data-k="now" style="--kc:#3f7a6b"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.6" y="4.6" width="12.8" height="8.8" rx="2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="9" r="2.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M5.6 4.6l.9-2h3l.9 2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Today</button>
+          <button type="button" data-k="dig" style="--kc:#b0702f"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 14h11M4.5 14V7M8 14V7M11.5 14V7M2.5 7h11M8 2L2.2 6.6h11.6z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/></svg>Archaeology</button>
         </div>
-        <p class="placeholder-tag">Coming soon</p>
-        <h2 class="placeholder-title">Games</h2>
-        <p class="placeholder-text">Trivia, verse challenges, and more — built once there's enough chapter content to draw from.</p>
+        <div class="map-top">
+          <div class="map-chips" id="mapBooks"></div>
+          <div class="map-row">
+            <div class="map-seg" id="mapTst">
+            <button data-t="all" class="on">All</button><button data-t="NT" title="New Testament">NT</button><button data-t="OT" title="Old Testament">OT</button>
+          </div>
+            <select id="mapChapter" class="map-sel" aria-label="Chapter" hidden></select>
+            <span class="map-count" id="mapCount"></span>
+            <button class="map-listbtn" id="mapListBtn" type="button">List</button>
+          </div>
+        </div>
+        </div>
+        <div class="map-msg" id="mapMsg" hidden></div>
+        <div class="map-card" id="mapCard" hidden></div>
+        <div class="map-list" id="mapList" hidden>
+          <div class="map-list-h"><span id="mapListTitle"></span><button type="button" id="mapListX" aria-label="Close list">&times;</button></div>
+          <div class="map-list-body" id="mapListBody"></div>
+        </div>
       </div>
     </div>
 
@@ -1704,9 +1852,9 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
       <span>Read</span>
     </button>
-    <button class="nav-btn" id="navBtnGames" data-screen="games">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="10" rx="5"/><path d="M7 10v4M5 12h4"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><circle cx="17.5" cy="13" r="0.8" fill="currentColor"/></svg>
-      <span>Games</span>
+    <button class="nav-btn" id="navBtnMap" data-screen="map">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></svg>
+      <span>Map</span>
     </button>
     <div class="nav-btn-center">
       <button class="nav-center-circle" id="navBtnDeepDive" data-screen="deepdive">

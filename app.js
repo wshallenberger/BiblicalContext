@@ -334,25 +334,51 @@ const ACCORDION_ICONS = {
 
 let accordionOpen = {};
 
+// Clamped preview + "Read more" (Setting & History tab). The button only shows when the text really is cut off.
+function rmHtml(html) {
+  return `<div class="rm"><p class="panel-text rm-body">${html}</p><button type="button" class="rm-btn"><span class="rm-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button></div>`;
+}
+function wireRm(root) {
+  root.querySelectorAll('.rm').forEach(r => {
+    if (r._wired) return; r._wired = true;
+    const body = r.querySelector('.rm-body');
+    r.classList.toggle('can', body.textContent.length > 100);
+    r.querySelector('.rm-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      const o = r.classList.toggle('open');
+      r.querySelector('.rm-lbl').textContent = o ? 'Show less' : 'Read more';
+    });
+  });
+  refreshRm(root);
+}
+function refreshRm(root) {
+  (root || document).querySelectorAll('.rm:not(.open)').forEach(r => {
+    const b = r.querySelector('.rm-body');
+    if (!b || !b.offsetParent) return;
+    r.classList.toggle('can', b.scrollHeight > b.clientHeight + 1);
+  });
+}
+window.addEventListener('resize', () => refreshRm());
+
 function renderAccordion(ctx) {
   accordionOpen = { setting: true, timeline: true };
 
   const sections = [];
 
-  let settingBody = `<p class="accordion-place">${toTitleCase(ctx.mapLabel.split('—')[0].trim())}</p><p class="panel-text">${ctx.setting}</p>`;
+  let settingBody = `<p class="accordion-place">${toTitleCase(ctx.mapLabel.split('—')[0].trim())}</p>${rmHtml(ctx.setting)}`;
   if (ctx.history) {
-    settingBody += `<p class="ctx-subhead ctx-subhead-spaced">HISTORY</p><p class="panel-text">${ctx.history}</p>`;
+    settingBody += `<p class="ctx-subhead ctx-subhead-spaced">HISTORY</p>${rmHtml(ctx.history)}`;
   }
-  settingBody += `<p class="ctx-subhead ctx-subhead-spaced">CUSTOMS</p><p class="panel-text">${ctx.custom}</p>`;
+  settingBody += `<p class="ctx-subhead ctx-subhead-spaced">CUSTOMS</p>${rmHtml(ctx.custom)}`;
   sections.push({ id: 'setting', label: 'Setting and History', icon: 'setting', body: settingBody });
 
   sections.push({
     id: 'timeline',
     label: 'Timeline',
     icon: 'timeline',
-    body: `<p class="panel-text">${ctx.timelineImmediate}</p>
+    body: `${rmHtml(ctx.timelineImmediate)}
            <p class="ctx-subhead ctx-subhead-spaced" style="margin-top:14px;">BIBLE-WIDE</p>
-           <p class="panel-text">${ctx.timelineBible}</p>
+           ${rmHtml(ctx.timelineBible)}
            <button class="ctx-timeline-link" id="ctxTimelineLink">
              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">${ACCORDION_ICONS.timeline}</svg>
              See the full Bible timeline
@@ -381,8 +407,10 @@ function drawAccordion(sections) {
       accordionOpen[id] = !accordionOpen[id];
       btn.nextElementSibling.classList.toggle('open', accordionOpen[id]);
       btn.querySelector('.accordion-chevron').classList.toggle('open', accordionOpen[id]);
+      refreshRm(btn.nextElementSibling);
     });
   });
+  wireRm(el);
 
   const link = document.getElementById('ctxTimelineLink');
   if (link) link.addEventListener('click', () => goToScreen('timeline'));
@@ -407,6 +435,8 @@ async function init() {
     }
   } catch (e) { /* storage unavailable; fall back to Matthew */ }
 
+  // archaeology photos are needed by the Deep Dive; never let a slow/missing file block the app for long
+  await Promise.race([loadMapImages(), new Promise(r => setTimeout(r, 3000))]);
   await loadChapter();
   goToScreen('read');
 
@@ -553,6 +583,9 @@ function goToScreen(name) {
   }
   if (name === 'timeline') {
     renderTimeline();
+  }
+  if (name === 'map') {
+    showMapScreen();
   }
 }
 
@@ -1112,7 +1145,7 @@ function renderFolderContent() {
   document.getElementById('ctxChapterTitle').textContent =
     currentChapterData.book + ' ' + currentChapterData.chapter + ': ' + currentChapterData.title;
 
-  document.getElementById('sparkNotesText').textContent = ctx.sparkNotes || '';
+  { const sn = document.getElementById('sparkNotesText'); sn.innerHTML = ctx.sparkNotes ? rmHtml(escHtml(ctx.sparkNotes)) : ''; wireRm(sn); }
 
   carouselIndex = 0;
   renderCarousel();
@@ -1134,6 +1167,7 @@ function renderFolderContent() {
   ctx.translation.forEach((entry, idx) => {
     const div = document.createElement('div');
     div.className = 'word-card exp';
+    div.id = 'kwc' + idx;
     const hasOcc = entry.occurrences && entry.occurrences.total;
     const usageBlock = hasOcc ? `
       <button class="word-usage-toggle" data-idx="${idx}">
@@ -1149,8 +1183,7 @@ function renderFolderContent() {
       </div>
       <span class="word-greek">${entry.greek}</span>
       <p class="word-meaning exp-body">${entry.meaning}</p>
-      ${(() => { const w = worldFor(Object.assign({ _wk: currentBook + '/' + currentChapterNum + '|' + String(entry.english).toLowerCase() }, entry)); return w ? `<p class="kw-world"><b>IN THEIR WORLD</b>${escHtml(w)}</p>` : ''; })()}
-      <div class="exp-extra">${usageBlock}</div>
+      <div class="exp-extra">${(() => { const w = worldFor(Object.assign({ _wk: currentBook + '/' + currentChapterNum + '|' + String(entry.english).toLowerCase() }, entry)); return w ? `<p class="kw-world"><b>IN THEIR WORLD</b>${escHtml(w)}</p>` : ''; })()}${usageBlock}</div>
       <span class="exp-more"><span class="exp-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
     `;
     tList.appendChild(div);
@@ -1160,6 +1193,16 @@ function renderFolderContent() {
   });
 
   wireExpand(tList);
+  const kwChips = document.getElementById('kwChips');
+  kwChips.innerHTML = ctx.translation.map((entry, idx) => `<button type="button" class="kw-chip" data-i="${idx}">${escHtml(entry.english)}</button>`).join('');
+  kwChips.querySelectorAll('.kw-chip').forEach(b => b.addEventListener('click', () => {
+    const card = document.getElementById('kwc' + b.dataset.i);
+    if (!card) return;
+    // Scroll only the Deep Dive content pane (scrollIntoView also nudges the phone frame and shifts the layout).
+    const top = card.getBoundingClientRect().top - folderContent.getBoundingClientRect().top + folderContent.scrollTop - 10;
+    try { folderContent.scrollTo({ top, behavior: 'smooth' }); } catch (e) { folderContent.scrollTop = top; }
+    card.classList.remove('kw-flash'); void card.offsetWidth; card.classList.add('kw-flash');
+  }));
   renderWbwTab();
   renderCmTab();
 
@@ -1344,16 +1387,34 @@ let lastOvScroll = 0, ovTouchMoved = false, ovTouchX = 0, ovTouchY = 0;
   }, { passive: true });
 })();
 
+// ---------- Archaeology photos per chapter (from data/map-images.json `_ch`; every chapter has at least one) ----------
+function chapterDigs() {
+  const keys = (MAPIMG._ch && MAPIMG._ch[currentBook + ':' + currentChapterNum]) || [];
+  return keys.map(k => MAPIMG[k]).filter(Boolean);
+}
+function archPrimary(ov) {
+  if (ov.archaeologyImage && ov.archaeologyImage.url) return { url: ov.archaeologyImage.url, name: ov.archaeologyImage.name || '', desc: ov.archaeologyImage.desc || '', img: null };
+  const d = chapterDigs()[0];
+  return d ? { url: mapImgUrl(d, 900), name: d.n || 'Archaeology', desc: d.d || d.c || '', img: d } : null;
+}
+function digCredit(im) {
+  const pg = mapImgPage(im);
+  return (im.a ? `<span class="mc-cr">Photo: ${escHtml(im.a)}</span> ` : '') + (pg ? `<a class="mc-src" href="${escHtml(pg)}" target="_blank" rel="noopener">${/commons/.test(pg) ? 'Source &amp; license' : 'Source'} ›</a>` : '');
+}
+
 function fillTemplateTabs(ctx) {
   const ov = ctx.overview || {};
   const arch = document.querySelector('[data-panel="archaeology"]');
   if (arch) {
-    const img = ov.archaeologyImage;
+    const main = archPrimary(ov);
     const items = Array.isArray(ov.archaeology) ? ov.archaeology : [];
+    const digs = chapterDigs();
+    const extras = digs.filter(d => !main || d !== main.img);
     arch.innerHTML = '<p class="panel-eyebrow">ARCHAEOLOGY</p>' +
-      (img && img.url ? `<div class="arch-photo"><img src="${displayImageUrl(img.url)}" alt="${escHtml(img.name || '')}" loading="lazy" decoding="async" onerror="this.parentNode.remove()"><span>${escHtml(img.name || '')}</span></div>` : '') +
+      (main ? `<figure class="arch-fig"><div class="arch-photo"><img src="${displayImageUrl(main.url)}" alt="${escHtml(main.name)}" loading="lazy" decoding="async" onerror="this.parentNode.remove()"><span>${escHtml(main.name)}</span></div>${main.img ? `<figcaption>${escHtml(main.img.c || '')} ${digCredit(main.img)}</figcaption>` : ''}</figure>` : '') +
       (items.length ? items.map(x => `<div class="au-row"><p class="ctx-subhead">${escHtml(x.h)}</p><p class="panel-text">${escHtml(x.t)}</p></div>`).join('') + '<p class="panel-text dim">Fuller write-ups coming soon.</p>'
-        : '<div class="tpl-card"><p class="panel-text dim" style="margin:0;">Sites, digs and artifacts tied to this chapter. Coming soon.</p></div>');
+        : '<div class="tpl-card"><p class="panel-text dim" style="margin:0;">Sites, digs and artifacts tied to this chapter. Fuller write-ups coming soon.</p></div>') +
+      (extras.length ? '<p class="ctx-subhead arch-more">MORE FROM THE DIGS</p>' + extras.slice(0, 4).map(d => `<figure class="arch-fig arch-card"><div class="arch-photo"><img src="${escHtml(mapImgUrl(d, 700))}" alt="${escHtml(d.n || '')}" loading="lazy" decoding="async" onerror="this.parentNode.remove()"><span>${escHtml(d.n || '')}</span></div><figcaption>${escHtml(d.c || '')} ${digCredit(d)}</figcaption></figure>`).join('') : '');
   }
   const dis = document.querySelector('[data-panel="discussion"]');
   if (dis) {
@@ -1387,6 +1448,7 @@ function renderOverview(ctx) {
   if (!hadOverview) setTab(0);
   else activeTabIndex = Math.max(0, tabOrder.indexOf(prevName));
 
+  const arch = archPrimary(ov);
   const img = ctx.historicalImage;
   const place = ov.placeName || (ctx.mapCoords && ctx.mapCoords.placeName ? ctx.mapCoords.placeName : toTitleCase((ctx.mapLabel || '').split('—')[0].trim()));
   const words = '<span class="ov-words">' + (ctx.translation || []).slice(0, 3).map(w => {
@@ -1436,10 +1498,10 @@ function renderOverview(ctx) {
       ${img ? `<button class="ov-blk ov-full ov-artblk" data-go="gallery"><img src="${displayImageUrl(img.url)}" alt="${escHtml(img.caption)}" loading="lazy" decoding="async"><span class="ov-artlabel">ART<i>›</i></span><span class="ov-artcap">${escHtml(img.caption)}</span></button>` : block('ov-full', 'ART', 'var(--gold)', 'gallery', '<span class="ov-sn">Artwork coming soon.</span>')}
       ${block('', 'REFERENCES', 'var(--gold)', 'xref', refs)}
       ${block('', 'COMMENTARY', 'var(--burgundy)', 'commentary', voices)}
-      ${ov.archaeologyImage && ov.archaeologyImage.url
-        ? `<button class="ov-blk ov-setblk" data-go="archaeology"><span class="ov-setphoto"><img src="${displayImageUrl(ov.archaeologyImage.url)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">ARCHAEOLOGY<i>›</i></span><span class="ov-placename">${escHtml(ov.archaeologyImage.name || '')}</span></span><span class="ov-setdesc">${escHtml(ov.archaeologyImage.desc || '')}</span></button>`
+      ${arch
+        ? `<button class="ov-blk ov-setblk${arch.img ? ' ov-setfit' : ''}" data-go="archaeology"><span class="ov-setphoto"><img src="${escHtml(displayImageUrl(arch.url))}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">ARCHAEOLOGY<i>›</i></span><span class="ov-placename">${escHtml(arch.name)}</span></span><span class="ov-setdesc">${escHtml(arch.desc)}</span></button>`
         : block('', 'ARCHAEOLOGY', 'var(--blue)', 'archaeology', ov.archaeology ? seg(ov.archaeology, 'var(--gold)') : '<span class="ov-sn ov-sn3">Sites, digs and artifacts tied to this chapter. Coming soon.</span>')}
-      ${block('ov-top', 'AUTHOR', 'var(--verdigris)', 'author', `<span class="ov-aname">${escHtml(ov.author || clip(ctx.author, 70))}</span><span class="ov-kv"><span><em>GENRE</em>${escHtml(ov.genre || String(ctx.genre).split(/[,—.]/)[0])}</span><span><em>AUDIENCE</em>${escHtml(ov.audience || clip(ctx.audience, 60))}</span>${GOSPEL_FACTS[currentBook] ? `<span><em>WRITTEN</em>${escHtml(GOSPEL_FACTS[currentBook].written)}</span><span><em>FOCUS</em>${escHtml(GOSPEL_FACTS[currentBook].focus)}</span>` : ''}</span>`, 'writing')}
+      ${block('ov-top', 'AUTHOR', 'var(--verdigris)', 'author', `<span class="ov-aname">${escHtml(ov.author || clip(ctx.author, 70))}</span><span class="ov-kv"><span><em>GENRE</em>${escHtml(ov.genre || String(ctx.genre).split(/[,—.]/)[0])}</span><span><em>AUDIENCE</em>${escHtml(ov.audience || clip(ctx.audience, 60))}</span>${GOSPEL_FACTS[currentBook] ? `<span><em>FOCUS</em>${escHtml(GOSPEL_FACTS[currentBook].focus)}</span>` : ''}</span>`, 'writing')}
       ${block('ov-full ov-tlblk', 'TIMELINE', 'var(--blue)', 'context', `<span class="ov-tl3" id="ovTl3">${tl3Html()}</span><span class="ov-tlcap">IN THIS CHAPTER</span><span class="ov-rail">${tl}</span>`, 'timeline')}
       <button class="ov-blk ov-soon" data-go="discussion"><span class="ov-h" style="color:var(--verdigris)">DISCUSSION<i>›</i></span><span class="ov-sn ov-sn5">${escHtml(ov.discussionShort || ov.discussion || 'Theology and discussion questions. Coming soon.')}</span></button>
       <div class="ov-blk ov-soon"><span class="ov-h" style="color:var(--burgundy)">PEOPLE &amp; PLACES<i></i></span><ul class="ov-bul">${(ov.peoplePlaces || (ov.people || []).concat(ov.places || []).map(n => ({ n, d: '' }))).map(x => `<li><b>${escHtml(x.n)}</b>${x.d ? ' · ' + escHtml(x.d) : ''}</li>`).join('')}</ul></div>
@@ -1546,6 +1608,7 @@ function setTab(index) {
   const actBtn = document.querySelector('.folder-tab.active:not(.pinned)');
   if (actBtn && actBtn.scrollIntoView) { try { actBtn.scrollIntoView({ inline: 'nearest', block: 'nearest' }); } catch (e) {} }
   updateOvMore();
+  refreshRm(document.querySelector(`.tab-panel[data-panel="${name}"]`));
   if (name === 'overview' && ovMap) setTimeout(() => { try { ovMap.resize(); } catch (e) {} }, 60);
   if (name === 'gallery') {
     if (chapterUsesLiveMap()) ensureLiveMap(); else ensureRegionMap();
@@ -1566,6 +1629,372 @@ folderContent.addEventListener('touchend', e => {
   }
   touchStartX = null;
 });
+
+// ---------- Map screen: Bible events as pins ----------
+// Data: data/events.json (hand-built Gospel events). Filters: testament, book, chapter. Basemap: OpenFreeMap via MapLibre.
+const MAP_BOOK_COLORS = { matthew: '#8a6d0b', mark: '#8C4646', luke: '#4a6a5a', john: '#4d5f8f' };
+const MAP_TST = { matthew: 'NT', mark: 'NT', luke: 'NT', john: 'NT' };
+let EVENTS = null, EV_BY_ID = {};
+let mapMain = null, mapMainReady = false, mapStyleFailed = false;
+let mapF = { tst: 'all', book: 'all', chapter: 'all' };
+let mapShown = [];       // events currently on the map (after filters)
+let mapSelId = null;
+let mapExtra = null;     // fallback "chapter setting" pin when a chapter has no curated event
+let mapEvP = null;
+let MAPIMG = {};         // data/map-images.json: key -> {k: art|now|dig, f: Commons file name, c: caption, a: artist}
+let mapKind = 'all';     // legend toggle: prefer art / now / dig photos on the markers
+const mapMarkers = new Map(); // marker key -> {m, el}
+const MAP_KINDS = { art: { label: 'Art', color: '#8C4646' }, now: { label: 'Today', color: '#3f7a6b' }, dig: { label: 'Archaeology', color: '#b0702f' } };
+const KIND_SVG = {
+  art: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.6a6.4 6.4 0 1 0 0 12.8c1.2 0 1.6-.8 1.1-1.6-.5-.8-.1-1.9 1-1.9H12a2.4 2.4 0 0 0 2.4-2.4C14.4 4.5 11.6 1.6 8 1.6z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="5" cy="7.2" r="1.05" fill="currentColor"/><circle cx="8" cy="4.9" r="1.05" fill="currentColor"/><circle cx="11" cy="6.6" r="1.05" fill="currentColor"/></svg>',
+  now: '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.6" y="4.6" width="12.8" height="8.8" rx="2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="9" r="2.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M5.6 4.6l.9-2h3l.9 2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>',
+  dig: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 14h11M4.5 14V7M8 14V7M11.5 14V7M2.5 7h11M8 2L2.2 6.6h11.6z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/></svg>'
+};
+let mapImgP = null;
+function loadMapImages() {
+  return mapImgP || (mapImgP = fetch('data/map-images.json').then(r => (r.ok ? r.json() : {})).catch(() => ({})).then(imgs => { MAPIMG = imgs || {}; return MAPIMG; }));
+}
+function loadEvents() {
+  return mapEvP || (mapEvP = Promise.all([
+    fetch('data/events.json').then(r => (r.ok ? r.json() : [])).catch(() => []),
+    loadMapImages()
+  ]).then(([list, imgs]) => {
+    EVENTS = list || []; EV_BY_ID = {}; EVENTS.forEach(e => { EV_BY_ID[e.i] = e; });
+    return EVENTS;
+  }));
+}
+// Event photos: each event has an `im` list of keys into MAPIMG (or inline {k,u,c,a} objects for fallback pins).
+function mapImgs(e) { return (e.im || []).map(x => (typeof x === 'string' ? MAPIMG[x] : x)).filter(Boolean); }
+function mapImgUrl(img, w) {
+  if (img.u) return img.u;
+  if (/^https?:/.test(img.f)) return img.f;
+  return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(img.f) + '?width=' + w;
+}
+function mapImgPage(img) {
+  if (img.u) return img.s || '';
+  if (/^https?:/.test(img.f)) return img.f;
+  return 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(img.f);
+}
+function mapHero(e) {
+  const imgs = mapImgs(e);
+  return (mapKind !== 'all' && imgs.find(i => i.k === mapKind)) || imgs[0] || null;
+}
+const mapBookName = slug => { const b = manifest && manifest.books.find(x => x.slug === slug); return b ? b.name : slug; };
+function refLabel(r) {
+  const [b, c1, v1, c2, v2] = r;
+  const nm = mapBookName(b);
+  if (c1 === c2) return `${nm} ${c1}:${v1}${v2 !== v1 ? '–' + v2 : ''}`;
+  return `${nm} ${c1}:${v1}–${c2}:${v2}`;
+}
+function evRefs(e) { return (e.r || []).map(refLabel).join(' · '); }
+function evPrimaryBook(e) { return e.r && e.r[0] ? e.r[0][0] : 'matthew'; }
+function evMatches(e) {
+  const rs = e.r || [];
+  if (mapF.tst !== 'all' && !rs.some(r => MAP_TST[r[0]] === mapF.tst)) return false;
+  if (mapF.book !== 'all') {
+    if (!rs.some(r => r[0] === mapF.book)) return false;
+    if (mapF.chapter !== 'all') { const c = Number(mapF.chapter); if (!rs.some(r => r[0] === mapF.book && r[1] <= c && c <= r[3])) return false; }
+  }
+  return true;
+}
+function mapOrderKey(e) {
+  if (mapF.book !== 'all') { const r = (e.r || []).find(x => x[0] === mapF.book) || e.r[0]; return r[1] * 1000 + r[2]; }
+  return e.i;
+}
+
+function renderMapControls() {
+  const nt = ['matthew', 'mark', 'luke', 'john'];
+  const chips = [`<button type="button" class="map-chip${mapF.book === 'all' ? ' on' : ''}" data-b="all"><i style="background:var(--gold)"></i>All books</button>`]
+    .concat(nt.filter(b => mapF.tst === 'all' || MAP_TST[b] === mapF.tst).map(b => `<button type="button" class="map-chip${mapF.book === b ? ' on' : ''}" data-b="${b}"><i style="background:${MAP_BOOK_COLORS[b]}"></i>${mapBookName(b)}</button>`));
+  const box = document.getElementById('mapBooks');
+  box.innerHTML = mapF.tst === 'OT' ? '' : chips.join('');
+  box.style.display = mapF.tst === 'OT' ? 'none' : 'flex';
+  box.querySelectorAll('.map-chip').forEach(btn => btn.addEventListener('click', () => {
+    mapF.book = btn.dataset.b; mapF.chapter = 'all'; applyMapFilters(true);
+  }));
+  document.querySelectorAll('#mapTst button').forEach(b => b.classList.toggle('on', b.dataset.t === mapF.tst));
+  const sel = document.getElementById('mapChapter');
+  if (mapF.book === 'all') { sel.hidden = true; }
+  else {
+    const bk = manifest.books.find(b => b.slug === mapF.book);
+    sel.innerHTML = '<option value="all">All chapters</option>' + (bk ? bk.availableChapters.map(n => `<option value="${n}">Chapter ${n}</option>`).join('') : '');
+    sel.value = String(mapF.chapter);
+    sel.hidden = false;
+  }
+}
+
+async function applyMapFilters(fit) {
+  await loadEvents();
+  mapExtra = null;
+  mapShown = EVENTS.filter(evMatches);
+  if (mapF.tst === 'OT') mapShown = [];
+  // A chapter with no curated event still gets a pin for its setting, taken from the chapter's own data.
+  if (mapF.book !== 'all' && mapF.chapter !== 'all' && !mapShown.length) {
+    try {
+      const ch = await fetchJSON(`data/${mapF.book}/${mapF.chapter}.json`);
+      const mc = ch.context && ch.context.mapCoords;
+      if (mc) {
+        const ov = ch.context.overview || {};
+        mapExtra = { i: 'c' + mapF.book + mapF.chapter, t: ch.title || (mapBookName(mapF.book) + ' ' + mapF.chapter), p: mc.placeName || '', la: mc.lat, ln: mc.lng,
+          r: [[mapF.book, Number(mapF.chapter), 1, Number(mapF.chapter), (ch.verses || []).length || 1]], s: ov.summary || ch.context.sparkNotes || '',
+          n: 'No single event is pinned for this chapter yet, so this marks the chapter’s general setting.', chapterPin: true };
+        const hi = ch.context.historicalImage;
+        if (hi && hi.url) mapExtra.im = [{ k: 'art', u: displayImageUrl(hi.url).replace(/width=1000/, 'width=900'), c: hi.caption || '', a: hi.credit || '' }];
+        EV_BY_ID[mapExtra.i] = mapExtra; mapShown = [mapExtra];
+      }
+    } catch (e) { /* leave empty */ }
+  }
+  renderMapControls();
+  const cnt = document.getElementById('mapCount');
+  const msg = document.getElementById('mapMsg');
+  if (mapF.tst === 'OT') { cnt.textContent = '0 events'; msg.textContent = 'Old Testament events are not pinned yet. This filter is ready for them.'; msg.hidden = false; }
+  else if (!mapShown.length) { cnt.textContent = '0 events'; msg.textContent = 'No events are pinned here yet.'; msg.hidden = false; }
+  else { msg.hidden = true; cnt.textContent = mapExtra ? 'chapter setting only' : (mapShown.length + (mapShown.length === 1 ? ' event' : ' events')); }
+  document.getElementById('mapCard').hidden = true; mapSelId = null;
+  pushMapData();
+  if (fit) fitMapToShown();
+}
+
+// ----- Photo markers: our own light clustering (110 points), DOM markers with round photos -----
+function mkThumb(img, w) {
+  return mapImgUrl(img, w).replace(/width=\d+/, 'width=' + w);
+}
+function markerHTML(g, hero) {
+  const lead = g[0].e, n = g.length;
+  const kcol = hero ? MAP_KINDS[hero.k].color : '#8a6d0b';
+  const bcol = MAP_BOOK_COLORS[evPrimaryBook(lead)] || '#8a6d0b';
+  const label = n > 1 ? n + ' events' : lead.t;
+  // clusters fan out up to two more photos from other events in the group
+  let back = '';
+  if (n > 1) {
+    const seen = new Set([hero && (hero.f || hero.u)]), extra = [];
+    g.slice(1).forEach(x => { const h = mapHero(x.e); const id = h && (h.f || h.u); if (h && !seen.has(id) && extra.length < 2) { seen.add(id); extra.push(h); } });
+    back = extra.map((h, k) => `<span class="pm-back b${k + 1}"><img src="${escHtml(mkThumb(h, 100))}" alt="" decoding="async" draggable="false" onerror="this.remove()"></span>`).join('');
+  }
+  return `${back}<div class="pm${n > 1 ? ' cl' : ''}${lead.chapterPin ? ' cp' : ''}" style="--kc:${kcol};--bc:${bcol}" title="${escHtml(label)}">
+    ${hero ? `<img src="${escHtml(mkThumb(hero, 120))}" alt="" decoding="async" draggable="false">` : ''}
+    ${hero ? `<span class="pm-k">${KIND_SVG[hero.k]}</span>` : ''}
+    ${n > 1 ? `<span class="pm-n">${n}</span>` : ''}
+    <span class="pm-lab">${escHtml(label)}</span></div>`;
+}
+function renderMarkers() {
+  if (!mapMain || !mapMainReady) return;
+  const R = 46; // px: roughly one marker diameter
+  const pts = mapShown.map(e => ({ e, p: mapMain.project([e.ln, e.la]) }));
+  pts.sort((a, b) => a.e.i - b.e.i);
+  const si = pts.findIndex(x => x.e.i === mapSelId);
+  if (si > 0) pts.unshift(pts.splice(si, 1)[0]);   // selected event leads its group, so its photo stays on top
+  const used = new Set(), groups = [];
+  pts.forEach(a => {
+    if (used.has(a)) return;
+    used.add(a); const g = [a];
+    pts.forEach(b => { if (!used.has(b) && Math.hypot(a.p.x - b.p.x, a.p.y - b.p.y) < R) { used.add(b); g.push(b); } });
+    groups.push(g);
+  });
+  const keep = new Set();
+  groups.forEach(g => {
+    const hero = mapHero(g[0].e);
+    const key = g.map(x => x.e.i).sort((a, b) => a - b).join(',') + '|' + (hero ? hero.f || hero.u : '');
+    keep.add(key);
+    let rec = mapMarkers.get(key);
+    if (!rec) {
+      const wrap = document.createElement('div'); wrap.className = 'pm-wrap';
+      wrap.innerHTML = markerHTML(g, hero);
+      const im = wrap.querySelector('img');
+      if (im) im.addEventListener('error', () => { im.remove(); });
+      const ids = g.map(x => x.e.i);
+      wrap.addEventListener('click', ev => { ev.stopPropagation(); onMarkerTap(ids); });
+      const lng = g.reduce((s, x) => s + x.e.ln, 0) / g.length, lat = g.reduce((s, x) => s + x.e.la, 0) / g.length;
+      const m = new maplibregl.Marker({ element: wrap, anchor: 'center' }).setLngLat([lng, lat]).addTo(mapMain);
+      rec = { m, el: wrap, ids };
+      mapMarkers.set(key, rec);
+    }
+    rec.el.classList.toggle('sel', rec.ids.includes(mapSelId));
+  });
+  mapMarkers.forEach((rec, key) => { if (!keep.has(key)) { rec.m.remove(); mapMarkers.delete(key); } });
+  const bigMap = document.getElementById('bigMap');
+  bigMap.classList.toggle('z-lab', mapMain.getZoom() >= 12.5);
+}
+function clearMarkers() { mapMarkers.forEach(rec => rec.m.remove()); mapMarkers.clear(); }
+function pushMapData() { clearMarkers(); renderMarkers(); }
+function onMarkerTap(ids) {
+  const evs = ids.map(i => EV_BY_ID[i]).filter(Boolean);
+  if (evs.length === 1) { selectEvent(evs[0], false); return; }
+  const pts = evs.map(e => [e.ln, e.la]);
+  const b = new maplibregl.LngLatBounds(pts[0], pts[0]); pts.forEach(p => b.extend(p));
+  const span = Math.max(b.getEast() - b.getWest(), b.getNorth() - b.getSouth());
+  if (span < 0.012 || mapMain.getZoom() >= 13) showPicker(evs);
+  else mapMain.fitBounds(b, { padding: { top: 60, bottom: 190, left: 60, right: 60 }, maxZoom: 13, duration: 500 });
+}
+function fitMapToShown() {
+  if (!mapMain || !mapMainReady || !mapShown.length) return;
+  let pts = mapShown.map(e => [e.ln, e.la]);
+  if (pts.length > 4) { // ignore far outliers (the flight to Egypt) so the default view stays on Israel
+    const med = a => a.slice().sort((x, y) => x - y)[Math.floor(a.length / 2)];
+    const mx = med(pts.map(p => p[0])), my = med(pts.map(p => p[1]));
+    const near = pts.filter(p => Math.abs(p[0] - mx) < 2 && Math.abs(p[1] - my) < 2); if (near.length) pts = near;
+  }
+  const b = new maplibregl.LngLatBounds(pts[0], pts[0]); pts.forEach(p => b.extend(p));
+  const pad = { top: 60, bottom: 130, left: 30, right: 30 };
+  if (pts.length === 1) mapMain.flyTo({ center: pts[0], zoom: 11, padding: pad, duration: 600 });
+  else mapMain.fitBounds(b, { padding: pad, maxZoom: 12, duration: 600 });
+}
+
+function ensureMainMap() {
+  if (mapMain) { requestAnimationFrame(() => mapMain.resize()); return; }
+  if (typeof maplibregl === 'undefined') { const m = document.getElementById('mapMsg'); m.textContent = 'The map library could not load. Check your connection and reload.'; m.hidden = false; return; }
+  mapMain = new maplibregl.Map({ container: 'bigMap', style: 'https://tiles.openfreemap.org/styles/liberty', center: [35.3, 32.2], zoom: 7.4, minZoom: 3, attributionControl: false });
+  mapMain.addControl(new maplibregl.AttributionControl({ compact: true }));
+  mapMain.dragRotate.disable(); mapMain.touchZoomRotate.disableRotation();
+  mapMain.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+  // keep the attribution just above whatever sits at the bottom (filter dock, or the event card when open)
+  const insetUpdate = () => {
+    const wrap = document.querySelector('#screen-map .map-wrap'), dock = document.getElementById('mapDock'), card = document.getElementById('mapCard');
+    if (!wrap || !dock) return;
+    const dh = dock.offsetHeight || 80;
+    wrap.style.setProperty('--dock-h', dh + 'px');
+    const ch = card && !card.hidden && card.offsetHeight ? card.offsetHeight + 8 : 0;
+    document.getElementById('bigMap').style.setProperty('--map-inset', (dh + 14 + ch) + 'px');
+  };
+  if (typeof ResizeObserver !== 'undefined') {
+    const ro = new ResizeObserver(insetUpdate);
+    ['mapDock', 'mapCard'].forEach(id => { const el = document.getElementById(id); if (el) ro.observe(el); });
+  }
+  insetUpdate();
+  mapMain.on('error', e => {
+    if (!mapMainReady && !mapStyleFailed && e && e.error && /style|fetch|Failed|network/i.test(String(e.error.message || e.error))) {
+      mapStyleFailed = true;
+      const m = document.getElementById('mapMsg'); m.textContent = 'The base map could not load. Check your connection and reload.'; m.hidden = false;
+    }
+  });
+  mapMain.on('load', () => {
+    // Quiet the base map: English names, no country labels, no shops/roads text.
+    const hide = /poi|housenumber|shield|aeroway|airport|transit|rail|ferry/;
+    (mapMain.getStyle().layers || []).forEach(layer => {
+      if (layer.type !== 'symbol') return;
+      const id = layer.id.toLowerCase(), f = JSON.stringify(layer.filter || []).toLowerCase();
+      if (hide.test(id) || ['country', 'state', 'continent', 'province'].some(c => id.includes(c) || (layer['source-layer'] === 'place' && f.includes(c)))) {
+        try { mapMain.setLayoutProperty(layer.id, 'visibility', 'none'); } catch (e) {}
+        return;
+      }
+      if (layer.layout && layer.layout['text-field']) { try { mapMain.setLayoutProperty(layer.id, 'text-field', ['coalesce', ['get', 'name:en'], ['get', 'name']]); } catch (e) {} }
+    });
+    mapMainReady = true;
+    applyMapFilters(true);
+    mapMain.on('moveend', renderMarkers);
+    mapMain.on('click', () => { document.getElementById('mapCard').hidden = true; setMapSel(null); });
+  });
+}
+
+function setMapSel(id) {
+  mapSelId = id;
+  mapMarkers.forEach(rec => rec.el.classList.toggle('sel', id != null && rec.ids.includes(id)));
+}
+
+const kindBadge = k => `<span class="mc-kind" style="--kc:${MAP_KINDS[k].color}">${KIND_SVG[k]}${MAP_KINDS[k].label}</span>`;
+function galleryHTML(e) {
+  const imgs = mapImgs(e);
+  if (!imgs.length) return '';
+  const slides = imgs.map((im, k) => {
+    const pg = mapImgPage(im);
+    return `<figure class="mc-slide"><div class="mc-img"><img src="${escHtml(mkThumb(im, 900))}" alt="${escHtml(im.c || '')}" loading="${k ? 'lazy' : 'eager'}" decoding="async">${kindBadge(im.k)}</div>
+      <figcaption>${escHtml(im.c || '')}${im.a ? ` <span class="mc-cr">· ${escHtml(im.a)}</span>` : ''}${pg ? ` <a class="mc-src" href="${escHtml(pg)}" target="_blank" rel="noopener">${/commons/.test(pg) ? 'Source &amp; license' : 'Source'} ›</a>` : ''}</figcaption></figure>`;
+  }).join('');
+  return `<div class="mc-gal"><div class="mc-track">${slides}</div>${imgs.length > 1 ? `<div class="mc-dots">${imgs.map((im, k) => `<i class="${k ? '' : 'on'}"></i>`).join('')}</div>` : ''}</div>`;
+}
+function selectEvent(e, fly) {
+  setMapSel(e.i);
+  const card = document.getElementById('mapCard');
+  const col = MAP_BOOK_COLORS[evPrimaryBook(e)] || '#8a6d0b';
+  card.style.borderLeftColor = col;
+  card.innerHTML = `<button type="button" class="mc-x" aria-label="Close">&times;</button>
+    ${galleryHTML(e)}
+    ${e.p ? `<p class="mc-place">${escHtml(e.p)}</p>` : ''}
+    <p class="mc-title">${escHtml(e.t)}</p>
+    ${e.s ? `<p class="mc-sum">${escHtml(e.s)}</p>` : ''}
+    ${e.n ? `<p class="mc-note">${escHtml(e.n)}</p>` : ''}
+    <div class="mc-refs">${(e.r || []).map((r, k) => `<button type="button" class="mc-ref" data-k="${k}">${escHtml(refLabel(r))} ›</button>`).join('')}</div>
+    <button type="button" class="mc-dive">Open chapter Deep Dive</button>`;
+  card.hidden = false; card.scrollTop = 0;
+  // keep the selected photo visible above the card (the card is about as tall as its content, up to its max)
+  const padCard = { top: 70, bottom: Math.min(card.offsetHeight, card.parentElement.clientHeight * 0.56) + (document.getElementById('mapDock').offsetHeight || 80) + 34, left: 20, right: 20 };
+  if (fly) mapMain.flyTo({ center: [e.ln, e.la], zoom: Math.max(mapMain.getZoom(), 11.5), padding: padCard, duration: 600 });
+  else mapMain.easeTo({ center: [e.ln, e.la], padding: padCard, duration: 450 });
+  card.querySelector('.mc-x').addEventListener('click', () => { card.hidden = true; setMapSel(null); });
+  card.querySelectorAll('.mc-ref').forEach(b => b.addEventListener('click', () => { const r = e.r[Number(b.dataset.k)]; openPassage(r[0], r[1], r[2], false); }));
+  card.querySelector('.mc-dive').addEventListener('click', () => { const r = (e.r.find(x => x[0] === mapF.book) || e.r[0]); openPassage(r[0], r[1], r[2], true); });
+  const track = card.querySelector('.mc-track');
+  if (track) {
+    const dots = card.querySelectorAll('.mc-dots i');
+    track.addEventListener('scroll', () => { const k = Math.round(track.scrollLeft / Math.max(1, track.clientWidth)); dots.forEach((d, j) => d.classList.toggle('on', j === k)); }, { passive: true });
+    card.querySelectorAll('.mc-img img').forEach(im => im.addEventListener('error', () => { im.replaceWith(Object.assign(document.createElement('span'), { className: 'mc-noimg', textContent: 'Image unavailable offline' })); }));
+  }
+}
+function evThumb(e, w) { const h = mapHero(e); return h ? `<img src="${escHtml(mkThumb(h, w))}" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : ''; }
+function showPicker(evs) {
+  evs.sort((a, b) => a.i - b.i);
+  const card = document.getElementById('mapCard');
+  setMapSel(null);
+  card.style.borderLeftColor = '#8a6d0b';
+  card.innerHTML = `<button type="button" class="mc-x" aria-label="Close">&times;</button><p class="mc-place">${evs.length} events here</p>` +
+    evs.map(e => `<button type="button" class="mc-pick" data-i="${e.i}"><span class="th">${evThumb(e, 80)}</span><span class="tx"><b>${escHtml(e.t)}</b><span>${escHtml(evRefs(e))}</span></span></button>`).join('');
+  card.hidden = false; card.scrollTop = 0;
+  card.querySelector('.mc-x').addEventListener('click', () => { card.hidden = true; });
+  card.querySelectorAll('.mc-pick').forEach(b => b.addEventListener('click', () => selectEvent(EV_BY_ID[b.dataset.i] || evs.find(x => String(x.i) === b.dataset.i), true)));
+}
+
+function openMapList() {
+  const list = mapShown.slice().sort((a, b) => mapOrderKey(a) - mapOrderKey(b));
+  document.getElementById('mapListTitle').textContent = (mapF.book === 'all' ? 'IN THE ORDER OF JESUS’ LIFE' : mapBookName(mapF.book).toUpperCase() + ' · IN READING ORDER') + ' · ' + list.length;
+  document.getElementById('mapListBody').innerHTML = list.length ? list.map(e => `<button type="button" class="map-li" data-i="${e.i}"><span class="th" style="--bc:${MAP_BOOK_COLORS[evPrimaryBook(e)]}">${evThumb(e, 80)}</span><div><b>${escHtml(e.t)}</b><span>${escHtml(evRefs(e))}${e.p ? ' · ' + escHtml(e.p) : ''}</span></div></button>`).join('') : '<p class="mc-sum">Nothing to list yet.</p>';
+  document.querySelectorAll('#mapListBody .map-li').forEach(b => b.addEventListener('click', () => {
+    document.getElementById('mapList').hidden = true;
+    const ev = EV_BY_ID[b.dataset.i]; if (ev) { selectEvent(ev, true); }
+  }));
+  document.getElementById('mapList').hidden = false;
+}
+
+function scrollToVerseIn(el) {
+  let p = el.parentElement;
+  while (p && p !== document.body) {
+    if (/(auto|scroll)/.test(getComputedStyle(p).overflowY) && p.scrollHeight > p.clientHeight) {
+      p.scrollTop = el.getBoundingClientRect().top - p.getBoundingClientRect().top + p.scrollTop - 90; return;
+    }
+    p = p.parentElement;
+  }
+}
+async function openPassage(book, ch, v, deep) {
+  currentBook = book; currentChapterNum = ch;
+  await loadChapter();
+  if (deep) { goToScreen('deepdive'); return; }
+  goToScreen('read');
+  setTimeout(() => {
+    const el = document.querySelector(`#verseList .verse[data-verse="${v}"]`);
+    if (el) { scrollToVerseIn(el); el.classList.add('map-flash'); setTimeout(() => el.classList.remove('map-flash'), 2200); }
+  }, 80);
+}
+
+function showMapScreen() {
+  loadEvents().then(() => {
+    ensureMainMap();
+    if (mapMainReady) { applyMapFilters(false); requestAnimationFrame(() => mapMain.resize()); }
+    else renderMapControls();
+  });
+}
+document.querySelectorAll('#mapTst button').forEach(b => b.addEventListener('click', () => {
+  mapF.tst = b.dataset.t;
+  if (mapF.book !== 'all' && mapF.tst !== 'all' && MAP_TST[mapF.book] !== mapF.tst) { mapF.book = 'all'; mapF.chapter = 'all'; }
+  applyMapFilters(true);
+}));
+document.getElementById('mapChapter').addEventListener('change', e => { mapF.chapter = e.target.value; applyMapFilters(true); });
+document.getElementById('mapListBtn').addEventListener('click', openMapList);
+document.querySelectorAll('#mapLegend button').forEach(b => b.addEventListener('click', () => {
+  mapKind = (mapKind === b.dataset.k) ? 'all' : b.dataset.k;
+  document.querySelectorAll('#mapLegend button').forEach(x => x.classList.toggle('on', x.dataset.k === mapKind));
+  pushMapData();
+}));
+document.getElementById('mapListX').addEventListener('click', () => { document.getElementById('mapList').hidden = true; });
+
 
 // ---------- Init ----------
 init();
