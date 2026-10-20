@@ -717,13 +717,13 @@ const TL_BOOKS = [
 const tlAbbr = n => { const m = n.match(/^(\d )?(.+)$/); const core = m[2].split(' ')[0]; return (m[1] || '') + (core.length > 4 ? core.slice(0, 3) : core); };
 let TL = null, tlP = null, tlSel = null, tlLayout = [], tlBuilt = false, tlFocusPending = null, tlLastFocus = 0;
 let tlLv = 0, tlViewMode = 'line', tlYear = -586, tlLanesOff = [];
-let tlZ = { l0: 0.9, l1: 0.9, threads: 1, lanes: 4 }; // opens at about 90%, starting at the life of Jesus
+let tlZ = { l0: 0.6, l1: 0.6, threads: 1, lanes: 4 }; // opens at 60%, starting at the life of Jesus
 let tlBook = null, tlChap = null, tlGroup = null, tlHitI = -1, tlHits = { all: [], vis: [] }, tlShelfShut = false;
 const tlSave = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
 try {
   const lv = localStorage.getItem('vi_tl_lv2');
   if (lv === '0' || lv === '1') tlLv = Number(lv);
-  const z = JSON.parse(localStorage.getItem('vi_tl_zoom4') || 'null');
+  const z = JSON.parse(localStorage.getItem('vi_tl_zoom5') || 'null');
   if (z && typeof z === 'object') Object.keys(tlZ).forEach(k => { if (z[k] > 0.3 && z[k] < 15) tlZ[k] = z[k]; });
   const y = Number(localStorage.getItem('vi_tl_year')); if (y) tlYear = y;
   const lo = JSON.parse(localStorage.getItem('vi_tl_lanes_off') || '[]'); if (Array.isArray(lo)) tlLanesOff = lo;
@@ -914,7 +914,7 @@ function tlGoLevel(n, o) {
   let fi = o.fi;
   if (fi == null) fi = tlViewMode === 'line' && tlLayout.length ? tlPosAt((view.scrollLeft + ax) / tlZ[tlZoomKey()]) : tlLastFocus;
   tlLv = n; tlViewMode = 'line';
-  tlSave('vi_tl_lv2', String(n)); tlSave('vi_tl_zoom4', JSON.stringify(tlZ));
+  tlSave('vi_tl_lv2', String(n)); tlSave('vi_tl_zoom5', JSON.stringify(tlZ));
   if (!o.keepSel) tlClose();
   tlRedraw(null);
   view.scrollLeft = Math.max(0, tlXOfFi(fi) * tlZ['l' + n] - ax);
@@ -925,7 +925,7 @@ function tlSetView(v) {
   if (v === tlViewMode && tlBuilt) return;
   tlLastFocus = tlCurrentFocus();
   tlViewMode = v;
-  if (v === 'threads') { tlZ.threads = 1; tlSave('vi_tl_zoom4', JSON.stringify(tlZ)); } // the books always open fitted to the width of the screen
+  if (v === 'threads') { tlZ.threads = 1; tlSave('vi_tl_zoom5', JSON.stringify(tlZ)); } // the books always open fitted to the width of the screen
   tlClose();
   tlRedraw(v === 'lanes' ? null : tlLastFocus);
 }
@@ -936,7 +936,7 @@ function tlSetZoom(z, ax) {
   z = Math.max(lo, Math.min(hi, z));
   const old = tlZ[key];
   if (Math.abs(z - old) < 0.002) return false;
-  tlZ[key] = z; tlSave('vi_tl_zoom4', JSON.stringify(tlZ));
+  tlZ[key] = z; tlSave('vi_tl_zoom5', JSON.stringify(tlZ));
   const zv = tlEl('tlZoomVal'); if (zv) zv.textContent = Math.round(z * 100) + '%';
   if (tlViewMode === 'threads') {
     const frac = (view.scrollLeft + ax) / Math.max(1, track.offsetWidth);
@@ -1596,7 +1596,7 @@ function tlApplyWide() {
 function rotHint() {
   const el = document.getElementById('rotHint'); if (!el) return;
   const portraitPhone = !isWideEnv() && window.innerWidth < 700;
-  const want = portraitPhone && (currentScreen === 'timeline' || currentScreen === 'map') && !rotSeen[currentScreen] && !(tour && tour.cur);
+  const want = portraitPhone && currentScreen === 'timeline' && !rotSeen[currentScreen] && !(tour && tour.cur);
   if (rotTimer && rotTimer.s === currentScreen && portraitPhone) return; // already showing for this screen
   clearTimeout(rotTimer && rotTimer.t); rotTimer = null;
   if (want) {
@@ -3185,15 +3185,22 @@ folderTabs.forEach(btn => {
   btn.addEventListener('click', () => setTab(tabOrder.indexOf(btn.dataset.tab)));
 });
 
-let touchStartX = null;
-folderContent.addEventListener('touchstart', e => { touchStartX = e.target.closest('.tabbar') ? null : e.touches[0].clientX; }, { passive: true });
+// Swiping sideways changes the tab, but only a clearly sideways swipe does: scrolling down with a little drift, a swipe
+// inside a sideways-scrolling strip (photos, tables), or a swipe past the first or last tab never switches tabs.
+let touchStartX = null, touchStartY = 0;
+const swipeBlocked = el => { for (let n = el; n && n !== folderContent; n = n.parentElement) { if (n.nodeType === 1 && n.scrollWidth > n.clientWidth + 4 && /auto|scroll/.test(getComputedStyle(n).overflowX)) return true; } return false; };
+folderContent.addEventListener('touchstart', e => {
+  const blocked = e.touches.length !== 1 || e.target.closest('.tabbar') || swipeBlocked(e.target);
+  touchStartX = blocked ? null : e.touches[0].clientX; touchStartY = blocked ? 0 : e.touches[0].clientY;
+}, { passive: true });
 folderContent.addEventListener('touchend', e => {
   if (touchStartX === null) return;
-  const dx = e.changedTouches[0].clientX - touchStartX;
-  if (Math.abs(dx) > 50) {
-    setTab(activeTabIndex + (dx < 0 ? 1 : -1));
-  }
+  const dx = e.changedTouches[0].clientX - touchStartX, dy = e.changedTouches[0].clientY - touchStartY;
   touchStartX = null;
+  if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 2.2) return;
+  const next = activeTabIndex + (dx < 0 ? 1 : -1);
+  if (next < 0 || next >= tabOrder.length) return;
+  setTab(next);
 });
 
 // ---------- Map screen: Bible events as pins ----------

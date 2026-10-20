@@ -711,10 +711,10 @@
   .ov-place svg{ color:var(--burgundy); flex:none; }
   .ov-words{ display:flex; flex-direction:column; gap:7px; font-size:12.5px; line-height:1.4; }
   .ov-w{ display:flex; flex-direction:column; min-width:0; gap:1px; }
-  .ov-w1{ font-size:11.5px; line-height:1.3; white-space:nowrap; overflow:hidden; }
+  .ov-w1{ font-size:11.5px; line-height:1.3; white-space:normal; overflow-wrap:anywhere; text-wrap:balance; }
   .ov-w1 .ov-greek{ font-family:'Literata',serif; color:var(--blue); font-size:1.1em; }
   .ov-w1 b{ font-weight:400; } .ov-w1 .ov-greek b{ font-weight:700; }
-  .ov-words .ov-def{ color:var(--parchment-dim); font-size:10.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ov-words .ov-def{ color:var(--parchment-dim); font-size:10.5px; line-height:1.3; white-space:normal; overflow-wrap:anywhere; text-wrap:balance; }
   .ov-subh{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:700; letter-spacing:0.08em; color:var(--parchment); margin-top:2px; }
   .ov-ref{ display:flex; flex-direction:column; font-size:12px; line-height:1.35; } .ov-ref b{ font-weight:400; } .ov-ref span{ color:var(--parchment-dim); font-size:11.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .ov-au{ display:grid; grid-template-columns:62px 1fr; gap:5px 8px; font-size:12px; line-height:1.35; }
@@ -2465,6 +2465,11 @@
   @media (orientation:landscape) and (max-height:520px){
     .tl-th{ height:46px; }
     .tl-dimg{ max-height:104px; }
+  }
+
+  /* Round 21: on a sideways phone the Connections starter message sits high, clear of the books */
+  @media (orientation:landscape) and (max-height:520px){
+    .th-empty{ top:4px; font-size:12.5px; line-height:1.4; max-width:min(520px,80%); }
   }
 </style>
 </head>
