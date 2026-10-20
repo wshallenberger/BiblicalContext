@@ -236,12 +236,12 @@
       "placeName": "Jerusalem, Judea",
       "history": [
         {
-          "h": "Lineage",
-          "t": "Ancestry decided property, priesthood and any claim to the throne of David."
-        },
-        {
           "h": "Herod the King",
           "t": "Herod the Great rules as Rome's client king and has no claim to David's throne."
+        },
+        {
+          "h": "A Subject People",
+          "t": "Rome ruled the land, and many Jews hoped for a son of David to restore their kingdom."
         }
       ],
       "customs": [
@@ -250,8 +250,8 @@
           "t": "Betrothal was legally binding, so ending it took a formal divorce."
         },
         {
-          "h": "Naming",
-          "t": "When Joseph names the child, he legally claims Him as his own son."
+          "h": "Genealogies",
+          "t": "Jewish family lists usually named fathers only, so Matthew's four women stand out."
         }
       ],
       "archaeology": [
