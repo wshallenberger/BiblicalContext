@@ -658,6 +658,7 @@ function renderDiveHome() {
 
 // ---------- Screen routing ----------
 function goToScreen(name) {
+  const prevScreen = currentScreen;
   currentScreen = name;
   tlApplyWide();
   screens.forEach(s => s.classList.toggle('active', s.id === `screen-${name}`));
@@ -679,7 +680,7 @@ function goToScreen(name) {
     renderTimeline();
   }
   if (name === 'map') {
-    showMapScreen();
+    showMapScreen(prevScreen !== 'map');
   }
   if (name !== 'timeline') tlClearSelection();
   tlApplyWide();
@@ -927,6 +928,7 @@ function tlSetView(v) {
   tlViewMode = v;
   if (v === 'threads') { tlZ.threads = 1; tlSave('vi_tl_zoom5', JSON.stringify(tlZ)); } // the books always open fitted to the width of the screen
   tlClose();
+  if (v === 'threads') { const tv = tlEl('tlView'); if (tv) tv.scrollLeft = 0; } // Connections opens at Genesis, not wherever the timeline was scrolled
   tlRedraw(v === 'lanes' ? null : tlLastFocus);
 }
 function tlSetZoom(z, ax) {
@@ -1172,7 +1174,7 @@ try {
   tlThFold = localStorage.getItem('vi_tl_thfold') === '1';
 } catch (e) {}
 const tlOvOn = () => (TL && TL.refs ? TL.refs.filter(o => tlOn.includes(o.id)) : []);
-const tlBookWts = () => TL_BOOKS.map(b => 6 + 2 * Math.sqrt(b[1]));
+const tlBookWts = () => TL_BOOKS.map(() => 1); // every book is the same width
 let tlBk = null; // geometry of the last draw: positions of each book
 function tlThreadBarDraw() {
   const bar = tlEl('tlThreadBar'), refs = TL.refs, groups = TL.refGroups || [];
@@ -1208,7 +1210,8 @@ function tlDrawThreads(anchor, ax) {
   tlThreadBarDraw();
   tlLayout = [];
   const z = tlZ.threads, padX = 16;
-  const W = Math.round(Math.max(300, view.clientWidth) * z);
+  const TL_MINBK = 11.5; // narrowest a book may be, so its name always fits: narrow screens scroll sideways
+  const W = Math.round(Math.max(Math.max(300, view.clientWidth) * z, TL_BOOKS.length * TL_MINBK + 2 * padX));
   const H = Math.max(150, view.clientHeight);
   const bookH = Math.max(48, Math.min(100, Math.round(H * 0.32))), grpH = 15, A = H - bookH - grpH - 16;
   const wts = tlBookWts(), tot = wts.reduce((s, v) => s + v, 0), usable = W - 2 * padX;
@@ -1254,7 +1257,7 @@ function tlDrawThreads(anchor, ax) {
   let html = `<svg class="bk-svg${total <= 110 ? ' few' : ''}" width="${W}" height="${A + 4}" viewBox="0 0 ${W} ${A + 4}">${line}<g class="ars">${arcs}</g><g class="dts">${dots}</g><g class="hts">${hits}</g></svg>`;
   const used = new Set(); merged.forEach(q => { used.add(q.a); used.add(q.b); });
   TL_BOOKS.forEach((b, i) => {
-    const lab = ws[i] >= 12.5 ? 'f' : ws[i] >= 9 ? 'a' : '';
+    const lab = ws[i] >= 15 && b[0].length * (b[0].length > 12 ? 4.7 : 5.4) <= bookH - 8 ? 'f' : 'a'; // a name on every book: the full name when there is room, else a short one
     html += `<button type="button" class="bk${used.has(i) || !total ? ' has' : ''}${b[0].length > 12 ? ' lg' : ''}" data-b="${i}" title="${b[0]}" aria-label="${b[0]}" style="left:${xs[i].toFixed(1)}px;top:${A + 3}px;width:${Math.max(1.5, ws[i] - 1).toFixed(1)}px;height:${bookH}px;--c:${TL_GROUPS[b[2]].c}">` +
       (lab ? `<span class="nm ${lab}">${lab === 'f' ? b[0] : tlAbbr(b[0])}</span>` : '') + '</button>';
   });
@@ -4151,11 +4154,25 @@ async function openPassage(book, ch, v, deep) {
   }, 80);
 }
 
-function showMapScreen() {
+// Every time the Map is opened from another tab or page it starts fresh: no filters, no story, no overlay, no open
+// card or list, and the default view (a map opened to show one place keeps that place, because it flies there afterwards).
+function showMapScreen(fresh) {
   mapWireFilters(); mapInset();
+  if (fresh) {
+    mapEra = 'off'; try { localStorage.setItem('foreverMapEra2', 'off'); } catch (e) { /* ignore */ }
+    try { applyEra(); } catch (e) { /* map not built yet */ }
+    mapF = { tst: 'all', book: 'all', chapter: 'all', from: 1, to: mapMaxI };
+    mapKind = 'all'; mapPins = 'photos'; mapStory = ''; mapWalk = null;
+    try { localStorage.setItem('foreverMapPins', 'photos'); localStorage.setItem('foreverMapStory', ''); } catch (e) { /* ignore */ }
+    document.querySelectorAll('#mapLegend button').forEach(x => x.classList.remove('on'));
+    try { mapFiltOpen(false); } catch (e) { /* ignore */ }
+    mapEl('mapCard').hidden = true; mapEl('mapCard').classList.remove('walking'); mapEl('mapList').hidden = true; setMapSel(null);
+    if (mapFocusMk) { mapFocusMk.remove(); mapFocusMk = null; }
+  }
   loadEvents().then(() => {
+    if (fresh) { mapF.to = mapMaxI; mapF.from = 1; }
     ensureMainMap();
-    if (mapMainReady) { applyMapFilters(false); requestAnimationFrame(() => mapMain.resize()); }
+    if (mapMainReady) { mapMain.resize(); applyMapFilters(!!fresh); requestAnimationFrame(() => mapMain.resize()); } // size first, so the camera is aimed at the real size
     else renderMapControls();
   });
 }
@@ -4193,11 +4210,11 @@ const TOUR_ICO = {
   time: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 19a6 11 0 0 1 12 0"/><path d="M9 19a6 7 0 0 1 12 0"/><path d="M3 19h18" opacity=".5"/></svg>'
 };
 const TOUR_RES = [
-  { k: 'verse', im: [['verse', 640, 609]], alt: 'The Verse Inspector open on Luke 2:2', t: 'Verse Inspector', s: 'Translations and commentary for any verse',
+  { k: 'verse', op: '50% 18%', im: [['verse', 640, 609]], alt: 'The Verse Inspector open on Luke 2:2', t: 'Verse Inspector', s: 'Translations and commentary for any verse',
     d: 'Tap any verse to compare translations and read what commentators say.' },
-  { k: 'dive', im: [['dive', 640, 821]], alt: 'The Chapter Deep Dive overview for Luke 2', t: 'Chapter Deep Dive', s: 'Setting, history, customs and more',
+  { k: 'dive', op: '50% 9%', im: [['dive', 640, 821]], alt: 'The Chapter Deep Dive overview for Luke 2', t: 'Chapter Deep Dive', s: 'Setting, history, customs and more',
     d: 'Put a whole chapter in context: its setting, history, customs and more.' },
-  { k: 'map', im: [['map', 397, 407]], alt: 'The map with Bible places pinned', t: 'Map', s: 'Where the story happened',
+  { k: 'map', op: '50% 6%', im: [['map', 397, 407]], alt: 'The map with Bible places pinned', t: 'Map', s: 'Where the story happened',
     d: 'See where it happened and follow the story across the land.' },
   { k: 'time', im: [['line', 640, 459]], alt: 'The Timeline, and the Connections arcs', t: 'Timeline and Connections', s: 'When it happened, and how it all connects',
     d: 'See when it happened and how the Bible connects to itself.' }
@@ -4283,7 +4300,7 @@ function tourStart() {
   const phone = document.querySelector('.phone');
   const el = document.createElement('div');
   el.id = 'tour';
-  el.innerHTML = '<div class="tdim"></div><div class="tholes"></div><div class="tcard" role="dialog" aria-live="polite"></div>';
+  el.innerHTML = '<div class="tdim"></div><div class="tblk"></div><div class="tholes"></div><div class="tcard" role="dialog" aria-live="polite"></div>';
   phone.appendChild(el);
   tour = { el, list: TOUR_MAIN.slice(), i: -1, timer: setInterval(tourPlace, 250), cur: null, min: false, peek: null, holes: 0 };
   tourGo(0);
@@ -4334,7 +4351,7 @@ function tourRender() {
     const pk = tour.peek == null ? 0 : tour.peek, cr = TOUR_RES[pk];
     const list = s.res ? '<p class="tnote">Click on each one to learn about the different sections</p><div class="tres">' + TOUR_RES.map((r, k) =>
       `<button type="button" class="tic${k === pk ? ' on' : ''}" data-a="peek" data-i="${k}" aria-pressed="${k === pk}">${TOUR_ICO[r.k]}<span>${r.t}</span></button>`).join('') + '</div>' +
-      `<div class="tresx" key="${cr.k}"><div class="tprev">${cr.im.map(([f, w, h]) => `<img src="${TOUR_IMG[f] || 'images/guide/' + f + '.jpg'}" width="${w}" height="${h}" alt="${cr.alt}" onerror="tourImgFail(this,'${cr.k}')">`).join('')}</div><p>${cr.d}</p></div>` : '';
+      `<div class="tresx" key="${cr.k}"><div class="tprev" style="--op:${cr.op || '50% 0%'}">${cr.im.map(([f, w, h]) => `<img src="${TOUR_IMG[f] || 'images/guide/' + f + '.jpg'}" width="${w}" height="${h}" alt="${cr.alt}" onerror="tourImgFail(this,'${cr.k}')">`).join('')}</div><p>${cr.d}</p></div>` : '';
     const minBtn = s.col ? '<button type="button" class="tmin" data-a="min" aria-label="Collapse this tip">&minus;</button>' : '';
     html = `${minBtn}<h3>${s.t}</h3><div class="tbody">${s.b}</div>${list}${foot}${tourDots(s)}`;
   }
@@ -4379,6 +4396,31 @@ function tourPlace() {
       });
       dim.clipPath = `path(evenodd, "${d}")`;
     } else dim.clipPath = 'none';
+  }
+  // everything outside the highlighted areas takes the taps (plain rectangles, not the dim layer's clip-path, because
+  // some phone browsers ignore clip-path when deciding what was touched, which left the highlighted area untouchable)
+  {
+    const bx = el.querySelector('.tblk');
+    let sig = 'x';
+    if (!s.free) {
+      const xs = [0, W], ys = [0, H];
+      holes.forEach(o => { xs.push(o.x, o.x + o.w); ys.push(o.y, o.y + o.h); });
+      const ux = [...new Set(xs.map(v => Math.max(0, Math.min(W, Math.round(v)))))].sort((a, b) => a - b), uy = [...new Set(ys.map(v => Math.max(0, Math.min(H, Math.round(v)))))].sort((a, b) => a - b);
+      const inH = (cx, cy) => holes.some(o => cx > o.x && cx < o.x + o.w && cy > o.y && cy < o.y + o.h);
+      const rects = [];
+      for (let j = 0; j < uy.length - 1; j++) {
+        let run = null;
+        for (let i = 0; i < ux.length - 1; i++) {
+          const cx = (ux[i] + ux[i + 1]) / 2, cy = (uy[j] + uy[j + 1]) / 2;
+          if (inH(cx, cy)) { if (run) { rects.push(run); run = null; } continue; }
+          if (run) run[2] = ux[i + 1]; else run = [ux[i], uy[j], ux[i + 1], uy[j + 1]];
+        }
+        if (run) rects.push(run);
+      }
+      sig = rects.map(r => r.join(',')).join(';');
+      if (bx.dataset.sig !== sig) bx.innerHTML = rects.map(r => `<div class="tb" style="left:${r[0]}px;top:${r[1]}px;width:${r[2] - r[0]}px;height:${r[3] - r[1]}px"></div>`).join('');
+    } else if (bx.dataset.sig !== sig) bx.innerHTML = '';
+    bx.dataset.sig = sig;
   }
   // rings (and tap-blockers over the highlighted area when it is look-only)
   const box = el.querySelector('.tholes');

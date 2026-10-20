@@ -2301,7 +2301,8 @@
 
   /* ---------- First-run guide ---------- */
   #tour{ position:absolute; inset:0; z-index:600; pointer-events:none; font-family:'IBM Plex Sans',sans-serif; }
-  #tour .tdim{ position:absolute; inset:0; background:rgba(22,19,12,.56); pointer-events:auto; }
+  #tour .tdim{ position:absolute; inset:0; background:rgba(22,19,12,.56); pointer-events:none; }
+  #tour .tblk{ position:absolute; inset:0; pointer-events:none; } #tour .tb{ position:absolute; pointer-events:auto; touch-action:none; }
   #tour .thb{ position:absolute; pointer-events:auto; }
   #tour .tring{ position:absolute; pointer-events:none; border:1.5px solid rgba(138,109,11,.95); box-shadow:0 0 0 3px rgba(255,250,240,.4), 0 0 20px rgba(138,109,11,.4); animation:tourPulse 2s ease-in-out infinite; }
   @keyframes tourPulse{ 50%{ box-shadow:0 0 0 6px rgba(255,250,240,.18), 0 0 26px rgba(138,109,11,.18); } }
@@ -2355,7 +2356,9 @@
   #tour .tic span{ font:500 10px/1.15 'IBM Plex Sans',sans-serif; text-align:center; }
   #tour .tic.on{ border-color:rgba(138,109,11,.5); background:rgba(138,109,11,.12); color:var(--parchment); }
   #tour .tresx{ margin-top:10px; animation:tfade .35s ease both; }
-  #tour .tres ~ .tresx .tprev{ max-height:min(250px,27vh); margin-bottom:8px; }
+  #tour .tres ~ .tresx .tprev{ height:clamp(118px,25vh,190px); margin-bottom:8px; }
+  #tour .tres ~ .tresx .tprev img{ width:100%; height:100%; object-fit:cover; object-position:var(--op,50% 0%); }
+  #tour .tres ~ .tresx .tprev[data-fb]{ height:auto; }
   #tour .tresx p{ font-size:13px !important; margin-top:2px !important; text-align:center; }
   @keyframes tfade{ from{ opacity:0; transform:translateY(4px); } to{ opacity:1; transform:none; } }
   #tour .tprev{ margin:2px 0 10px; border-radius:14px; overflow:hidden; border:1px solid rgba(138,109,11,.2); background:#f4efe3; text-align:left; }
@@ -2456,7 +2459,9 @@
     #tour .tcard.res h3{ font-size:17px; }
     #tour .tcard.res .tbody{ font-size:12.5px; line-height:1.4; }
     #tour .tcard.res .tbody p{ font-size:12.5px; line-height:1.4; margin-top:4px; }
-    #tour .tres ~ .tresx .tprev{ max-height:min(96px,26vh); margin-bottom:5px; }
+    #tour .tres ~ .tresx{ display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:14px; align-items:center; }
+    #tour .tres ~ .tresx .tprev{ height:min(132px,34vh); margin:0; }
+    #tour .tres ~ .tresx p{ text-align:left !important; font-size:13.5px !important; line-height:1.5 !important; }
     #tour .tnote{ margin-top:6px !important; }
     #tour .tres{ margin-top:6px; } #tour .tic{ padding:6px 2px 5px; flex-direction:row; justify-content:center; gap:5px; } #tour .tic svg{ width:16px; height:16px; flex:none; }
   }
