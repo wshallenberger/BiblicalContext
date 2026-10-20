@@ -2407,6 +2407,59 @@
   .th-gtabs{ padding-top:7px; }
   .tl-head .tl-ttop .th-gtabs{ padding-top:7px; }
   .th-gt u{ position:absolute; top:-7px; right:-4px; padding:0 5px; min-width:14px; box-sizing:border-box; text-align:center; font-size:9px; line-height:14px; height:14px; box-shadow:0 0 0 1.5px var(--ink); }
+
+  /* Round 19: Wide view is the only view for Map and Timeline / Connections */
+  .tl-wide, .map-wide{ display:none !important; }
+  .rot-hint{ position:absolute; top:10px; left:50%; transform:translate(-50%,-8px); z-index:40; display:flex; align-items:center; gap:7px; max-width:calc(100% - 24px); padding:7px 13px; border-radius:999px; background:rgba(40,32,18,.88); color:#fffaf0; font:500 11.5px 'IBM Plex Sans',sans-serif; opacity:0; transition:opacity .4s ease, transform .4s ease; pointer-events:none; white-space:nowrap; }
+  .rot-hint[hidden]{ display:none; }
+  .rot-hint.on{ opacity:1; transform:translate(-50%,0); }
+  .rot-hint svg{ width:16px; height:16px; flex:none; }
+
+  /* Round 19: phone turned sideways: a slim bottom bar and slim top rows, so the content gets the screen */
+  @media (orientation:landscape) and (max-height:520px){
+    .phone.wide{ width:100%; max-width:none; height:100vh; height:100dvh; max-height:none; border-radius:0; box-shadow:none; }
+    .bottom-nav{ align-items:center; padding:2px max(6px, env(safe-area-inset-right)) calc(2px + env(safe-area-inset-bottom, 0px)) max(6px, env(safe-area-inset-left)); }
+    .nav-btn{ flex-direction:row; justify-content:center; align-items:center; gap:6px; min-height:30px; padding:2px 4px; }
+    .nav-btn svg{ width:16px; height:16px; flex:none; }
+    .nav-btn span, .nav-btn[data-screen="timeline"] span{ font-size:10px; max-width:none; white-space:nowrap; letter-spacing:0; }
+    .nav-btn-center{ flex-direction:row; justify-content:center; align-items:center; gap:6px; margin-top:0; }
+    .nav-center-circle{ width:30px; height:30px; border-width:2px; box-shadow:0 2px 6px rgba(var(--gold-rgb),0.3); }
+    .nav-center-circle svg{ width:15px; height:15px; }
+    .nav-btn-center span{ font-size:10px; white-space:nowrap; }
+    .quick-nav{ padding:5px 14px; gap:8px; }
+    .quick-nav-select{ padding:5px 24px 5px 10px; font-size:12px; }
+    .reader{ padding-top:10px; }
+
+    #screen-timeline .tl-head{ display:grid; grid-template-columns:auto minmax(0,1fr) auto auto; grid-template-areas:"ttl lvl views zoom"; align-items:center; column-gap:10px; row-gap:2px; padding:4px 12px 3px; }
+    #screen-timeline .tl-head .panel-eyebrow{ display:none; }
+    #screen-timeline .tl-head .tl-ttl{ grid-area:ttl; align-self:center; padding:0; }
+    #screen-timeline .tl-head .timeline-heading{ font-size:15px; white-space:nowrap; margin:0; }
+    #screen-timeline .tl-head .tl-views{ grid-area:views; justify-self:end; align-self:center; }
+    #screen-timeline .tl-head .tl-zoomwrap{ grid-area:zoom; align-self:center; justify-self:end; }
+    #screen-timeline .tl-head .tl-ctrls{ display:contents; }
+    #screen-timeline .tl-head .tl-levels{ grid-area:lvl; justify-self:start; align-self:center; }
+    #screen-timeline .tl-head .tl-views button{ padding:5px 10px; font-size:11px; }
+    #screen-timeline .tl-head .tl-levels button{ padding:4px 9px; font-size:11px; }
+    #screen-timeline .tl-head .tl-zoom button{ padding:3px 9px; }
+    #screen-timeline .tl-head .tl-zoom{ padding:0; }
+    #screen-timeline .tl-head.th{ grid-template-columns:auto minmax(0,1fr) auto auto; grid-template-areas:"ttl . views zoom" "top tabs tabs tabs"; }
+    #screen-timeline .tl-head.th .tl-ctrls{ display:none; }
+    #screen-timeline .tl-head.th .tl-ttop{ display:contents; }
+    #screen-timeline .tl-head.th .tl-ttop .th-top{ grid-area:top; margin:0; justify-self:start; }
+    #screen-timeline .tl-head.th .tl-ttop .th-gtabs{ grid-area:tabs; flex-wrap:nowrap; justify-content:flex-start; gap:5px; padding:6px 0 0; overflow:visible; }
+    #screen-timeline .tl-head.th .th-gt{ padding:3px 9px; font-size:10.5px; }
+    #screen-timeline .tl-hint{ display:none !important; }
+  }
+
+  @media (orientation:landscape) and (max-height:520px){
+    #tour .tcard.res{ max-height:calc(100% - 12px); overflow-y:auto; width:min(560px,calc(100% - 24px)) !important; padding-top:14px; padding-bottom:10px; }
+    #tour .tcard.res h3{ font-size:17px; }
+    #tour .tcard.res .tbody{ font-size:12.5px; line-height:1.4; }
+    #tour .tcard.res .tbody p{ font-size:12.5px; line-height:1.4; margin-top:4px; }
+    #tour .tres ~ .tresx .tprev{ max-height:min(96px,26vh); margin-bottom:5px; }
+    #tour .tnote{ margin-top:6px !important; }
+    #tour .tres{ margin-top:6px; } #tour .tic{ padding:6px 2px 5px; flex-direction:row; justify-content:center; gap:5px; } #tour .tic svg{ width:16px; height:16px; flex:none; }
+  }
 </style>
 </head>
 <body>
@@ -2588,7 +2641,6 @@
     <div class="screen" id="screen-map">
       <div class="map-wrap">
         <div id="bigMap"></div>
-        <button type="button" class="map-wide" id="mapWideBtn">Wide view</button>
         <div class="map-dock" id="mapDock">
           <div class="map-fpanel" id="mapFilters" hidden role="dialog" aria-label="Map filters">
             <div class="mf-head"><b>Filters</b><button type="button" class="mf-reset" id="mapFReset">Reset</button><button type="button" class="mf-x" id="mapFClose" aria-label="Close filters">&times;</button></div>
@@ -2689,7 +2741,6 @@
           </div>
         </div>
         <div class="tl-ctrls">
-          <button type="button" class="tl-wide" id="tlWideBtn">Wide view</button>
           <div class="tl-levels" id="tlLevels" role="group" aria-label="Detail level">
             <button type="button" data-l="0">Overview</button><button type="button" data-l="1">Detail</button>
           </div>
@@ -2739,6 +2790,7 @@
     <button class="dive-btn" id="diveBtn">Chapter Deep Dive</button>
   </div>
 
+  <div class="rot-hint" id="rotHint" hidden role="status"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M19.5 2.5l2 2-2 2"/></svg>Turn your phone sideways for the best view</div>
   <!-- BOTTOM NAV BAR -->
   <nav class="bottom-nav">
     <button class="nav-btn" id="navBtnBook" data-screen="booknav">

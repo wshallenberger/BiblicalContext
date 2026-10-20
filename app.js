@@ -659,6 +659,7 @@ function renderDiveHome() {
 // ---------- Screen routing ----------
 function goToScreen(name) {
   currentScreen = name;
+  tlApplyWide();
   screens.forEach(s => s.classList.toggle('active', s.id === `screen-${name}`));
 
   document.querySelectorAll('.nav-btn, .nav-btn-center button').forEach(b => {
@@ -1580,23 +1581,43 @@ function tlClose() {
   document.querySelectorAll('#tlTrack .on').forEach(n => n.classList.remove('on'));
   tlLitBooks(null);
 }
-// Computer view: stretch the phone frame wide while on the Timeline (optional, remembered).
-let tlWide = false;
-try { tlWide = localStorage.getItem('vi_tl_wide') === '1'; } catch (e) {}
+// Wide view is the only view for the Map and the Timeline / Connections: the frame stretches wide on a computer or
+// tablet, and a phone turned sideways uses the whole screen. In portrait on a phone a small hint asks for a turn.
+const WIDE_MQ = '(min-width:700px) and (min-height:521px), (orientation:landscape) and (max-height:520px)';
+const isWideEnv = () => { try { return window.matchMedia(WIDE_MQ).matches; } catch (e) { return false; } };
+let wideWas = isWideEnv(), rotSeen = {}, rotTimer = null;
 function tlApplyWide() {
   const ph = document.querySelector('.phone'); if (!ph) return;
-  const on = tlWide && (currentScreen === 'timeline' || currentScreen === 'map');
+  const on = isWideEnv() && (currentScreen === 'timeline' || currentScreen === 'map');
   ph.classList.toggle('wide', on);
-  ['tlWideBtn', 'mapWideBtn'].forEach(id => { const b = document.getElementById(id); if (b) b.textContent = tlWide ? 'Phone view' : 'Wide view'; });
+  rotHint();
 }
+function rotHint() {
+  const el = document.getElementById('rotHint'); if (!el) return;
+  const portraitPhone = !isWideEnv() && window.innerWidth < 700;
+  const want = portraitPhone && (currentScreen === 'timeline' || currentScreen === 'map') && !rotSeen[currentScreen] && !(tour && tour.cur);
+  if (rotTimer && rotTimer.s === currentScreen && portraitPhone) return; // already showing for this screen
+  clearTimeout(rotTimer && rotTimer.t); rotTimer = null;
+  if (want) {
+    rotSeen[currentScreen] = true; el.hidden = false; requestAnimationFrame(() => el.classList.add('on'));
+    rotTimer = { s: currentScreen, t: setTimeout(() => { el.classList.remove('on'); setTimeout(() => { if (!el.classList.contains('on')) el.hidden = true; }, 400); }, 6000) };
+  } else { el.classList.remove('on'); el.hidden = true; }
+}
+function wideSync() {
+  const w = isWideEnv(); tlApplyWide();
+  if (w === wideWas) return;
+  const first = wideWas === null; wideWas = w; if (first) return;
+  if (currentScreen === 'timeline' && tlBuilt) { const f = tlCurrentFocus(); setTimeout(() => tlRedraw(f), 80); }
+  if (currentScreen === 'map') [120, 360].forEach(t => setTimeout(() => { try { mapInset(); if (mapMain) { mapMain.resize(); renderMarkers(); } } catch (e) {} }, t));
+}
+let wideTimer = null;
+['resize', 'orientationchange'].forEach(ev => window.addEventListener(ev, () => { clearTimeout(wideTimer); wideTimer = setTimeout(wideSync, 150); }));
 function tlWire() {
   if (tlWire.done) return; tlWire.done = true;
   document.querySelectorAll('#tlViews button').forEach(b => b.addEventListener('click', () => tlSetView(b.dataset.v)));
   document.querySelectorAll('#tlLevels button').forEach(b => b.addEventListener('click', () => tlGoLevel(Number(b.dataset.l))));
   tlEl('tlZoomIn').addEventListener('click', () => tlSetZoom(tlZ[tlZoomKey()] * 1.25));
   tlEl('tlZoomOut').addEventListener('click', () => tlSetZoom(tlZ[tlZoomKey()] / 1.25));
-  const wb = tlEl('tlWideBtn');
-  if (wb) wb.addEventListener('click', () => { tlWide = !tlWide; tlSave('vi_tl_wide', tlWide ? '1' : '0'); tlApplyWide(); const f = tlCurrentFocus(); setTimeout(() => tlRedraw(f), 60); });
   const hint = tlEl('tlHint');
   if (hint) hint.querySelector('button').addEventListener('click', () => { hint.hidden = true; tlSave('vi_tl_hint', '2'); });
   ['tlThreadBar', 'tlThreadTop'].forEach(id => tlEl(id).addEventListener('click', ev => {
@@ -3445,11 +3466,6 @@ function mapWireFilters() {
     try { localStorage.setItem('foreverMapPins', mapPins); } catch (e) { /* ignore */ }
     renderMapFilterUI(); pushMapData();
   });
-  const wb = mapEl('mapWideBtn');
-  if (wb) wb.addEventListener('click', () => {
-    tlWide = !tlWide; tlSave('vi_tl_wide', tlWide ? '1' : '0'); tlApplyWide();
-    [120, 360].forEach(t => setTimeout(() => { mapInset(); if (mapMain) { mapMain.resize(); renderMarkers(); } }, t));
-  });
 }
 // size hints for the dock and the Filters panel
 function mapInset() {
@@ -3712,7 +3728,7 @@ function fitMapToShown(extraBottom) {
   if (!extraBottom && !mapExtra && !mapActiveStory() && mapF.tst === 'all' && mapF.book === 'all' && mapF.chapter === 'all' && mapF.from <= 1 && mapF.to >= mapMaxI) {
     // no filters: the starting view is centered on Aqraba and zoomed out so a good chunk of the land shows
     const wide = document.querySelector('.phone').classList.contains('wide');
-    mapMain.flyTo({ center: [35.34, 32.15], zoom: wide ? 7.0 : 6.5, padding: { top: 0, bottom: 50, left: 0, right: 0 }, duration: 600 });
+    mapMain.flyTo({ center: [35.34, 32.15], zoom: mapMain.getContainer().clientHeight < 480 ? 6.1 : wide ? 7.0 : 6.5, padding: { top: 0, bottom: 50, left: 0, right: 0 }, duration: 600 });
     return;
   }
   let pts = mapShown.map(e => [e.ln, e.la]);
