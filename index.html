@@ -2410,7 +2410,7 @@
 
   /* Round 19: Wide view is the only view for Map and Timeline / Connections */
   .tl-wide, .map-wide{ display:none !important; }
-  .rot-hint{ position:absolute; top:10px; left:50%; transform:translate(-50%,-8px); z-index:40; display:flex; align-items:center; gap:7px; max-width:calc(100% - 24px); padding:7px 13px; border-radius:999px; background:rgba(40,32,18,.88); color:#fffaf0; font:500 11.5px 'IBM Plex Sans',sans-serif; opacity:0; transition:opacity .4s ease, transform .4s ease; pointer-events:none; white-space:nowrap; }
+  .rot-hint{ position:absolute; top:46%; left:50%; transform:translate(-50%,-8px); z-index:40; display:flex; align-items:center; gap:7px; max-width:calc(100% - 24px); padding:7px 13px; border-radius:999px; background:rgba(40,32,18,.88); color:#fffaf0; font:500 11.5px 'IBM Plex Sans',sans-serif; opacity:0; transition:opacity .4s ease, transform .4s ease; pointer-events:none; white-space:nowrap; }
   .rot-hint[hidden]{ display:none; }
   .rot-hint.on{ opacity:1; transform:translate(-50%,0); }
   .rot-hint svg{ width:16px; height:16px; flex:none; }
@@ -2459,6 +2459,12 @@
     #tour .tres ~ .tresx .tprev{ max-height:min(96px,26vh); margin-bottom:5px; }
     #tour .tnote{ margin-top:6px !important; }
     #tour .tres{ margin-top:6px; } #tour .tic{ padding:6px 2px 5px; flex-direction:row; justify-content:center; gap:5px; } #tour .tic svg{ width:16px; height:16px; flex:none; }
+  }
+
+  /* Round 20: sideways phone keeps real-size pictures on the cards and in the detail panel */
+  @media (orientation:landscape) and (max-height:520px){
+    .tl-th{ height:46px; }
+    .tl-dimg{ max-height:104px; }
   }
 </style>
 </head>

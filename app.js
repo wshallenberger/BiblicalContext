@@ -727,7 +727,8 @@ try {
   if (z && typeof z === 'object') Object.keys(tlZ).forEach(k => { if (z[k] > 0.3 && z[k] < 15) tlZ[k] = z[k]; });
   const y = Number(localStorage.getItem('vi_tl_year')); if (y) tlYear = y;
   const lo = JSON.parse(localStorage.getItem('vi_tl_lanes_off') || '[]'); if (Array.isArray(lo)) tlLanesOff = lo;
-  tlShelfShut = localStorage.getItem('vi_tl_shelf') === '0';
+  { const sv = localStorage.getItem('vi_tl_shelf2'); // the Bible shelf starts folded on a phone (portrait or landscape) and open on a bigger screen, until the person chooses
+    tlShelfShut = sv === null ? window.matchMedia('(max-width:699px), (orientation:landscape) and (max-height:520px)').matches : sv === '0'; }
 } catch (e) {}
 function tlPrep(j) {
   if (!j || !j.eras) return j;
@@ -758,7 +759,7 @@ function tlRefQuery(e) {
 // a timeline photo that fails to load (Wikimedia sometimes throttles) tries again before giving up
 function tlImgErr(im) {
   const n = Number(im.dataset.n || 0) + 1; im.dataset.n = n;
-  if (n <= 3) setTimeout(() => { if (im.isConnected) im.src = im.getAttribute('src'); }, 900 * n); else im.remove();
+  if (n <= 5) setTimeout(() => { if (im.isConnected) im.src = im.getAttribute('src'); }, 900 * n + Math.random() * 600); else im.remove();
 }
 function tlThumb(e) {
   if (!e.ev || !EV_BY_ID[e.ev]) return null;
@@ -874,7 +875,7 @@ function tlDrawTrack(focusFi) {
       const on = tlSel === e.id ? ' on' : '';
       html += `<span class="tl-dot${big}${on}" data-id="${e.id}" style="left:${it.x}px;background:${sec.color}"></span>` +
         `<button type="button" class="tl-card ${it.side}${big}${on}" data-id="${e.id}" data-k="${k}" style="left:${it.x - L.w / 2}px;width:${L.w}px;--c:${sec.color}">` +
-        (th ? `<img class="tl-th" src="${escHtml(th)}" alt="" decoding="async" onerror="tlImgErr(this)">` : '') +
+        (th ? `<img class="tl-th" src="${escHtml(th)}" alt="" loading="lazy" decoding="async" onerror="tlImgErr(this)">` : '') +
         `<span class="tl-date">${escHtml(e.d)}</span><b class="tl-title">${escHtml(e.t)}</b>` +
         `</button>`;
     });
@@ -1080,7 +1081,7 @@ function tlShelfBuild() {
     else if (a === 'next') tlHitStep(1);
     else if (a === 'clr') { tlBook = null; tlChap = null; tlGroup = null; tlHitI = -1; tlShelfSync(); tlApplyHits(); }
     else if (a === 'read') tlReadBook();
-    else if (a === 'tog') { tlShelfShut = !tlShelfShut; tlSave('vi_tl_shelf', tlShelfShut ? '0' : '1'); box.classList.toggle('shut', tlShelfShut); }
+    else if (a === 'tog') { tlShelfShut = !tlShelfShut; tlSave('vi_tl_shelf2', tlShelfShut ? '0' : '1'); box.classList.toggle('shut', tlShelfShut); }
   });
 }
 function tlPickBook(i) {
@@ -1179,7 +1180,7 @@ function tlThreadBarDraw() {
   const n = sel.reduce((s, o) => s + o.arcs.length, 0);
   let blurb;
   const empty = tlEl('tlThEmpty');
-  if (empty) { empty.hidden = sel.length > 0; empty.textContent = 'Pick one or more layers to draw how the books of the Bible refer to each other. Each arc runs from the book that is quoted to the book that quotes it.'; }
+  if (empty) { empty.hidden = sel.length > 0 || tlThOpen.length > 0; empty.textContent = 'Pick one or more layers to draw how the books of the Bible refer to each other. Each arc runs from the book that is quoted to the book that quotes it.'; }
   if (!sel.length) blurb = '';
   else if (sel.length === 1) blurb = `<b>${escHtml(sel[0].name)}.</b> ${escHtml(sel[0].blurb)}`;
   else blurb = `<b>${sel.length} layers on.</b> Tap a book to see its exact references, or tap an arc to see just those two books.`;
