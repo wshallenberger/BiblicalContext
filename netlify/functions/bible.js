@@ -128,6 +128,21 @@ function makeHandler(deps) {
   return async function handler(event) {
     if (event.httpMethod && event.httpMethod !== 'GET') return fail(405, 'METHOD', 'Use GET');
     const qs = event.queryStringParameters || {};
+    if (qs.list === 'bibles') {      // a look at which Bibles the API.Bible key can use (names and ids only, no text, no key): open /api/bible?list=bibles
+      if (!env.API_BIBLE_KEY) return fail(503, 'NEEDS_KEY', 'API_BIBLE_KEY is not set on the server');
+      if (!f) return fail(500, 'NO_FETCH', 'No fetch available on this server');
+      try {
+        const base = env.API_BIBLE_BASE || 'https://rest.api.bible/v1';
+        const r = await timeoutFetch(f, base + '/bibles?language=eng&include-full-details=false', { headers: { 'api-key': env.API_BIBLE_KEY } }, 8000);
+        if (!r.ok) throw upstream(r.status);
+        const j = await r.json();
+        const list = (j.data || []).map(b => ({ id: b.id, abbreviation: b.abbreviationLocal || b.abbreviation, name: b.nameLocal || b.name, language: b.language && b.language.id }));
+        return json(200, { count: list.length, bibles: list });
+      } catch (e) {
+        if (e && e.code) return fail(e.status || 502, e.code, e.message);
+        return fail(502, 'UPSTREAM', 'Could not reach the service');
+      }
+    }
     const tr = registry.translations.find(t => t.id === String(qs.t || '').toLowerCase());
     if (!tr) return fail(404, 'UNKNOWN_TRANSLATION', 'Unknown translation');
     const book = BibleBooks.find(qs.b), ch = Number(qs.c);
