@@ -2476,6 +2476,172 @@
   @media (orientation:landscape) and (max-height:520px){
     .th-empty{ top:4px; font-size:12.5px; line-height:1.4; max-width:min(520px,80%); }
   }
+
+  /* ---------- Round 23: Timeline | Year by Year, Connections on its own, a calmer header, and the Year by Year lanes ---------- */
+  .tl-views[role="group"]{ border:0; background:none; overflow:visible; gap:8px; display:flex; align-items:center; }
+  .tl-views .tv-seg, .tl-views .tv-solo{ border:1px solid var(--line); border-radius:999px; background:var(--ink-raised); overflow:hidden; display:flex; align-items:center; }
+  .tl-views .tv-seg button{ flex:1 1 auto; }
+  .tl-views button{ white-space:nowrap; }
+  .tl-views .tv-solo.on{ background:var(--gold); color:#fffaf0; border-color:var(--gold); }
+  #screen-timeline #tlHead{ display:grid; flex:none; position:relative; z-index:20; grid-template-columns:minmax(0,1fr) auto; grid-template-areas:"ttl zoom" "views views" "sub sub"; gap:8px 10px; align-items:center; padding:10px 14px 6px; }
+  #screen-timeline #tlHead .tl-ttl{ grid-area:ttl; min-width:0; padding:0; align-self:center; }
+  #screen-timeline #tlHead .tl-zoomwrap{ grid-area:zoom; justify-self:end; align-self:center; margin:0; }
+  #screen-timeline #tlHead .tl-views{ grid-area:views; justify-self:stretch; }
+  #screen-timeline #tlHead .tl-views .tv-seg{ flex:1 1 auto; }
+  #screen-timeline #tlHead .tl-ctrls{ display:contents; }
+  #screen-timeline #tlHead .tl-ctrls .tl-wide{ display:none; }
+  #screen-timeline #tlHead .tl-levels{ grid-area:sub; justify-self:start; align-self:center; }
+  #screen-timeline #tlHead .tl-ttop, #screen-timeline #tlHead .tl-ysub{ grid-area:sub; display:flex; align-items:center; min-width:0; position:relative; }
+  #screen-timeline #tlHead .tl-ttop[hidden], #screen-timeline #tlHead .tl-ysub[hidden], #screen-timeline #tlHead .tl-levels[hidden]{ display:none !important; }
+  #screen-timeline #tlHead .th-gtabs{ display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-start; gap:7px 6px; padding:7px 0 0; flex:1; min-width:0; }
+  #screen-timeline #tlHead .th-gt{ padding:4px 9px; font-size:10.5px; }
+  .th-clear{ flex:none; font:600 11px 'IBM Plex Sans',sans-serif; color:var(--gold); background:none; border:0; padding:5px 8px; cursor:pointer; white-space:nowrap; }
+  .th-clear[disabled]{ opacity:.35; cursor:default; }
+  .ys-lanes{ flex:none; display:inline-flex; align-items:center; gap:6px; font:600 11px 'IBM Plex Sans',sans-serif; padding:6px 11px; border-radius:999px; border:1px solid var(--line); background:var(--ink-raised); color:var(--parchment); cursor:pointer; }
+  .ys-lanes em{ font-style:normal; font-size:10px; opacity:.7; }
+  .ys-lanes[aria-expanded="true"]{ border-color:var(--gold); box-shadow:inset 0 0 0 1px var(--gold); }
+  .ys-jump{ display:flex; align-items:center; gap:6px; flex:1; min-width:0; overflow-x:auto; scrollbar-width:none; padding:2px 0 2px 8px; }
+  .ys-jump::-webkit-scrollbar{ display:none; }
+  .ys-jl{ flex:none; margin-left:10px; font:600 9px 'IBM Plex Mono',monospace; letter-spacing:.09em; text-transform:uppercase; color:var(--parchment-dim); }
+  .ys-jump button{ flex:none; font:600 11px 'IBM Plex Sans',sans-serif; padding:5px 10px; border-radius:999px; border:1px solid var(--line); background:none; color:var(--parchment-dim); cursor:pointer; white-space:nowrap; }
+  .ys-jump button:active{ background:var(--gold); color:#fffaf0; }
+  .yb-pop{ position:absolute; left:0; top:calc(100% + 6px); z-index:60; width:min(380px, calc(100vw - 28px)); background:var(--ink-raised); border:1px solid var(--line); border-radius:12px; box-shadow:0 14px 34px rgba(60,50,20,.24); padding:10px 12px 8px; }
+  .yb-pop[hidden]{ display:none !important; }
+  .yb-pop p{ margin:0 0 8px; font:600 11px 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); }
+  .yb-pop .th-chips{ display:flex; flex-wrap:wrap; gap:6px; }
+  .ys-reset{ margin-top:8px; background:none; border:0; padding:4px 0; font:600 11px 'IBM Plex Sans',sans-serif; color:var(--gold); cursor:pointer; }
+  .tl-view[hidden]{ display:none !important; }
+  @container tls (min-width:700px){
+    #screen-timeline #tlHead{ grid-template-columns:auto minmax(0,1fr) auto auto; grid-template-areas:"ttl . views zoom" "sub sub sub sub"; padding:12px 16px 6px; }
+    #screen-timeline #tlHead .tl-views{ justify-self:end; }
+    #screen-timeline #tlHead .tl-views .tv-seg{ flex:none; }
+    #screen-timeline #tlHead .th-gtabs{ justify-content:center; }
+    #screen-timeline #tlHead .tl-ysub{ justify-content:center; }
+    #screen-timeline #tlHead .tl-ysub .ys-jump{ flex:none; overflow:visible; }
+    #screen-timeline #tlHead .tl-levels{ justify-self:center; }
+  }
+  @container tls (min-width:900px){
+    #screen-timeline #tlHead:not(.th):not(.yb){ grid-template-areas:"ttl sub views zoom"; }
+  }
+  /* ----- the Year by Year view ----- */
+  .yb{ flex:1; min-height:0; display:flex; flex-direction:column; }
+  .yb[hidden]{ display:none !important; }
+  .yb-mini{ flex:none; display:flex; flex-direction:column; gap:5px; margin:2px 14px 7px; padding:7px 10px 8px; background:var(--ink-raised); border:1px solid var(--line); border-radius:10px; }
+  .yb-mt{ display:flex; align-items:baseline; gap:8px; min-width:0; }
+  .yb-mini .ml{ flex:none; font:600 9px 'IBM Plex Mono',monospace; letter-spacing:.09em; text-transform:uppercase; color:var(--parchment-dim); }
+  .yb-mini b{ font:600 12.5px 'Literata',serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0; }
+  .yb-mbar{ position:relative; height:18px; border-radius:6px; overflow:hidden; background:#ddd; touch-action:none; cursor:pointer; }
+  .yb-mbar i{ position:absolute; top:0; bottom:0; opacity:.5; border-right:1px solid var(--ink-raised); }
+  .yb-mbar u{ position:absolute; top:0; bottom:0; box-sizing:border-box; border:2px solid var(--parchment); border-radius:4px; background:rgba(255,255,255,.38); pointer-events:none; }
+  .yb-board{ position:relative; flex:1; min-height:0; margin:0 14px; border:1px solid var(--line); border-radius:12px; background:var(--ink-raised); overflow:hidden; }
+  .yb-scroll{ position:absolute; inset:0; overflow:auto; scrollbar-width:none; touch-action:pan-x pan-y; cursor:grab; outline:none; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; }
+  .yb-scroll::-webkit-scrollbar{ display:none; }
+  .yb-scroll.grab{ cursor:grabbing; user-select:none; }
+  .yb-inner{ position:relative; display:flex; }
+  .yb-names{ position:sticky; left:0; z-index:5; flex:none; background:var(--ink-raised); border-right:1px solid var(--line); }
+  .yb-corner{ position:sticky; top:0; z-index:2; background:var(--ink-raised); border-bottom:1px solid var(--line); }
+  .yb-nm{ position:absolute; left:0; right:0; display:flex; flex-direction:column; justify-content:center; padding:0 5px 0 9px; box-sizing:border-box; background:color-mix(in srgb, var(--c) 9%, var(--ink-raised)); border-top:1px solid color-mix(in srgb, var(--c) 30%, transparent); border-bottom:1px solid color-mix(in srgb, var(--c) 30%, transparent); box-shadow:inset 4px 0 0 var(--c); }
+  .yb-nm b{ font:600 11px/1.15 'IBM Plex Sans',sans-serif; color:var(--parchment); }
+  .yb-nm em{ margin-top:3px; font:500 9px/1.35 'IBM Plex Sans',sans-serif; font-style:normal; color:var(--parchment-dim); }
+  .yb-nm em s{ display:inline-block; width:8px; height:8px; border-radius:2px; margin-right:3px; vertical-align:-1px; text-decoration:none; }
+  .yb-canvas{ position:relative; flex:none; }
+  .yb-ruler{ position:sticky; top:0; z-index:3; background:var(--ink-raised); border-bottom:1px solid var(--line); }
+  .yb-ruler span{ position:absolute; top:12px; height:14px; padding:0 0 0 5px; border-left:1px solid var(--line); font:500 10px/14px 'IBM Plex Mono',monospace; color:var(--parchment-dim); white-space:nowrap; }
+  .yb-band{ position:absolute; left:0; box-sizing:border-box; background:color-mix(in srgb, var(--c) 7%, var(--ink-raised)); border-top:1px solid color-mix(in srgb, var(--c) 30%, transparent); border-bottom:1px solid color-mix(in srgb, var(--c) 30%, transparent); }
+  .yb-gap{ position:absolute; background:repeating-linear-gradient(135deg, rgba(138,109,11,.06) 0 6px, transparent 6px 12px); pointer-events:none; }
+  .yb-bar{ position:absolute; margin:0; height:22px; box-sizing:border-box; padding:0 7px; border-radius:6px; border:1px solid color-mix(in srgb, var(--c) 55%, transparent); background:color-mix(in srgb, var(--c) 20%, var(--ink-raised)); color:color-mix(in srgb, var(--c) 85%, #000); font:600 11px/20px 'IBM Plex Sans',sans-serif; text-align:left; white-space:nowrap; overflow:hidden; cursor:default; }
+  button.yb-bar{ cursor:pointer; }
+  .yb-bar span{ display:block; overflow:hidden; text-overflow:ellipsis; }
+  .yb-bar.sm{ padding:0; background:color-mix(in srgb, var(--c) 34%, var(--ink-raised)); }
+  .yb-bar.mrg{ background-image:repeating-linear-gradient(135deg, rgba(0,0,0,.06) 0 4px, transparent 4px 8px); }
+  .yb-bar b{ position:absolute; right:3px; top:3px; min-width:14px; height:14px; padding:0 3px; box-sizing:border-box; border-radius:7px; background:var(--c); color:#fffaf0; font:700 9px/14px 'IBM Plex Mono',monospace; text-align:center; }
+  .yb-bar.act{ background:var(--c); border-color:var(--c); color:#fffaf0; }
+  .yb-bar.act b{ background:#fffaf0; color:var(--c); }
+  .yb-ph{ position:absolute; top:0; bottom:0; width:2px; margin-left:-1px; background:var(--gold); z-index:8; pointer-events:none; }
+  .yb-ph b{ position:absolute; top:4px; left:50%; transform:translateX(-50%); background:var(--gold); color:#fffaf0; font:600 10.5px 'IBM Plex Mono',monospace; padding:3px 9px; border-radius:999px; white-space:nowrap; box-shadow:0 0 0 2px var(--ink-raised); }
+  .yb-now{ flex:none; margin:7px 14px 9px; background:var(--ink-raised); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  .yb-nh{ display:flex; flex-wrap:wrap; align-items:center; gap:2px 10px; width:100%; padding:8px 12px; background:none; border:0; cursor:pointer; text-align:left; color:var(--parchment); position:relative; }
+  .yb-ny{ flex:none; font:600 11px 'IBM Plex Mono',monospace; letter-spacing:.04em; color:var(--gold); }
+  .yb-ne{ flex:0 1 auto; min-width:0; font:600 14px 'Literata',serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:calc(100% - 110px); }
+  .yb-nsum{ flex:1 0 100%; order:3; min-width:0; font:400 12px 'Literata',serif; color:var(--parchment-dim); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .yb-nh i{ position:absolute; right:12px; top:9px; font-style:normal; color:var(--parchment-dim); }
+  .yb-nbody{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px 14px; padding:8px 12px 10px; border-top:1px dashed var(--line); }
+  .yb-nr b{ display:block; font:600 9.5px 'IBM Plex Mono',monospace; letter-spacing:.07em; text-transform:uppercase; color:var(--c); margin-bottom:2px; }
+  .yb-nr span{ font:500 13px/1.35 'Literata',serif; color:var(--parchment); }
+  .yb-nr span button{ background:none; border:0; padding:0; margin:0; font:inherit; color:inherit; cursor:pointer; text-decoration:underline dotted color-mix(in srgb, var(--c) 60%, transparent); text-underline-offset:3px; }
+  .yb-nr span > * + *::before{ content:'\00b7'; margin:0 .4em; color:var(--parchment-dim); text-decoration:none; display:inline-block; }
+  .yb-nr em{ font-style:normal; } .yb-nr .none{ color:var(--parchment-dim); }
+  @container tls (min-width:560px){
+    .yb-mini{ flex-direction:row; align-items:center; gap:12px; }
+    .yb-mt{ flex:0 1 46%; }
+    .yb-mbar{ flex:1; }
+    .yb-nh{ flex-wrap:nowrap; }
+    .yb-nsum{ flex:1 1 auto; order:0; }
+    .yb-ne{ max-width:46%; }
+    .yb-nh i{ position:static; margin-left:auto; }
+  }
+  /* a phone turned sideways: everything shrinks so the lanes get the room */
+  @media (orientation:landscape) and (max-height:520px){
+    #screen-timeline #tlHead{ grid-template-columns:auto minmax(0,1fr) auto auto; grid-template-areas:"ttl sub views zoom"; gap:2px 10px; padding:4px 12px 3px; align-items:center; }
+    #screen-timeline #tlHead.th, #screen-timeline #tlHead.yb{ grid-template-areas:"ttl . views zoom" "sub sub sub sub"; }
+    #screen-timeline #tlHead .panel-eyebrow{ display:none; }
+    #screen-timeline #tlHead .timeline-heading{ font-size:15px; white-space:nowrap; margin:0; }
+    #screen-timeline #tlHead .tl-views{ justify-self:end; }
+    #screen-timeline #tlHead .tl-views .tv-seg{ flex:none; }
+    #screen-timeline #tlHead .tl-views button{ padding:5px 10px; font-size:11px; }
+    #screen-timeline #tlHead .tl-levels{ justify-self:start; }
+    #screen-timeline #tlHead .tl-levels button{ padding:4px 9px; font-size:11px; }
+    #screen-timeline #tlHead .tl-zoom button{ padding:3px 9px; }
+    #screen-timeline #tlHead .tl-zoom{ padding:0; }
+    #screen-timeline #tlHead .th-gtabs{ flex-wrap:nowrap; justify-content:flex-start; gap:5px; padding:6px 0 0; }
+    #screen-timeline #tlHead .tl-ysub{ justify-content:flex-start; padding-top:3px; }
+    #screen-timeline #tlHead .ys-lanes, #screen-timeline #tlHead .ys-jump button{ padding:4px 9px; }
+    .yb-mini{ flex-direction:row; align-items:center; gap:10px; margin:0 12px 4px; padding:3px 8px; }
+    .yb-mini .ml{ display:none; }
+    .yb-mt{ flex:0 1 38%; }
+    .yb-mbar{ flex:1; height:12px; }
+    .yb-board{ margin:0 12px; }
+    .yb-now{ margin:4px 12px 4px; }
+    .yb-nh{ padding:4px 10px; flex-wrap:nowrap; }
+    .yb-nsum{ flex:1 1 auto; order:0; }
+    .yb-ne{ font-size:12.5px; max-width:42%; }
+    .yb-nh i{ position:static; margin-left:auto; }
+    .yb-nbody{ grid-template-columns:repeat(4,minmax(0,1fr)); padding:5px 10px 7px; }
+    .yb-nr span{ font-size:12px; }
+  }
+
+  /* ---------- Bible versions (vtrans.js) ---------- */
+  .translation-tag{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .vt-btn{ font:600 10.5px 'IBM Plex Mono',monospace; letter-spacing:.04em; color:var(--gold); background:rgba(var(--gold-rgb),.1); border:1px solid rgba(var(--gold-rgb),.35); border-radius:999px; padding:3px 10px; cursor:pointer; opacity:1; }
+  .vt-note{ font:12px 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); margin:-6px 0 10px; }
+  .verse.vt-missing{ opacity:.55; }
+  .vt-chips{ display:flex; gap:6px; flex-wrap:wrap; margin:-4px 0 9px; }
+  .vt-chips[hidden]{ display:none; }
+  .vt-chip{ font:600 11px 'IBM Plex Mono',monospace; letter-spacing:.04em; color:var(--parchment-dim); background:var(--ink-raised); border:1px solid var(--line); border-radius:999px; padding:4px 11px; cursor:pointer; }
+  .vt-chip.on{ color:var(--on-gold); background:var(--gold); border-color:var(--gold); }
+  .sheet-verse-text .vt-row{ display:block; margin:0 0 6px; font-size:.92em; line-height:1.4; }
+  .sheet-verse-text .vt-row b{ font:600 10.5px 'IBM Plex Mono',monospace; color:var(--gold); letter-spacing:.04em; margin-right:4px; }
+  .vt-overlay{ position:absolute; inset:0; z-index:62; background:var(--ink); display:flex; flex-direction:column; }
+  .vt-overlay[hidden]{ display:none; }
+  .vt-row-pick{ display:flex; align-items:center; gap:12px; width:100%; padding:13px 4px; background:none; border:0; border-bottom:1px solid var(--line); color:var(--parchment); font:15px 'Literata',serif; text-align:left; cursor:pointer; }
+  .vt-row-pick small{ display:block; color:var(--parchment-dim); font:11.5px 'IBM Plex Sans',sans-serif; margin-top:2px; }
+  .vt-row-pick b{ font:600 12px 'IBM Plex Mono',monospace; color:var(--gold); margin-right:4px; }
+  .vt-dot{ flex:none; width:16px; height:16px; border-radius:50%; border:1.5px solid var(--line); background:var(--ink-raised); }
+  .vt-row-pick.on .vt-dot{ border-color:var(--gold); background:radial-gradient(circle,var(--gold) 0 45%,var(--ink-raised) 50%); }
+  .vt-card{ margin:16px 0; padding:14px; border:1px solid var(--line); border-radius:12px; background:var(--ink-raised); }
+  .vt-card b{ font:600 15px 'Literata',serif; color:var(--parchment); }
+  .vt-card p{ font:13.5px/1.5 'IBM Plex Sans',sans-serif; color:var(--parchment); margin:6px 0; }
+  .vt-small{ font:12px/1.45 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); margin:6px 0; }
+  .vt-more{ margin-top:18px; }
+  .vt-go{ margin-top:6px; width:100%; padding:11px; border-radius:10px; border:0; background:var(--gold); color:var(--on-gold); font:600 14px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .vt-sm{ padding:7px 12px; border-radius:9px; border:1px solid var(--line); background:var(--ink-raised); color:var(--parchment); font:12.5px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .vt-danger{ color:var(--burgundy); }
+  .vt-acts{ display:flex; gap:8px; flex-wrap:wrap; margin:10px 0; }
+  .vt-prog{ margin:14px 0; }
+  .vt-prog p{ font:13px 'IBM Plex Sans',sans-serif; color:var(--parchment); margin:8px 0; }
+  .vt-bar{ height:8px; border-radius:99px; background:var(--ink-deep); overflow:hidden; }
+  .vt-bar i{ display:block; height:100%; background:var(--gold); transition:width .2s; }
+  .vt-msg{ font:13.5px/1.5 'IBM Plex Sans',sans-serif; color:var(--parchment); background:rgba(var(--gold-rgb),.1); border-radius:10px; padding:10px 12px; margin:12px 0; }
 </style>
 </head>
 <body>
@@ -2492,7 +2658,8 @@
       </div>
       <div class="reader" id="reader">
         <p class="book-label" id="bookLabel">Loading…</p>
-        <p class="translation-tag">BEREAN STANDARD BIBLE · PUBLIC DOMAIN</p>
+        <p class="translation-tag"><span id="trTagText">BEREAN STANDARD BIBLE · PUBLIC DOMAIN</span><button type="button" class="vt-btn" id="vtOpen">BSB ▾</button></p>
+        <p class="vt-note" id="vtNote" hidden></p>
         <h1 class="chapter-title" id="chapterTitle"></h1>
         <div id="verseList"></div>
         <div class="hint">
@@ -2746,10 +2913,11 @@
       <div class="tl-head" id="tlHead">
         <div class="tl-ttl">
           <p class="panel-eyebrow">THE STORY OF THE BIBLE</p>
-          <h2 class="timeline-heading">Timeline / Connections</h2>
+          <h2 class="timeline-heading">Timeline</h2>
         </div>
-        <div class="tl-views" id="tlViews" role="group" aria-label="Timeline or Connections view">
-          <button type="button" data-v="line">Timeline</button><button type="button" data-v="threads">Connections</button>
+        <div class="tl-views" id="tlViews" role="group" aria-label="Timeline, Year by Year or Connections view">
+          <div class="tv-seg"><button type="button" data-v="line">Timeline</button><button type="button" data-v="lanes">Year by Year</button></div>
+          <button type="button" class="tv-solo" data-v="threads">Connections</button>
         </div>
         <div class="tl-zoomwrap">
           <div class="tl-zoom" role="group" aria-label="Zoom">
@@ -2762,6 +2930,7 @@
           </div>
         </div>
         <div class="tl-ttop" id="tlThreadTop" hidden></div>
+        <div class="tl-ysub" id="tlYSub" hidden></div>
       </div>
       <p class="tl-hint" id="tlHint" hidden><span>Overview shows the big eras; Detail shows every moment. Pinch or scroll-wheel on a spot to zoom in either one.</span><button type="button" aria-label="Dismiss">&times;</button></p>
       <div class="tl-body">
@@ -2769,7 +2938,11 @@
           <div class="tl-threadbar" id="tlThreadBar" hidden></div>
           <div class="th-empty" id="tlThEmpty" hidden></div>
           <div class="tl-view" id="tlView"><div class="tl-track" id="tlTrack"></div></div>
-          <div class="tl-lanebar" id="tlLaneBar" hidden></div>
+          <div class="yb" id="tlYear" hidden>
+            <div class="yb-mini"><div class="yb-mt"><span class="ml">You are here</span><b id="ybAt"></b></div><div class="yb-mbar" id="ybMiniBar" aria-label="The whole story: tap or drag to move"></div></div>
+            <div class="yb-board"><div class="yb-scroll" id="ybScroll" tabindex="0" aria-label="Year by Year lanes: swipe sideways to move through time"><div class="yb-inner" id="ybInner"></div></div><div class="yb-ph" id="ybPh"><b id="ybPhY"></b></div></div>
+            <div class="yb-now" id="ybNow"></div>
+          </div>
           <div class="tl-map" id="tlMap" hidden></div>
           <div class="tl-shelf" id="tlShelf"></div>
         </div>
@@ -2798,6 +2971,7 @@
     <div class="sheet-handle"></div>
     <p class="sheet-ref" id="sheetRef"></p>
     <p class="sheet-verse-text" id="sheetVerseText"></p>
+    <div class="vt-chips" id="vtChips" hidden></div>
 
     <div class="wbw" id="wbw" style="display:none"></div>
     <div class="wbw" id="cmSheet" style="display:none"></div>
@@ -2825,7 +2999,7 @@
     </div>
     <button class="nav-btn" id="navBtnTimeline" data-screen="timeline">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 19a6 11 0 0 1 12 0"/><path d="M9 19a6 7 0 0 1 12 0"/><path d="M3 19h18" opacity=".5"/></svg>
-      <span>Timeline / Connections</span>
+      <span>Timeline</span>
     </button>
     <button class="nav-btn" id="navBtnSettings" data-screen="settings">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
@@ -2834,6 +3008,7 @@
   </nav>
 </div>
 
+<script src="vtrans.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

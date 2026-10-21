@@ -319,11 +319,16 @@ function renderCarousel() {
 
 // Wikimedia Special:FilePath serves the full-size original (often 5-20 MB), which can
 // exhaust memory on phones and make the browser reload the page. Ask for a ~1000px version.
+// Wikimedia only serves thumbnails at its standard widths; any other width (100, 600, 700, 900, 1000...) is refused,
+// so every width we ask for is rounded up to the next standard one.
+const WM_WIDTHS = [20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920];
+function wmW(w) { w = Number(w) || 500; for (const s of WM_WIDTHS) if (s >= w) return s; return 1920; }
+function wmSnap(u) { return typeof u === 'string' ? u.replace(/([?&]width=)(\d+)/, (m, a, n) => a + wmW(n)) : u; }
 function displayImageUrl(url) {
   if (url && url.includes('commons.wikimedia.org/wiki/Special:FilePath/') && !url.includes('?')) {
-    return url + '?width=1000';
+    return url + '?width=960';
   }
-  return url;
+  return wmSnap(url);
 }
 
 function renderImageSlide(slideId, imageData, placeholderText) {
@@ -717,7 +722,7 @@ const TL_BOOKS = [
 ];
 const tlAbbr = n => { const m = n.match(/^(\d )?(.+)$/); const core = m[2].split(' ')[0]; return (m[1] || '') + (core.length > 4 ? core.slice(0, 3) : core); };
 let TL = null, tlP = null, tlSel = null, tlLayout = [], tlBuilt = false, tlFocusPending = null, tlLastFocus = 0;
-let tlLv = 0, tlViewMode = 'line', tlYear = -586, tlLanesOff = [];
+let tlLv = 0, tlViewMode = 'line', tlYear = 27;
 let tlZ = { l0: 0.6, l1: 0.6, threads: 1, lanes: 4 }; // opens at 60%, starting at the life of Jesus
 let tlBook = null, tlChap = null, tlGroup = null, tlHitI = -1, tlHits = { all: [], vis: [] }, tlShelfShut = false;
 const tlSave = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
@@ -726,8 +731,6 @@ try {
   if (lv === '0' || lv === '1') tlLv = Number(lv);
   const z = JSON.parse(localStorage.getItem('vi_tl_zoom5') || 'null');
   if (z && typeof z === 'object') Object.keys(tlZ).forEach(k => { if (z[k] > 0.3 && z[k] < 15) tlZ[k] = z[k]; });
-  const y = Number(localStorage.getItem('vi_tl_year')); if (y) tlYear = y;
-  const lo = JSON.parse(localStorage.getItem('vi_tl_lanes_off') || '[]'); if (Array.isArray(lo)) tlLanesOff = lo;
   { const sv = localStorage.getItem('vi_tl_shelf2'); // the Bible shelf starts folded on a phone (portrait or landscape) and open on a bigger screen, until the person chooses
     tlShelfShut = sv === null ? window.matchMedia('(max-width:699px), (orientation:landscape) and (max-height:520px)').matches : sv === '0'; }
 } catch (e) {}
@@ -799,14 +802,16 @@ function tlChrome() {
   document.querySelectorAll('#tlLevels button').forEach(b => b.classList.toggle('on', Number(b.dataset.l) === tlLv));
   tlEl('screen-timeline').classList.toggle('tl-lanebar-on', v === 'lanes' || v === 'threads');
   tlEl('tlLevels').hidden = v !== 'line';
-  tlEl('tlThreadBar').hidden = v === 'line';
+  tlEl('tlThreadBar').hidden = v !== 'threads';
+  tlEl('tlYear').hidden = v !== 'lanes';
+  tlEl('tlYSub').hidden = v !== 'lanes';
+  tlEl('tlView').hidden = v === 'lanes';
   tlEl('tlThreadTop').hidden = v !== 'threads';
   if (v !== 'threads' && tlEl('tlThEmpty')) tlEl('tlThEmpty').hidden = true;
   tlEl('tlHead').classList.toggle('th', v === 'threads');
-  tlEl('tlLaneBar').hidden = v !== 'lanes';
+  tlEl('tlHead').classList.toggle('yb', v === 'lanes');
   tlEl('tlShelf').hidden = v !== 'line';
   tlEl('tlMap').hidden = !(v === 'line' && tlLv === 1);
-  tlEl('tlView').classList.toggle('lanes', v === 'lanes');
   tlEl('tlView').classList.toggle('bks', v === 'threads');
   const zv = tlEl('tlZoomVal'); if (zv) zv.textContent = Math.round(tlZ[tlZoomKey()] * 100) + '%';
 }
@@ -815,7 +820,7 @@ function tlRedraw(focusFi) {
   tlChrome();
   if (tlViewMode === 'line') { tlDrawTrack(focusFi); tlMapBuild(); tlShelfBuild(); tlShelfSync(); tlApplyHits(); tlNavUpdate(); }
   else if (tlViewMode === 'threads') tlDrawThreads();
-  else tlDrawLanes();
+  else { ybSubDraw(); ybDraw(tlYear); }
 }
 
 // ----- Line view -----
@@ -922,7 +927,7 @@ function tlGoLevel(n, o) {
   tlNavUpdate();
 }
 function tlSetView(v) {
-  if (v !== 'threads') v = 'line'; // Lanes is switched off for now (the code is kept)
+  if (v !== 'threads' && v !== 'lanes') v = 'line';
   if (v === tlViewMode && tlBuilt) return;
   tlLastFocus = tlCurrentFocus();
   tlViewMode = v;
@@ -932,6 +937,7 @@ function tlSetView(v) {
   tlRedraw(v === 'lanes' ? null : tlLastFocus);
 }
 function tlSetZoom(z, ax) {
+  if (tlViewMode === 'lanes') return ybSetZoom(z);
   const view = tlEl('tlView'), track = tlEl('tlTrack');
   if (ax == null) ax = view.clientWidth / 2;
   const key = tlZoomKey(), [lo, hi] = tlZoomLimits();
@@ -944,11 +950,6 @@ function tlSetZoom(z, ax) {
     const frac = (view.scrollLeft + ax) / Math.max(1, track.offsetWidth);
     if (tlSetZoom.raf) cancelAnimationFrame(tlSetZoom.raf);
     tlSetZoom.raf = requestAnimationFrame(() => { tlSetZoom.raf = 0; tlDrawThreads(frac, ax); });
-    return false;
-  }
-  if (tlViewMode === 'lanes') {
-    const yc = tlLn.Y0 + (view.scrollLeft + ax - tlLn.pad) / tlLn.ppy;
-    tlDrawLanes(yc, ax);
     return false;
   }
   const cx = (view.scrollLeft + ax) / old;
@@ -1163,7 +1164,7 @@ function tlLitBooks(e) {
 }
 
 // ----- Threads view: one still line of all 66 books. Each layer is a set of arcs from the book that is quoted to the book that quotes it -----
-let tlOn = ['prophecy'], tlThOpen = [], tlThFold = false, tlRB = null, tlRP = null;
+let tlOn = ['prophecy'], tlThOpen = [], tlRB = null, tlRP = null;
 try {
   const o = JSON.parse(localStorage.getItem('vi_tl_on') || 'null');
   if (Array.isArray(o)) tlOn = o;
@@ -1171,7 +1172,6 @@ try {
     const old = JSON.parse(localStorage.getItem('vi_tl_ov') || 'null');
     if (old && Array.isArray(old.scripture)) tlOn = old.scripture.concat(old.themes || []);
   }
-  tlThFold = localStorage.getItem('vi_tl_thfold') === '1';
 } catch (e) {}
 const tlOvOn = () => (TL && TL.refs ? TL.refs.filter(o => tlOn.includes(o.id)) : []);
 const tlBookWts = () => TL_BOOKS.map(() => 1); // every book is the same width
@@ -1194,9 +1194,8 @@ function tlThreadBarDraw() {
     return `<button type="button" class="th-gt${isOpen ? ' open' : ''}${k ? ' has' : ''}" data-ov="*grp:${g.id}" aria-expanded="${isOpen}">${escHtml(g.name)}${k ? `<u>${k}</u>` : ''}<em>${isOpen ? '&#9652;' : '&#9662;'}</em></button>`;
   }).join('');
   const top = tlEl('tlThreadTop');
-  top.innerHTML = `<div class="th-top"><button type="button" class="th-fold" data-ov="*fold" aria-expanded="${!tlThFold}">Layers <span>${sel.length ? sel.length + ' on' : 'none on'}</span> <em>${tlThFold ? '&#9662;' : '&#9652;'}</em></button><button type="button" class="th-mini" data-ov="*none">Clear all</button></div>` +
-    (tlThFold ? '' : `<div class="th-gtabs">${tabs}</div>`);
-  bar.innerHTML = (tlThFold ? '' : (open.length ? '<div class="th-scroll">' + open.map(g => {
+  top.innerHTML = `<div class="th-gtabs">${tabs}<button type="button" class="th-clear" data-ov="*none"${sel.length ? '' : ' disabled'}>Clear all</button></div>`;
+  bar.innerHTML = ((open.length ? '<div class="th-scroll">' + open.map(g => {
       const list = refs.filter(o => o.g === g.id); if (!list.length) return '';
       const k = list.filter(o => tlOn.includes(o.id)).length;
       return `<section class="th-grp"><header><b>${escHtml(g.name)}</b><span>${escHtml(g.sub || '')}</span><button type="button" class="th-mini" data-ov="*all:${g.id}">All</button><button type="button" class="th-mini" data-ov="*none:${g.id}"${k ? '' : ' disabled'}>None</button></header><div class="th-chips">${list.map(chip).join('')}</div></section>`;
@@ -1316,11 +1315,7 @@ function tlThreadsClick(ev) {
   tlThreadsStyle(); tlRefsPanel();
 }
 function tlToggleOv(id) {
-  if (id !== '*fold' && id.indexOf('*grp:') !== 0 && (tlRB != null || tlRP)) { tlRB = null; tlRP = null; tlRefsClose(); } // a new overlay starts fresh: no book stays selected
-  if (id === '*fold') {
-    tlThFold = !tlThFold; tlSave('vi_tl_thfold', tlThFold ? '1' : '0');
-    tlThreadBarDraw(); tlThreadsFit(); return;
-  }
+  if (id.indexOf('*grp:') !== 0 && (tlRB != null || tlRP)) { tlRB = null; tlRP = null; tlRefsClose(); } // a new overlay starts fresh: no book stays selected
   if (id.indexOf('*grp:') === 0) {
     const g = id.slice(5), k = tlThOpen.indexOf(g);
     tlThOpen = k >= 0 ? [] : [g]; // one sub-group open at a time
@@ -1391,126 +1386,215 @@ function tlThreadsFit() {
   requestAnimationFrame(() => { if (tlViewMode === 'threads' && ((Math.abs(v.clientHeight - tlBk.H) > 6 && v.clientHeight >= 100) || Math.abs(v.clientWidth - tlBk.vw) > 6)) tlDrawThreads(); });
 }
 
-// ----- Swim lanes view: each lane is a row of blocks, styled like the Bible shelf -----
-const TL_LN_GUT = 64, TL_LN_ROW = 26;
-let tlLn = { ppy: 4, Y0: -2400, Y1: 220, pad: TL_LN_GUT };
+// ----- Year by Year: lanes of time, scrubbed with one gold line in the middle -----
 const tlFmtYear = y => (y < 0 ? (-y) + ' BC' : 'AD ' + Math.max(1, y));
-function tlLaneChips() {
-  const bar = tlEl('tlThreadBar');
-  bar.innerHTML = '<div class="th-chips">' + TL.lanes.lanes.map(l => `<button type="button" class="th-chip${tlLanesOff.includes(l.id) ? '' : ' on'}" data-ln="${l.id}" style="--c:${l.color}"><i></i>${escHtml(l.short || l.name)}</button>`).join('') + '</div>' +
-    '<p class="th-blurb">Tap a lane name to hide or show it. Scroll sideways for time; pinch, + / − or Ctrl+wheel to stretch it.</p>';
+const YB_FROM = -2400, YB_TO = 220, YB_ROW = 26, YB_RULER = 26, YB_GAP = 7;
+const YB_NAMES = { israel: 'Israel', kings: 'Kings', powers: 'World powers', prophets: 'Prophets', figures: 'People', place: 'Places', theme: 'Themes', style: 'Writing', authors: 'Authors', church: 'The church' };
+const YB_DEF = ['israel', 'kings', 'powers', 'prophets', 'figures'];
+const YB_MAXR = { israel: 1, kings: 2, powers: 3, prophets: 3, figures: 2 };
+// each era gets a fair share of the little "you are here" bar, like the Overview
+const YB_ERAS = [['begin', -2400, -2100, .04], ['patriarchs', -2100, -1526, .09], ['exodus', -1526, -1406, .08], ['land', -1406, -1050, .10], ['kings', -1050, -605, .20], ['exile', -605, -430, .10], ['between', -430, -5, .09], ['jesus', -5, 30, .13], ['church', 30, 120, .13], ['future', 120, 220, .04]];
+const YB_JUMPS = [['Abraham', -1950], ['Exodus', -1446], ['David', -1000], ['Exile', -586], ['Jesus', 27], ['The church', 55]];
+let ybOn = YB_DEF.slice(), ybNowOpen = null, ybM = null, ybEls = [], ybLanesNow = [];
+tlZ.lanes = 1; tlYear = 27;
+try {
+  const a = JSON.parse(localStorage.getItem('vi_yb_lanes') || 'null'); if (Array.isArray(a) && a.length) ybOn = a;
+  const z = Number(localStorage.getItem('vi_yb_z')); if (z > 0.05 && z < 40) tlZ.lanes = z;
+  const yy = localStorage.getItem('vi_yb_year'); if (yy !== null && isFinite(Number(yy))) tlYear = Number(yy);
+  const nw = localStorage.getItem('vi_yb_now'); if (nw === '0' || nw === '1') ybNowOpen = nw === '1';
+} catch (e) {}
+const ybIsOpen = () => (ybNowOpen == null ? !window.matchMedia('(max-width:699px), (orientation:landscape) and (max-height:520px)').matches : ybNowOpen);
+function ybMet() {
+  const sc = tlEl('ybScroll'), vw = sc ? sc.clientWidth : 0, G = vw < 560 ? 62 : 98, P = Math.max(30, (vw - G) / 2);
+  const def = Math.max(0.1, (vw - G) / (vw < 560 ? 240 : 430));
+  return { vw, G, P, def, lo: 0.3 / def, hi: 18 / def };
 }
-function tlDrawLanes(centerYear, ax) {
-  const view = tlEl('tlView'), track = tlEl('tlTrack');
-  if (!view || !TL || !TL.lanes) return;
-  const D = TL.lanes, Y0 = D.from, Y1 = D.to, ppy = tlZ.lanes, pad = TL_LN_GUT;
-  tlLn = { ppy, Y0, Y1, pad };
-  tlLaneChips();
-  const X = y => pad + (y - Y0) * ppy;
-  const width = Math.round(pad + (Y1 - Y0) * ppy + 60);
-  tlLayout = [];
-  let html = '', y = 26;
-  const lanesHtml = [];
-  D.lanes.filter(ln => !tlLanesOff.includes(ln.id)).forEach((ln, li) => {
-    // at most three rows per lane: anything that would need a fourth row is blended into the block it overlaps, with a note
-    const rowEnd = [-1e9, -1e9, -1e9], lastOf = [null, null, null], placed = [];
-    ln.items.filter(it => (it.z == null || ppy >= it.z) && (it.zx == null || ppy < it.zx)).sort((p, q) => p.a - q.a || q.b - p.b).forEach(it => {
-      const x0 = X(it.a), w = Math.max(4, (it.b - it.a) * ppy);
-      let r = rowEnd.findIndex(end => end <= x0 + 0.01);
-      if (r < 0) {
+const ybEraAt = y => { const e = YB_ERAS.find(r => y < r[2]) || YB_ERAS[YB_ERAS.length - 1]; return TL.eras.find(x => x.id === e[0]) || TL.eras[0]; };
+function ybFx(y) { let acc = 0; for (const r of YB_ERAS) { if (y <= r[2]) return acc + Math.max(0, (y - r[1]) / (r[2] - r[1])) * r[3]; acc += r[3]; } return 1; }
+function ybFy(f) { let acc = 0; for (const r of YB_ERAS) { if (f <= acc + r[3]) return r[1] + Math.max(0, (f - acc) / r[3]) * (r[2] - r[1]); acc += r[3]; } return YB_TO; }
+const ybYear = () => { const sc = tlEl('ybScroll'); return ybM ? YB_FROM + sc.scrollLeft / ybM.ppy : tlYear; };
+function ybGo(y, smooth) {
+  const sc = tlEl('ybScroll'); if (!sc || !ybM) return;
+  const left = (Math.max(YB_FROM, Math.min(YB_TO, y)) - YB_FROM) * ybM.ppy;
+  if (smooth) { try { sc.scrollTo({ left, behavior: 'smooth' }); return; } catch (e) {} }
+  sc.scrollLeft = left;
+}
+function ybSubDraw() {
+  const box = tlEl('tlYSub'); if (!box || !TL || !TL.lanes) return;
+  const pop = TL.lanes.lanes.map(l => `<button type="button" class="th-chip${ybOn.includes(l.id) ? ' on' : ''}" data-yl="${l.id}" style="--c:${l.color}"><i></i>${escHtml(YB_NAMES[l.id] || l.short)}</button>`).join('');
+  box.innerHTML = `<button type="button" class="ys-lanes" id="ybLanesBtn" aria-expanded="false">Lanes <em>&#9662;</em></button>` +
+    `<span class="ys-jl">Jump to</span><div class="ys-jump">${YB_JUMPS.map(j => `<button type="button" data-yj="${j[1]}">${j[0]}</button>`).join('')}</div>` +
+    `<div class="yb-pop" id="ybPop" hidden><p>Choose which lanes to show</p><div class="th-chips">${pop}</div><button type="button" class="ys-reset" data-yl="*reset">Back to the five main lanes</button></div>`;
+}
+function ybDraw(cy) {
+  const sc = tlEl('ybScroll'), inner = tlEl('ybInner');
+  if (!sc || !inner || !TL || !TL.lanes) return;
+  const M = ybMet(); if (M.vw < 80) return;
+  tlZ.lanes = Math.max(M.lo, Math.min(M.hi, tlZ.lanes));
+  const ppy = M.def * tlZ.lanes, { G, P } = M;
+  ybM = { ppy, G, P, vw: M.vw, def: M.def };
+  if (cy == null) cy = tlYear;
+  const D = TL.lanes, W = Math.round(P * 2 + (YB_TO - YB_FROM) * ppy), X = y => P + (y - YB_FROM) * ppy;
+  let y = YB_RULER + YB_GAP, names = '', bands = '';
+  ybLanesNow = [];
+  D.lanes.filter(l => ybOn.includes(l.id)).forEach(ln => {
+    const maxR = YB_MAXR[ln.id] || 2, rowEnd = new Array(maxR).fill(-1e9), lastOf = new Array(maxR).fill(null), placed = [];
+    const vis = ln.items.filter(it => (it.z == null || ppy >= it.z) && (it.zx == null || ppy < it.zx)).sort((p, q) => p.a - q.a || q.b - p.b);
+    vis.forEach(it => {
+      const x0 = X(it.a), w = Math.max(5, (it.b - it.a) * ppy);
+      let r = rowEnd.findIndex(e => e <= x0 + 1);
+      if (r < 0) { // a crowd: the extra block is folded into the block it overlaps most, so no lane grows taller than its limit
         r = rowEnd.indexOf(Math.min(...rowEnd));
-        const o = lastOf[r];
-        o.parts.push(it); o.b = Math.max(o.b, it.b); o.w = Math.max(o.w, x0 + w - o.x0); rowEnd[r] = o.x0 + o.w;
-        return;
+        const o = lastOf[r]; o.parts.push(it); o.b = Math.max(o.b, it.b); o.w = Math.max(o.w, x0 + w - o.x0); rowEnd[r] = o.x0 + o.w; return;
       }
-      const o = { it, parts: [it], x0, w, r, b: it.b };
-      rowEnd[r] = x0 + w; lastOf[r] = o; placed.push(o);
+      const o = { it, parts: [it], x0, w, r, b: it.b }; rowEnd[r] = x0 + w; lastOf[r] = o; placed.push(o);
     });
-    const rows = { length: Math.max(1, rowEnd.map((e, i) => (lastOf[i] ? 1 : 0)).reduce((m, v, i) => (v ? i + 1 : m), 0)) };
+    const used = Math.max(ln.id === 'kings' ? 2 : 1, lastOf.reduce((m, o, i) => (o ? i + 1 : m), 0)), h = used * YB_ROW + 6;
+    let bars = '';
     placed.forEach(o => {
-      if (o.parts.length > 1) {
-        const names = o.parts.map(p => p.t);
-        o.label = names.length === 2 ? names.join(' + ') : names.slice(0, 2).join(' + ') + ' + ' + (names.length - 2) + ' more';
-      } else o.label = o.it.t;
-    });
-    const byRow = {}; placed.forEach(o => { (byRow[o.r] = byRow[o.r] || []).push(o); });
-    Object.keys(byRow).forEach(k => byRow[k].forEach((o, i, list) => {
-      const lw = o.label.length * 6.2 + 16 + (o.parts.length > 1 ? 18 : 0);
-      if (o.w >= lw) o.mode = 'in';
-      else { const nx = list[i + 1]; o.mode = (nx ? nx.x0 - (o.x0 + o.w) - 8 : 1e9) >= lw ? 'out' : 'none'; }
-    }));
-    const h = 6 + Math.max(1, rows.length) * TL_LN_ROW;
-    let inner = `<span class="ln-lab" style="height:${h}px">${escHtml(ln.short || ln.name)}</span>`;
-    placed.forEach(o => {
-      const e = (o.parts.find(p => p.e) || {}).e, tag = e ? 'button type="button"' : 'div', close = e ? 'button' : 'div', m = o.parts.length > 1;
-      const a0 = Math.min(...o.parts.map(p => p.a));
-      const ttl = m ? 'Blended: ' + o.parts.map(p => p.t + ' (' + tlFmtYear(p.a) + ' to ' + tlFmtYear(p.b) + (p.n ? '; ' + p.n : '') + ')').join(' | ')
+      const m = o.parts.length > 1, nm = o.parts.map(p => p.t);
+      const label = m ? (nm.length === 2 ? nm.join(' + ') : nm[0] + ' + ' + (nm.length - 1) + ' more') : o.it.t;
+      const fits = o.w >= label.length * 6.4 + 22 + (m ? 16 : 0);
+      const e = (o.parts.find(p => p.e) || {}).e, a0 = Math.min(...o.parts.map(p => p.a));
+      const ttl = m ? o.parts.map(p => p.t + ' (' + tlFmtYear(p.a) + ' to ' + tlFmtYear(p.b) + ')').join(' | ')
         : (o.it.n ? o.it.n + ': ' : '') + o.it.t + ' (' + tlFmtYear(o.it.a) + ' to ' + tlFmtYear(o.it.b) + ')';
-      inner += `<${tag} class="ln-bar${m ? ' mrg' : ''}" data-a="${a0}" data-b="${o.b}"${e ? ` data-e="${e}"` : ''} title="${escHtml(ttl)}" style="left:${o.x0}px;top:${3 + o.r * TL_LN_ROW}px;width:${Math.max(3, o.w - 1.5)}px${o.it.c ? `;--c:${o.it.c}` : ''}">` +
-        (o.mode === 'in' ? `<span class="tx">${escHtml(o.label)}</span>` : o.mode === 'out' ? `<span class="out">${escHtml(o.label)}</span>` : '') + (m ? `<b class="bd">${o.parts.length}</b>` : '') + `</${close}>`;
+      bars += `<${e ? 'button type="button"' : 'div'} class="yb-bar${m ? ' mrg' : ''}${fits ? '' : ' sm'}" data-a="${a0}" data-b="${o.b}"${e ? ` data-e="${e}"` : ''} title="${escHtml(ttl)}" style="left:${Math.round(o.x0)}px;top:${5 + o.r * YB_ROW}px;width:${Math.max(4, Math.round(o.w) - 2)}px${o.it.c ? ';--c:' + o.it.c : ''}">` +
+        (fits ? `<span>${escHtml(label)}</span>` : '') + (m && fits ? `<b>${o.parts.length}</b>` : '') + `</${e ? 'button' : 'div'}>`;
     });
-    lanesHtml.push(`<div class="ln-lane${li % 2 ? ' alt' : ''}" style="top:${y}px;height:${h}px;width:${width}px;--c:${ln.color}">${inner}</div>`);
-    y += h + 3;
+    bands += `<div class="yb-band" style="top:${y}px;height:${h}px;width:${W}px;--c:${ln.color}">${bars}</div>`;
+    names += `<div class="yb-nm" style="top:${y}px;height:${h}px;--c:${ln.color}"><b>${escHtml(YB_NAMES[ln.id] || ln.short)}</b>${ln.id === 'kings' ? '<em><s style="background:#8c4646"></s>North <s style="background:#4d5f8f"></s>South</em>' : ''}</div>`;
+    ybLanesNow.push({ id: ln.id, name: YB_NAMES[ln.id] || ln.short, color: ln.color, items: ln.items });
+    y += h + YB_GAP;
   });
-  const total = y + 6;
+  const total = y + 4, step = ppy >= 8 ? 10 : ppy >= 3.4 ? 25 : ppy >= 1.6 ? 50 : ppy >= 0.7 ? 100 : 200;
   let ticks = '';
-  const stepY = ppy >= 8 ? 10 : ppy >= 4 ? 25 : ppy >= 2 ? 50 : 100;
-  for (let t = Math.ceil(Y0 / stepY) * stepY; t <= Y1; t += stepY) {
-    ticks += `<span class="ln-tick" style="left:${X(t)}px">${t === 0 ? 'AD 1' : tlFmtYear(t)}</span>`;
-    html += `<div class="ln-grid" style="left:${X(t)}px"></div>`;
+  for (let t = Math.ceil(YB_FROM / step) * step; t <= YB_TO; t += step) ticks += `<span style="left:${Math.round(X(t))}px">${t === 0 ? 'AD 1' : tlFmtYear(t)}</span>`;
+  (D.bands || []).forEach(b => { if (b.t) bands += `<div class="yb-gap" style="left:${Math.round(X(b.a))}px;width:${Math.round((b.b - b.a) * ppy)}px;top:${YB_RULER + 2}px;height:${total - YB_RULER - 6}px" title="${escHtml(b.t)}"></div>`; });
+  inner.style.width = (G + W) + 'px'; inner.style.height = total + 'px';
+  inner.innerHTML = `<div class="yb-names" style="width:${G}px;height:${total}px"><div class="yb-corner" style="height:${YB_RULER}px"></div>${names}</div>` +
+    `<div class="yb-canvas" style="width:${W}px;height:${total}px"><div class="yb-ruler" style="width:${W}px;height:${YB_RULER}px">${ticks}</div>${bands}</div>`;
+  ybEls = [...inner.querySelectorAll('.yb-bar')].map(el => ({ el, a: Number(el.dataset.a), b: Number(el.dataset.b) }));
+  const ph = tlEl('ybPh'); ph.style.left = (G + P) + 'px';
+  const mini = tlEl('ybMiniBar');
+  mini.innerHTML = YB_ERAS.map((r, i) => { const f0 = YB_ERAS.slice(0, i).reduce((s, q) => s + q[3], 0), er = TL.eras.find(x => x.id === r[0]); return `<i style="left:${f0 * 100}%;width:${r[3] * 100}%;background:${er ? er.c : '#999'}"></i>`; }).join('') + '<u id="ybLens"></u>';
+  const zv = tlEl('tlZoomVal'); if (zv) zv.textContent = Math.round(tlZ.lanes * 100) + '%';
+  sc.scrollLeft = Math.round((Math.max(YB_FROM, Math.min(YB_TO, cy)) - YB_FROM) * ppy);
+  ybTick(true);
+}
+function ybLaneAt(y) {
+  const ppy = ybM ? ybM.ppy : 1;
+  return ybLanesNow.map(l => ({ id: l.id, name: l.name, color: l.color, items: l.items.filter(it => y >= it.a && y <= it.b && (it.z == null || it.z < 2 || ppy >= it.z)).slice(0, 4) }));
+}
+function ybTick(full) {
+  const sc = tlEl('ybScroll'); if (!sc || !ybM || !TL || !TL.lanes) return;
+  const y = Math.max(YB_FROM, Math.min(YB_TO, ybYear())); tlYear = y;
+  const yl = tlFmtYear(Math.round(y));
+  const pill = tlEl('ybPhY'); if (pill) pill.textContent = yl;
+  ybEls.forEach(o => o.el.classList.toggle('act', y >= o.a && y <= o.b));
+  const lens = tlEl('ybLens');
+  if (lens) { const half = ybM.P / ybM.ppy, f0 = ybFx(Math.max(YB_FROM, y - half)), f1 = ybFx(Math.min(YB_TO, y + half)); lens.style.left = (f0 * 100) + '%'; lens.style.width = Math.max(1.2, (f1 - f0) * 100) + '%'; }
+  const er = ybEraAt(y), at = tlEl('ybAt'); if (at) at.textContent = er.name; if (at) at.style.color = er.c;
+  ybNowDraw(y, yl, er, full);
+  clearTimeout(ybTick.t); ybTick.t = setTimeout(() => tlSave('vi_yb_year', String(Math.round(tlYear))), 250);
+}
+function ybNowDraw(y, yl, er, force) {
+  const box = tlEl('ybNow'); if (!box) return;
+  const open = ybIsOpen(), rows = ybLaneAt(y);
+  const sig = er.id + '#' + (open ? 1 : 0) + '#' + rows.map(r => r.items.map(i => i.t).join('|')).join('/');
+  const yEl = tlEl('ybNowY');
+  if (!force && sig === box.dataset.sig && yEl) { yEl.textContent = yl; return; }
+  box.dataset.sig = sig;
+  const sum = rows.filter(r => r.items.length).slice(0, 3).map(r => r.name + ': ' + r.items[0].t).join(' · ');
+  box.innerHTML = `<button type="button" class="yb-nh" id="ybNowTog" aria-expanded="${open}"><span class="yb-ny" id="ybNowY">${yl}</span><span class="yb-ne" style="color:${er.c}">${escHtml(er.name)}</span>` +
+    (open ? '' : `<span class="yb-nsum">${escHtml(sum)}</span>`) + `<i>${open ? '&#9662;' : '&#9652;'}</i></button>` +
+    (open ? `<div class="yb-nbody">${rows.map(r => `<div class="yb-nr" style="--c:${r.color}"><b>${escHtml(r.name)}</b><span>${r.items.length ? r.items.map(i => i.e ? `<button type="button" data-e="${i.e}">${escHtml(i.t)}</button>` : `<em>${escHtml(i.t)}</em>`).join('') : '<em class="none">&mdash;</em>'}</span></div>`).join('')}</div>` : '');
+}
+function ybSetZoom(z) {
+  const M = ybMet(); if (M.vw < 80 || !ybM) return false;
+  z = Math.max(M.lo, Math.min(M.hi, z));
+  if (Math.abs(z - tlZ.lanes) < 0.002) return false;
+  const y = ybYear(); tlZ.lanes = z; tlSave('vi_yb_z', String(z));
+  ybDraw(y); return true;
+}
+function ybToggleLane(id) {
+  if (id === '*reset') ybOn = YB_DEF.slice();
+  else { const i = ybOn.indexOf(id); if (i >= 0) { if (ybOn.length > 1) ybOn.splice(i, 1); } else ybOn.push(id); }
+  ybOn = TL.lanes.lanes.map(l => l.id).filter(x => ybOn.includes(x));
+  tlSave('vi_yb_lanes', JSON.stringify(ybOn));
+  document.querySelectorAll('#ybPop [data-yl]').forEach(b => { if (b.dataset.yl !== '*reset') b.classList.toggle('on', ybOn.includes(b.dataset.yl)); });
+  ybDraw(ybYear());
+}
+function ybWire() {
+  if (ybWire.done) return; ybWire.done = true;
+  const sc = tlEl('ybScroll'), inner = tlEl('ybInner'), head = tlEl('tlYSub');
+  sc.addEventListener('scroll', () => { if (ybWire.raf) return; ybWire.raf = requestAnimationFrame(() => { ybWire.raf = 0; ybTick(false); }); }, { passive: true });
+  // tap: move the gold line to that year; a block with a story also opens it
+  inner.addEventListener('click', ev => {
+    if (ev.target.closest('.yb-names') || !ybM) return;
+    const cv = inner.querySelector('.yb-canvas'), r = cv.getBoundingClientRect();
+    const y = YB_FROM + (ev.clientX - r.left - ybM.P) / ybM.ppy;
+    ybGo(y, true);
+    const b = ev.target.closest('.yb-bar');
+    if (b && b.dataset.e) tlSelect(b.dataset.e, false);
+  });
+  tlEl('ybNow').addEventListener('click', ev => {
+    const e = ev.target.closest('[data-e]');
+    if (e) { tlSelect(e.dataset.e, false); return; }
+    if (ev.target.closest('#ybNowTog')) { ybNowOpen = !ybIsOpen(); tlSave('vi_yb_now', ybNowOpen ? '1' : '0'); ybTick(true); }
+  });
+  head.addEventListener('click', ev => {
+    const pop = tlEl('ybPop'), lb = tlEl('ybLanesBtn');
+    if (ev.target.closest('#ybLanesBtn')) { pop.hidden = !pop.hidden; lb.setAttribute('aria-expanded', String(!pop.hidden)); return; }
+    const l = ev.target.closest('[data-yl]'); if (l) { ybToggleLane(l.dataset.yl); return; }
+    const j = ev.target.closest('[data-yj]'); if (j) { pop.hidden = true; ybGo(Number(j.dataset.yj), true); }
+  });
+  document.addEventListener('click', ev => { const pop = tlEl('ybPop'); if (pop && !pop.hidden && !ev.target.closest('#tlYSub')) { pop.hidden = true; } });
+  document.addEventListener('keydown', ev => { const pop = tlEl('ybPop'); if (ev.key === 'Escape' && pop && !pop.hidden) pop.hidden = true; });
+  // keys
+  sc.addEventListener('keydown', ev => {
+    const k = ev.key, st = (ev.shiftKey ? 50 : 10);
+    if (k === 'ArrowRight') { ybGo(ybYear() + st, false); ev.preventDefault(); }
+    else if (k === 'ArrowLeft') { ybGo(ybYear() - st, false); ev.preventDefault(); }
+    else if (k === '+' || k === '=') ybSetZoom(tlZ.lanes * 1.25);
+    else if (k === '-') ybSetZoom(tlZ.lanes / 1.25);
+  });
+  // wheel: sideways moves through time when the lanes already fit; Ctrl + wheel (or a trackpad pinch) zooms around the gold line
+  sc.addEventListener('wheel', ev => {
+    if (ev.ctrlKey || ev.metaKey) { ev.preventDefault(); ybSetZoom(tlZ.lanes * Math.exp(-Math.max(-40, Math.min(40, ev.deltaY)) * 0.012)); return; }
+    if (Math.abs(ev.deltaX) > Math.abs(ev.deltaY)) return;
+    if (sc.scrollHeight > sc.clientHeight + 2 && !ev.shiftKey) return;
+    ev.preventDefault(); sc.scrollLeft += ev.deltaY;
+  }, { passive: false });
+  // two fingers pinch to zoom
+  let d0 = 0, z0 = 1;
+  const dist = t => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+  sc.addEventListener('touchstart', ev => { if (ev.touches.length === 2) { d0 = dist(ev.touches); z0 = tlZ.lanes; } }, { passive: true });
+  sc.addEventListener('touchmove', ev => { if (ev.touches.length === 2 && d0) { ev.preventDefault(); ybSetZoom(z0 * dist(ev.touches) / d0); } }, { passive: false });
+  sc.addEventListener('touchend', () => { d0 = 0; }, { passive: true });
+  // a mouse can drag the lanes
+  let drag = null, moved = false;
+  sc.addEventListener('pointerdown', ev => { if (ev.pointerType !== 'mouse' || ev.button !== 0) return; drag = { x: ev.clientX, y: ev.clientY, sl: sc.scrollLeft, st: sc.scrollTop }; moved = false; });
+  window.addEventListener('pointermove', ev => {
+    if (!drag) return;
+    const dx = ev.clientX - drag.x, dy = ev.clientY - drag.y;
+    if (!moved && Math.abs(dx) + Math.abs(dy) > 6) { moved = true; sc.classList.add('grab'); }
+    if (moved) { sc.scrollLeft = drag.sl - dx; sc.scrollTop = drag.st - dy; }
+  });
+  window.addEventListener('pointerup', () => {
+    if (drag && moved) { sc.classList.remove('grab'); const eat = ev => { ev.stopPropagation(); ev.preventDefault(); }; sc.addEventListener('click', eat, { capture: true, once: true }); setTimeout(() => sc.removeEventListener('click', eat, true), 0); }
+    drag = null;
+  });
+  // the little whole-story bar: tap or drag to move there
+  const mb = tlEl('ybMiniBar');
+  const mgo = ev => { const r = mb.getBoundingClientRect(); ybGo(ybFy(Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width))), false); };
+  let md = false;
+  mb.addEventListener('pointerdown', ev => { md = true; try { mb.setPointerCapture(ev.pointerId); } catch (e) {} mgo(ev); });
+  mb.addEventListener('pointermove', ev => { if (md) mgo(ev); });
+  mb.addEventListener('pointerup', () => { md = false; }); mb.addEventListener('pointercancel', () => { md = false; });
+  if (typeof ResizeObserver !== 'undefined') {
+    let rt = 0;
+    new ResizeObserver(() => { clearTimeout(rt); rt = setTimeout(() => { if (tlViewMode === 'lanes' && currentScreen === 'timeline' && sc.clientWidth > 80 && (!ybM || Math.abs(ybM.vw - sc.clientWidth) > 2)) ybDraw(tlYear); }, 80); }).observe(sc);
   }
-  (D.bands || []).forEach(b => { html += `<div class="ln-band" style="left:${X(b.a)}px;width:${(b.b - b.a) * ppy}px"><span>${escHtml(b.t)}</span></div>`; });
-  html = `<div class="ln-axis" style="width:${width}px">${ticks}</div>` + html + lanesHtml.join('') + `<div class="ln-cur" id="lnCur" style="left:${X(tlYear)}px"></div>`;
-  track.style.width = width + 'px'; track.style.height = total + 'px'; track.style.minHeight = ''; track.style.zoom = '';
-  track.classList.remove('tl-lo', 'hitmode');
-  track.dataset.level = 'lanes';
-  track.innerHTML = html;
-  tlLaneBarDraw();
-  tlLaneUpdate(false);
-  const cy = centerYear != null ? centerYear : tlYear;
-  view.scrollLeft = Math.max(0, X(cy) - (ax != null ? ax : view.clientWidth / 2));
-}
-function tlLaneBarDraw() {
-  const bar = tlEl('tlLaneBar'), D = TL.lanes;
-  let shut = true;
-  try { shut = localStorage.getItem('vi_tl_lnnow') !== '1'; } catch (e) {}
-  bar.classList.toggle('shut', shut);
-  bar.innerHTML = `<div class="ln-top"><b class="ln-year" id="lnYear"></b><input type="range" id="lnRange" min="${D.from}" max="${D.to}" step="1" value="${tlYear}" aria-label="Year"><button type="button" class="ln-tog" id="lnTog" aria-label="Show or hide what is happening in each lane at this year">What's happening &#9662;</button></div>` +
-    '<div class="ln-now" id="lnNow"></div>' + `<details class="ln-note"><summary>About these dates</summary><p>${escHtml(D.note)}</p></details>`;
-  tlEl('lnTog').addEventListener('click', () => { const s = bar.classList.toggle('shut'); tlSave('vi_tl_lnnow', s ? '0' : '1'); });
-  tlEl('lnRange').addEventListener('input', ev => { tlYear = Number(ev.target.value); tlLaneUpdate(true); });
-}
-function tlLaneUpdate(keepVisible) {
-  const track = tlEl('tlTrack'), view = tlEl('tlView');
-  if (!track || !TL || !TL.lanes) return;
-  const y = tlYear, { ppy, Y0, pad } = tlLn, x = pad + (y - Y0) * ppy;
-  const cur = tlEl('lnCur'); if (cur) cur.style.left = x + 'px';
-  track.querySelectorAll('.ln-bar').forEach(b => b.classList.toggle('act', y >= Number(b.dataset.a) && y <= Number(b.dataset.b)));
-  const yr = tlEl('lnYear'); if (yr) yr.textContent = tlFmtYear(y);
-  const rng = tlEl('lnRange'); if (rng && Number(rng.value) !== y) rng.value = y;
-  const now = tlEl('lnNow');
-  if (now) now.innerHTML = TL.lanes.lanes.filter(ln => !tlLanesOff.includes(ln.id)).map(ln => {
-    const a = ln.items.filter(it => y >= it.a && y <= it.b && (it.z == null || it.z < 2)).map(it => it.t);
-    return `<div><span class="k">${escHtml(ln.short || ln.name)}</span>${a.length ? escHtml(a.join(', ')) : '&mdash;'}</div>`;
-  }).join('');
-  tlSave('vi_tl_year', String(y));
-  if (keepVisible && view && (x < view.scrollLeft + pad + 40 || x > view.scrollLeft + view.clientWidth - 40)) view.scrollLeft = Math.max(0, x - view.clientWidth / 2);
-}
-function tlLaneClick(ev) {
-  const track = tlEl('tlTrack'), r = track.getBoundingClientRect();
-  const { ppy, Y0, Y1, pad } = tlLn;
-  if (ev.clientX - r.left < pad) return;
-  tlYear = Math.max(Y0, Math.min(Y1, Math.round(Y0 + (ev.clientX - r.left - pad) / ppy)));
-  tlLaneUpdate(false);
-  const bar = ev.target.closest('.ln-bar');
-  if (bar && bar.dataset.e) tlSelect(bar.dataset.e, false);
-}
-function tlToggleLane(id) {
-  const i = tlLanesOff.indexOf(id);
-  if (i >= 0) tlLanesOff.splice(i, 1); else if (tlLanesOff.length < TL.lanes.lanes.length - 1) tlLanesOff.push(id);
-  tlSave('vi_tl_lanes_off', JSON.stringify(tlLanesOff));
-  const v = tlEl('tlView'); const sl = v.scrollLeft, st = v.scrollTop;
-  tlDrawLanes(null, null); v.scrollLeft = sl; v.scrollTop = st;
 }
 
 // ----- Detail panel -----
@@ -1625,10 +1709,11 @@ function tlWire() {
   const hint = tlEl('tlHint');
   if (hint) hint.querySelector('button').addEventListener('click', () => { hint.hidden = true; tlSave('vi_tl_hint', '2'); });
   ['tlThreadBar', 'tlThreadTop'].forEach(id => tlEl(id).addEventListener('click', ev => {
-    const c = ev.target.closest('[data-ov]'), l = ev.target.closest('[data-ln]');
-    if (c) tlToggleOv(c.dataset.ov); else if (l) tlToggleLane(l.dataset.ln);
+    const c = ev.target.closest('[data-ov]');
+    if (c) tlToggleOv(c.dataset.ov);
   }));
-  tlEl('tlTrack').addEventListener('click', ev => { if (tlViewMode === 'lanes') tlLaneClick(ev); else if (tlViewMode === 'threads') tlThreadsClick(ev); });
+  tlEl('tlTrack').addEventListener('click', ev => { if (tlViewMode === 'threads') tlThreadsClick(ev); });
+  ybWire();
   const view = tlEl('tlView');
   // the books are fitted to the width of the screen, so whenever that width changes (a screen switch, Wide / Phone view) draw them again
   if (typeof ResizeObserver !== 'undefined') {
@@ -1817,6 +1902,7 @@ function renderChapter() {
     p.addEventListener('click', () => openSummary(num));
     verseListEl.appendChild(p);
   });
+  try { if (window.VT) VT.afterRender(currentBook, currentChapterNum); } catch (e) { /* versions are optional */ }
 }
 
 // ---------- Summary sheet ----------
@@ -2201,6 +2287,7 @@ function openSummary(verseNum) {
   const verseEntry = ch.verses.find(v => v.num === verseNum);
   sheetRef.textContent = `${ch.book.toUpperCase()} ${ch.chapter}:${verseNum}`;
   sheetVerseText.textContent = /^["\u201c]/.test(verseEntry.text) ? verseEntry.text : `"${verseEntry.text}"`;
+  try { if (window.VT) VT.onSheet(currentBook, currentChapterNum, verseNum, verseEntry.text); } catch (e) { /* versions are optional */ }
   wbwTabVerse = verseNum;
   cmTabVerse = verseNum;
   renderLearnMore(ch, verseNum);
@@ -3269,9 +3356,9 @@ function loadEvents() {
 // Event photos: each event has an `im` list of keys into MAPIMG (or inline {k,u,c,a} objects for fallback pins).
 function mapImgs(e) { return (e.im || []).map(x => (typeof x === 'string' ? MAPIMG[x] : x)).filter(Boolean); }
 function mapImgUrl(img, w) {
-  if (img.u) return img.u;
-  if (/^https?:/.test(img.f)) return img.f;
-  return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(img.f) + '?width=' + w;
+  if (img.u) return wmSnap(img.u);
+  if (/^https?:/.test(img.f)) return wmSnap(img.f);
+  return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(img.f) + '?width=' + wmW(w);
 }
 function mapImgPage(img) {
   if (img.u) return img.s || '';
@@ -3345,7 +3432,7 @@ async function applyMapFilters(fit) {
           r: [[mapF.book, Number(mapF.chapter), 1, Number(mapF.chapter), (ch.verses || []).length || 1]], s: ov.summary || ch.context.sparkNotes || '',
           n: 'No single event is pinned for this chapter yet, so this marks the chapter’s general setting.', chapterPin: true };
         const hi = ch.context.historicalImage;
-        if (hi && hi.url) mapExtra.im = [{ k: 'art', u: displayImageUrl(hi.url).replace(/width=1000/, 'width=900'), c: hi.caption || '', a: hi.credit || '' }];
+        if (hi && hi.url) mapExtra.im = [{ k: 'art', u: displayImageUrl(hi.url), c: hi.caption || '', a: hi.credit || '' }];
         EV_BY_ID[mapExtra.i] = mapExtra; mapShown = [mapExtra];
       }
     } catch (e) { /* leave empty */ }
@@ -3596,7 +3683,7 @@ function renderPlaceLabels() {
 
 // ----- Photo markers: our own light clustering (110 points), DOM markers with round photos -----
 function mkThumb(img, w) {
-  return mapImgUrl(img, w).replace(/width=\d+/, 'width=' + w);
+  return mapImgUrl(img, w).replace(/width=\d+/, 'width=' + wmW(w));
 }
 // Picture cache for the map pins. Wikimedia throttles bursts of requests, so the pin photos are fetched a few at a
 // time right after the map opens, and a pin that fails keeps trying instead of going blank.
@@ -4235,7 +4322,7 @@ const TOUR_MAIN = [
   { n: 1, t: 'What this app is for', res: true, pos: 'center',
     b: 'There are a number of helpful resources within this app that are aimed to engage an eager learner depending on what they are looking for:' },
   { n: 2, t: 'The five buttons below', target: '.bottom-nav', pos: 'above', next: 'Next', cls: 'five',
-    b: '<ul><li><b>Read</b> lets you explore the Bible like normal.</li><li><b>Map</b> shows where it happened.</li><li><b>Deep Dive</b> provides context on a chapter including history, setting, customs, archaeology, and more.</li><li><b>Timeline / Connections</b> shows when it happened and the Bible’s deep interconnection.</li><li><b>Settings</b> holds options and this guide.</li></ul>' },
+    b: '<ul><li><b>Read</b> lets you explore the Bible like normal.</li><li><b>Map</b> shows where it happened.</li><li><b>Deep Dive</b> provides context on a chapter including history, setting, customs, archaeology, and more.</li><li><b>Timeline</b> shows when it happened and the Bible’s deep interconnection.</li><li><b>Settings</b> holds options and this guide.</li></ul>' },
   { n: 3, t: 'Try Read', target: '#navBtnBook', pos: 'above', wait: 'screen:booknav', auto: () => goToScreen('booknav'),
     b: 'Tap <b>Read</b> to choose what to read.' },
   { n: 4, t: 'Pick a book, then a chapter', target: '#screen-booknav', pos: 'bottom', col: true, hint: 'Pick a book, then a chapter', wait: 'screen:read', auto: () => goToScreen('read'),
@@ -4250,9 +4337,9 @@ const TOUR_MAIN = [
     enter: () => { try { mapFiltOpen(false); } catch (e) {} },
     b: 'Learn how to explore places, follow a story, and use the filters.' },
   { n: 9, t: 'Last stop', target: '#navBtnTimeline', pos: 'above', wait: 'screen:timeline', auto: () => goToScreen('timeline'),
-    b: 'Tap <b>Timeline / Connections</b>.' },
-  { n: 10, t: 'Timeline and Connections', target: '#tlViews', pos: 'dock', sm: true, col: true, free: true, explore: true, finish: true, hint: 'Try Timeline and Connections, then Finish',
-    b: '<b>Timeline</b> lays the whole Bible out in order.<span class="tgap"></span><b>Connections</b> visualizes how the Bible is one connected story. Use the overlay filters to see cross-referencing, prophecy fulfilled, connected themes, and much more.' }
+    b: 'Tap <b>Timeline</b>.' },
+  { n: 10, t: 'Timeline and Connections', target: '#tlViews', pos: 'dock', sm: true, col: true, free: true, explore: true, finish: true, hint: 'Try the three views, then Finish',
+    b: '<b>Timeline</b> lays the whole Bible out in order. <b>Year by Year</b> lines up kings, prophets and world powers by date.<span class="tgap"></span><b>Connections</b> visualizes how the Bible is one connected story. Use the overlay filters to see cross-referencing, prophecy fulfilled, connected themes, and much more.' }
 ];
 const TOUR_MAP = [
   { m: 1, t: 'Explore the map', pos: 'right', side: true, col: true, free: true, explore: true, next: 'Next', hint: 'Try the map, then tap Next',
