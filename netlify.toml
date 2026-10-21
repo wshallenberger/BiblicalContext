@@ -1,0 +1,8 @@
+# Lets the site run its one small server function. The ESV and NLT keys live there (set in Netlify, never in the repo).
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/bible"
+  to = "/.netlify/functions/bible"
+  status = 200

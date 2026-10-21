@@ -722,12 +722,12 @@ const TL_BOOKS = [
 ];
 const tlAbbr = n => { const m = n.match(/^(\d )?(.+)$/); const core = m[2].split(' ')[0]; return (m[1] || '') + (core.length > 4 ? core.slice(0, 3) : core); };
 let TL = null, tlP = null, tlSel = null, tlLayout = [], tlBuilt = false, tlFocusPending = null, tlLastFocus = 0;
-let tlLv = 0, tlViewMode = 'line', tlYear = 27;
+let tlLv = 1, tlViewMode = 'line', tlYear = 27;
 let tlZ = { l0: 0.6, l1: 0.6, threads: 1, lanes: 4 }; // opens at 60%, starting at the life of Jesus
 let tlBook = null, tlChap = null, tlGroup = null, tlHitI = -1, tlHits = { all: [], vis: [] }, tlShelfShut = false;
 const tlSave = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
 try {
-  const lv = localStorage.getItem('vi_tl_lv2');
+  const lv = localStorage.getItem('vi_tl_lv3');
   if (lv === '0' || lv === '1') tlLv = Number(lv);
   const z = JSON.parse(localStorage.getItem('vi_tl_zoom5') || 'null');
   if (z && typeof z === 'object') Object.keys(tlZ).forEach(k => { if (z[k] > 0.3 && z[k] < 15) tlZ[k] = z[k]; });
@@ -920,7 +920,7 @@ function tlGoLevel(n, o) {
   let fi = o.fi;
   if (fi == null) fi = tlViewMode === 'line' && tlLayout.length ? tlPosAt((view.scrollLeft + ax) / tlZ[tlZoomKey()]) : tlLastFocus;
   tlLv = n; tlViewMode = 'line';
-  tlSave('vi_tl_lv2', String(n)); tlSave('vi_tl_zoom5', JSON.stringify(tlZ));
+  tlSave('vi_tl_lv3', String(n)); tlSave('vi_tl_zoom5', JSON.stringify(tlZ));
   if (!o.keepSel) tlClose();
   tlRedraw(null);
   view.scrollLeft = Math.max(0, tlXOfFi(fi) * tlZ['l' + n] - ax);
@@ -1391,19 +1391,21 @@ const tlFmtYear = y => (y < 0 ? (-y) + ' BC' : 'AD ' + Math.max(1, y));
 const YB_FROM = -2400, YB_TO = 220, YB_ROW = 26, YB_RULER = 26, YB_GAP = 7;
 const YB_NAMES = { israel: 'Israel', kings: 'Kings', powers: 'World powers', prophets: 'Prophets', figures: 'People', place: 'Places', theme: 'Themes', style: 'Writing', authors: 'Authors', church: 'The church' };
 const YB_DEF = ['israel', 'kings', 'powers', 'prophets', 'figures'];
-const YB_MAXR = { israel: 1, kings: 2, powers: 3, prophets: 3, figures: 2 };
+const YB_MAXR = 3; // never more than three bars stacked in one lane; a fourth is folded into its neighbour
+const YB_KROW = { '#8c4646': 0, '#4d5f8f': 1 }; // Kings: north on the top row, south on the bottom row, the united kingdom across both
 // each era gets a fair share of the little "you are here" bar, like the Overview
 const YB_ERAS = [['begin', -2400, -2100, .04], ['patriarchs', -2100, -1526, .09], ['exodus', -1526, -1406, .08], ['land', -1406, -1050, .10], ['kings', -1050, -605, .20], ['exile', -605, -430, .10], ['between', -430, -5, .09], ['jesus', -5, 30, .13], ['church', 30, 120, .13], ['future', 120, 220, .04]];
 const YB_JUMPS = [['Abraham', -1950], ['Exodus', -1446], ['David', -1000], ['Exile', -586], ['Jesus', 27], ['The church', 55]];
-let ybOn = YB_DEF.slice(), ybNowOpen = null, ybM = null, ybEls = [], ybLanesNow = [];
+let ybOn = YB_DEF.slice(), ybNowOpen = null, ybM = null, ybEls = [], ybLanesNow = [], ybLN = [], ybAuto = true;
 tlZ.lanes = 1; tlYear = 27;
 try {
   const a = JSON.parse(localStorage.getItem('vi_yb_lanes') || 'null'); if (Array.isArray(a) && a.length) ybOn = a;
   const z = Number(localStorage.getItem('vi_yb_z')); if (z > 0.05 && z < 40) tlZ.lanes = z;
   const yy = localStorage.getItem('vi_yb_year'); if (yy !== null && isFinite(Number(yy))) tlYear = Number(yy);
-  const nw = localStorage.getItem('vi_yb_now'); if (nw === '0' || nw === '1') ybNowOpen = nw === '1';
+  const nw = localStorage.getItem('vi_yb_now2'); if (nw === '0' || nw === '1') ybNowOpen = nw === '1';
+  if (localStorage.getItem('vi_yb_auto') === '0') ybAuto = false;
 } catch (e) {}
-const ybIsOpen = () => (ybNowOpen == null ? !window.matchMedia('(max-width:699px), (orientation:landscape) and (max-height:520px)').matches : ybNowOpen);
+const ybIsOpen = () => (ybNowOpen == null ? false : ybNowOpen); // the "what's happening" strip starts folded to one line so the lanes get the room
 function ybMet() {
   const sc = tlEl('ybScroll'), vw = sc ? sc.clientWidth : 0, G = vw < 560 ? 62 : 98, P = Math.max(30, (vw - G) / 2);
   const def = Math.max(0.1, (vw - G) / (vw < 560 ? 240 : 430));
@@ -1412,19 +1414,32 @@ function ybMet() {
 const ybEraAt = y => { const e = YB_ERAS.find(r => y < r[2]) || YB_ERAS[YB_ERAS.length - 1]; return TL.eras.find(x => x.id === e[0]) || TL.eras[0]; };
 function ybFx(y) { let acc = 0; for (const r of YB_ERAS) { if (y <= r[2]) return acc + Math.max(0, (y - r[1]) / (r[2] - r[1])) * r[3]; acc += r[3]; } return 1; }
 function ybFy(f) { let acc = 0; for (const r of YB_ERAS) { if (f <= acc + r[3]) return r[1] + Math.max(0, (f - acc) / r[3]) * (r[2] - r[1]); acc += r[3]; } return YB_TO; }
+// the gold line stays in the middle of the lanes; the year under it is where the lanes are scrolled to
 const ybYear = () => { const sc = tlEl('ybScroll'); return ybM ? YB_FROM + sc.scrollLeft / ybM.ppy : tlYear; };
+// bring a year under the gold line (the lanes slide, the line stays put)
 function ybGo(y, smooth) {
   const sc = tlEl('ybScroll'); if (!sc || !ybM) return;
   const left = (Math.max(YB_FROM, Math.min(YB_TO, y)) - YB_FROM) * ybM.ppy;
   if (smooth) { try { sc.scrollTo({ left, behavior: 'smooth' }); return; } catch (e) {} }
   sc.scrollLeft = left;
 }
+const ybMeasure = (() => { let c = null; const cache = {}; return t => { if (cache[t] != null) return cache[t]; try { c = c || document.createElement('canvas').getContext('2d'); c.font = "600 11px 'IBM Plex Sans', sans-serif"; cache[t] = c.measureText(t).width * 1.04; } catch (e) { cache[t] = t.length * 6.4; } return cache[t]; }; })();
+// text goes in the bar nearly always: full size if it fits, a smaller size if it must, a clipped start when very narrow
+function ybFit(label, w, badge) {
+  const avail = w - 10 - (badge ? 16 : 0), m = ybMeasure(label);
+  if (avail <= 0) return null;
+  if (m <= avail) return { fs: 11, m };
+  const fs = Math.floor(11 * avail / m * 2) / 2;
+  if (fs >= 8) return { fs, m: m * fs / 11 };
+  return avail >= 34 ? { fs: 8, m: avail, cut: true } : null;
+}
 function ybSubDraw() {
   const box = tlEl('tlYSub'); if (!box || !TL || !TL.lanes) return;
-  const pop = TL.lanes.lanes.map(l => `<button type="button" class="th-chip${ybOn.includes(l.id) ? ' on' : ''}" data-yl="${l.id}" style="--c:${l.color}"><i></i>${escHtml(YB_NAMES[l.id] || l.short)}</button>`).join('');
-  box.innerHTML = `<button type="button" class="ys-lanes" id="ybLanesBtn" aria-expanded="false">Lanes <em>&#9662;</em></button>` +
-    `<span class="ys-jl">Jump to</span><div class="ys-jump">${YB_JUMPS.map(j => `<button type="button" data-yj="${j[1]}">${j[0]}</button>`).join('')}</div>` +
-    `<div class="yb-pop" id="ybPop" hidden><p>Choose which lanes to show</p><div class="th-chips">${pop}</div><button type="button" class="ys-reset" data-yl="*reset">Back to the five main lanes</button></div>`;
+  const chips = TL.lanes.lanes.map(l => `<button type="button" class="th-chip${ybOn.includes(l.id) ? ' on' : ''}" data-yl="${l.id}" data-yid="${l.id}" style="--c:${l.color}"><i></i>${escHtml(YB_NAMES[l.id] || l.short)}</button>`).join('');
+  box.innerHTML = `<div class="ys-chips" role="group" aria-label="Lanes to show">${chips}</div>` +
+    `<button type="button" class="ys-more" id="ybLanesBtn" aria-expanded="false" aria-label="More lane options">&#8943;</button>` +
+    `<div class="yb-pop" id="ybPop" hidden><button type="button" class="ys-auto${ybAuto ? ' on' : ''}" id="ybAutoBtn" data-yl="*auto" role="switch" aria-checked="${ybAuto}"><i></i><span>Shrink a lane to one row when nothing in it is on screen</span></button>` +
+    `<button type="button" class="ys-reset" data-yl="*reset">Back to the five main lanes</button></div>`;
 }
 function ybDraw(cy) {
   const sc = tlEl('ybScroll'), inner = tlEl('ybInner');
@@ -1432,37 +1447,50 @@ function ybDraw(cy) {
   const M = ybMet(); if (M.vw < 80) return;
   tlZ.lanes = Math.max(M.lo, Math.min(M.hi, tlZ.lanes));
   const ppy = M.def * tlZ.lanes, { G, P } = M;
-  ybM = { ppy, G, P, vw: M.vw, def: M.def };
+  ybM = { ppy, G, P, vw: M.vw, def: M.def, phX: G + P };
   if (cy == null) cy = tlYear;
   const D = TL.lanes, W = Math.round(P * 2 + (YB_TO - YB_FROM) * ppy), X = y => P + (y - YB_FROM) * ppy;
-  let y = YB_RULER + YB_GAP, names = '', bands = '';
-  ybLanesNow = [];
+  const sl0 = Math.round((Math.max(YB_FROM, Math.min(YB_TO, cy)) - YB_FROM) * ppy);
+  ybLN = []; ybLanesNow = [];
+  // 1. work out each lane: which blocks show at this zoom, which row each one sits on
   D.lanes.filter(l => ybOn.includes(l.id)).forEach(ln => {
-    const maxR = YB_MAXR[ln.id] || 2, rowEnd = new Array(maxR).fill(-1e9), lastOf = new Array(maxR).fill(null), placed = [];
+    const kings = ln.id === 'kings', maxR = kings ? 2 : YB_MAXR, rowEnd = new Array(maxR).fill(-1e9), lastOf = new Array(maxR).fill(null), placed = [];
     const vis = ln.items.filter(it => (it.z == null || ppy >= it.z) && (it.zx == null || ppy < it.zx)).sort((p, q) => p.a - q.a || q.b - p.b);
     vis.forEach(it => {
       const x0 = X(it.a), w = Math.max(5, (it.b - it.a) * ppy);
-      let r = rowEnd.findIndex(e => e <= x0 + 1);
-      if (r < 0) { // a crowd: the extra block is folded into the block it overlaps most, so no lane grows taller than its limit
-        r = rowEnd.indexOf(Math.min(...rowEnd));
-        const o = lastOf[r]; o.parts.push(it); o.b = Math.max(o.b, it.b); o.w = Math.max(o.w, x0 + w - o.x0); rowEnd[r] = o.x0 + o.w; return;
+      let r, span = 1;
+      if (kings) { if (it.c in YB_KROW) r = YB_KROW[it.c]; else { r = 0; span = 2; } }
+      const free = r == null ? rowEnd.findIndex(e => e <= x0 + 1) : (rowEnd[r] <= x0 + 1 && (span < 2 || rowEnd[1] <= x0 + 1) ? r : -1);
+      if (free < 0) { // a real crowd: the extra block is folded into the one it overlaps most, so no lane grows past its limit
+        r = r == null ? rowEnd.indexOf(Math.min(...rowEnd)) : r;
+        const o = lastOf[r]; if (!o) return;
+        o.parts.push(it); o.b = Math.max(o.b, it.b); o.w = Math.max(o.w, x0 + w - o.x0); rowEnd[r] = o.x0 + o.w; return;
       }
-      const o = { it, parts: [it], x0, w, r, b: it.b }; rowEnd[r] = x0 + w; lastOf[r] = o; placed.push(o);
+      r = free;
+      const o = { it, parts: [it], x0, w, r, span, b: it.b }; rowEnd[r] = x0 + w; if (span > 1) rowEnd[1] = x0 + w; lastOf[r] = o; placed.push(o);
     });
-    const used = Math.max(ln.id === 'kings' ? 2 : 1, lastOf.reduce((m, o, i) => (o ? i + 1 : m), 0)), h = used * YB_ROW + 6;
+    const used = Math.max(kings ? 2 : 1, lastOf.reduce((m, o, i) => (o ? i + 1 : m), 0));
+    ybLN.push({ id: ln.id, ln, placed, vis, rowsAll: used, h: used * YB_ROW + 6, a: vis.length ? Math.min(...vis.map(i => i.a)) : 1e9, b: vis.length ? Math.max(...vis.map(i => i.b)) : -1e9 });
+  });
+  const hs = ybModel(sl0, ppy, M.vw, G, P);
+  // 2. draw them, already at their right height
+  let y = YB_RULER + YB_GAP, names = '', bands = '';
+  ybLN.forEach(L => {
+    const ln = L.ln, h = hs.get(L.id), on = L.live = hs.live.has(L.id);
     let bars = '';
-    placed.forEach(o => {
+    L.placed.forEach(o => {
       const m = o.parts.length > 1, nm = o.parts.map(p => p.t);
       const label = m ? (nm.length === 2 ? nm.join(' + ') : nm[0] + ' + ' + (nm.length - 1) + ' more') : o.it.t;
-      const fits = o.w >= label.length * 6.4 + 22 + (m ? 16 : 0);
+      const bw = Math.max(4, Math.round(o.w) - 2), fit = ybFit(label, bw, m);
       const e = (o.parts.find(p => p.e) || {}).e, a0 = Math.min(...o.parts.map(p => p.a));
       const ttl = m ? o.parts.map(p => p.t + ' (' + tlFmtYear(p.a) + ' to ' + tlFmtYear(p.b) + ')').join(' | ')
         : (o.it.n ? o.it.n + ': ' : '') + o.it.t + ' (' + tlFmtYear(o.it.a) + ' to ' + tlFmtYear(o.it.b) + ')';
-      bars += `<${e ? 'button type="button"' : 'div'} class="yb-bar${m ? ' mrg' : ''}${fits ? '' : ' sm'}" data-a="${a0}" data-b="${o.b}"${e ? ` data-e="${e}"` : ''} title="${escHtml(ttl)}" style="left:${Math.round(o.x0)}px;top:${5 + o.r * YB_ROW}px;width:${Math.max(4, Math.round(o.w) - 2)}px${o.it.c ? ';--c:' + o.it.c : ''}">` +
-        (fits ? `<span>${escHtml(label)}</span>` : '') + (m && fits ? `<b>${o.parts.length}</b>` : '') + `</${e ? 'button' : 'div'}>`;
+      const tag = e ? 'button type="button"' : 'div', cls = 'yb-bar' + (m ? ' mrg' : '') + (fit ? '' : ' sm') + (o.span > 1 ? ' tall' : '');
+      bars += `<${tag} class="${cls}" data-a="${a0}" data-b="${o.b}"${e ? ` data-e="${e}"` : ''} title="${escHtml(ttl)}" style="left:${Math.round(o.x0)}px;top:${5 + o.r * YB_ROW}px;width:${bw}px${o.span > 1 ? ';height:' + (o.span * YB_ROW - 4) + 'px' : ''}${o.it.c ? ';--c:' + o.it.c : ''}">` +
+        (fit ? `<span style="font-size:${fit.fs}px">${escHtml(label)}</span>` : '') + (m && fit ? `<b>${o.parts.length}</b>` : '') + `</${e ? 'button' : 'div'}>`;
     });
-    bands += `<div class="yb-band" style="top:${y}px;height:${h}px;width:${W}px;--c:${ln.color}">${bars}</div>`;
-    names += `<div class="yb-nm" style="top:${y}px;height:${h}px;--c:${ln.color}"><b>${escHtml(YB_NAMES[ln.id] || ln.short)}</b>${ln.id === 'kings' ? '<em><s style="background:#8c4646"></s>North <s style="background:#4d5f8f"></s>South</em>' : ''}</div>`;
+    bands += `<div class="yb-band${on ? '' : ' idle'}" data-ln="${L.id}" style="top:${y}px;height:${h}px;width:${W}px;--c:${ln.color}">${bars}</div>`;
+    names += `<div class="yb-nm${on ? '' : ' idle'}" data-ln="${L.id}" style="top:${y}px;height:${h}px;--c:${ln.color}"><b>${escHtml(YB_NAMES[ln.id] || ln.short)}</b>${ln.id === 'kings' ? '<em><span><s style="background:#8c4646"></s>North</span> <span><s style="background:#4d5f8f"></s>South</span></em>' : ''}</div>`;
     ybLanesNow.push({ id: ln.id, name: YB_NAMES[ln.id] || ln.short, color: ln.color, items: ln.items });
     y += h + YB_GAP;
   });
@@ -1474,19 +1502,62 @@ function ybDraw(cy) {
   inner.innerHTML = `<div class="yb-names" style="width:${G}px;height:${total}px"><div class="yb-corner" style="height:${YB_RULER}px"></div>${names}</div>` +
     `<div class="yb-canvas" style="width:${W}px;height:${total}px"><div class="yb-ruler" style="width:${W}px;height:${YB_RULER}px">${ticks}</div>${bands}</div>`;
   ybEls = [...inner.querySelectorAll('.yb-bar')].map(el => ({ el, a: Number(el.dataset.a), b: Number(el.dataset.b) }));
+  ybLN.forEach(L => { L.nm = inner.querySelector('.yb-nm[data-ln="' + L.id + '"]'); L.bd = inner.querySelector('.yb-band[data-ln="' + L.id + '"]'); L.on = hs.live.has(L.id); });
+  ybLayout.sig = ybSig(hs);
   const ph = tlEl('ybPh'); ph.style.left = (G + P) + 'px';
   const mini = tlEl('ybMiniBar');
   mini.innerHTML = YB_ERAS.map((r, i) => { const f0 = YB_ERAS.slice(0, i).reduce((s, q) => s + q[3], 0), er = TL.eras.find(x => x.id === r[0]); return `<i style="left:${f0 * 100}%;width:${r[3] * 100}%;background:${er ? er.c : '#999'}"></i>`; }).join('') + '<u id="ybLens"></u>';
   const zv = tlEl('tlZoomVal'); if (zv) zv.textContent = Math.round(tlZ.lanes * 100) + '%';
-  sc.scrollLeft = Math.round((Math.max(YB_FROM, Math.min(YB_TO, cy)) - YB_FROM) * ppy);
+  sc.scrollLeft = sl0;
+  ybIdle();
   ybTick(true);
+}
+// for the years on screen: which lanes are in use and how tall each needs to be. A lane nothing in it is on screen shrinks to one row (it never disappears)
+function ybModel(sl, ppy, vw, G, P) {
+  const vwc = vw - G, hs = new Map(), live = new Set();
+  ybLN.forEach(L => {
+    let rows = 0;
+    L.placed.forEach(o => { if (o.x0 <= sl + vwc && o.x0 + o.w >= sl) rows = Math.max(rows, o.r + o.span); });
+    if (rows) live.add(L.id);
+    if (!ybAuto) rows = L.rowsAll; else rows = rows ? Math.max(rows, L.id === 'kings' ? 2 : 1) : 1;
+    hs.set(L.id, rows * YB_ROW + 6);
+  });
+  if (!ybAuto) ybLN.forEach(L => live.add(L.id));
+  hs.live = live;
+  return hs;
+}
+const ybSig = hs => [...hs].map(e => e[0] + ':' + e[1]).join(',') + '|' + [...hs.live].join(',');
+function ybIdle() { document.querySelectorAll('#tlYSub [data-yid]').forEach(b => { const L = ybLN.find(l => l.id === b.dataset.yid); b.classList.toggle('idle', !!(L && !L.on && ybOn.includes(L.id))); }); }
+// lanes slide open and shut as the gold line moves through time
+function ybLayout(force) {
+  const sc = tlEl('ybScroll'), inner = tlEl('ybInner'); if (!sc || !ybM || !ybLN.length) return;
+  const hs = ybModel(sc.scrollLeft, ybM.ppy, ybM.vw, ybM.G, ybM.P), sig = ybSig(hs);
+  if (!force && sig === ybLayout.sig) return;
+  ybLayout.sig = sig;
+  let y = YB_RULER + YB_GAP;
+  ybLN.forEach(L => {
+    const h = hs.get(L.id), on = hs.live.has(L.id);
+    L.on = on;
+    [L.nm, L.bd].forEach(el => { if (!el) return; el.style.top = y + 'px'; el.style.height = h + 'px'; el.classList.toggle('idle', !on); });
+    y += h + YB_GAP;
+  });
+  const total = y + 4;
+  inner.style.height = total + 'px';
+  const nmc = inner.querySelector('.yb-names'), cv = inner.querySelector('.yb-canvas');
+  if (nmc) nmc.style.height = total + 'px'; if (cv) cv.style.height = total + 'px';
+  inner.querySelectorAll('.yb-gap').forEach(g => { g.style.height = (total - YB_RULER - 6) + 'px'; });
+  ybIdle();
 }
 function ybLaneAt(y) {
   const ppy = ybM ? ybM.ppy : 1;
-  return ybLanesNow.map(l => ({ id: l.id, name: l.name, color: l.color, items: l.items.filter(it => y >= it.a && y <= it.b && (it.z == null || it.z < 2 || ppy >= it.z)).slice(0, 4) }));
+  return ybLanesNow.filter(l => { const L = ybLN.find(q => q.id === l.id); return !L || L.on; }).map(l => {
+    const all = l.items.filter(it => y >= it.a && y <= it.b && (it.z == null || it.z < 2 || ppy >= it.z));
+    return { id: l.id, name: l.name, color: l.color, items: all.slice(0, 2), more: Math.max(0, all.length - 2) };
+  });
 }
 function ybTick(full) {
   const sc = tlEl('ybScroll'); if (!sc || !ybM || !TL || !TL.lanes) return;
+  ybLayout(false);
   const y = Math.max(YB_FROM, Math.min(YB_TO, ybYear())); tlYear = y;
   const yl = tlFmtYear(Math.round(y));
   const pill = tlEl('ybPhY'); if (pill) pill.textContent = yl;
@@ -1499,15 +1570,15 @@ function ybTick(full) {
 }
 function ybNowDraw(y, yl, er, force) {
   const box = tlEl('ybNow'); if (!box) return;
-  const open = ybIsOpen(), rows = ybLaneAt(y);
-  const sig = er.id + '#' + (open ? 1 : 0) + '#' + rows.map(r => r.items.map(i => i.t).join('|')).join('/');
+  const open = ybIsOpen(), rows = ybLaneAt(y).filter(r => r.items.length);
+  const sig = er.id + '#' + (open ? 1 : 0) + '#' + rows.map(r => r.id + ':' + r.items.map(i => i.t).join('|') + r.more).join('/');
   const yEl = tlEl('ybNowY');
   if (!force && sig === box.dataset.sig && yEl) { yEl.textContent = yl; return; }
   box.dataset.sig = sig;
-  const sum = rows.filter(r => r.items.length).slice(0, 3).map(r => r.name + ': ' + r.items[0].t).join(' · ');
+  const sum = rows.slice(0, 3).map(r => r.name + ': ' + r.items[0].t).join(' · ');
   box.innerHTML = `<button type="button" class="yb-nh" id="ybNowTog" aria-expanded="${open}"><span class="yb-ny" id="ybNowY">${yl}</span><span class="yb-ne" style="color:${er.c}">${escHtml(er.name)}</span>` +
     (open ? '' : `<span class="yb-nsum">${escHtml(sum)}</span>`) + `<i>${open ? '&#9662;' : '&#9652;'}</i></button>` +
-    (open ? `<div class="yb-nbody">${rows.map(r => `<div class="yb-nr" style="--c:${r.color}"><b>${escHtml(r.name)}</b><span>${r.items.length ? r.items.map(i => i.e ? `<button type="button" data-e="${i.e}">${escHtml(i.t)}</button>` : `<em>${escHtml(i.t)}</em>`).join('') : '<em class="none">&mdash;</em>'}</span></div>`).join('')}</div>` : '');
+    (open ? `<div class="yb-nbody">${rows.length ? rows.map(r => `<span class="yb-nr" style="--c:${r.color}"><b>${escHtml(r.name)}</b>${r.items.map(i => i.e ? `<button type="button" data-e="${i.e}">${escHtml(i.t)}</button>` : `<em>${escHtml(i.t)}</em>`).join('')}${r.more ? `<em class="mo">+${r.more}</em>` : ''}</span>`).join('') : '<span class="yb-nr"><em class="none">Nothing listed for this year</em></span>'}</div>` : '');
 }
 function ybSetZoom(z) {
   const M = ybMet(); if (M.vw < 80 || !ybM) return false;
@@ -1517,36 +1588,42 @@ function ybSetZoom(z) {
   ybDraw(y); return true;
 }
 function ybToggleLane(id) {
+  if (id === '*auto') {
+    ybAuto = !ybAuto; tlSave('vi_yb_auto', ybAuto ? '1' : '0');
+    const b = tlEl('ybAutoBtn'); if (b) { b.classList.toggle('on', ybAuto); b.setAttribute('aria-checked', String(ybAuto)); }
+    ybLayout(true); return;
+  }
   if (id === '*reset') ybOn = YB_DEF.slice();
   else { const i = ybOn.indexOf(id); if (i >= 0) { if (ybOn.length > 1) ybOn.splice(i, 1); } else ybOn.push(id); }
   ybOn = TL.lanes.lanes.map(l => l.id).filter(x => ybOn.includes(x));
   tlSave('vi_yb_lanes', JSON.stringify(ybOn));
-  document.querySelectorAll('#ybPop [data-yl]').forEach(b => { if (b.dataset.yl !== '*reset') b.classList.toggle('on', ybOn.includes(b.dataset.yl)); });
+  document.querySelectorAll('#tlYSub [data-yid]').forEach(b => b.classList.toggle('on', ybOn.includes(b.dataset.yid)));
   ybDraw(ybYear());
 }
 function ybWire() {
   if (ybWire.done) return; ybWire.done = true;
-  const sc = tlEl('ybScroll'), inner = tlEl('ybInner'), head = tlEl('tlYSub');
+  const sc = tlEl('ybScroll'), inner = tlEl('ybInner'), head = tlEl('tlYSub'), ph = tlEl('ybPh'), board = sc.parentElement;
   sc.addEventListener('scroll', () => { if (ybWire.raf) return; ybWire.raf = requestAnimationFrame(() => { ybWire.raf = 0; ybTick(false); }); }, { passive: true });
-  // tap: move the gold line to that year; a block with a story also opens it
+  let dn = null;
+  sc.addEventListener('pointerdown', ev => { dn = { x: ev.clientX, y: ev.clientY }; });
+  // tap on the lanes: the gold line slides to that spot; a block with a story also opens it
   inner.addEventListener('click', ev => {
     if (ev.target.closest('.yb-names') || !ybM) return;
-    const cv = inner.querySelector('.yb-canvas'), r = cv.getBoundingClientRect();
-    const y = YB_FROM + (ev.clientX - r.left - ybM.P) / ybM.ppy;
-    ybGo(y, true);
+    if (dn && Math.hypot(ev.clientX - dn.x, ev.clientY - dn.y) > 8) return; // a swipe is not a tap
+    const r = sc.getBoundingClientRect();
+    ybGo(YB_FROM + (sc.scrollLeft + ev.clientX - r.left - ybM.G - ybM.P) / ybM.ppy, true);
     const b = ev.target.closest('.yb-bar');
     if (b && b.dataset.e) tlSelect(b.dataset.e, false);
   });
   tlEl('ybNow').addEventListener('click', ev => {
     const e = ev.target.closest('[data-e]');
     if (e) { tlSelect(e.dataset.e, false); return; }
-    if (ev.target.closest('#ybNowTog')) { ybNowOpen = !ybIsOpen(); tlSave('vi_yb_now', ybNowOpen ? '1' : '0'); ybTick(true); }
+    if (ev.target.closest('#ybNowTog')) { ybNowOpen = !ybIsOpen(); tlSave('vi_yb_now2', ybNowOpen ? '1' : '0'); ybTick(true); }
   });
   head.addEventListener('click', ev => {
     const pop = tlEl('ybPop'), lb = tlEl('ybLanesBtn');
     if (ev.target.closest('#ybLanesBtn')) { pop.hidden = !pop.hidden; lb.setAttribute('aria-expanded', String(!pop.hidden)); return; }
     const l = ev.target.closest('[data-yl]'); if (l) { ybToggleLane(l.dataset.yl); return; }
-    const j = ev.target.closest('[data-yj]'); if (j) { pop.hidden = true; ybGo(Number(j.dataset.yj), true); }
   });
   document.addEventListener('click', ev => { const pop = tlEl('ybPop'); if (pop && !pop.hidden && !ev.target.closest('#tlYSub')) { pop.hidden = true; } });
   document.addEventListener('keydown', ev => { const pop = tlEl('ybPop'); if (ev.key === 'Escape' && pop && !pop.hidden) pop.hidden = true; });
@@ -1558,10 +1635,10 @@ function ybWire() {
     else if (k === '+' || k === '=') ybSetZoom(tlZ.lanes * 1.25);
     else if (k === '-') ybSetZoom(tlZ.lanes / 1.25);
   });
-  // wheel: sideways moves through time when the lanes already fit; Ctrl + wheel (or a trackpad pinch) zooms around the gold line
+  // wheel / trackpad: slides through time under the gold line; Ctrl + wheel (or a trackpad pinch) zooms
   sc.addEventListener('wheel', ev => {
     if (ev.ctrlKey || ev.metaKey) { ev.preventDefault(); ybSetZoom(tlZ.lanes * Math.exp(-Math.max(-40, Math.min(40, ev.deltaY)) * 0.012)); return; }
-    if (Math.abs(ev.deltaX) > Math.abs(ev.deltaY)) return;
+    if (Math.abs(ev.deltaX) > Math.abs(ev.deltaY)) { ev.preventDefault(); sc.scrollLeft += ev.deltaX; return; }
     if (sc.scrollHeight > sc.clientHeight + 2 && !ev.shiftKey) return;
     ev.preventDefault(); sc.scrollLeft += ev.deltaY;
   }, { passive: false });
@@ -1571,19 +1648,30 @@ function ybWire() {
   sc.addEventListener('touchstart', ev => { if (ev.touches.length === 2) { d0 = dist(ev.touches); z0 = tlZ.lanes; } }, { passive: true });
   sc.addEventListener('touchmove', ev => { if (ev.touches.length === 2 && d0) { ev.preventDefault(); ybSetZoom(z0 * dist(ev.touches) / d0); } }, { passive: false });
   sc.addEventListener('touchend', () => { d0 = 0; }, { passive: true });
-  // a mouse can drag the lanes
-  let drag = null, moved = false;
-  sc.addEventListener('pointerdown', ev => { if (ev.pointerType !== 'mouse' || ev.button !== 0) return; drag = { x: ev.clientX, y: ev.clientY, sl: sc.scrollLeft, st: sc.scrollTop }; moved = false; });
-  window.addEventListener('pointermove', ev => {
-    if (!drag) return;
-    const dx = ev.clientX - drag.x, dy = ev.clientY - drag.y;
-    if (!moved && Math.abs(dx) + Math.abs(dy) > 6) { moved = true; sc.classList.add('grab'); }
-    if (moved) { sc.scrollLeft = drag.sl - dx; sc.scrollTop = drag.st - dy; }
+  // the gold line stays in the middle: drag it and the lanes slide behind it
+  let pd = null;
+  ph.addEventListener('pointerdown', ev => {
+    if (ev.button || !ybM) return;
+    ev.preventDefault();
+    try { ph.setPointerCapture(ev.pointerId); } catch (e) {}
+    pd = { id: ev.pointerId, x0: ev.clientX, last: ev.clientX, moved: false };
+    ph.classList.add('drag');
   });
-  window.addEventListener('pointerup', () => {
-    if (drag && moved) { sc.classList.remove('grab'); const eat = ev => { ev.stopPropagation(); ev.preventDefault(); }; sc.addEventListener('click', eat, { capture: true, once: true }); setTimeout(() => sc.removeEventListener('click', eat, true), 0); }
-    drag = null;
+  ph.addEventListener('pointermove', ev => {
+    if (!pd || ev.pointerId !== pd.id) return;
+    if (Math.abs(ev.clientX - pd.x0) > 4) pd.moved = true;
+    if (pd.moved) { sc.scrollLeft += ev.clientX - pd.last; }   // graph follows the finger; the year changes with it
+    pd.last = ev.clientX;
   });
+  const endDrag = ev => {
+    if (!pd || ev.pointerId !== pd.id) return;
+    const d = pd; pd = null; ph.classList.remove('drag');
+    if (!d.moved && ev.type === 'pointerup') { // a plain tap on the line passes through to whatever is under it
+      ph.style.pointerEvents = 'none'; const el = document.elementFromPoint(ev.clientX, ev.clientY); ph.style.pointerEvents = '';
+      if (el && el !== ph) el.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: ev.clientX, clientY: ev.clientY }));
+    }
+  };
+  ph.addEventListener('pointerup', endDrag); ph.addEventListener('pointercancel', endDrag);
   // the little whole-story bar: tap or drag to move there
   const mb = tlEl('ybMiniBar');
   const mgo = ev => { const r = mb.getBoundingClientRect(); ybGo(ybFy(Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width))), false); };
