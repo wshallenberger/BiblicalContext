@@ -60,7 +60,7 @@
       "rank": 2,
       "license": "api-noncommercial",
       "delivery": "nlt",
-      "status": "needs-key",
+      "status": "ready",
       "owner": "Tyndale House Publishers",
       "notice": "Scripture quotations are taken from the Holy Bible, New Living Translation, copyright © 1996, 2004, 2015 by Tyndale House Foundation. Used by permission of Tyndale House Publishers, a Division of Tyndale House Ministries, Carol Stream, Illinois 60188. All rights reserved.",
       "rules": {
@@ -147,7 +147,7 @@
       "sources": [
         "https://github.com/scrollmapper/bible_databases"
       ],
-      "path": "data/translations/asv/{slug}.json"
+      "path": "data/translations/asv-{slug}.json"
     },
     {
       "id": "ylt",
@@ -168,7 +168,7 @@
       "sources": [
         "https://github.com/scrollmapper/bible_databases"
       ],
-      "path": "data/translations/ylt/{slug}.json"
+      "path": "data/translations/ylt-{slug}.json"
     },
     {
       "id": "csb",
