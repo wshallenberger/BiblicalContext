@@ -58,14 +58,19 @@
   // ---------- reader ----------
   function setTag(id) {
     var d = def(id) || list[0];
-    var t = $('trTagText'); if (t) t.textContent = tagOf(d);
     var b = $('vtOpen'); if (b) b.textContent = d.abbr + ' ▾';
+  }
+  function setCredit(id) {
+    var c = $('vtCredit'); if (!c) return;
+    var h = id ? creditHtml(id) : '';
+    c.innerHTML = h; c.hidden = !h;
   }
   function afterRender(slug, chap) {
     ctx.slug = slug; ctx.chap = chap;
     var id = have(cur) ? cur : 'bsb';
     setTag(id);
     var note = $('vtNote'); if (note) note.hidden = true;
+    setCredit(null);
     if (id === 'bsb') return;
     chapter(id, slug, chap).then(function (r) {
       if (ctx.slug !== slug || ctx.chap !== chap) return;      // moved on
@@ -76,7 +81,7 @@
         if (!tn || tn.nodeType !== 3) return;
         if (t != null) tn.nodeValue = t; else p.classList.add('vt-missing');
       });
-      var cr = creditHtml(id); if (note && cr) { note.innerHTML = cr; note.hidden = false; }
+      setCredit(id);      // the publisher's credit line goes at the END of the chapter, not at the top
     });
   }
   function choose(id) {
@@ -126,30 +131,23 @@
     });
   }
 
-  // ---------- picker ----------
-  var overlay = null;
-  function build() {
-    if (overlay) return;
-    var phone = document.querySelector('.phone') || document.body;
-    overlay = document.createElement('div');
-    overlay.className = 'vt-overlay'; overlay.id = 'vtOverlay'; overlay.hidden = true;
-    overlay.innerHTML = '<div class="pick-head"><span style="min-width:56px"></span><span>Bible version</span><button class="pick-x" id="vtX" type="button">✕</button></div><div class="pick-body" id="vtBody"></div>';
-    phone.appendChild(overlay);
-    $('vtX').onclick = close;
+  // ---------- the version menu (top right of the Read screen): pick one and the chapter changes at once ----------
+  function menuOpen() { var m = $('vtMenu'); return !!(m && !m.hidden); }
+  function menuClose() { var m = $('vtMenu'), b = $('vtOpen'); if (m) m.hidden = true; if (b) b.setAttribute('aria-expanded', 'false'); }
+  function drawMenu() {
+    var m = $('vtMenu'); if (!m) return;
+    var cur2 = have(cur) ? cur : 'bsb';
+    m.innerHTML = list.map(function (d) {
+      return '<button type="button" class="vt-opt' + (cur2 === d.id ? ' on' : '') + '" role="option" aria-selected="' + (cur2 === d.id) + '" data-id="' + d.id + '"><b>' + esc(d.abbr) + '</b><span>' + esc(d.name) + '</span><i>✓</i></button>';
+    }).join('');
   }
-  function open() { build(); drawPicker(); overlay.hidden = false; }
-  function close() { if (overlay) overlay.hidden = true; if (ctx.slug) afterRender(ctx.slug, ctx.chap); }
-  function drawPicker() {
-    var body = $('vtBody'); if (!body) return;
-    var cur2 = have(cur) ? cur : 'bsb', html = '';
-    list.forEach(function (d) {
-      html += '<button type="button" class="vt-row-pick' + (cur2 === d.id ? ' on' : '') + '" data-id="' + d.id + '"><span class="vt-dot"></span><span class="vt-rt"><b>' + esc(d.abbr) + '</b> ' + esc(d.name) +
-        '<small>' + (d.delivery === 'bundled' ? 'built in' : 'live from the publisher') + (pd(d) ? ' · public domain' : ' · used with permission') + '</small></span></button>';
-    });
-    if (notReady.length) html += '<p class="vt-small vt-more">Not switched on yet: ' + esc(notReady.join(', ')) + '.</p>';
-    body.innerHTML = html;
-    body.querySelectorAll('.vt-row-pick').forEach(function (b) { b.onclick = function () { choose(b.dataset.id); drawPicker(); }; });
+  function toggleMenu(ev) {
+    if (ev) ev.stopPropagation();
+    var m = $('vtMenu'), b = $('vtOpen'); if (!m) return;
+    if (!m.hidden) { menuClose(); return; }
+    drawMenu(); m.hidden = false; b.setAttribute('aria-expanded', 'true');
   }
+  function open() { toggleMenu(); }
 
   function loadScript(src) {
     return new Promise(function (res, rej) {
@@ -170,7 +168,11 @@
     return (window.Translations ? Promise.resolve() : loadScript('translations.js')).then(go).catch(function () { T = null; list = FALLBACK.slice(); });
   }
   function mount() {
-    var b = $('vtOpen'); if (b) b.onclick = open;
+    var b = $('vtOpen'); if (b) b.onclick = toggleMenu;
+    var m = $('vtMenu');
+    if (m) m.addEventListener('click', function (ev) { var o = ev.target.closest('.vt-opt'); if (!o) return; choose(o.dataset.id); menuClose(); });
+    document.addEventListener('click', function (ev) { if (menuOpen() && !ev.target.closest('.vt-menuwrap')) menuClose(); });
+    document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && menuOpen()) { menuClose(); if (b) b.focus(); } });
     try { if (window.indexedDB) indexedDB.deleteDatabase('vi-local'); } catch (e) {}     // clears the old "add your own PDF" data from earlier versions of the app
     startList().then(function () { if (!have(cur)) cur = 'bsb'; setTag(cur); if (ctx.slug) afterRender(ctx.slug, ctx.chap); });
   }

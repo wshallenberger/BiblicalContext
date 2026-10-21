@@ -1389,6 +1389,7 @@ function tlThreadsFit() {
 // ----- Year by Year: lanes of time, scrubbed with one gold line in the middle -----
 const tlFmtYear = y => (y < 0 ? (-y) + ' BC' : 'AD ' + Math.max(1, y));
 const YB_FROM = -2400, YB_TO = 220, YB_ROW = 26, YB_RULER = 26, YB_GAP = 7;
+const YB_DRAG = 2; // the lanes slide this many pixels for each pixel the gold line is dragged
 const YB_NAMES = { israel: 'Israel', kings: 'Kings', powers: 'World powers', prophets: 'Prophets', figures: 'People', place: 'Places', theme: 'Themes', style: 'Writing', authors: 'Authors', church: 'The church' };
 const YB_DEF = ['israel', 'kings', 'powers', 'prophets', 'figures'];
 const YB_MAXR = 3; // never more than three bars stacked in one lane; a fourth is folded into its neighbour
@@ -1660,7 +1661,7 @@ function ybWire() {
   ph.addEventListener('pointermove', ev => {
     if (!pd || ev.pointerId !== pd.id) return;
     if (Math.abs(ev.clientX - pd.x0) > 4) pd.moved = true;
-    if (pd.moved) { sc.scrollLeft += ev.clientX - pd.last; }   // graph follows the finger; the year changes with it
+    if (pd.moved) { sc.scrollLeft += (ev.clientX - pd.last) * YB_DRAG; }   // twice as fast as the finger: the year changes with it
     pd.last = ev.clientX;
   });
   const endDrag = ev => {
@@ -2184,7 +2185,32 @@ function loadCommentary(slug, chap) {
       return fetch(`data/mix/${slug}/${chap}.json`).then(r => (r.ok ? r.json() : null)).catch(() => null);
     });
   }
-  return cmCache[key].then(r => sumP.then(() => r));
+  return cmCache[key].then(r => sumP.then(() => cmFilter(r)));
+}
+// Settings > Commentary voices: tiles from a voice the reader has switched off are left out (the data files are untouched)
+function cmVoiceKey(who, kind) {
+  if (kind === 'e') return 'early';
+  const w = String(who || '');
+  if (/Piper/.test(w)) return 'piper';
+  if (/Keller/.test(w)) return 'keller';
+  if (/Guzik/.test(w)) return 'guzik';
+  if (/Henry/.test(w)) return 'henry';
+  if (/Spurgeon/.test(w)) return 'spurgeon';
+  if (/Lewis/.test(w)) return 'lewis';
+  if (/Ryle/.test(w)) return 'ryle';
+  if (/Joby|Eleven22/.test(w)) return 'joby';
+  if (/Comer/.test(w)) return 'comer';
+  if (/Mackie|BibleProject/.test(w)) return 'mackie';
+  if (/Peterson/.test(w)) return 'peterson';
+  return '';
+}
+function cmHidden() { try { return (window.ViSettings && ViSettings.hidden) ? ViSettings.hidden() : []; } catch (e) { return []; } }
+function cmFilter(r) {
+  const hide = cmHidden();
+  if (!r || !hide.length) return r;
+  const out = {};
+  Object.keys(r).forEach(v => { out[v] = Array.isArray(r[v]) ? r[v].filter(e => hide.indexOf(cmVoiceKey(e[1], e[0])) < 0) : r[v]; });
+  return out;
 }
 const cmShort = { 'Augustine of Hippo': 'Augustine', 'Origen of Alexandria': 'Origen', 'Ambrose of Milan': 'Ambrose', 'Hilary of Poitiers': 'Hilary', 'Gregory the Dialogist': 'Gregory the Great', 'Basil of Caesarea': 'Basil', 'Alcuin of York': 'Alcuin', 'Remigius of Rheims': 'Remigius', 'Cyril of Alexandria': 'Cyril of Alexandria', 'Tim Mackie · BibleProject': 'Tim Mackie' };
 function cmLinkLabel(e) {
@@ -3200,7 +3226,7 @@ function renderOverview(ctx) {
   const ots = (ctx.otBackground || []).slice(0, gps.length ? 2 : 3);
   const refs = (gps.length ? '<span class="ov-subh" style="color:var(--burgundy)">GOSPEL PARALLELS</span>' + gps.map(refLine).join('') : '') +
     '<span class="ov-subh"' + (gps.length ? ' style="margin-top:4px;color:var(--burgundy)"' : ' style="color:var(--burgundy)"') + '>OLD TESTAMENT</span>' + ots.map(refLine).join('');
-  const voices = (ctx.commentary || []).slice(0, 2).map((c, i) =>
+  const voices = (ctx.commentary || []).filter(c => cmHidden().indexOf(cmVoiceKey(c.source, 'm')) < 0).slice(0, 2).map((c, i) =>
     `<div class="ov-q"><b>${escHtml(c.source)}</b><span class="ov-qt ov-qt${i}">${escHtml(i === 0 ? firstSentence(c.note) : String(c.note).replace(/<[^>]*>/g, ''))}</span></div>`).join('');
   const tl = (ov.timeline || []).map(t => `<div><b>${escHtml(t.when)}</b>${escHtml(t.label)}</div>`).join('');
 
