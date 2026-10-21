@@ -1,0 +1,274 @@
+{
+  "_about": "Which Bible translations the app can show, where each one comes from and the rules that come with it. Edit this file, not the code. 'status' is the only thing the app should check before offering a translation: ready = works today, needs-key = works once a key is added to the server, needs-license = a license or written permission is needed first.",
+  "_updated": "2026-10-20",
+  "base": "bsb",
+  "translations": [
+    {
+      "id": "bsb",
+      "abbr": "BSB",
+      "name": "Berean Standard Bible",
+      "year": 2023,
+      "style": "formal",
+      "license": "public-domain",
+      "delivery": "bundled",
+      "status": "ready",
+      "notice": "Berean Standard Bible (BSB), public domain. Text from berean.bible.",
+      "rules": {
+        "cacheMaxVerses": null,
+        "commercialOk": true,
+        "persistOk": true
+      },
+      "notes": "The text the app already uses. Dedicated to the public domain in April 2023.",
+      "sources": [
+        "https://berean.bible/terms.htm"
+      ],
+      "path": "data/{slug}/{ch}.json"
+    },
+    {
+      "id": "niv",
+      "abbr": "NIV",
+      "name": "New International Version",
+      "year": 2011,
+      "style": "balanced",
+      "rank": 1,
+      "license": "license-required",
+      "delivery": "apibible",
+      "status": "needs-license",
+      "bibleId": null,
+      "owner": "Biblica / Zondervan (HarperCollins Christian)",
+      "notice": "Scripture quotations taken from The Holy Bible, New International Version®, NIV®. Copyright © 1973, 1978, 1984, 2011 by Biblica, Inc.® Used by permission. All rights reserved worldwide.",
+      "noticeFromUpstream": true,
+      "rules": {
+        "cacheMaxVerses": 0,
+        "commercialOk": false,
+        "persistOk": false,
+        "noAI": true,
+        "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)"
+      },
+      "notes": "Royalty-free Express License only for a truly non-commercial app or site (no sales, subscriptions, ads or donations) with no AI or machine-learning features, via API.Bible or YouVersion. A commercial app needs a written license from Biblica (granted to a registered legal entity for a whole Bible or New Testament). API.Bible does not offer the NIV for commercial use.",
+      "sources": [
+        "https://www.biblica.com/permissions/",
+        "https://care.api.bible/article/409-express-licensing-for-commercial-use"
+      ]
+    },
+    {
+      "id": "nlt",
+      "abbr": "NLT",
+      "name": "New Living Translation",
+      "year": 2015,
+      "style": "dynamic",
+      "rank": 2,
+      "license": "api-noncommercial",
+      "delivery": "nlt",
+      "status": "needs-key",
+      "owner": "Tyndale House Publishers",
+      "notice": "Scripture quotations are taken from the Holy Bible, New Living Translation, copyright © 1996, 2004, 2015 by Tyndale House Foundation. Used by permission of Tyndale House Publishers, a Division of Tyndale House Ministries, Carol Stream, Illinois 60188. All rights reserved.",
+      "rules": {
+        "cacheMaxVerses": 500,
+        "maxVersesPerRequest": 500,
+        "requestsPerDay": 5000,
+        "commercialOk": false,
+        "persistOk": false,
+        "quoteLimit": "500 verses, under 25% of the work, never a whole book (print and eBook)"
+      },
+      "notes": "Tyndale's NLT API: anonymous use is 50 verses and 500 requests a day; with a key, 500 verses a request and 5,000 requests a day. Non-commercial unless you apply for a commercial license. Use must fit Tyndale's purpose. The page does not say anything about caching, so keep it short-lived and in memory only.",
+      "sources": [
+        "https://api.nlt.to/",
+        "https://www-int.tyndale.com/permissions"
+      ]
+    },
+    {
+      "id": "esv",
+      "abbr": "ESV",
+      "name": "English Standard Version",
+      "year": 2016,
+      "style": "formal",
+      "rank": 3,
+      "license": "api-noncommercial",
+      "delivery": "esv",
+      "status": "needs-key",
+      "owner": "Crossway",
+      "notice": "Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.",
+      "linkRequired": "https://www.esv.org",
+      "rules": {
+        "cacheMaxVerses": 500,
+        "maxVersesPerRequest": 500,
+        "requestsPerDay": 5000,
+        "requestsPerHour": 1000,
+        "requestsPerMinute": 60,
+        "commercialOk": false,
+        "persistOk": false,
+        "mayEditWords": false,
+        "quoteLimit": "500 verses or half a book, whichever is less, per query, per page and in storage"
+      },
+      "notes": "Crossway's free API is for individuals and non-commercial organizations (no sales, ads, sponsorships or donation appeals). Every page that shows the text must link to esv.org and carry the copyright notice. The key must stay private (server only). The words may not be changed; headings, notes and verse numbers may be left out. Larger or commercial use needs a formal license, which Crossway gives to organizations, not solo developers.",
+      "sources": [
+        "https://api.esv.org/",
+        "https://www.crossway.org/rights-and-permissions/esv/"
+      ]
+    },
+    {
+      "id": "kjv",
+      "abbr": "KJV",
+      "name": "King James Version",
+      "year": 1769,
+      "style": "formal",
+      "rank": 4,
+      "license": "public-domain",
+      "delivery": "bundled",
+      "status": "ready",
+      "notice": "King James Version (1769 Oxford text), public domain in the United States.",
+      "rules": {
+        "cacheMaxVerses": null,
+        "commercialOk": true,
+        "persistOk": true
+      },
+      "notes": "Public domain in the US. In the UK the Crown holds a perpetual right over printing the KJV, so check before offering it to UK users from a UK-based business. Text built from the scrollmapper/bible_databases KJV file (1769, Strong's markup removed).",
+      "sources": [
+        "https://github.com/scrollmapper/bible_databases"
+      ]
+    },
+    {
+      "id": "asv",
+      "abbr": "ASV",
+      "name": "American Standard Version",
+      "year": 1901,
+      "style": "formal",
+      "license": "public-domain",
+      "delivery": "bundled",
+      "status": "ready",
+      "notice": "American Standard Version (1901), public domain.",
+      "rules": {
+        "cacheMaxVerses": null,
+        "commercialOk": true,
+        "persistOk": true
+      },
+      "notes": "Public domain. Built from the scrollmapper/bible_databases ASV file.",
+      "sources": [
+        "https://github.com/scrollmapper/bible_databases"
+      ],
+      "path": "data/translations/asv/{slug}.json"
+    },
+    {
+      "id": "ylt",
+      "abbr": "YLT",
+      "name": "Young's Literal Translation",
+      "year": 1898,
+      "style": "literal",
+      "license": "public-domain",
+      "delivery": "bundled",
+      "status": "ready",
+      "notice": "Young's Literal Translation (1898), public domain.",
+      "rules": {
+        "cacheMaxVerses": null,
+        "commercialOk": true,
+        "persistOk": true
+      },
+      "notes": "Public domain. A very literal rendering; shows the tense and word order of the Greek. Built from the scrollmapper/bible_databases YLT file.",
+      "sources": [
+        "https://github.com/scrollmapper/bible_databases"
+      ],
+      "path": "data/translations/ylt/{slug}.json"
+    },
+    {
+      "id": "csb",
+      "abbr": "CSB",
+      "name": "Christian Standard Bible",
+      "year": 2017,
+      "style": "balanced",
+      "rank": 5,
+      "license": "license-required",
+      "delivery": "apibible",
+      "status": "needs-license",
+      "bibleId": null,
+      "owner": "Holman Bible Publishers (Lifeway)",
+      "notice": "Scripture quotations marked CSB have been taken from the Christian Standard Bible®, Copyright © 2017 by Holman Bible Publishers. Used by permission. Christian Standard Bible® and CSB® are federally registered trademarks of Holman Bible Publishers.",
+      "noticeFromUpstream": true,
+      "rules": {
+        "cacheMaxVerses": 0,
+        "commercialOk": false,
+        "persistOk": false,
+        "quoteLimit": "1,000 verses, under 50% of the work, never a whole book (does not cover a Bible app)"
+      },
+      "notes": "The CSB page lists no app rules; its request form has an 'electronic' option. Check whether API.Bible lists it for your plan, or ask Holman directly.",
+      "sources": [
+        "https://csbible.com/permissions/"
+      ]
+    },
+    {
+      "id": "nkjv",
+      "abbr": "NKJV",
+      "name": "New King James Version",
+      "year": 1982,
+      "style": "formal",
+      "rank": 6,
+      "license": "license-required",
+      "delivery": "apibible",
+      "status": "needs-license",
+      "bibleId": null,
+      "owner": "Thomas Nelson (HarperCollins Christian)",
+      "notice": "Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
+      "noticeFromUpstream": true,
+      "rules": {
+        "cacheMaxVerses": 0,
+        "commercialOk": false,
+        "persistOk": false,
+        "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)"
+      },
+      "notes": "Using the full Bible in an app needs a formal permission request to HarperCollins Christian (they ask about the app, pricing, expected sales and a mock-up). API.Bible may offer it on a paid license.",
+      "sources": [
+        "https://www.harpercollinschristian.com/permissions/"
+      ]
+    },
+    {
+      "id": "nasb",
+      "abbr": "NASB",
+      "name": "New American Standard Bible",
+      "year": 2020,
+      "style": "formal",
+      "rank": 10,
+      "license": "license-required",
+      "delivery": "apibible",
+      "status": "needs-license",
+      "bibleId": null,
+      "owner": "The Lockman Foundation",
+      "notice": "Scripture quotations taken from the (NASB®) New American Standard Bible®, Copyright © 1960, 1971, 1977, 1995, 2020 by The Lockman Foundation. Used by permission. All rights reserved. www.lockman.org",
+      "linkRequired": "https://www.lockman.org",
+      "noticeFromUpstream": true,
+      "rules": {
+        "cacheMaxVerses": 0,
+        "commercialOk": false,
+        "persistOk": false,
+        "quoteLimit": "1,000 verses, under 50% of the work, never a whole book, and no more than 1,000 verses stored in an electronic retrieval system"
+      },
+      "notes": "Swapped in for the NIrV (a simplified NIV with the same Biblica licensing) as the 8th slot, because the NASB is the most-used study translation. Lockman requires the full notice with a clickable www.Lockman.org link in apps and web pages, and only the copyright years for the edition shown (1995 or 2020). Whole-Bible use needs their permission form; API.Bible may offer it on a paid license.",
+      "sources": [
+        "https://www.lockman.org/permission-to-quote/"
+      ]
+    },
+    {
+      "id": "msg",
+      "abbr": "MSG",
+      "name": "The Message",
+      "year": 2018,
+      "style": "paraphrase",
+      "rank": 9,
+      "license": "license-required",
+      "delivery": "none",
+      "status": "needs-license",
+      "owner": "NavPress, represented by Tyndale House Publishers",
+      "notice": "Scripture quotations are taken from THE MESSAGE, copyright © 1993, 2002, 2018 by Eugene H. Peterson. Used by permission of NavPress. All rights reserved. Represented by Tyndale House Publishers.",
+      "rules": {
+        "cacheMaxVerses": 0,
+        "commercialOk": false,
+        "persistOk": false,
+        "quoteLimit": "500 verses, under 25% of the work, never a whole book (print and eBook); online use by questionnaire"
+      },
+      "notes": "A paraphrase. Tyndale's page sends online use to its permissions questionnaire (permission@tyndale.com). No API is known; no delivery method is set up.",
+      "sources": [
+        "https://NavPress.com/permissions"
+      ]
+    }
+  ],
+  "_top8": "The eight: NIV, NLT, ESV, KJV, CSB, NKJV, NASB, The Message. Based on the Christian Book Expo best-seller list (reported by Church Answers, March 2022: NIV, NLT, ESV, KJV, CSB, NKJV, Reina-Valera, NIrV, The Message, NASB). The Spanish Reina-Valera is left out because it is not English, and NASB replaces NIrV. 'rank' is that list's rank. BSB stays as the app's base text and is not one of the eight."
+}
