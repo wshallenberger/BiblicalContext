@@ -5,7 +5,7 @@
 (function () {
   'use strict';
   var KEY = 'vi_set';
-  var DEF = { theme: 'light', font: 'literata', size: 1, lh: 'normal', vnums: 'on', redletter: 'on', resetpos: 'on', hide: [] };
+  var DEF = { theme: 'light', font: 'literata', size: 1, lh: 'normal', vnums: 'on', redletter: 'on', resetpos: 'on', navhide: 'on', hide: [] };
   var VOICES = [
     { id: 'piper', name: 'John Piper' }, { id: 'keller', name: 'Tim Keller' }, { id: 'guzik', name: 'David Guzik' },
     { id: 'henry', name: 'Matthew Henry' }, { id: 'spurgeon', name: 'Charles Spurgeon' }, { id: 'lewis', name: 'C.S. Lewis' },
@@ -40,6 +40,7 @@
       vnums: o.vnums === 'off' ? 'off' : 'on',
       redletter: o.redletter === 'off' ? 'off' : 'on',
       resetpos: o.resetpos === 'off' ? 'off' : 'on',
+      navhide: o.navhide === 'off' ? 'off' : 'on',
       hide: Array.isArray(o.hide) ? o.hide.filter(function (h) { return VOICES.some(function (v) { return v.id === h; }); }) : []
     };
   }
@@ -62,6 +63,8 @@
     root.style.setProperty('--read-lh', String(LH[st.lh]));
     document.body.classList.toggle('no-vnums', st.vnums === 'off');
     document.body.classList.toggle('no-rl', st.redletter === 'off');
+    document.body.classList.toggle('no-navhide', st.navhide === 'off');
+    if (st.navhide === 'off') { var phn = document.querySelector('.phone'); if (phn) phn.classList.remove('nav-dock'); }
   }
   function paint() {
     var w = document.getElementById('stWrap'); if (!w) return;
@@ -98,7 +101,7 @@
     });
     document.getElementById('stSmaller').onclick = function () { if (st.size > 0) set('size', st.size - 1); };
     document.getElementById('stBigger').onclick = function () { if (st.size < SIZES.length - 1) set('size', st.size + 1); };
-    document.getElementById('stReset').onclick = function () { st = { theme: DEF.theme, font: DEF.font, size: 1, lh: DEF.lh, vnums: DEF.vnums, redletter: DEF.redletter, resetpos: DEF.resetpos, hide: [] }; save(); apply(); paint(); };
+    document.getElementById('stReset').onclick = function () { st = { theme: DEF.theme, font: DEF.font, size: 1, lh: DEF.lh, vnums: DEF.vnums, redletter: DEF.redletter, resetpos: DEF.resetpos, navhide: DEF.navhide, hide: [] }; save(); apply(); paint(); };
     var scr = document.getElementById('screen-settings');
     if (scr && typeof MutationObserver !== 'undefined') new MutationObserver(function () { if (scr.classList.contains('active')) loadFonts(); }).observe(scr, { attributes: true, attributeFilter: ['class'] });
     if (window.matchMedia) {

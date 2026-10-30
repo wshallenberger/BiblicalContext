@@ -299,9 +299,12 @@
   function btn(label, attrs, alt) { return '<button type="button" class="lc-go' + (alt ? ' alt' : '') + '" ' + attrs + '>' + esc(label) + ' ›</button>'; }
   function verseBtn(b, c, v, label) { return btn(label || 'Read in context', 'data-hm="verse" data-b="' + esc(b) + '" data-c="' + c + '" data-v="' + v + '"'); }
   function photoCard(kind, kicker, title, body, src, credit, actions, pos) {
+    // a picture card: the picture fills the card; the words sit in a slim band at the bottom (under a fifth of the card) with the rest behind "More"
+    var more = body ? '<button type="button" class="lc-go alt lc-more" aria-expanded="false">More ▾</button>' : '';
     return '<article class="lc lc-photo lc-' + kind + '"><img class="lc-bg" src="' + esc(src) + '" alt="" loading="lazy"' + (pos ? ' style="object-position:' + pos + '"' : '') + ' onerror="this.closest(\'.lc\').classList.add(\'bad\');this.remove()">' +
-      '<span class="lc-scrim"></span><div class="lc-in"><span class="lc-k">' + esc(kicker) + '</span><h4>' + esc(title) + '</h4>' + (body ? '<p>' + esc(body) + '</p>' : '') +
-      (actions ? '<div class="lc-a">' + actions + '</div>' : '') + (credit ? '<span class="lc-cr">' + esc(credit) + '</span>' : '') + '</div></article>';
+      '<span class="lc-scrim"></span><div class="lc-top"><span class="lc-k">' + esc(kicker) + '</span>' + (credit ? '<span class="lc-cr">' + esc(credit) + '</span>' : '') + '</div>' +
+      '<div class="lc-in"><h4>' + esc(title) + '</h4>' + (body ? '<p>' + esc(body) + '</p>' : '') +
+      '<div class="lc-a">' + (actions || '') + more + '</div></div></article>';
   }
   function textCard(kind, kicker, title, body, actions, extra) {
     return '<article class="lc lc-text lc-' + kind + '">' + motif(feed.cnt++) + '<span class="lc-ic">' + (KICON[kind] || KICON.scripture) + '</span><div class="lc-in"><span class="lc-k">' + esc(kicker) + '</span><h4>' + (extra && extra.rawTitle ? title : esc(title)) + '</h4>' +
@@ -322,7 +325,8 @@
       var r = nextOf('scripture', VOTD), n = feed.cnt++;
       return verseText(r).then(function (v) {
         if (!v) return null;
-        return '<article class="lc lc-verse">' + motif(n + 3) + '<div class="lc-vm"><blockquote>' + esc('“' + v.text + '”') + '</blockquote><p class="lc-vr">' + esc(v.ref) + '</p></div><div class="lc-a">' + verseBtn(r[0], r[1], r[2]) + '</div></article>';
+        var L = v.text.length, sz = L > 520 ? ' xs' : L > 330 ? ' sm' : L > 190 ? ' md' : '';
+        return '<article class="lc lc-verse' + sz + '">' + motif(n + 3) + '<div class="lc-vm"><blockquote>' + esc('“' + v.text + '”') + '</blockquote><p class="lc-vr">' + esc(v.ref) + '</p></div><div class="lc-a">' + verseBtn(r[0], r[1], r[2]) + '</div></article>';
       });
     },
     place: function () {
@@ -430,7 +434,8 @@
   }
   function sizeFeed() {
     var f = $('hmFeed'), w = $('hmWrap'); if (!f || !w) return;
-    f.style.setProperty('--lf', Math.max(420, w.clientHeight - 96) + 'px');
+    var nh = 0; if (!document.querySelector('.phone.nav-reserve')) { var ph0 = document.querySelector('.phone'), pr = document.getElementById('navProbe'); if (ph0 && !pr) { pr = document.createElement('div'); pr.id = 'navProbe'; pr.style.cssText = 'position:absolute;left:0;width:0;visibility:hidden;pointer-events:none;height:var(--navh)'; ph0.appendChild(pr); } nh = pr ? pr.offsetHeight : 0; }      // the bar floats over this screen, so the card stops above it
+    f.style.setProperty('--lf', Math.max(420, w.clientHeight - 96 - nh + 6) + 'px');
   }
   function addBatch(first) {
     var f = $('hmFeed'); if (!f || feed.busy) return; feed.busy = true; if (first) feed.fills = 0;
@@ -641,6 +646,11 @@
 
   // the feed adds more cards as you near the end; the feed is sized to the screen
   document.addEventListener('scroll', function (e) { var f = e.target; if (f && f.id === 'hmFeed') feedMore(f); }, true);
+  document.addEventListener('click', function (e) {       // "More" on a picture card opens the rest of its words; tap again to close
+    var b = e.target && e.target.closest ? e.target.closest('.lc-more') : null; if (!b) return;
+    var c = b.closest('.lc'); if (!c) return;
+    var on = c.classList.toggle('open'); b.setAttribute('aria-expanded', on ? 'true' : 'false'); b.textContent = on ? 'Less ▴' : 'More ▾';
+  });
   window.addEventListener('resize', function () { sizeFeed(); });
 
   // ---------- the hooks ----------

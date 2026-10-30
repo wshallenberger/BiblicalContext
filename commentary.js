@@ -97,12 +97,18 @@
     if (!vmaxCache[k]) vmaxCache[k] = Promise.resolve().then(function () { return VT.chapter('bsb', b, c); }).then(function (r) { var n = 0; if (r && r.map) Object.keys(r.map).forEach(function (x) { n = Math.max(n, +x); }); return n || 30; }).catch(function () { return 30; });
     return vmaxCache[k];
   }
+  // one passage picker: tap it, pick a book, and the chapters open straight away (the verse stays its own drop-down)
+  var pop = '', popB = '';
+  function popHtml() {
+    if (!pop) return '';
+    if (pop === 'book') return '<div class="cmx-pop" id="cmPop"><p class="cmx-pop-h">Choose a book</p><div class="cmx-pop-books">' + Bk.slugs().map(function (b) { return '<button type="button" class="cmx-pb' + (b === st.b ? ' on' : '') + '" data-cm="pbook" data-b="' + b + '">' + esc(bookName(b)) + '</button>'; }).join('') + '</div></div>';
+    return '<div class="cmx-pop" id="cmPop"><p class="cmx-pop-h"><button type="button" class="cmx-pback" data-cm="pback">&lsaquo; Books</button><b>' + esc(bookName(popB)) + '</b><span>Choose a chapter</span></p><div class="cmx-pop-grid">' +
+      chapters(popB).map(function (c) { return '<button type="button" class="cmx-pc' + (popB === st.b && c === st.c ? ' on' : '') + '" data-cm="pchap" data-c="' + c + '">' + c + '</button>'; }).join('') + '</div></div>';
+  }
   function pickerHtml() {
-    var bk = '<option value=""' + (st.b ? '' : ' selected') + '>Book</option>' + Bk.slugs().map(function (b) { return '<option value="' + b + '"' + (b === st.b ? ' selected' : '') + '>' + esc(bookName(b)) + '</option>'; }).join('');
-    var ch = '<option value=""' + (st.c ? '' : ' selected') + '>Chapter</option>' + (st.b ? chapters(st.b).map(function (c) { return '<option value="' + c + '"' + (c === st.c ? ' selected' : '') + '>' + c + '</option>'; }).join('') : '');
-    return '<div class="cmx-pick cmx-search"><select class="quick-nav-select" id="cmBook" aria-label="Book">' + bk + '</select>' +
-      '<select class="quick-nav-select" id="cmChap" aria-label="Chapter"' + (st.b ? '' : ' disabled') + '>' + ch + '</select>' +
-      '<select class="quick-nav-select" id="cmVer" aria-label="Verse"' + (st.c ? '' : ' disabled') + '><option value="">' + (st.c ? 'All verses' : 'Verse') + '</option></select></div>';
+    var lab = st.b && st.c ? bookName(st.b) + ' ' + st.c : 'Book and chapter';
+    return '<div class="cmx-pick cmx-search"><button type="button" class="quick-nav-select cmx-pass' + (pop ? ' open' : '') + '" id="cmPass" data-cm="pass" aria-haspopup="true" aria-expanded="' + (pop ? 'true' : 'false') + '">' + esc(lab) + '</button>' +
+      '<select class="quick-nav-select" id="cmVer" aria-label="Verse"' + (st.c ? '' : ' disabled') + '><option value="">' + (st.c ? 'All verses' : 'Verse') + '</option></select></div>' + popHtml();
   }
   function fillVerses() {
     var sel = $('cmVer'); if (!sel || !st.b || !st.c) return;
@@ -227,19 +233,21 @@
     if (st.view === 'voice') renderVoice(); else renderHome();
   }
   function top() { var w = $('cmWrap'); if (w) w.scrollTop = 0; }
-  function home() { st.view = 'home'; st.f = 'all'; st.b = ''; st.c = 0; st.v = 0; }     // a fresh visit starts with an empty search
-  function open(b, c) { if (Bk.slugs().indexOf(b) >= 0) { st.b = b; st.c = Number(c) || 1; st.v = 0; } st.view = 'home'; st.f = 'all'; goToScreen('commentary'); }
+  function home() { pop = ''; st.view = 'home'; st.f = 'all'; st.b = ''; st.c = 0; st.v = 0; }     // a fresh visit starts with an empty search
+  function open(b, c) { pop = ''; if (Bk.slugs().indexOf(b) >= 0) { st.b = b; st.c = Number(c) || 1; st.v = 0; } st.view = 'home'; st.f = 'all'; goToScreen('commentary'); }
 
   document.addEventListener('change', function (e) {
     var t = e.target; if (!t || !t.closest || !t.closest('#cmMain')) return;
-    if (t.id === 'cmBook') { st.b = t.value; st.c = 0; st.v = 0; st.f = 'all'; renderHome(); }
-    else if (t.id === 'cmChap') { st.c = Number(t.value) || 0; st.v = 0; st.f = 'all'; renderHome(); }
-    else if (t.id === 'cmVer') { st.v = Number(t.value) || 0; st.f = 'all'; renderResults(); var h = document.querySelector('#cmRes .cmx-h'); if (h) h.textContent = bookName(st.b) + ' ' + st.c + (st.v ? ':' + st.v : ''); }
+    if (t.id === 'cmVer') { st.v = Number(t.value) || 0; st.f = 'all'; renderResults(); var h = document.querySelector('#cmRes .cmx-h'); if (h) h.textContent = bookName(st.b) + ' ' + st.c + (st.v ? ':' + st.v : ''); }
   });
   document.addEventListener('click', function (e) {
     var t = e.target && e.target.closest ? e.target.closest('[data-cm],#cmBack') : null; if (!t) return;
     if (t.id === 'cmBack') { st.view = 'home'; st.f = 'all'; render(); top(); return; }
     var a = t.dataset.cm;
+    if (a === 'pass') { pop = pop ? '' : (st.b ? 'chap' : 'book'); popB = st.b || ''; renderHome(); return; }
+    if (a === 'pbook') { popB = t.dataset.b; pop = 'chap'; renderHome(); return; }
+    if (a === 'pback') { pop = 'book'; renderHome(); return; }
+    if (a === 'pchap') { st.b = popB; st.c = Number(t.dataset.c) || 1; st.v = 0; st.f = 'all'; pop = ''; renderHome(); return; }
     if (a === 'voice') { st.view = 'voice'; st.k = t.dataset.k; st.gb = ''; render(); top(); }
     else if (a === 'gospel') { st.gb = t.dataset.b; render(); }
     else if (a === 'ch') {

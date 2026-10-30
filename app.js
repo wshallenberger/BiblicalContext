@@ -707,6 +707,7 @@ function goToScreen(name) {
   currentScreen = name;
   tlApplyWide();
   screens.forEach(s => s.classList.toggle('active', s.id === `screen-${name}`));
+  navReserve(name);
   try { Home.go(prevScreen, name); } catch (e) { /* ignore */ }
 
   document.querySelectorAll('.nav-btn, .nav-btn-center button').forEach(b => {
@@ -742,6 +743,26 @@ function goToScreen(name) {
   if (prevScreen !== name && resetOn()) { resetScreenPos(name); requestAnimationFrame(() => resetScreenPos(name)); }
   tourNote('screen:' + name);
 }
+
+// ---------- Bottom icons: five glass circles float over the screens; at the top of a screen they are bigger with names, anywhere else they shrink and huddle in the middle ----------
+var NAV_RESERVE = ['map', 'timeline'];      // these screens pan and zoom, so they keep their own space above the bar
+function navReserve(name) {
+  const ph = document.querySelector('.phone'); if (!ph) return;
+  ph.classList.toggle('nav-reserve', NAV_RESERVE.indexOf(name) >= 0);
+  ph.classList.remove('nav-dock');
+}
+(function () {
+  const ph = document.querySelector('.phone'), nav = document.querySelector('.bottom-nav'); if (!ph || !nav) return;
+  ph.style.removeProperty('--navh');       // the space under the circles is fixed in the CSS, so it never changes while they animate
+  const dock = on => { if (document.body.classList.contains('no-navhide') || ph.classList.contains('nav-reserve')) { ph.classList.remove('nav-dock'); return; } ph.classList.toggle('nav-dock', on); };
+  document.addEventListener('scroll', ev => {
+    const t = ev.target; if (!t || t === document || !t.closest || !t.closest('.screen-area')) return;
+    if (t.closest('#hmFeed, .lc-vm, .sheet, .folder-tabs, #folderTabs, .vt-menu, .th-scroll')) return;
+    if (t.scrollHeight - t.clientHeight < 90) return;                       // only real vertical scrollers
+    const y = t.scrollTop;
+    if (y > 30) dock(true); else if (y <= 10) dock(false);                  // off the top: small round icons; back at the top: the bar
+  }, { capture: true, passive: true });
+})();
 // Leaving the Timeline screen puts the shelf and the threads back to "nothing selected".
 function tlClearSelection() {
   if (tlBook == null && tlChap == null && tlGroup == null && tlRB == null && !tlRP) return;

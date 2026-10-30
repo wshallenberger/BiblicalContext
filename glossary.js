@@ -200,14 +200,19 @@
   }
 
   // ---------- one entry ----------
+  var REFMAX = 9;                     // the first few verses show; the rest sit behind "+N more" so the block stays small
   function refChips(e) {
-    var out = '';
+    var out = '', n = 0;
     (e.r || []).forEach(function (r) {
-      var p = parseRef(r);
-      if (p) out += '<button type="button" class="gl-ref" data-gl="verse" data-b="' + p.b + '" data-c="' + p.c + '" data-v="' + p.v + '">' + esc(r) + '</button>';
-      else out += '<span class="gl-ref ot">' + esc(r) + '</span>';
+      var p = parseRef(r), x = n++ >= REFMAX ? ' gl-x' : '';
+      if (p) out += '<button type="button" class="gl-ref' + x + '" data-gl="verse" data-b="' + p.b + '" data-c="' + p.c + '" data-v="' + p.v + '">' + esc(r) + '</button>';
+      else out += '<span class="gl-ref ot' + x + '">' + esc(r) + '</span>';
     });
-    return out;
+    return out + (n > REFMAX ? '<button type="button" class="gl-ref gl-more" data-gl="refsmore">+' + (n - REFMAX) + ' more</button>' : '');
+  }
+  function chapChips(e) {
+    var n = 0, out = e.c.map(function (k) { var p = k.split(':'), x = n++ >= REFMAX ? ' gl-x' : ''; return '<button type="button" class="gl-ref' + x + '" data-gl="verse" data-b="' + p[0] + '" data-c="' + p[1] + '" data-v="0">' + esc(chLabel(k)) + '</button>'; }).join('');
+    return out + (n > REFMAX ? '<button type="button" class="gl-ref gl-more" data-gl="refsmore">+' + (n - REFMAX) + ' more</button>' : '');
   }
   function renderEntry() {
     var e = BY[st.id]; if (!e) { st.view = 'home'; return renderHome(); }
@@ -215,10 +220,14 @@
     h += '<article class="gl-entry"' + kstyle(e.s) + '><p class="gl-kick"><button type="button" data-gl="shelf" data-k="' + e.s + '">' + esc(s.n) + '</button>' + (e.g ? ' <span>· ' + esc(e.g) + '</span>' : '') + '</p>' +
       '<h2 class="gl-h">' + esc(e.n) + '</h2>' + (e.u ? '<p class="gl-u">' + esc(e.u) + '</p>' : '');
     if (e.a && e.a.length) h += '<p class="gl-al">Also: ' + e.a.map(esc).join(' · ') + '</p>';
-    // where it appears and the buttons come first; the definition follows below, with space above it
-    h += '<div class="gl-meta">';
-    if (e.r && e.r.length) h += '<h3 class="gl-sec first">Where it appears</h3><div class="gl-refs">' + refChips(e) + '</div>';
-    else if (e.c && e.c.length) h += '<h3 class="gl-sec first">Appears in</h3><div class="gl-refs">' + e.c.map(function (k) { var p = k.split(':'); return '<button type="button" class="gl-ref" data-gl="verse" data-b="' + p[0] + '" data-c="' + p[1] + '" data-v="0">' + esc(chLabel(k)) + '</button>'; }).join('') + '</div>';
+    // the definition comes first; the small "Where it appears" block and the buttons sit under it
+    var body = '<div class="gl-body">';
+    (e.t || []).forEach(function (p) { body += '<p class="gl-p">' + esc(p) + '</p>'; });
+    if (e.f && e.f.length) body += '<dl class="gl-facts">' + e.f.map(function (x) { return '<div><dt>' + esc(x[0]) + '</dt><dd>' + esc(x[1]) + '</dd></div>'; }).join('') + '</dl>';
+    body += '</div>';
+    var meta = '<div class="gl-meta">';
+    if (e.r && e.r.length) meta += '<h3 class="gl-sec first">Where it appears</h3><div class="gl-refs">' + refChips(e) + '</div>';
+    else if (e.c && e.c.length) meta += '<h3 class="gl-sec first">Appears in</h3><div class="gl-refs">' + chapChips(e) + '</div>';
     var fc = firstChapter(e), acts = '';
     if (e.la != null) acts += '<button type="button" class="gl-act" data-gl="map" data-la="' + e.la + '" data-ln="' + e.ln + '" data-name="' + esc(e.n) + '">Show on the map</button>';
     if (fc) {
@@ -226,11 +235,9 @@
       acts += '<button type="button" class="gl-act" data-gl="cm" data-b="' + fc.b + '" data-c="' + fc.c + '">Commentary: ' + Bk.name(fc.b) + ' ' + fc.c + '</button>';
     }
     if (e.v) acts += '<button type="button" class="gl-act" data-gl="voice" data-k="' + e.v + '">Read this voice in Commentary</button>';
-    if (acts) h += '<div class="gl-acts">' + acts + '</div>';
-    h += '</div><div class="gl-body">';
-    (e.t || []).forEach(function (p) { h += '<p class="gl-p">' + esc(p) + '</p>'; });
-    if (e.f && e.f.length) h += '<dl class="gl-facts">' + e.f.map(function (x) { return '<div><dt>' + esc(x[0]) + '</dt><dd>' + esc(x[1]) + '</dd></div>'; }).join('') + '</dl>';
-    h += '</div>';
+    if (acts) meta += '<div class="gl-acts">' + acts + '</div>';
+    meta += '</div>';
+    h += body + meta;
     var rel = (e.l || []).map(function (i) { return BY[i]; }).filter(Boolean);
     if (rel.length) h += '<h3 class="gl-sec">Related</h3><div class="gl-rel">' + rel.map(function (x) {
       return '<button type="button" class="gl-rc" data-gl="entry" data-id="' + esc(x.i) + '"' + kstyle(x.s) + '><i></i><b>' + esc(x.n) + '</b><em>' + esc((SH[x.s] || {}).n || '') + '</em></button>';
@@ -318,6 +325,7 @@
     var b = ev.target && ev.target.closest ? ev.target.closest('#screen-glossary [data-gl]') : null; if (!b) return;
     var a = b.dataset.gl;
     if (a === 'back') back();
+    else if (a === 'refsmore') { var rf = b.closest('.gl-refs'); if (rf) rf.classList.add('all'); b.remove(); }
     else if (a === 'shelf') go({ view: 'shelf', shelf: b.dataset.k });
     else if (a === 'shelfgrp') go({ view: 'shelf', shelf: b.dataset.k, grp: b.dataset.g });
     else if (a === 'entry') go({ view: 'entry', id: b.dataset.id });
