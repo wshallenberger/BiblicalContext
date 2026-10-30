@@ -33,12 +33,25 @@
   // ---------- reading a chapter in any version -> { verseNumber: text } or null ----------
   function fetchJson(u) { return fetch(u).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
   function toMap(vs) { var m = {}; (vs || []).forEach(function (v) { m[v.num] = v.text; }); return m; }
+  // API.Bible asks every web app to report each chapter it shows ("FUMS"). The server sends the report id; we load their small script once and call it.
+  var fumsLoad = null;
+  function reportFums(j) {
+    try {
+      var f = j && j.source === 'live' && j.fums; if (!f || !f.id) return;
+      var go = function () { try { if (window._BAPI && typeof window._BAPI.t === 'function') window._BAPI.t(f.id); } catch (e) {} };
+      if (window._BAPI && typeof window._BAPI.t === 'function') { go(); return; }
+      if (!fumsLoad && /^https:\/\//.test(f.jsInclude || '')) {
+        fumsLoad = new Promise(function (ok) { var s = document.createElement('script'); s.src = f.jsInclude; s.async = true; s.onload = ok; s.onerror = ok; document.head.appendChild(s); });
+      }
+      if (fumsLoad) fumsLoad.then(go);
+    } catch (e) {}
+  }
   function chapter(id, slug, ch) {
     var key = id + '/' + slug + '/' + ch;
     if (cache[key]) return cache[key];
     var d = def(id), p;
     if (!d) p = Promise.resolve({ map: null, err: 'NOT_AVAILABLE' });
-    else if (T) p = T.chapter(id, slug, ch).then(function (j) { return { map: toMap(j.verses), err: null }; }, function (e) { return { map: null, err: (e && e.code) || 'NETWORK' }; });
+    else if (T) p = T.chapter(id, slug, ch).then(function (j) { reportFums(j); return { map: toMap(j.verses), err: null }; }, function (e) { return { map: null, err: (e && e.code) || 'NETWORK' }; });
     else p = fetchJson(d.path ? d.path.replace('{slug}', slug).replace('{ch}', ch) : 'data/translations/' + id + '/' + slug + '/' + ch + '.json')
       .then(function (j) { return j ? { map: toMap(j.verses), err: null } : { map: null, err: 'NOT_AVAILABLE' }; });
     cache[key] = p;
