@@ -1,0 +1,448 @@
+{
+ "v": 1,
+ "groups": [
+  {
+   "id": "vibe",
+   "name": "Mood",
+   "chips": [
+    [
+     "energizing",
+     "Energizing",
+     "energizing"
+    ],
+    [
+     "joyful",
+     "Joyful",
+     "joyful"
+    ],
+    [
+     "peaceful",
+     "Peaceful",
+     "peaceful calm"
+    ],
+    [
+     "reflective",
+     "Reflective",
+     "reflective"
+    ],
+    [
+     "majestic",
+     "Majestic",
+     "majestic powerful"
+    ],
+    [
+     "lament",
+     "Lament",
+     "lament sorrowful"
+    ]
+   ]
+  },
+  {
+   "id": "use",
+   "name": "For",
+   "chips": [
+    [
+     "worship",
+     "Worship",
+     "worship"
+    ],
+    [
+     "sabbath",
+     "Sabbath background",
+     "sabbath rest background"
+    ],
+    [
+     "prayer",
+     "Prayer",
+     "prayer"
+    ],
+    [
+     "study",
+     "Bible reading and study",
+     "bible study background"
+    ],
+    [
+     "sleep",
+     "Sleep",
+     "sleep"
+    ],
+    [
+     "family",
+     "Family and kids",
+     "family kids"
+    ]
+   ]
+  },
+  {
+   "id": "style",
+   "name": "Style",
+   "chips": [
+    [
+     "acoustic",
+     "Acoustic",
+     "acoustic"
+    ],
+    [
+     "piano",
+     "Piano",
+     "piano"
+    ],
+    [
+     "instrumental",
+     "Instrumental",
+     "instrumental"
+    ],
+    [
+     "hymns",
+     "Hymns",
+     "hymns"
+    ],
+    [
+     "gospel",
+     "Gospel and choir",
+     "gospel choir"
+    ],
+    [
+     "orchestral",
+     "Orchestral",
+     "orchestral"
+    ],
+    [
+     "contemporary",
+     "Contemporary",
+     "contemporary"
+    ]
+   ]
+  },
+  {
+   "id": "src",
+   "name": "Where",
+   "chips": [
+    [
+     "youtube",
+     "YouTube",
+     "youtube"
+    ],
+    [
+     "spotify",
+     "Spotify",
+     "spotify"
+    ],
+    [
+     "apple",
+     "Apple Music",
+     "apple music"
+    ]
+   ]
+  }
+ ],
+ "items": [
+  {
+   "t": "New Worship Songs",
+   "by": "Worship Together",
+   "u": "https://open.spotify.com/playlist/7517kROJss2nCY5R8IroGQ",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "energizing",
+    "worship",
+    "contemporary"
+   ],
+   "n": "Recent congregational worship songs from the Worship Together team."
+  },
+  {
+   "t": "Upbeat Worship Songs 2026",
+   "by": "You Are Loved",
+   "u": "https://open.spotify.com/playlist/3Bsmx8VBwXvTvfcgXb81MK",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "energizing",
+    "joyful",
+    "worship",
+    "contemporary"
+   ],
+   "n": "An upbeat worship playlist for getting going."
+  },
+  {
+   "t": "Contemporary Worship Weekly",
+   "by": "VERTICAL Playlists",
+   "u": "https://open.spotify.com/playlist/4JGkwp5ZDf5Eww31SGcF4n",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "worship",
+    "contemporary"
+   ],
+   "n": "A weekly refresh of contemporary worship songs."
+  },
+  {
+   "t": "Christian Acoustic Music: Calm Worship and Unplugged Songs",
+   "by": "profimusic.com",
+   "u": "https://open.spotify.com/playlist/7C7cU146cOIWeDn6efaEJP",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "peaceful",
+    "sabbath",
+    "worship",
+    "acoustic"
+   ],
+   "n": "Calm, unplugged worship for a slower day."
+  },
+  {
+   "t": "Soft Worship Music",
+   "by": "",
+   "u": "https://open.spotify.com/playlist/4TAyMk5PSfBTmCAFwTbuQg",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "peaceful",
+    "prayer",
+    "worship"
+   ],
+   "n": "Gentle worship songs for quiet time."
+  },
+  {
+   "t": "Peaceful Worship Piano: for Prayer, Study, and Sleep",
+   "by": "P E A C E playlists",
+   "u": "https://open.spotify.com/playlist/2rzz5YfYyxlbWiFzAxapcI",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "peaceful",
+    "prayer",
+    "study",
+    "sleep",
+    "piano",
+    "instrumental"
+   ],
+   "n": "Piano worship without singing, suited to background listening."
+  },
+  {
+   "t": "Worship Sleep Music: Calming Christian Music for Sleep and Rest",
+   "by": "Instrumental Worship Playlists",
+   "u": "https://open.spotify.com/playlist/2VUdQZODxLXAwOaARVY3lu",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "peaceful",
+    "sleep",
+    "instrumental"
+   ],
+   "n": "Slow instrumental worship for winding down."
+  },
+  {
+   "t": "Music for Reading the Bible",
+   "by": "Music Playlist Radio",
+   "u": "https://open.spotify.com/playlist/3Bj4K3o29vLAw2HFGIHjcq",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "study",
+    "peaceful",
+    "instrumental"
+   ],
+   "n": "Background music to read or study to."
+  },
+  {
+   "t": "Bible Study Instrumental Music",
+   "by": "Instrumental Christian Songs",
+   "u": "https://open.spotify.com/playlist/0czRoaqNmSm0SyO9DpFALW",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "study",
+    "instrumental"
+   ],
+   "n": "Instrumental background for Bible study."
+  },
+  {
+   "t": "Instrumental Hymns and Worship",
+   "by": "",
+   "u": "https://open.spotify.com/playlist/4ySZJT6kLA4yOaFjiS21ux",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "hymns",
+    "instrumental",
+    "reflective",
+    "sabbath"
+   ],
+   "n": "Hymns and worship songs played without vocals."
+  },
+  {
+   "t": "Classic Old-Time Hymns on Piano",
+   "by": "Emma Wise",
+   "u": "https://open.spotify.com/playlist/58fZZ4bm2mPKTNJeWKcZ4X",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "hymns",
+    "piano",
+    "reflective",
+    "sabbath"
+   ],
+   "n": "Familiar hymns on piano."
+  },
+  {
+   "t": "50 Classic Hymns Performers Radio",
+   "by": "Spotify",
+   "u": "https://open.spotify.com/playlist/37i9dQZF1E4rz52xJ3VgpC",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "hymns",
+    "worship"
+   ],
+   "n": "A Spotify-made radio mix of classic hymns."
+  },
+  {
+   "t": "Black Gospel Praise and Worship",
+   "by": "Gracefullymade",
+   "u": "https://open.spotify.com/playlist/6Dn2TQtJsDj5TpgNgN956h",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "gospel",
+    "joyful",
+    "energizing",
+    "worship"
+   ],
+   "n": "Praise and worship in the Black gospel tradition."
+  },
+  {
+   "t": "Old-Time Southern Gospel Mix",
+   "by": "Spotify",
+   "u": "https://open.spotify.com/playlist/37i9dQZF1EIg58De1ufIZd",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "gospel",
+    "joyful",
+    "family"
+   ],
+   "n": "A Spotify-made mix of older Southern gospel."
+  },
+  {
+   "t": "Christian Instrumentals",
+   "by": "Spotify",
+   "u": "https://open.spotify.com/playlist/37i9dQZF1DWXybqtAlSut8",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "instrumental",
+    "peaceful",
+    "study"
+   ],
+   "n": "Spotify's own instrumental Christian playlist."
+  },
+  {
+   "t": "Cinematic Instrumental Christian Worship",
+   "by": "Moon Blanket Records",
+   "u": "https://open.spotify.com/playlist/7peb4OfQRtDndRJ6WAR4lE",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "orchestral",
+    "majestic",
+    "instrumental"
+   ],
+   "n": "Big, film-style instrumental worship."
+  },
+  {
+   "t": "Epic Christian Instrumental",
+   "by": "Stian Stickler Bakke",
+   "u": "https://open.spotify.com/playlist/7DgIG8wUE8wCvmv64fGLoS",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "orchestral",
+    "majestic",
+    "instrumental"
+   ],
+   "n": "Large-scale instrumental pieces with a Christian theme."
+  },
+  {
+   "t": "Kids Worship",
+   "by": "Worship Together",
+   "u": "https://open.spotify.com/playlist/6oDd5d4k6pkLRsNdu7MWeI",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "family",
+    "joyful",
+    "worship"
+   ],
+   "n": "Worship songs for children."
+  },
+  {
+   "t": "Christian Kids Music",
+   "by": "Spotify",
+   "u": "https://open.spotify.com/playlist/5bsvFiDI40mxeAWJdPq9ua",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "family",
+    "joyful"
+   ],
+   "n": "Spotify's own Christian music for kids."
+  },
+  {
+   "t": "Seeds Family Worship: All of Them",
+   "by": "Joshua Houser",
+   "u": "https://open.spotify.com/playlist/7F2pPY7F8St3bIC30dgDfO",
+   "src": "spotify",
+   "k": "playlist",
+   "tags": [
+    "family",
+    "worship"
+   ],
+   "n": "Scripture put to song for the whole family."
+  },
+  {
+   "t": "Listen to the Psalms: Bible Spoken Word with Peaceful Instrumental Music",
+   "by": "Quietime Music",
+   "u": "https://www.youtube.com/playlist?list=PLuixJ1jsC5nEK93he-YMMQgzgaOl-OYyh",
+   "src": "youtube",
+   "k": "playlist",
+   "tags": [
+    "peaceful",
+    "reflective",
+    "prayer",
+    "sleep",
+    "instrumental"
+   ],
+   "n": "The Psalms read aloud over soft instrumental music."
+  },
+  {
+   "t": "Relaxing Piano: 3 Hours of Timeless Hymns",
+   "by": "LTB Piano Music",
+   "u": "https://www.youtube.com/watch?v=xyP1X_Bg5Ww",
+   "src": "youtube",
+   "k": "song",
+   "tags": [
+    "hymns",
+    "piano",
+    "peaceful",
+    "sabbath"
+   ],
+   "n": "Three hours of hymns on piano."
+  },
+  {
+   "t": "3 Hours of Peaceful Instrumental Hymns and Worship Music for Prayer, Study, and Relaxation",
+   "by": "Taryn Harbridge",
+   "u": "https://www.youtube.com/watch?v=LqO_xdH8FDc",
+   "src": "youtube",
+   "k": "song",
+   "tags": [
+    "hymns",
+    "instrumental",
+    "prayer",
+    "study",
+    "peaceful"
+   ],
+   "n": "Three hours of instrumental hymns and worship."
+  }
+ ]
+}
