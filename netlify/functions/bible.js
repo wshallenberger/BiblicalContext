@@ -98,7 +98,7 @@ const ADAPTERS = {
       if (!r.ok) throw upstream(r.status);
       const j = await r.json(), d = j.data || {}, m = j.meta || {};
       return {
-        verses: parseBracketVerses(String(d.content || '')), upstreamCopyright: d.copyright || undefined,
+        verses: parseBracketVerses(String(d.content || '').replace(/¶/g, ' ')), upstreamCopyright: d.copyright || undefined,
         // API.Bible asks every app to report usage ("FUMS"). The UI must load fumsJs / call it when it shows this text.
         fums: m.fumsId ? { id: m.fumsId, js: m.fumsJs, jsInclude: m.fumsJsInclude, noScript: m.fumsNoScript } : undefined
       };
