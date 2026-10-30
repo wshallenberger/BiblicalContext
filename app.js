@@ -754,7 +754,7 @@ function navReserve(name) {
 (function () {
   const ph = document.querySelector('.phone'), nav = document.querySelector('.bottom-nav'); if (!ph || !nav) return;
   ph.style.removeProperty('--navh');       // the space under the circles is fixed in the CSS, so it never changes while they animate
-  const dock = on => { if (document.body.classList.contains('no-navhide') || ph.classList.contains('nav-reserve')) { ph.classList.remove('nav-dock'); return; } ph.classList.toggle('nav-dock', on); };
+  const dock = on => { if (document.body.classList.contains('no-navhide') || ph.classList.contains('nav-reserve') || (typeof tour !== 'undefined' && tour && tour.cur && /navBtn|nav-btn|bottom-nav/.test(JSON.stringify(tour.cur.target || '')))) { ph.classList.remove('nav-dock'); return; } ph.classList.toggle('nav-dock', on); };
   document.addEventListener('scroll', ev => {
     const t = ev.target; if (!t || t === document || !t.closest || !t.closest('.screen-area')) return;
     if (t.closest('#hmFeed, .lc-vm, .sheet, .folder-tabs, #folderTabs, .vt-menu, .th-scroll')) return;
@@ -4951,7 +4951,7 @@ const TOUR_RES = [
   { k: 'vis', op: '50% 0%', im: [['g_vis', 640, 408]], alt: 'The Timeline', t: 'Visualize',
     d: 'See the Bible, not just read it.<span class="tex">Try: the Timeline · the Map · Connections between books · the family tree of Jesus</span>' },
   { k: 'home', op: '50% 0%', im: [['g_home', 640, 408]], alt: 'The Home screen', t: 'Home',
-    d: 'A warm place to start, set up your way.<span class="tex">Try: the verse of the day, or switch it to a Bible Clock · continue reading · swipe “Learn something new” sideways · change the blocks with the pencil</span>' }
+    d: 'A fully customizable spot to make your own.<span class="tex">Try: the Bible Clock, or switch it to a verse of the day · continue reading · swipe “Learn something new” sideways · change the blocks with the pencil</span>' }
 ];
 const tourMfOpen = (sel, only) => {
   try {
@@ -4968,8 +4968,8 @@ const TOUR_MAIN = [
   { kind: 'welcome' },
   { n: 1, t: 'What this app is for', res: true, pos: 'center',
     b: 'Four places to start, whatever you are looking for:' },
-  { n: 2, t: 'The five buttons below', target: '.bottom-nav', pos: 'above', next: 'Next', cls: 'five',
-    b: '<ul><li><b>Read</b> is the Bible text, with your reading plans.</li><li><b>Study</b> puts a chapter or a story in context.</li><li><b>Home</b> is yours: a verse of the day, where you left off, your reading plan, and something new to learn.</li><li><b>Visualize</b> shows the Bible as a timeline, a map, connections and a family tree.</li><li><b>More</b> holds Music, Settings and this guide.</li></ul>' },
+  { n: 2, t: 'The five round buttons', target: ['#navBtnBook', '#navBtnStudy', '.nav-btn-center', '#navBtnVisualize', '#navBtnMore'], pos: 'above', next: 'Next', cls: 'five',
+    b: '<ul><li><b>Read</b> is the Bible text, with your reading plans.</li><li><b>Study</b> puts a chapter or a story in context.</li><li><b>Home</b> is a fully customizable spot to make your own.</li><li><b>Visualize</b> shows the Bible as a timeline, a map, connections and a family tree.</li><li><b>More</b> holds Music, Settings and this guide.</li></ul>' },
   { n: 3, t: 'Try Read', target: '#navBtnBook', pos: 'above', wait: 'screen:booknav', auto: () => goToScreen('booknav'),
     b: 'Tap <b>Read</b> to choose what to read.' },
   { n: 4, t: 'Pick a book, then a chapter', target: '#screen-booknav', pos: 'bottom', col: true, hint: 'Pick a book, then a chapter', wait: 'screen:read', auto: () => goToScreen('read'),
@@ -5030,7 +5030,7 @@ function tourMarkDone() { try { localStorage.setItem(TOUR_KEY, '1'); } catch (e)
 function tourStart() {
   if (tour) tourEnd(false);
   try { closeSheet(); } catch (e) {}
-  goToScreen('read');
+  goToScreen('home');                      // the guide starts on Home
   const phone = document.querySelector('.phone');
   const el = document.createElement('div');
   el.id = 'tour';
@@ -5092,15 +5092,31 @@ function tourRender() {
   card.innerHTML = html;
   tourPlace();
 }
+// the space the round buttons take at the bottom of a screen (same probe Home uses)
+function tourNavSpace() {
+  const ph = document.querySelector('.phone'); if (!ph) return 0;
+  let pr = document.getElementById('navProbe');
+  if (!pr) { pr = document.createElement('div'); pr.id = 'navProbe'; pr.style.cssText = 'position:absolute;left:0;width:0;visibility:hidden;pointer-events:none;height:var(--navh)'; ph.appendChild(pr); }
+  return pr.offsetHeight || 0;
+}
 function tourHoleOf(sel, pr) {
   const t = document.querySelector(sel);
   if (!t) return null;
-  const r = t.getBoundingClientRect();
+  // a round bottom button: the spotlight is a circle exactly around its glass
+  const gl = t.querySelector ? t.querySelector(':scope > .nav-glass') : null;
+  const r = (gl || t).getBoundingClientRect();
   if (r.width < 4 || r.height < 4) return null;
-  const pad = r.width > pr.width * .8 && r.height > pr.height * .3 ? 0 : 5;
+  const pad = gl ? 3 : (r.width > pr.width * .8 && r.height > pr.height * .3 ? 0 : 5);
   const x = Math.max(0, r.left - pr.left - pad), y = Math.max(0, r.top - pr.top - pad);
-  const x2 = Math.min(pr.width, r.right - pr.left + pad), y2 = Math.min(pr.height, r.bottom - pr.top + pad);
+  const x2 = Math.min(pr.width, r.right - pr.left + pad);
+  let y2 = Math.min(pr.height, r.bottom - pr.top + pad);
+  // a whole-screen highlight stops above the round buttons, which float over the bottom of every screen
+  if (!gl && /^#screen-/.test(sel) && !document.querySelector('.phone.nav-reserve')) {
+    const lim = pr.height - tourNavSpace();
+    if (y2 > lim && lim - y > 60) y2 = lim;
+  }
   if (x2 <= x || y2 <= y) return null;
+  if (gl) { const d = Math.min(x2 - x, y2 - y); return { x, y, w: x2 - x, h: y2 - y, r: d / 2 }; }
   const cs = getComputedStyle(t);
   let rad = parseFloat(cs.borderTopLeftRadius) || 0;
   if (/%/.test(cs.borderTopLeftRadius)) rad = Math.min(r.width, r.height) * rad / 100;
@@ -5116,6 +5132,7 @@ function tourPlace() {
   el.style.visibility = lm && !lm.hidden ? 'hidden' : '';
   const pr = phone.getBoundingClientRect(), W = pr.width, H = pr.height;
   const sels = !s.target ? [] : Array.isArray(s.target) ? s.target : [s.target];
+  if (sels.some(q => /navBtn|nav-btn|bottom-nav/.test(q))) phone.classList.remove('nav-dock');   // the round buttons stay full size while the guide points at them
   const holes = sels.map(q => tourHoleOf(q, pr)).filter(Boolean);
   // the dim layer, with a rounded cut-out for each highlighted area
   const dim = el.querySelector('.tdim').style;

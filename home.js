@@ -46,7 +46,7 @@
   ];
   var KINDS = [['scripture', 'Scriptures'], ['place', 'Places and photos'], ['art', 'Paintings'], ['dig', 'Archaeology'], ['history', 'History, customs and setting'], ['voice', 'Commentary'], ['person', 'People'], ['moment', 'Moments on the timeline'], ['story', 'Gospel stories'], ['word', 'Greek words']];
   var DEFAULT = {
-    v: 2, hero: 'votd', order: ['votd', 'left', 'plan', 'discover', 'saves', 'study', 'tools'],
+    v: 2, hero: 'clock', order: ['votd', 'left', 'plan', 'discover', 'saves', 'study', 'tools'],
     on: { votd: 1, left: 1, plan: 1, discover: 1, saves: 0, study: 0, tools: 0 },
     kinds: { scripture: 1, place: 1, art: 1, dig: 1, history: 1, voice: 1, person: 1, moment: 1, story: 1, word: 1 }, open: 'home', par: ''
   };
@@ -454,9 +454,20 @@
   function fillDiscover() {
     var f = $('hmFeed'); if (!f) return;
     sizeFeed();
+    if (feed.html && Date.now() - feedAt >= FEED_MS) { shuffleN++; feedReset(); f = $('hmFeed'); }     // it has been 15 minutes: fresh cards
     if (feed.html) { f.innerHTML = feed.html; f.scrollLeft = feed.top; return; }
+    feedAt = Date.now();
     addBatch(true);
   }
+  // Learn something new gets fresh cards every 15 minutes while Home is open and you are not in the middle of something (no touch for 30 seconds, no card opened with More)
+  var FEED_MS = 15 * 60 * 1000, feedAt = Date.now(), lastTouch = 0;
+  ['touchstart', 'pointerdown', 'wheel', 'keydown'].forEach(function (ev) { document.addEventListener(ev, function () { lastTouch = Date.now(); }, { passive: true, capture: true }); });
+  setInterval(function () {
+    var f = $('hmFeed'), scr = $('screen-home');
+    if (!f || !scr || !scr.classList.contains('active') || document.hidden || !f.querySelector('.lc')) return;
+    if (Date.now() - feedAt < FEED_MS || Date.now() - lastTouch < 30000 || feed.busy || f.querySelector('.lc.open')) return;
+    shuffleN++; feedReset(); feedAt = Date.now(); addBatch(true);
+  }, 30000);
   function feedMore(f) { if (f.scrollLeft + f.clientWidth * 2.2 >= f.scrollWidth) addBatch(false); }
 
   // ---------- Bible Clock: the time as a chapter and verse (4:23 is chapter 4, verse 23) ----------
@@ -620,7 +631,7 @@
       else if (a === 'par') { try { Par.open(b.dataset.id, 'read'); } catch (x) {} }
       else if (a === 'plango') { try { Plans.go(b.dataset.id, Number(b.dataset.d)); } catch (x) {} }
       else if (a === 'openstudy') { openSub(lastStudy); }
-      else if (a === 'shuffle') { shuffleN++; feedReset(); fillers.discover(); }
+      else if (a === 'shuffle') { shuffleN++; feedReset(); feedAt = Date.now(); fillers.discover(); }
       else if (a === 'site') { loadLibs().then(function () { var x = SITE_BY_ID[b.dataset.id]; if (x) openLibModal(siteCardHTML(x, true)); }); }
       else if (a === 'ent') { loadLibs().then(function () { var x = PEOPLE_BY_ID[b.dataset.id]; if (x) openLibModal(entCardHTML(x, true)); }); }
       else if (a === 'map') { try { focusMapAt(Number(b.dataset.la), Number(b.dataset.ln), b.dataset.name || '', 13); } catch (x) { goToScreen('map'); } }
