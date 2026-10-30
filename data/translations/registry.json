@@ -31,10 +31,10 @@
    "year": 2011,
    "style": "balanced",
    "rank": 1,
-   "license": "license-required",
+   "license": "api-noncommercial",
    "delivery": "apibible",
-   "status": "needs-license",
-   "bibleId": null,
+   "status": "ready",
+   "bibleId": "78a9f6124f344018-01",
    "owner": "Biblica / Zondervan (HarperCollins Christian)",
    "notice": "Scripture quotations taken from The Holy Bible, New International Version®, NIV®. Copyright © 1973, 1978, 1984, 2011 by Biblica, Inc.® Used by permission. All rights reserved worldwide.",
    "noticeFromUpstream": true,
@@ -43,7 +43,9 @@
     "commercialOk": false,
     "persistOk": false,
     "noAI": true,
-    "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)"
+    "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)",
+    "requestsPerDay": 60,
+    "maxVersesPerRequest": 500
    },
    "notes": "Royalty-free Express License only for a truly non-commercial app or site (no sales, subscriptions, ads or donations) with no AI or machine-learning features, via API.Bible or YouVersion. A commercial app needs a written license from Biblica (granted to a registered legal entity for a whole Bible or New Testament). API.Bible does not offer the NIV for commercial use.",
    "sources": [
@@ -220,10 +222,10 @@
    "year": 2017,
    "style": "balanced",
    "rank": 5,
-   "license": "license-required",
+   "license": "api-noncommercial",
    "delivery": "apibible",
-   "status": "needs-license",
-   "bibleId": null,
+   "status": "ready",
+   "bibleId": "a556c5305ee15c3f-01",
    "owner": "Holman Bible Publishers (Lifeway)",
    "notice": "Scripture quotations marked CSB have been taken from the Christian Standard Bible®, Copyright © 2017 by Holman Bible Publishers. Used by permission. Christian Standard Bible® and CSB® are federally registered trademarks of Holman Bible Publishers.",
    "noticeFromUpstream": true,
@@ -231,7 +233,9 @@
     "cacheMaxVerses": 0,
     "commercialOk": false,
     "persistOk": false,
-    "quoteLimit": "1,000 verses, under 50% of the work, never a whole book (does not cover a Bible app)"
+    "quoteLimit": "1,000 verses, under 50% of the work, never a whole book (does not cover a Bible app)",
+    "requestsPerDay": 60,
+    "maxVersesPerRequest": 500
    },
    "notes": "The CSB page lists no app rules; its request form has an 'electronic' option. Check whether API.Bible lists it for your plan, or ask Holman directly.",
    "sources": [
@@ -245,10 +249,10 @@
    "year": 1982,
    "style": "formal",
    "rank": 6,
-   "license": "license-required",
+   "license": "api-noncommercial",
    "delivery": "apibible",
-   "status": "needs-license",
-   "bibleId": null,
+   "status": "ready",
+   "bibleId": "63097d2a0a2f7db3-01",
    "owner": "Thomas Nelson (HarperCollins Christian)",
    "notice": "Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
    "noticeFromUpstream": true,
@@ -256,7 +260,9 @@
     "cacheMaxVerses": 0,
     "commercialOk": false,
     "persistOk": false,
-    "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)"
+    "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)",
+    "requestsPerDay": 60,
+    "maxVersesPerRequest": 500
    },
    "notes": "Using the full Bible in an app needs a formal permission request to HarperCollins Christian (they ask about the app, pricing, expected sales and a mock-up). API.Bible may offer it on a paid license.",
    "sources": [
