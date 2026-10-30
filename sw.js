@@ -4,7 +4,7 @@
  *   - Data (chapters, commentary, timeline, ...) is served from the phone's saved copy first and refreshed in the background.
  *   - ESV and NLT text (/api/...) is NEVER saved: the publishers do not allow it, so those versions need a connection.
  */
-const VER = 'r63';
+const VER = 'r65';
 const SHELL = 'vi-shell-' + VER;
 const DATA = 'vi-data';                     // chapters and pictures; survives updates; this is what "Download for offline use" fills
 const CDN = ['fonts.googleapis.com', 'fonts.gstatic.com', 'unpkg.com'];

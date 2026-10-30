@@ -134,7 +134,8 @@
     if (id === 'bsb') { if (window.rlHtml) tgt.innerHTML = window.rlHtml(a.slug, a.chap, a.num, a.bsb, true); else tgt.textContent = quoted(a.bsb); }
     else textFor(id).then(function (r) {
       if (drawSheet.token !== token) return;
-      tgt.textContent = r.t != null ? quoted(r.t) : (r.err && r.err !== 'NOT_AVAILABLE' ? why(id, r.err, a.slug) : 'This verse is not in the ' + def(id).abbr + ' text.');
+      if (r.t != null && window.rlHtmlVer) tgt.innerHTML = window.rlHtmlVer(a.slug, a.chap, a.num, a.bsb, r.t, true);      // red letters carried over from the BSB
+      else tgt.textContent = r.t != null ? quoted(r.t) : (r.err && r.err !== 'NOT_AVAILABLE' ? why(id, r.err, a.slug) : 'This verse is not in the ' + def(id).abbr + ' text.');
       var cr = r.t != null ? creditHtml(id) : '';
       if (cr) tgt.insertAdjacentHTML('beforeend', '<span class="vt-credit">' + cr + '</span>');
     });
@@ -223,7 +224,9 @@
       T = window.Translations.create();
       return T.load().then(function () {
         var ready = T.list({ ready: true });
-        var base = ready.filter(function (t) { return t.id === 'bsb'; }).concat(ready.filter(function (t) { return t.id !== 'bsb'; }));
+        var ORDER = ['bsb', 'nkjv', 'niv', 'nlt', 'esv', 'kjv'];      // William's order; every other version follows in the registry's order
+        var base = ORDER.map(function (id) { return ready.filter(function (t) { return t.id === id; })[0]; }).filter(Boolean)
+          .concat(ready.filter(function (t) { return ORDER.indexOf(t.id) < 0; }));
         if (base.length) list = base;
         notReady = T.list().filter(function (t) { return !T.list({ ready: true }).some(function (r) { return r.id === t.id; }); }).map(function (t) { return t.abbr; });
       });

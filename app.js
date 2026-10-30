@@ -2068,7 +2068,72 @@ window.paintBsbVerse = function (p) {
     rlClearText(p); p.appendChild(rlFragment(currentBook, currentChapterNum, num, e.text)); delete p.dataset.ver; p.classList.remove('vt-missing');
   } catch (err) {}
 };
-window.setVerseText = function (p, t, ver) { rlClearText(p); p.appendChild(document.createTextNode(t)); p.dataset.ver = ver || ''; p.classList.remove('vt-missing'); };
+// Red letters in the other versions: the red-letter data is written for the BSB text, so for another version the words are lined up with the BSB's
+// (the words both share are anchors; the words in between are spread evenly) and the red span is moved onto the matching words. It is close, not exact.
+function rlWords(t) { const out = [], re = /[A-Za-z0-9\u00C0-\u024F'\u2019]+/g; let m; while ((m = re.exec(t))) out.push({ a: m.index, b: m.index + m[0].length, k: m[0].toLowerCase().replace(/[\u2019']/g, '') }); return out; }
+function rlAlign(bsb, spans, text) {
+  const A = rlWords(bsb), B = rlWords(text), n = A.length, m = B.length;
+  if (!n || !m || !spans || !spans.length) return [];
+  const L = []; for (let i = 0; i <= n; i++) L.push(new Uint16Array(m + 1));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) L[i][j] = A[i].k === B[j].k ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  const pairs = []; { let i = 0, j = 0; while (i < n && j < m) { if (A[i].k === B[j].k) { pairs.push([i, j]); i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) i++; else j++; } }
+  const map = w => {                       // a BSB word number -> a word number in the other text
+    let pi = -1, pj = -1, ni = n, nj = m;
+    for (let q = 0; q < pairs.length; q++) { if (pairs[q][0] === w) return pairs[q][1]; if (pairs[q][0] < w) { pi = pairs[q][0]; pj = pairs[q][1]; } else { ni = pairs[q][0]; nj = pairs[q][1]; break; } }
+    return Math.max(0, Math.min(m - 1, Math.round(pj + (w - pi) * (nj - pj) / Math.max(1, ni - pi))));
+  };
+  const out = [];
+  spans.forEach(([a, b]) => {
+    let s = -1, e = -1;
+    for (let i = 0; i < n; i++) { if (A[i].b > a && A[i].a < b) { if (s < 0) s = i; e = i; } }
+    if (s < 0) return;
+    let hit = 0; for (let q = 0; q < pairs.length; q++) if (pairs[q][0] >= s && pairs[q][0] <= e) hit++;
+    if (hit < Math.ceil((e - s + 1) / 3)) return;      // hardly any of these words are in the other version, so there is nothing to line up
+    let ts = map(s), te = Math.max(ts, map(e));
+    let x = a <= 0 ? 0 : B[ts].a, y = b >= bsb.length ? text.length : B[te].b;
+    // when both texts mark the speech with quotation marks, the red starts and ends at the other text's marks (the word match only gets close)
+    const inc = /[\u201C"]/.test(bsb.charAt(a));      // the red starts on the quotation mark itself
+    if (a > 0 && (inc || /[\u201C"]\s*$/.test(bsb.slice(0, a)))) {
+      let bestQ = -1, bd = 46; for (let q = 0; q < text.length; q++) { const c = text[q]; if ((c === '\u201C' || (c === '"' && (q === 0 || /\s/.test(text[q - 1])))) && text[q + 1] && !/\s/.test(text[q + 1])) { const at = inc ? q : q + 1, d = Math.abs(at - x); if (d < bd) { bd = d; bestQ = at; } } }
+      if (bestQ >= 0) x = bestQ;
+    }
+    if (b < bsb.length && /[\u201D"]$/.test(bsb.slice(0, b))) {
+      let bestE = -1, bd = 46; for (let q = 0; q < text.length; q++) { const c = text[q]; if ((c === '\u201D' || (c === '"' && q > 0 && !/\s/.test(text[q - 1]))) && Math.abs(q + 1 - y) < bd) { bd = Math.abs(q + 1 - y); bestE = q + 1; } }
+      if (bestE > x) { y = bestE; ts = -1; }
+    }
+    if (ts >= 0 && b > A[e].b && y < text.length) { const tail = /^[.,;:!?\u2026\u2014\u201D\u2019"')\]]+/.exec(text.slice(y)); if (tail) y += tail[0].length; }   // trailing punctuation goes with the words
+    if (x < y) out.push([x, y]);
+  });
+  out.sort((p, q) => p[0] - q[0]);
+  const fixed = []; out.forEach(r => { const l = fixed[fixed.length - 1]; if (l && r[0] <= l[1]) l[1] = Math.max(l[1], r[1]); else fixed.push(r); });
+  return fixed;
+}
+function rlFragmentSpans(text, sp) {
+  const f = document.createDocumentFragment();
+  if (!sp || !sp.length) { f.appendChild(document.createTextNode(text)); return f; }
+  let p = 0;
+  sp.forEach(([a, b]) => {
+    if (a > p) f.appendChild(document.createTextNode(text.slice(p, a)));
+    const s = document.createElement('span'); s.className = 'wj'; s.textContent = text.slice(a, b); f.appendChild(s); p = b;
+  });
+  if (p < text.length) f.appendChild(document.createTextNode(text.slice(p)));
+  return f;
+}
+function rlSpansFor(book, ch, num, bsbText, text) { const sp = rlSpans(book, ch, num); return sp ? rlAlign(bsbText, sp, text) : []; }
+window.setVerseText = function (p, t, ver) {
+  rlClearText(p);
+  let sp = [];
+  try { const num = Number(p.dataset.verse), e = currentChapterData.verses.find(v => v.num === num); if (e) sp = rlSpansFor(currentBook, currentChapterNum, num, e.text, t); } catch (err) {}
+  p.appendChild(rlFragmentSpans(t, sp)); p.dataset.ver = ver || ''; p.classList.remove('vt-missing');
+};
+// the verse sheet's text in another version, with the red letters moved over
+window.rlHtmlVer = function (book, ch, num, bsbText, text, wrap) {
+  let sp = []; try { sp = rlSpansFor(book, ch, num, bsbText, text); } catch (e) {}
+  let out = '', p = 0;
+  sp.forEach(([a, b]) => { out += escHtml(text.slice(p, a)) + '<span class="wj">' + escHtml(text.slice(a, b)) + '</span>'; p = b; });
+  out += escHtml(text.slice(p));
+  return wrap && !/^["\u201c]/.test(text) ? '&quot;' + out + (/["\u201d]$/.test(text) ? '' : '&quot;') : out;
+};
 window.rlHtml = rlHtml;
 
 async function loadChapter() {
@@ -2764,9 +2829,10 @@ function revealIn(el) {
 }
 (function () {
   const ph = document.querySelector('.phone'); if (!ph) return;
-  const back = () => { if (ph.scrollTop || ph.scrollLeft) { ph.scrollTop = 0; ph.scrollLeft = 0; } };
+  const picking = () => { const a = document.activeElement; return !!(a && /^(SELECT|INPUT|TEXTAREA)$/.test(a.tagName)); };   // do not move the page while a drop-down or a text box is being used (that can close it)
+  const back = () => { if (picking()) return; if (ph.scrollTop || ph.scrollLeft) { ph.scrollTop = 0; ph.scrollLeft = 0; } };
   ph.addEventListener('scroll', back, { passive: true });
-  [document.documentElement, document.body].forEach(n => n && n.addEventListener && n.addEventListener('scroll', () => { if (window.scrollY) window.scrollTo(0, 0); }, { passive: true }));
+  [document.documentElement, document.body].forEach(n => n && n.addEventListener && n.addEventListener('scroll', () => { if (picking()) return; if (window.scrollY) window.scrollTo(0, 0); }, { passive: true }));
 })();
 
 // One way to close the verse sheet: it also clears the highlighted verse.
