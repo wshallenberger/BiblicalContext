@@ -18,7 +18,8 @@
   try { var s = localStorage.getItem(LS); if (s) cur = s; } catch (e) {}
   var cache = {};
   var ctx = { slug: null, chap: null };
-  var sheetMode = null, sheetArgs = null;
+  var sheetArgs = null;
+  var readyP = Promise.resolve();
   var notReady = [];               // versions in the registry that are not switched on yet
 
   function $(id) { return document.getElementById(id); }
@@ -71,15 +72,19 @@
     setTag(id);
     var note = $('vtNote'); if (note) note.hidden = true;
     setCredit(null);
-    if (id === 'bsb') return;
+    if (id === 'bsb') {      // coming back from another version: put the BSB text (with the red letters) back
+      var bx = $('verseList');
+      if (bx && window.paintBsbVerse) bx.querySelectorAll('.verse[data-ver]').forEach(function (p) { window.paintBsbVerse(p); });
+      return;
+    }
     chapter(id, slug, chap).then(function (r) {
       if (ctx.slug !== slug || ctx.chap !== chap) return;      // moved on
       var box = $('verseList'); if (!box) return;
       if (!r.map) { if (note) { note.textContent = why(id, r.err, slug); note.hidden = false; } return; }
       box.querySelectorAll('.verse').forEach(function (p) {
-        var n = p.dataset.verse, t = r.map[n], tn = p.lastChild;
-        if (!tn || tn.nodeType !== 3) return;
-        if (t != null) tn.nodeValue = t; else p.classList.add('vt-missing');
+        var n = p.dataset.verse, t = r.map[n];
+        if (t != null && window.setVerseText) window.setVerseText(p, t, id);
+        else { if (window.paintBsbVerse) window.paintBsbVerse(p); p.classList.add('vt-missing'); }
       });
       setCredit(id);      // the publisher's credit line goes at the END of the chapter, not at the top
     });
@@ -92,43 +97,88 @@
     if (ctx.slug) afterRender(ctx.slug, ctx.chap);
   }
 
-  // ---------- verse sheet: flip between versions or see them all ----------
+  // ---------- verse sheet: the version dropdown, the verse in that version, and the Compare Translations block ----------
+  var licOn = {};                  // licensed versions the reader chose to show in Compare this visit (each one is a request to the publisher)
   function quoted(t) { return /^["“]/.test(t) ? t : '"' + t + '"'; }
+  function curId() { return have(cur) ? cur : 'bsb'; }
   function onSheet(slug, chap, num, bsbText) {
     sheetArgs = { slug: slug, chap: chap, num: num, bsb: bsbText };
-    sheetMode = have(cur) ? cur : 'bsb';
+    closeSheetMenu();
     drawSheet();
+  }
+  function textFor(id) {           // -> Promise { id, t (text or null), err }
+    var a = sheetArgs;
+    if (id === 'bsb') return Promise.resolve({ id: id, t: a.bsb, err: null });
+    return chapter(id, a.slug, a.chap).then(function (r) { return { id: id, t: r && r.map ? (r.map[a.num] != null ? r.map[a.num] : null) : null, err: r && r.err }; });
   }
   function drawSheet() {
     var a = sheetArgs; if (!a) return;
-    var box = $('vtChips'), tgt = $('sheetVerseText'); if (!box || !tgt) return;
-    var ids = list.map(function (d) { return d.id; });
-    if (ids.length < 2) { box.innerHTML = ''; box.hidden = true; tgt.textContent = quoted(a.bsb); return; }
-    box.hidden = false;
-    box.innerHTML = ids.map(function (id) { return '<button type="button" class="vt-chip' + (sheetMode === id ? ' on' : '') + '" data-id="' + id + '">' + def(id).abbr + '</button>'; }).join('') +
-      '<button type="button" class="vt-chip' + (sheetMode === 'all' ? ' on' : '') + '" data-id="all">Compare</button>';
-    box.querySelectorAll('.vt-chip').forEach(function (b) { b.onclick = function () { sheetMode = b.dataset.id; drawSheet(); }; });
-    var want = sheetMode === 'all' ? ids : [sheetMode];
-    var token = a.slug + a.chap + ':' + a.num + ':' + sheetMode;
+    var tgt = $('sheetVerseText'); if (!tgt) return;
+    var chips = $('vtChips'); if (chips) { chips.innerHTML = ''; chips.hidden = true; }
+    var id = curId(), ab = $('sxVerAb'); if (ab) ab.textContent = def(id).abbr;
+    var token = a.slug + a.chap + ':' + a.num + ':' + id;
     drawSheet.token = token;
-    Promise.all(want.map(function (id) { return id === 'bsb' ? Promise.resolve(null) : chapter(id, a.slug, a.chap); })).then(function (res) {
+    if (id === 'bsb') { if (window.rlHtml) tgt.innerHTML = window.rlHtml(a.slug, a.chap, a.num, a.bsb, true); else tgt.textContent = quoted(a.bsb); }
+    else textFor(id).then(function (r) {
       if (drawSheet.token !== token) return;
-      var rows = want.map(function (id, i) {
-        var r = res[i];
-        return { id: id, t: id === 'bsb' ? a.bsb : (r && r.map ? r.map[a.num] : null), err: r && r.err };
-      });
-      var credits = rows.filter(function (r) { return r.t != null; }).map(function (r) { return creditHtml(r.id); }).filter(Boolean);
-      var cr = credits.length ? '<span class="vt-small vt-credit">' + credits.join(' ') + '</span>' : '';
-      if (sheetMode !== 'all') {
-        var r0 = rows[0];
-        tgt.textContent = r0.t != null ? quoted(r0.t) : (r0.err && r0.err !== 'NOT_AVAILABLE' ? why(r0.id, r0.err, a.slug) : 'This verse is not in the ' + def(r0.id).abbr + ' text.');
-        if (cr && r0.t != null) tgt.insertAdjacentHTML('beforeend', ' ' + cr);
-      } else {
-        tgt.innerHTML = rows.map(function (r) {
-          return '<span class="vt-row"><b>' + def(r.id).abbr + '</b> ' + (r.t != null ? esc(r.t) : '<i>not in this version</i>') + '</span>';
-        }).join('') + cr;
-      }
+      tgt.textContent = r.t != null ? quoted(r.t) : (r.err && r.err !== 'NOT_AVAILABLE' ? why(id, r.err, a.slug) : 'This verse is not in the ' + def(id).abbr + ' text.');
+      var cr = r.t != null ? creditHtml(id) : '';
+      if (cr) tgt.insertAdjacentHTML('beforeend', '<span class="vt-credit">' + cr + '</span>');
     });
+    drawCompare();
+  }
+
+  // words that differ from the version being read are highlighted
+  var WORD = /([A-Za-z0-9À-ɏ'’]+)/;
+  function norm(w) { return w.toLowerCase().replace(/’/g, "'").replace(/^'+|'+$/g, ''); }
+  function diffHtml(t, base) {
+    return String(t).split(WORD).map(function (p, i) {
+      if (i % 2 === 0) return esc(p);
+      var k = norm(p); return !k || base[k] ? esc(p) : '<mark class="cp-d">' + esc(p) + '</mark>';
+    }).join('').replace(/<\/mark>(\s+)<mark class="cp-d">/g, '$1');
+  }
+  function drawCompare() {
+    var a = sheetArgs, body = $('cpBody'); if (!a || !body) return;
+    var base = curId(), others = list.map(function (d) { return d.id; }).filter(function (x) { return x !== base; });
+    var ids = [base].concat(others.filter(function (x) { return pd(def(x)) || licOn[x]; }), others.filter(function (x) { return !pd(def(x)) && !licOn[x]; }));   // public-domain texts first; licensed ones wait for a tap
+    var token = a.slug + a.chap + ':' + a.num + ':' + base + ':' + Object.keys(licOn).join(',');
+    drawCompare.token = token;
+    Promise.all(ids.map(function (id) { return (!pd(def(id)) && id !== base && !licOn[id]) ? Promise.resolve({ id: id, skip: true }) : textFor(id); })).then(function (rows) {
+      if (drawCompare.token !== token) return;
+      var bs = {}; String(rows[0].t || '').split(WORD).forEach(function (p, i) { if (i % 2 === 1) bs[norm(p)] = 1; });
+      var credits = [];
+      var lead = ids.length > 1 ? '<p class="cp-note cp-lead">Highlighted words differ from the ' + esc(def(base).abbr) + '.</p>' : '';
+      body.innerHTML = lead + rows.map(function (r, i) {
+        var d = def(r.id), cell;
+        if (r.skip) cell = '<button type="button" class="cp-load" data-id="' + esc(r.id) + '">Show ' + esc(d.abbr) + ' text</button>';
+        else if (r.t == null) cell = r.err && r.err !== 'NOT_AVAILABLE' ? '<i>' + esc(why(r.id, r.err, a.slug)) + '</i>' : '<i>not in this version</i>';
+        else { cell = i === 0 ? esc(r.t) : diffHtml(r.t, bs); var c = creditHtml(r.id); if (c) credits.push(c); }
+        return '<div class="cp-row' + (i === 0 ? ' cur' : '') + '"><span class="cp-ab">' + esc(d.abbr) + '</span><span class="cp-tx">' + cell + '</span></div>';
+      }).join('') + (credits.length ? '<p class="cp-note">' + credits.join(' ') + '</p>' : '');
+    });
+  }
+  function wireCompare() {
+    var body = $('cpBody'); if (!body || body._w) return; body._w = true;
+    body.addEventListener('click', function (ev) { var b = ev.target.closest('.cp-load'); if (!b) return; licOn[b.dataset.id] = true; b.textContent = 'Loading…'; drawCompare(); });
+  }
+
+  // the dropdown on the controls line of the verse sheet
+  function sheetMenuOpen() { var m = $('sxVerMenu'); return !!(m && !m.hidden); }
+  function closeSheetMenu() { var m = $('sxVerMenu'), b = $('sxVerBtn'); if (m) m.hidden = true; if (b) b.setAttribute('aria-expanded', 'false'); }
+  function toggleSheetMenu(ev) {
+    if (ev) ev.stopPropagation();
+    var m = $('sxVerMenu'), b = $('sxVerBtn'); if (!m) return;
+    if (!m.hidden) { closeSheetMenu(); return; }
+    var c = curId();
+    m.innerHTML = list.map(function (d) { return '<button type="button" role="option" class="' + (d.id === c ? 'on' : '') + '" aria-selected="' + (d.id === c) + '" data-id="' + esc(d.id) + '"><b>' + esc(d.abbr) + '</b><span>' + esc(d.name) + '</span></button>'; }).join('');
+    m.hidden = false; b.setAttribute('aria-expanded', 'true');
+  }
+  function wireSheetMenu() {
+    var b = $('sxVerBtn'), m = $('sxVerMenu'); if (!b || !m || b._w) return; b._w = true;
+    b.addEventListener('click', toggleSheetMenu);
+    m.addEventListener('click', function (ev) { var o = ev.target.closest('button[data-id]'); if (!o) return; ev.stopPropagation(); closeSheetMenu(); choose(o.dataset.id); drawSheet(); });
+    document.addEventListener('click', function (ev) { if (sheetMenuOpen() && !ev.target.closest('.sx-ver')) closeSheetMenu(); });
+    document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && sheetMenuOpen()) { closeSheetMenu(); b.focus(); } });
   }
 
   // ---------- the version menu (top right of the Read screen): pick one and the chapter changes at once ----------
@@ -168,15 +218,18 @@
     return (window.Translations ? Promise.resolve() : loadScript('translations.js')).then(go).catch(function () { T = null; list = FALLBACK.slice(); });
   }
   function mount() {
+    wireSheetMenu(); wireCompare();
     var b = $('vtOpen'); if (b) b.onclick = toggleMenu;
     var m = $('vtMenu');
     if (m) m.addEventListener('click', function (ev) { var o = ev.target.closest('.vt-opt'); if (!o) return; choose(o.dataset.id); menuClose(); });
     document.addEventListener('click', function (ev) { if (menuOpen() && !ev.target.closest('.vt-menuwrap')) menuClose(); });
     document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && menuOpen()) { menuClose(); if (b) b.focus(); } });
     try { if (window.indexedDB) indexedDB.deleteDatabase('vi-local'); } catch (e) {}     // clears the old "add your own PDF" data from earlier versions of the app
-    startList().then(function () { if (!have(cur)) cur = 'bsb'; setTag(cur); if (ctx.slug) afterRender(ctx.slug, ctx.chap); });
+    readyP = startList().then(function () { if (!have(cur)) cur = 'bsb'; setTag(cur); if (ctx.slug) afterRender(ctx.slug, ctx.chap); });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount); else mount();
 
-  window.VT = { afterRender: afterRender, onSheet: onSheet, open: open, current: function () { return cur; }, choose: choose };
+  window.VT = { afterRender: afterRender, onSheet: onSheet, open: open, current: function () { return cur; }, choose: choose,
+    // used by the Compare screen
+    ready: function () { return readyP; }, list: function () { return list.slice(); }, def: def, chapter: chapter, why: why, credit: creditHtml };
 })();

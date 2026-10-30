@@ -5,12 +5,15 @@
 (function () {
   'use strict';
   var KEY = 'vi_set';
-  var DEF = { theme: 'light', font: 'literata', size: 1, lh: 'normal', vnums: 'on', hide: [] };
+  var DEF = { theme: 'light', font: 'literata', size: 1, lh: 'normal', vnums: 'on', redletter: 'on', resetpos: 'on', hide: [] };
   var VOICES = [
     { id: 'piper', name: 'John Piper' }, { id: 'keller', name: 'Tim Keller' }, { id: 'guzik', name: 'David Guzik' },
     { id: 'henry', name: 'Matthew Henry' }, { id: 'spurgeon', name: 'Charles Spurgeon' }, { id: 'lewis', name: 'C.S. Lewis' },
-    { id: 'ryle', name: 'J.C. Ryle' }, { id: 'joby', name: 'Joby Martin' }, { id: 'comer', name: 'John Mark Comer' },
-    { id: 'mackie', name: 'Tim Mackie' }, { id: 'peterson', name: 'Jordan Peterson' }, { id: 'early', name: 'Early church writers' }
+    { id: 'ryle', name: 'J.C. Ryle' }, { id: 'stott', name: 'John Stott' }, { id: 'begg', name: 'Alistair Begg' }, { id: 'joby', name: 'Joby Martin' }, { id: 'comer', name: 'John Mark Comer' },
+    { id: 'mackie', name: 'Tim Mackie' }, { id: 'peterson', name: 'Jordan Peterson' },
+    { id: 'barclay', name: 'William Barclay' }, { id: 'macarthur', name: 'John MacArthur' }, { id: 'mitchell', name: 'Philip Anthony Mitchell (2819 Church)' },
+    { id: 'lakepointe', name: 'Lakepointe Church' }, { id: 'bema', name: 'Marty Solomon (BEMA)' }, { id: 'vanderlaan', name: 'Ray Vander Laan' }, { id: 'kramer', name: 'Joel Kramer (Expedition Bible)' },
+    { id: 'early', name: 'Early church writers' }
   ];
   var FONTS = [
     { id: 'literata', name: 'Literata', css: "'Literata', serif" },
@@ -35,6 +38,8 @@
       size: typeof o.size === 'number' && o.size >= 0 && o.size < SIZES.length ? Math.round(o.size) : DEF.size,
       lh: LH[o.lh] ? o.lh : DEF.lh,
       vnums: o.vnums === 'off' ? 'off' : 'on',
+      redletter: o.redletter === 'off' ? 'off' : 'on',
+      resetpos: o.resetpos === 'off' ? 'off' : 'on',
       hide: Array.isArray(o.hide) ? o.hide.filter(function (h) { return VOICES.some(function (v) { return v.id === h; }); }) : []
     };
   }
@@ -56,6 +61,7 @@
     root.style.setProperty('--read-scale', String(SIZES[st.size]));
     root.style.setProperty('--read-lh', String(LH[st.lh]));
     document.body.classList.toggle('no-vnums', st.vnums === 'off');
+    document.body.classList.toggle('no-rl', st.redletter === 'off');
   }
   function paint() {
     var w = document.getElementById('stWrap'); if (!w) return;
@@ -92,7 +98,7 @@
     });
     document.getElementById('stSmaller').onclick = function () { if (st.size > 0) set('size', st.size - 1); };
     document.getElementById('stBigger').onclick = function () { if (st.size < SIZES.length - 1) set('size', st.size + 1); };
-    document.getElementById('stReset').onclick = function () { st = { theme: DEF.theme, font: DEF.font, size: 1, lh: DEF.lh, vnums: DEF.vnums, hide: [] }; save(); apply(); paint(); };
+    document.getElementById('stReset').onclick = function () { st = { theme: DEF.theme, font: DEF.font, size: 1, lh: DEF.lh, vnums: DEF.vnums, redletter: DEF.redletter, resetpos: DEF.resetpos, hide: [] }; save(); apply(); paint(); };
     var scr = document.getElementById('screen-settings');
     if (scr && typeof MutationObserver !== 'undefined') new MutationObserver(function () { if (scr.classList.contains('active')) loadFonts(); }).observe(scr, { attributes: true, attributeFilter: ['class'] });
     if (window.matchMedia) {
