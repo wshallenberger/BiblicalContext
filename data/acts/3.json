@@ -1,0 +1,276 @@
+{
+  "book": "Acts",
+  "chapter": 3,
+  "title": "A Lame Man Healed at the Temple",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "One afternoon Peter and John were going up to the temple at the hour of prayer, the ninth hour."
+    },
+    {
+      "num": 2,
+      "text": "And a man who was lame from birth was being carried to the temple gate called Beautiful, where he was put every day to beg from those entering the temple courts."
+    },
+    {
+      "num": 3,
+      "text": "When he saw Peter and John about to enter, he asked them for money."
+    },
+    {
+      "num": 4,
+      "text": "Peter looked directly at him, as did John. \"Look at us!\" said Peter."
+    },
+    {
+      "num": 5,
+      "text": "So the man gave them his attention, expecting to receive something from them."
+    },
+    {
+      "num": 6,
+      "text": "But Peter said, \"Silver or gold I do not have, but what I have I give you: In the name of Jesus Christ of Nazareth, get up and walk!\""
+    },
+    {
+      "num": 7,
+      "text": "Taking him by the right hand, Peter helped him up, and at once the man's feet and ankles were made strong."
+    },
+    {
+      "num": 8,
+      "text": "He sprang to his feet and began to walk. Then he went with them into the temple courts, walking and leaping and praising God."
+    },
+    {
+      "num": 9,
+      "text": "When all the people saw him walking and praising God,"
+    },
+    {
+      "num": 10,
+      "text": "they recognized him as the man who used to sit begging at the Beautiful Gate of the temple, and they were filled with wonder and amazement at what had happened to him."
+    },
+    {
+      "num": 11,
+      "text": "While the man clung to Peter and John, all the people were astonished and ran to them in the walkway called Solomon's Colonnade."
+    },
+    {
+      "num": 12,
+      "text": "And when Peter saw this, he addressed the people: \"Men of Israel, why are you surprised by this? Why do you stare at us as if by our own power or godliness we had made this man walk?"
+    },
+    {
+      "num": 13,
+      "text": "The God of Abraham, Isaac, and Jacob, the God of our fathers, has glorified His servant Jesus. You handed Him over and rejected Him before Pilate, even though he had decided to release Him."
+    },
+    {
+      "num": 14,
+      "text": "You rejected the Holy and Righteous One and asked that a murderer be released to you."
+    },
+    {
+      "num": 15,
+      "text": "You killed the Author of life, but God raised Him from the dead, and we are witnesses of the fact."
+    },
+    {
+      "num": 16,
+      "text": "By faith in the name of Jesus, this man whom you see and know has been made strong. It is Jesus' name and the faith that comes through Him that has given him this complete healing in your presence."
+    },
+    {
+      "num": 17,
+      "text": "And now, brothers, I know that you acted in ignorance, as did your leaders."
+    },
+    {
+      "num": 18,
+      "text": "But in this way God has fulfilled what He foretold through all the prophets, saying that His Christ would suffer."
+    },
+    {
+      "num": 19,
+      "text": "Repent, then, and turn back, so that your sins may be wiped away,"
+    },
+    {
+      "num": 20,
+      "text": "that times of refreshing may come from the presence of the Lord, and that He may send Jesus, the Christ, who has been appointed for you."
+    },
+    {
+      "num": 21,
+      "text": "Heaven must take Him in until the time comes for the restoration of all things, which God announced long ago through His holy prophets."
+    },
+    {
+      "num": 22,
+      "text": "For Moses said, 'The Lord your God will raise up for you a prophet like me from among your brothers. You must listen to Him in everything He tells you."
+    },
+    {
+      "num": 23,
+      "text": "Everyone who does not listen to Him will be completely cut off from among his people.'"
+    },
+    {
+      "num": 24,
+      "text": "Indeed, all the prophets from Samuel on, as many as have spoken, have proclaimed these days."
+    },
+    {
+      "num": 25,
+      "text": "And you are sons of the prophets and of the covenant God made with your fathers when He said to Abraham, 'Through your offspring all the families of the earth will be blessed.'"
+    },
+    {
+      "num": 26,
+      "text": "When God raised up His Servant, He sent Him first to you to bless you by turning each of you from your wicked ways.\""
+    }
+  ],
+  "context": {
+    "author": "Traditionally Luke, the physician and traveling companion of Paul",
+    "genre": "Historical narrative — the early church's story, with speeches and eyewitness travel reports",
+    "audience": "Theophilus, and through him a Greek-speaking readership of Jews and Gentiles",
+    "mapLabel": "JERUSALEM, THE TEMPLE",
+    "setting": "Peter and John go up to the Temple for the afternoon prayer at three o'clock. At the gate called Beautiful, a man lame from birth is carried there daily to beg. After he is healed, the crowd rushes together in Solomon's Colonnade, along the eastern edge of the Temple courts, and Peter preaches again.",
+    "custom": "The apostles still keep Jewish hours of prayer, so the earliest church was not separate from the Temple. Begging at a busy gate was the only option for a man who could not work, and religious teaching urged giving to the poor at exactly such places.",
+    "timelineImmediate": "The healing and the sermon draw the attention of the Temple authorities, who arrest Peter and John in chapter 4. The people of Jerusalem are amazed, which keeps the authorities from acting harshly at first.",
+    "timelineBible": "Peter calls God \"the God of Abraham, Isaac, and Jacob\" (v.13), the name given at the burning bush, and applies the title \"Servant\" to Jesus, a clear echo of Isaiah 52:13. He also says that Jesus is the prophet like Moses promised in Deuteronomy 18:15.",
+    "sparkNotes": "Peter and John heal a man who has never walked, and he leaps into the Temple praising God. Peter tells the astonished crowd that the power comes from Jesus, whom they handed over, and calls them to repent so their sins may be wiped out.",
+    "translation": [
+      {
+        "english": "name",
+        "greek": "ὄνομα (onoma)",
+        "verseRef": "v.6, 16",
+        "meaning": "In the ancient world a name stood for the person and their authority. To act \"in the name of Jesus\" means acting on his authority and by his power.",
+        "gloss": "Name, authority"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 18:15",
+        "note": "The prophet like Moses, whom Peter says is Jesus."
+      },
+      {
+        "ref": "Isaiah 52:13",
+        "note": "The servant who is glorified, echoed in \"his servant Jesus.\""
+      },
+      {
+        "ref": "Genesis 12:3",
+        "note": "All peoples blessed through Abraham's seed."
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7767,
+      "lng": 35.2342,
+      "zoom": 14,
+      "placeName": "Jerusalem"
+    },
+    "overview": {
+      "summary": "Peter and John heal a lame beggar at the Temple gate. Peter tells the crowd that Jesus, whom they rejected, did it, and invites them to repent.",
+      "settingLine": "At the Beautiful Gate of the Temple.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Temple Prayer Hours",
+          "t": "Prayer was offered morning and afternoon with the daily sacrifice."
+        },
+        {
+          "h": "Colonnade",
+          "t": "Solomon's Colonnade was a covered walk where teachers gathered."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Begging at Gates",
+          "t": "The sick and disabled sat by busy gates where worshipers gave alms."
+        },
+        {
+          "h": "Ninth Hour",
+          "t": "About three in the afternoon, the time of the afternoon sacrifice."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Temple Mount Walls",
+          "t": "Herod's huge stone platform still stands, including the eastern wall."
+        },
+        {
+          "h": "Warning Inscription",
+          "t": "Greek stones forbade foreigners from entering the inner courts."
+        }
+      ],
+      "discussion": "Peter had no silver or gold but gave what he had. What do you have to give that money cannot buy?",
+      "book": "The book of Acts · 28 chapters. The story of how the good news about Jesus spread from Jerusalem to Rome.",
+      "author": "Luke",
+      "genre": "History and narrative",
+      "audience": "Theophilus and the church",
+      "refNotes": {
+        "Deuteronomy 18:15": "A prophet like Moses",
+        "Isaiah 52:13": "The glorified servant",
+        "Genesis 12:3": "All families blessed"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Peter",
+          "d": "Speaks"
+        },
+        {
+          "n": "John",
+          "d": "Beside him"
+        },
+        {
+          "n": "The lame man",
+          "d": "Healed"
+        },
+        {
+          "n": "The crowd",
+          "d": "Amazed"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "3 PM",
+          "label": "Going to pray"
+        },
+        {
+          "when": "Gate",
+          "label": "The man is healed"
+        },
+        {
+          "when": "Colonnade",
+          "label": "The crowd gathers"
+        },
+        {
+          "when": "Sermon",
+          "label": "Repent and turn"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          1
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "The Beautiful Gate",
+        "lat": 31.778,
+        "lng": 35.2358,
+        "verses": [
+          2,
+          10
+        ],
+        "slug": "beautiful-gate"
+      },
+      {
+        "name": "Solomon's Colonnade",
+        "lat": 31.778,
+        "lng": 35.2354,
+        "verses": [
+          11
+        ],
+        "slug": "solomons-portico"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/V%26A_-_Raphael,_The_Healing_of_the_Lame_Man_(1515).jpg",
+      "caption": "The Healing of the Lame Man, Raphael's 1515 cartoon for a tapestry.",
+      "credit": "Raphael (1515), Victoria and Albert Museum / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+      "caption": "Ancient stone steps below the Temple Mount in Jerusalem, of the kind pilgrims climbed to reach the Temple.",
+      "credit": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+    }
+  }
+}

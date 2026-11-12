@@ -1,0 +1,244 @@
+{
+  "book": "Galatians",
+  "chapter": 2,
+  "title": "Paul and Peter at Antioch",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Fourteen years later I went up again to Jerusalem, accompanied by Barnabas. I took Titus along also."
+    },
+    {
+      "num": 2,
+      "text": "I went in response to a revelation and set before them the gospel that I preach among the Gentiles. But I spoke privately to those recognized as leaders, for fear that I was running or had already run in vain."
+    },
+    {
+      "num": 3,
+      "text": "Yet not even Titus, who was with me, was compelled to be circumcised, even though he was a Greek."
+    },
+    {
+      "num": 4,
+      "text": "This issue arose because some false brothers had come in under false pretenses to spy on our freedom in Christ Jesus, in order to enslave us."
+    },
+    {
+      "num": 5,
+      "text": "We did not give in to them for a moment, so that the truth of the gospel would remain with you."
+    },
+    {
+      "num": 6,
+      "text": "But as for the highly esteemed—whatever they were makes no difference to me; God does not show favoritism—those leaders added nothing to me."
+    },
+    {
+      "num": 7,
+      "text": "On the contrary, they saw that I had been entrusted to preach the gospel to the uncircumcised, just as Peter had been to the circumcised."
+    },
+    {
+      "num": 8,
+      "text": "For the One who was at work in Peter's apostleship to the circumcised was also at work in my apostleship to the Gentiles."
+    },
+    {
+      "num": 9,
+      "text": "And recognizing the grace that I had been given, James, Cephas, and John—those reputed to be pillars—gave me and Barnabas the right hand of fellowship, so that we should go to the Gentiles, and they to the circumcised."
+    },
+    {
+      "num": 10,
+      "text": "They only asked us to remember the poor, the very thing I was eager to do."
+    },
+    {
+      "num": 11,
+      "text": "When Cephas came to Antioch, however, I opposed him to his face, because he stood to be condemned."
+    },
+    {
+      "num": 12,
+      "text": "For before certain men came from James, he used to eat with the Gentiles. But when they arrived, he began to draw back and separate himself, for fear of those in the circumcision group."
+    },
+    {
+      "num": 13,
+      "text": "The other Jews joined him in his hypocrisy, so that by their hypocrisy even Barnabas was led astray."
+    },
+    {
+      "num": 14,
+      "text": "When I saw that they were not walking in line with the truth of the gospel, I said to Cephas in front of them all, \"If you, who are a Jew, live like a Gentile and not like a Jew, how can you compel the Gentiles to live like Jews?\""
+    },
+    {
+      "num": 15,
+      "text": "We who are Jews by birth and not Gentile \"sinners\""
+    },
+    {
+      "num": 16,
+      "text": "know that a man is not justified by works of the law, but by faith in Jesus Christ. So we, too, have believed in Christ Jesus, that we may be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified."
+    },
+    {
+      "num": 17,
+      "text": "But if, while we seek to be justified in Christ, we ourselves are found to be sinners, does that make Christ a minister of sin? Certainly not!"
+    },
+    {
+      "num": 18,
+      "text": "If I rebuild what I have already torn down, I prove myself to be a lawbreaker."
+    },
+    {
+      "num": 19,
+      "text": "For through the law I died to the law so that I might live to God."
+    },
+    {
+      "num": 20,
+      "text": "I have been crucified with Christ, and I no longer live, but Christ lives in me. The life I live in the body, I live by faith in the Son of God, who loved me and gave Himself up for me."
+    },
+    {
+      "num": 21,
+      "text": "I do not set aside the grace of God. For if righteousness comes through the law, Christ died for nothing."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle (1:1; 5:2)",
+    "genre": "Letter, urgent and argumentative, with no thanksgiving at the start",
+    "audience": "The churches in Galatia, founded on Paul’s first journey",
+    "mapLabel": "JERUSALEM AND ANTIOCH",
+    "setting": "Paul tells how, fourteen years later, he went to Jerusalem with Barnabas and Titus and laid out his gospel to the leaders. They added nothing to it and agreed that he would go to the Gentiles. Then he tells of a later confrontation with Peter at Antioch, where Peter withdrew from eating with Gentiles.",
+    "custom": "Jews did not normally eat with Gentiles because of food laws and purity rules. Peter had eaten freely with Gentiles until emissaries came from James. Paul saw this as a statement that Gentile believers were second class.",
+    "timelineImmediate": "Chapter 3 turns to the heart of the argument: how did the Galatians receive the Spirit?",
+    "timelineBible": "Paul quotes Psalm 143:2 in v.16, “no one will be justified by works of the law.” Verse 20 is one of the most personal statements in the letter.",
+    "sparkNotes": "Paul went to Jerusalem and the leaders, including James, Cephas, and John, gave him the right hand of fellowship. Titus, a Greek, was not compelled to be circumcised. At Antioch, Paul opposed Peter to his face, because he drew back from table fellowship. A person is justified by faith in Christ, not by works of the law. “I have been crucified with Christ.”",
+    "translation": [
+      {
+        "english": "justified",
+        "greek": "δικαιοῦται (dikaioutai)",
+        "verseRef": "v.16",
+        "meaning": "Declared to be in the right. Paul says this happens through faith in Christ, not by works.",
+        "gloss": "Declared right"
+      },
+      {
+        "english": "hypocrisy",
+        "greek": "ὑπόκρισις (hypokrisis)",
+        "verseRef": "v.13",
+        "meaning": "Playing a part on a stage. Even Barnabas went along.",
+        "gloss": "Acting a part"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Psalm 143:2",
+        "note": "“No one living is righteous before you.”"
+      },
+      {
+        "ref": "Genesis 12:3",
+        "note": "The promise to Abraham that Paul takes up in chapter 3."
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7767,
+      "lng": 35.2342,
+      "zoom": 8,
+      "placeName": "Jerusalem"
+    },
+    "overview": {
+      "summary": "Paul describes the Jerusalem meeting and his open rebuke of Peter at Antioch. No one is justified by works of the law, and Paul has been crucified with Christ.",
+      "settingLine": "Then Antioch in Syria.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "The Jerusalem Visit",
+          "t": "Probably the famine visit (Acts 11:30) or the council visit (Acts 15), and scholars disagree."
+        },
+        {
+          "h": "Antioch",
+          "t": "The first city where Jews and Gentiles shared one church (Acts 11:19-26)."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Right Hand of Fellowship",
+          "t": "A gesture of agreement and partnership."
+        },
+        {
+          "h": "Table Fellowship",
+          "t": "Sharing a meal signaled acceptance and equality."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Antioch on the Orontes",
+          "t": "Little remains of the ancient city, but mosaics survive."
+        },
+        {
+          "h": "Church of St. Peter, Antakya",
+          "t": "A cave church traditionally tied to the first Christians of Antioch."
+        }
+      ],
+      "discussion": "Paul opposed Peter publicly when the gospel was at stake. When is it right to confront a fellow believer, and how should it be done?",
+      "book": "The letter to the Galatians · 6 chapters. Paul’s sharpest defense of freedom in Christ.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The churches of Galatia",
+      "refNotes": {
+        "Psalm 143:2": "No one is righteous",
+        "Genesis 12:3": "The Abrahamic promise"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Defends the gospel"
+        },
+        {
+          "n": "Peter",
+          "d": "Withdrew from Gentiles"
+        },
+        {
+          "n": "Barnabas",
+          "d": "Led astray"
+        },
+        {
+          "n": "Titus",
+          "d": "Uncircumcised Greek"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-10",
+          "label": "The Jerusalem meeting"
+        },
+        {
+          "when": "v.11-14",
+          "label": "Opposing Peter"
+        },
+        {
+          "when": "v.15-21",
+          "label": "Justified by faith"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          1
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Antioch in Syria",
+        "lat": 36.2021,
+        "lng": 36.16,
+        "verses": [
+          11
+        ],
+        "slug": "antioch-syria"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angelos_Akotantos_(active_1436-1450)_-_Icon_of_The_Embrace_of_the_Apostles_Peter_and_Paul_-_WA1982.192_-_Ashmolean_Museum.jpg",
+      "caption": "The Embrace of the Apostles Peter and Paul, an icon by Angelos Akotantos (active 1436-1450), in the Ashmolean Museum. Paul says James, Cephas and John agreed to a partnership with him and Barnabas by a handshake (Galatians 2:9). Later in the same chapter he opposes Peter to his face at Antioch (2:11-14).",
+      "credit": "Angelos Akotantos (active 1436-1450), Ashmolean Museum / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antioch_on_the_Orontes,_Antakya,_Turkey_(35863345530).jpg",
+      "caption": "Antakya, the modern city on ancient Antioch on the Orontes, where believers were first called Christians (Acts 11:26).",
+      "credit": "Photo: Carole Raddato, CC BY-SA 2.0 / Wikimedia Commons"
+    }
+  }
+}

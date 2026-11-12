@@ -1,0 +1,261 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 9,
+  "title": "Paul Gives Up His Rights",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Am I not free? Am I not an apostle? Have I not seen Jesus our Lord? Are you yourselves not my workmanship in the Lord?"
+    },
+    {
+      "num": 2,
+      "text": "Even if I am not an apostle to others, surely I am to you. For you are the seal of my apostleship in the Lord."
+    },
+    {
+      "num": 3,
+      "text": "This is my defense to those who scrutinize me:"
+    },
+    {
+      "num": 4,
+      "text": "Have we no right to food and to drink?"
+    },
+    {
+      "num": 5,
+      "text": "Have we no right to take along a believing wife, as do the other apostles and the Lord's brothers and Cephas?"
+    },
+    {
+      "num": 6,
+      "text": "Or are Barnabas and I the only apostles who must work for a living?"
+    },
+    {
+      "num": 7,
+      "text": "Who serves as a soldier at his own expense? Who plants a vineyard and does not eat of its fruit? Who tends a flock and does not drink of its milk?"
+    },
+    {
+      "num": 8,
+      "text": "Do I say this from a human perspective? Doesn't the Law say the same thing?"
+    },
+    {
+      "num": 9,
+      "text": "For it is written in the Law of Moses: \"Do not muzzle an ox while it is treading out the grain.\" Is it about oxen that God is concerned?"
+    },
+    {
+      "num": 10,
+      "text": "Isn't He actually speaking on our behalf? Indeed, this was written for us, because when the plowman plows and the thresher threshes, they should also expect to share in the harvest."
+    },
+    {
+      "num": 11,
+      "text": "If we have sown spiritual seed among you, is it too much for us to reap a material harvest from you?"
+    },
+    {
+      "num": 12,
+      "text": "If others have this right to your support, shouldn't we have it all the more? But we did not exercise this right. Instead, we put up with anything rather than hinder the gospel of Christ."
+    },
+    {
+      "num": 13,
+      "text": "Do you not know that those who work in the temple eat of its food, and those who serve at the altar partake of its offerings?"
+    },
+    {
+      "num": 14,
+      "text": "In the same way, the Lord has prescribed that those who preach the gospel should receive their living from the gospel."
+    },
+    {
+      "num": 15,
+      "text": "But I have not used any of these rights. And I am not writing this to suggest that something be done for me. Indeed, I would rather die than let anyone nullify my boast."
+    },
+    {
+      "num": 16,
+      "text": "Yet when I preach the gospel, I have no reason to boast, because I am obligated to preach. Woe to me if I do not preach the gospel!"
+    },
+    {
+      "num": 17,
+      "text": "If my preaching is voluntary, I have a reward. But if it is not voluntary, I am still entrusted with a responsibility."
+    },
+    {
+      "num": 18,
+      "text": "What then is my reward? That in preaching the gospel I may offer it free of charge, and so not use up my rights in preaching it."
+    },
+    {
+      "num": 19,
+      "text": "Though I am free of obligation to anyone, I make myself a slave to everyone, to win as many as possible."
+    },
+    {
+      "num": 20,
+      "text": "To the Jews I became like a Jew, to win the Jews. To those under the law I became like one under the law (though I myself am not under the law), to win those under the law."
+    },
+    {
+      "num": 21,
+      "text": "To those without the law I became like one without the law (though I am not outside the law of God but am under the law of Christ), to win those without the law."
+    },
+    {
+      "num": 22,
+      "text": "To the weak I became weak, to win the weak. I have become all things to all people so that by all possible means I might save some."
+    },
+    {
+      "num": 23,
+      "text": "I do all this for the sake of the gospel, so that I may share in its blessings."
+    },
+    {
+      "num": 24,
+      "text": "Do you not know that in a race all the runners run, but only one receives the prize? Run in such a way as to take the prize."
+    },
+    {
+      "num": 25,
+      "text": "Everyone who competes in the games trains with strict discipline. They do it for a crown that is perishable, but we do it for a crown that is imperishable."
+    },
+    {
+      "num": 26,
+      "text": "Therefore I do not run aimlessly; I do not fight like I am beating the air."
+    },
+    {
+      "num": 27,
+      "text": "No, I discipline my body and make it my slave, so that after I have preached to others, I myself will not be disqualified."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, THE APOSTLE’S EXAMPLE",
+    "setting": "To show how love limits freedom, Paul describes his own conduct. As an apostle he had the right to be supported by the churches, to marry, and to travel with a wife, but he chose to give them up so no one could say he preached for gain. He closes with the picture of an athlete in training.",
+    "custom": "Traveling teachers and philosophers expected pay. Paul instead worked as a tentmaker (Acts 18:3). The Isthmian Games, one of the major Greek athletic festivals, were held near Corinth every two years, so the runner and boxer images were familiar.",
+    "timelineImmediate": "Chapter 10 warns from Israel’s history that freedom has limits, and that idol feasts are off the table.",
+    "timelineBible": "Paul cites the law of the ox (Deuteronomy 25:4) as a principle that workers deserve support, and the priests’ share of the sacrifices (Deuteronomy 18:1-5). The “imperishable” wreath contrasts with the Isthmian pine garland.",
+    "sparkNotes": "Paul is an apostle and has the right to financial support, as other apostles and priests do. But he has given up that right to avoid hindering the gospel. He becomes all things to all people to save some. He runs to win a lasting crown and disciplines his body so he won’t be disqualified.",
+    "translation": [
+      {
+        "english": "rights",
+        "greek": "ἐξουσία (exousia)",
+        "verseRef": "v.4-6, 12, 18",
+        "meaning": "Authority or freedom. Paul says the right is real, but he did not use it.",
+        "gloss": "Right"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 25:4",
+        "note": "“Do not muzzle an ox while it is treading out the grain.”"
+      },
+      {
+        "ref": "Deuteronomy 18:1-5",
+        "note": "Priests received a share of what was offered."
+      },
+      {
+        "ref": "Numbers 18:8-32",
+        "note": "Provisions for the Levites."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Paul defends his rights as an apostle, then gives them up for the gospel. He becomes all things to all people and trains himself like an athlete.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Tentmaking",
+          "t": "Paul worked with leather or goat-hair cloth, probably alongside Priscilla and Aquila."
+        },
+        {
+          "h": "The Isthmian Games",
+          "t": "Held in spring near Corinth, the games drew visitors from around the Greek world."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Winners’ Wreath",
+          "t": "Isthmian winners got a wreath of pine (earlier celery), which wilted quickly."
+        },
+        {
+          "h": "Training",
+          "t": "Athletes swore to ten months of training. Paul uses it as a picture of self-discipline."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Isthmus Stadium",
+          "t": "The excavated Isthmian stadium and the starting line of the track survive."
+        },
+        {
+          "h": "Diolkos",
+          "t": "A paved track across the isthmus where ships were hauled between the seas."
+        }
+      ],
+      "discussion": "Paul says he became “all things to all people.” How can I adapt to others without compromising the truth?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Deuteronomy 25:4": "The ox and the grain",
+        "Deuteronomy 18:1-5": "Priests’ portion",
+        "Numbers 18:8-32": "Support for the Levites"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Apostle and tentmaker"
+        },
+        {
+          "n": "Peter and the Lord’s brothers",
+          "d": "Traveled with wives"
+        },
+        {
+          "n": "Barnabas",
+          "d": "Also worked for a living"
+        },
+        {
+          "n": "Runners",
+          "d": "The image of effort"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-14",
+          "label": "An apostle’s rights"
+        },
+        {
+          "when": "v.15-18",
+          "label": "Giving them up"
+        },
+        {
+          "when": "v.19-23",
+          "label": "All things to all people"
+        },
+        {
+          "when": "v.24-27",
+          "label": "The race"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [
+          24
+        ],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panathenaic_amphora_BM_B137.jpg",
+      "caption": "A Greek prize vase with a foot race, made about 530-520 BC (British Museum). Paul uses runners and boxers in the games as a picture of discipline (1 Corinthians 9:24-27).",
+      "credit": "Attributed to the Euphiletos Painter (about 530-520 BC), British Museum / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadium_of_Delphi_02.jpg",
+      "caption": "The stadium at Delphi, where the Pythian Games were held. The stone seating seen today was added in the 2nd century AD, after Paul. The Isthmian Games near Corinth held a similar contest.",
+      "credit": "Photo: Bernard Gagnon, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

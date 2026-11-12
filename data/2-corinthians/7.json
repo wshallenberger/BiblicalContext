@@ -1,0 +1,231 @@
+{
+  "book": "2 Corinthians",
+  "chapter": 7,
+  "title": "Godly Sorrow and Joy",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Therefore, beloved, since we have these promises, let us cleanse ourselves from everything that defiles body and spirit, perfecting holiness in the fear of God."
+    },
+    {
+      "num": 2,
+      "text": "Make room for us in your hearts. We have wronged no one, we have corrupted no one, we have exploited no one."
+    },
+    {
+      "num": 3,
+      "text": "I do not say this to condemn you. I have said before that you so occupy our hearts that we live and die together with you."
+    },
+    {
+      "num": 4,
+      "text": "Great is my confidence in you; great is my pride in you; I am filled with encouragement; in all our troubles my joy overflows."
+    },
+    {
+      "num": 5,
+      "text": "For when we arrived in Macedonia, our bodies had no rest, but we were pressed from every direction—conflicts on the outside, fears within."
+    },
+    {
+      "num": 6,
+      "text": "But God, who comforts the downcast, comforted us by the arrival of Titus,"
+    },
+    {
+      "num": 7,
+      "text": "and not only by his arrival, but also by the comfort he had received from you. He told us about your longing, your mourning, and your zeal for me, so that I rejoiced all the more."
+    },
+    {
+      "num": 8,
+      "text": "Even if I caused you sorrow by my letter, I do not regret it. Although I did regret it, I now see that my letter caused you sorrow, but only for a short time."
+    },
+    {
+      "num": 9,
+      "text": "And now I rejoice, not because you were made sorrowful, but because your sorrow led you to repentance. For you felt the sorrow that God had intended, and so were not harmed in any way by us."
+    },
+    {
+      "num": 10,
+      "text": "Godly sorrow brings repentance that leads to salvation without regret, but worldly sorrow brings death."
+    },
+    {
+      "num": 11,
+      "text": "Consider what this godly sorrow has produced in you: what earnestness, what eagerness to clear yourselves, what indignation, what alarm, what longing, what zeal, what vindication! In every way you have proved yourselves to be innocent in this matter."
+    },
+    {
+      "num": 12,
+      "text": "So even though I wrote to you, it was not on account of the one who did wrong or the one who was harmed, but rather that your earnestness on our behalf would be made clear to you in the sight of God."
+    },
+    {
+      "num": 13,
+      "text": "On account of this, we are encouraged. In addition to our own encouragement, we were even more delighted by the joy of Titus. For his spirit has been refreshed by all of you."
+    },
+    {
+      "num": 14,
+      "text": "Indeed, I was not embarrassed by anything I had boasted to him about you. But just as everything we said to you was true, so our boasting to Titus has proved to be true as well."
+    },
+    {
+      "num": 15,
+      "text": "And his affection for you is even greater when he remembers that you were all obedient as you welcomed him with fear and trembling."
+    },
+    {
+      "num": 16,
+      "text": "I rejoice that I can have complete confidence in you."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Timothy (1:1)",
+    "genre": "Letter, personal and defensive, among Paul’s most emotional",
+    "audience": "The church in Corinth, after a painful period of conflict",
+    "mapLabel": "MACEDONIA, WITH THE NEWS FROM TITUS",
+    "setting": "Paul continues with a plea for them to make room in their hearts. Then he tells what happened after he reached Macedonia: he was worn down by fights and fears, but God comforted him by the coming of Titus, who brought good news of the Corinthians’ repentance and love.",
+    "custom": "Paul distinguishes two kinds of sorrow. Godly grief leads to repentance and life, while worldly sorrow leads to death. He lists seven effects of godly sorrow in v.11, the language of a church cleared of guilt.",
+    "timelineImmediate": "Chapter 8 begins the appeal for the collection, now that trust is restored.",
+    "timelineBible": "The picture of “fear and trembling” in v.15 is a phrase from the Old Testament and Paul’s other letters. The confidence in v.4 and v.16 echoes the covenant language of God’s people.",
+    "sparkNotes": "Paul asks the Corinthians to make room for him. In Macedonia he found no rest, with conflicts outside and fears within, but God comforted him by the coming of Titus. Paul’s letter had grieved them, and he is glad, not because they were pained but because their sorrow led to repentance. Titus was refreshed by them, and Paul has complete confidence in them.",
+    "translation": [
+      {
+        "english": "repentance",
+        "greek": "μετάνοιαν (metanoian)",
+        "verseRef": "v.9-10",
+        "meaning": "A change of mind that leads to a change of direction, which is how godly grief shows itself.",
+        "gloss": "Change of mind"
+      },
+      {
+        "english": "godly grief",
+        "greek": "κατὰ θεὸν λύπη (kata theon lypē)",
+        "verseRef": "v.9-11",
+        "meaning": "Sorrow “according to God,” in line with his purpose, as distinct from the sorrow of the world.",
+        "gloss": "Grief toward God"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "2 Samuel 12:13",
+        "note": "David confesses, “I have sinned against the Lord.”"
+      },
+      {
+        "ref": "Psalm 51:17",
+        "note": "A broken and contrite heart God will not despise."
+      },
+      {
+        "ref": "Jonah 3:5-10",
+        "note": "Nineveh’s repentance saved them."
+      }
+    ],
+    "mapCoords": {
+      "lat": 40.7,
+      "lng": 22.5,
+      "zoom": 6,
+      "placeName": "Macedonia"
+    },
+    "overview": {
+      "summary": "Titus brings good news that the Corinthians repented. Paul explains godly sorrow, which leads to repentance, and rejoices.",
+      "settingLine": "Paul writes after hearing from Titus.",
+      "placeName": "Macedonia",
+      "history": [
+        {
+          "h": "Titus’s Mission",
+          "t": "A Gentile coworker, Titus was sent to Corinth and brought back the report."
+        },
+        {
+          "h": "Macedonia",
+          "t": "Paul faced opposition in Philippi, Thessalonica, and Berea, and had no rest."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Zeal",
+          "t": "A word for a strong ardor to do right."
+        },
+        {
+          "h": "Vindication",
+          "t": "Paul speaks of the church clearing itself of blame."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Via Egnatia",
+          "t": "The Roman highway through Macedonia, which Paul would have used between Philippi and Thessalonica."
+        },
+        {
+          "h": "Philippi Forum",
+          "t": "The ruins of the Roman colony where Paul had been jailed."
+        }
+      ],
+      "discussion": "Paul separates godly sorrow from worldly regret. What is the difference between feeling bad about a failure and actually turning from it?",
+      "book": "The second letter to the Corinthians · 13 chapters. Paul’s most personal letter, written to heal a strained relationship.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Genesis 3:13": "Regret without repentance",
+        "Psalm 51:17": "A contrite heart",
+        "Jonah 3:5-10": "Repentance that saves"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Comforted by Titus"
+        },
+        {
+          "n": "Titus",
+          "d": "Brought news"
+        },
+        {
+          "n": "The Corinthians",
+          "d": "Repented"
+        },
+        {
+          "n": "God",
+          "d": "Comforts the downcast"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-4",
+          "label": "Make room"
+        },
+        {
+          "when": "v.5-7",
+          "label": "Comfort in Macedonia"
+        },
+        {
+          "when": "v.8-12",
+          "label": "Godly sorrow"
+        },
+        {
+          "when": "v.13-16",
+          "label": "Titus’s joy"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Macedonia",
+        "lat": 40.7,
+        "lng": 22.5,
+        "verses": [
+          5
+        ],
+        "slug": "macedonia"
+      },
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges_de_La_Tour_-_Saint_Peter_Repentant_-_1951.454_-_Cleveland_Museum_of_Art.jpg",
+      "caption": "Saint Peter Repentant, by Georges de La Tour (about 1645). Paul writes that godly sorrow brings repentance that leads to salvation (2 Corinthians 7:10). The painting shows Peter after he denied Jesus (Luke 22:62), not a scene from Paul's letter.",
+      "credit": "Georges de La Tour (about 1645), Cleveland Museum of Art / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippi_AgoraAndAcropolis.JPG",
+      "caption": "The forum and acropolis of Philippi, a Roman colony in Macedonia (Acts 16:12). Most of the visible forum was built after Paul's day.",
+      "credit": "Photo: Ian W. Scott, CC BY-SA 3.0 / Wikimedia Commons"
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+ "book": "James",
+ "chapter": 2,
+ "title": "Faith Without Works Is Dead",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "My brothers, as you hold out your faith in our glorious Lord Jesus Christ, do not show favoritism."
+  },
+  {
+   "num": 2,
+   "text": "Suppose a man comes into your meeting wearing a gold ring and fine clothes, and a poor man in shabby clothes also comes in."
+  },
+  {
+   "num": 3,
+   "text": "If you lavish attention on the man in fine clothes and say, \"Here is a seat of honor,\" but say to the poor man, \"You must stand\" or \"Sit at my feet,\""
+  },
+  {
+   "num": 4,
+   "text": "have you not discriminated among yourselves and become judges with evil thoughts?"
+  },
+  {
+   "num": 5,
+   "text": "Listen, my beloved brothers: Has not God chosen the poor of this world to be rich in faith and to inherit the kingdom He promised those who love Him?"
+  },
+  {
+   "num": 6,
+   "text": "But you have dishonored the poor. Is it not the rich who oppress you and drag you into court?"
+  },
+  {
+   "num": 7,
+   "text": "Are they not the ones who blaspheme the noble name by which you have been called?"
+  },
+  {
+   "num": 8,
+   "text": "If you really fulfill the royal law stated in Scripture, \"Love your neighbor as yourself,\" you are doing well."
+  },
+  {
+   "num": 9,
+   "text": "But if you show favoritism, you sin and are convicted by the law as transgressors."
+  },
+  {
+   "num": 10,
+   "text": "Whoever keeps the whole law but stumbles at just one point is guilty of breaking all of it."
+  },
+  {
+   "num": 11,
+   "text": "For He who said, \"Do not commit adultery,\" also said, \"Do not murder.\" If you do not commit adultery, but do commit murder, you have become a lawbreaker."
+  },
+  {
+   "num": 12,
+   "text": "Speak and act as those who are going to be judged by the law that gives freedom."
+  },
+  {
+   "num": 13,
+   "text": "For judgment without mercy will be shown to anyone who has not been merciful. Mercy triumphs over judgment."
+  },
+  {
+   "num": 14,
+   "text": "What good is it, my brothers, if someone claims to have faith, but has no deeds? Can such faith save him?"
+  },
+  {
+   "num": 15,
+   "text": "Suppose a brother or sister is without clothes and daily food."
+  },
+  {
+   "num": 16,
+   "text": "If one of you tells him, \"Go in peace; stay warm and well fed,\" but does not provide for his physical needs, what good is that?"
+  },
+  {
+   "num": 17,
+   "text": "So too, faith by itself, if it does not result in action, is dead."
+  },
+  {
+   "num": 18,
+   "text": "But someone will say, \"You have faith and I have deeds.\" Show me your faith without deeds, and I will show you my faith by my deeds."
+  },
+  {
+   "num": 19,
+   "text": "You believe that God is one. Good for you! Even the demons believe that—and shudder."
+  },
+  {
+   "num": 20,
+   "text": "O foolish man, do you want evidence that faith without deeds is worthless?"
+  },
+  {
+   "num": 21,
+   "text": "Was not our father Abraham justified by what he did when he offered his son Isaac on the altar?"
+  },
+  {
+   "num": 22,
+   "text": "You see that his faith was working with his actions, and his faith was perfected by what he did."
+  },
+  {
+   "num": 23,
+   "text": "And the Scripture was fulfilled that says, \"Abraham believed God, and it was credited to him as righteousness,\" and he was called a friend of God."
+  },
+  {
+   "num": 24,
+   "text": "As you can see, a man is justified by his deeds and not by faith alone."
+  },
+  {
+   "num": 25,
+   "text": "In the same way, was not even Rahab the prostitute justified by her actions when she welcomed the spies and sent them off on another route?"
+  },
+  {
+   "num": 26,
+   "text": "As the body without the spirit is dead, so faith without deeds is dead."
+  }
+ ],
+ "context": {
+  "author": "James, a servant of God and of the Lord Jesus Christ (1:1). Tradition identifies him with James the brother of Jesus, who led the church in Jerusalem.",
+  "genre": "Letter with the feel of wisdom literature and a sermon",
+  "audience": "Probably Jewish Christians living outside the land of Israel (“the twelve tribes of the Dispersion,” 1:1). Some take the phrase as a title for all of God's people.",
+  "mapLabel": "THE SYNAGOGUE AND THE CHURCH",
+  "setting": "James describes a gathering where a rich man in fine clothes gets the best seat and a poor man is told to stand. This favoritism contradicts the royal law of love. He then asks what good it is to say you have faith but do nothing for a hungry brother. Abraham and Rahab are his examples of faith that acts.",
+  "custom": "The word translated “meeting” in v.2 is synagoge, so James is describing a gathering of Jewish believers. Seating showed rank (Luke 11:43 speaks of those who love the best seats in the synagogues). The stories of Abraham offering Isaac and of Rahab hiding the spies were well known, and James uses both as examples.",
+  "timelineImmediate": "Chapter 3 turns to the tongue.",
+  "timelineBible": "Leviticus 19:18 is “the royal law” (v.8). Genesis 15:6 (“Abraham believed God”) is quoted in v.23, alongside the offering of Isaac in Genesis 22. Rahab appears in Joshua 2 and 6, in Matthew's genealogy (Matthew 1:5) and in Hebrews 11:31.",
+  "sparkNotes": "Do not show partiality. Has not God chosen the poor to be rich in faith? If you fulfill the royal law, “Love your neighbor as yourself,” you do well. What good is it if someone says he has faith but not works? Faith by itself, if it does not have works, is dead. Abraham was justified by works when he offered up Isaac. Rahab the prostitute was justified by works when she received the messengers. For as the body apart from the spirit is dead, so also faith apart from works is dead.",
+  "translation": [
+   {
+    "english": "justified",
+    "greek": "ἐδικαιώθη (edikaiōthē)",
+    "verseRef": "v.21, 24-25",
+    "meaning": "Shown to be right. James uses it of faith proved by action.",
+    "gloss": "Shown right"
+   },
+   {
+    "english": "dead",
+    "greek": "νεκρά (nekra)",
+    "verseRef": "v.17, 26",
+    "meaning": "Lifeless. Faith without works is like a corpse.",
+    "gloss": "Lifeless"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Genesis 15:6",
+    "note": "Abraham believed God, quoted in 2:23."
+   },
+   {
+    "ref": "Genesis 22:9-12",
+    "note": "Abraham offers Isaac on the altar (2:21)."
+   },
+   {
+    "ref": "Joshua 2:1-21",
+    "note": "Rahab hides the spies (2:25)."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7767,
+   "lng": 35.2342,
+   "zoom": 6,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "James attacks favoritism toward the rich and says that faith without works is dead, using Abraham and Rahab as examples.",
+   "settingLine": "A gathering of believers.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Seats of Honor",
+     "t": "In Jesus' day leading people loved the best seats in the synagogues (Luke 11:43; Matthew 23:6). James uses the same kind of scene to show a church repeating the world's ranking."
+    },
+    {
+     "h": "Abraham and Rahab",
+     "t": "Abraham was the father of the Jewish people, and Rahab was a Canaanite woman of Jericho who is called a prostitute in Joshua 2:1. James puts them side by side as people whose faith showed in what they did (2:21-25)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Gold Rings",
+     "t": "Pliny the Elder (Natural History 33) says that in Rome the right to wear a gold ring marked rank: first senators, later the equestrian order. A visitor wearing one would look important, which is the point of James 2:2."
+    },
+    {
+     "h": "Lawsuits",
+     "t": "James says the rich oppress the poor and drag them into court (2:6). Debt and lawsuits were common, and the Law warned against taking advantage of the poor (Exodus 22:25-27; Deuteronomy 24:12-15)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Theodotus Inscription",
+     "t": "A Greek inscription found in Jerusalem in 1913 records that a priest named Theodotus built a synagogue for the reading of the Law and the teaching of the commandments, with a guesthouse for visitors. Most scholars date it before AD 70."
+    },
+    {
+     "h": "Papyrus 20",
+     "t": "Papyrus 20, from the 3rd century and now in Princeton University Library, has James 2:19-3:9. It includes the closing words of the argument about faith and works in 2:26."
+    }
+   ],
+   "discussion": "James challenges how we treat the rich and poor differently. Who do I give extra attention to, and who do I overlook?",
+   "book": "The letter of James · 5 chapters. Brisk, practical teaching in the tradition of Proverbs and the Sermon on the Mount.",
+   "author": "James",
+   "genre": "Letter of wisdom",
+   "audience": "Scattered Jewish believers",
+   "refNotes": {
+    "Genesis 15:6": "Abraham believed",
+    "Genesis 22:9-12": "The offering of Isaac",
+    "Joshua 2:1-21": "Rahab"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Rich Man",
+     "d": "Honored in the meeting"
+    },
+    {
+     "n": "The Poor Man",
+     "d": "Told to stand"
+    },
+    {
+     "n": "Abraham",
+     "d": "Offered Isaac"
+    },
+    {
+     "n": "Rahab",
+     "d": "Welcomed the spies"
+    },
+    {
+     "n": "Satan",
+     "d": "Even the demons believe"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Favoritism"
+    },
+    {
+     "when": "v.8-13",
+     "label": "The royal law"
+    },
+    {
+     "when": "v.14-17",
+     "label": "Faith needs works"
+    },
+    {
+     "when": "v.18-26",
+     "label": "Abraham and Rahab"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7767,
+    "lng": 35.2342,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Princeton,_Ms_AM_4117_-_P.Oxy._IX_1171_(Papyrus_20)_recto_James_2,19%E2%80%933,_2.jpg",
+   "caption": "One side of Papyrus 20, a leaf from a codex of James found at Oxyrhynchus in Egypt and dated to the 3rd century (now in Princeton University Library). This side has James 2:19-3:2, from the end of the argument that faith without works is dead to the first warning about teachers.",
+   "credit": "Unknown scribe (3rd century), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/601.Mount_Moriah.El-Aqsa_Mosque%26Dome_of_the_Rock.Jerusalem.jpg",
+   "caption": "The Temple Mount in Jerusalem with the Dome of the Rock. According to 2 Chronicles 3:1 Solomon built the temple on Mount Moriah, and Jewish tradition connects this with the place where Abraham was told to offer Isaac (Genesis 22:2). James 2:21 asks whether Abraham was not justified by what he did when he offered his son Isaac on the altar.",
+   "credit": "Photo: Oleg Moro, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,274 @@
+{
+  "book": "Galatians",
+  "chapter": 1,
+  "title": "No Other Gospel",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Paul, an apostle—sent not from men nor by man, but by Jesus Christ and God the Father, who raised Him from the dead—"
+    },
+    {
+      "num": 2,
+      "text": "and all the brothers with me, To the churches of Galatia:"
+    },
+    {
+      "num": 3,
+      "text": "Grace and peace to you from God our Father and the Lord Jesus Christ,"
+    },
+    {
+      "num": 4,
+      "text": "who gave Himself for our sins to rescue us from the present evil age, according to the will of our God and Father,"
+    },
+    {
+      "num": 5,
+      "text": "to whom be glory forever and ever. Amen."
+    },
+    {
+      "num": 6,
+      "text": "I am amazed how quickly you are deserting the One who called you by the grace of Christ and are turning to a different gospel—"
+    },
+    {
+      "num": 7,
+      "text": "which is not even a gospel. Evidently some people are troubling you and trying to distort the gospel of Christ."
+    },
+    {
+      "num": 8,
+      "text": "But even if we or an angel from heaven should preach a gospel contrary to the one we preached to you, let him be under a curse!"
+    },
+    {
+      "num": 9,
+      "text": "As we have said before, so now I say again: If anyone is preaching to you a gospel contrary to the one you received, let him be under a curse!"
+    },
+    {
+      "num": 10,
+      "text": "Am I now seeking the approval of men, or of God? Or am I striving to please men? If I were still trying to please men, I would not be a servant of Christ."
+    },
+    {
+      "num": 11,
+      "text": "For I certify to you, brothers, that the gospel I preached was not devised by man."
+    },
+    {
+      "num": 12,
+      "text": "I did not receive it from any man, nor was I taught it; rather, I received it by revelation from Jesus Christ."
+    },
+    {
+      "num": 13,
+      "text": "For you have heard of my former way of life in Judaism, how severely I persecuted the church of God and tried to destroy it."
+    },
+    {
+      "num": 14,
+      "text": "I was advancing in Judaism beyond many of my contemporaries and was extremely zealous for the traditions of my fathers."
+    },
+    {
+      "num": 15,
+      "text": "But when God, who set me apart from my mother's womb and called me by His grace, was pleased"
+    },
+    {
+      "num": 16,
+      "text": "to reveal His Son in me so that I might preach Him among the Gentiles, I did not rush to consult with flesh and blood,"
+    },
+    {
+      "num": 17,
+      "text": "nor did I go up to Jerusalem to the apostles who came before me, but I went into Arabia and later returned to Damascus."
+    },
+    {
+      "num": 18,
+      "text": "Only after three years did I go up to Jerusalem to confer with Cephas, and I stayed with him fifteen days."
+    },
+    {
+      "num": 19,
+      "text": "But I saw none of the other apostles except James, the Lord's brother."
+    },
+    {
+      "num": 20,
+      "text": "I assure you before God that what I am writing to you is no lie."
+    },
+    {
+      "num": 21,
+      "text": "Later I went to the regions of Syria and Cilicia."
+    },
+    {
+      "num": 22,
+      "text": "I was personally unknown, however, to the churches of Judea that are in Christ."
+    },
+    {
+      "num": 23,
+      "text": "They only heard the account: \"The man who formerly persecuted us is now preaching the faith he once tried to destroy.\""
+    },
+    {
+      "num": 24,
+      "text": "And they glorified God because of me."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle (1:1; 5:2)",
+    "genre": "Letter, urgent and argumentative, with no thanksgiving at the start",
+    "audience": "The churches in Galatia, founded on Paul’s first journey",
+    "mapLabel": "GALATIA, THE HIGHLANDS OF ASIA MINOR",
+    "setting": "Paul skips his usual thanksgiving and goes right to the point: he is amazed the Galatians are turning to a different gospel. He tells how he received his message not from people but by revelation from Jesus Christ, and describes his life before conversion and his first years afterward in Arabia, Damascus, and Syria.",
+    "custom": "Letters in the Greek world began with a thanksgiving to the gods. Paul leaves it out. “Accursed” (v.8-9) translates anathema, a word for being devoted to destruction. “Zealous for the traditions” describes his strict life as a Pharisee.",
+    "timelineImmediate": "Chapter 2 continues his history, including a meeting in Jerusalem and the confrontation with Peter in Antioch.",
+    "timelineBible": "Paul calls his call a prophetic one, “set apart before I was born,” echoing Jeremiah 1:5 and Isaiah 49:1. Arabia was where Moses and Elijah met God.",
+    "sparkNotes": "Paul is amazed the Galatians are deserting the gospel for another, and says anyone who preaches a different one, even an angel, should be accursed. He did not receive his gospel from any man but through a revelation of Jesus Christ. He tells how he persecuted the church, was called by God, and then spent three years in Arabia and Damascus before meeting Peter.",
+    "translation": [
+      {
+        "english": "revelation",
+        "greek": "ἀποκαλύψεως (apokalypseōs)",
+        "verseRef": "v.12",
+        "meaning": "An unveiling. The same word names the last book of the Bible.",
+        "gloss": "Uncovering"
+      },
+      {
+        "english": "accursed",
+        "greek": "ἀνάθεμα (anathema)",
+        "verseRef": "v.8-9",
+        "meaning": "Something set aside for destruction. A serious warning.",
+        "gloss": "Under a curse"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Jeremiah 1:5",
+        "note": "“Before I formed you in the womb I knew you.”"
+      },
+      {
+        "ref": "Isaiah 49:1",
+        "note": "The servant called from the womb."
+      },
+      {
+        "ref": "Deuteronomy 13:1-5",
+        "note": "A prophet who leads astray must be rejected."
+      }
+    ],
+    "mapCoords": {
+      "lat": 39.5,
+      "lng": 32.5,
+      "zoom": 6,
+      "placeName": "Galatia"
+    },
+    "overview": {
+      "summary": "Paul is shocked that the Galatians are turning to a different gospel. He says his message came directly from Jesus Christ, and tells his history before and after his conversion.",
+      "settingLine": "Paul writes to the churches of Galatia.",
+      "placeName": "Galatia",
+      "history": [
+        {
+          "h": "Paul’s Early Years",
+          "t": "He was a zealous Pharisee who persecuted the church (Acts 8-9)."
+        },
+        {
+          "h": "Three Years",
+          "t": "He spent time in Arabia and Damascus before visiting Jerusalem about AD 36."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Anathema",
+          "t": "A solemn curse, devoting something to God’s judgment."
+        },
+        {
+          "h": "Pharisee Zeal",
+          "t": "Pharisees took pride in observing ancestral traditions."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Nabatean Arabia",
+          "t": "The Nabatean kingdom around Petra and Bosra may have been where Paul went."
+        },
+        {
+          "h": "Damascus Wall",
+          "t": "The old city wall still shows Roman and later work."
+        }
+      ],
+      "discussion": "Paul says he is not trying to please people. Where do I most feel the pull of approval over faithfulness?",
+      "book": "The letter to the Galatians · 6 chapters. Paul’s sharpest defense of freedom in Christ.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The churches of Galatia",
+      "refNotes": {
+        "Jeremiah 1:5": "Set apart from birth",
+        "Isaiah 49:1": "Called from the womb",
+        "Deuteronomy 13:1-5": "Reject false teaching"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Apostle by revelation"
+        },
+        {
+          "n": "The Galatians",
+          "d": "Turning away"
+        },
+        {
+          "n": "Peter",
+          "d": "Visited for fifteen days"
+        },
+        {
+          "n": "James",
+          "d": "The Lord’s brother"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-5",
+          "label": "Greeting"
+        },
+        {
+          "when": "v.6-10",
+          "label": "No other gospel"
+        },
+        {
+          "when": "v.11-17",
+          "label": "Paul’s call"
+        },
+        {
+          "when": "v.18-24",
+          "label": "First Jerusalem visit"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Damascus",
+        "lat": 33.513,
+        "lng": 36.291,
+        "verses": [
+          17
+        ],
+        "slug": "damascus"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          18
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Tarsus",
+        "lat": 36.9178,
+        "lng": 34.8929,
+        "verses": [
+          21
+        ],
+        "slug": "tarsus"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Conversion_of_Saul,_from_Michelangelo's_fresco_in_the_Pauline_Chapel_at_the_Vatican_MET_DP844274.jpg",
+      "caption": "The Conversion of Saul, an engraving by Nicolas Beatrizet (about 1545) after Michelangelo's fresco in the Pauline Chapel at the Vatican. Paul says that God was pleased to reveal his Son to him, and that he had once tried to destroy the church (Galatians 1:13-16). Acts 9 tells the story of the road to Damascus; Galatians does not.",
+      "credit": "Nicolas Beatrizet after Michelangelo (about 1545), Metropolitan Museum of Art / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/27,_Hegra_(Mada'in_Salih),_Saudi_Arabia.jpg",
+      "caption": "Rock-cut tombs at Hegra (Mada'in Salih) in northwest Saudi Arabia, a great city of the Nabataean kingdom. Paul says that after his call he went away into \"Arabia\" (Galatians 1:17), a name that in his day covered the Nabataean lands. He does not say where he went or why, so this is only a picture of the region.",
+      "credit": "Photo: Following Hadrian, CC BY-SA 2.0 / Wikimedia Commons"
+    }
+  }
+}

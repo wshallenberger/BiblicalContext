@@ -58,7 +58,7 @@
     var started = 0, active = null;
     (plans || []).forEach(function (p) { if (rec(p.id) && doneCount(p) < p.days.length) { started++; if (!active) active = p; } });
     if (active) return active.title + ': day ' + nextDay(active) + ' of ' + active.days.length + (started > 1 ? ' (+' + (started - 1) + ' more)' : '');
-    return 'Read the Gospels a little each day, with plans from a few days to a few months.';
+    return 'Read the Gospels, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude and Revelation a little each day, with plans from a few days to a few months.';
   }
   function moreRow() { var el = document.querySelector('#screen-more [data-screen="plans"] .more-t i'); if (el) el.textContent = moreLine(); }
 
@@ -88,7 +88,7 @@
     var mine = plans.filter(function (p) { return rec(p.id) && nextDay(p) !== 0; });
     var fin = plans.filter(function (p) { return rec(p.id) && nextDay(p) === 0; });
     var rest = plans.filter(function (p) { return !rec(p.id); });
-    var groups = [['whole', 'Through the Gospels'], ['book', 'One Gospel'], ['theme', 'By theme']];
+    var groups = [['whole', 'Through the Gospels'], ['book', 'One Gospel'], ['acts', 'The Book of Acts'], ['romans', 'The Letter to the Romans'], ['1cor', 'The First Letter to the Corinthians'], ['2cor', 'The Second Letter to the Corinthians'], ['gal', 'The Letter to the Galatians'], ['eph', 'The Letter to the Ephesians'], ['phil', 'The Letter to the Philippians'], ['col', 'The Letter to the Colossians'], ['th', 'The Letters to the Thessalonians'], ['1tim', 'The First Letter to Timothy'], ['2tim', 'The Second Letter to Timothy'], ['titus', 'The Letter to Titus'], ['philemon', 'The Letter to Philemon'], ['hebrews', 'The Letter to the Hebrews'], ['james', 'The Letter of James'], ['1peter', 'The First Letter of Peter'], ['2peter', 'The Second Letter of Peter'], ['1john', 'The First Letter of John'], ['2john', 'The Second Letter of John'], ['3john', 'The Third Letter of John'], ['jude', 'The Letter of Jude'], ['revelation', 'The Book of Revelation'], ['theme', 'By theme']];
     var html = '';
     if (mine.length) html += '<h3 class="pl-h">In progress</h3>' + mine.map(card).join('');
     groups.forEach(function (g) {

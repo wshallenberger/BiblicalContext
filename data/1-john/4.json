@@ -1,0 +1,265 @@
+{
+ "book": "1 John",
+ "chapter": 4,
+ "title": "God Is Love",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Beloved, do not believe every spirit, but test the spirits to see whether they are from God. For many false prophets have gone out into the world."
+  },
+  {
+   "num": 2,
+   "text": "By this you will know the Spirit of God: Every spirit that confesses that Jesus Christ has come in the flesh is from God,"
+  },
+  {
+   "num": 3,
+   "text": "and every spirit that does not confess Jesus is not from God. This is the spirit of the antichrist, which you have heard is coming and which is already in the world at this time."
+  },
+  {
+   "num": 4,
+   "text": "You, little children, are from God and have overcome them, because greater is He who is in you than he who is in the world."
+  },
+  {
+   "num": 5,
+   "text": "They are of the world. That is why they speak from the world's perspective, and the world listens to them."
+  },
+  {
+   "num": 6,
+   "text": "We are from God. Whoever knows God listens to us; whoever is not from God does not listen to us. That is how we know the Spirit of truth and the spirit of deception."
+  },
+  {
+   "num": 7,
+   "text": "Beloved, let us love one another, because love comes from God. Everyone who loves has been born of God and knows God."
+  },
+  {
+   "num": 8,
+   "text": "Whoever does not love does not know God, because God is love."
+  },
+  {
+   "num": 9,
+   "text": "This is how God's love was revealed among us: God sent His one and only Son into the world, so that we might live through Him."
+  },
+  {
+   "num": 10,
+   "text": "And love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins."
+  },
+  {
+   "num": 11,
+   "text": "Beloved, if God so loved us, we also ought to love one another."
+  },
+  {
+   "num": 12,
+   "text": "No one has ever seen God; but if we love one another, God remains in us, and His love is perfected in us."
+  },
+  {
+   "num": 13,
+   "text": "By this we know that we remain in Him, and He in us: He has given us of His Spirit."
+  },
+  {
+   "num": 14,
+   "text": "And we have seen and testify that the Father has sent His Son to be the Savior of the world."
+  },
+  {
+   "num": 15,
+   "text": "If anyone confesses that Jesus is the Son of God, God abides in him, and he in God."
+  },
+  {
+   "num": 16,
+   "text": "And we have come to know and believe the love that God has for us. God is love; whoever abides in love abides in God, and God in him."
+  },
+  {
+   "num": 17,
+   "text": "In this way, love has been perfected among us, so that we may have confidence on the day of judgment; for in this world we are just like Him."
+  },
+  {
+   "num": 18,
+   "text": "There is no fear in love, but perfect love drives out fear, because fear involves punishment. The one who fears has not been perfected in love."
+  },
+  {
+   "num": 19,
+   "text": "We love because He first loved us."
+  },
+  {
+   "num": 20,
+   "text": "If anyone says, \"I love God,\" but hates his brother, he is a liar. For anyone who does not love his brother, whom he has seen, cannot love God, whom he has not seen."
+  },
+  {
+   "num": 21,
+   "text": "And we have this commandment from Him: Whoever loves God must love his brother as well."
+  }
+ ],
+ "context": {
+  "author": "The same unnamed writer, called John by early tradition.",
+  "genre": "Pastoral letter or sermon without a formal greeting or ending",
+  "audience": "The beloved, told to test the spirits and to love one another (4:1, 7).",
+  "mapLabel": "TESTING THE SPIRITS",
+  "setting": "John tells his readers to test the spirits, since many false prophets have gone into the world. The test is whether they confess that Jesus Christ has come in the flesh. Then he writes the most famous statement about God’s love: God is love, and we love because he first loved us.",
+  "custom": "Traveling prophets and teachers moved from town to town, and a church had to decide which to hear. The Didache gives tests for them, and the Old Testament gives tests for prophets in Deuteronomy 13 and 18. Fear of judgment (4:17-18) is set against boldness on the day of judgment, a word that was used of a citizen’s right to speak freely in the city assembly.",
+  "timelineImmediate": "Chapter 5 describes the faith that overcomes the world.",
+  "timelineBible": "That Jesus has come in the flesh (4:2) recalls John 1:14. God sending His only Son (4:9) recalls John 3:16, and no one has ever seen God (4:12) recalls John 1:18. Tests of a prophet are given in Deuteronomy 13:1-5 and 18:20-22.",
+  "sparkNotes": "Beloved, do not believe every spirit, but test the spirits. Every spirit that confesses that Jesus Christ has come in the flesh is from God. Beloved, let us love one another, for love is from God, and whoever loves has been born of God. God is love. In this the love of God was made manifest among us, that God sent his only Son into the world, so that we might live through him. In this is love, not that we have loved God but that he loved us and sent his Son to be the propitiation for our sins. There is no fear in love, but perfect love casts out fear. We love because he first loved us.",
+  "translation": [
+   {
+    "english": "love",
+    "greek": "ἀγάπη (agapē)",
+    "verseRef": "v.7-21",
+    "meaning": "Self-giving love, the key word of the letter.",
+    "gloss": "Self-giving love"
+   },
+   {
+    "english": "propitiation",
+    "greek": "ἱλασμὸν (hilasmon)",
+    "verseRef": "v.10",
+    "meaning": "A sacrifice that turns away wrath and removes sin.",
+    "gloss": "Atoning sacrifice"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 7:7-8",
+    "note": "God set his love on Israel."
+   },
+   {
+    "ref": "Leviticus 16",
+    "note": "Atonement."
+   },
+   {
+    "ref": "Psalm 136",
+    "note": "His steadfast love endures forever."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Test the spirits by whether they confess Jesus came in the flesh. God is love, and we love because he first loved us.",
+   "settingLine": "John writes to the churches he cares for.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Spirits and False Prophets",
+     "t": "Verse 1 tells the readers not to believe every spirit but to test them, because many false prophets have gone into the world. The test is what the speaker confesses about Jesus Christ (4:2-3). The letter does not name the prophets or say where they came from."
+    },
+    {
+     "h": "Come in the Flesh",
+     "t": "Ignatius of Antioch, about AD 110, warned the church at Smyrna against those who said Christ only seemed to suffer (Smyrnaeans 2). Polycarp of Smyrna wrote to the Philippians that whoever does not confess that Jesus Christ has come in the flesh is an antichrist, wording close to 4:2-3. The later label Docetism (from the Greek for to seem) is not used by John."
+    },
+    {
+     "h": "God Is Love",
+     "t": "Verses 7-21 say that God is love, that He sent His Son as the atoning sacrifice, and that we love because He first loved us. The love is described by what God has done, not by a feeling. The same verses tie the love of God to the love of the brothers (4:20-21)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Traveling Teachers",
+     "t": "The Didache, an early church manual, says to welcome an apostle but not to let him stay more than a day or two, and calls a prophet who stays three days or asks for money a false prophet (11:5-6). It shows how real the problem of visiting teachers was in the early church."
+    },
+    {
+     "h": "Testing",
+     "t": "The Greek verb for testing was used of assaying metals and coins to see whether they were genuine. John’s readers have to test what the spirits say against the confession that Jesus Christ has come in the flesh."
+    },
+    {
+     "h": "Boldness on the Day of Judgment",
+     "t": "The Greek word parrhesia was used of the right of a free citizen to speak openly in the assembly. John says love perfected in us gives boldness on the day of judgment, and that perfect love drives out fear because fear has to do with punishment (4:17-18)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Papyrus 9, a Leaf of 1 John",
+     "t": "Papyrus 9 (P. Oxy. III 402) is a single leaf from Oxyrhynchus in Egypt, usually dated to the 3rd century and now at Harvard. It carries 1 John 4:11-12 and 14-17, so it includes the words that God is love (4:16). It is among the earliest pieces of the letter to survive."
+    },
+    {
+     "h": "The Didache",
+     "t": "The only complete Greek copy of the Didache is the Codex Hierosolymitanus, copied in AD 1056 and found in Constantinople in 1873. The book is usually dated to the late 1st or early 2nd century. Its tests for traveling prophets (chapters 11-13) shed light on the problem in 1 John 4:1."
+    },
+    {
+     "h": "Polycarp in Mosaic",
+     "t": "A mosaic in Sant’Apollinare Nuovo at Ravenna (completed about AD 526) shows Polycarp of Smyrna. Irenaeus says that Polycarp had talked with John. Polycarp’s letter to the Philippians (7) uses the test of 1 John 4:2-3 without naming the letter, which is early evidence that the letter was known."
+    }
+   ],
+   "discussion": "John says perfect love casts out fear. What fear is holding me back, and what would it look like to rest in God’s love instead?",
+   "book": "The first letter of John · 5 chapters. Plain, deep teaching about light, love, and assurance.",
+   "author": "John",
+   "genre": "Letter",
+   "audience": "Churches in Asia Minor",
+   "refNotes": {
+    "Deuteronomy 7:7-8": "God’s love for his people",
+    "Leviticus 16": "Atonement",
+    "Psalm 136": "His love endures"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The false prophets and the spirits",
+     "d": "Have gone into the world"
+    },
+    {
+     "n": "The antichrist and the many antichrists",
+     "d": "Deny that Jesus has come"
+    },
+    {
+     "n": "Christ Jesus",
+     "d": "Sent in the flesh"
+    },
+    {
+     "n": "The Holy Spirit",
+     "d": "Given to us"
+    },
+    {
+     "n": "The readers of 1 John",
+     "d": "Told to love one another"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Test the spirits"
+    },
+    {
+     "when": "v.7-12",
+     "label": "God is love"
+    },
+    {
+     "when": "v.13-16",
+     "label": "Abiding in God"
+    },
+    {
+     "when": "v.17-21",
+     "label": "Perfect love"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cambridge_MA,_Harvard_Houghton_Library_MS_Gr_SM3736_-_P._Oxy._III_402_(Papyrus_9)_recto_1_John,_4,_11%E2%80%9312.jpg",
+   "caption": "Papyrus 9 (P. Oxy. III 402), a single leaf from Oxyrhynchus in Egypt, now at Harvard’s Houghton Library, usually dated to the 3rd century. It has 1 John 4:11-12 and 14-17, which includes the words that God is love (4:16). It is one of the earliest surviving pieces of the letter.",
+   "credit": "Unknown scribe (3rd century), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harbor_Street_of_Ephesus_-_2014.10_-_panoramio.jpg",
+   "caption": "The Harbor Street of Ephesus, which ran from the theater to the harbor and carried the traffic of one of the busiest cities of Roman Asia. Its surviving colonnades are mostly later than Paul. First Timothy 6:5-10 warns against treating godliness as a way to make money.",
+   "credit": "rheins, CC BY 3.0 / Wikimedia Commons"
+  }
+ }
+}

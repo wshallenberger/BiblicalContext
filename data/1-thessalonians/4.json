@@ -1,0 +1,226 @@
+{
+ "book": "1 Thessalonians",
+ "chapter": 4,
+ "title": "Live to Please God, and the Hope of the Dead",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Finally, brothers, we ask and encourage you in the Lord Jesus to live in a way that is pleasing to God, just as you have received from us. This is how you already live, so you should do so all the more."
+  },
+  {
+   "num": 2,
+   "text": "For you know the instructions we gave you by the authority of the Lord Jesus."
+  },
+  {
+   "num": 3,
+   "text": "For it is God's will that you should be holy: You must abstain from sexual immorality;"
+  },
+  {
+   "num": 4,
+   "text": "each of you must know how to control his own body in holiness and honor,"
+  },
+  {
+   "num": 5,
+   "text": "not in lustful passion like the Gentiles who do not know God;"
+  },
+  {
+   "num": 6,
+   "text": "and no one should ever violate or exploit his brother in this regard, because the Lord will avenge all such acts, as we have already told you and solemnly warned you."
+  },
+  {
+   "num": 7,
+   "text": "For God has not called us to impurity, but to holiness."
+  },
+  {
+   "num": 8,
+   "text": "Anyone, then, who rejects this command does not reject man but God, the very One who gives you His Holy Spirit."
+  },
+  {
+   "num": 9,
+   "text": "Now about brotherly love, you do not need anyone to write to you, because you yourselves have been taught by God to love one another."
+  },
+  {
+   "num": 10,
+   "text": "And you are indeed showing this love to all the brothers throughout Macedonia. But we urge you, brothers, to excel more and more"
+  },
+  {
+   "num": 11,
+   "text": "and to aspire to live quietly, to attend to your own matters, and to work with your own hands, as we instructed you."
+  },
+  {
+   "num": 12,
+   "text": "Then you will behave properly toward outsiders, without being dependent on anyone."
+  },
+  {
+   "num": 13,
+   "text": "Brothers, we do not want you to be uninformed about those who sleep in death, so that you will not grieve like the rest, who are without hope."
+  },
+  {
+   "num": 14,
+   "text": "For since we believe that Jesus died and rose again, we also believe that God will bring with Jesus those who have fallen asleep in Him."
+  },
+  {
+   "num": 15,
+   "text": "By the word of the Lord, we declare to you that we who are alive and remain until the coming of the Lord will by no means precede those who have fallen asleep."
+  },
+  {
+   "num": 16,
+   "text": "For the Lord Himself will descend from heaven with a loud command, with the voice of an archangel, and with the trumpet of God, and the dead in Christ will be the first to rise."
+  },
+  {
+   "num": 17,
+   "text": "After that, we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air. And so we will always be with the Lord."
+  },
+  {
+   "num": 18,
+   "text": "Therefore encourage one another with these words."
+  }
+ ],
+ "context": {
+  "author": "Paul, with Silas and Timothy (1:1)",
+  "genre": "Letter of encouragement, warm and personal",
+  "audience": "The church in Thessalonica, a young church under pressure",
+  "mapLabel": "THESSALONICA, HOLINESS AND HOPE",
+  "setting": "Paul urges the Thessalonians to keep growing in a life that pleases God: sexual purity, brotherly love, quiet work. Then he addresses a worry: some believers had died, and the church wondered what would happen to them when Christ returned. Paul says the dead in Christ will rise first, and all will meet the Lord.",
+  "custom": "In the Greek world, sexual freedom was assumed for men, and Paul teaches a very different standard. Greek and Roman funeral customs included wailing and little hope of afterlife. “Cry of command… voice of an archangel… trumpet” (v.16) recalls an official’s arrival, when a city sent a welcome party outside the gates.",
+  "timelineImmediate": "Chapter 5 continues on the day of the Lord and how to be ready.",
+  "timelineBible": "The trumpet and the clouds echo Exodus 19, Daniel 7:13, and Zechariah 9:14. Paul says that what he is teaching comes “by the word of the Lord.”",
+  "sparkNotes": "Paul urges them to live to please God: abstain from sexual immorality, love one another, and work with their hands. He does not want them uninformed about those who have fallen asleep. Jesus died and rose, and God will bring with him those who have died in him. The dead in Christ will rise first, then we who are alive will be caught up together with them to meet the Lord in the air. Encourage one another with these words.",
+  "translation": [
+   {
+    "english": "asleep",
+    "greek": "κοιμωμένων (koimōmenōn)",
+    "verseRef": "v.13-15",
+    "meaning": "A common way of speaking of death, with the hope of waking. The English “cemetery” comes from the related word for a sleeping place.",
+    "gloss": "Sleeping"
+   },
+   {
+    "english": "meet",
+    "greek": "ἀπάντησιν (apantēsin)",
+    "verseRef": "v.17",
+    "meaning": "A word for a formal meeting where citizens went out to receive a visiting dignitary and bring him in.",
+    "gloss": "Welcome meeting"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Daniel 7:13",
+    "note": "The Son of Man comes with the clouds."
+   },
+   {
+    "ref": "Exodus 19:16",
+    "note": "The trumpet at Sinai."
+   },
+   {
+    "ref": "Isaiah 26:19",
+    "note": "Your dead shall live; their bodies shall rise."
+   }
+  ],
+  "mapCoords": {
+   "lat": 40.6401,
+   "lng": 22.9444,
+   "zoom": 8,
+   "placeName": "Thessalonica"
+  },
+  "overview": {
+   "summary": "Believers should live to please God. Those who have died in Christ will rise when he returns, and we will be with the Lord forever.",
+   "settingLine": "Paul writes from Corinth to the young church in Thessalonica.",
+   "placeName": "Thessalonica",
+   "history": [
+    {
+     "h": "Death in Greek and Roman Thought",
+     "t": "Greek and Roman writers describe death in many ways. Epicureans held that death was the end, many expected a shadowy afterlife, and some philosophers thought the soul lives on. Paul says the Thessalonians must not grieve “as the rest do who have no hope” (4:13)."
+    },
+    {
+     "h": "Holiness and the Body",
+     "t": "Paul says God’s will is their holiness, so they are to abstain from sexual immorality (4:3). In the Roman world, men were widely allowed sex outside marriage with slaves and prostitutes, while Jewish teaching, and the church after it, held to marriage. The Greek of 4:4 can mean controlling one’s own body or taking a wife."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Meeting the Lord",
+     "t": "The Greek word in 4:17 (apantēsis) means a meeting. Some scholars think it pictures a city’s delegation going out to greet a visiting dignitary and escort him back. Others doubt that the word was a fixed term. Paul’s own picture is of being caught up “to meet the Lord in the air.”"
+    },
+    {
+     "h": "Sleep",
+     "t": "Paul speaks of believers who “have fallen asleep” (4:13-15). Greek writers already used sleep for death, and Jesus used it of Lazarus (John 11:11). In these letters Paul uses it of believers, and the picture comes with waking."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Roman Tomb Inscriptions",
+     "t": "Many Latin tombstones carry a short formula, often written only by its initials: “I was not, I was, I am not, I do not care.” Not every Roman held this view, but it shows how some spoke of death."
+    },
+    {
+     "h": "Early Christian Epitaphs",
+     "t": "Christian burial inscriptions in Rome, mostly from the 3rd century on, often say “in peace” (in pace) and speak of the dead as sleeping. They are later than Paul but use the language of 1 Thessalonians 4."
+    }
+   ],
+   "discussion": "Paul writes so that grieving believers won’t sorrow without hope. How can I offer real comfort to someone who is grieving?",
+   "book": "The first letter to the Thessalonians · 5 chapters. One of Paul’s earliest letters, full of warmth and hope.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Thessalonica",
+   "refNotes": {
+    "Daniel 7:13": "Coming with clouds",
+    "Exodus 19:16": "Trumpet at Sinai",
+    "Isaiah 26:19": "The dead will live"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Believers",
+     "d": "Called to holiness"
+    },
+    {
+     "n": "The Dead in Christ",
+     "d": "Rise first"
+    },
+    {
+     "n": "The Lord",
+     "d": "Descends from heaven"
+    },
+    {
+     "n": "Paul",
+     "d": "Comforts them"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Pleasing God"
+    },
+    {
+     "when": "v.9-12",
+     "label": "Love and work"
+    },
+    {
+     "when": "v.13-18",
+     "label": "Hope for the dead"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Thessalonica",
+    "lat": 40.6401,
+    "lng": 22.9444,
+    "verses": [],
+    "slug": "thessalonica"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luca_Signorelli_-_Resurrection_of_the_Flesh_-_WGA21214.jpg",
+   "caption": "The Resurrection of the Flesh, a fresco by Luca Signorelli in Orvieto Cathedral (about 1500). First Thessalonians 4:16 says \"the dead in Christ will rise first.\"",
+   "credit": "Luca Signorelli (about 1500), Orvieto Cathedral / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thessaloniki_Archaeological_Museum_Funerary_relief_of_Aphrodeisia.jpg",
+   "caption": "A funerary relief for a woman named Aphrodeisia, found in Thessaloniki and dated to the late 1st century BC or early 1st century AD, so about Paul's time. First Thessalonians 4:13 was written to people who buried their own dead in a city like this.",
+   "credit": "Photo: Ymblanter, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

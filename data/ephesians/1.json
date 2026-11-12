@@ -1,0 +1,252 @@
+{
+ "book": "Ephesians",
+ "chapter": 1,
+ "title": "Blessed in Christ",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Paul, an apostle of Christ Jesus by the will of God, To the saints in Ephesus, the faithful in Christ Jesus:"
+  },
+  {
+   "num": 2,
+   "text": "Grace and peace to you from God our Father and the Lord Jesus Christ."
+  },
+  {
+   "num": 3,
+   "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly realms."
+  },
+  {
+   "num": 4,
+   "text": "For He chose us in Him before the foundation of the world to be holy and blameless in His presence. In love"
+  },
+  {
+   "num": 5,
+   "text": "He predestined us for adoption as His sons through Jesus Christ, according to the good pleasure of His will,"
+  },
+  {
+   "num": 6,
+   "text": "to the praise of His glorious grace, which He has freely given us in the Beloved One."
+  },
+  {
+   "num": 7,
+   "text": "In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace"
+  },
+  {
+   "num": 8,
+   "text": "that He lavished on us with all wisdom and understanding."
+  },
+  {
+   "num": 9,
+   "text": "And He has made known to us the mystery of His will according to His good pleasure, which He purposed in Christ"
+  },
+  {
+   "num": 10,
+   "text": "as a plan for the fullness of time, to bring all things in heaven and on earth together in Christ."
+  },
+  {
+   "num": 11,
+   "text": "In Him we were also chosen as God's own, having been predestined according to the plan of Him who works out everything by the counsel of His will,"
+  },
+  {
+   "num": 12,
+   "text": "in order that we, who were the first to hope in Christ, would be for the praise of His glory."
+  },
+  {
+   "num": 13,
+   "text": "And in Him, having heard and believed the word of truth—the gospel of your salvation—you were sealed with the promised Holy Spirit,"
+  },
+  {
+   "num": 14,
+   "text": "who is the pledge of our inheritance until the redemption of those who are God's possession, to the praise of His glory."
+  },
+  {
+   "num": 15,
+   "text": "For this reason, ever since I heard about your faith in the Lord Jesus and your love for all the saints,"
+  },
+  {
+   "num": 16,
+   "text": "I have not stopped giving thanks for you, remembering you in my prayers,"
+  },
+  {
+   "num": 17,
+   "text": "that the God of our Lord Jesus Christ, the glorious Father, may give you a spirit of wisdom and revelation in your knowledge of Him."
+  },
+  {
+   "num": 18,
+   "text": "I ask that the eyes of your heart may be enlightened, so that you may know the hope of His calling, the riches of His glorious inheritance in the saints,"
+  },
+  {
+   "num": 19,
+   "text": "and the surpassing greatness of His power to us who believe. These are in accordance with the working of His mighty strength,"
+  },
+  {
+   "num": 20,
+   "text": "which He exerted in Christ when He raised Him from the dead and seated Him at His right hand in the heavenly realms,"
+  },
+  {
+   "num": 21,
+   "text": "far above all rule and authority, power and dominion, and every name that is named, not only in the present age but also in the one to come."
+  },
+  {
+   "num": 22,
+   "text": "And God put everything under His feet and made Him head over everything for the church,"
+  },
+  {
+   "num": 23,
+   "text": "which is His body, the fullness of Him who fills all in all."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1; 3:1), though some scholars question this",
+  "genre": "Letter, part prayer and part teaching, with a very long opening sentence",
+  "audience": "Believers in Ephesus and probably nearby churches (the oldest manuscripts lack “in Ephesus” in 1:1)",
+  "mapLabel": "EPHESUS, THE CITY OF ARTEMIS",
+  "setting": "Ephesus was the leading city of Roman Asia, famous for the temple of Artemis, one of the Seven Wonders. Paul writes to the believers there, probably with other churches in mind. The letter begins with one long sentence of praise (vv.3-14), describing God’s plan, and then a prayer that the readers know the hope and power that are theirs.",
+  "custom": "Verses 3-14 are one sentence in Greek, a flowing hymn. “Sealed” with the Spirit (v.13) refers to the mark of ownership on goods and letters. “Adoption” as sons gives believers a full share of the inheritance.",
+  "timelineImmediate": "Chapter 2 describes where these believers were before this: dead in sin.",
+  "timelineBible": "Chosen “before the foundation of the world” (v.4) echoes God’s choice of Israel (Deuteronomy 7:6-8). Verse 20-22 draws on Psalm 110:1 and Psalm 8:6.",
+  "sparkNotes": "Paul blesses God for blessing believers in Christ with every spiritual blessing. God chose us before creation, predestined us for adoption, redeemed us by Christ’s blood, and sealed us with the Spirit. Paul prays that they might know the hope of his calling and the greatness of his power, which raised Christ and seated him above all rule.",
+  "translation": [
+   {
+    "english": "blessed",
+    "greek": "εὐλογητός (eulogētos)",
+    "verseRef": "v.3",
+    "meaning": "The word behind “eulogy.” It means spoken well of, praised.",
+    "gloss": "Spoken well of"
+   },
+   {
+    "english": "mystery",
+    "greek": "μυστήριον (mystērion)",
+    "verseRef": "v.9",
+    "meaning": "A secret now made known. God’s hidden plan to unite everything in Christ.",
+    "gloss": "Revealed secret"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 7:6-8",
+    "note": "God chose Israel because he loved them."
+   },
+   {
+    "ref": "Psalm 110:1",
+    "note": "“Sit at my right hand.”"
+   },
+   {
+    "ref": "Psalm 8:6",
+    "note": "Everything under his feet."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "God has blessed us in Christ with election, adoption, redemption, and the Spirit. Paul prays that we know the hope and power of the risen Christ who rules over all.",
+   "settingLine": "Paul writes from prison to the churches around Ephesus.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Ephesus",
+     "t": "A port city of a quarter million, home to the temple of Artemis and a center of magic arts (Acts 19)."
+    },
+    {
+     "h": "Paul’s Time Here",
+     "t": "About three years in the city, two of them teaching daily in the hall of Tyrannus (Acts 19:9-10; 20:31)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sealing",
+     "t": "A seal marked ownership and protection."
+    },
+    {
+     "h": "Adoption",
+     "t": "Romans adopted adult heirs to carry on a family name."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Temple of Artemis",
+     "t": "Only a single column now stands, but the temple’s foundation shows its great size."
+    },
+    {
+     "h": "Library of Celsus",
+     "t": "A grand library façade built after Paul’s time stands at Ephesus."
+    }
+   ],
+   "discussion": "Paul says we were chosen before the world began. How does it change me to know that God’s love for me did not begin when I started believing?",
+   "book": "The letter to the Ephesians · 6 chapters. A grand view of the church as God’s new family, written from prison.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The churches around Ephesus",
+   "refNotes": {
+    "Deuteronomy 7:6-8": "Chosen in love",
+    "Psalm 110:1": "At his right hand",
+    "Psalm 8:6": "All under his feet"
+   },
+   "peoplePlaces": [
+    {
+     "n": "God the Father",
+     "d": "Chose and adopted"
+    },
+    {
+     "n": "Christ",
+     "d": "Redeemed by his blood"
+    },
+    {
+     "n": "The Spirit",
+     "d": "The seal"
+    },
+    {
+     "n": "Believers",
+     "d": "Hear and believe"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Greeting"
+    },
+    {
+     "when": "v.3-14",
+     "label": "The hymn of blessing"
+    },
+    {
+     "when": "v.15-19",
+     "label": "Paul’s prayer"
+    },
+    {
+     "when": "v.20-23",
+     "label": "Christ over all"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [
+     1
+    ],
+    "slug": "ephesus"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spas_vsederzhitel_sinay.jpg",
+   "caption": "Christ Pantocrator, a sixth-century icon at Saint Catherine's Monastery on Mount Sinai, one of the oldest surviving icons of Christ. In Ephesians 1:20-23 Paul says God seated Christ at His right hand, far above every rule and authority, and made Him head over all things for the church.",
+   "credit": "Unknown artist (6th century), Saint Catherine's Monastery, Sinai / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Theatre_of_Ephesus_2024.jpg",
+   "caption": "The Great Theater at Ephesus, which held some 24,000 people and is the setting of the riot of Acts 19:29-41.",
+   "credit": "Photo: Furkan Akkurt, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

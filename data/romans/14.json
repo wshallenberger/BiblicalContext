@@ -1,0 +1,242 @@
+{
+  "book": "Romans",
+  "chapter": 14,
+  "title": "Do Not Judge Weaker Believers",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Accept him whose faith is weak, without passing judgment on his opinions."
+    },
+    {
+      "num": 2,
+      "text": "For one person has faith to eat all things, while another, who is weak, eats only vegetables."
+    },
+    {
+      "num": 3,
+      "text": "The one who eats everything must not belittle the one who does not, and the one who does not eat everything must not judge the one who does, for God has accepted him."
+    },
+    {
+      "num": 4,
+      "text": "Who are you to judge someone else's servant? To his own master he stands or falls. And he will stand, for the Lord is able to make him stand."
+    },
+    {
+      "num": 5,
+      "text": "One person regards a certain day above the others, while someone else considers every day alike. Each one should be fully convinced in his own mind."
+    },
+    {
+      "num": 6,
+      "text": "He who observes a special day does so to the Lord; he who eats does so to the Lord, for he gives thanks to God; and he who abstains does so to the Lord and gives thanks to God."
+    },
+    {
+      "num": 7,
+      "text": "For none of us lives to himself alone, and none of us dies to himself alone."
+    },
+    {
+      "num": 8,
+      "text": "If we live, we live to the Lord, and if we die, we die to the Lord. So whether we live or die, we belong to the Lord."
+    },
+    {
+      "num": 9,
+      "text": "For this reason Christ died and returned to life, that He might be the Lord of both the dead and the living."
+    },
+    {
+      "num": 10,
+      "text": "Why, then, do you judge your brother? Or why do you belittle your brother? For we will all stand before God's judgment seat."
+    },
+    {
+      "num": 11,
+      "text": "It is written: \"As surely as I live, says the Lord, every knee will bow before Me; every tongue will confess to God.\""
+    },
+    {
+      "num": 12,
+      "text": "So then, each of us will give an account of himself to God."
+    },
+    {
+      "num": 13,
+      "text": "Therefore let us stop judging one another. Instead, make up your mind not to put any stumbling block or obstacle in your brother's way."
+    },
+    {
+      "num": 14,
+      "text": "I am convinced and fully persuaded in the Lord Jesus that nothing is unclean in itself. But if anyone regards something as unclean, then for him it is unclean."
+    },
+    {
+      "num": 15,
+      "text": "If your brother is distressed by what you eat, you are no longer acting in love. Do not by your eating destroy your brother, for whom Christ died."
+    },
+    {
+      "num": 16,
+      "text": "Do not allow what you consider good, then, to be spoken of as evil."
+    },
+    {
+      "num": 17,
+      "text": "For the kingdom of God is not a matter of eating and drinking, but of righteousness, peace, and joy in the Holy Spirit."
+    },
+    {
+      "num": 18,
+      "text": "For whoever serves Christ in this way is pleasing to God and approved by men."
+    },
+    {
+      "num": 19,
+      "text": "So then, let us pursue what leads to peace and to mutual edification."
+    },
+    {
+      "num": 20,
+      "text": "Do not destroy the work of God for the sake of food. All food is clean, but it is wrong for a man to let his eating be a stumbling block."
+    },
+    {
+      "num": 21,
+      "text": "It is better not to eat meat or drink wine or to do anything to cause your brother to stumble."
+    },
+    {
+      "num": 22,
+      "text": "Keep your belief about such matters between yourself and God. Blessed is the one who does not condemn himself by what he approves."
+    },
+    {
+      "num": 23,
+      "text": "But the one who has doubts is condemned if he eats, because his eating is not from faith; and everything that is not from faith is sin."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, THE STRONG AND THE WEAK",
+    "setting": "Paul addresses a practical divide in the Roman church: some believers ate anything and treated all days alike, while others avoided meat and kept special days. Jews and Gentiles likely stood on both sides. Paul tells each side to welcome the other and to answer to the Lord, not to each other.",
+    "custom": "Jews kept food laws and the Sabbath. Meat in Roman markets might have been offered to idols first, so some believers ate only vegetables. Wine could also be tied to pagan offerings. Eating together was the church’s center, so these issues were serious.",
+    "timelineImmediate": "Chapter 15 continues, with Christ as the example of one who welcomed others, and then moves toward Paul’s plans.",
+    "timelineBible": "Verse 11 quotes Isaiah 45:23 about every knee bowing, which Philippians 2:10 also uses. Paul’s “nothing is unclean in itself” (v.14) follows Jesus’ teaching in Mark 7:18-19.",
+    "sparkNotes": "Welcome those who are weak in faith without arguing over opinions. Each person answers to the Lord, who is Lord of both the living and the dead. Do not judge or despise a brother. Do not put a stumbling block in his way, because the kingdom of God is righteousness, peace, and joy in the Holy Spirit.",
+    "translation": [
+      {
+        "english": "welcome",
+        "greek": "προσλαμβάνεσθε (proslambanesthe)",
+        "verseRef": "v.1",
+        "meaning": "To take someone to yourself, as a host receives a guest. Paul commands the church to receive each other, as God received them.",
+        "gloss": "Take in"
+      },
+      {
+        "english": "stumbling block",
+        "greek": "πρόσκομμα (proskomma)",
+        "verseRef": "v.13, 20",
+        "meaning": "Something that trips a person. Paul warns that one’s freedom can cause another to fall.",
+        "gloss": "A thing to trip on"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Isaiah 45:23",
+        "note": "“Every knee will bow before me.”"
+      },
+      {
+        "ref": "Daniel 1:12",
+        "note": "Daniel asked for vegetables and water in Babylon."
+      },
+      {
+        "ref": "Leviticus 11",
+        "note": "The food laws behind the scruples of the weak."
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "Believers disagree over food and special days. Paul says to welcome each other, stop judging, never cause a brother to stumble, and pursue peace.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Strong and Weak",
+          "t": "The “weak” are those with scruples, not weak in character. The “strong” are those who feel free."
+        },
+        {
+          "h": "Rome’s Meat Markets",
+          "t": "Much of Rome’s meat came from temple sacrifices, so a conscience could be pricked."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Special Days",
+          "t": "Jews kept Sabbath and festivals. Some Gentile believers may have had other days or none."
+        },
+        {
+          "h": "Vegetables Only",
+          "t": "Daniel and his friends ate only vegetables in Babylon (Daniel 1:12), a model for staying clean."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Macellum",
+          "t": "Roman meat markets such as the one at Pompeii show where meat was sold and where questions arose."
+        },
+        {
+          "h": "Kosher Evidence",
+          "t": "Pig bones are absent from Jewish towns in the land of Israel, showing a distinct diet."
+        }
+      ],
+      "discussion": "Paul says the kingdom is not about food and drink but about righteousness, peace, and joy. What “disputable matter” in my circle needs more grace?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Isaiah 45:23": "Every knee will bow",
+        "Daniel 1:12": "Vegetables and water",
+        "Leviticus 11": "Clean and unclean"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Strong",
+          "d": "Free to eat anything"
+        },
+        {
+          "n": "The Weak",
+          "d": "Cautious in conscience"
+        },
+        {
+          "n": "Christ",
+          "d": "Lord of both"
+        },
+        {
+          "n": "The Believer",
+          "d": "Answers to the Lord"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-4",
+          "label": "Do not judge"
+        },
+        {
+          "when": "v.5-12",
+          "label": "Each answers to God"
+        },
+        {
+          "when": "v.13-18",
+          "label": "No stumbling blocks"
+        },
+        {
+          "when": "v.19-23",
+          "label": "Pursue peace"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza_in_Pompeii_ruins.jpg",
+      "caption": "A painted scene of food from Pompeii, made before AD 79. Romans 14 is about what Christians eat and drink at the table.",
+      "credit": "Unknown Roman artist (before AD 79), public domain / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macellum_of_Pompeii_(5027).jpg",
+      "caption": "The market hall of Pompeii, where meat was sold, some of it from pagan sacrifices. Romans 14 and 1 Corinthians 8 and 10 deal with the question of whether Christians could eat such food.",
+      "credit": "Photo: Marco Ober, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

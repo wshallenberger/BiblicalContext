@@ -1,0 +1,278 @@
+{
+  "book": "Acts",
+  "chapter": 1,
+  "title": "Waiting for the Promise",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "In my first book, O Theophilus, I wrote about all that Jesus began to do and to teach,"
+    },
+    {
+      "num": 2,
+      "text": "until the day He was taken up to heaven, after giving instructions through the Holy Spirit to the apostles He had chosen."
+    },
+    {
+      "num": 3,
+      "text": "After His suffering, He presented Himself to them with many convincing proofs that He was alive. He appeared to them over a span of forty days and spoke about the kingdom of God."
+    },
+    {
+      "num": 4,
+      "text": "And while they were gathered together, He commanded them: \"Do not leave Jerusalem, but wait for the gift the Father promised, which you have heard Me discuss."
+    },
+    {
+      "num": 5,
+      "text": "For John baptized with water, but in a few days you will be baptized with the Holy Spirit.\""
+    },
+    {
+      "num": 6,
+      "text": "So when they came together, they asked Him, \"Lord, will You at this time restore the kingdom to Israel?\""
+    },
+    {
+      "num": 7,
+      "text": "Jesus replied, \"It is not for you to know times or seasons that the Father has fixed by His own authority."
+    },
+    {
+      "num": 8,
+      "text": "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.\""
+    },
+    {
+      "num": 9,
+      "text": "After He had said this, they watched as He was taken up, and a cloud hid Him from their sight."
+    },
+    {
+      "num": 10,
+      "text": "They were looking intently into the sky as He was going, when suddenly two men dressed in white stood beside them."
+    },
+    {
+      "num": 11,
+      "text": "\"Men of Galilee,\" they said, \"why do you stand here looking into the sky? This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven.\""
+    },
+    {
+      "num": 12,
+      "text": "Then they returned to Jerusalem from the Mount of Olives, which is near the city, a Sabbath day's journey away."
+    },
+    {
+      "num": 13,
+      "text": "When they arrived, they went to the upper room where they were staying: Peter and John, James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus, Simon the Zealot, and Judas son of James."
+    },
+    {
+      "num": 14,
+      "text": "With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers."
+    },
+    {
+      "num": 15,
+      "text": "In those days Peter stood up among the brothers (a gathering of about a hundred and twenty) and said,"
+    },
+    {
+      "num": 16,
+      "text": "\"Brothers, the Scripture had to be fulfilled which the Holy Spirit foretold through the mouth of David concerning Judas, who became a guide for those who arrested Jesus."
+    },
+    {
+      "num": 17,
+      "text": "He was one of our number and shared in this ministry.\""
+    },
+    {
+      "num": 18,
+      "text": "(Now with the reward for his wickedness Judas bought a field; there he fell headlong and burst open in the middle, and all his intestines spilled out."
+    },
+    {
+      "num": 19,
+      "text": "This became known to all who lived in Jerusalem, so they called that field in their own language Akeldama, that is, Field of Blood.)"
+    },
+    {
+      "num": 20,
+      "text": "\"For it is written in the book of Psalms: 'May his place be deserted; let there be no one to dwell in it,' and, 'May another take his position.'"
+    },
+    {
+      "num": 21,
+      "text": "Therefore it is necessary to choose one of the men who have accompanied us the whole time the Lord Jesus went in and out among us,"
+    },
+    {
+      "num": 22,
+      "text": "beginning from John's baptism until the day Jesus was taken up from us. For one of these must become a witness with us of His resurrection.\""
+    },
+    {
+      "num": 23,
+      "text": "So they proposed two men: Joseph called Barsabbas (also known as Justus) and Matthias."
+    },
+    {
+      "num": 24,
+      "text": "And they prayed, \"Lord, You know everyone's heart. Show us which of these two You have chosen"
+    },
+    {
+      "num": 25,
+      "text": "to take up this ministry and apostleship, which Judas abandoned to go to his rightful place.\""
+    },
+    {
+      "num": 26,
+      "text": "Then they cast lots, and the lot fell to Matthias; so he was added to the eleven apostles."
+    }
+  ],
+  "context": {
+    "author": "Traditionally Luke, the physician and traveling companion of Paul",
+    "genre": "Historical narrative — the early church's story, with speeches and eyewitness travel reports",
+    "audience": "Theophilus, and through him a Greek-speaking readership of Jews and Gentiles",
+    "mapLabel": "JERUSALEM, FROM THE MOUNT OF OLIVES",
+    "setting": "Luke picks up where his Gospel ended. For forty days the risen Jesus appears to the apostles, then rises from the Mount of Olives, about a Sabbath day's walk from Jerusalem. The eleven return to an upper room in the city, where about 120 believers pray together until the Spirit comes.",
+    "custom": "Casting lots to choose Matthias (v.26) was an ordinary way to seek God's choice in Israel: priestly duties were assigned that way (Luke 1:9), and Proverbs 16:33 says the lot is cast but the decision is the Lord's. This is the last time the New Testament records it.",
+    "timelineImmediate": "Ten days of prayer and waiting follow, ending at Pentecost in chapter 2. The twelfth apostle is in place first, because Jesus had promised the Twelve would judge the tribes of Israel (Luke 22:30).",
+    "timelineBible": "Peter reads Judas's fall through Psalm 69:25 and Psalm 109:8, treating the Psalms as Scripture \"that had to be fulfilled\" (v.16, 20). The angels' promise that Jesus will return \"in the same way\" (v.11) echoes the Son of Man coming on the clouds in Daniel 7:13.",
+    "sparkNotes": "Jesus gives his last instructions, promises the Holy Spirit, and rises into a cloud while the apostles watch. Two angels tell them he will return the same way. The believers wait in Jerusalem, pray, and choose Matthias to replace Judas.",
+    "translation": [
+      {
+        "english": "witnesses",
+        "greek": "μάρτυρες (martyres)",
+        "verseRef": "v.8",
+        "meaning": "A witness is someone who tells what they saw. The Greek word later gave English \"martyr,\" because so many witnesses were killed for what they said.",
+        "gloss": "Witnesses"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Psalm 69:25",
+        "note": "Judas's empty place, read as a pattern of Scripture."
+      },
+      {
+        "ref": "Psalm 109:8",
+        "note": "\"Let another take his office.\""
+      },
+      {
+        "ref": "Daniel 7:13",
+        "note": "The Son of Man comes with the clouds, as the angels promise."
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7767,
+      "lng": 35.2342,
+      "zoom": 12,
+      "placeName": "Jerusalem"
+    },
+    "overview": {
+      "summary": "After forty days of appearing to his followers, Jesus is taken up from the Mount of Olives. The apostles wait in Jerusalem, pray, and choose Matthias to take Judas's place.",
+      "settingLine": "The Mount of Olives, then an upper room.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Resurrection Appearances",
+          "t": "Luke says Jesus showed himself alive over forty days."
+        },
+        {
+          "h": "Judas's End",
+          "t": "Acts 1 gives a second account of his death, alongside Matthew 27."
+        }
+      ],
+      "customs": [
+        {
+          "h": "A Sabbath Day's Walk",
+          "t": "About 1,100 yards, the farthest a person could walk on the Sabbath."
+        },
+        {
+          "h": "Casting Lots",
+          "t": "A way of leaving a choice in God's hands, used often in Israel."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Olivet Burial Caves",
+          "t": "Rock-cut tombs cover the Mount of Olives, which was a Jewish cemetery."
+        },
+        {
+          "h": "Field of Blood",
+          "t": "Akeldama is traditionally placed in the Hinnom Valley south of the city."
+        }
+      ],
+      "discussion": "The apostles asked about the kingdom, and Jesus answered with a task: witness. What is the difference between waiting and standing around looking up?",
+      "book": "The book of Acts · 28 chapters. The story of how the good news about Jesus spread from Jerusalem to Rome.",
+      "author": "Luke",
+      "genre": "History and narrative",
+      "audience": "Theophilus and the church",
+      "refNotes": {
+        "Psalm 69:25": "The empty house",
+        "Psalm 109:8": "Another takes his office",
+        "Daniel 7:13": "Coming with the clouds"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Jesus",
+          "d": "Taken up"
+        },
+        {
+          "n": "Peter",
+          "d": "Leads the group"
+        },
+        {
+          "n": "Matthias",
+          "d": "Chosen apostle"
+        },
+        {
+          "n": "Judas",
+          "d": "Replaced"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "40 Days",
+          "label": "Jesus appears"
+        },
+        {
+          "when": "Olivet",
+          "label": "He ascends"
+        },
+        {
+          "when": "Upper Room",
+          "label": "They pray"
+        },
+        {
+          "when": "Choosing",
+          "label": "Matthias added"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          4,
+          8,
+          12,
+          19
+        ],
+        "slug": "jerusalem"
+      },
+      {
+        "name": "Mount of Olives",
+        "lat": 31.7787,
+        "lng": 35.245,
+        "verses": [
+          12
+        ],
+        "slug": "mount-of-olives"
+      },
+      {
+        "name": "Upper Room (traditional site)",
+        "lat": 31.7716,
+        "lng": 35.2294,
+        "verses": [
+          13
+        ],
+        "slug": "upper-room"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hemelvaart_van_Christus_en_verkiezing_van_Mattias_Handelingen_van_de_apostelen_(serietitel)_Acta_Apostolorum_(serietitel),_RP-P-OB-5814.jpg",
+      "caption": "The Ascension and the choosing of Matthias (Acts 1), from a 16th-century print series on Acts.",
+      "credit": "Print series on Acts (16th c.), Rijksmuseum, CC0 / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapel_of_the_Ascension,_Mount_of_Oliver,_Jerusalem.jpg",
+      "caption": "The Chapel of the Ascension on the Mount of Olives, Jerusalem.",
+      "credit": "Photo: Diego Delso, CC BY-SA 3.0 / Wikimedia Commons"
+    }
+  }
+}

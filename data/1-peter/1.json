@@ -1,0 +1,304 @@
+{
+ "book": "1 Peter",
+ "chapter": 1,
+ "title": "A Living Hope",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Peter, an apostle of Jesus Christ, To the elect who are exiles of the Dispersion throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, chosen"
+  },
+  {
+   "num": 2,
+   "text": "according to the foreknowledge of God the Father and sanctified by the Spirit for obedience to Jesus Christ and sprinkling by His blood: Grace and peace be yours in abundance."
+  },
+  {
+   "num": 3,
+   "text": "Blessed be the God and Father of our Lord Jesus Christ! By His great mercy He has given us new birth into a living hope through the resurrection of Jesus Christ from the dead,"
+  },
+  {
+   "num": 4,
+   "text": "and into an inheritance that is imperishable, undefiled, and unfading, reserved in heaven for you,"
+  },
+  {
+   "num": 5,
+   "text": "who through faith are shielded by God's power for the salvation that is ready to be revealed in the last time."
+  },
+  {
+   "num": 6,
+   "text": "In this you greatly rejoice, though now for a little while you may have had to suffer grief in various trials"
+  },
+  {
+   "num": 7,
+   "text": "so that the proven character of your faith—more precious than gold, which perishes even though refined by fire—may result in praise, glory, and honor at the revelation of Jesus Christ."
+  },
+  {
+   "num": 8,
+   "text": "Though you have not seen Him, you love Him; and though you do not see Him now, you believe in Him and rejoice with an inexpressible and glorious joy,"
+  },
+  {
+   "num": 9,
+   "text": "now that you are receiving the goal of your faith, the salvation of your souls."
+  },
+  {
+   "num": 10,
+   "text": "Concerning this salvation, the prophets who foretold the grace to come to you searched and investigated carefully,"
+  },
+  {
+   "num": 11,
+   "text": "trying to determine the time and setting to which the Spirit of Christ in them was pointing when He predicted the sufferings of Christ and the glories to follow."
+  },
+  {
+   "num": 12,
+   "text": "It was revealed to them that they were not serving themselves, but you, when they foretold the things now announced by those who preached the gospel to you by the Holy Spirit sent from heaven. Even angels long to look into these things."
+  },
+  {
+   "num": 13,
+   "text": "Therefore prepare your minds for action. Be sober-minded. Set your hope fully on the grace to be given you at the revelation of Jesus Christ."
+  },
+  {
+   "num": 14,
+   "text": "As obedient children, do not conform to the passions of your former ignorance."
+  },
+  {
+   "num": 15,
+   "text": "But just as He who called you is holy, so be holy in all you do,"
+  },
+  {
+   "num": 16,
+   "text": "for it is written: \"Be holy, because I am holy.\""
+  },
+  {
+   "num": 17,
+   "text": "Since you call on a Father who judges each one's work impartially, conduct yourselves in reverent fear during your stay as foreigners."
+  },
+  {
+   "num": 18,
+   "text": "For you know that it was not with perishable things such as silver or gold that you were redeemed from the empty way of life you inherited from your forefathers,"
+  },
+  {
+   "num": 19,
+   "text": "but with the precious blood of Christ, a lamb without blemish or spot."
+  },
+  {
+   "num": 20,
+   "text": "He was known before the foundation of the world, but was revealed in the last times for your sake."
+  },
+  {
+   "num": 21,
+   "text": "Through Him you believe in God, who raised Him from the dead and glorified Him; and so your faith and hope are in God."
+  },
+  {
+   "num": 22,
+   "text": "Since you have purified your souls by obedience to the truth so that you have a genuine love for your brothers, love one another deeply, from a pure heart."
+  },
+  {
+   "num": 23,
+   "text": "For you have been born again, not of perishable seed, but of imperishable, through the living and enduring word of God."
+  },
+  {
+   "num": 24,
+   "text": "For, \"All flesh is like grass, and all its glory like the flowers of the field; the grass withers and the flowers fall,"
+  },
+  {
+   "num": 25,
+   "text": "but the word of the Lord stands forever.\" And this is the word that was proclaimed to you."
+  }
+ ],
+ "context": {
+  "author": "Peter, an apostle of Jesus Christ (1:1). He writes with Silvanus, who may have been his secretary, the carrier of the letter, or both (5:12).",
+  "genre": "Letter of encouragement to suffering believers",
+  "audience": "Believers scattered across five Roman provinces in what is now Turkey (1:1). Verses such as 1:14, 1:18 and 4:3 suggest many were Gentiles by background, though Peter uses names once given to Israel.",
+  "mapLabel": "ASIA MINOR, THE CHURCHES OF THE DISPERSION",
+  "setting": "Peter writes to believers in five provinces of what is now Turkey. They are “elect exiles,” chosen by God but strangers in their own towns. He starts with praise for a living hope through Christ’s resurrection and an inheritance that cannot fade, and urges them to be holy as God is holy.",
+  "custom": "The verb in v.13 pictures a man tucking his long robe into his belt to work or travel, and Peter applies it to the mind. To be ransomed (v.18) is to be bought free by the payment of a price, as a slave could be. A lamb without blemish (v.19) recalls the Law's rule that offerings be free of defects.",
+  "timelineImmediate": "Chapter 2 describes the church as living stones and a priesthood.",
+  "timelineBible": "Verse 16 quotes the command to be holy because God is holy (Leviticus 11:44-45; 19:2). Isaiah 40:6-8 is quoted at the end (vv.24-25). The prophets searched about this salvation (vv.10-12), and Peter's praise in v.3 follows the pattern of Jewish blessings such as Psalm 41:13.",
+  "sparkNotes": "Blessed be God, who has caused us to be born again to a living hope through the resurrection of Jesus Christ, to an inheritance imperishable and unfading. In this you rejoice, though now grieved by various trials. Though you have not seen him, you love him. The prophets searched about this salvation, and angels long to look into it. Be holy as he who called you is holy. You were ransomed with the precious blood of Christ, like that of a lamb without blemish.",
+  "translation": [
+   {
+    "english": "exiles",
+    "greek": "παρεπιδήμοις (parepidēmois)",
+    "verseRef": "v.1",
+    "meaning": "Temporary residents in a foreign land.",
+    "gloss": "Resident aliens"
+   },
+   {
+    "english": "born again",
+    "greek": "ἀναγεννήσας (anagennēsas)",
+    "verseRef": "v.3, 23",
+    "meaning": "Brought to birth again by God.",
+    "gloss": "Caused to be born again"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Leviticus 19:2",
+    "note": "God's people are to be holy because he is holy. Peter quotes the command in 1:16."
+   },
+   {
+    "ref": "Isaiah 40:6-8",
+    "note": "All flesh is like grass, but the word of the Lord lasts. Peter quotes this in 1:24-25."
+   },
+   {
+    "ref": "Exodus 12:5",
+    "note": "The Passover lamb was to be a year-old male without blemish. Compare 1:19."
+   }
+  ],
+  "mapCoords": {
+   "lat": 38.5,
+   "lng": 28.0,
+   "zoom": 5,
+   "placeName": "Roman Asia"
+  },
+  "overview": {
+   "summary": "Believers have a living hope and an inheritance kept in heaven. Trials test their faith like gold, and they are called to be holy, redeemed by Christ’s blood.",
+   "settingLine": "Peter writes from “Babylon” to believers in Asia Minor.",
+   "placeName": "Roman Asia",
+   "history": [
+    {
+     "h": "Five Provinces",
+     "t": "Peter names Pontus, Galatia, Cappadocia, Asia and Bithynia (1:1). Together they covered most of the northern half of modern Turkey, and Rome governed Pontus and Bithynia as one province. He names no towns, so we do not know where the churches met. Some think the order of the names follows the route of the person who carried the letter."
+    },
+    {
+     "h": "Exiles of the Dispersion",
+     "t": "The word for Dispersion (diaspora) was used for Jews scattered outside the land of Israel (James 1:1; John 7:35). Peter uses it for believers and also calls them foreigners and temporary residents (1:17; 2:11). Scholars debate whether he means they were outsiders in their towns, strangers because their true home is with God, or both."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Refining Gold",
+     "t": "Gold was heated in a furnace so that impurities were burned off or skimmed away. Peter says that gold, though it perishes, is refined by fire, and that proven faith is worth more (1:7). The Old Testament uses the same picture of God testing his people (Proverbs 17:3; Zechariah 13:9; Malachi 3:3)."
+    },
+    {
+     "h": "A Lamb Without Blemish",
+     "t": "The Law required animals for sacrifice to be free of defects (Leviticus 22:19-21), and the Passover lamb had to be a male a year old without blemish (Exodus 12:5). Peter calls Christ a lamb without blemish or spot (1:19). He does not name the Passover here, though many hear it in the word redeemed (1:18)."
+    },
+    {
+     "h": "Preparing the Mind for Action",
+     "t": "In v.13 the verb pictures a man tucking up his long robe into his belt so he can work or travel. The same picture of belted loins appears at the first Passover meal (Exodus 12:11). Peter applies it to the mind."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Sardis and the Gold of Lydia",
+     "t": "Sardis, the capital of Lydia, lay in Roman Asia, one of the provinces in 1:1. Its kings were famous for gold, and excavations at Sardis found workshops of the 6th century BC where gold was separated from silver. A Lydian gold stater of about 560-546 BC is shown here."
+    },
+    {
+     "h": "The Temple of Augustus at Ancyra",
+     "t": "Ancyra (modern Ankara) was the chief city of Galatia. Its temple of Rome and Augustus carries the Res Gestae, the emperor's own account of his deeds, in Latin and Greek. Peter names no town, but this is the kind of city where the worship of the emperor was part of public life."
+    },
+    {
+     "h": "The Great Isaiah Scroll",
+     "t": "The Great Isaiah Scroll from Qumran dates to about 125-100 BC and holds the whole book of Isaiah. Peter quotes Isaiah 40:6-8 in 1:24-25, so the passage he knew was already in scrolls like this one."
+    }
+   ],
+   "discussion": "Peter says our faith is tested like gold in fire. What trial in my life might be refining something worth keeping?",
+   "book": "The first letter of Peter · 5 chapters. Encouragement to live as “exiles” with a living hope.",
+   "author": "Peter",
+   "genre": "Letter",
+   "audience": "Believers across Asia Minor",
+   "refNotes": {
+    "Leviticus 19:2": "Be holy",
+    "Isaiah 40:6-8": "The word endures",
+    "Exodus 12:5": "Lamb without blemish"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Peter",
+     "d": "Apostle of Jesus Christ"
+    },
+    {
+     "n": "Elect Exiles",
+     "d": "Believers in five provinces"
+    },
+    {
+     "n": "The Prophets",
+     "d": "Searched this salvation"
+    },
+    {
+     "n": "Christ",
+     "d": "The lamb without blemish"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Greeting"
+    },
+    {
+     "when": "v.3-9",
+     "label": "A living hope"
+    },
+    {
+     "when": "v.10-12",
+     "label": "The prophets and angels"
+    },
+    {
+     "when": "v.13-25",
+     "label": "Be holy"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Pontus",
+    "lat": 40.98,
+    "lng": 37.0,
+    "verses": [
+     1
+    ],
+    "slug": "pontus"
+   },
+   {
+    "name": "Galatia",
+    "lat": 39.5,
+    "lng": 32.5,
+    "verses": [
+     1
+    ],
+    "slug": "galatia"
+   },
+   {
+    "name": "Cappadocia",
+    "lat": 38.64,
+    "lng": 34.83,
+    "verses": [
+     1
+    ],
+    "slug": "cappadocia"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [
+     1
+    ],
+    "slug": "asia"
+   },
+   {
+    "name": "Bithynia and Pontus",
+    "lat": 40.6,
+    "lng": 31.3,
+    "verses": [
+     1
+    ],
+    "slug": "bithynia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gold_stater_MET_DP23090_26.59.4.jpg",
+   "caption": "A gold coin (stater) of Lydia, about 560-546 BC, in the Metropolitan Museum of Art. Sardis, the Lydian capital in what became Roman Asia, was famous for its gold, and excavations there found 6th-century BC workshops where gold was separated from silver. Peter says that proven faith is more precious than gold, which perishes even though refined by fire (1:7).",
+   "credit": "Metropolitan Museum of Art, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%B6reme_Valley_in_Cappadocia_edit1.jpg",
+   "caption": "The Göreme Valley in Cappadocia, in central Turkey, with its rock formations of volcanic tuff. Cappadocia is one of the five provinces in 1:1. Peter does not say where in these provinces his readers lived.",
+   "credit": "Photo: Brocken Inaglory, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

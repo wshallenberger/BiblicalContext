@@ -1,0 +1,265 @@
+{
+ "book": "Philemon",
+ "chapter": 1,
+ "title": "A Slave Who Is Now a Brother",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Paul, a prisoner of Christ Jesus, and Timothy our brother, To Philemon our beloved fellow worker,"
+  },
+  {
+   "num": 2,
+   "text": "to Apphia our sister, to Archippus our fellow soldier, and to the church that meets at your house:"
+  },
+  {
+   "num": 3,
+   "text": "Grace and peace to you from God our Father and the Lord Jesus Christ."
+  },
+  {
+   "num": 4,
+   "text": "I always thank my God, remembering you in my prayers,"
+  },
+  {
+   "num": 5,
+   "text": "because I hear about your faith in the Lord Jesus and your love for all the saints."
+  },
+  {
+   "num": 6,
+   "text": "I pray that your partnership in the faith may become effective as you fully acknowledge every good thing that is ours in Christ."
+  },
+  {
+   "num": 7,
+   "text": "I take great joy and encouragement in your love, because you, brother, have refreshed the hearts of the saints."
+  },
+  {
+   "num": 8,
+   "text": "So although in Christ I am bold enough to order you to do what is proper,"
+  },
+  {
+   "num": 9,
+   "text": "I prefer to appeal on the basis of love. For I, Paul, am now aged, and a prisoner of Christ Jesus as well."
+  },
+  {
+   "num": 10,
+   "text": "I appeal to you for my child Onesimus, whose father I became while I was in chains."
+  },
+  {
+   "num": 11,
+   "text": "Formerly he was useless to you, but now he has become useful both to you and to me."
+  },
+  {
+   "num": 12,
+   "text": "I am sending back to you him who is my very heart."
+  },
+  {
+   "num": 13,
+   "text": "I would have liked to keep him with me, so that on your behalf he could minister to me in my chains for the gospel."
+  },
+  {
+   "num": 14,
+   "text": "But I did not want to do anything without your consent, so that your goodness will not be out of compulsion, but by your own free will."
+  },
+  {
+   "num": 15,
+   "text": "For perhaps this is why he was separated from you for a while, so that you might have him back for good—"
+  },
+  {
+   "num": 16,
+   "text": "no longer as a slave, but better than a slave, as a beloved brother. He is especially beloved to me, but even more so to you, both in person and in the Lord."
+  },
+  {
+   "num": 17,
+   "text": "So if you consider me a partner, receive him as you would receive me."
+  },
+  {
+   "num": 18,
+   "text": "But if he has wronged you in any way or owes you anything, charge it to my account."
+  },
+  {
+   "num": 19,
+   "text": "I, Paul, write this with my own hand. I will repay it—not to mention that you owe me your very self."
+  },
+  {
+   "num": 20,
+   "text": "Yes, brother, let me have some benefit from you in the Lord. Refresh my heart in Christ."
+  },
+  {
+   "num": 21,
+   "text": "Confident of your obedience, I write to you, knowing that you will do even more than I ask."
+  },
+  {
+   "num": 22,
+   "text": "In the meantime, prepare a guest room for me, because I hope that through your prayers I will be restored to you."
+  },
+  {
+   "num": 23,
+   "text": "Epaphras, my fellow prisoner in Christ Jesus, sends you greetings,"
+  },
+  {
+   "num": 24,
+   "text": "as do Mark, Aristarchus, Demas, and Luke, my fellow workers."
+  },
+  {
+   "num": 25,
+   "text": "The grace of the Lord Jesus Christ be with your spirit."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle, with Timothy (v.1)",
+  "genre": "Personal letter",
+  "audience": "Philemon, a Christian in Colossae, and the church that met in his house",
+  "mapLabel": "COLOSSAE, THE HOME OF PHILEMON",
+  "setting": "Onesimus, Philemon's slave, is with Paul in prison and has become a Christian through him (verse 10). Most readers think he had run away, perhaps taking something (verse 18), though the letter says only that he was parted from Philemon \"for a while.\" Paul is sending him back with this letter. He appeals to Philemon to receive him not as a slave but as a beloved brother, and promises to repay anything Onesimus owes.",
+  "custom": "Runaway slaves could be branded, beaten, or executed. Roman law allowed owners harsh punishments. Paul gently plays on Onesimus’s name, which means “useful,” saying he was “useless” to you, but is now “useful.”",
+  "timelineImmediate": "Colossians 4:7-9 says that Tychicus and Onesimus are going to Colossae, which fits Onesimus carrying this letter back. About AD 110 Ignatius names a bishop of Ephesus called Onesimus, but whether he was the same man is uncertain.",
+  "timelineBible": "Paul's offer to pay the debt of Onesimus echoes the idea of one person standing in for another (Genesis 43:9; 44:32-33). His request to \"refresh my heart\" (verse 20) echoes the praise of Philemon in verse 7, who has \"refreshed the hearts of the saints.\"",
+  "sparkNotes": "Paul thanks God for Philemon’s love for the saints. Though bold enough to command, he appeals on the basis of love. He pleads for Onesimus, his child in the faith, who was once useless but now useful. Receive him as you would receive me, and if he owes anything, charge it to my account. Paul writes in his own hand, confident that Philemon will do even more than he asks, and asks for a guest room.",
+  "translation": [
+   {
+    "english": "useful",
+    "greek": "ὀνήσιμον (onēsimon)",
+    "verseRef": "v.10-11",
+    "meaning": "The meaning of the name Onesimus. Paul plays on the word: “useless” before, “useful” now.",
+    "gloss": "Profitable"
+   },
+   {
+    "english": "refresh my heart",
+    "greek": "ἀνάπαυσόν μου τὰ σπλάγχνα (anapauson mou ta splanchna)",
+    "verseRef": "v.20",
+    "meaning": "Literally “refresh my inward parts,” the seat of deep emotion.",
+    "gloss": "Ease my heart"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Genesis 43:9",
+    "note": "Judah offers to be a guarantee for Benjamin."
+   },
+   {
+    "ref": "Exodus 21:2",
+    "note": "A Hebrew slave went free in the seventh year."
+   },
+   {
+    "ref": "Deuteronomy 23:15-16",
+    "note": "Israel was not to hand back a slave who had escaped to them from his master. The rule concerned a foreign master, and Roman law said the opposite about runaways."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.795,
+   "lng": 29.268,
+   "zoom": 9,
+   "placeName": "Colossae"
+  },
+  "overview": {
+   "summary": "Paul sends the runaway slave Onesimus back to Philemon and appeals for him to be welcomed as a beloved brother, offering to pay any debt himself.",
+   "settingLine": "Paul writes from prison to Philemon in Colossae.",
+   "placeName": "Colossae",
+   "history": [
+    {
+     "h": "Roman Slavery",
+     "t": "Slaves were a large part of the Roman world. Historians' estimates vary a great deal, often putting slaves at roughly one in ten to one in five of the empire's people, and more in Italy and the big cities. The law treated a slave as the owner's property. Slaves could be freed, and many freed slaves stayed close to their former owners. Philemon is a slave owner, since Paul speaks of Onesimus as his slave (verse 16), and Paul asks him to receive Onesimus \"no longer as a slave, but better than a slave, as a beloved brother.\""
+    },
+    {
+     "h": "Onesimus",
+     "t": "The name Onesimus means \"useful\" or \"profitable\" and was a common slave name. Paul puns on it in verses 10-11 and 20. Colossians 4:9 calls Onesimus \"our faithful and beloved brother, who is one of you,\" and says he is coming to Colossae with Tychicus. About AD 110 Ignatius of Antioch named the bishop of Ephesus as Onesimus (Ephesians 1:3). Some scholars think this was the same man, but the name was common and the letter does not say what became of him."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Runaways",
+     "t": "The letter does not use the word \"runaway.\" It says Onesimus was parted from Philemon \"for a while\" (verse 15) and that he may have wronged him or owes him something (verse 18). Most readers take him to be a fugitive. An owner could have a runaway hunted down and punished harshly, and a person who sheltered one could be accused of theft. Some scholars think Onesimus went to Paul as a friend of his master to ask him to plead for him, but the letter does not say how he came to Paul."
+    },
+    {
+     "h": "Hospitality",
+     "t": "Paul asks Philemon to \"prepare a guest room\" for him (verse 22). Inns had a poor name, so travelers, including teachers and the helpers of apostles, depended on private homes. Philemon's house already holds the church (verse 2). The request also shows that Paul hopes to be set free and to visit Colossae."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Colossae Site",
+     "t": "The ruins of Colossae lie beside the modern town of Honaz in southwestern Turkey. The Roman town is mostly unexcavated. It has a large mound and a theater that is almost completely buried. A Turkish university team began a survey in 2021 and started excavation in 2025. Few houses of the Roman town are known, so Philemon's house has not been identified."
+    },
+    {
+     "h": "Slave Collars",
+     "t": "Iron and bronze collars worn by slaves have survived from Rome, most from the 4th or 5th century AD, long after Paul. One asks the finder to hold the wearer, a runaway, and return him to his owner Zoninus for the reward of a gold coin. Another names a master Viventius. They show how slave owners marked runaways and offered rewards for their return."
+    }
+   ],
+   "discussion": "Paul appeals to Philemon to receive a former enemy as a brother. Is there someone I need to welcome back or forgive?",
+   "book": "The letter to Philemon · 1 chapter. Paul’s shortest and most personal letter, about a runaway slave named Onesimus.",
+   "author": "Paul",
+   "genre": "Personal letter",
+   "audience": "Philemon and his house church",
+   "refNotes": {
+    "Genesis 43:9": "Surety for another",
+    "Exodus 21:2": "Release of slaves",
+    "Deuteronomy 23:15-16": "Do not return the runaway"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Prisoner and advocate"
+    },
+    {
+     "n": "Philemon",
+     "d": "Slave owner and believer"
+    },
+    {
+     "n": "Onesimus",
+     "d": "Runaway slave and new believer"
+    },
+    {
+     "n": "Apphia and Archippus",
+     "d": "Others in the house church"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Greeting and thanks"
+    },
+    {
+     "when": "v.8-16",
+     "label": "The appeal"
+    },
+    {
+     "when": "v.17-22",
+     "label": "Welcome him like me"
+    },
+    {
+     "when": "v.23-25",
+     "label": "Greetings"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Colossae",
+    "lat": 37.795,
+    "lng": 29.268,
+    "verses": [],
+    "slug": "colossae"
+   },
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [],
+    "slug": "rome"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cologne,_Uni_K%C3%B6ln_Ms_Papyrus_12_recto_Philemon_13-15.jpg",
+   "caption": "Papyrus 87 (Cologne, Papyrus 12), the earliest known fragment of the letter to Philemon, usually dated to the late 2nd or early 3rd century, about 150 years after Paul. This side has Philemon 13-15, where Paul says he would have liked to keep Onesimus with him and suggests that Onesimus was parted from Philemon \"for a while\" so that Philemon might have him back for good.",
+   "credit": "Unknown author (late 2nd or early 3rd century), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Colossae_Antik_Kenti.jpg",
+   "caption": "The mound of Colossae in 2025, looking toward Mount Honaz. The buried theater lies just behind the photographer. Colossae was a small town in the Lycus Valley, and the letter to Philemon is addressed to a man who most likely lived here.",
+   "credit": "Photo: Sakaryonca, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

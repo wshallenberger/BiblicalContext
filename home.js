@@ -115,7 +115,7 @@
   };
   function stripHtml(kind) {
     return TABS[kind].map(function (t) { return '<button type="button" class="hs-tab" data-hs="' + t[0] + '" role="tab">' + t[1] + '</button>'; }).join('') +
-      (kind === 'study' ? '' : '<button type="button" class="hs-search" data-search aria-label="Search the Gospels">' + ICON.search + '</button>');
+      (kind === 'study' ? '' : '<button type="button" class="hs-search" data-search aria-label="Search the New Testament">' + ICON.search + '</button>');
   }
   function buildStrips() {
     [['study', STUDY], ['visualize', VISUAL]].forEach(function (g) {
@@ -691,6 +691,7 @@
     render: render,
     renderCust: renderCust,
     readQuick: readQuick,
+    verse: verseText,
     notePar: function (id) { if (!id) return; load().par = id; save(); },
     startScreen: function () { return load().open === 'left' ? 'read' : 'home'; },
     sync: function () { var n = null; try { n = currentScreen; } catch (e) {} if (n) paintStrips(n); },

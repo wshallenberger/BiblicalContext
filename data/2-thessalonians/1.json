@@ -1,0 +1,202 @@
+{
+ "book": "2 Thessalonians",
+ "chapter": 1,
+ "title": "Thanks and a Promise of Justice",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Paul, Silvanus, and Timothy, To the church of the Thessalonians in God our Father and the Lord Jesus Christ:"
+  },
+  {
+   "num": 2,
+   "text": "Grace and peace to you from God our Father and the Lord Jesus Christ."
+  },
+  {
+   "num": 3,
+   "text": "We are obligated to thank God for you all the time, brothers, as is fitting, because your faith is growing more and more, and your love for one another is increasing."
+  },
+  {
+   "num": 4,
+   "text": "That is why we boast among God's churches about your perseverance and faith in the face of all the persecution and affliction you are enduring."
+  },
+  {
+   "num": 5,
+   "text": "All this is clear evidence of God's righteous judgment. And so you will be counted worthy of the kingdom of God, for which you are suffering."
+  },
+  {
+   "num": 6,
+   "text": "After all, it is only right for God to repay with affliction those who afflict you,"
+  },
+  {
+   "num": 7,
+   "text": "and to grant relief to you who are oppressed and to us as well. This will take place when the Lord Jesus is revealed from heaven with His mighty angels"
+  },
+  {
+   "num": 8,
+   "text": "in blazing fire, inflicting vengeance on those who do not know God and do not obey the gospel of our Lord Jesus."
+  },
+  {
+   "num": 9,
+   "text": "They will suffer the penalty of eternal destruction, separated from the presence of the Lord and the glory of His might,"
+  },
+  {
+   "num": 10,
+   "text": "on the day He comes to be glorified in His saints and regarded with wonder by all who have believed, including you who have believed our testimony."
+  },
+  {
+   "num": 11,
+   "text": "To this end, we always pray for you, that our God will count you worthy of His calling, and that He will powerfully fulfill your every good desire and work of faith,"
+  },
+  {
+   "num": 12,
+   "text": "so that the name of our Lord Jesus will be glorified in you, and you in Him, according to the grace of our God and of the Lord Jesus Christ."
+  }
+ ],
+ "context": {
+  "author": "Paul, with Silas and Timothy (1:1)",
+  "genre": "Letter of encouragement and correction",
+  "audience": "The church in Thessalonica",
+  "mapLabel": "THESSALONICA, A CHURCH UNDER PRESSURE",
+  "setting": "Paul gives thanks that the Thessalonians’ faith is growing and their love increasing, even as they endure persecution. He tells them that God is just, and will give relief to the afflicted and repay those who afflict them when the Lord Jesus is revealed from heaven.",
+  "custom": "Persecution in a Roman city often came through social pressure and informal harassment by neighbors. Paul says their endurance is a sign of God’s coming justice and that the persecution is evidence that they are worthy of the kingdom.",
+  "timelineImmediate": "Chapter 2 deals with the false report about the day of the Lord.",
+  "timelineBible": "The picture of the Lord coming “in flaming fire” (v.7) echoes Isaiah 66:15 and Exodus 3. “Away from the presence of the Lord” (v.9) is Isaiah 2:10, 19, 21.",
+  "sparkNotes": "Paul thanks God that their faith is growing abundantly. Their steadfastness shows they are counted worthy of the kingdom. God will repay with affliction those who afflict them and give rest to the afflicted when Jesus is revealed from heaven with his angels. Paul prays that God will make them worthy of his calling and fulfill every good resolve.",
+  "translation": [
+   {
+    "english": "worthy",
+    "greek": "ἀξιώσῃ (axiōsē)",
+    "verseRef": "v.5, 11",
+    "meaning": "To consider fit or deserving. Paul prays that God will count them worthy.",
+    "gloss": "Consider fit"
+   },
+   {
+    "english": "relief",
+    "greek": "ἄνεσιν (anesin)",
+    "verseRef": "v.7",
+    "meaning": "Loosening, as releasing a tight rope.",
+    "gloss": "Loosening"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 66:15",
+    "note": "The Lord comes in fire."
+   },
+   {
+    "ref": "Isaiah 2:10",
+    "note": "Hide from the terror of the Lord."
+   },
+   {
+    "ref": "Psalm 89:7",
+    "note": "God is feared in the council of the holy ones."
+   }
+  ],
+  "mapCoords": {
+   "lat": 40.6401,
+   "lng": 22.9444,
+   "zoom": 8,
+   "placeName": "Thessalonica"
+  },
+  "overview": {
+   "summary": "Paul thanks God for the church’s growing faith in persecution and promises that Christ’s return will bring justice and rest.",
+   "settingLine": "Paul writes again to Thessalonica.",
+   "placeName": "Thessalonica",
+   "history": [
+    {
+     "h": "Continued Pressure",
+     "t": "Paul praises their endurance in “all your persecutions and afflictions” (1:4). The pressure that began in Acts 17 had not ended, and the letter does not say who was applying it."
+    },
+    {
+     "h": "God Sets Things Right",
+     "t": "Paul says it is just for God to repay affliction to those who afflict them and to give relief to those who suffer (1:6-7). The wording of 1:8-9 echoes Isaiah (66:15; 2:10, 19)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Relief",
+     "t": "The Greek word translated “rest” in 1:7 (anesis) means relief or easing. Paul uses it of relief from trouble in 2 Corinthians 2:13, 7:5 and 8:13."
+    },
+    {
+     "h": "Worthy",
+     "t": "In 1:5 the believers are “considered worthy of the kingdom of God,” and in 1:11 Paul prays that God would count them worthy of His calling. He ties it all to the grace of our God and the Lord Jesus (1:12)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Thessalonica’s Harbor",
+     "t": "Thessalonica lay at the head of the Thermaic Gulf and had a harbor as well as the Via Egnatia, which made it a major trading city. Remains of the Roman harbor lie under the modern city, near Frangon Street."
+    },
+    {
+     "h": "Inscriptions of Thessalonica",
+     "t": "Many Greek and Latin inscriptions survive from Thessalonica, among them decrees, tomb inscriptions and the lists of politarchs. They show a city with civic offices, associations and many cults. Many date after Paul."
+    }
+   ],
+   "discussion": "Paul trusts God to set things right in the end. What injustice in my life or the world do I need to entrust to God rather than carry myself?",
+   "book": "The second letter to the Thessalonians · 3 chapters. A short follow-up with correction about the day of the Lord.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Thessalonica",
+   "refNotes": {
+    "Isaiah 66:15": "The Lord in fire",
+    "Isaiah 2:10": "From the presence of the Lord",
+    "Psalm 89:7": "Feared among the holy ones"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul, Silas, and Timothy",
+     "d": "Senders"
+    },
+    {
+     "n": "The Thessalonians",
+     "d": "Endure persecution"
+    },
+    {
+     "n": "The Lord Jesus",
+     "d": "Revealed from heaven"
+    },
+    {
+     "n": "The Afflicters",
+     "d": "Face justice"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Thanks"
+    },
+    {
+     "when": "v.5-10",
+     "label": "God’s justice"
+    },
+    {
+     "when": "v.11-12",
+     "label": "Prayer"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Thessalonica",
+    "lat": 40.6401,
+    "lng": 22.9444,
+    "verses": [],
+    "slug": "thessalonica"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_The_Ascension_1636_Oil_on_canvas_Alte_Pinakothek_Munich_Germany.jpg",
+   "caption": "The Ascension, by Rembrandt (1636), in the Alte Pinakothek in Munich. Second Thessalonians 1:7 says the Lord Jesus will be revealed \"from heaven with His mighty angels.\" In Acts 1:11 the angels say He will come in the same way He went.",
+   "credit": "Rembrandt (1636), Alte Pinakothek, Munich / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thessaloniki_Arch_of_Galerius_from_the_west.jpg",
+   "caption": "The Arch of Galerius, built about AD 300 across the main east-west street of Thessaloniki, on the line of the Via Egnatia. It is some 250 years later than Paul, but Amphipolis and Apollonia (Acts 17:1) lay on the same road.",
+   "credit": "Photo: Ymblanter, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

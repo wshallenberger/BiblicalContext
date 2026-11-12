@@ -1,0 +1,242 @@
+{
+ "book": "2 John",
+ "chapter": 1,
+ "title": "Truth and Love",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The elder, To the chosen lady and her children, whom I love in the truth—and not I alone, but also all who know the truth—"
+  },
+  {
+   "num": 2,
+   "text": "because of the truth that abides in us and will be with us forever:"
+  },
+  {
+   "num": 3,
+   "text": "Grace, mercy, and peace from God the Father and from Jesus Christ, the Son of the Father, will be with us in truth and love."
+  },
+  {
+   "num": 4,
+   "text": "I was overjoyed to find some of your children walking in the truth, just as the Father has commanded us."
+  },
+  {
+   "num": 5,
+   "text": "And now I urge you, dear lady—not as a new commandment to you, but one we have had from the beginning—that we love one another."
+  },
+  {
+   "num": 6,
+   "text": "And this is love, that we walk according to His commandments. This is the very commandment you have heard from the beginning, that you must walk in love."
+  },
+  {
+   "num": 7,
+   "text": "For many deceivers have gone out into the world, refusing to confess the coming of Jesus Christ in the flesh. Any such person is the deceiver and the antichrist."
+  },
+  {
+   "num": 8,
+   "text": "Watch yourselves, so that you do not lose what we have worked for, but that you may be fully rewarded."
+  },
+  {
+   "num": 9,
+   "text": "Anyone who runs ahead without remaining in the teaching of Christ does not have God. Whoever remains in His teaching has both the Father and the Son."
+  },
+  {
+   "num": 10,
+   "text": "If anyone comes to you but does not bring this teaching, do not receive him into your home or even greet him."
+  },
+  {
+   "num": 11,
+   "text": "Whoever greets such a person shares in his evil deeds."
+  },
+  {
+   "num": 12,
+   "text": "I have many things to write to you, but I would prefer not to do so with paper and ink. Instead, I hope to come and speak with you face to face, so that our joy may be complete."
+  },
+  {
+   "num": 13,
+   "text": "The children of your elect sister send you greetings."
+  }
+ ],
+ "context": {
+  "author": "The writer calls himself only “the elder” (verse 1), and 3 John opens the same way. From the late 2nd century Irenaeus quotes 2 John as the work of John, the Lord’s disciple. Papias spoke of an elder named John besides the apostle, and some scholars think this elder wrote the short letters. The date is usually put between about AD 85 and 100.",
+  "genre": "Short personal letter",
+  "audience": "The “chosen lady and her children” (verse 1), most often read as a local church and its members, with a sister church sending greetings (verse 13). The letter names no place; Ephesus and the churches of Roman Asia are the usual guess.",
+  "mapLabel": "THE ELDER TO A SISTER CHURCH",
+  "setting": "In a short note, the elder writes to “the chosen lady and her children” (verse 1), most often read as a church and its members. He is glad that some of them are walking in the truth, reminds them of the commandment to love one another, and warns them about deceivers who refuse to confess the coming of Jesus Christ in the flesh. They are not to receive such teachers into their homes.",
+  "custom": "Traveling teachers depended on the homes of believers for a meal and a bed, so to receive one was to back his work. The letter tells its readers not to receive, or even greet, a visitor who does not bring the teaching of Christ (10-11). “Paper and ink” (12) means a sheet of papyrus and a soot-and-gum ink, and the whole letter of about 245 Greek words would fit on one sheet. The opening promises that “Grace, mercy, and peace” will be with us (3), a statement in place of the usual wish.",
+  "timelineImmediate": "3 John follows, a short letter from the same elder about a church leader who would not receive the brothers he sent.",
+  "timelineBible": "The commandment to love one another is the one Jesus gave in John 13:34-35, and the writer calls it “from the beginning” as 1 John 2:7 does. Verse 7 matches 1 John 4:2-3 on the confession of Jesus Christ come in the flesh, and verse 9 is close to 1 John 2:23.",
+  "sparkNotes": "The elder, to the chosen lady and her children, whom I love in the truth. I was overjoyed to find some of your children walking in the truth. And now I urge you, dear lady, not as a new commandment but one we have had from the beginning, that we love one another. Many deceivers have gone out into the world, refusing to confess the coming of Jesus Christ in the flesh. Watch yourselves. Whoever remains in His teaching has both the Father and the Son. If anyone comes to you but does not bring this teaching, do not receive him into your home or even greet him. I hope to come and speak with you face to face.",
+  "translation": [
+   {
+    "english": "truth",
+    "greek": "ἀλήθεια (alētheia)",
+    "verseRef": "v.1-4",
+    "meaning": "What is real and reliable. Used five times in the first four verses.",
+    "gloss": "Reality"
+   },
+   {
+    "english": "lady",
+    "greek": "κυρία (kyria)",
+    "verseRef": "v.1, 5",
+    "meaning": "The feminine of “lord”: a lady or mistress. Whether it means a woman, a church or a name is argued.",
+    "gloss": "Mistress"
+   },
+   {
+    "english": "teaching",
+    "greek": "διδαχή (didachē)",
+    "verseRef": "v.9-10",
+    "meaning": "Teaching, either the act of teaching or what is taught. “The teaching of Christ” can mean what Christ taught or what is taught about him.",
+    "gloss": "Instruction"
+   },
+   {
+    "english": "deceiver",
+    "greek": "πλάνος (planos)",
+    "verseRef": "v.7",
+    "meaning": "One who leads astray, from the word for wandering.",
+    "gloss": "Wanderer"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Leviticus 19:18",
+    "note": "Love your neighbor."
+   },
+   {
+    "ref": "Psalm 86:11",
+    "note": "Teach me your way, that I may walk in your truth."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "John rejoices in those who walk in truth, calls them to love one another, and warns against welcoming teachers who deny that Jesus came in the flesh.",
+   "settingLine": "A letter to a sister church.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "The Elder",
+     "t": "The letter names its writer only as “the elder” (1). Irenaeus, about AD 180, quotes verses 7-8 and 10-11 as the words of John, the Lord’s disciple. Eusebius reports that Papias asked travelers about the elder John as well as the apostle John, and some scholars think the elder wrote 2 and 3 John, while others hold that the apostle called himself an elder as an old man. The question is not settled."
+    },
+    {
+     "h": "Deceivers Gone Out",
+     "t": "Verse 7 speaks of many deceivers who have gone out into the world and who refuse to confess the coming of Jesus Christ in the flesh. The letter does not name them. Many readers link them with the teachers who left in 1 John 2:19. Polycarp of Smyrna uses the same test in his letter to the Philippians, and Irenaeus quotes the verse against teachers who separated the man Jesus from the Christ."
+    },
+    {
+     "h": "A Letter Slow to Spread",
+     "t": "Eusebius, about AD 325, put 1 John among the books accepted everywhere and 2 and 3 John among the disputed ones, because he was unsure whether they came from the evangelist or from another John. The early Syriac Bible, the Peshitta, left them out and added them later. Athanasius’s Easter letter of AD 367 names all seven General Letters, and Codex Sinaiticus and Codex Vaticanus both carry 2 John."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Receiving a Guest",
+     "t": "Early Christian teachers moved from church to church. The Didache, a church manual, says to welcome a visitor who comes in the Lord’s name, to let him stay a day or two, and to treat one who stays on or asks for money as a false prophet (11-12). 2 John sets a different limit: what the visitor teaches about Jesus Christ. To receive a teacher meant to lodge and back him, and the word for “shares” in verse 11 is the language of partnership."
+    },
+    {
+     "h": "The Greeting",
+     "t": "In verse 3 the usual wish becomes a promise: grace, mercy and peace “will be with us.” The word the BSB gives as “greet” in verses 10-11 is the Greek chairein, which also means “rejoice” and was the common word of greeting in a letter. To offer it to a false teacher was to wish him well."
+    },
+    {
+     "h": "Paper and Ink",
+     "t": "The writer would prefer not to write with “paper and ink” but to speak face to face (12). The Greek says “mouth to mouth.” A letter was carried by a trusted friend, who could add the news and answer questions, which is one reason a writer might prefer a visit. 3 John 13 has almost the same words, with “pen” for “paper.”"
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "2 John in Codex Sinaiticus",
+     "t": "Codex Sinaiticus, a Greek Bible copied in the 4th century AD, carries 2 John, 3 John and Jude after 1 John. The page shown has 1 John 5:5-21 and 2 John 1:1-7. It is one of the two oldest nearly complete Bibles, so 2 John was read as Scripture in the years when Eusebius still called it disputed."
+    },
+    {
+     "h": "A Private Letter on Papyrus",
+     "t": "Letters of ordinary people survive on papyrus from Oxyrhynchus in Egypt. The private letter of the 2nd century on this page has a greeting, a message and a farewell, much as 2 John has a greeting (1-3), a request (5), a warning (7-11) and greetings at the close (13). A note of about 245 Greek words would fit on one sheet."
+    },
+    {
+     "h": "The Terrace Houses at Ephesus",
+     "t": "The Terrace Houses on the hillside at Ephesus are wealthy Roman homes with courtyards, mosaics and painted walls. They show the kind of house in which a group could gather and a traveler could be lodged. The letter does not say that the lady’s house was grand, and no house at Ephesus is known to have held a church."
+    }
+   ],
+   "discussion": "John wants his readers to be loving and discerning. Where do I need to be more discerning, and where more welcoming?",
+   "book": "The second letter of John · 1 chapter. A brief letter on truth, love, and hospitality.",
+   "author": "The elder (John, by early tradition)",
+   "genre": "Short letter",
+   "audience": "A church and its members",
+   "refNotes": {
+    "Leviticus 19:18": "Love your neighbor",
+    "Psalm 86:11": "Walk in your truth"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The elder who writes 2 John",
+     "d": "Gives no other name"
+    },
+    {
+     "n": "The chosen lady and her children",
+     "d": "The readers"
+    },
+    {
+     "n": "The children of the chosen sister",
+     "d": "Send greetings"
+    },
+    {
+     "n": "The deceivers of 2 John",
+     "d": "Refuse to confess Jesus Christ in the flesh"
+    },
+    {
+     "n": "Traveling teachers and their hosts",
+     "d": "Received or refused"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Greeting"
+    },
+    {
+     "when": "v.4-6",
+     "label": "Truth and love"
+    },
+    {
+     "when": "v.7-11",
+     "label": "Deceivers"
+    },
+    {
+     "when": "v.12-13",
+     "label": "Closing"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/End_of_1_John_and_beginning_of_2_John_in_Sinaiticus.jpg",
+   "caption": "A page of Codex Sinaiticus, a Greek Bible copied in the 4th century AD, with the end of 1 John (5:5-21) and the first seven verses of 2 John. Sinaiticus places 2 John, 3 John and Jude after 1 John, in the years when Eusebius still listed 2 and 3 John among the disputed books.",
+   "credit": "VistaSunset, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ephesus_-_Terrace_Houses.jpg",
+   "caption": "The Terrace Houses on the hillside at Ephesus, a group of wealthy Roman homes with mosaics and painted walls. They show the kind of household, with family, servants and slaves, that Ephesians 5:21-6:9 speaks to.",
+   "credit": "Bernard Gagnon, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

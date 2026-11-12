@@ -1,0 +1,264 @@
+{
+  "book": "Acts",
+  "chapter": 24,
+  "title": "Paul Before Felix",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Five days later the high priest Ananias came down with some elders and a lawyer named Tertullus, who presented to the governor their case against Paul."
+    },
+    {
+      "num": 2,
+      "text": "When Paul had been called in, Tertullus opened the prosecution: \"Because of you, we have enjoyed a lasting peace, and your foresight has brought improvements to this nation."
+    },
+    {
+      "num": 3,
+      "text": "In every way and everywhere, most excellent Felix, we acknowledge this with all gratitude."
+    },
+    {
+      "num": 4,
+      "text": "But in order not to burden you any further, I beg your indulgence to hear us briefly."
+    },
+    {
+      "num": 5,
+      "text": "We have found this man to be a pestilence, stirring up dissension among the Jews all over the world. He is a ringleader of the sect of the Nazarenes,"
+    },
+    {
+      "num": 6,
+      "text": "and he even tried to desecrate the temple; so we seized him."
+    },
+    {
+      "num": 8,
+      "text": "By examining him yourself, you will be able to learn the truth about all our charges against him.\""
+    },
+    {
+      "num": 9,
+      "text": "The Jews concurred, asserting that these charges were true."
+    },
+    {
+      "num": 10,
+      "text": "When the governor motioned for Paul to speak, he began his response: \"Knowing that you have been a judge over this nation for many years, I gladly make my defense."
+    },
+    {
+      "num": 11,
+      "text": "You can verify for yourself that no more than twelve days ago I went up to Jerusalem to worship."
+    },
+    {
+      "num": 12,
+      "text": "Yet my accusers did not find me debating with anyone in the temple or riling up a crowd in the synagogues or in the city."
+    },
+    {
+      "num": 13,
+      "text": "Nor can they prove to you any of their charges against me."
+    },
+    {
+      "num": 14,
+      "text": "I do confess to you, however, that I worship the God of our fathers according to the Way, which they call a sect. I believe everything that is laid down by the Law and written in the Prophets,"
+    },
+    {
+      "num": 15,
+      "text": "and I have the same hope in God that they themselves cherish, that there will be a resurrection of both the righteous and the wicked."
+    },
+    {
+      "num": 16,
+      "text": "In this hope, I strive always to maintain a clear conscience before God and man."
+    },
+    {
+      "num": 17,
+      "text": "After several years, then, I returned to Jerusalem to bring alms to my people and to present offerings."
+    },
+    {
+      "num": 18,
+      "text": "At the time they found me in the temple, I was ceremonially clean and was not inciting a crowd or an uproar. But there are some Jews from the province of Asia"
+    },
+    {
+      "num": 19,
+      "text": "who ought to appear before you and bring charges, if they have anything against me."
+    },
+    {
+      "num": 20,
+      "text": "Otherwise, let these men state for themselves any crime they found in me when I stood before the Sanhedrin,"
+    },
+    {
+      "num": 21,
+      "text": "unless it was this one thing I called out as I stood in their presence: 'It is concerning the resurrection of the dead that I am on trial before you today.'\""
+    },
+    {
+      "num": 22,
+      "text": "Then Felix, who was well informed about the Way, adjourned the hearing and said, \"When Lysias the commander comes, I will decide your case.\""
+    },
+    {
+      "num": 23,
+      "text": "He ordered the centurion to keep Paul under guard, but to allow him some freedom and permit his friends to minister to his needs."
+    },
+    {
+      "num": 24,
+      "text": "After several days, Felix returned with his wife Drusilla, who was a Jewess. He sent for Paul and listened to him speak about faith in Christ Jesus."
+    },
+    {
+      "num": 25,
+      "text": "As Paul expounded on righteousness, self-control, and the coming judgment, Felix became frightened and said, \"You may go for now. When I find the time, I will call for you.\""
+    },
+    {
+      "num": 26,
+      "text": "At the same time, he was hoping that Paul would offer him a bribe. So he sent for Paul frequently and talked with him."
+    },
+    {
+      "num": 27,
+      "text": "After two years had passed, Felix was succeeded by Porcius Festus. And wishing to do the Jews a favor, Felix left Paul in prison."
+    }
+  ],
+  "context": {
+    "author": "Traditionally Luke, the physician and traveling companion of Paul",
+    "genre": "Historical narrative — the early church's story, with speeches and eyewitness travel reports",
+    "audience": "Theophilus, and through him a Greek-speaking readership of Jews and Gentiles",
+    "mapLabel": "CAESAREA",
+    "setting": "Five days later the high priest Ananias arrives in Caesarea with elders and a lawyer named Tertullus to accuse Paul before Felix. Paul answers the charges point by point. Felix, who knows something about the Way, puts off a decision. Later he and his wife Drusilla listen to Paul speak about faith in Christ, and he becomes alarmed. Felix keeps Paul in custody for two years hoping for a bribe, until Festus replaces him.",
+    "custom": "Tertullus opens with flattery, as was usual in Roman courts. Felix was a freed slave who rose to be governor of Judea (AD 52-59), and Tacitus describes him as cruel and greedy. Drusilla, his wife, was Jewish, the daughter of Herod Agrippa I. Paul calls the Way what they call a \"sect\" and says he worships the God of his ancestors.",
+    "timelineImmediate": "Paul remains in Herod's praetorium in Caesarea for two years. His appeal to Caesar before Festus (chapter 25) breaks the deadlock.",
+    "timelineBible": "Paul says he believes everything in the Law and the Prophets, including the hope in Daniel 12:2 that \"there will be a resurrection of both the righteous and the wicked\" (v.15). His talk with Felix about righteousness, self-control, and the coming judgment fits Ecclesiastes 12:14.",
+    "sparkNotes": "Tertullus charges Paul with stirring up trouble and profaning the Temple. Paul answers that he has done nothing wrong and is on trial for the resurrection. Felix delays. He and Drusilla hear Paul speak about justice and self-control, and Felix grows frightened and sends him away, hoping for a bribe.",
+    "translation": [
+      {
+        "english": "self-control",
+        "greek": "ἐγκρατείας (enkrateias)",
+        "verseRef": "v.25",
+        "meaning": "Mastery over desires. Paul lists it among the fruit of the Spirit in Galatians 5:23, and Felix had very little of it.",
+        "gloss": "Self-mastery"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Daniel 12:2",
+        "note": "A resurrection of the righteous and the wicked."
+      },
+      {
+        "ref": "Ecclesiastes 12:14",
+        "note": "God will bring every deed into judgment."
+      }
+    ],
+    "mapCoords": {
+      "lat": 32.5,
+      "lng": 34.8917,
+      "zoom": 10,
+      "placeName": "Caesarea"
+    },
+    "overview": {
+      "summary": "Paul defends himself before Governor Felix in Caesarea. Felix delays the case for two years, hoping Paul will pay him.",
+      "settingLine": "The Roman capital of Judea.",
+      "placeName": "Caesarea",
+      "history": [
+        {
+          "h": "Governor Felix",
+          "t": "A freed slave who ruled Judea AD 52-59 with a heavy hand."
+        },
+        {
+          "h": "The Way",
+          "t": "A name Jews used for the new movement, which Paul accepts."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Flattery in Court",
+          "t": "Orators praised the judge before making their case."
+        },
+        {
+          "h": "Light Custody",
+          "t": "Paul could receive visits from friends while being held."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Herod's Praetorium",
+          "t": "The palace on Caesarea's shore later became the Roman governor's residence."
+        },
+        {
+          "h": "Caesarea Hippodrome",
+          "t": "A Roman chariot track on the shore is still visible."
+        }
+      ],
+      "discussion": "Felix heard the truth and felt alarmed but said, \"Go away for now.\" What do we put off even when we know we should respond?",
+      "book": "The book of Acts · 28 chapters. The story of how the good news about Jesus spread from Jerusalem to Rome.",
+      "author": "Luke",
+      "genre": "History and narrative",
+      "audience": "Theophilus and the church",
+      "refNotes": {
+        "Daniel 12:2": "Resurrection of both",
+        "Ecclesiastes 12:14": "Every deed judged"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Defends himself"
+        },
+        {
+          "n": "Felix",
+          "d": "Governor"
+        },
+        {
+          "n": "Drusilla",
+          "d": "Felix's wife"
+        },
+        {
+          "n": "Tertullus",
+          "d": "Prosecutor"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Day 5",
+          "label": "Accusers arrive"
+        },
+        {
+          "when": "Hearing",
+          "label": "Paul answers"
+        },
+        {
+          "when": "Felix",
+          "label": "Delays"
+        },
+        {
+          "when": "Two years",
+          "label": "In custody"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Caesarea",
+        "lat": 32.5,
+        "lng": 34.8917,
+        "verses": [
+          1,
+          4,
+          23,
+          27
+        ],
+        "slug": "caesarea"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          11
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hogarth_-_Paul_Before_Felix,_1747-1751.jpg",
+      "caption": "Paul Before Felix, by William Hogarth (1747-51).",
+      "credit": "William Hogarth (1747-51) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesarea_harbor_from_above_%D7%A0%D7%9E%D7%9C_%D7%A7%D7%99%D7%A1%D7%A8%D7%99%D7%94_%D7%91%D7%9E%D7%91%D7%98_%D7%A2%D7%9C.jpg",
+      "caption": "Remains of Herod's harbor at Caesarea Maritima, the port Paul used on several journeys (Acts 9:30, 18:22, 27:1).",
+      "credit": "Photo: Ron Gafni, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

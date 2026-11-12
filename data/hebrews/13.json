@@ -1,0 +1,269 @@
+{
+ "book": "Hebrews",
+ "chapter": 13,
+ "title": "Final Exhortations",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Continue in brotherly love."
+  },
+  {
+   "num": 2,
+   "text": "Do not neglect to show hospitality to strangers, for by so doing some people have entertained angels without knowing it."
+  },
+  {
+   "num": 3,
+   "text": "Remember those in prison as if you were bound with them, and those who are mistreated as if you were suffering with them."
+  },
+  {
+   "num": 4,
+   "text": "Marriage should be honored by all and the marriage bed kept undefiled, for God will judge the sexually immoral and adulterers."
+  },
+  {
+   "num": 5,
+   "text": "Keep your lives free from the love of money and be content with what you have, for God has said: \"Never will I leave you, never will I forsake you.\""
+  },
+  {
+   "num": 6,
+   "text": "So we say with confidence: \"The Lord is my helper; I will not be afraid. What can man do to me?\""
+  },
+  {
+   "num": 7,
+   "text": "Remember your leaders who spoke the word of God to you. Consider the outcome of their way of life and imitate their faith."
+  },
+  {
+   "num": 8,
+   "text": "Jesus Christ is the same yesterday and today and forever."
+  },
+  {
+   "num": 9,
+   "text": "Do not be carried away by all kinds of strange teachings, for it is good for the heart to be strengthened by grace and not by foods of no value to those devoted to them."
+  },
+  {
+   "num": 10,
+   "text": "We have an altar from which those who serve at the tabernacle have no right to eat."
+  },
+  {
+   "num": 11,
+   "text": "Although the high priest brings the blood of animals into the Holy Place as a sacrifice for sin, the bodies are burned outside the camp."
+  },
+  {
+   "num": 12,
+   "text": "And so Jesus also suffered outside the city gate, to sanctify the people by His own blood."
+  },
+  {
+   "num": 13,
+   "text": "Therefore let us go to Him outside the camp, bearing the disgrace He bore."
+  },
+  {
+   "num": 14,
+   "text": "For here we do not have a permanent city, but we are looking for the city that is to come."
+  },
+  {
+   "num": 15,
+   "text": "Through Jesus, therefore, let us continually offer to God a sacrifice of praise, the fruit of lips that confess His name."
+  },
+  {
+   "num": 16,
+   "text": "And do not neglect to do good and to share with others, for with such sacrifices God is pleased."
+  },
+  {
+   "num": 17,
+   "text": "Obey your leaders and submit to them, for they watch over your souls as those who must give an account. To this end, allow them to lead with joy and not with grief, for that would be of no advantage to you."
+  },
+  {
+   "num": 18,
+   "text": "Pray for us; we are convinced that we have a clear conscience and desire to live honorably in every way."
+  },
+  {
+   "num": 19,
+   "text": "And I especially urge you to pray that I may be restored to you soon."
+  },
+  {
+   "num": 20,
+   "text": "Now may the God of peace, who through the blood of the eternal covenant brought back from the dead our Lord Jesus, that great Shepherd of the sheep,"
+  },
+  {
+   "num": 21,
+   "text": "equip you with every good thing to do His will. And may He accomplish in us what is pleasing in His sight through Jesus Christ, to whom be glory forever and ever. Amen."
+  },
+  {
+   "num": 22,
+   "text": "I urge you, brothers, to bear with my word of exhortation, for I have only written to you briefly."
+  },
+  {
+   "num": 23,
+   "text": "Be aware that our brother Timothy has been released. If he arrives soon, I will come with him to see you."
+  },
+  {
+   "num": 24,
+   "text": "Greet all your leaders and all the saints. Those from Italy send you greetings."
+  },
+  {
+   "num": 25,
+   "text": "Grace be with all of you."
+  }
+ ],
+ "context": {
+  "author": "Unknown. The letter does not name its author. Paul, Barnabas, Apollos, and others have been suggested.",
+  "genre": "A sermon in letter form, rich with Old Testament quotations",
+  "audience": "Jewish Christians tempted to go back to old patterns under pressure",
+  "mapLabel": "ITALY AND THE CHURCHES, CLOSING WORDS",
+  "setting": "The writer gives a series of short commands: love the brothers, show hospitality, remember prisoners, honor marriage, keep life free from the love of money, remember leaders, and do not be led away by strange teachings. Jesus Christ is the same yesterday and today and forever. The letter ends with a prayer, a request, news of Timothy, and a greeting.",
+  "custom": "\"Outside the camp\" (13:11-13) refers to the sin offering burned outside the camp on the Day of Atonement (Leviticus 16:27). Jesus suffered outside the city gate, so believers are to go out to him, bearing his reproach. Some have \"entertained angels without knowing it\" (13:2).",
+  "timelineImmediate": "The letter ends with a prayer, a request to bear the word of exhortation, news of Timothy and greetings.",
+  "timelineBible": "\"Never will I leave you, never will I forsake you\" (v.5) quotes Deuteronomy 31:6 and Joshua 1:5. \"The Lord is my helper\" (v.6) quotes Psalm 118:6. \"Great shepherd of the sheep\" (v.20) echoes Isaiah 63:11.",
+  "sparkNotes": "Let brotherly love continue. Do not neglect to show hospitality, for some have entertained angels unawares. Remember those in prison and those mistreated. Let marriage be held in honor. Keep your life free from love of money and be content, for God has said, “Never will I leave you.” Remember your leaders. Jesus Christ is the same yesterday and today and forever. Let us go to him outside the camp, bearing the reproach he endured. Through him let us continually offer a sacrifice of praise.",
+  "translation": [
+   {
+    "english": "hospitality",
+    "greek": "φιλοξενίας (philoxenias)",
+    "verseRef": "v.2",
+    "meaning": "Love of strangers.",
+    "gloss": "Love for strangers"
+   },
+   {
+    "english": "same",
+    "greek": "ὁ αὐτός (ho autos)",
+    "verseRef": "v.8",
+    "meaning": "Unchanging. In a time of drifting, Christ is the fixed point.",
+    "gloss": "Unchanging"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 31:6",
+    "note": "Quoted in 13:5: \"Never will I leave you, never will I forsake you.\""
+   },
+   {
+    "ref": "Psalm 118:6",
+    "note": "Quoted in 13:6: \"The Lord is my helper; I will not be afraid.\""
+   },
+   {
+    "ref": "Leviticus 16:27",
+    "note": "The sin offering is burned outside the camp."
+   }
+  ],
+  "mapCoords": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "zoom": 6,
+   "placeName": "Rome"
+  },
+  "overview": {
+   "summary": "The letter closes with practical commands: love, hospitality, contentment, and remembering leaders. Jesus Christ is the same forever, and believers go to him outside the camp.",
+   "settingLine": "Greetings from Italy.",
+   "placeName": "Rome",
+   "history": [
+    {
+     "h": "Timothy",
+     "t": "Timothy has been released (13:23). The letter does not say which Timothy this is. If it is Paul's coworker, the writer belonged to his circle, which would fit the letter's language and thought."
+    },
+    {
+     "h": "Italy",
+     "t": "The phrase \"those from Italy send you greetings\" (13:24) can mean Italians who are with the writer away from Italy, or believers in Italy. So it does not settle where the letter was sent from or to."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Hospitality",
+     "t": "Roadside inns had a bad name, so travelers, including teachers and the helpers of apostles, depended on private homes. Some have \"entertained angels without knowing it\" (13:2), as Abraham did at Mamre (Genesis 18) and Lot at Sodom (Genesis 19)."
+    },
+    {
+     "h": "Sacrifice of Praise",
+     "t": "The writer says worship takes the place of animal sacrifice: the fruit of lips that give thanks to his name, doing good, and sharing (13:15-16)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Roman Inns",
+     "t": "Roadside inns at places such as Pompeii and Ostia had small rooms, shared dining areas and a rough reputation. This explains why believers were urged to take travelers into their homes."
+    },
+    {
+     "h": "The Site of Golgotha",
+     "t": "The Church of the Holy Sepulchre stands on the place that Christian tradition since the 4th century has marked as Golgotha and the tomb. In the time of Jesus this ground lay outside the city wall, which fits Hebrews 13:12."
+    }
+   ],
+   "discussion": "The writer says to remember those in prison as if you were in prison with them. Who is on the margins that I can remember and serve?",
+   "book": "The letter to the Hebrews · 13 chapters. A polished sermon showing that Jesus fulfills and surpasses the old covenant.",
+   "author": "Unknown",
+   "genre": "Sermon-letter",
+   "audience": "Jewish Christians under pressure",
+   "refNotes": {
+    "Deuteronomy 31:6": "Never forsake",
+    "Psalm 118:6": "The Lord is my helper",
+    "Leviticus 16:27": "Outside the camp"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Leaders",
+     "d": "Remember them"
+    },
+    {
+     "n": "Timothy",
+     "d": "Released"
+    },
+    {
+     "n": "Jesus Christ",
+     "d": "The same forever"
+    },
+    {
+     "n": "The Writer",
+     "d": "Asks for prayer"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Love, hospitality, contentment"
+    },
+    {
+     "when": "v.7-16",
+     "label": "Jesus the same, outside the camp"
+    },
+    {
+     "when": "v.17-19",
+     "label": "Leaders and prayer"
+    },
+    {
+     "when": "v.20-25",
+     "label": "Benediction and greetings"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [
+     24
+    ],
+    "slug": "rome"
+   },
+   {
+    "name": "Jerusalem",
+    "lat": 31.7767,
+    "lng": 35.2342,
+    "verses": [
+     12
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Florence,_Papyrological_Institute_%22G._Vitelli%22_Ms_PSI_XV_1497_-_PSI_inv._2176_(Papyrus_126)_recto_Heb_13,_12-13.jpg",
+   "caption": "Papyrus 126, a small 4th-century fragment now in Florence, with Hebrews 13:12-13: Jesus suffered outside the gate, so let us go out to him outside the camp, bearing his reproach.",
+   "credit": "Unknown scribe (4th century), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golgotha_(Church_of_the_Holy_Sepulchre).jpg",
+   "caption": "The traditional site of Golgotha inside the Church of the Holy Sepulchre. In the time of Jesus this place lay outside the city wall. Hebrews 13:12 says Jesus suffered outside the gate and calls believers to go out to him bearing his reproach.",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "book": "Ephesians",
+ "chapter": 6,
+ "title": "The Armor of God",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Children, obey your parents in the Lord, for this is right."
+  },
+  {
+   "num": 2,
+   "text": "\"Honor your father and mother\" (which is the first commandment with a promise),"
+  },
+  {
+   "num": 3,
+   "text": "\"that it may go well with you and that you may have a long life on the earth.\""
+  },
+  {
+   "num": 4,
+   "text": "Fathers, do not provoke your children to wrath; instead, bring them up in the discipline and instruction of the Lord."
+  },
+  {
+   "num": 5,
+   "text": "Slaves, obey your earthly masters with respect and fear and sincerity of heart, just as you would obey Christ."
+  },
+  {
+   "num": 6,
+   "text": "And do this not only to please them while they are watching, but as servants of Christ, doing the will of God from your heart."
+  },
+  {
+   "num": 7,
+   "text": "Serve with good will, as to the Lord and not to men,"
+  },
+  {
+   "num": 8,
+   "text": "because you know that the Lord will reward each one for whatever good he does, whether he is slave or free."
+  },
+  {
+   "num": 9,
+   "text": "And masters, do the same for your slaves. Give up your use of threats, because you know that He who is both their Master and yours is in heaven, and there is no favoritism with Him."
+  },
+  {
+   "num": 10,
+   "text": "Finally, be strong in the Lord and in His mighty power."
+  },
+  {
+   "num": 11,
+   "text": "Put on the full armor of God, so that you can make your stand against the devil's schemes."
+  },
+  {
+   "num": 12,
+   "text": "For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this world's darkness, and against the spiritual forces of evil in the heavenly realms."
+  },
+  {
+   "num": 13,
+   "text": "Therefore take up the full armor of God, so that when the day of evil comes, you will be able to stand your ground, and having done everything, to stand."
+  },
+  {
+   "num": 14,
+   "text": "Stand firm then, with the belt of truth buckled around your waist, with the breastplate of righteousness arrayed,"
+  },
+  {
+   "num": 15,
+   "text": "and with your feet fitted with the readiness of the gospel of peace."
+  },
+  {
+   "num": 16,
+   "text": "In addition to all this, take up the shield of faith, with which you can extinguish all the flaming arrows of the evil one."
+  },
+  {
+   "num": 17,
+   "text": "And take the helmet of salvation and the sword of the Spirit, which is the word of God."
+  },
+  {
+   "num": 18,
+   "text": "Pray in the Spirit at all times, with every kind of prayer and petition. To this end, stay alert with all perseverance in your prayers for all the saints."
+  },
+  {
+   "num": 19,
+   "text": "Pray also for me, that whenever I open my mouth, words may be given me so that I will boldly make known the mystery of the gospel,"
+  },
+  {
+   "num": 20,
+   "text": "for which I am an ambassador in chains. Pray that I may proclaim it fearlessly, as I should."
+  },
+  {
+   "num": 21,
+   "text": "Tychicus, the beloved brother and faithful servant in the Lord, will tell you everything, so that you also may know about me and what I am doing."
+  },
+  {
+   "num": 22,
+   "text": "I have sent him to you for this very purpose, that you may know about us, and that he may encourage your hearts."
+  },
+  {
+   "num": 23,
+   "text": "Peace to the brothers and love with faith from God the Father and the Lord Jesus Christ."
+  },
+  {
+   "num": 24,
+   "text": "Grace to all who love our Lord Jesus Christ with an undying love."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1; 3:1), though some scholars question this",
+  "genre": "Letter, part prayer and part teaching, with a very long opening sentence",
+  "audience": "Believers in Ephesus and probably nearby churches (the oldest manuscripts lack “in Ephesus” in 1:1)",
+  "mapLabel": "ROME, PAUL CHAINED TO A GUARD",
+  "setting": "Paul finishes the household instructions with children and parents, slaves and masters. Then he calls the readers to be strong in the Lord and to put on the full armor of God, describing the equipment of a Roman soldier. He asks for prayer and sends Tychicus.",
+  "custom": "Paul was chained to a Roman guard, so the soldier’s armor was before his eyes. The belt, breastplate, shoes, shield, helmet, and sword each stand for an element of faith. The large shield (thureos) could be soaked and held against flaming arrows.",
+  "timelineImmediate": "The letter ends. Tychicus carried it and also Colossians and Philemon (Col 4:7-9).",
+  "timelineBible": "Paul draws from Isaiah 11:5 and 59:17 (God dressed for war), Isaiah 52:7 (the gospel of peace), and Exodus 20:12 (honor your father and mother).",
+  "sparkNotes": "Children, obey your parents. Fathers, don’t exasperate your children. Slaves, serve your masters as to Christ, and masters, treat your slaves fairly, because there is a master in heaven. Be strong in the Lord, and put on the whole armor of God. Our struggle is not against flesh and blood but against rulers and powers. Pray at all times, and pray for me.",
+  "translation": [
+   {
+    "english": "armor",
+    "greek": "πανοπλία (panoplia)",
+    "verseRef": "v.11, 13",
+    "meaning": "The full equipment of a heavy-armed soldier. The English “panoply” comes from it.",
+    "gloss": "Full armor"
+   },
+   {
+    "english": "stand",
+    "greek": "στῆναι (stēnai)",
+    "verseRef": "v.11, 13-14",
+    "meaning": "Hold your ground. The point is to keep standing, not to charge.",
+    "gloss": "Hold position"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 59:17",
+    "note": "God puts on righteousness as a breastplate and salvation as a helmet."
+   },
+   {
+    "ref": "Isaiah 52:7",
+    "note": "The gospel of peace brought by beautiful feet."
+   },
+   {
+    "ref": "Exodus 20:12",
+    "note": "Honor your father and mother."
+   }
+  ],
+  "mapCoords": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "zoom": 6,
+   "placeName": "Rome"
+  },
+  "overview": {
+   "summary": "Paul gives rules for families and workplaces, then calls believers to put on God’s armor and stand against spiritual evil, praying at all times.",
+   "settingLine": "Paul writes in chains.",
+   "placeName": "Rome",
+   "history": [
+    {
+     "h": "Roman Soldier",
+     "t": "Acts 28:16 says a soldier guarded Paul in Rome, and Acts 28:20 mentions his chain."
+    },
+    {
+     "h": "Tychicus",
+     "t": "A trusted coworker from Asia, named as the bearer of both Ephesians and Colossians (Ephesians 6:21-22; Colossians 4:7-9)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Honor Your Parents",
+     "t": "Paul calls it \"the first commandment with a promise\" (Exodus 20:12)."
+    },
+    {
+     "h": "Slavery",
+     "t": "Perhaps a third of urban people were slaves. Paul tells masters to stop threatening them."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Roman Armor",
+     "t": "Helmets, swords, and breastplates survive from many Roman camps."
+    },
+    {
+     "h": "Large Shields",
+     "t": "The Roman legionary shield (scutum) was a large curved oblong, roughly three and a half to four feet tall."
+    }
+   ],
+   "discussion": "Paul says our battle is not against flesh and blood. Where am I tempted to fight people instead of standing against deeper forces?",
+   "book": "The letter to the Ephesians · 6 chapters. A grand view of the church as God’s new family, written from prison.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The churches around Ephesus",
+   "refNotes": {
+    "Isaiah 59:17": "God’s armor",
+    "Isaiah 52:7": "Gospel of peace",
+    "Exodus 20:12": "Honor your parents"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Chained"
+    },
+    {
+     "n": "Tychicus",
+     "d": "Carrier of the letter"
+    },
+    {
+     "n": "Believers",
+     "d": "Wear the armor"
+    },
+    {
+     "n": "The Powers",
+     "d": "The enemy"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Children and parents"
+    },
+    {
+     "when": "v.5-9",
+     "label": "Slaves and masters"
+    },
+    {
+     "when": "v.10-17",
+     "label": "The armor"
+    },
+    {
+     "when": "v.18-24",
+     "label": "Prayer and farewell"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [
+     20
+    ],
+    "slug": "rome"
+   },
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer,_Knight,_Death_and_Devil,_1513,_NGA_6637.jpg",
+   "caption": "Knight, Death and the Devil, an engraving by Albrecht Dürer (1513). Many art historians read the armored rider as a Christian soldier who keeps going in spite of fear. Paul's call to put on the full armor of God (Ephesians 6:10-18) is one of the texts behind that picture.",
+   "credit": "Albrecht Dürer (1513), National Gallery of Art, Washington / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lorica_segmentata_remains_and_recreation.jpg",
+   "caption": "Remains and a modern reconstruction of lorica segmentata, the segmented plate armor of Roman legionaries, from the Corbridge hoard in northern England. Paul lists a soldier's gear in Ephesians 6:14-17 but does not name a type of armor; plate armor like this came into use in his time.",
+   "credit": "Photo: FropFrop, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

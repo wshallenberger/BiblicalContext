@@ -1,0 +1,250 @@
+{
+  "book": "Romans",
+  "chapter": 4,
+  "title": "Abraham Believed God",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "What then shall we say that Abraham, our forefather, has discovered?"
+    },
+    {
+      "num": 2,
+      "text": "If Abraham was indeed justified by works, he had something to boast about, but not before God."
+    },
+    {
+      "num": 3,
+      "text": "For what does the Scripture say? \"Abraham believed God, and it was credited to him as righteousness.\""
+    },
+    {
+      "num": 4,
+      "text": "Now the wages of the worker are not credited as a gift, but as an obligation."
+    },
+    {
+      "num": 5,
+      "text": "However, to the one who does not work, but believes in Him who justifies the wicked, his faith is credited as righteousness."
+    },
+    {
+      "num": 6,
+      "text": "And David speaks likewise of the blessedness of the man to whom God credits righteousness apart from works:"
+    },
+    {
+      "num": 7,
+      "text": "\"Blessed are they whose lawless acts are forgiven, whose sins are covered."
+    },
+    {
+      "num": 8,
+      "text": "Blessed is the man whose sin the Lord will never count against him.\""
+    },
+    {
+      "num": 9,
+      "text": "Is this blessing only on the circumcised, or also on the uncircumcised? We have been saying that Abraham's faith was credited to him as righteousness."
+    },
+    {
+      "num": 10,
+      "text": "In what context was it credited? Was it after his circumcision, or before? It was not after, but before."
+    },
+    {
+      "num": 11,
+      "text": "And he received the sign of circumcision as a seal of the righteousness that he had by faith while he was still uncircumcised. So then, he is the father of all who believe but are not circumcised, in order that righteousness might be credited to them."
+    },
+    {
+      "num": 12,
+      "text": "And he is also the father of the circumcised who not only are circumcised, but who also walk in the footsteps of the faith that our father Abraham had before he was circumcised."
+    },
+    {
+      "num": 13,
+      "text": "For the promise to Abraham and his offspring that he would be heir of the world was not given through the law, but through the righteousness that comes by faith."
+    },
+    {
+      "num": 14,
+      "text": "For if those who live by the law are heirs, faith is useless and the promise is worthless,"
+    },
+    {
+      "num": 15,
+      "text": "because the law brings wrath. And where there is no law, there is no transgression."
+    },
+    {
+      "num": 16,
+      "text": "Therefore, the promise comes by faith, so that it may rest on grace and may be guaranteed to all Abraham's offspring—not only to those who are of the law, but also to those who are of the faith of Abraham. He is the father of us all."
+    },
+    {
+      "num": 17,
+      "text": "As it is written: \"I have made you a father of many nations.\" He is our father in the presence of God, in whom he believed, the God who gives life to the dead and calls into being what does not yet exist."
+    },
+    {
+      "num": 18,
+      "text": "Against all hope, Abraham in hope believed and so became the father of many nations, just as he had been told, \"So shall your offspring be.\""
+    },
+    {
+      "num": 19,
+      "text": "Without weakening in his faith, he acknowledged the decrepitness of his body (since he was about a hundred years old) and the lifelessness of Sarah's womb."
+    },
+    {
+      "num": 20,
+      "text": "Yet he did not waver through disbelief in the promise of God, but was strengthened in his faith and gave glory to God,"
+    },
+    {
+      "num": 21,
+      "text": "being fully persuaded that God was able to do what He had promised."
+    },
+    {
+      "num": 22,
+      "text": "This is why \"it was credited to him as righteousness.\""
+    },
+    {
+      "num": 23,
+      "text": "Now the words \"it was credited to him\" were written not only for Abraham,"
+    },
+    {
+      "num": 24,
+      "text": "but also for us, to whom righteousness will be credited—for us who believe in Him who raised Jesus our Lord from the dead."
+    },
+    {
+      "num": 25,
+      "text": "He was delivered over to death for our trespasses and was raised to life for our justification."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, WITH ABRAHAM AS THE EXAMPLE",
+    "setting": "Paul now proves from Scripture that being right with God by faith is not a new idea. He turns to Abraham, the founding father of the Jews, and shows that Abraham was counted righteous before he was circumcised, so he is the father of all who believe, Jew or Gentile.",
+    "custom": "Jews of Paul’s day often described Abraham as being justified because he kept the law before it was given or because of his faithful testing. Paul argues the opposite, from Genesis 15:6, that Abraham simply believed. The idea of being “credited” (v.3) comes from accounting.",
+    "timelineImmediate": "Chapter 5 gives the results of faith. Paul will return to Abraham in Galatians 3, and Hebrews 11 and James 2 also discuss him.",
+    "timelineBible": "Genesis 15:6 (“Abraham believed God, and it was credited to him as righteousness”) is the key text. David’s Psalm 32:1-2 describes the blessing of forgiveness without works. Verse 17 quotes Genesis 17:5.",
+    "sparkNotes": "Paul says Abraham was counted righteous because he believed God, not because of work or circumcision. David also describes the blessing of being forgiven. Abraham trusted God’s promise of a son even when his body was as good as dead, and the same faith is asked of those who believe in the God who raised Jesus.",
+    "translation": [
+      {
+        "english": "credited",
+        "greek": "ἐλογίσθη (elogisthē)",
+        "verseRef": "v.3, 5",
+        "meaning": "Used eleven times in this chapter. It means to reckon or put to someone’s account. God puts righteousness on the account of the one who trusts him.",
+        "gloss": "Counted to him"
+      },
+      {
+        "english": "faith",
+        "greek": "πίστις (pistis)",
+        "verseRef": "v.5",
+        "meaning": "Trust and reliance, not just agreement. Abraham trusted that God would do what he promised.",
+        "gloss": "Trust"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Genesis 15:6",
+        "note": "“Abraham believed the Lord, and he credited it to him as righteousness.”"
+      },
+      {
+        "ref": "Psalm 32:1-2",
+        "note": "“Blessed is the one whose sin the Lord will not count against him.”"
+      },
+      {
+        "ref": "Genesis 17:5",
+        "note": "Abraham is made “a father of many nations.”"
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "Abraham was made right with God by faith, before circumcision, so he is the father of all believers. His trust in God’s promise is the pattern for faith in the God who raised Jesus.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Abraham’s Age",
+          "t": "Abraham was about a hundred and Sarah about ninety when Isaac was born (Genesis 17:17; 21:5)."
+        },
+        {
+          "h": "Circumcision Came Later",
+          "t": "Genesis 15 comes years before Genesis 17, a timing Paul uses to make his point."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Credited",
+          "t": "An accounting word. A sum is put to someone’s account. Paul says righteousness is put to the believer’s account."
+        },
+        {
+          "h": "Father of Many Nations",
+          "t": "Abraham’s name means “father of many,” given in Genesis 17:5."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Ur and Haran",
+          "t": "Excavated cities where Abraham’s family lived, now in Iraq and Turkey."
+        },
+        {
+          "h": "Mamre",
+          "t": "The oaks where Abraham camped near Hebron, the place of the promises, are a pilgrimage site today."
+        }
+      ],
+      "discussion": "Abraham trusted God’s promise when it looked impossible. What promise of God am I tempted to doubt because of how things look?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Genesis 15:6": "Believed and credited",
+        "Psalm 32:1-2": "Sins not counted",
+        "Genesis 17:5": "Father of many nations"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Abraham",
+          "d": "Father of the faithful"
+        },
+        {
+          "n": "David",
+          "d": "Speaks of forgiveness"
+        },
+        {
+          "n": "Sarah",
+          "d": "Her womb was dead"
+        },
+        {
+          "n": "Believers",
+          "d": "Abraham’s children"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-8",
+          "label": "Credited by faith"
+        },
+        {
+          "when": "v.9-12",
+          "label": "Before circumcision"
+        },
+        {
+          "when": "v.13-17",
+          "label": "Promise by faith"
+        },
+        {
+          "when": "v.18-25",
+          "label": "Hope against hope"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Stom_-_Sarah_Leading_Hagar_to_Abraham_-_WGA21803.jpg",
+      "caption": "Sarah leads Hagar to Abraham, by Matthias Stom (17th century). Paul says Abraham believed God though his own body and Sarah's womb were as good as dead (Romans 4:19).",
+      "credit": "Matthias Stom (c. 1632-39) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oak_of_Mamre_1.jpg",
+      "caption": "A tree at Mamre near Hebron that tradition calls Abraham's Oak. The tree itself is much later than Abraham; the place is where Genesis puts his camp.",
+      "credit": "Photo: Copper Kettle, CC BY-SA 2.0 / Wikimedia Commons"
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+ "book": "1 Peter",
+ "chapter": 2,
+ "title": "A Chosen People",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Rid yourselves, therefore, of all malice, deceit, hypocrisy, envy, and slander."
+  },
+  {
+   "num": 2,
+   "text": "Like newborn babies, crave pure spiritual milk, so that by it you may grow up in your salvation,"
+  },
+  {
+   "num": 3,
+   "text": "now that you have tasted that the Lord is good."
+  },
+  {
+   "num": 4,
+   "text": "As you come to Him, the living stone, rejected by men but chosen and precious in God's sight,"
+  },
+  {
+   "num": 5,
+   "text": "you also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ."
+  },
+  {
+   "num": 6,
+   "text": "For it stands in Scripture: \"See, I lay in Zion a stone, a chosen and precious cornerstone; and the one who believes in Him will never be put to shame.\""
+  },
+  {
+   "num": 7,
+   "text": "To you who believe, then, this stone is precious. But to those who do not believe, \"The stone the builders rejected has become the cornerstone,\""
+  },
+  {
+   "num": 8,
+   "text": "and, \"A stone of stumbling and a rock of offense.\" They stumble because they disobey the word—and to this they were appointed."
+  },
+  {
+   "num": 9,
+   "text": "But you are a chosen people, a royal priesthood, a holy nation, a people for God's own possession, to proclaim the virtues of Him who called you out of darkness into His marvelous light."
+  },
+  {
+   "num": 10,
+   "text": "Once you were not a people, but now you are the people of God; once you had not received mercy, but now you have received mercy."
+  },
+  {
+   "num": 11,
+   "text": "Beloved, I urge you, as foreigners and exiles, to abstain from the desires of the flesh, which war against your soul."
+  },
+  {
+   "num": 12,
+   "text": "Conduct yourselves with such honor among the Gentiles that, though they slander you as evildoers, they may see your good deeds and glorify God on the day He visits us."
+  },
+  {
+   "num": 13,
+   "text": "Submit yourselves for the Lord's sake to every human institution, whether to the king as the supreme authority,"
+  },
+  {
+   "num": 14,
+   "text": "or to governors as those sent by him to punish those who do wrong and to praise those who do right."
+  },
+  {
+   "num": 15,
+   "text": "For it is God's will that by doing good you should silence the ignorance of foolish men."
+  },
+  {
+   "num": 16,
+   "text": "Live in freedom, but do not use your freedom as a cover-up for evil; live as servants of God."
+  },
+  {
+   "num": 17,
+   "text": "Treat everyone with high regard: Love the brotherhood of believers, fear God, honor the king."
+  },
+  {
+   "num": 18,
+   "text": "Servants, submit yourselves to your masters with all respect, not only to those who are good and gentle, but even to those who are unreasonable."
+  },
+  {
+   "num": 19,
+   "text": "For if anyone endures the pain of unjust suffering because he is conscious of God, this is to be commended."
+  },
+  {
+   "num": 20,
+   "text": "How is it to your credit if you are beaten for doing wrong and you endure it? But if you suffer for doing good and you endure it, this is commendable before God."
+  },
+  {
+   "num": 21,
+   "text": "For to this you were called, because Christ also suffered for you, leaving you an example, that you should follow in His footsteps:"
+  },
+  {
+   "num": 22,
+   "text": "\"He committed no sin, and no deceit was found in His mouth.\""
+  },
+  {
+   "num": 23,
+   "text": "When they heaped abuse on Him, He did not retaliate; when He suffered, He made no threats, but entrusted Himself to Him who judges justly."
+  },
+  {
+   "num": 24,
+   "text": "He Himself bore our sins in His body on the tree, so that we might die to sin and live to righteousness. \"By His stripes you are healed.\""
+  },
+  {
+   "num": 25,
+   "text": "For \"you were like sheep going astray,\" but now you have returned to the Shepherd and Overseer of your souls."
+  }
+ ],
+ "context": {
+  "author": "Peter, an apostle of Jesus Christ (1:1). He writes with Silvanus, who may have been his secretary, the carrier of the letter, or both (5:12).",
+  "genre": "Letter of encouragement to suffering believers",
+  "audience": "Believers scattered across five Roman provinces in what is now Turkey (1:1). Verses such as 1:14, 1:18 and 4:3 suggest many were Gentiles by background, though Peter uses names once given to Israel.",
+  "mapLabel": "LIVING STONES AND A ROYAL PRIESTHOOD",
+  "setting": "Peter urges his readers to desire pure spiritual milk, and describes them as living stones being built into a spiritual house, a royal priesthood. Then he instructs them how to live as foreigners in a hostile world, submitting to authorities, and gives Christ’s example in suffering to slaves.",
+  "custom": "Honor and shame mattered everywhere in the Roman world. Household slaves (v.18) belonged to the master and could be punished at his will. Peter tells all his readers to treat everyone with high regard, and he sets Christ before the slaves, who suffered without paying back (vv.21-23).",
+  "timelineImmediate": "Chapter 3 applies the same pattern to wives and husbands.",
+  "timelineBible": "Peter quotes Isaiah 28:16, Psalm 118:22 and Isaiah 8:14 about the stone. Verse 9 gathers phrases from Exodus 19:5-6 and Isaiah 43:20-21. Verses 22-25 draw on Isaiah 53.",
+  "sparkNotes": "Long for the pure spiritual milk. Come to him, a living stone rejected by men but chosen by God, and be built up as a spiritual house, a holy priesthood. You are a chosen race, a royal priesthood, a holy nation, God’s own people. Abstain from fleshly passions. Keep your conduct honorable among the Gentiles. Be subject for the Lord’s sake to every human institution. Servants, be subject to your masters. Christ suffered for you, leaving you an example. He himself bore our sins in his body on the tree.",
+  "translation": [
+   {
+    "english": "living stones",
+    "greek": "λίθοι ζῶντες (lithoi zōntes)",
+    "verseRef": "v.5",
+    "meaning": "Stones with life in them.",
+    "gloss": "Living stones"
+   },
+   {
+    "english": "own people",
+    "greek": "λαὸς εἰς περιποίησιν (laos eis peripoiēsin)",
+    "verseRef": "v.9",
+    "meaning": "A people for possession, a treasure.",
+    "gloss": "A treasured people"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 28:16",
+    "note": "The Lord lays a tested stone in Zion, and whoever trusts will not be put to shame. Quoted in 2:6."
+   },
+   {
+    "ref": "Psalm 118:22",
+    "note": "The stone the builders rejected has become the head of the corner. Quoted in 2:7."
+   },
+   {
+    "ref": "Isaiah 53:5-9",
+    "note": "The suffering servant bears sins and does not answer abuse. Compare 2:22-25."
+   }
+  ],
+  "mapCoords": {
+   "lat": 38.5,
+   "lng": 28.0,
+   "zoom": 5,
+   "placeName": "Roman Asia"
+  },
+  "overview": {
+   "summary": "Believers are living stones and a royal priesthood. They live honorably in a hostile world, and Christ’s patient suffering is their example.",
+   "settingLine": "Peter writes from “Babylon” to believers in Asia Minor.",
+   "placeName": "Roman Asia",
+   "history": [
+    {
+     "h": "The Rejected Stone",
+     "t": "Psalm 118:22 pictures builders throwing away a stone that became the head of the corner. Jesus applied it to himself (Mark 12:10-11), and Peter used it before the rulers in Jerusalem (Acts 4:11). In this chapter Peter joins it with Isaiah 28:16 and Isaiah 8:14 (2:6-8)."
+    },
+    {
+     "h": "Household Servants",
+     "t": "The word for servants in v.18 (oiketai) means household slaves. Slavery was legal across the Roman world, and a master could punish a slave at will. Peter speaks to the slaves directly and sets Christ before them as an example (2:21-25). He does not say whether they should seek freedom (compare 1 Corinthians 7:21)."
+    },
+    {
+     "h": "The King and the Governors",
+     "t": "Greek speakers commonly called the emperor the king (basileus). Peter says to honor the king and to submit to governors sent by him (2:13-17). The governor of Bithynia and Pontus, for example, was sent by the emperor."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The Cornerstone",
+     "t": "The first stone laid at the corner fixed the lines of the walls, and Job 38:6 uses a cornerstone as a picture of the earth's foundation. Peter uses the picture for Christ (2:6-7)."
+    },
+    {
+     "h": "Honor and Shame",
+     "t": "In the Roman world a person's standing depended on what neighbors said of them. Peter tells believers to treat everyone with high regard, including the king (2:17), and to live so that those who slander them see good deeds and glorify God (2:12)."
+    },
+    {
+     "h": "Priests and Sacrifices",
+     "t": "Priests offered gifts at the altar. Peter says all believers are a holy priesthood offering spiritual sacrifices (2:5), and a royal priesthood (2:9), using words that Exodus 19:6 spoke of Israel."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Papyrus 72",
+     "t": "A leaf of Papyrus 72, from Egypt and dated to the 3rd or 4th century, has 1 Peter 2:7-17. It is the earliest surviving copy of the letter and shows it was being copied in Egypt within about two centuries."
+    },
+    {
+     "h": "The Temple Mount Stones",
+     "t": "Herod rebuilt the Temple Mount with huge cut stones that still form the lower courses of the Western Wall. Jesus' followers knew the building (Mark 13:1), and Peter calls the church a house built of living stones (2:5)."
+    },
+    {
+     "h": "Slave Collars",
+     "t": "Bronze collars inscribed with the owner's name and a request to return the runaway survive from Rome and other places. They date mostly to the 4th century, but they show the kind of life Peter's readers among the household slaves faced."
+    }
+   ],
+   "discussion": "Peter calls the church a royal priesthood. What would change if I thought of everyday work and conversation as priestly service?",
+   "book": "The first letter of Peter · 5 chapters. Encouragement to live as “exiles” with a living hope.",
+   "author": "Peter",
+   "genre": "Letter",
+   "audience": "Believers across Asia Minor",
+   "refNotes": {
+    "Isaiah 28:16": "The stone in Zion",
+    "Psalm 118:22": "The rejected stone",
+    "Isaiah 53:5-9": "The suffering servant"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Christ",
+     "d": "The living stone"
+    },
+    {
+     "n": "The Church",
+     "d": "A royal priesthood"
+    },
+    {
+     "n": "Servants",
+     "d": "Called to follow Christ's example"
+    },
+    {
+     "n": "Gentile neighbors",
+     "d": "Watch the believers"
+    },
+    {
+     "n": "The King",
+     "d": "To be honored"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Pure milk"
+    },
+    {
+     "when": "v.4-10",
+     "label": "Living stones"
+    },
+    {
+     "when": "v.11-17",
+     "label": "Exiles and good conduct"
+    },
+    {
+     "when": "v.18-25",
+     "label": "Christ’s example"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   },
+   {
+    "name": "Mount Zion",
+    "lat": 31.7712,
+    "lng": 35.2288,
+    "verses": [
+     6
+    ],
+    "slug": "mount-zion"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/P072-1Pe-2.7-12-2.12-17-III-IV.jpg",
+   "caption": "A leaf of Papyrus 72, a papyrus codex from Egypt of the 3rd or 4th century (the Bodmer papyri), with the text of 1 Peter 2:7-17. This stretch of the letter has the stone that the builders rejected, the chosen people and the command to honor the king. It is the earliest surviving copy of 1 Peter.",
+   "credit": "Unknown scribe (3rd or 4th century), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/93085_jerusalem_-_dormition_church_PikiWiki_Israel.jpg",
+   "caption": "The Dormition Abbey on Mount Zion, the southwest hill of Jerusalem that Christians have called Zion since early centuries. In the Old Testament, Zion is Jerusalem and especially the temple hill, and that is the Zion of Isaiah 28:16, which Peter quotes in 2:6.",
+   "credit": "Photo: רוני קניגסברג, CC BY 2.5 / Wikimedia Commons"
+  }
+ }
+}

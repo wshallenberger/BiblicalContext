@@ -1,0 +1,237 @@
+{
+  "book": "2 Corinthians",
+  "chapter": 2,
+  "title": "Forgive and Comfort",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "So I made up my mind not to make another painful visit to you."
+    },
+    {
+      "num": 2,
+      "text": "For if I grieve you, who is left to cheer me but those whom I have grieved?"
+    },
+    {
+      "num": 3,
+      "text": "I wrote as I did so that on my arrival I would not be saddened by those who ought to make me rejoice. I had confidence in all of you, that you would share my joy."
+    },
+    {
+      "num": 4,
+      "text": "For through many tears I wrote you out of great distress and anguish of heart, not to grieve you but to let you know how much I love you."
+    },
+    {
+      "num": 5,
+      "text": "Now if anyone has caused grief, he has not grieved me but all of you—to some degree, not to overstate it."
+    },
+    {
+      "num": 6,
+      "text": "The punishment imposed on him by the majority is sufficient for him."
+    },
+    {
+      "num": 7,
+      "text": "So instead, you ought to forgive and comfort him, so that he will not be overwhelmed by excessive sorrow."
+    },
+    {
+      "num": 8,
+      "text": "Therefore I urge you to reaffirm your love for him."
+    },
+    {
+      "num": 9,
+      "text": "My purpose in writing you was to see if you would stand the test and be obedient in everything."
+    },
+    {
+      "num": 10,
+      "text": "If you forgive anyone, I also forgive him. And if I have forgiven anything, I have forgiven it in the presence of Christ for your sake,"
+    },
+    {
+      "num": 11,
+      "text": "in order that Satan should not outwit us. For we are not unaware of his schemes."
+    },
+    {
+      "num": 12,
+      "text": "Now when I went to Troas to preach the gospel of Christ and a door stood open for me in the Lord,"
+    },
+    {
+      "num": 13,
+      "text": "I had no peace in my spirit, because I did not find my brother Titus there. So I said goodbye to them and went on to Macedonia."
+    },
+    {
+      "num": 14,
+      "text": "But thanks be to God, who always leads us triumphantly as captives in Christ and through us spreads everywhere the fragrance of the knowledge of Him."
+    },
+    {
+      "num": 15,
+      "text": "For we are to God the sweet aroma of Christ among those who are being saved and those who are perishing."
+    },
+    {
+      "num": 16,
+      "text": "To the one, we are an odor of death and demise; to the other, a fragrance that brings life. And who is qualified for such a task?"
+    },
+    {
+      "num": 17,
+      "text": "For we are not like so many others, who peddle the word of God for profit. On the contrary, in Christ we speak before God with sincerity, as men sent from God."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Timothy (1:1)",
+    "genre": "Letter, personal and defensive, among Paul’s most emotional",
+    "audience": "The church in Corinth, after a painful period of conflict",
+    "mapLabel": "CORINTH AND TROAS, AND A SEVERE LETTER",
+    "setting": "Paul tells why he wrote the “severe letter” rather than visit again: he wanted to spare them. The one who caused pain has been disciplined enough, and Paul asks the church to forgive and restore him. Paul left Troas restless because Titus was not there, and moved on to Macedonia. He ends with the picture of a Roman triumphal procession.",
+    "custom": "A triumphal procession had captives, burning incense, and the victorious general. To the victors the smell meant life, and to the captives it meant death. Paul pictures himself as one led in Christ’s victory march, spreading the fragrance of knowing him.",
+    "timelineImmediate": "Chapter 3 contrasts Moses’ ministry with the ministry of the Spirit.",
+    "timelineBible": "Paul’s fragrance image recalls the incense of the Old Testament sanctuary. Forgiveness “so that Satan will not outwit us” (v.11) echoes the first deception in Genesis 3.",
+    "sparkNotes": "Paul says he wrote through many tears. A man who caused pain has been punished enough by the majority, so now they should forgive and comfort him. Paul had no peace in Troas without Titus. Thanks be to God who always leads us in triumph in Christ and spreads the fragrance of the knowledge of him.",
+    "translation": [
+      {
+        "english": "triumph",
+        "greek": "θριαμβεύοντι (thriambeuonti)",
+        "verseRef": "v.14",
+        "meaning": "The verb for leading someone in a Roman triumphal procession. It can mean “leads us as captives” or “leads us in triumph.”",
+        "gloss": "Triumphal parade"
+      },
+      {
+        "english": "fragrance",
+        "greek": "ὀσμὴν (osmēn)",
+        "verseRef": "v.14-16",
+        "meaning": "A smell. To believers it is life, and to those perishing it is the smell of death.",
+        "gloss": "Aroma"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Genesis 3:1-5",
+        "note": "Satan’s deception, behind “we are not unaware of his schemes.”"
+      },
+      {
+        "ref": "Leviticus 1:9",
+        "note": "The offering as a sweet aroma to the Lord."
+      },
+      {
+        "ref": "Exodus 30:34-38",
+        "note": "The incense in the sanctuary."
+      }
+    ],
+    "mapCoords": {
+      "lat": 39.75,
+      "lng": 26.15,
+      "zoom": 7,
+      "placeName": "Troas"
+    },
+    "overview": {
+      "summary": "Paul urges the church to forgive the offender, explains his anxious wait for Titus, and thanks God for leading him in Christ’s victory procession.",
+      "settingLine": "Between Troas, Macedonia, and Corinth.",
+      "placeName": "Troas",
+      "history": [
+        {
+          "h": "The Severe Letter",
+          "t": "Paul wrote a tearful letter between 1 and 2 Corinthians. It is lost, unless part of it is in chapters 10-13."
+        },
+        {
+          "h": "Titus",
+          "t": "Paul’s trusted co-worker, sent to Corinth to see how the church responded."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Triumph",
+          "t": "Rome’s greatest victory ceremony, with captives, trophies, incense, and a parade to the Capitol."
+        },
+        {
+          "h": "Peddlers of the Word",
+          "t": "Paul says rivals traded in God’s word, like merchants watering down wine."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Troas Ruins",
+          "t": "The port of Troas, with city walls and a bath complex, lies on Turkey’s northwest coast."
+        },
+        {
+          "h": "Arch of Titus",
+          "t": "A later arch in Rome shows a triumphal procession with spoils from Jerusalem."
+        }
+      ],
+      "discussion": "Paul asks the church to forgive and reaffirm love for someone who hurt them. Is there someone whose restoration I have held back?",
+      "book": "The second letter to the Corinthians · 13 chapters. Paul’s most personal letter, written to heal a strained relationship.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Genesis 3:1-5": "Satan’s schemes",
+        "Leviticus 1:9": "A pleasing aroma",
+        "Exodus 30:34-38": "Sanctuary incense"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Writes through tears"
+        },
+        {
+          "n": "The Offender",
+          "d": "Disciplined, to be forgiven"
+        },
+        {
+          "n": "Titus",
+          "d": "Awaited in Troas"
+        },
+        {
+          "n": "God",
+          "d": "Leads in triumph"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-4",
+          "label": "Why Paul wrote"
+        },
+        {
+          "when": "v.5-11",
+          "label": "Forgive the offender"
+        },
+        {
+          "when": "v.12-13",
+          "label": "Restless in Troas"
+        },
+        {
+          "when": "v.14-17",
+          "label": "Triumph in Christ"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Troas",
+        "lat": 39.75,
+        "lng": 26.15,
+        "verses": [
+          12
+        ],
+        "slug": "troas"
+      },
+      {
+        "name": "Macedonia",
+        "lat": 40.7,
+        "lng": 22.5,
+        "verses": [
+          13
+        ],
+        "slug": "macedonia"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_Harmensz._van_Rijn_-_The_Return_of_the_Prodigal_Son.jpg",
+      "caption": "The Return of the Prodigal Son, by Rembrandt (about 1668). Paul asks the church to forgive the man who caused pain, to comfort him, and to reaffirm their love for him (2 Corinthians 2:7-8). The painting shows Jesus' parable in Luke 15, not Paul's story, but it pictures a welcome back.",
+      "credit": "Rembrandt (about 1668) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandria_Troas_Thermen.JPG",
+      "caption": "Roman baths at Alexandria Troas, where Paul met the believers on his last journey (Acts 20:5-12).",
+      "credit": "Photo: Elelicht, CC BY-SA 3.0 / Wikimedia Commons"
+    }
+  }
+}

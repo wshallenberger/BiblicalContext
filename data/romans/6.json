@@ -1,0 +1,238 @@
+{
+  "book": "Romans",
+  "chapter": 6,
+  "title": "Dead to Sin, Alive to God",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "What then shall we say? Shall we continue in sin so that grace may increase?"
+    },
+    {
+      "num": 2,
+      "text": "Certainly not! How can we who died to sin live in it any longer?"
+    },
+    {
+      "num": 3,
+      "text": "Or aren't you aware that all of us who were baptized into Christ Jesus were baptized into His death?"
+    },
+    {
+      "num": 4,
+      "text": "We were therefore buried with Him through baptism into death, in order that, just as Christ was raised from the dead through the glory of the Father, we too may walk in newness of life."
+    },
+    {
+      "num": 5,
+      "text": "For if we have been united with Him like this in His death, we will certainly also be united with Him in His resurrection."
+    },
+    {
+      "num": 6,
+      "text": "We know that our old self was crucified with Him so that the body of sin might be rendered powerless, that we should no longer be slaves to sin."
+    },
+    {
+      "num": 7,
+      "text": "For anyone who has died has been freed from sin."
+    },
+    {
+      "num": 8,
+      "text": "Now if we died with Christ, we believe that we will also live with Him."
+    },
+    {
+      "num": 9,
+      "text": "For we know that since Christ was raised from the dead, He cannot die again; death no longer has dominion over Him."
+    },
+    {
+      "num": 10,
+      "text": "The death He died, He died to sin once for all; but the life He lives, He lives to God."
+    },
+    {
+      "num": 11,
+      "text": "So you too must count yourselves dead to sin, but alive to God in Christ Jesus."
+    },
+    {
+      "num": 12,
+      "text": "Therefore do not let sin reign in your mortal body so that you obey its desires."
+    },
+    {
+      "num": 13,
+      "text": "Do not present the parts of your body to sin as instruments of wickedness, but present yourselves to God as those who have been brought from death to life; and present the parts of your body to Him as instruments of righteousness."
+    },
+    {
+      "num": 14,
+      "text": "For sin shall not be your master, because you are not under law, but under grace."
+    },
+    {
+      "num": 15,
+      "text": "What then? Shall we sin because we are not under law, but under grace? Certainly not!"
+    },
+    {
+      "num": 16,
+      "text": "Do you not know that when you offer yourselves as obedient slaves, you are slaves to the one you obey, whether you are slaves to sin leading to death, or to obedience leading to righteousness?"
+    },
+    {
+      "num": 17,
+      "text": "But thanks be to God that, though you once were slaves to sin, you wholeheartedly obeyed the form of teaching to which you were committed."
+    },
+    {
+      "num": 18,
+      "text": "You have been set free from sin and have become slaves to righteousness."
+    },
+    {
+      "num": 19,
+      "text": "I am speaking in human terms because of the weakness of your flesh. Just as you used to offer the parts of your body in slavery to impurity and to escalating wickedness, so now offer them in slavery to righteousness leading to holiness."
+    },
+    {
+      "num": 20,
+      "text": "For when you were slaves to sin, you were free of obligation to righteousness."
+    },
+    {
+      "num": 21,
+      "text": "What fruit did you reap at that time from the things of which you are now ashamed? The outcome of those things is death."
+    },
+    {
+      "num": 22,
+      "text": "But now that you have been set free from sin and have become slaves to God, the fruit you reap leads to holiness, and the outcome is eternal life."
+    },
+    {
+      "num": 23,
+      "text": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, THE NEW LIFE OF BAPTISM",
+    "setting": "Paul faces a likely objection: if grace is greater where sin is greater, why not sin more? He answers that those who belong to Christ have died to sin, as pictured in baptism, and are now alive to God. He compares two masters, sin and God, and says everyone serves one or the other.",
+    "custom": "Baptism in the early church was by immersion, so going under water pictured burial and coming up pictured resurrection. Slavery was common in Rome, so the picture of “presenting yourselves” as slaves (v.16) was clear to all.",
+    "timelineImmediate": "In chapter 7 Paul continues the question of the law’s role, and chapter 8 shows the power that actually enables a new life, the Spirit.",
+    "timelineBible": "Paul reads baptism as joining believers to Christ’s death and resurrection (vv.3-5), which is an echo of the way Israel passed through the Red Sea (1 Corinthians 10:1-2). The wages of sin (v.23) go back to Genesis 2:17.",
+    "sparkNotes": "Paul says believers cannot keep living in sin, because baptism joined them to Christ’s death and resurrection. They are to count themselves dead to sin and alive to God, and to offer themselves as instruments of righteousness. Sin leads to death, but God’s gift is eternal life.",
+    "translation": [
+      {
+        "english": "count",
+        "greek": "λογίζεσθε (logizesthe)",
+        "verseRef": "v.11",
+        "meaning": "The same word as “credited” in chapter 4. Believers are to take stock and reckon it true: dead to sin and alive to God.",
+        "gloss": "Reckon"
+      },
+      {
+        "english": "wages",
+        "greek": "ὀψώνια (opsōnia)",
+        "verseRef": "v.23",
+        "meaning": "A soldier’s pay. Sin is a harsh employer whose pay is death.",
+        "gloss": "A soldier’s pay"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Genesis 2:17",
+        "note": "The penalty for disobedience was death, the “wages” of sin."
+      },
+      {
+        "ref": "Exodus 14:21-31",
+        "note": "Israel passed through the sea and left slavery. Paul pictures baptism similarly."
+      },
+      {
+        "ref": "Ezekiel 36:26-27",
+        "note": "God promises a new heart and a new Spirit."
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "Believers have died with Christ and risen with him, so sin is no longer their master. They are slaves of righteousness, and the free gift of God is eternal life.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Slavery in Rome",
+          "t": "Perhaps a third of Rome’s population were slaves or former slaves. Many in the church were."
+        },
+        {
+          "h": "Early Baptism",
+          "t": "Christians were baptized at once after confessing Christ, as Acts shows."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Wages",
+          "t": "Soldiers received a wage. Paul says sin pays its servants with death, but God gives life freely."
+        },
+        {
+          "h": "Presenting Yourself",
+          "t": "The word describes offering something as a sacrifice or reporting for duty."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Baptistery at Dura-Europos",
+          "t": "One of the oldest Christian meeting places, with a baptistery, dates to the AD 240s in Syria."
+        },
+        {
+          "h": "Slave Collars",
+          "t": "Bronze collars with owners’ names show how closely slaves were tied to a master."
+        }
+      ],
+      "discussion": "Paul says everyone serves some master. What is the most likely master of my daily habits, and what would it look like to serve righteousness instead?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Genesis 2:17": "Death as the penalty",
+        "Exodus 14:21-31": "Out of slavery",
+        "Ezekiel 36:26-27": "A new heart"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Christ",
+          "d": "Died and rose"
+        },
+        {
+          "n": "The Believer",
+          "d": "Dead to sin"
+        },
+        {
+          "n": "Sin",
+          "d": "The old master"
+        },
+        {
+          "n": "God",
+          "d": "The new master"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-11",
+          "label": "Died and raised with Christ"
+        },
+        {
+          "when": "v.12-14",
+          "label": "Do not let sin reign"
+        },
+        {
+          "when": "v.15-23",
+          "label": "Two masters"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piero_della_Francesca_-_Battesimo_di_Cristo_(National_Gallery,_London).jpg",
+      "caption": "The Baptism of Christ, by Piero della Francesca (after 1451). Paul reads baptism as a burial and a rising with Christ (Romans 6:3-4).",
+      "credit": "Piero della Francesca (after 1451), National Gallery, London / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232.jpg",
+      "caption": "Christ healing the paralytic, painted in the baptistery of the house church at Dura-Europos in Syria, in the 3rd century (before the city fell in AD 256). It is the oldest known Christian baptistery, long after Paul but a picture of baptism as the early church practiced it.",
+      "credit": "Photo: Yale University Art Gallery, public domain / Wikimedia Commons"
+    }
+  }
+}

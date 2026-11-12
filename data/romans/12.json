@@ -1,0 +1,234 @@
+{
+  "book": "Romans",
+  "chapter": 12,
+  "title": "Living Sacrifices",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Therefore I urge you, brothers, on account of God's mercy, to offer your bodies as living sacrifices, holy and pleasing to God, which is your spiritual service of worship."
+    },
+    {
+      "num": 2,
+      "text": "Do not be conformed to this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what is the good, pleasing, and perfect will of God."
+    },
+    {
+      "num": 3,
+      "text": "For by the grace given me I say to every one of you: Do not think of yourself more highly than you ought, but think of yourself with sober judgment, according to the measure of faith God has given you."
+    },
+    {
+      "num": 4,
+      "text": "Just as each of us has one body with many members, and not all members have the same function,"
+    },
+    {
+      "num": 5,
+      "text": "so in Christ we who are many are one body, and each member belongs to one another."
+    },
+    {
+      "num": 6,
+      "text": "We have different gifts according to the grace given us. If one's gift is prophecy, let him use it in proportion to his faith;"
+    },
+    {
+      "num": 7,
+      "text": "if it is serving, let him serve; if it is teaching, let him teach;"
+    },
+    {
+      "num": 8,
+      "text": "if it is encouraging, let him encourage; if it is giving, let him give generously; if it is leading, let him lead with diligence; if it is showing mercy, let him do it cheerfully."
+    },
+    {
+      "num": 9,
+      "text": "Love must be sincere. Detest what is evil; cling to what is good."
+    },
+    {
+      "num": 10,
+      "text": "Be devoted to one another in brotherly love. Outdo yourselves in honoring one another."
+    },
+    {
+      "num": 11,
+      "text": "Do not let your zeal subside; keep your spiritual fervor, serving the Lord."
+    },
+    {
+      "num": 12,
+      "text": "Be joyful in hope, patient in affliction, persistent in prayer."
+    },
+    {
+      "num": 13,
+      "text": "Share with the saints who are in need. Practice hospitality."
+    },
+    {
+      "num": 14,
+      "text": "Bless those who persecute you. Bless and do not curse."
+    },
+    {
+      "num": 15,
+      "text": "Rejoice with those who rejoice; weep with those who weep."
+    },
+    {
+      "num": 16,
+      "text": "Live in harmony with one another. Do not be proud, but enjoy the company of the lowly. Do not be conceited."
+    },
+    {
+      "num": 17,
+      "text": "Do not repay anyone evil for evil. Carefully consider what is right in the eyes of everybody."
+    },
+    {
+      "num": 18,
+      "text": "If it is possible on your part, live at peace with everyone."
+    },
+    {
+      "num": 19,
+      "text": "Do not avenge yourselves, beloved, but leave room for God's wrath. For it is written: \"Vengeance is Mine; I will repay, says the Lord.\""
+    },
+    {
+      "num": 20,
+      "text": "On the contrary, \"If your enemy is hungry, feed him; if he is thirsty, give him a drink. For in so doing, you will heap burning coals on his head.\""
+    },
+    {
+      "num": 21,
+      "text": "Do not be overcome by evil, but overcome evil with good."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, THE CHURCH IN DAILY LIFE",
+    "setting": "After eleven chapters of doctrine, Paul turns to practice with “Therefore.” He urges believers to offer their whole selves to God, to be transformed by renewed minds, and to serve one another with the gifts God gives. The chapter then lists marks of genuine love, including blessing enemies.",
+    "custom": "Roman and Jewish worship involved bringing animals to be killed. Paul says the sacrifice God now wants is a living person. The “body” of Christ (vv.4-5) was a picture in Greek writers too, but Paul uses it for the church.",
+    "timelineImmediate": "Chapter 13 applies this love to relations with government. Chapters 14 and 15 apply it to the divide between “strong” and “weak” in the church.",
+    "timelineBible": "“Do not repay evil for evil” echoes Proverbs 20:22 and 24:29. Verse 19 quotes Deuteronomy 32:35. Verse 20 quotes Proverbs 25:21-22 about feeding an enemy and “heaping burning coals” on his head.",
+    "sparkNotes": "Paul urges believers to offer their bodies as living sacrifices and be transformed by the renewing of their minds. Each believer is a part of one body with different gifts. Love must be sincere: honor others, be patient in trouble, be hospitable, bless persecutors, and overcome evil with good.",
+    "translation": [
+      {
+        "english": "transformed",
+        "greek": "μεταμορφοῦσθε (metamorphousthe)",
+        "verseRef": "v.2",
+        "meaning": "The word behind “metamorphosis.” It is used of Jesus on the mountain (Matthew 17:2). Paul says believers are to be changed from the inside.",
+        "gloss": "Changed in form"
+      },
+      {
+        "english": "spiritual worship",
+        "greek": "λογικὴν λατρείαν (logikēn latreian)",
+        "verseRef": "v.1",
+        "meaning": "Can also be rendered “reasonable service” or “true worship.” Worship is the whole of life, not only a service.",
+        "gloss": "Reasonable worship"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Proverbs 25:21-22",
+        "note": "“If your enemy is hungry, feed him,” quoted in v.20."
+      },
+      {
+        "ref": "Deuteronomy 32:35",
+        "note": "“It is mine to avenge; I will repay.”"
+      },
+      {
+        "ref": "Leviticus 19:18",
+        "note": "Love your neighbor, the heart of the command that follows."
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "In response to God’s mercy, believers give themselves to God, serve with their gifts as one body, and show real love, even to enemies.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Gifts in the Church",
+          "t": "Early house churches needed teachers, givers, and helpers. Paul shows the variety."
+        },
+        {
+          "h": "Persecution",
+          "t": "Christians in Rome would soon face real hostility under Nero."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Hospitality",
+          "t": "Travelers relied on private homes. Hospitality was a main way the church spread."
+        },
+        {
+          "h": "Burning Coals",
+          "t": "The meaning is debated. It may refer to the shame that makes an enemy repent."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Inns and Hostels",
+          "t": "Roman inns were rough, which is why Christians welcomed travelers in homes."
+        },
+        {
+          "h": "House Churches",
+          "t": "Roman villas and apartments, like those excavated at Pompeii, give a picture of where Christians met."
+        }
+      ],
+      "discussion": "Paul says to overcome evil with good. Who is someone who has wronged me, and what is one small, concrete way I can do good to them?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Proverbs 25:21-22": "Feed your enemy",
+        "Deuteronomy 32:35": "Vengeance belongs to God",
+        "Leviticus 19:18": "Love your neighbor"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Believers",
+          "d": "Living sacrifices"
+        },
+        {
+          "n": "The Body",
+          "d": "Many members"
+        },
+        {
+          "n": "Enemies",
+          "d": "To be blessed"
+        },
+        {
+          "n": "God",
+          "d": "Repays"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-2",
+          "label": "Offer yourselves"
+        },
+        {
+          "when": "v.3-8",
+          "label": "Different gifts"
+        },
+        {
+          "when": "v.9-13",
+          "label": "Genuine love"
+        },
+        {
+          "when": "v.14-21",
+          "label": "Overcome evil with good"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manchester,_John_Rylands_University_Library_Ms_Gr._P._4_(Papyrus_31)_verso_Romans_12,_3-8.jpg",
+      "caption": "Papyrus 31, a fragment in the John Rylands Library, usually dated to about the 7th century, so much later than Paul. It has Romans 12:3-8, on the gifts the members of one body hold.",
+      "credit": "John Rylands Library, Manchester, public domain / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Corinth_-_Bema.jpg",
+      "caption": "The bema, a raised platform in Corinth's forum where officials judged cases, a likely setting for Paul's hearing before the proconsul Gallio (Acts 18:12-17).",
+      "credit": "Photo: Ploync, CC BY 3.0 / Wikimedia Commons"
+    }
+  }
+}

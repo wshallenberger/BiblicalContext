@@ -1,0 +1,218 @@
+{
+ "book": "1 Timothy",
+ "chapter": 3,
+ "title": "Overseers and Deacons",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "This is a trustworthy saying: If anyone aspires to be an overseer, he desires a noble task."
+  },
+  {
+   "num": 2,
+   "text": "An overseer, then, must be above reproach, the husband of but one wife, temperate, self-controlled, respectable, hospitable, able to teach,"
+  },
+  {
+   "num": 3,
+   "text": "not dependent on wine, not violent but gentle, peaceable, and free of the love of money."
+  },
+  {
+   "num": 4,
+   "text": "An overseer must manage his own household well and keep his children under control, with complete dignity."
+  },
+  {
+   "num": 5,
+   "text": "For if someone does not know how to manage his own household, how can he care for the church of God?"
+  },
+  {
+   "num": 6,
+   "text": "He must not be a recent convert, or he may become conceited and fall under the same condemnation as the devil."
+  },
+  {
+   "num": 7,
+   "text": "Furthermore, he must have a good reputation with outsiders, so that he will not fall into disgrace and into the snare of the devil."
+  },
+  {
+   "num": 8,
+   "text": "Deacons likewise must be dignified, not double-tongued or given to much wine or greedy for money."
+  },
+  {
+   "num": 9,
+   "text": "They must hold to the mystery of the faith with a clear conscience."
+  },
+  {
+   "num": 10,
+   "text": "Additionally, they must first be tested. Then, if they are above reproach, let them serve as deacons."
+  },
+  {
+   "num": 11,
+   "text": "In the same way, the women must be dignified, not slanderers, but temperate and faithful in all things."
+  },
+  {
+   "num": 12,
+   "text": "A deacon must be the husband of but one wife, a good manager of his children and of his own household."
+  },
+  {
+   "num": 13,
+   "text": "For those who have served well as deacons acquire for themselves a high standing and great confidence in the faith that is in Christ Jesus."
+  },
+  {
+   "num": 14,
+   "text": "Although I hope to come to you soon, I am writing you these things"
+  },
+  {
+   "num": 15,
+   "text": "in case I am delayed, so that you will know how each one must conduct himself in God's household, which is the church of the living God, the pillar and foundation of the truth."
+  },
+  {
+   "num": 16,
+   "text": "By common confession, the mystery of godliness is great: He appeared in the flesh, was vindicated by the Spirit, was seen by angels, was proclaimed among the nations, was believed in throughout the world, was taken up in glory."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1), though some scholars question this",
+  "genre": "Pastoral letter, personal advice from a mentor",
+  "audience": "Timothy, Paul’s younger coworker, left in Ephesus",
+  "mapLabel": "EPHESUS, THE CHURCH’S LEADERS",
+  "setting": "Paul lists qualifications for overseers (bishops, elders) and deacons. They are described in terms of character: self-controlled, hospitable, able to teach, not a lover of money, managing their households well. He ends with why he is writing and with an early hymn about Christ.",
+  "custom": "In a house church, an overseer was responsible for a household of believers, and so management of his own household was a sign of ability. Paul did not make the qualifications about gifts or status but about reputation.",
+  "timelineImmediate": "Chapter 4 warns of false teaching.",
+  "timelineBible": "The hymn (v.16) summarizes Christ’s story in six lines, from incarnation to ascension. “Pillar and foundation of the truth” (v.15) pictures the church as a temple.",
+  "sparkNotes": "If anyone aspires to be an overseer, he desires a noble task. He must be above reproach, the husband of one wife, sober-minded, hospitable, able to teach, not a drunkard or lover of money, managing his household well, not a recent convert, and well thought of by outsiders. Deacons likewise must be dignified, and tested. The church is the pillar and foundation of the truth. Great is the mystery of godliness: he was manifested in the flesh.",
+  "translation": [
+   {
+    "english": "overseer",
+    "greek": "ἐπίσκοπος (episkopos)",
+    "verseRef": "v.1-2",
+    "meaning": "One who watches over. The English “bishop” comes from it.",
+    "gloss": "Watcher over"
+   },
+   {
+    "english": "above reproach",
+    "greek": "ἀνεπίλημπτον (anepilēmpton)",
+    "verseRef": "v.2",
+    "meaning": "Nothing to be held against him, with no handle for criticism.",
+    "gloss": "Nothing to seize on"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Leviticus 21:7",
+    "note": "Priests were required to meet standards of life."
+   },
+   {
+    "ref": "Proverbs 3:13",
+    "note": "Wisdom is better than silver."
+   },
+   {
+    "ref": "Psalm 68:18",
+    "note": "The ascended Lord, echoed in the hymn."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Overseers and deacons are chosen for character first. The church is the household of God, and its mystery is Christ manifested in the flesh.",
+   "settingLine": "Paul writes to Timothy, who is working in Ephesus.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Elders and Overseers",
+     "t": "In Acts 20:17 and 20:28 Paul calls the same Ephesian leaders \"elders\" and \"overseers,\" and Titus 1:5-7 uses the two words for the same office. Here (3:1-7) he lists what an overseer must be. The letter does not say how many served in a church or how their work was divided."
+    },
+    {
+     "h": "Deacons",
+     "t": "The Greek word diakonos means servant. Paul uses it of Phoebe in Romans 16:1, and Philippians 1:1 greets the \"overseers and deacons\" together. First Timothy 3:8-13 gives their qualifications but not their duties."
+    }
+   ],
+   "customs": [
+    {
+     "h": "One Wife",
+     "t": "\"The husband of one wife\" (3:2) is debated. The Greek says literally \"of one woman a man.\" It may mean faithful to one spouse, no polygamy, not remarried after divorce, or not remarried after a wife's death. First Timothy 5:9 uses the matching phrase for widows, \"the wife of one husband.\""
+    },
+    {
+     "h": "Household Management",
+     "t": "Paul says a man who cannot manage his own household well cannot care for God's church (3:4-5). Churches met in homes (Romans 16:5; 1 Corinthians 16:19), and 3:15 calls the church the household of God."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "House Church at Dura-Europos",
+     "t": "At Dura-Europos in Syria a private house was altered in the AD 230s as a Christian meeting place, with a hall and a room used for baptism. It is nearly two centuries after Paul, and it is the earliest Christian building identified so far, but it shows how an ordinary house could serve a congregation."
+    },
+    {
+     "h": "House Churches",
+     "t": "Later Latin writers called such a house a domus ecclesiae, \"house of the church.\" The New Testament speaks of churches in homes (Romans 16:5; 1 Corinthians 16:19; Colossians 4:15; Philemon 2), but archaeology has found few clear examples from the 1st century."
+    }
+   ],
+   "discussion": "Paul stresses character over gifts. What qualities do I look for in a leader, and what would my friends say I need to build?",
+   "book": "The first letter to Timothy · 6 chapters. A mentor’s guide to leading a church well.",
+   "author": "Paul",
+   "genre": "Pastoral letter",
+   "audience": "Timothy, in Ephesus",
+   "refNotes": {
+    "Leviticus 21:7": "High standards for leaders",
+    "Proverbs 3:13": "Wisdom",
+    "Psalm 68:18": "Taken up in glory"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Overseers",
+     "d": "Elders with good character"
+    },
+    {
+     "n": "Deacons",
+     "d": "Servants"
+    },
+    {
+     "n": "Paul",
+     "d": "Hopes to come soon"
+    },
+    {
+     "n": "The Church",
+     "d": "Pillar of the truth"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Overseers"
+    },
+    {
+     "when": "v.8-13",
+     "label": "Deacons"
+    },
+    {
+     "when": "v.14-16",
+     "label": "The mystery of godliness"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angelico,_niccolina_11.jpg",
+   "caption": "Saint Lawrence Distributing Alms, a fresco by Fra Angelico (1447-49). Lawrence was a deacon of Rome who died in AD 258, long after Paul, and later Christians remembered deacons for caring for the poor. First Timothy 3:8-13 names the character deacons must have but does not list their duties.",
+   "credit": "Fra Angelico (1447-49), Niccoline Chapel, Vatican / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christ_Healing_the_Paralytic_-_Dura-Europos_circa_232.jpg",
+   "caption": "Christ healing the paralytic, painted in the baptistery of the house church at Dura-Europos in Syria in the 3rd century, before the city fell in AD 256. It is far later than 1 Timothy, but it shows a household remodeled for Christian worship.",
+   "credit": "Photo: Yale University Art Gallery, public domain / Wikimedia Commons"
+  }
+ }
+}

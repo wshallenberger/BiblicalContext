@@ -1,0 +1,215 @@
+{
+  "book": "Acts",
+  "chapter": 6,
+  "title": "Seven Chosen to Serve",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "In those days when the disciples were increasing in number, the Grecian Jews among them began to grumble against the Hebraic Jews because their widows were being overlooked in the daily distribution of food."
+    },
+    {
+      "num": 2,
+      "text": "So the Twelve summoned all the disciples and said, \"It is unacceptable for us to neglect the word of God in order to wait on tables."
+    },
+    {
+      "num": 3,
+      "text": "Therefore, brothers, select from among you seven men confirmed to be full of the Spirit and wisdom. We will appoint this responsibility to them"
+    },
+    {
+      "num": 4,
+      "text": "and will devote ourselves to prayer and to the ministry of the word.\""
+    },
+    {
+      "num": 5,
+      "text": "This proposal pleased the whole group. They chose Stephen, a man full of faith and of the Holy Spirit, as well as Philip, Prochorus, Nicanor, Timon, Parmenas, and Nicolas from Antioch, a convert to Judaism."
+    },
+    {
+      "num": 6,
+      "text": "They presented these seven to the apostles, who prayed and laid their hands on them."
+    },
+    {
+      "num": 7,
+      "text": "So the word of God continued to spread. The number of disciples in Jerusalem grew rapidly, and a great number of priests became obedient to the faith."
+    },
+    {
+      "num": 8,
+      "text": "Now Stephen, who was full of grace and power, was performing great wonders and signs among the people."
+    },
+    {
+      "num": 9,
+      "text": "But resistance arose from what was called the Synagogue of the Freedmen, including Cyrenians, Alexandrians, and men from the provinces of Cilicia and Asia. They began to argue with Stephen,"
+    },
+    {
+      "num": 10,
+      "text": "but they could not stand up to his wisdom or the Spirit by whom he spoke."
+    },
+    {
+      "num": 11,
+      "text": "Then they prompted some men to say, \"We heard Stephen speak words of blasphemy against Moses and against God.\""
+    },
+    {
+      "num": 12,
+      "text": "So they stirred up the people, elders, and scribes and confronted Stephen. They seized him and brought him before the Sanhedrin,"
+    },
+    {
+      "num": 13,
+      "text": "where they presented false witnesses who said, \"This man never stops speaking against this holy place and against the law."
+    },
+    {
+      "num": 14,
+      "text": "For we have heard him say that Jesus of Nazareth will destroy this place and change the customs that Moses handed down to us.\""
+    },
+    {
+      "num": 15,
+      "text": "All who were sitting in the Sanhedrin looked intently at Stephen, and they saw that his face was like the face of an angel."
+    }
+  ],
+  "context": {
+    "author": "Traditionally Luke, the physician and traveling companion of Paul",
+    "genre": "Historical narrative — the early church's story, with speeches and eyewitness travel reports",
+    "audience": "Theophilus, and through him a Greek-speaking readership of Jews and Gentiles",
+    "mapLabel": "JERUSALEM",
+    "setting": "The church in Jerusalem now includes two groups: Hebrew-speaking Jews and Greek-speaking Jews from the Diaspora. The Greek speakers' widows are being overlooked in the daily food distribution. The Twelve call everyone together and ask them to choose seven men to oversee it, and the seven all have Greek names. Stephen, one of the seven, is soon arrested.",
+    "custom": "Widows had no income and depended on community help. Synagogues in Jerusalem often served particular groups, which is why Stephen debates with the \"Synagogue of the Freedmen,\" made up of Jews from Cyrene, Alexandria, Cilicia, and Asia.",
+    "timelineImmediate": "The Word spreads and even many priests believe (v.7). Stephen's debates lead to a false trial in the next chapter, where his speech begins the church's move beyond Jerusalem.",
+    "timelineBible": "Laying hands on the seven (v.6) recalls Moses commissioning Joshua (Numbers 27:18-23). The false witnesses at Stephen's trial repeat the charges against Jesus (Mark 14:57-58), and his face looks like an angel's, as Moses' face shone (Exodus 34:29).",
+    "sparkNotes": "A complaint over the daily food for Greek-speaking widows leads the apostles to appoint seven men to serve, including Stephen. Stephen performs wonders and debates in the synagogues. His opponents bribe false witnesses and drag him before the council.",
+    "translation": [
+      {
+        "english": "serve",
+        "greek": "διακονεῖν (diakonein)",
+        "verseRef": "v.2",
+        "meaning": "The root of the word \"deacon.\" It means to wait on tables, to serve. The same word is used for the ministry of the word in verse 4, so both jobs are called service.",
+        "gloss": "To serve, wait on"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Numbers 27:18-23",
+        "note": "Moses lays hands on Joshua, a pattern for commissioning."
+      },
+      {
+        "ref": "Exodus 34:29",
+        "note": "Moses' face shone; Stephen's looks like an angel's."
+      },
+      {
+        "ref": "Deuteronomy 24:19-21",
+        "note": "The widow, the orphan and the foreigner were to be cared for."
+      }
+    ],
+    "mapCoords": {
+      "lat": 31.7767,
+      "lng": 35.2342,
+      "zoom": 13,
+      "placeName": "Jerusalem"
+    },
+    "overview": {
+      "summary": "The apostles appoint seven men, including Stephen, to take care of the food distribution for widows. Stephen's wisdom stirs up opposition, and he is arrested.",
+      "settingLine": "The church, the synagogues, and the council.",
+      "placeName": "Jerusalem",
+      "history": [
+        {
+          "h": "Hebrews and Hellenists",
+          "t": "Two language groups lived in the church, as in the city."
+        },
+        {
+          "h": "Synagogue of the Freedmen",
+          "t": "Jews from across the empire had their own synagogues in Jerusalem."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Daily Distribution",
+          "t": "Widows received daily food, a duty Israel owed to the poor."
+        },
+        {
+          "h": "Laying On of Hands",
+          "t": "A sign of blessing and commissioning for a task."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Theodotus Inscription",
+          "t": "A Greek stone in Jerusalem records a first-century synagogue built for visiting Jews."
+        },
+        {
+          "h": "Cyrene Tombs",
+          "t": "Jerusalem tombs name families from Cyrene and Alexandria."
+        }
+      ],
+      "discussion": "The apostles did not do everything themselves. What tasks does the church need to share so that the word of God keeps going out?",
+      "book": "The book of Acts · 28 chapters. The story of how the good news about Jesus spread from Jerusalem to Rome.",
+      "author": "Luke",
+      "genre": "History and narrative",
+      "audience": "Theophilus and the church",
+      "refNotes": {
+        "Numbers 27:18-23": "Hands on Joshua",
+        "Exodus 34:29": "A shining face",
+        "Deuteronomy 24:19-21": "Care for the widow"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Stephen",
+          "d": "Full of faith"
+        },
+        {
+          "n": "Philip",
+          "d": "One of the seven"
+        },
+        {
+          "n": "The Twelve",
+          "d": "Appoint the seven"
+        },
+        {
+          "n": "The widows",
+          "d": "Cared for"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "Complaint",
+          "label": "Widows overlooked"
+        },
+        {
+          "when": "Seven",
+          "label": "Chosen to serve"
+        },
+        {
+          "when": "Debates",
+          "label": "Stephen argues"
+        },
+        {
+          "when": "Arrest",
+          "label": "Taken to council"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          1,
+          7,
+          12
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stefanus_voor_de_hogepriester_Handelingen_van_de_apostelen_(serietitel)_Acta_Apostolorum_(serietitel),_RP-P-OB-6546.jpg",
+      "caption": "Stephen before the high priest (Acts 6-7), from a 16th-century print series on Acts.",
+      "credit": "Print series on Acts (16th c.), Rijksmuseum, CC0 / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem_Saint_Stephen_church.JPG",
+      "caption": "A church of St. Stephen in Jerusalem, one of the places tradition links with his martyrdom.",
+      "credit": "Photo: Djampa, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

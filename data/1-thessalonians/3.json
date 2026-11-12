@@ -1,0 +1,224 @@
+{
+ "book": "1 Thessalonians",
+ "chapter": 3,
+ "title": "Timothy’s Good News",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "So when we could bear it no longer, we were willing to be left on our own in Athens."
+  },
+  {
+   "num": 2,
+   "text": "We sent Timothy, our brother and fellow worker for God in the gospel of Christ, to strengthen and encourage you in your faith,"
+  },
+  {
+   "num": 3,
+   "text": "so that none of you would be shaken by these trials. For you know that we are destined for this."
+  },
+  {
+   "num": 4,
+   "text": "Indeed, when we were with you, we kept warning you that we would suffer persecution; and as you know, it has come to pass."
+  },
+  {
+   "num": 5,
+   "text": "For this reason, when I could bear it no longer, I sent to find out about your faith, for fear that the tempter had somehow tempted you and caused our labor to be in vain."
+  },
+  {
+   "num": 6,
+   "text": "But just now, Timothy has returned from his visit with the good news about your faith, your love, and the fond memories you have preserved, longing to see us just as we long to see you."
+  },
+  {
+   "num": 7,
+   "text": "For this reason, brothers, in all our distress and persecution, we have been reassured about you, because of your faith."
+  },
+  {
+   "num": 8,
+   "text": "For now we can go on living, as long as you are standing firm in the Lord."
+  },
+  {
+   "num": 9,
+   "text": "How can we adequately thank God for you in return for our great joy over you in His presence?"
+  },
+  {
+   "num": 10,
+   "text": "Night and day we pray most earnestly that we may see you face to face and supply what is lacking from your faith."
+  },
+  {
+   "num": 11,
+   "text": "Now may our God and Father Himself, and our Lord Jesus, direct our way to you."
+  },
+  {
+   "num": 12,
+   "text": "And may the Lord cause you to increase and overflow with love for one another and for everyone else, just as our love for you overflows,"
+  },
+  {
+   "num": 13,
+   "text": "so that He may establish your hearts in blamelessness and holiness before our God and Father at the coming of our Lord Jesus with all His saints. Amen."
+  }
+ ],
+ "context": {
+  "author": "Paul, with Silas and Timothy (1:1)",
+  "genre": "Letter of encouragement, warm and personal",
+  "audience": "The church in Thessalonica, a young church under pressure",
+  "mapLabel": "ATHENS AND CORINTH, A SEARCH FOR NEWS",
+  "setting": "Paul explains that he could no longer bear being apart from the Thessalonians, so he stayed alone in Athens and sent Timothy to strengthen them. Timothy has now come back with good news of their faith and love. Paul is greatly relieved and prays to see them again.",
+  "custom": "Paul’s phrase “we were determined to be left behind at Athens alone” shows the cost of sending Timothy. The apostles suffered affliction, and Paul wanted the church not to be shaken by trials.",
+  "timelineImmediate": "Chapter 4 moves to practical instructions and the hope of those who have died.",
+  "timelineBible": "The reference to Satan as tempter (v.5) recalls Genesis 3 and Job 1-2. Paul prays that they be blameless at the coming of the Lord Jesus “with all his saints,” echoing Zechariah 14:5.",
+  "sparkNotes": "Unable to bear it any longer, Paul sent Timothy to strengthen them in their faith so that none would be shaken by afflictions. Timothy has brought good news of their faith and love. Paul says, “Now we live, if you stand fast in the Lord.” He prays night and day to see them, and that the Lord make their love increase.",
+  "translation": [
+   {
+    "english": "stand firm",
+    "greek": "στήκετε (stēkete)",
+    "verseRef": "v.8",
+    "meaning": "To stand, as a soldier holds his ground.",
+    "gloss": "Hold your ground"
+   },
+   {
+    "english": "abound",
+    "greek": "περισσεύσαι (perisseusai)",
+    "verseRef": "v.12",
+    "meaning": "To overflow. Paul prays that their love overflow.",
+    "gloss": "Overflow"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Zechariah 14:5",
+    "note": "The Lord will come with all his holy ones."
+   },
+   {
+    "ref": "Job 1:6-12",
+    "note": "Satan tests Job."
+   },
+   {
+    "ref": "Genesis 3:1-6",
+    "note": "The serpent tempts Eve."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9715,
+   "lng": 23.7257,
+   "zoom": 8,
+   "placeName": "Athens"
+  },
+  "overview": {
+   "summary": "Paul sent Timothy to check on the church. The good report fills him with joy and thanks, and he prays that their love grow.",
+   "settingLine": "Paul waits in Athens, then writes from Corinth.",
+   "placeName": "Athens",
+   "history": [
+    {
+     "h": "Athens",
+     "t": "Paul says he was “left behind at Athens alone” and sent Timothy to Thessalonica (3:1-2). Acts 17:16-34 tells of his time in Athens, including the speech at the Areopagus. Acts 18:5 says Silas and Timothy rejoined him in Corinth."
+    },
+    {
+     "h": "Timothy",
+     "t": "Acts 16:1-3 says Timothy was a disciple at Lystra, the son of a Jewish mother and a Greek father, and that Paul took him along. Paul calls him “our brother and God’s coworker” (3:2) and sends him to strengthen the church."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Standing Firm",
+     "t": "Paul writes, “now we really live, if you are standing firm in the Lord” (3:8). The verb means to stand fast or hold one’s ground. He uses it for steadiness in several letters (1 Corinthians 16:13; Philippians 4:1; 2 Thessalonians 2:15)."
+    },
+    {
+     "h": "The Tempter",
+     "t": "Paul fears “the tempter” had tested them and his work would be in vain (3:5). In 2:18 he blames “Satan” for hindering his return. The Gospels use the same title for the devil who tempted Jesus (Matthew 4:3)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Athens Agora",
+     "t": "The Agora lay below the Acropolis and was the marketplace and civic center. Acts 17:17 says Paul reasoned there every day. The Stoa of Attalos on its east side was rebuilt in the 1950s and is now a museum."
+    },
+    {
+     "h": "Areopagus",
+     "t": "The Areopagus is a rocky hill northwest of the Acropolis that gave its name to the council that met there. Acts 17:19 says Paul was brought “to the Areopagus.” Scholars debate whether that means the hill or the council, which may have met elsewhere."
+    }
+   ],
+   "discussion": "Paul was relieved when he heard his friends were standing firm. Who in my life could use a message of encouragement from me this week?",
+   "book": "The first letter to the Thessalonians · 5 chapters. One of Paul’s earliest letters, full of warmth and hope.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Thessalonica",
+   "refNotes": {
+    "Zechariah 14:5": "With all his holy ones",
+    "Job 1:6-12": "The tempter",
+    "Genesis 3:1-6": "The first temptation"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Alone in Athens"
+    },
+    {
+     "n": "Timothy",
+     "d": "Sent and returned"
+    },
+    {
+     "n": "The Thessalonians",
+     "d": "Stood firm"
+    },
+    {
+     "n": "The Tempter",
+     "d": "Tried to shake them"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Timothy sent"
+    },
+    {
+     "when": "v.6-10",
+     "label": "Good news"
+    },
+    {
+     "when": "v.11-13",
+     "label": "Prayer"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Athens",
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "verses": [
+     1
+    ],
+    "slug": "athens"
+   },
+   {
+    "name": "Thessalonica",
+    "lat": 40.6401,
+    "lng": 22.9444,
+    "verses": [],
+    "slug": "thessalonica"
+   },
+   {
+    "name": "Corinth",
+    "lat": 37.906,
+    "lng": 22.88,
+    "verses": [
+     6
+    ],
+    "slug": "corinth"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/V%26A_-_Raphael,_St_Paul_Preaching_in_Athens_(1515).jpg",
+   "caption": "St Paul Preaching in Athens, Raphael's 1515 cartoon for a tapestry. First Thessalonians 3:1 says Paul was \"left behind at Athens alone\" and sent Timothy to Thessalonica from there.",
+   "credit": "Raphael (1515), Victoria and Albert Museum / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20101024_Acropolis_panoramic_view_from_Areopagus_hill_Athens_Greece.jpg",
+   "caption": "The Acropolis seen from the Areopagus, the rocky hill in Athens where Paul spoke to the philosophers (Acts 17:22-31).",
+   "credit": "Photo: Ggia, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

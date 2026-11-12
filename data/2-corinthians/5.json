@@ -1,0 +1,242 @@
+{
+  "book": "2 Corinthians",
+  "chapter": 5,
+  "title": "The Ministry of Reconciliation",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Now we know that if the earthly tent we live in is dismantled, we have a building from God, an eternal house in heaven, not built by human hands."
+    },
+    {
+      "num": 2,
+      "text": "For in this tent we groan, longing to be clothed with our heavenly dwelling,"
+    },
+    {
+      "num": 3,
+      "text": "because when we are clothed, we will not be found naked."
+    },
+    {
+      "num": 4,
+      "text": "So while we are in this tent, we groan under our burdens, because we do not wish to be unclothed but clothed, so that our mortality may be swallowed up by life."
+    },
+    {
+      "num": 5,
+      "text": "And God has prepared us for this very purpose and has given us the Spirit as a pledge of what is to come."
+    },
+    {
+      "num": 6,
+      "text": "Therefore we are always confident, although we know that while we are at home in the body, we are away from the Lord."
+    },
+    {
+      "num": 7,
+      "text": "For we walk by faith, not by sight."
+    },
+    {
+      "num": 8,
+      "text": "We are confident, then, and would prefer to be away from the body and at home with the Lord."
+    },
+    {
+      "num": 9,
+      "text": "So we aspire to please Him, whether we are here in this body or away from it."
+    },
+    {
+      "num": 10,
+      "text": "For we must all appear before the judgment seat of Christ, that each one may receive his due for the things done in the body, whether good or bad."
+    },
+    {
+      "num": 11,
+      "text": "Therefore, since we know what it means to fear the Lord, we try to persuade men. What we are is clear to God, and I hope it is clear to your conscience as well."
+    },
+    {
+      "num": 12,
+      "text": "We are not commending ourselves to you again. Instead, we are giving you an occasion to be proud of us, so that you can answer those who take pride in appearances rather than in the heart."
+    },
+    {
+      "num": 13,
+      "text": "If we are out of our mind, it is for God; if we are of sound mind, it is for you."
+    },
+    {
+      "num": 14,
+      "text": "For Christ's love compels us, because we are convinced that One died for all, therefore all died."
+    },
+    {
+      "num": 15,
+      "text": "And He died for all, that those who live should no longer live for themselves, but for Him who died for them and was raised again."
+    },
+    {
+      "num": 16,
+      "text": "So from now on we regard no one according to the flesh. Although we once regarded Christ in this way, we do so no longer."
+    },
+    {
+      "num": 17,
+      "text": "Therefore if anyone is in Christ, he is a new creation. The old has passed away. Behold, the new has come!"
+    },
+    {
+      "num": 18,
+      "text": "All this is from God, who reconciled us to Himself through Christ and gave us the ministry of reconciliation:"
+    },
+    {
+      "num": 19,
+      "text": "that God was reconciling the world to Himself in Christ, not counting men's trespasses against them. And He has committed to us the message of reconciliation."
+    },
+    {
+      "num": 20,
+      "text": "Therefore we are ambassadors for Christ, as though God were making His appeal through us. We implore you on behalf of Christ: Be reconciled to God."
+    },
+    {
+      "num": 21,
+      "text": "God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Timothy (1:1)",
+    "genre": "Letter, personal and defensive, among Paul’s most emotional",
+    "audience": "The church in Corinth, after a painful period of conflict",
+    "mapLabel": "CORINTH, A NEW CREATION",
+    "setting": "Paul describes our earthly body as a tent and our resurrection body as a house from God, and so he lives with confidence. Then he turns to the heart of his message: the love of Christ compels him, believers are a new creation, and God reconciled the world to himself in Christ and has given the message of reconciliation to his people.",
+    "custom": "Acts 18:3 says Paul made tents, so a “tent” may have come easily to him as a picture of the temporary body. An “ambassador” (v.20) spoke for a ruler who was not present, and his authority came entirely from the one who sent him.",
+    "timelineImmediate": "Chapter 6 opens with “as God’s co-workers we urge you,” continuing the appeal.",
+    "timelineBible": "Verse 17 echoes Isaiah 43:18-19 and 65:17 on new things. Verse 21, “he made him to be sin who knew no sin,” recalls Isaiah 53:6, 10 and the Day of Atonement sin offering.",
+    "sparkNotes": "Our earthly tent will be destroyed, but we have a building from God. We aim to please him, because we all appear before Christ’s judgment seat. Christ’s love compels us, because he died for all. Anyone in Christ is a new creation. God reconciled us, and we are ambassadors, begging others to be reconciled. God made him who had no sin to be sin for us, so that we might become the righteousness of God.",
+    "translation": [
+      {
+        "english": "new creation",
+        "greek": "καινὴ κτίσις (kainē ktisis)",
+        "verseRef": "v.17",
+        "meaning": "A completely new thing made by God. “Kainos” means new in kind, not just new in time.",
+        "gloss": "New in kind"
+      },
+      {
+        "english": "reconciled",
+        "greek": "καταλλάξαντος (katallaxantos)",
+        "verseRef": "v.18-20",
+        "meaning": "To change from enemy to friend. God took the first step by not counting sin against us.",
+        "gloss": "Made friends"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Isaiah 43:18-19",
+        "note": "“Behold, I am doing a new thing.”"
+      },
+      {
+        "ref": "Isaiah 53:6",
+        "note": "The Lord laid on him the iniquity of us all."
+      },
+      {
+        "ref": "Leviticus 16",
+        "note": "The Day of Atonement sin offering."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Believers are a new creation. God reconciled the world to himself in Christ, and his people are ambassadors urging others to be reconciled to God.",
+      "settingLine": "Paul writes from Macedonia to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Tentmaking",
+          "t": "Acts 18:3 says Paul and Aquila made tents. Ancient tents were often of leather or goat-hair cloth, but the material of Paul’s tents is not stated."
+        },
+        {
+          "h": "Roman Ambassadors",
+          "t": "Emperors sent legates to govern provinces and envoys to kings, speaking on the emperor’s behalf."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Judgment Seat",
+          "t": "The Greek word is bēma, the raised platform on which a magistrate sat."
+        },
+        {
+          "h": "Down Payment",
+          "t": "The Spirit is the pledge of the full inheritance."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "The Bema in Corinth",
+          "t": "The platform in Corinth’s forum, where Paul faced Gallio."
+        },
+        {
+          "h": "Tents",
+          "t": "Goat-hair tents are still used by Bedouin today."
+        }
+      ],
+      "discussion": "Paul says the love of Christ compels him. What is the motive that most often drives my choices, and how does Christ’s love compare?",
+      "book": "The second letter to the Corinthians · 13 chapters. Paul’s most personal letter, written to heal a strained relationship.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Isaiah 43:18-19": "A new thing",
+        "Isaiah 53:6": "Iniquity laid on him",
+        "Leviticus 16": "The sin offering"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "An ambassador"
+        },
+        {
+          "n": "Christ",
+          "d": "Died and rose for all"
+        },
+        {
+          "n": "Believers",
+          "d": "A new creation"
+        },
+        {
+          "n": "God",
+          "d": "Reconciles the world"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-10",
+          "label": "Tent and building"
+        },
+        {
+          "when": "v.11-15",
+          "label": "Christ’s love compels"
+        },
+        {
+          "when": "v.16-17",
+          "label": "A new creation"
+        },
+        {
+          "when": "v.18-21",
+          "label": "The message of reconciliation"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matthias_Gr%C3%BCnewald_-_The_Crucifixion_-_WGA10723.jpg",
+      "caption": "The Crucifixion, from the Isenheim Altarpiece by Matthias Grünewald (1512-16). Paul says the love of Christ compels him, because one died for all (2 Corinthians 5:14-15).",
+      "credit": "Matthias Grünewald (1512-16), Isenheim Altarpiece / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WadiRumTent.jpg",
+      "caption": "A Bedouin camp at Wadi Rum in Jordan, with a tent of woven cloth. Paul compares the body to \"an earthly tent\" and the resurrection body to a building from God (2 Corinthians 5:1). Acts 18:3 says Paul and his friends made tents, but exactly what their tents were made of is not known.",
+      "credit": "Photo: Niels Elgaard Larsen, CC BY-SA 3.0 / Wikimedia Commons"
+    }
+  }
+}

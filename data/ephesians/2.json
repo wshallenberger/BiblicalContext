@@ -1,0 +1,255 @@
+{
+ "book": "Ephesians",
+ "chapter": 2,
+ "title": "Saved by Grace, One in Christ",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "And you were dead in your trespasses and sins,"
+  },
+  {
+   "num": 2,
+   "text": "in which you used to walk when you conformed to the ways of this world and of the ruler of the power of the air, the spirit who is now at work in the sons of disobedience."
+  },
+  {
+   "num": 3,
+   "text": "All of us also lived among them at one time, fulfilling the cravings of our flesh and indulging its desires and thoughts. Like the rest, we were by nature children of wrath."
+  },
+  {
+   "num": 4,
+   "text": "But because of His great love for us, God, who is rich in mercy,"
+  },
+  {
+   "num": 5,
+   "text": "made us alive with Christ even when we were dead in our trespasses. It is by grace you have been saved!"
+  },
+  {
+   "num": 6,
+   "text": "And God raised us up with Christ and seated us with Him in the heavenly realms in Christ Jesus,"
+  },
+  {
+   "num": 7,
+   "text": "in order that in the coming ages He might display the surpassing riches of His grace, demonstrated by His kindness to us in Christ Jesus."
+  },
+  {
+   "num": 8,
+   "text": "For it is by grace you have been saved through faith, and this not from yourselves; it is the gift of God,"
+  },
+  {
+   "num": 9,
+   "text": "not by works, so that no one can boast."
+  },
+  {
+   "num": 10,
+   "text": "For we are God's workmanship, created in Christ Jesus to do good works, which God prepared in advance as our way of life."
+  },
+  {
+   "num": 11,
+   "text": "Therefore remember that formerly you who are Gentiles in the flesh and called uncircumcised by the so-called circumcision (that done in the body by human hands)—"
+  },
+  {
+   "num": 12,
+   "text": "remember that at that time you were separate from Christ, alienated from the commonwealth of Israel, and strangers to the covenants of the promise, without hope and without God in the world."
+  },
+  {
+   "num": 13,
+   "text": "But now in Christ Jesus you who once were far away have been brought near through the blood of Christ."
+  },
+  {
+   "num": 14,
+   "text": "For He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility"
+  },
+  {
+   "num": 15,
+   "text": "by abolishing in His flesh the law of commandments and decrees. He did this to create in Himself one new man out of the two, thus making peace"
+  },
+  {
+   "num": 16,
+   "text": "and reconciling both of them to God in one body through the cross, by which He extinguished their hostility."
+  },
+  {
+   "num": 17,
+   "text": "He came and preached peace to you who were far away and peace to those who were near."
+  },
+  {
+   "num": 18,
+   "text": "For through Him we both have access to the Father by one Spirit."
+  },
+  {
+   "num": 19,
+   "text": "Therefore you are no longer strangers and foreigners, but fellow citizens with the saints and members of God's household,"
+  },
+  {
+   "num": 20,
+   "text": "built on the foundation of the apostles and prophets, with Christ Jesus Himself as the cornerstone."
+  },
+  {
+   "num": 21,
+   "text": "In Him the whole building is fitted together and grows into a holy temple in the Lord."
+  },
+  {
+   "num": 22,
+   "text": "And in Him you too are being built together into a dwelling place for God in His Spirit."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1; 3:1), though some scholars question this",
+  "genre": "Letter, part prayer and part teaching, with a very long opening sentence",
+  "audience": "Believers in Ephesus and probably nearby churches (the oldest manuscripts lack “in Ephesus” in 1:1)",
+  "mapLabel": "EPHESUS, JEW AND GENTILE MADE ONE",
+  "setting": "Paul reminds the readers that they were dead in sins, following the world and the prince of the power of the air. But God, rich in mercy, made them alive with Christ and saved them by grace. He then shows that Gentiles, once far off, have been brought near, and the wall dividing Jew from Gentile has been broken down.",
+  "custom": "In the Jerusalem Temple, a stone wall carried a warning in Greek that Gentiles could not go further under penalty of death. Paul alludes to that barrier when he speaks of “the dividing wall of hostility” (v.14).",
+  "timelineImmediate": "Chapter 3 gives Paul’s place in that mystery and his prayer.",
+  "timelineBible": "Verse 13-17 draws on Isaiah 57:19, “peace to those far and near.” The picture of the church as a temple draws on the Old Testament sanctuary with Christ as the cornerstone (Isaiah 28:16).",
+  "sparkNotes": "You were dead in your trespasses, but God, being rich in mercy, made us alive in Christ. By grace you have been saved through faith, not by works. We are God’s workmanship, created for good works. Once you were far away, but Christ is our peace and has broken down the wall between Jew and Gentile. Now you are fellow citizens and a holy temple.",
+  "translation": [
+   {
+    "english": "workmanship",
+    "greek": "ποίημα (poiēma)",
+    "verseRef": "v.10",
+    "meaning": "The word for a poem or a made thing. We are God’s handiwork.",
+    "gloss": "Handiwork"
+   },
+   {
+    "english": "grace",
+    "greek": "χάριτί (chariti)",
+    "verseRef": "v.5, 8",
+    "meaning": "Undeserved favor. Paul says salvation is a gift.",
+    "gloss": "Free gift"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 57:19",
+    "note": "“Peace, peace to those far and near.”"
+   },
+   {
+    "ref": "Isaiah 28:16",
+    "note": "A tested stone, a precious cornerstone."
+   },
+   {
+    "ref": "Isaiah 9:6",
+    "note": "The Prince of Peace."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Saved by grace through faith, not by works, we are made one people. Christ is our peace and tore down the wall between Jew and Gentile.",
+   "settingLine": "Paul writes from prison to the churches around Ephesus.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "The Temple Barrier",
+     "t": "Josephus describes the stone barrier with its warning inscription."
+    },
+    {
+     "h": "Gentile Outsiders",
+     "t": "Gentiles were “without God” as far as Israel’s covenant went."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Citizenship",
+     "t": "Roman citizenship was a high privilege. Paul says Gentiles now share in Israel’s commonwealth."
+    },
+    {
+     "h": "Cornerstone",
+     "t": "A stone set at the corner or the top of a building that held the walls together. Scholars disagree whether Paul means a foundation stone or a capstone."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Temple Warning Inscription",
+     "t": "A Greek stone found in Jerusalem forbids foreigners from passing the barrier."
+    },
+    {
+     "h": "Herodian Stones",
+     "t": "The huge stones around the Temple Mount are Herod’s work."
+    }
+   ],
+   "discussion": "Paul says we are God’s workmanship, created for good works. How does knowing salvation is a gift change the way I think about doing good?",
+   "book": "The letter to the Ephesians · 6 chapters. A grand view of the church as God’s new family, written from prison.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The churches around Ephesus",
+   "refNotes": {
+    "Isaiah 57:19": "Far and near",
+    "Isaiah 28:16": "The cornerstone",
+    "Isaiah 9:6": "Our peace"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Believers",
+     "d": "Once dead, now alive"
+    },
+    {
+     "n": "Gentiles",
+     "d": "Brought near"
+    },
+    {
+     "n": "Jews",
+     "d": "The nearer ones"
+    },
+    {
+     "n": "Christ",
+     "d": "Our peace"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Dead in sin"
+    },
+    {
+     "when": "v.4-10",
+     "label": "Saved by grace"
+    },
+    {
+     "when": "v.11-18",
+     "label": "The wall broken down"
+    },
+    {
+     "when": "v.19-22",
+     "label": "A holy temple"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7767,
+    "lng": 35.2342,
+    "verses": [
+     14
+    ],
+    "slug": "jerusalem"
+   },
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chora_Anastasis1.jpg",
+   "caption": "The Anastasis fresco in the Chora Church in Istanbul, painted about 1320. Christ pulls Adam and Eve out of their tombs. In Ephesians 2:4-6 Paul says God made us alive together with Christ and raised us up with Him.",
+   "credit": "Unknown artist (about 1320), Chora Church, Istanbul / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TR.IZ.Selcuk_Ephesus_2011-10-04_Temple-of-Artemis_07_3x2-R_5K.jpg",
+   "caption": "The single reconstructed column of the Temple of Artemis at Ephesus, one of the Seven Wonders of the ancient world and the center of the silversmiths' trade (Acts 19:24-27).",
+   "credit": "Photo: Roy Egloff, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

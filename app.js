@@ -21,6 +21,7 @@ let timelineData = null;
 let WW = { w: {}, k: {}, e: {} };
 const wwP = fetch('data/word-world.json').then(r => (r.ok ? r.json() : null)).then(j => { if (j) WW = j; }).catch(() => {});
 let SUM = {};
+let ddFrom = null, ddFromNext = null;   // where the Deep Dive was opened from (a verse in the reader)
 const sumP = fetch('data/summaries.json').then(r => (r.ok ? r.json() : {})).then(j => { SUM = j || {}; }).catch(() => {});
 let chapterIndex = null;
 const chapterIndexP = fetch('data/chapter-index.json').then(r => (r.ok ? r.json() : null)).then(j => { chapterIndex = j; return j; }).catch(() => null);
@@ -34,7 +35,7 @@ let currentBook = null;
 let currentChapterNum = null;
 let currentChapterData = null;
 let currentScreen = 'read';
-let navStep = 'books'; // 'books' | 'chapters', used inside the booknav screen
+let navStep = 'hub'; // 'hub' | 'books' | 'chapters' | 'topics' | 'topic', used inside the booknav screen
 let navBrowsingBook = null; // book slug currently being drilled into in booknav
 
 // ---------- DOM refs ----------
@@ -577,7 +578,15 @@ function pickShowChapters(slug) {
     if (currentScreen === 'deepdive') { renderFolderContent(); ddToTop(); }
   }));
 }
-document.getElementById('ddPickBtn').addEventListener('click', () => { pickShowBooks(); pickOverlay.hidden = false; });
+// Round 88: one searchable drop-down (bcpick.js) for every book and chapter choice
+async function goPassage(slug, n) {
+  currentBook = slug; currentChapterNum = n;
+  await loadChapter();
+  if (currentScreen === 'deepdive') { renderFolderContent(); ddToTop(); }
+}
+function openPassagePicker(anchor) { BCPick.open({ anchor, slug: currentBook, chapter: currentChapterNum, onPick: goPassage }); }
+document.getElementById('ddPickBtn').addEventListener('click', ev => openPassagePicker(ev.currentTarget));
+document.getElementById('readPick').addEventListener('click', ev => openPassagePicker(ev.currentTarget));
 document.getElementById('pickX').addEventListener('click', () => { pickOverlay.hidden = true; });
 pickBack.addEventListener('click', pickShowBooks);
 
@@ -587,6 +596,8 @@ function syncQuickNav() {
     const bk = manifest.books.find(b => b.slug === currentBook);
     pb.firstChild.textContent = (bk ? bk.name : '') + ' ' + currentChapterNum + ' ';
   }
+  const rl = document.getElementById('readPickLbl');
+  if (rl && manifest) { const bk = manifest.books.find(b => b.slug === currentBook); rl.textContent = (bk ? bk.name : '') + ' ' + currentChapterNum; }
   populateBookSelect(readBookSelect);
   populateChapterSelect(readChapterSelect);
   populateBookSelect(ddBookSelect);
@@ -618,6 +629,7 @@ document.getElementById('harmonyBackBtn').addEventListener('click', () => {
 
 // ---------- Deep Dive landing page: pick a book (its overview opens), then a chapter ----------
 let dhPick = null;
+let dhOpen = null; // which groups are open on the Deep Dive landing
 function dhBookView(slug) {
   const mb = manifest.books.find(b => b.slug === slug); if (!mb) return '';
   const B = BOOKS && BOOKS.books && BOOKS.books[slug], st = BOOKS && BOOKS.stats && BOOKS.stats[slug];
@@ -644,35 +656,33 @@ function renderDiveHome() {
   const box = document.getElementById('diveHome'); if (!box || !manifest) return;
   if (dhPick && !BOOKS) { loadBooks().then(() => { if (dhPick && currentScreen === 'divehome') renderDiveHome(); }); }
   if (dhPick) { box.innerHTML = dhBookView(dhPick); return; }
-  const have = new Map(manifest.books.map(b => [b.name, b]));
   const cur = currentChapterData;
   const resume = cur ? `<button type="button" class="dh-resume" data-go="resume"><span><em>PICK UP WHERE YOU LEFT OFF</em><b>${escHtml(cur.book)} ${cur.chapter}${cur.title ? ' · ' + escHtml(cur.title) : ''}</b></span><i>›</i></button>` : '';
-  const tiles = manifest.books.map(b => {
-    const f = GOSPEL_FACTS[b.slug];
-    return `<button type="button" class="dh-tile" data-b="${b.slug}" style="--c:${MAP_BOOK_COLORS[b.slug] || '#8a6d0b'}"><b>${escHtml(b.name)}</b><span class="dh-n">${b.availableChapters.length} chapters</span>${f ? `<em>${escHtml(f.focus)}</em>` : ''}</button>`;
-  }).join('');
-  const shelf = TL_GROUPS.map((g, gi) => {
-    const books = TL_BOOKS.filter(b => b[2] === gi);
-    const spine = b => {
-      const mb = have.get(b[0]), w = Math.min(34, Math.round(15 + 3.2 * Math.sqrt(b[1])));
-      return `<button type="button" class="dh-sp${mb ? ' ok' : ''}" ${mb ? `data-b="${mb.slug}"` : 'disabled'} title="${escHtml(b[0])}${mb ? '' : ' · coming soon'}" style="--c:${g.c};flex:0 1 ${w}px"><span>${escHtml(b[0])}</span></button>`;
-    };
-    // every group sits on one row of spines; Letters (the longest) takes two
-    const rows = g.n === 'Letters' ? [books.slice(0, Math.ceil(books.length / 2)), books.slice(Math.ceil(books.length / 2))] : [books];
-    return `<div class="dh-grp"><h5 style="color:${g.c}">${g.n}</h5>${rows.map(r => `<div class="dh-row">${r.map(spine).join('')}</div>`).join('')}</div>`;
+  // Round 88: one search button and four short groups instead of 27 tiles and a shelf
+  const grpOf = slug => (['matthew', 'mark', 'luke', 'john'].includes(slug) ? 'Gospels' : slug === 'acts' ? 'Acts' : slug === 'revelation' ? 'Revelation' : 'Letters');
+  const GBLURB = { Gospels: 'The life of Jesus', Acts: 'The first church', Letters: 'Paul, Peter, John and others', Revelation: 'The end and the new beginning' };
+  if (dhOpen === null) dhOpen = {};
+  const groups = ['Gospels', 'Acts', 'Letters', 'Revelation'].map(g => {
+    const bs = manifest.books.filter(b => grpOf(b.slug) === g);
+    if (!bs.length) return '';
+    const col = (TL_GROUPS.find(x => x.n === g) || {}).c || '#8a6d0b';
+    const chips = bs.map(b => `<button type="button" class="dh-chip" data-b="${b.slug}" style="--c:${MAP_BOOK_COLORS[b.slug] || col}"><b>${escHtml(b.name)}</b><span>${b.availableChapters.length} ch.</span></button>`).join('');
+    return `<details class="dh-g" data-g="${g}" style="--c:${col}"${dhOpen[g] ? ' open' : ''}><summary><b>${g}</b><span>${GBLURB[g]}</span><em>${bs.length}</em></summary><div class="dh-chips">${chips}</div></details>`;
   }).join('');
   box.innerHTML = `<p class="panel-eyebrow">DEEP DIVE</p>
     <h2 class="dh-title">Go deeper into the Word</h2>
-    <p class="dh-intro">Want to learn more about the history, setting and customs of the time? Pick a book, then a chapter, to dive deeper.</p>
+    <p class="dh-intro">Explore the history, setting and customs behind any passage. Search for a book and chapter, or browse a book below.</p>
+    <button type="button" class="rd-pass dh-find" id="dhFind" aria-haspopup="dialog" aria-expanded="false"><span>Find a book and chapter</span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
     ${resume}
-    <h3 class="dh-h">Ready to explore</h3>
-    <div class="dh-tiles">${tiles}</div>
-    <h3 class="dh-h">The whole Bible <span>the other books are on their way</span></h3>
-    <div class="dh-shelf">${shelf}</div>`;
+    <h3 class="dh-h">Browse by book <span>tap one for its overview and chapters</span></h3>
+    <div class="dh-groups">${groups}</div>`;
 }
 (function wireDiveHome() {
   const box = document.getElementById('diveHome'); if (!box) return;
+  box.addEventListener('toggle', ev => { const d = ev.target; if (d && d.dataset && d.dataset.g) { dhOpen = dhOpen || {}; dhOpen[d.dataset.g] = d.open ? 1 : 0; } }, true);
   box.addEventListener('click', ev => {
+    const f = ev.target.closest('#dhFind');
+    if (f) { BCPick.open({ anchor: f, slug: currentBook, chapter: currentChapterNum, onPick: (bk, n) => openPassage(bk, n, 1, true) }); return; }
     const c = ev.target.closest('[data-c]'), b = ev.target.closest('[data-b]'), g = ev.target.closest('[data-go]');
     if (g) { if (g.dataset.go === 'home') { dhPick = null; renderDiveHome(); box.scrollTop = 0; } else { goToScreen('deepdive'); ddToTop(); } return; }
     if (c && dhPick) { openPassage(dhPick, Number(c.dataset.c), 1, true); return; }
@@ -715,11 +725,13 @@ function goToScreen(name) {
   });
 
   if (name === 'booknav') {
-    navStep = 'books';
-    navBrowsingBook = null;
+    navStep = 'hub';
+    navBrowsingBook = null; navTopicId = null;
     renderBookNav();
   }
   if (name === 'deepdive') {
+    if (prevScreen !== 'deepdive') { ddFrom = ddFromNext; }
+    ddFromNext = null;
     renderDeepDive();
   }
   if (name === 'divehome') renderDiveHome();
@@ -1961,37 +1973,34 @@ function openTimelineAtChapter(book, ch) {
 }
 
 // ---------- Book navigator ----------
-function renderBookNav() {
-  if (navStep === 'books') {
-    navHeaderTitle.textContent = 'Books';
-    navBackBtn.style.visibility = 'hidden';
-    navBookList.style.display = 'block';
-    navChapterGrid.style.display = 'none';
-    try { Home.readQuick(true); } catch (e) { /* ignore */ }
+let topicsP = null;
+function loadTopics() { return topicsP || (topicsP = fetch('data/topics.json').then(r => (r.ok ? r.json() : null)).catch(() => null)); }
+let navTopicId = null;     // the collection being read when navStep is 'topic'
+let navOpen = null;        // which book groups are open on the Read the Word page
+const NAV_GROUPS = ['Gospels', 'Acts', 'Letters', 'Revelation'];
+const NAV_GBLURB = { Gospels: 'The life of Jesus', Acts: 'The first church', Letters: 'Paul, Peter, John and others', Revelation: 'The end and the new beginning' };
+const navGroupOf = slug => (['matthew', 'mark', 'luke', 'john'].includes(slug) ? 'Gospels' : slug === 'acts' ? 'Acts' : slug === 'revelation' ? 'Revelation' : 'Letters');
+const HUB_ICON = {
+  word: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v15H5.5A1.5 1.5 0 0 0 4 20.5v-15ZM20 5.5c0-.8-.7-1.5-1.5-1.5H13v15h5.5c.8 0 1.5.7 1.5 1.5v-15Z"/></svg>',
+  time: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.2 2"/></svg>'
+};
+let topicOpen = {};        // which groups are open on the A Time for Everything page (all closed at first)
+const TOPIC_COL = { hard: '#8c4646', good: '#b8860b', topic: '#4d5f8f' };
 
-    navBookList.innerHTML = '';
-    manifest.books.forEach(b => {
-      const item = document.createElement('div');
-      item.className = 'nav-item';
-      item.innerHTML = `
-        <span class="nav-item-name">${b.name}</span>
-        <span class="nav-item-meta">${b.availableChapters.length} / ${b.totalChapters} ch.</span>
-      `;
-      item.addEventListener('click', () => {
-        navBrowsingBook = b.slug;
-        navStep = 'chapters';
-        renderBookNav();
-      });
-      navBookList.appendChild(item);
-    });
-  } else {
+function navSet(title, back) { navHeaderTitle.textContent = title; navBackBtn.style.visibility = back ? 'visible' : 'hidden'; const f = document.getElementById('navFindTop'); if (f) f.hidden = title !== 'Read'; }
+function navOpenPicker(anchor) { BCPick.open({ full: true, anchor, slug: currentBook, chapter: currentChapterNum, onPick: async (b, n) => { currentBook = b; currentChapterNum = n; await loadChapter(); goToScreen('read'); } }); }
+(function () { const f = document.getElementById('navFindTop'); if (f) f.addEventListener('click', () => navOpenPicker(f)); })();
+function navRef(r) { const b = manifest.books.find(x => x.slug === r[0]); return (b ? b.name : r[0]) + ' ' + r[1] + ':' + r[2] + (r[3] > r[2] ? '–' + r[3] : ''); }
+
+function renderBookNav() {
+  const body = document.getElementById('navBody');
+  navBookList.scrollTop = 0;
+  if (navStep === 'chapters') {
     const book = manifest.books.find(b => b.slug === navBrowsingBook);
-    navHeaderTitle.textContent = book.name;
-    navBackBtn.style.visibility = 'visible';
+    navSet(book.name, true);
     navBookList.style.display = 'none';
     navChapterGrid.style.display = 'grid';
     try { Home.readQuick(false); } catch (e) { /* ignore */ }
-
     navChapterGrid.innerHTML = '';
     for (let n = 1; n <= book.totalChapters; n++) {
       const available = book.availableChapters.includes(n);
@@ -2008,12 +2017,77 @@ function renderBookNav() {
       }
       navChapterGrid.appendChild(cell);
     }
+    return;
   }
+  navChapterGrid.style.display = 'none';
+  navBookList.style.display = 'block';
+  try { Home.readQuick(navStep === 'hub'); } catch (e) { /* ignore */ }
+  if (navStep === 'hub') {
+    navSet('Read', false);
+    if (navOpen === null) navOpen = {};
+    const groups = NAV_GROUPS.map(g => {
+      const bs = manifest.books.filter(b => navGroupOf(b.slug) === g);
+      if (!bs.length) return '';
+      const col = (TL_GROUPS.find(x => x.n === g) || {}).c || '#8a6d0b';
+      const rows = bs.map(b => `<div class="nav-item" data-bk="${b.slug}"><span class="nav-item-name">${escHtml(b.name)}</span><span class="nav-item-meta">${b.availableChapters.length} / ${b.totalChapters} ch.</span></div>`).join('');
+      return `<details class="dh-g" data-g="${g}" style="--c:${col}"${navOpen[g] ? ' open' : ''}><summary><b>${g}</b><span>${NAV_GBLURB[g]}</span><em>${bs.length}</em></summary>${rows}</details>`;
+    }).join('');
+    body.innerHTML = `<button type="button" class="hub-card hub-time" data-step="topics"><span class="hub-ic">${HUB_ICON.time}</span><span class="hub-tx"><b>A Time for Everything…</b><span>Passages for what you are feeling or facing: in hard times, in good times, and by topic.</span></span><i class="hub-go">›</i></button>
+      <h2 class="hub-sec">Read the Word</h2>
+      <p class="hub-sub">All ${manifest.books.length} books of the New Testament</p>
+      <button type="button" class="rd-pass nav-find" id="navFind" aria-haspopup="dialog" aria-expanded="false"><span>Find a book and chapter</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+      <div class="dh-groups">${groups}</div>`;
+    return;
+  }
+  // 'topics' and 'topic' need the collections file
+  body.innerHTML = '<p class="tp-intro">Loading…</p>';
+  const want = navStep, wantId = navTopicId;
+  loadTopics().then(d => {
+    if (navStep !== want || navTopicId !== wantId || currentScreen !== 'booknav') return;
+    if (!d) { body.innerHTML = '<p class="tp-intro">These passages could not be loaded. Check your connection and try again.</p>'; return; }
+    if (want === 'topics') {
+      navSet(d.title, true);
+      body.innerHTML = `<p class="tp-intro">${escHtml(d.intro)}</p>` + d.groups.map(g => {
+        const open = !!topicOpen[g.i], more = g.c.length > 4;
+        return `<section class="tp-sec" data-tg="${g.i}" style="--c:${TOPIC_COL[g.i] || '#8a6d0b'}"><h3 class="tp-h"><b>${escHtml(g.t)}</b><span>${escHtml(g.s)}</span></h3><div class="tp-tiles${open ? ' all' : ''}">${g.c.map((c, k) => `<button type="button" class="tp-tile${k >= 4 ? ' tp-x' : ''}" data-topic="${c.i}"><b>${escHtml(c.t)}</b><span>${escHtml(c.b)}</span><i>${c.p.length} passages</i></button>`).join('')}</div>${more ? `<button type="button" class="tp-showall" data-showall="${g.i}">${open ? 'Show fewer' : 'Show all ' + g.c.length}</button>` : ''}</section>`;
+      }).join('');
+      return;
+    }
+    let col = null; d.groups.forEach(g => g.c.forEach(c => { if (c.i === wantId) col = c; }));
+    if (!col) { navStep = 'topics'; renderBookNav(); return; }
+    navSet(col.t, true);
+    body.innerHTML = `<p class="tp-intro">${escHtml(col.in)}</p>` + col.p.map((p, k) =>
+      `<article class="tp-card" data-k="${k}"><header><b>${escHtml(navRef(p.r))}</b><button type="button" class="tp-ctx" data-ctx="${p.r.join('|')}">Read in context ›</button></header><p class="tp-note">${escHtml(p.n)}</p><blockquote class="tp-txt">…</blockquote><button type="button" class="tp-more" hidden>More</button></article>`).join('');
+    col.p.forEach((p, k) => {
+      Home.verse(p.r).then(v => {
+        const card = body.querySelector(`.tp-card[data-k="${k}"]`); if (!card || !v) return;
+        const q = card.querySelector('.tp-txt'); q.textContent = v.text;
+        requestAnimationFrame(() => { if (q.scrollHeight > q.clientHeight + 2) card.querySelector('.tp-more').hidden = false; });
+      });
+    });
+  });
 }
 
+(function wireBookNav() {
+  navBookList.addEventListener('toggle', ev => { const d = ev.target; if (!d || !d.dataset) return; if (d.dataset.g) { navOpen = navOpen || {}; navOpen[d.dataset.g] = d.open ? 1 : 0; } }, true);
+  navBookList.addEventListener('click', ev => {
+    const t = ev.target;
+    const sa = t.closest('[data-showall]');
+    if (sa) { const id = sa.dataset.showall; topicOpen[id] = topicOpen[id] ? 0 : 1; const g = sa.parentNode; g.querySelector('.tp-tiles').classList.toggle('all', !!topicOpen[id]); sa.textContent = topicOpen[id] ? 'Show fewer' : 'Show all ' + g.querySelectorAll('.tp-tile').length; return; }
+    const st = t.closest('[data-step]'), tp = t.closest('[data-topic]'), bk = t.closest('[data-bk]'), cx = t.closest('[data-ctx]'), more = t.closest('.tp-more'), find = t.closest('#navFind');
+    if (find) { navOpenPicker(find); return; }
+    if (st) { navStep = st.dataset.step; renderBookNav(); return; }
+    if (tp) { navTopicId = tp.dataset.topic; navStep = 'topic'; renderBookNav(); return; }
+    if (bk) { navBrowsingBook = bk.dataset.bk; navStep = 'chapters'; renderBookNav(); return; }
+    if (cx) { const r = cx.dataset.ctx.split('|'); openPassage(r[0], Number(r[1]), Number(r[2]), false); return; }
+    if (more) { const q = more.parentNode.querySelector('.tp-txt'); const on = q.classList.toggle('open'); more.textContent = on ? 'Less' : 'More'; }
+  });
+})();
+
 navBackBtn.addEventListener('click', () => {
-  navStep = 'books';
-  navBrowsingBook = null;
+  if (navStep === 'chapters') { navStep = 'hub'; navBrowsingBook = null; }
+  else if (navStep === 'topic') { navStep = 'topics'; navTopicId = null; }
+  else navStep = 'hub';
   renderBookNav();
 });
 
@@ -2055,10 +2129,11 @@ function applyKwExtra(ch, kx) {
 
 // ---------- Load + render a chapter (Read screen) ----------
 // ---------- Red letter: where Jesus is speaking (data/redletter/<book>.json; character ranges in the BSB verse text) ----------
-const RL_CACHE = {};
+const RL_CACHE = {}, RL_FAILED = {};
 async function loadRedLetter(book) {
-  if (RL_CACHE[book] !== undefined) return RL_CACHE[book];
-  try { RL_CACHE[book] = await fetchJSON(`data/redletter/${book}.json`); } catch (e) { RL_CACHE[book] = null; }
+  // a good load is kept for the visit; a failed one (a dropped connection, an update in progress) is tried again after 20 seconds instead of switching red letters off until the next reload
+  if (RL_CACHE[book] !== undefined && !(RL_CACHE[book] === null && Date.now() - (RL_FAILED[book] || 0) > 20000)) return RL_CACHE[book];
+  try { RL_CACHE[book] = await fetchJSON(`data/redletter/${book}.json`); delete RL_FAILED[book]; } catch (e) { RL_CACHE[book] = null; RL_FAILED[book] = Date.now(); }
   return RL_CACHE[book];
 }
 function rlSpans(book, ch, num) { const d = RL_CACHE[book]; return (d && d[ch] && d[ch][num]) || null; }
@@ -2253,6 +2328,7 @@ function renderSheetTiles(ch, verseNum) {
   if (w1) { let fs = 12.5; w1.style.fontSize = fs + 'px'; while (w1.scrollWidth > w1.clientWidth && fs > 8) { fs -= 0.5; w1.style.fontSize = fs + 'px'; } }
 
   sheetGrid.querySelectorAll('.ov-blk').forEach(btn => btn.addEventListener('click', () => {
+    ddMarkFromVerse();
     closeSheet();
     goToScreen('deepdive');
     setTab(tabOrder.indexOf(btn.dataset.go));
@@ -2508,7 +2584,7 @@ function cmLinkLabel(e) {
   if (/gty\.org\/sermons\/series/.test(u)) return 'See the series on Grace to You ↗';
   if (/gty\.org/.test(u)) return 'Open on Grace to You ↗';
   if (/studylight/.test(u)) return 'Read Barclay on StudyLight ↗';
-  if (/thattheworldmayknow/.test(u)) return 'Read on That the World May Know ↗';
+  if (/thattheworldmayknow/.test(u)) return 'Open on That the World May Know ↗';
   if (/podcast\.de|spotify|podbean|listennotes|podcasts\.apple/.test(u)) return 'Listen to the episode ↗';
   return 'Open ↗';
 }
@@ -2529,7 +2605,7 @@ function cmCredit(list) {
   if (list.some(e => /Barclay/.test(e[1]))) bits.push('Barclay’s tiles are short summaries of his Daily Study Bible, in our own words (the full text is copyrighted, so we link out)');
   if (list.some(e => /Kramer/.test(e[1]))) bits.push('Joel Kramer’s tiles are our own short notes on an archaeological find. Where we have confirmed a matching Expedition Bible video the link goes straight to it; otherwise it searches his channel on YouTube');
   if (list.some(e => /Stott/.test(e[1]))) bits.push('Stott’s tiles are short pointers to his books, in our own words, matched to the chapter of the book that covers the passage');
-  if (list.some(e => /Vander Laan/.test(e[1]))) bits.push('Vander Laan’s tiles are short summaries of his free articles at That the World May Know');
+  if (list.some(e => /Vander Laan/.test(e[1]))) bits.push('Vander Laan’s tiles are short summaries of his articles and video lessons at That the World May Know (the video lessons may be rented or bought)');
   if (has('e')) bits.push('early-church excerpts are public-domain translations via <a href="https://historicalchristian.faith" target="_blank" rel="noopener">historicalchristian.faith</a>');
   return bits.length ? bits.join('; ').replace(/^./, c => c.toUpperCase()) + '.' : '';
 }
@@ -2559,7 +2635,7 @@ function linkBlurb(e, sm) {
     return '';
   }
   if (who === 'Tim Keller') {
-    const series = parts[1] && !/^all sermons/.test(parts[1]) ? ` from his “${parts[1]}” series` : '';
+    const series = parts.length > 2 && parts[1] && !/^all sermons/.test(parts[1]) ? ` from his “${parts[1]}” series` : '';
     if (sm && sm.by) return `A sermon by ${sm.by}, preached on ${r}.`;
     return `A full sermon by Keller${series}, preached on ${r}, unpacking the text and showing how it points to Christ.`;
   }
@@ -2570,15 +2646,16 @@ function linkBlurb(e, sm) {
   }
   if (/Mitchell|2819/.test(who)) {
     const guest = (e[3].match(/·\s*(.+)$/) || [])[1];
-    return guest ? `A sermon by ${guest} at 2819 Church, on ${r}. The link opens a search on the church’s YouTube channel.` : `A sermon by Philip Anthony Mitchell of 2819 Church, on ${r}. The link opens a search on the church’s YouTube channel.`;
+    const tail = /youtube/.test(u) ? ' The link opens a search on the church’s YouTube channel.' : ' The link opens the episode on Spotify.';
+    return guest ? `A sermon by ${guest} at 2819 Church, on ${r}.${tail}` : `A sermon by Philip Anthony Mitchell of 2819 Church, on ${r}.${tail}`;
   }
   if (/Howerton|Lakepointe/.test(who)) return `A sermon by Josh Howerton at Lakepointe Church, on ${r}. The link opens a search on the church’s YouTube channel.`;
-  if (who === 'Alistair Begg') { const ser = parts[1] ? ` in his “${parts[1]}” series` : ''; return `A sermon by Alistair Begg, pastor of Parkside Church and teacher on Truth for Life${ser}, on ${r}.`; }
+  if (who === 'Alistair Begg') { const ser = parts.length > 2 && parts[1] ? ` in his “${parts[1]}” series` : ''; return `A sermon by Alistair Begg, pastor of Parkside Church and teacher on Truth for Life${ser}, on ${r}.`; }
   if (who === 'Marty Solomon') return `An episode of the BEMA Podcast with Marty Solomon, working through ${r} with its Jewish and cultural background.`;
   if (who === 'John MacArthur') return /series/.test(work) ? `A multi-part Grace to You series by John MacArthur on ${r}, preached verse by verse.` : `A verse-by-verse sermon by John MacArthur on ${r}, from the Grace to You library.`;
   if (who === 'Charles Spurgeon') {
     const n = (work.match(/#(\d+)/) || [])[1];
-    return `Spurgeon’s own sermon${n ? ' no. ' + n : ''} preaching ${r}; vivid, Christ-centered Victorian preaching, opened as a PDF.`;
+    return `Spurgeon’s own sermon${n ? ' no. ' + n : ''} preaching ${r}; vivid, Christ-centered Victorian preaching, opened ${/\.pdf$/.test(u) ? 'as a PDF' : 'on the web'}.`;
   }
   return '';
 }
@@ -2954,7 +3031,34 @@ function ddToTop() {
   };
   reset(); requestAnimationFrame(reset); setTimeout(reset, 120);
 }
+// Where the Deep Dive was opened from (a verse in the reader): its back button returns there instead of the Deep Dive landing page.
+function ddMarkFromVerse() {
+  const a = document.querySelector('#verseList .verse.active');
+  const v = a ? Number(a.dataset.verse) : (wbwTabVerse || 0);
+  ddFromNext = v ? { book: currentBook, chap: currentChapterNum, verse: v } : null;
+}
+function ddSyncBack() {
+  const b = document.getElementById('ddBack'); if (!b) return;
+  if (ddFrom && (ddFrom.book !== currentBook || ddFrom.chap !== currentChapterNum)) ddFrom = null;
+  b.innerHTML = ddFrom ? '&lsaquo; ' + escHtml(getShortName(ddFrom.book)) + ' ' + ddFrom.chap + ':' + ddFrom.verse : '&lsaquo; Deep Dive';
+}
+(function () {
+  const b = document.getElementById('ddBack'); if (!b) return;
+  b.addEventListener('click', ev => {
+    if (!ddFrom) return;                         // no verse to return to: the normal back (Deep Dive landing page)
+    ev.preventDefault(); ev.stopPropagation();
+    const f = ddFrom; ddFrom = null;
+    goToScreen('read');
+    const show = () => {
+      const el = document.querySelector(`#verseList .verse[data-verse="${f.verse}"]`);
+      if (el) scrollToVerseIn(el);
+    };
+    setTimeout(show, 60); setTimeout(show, 200);
+    setTimeout(() => { try { if (currentScreen === 'read' && currentBook === f.book && currentChapterNum === f.chap) { openSummary(f.verse); show(); } } catch (e) {} }, 260);
+  });
+})();
 diveBtn.addEventListener('click', () => {
+  ddMarkFromVerse();
   closeSheet();
   goToScreen('deepdive');
   ddToTop();
@@ -2966,8 +3070,74 @@ function renderDeepDive() {
   renderFolderContent();
 }
 
+// Epistle chapters carry no hand-written chapter commentary, so it is drawn from the verse commentary (data/mix):
+// for each text-bearing voice, its first full note in the chapter. Gospel chapters keep their own entries.
+const CM_CH_PRI = ['guzik', 'barclay', 'henry', 'spurgeon', 'early', 'bema', 'stott'];
+const CM_CH_YEAR = { guzik: 'Enduring Word', barclay: '1950s', henry: '1710', spurgeon: '1800s' };
+function deriveChapterCommentary(data) {
+  if (!data) return [];
+  const best = {};
+  Object.keys(data).map(Number).sort((a, b) => a - b).forEach(v => {
+    (data[v] || []).forEach(e => {
+      if (!Array.isArray(e) || e[7] === 't' || String(e[3] || '').length < 110) return;
+      const k = cmVoiceKey(e[1], e[0]);
+      if (!k || best[k] || CM_CH_PRI.indexOf(k) < 0) return;
+      const last = String(e[2] || '').split(' · ').pop();
+      best[k] = { source: cmShort[e[1]] || e[1], year: CM_CH_YEAR[k] || '', note: String(e[3]).replace(/<[^>]*>/g, ''), url: e[4] || '', plain: true, range: /^vv?\./.test(last) ? last : '' };
+    });
+  });
+  return CM_CH_PRI.filter(k => best[k]).slice(0, 3).map(k => best[k]);
+}
+function ovVoicesHtml(ctx) {
+  const firstSentence = s => { s = String(s).replace(/<[^>]*>/g, '').trim(); const m = s.match(/^(.+?)([.:])(\s|$)/); return m ? m[1] + '.' : s; };
+  return (ctx.commentary || []).filter(c => cmHidden().indexOf(cmVoiceKey(c.source, 'm')) < 0).slice(0, 2).map((c, i) =>
+    `<div class="ov-q"><b>${escHtml(c.source)}${c.range ? ' · ' + escHtml(c.range) : ''}</b><span class="ov-qt ov-qt${i}">${escHtml(i === 0 ? firstSentence(c.note) : String(c.note).replace(/<[^>]*>/g, ''))}</span></div>`).join('');
+}
+function drawChapterCommentaryList(ctx) {
+  const cList = document.getElementById('commentaryList');
+  if (ctx.commentary && ctx.commentary.length) {
+    document.getElementById('cmChapSub').textContent = ctx.commentary.length + ' commentators';
+    cList.innerHTML = ctx.commentary.map(entry => `
+      <div class="commentary-card exp">
+        <div><span class="commentary-source">${entry.plain ? escHtml(entry.source) : entry.source}${entry.range ? ' · ' + escHtml(entry.range) : ''}</span><span class="commentary-year">${entry.year}</span></div>
+        <p class="commentary-note exp-body" style="margin-top:6px">${entry.plain ? escHtml(entry.note) : entry.note}</p>
+        <div class="exp-extra">${entry.url ? `
+          <a class="commentary-link" href="${entry.url}" target="_blank" rel="noopener">
+            Read the full commentary
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>` : ''}
+        </div>
+        <span class="exp-more"><span class="exp-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+      </div>
+    `).join('');
+  } else {
+    document.getElementById('cmChapSub').textContent = '';
+    cList.innerHTML = `<p class="panel-text dim">No commentary added for this chapter yet.</p>`;
+  }
+
+  wireExpand(cList);
+  capList(cList, 2);
+}
+// Fill ctx.commentary from the verse commentary once, then refresh the Overview tile and the Commentary tab list in place.
+function ensureChapterCommentary(ctx) {
+  if (ctx.commentary && ctx.commentary.length) return;
+  if (ctx._cmx) return;
+  ctx._cmx = true;
+  const book = currentBook, chap = currentChapterNum;
+  loadCommentary(book, chap).then(data => {
+    const list = deriveChapterCommentary(data);
+    if (!list.length) return;
+    ctx.commentary = list;
+    if (book !== currentBook || chap !== currentChapterNum || currentChapterData.context !== ctx) return;
+    const tile = document.querySelector('[data-panel="overview"] .ov-cmblk');
+    if (tile) { const h = tile.querySelector('.ov-h'); tile.innerHTML = ''; if (h) tile.appendChild(h); tile.insertAdjacentHTML('beforeend', ovVoicesHtml(ctx)); fitOvCommentary(); }
+    drawChapterCommentaryList(ctx);
+  });
+}
+
 function renderFolderContent() {
   const ctx = currentChapterData.context;
+  ddSyncBack();
 
   document.getElementById('ctxChapterTitle').textContent =
     currentChapterData.book + ' ' + currentChapterData.chapter + ': ' + currentChapterData.title;
@@ -2984,6 +3154,7 @@ function renderFolderContent() {
     <div class="au-row"><p class="ctx-subhead">GENRE</p><p class="panel-text">${ctx.genre}</p></div>
     <div class="au-row"><p class="ctx-subhead">AUDIENCE</p><p class="panel-text">${ctx.audience}</p></div>`;
   renderOverview(ctx);
+  ensureChapterCommentary(ctx);
   fillTemplateTabs(ctx);
 
   document.getElementById('translationHeading').textContent =
@@ -3036,29 +3207,7 @@ function renderFolderContent() {
   renderWbwTab();
   renderCmTab();
 
-  const cList = document.getElementById('commentaryList');
-  if (ctx.commentary && ctx.commentary.length) {
-    document.getElementById('cmChapSub').textContent = ctx.commentary.length + ' commentators';
-    cList.innerHTML = ctx.commentary.map(entry => `
-      <div class="commentary-card exp">
-        <div><span class="commentary-source">${entry.source}</span><span class="commentary-year">${entry.year}</span></div>
-        <p class="commentary-note exp-body" style="margin-top:6px">${entry.note}</p>
-        <div class="exp-extra">
-          <a class="commentary-link" href="${entry.url}" target="_blank" rel="noopener">
-            Read the full commentary
-            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
-          </a>
-        </div>
-        <span class="exp-more"><span class="exp-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
-      </div>
-    `).join('');
-  } else {
-    document.getElementById('cmChapSub').textContent = '';
-    cList.innerHTML = `<p class="panel-text dim">No commentary added for this chapter yet.</p>`;
-  }
-
-  wireExpand(cList);
-  capList(cList, 2);
+  drawChapterCommentaryList(ctx);
   const gList = document.getElementById('gospelParallelsList');
   document.getElementById('gpSub').textContent = ctx.gospelParallels.length ? ctx.gospelParallels.length + (ctx.gospelParallels.length === 1 ? ' passage' : ' passages') : '';
   document.getElementById('otSub').textContent = ctx.otBackground.length ? ctx.otBackground.length + (ctx.otBackground.length === 1 ? ' passage' : ' passages') : '';
@@ -3447,6 +3596,8 @@ function loadWC() { return wcP || (wcP = fetch('data/word-counts.json').then(r =
 function loadWIDX() { return widxP || (widxP = fetch('data/word-index.json').then(r => (r.ok ? r.json() : null)).catch(() => null).then(j => { WIDX = j; return j; })); }
 function loadBooks() { return booksP || (booksP = fetch('data/books.json').then(r => (r.ok ? r.json() : null)).catch(() => null).then(j => { BOOKS = j; return j; })); }
 const fmtN = n => Number(n).toLocaleString('en-US');
+// how many books the word files cover (Gospels = 4; Gospels + Acts = 5)
+function WCN() { return (WC && WC.b && WC.b.length) || 4; }
 function usageBars(counts) {
   const tot = counts.reduce((a, b) => a + b, 0), mx = Math.max.apply(null, counts) || 1;
   return `<div class="gu-bars">${counts.map((n, i) => `<div class="gu-row${Bk.slugs()[i] === currentBook ? ' cur' : ''}"><span class="gu-l">${LIB_BOOK_SHORT[Bk.slugs()[i]]}</span><span class="gu-bar"><i style="width:${Math.max(n ? 3 : 0, Math.round(n / mx * 100))}%"></i></span><span class="gu-n">${fmtN(n)}</span></div>`).join('')}</div>`;
@@ -3454,10 +3605,26 @@ function usageBars(counts) {
 function chapChips(list, act) {
   return (list || []).map(t => `<button type="button" class="lib-chip" data-lib="${act}" data-b="${Bk.slugs()[t[0]]}" data-c="${t[1]}">${LIB_BOOK_SHORT[Bk.slugs()[t[0]]]} ${t[1]}${t[2] > 1 ? ' · ' + t[2] + '×' : ''}</button>`).join('');
 }
+// "In the Gospels, Acts, Romans ...": the books counted so far, as a phrase. n = how many Gospel/book slots are counted (4 = the four Gospels, 5 adds Acts, and so on).
+const WC_NAMES = ['Acts', 'Romans', '1 Corinthians', '2 Corinthians', 'Galatians', 'Ephesians', 'Philippians', 'Colossians', '1 Thessalonians', '2 Thessalonians', '1 Timothy', '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James', '1 Peter', '2 Peter', '1 John', '2 John', '3 John', 'Jude', 'Revelation'];
+const WCBK = { acts: 4, romans: 5, '1-corinthians': 6, '2-corinthians': 7, galatians: 8, ephesians: 9, philippians: 10, colossians: 11, '1-thessalonians': 12, '2-thessalonians': 13, '1-timothy': 14, '2-timothy': 15, titus: 16, philemon: 17, hebrews: 18, james: 19, '1-peter': 20, '2-peter': 21, '1-john': 22, '2-john': 23, '3-john': 24, jude: 25, revelation: 26 };
+function wcBooksText(n, style) {
+  if (n <= 4) return style === 'tot' ? 'four Gospels' : 'four Gospels';
+  const list = WC_NAMES.slice(0, n - 4);
+  const pair = (a, b, label) => { const i = list.indexOf(a); if (i >= 0 && list.indexOf(b) === i + 1) list.splice(i, 2, label); };
+  pair('1 Corinthians', '2 Corinthians', style === 'tot' ? '1 and 2 Corinthians' : 'the Corinthian letters');
+  pair('1 Thessalonians', '2 Thessalonians', style === 'tot' ? '1 and 2 Thessalonians' : 'the Thessalonian letters');
+  pair('1 Timothy', '2 Timothy', style === 'tot' ? '1 and 2 Timothy' : 'the Timothy letters');
+  // Titus follows as its own book
+  const all = ['Gospels'].concat(list);
+  const named = all.map((x, i) => (i === 0 && style === 'hdr') ? 'the ' + x : x);
+  if (style === 'tot' && n <= 5) return 'Gospels and Acts';
+  return named.length === 1 ? named[0] : named.slice(0, -1).join(', ') + ' and ' + named[named.length - 1];
+}
 function gospelUsageHTML(s) {
   const e = WC && WC.w && WC.w[s]; if (!e) return '';
-  const counts = e.slice(0, 4), tot = counts.reduce((a, b) => a + b, 0);
-  return `<div class="gu"><p class="gu-h">IN THE FOUR GOSPELS<span>${fmtN(tot)} time${tot === 1 ? '' : 's'}</span></p>${usageBars(counts)}${e[4] && e[4].length ? `<div class="lib-chips"><span class="lib-chiplbl">Most in:</span>${chapChips(e[4], 'chap')}</div>` : ''}</div>`;
+  const nb = WCN(), counts = e.slice(0, nb), tot = counts.reduce((a, b) => a + b, 0);
+  return `<div class="gu"><p class="gu-h">${nb > 4 ? ('IN ' + wcBooksText(nb, 'hdr').toUpperCase()) : 'IN THE FOUR GOSPELS'}<span>${fmtN(tot)} time${tot === 1 ? '' : 's'}</span></p>${usageBars(counts)}${e[nb] && e[nb].length ? `<div class="lib-chips"><span class="lib-chiplbl">Most in:</span>${chapChips(e[nb], 'chap')}</div>` : ''}</div>`;
 }
 function normGreek(s) {
   return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^Ͱ-Ͽ]/g, '').toLowerCase().replace(/ς/g, 'σ');
@@ -3478,8 +3645,8 @@ async function fillKeywordUsage(ctx, listEl) {
     const html = s ? gospelUsageHTML(s) : '';
     if (!html) return;
     const extra = card.querySelector('.exp-extra'); if (!extra || extra.querySelector('.gu')) return;
-    const tot = WC.w[s].slice(0, 4).reduce((x, y) => x + y, 0), mEl = card.querySelector('.word-meaning');
-    if (mEl && !card.querySelector('.kw-tot')) mEl.insertAdjacentHTML('beforebegin', `<span class="kw-tot">${fmtN(tot)}\u00d7 in the four Gospels</span>`);
+    const tot = WC.w[s].slice(0, WCN()).reduce((x, y) => x + y, 0), mEl = card.querySelector('.word-meaning');
+    if (mEl && !card.querySelector('.kw-tot')) mEl.insertAdjacentHTML('beforebegin', `<span class="kw-tot">${fmtN(tot)}\u00d7 in the ${WCN() > 4 ? wcBooksText(WCN(), 'tot') : 'four Gospels'}</span>`);
     extra.insertAdjacentHTML('beforeend', html);
     if (!card.querySelector('.exp-more')) card.insertAdjacentHTML('beforeend', '<span class="exp-more"><span class="exp-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>');
     if (!card.dataset.wx) wireExpand(card.parentNode);
@@ -3495,7 +3662,7 @@ function wordForms(w) {
   return Array.from(set);
 }
 function renderWordCounter(box) {
-  box.innerHTML = `<p class="lib-intro">Type any English word to see how often it appears in each Gospel (Berean Standard Bible).</p>
+  box.innerHTML = `<p class="lib-intro">Type any English word to see how often it appears in each Gospel and in Acts (Berean Standard Bible).</p>
     <div class="wc-form"><input type="search" id="wcInput" class="wc-in" placeholder="e.g. love, believe, kingdom" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Word to count"><label class="wc-opt"><input type="checkbox" id="wcForms"> Include simple forms (-s, -ed, -ing)</label></div>
     <div class="lib-chips wc-sugg">${['love', 'believe', 'faith', 'kingdom', 'peace', 'sin', 'fear', 'joy', 'bread', 'water'].map(w => `<button type="button" class="lib-chip" data-wc="${w}">${w}</button>`).join('')}</div>
     <div id="wcOut" class="wc-out"></div>`;
@@ -3508,15 +3675,15 @@ function renderWordCounter(box) {
     if (!idx) { out.innerHTML = '<p class="lib-intro">The word list could not be loaded.</p>'; return; }
     if (w !== inp.value.trim().toLowerCase().replace(/[^a-z’']/g, '')) return;
     const keys = forms.checked ? wordForms(w).filter(k => idx.w[k]) : (idx.w[w] ? [w] : []);
-    if (!keys.length) { out.innerHTML = `<p class="lib-intro">“${escHtml(w)}” does not appear in the four Gospels (or only once). Words that appear just once are not listed.</p>`; return; }
-    const counts = [0, 0, 0, 0], merged = {};
-    keys.forEach(k => { const e = idx.w[k]; for (let i = 0; i < 4; i++) counts[i] += e[i]; (e[4] || []).forEach(t => { const kk = t[0] + ':' + t[1]; merged[kk] = (merged[kk] || 0) + t[2]; }); });
+    if (!keys.length) { out.innerHTML = `<p class="lib-intro">“${escHtml(w)}” does not appear in the Gospels or Acts (or only once). Words that appear just once are not listed.</p>`; return; }
+    const nb = (idx.b && idx.b.length) || 4, counts = new Array(nb).fill(0), merged = {};
+    keys.forEach(k => { const e = idx.w[k]; for (let i = 0; i < nb; i++) counts[i] += e[i]; (e[nb] || []).forEach(t => { const kk = t[0] + ':' + t[1]; merged[kk] = (merged[kk] || 0) + t[2]; }); });
     const tops = Object.keys(merged).map(k => { const [b, c] = k.split(':').map(Number); return [b, c, merged[k]]; }).sort((a, b) => b[2] - a[2]).slice(0, 8);
     const tot = counts.reduce((a, b) => a + b, 0);
     const per = counts.map((n, i) => n ? (n / idx.n[i] * 10000).toFixed(1) : '0');
     out.innerHTML = `<div class="gu"><p class="gu-h">“${escHtml(keys.length > 1 ? w + '” and forms' : w + '”')}<span>${fmtN(tot)} time${tot === 1 ? '' : 's'}</span></p>${usageBars(counts)}
-      <p class="wc-rate">Per 10,000 words: ${Bk.slugs().map((b, i) => `${LIB_BOOK_SHORT[b]} ${per[i]}`).join(' · ')}</p>
-      ${keys.length > 1 ? `<p class="wc-rate">Forms counted: ${keys.map(k => `${escHtml(k)} ${fmtN(idx.w[k][0] + idx.w[k][1] + idx.w[k][2] + idx.w[k][3])}`).join(' · ')}</p>` : ''}
+      <p class="wc-rate">Per 10,000 words: ${Bk.slugs().slice(0, nb).map((b, i) => `${LIB_BOOK_SHORT[b]} ${per[i]}`).join(' · ')}</p>
+      ${keys.length > 1 ? `<p class="wc-rate">Forms counted: ${keys.map(k => `${escHtml(k)} ${fmtN(idx.w[k].slice(0, nb).reduce((a, b) => a + b, 0))}`).join(' · ')}</p>` : ''}
       <div class="lib-chips"><span class="lib-chiplbl">Most in:</span>${chapChips(tops, 'chapread')}</div></div>`;
   };
   let tm = null;
@@ -3657,7 +3824,7 @@ document.addEventListener('click', ev => {
   } else if (act === 'download') {
     try {
       const blob = new Blob([JSON.stringify({ app: 'verse-inspector', version: 1, saved: new Date().toISOString(), notes: notesLoad() }, null, 1)], { type: 'application/json' });
-      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'verse-inspector-notes.json'; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'daily-butter-notes.json'; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
       notesToast('Backup downloaded.');
     } catch (e) { notesToast('Could not create the backup file.'); }
   }
@@ -3676,8 +3843,9 @@ function renderBookTab() {
   const wordRow = x => `<li><b>${escHtml(x.l)}</b> <span>${escHtml(x.g)}</span><em>${fmtN(x.n)}×</em></li>`;
   const outline = B.outline.map(o => { const here = ch >= o[0] && ch <= o[1]; return `<button type="button" class="bk-sec${here ? ' here' : ''}" data-lib="chapdeep" data-b="${currentBook}" data-c="${o[0]}"><span class="bk-ch">${o[0] === o[1] ? 'Ch ' + o[0] : 'Ch ' + o[0] + '–' + o[1]}</span><span class="bk-st"><b>${escHtml(o[2])}</b>${here ? '<i>You are here</i>' : ''}<span>${escHtml(o[3])}</span></span></button>`; }).join('');
   const keys = B.keys.map(k => `<button type="button" class="lib-chip" data-lib="ref" data-b="${k[0].toLowerCase()}" data-c="${k[1]}" data-v="${k[2]}">${escHtml(k[0])} ${k[1]}:${k[2]}</button>`).join('');
-  const cmpHead = '<tr><th></th>' + Bk.slugs().map(b => `<th class="${b === currentBook ? 'cur' : ''}">${LIB_BOOK_SHORT[b]}</th>`).join('') + '</tr>';
-  const cmp = BOOKS.compare.map(r => { const mx = Math.max.apply(null, r.slice(1)); return `<tr><td>${escHtml(r[0])}</td>${r.slice(1).map((n, i) => `<td class="${Bk.slugs()[i] === currentBook ? 'cur' : ''}${n === mx && mx > 0 ? ' mx' : ''}">${n}</td>`).join('')}</tr>`; }).join('');
+  const GOSPELS = ['matthew', 'mark', 'luke', 'john'], isGospel = GOSPELS.indexOf(currentBook) >= 0;
+  const cmpHead = '<tr><th></th>' + GOSPELS.map(b => `<th class="${b === currentBook ? 'cur' : ''}">${LIB_BOOK_SHORT[b]}</th>`).join('') + '</tr>';
+  const cmp = BOOKS.compare.map(r => { const mx = Math.max.apply(null, r.slice(1)); return `<tr><td>${escHtml(r[0])}</td>${r.slice(1).map((n, i) => `<td class="${GOSPELS[i] === currentBook ? 'cur' : ''}${n === mx && mx > 0 ? ' mx' : ''}">${n}</td>`).join('')}</tr>`; }).join('');
   panel.innerHTML = `<p class="panel-eyebrow">BOOK OVERVIEW</p>
     <h3 class="bk-title">${escHtml(B.full)}</h3><p class="bk-tag">${escHtml(B.tag)}</p>
     <div class="bk-nums"><div><b>${st.ch}</b><span>chapters</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>Greek words</span></div></div>
@@ -3688,8 +3856,8 @@ function renderBookTab() {
     ${bkSection('ONLY OR MOSTLY IN ' + B.name.toUpperCase(), `<ul class="bk-list">${B.unique.map(u => `<li>${escHtml(u)}</li>`).join('')}</ul>`)}
     ${bkSection('KEY PASSAGES', `<div class="lib-chips">${keys}</div>`)}
     ${top ? bkSection('MOST-USED WORDS IN THE GREEK', `<div class="bk-cols"><div><p class="bk-sub">Nouns</p><ul class="bk-words">${top.nouns.map(wordRow).join('')}</ul></div><div><p class="bk-sub">Verbs</p><ul class="bk-words">${top.verbs.map(wordRow).join('')}</ul></div></div><p class="lib-intro">Counted by root word from the earliest Greek text (STEP Bible). Verses found only in later manuscripts, such as Mark 16:9–20, are left out.</p>`) : ''}
-    ${sig ? bkSection('WORDS ' + B.name.toUpperCase() + ' FAVORS', `<ul class="bk-words fav">${sig.map(x => `<li><b>${escHtml(x.l)}</b> <span>${escHtml(x.g)}</span><em>${fmtN(x.n)}× here · ${fmtN(x.o)}× in the other three</em></li>`).join('')}</ul>`) : ''}
-    ${bkSection('COMPARE THE GOSPELS', `<div class="bk-tblwrap"><table class="bk-tbl">${cmpHead}${cmp}</table></div><p class="lib-intro">Counts of English words and phrases in the Berean Standard Bible. The highest count in each row is shaded.</p>`)}
+    ${sig ? bkSection('WORDS ' + B.name.toUpperCase() + ' FAVORS', `<ul class="bk-words fav">${sig.map(x => `<li><b>${escHtml(x.l)}</b> <span>${escHtml(x.g)}</span><em>${fmtN(x.n)}× here · ${fmtN(x.o)}× in the ${WCBK[currentBook] ? wcBooksText(WCBK[currentBook], 'fav') : 'other three'}</em></li>`).join('')}</ul>`) : ''}
+    ${!isGospel ? '' : bkSection('COMPARE THE GOSPELS', `<div class="bk-tblwrap"><table class="bk-tbl">${cmpHead}${cmp}</table></div><p class="lib-intro">Counts of English words and phrases in the Berean Standard Bible. The highest count in each row is shaded.</p>`)}
     <details class="acc"><summary>WORD COUNTER</summary><div class="acc-body" id="wcBox"></div></details>`;
   renderWordCounter(panel.querySelector('#wcBox'));
 }
@@ -3715,6 +3883,20 @@ function escHtml(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+// Short picture label for the Overview: one sentence cut to a few words; the full description is in the Gallery (tap the picture).
+function ovShortCap(s, n) {
+  n = n || 46;
+  s = String(s || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  const m = s.match(/^(.+?[.!?])(\s|$)/);
+  if (m) s = m[1];
+  s = s.replace(/[.!?]+$/, '');
+  if (s.length > n) {
+    const cut = s.slice(14).search(/[,;:\u2014(]| \u2013 /);
+    if (cut >= 0 && cut + 14 <= n + 8) s = s.slice(0, cut + 14);
+  }
+  if (s.length > n) s = s.slice(0, n).replace(/[\s,;:]+\S*$/, '').replace(/(\s+(of|the|a|an|and|in|on|at|to|for|with|by|from|where))+$/i, '') + '\u2026';
+  return s;
+}
 function renderOverview(ctx) {
   const tabBtn = document.querySelector('.folder-tab[data-tab="overview"]');
   const panel = document.querySelector('[data-panel="overview"]');
@@ -3752,8 +3934,7 @@ function renderOverview(ctx) {
   const ots = (ctx.otBackground || []).slice(0, gps.length ? 2 : 3);
   const refs = (gps.length ? '<span class="ov-subh" style="color:var(--burgundy)">GOSPEL PARALLELS</span>' + gps.map(refLine).join('') : '') +
     '<span class="ov-subh"' + (gps.length ? ' style="margin-top:4px;color:var(--burgundy)"' : ' style="color:var(--burgundy)"') + '>OLD TESTAMENT</span>' + ots.map(refLine).join('');
-  const voices = (ctx.commentary || []).filter(c => cmHidden().indexOf(cmVoiceKey(c.source, 'm')) < 0).slice(0, 2).map((c, i) =>
-    `<div class="ov-q"><b>${escHtml(c.source)}</b><span class="ov-qt ov-qt${i}">${escHtml(i === 0 ? firstSentence(c.note) : String(c.note).replace(/<[^>]*>/g, ''))}</span></div>`).join('');
+  const voices = ovVoicesHtml(ctx);
   const tl = (ov.timeline || []).map(t => `<div><b>${escHtml(t.when)}</b>${escHtml(t.label)}</div>`).join('');
 
   const tl3Html = () => {
@@ -3776,16 +3957,16 @@ function renderOverview(ctx) {
     <div class="ov-grid">
       ${block('ov-full ov-sum', 'SUMMARY', 'var(--verdigris)', 'context', `<span class="ov-title">${escHtml(currentChapterData.title)}</span><span class="ov-sumtext">${escHtml(ov.summary || ctx.sparkNotes)}</span>`, 'setting')}
       ${ctx.currentImage && ctx.currentImage.url
-        ? `<button class="ov-blk ov-setblk" data-go="gallery" data-section="setting"><span class="ov-setphoto"><img src="${displayImageUrl(ctx.currentImage.url)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">SETTING<i>›</i></span><span class="ov-placename">${escHtml(place)}</span></span><span class="ov-setdesc">${escHtml(ov.settingLine || '')}</span></button>`
+        ? `<button class="ov-blk ov-setblk" data-go="gallery" data-section="setting"><span class="ov-setphoto"><img src="${displayImageUrl(ctx.currentImage.url)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">SETTING<i>›</i></span><span class="ov-placename">${escHtml(place)}</span></span><span class="ov-setdesc">${escHtml(ovShortCap(ov.settingLine || '', 44))}</span></button>`
         : block('', 'SETTING', 'var(--verdigris)', 'gallery', `<span class="ov-sn ov-sn3">${escHtml(place)}. ${escHtml(ov.settingLine || '')}</span>`, 'setting')}
       ${block('', 'HISTORY', 'var(--blue)', 'context', seg(ov.history, 'var(--verdigris)'), 'setting')}
       ${block('', 'CUSTOMS', 'var(--burgundy)', 'context', seg(ov.customs, 'var(--blue)'), 'setting')}
       ${block('', 'TRANSLATIONS', 'var(--gold)', 'translation', words)}
-      ${img ? `<button class="ov-blk ov-full ov-artblk" data-go="gallery"><img src="${displayImageUrl(img.url)}" alt="${escHtml(img.caption)}" loading="lazy" decoding="async"><span class="ov-artlabel">ART<i>›</i></span><span class="ov-artcap">${escHtml(img.caption)}</span></button>` : block('ov-full', 'ART', 'var(--gold)', 'gallery', '<span class="ov-sn">Artwork coming soon.</span>')}
+      ${img ? `<button class="ov-blk ov-full ov-artblk" data-go="gallery"><img src="${displayImageUrl(img.url)}" alt="${escHtml(img.caption)}" loading="lazy" decoding="async"><span class="ov-artlabel">ART<i>›</i></span><span class="ov-artcap">${escHtml(ovShortCap(img.caption))}</span></button>` : block('ov-full', 'ART', 'var(--gold)', 'gallery', '<span class="ov-sn">Artwork coming soon.</span>')}
       ${block('ov-refblk', 'REFERENCES', 'var(--gold)', 'xref', refs)}
       ${block('ov-cmblk', 'COMMENTARY', 'var(--burgundy)', 'commentary', voices)}
       ${arch
-        ? `<button class="ov-blk ov-setblk${arch.img ? ' ov-setfit' : ''}" data-go="archaeology"><span class="ov-setphoto"><img src="${escHtml(displayImageUrl(arch.url))}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">ARCHAEOLOGY<i>›</i></span><span class="ov-placename">${escHtml(arch.name)}</span></span><span class="ov-setdesc">${escHtml(arch.desc)}</span></button>`
+        ? `<button class="ov-blk ov-setblk${arch.img ? ' ov-setfit' : ''}" data-go="archaeology"><span class="ov-setphoto"><img src="${escHtml(displayImageUrl(arch.url))}" alt="" loading="lazy" decoding="async" onerror="this.remove()"><span class="ov-artlabel" style="color:#fff">ARCHAEOLOGY<i>›</i></span><span class="ov-placename">${escHtml(arch.name)}</span></span><span class="ov-setdesc">${escHtml(ovShortCap(arch.desc, 44))}</span></button>`
         : block('', 'ARCHAEOLOGY', 'var(--blue)', 'archaeology', ov.archaeology ? seg(ov.archaeology, 'var(--gold)') : '<span class="ov-sn ov-sn3">Sites, digs and artifacts tied to this chapter. Coming soon.</span>')}
       ${block('ov-top', 'ORIGINAL WRITING', 'var(--verdigris)', 'author', `<span class="ov-kv"><span><em>AUTHOR</em>${escHtml(ov.author || clip(ctx.author, 70))}</span><span><em>GENRE</em>${escHtml(ov.genre || String(ctx.genre).split(/[,—.]/)[0])}</span><span><em>AUDIENCE</em>${escHtml(ov.audience || clip(ctx.audience, 60))}</span>${GOSPEL_FACTS[currentBook] ? `<span><em>FOCUS</em>${escHtml(GOSPEL_FACTS[currentBook].focus)}</span>` : ''}</span>`, 'writing')}
       ${block('ov-full ov-tlblk', 'TIMELINE', 'var(--blue)', 'context', `<span class="ov-tl3" id="ovTl3">${tl3Html()}</span><span class="ov-tlcap">IN THIS CHAPTER</span><span class="ov-rail">${tl}</span>`, 'timeline')}
@@ -3940,20 +4121,120 @@ const MAP_TST = Bk.map(Bk.testament);
 let EVENTS = null, EV_BY_ID = {};
 let mapMain = null, mapMainReady = false, mapStyleFailed = false;
 let mapF = { tst: 'all', book: 'all', chapter: 'all', from: 1, to: 9999 };
-let mapMaxI = 110;       // number of the last event (set when events load)
+let mapMaxI = 579;       // number of the last event (set when events load)
 let mapStory = '';       // '' or a story id (see MAP_STORIES): draws the path and numbers the stops
 // a story is never carried over from an earlier visit: the map always opens with no filters
 // Stories follow one life through the events, in order. More can be added (Life of Paul comes with Acts).
 const MAP_STORIES = [
-  { id: 'jesus', name: 'Life of Jesus', color: '#8C4646', ready: true, match: e => typeof e.i === 'number',
+  { id: 'jesus', name: 'Life of Jesus', color: '#8C4646', ready: true, match: e => typeof e.i === 'number' && e.i <= 110,
     // the full walk is 30 key moments (the rest still show on the map)
     key: [2, 5, 7, 9, 12, 14, 15, 17, 21, 23, 24, 25, 36, 42, 48, 49, 58, 59, 72, 81, 83, 85, 92, 95, 99, 102, 104, 105, 109, 110], // the full walk: 30 stops
     short: [2, 5, 14, 25, 36, 48, 83, 92, 102, 104, 110], // the short walk: 11 stops
     blurb: 'Every Gospel event from the angel’s visit to Mary to the Ascension, in order and joined by a path. Numbers show the order.' },
-  { id: 'paul', name: 'Life of Paul', color: '#4d5f8f', ready: false, match: () => false,
-    blurb: 'Three journeys and the road to Rome. It arrives together with the book of Acts.' }
+  { id: 'acts', name: 'The Book of Acts', color: '#3f6a55', ready: true, match: e => typeof e.i === 'number' && e.i > 110 && e.i <= 184 && !e.bg,
+    key: [111, 113, 114, 116, 118, 120, 122, 123, 124, 127, 128, 129, 131, 136, 137, 140, 141, 142, 144, 145, 155, 158, 163, 164, 167, 173, 179, 181, 182, 184],
+    short: [111, 113, 116, 124, 129, 131, 140, 142, 155, 167, 184],
+    blurb: 'The church from the Ascension to Paul in Rome, in the order Luke tells it. Numbers show the order.' },
+  { id: 'paul', name: 'Life of Paul', color: '#4d5f8f', ready: true, match: e => e.pa === 1,
+    key: [125, 127, 131, 132, 133, 134, 135, 142, 145, 147, 149, 151, 155, 158, 159, 160, 163, 164, 167, 168, 170, 173, 175, 177, 179, 181, 182, 184],
+    short: [131, 134, 142, 145, 155, 158, 163, 167, 173, 181, 184],
+    blurb: 'From Tarsus and the Damascus road, through three journeys, the arrest in Jerusalem and the voyage to Rome. Numbers show the order.' },
+  { id: 'romans', name: 'The Letter to the Romans', color: '#7a5a8a', ready: true, match: e => typeof e.i === 'number' && e.i > 184 && e.i <= 194 && !e.bg,
+    key: [185, 186, 187, 188, 189, 190, 191, 192],
+    short: [186, 187, 188, 189, 192],
+    blurb: 'Where Paul had worked, where he wrote the letter, who carried it, and where it was going. Romans names no travel route, so these stops follow the clues in chapters 1, 13, 15 and 16.' },
+  { id: '1cor', name: 'The First Letter to the Corinthians', color: '#a0643c', ready: true, match: e => typeof e.i === 'number' && e.i > 194 && e.i <= 213 && !e.bg,
+    key: [195, 197, 198, 201, 204, 207, 208, 210, 211, 213],
+    short: [195, 197, 201, 207, 208, 210],
+    blurb: 'How the church in Corinth began, where Paul wrote, and the matters the letter answers: quarrels, lawsuits, idol food, the Lord’s Supper, spiritual gifts, and the resurrection. Numbers show the order.' },
+  { id: '2cor', name: 'The Second Letter to the Corinthians', color: '#8a6f3c', ready: true, match: e => typeof e.i === 'number' && e.i > 213 && e.i <= 232 && !e.bg,
+    key: [214, 216, 217, 219, 220, 224, 226, 229, 230, 232],
+    short: [214, 216, 219, 220, 229, 232],
+    blurb: 'The crisis in Asia, the painful visit and the tearful letter, Titus meeting Paul in Macedonia, the gift for Jerusalem, and the hardships Paul lists. Where Paul gives no place, the pin follows the clues in the letter. Numbers show the order.' },
+  { id: 'gal', name: 'The Letter to the Galatians', color: '#7a6a2f', ready: true, match: e => typeof e.i === 'number' && e.i > 232 && e.i <= 249 && !e.bg,
+    key: [233, 234, 235, 236, 238, 239, 240, 243, 246, 249],
+    short: [233, 234, 236, 238, 239, 249],
+    blurb: 'Paul tells his own story first: Damascus, Arabia, Jerusalem, Syria and Cilicia, the private meeting with the pillars, and the clash with Peter at Antioch. Then he turns to the churches of Galatia. Where Paul names no place, the pin follows the clues in the letter. Numbers show the order.' },
+  { id: 'eph', name: 'The Letter to the Ephesians', color: '#3f6f8a', ready: true, match: e => typeof e.i === 'number' && e.i > 249 && e.i <= 264 && !e.bg,
+    key: [250, 251, 252, 253, 254, 255, 257, 258, 263, 264],
+    short: [250, 252, 253, 254, 257, 263],
+    blurb: 'Ephesus and the world of Artemis, the Temple wall in Jerusalem, Paul in chains, the churches of the Lycus valley, the elders at Miletus, and the armor of a Roman guard. Ephesians names few places, so most pins follow the clues in the letter and in Acts. Numbers show the order.' },
+  { id: 'phil', name: 'The Letter to the Philippians', color: '#7a4f6f', ready: true, match: e => typeof e.i === 'number' && e.i > 264 && e.i <= 282 && !e.bg,
+    key: [265, 266, 267, 268, 269, 271, 272, 274, 275, 280, 282],
+    short: [265, 266, 269, 272, 275, 280],
+    blurb: 'The church in the Roman colony of Philippi, Paul in chains (Rome is the usual view), the hymn about Christ, Timothy and Epaphroditus, the credentials Paul gave up, the gift remembered from Thessalonica, and the household of Caesar. Philippians names few places, so most pins follow the clues in the letter and in Acts. Numbers show the order.' },
+  { id: 'col', name: 'The Letter to the Colossians', color: '#4f7a6b', ready: true, match: e => typeof e.i === 'number' && e.i > 282 && e.i <= 303 && !e.bg,
+    key: [283, 284, 286, 288, 289, 291, 294, 297, 299, 301, 302],
+    short: [283, 284, 286, 289, 297, 302],
+    blurb: 'The small church at Colossae in the Lycus Valley, Epaphras and his news, Paul in chains (Rome is the usual view), the hymn about the Son, the warning about empty philosophy, life raised with Christ, and the churches of Laodicea and Hierapolis. Colossians names few places, so most pins follow the clues in the letter and in Acts. Numbers show the order.' },
+  { id: 'th1', name: 'The First Letter to the Thessalonians', color: '#6f7a3f', ready: true, match: e => typeof e.i === 'number' && e.i > 303 && e.i <= 319 && !e.bg,
+    key: [304, 305, 306, 307, 309, 311, 312, 314, 316, 317, 319],
+    short: [304, 305, 311, 312, 316, 317],
+    blurb: 'The church in Thessalonica on the Via Egnatia, how the gospel came and the shame at Philippi, Paul alone in Athens, Timothy sent and back with good news, the call to holiness, the hope for those who sleep in death, and the Day of the Lord. The letter names few places, so some pins follow the clues in the letter and in Acts. Numbers show the order.' },
+  { id: 'th2', name: 'The Second Letter to the Thessalonians', color: '#8a4f3f', ready: true, match: e => typeof e.i === 'number' && e.i > 319 && e.i <= 333 && !e.bg,
+    key: [320, 321, 322, 324, 325, 327, 328, 329, 331, 333],
+    short: [320, 322, 324, 325, 331, 333],
+    blurb: 'A church still under pressure, the promise of relief when the Lord is revealed, a false report that the day has come, the rebellion and the man of lawlessness, the one who restrains, and the call to keep working. The letter names few places, so most pins follow the clues in the letter and in Acts. Numbers show the order.' },
+  { id: 'tim1', name: 'The First Letter to Timothy', color: '#5f5f8a', ready: true, match: e => typeof e.i === 'number' && e.i > 333 && e.i <= 353 && !e.bg,
+    key: [334, 335, 337, 339, 340, 341, 343, 344, 346, 348, 351, 352],
+    short: [334, 335, 337, 341, 346, 352],
+    blurb: 'Timothy left at Ephesus to deal with false teachers, Paul\'s own story of mercy, prayer for everyone and order in the assembly, overseers and deacons, the hymn about the mystery of godliness, widows and elders, money, and the final charge to guard what was entrusted. The letter names only Ephesus, Macedonia and Pilate, so most pins stand at Ephesus and a few follow clues. Numbers show the order.' },
+  { id: 'tim2', name: 'The Second Letter to Timothy', color: '#6a4a6a', ready: true, match: e => typeof e.i === 'number' && e.i > 353 && e.i <= 374 && !e.bg,
+    key: [354, 355, 356, 357, 359, 360, 361, 362, 364, 367, 369, 371, 373],
+    short: [354, 357, 361, 367, 369, 373],
+    blurb: 'Paul in chains at Rome writes to Timothy: the faith of Lois and Eunice, not being ashamed, guarding what was entrusted, the soldier, the athlete and the farmer, the last days, all Scripture, the final charge, the friends who left and the one who stayed, the cloak and the scrolls, and the first defense. Rome, Ephesus, Troas and Lystra carry most pins; Jannes and Jambres sit in Egypt. Numbers show the order.' },
+  { id: 'titus', name: 'The Letter to Titus', color: '#4f6a5a', ready: true, match: e => typeof e.i === 'number' && e.i > 374 && e.i <= 389 && !e.bg,
+    key: [375, 376, 377, 379, 381, 383, 384, 386, 387, 388],
+    short: [375, 377, 379, 384, 386, 388],
+    blurb: 'Paul writes to Titus, left on Crete to finish the work: elders in every town, rebellious talkers and the Cretan poet\'s saying, sound teaching for older and younger, slaves who adorn the teaching, the grace of God that has appeared, the washing of new birth, good deeds and a warning against quarrels, and travel plans for Nicopolis. The letter names only Crete and Nicopolis, so most pins stand on the island and one at Knossos for the poet. Numbers show the order.' },
+  { id: 'philemon', name: 'The Letter to Philemon', color: '#8a6a4a', ready: true, match: e => typeof e.i === 'number' && e.i > 389 && e.i <= 399 && !e.bg,
+    key: [390, 392, 393, 395, 396, 398],
+    short: [390, 393, 395, 396],
+    blurb: 'Paul writes from prison to Philemon, Apphia, Archippus and the church in their home: thanks for Philemon\'s love, an appeal rather than an order, Onesimus who was useless and is now useful, a slave who is more than a slave, a promise to repay, a guest room to prepare, and greetings from Paul\'s companions. Pins at Colossae mark Philemon\'s household and pins at Rome mark Paul, a placement scholars debate (Ephesus and Caesarea are also proposed). Numbers show the order.' },
+  { id: 'hebrews', name: 'The Letter to the Hebrews', color: '#5a6a8a', ready: true, match: e => typeof e.i === 'number' && e.i > 399 && e.i <= 422 && !e.bg,
+    key: [400, 404, 405, 407, 409, 410, 413, 415, 419, 421],
+    short: [400, 404, 405, 407, 410, 419],
+    blurb: 'An unnamed writer sends a word of exhortation to tired believers: the Son greater than the angels, Moses and the priests; the warning from the wilderness; the great high priest who knows weakness; Melchizedek; the new covenant; the one sacrifice; the list of the faithful; and the call to run, endure and go outside the camp. The letter names no place of its own, so the pins stand at the places its stories point to (the Temple, Gethsemane, Golgotha, Kadesh, Mamre, Jericho, Mount Zion) and at Rome for the readers, a placement scholars debate. Numbers show the order.' },
+  { id: 'james', name: 'The Letter of James', color: '#6a7a4a', ready: true, match: e => typeof e.i === 'number' && e.i > 422 && e.i <= 441 && !e.bg,
+    key: [423, 424, 429, 430, 433, 435, 438, 440],
+    short: [423, 424, 429, 431, 433, 440],
+    blurb: 'A letter from James to the twelve tribes of the Dispersion: joy in trials, wisdom from God, doers of the word and not hearers only, no favoritism toward the rich, faith that works, the tongue, the two wisdoms, pride and the world, the Lord\'s will, the warning to the rich, patience, oaths, and the prayer of faith. The letter names neither a place of writing nor its readers\' towns, so the pins stand at Jerusalem for the sender (the church tradition about James), at Antioch in Syria for the readers (a judgment call, based on Acts 11:19 and 15:23), and at Moriah, Jericho and Mount Carmel for the Old Testament scenes it recalls. Numbers show the order.' },
+  { id: '1peter', name: 'The First Letter of Peter', color: '#7a5a6a', ready: true, match: e => typeof e.i === 'number' && e.i > 441 && e.i <= 461 && !e.bg,
+    key: [442, 443, 444, 446, 448, 449, 452, 455, 458, 459, 461],
+    short: [442, 443, 448, 455, 459, 461],
+    blurb: 'A letter from Peter to the elect exiles scattered across northern Asia Minor: a living hope and an inheritance that cannot fade, gold tested by fire, the lamb without blemish, the living word, the living stone and the chosen people, honor to the king, servants and the example of Christ, wives and husbands, blessing instead of revenge, the reason for your hope, Noah and baptism, the fiery trial, the Chief Shepherd, the roaring lion, and greetings from Babylon. The letter names no town of its readers, so their pins stand at Ancyra in Galatia, a judgment call, since the first readers lived in five Roman provinces. Peter writes from Babylon, which most readers take as a code name for Rome, so the sender is pinned at Rome; some propose the literal Babylon or the Egyptian one. Pins at Zion, Sinai and Mount Ararat mark the Old Testament scenes the letter recalls. Numbers show the order.' },
+  { id: '2peter', name: 'The Second Letter of Peter', color: '#6a5a7a', ready: true, match: e => typeof e.i === 'number' && e.i > 461 && e.i <= 481 && !e.bg,
+    key: [462, 463, 465, 466, 468, 469, 471, 473, 475, 477, 478, 480],
+    short: [462, 466, 468, 471, 478, 479],
+    blurb: 'A short letter that Peter writes as his death draws near: everything for life and godliness, the ladder from faith to love, the eyewitnesses on the holy mountain, the word of the prophets, false teachers, the examples of the fallen angels, Noah, Sodom and Lot, the way of Balaam, the dog and the sow, scoffers who ask where the promise is, a day like a thousand years, a new heaven and a new earth, and Paul\'s letters. The letter names no place of writing and no town for its readers, so the sender is pinned at Rome, where church tradition says Peter died, and the readers at Ancyra in Galatia, following 1 Peter; both are judgment calls, and many scholars doubt that Peter himself wrote it. Pins at Mount Tabor (a traditional guess for the holy mountain), Ararat, the Dead Sea and the plains of Moab mark the scenes it recalls. Numbers show the order.' },
+  { id: '1john', name: 'The First Letter of John', color: '#a0643c', ready: true, match: e => typeof e.i === 'number' && e.i > 481 && e.i <= 503 && !e.bg,
+    key: [482, 483, 484, 486, 489, 491, 493, 494, 497, 501, 503],
+    short: [482, 484, 489, 494, 497, 503],
+    blurb: 'An anonymous letter that church tradition ascribes to John: what we have heard, seen and touched, God is light, if we confess our sins, an advocate and the atoning sacrifice, an old commandment that is new, do not love the world, the many antichrists, the anointing, children of God, Cain, laying down our lives, test the spirits, God is love, perfect love, the victory over the world, water and blood, and keep yourselves from idols. The letter names neither a place of writing nor its readers, so most pins stand at Ephesus, where early tradition places John in his last years, a judgment call; some scholars doubt that the apostle wrote it. Pins at the Temple Mount, the upper room, Golgotha, the Jordan and the Artemision mark the scenes and the city it recalls. Numbers show the order.' },
+  { id: '2john', name: 'The Second Letter of John', color: '#a0643c', ready: true, match: e => typeof e.i === 'number' && e.i > 503 && e.i <= 510 && !e.bg,
+    key: [504, 505, 506, 508, 509, 510],
+    short: [504, 506, 509],
+    blurb: 'A one-page letter from \u201cthe elder\u201d to a \u201cchosen lady and her children\u201d: truth and love, the commandment we have had from the beginning, many deceivers who refuse to confess Jesus Christ in the flesh, remaining in the teaching of Christ, a rule for the visitor at the door, and a hope to speak face to face. The letter names neither a place of writing nor a town for its readers, so the pins stand at Ephesus, where early tradition places John in his last years, a judgment call; the pin for the house stands at the terrace houses of Ephesus. Some scholars think \u201cthe elder\u201d was a John other than the apostle. Numbers show the order.' },
+  { id: '3john', name: 'The Third Letter of John', color: '#3c7a6e', ready: true, match: e => typeof e.i === 'number' && e.i > 510 && e.i <= 517 && !e.bg,
+    key: [511, 513, 514, 515, 516, 517],
+    short: [511, 513, 514],
+    blurb: 'A private note from \u201cthe elder\u201d to his friend Gaius, the shortest book in the New Testament: a prayer for his health, thanks for taking in traveling brothers who were strangers, a hard word about Diotrephes, who loves to be first and refuses them, a good word for Demetrius, and a hope to speak face to face. The letter names no place. Pins for the elder stand at Ephesus, where early tradition places John in his last years, and pins for Gaius and Diotrephes stand at Pergamum, where a list from about AD 380 puts a bishop named Gaius. Both are judgment calls, and the Pergamum tradition is late and uncertain. Numbers show the order.' },
+  { id: 'jude', name: 'The Letter of Jude', color: '#7a4a3c', ready: true, match: e => typeof e.i === 'number' && e.i > 517 && e.i <= 527 && !e.bg,
+    key: [518, 519, 520, 521, 522, 524, 526, 527],
+    short: [519, 521, 524, 527],
+    blurb: 'A short, urgent letter from Jude, a brother of James: contend for the faith, because people have crept in who turn grace into a license for sin. Jude sets them beside old examples of judgment (the wilderness generation, the angels, Sodom, Cain, Balaam and Korah), quotes the Book of Enoch, calls his readers to keep themselves in the love of God and show mercy to doubters, and ends with a hymn of praise. The letter names no place. Pins for Jude and his readers stand at Nazareth, the home of the family of Jesus, a judgment call; other pins mark places tied to the stories he uses: the Dead Sea plain, Mount Nebo, Deir \u2018Alla and Qumran. Numbers show the order.' },
+  { id: 'revelation', name: 'Revelation', color: '#8a2f3d', ready: true, match: e => typeof e.i === 'number' && e.i > 527 && e.i <= 579 && !e.bg,
+    key: [528, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 544, 550, 552, 555, 562, 564, 566, 570, 572, 574, 576, 579],
+    short: [530, 531, 532, 533, 534, 535, 536, 537, 539, 562, 564, 576],
+    blurb: 'The last book of the Bible: a letter, a prophecy and a series of visions given to John on the island of Patmos for seven churches in Roman Asia. Seven pins mark those churches, in the order a messenger would reach them. Most of the visions are set in heaven and have no place on a map, so their pins stand at Patmos, where John saw them. A few stand at places the book names or points to: the Euphrates, Megiddo (Armageddon), Jerusalem, and Rome and Babylon for the great city of chapters 17-18, which is a judgment call. The notes give the main ways Christians read each vision. Numbers show the order.' }
 ];
-// Gospel order, not calendar dates: scholars still debate the years
+// number shown on a pin or list row: its place in the story that is switched on (the Gospel events keep their own numbers)
+function mapNo(e) {
+  const s = mapActiveStory(); if (!s || typeof e.i !== 'number') return e.i;
+  if (!s._no) { s._no = {}; let k = 0; (EVENTS || []).filter(x => !x.chapterPin && s.match(x)).sort((a, b) => a.i - b.i).forEach(x => { s._no[x.i] = ++k; }); s._tot = k; }
+  return s._no[e.i] || e.i;
+}
+// Story order (the Gospels, then Acts), not calendar dates: scholars still debate the years
 const MAP_PERIODS = [
   { n: 'Birth and childhood', a: 1, b: 12 },
   { n: 'First signs', a: 13, b: 22 },
@@ -3961,7 +4242,39 @@ const MAP_PERIODS = [
   { n: 'Toward Jerusalem', a: 63, b: 81 },
   { n: 'The final week', a: 82, b: 94 },
   { n: 'Arrest and cross', a: 95, b: 103 },
-  { n: 'Risen', a: 104, b: 110 }
+  { n: 'Risen', a: 104, b: 110 },
+  { n: 'Acts: the church begins', a: 111, b: 127 },
+  { n: 'Acts: spreading out', a: 128, b: 144 },
+  { n: 'Acts: the first journey', a: 145, b: 155 },
+  { n: 'Acts: the second journey', a: 156, b: 165 },
+  { n: 'Acts: the third journey', a: 166, b: 172 },
+  { n: 'Acts: arrest and trials', a: 173, b: 179 },
+  { n: 'Acts: the voyage to Rome', a: 180, b: 184 },
+  { n: 'Romans: the letter', a: 185, b: 194 },
+  { n: '1 Corinthians: the letter', a: 195, b: 213 },
+  { n: '2 Corinthians: the letter', a: 214, b: 232 },
+  { n: 'Galatians: the letter', a: 233, b: 249 },
+  { n: 'Ephesians: the letter', a: 250, b: 264 },
+  { n: 'Philippians: the letter', a: 265, b: 282 },
+  { n: 'Colossians: the letter', a: 283, b: 303 },
+  { n: '1 Thessalonians: the letter', a: 304, b: 319 },
+  { n: '2 Thessalonians: the letter', a: 320, b: 333 },
+  { n: '1 Timothy: the letter', a: 334, b: 353 },
+  { n: '2 Timothy: the letter', a: 354, b: 374 },
+  { n: 'Titus: the letter', a: 375, b: 389 },
+  { n: 'Philemon: the letter', a: 390, b: 399 },
+  { n: 'Hebrews: the letter', a: 400, b: 422 },
+  { n: 'James: the letter', a: 423, b: 441 },
+  { n: '1 Peter: the letter', a: 442, b: 461 },
+  { n: '2 Peter: the letter', a: 462, b: 481 },
+  { n: '1 John: the letter', a: 482, b: 503 },
+  { n: '2 John: the letter', a: 504, b: 510 },
+  { n: '3 John: the letter', a: 511, b: 517 },
+  { n: 'Jude: the letter', a: 518, b: 527 },
+  { n: 'Revelation: the seven churches (1-3)', a: 528, b: 537 },
+  { n: 'Revelation: the throne, seals and trumpets (4-11)', a: 538, b: 551 },
+  { n: 'Revelation: the dragon, the beasts and Babylon (12-18)', a: 552, b: 568 },
+  { n: 'Revelation: the King and the new Jerusalem (19-22)', a: 569, b: 579 }
 ];
 let mapShown = [];       // events currently on the map (after filters)
 let mapSelId = null;
@@ -4036,7 +4349,7 @@ function mapOrderKey(e) {
 function renderMapControls() {
   const nt = Bk.slugs();
   const chips = [`<button type="button" class="map-chip${mapF.book === 'all' ? ' on' : ''}" data-b="all"><i style="background:var(--gold)"></i>All books</button>`]
-    .concat(nt.filter(b => mapF.tst === 'all' || MAP_TST[b] === mapF.tst).map(b => `<button type="button" class="map-chip${mapF.book === b ? ' on' : ''}" data-b="${b}"><i style="background:${MAP_BOOK_COLORS[b]}"></i>${mapBookName(b)}</button>`));
+    .concat(nt.filter(b => (mapF.tst === 'all' || MAP_TST[b] === mapF.tst) && (!EVENTS || EVENTS.some(e => (e.r || []).some(r => r[0] === b)))).map(b => `<button type="button" class="map-chip${mapF.book === b ? ' on' : ''}" data-b="${b}"><i style="background:${MAP_BOOK_COLORS[b]}"></i>${mapBookName(b)}</button>`));
   const box = document.getElementById('mapBooks');
   box.innerHTML = mapF.tst === 'OT' ? '' : chips.join('');
   box.style.display = mapF.tst === 'OT' ? 'none' : 'flex';
@@ -4110,7 +4423,7 @@ function mapRangeLabel() {
   const full = mapF.from <= 1 && mapF.to >= mapMaxI;
   const el = mapEl('mapRLab'); if (!el) return;
   if (!a || !z) { el.textContent = ''; return; }
-  el.innerHTML = full ? 'Showing the whole story, in Gospel order. Drag either end to narrow it. Dates are circa, so the order is what we show.'
+  el.innerHTML = full ? 'Showing the whole story, in order: the Gospels, then Acts. Drag either end to narrow it. Dates are circa, so the order is what we show.'
     : `From <b>${escHtml(a.t)}</b> (${a.i}) to <b>${escHtml(z.t)}</b> (${z.i}).`;
   const bar = mapEl('mapRBar'), span = Math.max(1, mapMaxI - 1);
   if (bar) { bar.style.left = ((mapF.from - 1) / span * 100) + '%'; bar.style.right = (100 - (Math.min(mapF.to, mapMaxI) - 1) / span * 100) + '%'; }
@@ -4118,7 +4431,7 @@ function mapRangeLabel() {
 function renderMapFilterUI() {
   const st = mapEl('mapStories'); if (!st) return;
   const cur = mapActiveStory();
-  st.innerHTML = MAP_STORIES.map(x => `<button type="button" class="mf-story${cur && cur.id === x.id ? ' on' : ''}" data-s="${x.id}" style="--c:${x.color}"${x.ready ? '' : ' disabled'}><i></i>${escHtml(x.name)}${x.ready ? '' : ' · with Acts'}</button>`).join('');
+  st.innerHTML = MAP_STORIES.map(x => `<button type="button" class="mf-story${cur && cur.id === x.id ? ' on' : ''}" data-s="${x.id}" style="--c:${x.color}"${x.ready ? '' : ' disabled'}><i></i>${escHtml(x.name)}</button>`).join('');
   mapEl('mapStoryNote').textContent = cur ? cur.blurb : 'Pick a story to draw its path and number the stops in order.';
   mapEl('mapWalkBtns').innerHTML = cur ? '<button type="button" data-w="full">Walk me through the full story</button><button type="button" data-w="short">Walk me through the short version</button>' : '';
   const full = mapF.from <= 1 && mapF.to >= mapMaxI;
@@ -4277,7 +4590,20 @@ const MAP_HUBS = [
   { id: 'jericho', name: 'Jericho', la: 31.87, ln: 35.44, r: 3.0 },
   { id: 'cana', name: 'Cana', la: 32.75, ln: 35.34, r: 2.5 },
   { id: 'bethsaida', name: 'Bethsaida', la: 32.91, ln: 35.63, r: 2.5 },
-  { id: 'jordan', name: 'Jordan River', la: 31.84, ln: 35.55, r: 3.0 }
+  { id: 'jordan', name: 'Jordan River', la: 31.84, ln: 35.55, r: 3.0 },
+  { id: 'caesarea', name: 'Caesarea', la: 32.50, ln: 34.892, r: 2.0 },
+  { id: 'joppa', name: 'Joppa', la: 32.05, ln: 34.752, r: 2.0 },
+  { id: 'damascus', name: 'Damascus', la: 33.51, ln: 36.31, r: 4.0 },
+  { id: 'tarsus', name: 'Tarsus', la: 36.918, ln: 34.893, r: 3.0 },
+  { id: 'antioch', name: 'Antioch', la: 36.202, ln: 36.16, r: 3.0 },
+  { id: 'lystra', name: 'Lystra', la: 37.566, ln: 32.39, r: 3.0 },
+  { id: 'troas', name: 'Troas', la: 39.755, ln: 26.156, r: 3.0 },
+  { id: 'philippi', name: 'Philippi', la: 41.013, ln: 24.287, r: 3.0 },
+  { id: 'ephesus', name: 'Ephesus', la: 37.94, ln: 27.342, r: 3.0 },
+  { id: 'corinth', name: 'Corinth', la: 37.906, ln: 22.88, r: 3.0 },
+  { id: 'thessalonica', name: 'Thessalonica', la: 40.6401, ln: 22.9444, r: 3.0 },
+  { id: 'athens', name: 'Athens', la: 37.9715, ln: 23.7257, r: 3.0 },
+  { id: 'rome', name: 'Rome', la: 41.9028, ln: 12.4964, r: 4.0 }
 ];
 const mapKm = (la1, ln1, la2, ln2) => Math.hypot((ln1 - ln2) * Math.cos(la1 * Math.PI / 180) * 111.3, (la1 - la2) * 111.2);
 function mapHubOf(e) {
@@ -4289,11 +4615,18 @@ const MAP_PLACES = [
   ['31.778,35.235', 'Jerusalem', 'c', 5, 99, 'jerusalem'], ['32.881,35.573', 'Capernaum', 'c', 5, 99, 'capernaum'], ['32.70,35.30', 'Nazareth', 'c', 5, 99, 'nazareth'],
   ['31.705,35.205', 'Bethlehem', 'c', 5, 99, 'bethlehem'], ['31.87,35.44', 'Jericho', 'c', 8, 99, 'jericho'], ['31.771,35.262', 'Bethany', 'c', 9, 99, 'bethany'],
   ['32.79,35.53', 'Tiberias', 'c', 9, 99], ['32.754,35.28', 'Sepphoris', 'c', 9.5, 99], ['32.50,34.89', 'Caesarea', 'c', 7.5, 99], ['33.27,35.20', 'Tyre', 'c', 7, 99],
-  ['33.56,35.37', 'Sidon', 'c', 7, 99], ['33.25,35.69', 'Caesarea Philippi', 'c', 8.5, 99], ['32.275,35.19', 'Sebaste', 'c', 9.5, 99], ['31.53,35.10', 'Hebron', 'c', 8.5, 99],
+  ['33.56,35.37', 'Sidon', 'c', 7, 99], ['33.25,35.69', 'Caesarea Philippi', 'c', 8.5, 99], ['32.275,35.19', 'Sebaste', 'c', 9.5, 99], ['31.53,35.10', 'Hebron', 'c', 8.5, 99], ['30.3285,35.4444', 'Petra', 'c', 6.5, 99],
   ['31.50,34.47', 'Gaza', 'c', 7, 99], ['32.05,34.75', 'Joppa', 'c', 8, 99], ['33.51,36.29', 'Damascus', 'c', 6, 99], ['32.28,35.89', 'Gerasa', 'c', 8.5, 99], ['32.50,35.50', 'Scythopolis', 'c', 9, 99],
-  ['32.82,35.59', 'Sea of Galilee', 'w', 8.2, 13.5], ['31.50,35.47', 'Dead Sea', 'w', 7.5, 13], ['32.18,35.55', 'Jordan River', 'w', 9.5, 13], ['33.0,34.3', 'Mediterranean Sea', 'w', 5, 9.5],
+  ['32.82,35.59', 'Sea of Galilee', 'w', 8.2, 13.5], ['31.50,35.47', 'Dead Sea', 'w', 7.5, 13], ['32.18,35.55', 'Jordan River', 'w', 9.5, 13], ['33.0,34.3', 'Mediterranean Sea', 'w', 3.5, 9.5],
   ['31.62,35.0', 'JUDEA', 'r', 6.3, 9.3], ['32.30,35.22', 'SAMARIA', 'r', 6.3, 9.3], ['32.90,35.30', 'GALILEE', 'r', 6.3, 9.3], ['32.0,35.74', 'PEREA', 'r', 6.3, 9.3],
-  ['32.60,35.95', 'DECAPOLIS', 'r', 6.3, 9.3], ['31.30,35.0', 'IDUMEA', 'r', 6.3, 9.3], ['33.45,35.45', 'PHOENICIA', 'r', 6.3, 9.3], ['30.5,31.0', 'EGYPT', 'r', 4, 9.3], ['33.9,36.3', 'SYRIA', 'r', 5, 9.3], ['27.8,34.4', 'Red Sea', 'w', 4.5, 7.5]
+  ['32.60,35.95', 'DECAPOLIS', 'r', 6.3, 9.3], ['31.30,35.0', 'IDUMEA', 'r', 6.3, 9.3], ['33.45,35.45', 'PHOENICIA', 'r', 6.3, 9.3], ['30.5,31.0', 'EGYPT', 'r', 4, 9.3], ['33.9,36.3', 'SYRIA', 'r', 5, 9.3], ['27.8,34.4', 'Red Sea', 'w', 4.5, 7.5],
+  ['36.202,36.16', 'Antioch', 'c', 4.5, 99, 'antioch'], ['36.918,34.893', 'Tarsus', 'c', 5, 99, 'tarsus'], ['37.94,27.342', 'Ephesus', 'c', 4.5, 99, 'ephesus'],
+  ['37.906,22.88', 'Corinth', 'c', 4.5, 99, 'corinth'], ['37.8833,22.9833', 'Cenchreae', 'c', 8, 99], ['37.9085,23.005', 'Isthmia', 'c', 8, 99], ['43.5397,16.4833', 'Salona', 'c', 5, 99], ['41.1189,1.2445', 'Tarraco', 'c', 5, 99], ['40.0,-3.5', 'Spain', 'r', 3, 6], ['44.0,17.0', 'Illyricum', 'r', 4, 6], ['37.984,23.727', 'Athens', 'c', 4.5, 99], ['41.013,24.287', 'Philippi', 'c', 5, 99, 'philippi'], ['40.64,22.944', 'Thessalonica', 'c', 5, 99],
+  ['41.903,12.496', 'Rome', 'c', 3.5, 99, 'rome'], ['39.755,26.156', 'Troas', 'c', 5.5, 99, 'troas'], ['38.305,31.189', 'Pisidian Antioch', 'c', 6, 99], ['37.871,32.485', 'Iconium', 'c', 6, 99],
+  ['37.566,32.39', 'Lystra', 'c', 6.5, 99, 'lystra'], ['37.53,27.279', 'Miletus', 'c', 6, 99], ['35.185,33.9', 'Salamis', 'c', 6, 99], ['34.755,32.42', 'Paphos', 'c', 6, 99],
+  ['40.823,14.119', 'Puteoli', 'c', 5.5, 99], ['35.95,14.41', 'Malta', 'c', 5, 99], ['36.26,29.985', 'Myra', 'c', 6, 99], ['35.0,33.2', 'CYPRUS', 'r', 4.5, 7], ['35.25,24.9', 'CRETE', 'r', 4.5, 7],
+  ['39.6,32.5', 'GALATIA', 'r', 4.2, 7], ['38.4,28.3', 'ASIA', 'r', 4.2, 7], ['40.6,22.0', 'MACEDONIA', 'r', 4.2, 7], ['38.0,22.2', 'ACHAIA', 'r', 4.2, 7], ['42.8,12.5', 'ITALY', 'r', 4.2, 7],
+  ['40.6401,22.9444', 'Thessalonica', 'c', 4.5, 99, 'thessalonica'], ['37.9715,23.7257', 'Athens', 'c', 4.5, 99, 'athens'], ['37.836,29.1075', 'Laodicea', 'c', 6.5, 99], ['37.925,29.126', 'Hierapolis', 'c', 6.5, 99], ['37.787,29.265', 'Colossae', 'c', 8, 99], ['38.6,25.0', 'Aegean Sea', 'w', 4.5, 8]
 ].map(p => { const [la, ln] = p[0].split(',').map(Number); return { la, ln, name: p[1], kind: p[2], z0: p[3], z1: p[4], hub: p[5] || null, rec: null }; });
 function renderPlaceLabels() {
   if (!mapMain || !mapMainReady) return;
@@ -4375,7 +4708,7 @@ function markerHTML(g, hero, hub) {
   const label = hub ? hub.name + ' · ' + n : (n > 1 ? n + ' events' : lead.t);
   // one number per pin: a single stop shows its stop number (in a story); a group shows how many events it holds
   const story = !!mapActiveStory();
-  const no = (!hub && n === 1 && story && typeof lead.i === 'number') ? String(lead.i) : '';
+  const no = (!hub && n === 1 && story && typeof lead.i === 'number') ? String(mapNo(lead)) : '';
   const cnt = n > 1 ? String(n) : '';
   if (mapPins === 'dots') {
     return `<div class="pd${hub ? ' hub' : ''}${n > 1 ? ' cl' : ''}" style="--bc:${bcol}" title="${escHtml(label)}">${escHtml(no || cnt)}</div>${hub ? `<span class="pm-lab hub">${escHtml(hub.name)}</span>` : ''}`;
@@ -4670,7 +5003,7 @@ function selectEvent(e, fly) {
   if (mapWalk) stepBar = walkBar();
   else if (story && !e.chapterPin && story.match(e)) {
     const seq = mapStoryEvents(), k = seq.findIndex(x => x.i === e.i);
-    stepBar = `<div class="mc-step"><span>Stop ${e.i} of ${mapMaxI}</span><button type="button" data-step="-1"${k <= 0 ? ' disabled' : ''}>‹ Back</button><button type="button" data-step="1"${k < 0 || k >= seq.length - 1 ? ' disabled' : ''}>Next ›</button></div>`;
+    stepBar = `<div class="mc-step"><span>Stop ${mapNo(e)} of ${story._tot || mapMaxI}</span><button type="button" data-step="-1"${k <= 0 ? ' disabled' : ''}>‹ Back</button><button type="button" data-step="1"${k < 0 || k >= seq.length - 1 ? ' disabled' : ''}>Next ›</button></div>`;
   }
   card.innerHTML = `<button type="button" class="mc-x" aria-label="Close">&times;</button>
     ${stepBar}
@@ -4841,7 +5174,7 @@ function showPicker(evs, title) {
   card.classList.remove('walking'); card.dataset.ask = '';
   card.style.borderLeftColor = '#8a6d0b';
   card.innerHTML = `<button type="button" class="mc-x" aria-label="Close">&times;</button><p class="mc-place">${title ? escHtml(title) + ' · ' : ''}${evs.length} events here</p>` +
-    evs.map(e => `<button type="button" class="mc-pick" data-i="${e.i}">${mapActiveStory() && typeof e.i === 'number' ? `<span class="no">${e.i}</span>` : ''}<span class="th">${evThumb(e, 80)}</span><span class="tx"><b>${escHtml(e.t)}</b><span>${escHtml(evRefs(e))}</span></span></button>`).join('');
+    evs.map(e => `<button type="button" class="mc-pick" data-i="${e.i}">${mapActiveStory() && typeof e.i === 'number' ? `<span class="no">${mapNo(e)}</span>` : ''}<span class="th">${evThumb(e, 80)}</span><span class="tx"><b>${escHtml(e.t)}</b><span>${escHtml(evRefs(e))}</span></span></button>`).join('');
   card.hidden = false; card.scrollTop = 0;
   card.querySelector('.mc-x').addEventListener('click', () => { card.hidden = true; });
   card.querySelectorAll('.mc-pick').forEach(b => b.addEventListener('click', () => selectEvent(EV_BY_ID[b.dataset.i] || evs.find(x => String(x.i) === b.dataset.i), true)));
@@ -4853,7 +5186,7 @@ function openMapList() {
   const list = mapShown.slice().sort((a, b) => mapOrderKey(a) - mapOrderKey(b));
   const story = mapActiveStory();
   document.getElementById('mapListTitle').textContent = story ? story.name.toUpperCase() + ' · IN ORDER · ' + list.length : (mapF.book === 'all' ? 'IN THE ORDER OF JESUS’ LIFE' : mapBookName(mapF.book).toUpperCase() + ' · IN READING ORDER') + ' · ' + list.length;
-  document.getElementById('mapListBody').innerHTML = list.length ? list.map(e => `<button type="button" class="map-li" data-i="${e.i}">${story && typeof e.i === 'number' ? `<span class="no">${e.i}</span>` : ''}<span class="th" style="--bc:${MAP_BOOK_COLORS[evPrimaryBook(e)]}">${evThumb(e, 80)}</span><div><b>${escHtml(e.t)}</b><span>${escHtml(evRefs(e))}${e.p ? ' · ' + escHtml(e.p) : ''}</span></div></button>`).join('') : '<p class="mc-sum">Nothing to list yet.</p>';
+  document.getElementById('mapListBody').innerHTML = list.length ? list.map(e => `<button type="button" class="map-li" data-i="${e.i}">${story && typeof e.i === 'number' ? `<span class="no">${mapNo(e)}</span>` : ''}<span class="th" style="--bc:${MAP_BOOK_COLORS[evPrimaryBook(e)]}">${evThumb(e, 80)}</span><div><b>${escHtml(e.t)}</b><span>${escHtml(evRefs(e))}${e.p ? ' · ' + escHtml(e.p) : ''}</span></div></button>`).join('') : '<p class="mc-sum">Nothing to list yet.</p>';
   document.querySelectorAll('#mapListBody .map-li').forEach(b => b.addEventListener('click', () => {
     document.getElementById('mapList').hidden = true;
     const ev = EV_BY_ID[b.dataset.i]; if (ev) { selectEvent(ev, true); }

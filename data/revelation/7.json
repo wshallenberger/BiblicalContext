@@ -1,0 +1,226 @@
+{
+ "book": "Revelation",
+ "chapter": 7,
+ "title": "The Sealed and the Great Multitude",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "After this I saw four angels standing at the four corners of the earth, holding back its four winds so that no wind would blow on land or sea or on any tree."
+  },
+  {
+   "num": 2,
+   "text": "And I saw another angel ascending from the east, with the seal of the living God. And he called out in a loud voice to the four angels who had been given power to harm the land and the sea:"
+  },
+  {
+   "num": 3,
+   "text": "\"Do not harm the land or sea or trees until we have sealed the foreheads of the servants of our God.\""
+  },
+  {
+   "num": 4,
+   "text": "And I heard the number of those who were sealed, 144,000 from all the tribes of Israel:"
+  },
+  {
+   "num": 5,
+   "text": "From the tribe of Judah 12,000 were sealed, from the tribe of Reuben 12,000, from the tribe of Gad 12,000,"
+  },
+  {
+   "num": 6,
+   "text": "from the tribe of Asher 12,000, from the tribe of Naphtali 12,000, from the tribe of Manasseh 12,000,"
+  },
+  {
+   "num": 7,
+   "text": "from the tribe of Simeon 12,000, from the tribe of Levi 12,000, from the tribe of Issachar 12,000,"
+  },
+  {
+   "num": 8,
+   "text": "from the tribe of Zebulun 12,000, from the tribe of Joseph 12,000, and from the tribe of Benjamin 12,000."
+  },
+  {
+   "num": 9,
+   "text": "After this I looked and saw a multitude too large to count, from every nation and tribe and people and tongue, standing before the throne and before the Lamb. They were wearing white robes and holding palm branches in their hands."
+  },
+  {
+   "num": 10,
+   "text": "And they cried out in a loud voice: \"Salvation to our God, who sits on the throne, and to the Lamb!\""
+  },
+  {
+   "num": 11,
+   "text": "And all the angels stood around the throne and around the elders and the four living creatures. And they fell facedown before the throne and worshiped God,"
+  },
+  {
+   "num": 12,
+   "text": "saying, \"Amen! Blessing and glory and wisdom and thanks and honor and power and strength be to our God forever and ever! Amen.\""
+  },
+  {
+   "num": 13,
+   "text": "Then one of the elders addressed me: \"These in white robes,\" he asked, \"who are they, and where have they come from?\""
+  },
+  {
+   "num": 14,
+   "text": "\"Sir,\" I answered, \"you know.\" So he replied, \"These are the ones who have come out of the great tribulation; they have washed their robes and made them white in the blood of the Lamb."
+  },
+  {
+   "num": 15,
+   "text": "For this reason, they are before the throne of God and serve Him day and night in His temple; and the One seated on the throne will spread His tabernacle over them."
+  },
+  {
+   "num": 16,
+   "text": "'Never again will they hunger, and never will they thirst; nor will the sun beat down upon them, nor any scorching heat.'"
+  },
+  {
+   "num": 17,
+   "text": "For the Lamb in the center of the throne will be their shepherd. 'He will lead them to springs of living water,' and 'God will wipe away every tear from their eyes.'\""
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "BEFORE THE THRONE",
+  "setting": "Before the final seal, four angels hold back the winds while another seals the servants of God on their foreheads. The number is 144,000 from the tribes of Israel. Then John sees a countless multitude from every nation, in white robes with palm branches, who have come out of the great tribulation and washed their robes in the blood of the Lamb.",
+  "custom": "Sealing was a mark of ownership and protection, like the mark placed on the foreheads of the faithful in Ezekiel 9. Palm branches were used at the Feast of Tabernacles and to welcome kings. Twelve times twelve times a thousand is a symbolic number of completeness.",
+  "timelineImmediate": "Chapter 8 opens the seventh seal and begins the trumpets.",
+  "timelineBible": "The mark on the forehead recalls Ezekiel 9:4. The tribal list draws on Genesis 49 and Numbers 1. “Never again will they hunger” (v.16) echoes Isaiah 49:10.",
+  "translation": [
+   {
+    "english": "great tribulation",
+    "greek": "θλίψεως τῆς μεγάλης (thlipseōs tēs megalēs)",
+    "verseRef": "v.14",
+    "meaning": "Great pressure or distress. Debated whether this is a final period or a continuing one.",
+    "gloss": "Great pressure"
+   },
+   {
+    "english": "sealed",
+    "greek": "ἐσφραγισμένοι (esphragismenoi)",
+    "verseRef": "v.4-8",
+    "meaning": "Marked with a seal for protection and ownership.",
+    "gloss": "Marked"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Ezekiel 9:4",
+    "note": "A mark on the foreheads of those who grieve."
+   },
+   {
+    "ref": "Isaiah 49:10",
+    "note": "They shall not hunger or thirst."
+   },
+   {
+    "ref": "Genesis 49",
+    "note": "The twelve tribes."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.309,
+   "lng": 26.546,
+   "zoom": 9,
+   "placeName": "Patmos"
+  },
+  "overview": {
+   "summary": "God seals his servants, and John sees an innumerable multitude from every nation worshiping before the throne. The Lamb will be their shepherd, and God will wipe away every tear.",
+   "settingLine": "A pause before the seventh seal.",
+   "placeName": "Patmos",
+   "history": [
+    {
+     "h": "Tribal List",
+     "t": "Dan is omitted and Manasseh included, a difference from earlier lists."
+    },
+    {
+     "h": "Feast of Tabernacles",
+     "t": "Celebrated with palm branches and shelters."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Palm Branches",
+     "t": "Used in joyful processions."
+    },
+    {
+     "h": "Washing Robes",
+     "t": "A symbol of cleansing."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Palm Coins",
+     "t": "Coins from the Jewish revolt with palm branches."
+    },
+    {
+     "h": "Seals",
+     "t": "Stamp seals from Israel."
+    },
+    {
+     "h": "Seal Impressions",
+     "t": "Seals pressed into clay or wax marked ownership and protected documents; the seal of the living God on the foreheads of his servants (7:2-3) draws on this everyday practice."
+    }
+   ],
+   "discussion": "John sees people from every nation in one worshiping crowd. How is my own community learning to welcome people from different backgrounds?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Ezekiel 9:4": "The mark of protection",
+    "Isaiah 49:10": "No more hunger",
+    "Genesis 49": "The tribes"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The 144,000",
+     "d": "Sealed from the tribes"
+    },
+    {
+     "n": "The Great Multitude",
+     "d": "From every nation"
+    },
+    {
+     "n": "The Lamb",
+     "d": "Their shepherd"
+    },
+    {
+     "n": "The Angels",
+     "d": "Hold back the winds"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "The sealed"
+    },
+    {
+     "when": "v.9-12",
+     "label": "A great multitude"
+    },
+    {
+     "when": "v.13-17",
+     "label": "Who they are"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Patmos",
+    "lat": 37.309,
+    "lng": 26.546,
+    "verses": [],
+    "slug": "patmos"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "After this I looked and saw a multitude too large to count, from every nation and tribe and people and tongue, standing before the throne and before the Lamb. They were wearing white robes and holding palm branches in their hands. And they cried out in a loud voice: Salvation to our God, who sits on the throne, and to the Lamb! Sir, I answered, you know. So he replied, These are the ones who have come out of the great tribulation; they have washed their robes and made them white in the blood of the Lamb. For the Lamb in the center of the throne will be their shepherd. 'He will lead them to springs of living water,' and 'God will wipe away every tear from their eyes.'",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ghent_Altarpiece_-_Adoration_of_the_Mystic_Lamb.jpg",
+   "caption": "The Adoration of the Mystic Lamb, the central panel of the Ghent Altarpiece by Jan and Hubert van Eyck, finished in 1432. Martyrs, prophets, apostles and saints gather around the Lamb on the altar, in the spirit of Revelation 5 and 7.",
+   "credit": "Jan van Eyck (1432), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica_of_San_Vitale_-_Lamb_of_God_mosaic.jpg",
+   "caption": "The Lamb of God in a starry wreath held by four angels, in the vault of the presbytery of San Vitale, Ravenna, built about AD 547. Revelation’s main name for Christ is the Lamb who was slain (5:6).",
+   "credit": "Photo: Petar Milošević, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

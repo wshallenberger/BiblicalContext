@@ -1,0 +1,261 @@
+{
+ "book": "Philippians",
+ "chapter": 4,
+ "title": "Rejoice, and Be Content",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Therefore, my brothers, whom I love and long for, my joy and crown, that is how you must stand firm in the Lord, my beloved."
+  },
+  {
+   "num": 2,
+   "text": "I urge Euodia and Syntyche to agree with each other in the Lord."
+  },
+  {
+   "num": 3,
+   "text": "Yes, and I ask you, my true yokefellow, to help these women who have labored with me for the gospel, along with Clement and the rest of my fellow workers, whose names are in the Book of Life."
+  },
+  {
+   "num": 4,
+   "text": "Rejoice in the Lord always. I will say it again: Rejoice!"
+  },
+  {
+   "num": 5,
+   "text": "Let your gentleness be apparent to all. The Lord is near."
+  },
+  {
+   "num": 6,
+   "text": "Be anxious for nothing, but in everything, by prayer and petition, with thanksgiving, present your requests to God."
+  },
+  {
+   "num": 7,
+   "text": "And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."
+  },
+  {
+   "num": 8,
+   "text": "Finally, brothers, whatever is true, whatever is honorable, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think on these things."
+  },
+  {
+   "num": 9,
+   "text": "Whatever you have learned or received or heard from me, or seen in me, put it into practice. And the God of peace will be with you."
+  },
+  {
+   "num": 10,
+   "text": "Now I rejoice greatly in the Lord that at last you have revived your concern for me. You were indeed concerned, but you had no opportunity to show it."
+  },
+  {
+   "num": 11,
+   "text": "I am not saying this out of need, for I have learned to be content regardless of my circumstances."
+  },
+  {
+   "num": 12,
+   "text": "I know how to live humbly, and I know how to abound. I am accustomed to any and every situation—to being filled and being hungry, to having plenty and having need."
+  },
+  {
+   "num": 13,
+   "text": "I can do all things through Christ who gives me strength."
+  },
+  {
+   "num": 14,
+   "text": "Nevertheless, you have done well to share in my affliction."
+  },
+  {
+   "num": 15,
+   "text": "And as you Philippians know, in the early days of the gospel, when I left Macedonia, no church but you partnered with me in the matter of giving and receiving."
+  },
+  {
+   "num": 16,
+   "text": "For even while I was in Thessalonica, you provided for my needs again and again."
+  },
+  {
+   "num": 17,
+   "text": "Not that I am seeking a gift, but I am looking for the fruit that may be credited to your account."
+  },
+  {
+   "num": 18,
+   "text": "I have all I need and more, now that I have received your gifts from Epaphroditus. They are a fragrant offering, an acceptable sacrifice, well-pleasing to God."
+  },
+  {
+   "num": 19,
+   "text": "And my God will supply all your needs according to His glorious riches in Christ Jesus."
+  },
+  {
+   "num": 20,
+   "text": "To our God and Father be glory forever and ever. Amen."
+  },
+  {
+   "num": 21,
+   "text": "Greet all the saints in Christ Jesus. The brothers who are with me send you greetings."
+  },
+  {
+   "num": 22,
+   "text": "All the saints send you greetings, especially those from the household of Caesar."
+  },
+  {
+   "num": 23,
+   "text": "The grace of the Lord Jesus Christ be with your spirit."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle, with Timothy (1:1)",
+  "genre": "Letter of friendship and thanks, with an early Christ hymn",
+  "audience": "The church in Philippi, the first church Paul planted in Europe",
+  "mapLabel": "PHILIPPI, THE GIFT FROM THE CHURCH",
+  "setting": "Paul asks two women, Euodia and Syntyche, to agree, and calls on the church to rejoice always, not worry, and think on whatever is true and honorable. He thanks the Philippians for their gift and shares that he has learned contentment in plenty and in want.",
+  "custom": "In the Roman world, a gift like this came with the expectation of repayment. Paul says he is not asking for more, and calls their gift a fragrant offering. “Caesar’s household” (v.22) means imperial slaves and freedmen.",
+  "timelineImmediate": "The letter ends. Epaphroditus carried it back to Philippi.",
+  "timelineBible": "The peace of God that “guards your hearts” (v.7) echoes Isaiah 26:3. Paul draws on the sacrificial language of Leviticus for the “fragrant offering.”",
+  "sparkNotes": "Euodia and Syntyche, agree in the Lord. Rejoice in the Lord always. Do not be anxious, but pray with thanksgiving, and the peace of God will guard your hearts. Think on what is true, honorable, just, pure, lovely, and commendable. Paul has learned to be content, and can do all things through Christ who strengthens him. He thanks them for their gift, and God will supply every need.",
+  "translation": [
+   {
+    "english": "content",
+    "greek": "αὐτάρκης (autarkēs)",
+    "verseRef": "v.11",
+    "meaning": "Self-sufficient, a Stoic word. Paul’s contentment depends on Christ, not on himself.",
+    "gloss": "Self-sufficient"
+   },
+   {
+    "english": "anxious",
+    "greek": "μεριμνᾶτε (merimnate)",
+    "verseRef": "v.6",
+    "meaning": "Be pulled in different directions with worry. Jesus used the same word (Matthew 6:25).",
+    "gloss": "Worried"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 26:3",
+    "note": "“You keep him in perfect peace whose mind is stayed on you.”"
+   },
+   {
+    "ref": "Psalm 34:4",
+    "note": "“I sought the Lord, and he answered me.”"
+   },
+   {
+    "ref": "Exodus 32:32",
+    "note": "Moses and the book of life."
+   }
+  ],
+  "mapCoords": {
+   "lat": 41.0128,
+   "lng": 24.2858,
+   "zoom": 8,
+   "placeName": "Philippi"
+  },
+  "overview": {
+   "summary": "Rejoice always, pray instead of worrying, and think on good things. Paul has learned contentment and thanks the Philippians for their gift.",
+   "settingLine": "Paul writes in prison to the church in Philippi.",
+   "placeName": "Philippi",
+   "history": [
+    {
+     "h": "Euodia and Syntyche",
+     "t": "Two women who worked beside Paul in the gospel. Their quarrel was serious enough to name."
+    },
+    {
+     "h": "Gifts to Paul",
+     "t": "Paul says the Philippians sent help more than once while he was in Thessalonica (4:15-16). He also says Macedonian believers supplied his needs in Corinth (2 Corinthians 11:9)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Fragrant Offering",
+     "t": "The language of the sacrifices at the Temple."
+    },
+    {
+     "h": "Book of Life",
+     "t": "A register of those who belong to God (Exodus 32:32; Psalm 69:28). City rolls of citizens give a picture of what such a book meant."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Road to Philippi",
+     "t": "Paul’s party likely traveled the Via Egnatia, which runs through Philippi and on toward Thessalonica (Acts 16:12; 17:1)."
+    },
+    {
+     "h": "Lydia’s River",
+     "t": "Acts 16:13 says a prayer meeting met by a river outside the gate. The Gangites is the traditional candidate, and the exact spot is uncertain."
+    }
+   ],
+   "discussion": "Paul’s secret is contentment, not circumstances. What would it take for me to say, “I have learned to be content”?",
+   "book": "The letter to the Philippians · 4 chapters. Paul’s warm thank-you note, full of joy despite prison.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Philippi",
+   "refNotes": {
+    "Isaiah 26:3": "Perfect peace",
+    "Psalm 34:4": "He answered",
+    "Exodus 32:32": "The book of life"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Euodia and Syntyche",
+     "d": "Urged to agree"
+    },
+    {
+     "n": "Clement",
+     "d": "A co-worker"
+    },
+    {
+     "n": "Epaphroditus",
+     "d": "Brought the gift"
+    },
+    {
+     "n": "Caesar’s household",
+     "d": "Send greetings"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Unity"
+    },
+    {
+     "when": "v.4-9",
+     "label": "Rejoice, pray, think"
+    },
+    {
+     "when": "v.10-20",
+     "label": "Contentment and thanks"
+    },
+    {
+     "when": "v.21-23",
+     "label": "Greetings"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Philippi",
+    "lat": 41.0128,
+    "lng": 24.2858,
+    "verses": [
+     15
+    ],
+    "slug": "philippi"
+   },
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [
+     22
+    ],
+    "slug": "rome"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentin_de_Boulogne_-_Saint_Paul_Writing_His_Epistles_-_BF.1991.4_-_Museum_of_Fine_Arts.jpg",
+   "caption": "Saint Paul Writing His Epistles, by Valentin de Boulogne (about 1618-20). Philippians is a thank-you letter, and in chapter 4 Paul thanks the church for its gift and tells them to bring everything to God in prayer.",
+   "credit": "Valentin de Boulogne (c. 1618-20), Museum of Fine Arts, Boston / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Via_Egnatia,_Philippi_(7272784744).jpg",
+   "caption": "A paved stretch of the Via Egnatia, the Roman highway that ran through Philippi and Thessalonica.",
+   "credit": "Photo: Carole Raddato, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

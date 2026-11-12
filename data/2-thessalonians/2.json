@@ -1,0 +1,235 @@
+{
+ "book": "2 Thessalonians",
+ "chapter": 2,
+ "title": "The Man of Lawlessness",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Now concerning the coming of our Lord Jesus Christ and our being gathered together to Him, we ask you, brothers,"
+  },
+  {
+   "num": 2,
+   "text": "not to be easily disconcerted or alarmed by any spirit or message or letter seeming to be from us, alleging that the Day of the Lord has already come."
+  },
+  {
+   "num": 3,
+   "text": "Let no one deceive you in any way, for it will not come until the rebellion occurs and the man of lawlessness—the son of destruction—is revealed."
+  },
+  {
+   "num": 4,
+   "text": "He will oppose and exalt himself above every so-called god or object of worship. So he will seat himself in the temple of God, proclaiming himself to be God."
+  },
+  {
+   "num": 5,
+   "text": "Do you not remember that I told you these things while I was still with you?"
+  },
+  {
+   "num": 6,
+   "text": "And you know what is now restraining him, so that he may be revealed at the proper time."
+  },
+  {
+   "num": 7,
+   "text": "For the mystery of lawlessness is already at work, but the one who now restrains it will continue until he is taken out of the way."
+  },
+  {
+   "num": 8,
+   "text": "And then the lawless one will be revealed, whom the Lord Jesus will slay with the breath of His mouth and annihilate by the majesty of His arrival."
+  },
+  {
+   "num": 9,
+   "text": "The coming of the lawless one will be accompanied by the working of Satan, with every kind of power, sign, and false wonder,"
+  },
+  {
+   "num": 10,
+   "text": "and with every wicked deception directed against those who are perishing, because they refused the love of the truth that would have saved them."
+  },
+  {
+   "num": 11,
+   "text": "For this reason God will send them a powerful delusion so that they believe the lie,"
+  },
+  {
+   "num": 12,
+   "text": "in order that judgment may come upon all who have disbelieved the truth and delighted in wickedness."
+  },
+  {
+   "num": 13,
+   "text": "But we should always thank God for you, brothers who are loved by the Lord, because God has chosen you from the beginning to be saved by the sanctification of the Spirit and by faith in the truth."
+  },
+  {
+   "num": 14,
+   "text": "To this He called you through our gospel, so that you may share in the glory of our Lord Jesus Christ."
+  },
+  {
+   "num": 15,
+   "text": "Therefore, brothers, stand firm and cling to the traditions we taught you, whether by speech or by letter."
+  },
+  {
+   "num": 16,
+   "text": "Now may our Lord Jesus Christ Himself and God our Father, who by grace has loved us and given us eternal comfort and good hope,"
+  },
+  {
+   "num": 17,
+   "text": "encourage your hearts and strengthen you in every good word and deed."
+  }
+ ],
+ "context": {
+  "author": "Paul, with Silas and Timothy (1:1)",
+  "genre": "Letter of encouragement and correction",
+  "audience": "The church in Thessalonica",
+  "mapLabel": "THESSALONICA, A FALSE REPORT",
+  "setting": "Someone, perhaps through a prophecy or a forged letter, had told the Thessalonians that the day of the Lord had already come. Paul says that day will not come until the rebellion occurs and the man of lawlessness is revealed. He then thanks God again and urges them to stand firm.",
+  "custom": "The man of lawlessness takes his seat in the temple of God, proclaiming himself to be God (v.4). Paul’s readers may have remembered Antiochus Epiphanes (Daniel 11) and the emperor Caligula’s attempt to put his statue in the Jerusalem Temple (AD 40).",
+  "timelineImmediate": "Chapter 3 returns to practical matters: prayer, and those who are idle.",
+  "timelineBible": "Paul draws on Daniel 7-12 and Ezekiel 28 for the man of lawlessness. Verse 8, “breath of his mouth,” echoes Isaiah 11:4.",
+  "sparkNotes": "Do not be quickly shaken in mind or alarmed. That day will not come unless the rebellion comes first and the man of lawlessness is revealed. Something is restraining him now. The Lord Jesus will kill him with the breath of his mouth. Those who refused to love the truth will be deceived. But God chose you for salvation, so stand firm and hold the traditions.",
+  "translation": [
+   {
+    "english": "rebellion",
+    "greek": "ἀποστασία (apostasia)",
+    "verseRef": "v.3",
+    "meaning": "A falling away or revolt. The English “apostasy” comes from it.",
+    "gloss": "Revolt"
+   },
+   {
+    "english": "lawlessness",
+    "greek": "ἀνομίας (anomias)",
+    "verseRef": "v.3, 7-8",
+    "meaning": "Without law. A person who sets himself above God’s order.",
+    "gloss": "Without law"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Daniel 11:36",
+    "note": "A king who exalts himself above every god."
+   },
+   {
+    "ref": "Isaiah 11:4",
+    "note": "He will strike the earth with the rod of his mouth."
+   },
+   {
+    "ref": "Ezekiel 28:2",
+    "note": "A ruler who says, “I am a god.”"
+   }
+  ],
+  "mapCoords": {
+   "lat": 40.6401,
+   "lng": 22.9444,
+   "zoom": 8,
+   "placeName": "Thessalonica"
+  },
+  "overview": {
+   "summary": "The day of the Lord has not come yet. Paul describes the rebellion and the man of lawlessness who will be destroyed by Christ, and urges the church to stand firm.",
+   "settingLine": "Paul writes again to Thessalonica.",
+   "placeName": "Thessalonica",
+   "history": [
+    {
+     "h": "Caligula",
+     "t": "About AD 40 the emperor Caligula ordered a statue of himself set up in the Jerusalem Temple. The governor Petronius delayed, and Caligula was killed in AD 41 before it was done (Josephus, Antiquities 18). Some readers think this memory shaped 2:4. Paul does not mention it."
+    },
+    {
+     "h": "Forged Letters",
+     "t": "Paul warns them not to be shaken by a letter “as if from us” saying the day of the Lord has come (2:2), and says he signs every letter himself (3:17). Some scholars think 2 Thessalonians itself was written by someone else. Others defend Paul as the author."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The Restrainer",
+     "t": "Paul says “you know what is restraining him now” (2:6) because he told them in person (2:5), and he does not write it down. Readers have proposed Roman rule, the preaching of the gospel, the Spirit or an angel, but the text does not settle it."
+    },
+    {
+     "h": "Delusion",
+     "t": "Paul says that because people refused the love of the truth, God sends them a deluding influence so that they believe the lie (2:10-11). Compare the lying spirit sent to the prophets of Ahab in 1 Kings 22:22."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Antiochus Coins",
+     "t": "Coins of Antiochus IV (175-164 BC) call him Theos Epiphanes, “God Manifest.” In 167 BC he set up an altar to Zeus in the Temple, the abomination that makes desolate in Daniel 11:31. Paul’s wording in 2:4 resembles Daniel 11:36-37."
+    },
+    {
+     "h": "Temple Platform",
+     "t": "The great Temple platform in Jerusalem was Herod’s work, and the Temple stood until the Romans burned it in AD 70, about twenty years after this letter. Whether “the temple of God” in 2:4 means that building, the church, or something else is debated."
+    }
+   ],
+   "discussion": "Paul tells the Thessalonians not to be shaken by every report. How do I decide what to trust when there is alarming news?",
+   "book": "The second letter to the Thessalonians · 3 chapters. A short follow-up with correction about the day of the Lord.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Thessalonica",
+   "refNotes": {
+    "Daniel 11:36": "The self-exalting king",
+    "Isaiah 11:4": "Breath of his mouth",
+    "Ezekiel 28:2": "The self-made god"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Corrects the report"
+    },
+    {
+     "n": "The Man of Lawlessness",
+     "d": "Exalts himself"
+    },
+    {
+     "n": "The Lord Jesus",
+     "d": "Destroys him"
+    },
+    {
+     "n": "The Thessalonians",
+     "d": "Chosen for salvation"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "A false report"
+    },
+    {
+     "when": "v.3-12",
+     "label": "The man of lawlessness"
+    },
+    {
+     "when": "v.13-15",
+     "label": "Chosen, so stand firm"
+    },
+    {
+     "when": "v.16-17",
+     "label": "Prayer"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Thessalonica",
+    "lat": 40.6401,
+    "lng": 22.9444,
+    "verses": [],
+    "slug": "thessalonica"
+   },
+   {
+    "name": "Jerusalem",
+    "lat": 31.7767,
+    "lng": 35.2342,
+    "verses": [
+     4
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luca_Signorelli_-_Sermon_and_Deeds_of_the_Antichrist_-_WGA21202.jpg",
+   "caption": "The Sermon and Deeds of the Antichrist, a fresco by Luca Signorelli in Orvieto Cathedral (about 1500). Later Christians linked \"the man of lawlessness\" (2 Thessalonians 2:3) with the figure called Antichrist, but Paul does not use that name here, and readers disagree about whom he means.",
+   "credit": "Luca Signorelli (about 1500), Orvieto Cathedral / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TempleMount_HolylandModel.JPG",
+   "caption": "A model of Herod's Temple in the Holyland Model of Jerusalem, now at the Israel Museum. Second Thessalonians 2:4 speaks of the man of lawlessness taking his seat \"in the temple of God\". Readers differ on whether that means the Jerusalem Temple, the church, or something else.",
+   "credit": "Photo: Berthold Werner, public domain / Wikimedia Commons"
+  }
+ }
+}

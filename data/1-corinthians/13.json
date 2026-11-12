@@ -1,0 +1,205 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 13,
+  "title": "The Way of Love",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "If I speak in the tongues of men and of angels, but have not love, I am only a ringing gong or a clanging cymbal."
+    },
+    {
+      "num": 2,
+      "text": "If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have absolute faith so as to move mountains, but have not love, I am nothing."
+    },
+    {
+      "num": 3,
+      "text": "If I give all I possess to the poor and exult in the surrender of my body, but have not love, I gain nothing."
+    },
+    {
+      "num": 4,
+      "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud."
+    },
+    {
+      "num": 5,
+      "text": "It is not rude, it is not self-seeking, it is not easily angered, it keeps no account of wrongs."
+    },
+    {
+      "num": 6,
+      "text": "Love takes no pleasure in evil, but rejoices in the truth."
+    },
+    {
+      "num": 7,
+      "text": "It bears all things, believes all things, hopes all things, endures all things."
+    },
+    {
+      "num": 8,
+      "text": "Love never fails. But where there are prophecies, they will cease; where there are tongues, they will be restrained; where there is knowledge, it will be dismissed."
+    },
+    {
+      "num": 9,
+      "text": "For we know in part and we prophesy in part,"
+    },
+    {
+      "num": 10,
+      "text": "but when the perfect comes, the partial passes away."
+    },
+    {
+      "num": 11,
+      "text": "When I was a child, I talked like a child, I thought like a child, I reasoned like a child. When I became a man, I set aside childish ways."
+    },
+    {
+      "num": 12,
+      "text": "Now we see but a dim reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known."
+    },
+    {
+      "num": 13,
+      "text": "And now these three remain: faith, hope, and love; but the greatest of these is love."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, LOVE AT THE CENTER OF GIFTS",
+    "setting": "In the middle of Paul’s teaching on spiritual gifts stands this poem on love. It is not a wedding reading but a rebuke: the Corinthians who prized flashy gifts lacked the love that makes them worth anything. Paul shows that love outlasts every gift.",
+    "custom": "Corinth was famous for its bronze work, so “a noisy gong or a clanging cymbal” would have been a familiar sound, often used in pagan worship. Mirrors were polished metal, giving a dim reflection (v.12).",
+    "timelineImmediate": "Chapter 14 returns to tongues and prophecy, guided by love and the aim of building up the church.",
+    "timelineBible": "The picture of seeing “face to face” (v.12) echoes how God spoke to Moses (Numbers 12:8). Paul’s “faith, hope, and love” (v.13) appears together in other letters, such as 1 Thessalonians 1:3.",
+    "sparkNotes": "Tongues, prophecy, knowledge, faith, or even giving all one has are nothing without love. Love is patient, kind, not envious or boastful, and never fails. Gifts will pass away, but faith, hope, and love remain, and the greatest of these is love.",
+    "translation": [
+      {
+        "english": "love",
+        "greek": "ἀγάπη (agapē)",
+        "verseRef": "v.1-13",
+        "meaning": "A word for self-giving love. In the Greek Old Testament it was used of God’s love and rarely elsewhere, and Christians made it central.",
+        "gloss": "Self-giving love"
+      },
+      {
+        "english": "patient",
+        "greek": "μακροθυμεῖ (makrothymei)",
+        "verseRef": "v.4",
+        "meaning": "Literally “long-tempered,” slow to anger.",
+        "gloss": "Long-tempered"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Numbers 12:6-8",
+        "note": "God speaks to Moses face to face, not in riddles."
+      },
+      {
+        "ref": "Hosea 6:6",
+        "note": "God desires mercy rather than sacrifice."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Without love, even the greatest gifts and sacrifices are nothing. Love is patient and kind, never fails, and is the greatest of the things that last.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Corinth’s Bronze",
+          "t": "Corinthian bronze was a luxury product, and the city produced mirrors."
+        },
+        {
+          "h": "The Poem’s Setting",
+          "t": "It sits in a letter about quarrels and pride. Every line corrects something in Corinth."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Mirrors",
+          "t": "Ancient mirrors were polished metal, so the image was blurred."
+        },
+        {
+          "h": "Childhood Speech",
+          "t": "Paul compares himself to a child who has put away childish things."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Bronze Mirror",
+          "t": "Polished bronze mirrors have been found in graves and houses around Corinth."
+        },
+        {
+          "h": "Corinth Museum",
+          "t": "Contains bronze and pottery from the Roman city."
+        }
+      ],
+      "discussion": "Paul’s description of love is long and concrete. Which line describes where I most need to grow?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Numbers 12:6-8": "Face to face",
+        "Hosea 6:6": "Mercy over sacrifice"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Speaks of love"
+        },
+        {
+          "n": "The Corinthians",
+          "d": "Prized gifts"
+        },
+        {
+          "n": "Love",
+          "d": "Never fails"
+        },
+        {
+          "n": "Faith, hope, love",
+          "d": "These three remain"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-3",
+          "label": "Gifts without love"
+        },
+        {
+          "when": "v.4-7",
+          "label": "What love is"
+        },
+        {
+          "when": "v.8-12",
+          "label": "Love never ends"
+        },
+        {
+          "when": "v.13",
+          "label": "Faith, hope, love"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Charit%C3%A9_-_Andrea_del_Sarto_-_Mus%C3%A9e_du_Louvre_Peintures_INV_712.jpg",
+      "caption": "Charity, by Andrea del Sarto (1518). The Greek word for love in 1 Corinthians 13 is agape, which older English Bibles translated \"charity\".",
+      "credit": "Andrea del Sarto (1518), Louvre / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek_Bronze_Mirror_Box,_Corinth,_350-325_BC_(28221243421).jpg",
+      "caption": "A Greek bronze mirror box from Corinth (350-325 BC), now in the Louvre. Corinth was known for its bronze, and metal mirrors gave only a dim image, as in \"now we see in a mirror dimly\" (1 Corinthians 13:12).",
+      "credit": "Photo: Gary Todd, CC0 / Wikimedia Commons"
+    }
+  }
+}

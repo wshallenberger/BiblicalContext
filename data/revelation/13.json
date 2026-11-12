@@ -1,0 +1,237 @@
+{
+ "book": "Revelation",
+ "chapter": 13,
+ "title": "The Beast from the Sea and the Beast from the Earth",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Then I saw a beast with ten horns and seven heads rising out of the sea. There were ten royal crowns on its horns and blasphemous names on its heads."
+  },
+  {
+   "num": 2,
+   "text": "The beast I saw was like a leopard, with the feet of a bear and the mouth of a lion. And the dragon gave the beast his power and his throne and great authority."
+  },
+  {
+   "num": 3,
+   "text": "One of the heads of the beast appeared to be mortally wounded. But the mortal wound was healed, and the whole world marveled and followed the beast."
+  },
+  {
+   "num": 4,
+   "text": "They worshiped the dragon who had given authority to the beast, and they worshiped the beast, saying, \"Who is like the beast, and who can wage war against it?\""
+  },
+  {
+   "num": 5,
+   "text": "The beast was given a mouth to speak arrogant and blasphemous words, and authority to act for 42 months."
+  },
+  {
+   "num": 6,
+   "text": "And the beast opened its mouth to speak blasphemies against God and to slander His name and His tabernacle—those who dwell in heaven."
+  },
+  {
+   "num": 7,
+   "text": "Then the beast was permitted to wage war against the saints and to conquer them, and it was given authority over every tribe and people and tongue and nation."
+  },
+  {
+   "num": 8,
+   "text": "And all who dwell on the earth will worship the beast—all whose names have not been written from the foundation of the world in the Book of Life belonging to the Lamb who was slain."
+  },
+  {
+   "num": 9,
+   "text": "He who has an ear, let him hear:"
+  },
+  {
+   "num": 10,
+   "text": "\"If anyone is destined for captivity, into captivity he will go; if anyone is to die by the sword, by the sword he must be killed.\" Here is a call for the perseverance and faith of the saints."
+  },
+  {
+   "num": 11,
+   "text": "Then I saw another beast rising out of the earth. This beast had two horns like a lamb, but spoke like a dragon."
+  },
+  {
+   "num": 12,
+   "text": "And this beast exercised all the authority of the first beast and caused the earth and those who dwell in it to worship the first beast, whose mortal wound had been healed."
+  },
+  {
+   "num": 13,
+   "text": "And the second beast performed great signs to cause even fire from heaven to come down to earth in the presence of the people."
+  },
+  {
+   "num": 14,
+   "text": "Because of the signs it was given to perform on behalf of the first beast, it deceived those who dwell on the earth, telling them to make an image to the beast that had been wounded by the sword and yet had lived."
+  },
+  {
+   "num": 15,
+   "text": "The second beast was permitted to give breath to the image of the first beast, so that the image could speak and cause all who refused to worship it to be killed."
+  },
+  {
+   "num": 16,
+   "text": "And the second beast required all people small and great, rich and poor, free and slave, to receive a mark on their right hand or on their forehead,"
+  },
+  {
+   "num": 17,
+   "text": "so that no one could buy or sell unless he had the mark—the name of the beast or the number of its name."
+  },
+  {
+   "num": 18,
+   "text": "Here is a call for wisdom: Let the one who has insight calculate the number of the beast, for it is the number of a man, and that number is 666."
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "THE EMPIRE AND ITS WORSHIP",
+  "setting": "From the sea rises a beast with ten horns and seven heads, which receives power from the dragon and is worshiped by the world. A second beast, from the earth, performs signs and makes people worship the first beast, requiring a mark on the right hand or forehead without which no one can buy or sell. The number of the beast is 666.",
+  "custom": "The beast recalls Rome, which demanded worship of the emperor. In Asia, there were temples to Rome and the emperor, and coins carried claims of divinity. Letters have numerical values in Hebrew and Greek, which is why the number 666 may be a name; “Nero Caesar” in Hebrew letters adds to 666, though some manuscripts have 616.",
+  "timelineImmediate": "Chapter 14 contrasts the beast’s followers with the Lamb’s 144,000.",
+  "timelineBible": "The beast draws on the four beasts of Daniel 7. The “blasphemous names” and the war on the saints echo Daniel 7:8, 21, 25.",
+  "translation": [
+   {
+    "english": "mark",
+    "greek": "χάραγμα (charagma)",
+    "verseRef": "v.16-17",
+    "meaning": "A stamp or engraved impression, as on a coin or a branded slave.",
+    "gloss": "Stamp"
+   },
+   {
+    "english": "endurance",
+    "greek": "ὑπομονή (hypomonē)",
+    "verseRef": "v.10",
+    "meaning": "Patient steadfastness.",
+    "gloss": "Staying power"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Daniel 7:1-8",
+    "note": "Four beasts rise from the sea."
+   },
+   {
+    "ref": "Daniel 3:1-6",
+    "note": "The image of Nebuchadnezzar that all must worship."
+   },
+   {
+    "ref": "Exodus 13:9",
+    "note": "Signs on hand and forehead."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.309,
+   "lng": 26.546,
+   "zoom": 9,
+   "placeName": "Patmos"
+  },
+  "overview": {
+   "summary": "Two beasts rise to demand the worship of the world, and a mark is required to buy and sell. The number of the beast is 666, and the saints are called to endurance.",
+   "settingLine": "Standing on the sand of the sea.",
+   "placeName": "Patmos",
+   "history": [
+    {
+     "h": "Imperial Cult",
+     "t": "Temples and priests of Rome and the emperor filled Asia."
+    },
+    {
+     "h": "Nero Redivivus",
+     "t": "A legend that Nero would return."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Mark",
+     "t": "Slaves and soldiers were marked or branded."
+    },
+    {
+     "h": "Buying and Selling",
+     "t": "Trade guilds required participation in pagan rites."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Imperial Temple at Ephesus",
+     "t": "The Temple of the Sebastoi."
+    },
+    {
+     "h": "Roman Coins",
+     "t": "Coins with titles such as “Lord and God.”"
+    },
+    {
+     "h": "Papyri of Revelation 13",
+     "t": "Papyrus 47 (3rd century) gives the number of the beast as 666; Papyrus 115 (late 3rd or early 4th century) gives 616. Irenaeus, about AD 180, already knew both readings."
+    }
+   ],
+   "discussion": "John calls for wisdom and patient endurance. What pressures to compromise my loyalty to Christ look quiet and ordinary today?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Daniel 7:1-8": "Beasts from the sea",
+    "Daniel 3:1-6": "The golden image",
+    "Exodus 13:9": "Sign on the hand"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Sea Beast",
+     "d": "Demands worship"
+    },
+    {
+     "n": "The Earth Beast",
+     "d": "Enforces it"
+    },
+    {
+     "n": "The Dragon",
+     "d": "Gives them power"
+    },
+    {
+     "n": "The Saints",
+     "d": "Called to endure"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "The beast from the sea"
+    },
+    {
+     "when": "v.5-10",
+     "label": "War on the saints"
+    },
+    {
+     "when": "v.11-18",
+     "label": "The beast from the earth"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Patmos",
+    "lat": 37.309,
+    "lng": 26.546,
+    "verses": [],
+    "slug": "patmos"
+   },
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Then I saw a beast with ten horns and seven heads rising out of the sea. There were ten royal crowns on its horns and blasphemous names on its heads. The beast I saw was like a leopard, with the feet of a bear and the mouth of a lion. And the dragon gave the beast his power and his throne and great authority. And the second beast required all people small and great, rich and poor, free and slave, to receive a mark on their right hand or on their forehead, so that no one could buy or sell unless he had the mark—the name of the beast or the number of its name. Here is a call for wisdom: Let the one who has insight calculate the number of the beast, for it is the number of a man, and that number is 666.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/P._Oxy._LXVI_4499.jpg",
+   "caption": "Papyrus 115 (P. Oxy. LXVI 4499), pieces of a copy of Revelation from Oxyrhynchus in Egypt, of the late 3rd or early 4th century, now in Oxford. At Revelation 13:18 it gives the number of the beast as 616.",
+   "credit": "Oxyrhynchus Papyri, public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ephesus_-_Temple_of_Domitian_01.jpg",
+   "caption": "The platform of the temple of the emperors at Ephesus, dedicated about AD 89-90 in the reign of Domitian. Most scholars date Revelation to his reign. The worship of the emperors stands behind the beast and its image in Revelation 13.",
+   "credit": "Photo: Bernard Gagnon, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

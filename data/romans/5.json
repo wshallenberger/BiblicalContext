@@ -1,0 +1,234 @@
+{
+  "book": "Romans",
+  "chapter": 5,
+  "title": "Peace, Grace, and Two Adams",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ,"
+    },
+    {
+      "num": 2,
+      "text": "through whom we have gained access by faith into this grace in which we stand. And we rejoice in the hope of the glory of God."
+    },
+    {
+      "num": 3,
+      "text": "Not only that, but we also rejoice in our sufferings, because we know that suffering produces perseverance;"
+    },
+    {
+      "num": 4,
+      "text": "perseverance, character; and character, hope."
+    },
+    {
+      "num": 5,
+      "text": "And hope does not disappoint us, because God has poured out His love into our hearts through the Holy Spirit, whom He has given us."
+    },
+    {
+      "num": 6,
+      "text": "For at just the right time, while we were still powerless, Christ died for the ungodly."
+    },
+    {
+      "num": 7,
+      "text": "Very rarely will anyone die for a righteous man, though for a good man someone might possibly dare to die."
+    },
+    {
+      "num": 8,
+      "text": "But God proves His love for us in this: While we were still sinners, Christ died for us."
+    },
+    {
+      "num": 9,
+      "text": "Therefore, since we have now been justified by His blood, how much more shall we be saved from wrath through Him!"
+    },
+    {
+      "num": 10,
+      "text": "For if, when we were enemies of God, we were reconciled to Him through the death of His Son, how much more, having been reconciled, shall we be saved through His life!"
+    },
+    {
+      "num": 11,
+      "text": "Not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received reconciliation."
+    },
+    {
+      "num": 12,
+      "text": "Therefore, just as sin entered the world through one man, and death through sin, so also death was passed on to all men, because all sinned."
+    },
+    {
+      "num": 13,
+      "text": "For sin was in the world before the law was given; but sin is not taken into account when there is no law."
+    },
+    {
+      "num": 14,
+      "text": "Nevertheless, death reigned from Adam until Moses, even over those who did not sin in the way that Adam transgressed. He is a pattern of the One to come."
+    },
+    {
+      "num": 15,
+      "text": "But the gift is not like the trespass. For if the many died by the trespass of the one man, how much more did God's grace and the gift that came by the grace of the one man, Jesus Christ, abound to the many!"
+    },
+    {
+      "num": 16,
+      "text": "Again, the gift is not like the result of the one man's sin: The judgment that followed one sin brought condemnation, but the gift that followed many trespasses brought justification."
+    },
+    {
+      "num": 17,
+      "text": "For if, by the trespass of the one man, death reigned through that one man, how much more will those who receive an abundance of grace and of the gift of righteousness reign in life through the one man, Jesus Christ!"
+    },
+    {
+      "num": 18,
+      "text": "So then, just as one trespass brought condemnation for all men, so also one act of righteousness brought justification and life for all men."
+    },
+    {
+      "num": 19,
+      "text": "For just as through the disobedience of the one man the many were made sinners, so also through the obedience of the one man the many will be made righteous."
+    },
+    {
+      "num": 20,
+      "text": "The law came in so that the trespass would increase; but where sin increased, grace increased all the more,"
+    },
+    {
+      "num": 21,
+      "text": "so that, just as sin reigned in death, so also grace might reign through righteousness to bring eternal life through Jesus Christ our Lord."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, THE RESULTS OF BEING MADE RIGHT",
+    "setting": "Paul now spells out what follows from being made right by faith: peace with God, a hope that does not disappoint, and the certainty of God’s love shown at the cross. In the second half he compares Adam and Christ: one man brought sin and death into the world, and one man brings righteousness and life.",
+    "custom": "Paul says we were “enemies” (v.10), a word that could describe actual warring parties. “Peace” in the Roman world was supposed to come from the emperor’s victories (Pax Romana). Paul says true peace comes from the cross.",
+    "timelineImmediate": "Chapter 6 answers the obvious question: if grace increases where sin increases, should we keep sinning? Chapter 8 returns to the hope of verses 1-5.",
+    "timelineBible": "The Adam passage (vv.12-21) goes back to Genesis 3. Adam is called “a pattern of the one to come” (v.14). The law “came in” to increase the trespass (v.20) as at Sinai.",
+    "sparkNotes": "Because we are made right by faith, we have peace with God and joy in hope, even in suffering. God showed his love by sending Christ to die for us while we were sinners. As sin and death came through Adam, grace and life come through Christ, and grace is far greater.",
+    "translation": [
+      {
+        "english": "reconciled",
+        "greek": "κατηλλάγημεν (katēllagēmen)",
+        "verseRef": "v.10",
+        "meaning": "From a word for exchange. Two parties who were enemies are brought together. Paul says God took the first step.",
+        "gloss": "Brought together"
+      },
+      {
+        "english": "grace",
+        "greek": "χάρις (charis)",
+        "verseRef": "v.2, 15, 20",
+        "meaning": "A free gift that is not deserved. Paul uses it more than any other New Testament writer.",
+        "gloss": "Free gift"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Genesis 3:1-19",
+        "note": "The fall of Adam, whose act Paul says reached everyone."
+      },
+      {
+        "ref": "Isaiah 53:11",
+        "note": "The servant makes many righteous, behind Paul’s “one man’s obedience.”"
+      },
+      {
+        "ref": "Exodus 20:1-17",
+        "note": "The law at Sinai that made sin more visible."
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "Peace with God, hope in suffering, and the proof of God’s love at the cross. Death spread through Adam, but life and grace come through Christ.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Death Spread",
+          "t": "Paul says death reached everyone because Adam’s sin opened the door and then all sinned (v.12)."
+        },
+        {
+          "h": "Sin Before Moses",
+          "t": "Between Adam and Moses people died even without the law, showing sin was already at work (v.13-14)."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Access",
+          "t": "The word in v.2 was used of being introduced to a king. Believers are brought into God’s presence."
+        },
+        {
+          "h": "Dying for a Good Person",
+          "t": "Heroic friends sometimes died for each other, but Paul says Christ died for people who had nothing to offer (v.7-8)."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Roman Peace Monument",
+          "t": "The Ara Pacis, a huge altar to Augustan peace in Rome, shows the claim Paul’s readers lived under."
+        },
+        {
+          "h": "Roman Triumphal Arches",
+          "t": "Arches celebrated military victories. Paul describes a different kind of victory."
+        }
+      ],
+      "discussion": "Paul says that God showed his love while we were still sinners. How does that change how I think about earning God’s approval?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Genesis 3:1-19": "Adam’s fall",
+        "Isaiah 53:11": "Many made righteous",
+        "Exodus 20:1-17": "The law increased sin"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Adam",
+          "d": "Brought sin and death"
+        },
+        {
+          "n": "Christ",
+          "d": "Brings righteousness and life"
+        },
+        {
+          "n": "The Believer",
+          "d": "Has peace with God"
+        },
+        {
+          "n": "Moses",
+          "d": "The law came in"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-5",
+          "label": "Peace and hope"
+        },
+        {
+          "when": "v.6-11",
+          "label": "Christ died for sinners"
+        },
+        {
+          "when": "v.12-14",
+          "label": "Death through Adam"
+        },
+        {
+          "when": "v.15-21",
+          "label": "Grace through Christ"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer,_Adam_and_Eve,_1504,_NGA_6610.jpg",
+      "caption": "Adam and Eve, an engraving by Albrecht Dürer (1504). In Romans 5 Paul sets the first Adam beside Christ, the last.",
+      "credit": "Albrecht Dürer (1504), National Gallery of Art, Washington / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ara_Pacis_(SW).jpg",
+      "caption": "The Altar of Augustan Peace in Rome, dedicated in 9 BC. Rome's peace was won by arms, and Paul speaks of a different peace with God (Romans 5:1).",
+      "credit": "Photo: Rabax63, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

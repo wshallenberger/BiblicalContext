@@ -1,0 +1,227 @@
+{
+ "book": "Titus",
+ "chapter": 3,
+ "title": "Saved by Mercy, Devoted to Good Works",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Remind the believers to submit to rulers and authorities, to be obedient and ready for every good work,"
+  },
+  {
+   "num": 2,
+   "text": "to malign no one, and to be peaceable and gentle, showing full consideration to everyone."
+  },
+  {
+   "num": 3,
+   "text": "For at one time we too were foolish, disobedient, misled, and enslaved to all sorts of desires and pleasures—living in malice and envy, being hated and hating one another."
+  },
+  {
+   "num": 4,
+   "text": "But when the kindness of God our Savior and His love for mankind appeared,"
+  },
+  {
+   "num": 5,
+   "text": "He saved us, not by the righteous deeds we had done, but according to His mercy, through the washing of new birth and renewal by the Holy Spirit."
+  },
+  {
+   "num": 6,
+   "text": "This is the Spirit He poured out on us abundantly through Jesus Christ our Savior,"
+  },
+  {
+   "num": 7,
+   "text": "so that, having been justified by His grace, we would become heirs with the hope of eternal life."
+  },
+  {
+   "num": 8,
+   "text": "This saying is trustworthy. And I want you to emphasize these things, so that those who have believed God will take care to devote themselves to good deeds. These things are excellent and profitable for the people."
+  },
+  {
+   "num": 9,
+   "text": "But avoid foolish controversies, genealogies, arguments, and quarrels about the law, because these things are pointless and worthless."
+  },
+  {
+   "num": 10,
+   "text": "Reject a divisive man after a first and second admonition,"
+  },
+  {
+   "num": 11,
+   "text": "knowing that such a man is corrupt and sinful; he is self-condemned."
+  },
+  {
+   "num": 12,
+   "text": "As soon as I send Artemas or Tychicus to you, make every effort to come to me at Nicopolis, because I have decided to winter there."
+  },
+  {
+   "num": 13,
+   "text": "Do your best to equip Zenas the lawyer and Apollos, so that they will have everything they need."
+  },
+  {
+   "num": 14,
+   "text": "And our people must also learn to devote themselves to good works in order to meet the pressing needs of others, so that they will not be unfruitful."
+  },
+  {
+   "num": 15,
+   "text": "All who are with me send you greetings. Greet those who love us in the faith. Grace be with all of you."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1)",
+  "genre": "Pastoral letter",
+  "audience": "Titus, Paul’s coworker, left in Crete",
+  "mapLabel": "CRETE AND NICOPOLIS",
+  "setting": "Paul tells Titus to remind believers to be subject to rulers, honest, and gentle. He recalls that they once were foolish and enslaved but that God saved them by mercy through the washing of regeneration. He ends with warnings against quarrels and a divisive person, and personal notes about Artemas, Tychicus, Zenas, and Apollos.",
+  "custom": "Cretans had a reputation for being quarrelsome. Paul tells Titus to avoid “foolish controversies” and, after two warnings, have nothing more to do with a divisive person. Nicopolis (“city of victory”) was a Roman city in northwest Greece.",
+  "timelineImmediate": "The letter ends. Titus joined Paul at Nicopolis and later went to Dalmatia (2 Timothy 4:10).",
+  "timelineBible": "“Washing of regeneration and renewal of the Holy Spirit” (v.5) echoes Ezekiel 36:25-27, with water and a new spirit.",
+  "sparkNotes": "Remind them to be submissive to rulers, ready for every good work, and gentle to all. For we ourselves were once foolish, but when the goodness and loving kindness of God our Savior appeared, he saved us, not because of works, but according to his own mercy, by the washing of regeneration. Those who believe should devote themselves to good works. Avoid foolish controversies. Come to me at Nicopolis.",
+  "translation": [
+   {
+    "english": "regeneration",
+    "greek": "παλινγενεσίας (palingenesias)",
+    "verseRef": "v.5",
+    "meaning": "A new birth or beginning again.",
+    "gloss": "Born again"
+   },
+   {
+    "english": "devote",
+    "greek": "προΐστασθαι (proistasthai)",
+    "verseRef": "v.8, 14",
+    "meaning": "To give attention to, to stand before.",
+    "gloss": "Care for"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Ezekiel 36:25-27",
+    "note": "Clean water and a new spirit."
+   },
+   {
+    "ref": "Psalm 51:10",
+    "note": "Create in me a clean heart."
+   },
+   {
+    "ref": "Proverbs 26:4",
+    "note": "Do not answer a fool by his folly."
+   }
+  ],
+  "mapCoords": {
+   "lat": 39.02,
+   "lng": 20.74,
+   "zoom": 7,
+   "placeName": "Nicopolis"
+  },
+  "overview": {
+   "summary": "God saved us by mercy, not by our works, and believers devote themselves to good works. Titus should avoid foolish quarrels and come to Paul at Nicopolis.",
+   "settingLine": "Paul plans to winter in Nicopolis.",
+   "placeName": "Nicopolis",
+   "history": [
+    {
+     "h": "Nicopolis",
+     "t": "Augustus founded Nicopolis, the City of Victory, about 31-29 BC after his victory at Actium. Titus 3:12 asks Titus to come to Paul there because Paul has decided to winter there. Several cities were named Nicopolis, and the letter does not say which; the one in Epirus on the Ionian coast is the usual guess."
+    },
+    {
+     "h": "Zenas and Apollos",
+     "t": "Titus is told to equip Zenas the lawyer and Apollos so they have everything they need (3:13). Apollos is known from Acts 18:24-28 and 1 Corinthians 1:12; 3:4-6; 16:12. Zenas is named only here. The Greek word for lawyer could mean an expert in either Jewish or Roman law."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Washing",
+     "t": "Titus 3:5 says God saved us through “the washing of new birth and renewal by the Holy Spirit,” and not by the righteous deeds we had done. Many readers see baptism here, but the verse does not use the word, and some see the washing as the cleansing that comes with new birth."
+    },
+    {
+     "h": "Divisive Person",
+     "t": "Titus is to reject a divisive man after a first and second admonition (3:10). The Greek word hairetikos comes from a word meaning to choose, so it first meant someone who picks a party. The meaning “heretic” grew up later in church history."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Nicopolis Ruins",
+     "t": "Long stretches of the city wall, a theater, an Odeion, an aqueduct and a stadium survive at Nicopolis near Preveza. Most of the city dates from its founding by Augustus, and the walls seen today are largely late Roman and Byzantine."
+    },
+    {
+     "h": "Actium Monument",
+     "t": "On the hill north of the city lies the base of Octavian’s victory monument for Actium. Its terrace wall has cuttings where the bronze rams of captured warships were fixed. Augustus built it to mark the victory over Antony and Cleopatra in 31 BC."
+    }
+   ],
+   "discussion": "Paul says we were once foolish and deceived. How does remembering where I started change how I treat others?",
+   "book": "The letter to Titus · 3 chapters. Short, practical instructions for a church on a difficult island.",
+   "author": "Paul",
+   "genre": "Pastoral letter",
+   "audience": "Titus, in Crete",
+   "refNotes": {
+    "Ezekiel 36:25-27": "Water and a new spirit",
+    "Psalm 51:10": "A clean heart",
+    "Proverbs 26:4": "Do not answer fools"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Titus",
+     "d": "Receives final instructions"
+    },
+    {
+     "n": "Artemas or Tychicus",
+     "d": "Might replace Titus"
+    },
+    {
+     "n": "Zenas and Apollos",
+     "d": "Travelers"
+    },
+    {
+     "n": "Paul",
+     "d": "Plans to winter at Nicopolis"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Good citizens"
+    },
+    {
+     "when": "v.3-8",
+     "label": "Saved by mercy"
+    },
+    {
+     "when": "v.9-11",
+     "label": "Avoid quarrels"
+    },
+    {
+     "when": "v.12-15",
+     "label": "Personal notes"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Nicopolis",
+    "lat": 39.02,
+    "lng": 20.74,
+    "verses": [
+     12
+    ],
+    "slug": "nicopolis"
+   },
+   {
+    "name": "Crete",
+    "lat": 35.2,
+    "lng": 24.9,
+    "verses": [],
+    "slug": "crete"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piero_della_Francesca_-_Battesimo_di_Cristo_(National_Gallery,_London).jpg",
+   "caption": "The Baptism of Christ, by Piero della Francesca (after 1451). Titus 3:5 says God saved us through \"the washing of new birth and renewal by the Holy Spirit.\" Many readers think of baptism here, though the verse does not use the word.",
+   "credit": "Piero della Francesca (after 1451), National Gallery, London / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikopolis,_Roman_theatre_2.jpg",
+   "caption": "The Roman theater at Nicopolis near Preveza in Epirus, western Greece, a city Augustus founded after his victory at Actium in 31 BC. Titus 3:12 asks Titus to come to Paul at Nicopolis. Several cities had that name, and the letter does not say which one Paul meant, but the one in Epirus is the usual guess.",
+   "credit": "Photo: Vassiliki Feidopoulou, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

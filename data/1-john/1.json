@@ -1,0 +1,213 @@
+{
+ "book": "1 John",
+ "chapter": 1,
+ "title": "The Word of Life and Walking in Light",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "That which was from the beginning, which we have heard, which we have seen with our own eyes, which we have gazed upon and touched with our own hands—this is the Word of life."
+  },
+  {
+   "num": 2,
+   "text": "And this is the life that was revealed; we have seen it and testified to it, and we proclaim to you the eternal life that was with the Father and was revealed to us."
+  },
+  {
+   "num": 3,
+   "text": "We proclaim to you what we have seen and heard, so that you also may have fellowship with us. And this fellowship of ours is with the Father and with His Son, Jesus Christ."
+  },
+  {
+   "num": 4,
+   "text": "We write these things so that our joy may be complete."
+  },
+  {
+   "num": 5,
+   "text": "And this is the message we have heard from Him and announce to you: God is light, and in Him there is no darkness at all."
+  },
+  {
+   "num": 6,
+   "text": "If we say we have fellowship with Him yet walk in the darkness, we lie and do not practice the truth."
+  },
+  {
+   "num": 7,
+   "text": "But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son cleanses us from all sin."
+  },
+  {
+   "num": 8,
+   "text": "If we say we have no sin, we deceive ourselves, and the truth is not in us."
+  },
+  {
+   "num": 9,
+   "text": "If we confess our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+  },
+  {
+   "num": 10,
+   "text": "If we say we have not sinned, we make Him out to be a liar, and His word is not in us."
+  }
+ ],
+ "context": {
+  "author": "The letter does not name its author. Early church writers from Irenaeus (about AD 180) on assign it to the apostle John, and the writer speaks as an eyewitness (1:1-3). Some scholars think an elder in John’s circle wrote it. The date is usually put between about AD 85 and 100.",
+  "genre": "Pastoral letter or sermon without a formal greeting or ending",
+  "audience": "Believers whom the writer calls little children and beloved (2:1, 7), most likely a group of churches in Roman Asia around Ephesus, where early tradition places John in his last years. The letter names no place and carries no greeting.",
+  "mapLabel": "EPHESUS AND THE CHURCHES OF ASIA",
+  "setting": "John opens like a testimony: what we have heard, seen, and touched concerning the Word of life. His purpose is fellowship with God and each other. He then declares that God is light, and says that those who claim fellowship while walking in darkness lie, but those who confess sin are forgiven.",
+  "custom": "The letter opens with the evidence of the senses: heard, seen, looked at, touched (1:1). Ancient letters began with the sender’s name and a greeting, and this one has neither, so many readers compare it to a sermon sent out to be read aloud. “Walking” (1:6-7) is a Hebrew picture for the way a person lives, and the blood that cleanses (1:7) draws on the sacrifices of Leviticus.",
+  "timelineImmediate": "Chapter 2 gives tests of walking in the light: obedience, love and a warning about the world.",
+  "timelineBible": "The prologue echoes John 1:1-14 and Genesis 1:1 (from the beginning). That God is light recalls Psalm 27:1 and Isaiah 60:19-20, and the cleansing blood recalls the sacrifices of Leviticus 16.",
+  "sparkNotes": "That which was from the beginning, which we have heard, seen, and touched, concerning the Word of life, we proclaim to you so that you may have fellowship with us. God is light, and in him is no darkness at all. If we say we have fellowship with him while we walk in darkness, we lie. But if we walk in the light, the blood of Jesus cleanses us from all sin. If we say we have no sin, we deceive ourselves. If we confess our sins, he is faithful and just to forgive us our sins.",
+  "translation": [
+   {
+    "english": "fellowship",
+    "greek": "κοινωνίαν (koinōnian)",
+    "verseRef": "v.3, 6-7",
+    "meaning": "Shared life, partnership.",
+    "gloss": "Sharing"
+   },
+   {
+    "english": "confess",
+    "greek": "ὁμολογῶμεν (homologōmen)",
+    "verseRef": "v.9",
+    "meaning": "To say the same thing as God does about our sin.",
+    "gloss": "Say the same"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Psalm 27:1",
+    "note": "“The Lord is my light and my salvation.”"
+   },
+   {
+    "ref": "Leviticus 16",
+    "note": "The cleansing from sin."
+   },
+   {
+    "ref": "Psalm 32:5",
+    "note": "“I acknowledged my sin to you.”"
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "John testifies to the Word of life and says God is light. Walking in the light means confessing sin, and God forgives and cleanses.",
+   "settingLine": "John writes to the churches he cares for.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "The Eyewitness Claim",
+     "t": "The writers say they heard, saw, looked at and touched the Word of life (1:1-3). John 20:27 shows Thomas invited to touch the risen Jesus, and Caravaggio painted that scene about 1601-02. The letter’s claim is wider, for it speaks of a group (we), not of Thomas alone."
+    },
+    {
+     "h": "A Letter Without a Name",
+     "t": "Neither the writer nor the readers are named. About AD 180 Irenaeus quotes 1 John as the words of John, the Lord’s disciple, and the Muratorian Fragment (a book list usually dated to the late 2nd century) recalls its opening words while speaking of the Gospel. Today scholars still divide over whether the apostle himself or a close follower wrote it."
+    },
+    {
+     "h": "Three False Claims",
+     "t": "Verses 6, 8 and 10 each answer a boast: fellowship with God while walking in darkness, having no sin, and never having sinned. The letter does not name the people who made these claims, though many scholars link them with the teachers who left the community (2:19)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "God Is Light",
+     "t": "Light and darkness stand for truth and evil, as in Psalm 27:1 and John 8:12. The Community Rule from Qumran also speaks of sons of light and sons of darkness and of spirits of truth and deceit, so the picture was familiar in the Jewish world. The letter’s test is not membership in a group but how a person lives and what he confesses about Jesus Christ."
+    },
+    {
+     "h": "Fellowship",
+     "t": "The Greek word koinonia means sharing or partnership, and the New Testament uses it of fishing partners and of shared property. John uses it for a shared life with the Father, with the Son and with other believers (1:3, 6-7)."
+    },
+    {
+     "h": "Walking",
+     "t": "The Hebrew word later used for Jewish rules of conduct, halakhah, comes from the verb to walk. To walk in the light or in the darkness is to live by it (1:6-7)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Muratorian Fragment",
+     "t": "The Muratorian Fragment is a Latin list of New Testament writings, copied in the 8th century and kept in the Ambrosian Library at Milan. It is usually dated to the late 2nd century, though some scholars argue for the 4th. While speaking of John’s Gospel it recalls the opening words of 1 John, so someone in the early church already treated the letter as John’s."
+    },
+    {
+     "h": "The Basilica of St John at Ephesus",
+     "t": "On Ayasuluk Hill at Selçuk stand the ruins of a great church built under the emperor Justinian in the 6th century over an earlier shrine linked with John’s tomb. Polycrates of Ephesus, about AD 190, wrote that John lay at rest in Ephesus. The apostle’s grave cannot be proved, but the tradition is very old."
+    },
+    {
+     "h": "A Clay Lamp",
+     "t": "A clay lamp burned olive oil and gave a small light in a dark room. The Getty Museum has one from the 1st century BC to the 4th century AD. Ancient people knew how dark a house was without one, which gives force to the picture of God as light with no darkness in him (1:5)."
+    }
+   ],
+   "discussion": "John says if we confess our sins, God is faithful and just to forgive. What do I need to bring into the light and confess?",
+   "book": "The first letter of John · 5 chapters. Plain, deep teaching about light, love, and assurance.",
+   "author": "John",
+   "genre": "Letter",
+   "audience": "Churches in Asia Minor",
+   "refNotes": {
+    "Psalm 27:1": "The Lord is my light",
+    "Leviticus 16": "Cleansing",
+    "Psalm 32:5": "I confessed"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The writer of 1 John",
+     "d": "An eyewitness voice"
+    },
+    {
+     "n": "The “we” of the prologue",
+     "d": "Heard, saw and touched"
+    },
+    {
+     "n": "Christ Jesus",
+     "d": "The Word of life"
+    },
+    {
+     "n": "The readers of 1 John",
+     "d": "Invited into fellowship"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "The Word of life"
+    },
+    {
+     "when": "v.5-7",
+     "label": "God is light"
+    },
+    {
+     "when": "v.8-10",
+     "label": "Confession"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Muratorian_Fragment.jpg",
+   "caption": "The Muratorian Fragment, a Latin list of New Testament books found in the Ambrosian Library at Milan. The copy is of the 8th century, and the list is usually dated to the late 2nd century, though some scholars argue for the 4th. While speaking of John’s Gospel it recalls the opening words of 1 John about what the writer has seen and heard.",
+   "credit": "Unknown scribe (8th-century copy), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica_of_St._John_in_Ephesus_01.jpg",
+   "caption": "The ruins of the Basilica of St John on Ayasuluk Hill, Selçuk, beside ancient Ephesus. The church was built under the emperor Justinian in the 6th century over an earlier shrine. Church tradition says the apostle John spent his last years at Ephesus and was buried here. The letter itself names no place.",
+   "credit": "Photo: Bernard Gagnon, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "book": "Revelation",
+ "chapter": 12,
+ "title": "The Woman and the Dragon",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "And a great sign appeared in heaven: a woman clothed in the sun, with the moon under her feet and a crown of twelve stars on her head."
+  },
+  {
+   "num": 2,
+   "text": "She was pregnant and crying out in the pain and agony of giving birth."
+  },
+  {
+   "num": 3,
+   "text": "Then another sign appeared in heaven: a huge red dragon with seven heads, ten horns, and seven royal crowns on his heads."
+  },
+  {
+   "num": 4,
+   "text": "His tail swept a third of the stars from the sky, tossing them to the earth. And the dragon stood before the woman who was about to give birth, ready to devour her child as soon as she gave birth."
+  },
+  {
+   "num": 5,
+   "text": "And she gave birth to a son, a male child, who will rule all the nations with an iron scepter. And her child was caught up to God and to His throne."
+  },
+  {
+   "num": 6,
+   "text": "And the woman fled into the wilderness, where God had prepared a place for her to be nourished for 1,260 days."
+  },
+  {
+   "num": 7,
+   "text": "Then a war broke out in heaven: Michael and his angels fought against the dragon, and the dragon and his angels fought back."
+  },
+  {
+   "num": 8,
+   "text": "But the dragon was not strong enough, and no longer was any place found in heaven for him and his angels."
+  },
+  {
+   "num": 9,
+   "text": "And the great dragon was hurled down—that ancient serpent called the devil and Satan, the deceiver of the whole world. He was hurled to the earth, and his angels with him."
+  },
+  {
+   "num": 10,
+   "text": "And I heard a loud voice in heaven saying: \"Now have come the salvation and the power and the kingdom of our God, and the authority of His Christ. For the accuser of our brothers has been thrown down— he who accuses them day and night before our God."
+  },
+  {
+   "num": 11,
+   "text": "They have conquered him by the blood of the Lamb and by the word of their testimony. And they did not love their lives so as to shy away from death."
+  },
+  {
+   "num": 12,
+   "text": "Therefore rejoice, O heavens, and you who dwell in them! But woe to the earth and the sea; with great fury the devil has come down to you, knowing he has only a short time.\""
+  },
+  {
+   "num": 13,
+   "text": "And when the dragon saw that he had been thrown to the earth, he pursued the woman who had given birth to the male child."
+  },
+  {
+   "num": 14,
+   "text": "But the woman was given two wings of a great eagle to fly from the presence of the serpent to her place in the wilderness, where she was nourished for a time, and times, and half a time."
+  },
+  {
+   "num": 15,
+   "text": "Then from the mouth of the serpent spewed water like a river to overtake the woman and sweep her away in the torrent."
+  },
+  {
+   "num": 16,
+   "text": "But the earth helped the woman and opened its mouth to swallow up the river that had poured from the dragon's mouth."
+  },
+  {
+   "num": 17,
+   "text": "And the dragon was enraged at the woman, and went to make war with the rest of her children, who keep the commandments of God and hold to the testimony of Jesus. And the dragon stood on the shore of the sea."
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "HEAVEN AND EARTH AT WAR",
+  "setting": "A great sign appears in heaven: a woman clothed with the sun, with the moon under her feet and a crown of twelve stars, about to give birth. A great red dragon with seven heads and ten horns waits to devour her child. The child is caught up to God, the woman flees into the wilderness, and war breaks out in heaven where Michael and his angels defeat the dragon.",
+  "custom": "The imagery recalls ancient stories of a pregnant goddess pursued by a monster, which John reshapes. The woman is understood in different ways, as Israel, Mary, or the church. The red dragon’s heads and horns appear again in the beast of chapter 13.",
+  "timelineImmediate": "Chapter 13 introduces the two beasts who serve the dragon.",
+  "timelineBible": "The woman and child draw on Genesis 3:15, Isaiah 66:7, and Psalm 2:9 (the child “will rule all the nations with an iron scepter,” v.5). The war in heaven recalls Daniel 10 and 12. The phrase “a time, and times, and half a time” (v.14) comes from Daniel 7:25.",
+  "translation": [
+   {
+    "english": "dragon",
+    "greek": "δράκων (drakōn)",
+    "verseRef": "v.3, 9",
+    "meaning": "A great serpent or sea monster.",
+    "gloss": "Great serpent"
+   },
+   {
+    "english": "accuser",
+    "greek": "κατήγωρ (katēgōr)",
+    "verseRef": "v.10",
+    "meaning": "One who brings charges in court. Satan means “adversary.”",
+    "gloss": "Prosecutor"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Genesis 3:15",
+    "note": "The seed of the woman will crush the serpent."
+   },
+   {
+    "ref": "Psalm 2:9",
+    "note": "He will rule them with a rod of iron."
+   },
+   {
+    "ref": "Daniel 12:1",
+    "note": "Michael the great prince will arise."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.309,
+   "lng": 26.546,
+   "zoom": 9,
+   "placeName": "Patmos"
+  },
+  "overview": {
+   "summary": "A woman gives birth to a child, a dragon tries to destroy him, and the dragon is thrown down from heaven. Believers conquer him by the blood of the Lamb and their testimony.",
+   "settingLine": "A great sign in heaven.",
+   "placeName": "Patmos",
+   "history": [
+    {
+     "h": "Pregnant Goddess Myths",
+     "t": "Greek and Roman stories like Leto and Python."
+    },
+    {
+     "h": "Nero and the Beast",
+     "t": "Some think Nero’s memory lies behind the later beast."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Eagle’s Wings",
+     "t": "A picture of escape and care (Exodus 19:4)."
+    },
+    {
+     "h": "Flood",
+     "t": "The dragon’s attempt to sweep the woman away."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Roman Coin of Leto",
+     "t": "Coins of the goddess Leto and Python."
+    },
+    {
+     "h": "Michael Inscriptions",
+     "t": "Early Christian inscriptions honoring Michael."
+    },
+    {
+     "h": "Michael in Asia",
+     "t": "At Colossae and Chonae near Laodicea, Christians later honored the archangel Michael, who fights the dragon in Revelation 12:7. The church built there is much later than John."
+    }
+   ],
+   "discussion": "John says the believers conquered “by the blood of the Lamb and by the word of their testimony.” How is my own story a way of standing against what is wrong?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Genesis 3:15": "The serpent’s head",
+    "Psalm 2:9": "Rod of iron",
+    "Daniel 12:1": "Michael"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Woman",
+     "d": "Gives birth"
+    },
+    {
+     "n": "The Child",
+     "d": "Rules the nations"
+    },
+    {
+     "n": "The Dragon",
+     "d": "Satan"
+    },
+    {
+     "n": "Michael",
+     "d": "Fights the dragon"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "The woman and the dragon"
+    },
+    {
+     "when": "v.7-12",
+     "label": "War in heaven"
+    },
+    {
+     "when": "v.13-17",
+     "label": "The dragon pursues the woman"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Patmos",
+    "lat": 37.309,
+    "lng": 26.546,
+    "verses": [],
+    "slug": "patmos"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "And a great sign appeared in heaven: a woman clothed in the sun, with the moon under her feet and a crown of twelve stars on her head. Then another sign appeared in heaven: a huge red dragon with seven heads, ten horns, and seven royal crowns on his heads. Then a war broke out in heaven: Michael and his angels fought against the dragon, and the dragon and his angels fought back. And the great dragon was hurled down—that ancient serpent called the devil and Satan, the deceiver of the whole world. He was hurled to the earth, and his angels with him. They have conquered him by the blood of the Lamb and by the word of their testimony. And they did not love their lives so as to shy away from death.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer,_The_Apocalyptic_Woman,_1498,_NGA_142358.jpg",
+   "caption": "The Apocalyptic Woman, from Dürer’s Apocalypse: the woman clothed with the sun and crowned with twelve stars, given eagle’s wings, while the seven-headed dragon waits (Revelation 12).",
+   "credit": "Albrecht Dürer (1498), National Gallery of Art, Washington, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patmos,_Monastery_of_Saint_John.JPG",
+   "caption": "The fortified Monastery of St John the Theologian on the hilltop of Patmos, founded by the monk Christodoulos in 1088. John says he was on Patmos “because of the word of God and my testimony about Jesus” (Revelation 1:9).",
+   "credit": "Photo: Odysses, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

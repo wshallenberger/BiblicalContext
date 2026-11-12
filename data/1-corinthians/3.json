@@ -1,0 +1,252 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 3,
+  "title": "God’s Field, God’s Building",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Brothers, I could not address you as spiritual, but as worldly—as infants in Christ."
+    },
+    {
+      "num": 2,
+      "text": "I gave you milk, not solid food, for you were not yet ready for solid food. In fact, you are still not ready,"
+    },
+    {
+      "num": 3,
+      "text": "for you are still worldly. For since there is jealousy and dissension among you, are you not worldly? Are you not walking in the way of man?"
+    },
+    {
+      "num": 4,
+      "text": "For when one of you says, \"I follow Paul,\" and another, \"I follow Apollos,\" are you not mere men?"
+    },
+    {
+      "num": 5,
+      "text": "What then is Apollos? And what is Paul? They are servants through whom you believed, as the Lord has assigned to each his role."
+    },
+    {
+      "num": 6,
+      "text": "I planted the seed and Apollos watered it, but God made it grow."
+    },
+    {
+      "num": 7,
+      "text": "So neither he who plants nor he who waters is anything, but only God, who makes things grow."
+    },
+    {
+      "num": 8,
+      "text": "He who plants and he who waters are one in purpose, and each will be rewarded according to his own labor."
+    },
+    {
+      "num": 9,
+      "text": "For we are God's fellow workers; you are God's field, God's building."
+    },
+    {
+      "num": 10,
+      "text": "By the grace God has given me, I laid a foundation as an expert builder, and someone else is building on it. But each one must be careful how he builds."
+    },
+    {
+      "num": 11,
+      "text": "For no one can lay a foundation other than the one already laid, which is Jesus Christ."
+    },
+    {
+      "num": 12,
+      "text": "If anyone builds on this foundation using gold, silver, precious stones, wood, hay, or straw,"
+    },
+    {
+      "num": 13,
+      "text": "his workmanship will be evident, because the Day will bring it to light. It will be revealed with fire, and the fire will prove the quality of each man's work."
+    },
+    {
+      "num": 14,
+      "text": "If what he has built survives, he will receive a reward."
+    },
+    {
+      "num": 15,
+      "text": "If it is burned up, he will suffer loss. He himself will be saved, but only as if through the flames."
+    },
+    {
+      "num": 16,
+      "text": "Do you not know that you yourselves are God's temple, and that God's Spirit dwells in you?"
+    },
+    {
+      "num": 17,
+      "text": "If anyone destroys God's temple, God will destroy him; for God's temple is holy, and you are that temple."
+    },
+    {
+      "num": 18,
+      "text": "Let no one deceive himself. If any of you thinks he is wise in this age, he should become a fool, so that he may become wise."
+    },
+    {
+      "num": 19,
+      "text": "For the wisdom of this world is foolishness in God's sight. As it is written: \"He catches the wise in their craftiness.\""
+    },
+    {
+      "num": 20,
+      "text": "And again, \"The Lord knows that the thoughts of the wise are futile.\""
+    },
+    {
+      "num": 21,
+      "text": "Therefore, stop boasting in men. All things are yours,"
+    },
+    {
+      "num": 22,
+      "text": "whether Paul or Apollos or Cephas or the world or life or death or the present or the future. All of them belong to you,"
+    },
+    {
+      "num": 23,
+      "text": "and you belong to Christ, and Christ belongs to God."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, A CHURCH STILL LEARNING",
+    "setting": "Paul tells the Corinthians that their jealousy and quarreling show they are still spiritual infants. Teachers such as himself and Apollos are only servants, so the church belongs to God. He pictures the church as a field and a building, and warns every builder to be careful how he builds.",
+    "custom": "Builders in Corinth worked with expensive marble and gold or with cheap wood and straw, and fire tested the result. Paul uses that image for church work: what lasts will stand and what doesn’t will burn, though the builder is saved.",
+    "timelineImmediate": "Chapter 4 continues the contrast between the Corinthians’ pride and the apostles’ humility.",
+    "timelineBible": "The “temple of God” (vv.16-17) goes back to Israel’s sanctuary, but here the building is the community. Verses 19-20 quote Job 5:13 and Psalm 94:11.",
+    "sparkNotes": "The Corinthians are still infants who need milk. Paul planted, Apollos watered, but God gave the growth. The church is God’s field and building, with Jesus Christ as the foundation, and every builder will be tested. The church is God’s temple, so no one should boast in human leaders.",
+    "translation": [
+      {
+        "english": "fellow workers",
+        "greek": "συνεργοί (synergoi)",
+        "verseRef": "v.9",
+        "meaning": "The word behind “synergy.” Paul and Apollos work with God, not alone.",
+        "gloss": "Co-workers"
+      },
+      {
+        "english": "temple",
+        "greek": "ναός (naos)",
+        "verseRef": "v.16-17",
+        "meaning": "The inner sanctuary where God lived, not the whole temple complex. “You” is plural: all of them together are God’s dwelling.",
+        "gloss": "Inner sanctuary"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Job 5:13",
+        "note": "“He catches the wise in their craftiness.”"
+      },
+      {
+        "ref": "Psalm 94:11",
+        "note": "“The Lord knows the thoughts of man.”"
+      },
+      {
+        "ref": "Exodus 25:8",
+        "note": "God asked for a sanctuary so that he could dwell among his people."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Church leaders are servants. The church is God’s field, building, and temple, and everyone will be tested on how they build on the foundation of Jesus Christ.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Apollos",
+          "t": "A Jewish teacher from Alexandria, skilled with Scripture, who taught in Corinth after Paul (Acts 18:24-28)."
+        },
+        {
+          "h": "Paul and Apollos",
+          "t": "They worked in the same field. Paul says their roles were different but unified."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Fire Test",
+          "t": "Gold and silver survive fire, while wood and straw do not."
+        },
+        {
+          "h": "Temple",
+          "t": "In pagan cities, a temple was the god’s home. Paul says God’s home is his people."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Corinthian Marble",
+          "t": "Quarried stone was used on public buildings in Corinth’s forum."
+        },
+        {
+          "h": "Temple of Apollo Foundations",
+          "t": "Large foundation blocks survive on the hill above Corinth."
+        }
+      ],
+      "discussion": "Paul says God makes things grow. What is one area where I am working hard and need to trust God for the growth?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Job 5:13": "Wise caught in craftiness",
+        "Psalm 94:11": "Thoughts of the wise are futile",
+        "Exodus 25:8": "A dwelling for God"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Planted the seed"
+        },
+        {
+          "n": "Apollos",
+          "d": "Watered it"
+        },
+        {
+          "n": "God",
+          "d": "Gave the growth"
+        },
+        {
+          "n": "Jesus Christ",
+          "d": "The foundation"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-4",
+          "label": "Infants and jealousy"
+        },
+        {
+          "when": "v.5-9",
+          "label": "Planter and waterer"
+        },
+        {
+          "when": "v.10-15",
+          "label": "The foundation and the builder"
+        },
+        {
+          "when": "v.16-23",
+          "label": "God’s temple"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [
+          1
+        ],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Wheatfield_with_a_reaper_-_Google_Art_Project.jpg",
+      "caption": "Wheatfield with a Reaper, by Vincent van Gogh (September 1889). Paul calls the church \"God's field\": one plants, another waters, and God gives the growth (1 Corinthians 3:6-9).",
+      "credit": "Vincent van Gogh (September 1889) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Temple_of_Apollo_in_Ancient_Corinth_on_June_6,_2018.jpg",
+      "caption": "The Temple of Apollo at Ancient Corinth, already centuries old when Paul lived in the city (Acts 18:1-17).",
+      "credit": "Photo: George E. Koronaios, CC0 / Wikimedia Commons"
+    }
+  }
+}

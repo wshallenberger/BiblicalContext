@@ -1,0 +1,247 @@
+{
+ "book": "2 Timothy",
+ "chapter": 1,
+ "title": "Rekindle the Gift",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Paul, an apostle of Christ Jesus by the will of God, according to the promise of life in Christ Jesus,"
+  },
+  {
+   "num": 2,
+   "text": "To Timothy, my beloved child: Grace, mercy, and peace from God the Father and Christ Jesus our Lord."
+  },
+  {
+   "num": 3,
+   "text": "I thank God, whom I serve with a clear conscience as did my forefathers, as I constantly remember you night and day in my prayers."
+  },
+  {
+   "num": 4,
+   "text": "Recalling your tears, I long to see you so that I may be filled with joy."
+  },
+  {
+   "num": 5,
+   "text": "I am reminded of your sincere faith, which first dwelt in your grandmother Lois and your mother Eunice, and I am convinced is in you as well."
+  },
+  {
+   "num": 6,
+   "text": "For this reason I remind you to fan into flame the gift of God, which is in you through the laying on of my hands."
+  },
+  {
+   "num": 7,
+   "text": "For God has not given us a spirit of fear, but of power, love, and self-control."
+  },
+  {
+   "num": 8,
+   "text": "So do not be ashamed of the testimony of our Lord, or of me, His prisoner. Instead, join me in suffering for the gospel by the power of God."
+  },
+  {
+   "num": 9,
+   "text": "He has saved us and called us to a holy calling, not because of our works, but by His own purpose and by the grace He granted us in Christ Jesus before time began."
+  },
+  {
+   "num": 10,
+   "text": "And now He has revealed this grace through the appearing of our Savior, Christ Jesus, who has abolished death and illuminated the way to life and immortality through the gospel,"
+  },
+  {
+   "num": 11,
+   "text": "to which I was appointed as a preacher, an apostle, and a teacher."
+  },
+  {
+   "num": 12,
+   "text": "For this reason, even though I suffer as I do, I am not ashamed; for I know whom I have believed, and I am convinced that He is able to guard what I have entrusted to Him for that day."
+  },
+  {
+   "num": 13,
+   "text": "Hold on to the pattern of sound teaching you have heard from me, with the faith and love that are in Christ Jesus."
+  },
+  {
+   "num": 14,
+   "text": "Guard the treasure entrusted to you, with the help of the Holy Spirit who dwells in us."
+  },
+  {
+   "num": 15,
+   "text": "You know that everyone in the Province of Asia has deserted me, including Phygelus and Hermogenes."
+  },
+  {
+   "num": 16,
+   "text": "May the Lord grant mercy to the household of Onesiphorus, because he has often refreshed me and was unashamed of my chains."
+  },
+  {
+   "num": 17,
+   "text": "Indeed, when he arrived in Rome, he searched diligently until he found me."
+  },
+  {
+   "num": 18,
+   "text": "May the Lord grant Onesiphorus His mercy on that day. You know very well how much he ministered to me in Ephesus."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1)",
+  "genre": "Pastoral letter and farewell testament",
+  "audience": "Timothy, Paul’s beloved coworker",
+  "mapLabel": "ROME, FROM PAUL’S PRISON CELL",
+  "setting": "Paul writes from prison, remembering Timothy’s tears at their last parting and the faith of his grandmother Lois and mother Eunice. He urges Timothy to rekindle the gift of God, to not be ashamed of Paul or the gospel, and to guard the good deposit.",
+  "custom": "“Fan into flame” (v.6) is the picture of stirring coals back to fire. In the Roman Empire, being associated with a prisoner could bring shame or danger, so many abandoned Paul. Onesiphorus was the exception, who searched for him in Rome.",
+  "timelineImmediate": "Chapter 2 gives pictures of a faithful servant: soldier, athlete, farmer.",
+  "timelineBible": "Paul’s prayer for Timothy recalls the spirit of power, love, and self-control. His own confidence, “I know whom I have believed,” echoes Psalms of trust.",
+  "sparkNotes": "Paul thanks God for Timothy’s sincere faith, which lived first in Lois and Eunice. Fan into flame the gift of God, for God gave a spirit not of fear but of power, love, and self-control. Do not be ashamed of the testimony about our Lord or of me his prisoner. Everyone in Asia has turned away from me, but Onesiphorus often refreshed me and was not ashamed of my chains.",
+  "translation": [
+   {
+    "english": "fan into flame",
+    "greek": "ἀναζωπυρεῖν (anazōpyrein)",
+    "verseRef": "v.6",
+    "meaning": "To stir up the fire again, as with coals that have gone low.",
+    "gloss": "Stir the fire"
+   },
+   {
+    "english": "deposit",
+    "greek": "παραθήκη (parathēkē)",
+    "verseRef": "v.12, 14",
+    "meaning": "Something placed in someone’s trust, such as money left with a banker.",
+    "gloss": "Entrusted deposit"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Psalm 25:2",
+    "note": "“In you I trust; let me not be put to shame.”"
+   },
+   {
+    "ref": "Genesis 15:1",
+    "note": "“Fear not, Abram.”"
+   },
+   {
+    "ref": "Isaiah 41:10",
+    "note": "“Fear not, for I am with you.”"
+   }
+  ],
+  "mapCoords": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "zoom": 6,
+   "placeName": "Rome"
+  },
+  "overview": {
+   "summary": "Paul urges Timothy to rekindle his gift, not be ashamed of the gospel, and keep the pattern of sound teaching, noting both the desertion of many and the loyalty of Onesiphorus.",
+   "settingLine": "Paul writes from a prison in Rome.",
+   "placeName": "Rome",
+   "history": [
+    {
+     "h": "Lois and Eunice",
+     "t": "Paul recalls Timothy's sincere faith, which lived first in his grandmother Lois and his mother Eunice (1:5). Acts 16:1 says his mother was a Jewish believer and his father a Greek, and that Timothy was a disciple at Lystra. The letter says nothing more about the two women."
+    },
+    {
+     "h": "Onesiphorus",
+     "t": "Paul prays for the household of Onesiphorus, who often refreshed him, was not ashamed of his chains, and searched earnestly for him in Rome until he found him (1:16-17). He had also served at Ephesus (1:18). The letter does not say where he was from."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Laying on of Hands",
+     "t": "Paul tells Timothy to fan into flame the gift of God that is in him \"through the laying on of my hands\" (1:6). First Timothy 4:14 speaks of hands laid on him by the council of elders. In Scripture the laying on of hands marks a blessing or a commissioning (Numbers 27:18-23; Acts 6:6; 13:3). The letter does not say what the gift was."
+    },
+    {
+     "h": "Shame of the Chains",
+     "t": "Paul asks Timothy not to be ashamed of the testimony about the Lord or of Paul, His prisoner (1:8), and he praises Onesiphorus for not being ashamed of his chains (1:16). Being in chains carried public disgrace, so standing by a prisoner could cost a person his good name. The letter also says Onesiphorus had to search for Paul in Rome (1:17)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Mamertine Prison",
+     "t": "The Carcer Tullianum, now called the Mamertine Prison, stands at the foot of the Capitoline Hill in Rome. Later tradition, not the New Testament, says Peter and Paul were held there. Second Timothy does not name Paul's prison, and it speaks of his chains (1:16; 2:9)."
+    },
+    {
+     "h": "Lystra",
+     "t": "Lystra was a Roman colony in the province of Galatia in central Turkey. Acts 14:8-20 and 16:1-2 place Paul and Timothy there. The ancient site, near modern Hatunsaray, has seen little excavation. Kilistra, with its rock-cut Byzantine remains, lies nearby."
+    }
+   ],
+   "discussion": "Paul tells Timothy God has given a spirit of power, love, and self-control, not fear. Where is fear holding me back?",
+   "book": "The second letter to Timothy · 4 chapters. Paul’s last words, written from prison with death in view.",
+   "author": "Paul",
+   "genre": "Farewell letter",
+   "audience": "Timothy",
+   "refNotes": {
+    "Psalm 25:2": "Not put to shame",
+    "Genesis 15:1": "Fear not",
+    "Isaiah 41:10": "I am with you"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Imprisoned"
+    },
+    {
+     "n": "Timothy",
+     "d": "Beloved child"
+    },
+    {
+     "n": "Lois and Eunice",
+     "d": "His family"
+    },
+    {
+     "n": "Onesiphorus",
+     "d": "Faithful friend"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Greeting and memories"
+    },
+    {
+     "when": "v.6-14",
+     "label": "Rekindle and guard"
+    },
+    {
+     "when": "v.15-18",
+     "label": "Desertion and loyalty"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [
+     16,
+     17
+    ],
+    "slug": "rome"
+   },
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [
+     18
+    ],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [
+     15
+    ],
+    "slug": "asia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timothy-and-Lois.jpg",
+   "caption": "Timothy and Lois, by Willem Drost (about 1650), in the Hermitage. It is an imagined scene. Second Timothy 1:5 names Timothy's grandmother Lois and his mother Eunice as the first in whom his sincere faith lived.",
+   "credit": "Willem Drost (about 1650), Hermitage Museum / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilistra_lystra33.JPG",
+   "caption": "Kilistra, a rock-cut Byzantine town near the site of ancient Lystra in Turkey. At Lystra Paul was stoned and dragged out of the city (Acts 14:19), and he recalls it in 2 Timothy 3:11.",
+   "credit": "Photo: Dursunbal, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

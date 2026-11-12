@@ -1,0 +1,202 @@
+{
+  "book": "Romans",
+  "chapter": 13,
+  "title": "Authorities and Love",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Everyone must submit himself to the governing authorities, for there is no authority except that which is from God. The authorities that exist have been appointed by God."
+    },
+    {
+      "num": 2,
+      "text": "Consequently, whoever resists authority is opposing what God has set in place, and those who do so will bring judgment on themselves."
+    },
+    {
+      "num": 3,
+      "text": "For rulers are not a terror to good conduct, but to bad. Do you want to be unafraid of the one in authority? Then do what is right, and you will have his approval."
+    },
+    {
+      "num": 4,
+      "text": "For he is God's servant for your good. But if you do wrong, be afraid, for he does not carry the sword in vain. He is God's servant, an agent of retribution to the wrongdoer."
+    },
+    {
+      "num": 5,
+      "text": "Therefore it is necessary to submit to authority, not only to avoid punishment, but also as a matter of conscience."
+    },
+    {
+      "num": 6,
+      "text": "This is also why you pay taxes. For the authorities are God's servants, who devote themselves to their work."
+    },
+    {
+      "num": 7,
+      "text": "Pay everyone what you owe him: taxes to whom taxes are due, revenue to whom revenue is due, respect to whom respect is due, honor to whom honor is due."
+    },
+    {
+      "num": 8,
+      "text": "Be indebted to no one, except to one another in love. For he who loves his neighbor has fulfilled the law."
+    },
+    {
+      "num": 9,
+      "text": "The commandments \"Do not commit adultery,\" \"Do not murder,\" \"Do not steal,\" \"Do not covet,\" and any other commandments, are summed up in this one decree: \"Love your neighbor as yourself.\""
+    },
+    {
+      "num": 10,
+      "text": "Love does no wrong to its neighbor. Therefore love is the fulfillment of the law."
+    },
+    {
+      "num": 11,
+      "text": "And do this, understanding the occasion. The hour has come for you to wake up from your slumber, for our salvation is nearer now than when we first believed."
+    },
+    {
+      "num": 12,
+      "text": "The night is nearly over; the day has drawn near. So let us lay aside the deeds of darkness and put on the armor of light."
+    },
+    {
+      "num": 13,
+      "text": "Let us behave decently, as in the daytime, not in carousing and drunkenness, not in sexual immorality and debauchery, not in dissension and jealousy."
+    },
+    {
+      "num": 14,
+      "text": "Instead, clothe yourselves with the Lord Jesus Christ, and make no provision for the desires of the flesh."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, UNDER THE EMPEROR’S GOVERNMENT",
+    "setting": "Paul writes to Christians living in the capital, under an emperor, probably Nero in the early part of his reign. He tells them to be subject to governing authorities, to pay taxes, and to owe nothing but love. He ends with a call to wake up because salvation is nearer than when they first believed.",
+    "custom": "Taxes in Rome were often unfair, and in AD 58 there was an uproar over the tax collectors. Paul tells believers to pay what they owe (v.7). The “armor of light” (v.12) is a soldier’s image used elsewhere by Paul (Ephesians 6).",
+    "timelineImmediate": "Chapter 14 goes on with “love is the fulfillment of the law,” applying it to differences within the church.",
+    "timelineBible": "Verses 8-10 sum up the commandments (Exodus 20:13-17) in Leviticus 19:18, “love your neighbor as yourself,” as Jesus did (Mark 12:31). Daniel 2:21 and 4:17 say God sets up and removes rulers.",
+    "sparkNotes": "Paul says every person should be subject to governing authorities, since they are established by God, and should pay taxes and honor. Owe no one anything except love, for love fulfills the law. The night is nearly over, so put on the armor of light and put on Christ.",
+    "translation": [
+      {
+        "english": "subject",
+        "greek": "ὑποτασσέσθω (hypotassesthō)",
+        "verseRef": "v.1",
+        "meaning": "A military-style word meaning to arrange under. It isn’t blind obedience but an orderly respect for rightful roles.",
+        "gloss": "Arrange under"
+      },
+      {
+        "english": "put on",
+        "greek": "ἐνδύσασθε (endysasthe)",
+        "verseRef": "v.12, 14",
+        "meaning": "Dressing language. Believers take off darkness and clothe themselves with Christ.",
+        "gloss": "Clothe yourselves"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Leviticus 19:18",
+        "note": "“Love your neighbor as yourself,” the sum of the law."
+      },
+      {
+        "ref": "Daniel 2:21",
+        "note": "God removes kings and sets up kings."
+      },
+      {
+        "ref": "Exodus 20:13-17",
+        "note": "The commandments Paul lists, summed up by love."
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "Believers are to respect governing authorities and pay what they owe, and to owe everyone love. Because the day is near, they should live in the light.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Nero’s Early Years",
+          "t": "The first years of Nero’s rule (AD 54-59) were relatively stable. Later he persecuted Christians."
+        },
+        {
+          "h": "Claudius’s Edict",
+          "t": "Jews were expelled from Rome around AD 49 for unrest, so Paul’s readers knew what official anger felt like."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Taxes",
+          "t": "Rome collected direct taxes (tribute) and indirect ones such as customs duties. Both are named in v.7."
+        },
+        {
+          "h": "The Sword",
+          "t": "The right to carry the sword meant the government’s power to punish with death."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Tax Inscriptions",
+          "t": "Inscriptions in Asia list the Roman customs duties collected on goods."
+        },
+        {
+          "h": "Imperial Portraits",
+          "t": "Coins and statues of the emperor were everywhere, a constant reminder of who ruled."
+        }
+      ],
+      "discussion": "Paul says authorities are established by God. When have I struggled to respect a government, and how does Paul’s picture of love shape how I act?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Leviticus 19:18": "Love your neighbor",
+        "Daniel 2:21": "God sets up rulers",
+        "Exodus 20:13-17": "The commandments"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Believers",
+          "d": "Subject to authorities"
+        },
+        {
+          "n": "Rulers",
+          "d": "God’s servants"
+        },
+        {
+          "n": "Neighbors",
+          "d": "To be loved"
+        },
+        {
+          "n": "Christ",
+          "d": "Put on like clothing"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-7",
+          "label": "Authorities and taxes"
+        },
+        {
+          "when": "v.8-10",
+          "label": "Owe love"
+        },
+        {
+          "when": "v.11-14",
+          "label": "The day is near"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nero_1.JPG",
+      "caption": "A portrait of the emperor Nero, who ruled when Paul wrote Romans 13:1-7.",
+      "credit": "cjh1452000, CC BY-SA 3.0 / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MBALyon2018_-_Expo_Claude_-_Aureus_de_Neron_54_ap_J-C.jpg",
+      "caption": "A gold aureus struck in AD 54 for the new emperor Nero, who was then a teenager.",
+      "credit": "Photo: Christophe Jacquand, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

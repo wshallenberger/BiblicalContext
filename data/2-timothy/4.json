@@ -1,0 +1,277 @@
+{
+ "book": "2 Timothy",
+ "chapter": 4,
+ "title": "I Have Finished the Race",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I charge you in the presence of God and of Christ Jesus, who will judge the living and the dead, and in view of His appearing and His kingdom:"
+  },
+  {
+   "num": 2,
+   "text": "Preach the word; be prepared in season and out of season; reprove, rebuke, and encourage with every form of patient instruction."
+  },
+  {
+   "num": 3,
+   "text": "For the time will come when men will not tolerate sound doctrine, but with itching ears they will gather around themselves teachers to suit their own desires."
+  },
+  {
+   "num": 4,
+   "text": "So they will turn their ears away from the truth and turn aside to myths."
+  },
+  {
+   "num": 5,
+   "text": "But you, be sober in all things, endure hardship, do the work of an evangelist, fulfill your ministry."
+  },
+  {
+   "num": 6,
+   "text": "For I am already being poured out like a drink offering, and the time of my departure is at hand."
+  },
+  {
+   "num": 7,
+   "text": "I have fought the good fight, I have finished the race, I have kept the faith."
+  },
+  {
+   "num": 8,
+   "text": "From now on there is laid up for me the crown of righteousness, which the Lord, the righteous Judge, will award to me on that day—and not only to me, but to all who crave His appearing."
+  },
+  {
+   "num": 9,
+   "text": "Make every effort to come to me quickly,"
+  },
+  {
+   "num": 10,
+   "text": "because Demas, in his love of this world, has deserted me and gone to Thessalonica. Crescens has gone to Galatia, and Titus to Dalmatia."
+  },
+  {
+   "num": 11,
+   "text": "Only Luke is with me. Get Mark and bring him with you, because he is useful to me in the ministry."
+  },
+  {
+   "num": 12,
+   "text": "Tychicus, however, I have sent to Ephesus."
+  },
+  {
+   "num": 13,
+   "text": "When you come, bring the cloak that I left with Carpus at Troas, and my scrolls, especially the parchments."
+  },
+  {
+   "num": 14,
+   "text": "Alexander the coppersmith did great harm to me. The Lord will repay him according to his deeds."
+  },
+  {
+   "num": 15,
+   "text": "You too should beware of him, for he has vigorously opposed our message."
+  },
+  {
+   "num": 16,
+   "text": "At my first defense, no one stood with me, but everyone deserted me. May it not be charged against them."
+  },
+  {
+   "num": 17,
+   "text": "But the Lord stood by me and strengthened me, so that through me the message would be fully proclaimed, and all the Gentiles would hear it. So I was delivered from the mouth of the lion."
+  },
+  {
+   "num": 18,
+   "text": "And the Lord will rescue me from every evil action and bring me safely into His heavenly kingdom. To Him be the glory forever and ever. Amen."
+  },
+  {
+   "num": 19,
+   "text": "Greet Prisca and Aquila, as well as the household of Onesiphorus."
+  },
+  {
+   "num": 20,
+   "text": "Erastus has remained at Corinth, and Trophimus I left sick in Miletus."
+  },
+  {
+   "num": 21,
+   "text": "Make every effort to come to me before winter. Eubulus sends you greetings, as do Pudens, Linus, Claudia, and all the brothers."
+  },
+  {
+   "num": 22,
+   "text": "The Lord be with your spirit. Grace be with you all."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1)",
+  "genre": "Pastoral letter and farewell testament",
+  "audience": "Timothy, Paul’s beloved coworker",
+  "mapLabel": "ROME, PAUL’S FAREWELL",
+  "setting": "Paul gives a solemn charge to preach the word in season and out of season, because people will turn away from sound teaching. Then he says his own time is near: he has fought the good fight, finished the race, and kept the faith. He asks Timothy to come and to bring his cloak and books.",
+  "custom": "“Poured out as a drink offering” (v.6) pictures wine poured on a sacrifice. The “crown of righteousness” is the wreath for the winner of a race. Paul’s request for his cloak and the parchments shows his needs in a cold, damp prison.",
+  "timelineImmediate": "Tradition says Paul was executed in Rome soon after. This is the last letter in his collection.",
+  "timelineBible": "“I was rescued from the lion’s mouth” (v.17) echoes Psalm 22:21 and Daniel 6. Paul’s drink offering recalls Numbers 28:7.",
+  "sparkNotes": "I charge you before God and Christ Jesus: preach the word, be ready in season and out of season, reprove, rebuke, and exhort. The time is coming when people will not endure sound teaching. Paul says, “I am already being poured out as a drink offering. I have fought the good fight, I have finished the race, I have kept the faith. There is laid up for me the crown of righteousness.” At his first defense no one came to his side, but the Lord stood with him.",
+  "translation": [
+   {
+    "english": "poured out",
+    "greek": "σπένδομαι (spendomai)",
+    "verseRef": "v.6",
+    "meaning": "To pour a libation, wine poured on a sacrifice. Paul sees his death as an offering.",
+    "gloss": "Poured as a libation"
+   },
+   {
+    "english": "departure",
+    "greek": "ἀναλύσεως (analyseōs)",
+    "verseRef": "v.6",
+    "meaning": "Untying, as a ship leaving its moorings or a tent being taken down.",
+    "gloss": "Untying"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Psalm 22:21",
+    "note": "Save me from the mouth of the lion."
+   },
+   {
+    "ref": "Numbers 28:7",
+    "note": "The drink offering poured out."
+   },
+   {
+    "ref": "Daniel 6:20-22",
+    "note": "Daniel rescued from the lions."
+   }
+  ],
+  "mapCoords": {
+   "lat": 41.9028,
+   "lng": 12.4964,
+   "zoom": 6,
+   "placeName": "Rome"
+  },
+  "overview": {
+   "summary": "Paul charges Timothy to preach the word. His own race is finished, a crown awaits, and he asks Timothy to come and bring his cloak and books.",
+   "settingLine": "Paul nears the end of his life in Rome.",
+   "placeName": "Rome",
+   "history": [
+    {
+     "h": "The First Defense",
+     "t": "Paul says that at his first defense no one came to his support, but the Lord stood by him and strengthened him (4:16-17). The letter does not say where the hearing was or what the charge was. He speaks of being delivered from the lion's mouth (4:17), which may be a picture of danger rather than a literal lion."
+    },
+    {
+     "h": "Demas",
+     "t": "Paul says Demas, in love with this present world, has deserted him and gone to Thessalonica (4:10). Demas is named with Paul in Colossians 4:14 and Philemon 24. The letter does not say whether he left the faith."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The Cloak",
+     "t": "Paul asks Timothy to bring the cloak he left with Carpus at Troas (4:13). The Greek word for cloak is rare, and it is used for a heavy outer garment. Paul also asks Timothy to come before winter (4:21), which may be why he wants it. The letter does not say why he left it at Troas."
+    },
+    {
+     "h": "Scrolls and Parchments",
+     "t": "Paul asks for his scrolls, \"especially the parchments\" (4:13). Parchments were sheets of animal skin, and they may have been notebooks. The letter does not say what the books and parchments were; suggestions include Scripture scrolls and Paul's own papers."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Paul's Death in Tradition",
+     "t": "The New Testament does not describe Paul's death. Church tradition says he was executed in Rome under Nero and buried on the road to Ostia, and the place usually named for his execution is Tre Fontane. Gaius, a Roman churchman about AD 200, says the trophies (victory monuments) of Peter and Paul were at the Vatican and on the road to Ostia (Eusebius, Church History 2.25)."
+    },
+    {
+     "h": "St. Paul Outside the Walls",
+     "t": "The basilica stands beside the road to Ostia and, by tradition, over Paul's tomb. The first church was built in the 4th century, and much of the present building was rebuilt after a fire in 1823. In 2009 Pope Benedict XVI announced that bone fragments from the sarcophagus under the altar had been dated to the 1st or 2nd century. That does not prove whose they are."
+    }
+   ],
+   "discussion": "Paul looks back and says he has finished the race. When I look back at my life, what do I hope to be able to say?",
+   "book": "The second letter to Timothy · 4 chapters. Paul’s last words, written from prison with death in view.",
+   "author": "Paul",
+   "genre": "Farewell letter",
+   "audience": "Timothy",
+   "refNotes": {
+    "Psalm 22:21": "Rescued from the lion",
+    "Numbers 28:7": "The drink offering",
+    "Daniel 6:20-22": "Rescued by God"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Near death"
+    },
+    {
+     "n": "Timothy",
+     "d": "Asked to come"
+    },
+    {
+     "n": "Luke",
+     "d": "The only one with Paul"
+    },
+    {
+     "n": "Demas",
+     "d": "Deserted for the world"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "The final charge"
+    },
+    {
+     "when": "v.6-8",
+     "label": "The race finished"
+    },
+    {
+     "when": "v.9-15",
+     "label": "Personal requests"
+    },
+    {
+     "when": "v.16-22",
+     "label": "The Lord stood by me"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [
+     16,
+     17
+    ],
+    "slug": "rome"
+   },
+   {
+    "name": "Troas",
+    "lat": 39.75,
+    "lng": 26.15,
+    "verses": [
+     13
+    ],
+    "slug": "troas"
+   },
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [
+     12,
+     19
+    ],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Corinth",
+    "lat": 37.906,
+    "lng": 22.88,
+    "verses": [
+     20
+    ],
+    "slug": "corinth"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1627_Rembrandt_Paulus_im_Gef%C3%A4ngnis_Staatsgalerie_Stuttgart_anagoria.JPG",
+   "caption": "Paul in Prison, by Rembrandt (1627), in the Staatsgalerie Stuttgart. It is an imagined scene, but 2 Timothy speaks of Paul in chains (1:16; 2:9) and asks for a cloak, scrolls and parchments (4:13).",
+   "credit": "Rembrandt (1627), Staatsgalerie Stuttgart / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rome_(IT),_Sankt_Paul_vor_den_Mauern_--_2013_--_3982.jpg",
+   "caption": "The Basilica of Saint Paul Outside the Walls in Rome, which tradition says stands over Paul's burial place. The first church here dates from the 4th century. Much of the present building was rebuilt after a fire in 1823. In 2 Timothy 4:6-8 Paul himself looks toward death.",
+   "credit": "Photo: Dietmar Rabich, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

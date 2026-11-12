@@ -1,0 +1,230 @@
+{
+  "book": "2 Corinthians",
+  "chapter": 4,
+  "title": "Treasure in Jars of Clay",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Therefore, since God in His mercy has given us this ministry, we do not lose heart."
+    },
+    {
+      "num": 2,
+      "text": "Instead, we have renounced secret and shameful ways. We do not practice deceit, nor do we distort the word of God. On the contrary, by open proclamation of the truth, we commend ourselves to every man's conscience in the sight of God."
+    },
+    {
+      "num": 3,
+      "text": "And even if our gospel is veiled, it is veiled to those who are perishing."
+    },
+    {
+      "num": 4,
+      "text": "The god of this age has blinded the minds of unbelievers so they cannot see the light of the gospel of the glory of Christ, who is the image of God."
+    },
+    {
+      "num": 5,
+      "text": "For we do not proclaim ourselves, but Jesus Christ as Lord, and ourselves as your servants for Jesus' sake."
+    },
+    {
+      "num": 6,
+      "text": "For God, who said, \"Let light shine out of darkness,\" made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ."
+    },
+    {
+      "num": 7,
+      "text": "Now we have this treasure in jars of clay to show that this surpassingly great power is from God and not from us."
+    },
+    {
+      "num": 8,
+      "text": "We are hard pressed on all sides, but not crushed; perplexed, but not in despair;"
+    },
+    {
+      "num": 9,
+      "text": "persecuted, but not forsaken; struck down, but not destroyed."
+    },
+    {
+      "num": 10,
+      "text": "We always carry around in our body the death of Jesus, so that the life of Jesus may also be revealed in our body."
+    },
+    {
+      "num": 11,
+      "text": "For we who are alive are always consigned to death for Jesus' sake, so that the life of Jesus may also be revealed in our mortal body."
+    },
+    {
+      "num": 12,
+      "text": "So then, death is at work in us, but life is at work in you."
+    },
+    {
+      "num": 13,
+      "text": "And in keeping with what is written: \"I believed, therefore I have spoken,\" we who have the same spirit of faith also believe and therefore speak,"
+    },
+    {
+      "num": 14,
+      "text": "knowing that the One who raised the Lord Jesus will also raise us with Jesus and present us with you in His presence."
+    },
+    {
+      "num": 15,
+      "text": "All this is for your benefit, so that the grace that is extending to more and more people may overflow in thanksgiving, to the glory of God."
+    },
+    {
+      "num": 16,
+      "text": "Therefore we do not lose heart. Though our outer self is wasting away, yet our inner self is being renewed day by day."
+    },
+    {
+      "num": 17,
+      "text": "For our light and momentary affliction is producing for us an eternal weight of glory that is far beyond comparison."
+    },
+    {
+      "num": 18,
+      "text": "So we fix our eyes not on what is seen, but on what is unseen. For what is seen is temporary, but what is unseen is eternal."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Timothy (1:1)",
+    "genre": "Letter, personal and defensive, among Paul’s most emotional",
+    "audience": "The church in Corinth, after a painful period of conflict",
+    "mapLabel": "CORINTH, PAUL’S SUFFERING AND HOPE",
+    "setting": "Paul explains why he does not lose heart. The gospel is a treasure, and he and his team are cheap clay jars that hold it, so that the power is seen to come from God. He describes his troubles in a series of contrasts and says that suffering now prepares an eternal weight of glory.",
+    "custom": "Clay jars were the cheap, common containers of the ancient world, used for oil, grain, and money. Valuables were sometimes hidden in them, like the Dead Sea Scrolls. “Light from darkness” recalls the first day of creation.",
+    "timelineImmediate": "Chapter 5 continues to speak of the body as a tent and our future home.",
+    "timelineBible": "Verse 6 recalls Genesis 1:3 (“Let light shine out of darkness”). Verse 13 quotes Psalm 116:10, “I believed, and so I spoke.”",
+    "sparkNotes": "Because of God’s mercy, Paul does not lose heart. The gospel is hidden from those who are perishing, because the god of this age has blinded them. God, who said “let light shine,” has shone in our hearts. Paul is afflicted but not crushed, perplexed but not in despair. Outwardly he wastes away, but inwardly he is renewed, and the troubles are light compared with eternal glory.",
+    "translation": [
+      {
+        "english": "jars of clay",
+        "greek": "ὀστρακίνοις σκεύεσιν (ostrakinois skeuesin)",
+        "verseRef": "v.7",
+        "meaning": "Earthenware vessels, cheap and fragile. Paul calls the body and the apostolic ministry by that name.",
+        "gloss": "Pottery"
+      },
+      {
+        "english": "glory",
+        "greek": "δόξα (doxa)",
+        "verseRef": "v.4, 6, 17",
+        "meaning": "Weight, splendor, honor. Paul calls the future “an eternal weight of glory” (v.17).",
+        "gloss": "Weight and splendor"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Genesis 1:3",
+        "note": "“Let there be light,” the picture of God’s work in a heart."
+      },
+      {
+        "ref": "Psalm 116:10",
+        "note": "“I believed, therefore I spoke.”"
+      },
+      {
+        "ref": "Isaiah 9:2",
+        "note": "People in darkness have seen a great light, a picture close to Paul’s."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "The gospel is a treasure in clay jars. Paul is hard pressed but not crushed, because the troubles of this life are small compared with eternal glory.",
+      "settingLine": "Paul writes from Macedonia to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "The Dead Sea Scrolls",
+          "t": "They were stored in clay jars in caves near Qumran, hidden for nearly two thousand years."
+        },
+        {
+          "h": "Paul’s Hardships",
+          "t": "He lists beatings, shipwrecks, and prison in chapter 11."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Clay Lamps and Jars",
+          "t": "Cheap, breakable, and disposable. They show how plain the vessel is compared to what it holds."
+        },
+        {
+          "h": "Triumphal Armor",
+          "t": "Paul’s picture of being “struck down but not destroyed” sounds like a gladiator."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Qumran Jars",
+          "t": "Large cylindrical jars from Qumran, in which scrolls were stored."
+        },
+        {
+          "h": "Corinthian Pottery",
+          "t": "Locally made oil jars and lamps are common finds in Corinth."
+        }
+      ],
+      "discussion": "Paul says the power belongs to God, not to us. What weakness in my life might God want to use to show his power?",
+      "book": "The second letter to the Corinthians · 13 chapters. Paul’s most personal letter, written to heal a strained relationship.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Genesis 1:3": "Light out of darkness",
+        "Psalm 116:10": "Believed and spoke",
+        "Isaiah 4:2-4": "The glory of the Lord"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "A clay jar"
+        },
+        {
+          "n": "The Corinthians",
+          "d": "His audience"
+        },
+        {
+          "n": "Jesus",
+          "d": "His life shows in Paul’s body"
+        },
+        {
+          "n": "The god of this age",
+          "d": "Blinds unbelievers"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-6",
+          "label": "The gospel veiled and revealed"
+        },
+        {
+          "when": "v.7-12",
+          "label": "Clay jars"
+        },
+        {
+          "when": "v.13-15",
+          "label": "Believing and speaking"
+        },
+        {
+          "when": "v.16-18",
+          "label": "Do not lose heart"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_Adoration_of_the_Shepherds_(1622).jpg",
+      "caption": "Adoration of the Shepherds, by Gerard van Honthorst (1622), lit by the light that comes from the child. Paul says God, who first said \"Let light shine out of darkness,\" has shone in our hearts to give the light of the knowledge of God's glory in the face of Christ (2 Corinthians 4:6).",
+      "credit": "Gerard van Honthorst (1622) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Storage_jars,_Qumran,_2019_(01).jpg",
+      "caption": "Storage jars of the type used for the Dead Sea Scrolls, on display at Qumran. Paul says the gospel is a treasure that he and his team carry \"in jars of clay\" (2 Corinthians 4:7). These jars belonged to the Dead Sea community in Judea, not to Paul's world.",
+      "credit": "Photo: Bahnfrend, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+ "book": "Revelation",
+ "chapter": 1,
+ "title": "The Revelation of Jesus Christ",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "This is the revelation of Jesus Christ, which God gave Him to show His servants what must soon come to pass. He made it known by sending His angel to His servant John,"
+  },
+  {
+   "num": 2,
+   "text": "who testifies to everything he saw. This is the word of God and the testimony of Jesus Christ."
+  },
+  {
+   "num": 3,
+   "text": "Blessed is the one who reads aloud the words of this prophecy, and blessed are those who hear and obey what is written in it, because the time is near."
+  },
+  {
+   "num": 4,
+   "text": "John, To the seven churches in the province of Asia: Grace and peace to you from Him who is and was and is to come, and from the seven Spirits before His throne,"
+  },
+  {
+   "num": 5,
+   "text": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has released us from our sins by His blood,"
+  },
+  {
+   "num": 6,
+   "text": "who has made us to be a kingdom, priests to His God and Father—to Him be the glory and power forever and ever! Amen."
+  },
+  {
+   "num": 7,
+   "text": "Behold, He is coming with the clouds, and every eye will see Him—even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen."
+  },
+  {
+   "num": 8,
+   "text": "\"I am the Alpha and the Omega,\" says the Lord God, who is and was and is to come—the Almighty."
+  },
+  {
+   "num": 9,
+   "text": "I, John, your brother and partner in the tribulation and kingdom and perseverance that are in Jesus, was on the island of Patmos because of the word of God and my testimony about Jesus."
+  },
+  {
+   "num": 10,
+   "text": "On the Lord's day I was in the Spirit, and I heard behind me a loud voice like a trumpet,"
+  },
+  {
+   "num": 11,
+   "text": "saying, \"Write on a scroll what you see and send it to the seven churches: to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea.\""
+  },
+  {
+   "num": 12,
+   "text": "Then I turned to see the voice that was speaking with me. And having turned, I saw seven golden lampstands,"
+  },
+  {
+   "num": 13,
+   "text": "and among the lampstands was One like the Son of Man, dressed in a long robe, with a golden sash around His chest."
+  },
+  {
+   "num": 14,
+   "text": "The hair of His head was white like wool, as white as snow, and His eyes were like a blazing fire."
+  },
+  {
+   "num": 15,
+   "text": "His feet were like polished bronze refined in a furnace, and His voice was like the roar of many waters."
+  },
+  {
+   "num": 16,
+   "text": "He held in His right hand seven stars, and a sharp double-edged sword came from His mouth. His face was like the sun shining at its brightest."
+  },
+  {
+   "num": 17,
+   "text": "When I saw Him, I fell at His feet like a dead man. But He placed His right hand on me and said, \"Do not be afraid. I am the First and the Last,"
+  },
+  {
+   "num": 18,
+   "text": "the Living One. I was dead, and behold, now I am alive forever and ever! And I hold the keys of Death and of Hades."
+  },
+  {
+   "num": 19,
+   "text": "Therefore write down the things you have seen, and the things that are, and the things that will happen after this."
+  },
+  {
+   "num": 20,
+   "text": "This is the mystery of the seven stars you saw in My right hand and of the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands are the seven churches."
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "PATMOS, AN ISLAND OF EXILE",
+  "setting": "John, exiled on the small island of Patmos in the Aegean, is in the Spirit on the Lord’s day when he hears a loud voice and turns to see Jesus among seven golden lampstands. Jesus is dressed as a priest and king, with eyes like fire, and tells John to write what he sees and send it to seven churches.",
+  "custom": "Rome used remote islands to exile people. “the Lord's day” is a very early name for Sunday, the day of Christ’s resurrection. The imagery of the Son of Man draws on Daniel 7 and 10 and Ezekiel 1.",
+  "timelineImmediate": "Chapters 2 and 3 give the seven letters, each to a specific church.",
+  "timelineBible": "The vision combines Daniel 7:9-14 (Ancient of Days and Son of Man), Daniel 10:5-6, Ezekiel 1, and Zechariah 4 (lampstands). “the Alpha and the Omega” echoes Isaiah 41:4 and 44:6.",
+  "translation": [
+   {
+    "english": "revelation",
+    "greek": "ἀποκάλυψις (apokalypsis)",
+    "verseRef": "v.1",
+    "meaning": "An unveiling, uncovering what was hidden. It names the book and the genre.",
+    "gloss": "Unveiling"
+   },
+   {
+    "english": "witness",
+    "greek": "μάρτυς (martys)",
+    "verseRef": "v.5",
+    "meaning": "One who testifies. The English “martyr” comes from it.",
+    "gloss": "Witness"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Daniel 7:13",
+    "note": "One like a son of man coming with the clouds."
+   },
+   {
+    "ref": "Zechariah 4:2",
+    "note": "A lampstand all of gold."
+   },
+   {
+    "ref": "Isaiah 44:6",
+    "note": "“I am the first and I am the last.”"
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.309,
+   "lng": 26.546,
+   "zoom": 9,
+   "placeName": "Patmos"
+  },
+  "overview": {
+   "summary": "John, exiled on Patmos, sees the risen Christ among seven lampstands, who tells him not to be afraid and to write what he sees to the seven churches.",
+   "settingLine": "John writes from Patmos to seven churches in Asia.",
+   "placeName": "Patmos",
+   "history": [
+    {
+     "h": "Domitian’s Rome",
+     "t": "Under Domitian emperor worship was pressed in Asia."
+    },
+    {
+     "h": "Patmos",
+     "t": "A rocky island used as a place of exile and a Roman outpost."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Lampstands",
+     "t": "Seven-branched lamps stood in the Temple."
+    },
+    {
+     "h": "First and Last",
+     "t": "A title of God in Isaiah."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Cave of the Apocalypse",
+     "t": "A cave on Patmos tradition holds as John’s place of vision."
+    },
+    {
+     "h": "Temple of Artemis at Ephesus",
+     "t": "The city of the first church."
+    },
+    {
+     "h": "The Monastery of St John, Patmos",
+     "t": "The monastery on the summit of Patmos was founded in 1088, and the Cave of the Apocalypse below it is shown as the place of the vision. The tradition is late, but Patmos is the one place the book names (1:9)."
+    }
+   ],
+   "discussion": "John saw Jesus and fell down as though dead, but Jesus laid his hand on him and said, “Do not be afraid.” What fear do I need to bring to the risen Christ?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Daniel 7:13": "The Son of Man",
+    "Zechariah 4:2": "The lampstand",
+    "Isaiah 44:6": "The first and the last"
+   },
+   "peoplePlaces": [
+    {
+     "n": "John",
+     "d": "Exiled on Patmos"
+    },
+    {
+     "n": "Jesus Christ",
+     "d": "The faithful witness"
+    },
+    {
+     "n": "The Seven Churches",
+     "d": "The recipients"
+    },
+    {
+     "n": "The Seven Lampstands",
+     "d": "Churches"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Prologue"
+    },
+    {
+     "when": "v.4-8",
+     "label": "Greeting"
+    },
+    {
+     "when": "v.9-11",
+     "label": "John on Patmos"
+    },
+    {
+     "when": "v.12-20",
+     "label": "Vision of Christ"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Patmos",
+    "lat": 37.309,
+    "lng": 26.546,
+    "verses": [
+     9
+    ],
+    "slug": "patmos"
+   },
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [
+     11
+    ],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Smyrna",
+    "lat": 38.4237,
+    "lng": 27.1428,
+    "verses": [
+     11
+    ],
+    "slug": "smyrna"
+   },
+   {
+    "name": "Pergamum",
+    "lat": 39.121,
+    "lng": 27.184,
+    "verses": [
+     11
+    ],
+    "slug": "pergamum"
+   },
+   {
+    "name": "Thyatira",
+    "lat": 38.919,
+    "lng": 27.84,
+    "verses": [
+     11
+    ],
+    "slug": "thyatira"
+   },
+   {
+    "name": "Sardis",
+    "lat": 38.488,
+    "lng": 28.04,
+    "verses": [
+     11
+    ],
+    "slug": "sardis"
+   },
+   {
+    "name": "Philadelphia (Asia Minor)",
+    "lat": 38.35,
+    "lng": 28.517,
+    "verses": [
+     11
+    ],
+    "slug": "philadelphia"
+   },
+   {
+    "name": "Laodicea",
+    "lat": 37.836,
+    "lng": 29.108,
+    "verses": [
+     11
+    ],
+    "slug": "laodicea"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "This is the revelation of Jesus Christ, which God gave Him to show His servants what must soon come to pass. He made it known by sending His angel to His servant John, Blessed is the one who reads aloud the words of this prophecy, and blessed are those who hear and obey what is written in it, because the time is near. Behold, He is coming with the clouds, and every eye will see Him—even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen. I am the Alpha and the Omega, says the Lord God, who is and was and is to come—the Almighty. When I saw Him, I fell at His feet like a dead man. But He placed His right hand on me and said, Do not be afraid. I am the First and the Last, the Living One. I was dead, and behold, now I am alive forever and ever! And I hold the keys of Death and of Hades.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Vel%C3%A1zquez_-_St_John_the_Evangelist_at_Patmos_-_WGA24356.jpg",
+   "caption": "St John the Evangelist on the Island of Patmos, painted by Diego Velázquez about 1618 (National Gallery, London). John writes as he looks up at the vision of the woman clothed with the sun in chapter 12.",
+   "credit": "Diego Velázquez (about 1618), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patmos,_Monastery_of_Saint_John.JPG",
+   "caption": "The fortified Monastery of St John the Theologian on the hilltop of Patmos, founded by the monk Christodoulos in 1088. John says he was on Patmos “because of the word of God and my testimony about Jesus” (Revelation 1:9).",
+   "credit": "Photo: Odysses, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

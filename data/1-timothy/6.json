@@ -1,0 +1,242 @@
+{
+ "book": "1 Timothy",
+ "chapter": 6,
+ "title": "Godliness with Contentment",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "All who are under the yoke of slavery should regard their masters as fully worthy of honor, so that God's name and our teaching will not be discredited."
+  },
+  {
+   "num": 2,
+   "text": "Those who have believing masters should not show disrespect because they are brothers, but should serve them all the more, since those receiving their good service are beloved believers. Teach and encourage these principles."
+  },
+  {
+   "num": 3,
+   "text": "If anyone teaches another doctrine and disagrees with the sound words of our Lord Jesus Christ and with godly teaching,"
+  },
+  {
+   "num": 4,
+   "text": "he is conceited and understands nothing. Instead, he has an unhealthy interest in controversies and semantics, out of which come envy, strife, abusive talk, evil suspicions,"
+  },
+  {
+   "num": 5,
+   "text": "and constant friction between men of depraved mind who are devoid of the truth. These men regard godliness as a means of gain."
+  },
+  {
+   "num": 6,
+   "text": "Of course, godliness with contentment is great gain."
+  },
+  {
+   "num": 7,
+   "text": "For we brought nothing into the world, so we cannot carry anything out of it."
+  },
+  {
+   "num": 8,
+   "text": "But if we have food and clothing, we will be content with these."
+  },
+  {
+   "num": 9,
+   "text": "Those who want to be rich, however, fall into temptation and become ensnared by many foolish and harmful desires that plunge them into ruin and destruction."
+  },
+  {
+   "num": 10,
+   "text": "For the love of money is the root of all kinds of evil. By craving it, some have wandered away from the faith and pierced themselves with many sorrows."
+  },
+  {
+   "num": 11,
+   "text": "But you, O man of God, flee from these things and pursue righteousness, godliness, faith, love, perseverance, and gentleness."
+  },
+  {
+   "num": 12,
+   "text": "Fight the good fight of the faith. Take hold of the eternal life to which you were called when you made the good confession before many witnesses."
+  },
+  {
+   "num": 13,
+   "text": "I charge you in the presence of God, who gives life to all things, and of Christ Jesus, who made the good confession in His testimony before Pontius Pilate:"
+  },
+  {
+   "num": 14,
+   "text": "Keep this commandment without stain or reproach until the appearance of our Lord Jesus Christ,"
+  },
+  {
+   "num": 15,
+   "text": "which the blessed and only Sovereign One—the King of kings and Lord of lords—will bring about in His own time."
+  },
+  {
+   "num": 16,
+   "text": "He alone is immortal and dwells in unapproachable light. No one has ever seen Him, nor can anyone see Him. To Him be honor and eternal dominion! Amen."
+  },
+  {
+   "num": 17,
+   "text": "Instruct those who are rich in the present age not to be conceited and not to put their hope in the uncertainty of wealth, but in God, who richly provides all things for us to enjoy."
+  },
+  {
+   "num": 18,
+   "text": "Instruct them to do good, to be rich in good works, and to be generous and ready to share,"
+  },
+  {
+   "num": 19,
+   "text": "treasuring up for themselves a firm foundation for the future, so that they may take hold of that which is truly life."
+  },
+  {
+   "num": 20,
+   "text": "O Timothy, guard what has been entrusted to you. Avoid irreverent, empty chatter and the opposing arguments of so-called \"knowledge,\""
+  },
+  {
+   "num": 21,
+   "text": "which some have professed and thus swerved away from the faith. Grace be with you all."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1), though some scholars question this",
+  "genre": "Pastoral letter, personal advice from a mentor",
+  "audience": "Timothy, Paul’s younger coworker, left in Ephesus",
+  "mapLabel": "EPHESUS, THE LOVE OF MONEY",
+  "setting": "Paul tells slaves to honor their masters, warns about false teachers who think godliness is a means of gain, and says godliness with contentment is great gain. He warns that the love of money is a root of all kinds of evil, urges Timothy to flee it and fight the good fight, and instructs the rich to be generous.",
+  "custom": "Traveling teachers often charged fees and sought wealthy patrons. Paul warns that those who desire to be rich fall into temptation. His instruction to the rich to be “rich in good works” challenges the patron system.",
+  "timelineImmediate": "The letter ends. Paul’s next letter to Timothy (2 Timothy) was written later from prison.",
+  "timelineBible": "“We brought nothing into the world” (v.7) echoes Job 1:21 and Ecclesiastes 5:15. “The good confession” (v.12) recalls Jesus before Pilate.",
+  "sparkNotes": "Slaves should honor their masters. False teachers think godliness is a means of gain, but godliness with contentment is great gain. We brought nothing into the world. The love of money is a root of all kinds of evil. But you, man of God, flee these things, pursue righteousness, and fight the good fight of the faith. Charge the rich not to be haughty, but to be generous and ready to share. Guard the deposit entrusted to you.",
+  "translation": [
+   {
+    "english": "contentment",
+    "greek": "αὐτάρκεια (autarkeia)",
+    "verseRef": "v.6",
+    "meaning": "Self-sufficiency in the Stoic sense. Paul changes it to sufficiency in God.",
+    "gloss": "Enough"
+   },
+   {
+    "english": "fight",
+    "greek": "ἀγωνίζου (agōnizou)",
+    "verseRef": "v.12",
+    "meaning": "To contend as in an athletic contest. The English “agonize” comes from it.",
+    "gloss": "Contend"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Job 1:21",
+    "note": "Naked I came from my mother’s womb."
+   },
+   {
+    "ref": "Ecclesiastes 5:15",
+    "note": "No one takes any of their toil with them."
+   },
+   {
+    "ref": "Proverbs 30:8-9",
+    "note": "Give me neither poverty nor riches."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Godliness with contentment is great gain. The love of money is dangerous, and Timothy is to flee it, fight the good fight, and guard what was entrusted to him.",
+   "settingLine": "Paul writes to Timothy, who is working in Ephesus.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Wealth in Ephesus",
+     "t": "Ephesus was one of the busiest ports and commercial centers of Roman Asia, and ancient writers say the temple of Artemis held deposits like a bank. Paul warns about teachers who think godliness is \"a means of gain\" (6:5) and about those who want to be rich (6:9-10). The letter does not accuse any named person of greed."
+    },
+    {
+     "h": "The Good Confession",
+     "t": "Timothy \"made your good confession in the presence of many witnesses\" (6:12), and Christ Jesus \"gave His good confession before Pontius Pilate\" (6:13). Readers have linked Timothy's confession to his baptism, his ordination or a public declaration. The letter does not say which. The reference to Pilate points back to Jesus' answers in John 18:33-37."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Slaves and Masters",
+     "t": "Paul tells slaves to honor their masters, and not to look down on masters who are believers because they are brothers (6:1-2). Slavery was a legal and economic fact in Roman cities, and slaves could be household managers or skilled workers. Here the letter gives instruction within that setting and does not take up freeing slaves; compare Philemon and Ephesians 6:5-9."
+    },
+    {
+     "h": "Doxology",
+     "t": "Paul bursts into praise of \"the King of kings and Lord of lords,\" who \"dwells in unapproachable light\" (6:15-16). The same titles appear for Christ in Revelation 17:14 and 19:16. \"King of kings\" was a title of Persian and other eastern rulers; Paul gives it to God."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Coins of Ephesus",
+     "t": "Coins of Ephesus often show Artemis, her temple or her symbols, such as the stag and the bee. Under Rome the city took pride in being the temple-warden (neokoros) of Artemis, and later of the emperors."
+    },
+    {
+     "h": "Terrace Houses",
+     "t": "The hillside houses at Ephesus have mosaics and painted walls. Most of what survives is from the 2nd and 3rd centuries AD, later than Paul, though some earlier building phases lie beneath. They show how the wealthy lived, the setting for the warnings and advice to the rich in 6:17-19."
+    }
+   ],
+   "discussion": "Paul says we brought nothing into the world and can take nothing out. What would it look like for me to hold my possessions more loosely?",
+   "book": "The first letter to Timothy · 6 chapters. A mentor’s guide to leading a church well.",
+   "author": "Paul",
+   "genre": "Pastoral letter",
+   "audience": "Timothy, in Ephesus",
+   "refNotes": {
+    "Job 1:21": "Naked I came",
+    "Ecclesiastes 5:15": "Nothing taken",
+    "Proverbs 30:8-9": "Neither poverty nor riches"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Timothy",
+     "d": "Man of God"
+    },
+    {
+     "n": "The Rich",
+     "d": "Told to be generous"
+    },
+    {
+     "n": "False Teachers",
+     "d": "Love gain"
+    },
+    {
+     "n": "Christ Jesus",
+     "d": "Confessed before Pilate"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Slaves and masters"
+    },
+    {
+     "when": "v.3-10",
+     "label": "Contentment and money"
+    },
+    {
+     "when": "v.11-16",
+     "label": "Fight the good fight"
+    },
+    {
+     "when": "v.17-21",
+     "label": "The rich and the deposit"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_The_Parable_of_the_Rich_Fool.jpg",
+   "caption": "The Parable of the Rich Fool, by Rembrandt (1627): an old man checks his money by candlelight (Luke 12:16-21). First Timothy 6:9-10 warns about the desire to be rich, and 6:17-19 tells the rich not to put their hope in wealth.",
+   "credit": "Rembrandt (1627), Gemäldegalerie, Berlin / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ephesus_-_Terrace_Houses.jpg",
+   "caption": "The Terrace Houses on the hillside at Ephesus, wealthy Roman homes with mosaics and painted walls. Most of what survives is from the 2nd and 3rd centuries AD, later than Paul, but they show how the rich lived. First Timothy 6:17-19 speaks to those who are rich in the present age.",
+   "credit": "Photo: Bernard Gagnon, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

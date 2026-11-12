@@ -44,7 +44,7 @@
     "persistOk": false,
     "noAI": true,
     "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)",
-    "requestsPerDay": 60,
+    "requestsPerDay": 150,
     "maxVersesPerRequest": 500
    },
    "notes": "Royalty-free Express License only for a truly non-commercial app or site (no sales, subscriptions, ads or donations) with no AI or machine-learning features, via API.Bible or YouVersion. A commercial app needs a written license from Biblica (granted to a registered legal entity for a whole Bible or New Testament). API.Bible does not offer the NIV for commercial use.",
@@ -234,7 +234,7 @@
     "commercialOk": false,
     "persistOk": false,
     "quoteLimit": "1,000 verses, under 50% of the work, never a whole book (does not cover a Bible app)",
-    "requestsPerDay": 60,
+    "requestsPerDay": 150,
     "maxVersesPerRequest": 500
    },
    "notes": "The CSB page lists no app rules; its request form has an 'electronic' option. Check whether API.Bible lists it for your plan, or ask Holman directly.",
@@ -261,7 +261,7 @@
     "commercialOk": false,
     "persistOk": false,
     "quoteLimit": "500 verses, under 25% of the work, never a whole book (does not cover a Bible app)",
-    "requestsPerDay": 60,
+    "requestsPerDay": 150,
     "maxVersesPerRequest": 500
    },
    "notes": "Using the full Bible in an app needs a formal permission request to HarperCollins Christian (they ask about the app, pricing, expected sales and a mock-up). API.Bible may offer it on a paid license.",

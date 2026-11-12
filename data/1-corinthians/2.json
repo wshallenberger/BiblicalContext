@@ -1,0 +1,224 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 2,
+  "title": "Wisdom From the Spirit",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "When I came to you, brothers, I did not come with eloquence or wisdom as I proclaimed to you the testimony about God."
+    },
+    {
+      "num": 2,
+      "text": "For I resolved to know nothing while I was with you except Jesus Christ and Him crucified."
+    },
+    {
+      "num": 3,
+      "text": "I came to you in weakness and fear, and with much trembling."
+    },
+    {
+      "num": 4,
+      "text": "My message and my preaching were not with persuasive words of wisdom, but with a demonstration of the Spirit's power,"
+    },
+    {
+      "num": 5,
+      "text": "so that your faith would not rest on men's wisdom, but on God's power."
+    },
+    {
+      "num": 6,
+      "text": "Among the mature, however, we speak a message of wisdom—but not the wisdom of this age or of the rulers of this age, who are coming to nothing."
+    },
+    {
+      "num": 7,
+      "text": "No, we speak of the mysterious and hidden wisdom of God, which He destined for our glory before time began."
+    },
+    {
+      "num": 8,
+      "text": "None of the rulers of this age understood it. For if they had, they would not have crucified the Lord of glory."
+    },
+    {
+      "num": 9,
+      "text": "Rather, as it is written: \"No eye has seen, no ear has heard, no heart has imagined, what God has prepared for those who love Him.\""
+    },
+    {
+      "num": 10,
+      "text": "But God has revealed it to us by the Spirit. The Spirit searches all things, even the deep things of God."
+    },
+    {
+      "num": 11,
+      "text": "For who among men knows the thoughts of man except his own spirit within him? So too, no one knows the thoughts of God except the Spirit of God."
+    },
+    {
+      "num": 12,
+      "text": "We have not received the spirit of the world, but the Spirit who is from God, that we may understand what God has freely given us."
+    },
+    {
+      "num": 13,
+      "text": "And this is what we speak, not in words taught us by human wisdom, but in words taught by the Spirit, expressing spiritual truths in spiritual words."
+    },
+    {
+      "num": 14,
+      "text": "The natural man does not accept the things that come from the Spirit of God. For they are foolishness to him, and he cannot understand them, because they are spiritually discerned."
+    },
+    {
+      "num": 15,
+      "text": "The spiritual man judges all things, but he himself is not subject to anyone's judgment."
+    },
+    {
+      "num": 16,
+      "text": "\"For who has known the mind of the Lord, so as to instruct Him?\" But we have the mind of Christ."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, FOUNDED ON THE SPIRIT’S POWER",
+    "setting": "Paul recalls how he first came to Corinth “in weakness and fear and much trembling,” preaching only Jesus Christ crucified. He says true wisdom comes from the Spirit, who reveals what no human eye has seen, and he contrasts the natural person with the one who has the Spirit.",
+    "custom": "Greek orators prided themselves on style. Paul refused to put on a show, preaching plainly so that faith would rest on God’s power, not human skill. The phrase “mature” (v.6) may recall the initiated in mystery religions, a term Paul reuses.",
+    "timelineImmediate": "Chapter 3 tells the Corinthians they are still infants because of their quarrels, then compares leaders to builders on a foundation.",
+    "timelineBible": "Verse 9 quotes a blend of Isaiah 64:4 and 65:17. “Who has known the mind of the Lord?” (v.16) quotes Isaiah 40:13, which Paul also uses in Romans 11:34.",
+    "sparkNotes": "Paul says he came to Corinth with no fancy speech, only Jesus Christ and him crucified, so their faith would stand on God’s power. God’s wisdom is a secret hidden before the ages, which the rulers did not understand. The Spirit searches the depths of God and teaches believers, who have the mind of Christ.",
+    "translation": [
+      {
+        "english": "demonstration",
+        "greek": "ἀπόδειξις (apodeixis)",
+        "verseRef": "v.4",
+        "meaning": "A logical proof. Paul says the Spirit’s power, not clever arguing, proves the message.",
+        "gloss": "Proof"
+      },
+      {
+        "english": "natural person",
+        "greek": "ψυχικὸς (psychikos)",
+        "verseRef": "v.14",
+        "meaning": "A person who has only natural life and not the Spirit. The word comes from psychē, soul.",
+        "gloss": "Soulish person"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Isaiah 64:4",
+        "note": "“No eye has seen any God besides you.”"
+      },
+      {
+        "ref": "Isaiah 40:13",
+        "note": "“Who has known the mind of the Lord?”"
+      },
+      {
+        "ref": "Jeremiah 9:23",
+        "note": "Wisdom, might, and wealth are not to be boasted in."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Paul came to Corinth in weakness, preaching only the cross. God’s hidden wisdom is revealed by the Spirit, who gives believers the mind of Christ.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Paul’s Arrival",
+          "t": "He came to Corinth after a poor reception in Athens (Acts 17) and was discouraged (Acts 18:9)."
+        },
+        {
+          "h": "The Rulers",
+          "t": "Pilate and Herod did not understand who they were crucifying."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Rhetoric",
+          "t": "Public speaking was an art form. Teachers like the Sophists traveled and charged fees for show."
+        },
+        {
+          "h": "Secret Wisdom",
+          "t": "Mystery cults offered hidden knowledge to initiates. Paul says God’s mystery is for all believers."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Corinth’s Bema",
+          "t": "The speakers’ platform in the Corinth forum, where Paul probably stood before Gallio (Acts 18:12)."
+        },
+        {
+          "h": "Gallio Inscription",
+          "t": "A stone at Delphi mentions the governor Gallio and helps fix the date of Paul’s stay in Corinth, about AD 51-52."
+        }
+      ],
+      "discussion": "Paul says he preached simply on purpose. When have I been tempted to make the message sound impressive instead of true?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Isaiah 64:4": "Not seen or heard",
+        "Isaiah 40:13": "The mind of the Lord",
+        "Jeremiah 9:23": "Do not boast"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Preached weakly"
+        },
+        {
+          "n": "The Rulers",
+          "d": "Crucified the Lord"
+        },
+        {
+          "n": "The Spirit",
+          "d": "Reveals God’s thoughts"
+        },
+        {
+          "n": "The Believer",
+          "d": "Has the mind of Christ"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-5",
+          "label": "Paul’s plain preaching"
+        },
+        {
+          "when": "v.6-9",
+          "label": "God’s hidden wisdom"
+        },
+        {
+          "when": "v.10-13",
+          "label": "Revealed by the Spirit"
+        },
+        {
+          "when": "v.14-16",
+          "label": "The Spirit-led person"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [
+          1
+        ],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/V%26A_-_Raphael,_St_Paul_Preaching_in_Athens_(1515).jpg",
+      "caption": "Saint Paul Preaching in Athens, Raphael's design for a tapestry (1515). Paul came to Corinth from Athens (Acts 17:22 to 18:1) and tells the Corinthians he did not come with lofty words of wisdom (1 Corinthians 2:1-5).",
+      "credit": "Raphael (1515), Victoria and Albert Museum / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Delphi_BW_2017-10-08_11-38-38.jpg",
+      "caption": "Ruins in the sanctuary of Apollo at Delphi, home of the most famous Greek oracle. Paul does not mention Delphi, but the Greek world he wrote to prized wisdom and inspired speech (1 Corinthians 1:22; 2:4).",
+      "credit": "Photo: Berthold Werner, CC BY-SA 3.0 / Wikimedia Commons"
+    }
+  }
+}

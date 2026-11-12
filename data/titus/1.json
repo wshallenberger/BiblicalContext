@@ -1,0 +1,215 @@
+{
+ "book": "Titus",
+ "chapter": 1,
+ "title": "Appoint Elders in Crete",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Paul, a servant of God and an apostle of Jesus Christ for the faith of God's elect and their knowledge of the truth that leads to godliness,"
+  },
+  {
+   "num": 2,
+   "text": "in the hope of eternal life, which God, who cannot lie, promised before time began."
+  },
+  {
+   "num": 3,
+   "text": "In His own time He has made His word evident in the proclamation entrusted to me by the command of God our Savior."
+  },
+  {
+   "num": 4,
+   "text": "To Titus, my true child in our common faith: Grace and peace from God the Father and Christ Jesus our Savior."
+  },
+  {
+   "num": 5,
+   "text": "The reason I left you in Crete was that you would set in order what was unfinished and appoint elders in every town, as I directed you."
+  },
+  {
+   "num": 6,
+   "text": "An elder must be blameless, the husband of but one wife, having children who are believers and who are not open to accusation of indiscretion or insubordination."
+  },
+  {
+   "num": 7,
+   "text": "As God's steward, an overseer must be above reproach—not self-absorbed, not quick-tempered, not given to drunkenness, not violent, not greedy for money."
+  },
+  {
+   "num": 8,
+   "text": "Instead, he must be hospitable, a lover of good, self-controlled, upright, holy, and disciplined."
+  },
+  {
+   "num": 9,
+   "text": "He must hold firmly to the faithful word as it was taught, so that he can encourage others by sound teaching and refute those who contradict it."
+  },
+  {
+   "num": 10,
+   "text": "For many are rebellious and full of empty talk and deception, especially those of the circumcision,"
+  },
+  {
+   "num": 11,
+   "text": "who must be silenced. For the sake of dishonorable gain, they undermine entire households and teach things they should not."
+  },
+  {
+   "num": 12,
+   "text": "As one of their own prophets has said, \"Cretans are always liars, evil beasts, lazy gluttons.\""
+  },
+  {
+   "num": 13,
+   "text": "This testimony is true. Therefore rebuke them sternly, so that they will be sound in the faith"
+  },
+  {
+   "num": 14,
+   "text": "and will pay no attention to Jewish myths or to the commands of men who have rejected the truth."
+  },
+  {
+   "num": 15,
+   "text": "To the pure, all things are pure; but to the defiled and unbelieving, nothing is pure. Indeed, both their minds and their consciences are defiled."
+  },
+  {
+   "num": 16,
+   "text": "They profess to know God, but by their actions they deny Him. They are detestable, disobedient, and unfit for any good deed."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1)",
+  "genre": "Pastoral letter",
+  "audience": "Titus, Paul’s coworker, left in Crete",
+  "mapLabel": "CRETE, AN ISLAND IN THE MEDITERRANEAN",
+  "setting": "Paul had left Titus in Crete to appoint elders in every town. He lists their qualifications and then explains why it matters: rebellious people, especially of the circumcision party, are upsetting households. Paul quotes a Cretan poet’s remark about Cretans and tells Titus to rebuke them sharply so they may be sound in the faith.",
+  "custom": "Crete had a long-standing reputation for liars, as the poet Epimenides said. “To the pure all things are pure” (v.15) addresses people who made much of ritual purity but had corrupt minds.",
+  "timelineImmediate": "Chapter 2 gives Titus something positive to teach.",
+  "timelineBible": "Verse 12 quotes Epimenides, a Cretan poet-prophet. Verse 14 may recall Isaiah 29:13 on commands of men.",
+  "sparkNotes": "Paul reminds Titus why he was left in Crete: to appoint elders in every town. An elder must be above reproach, the husband of one wife, with faithful children, not arrogant or quick-tempered, but hospitable and holding firm to the trustworthy word. Many are insubordinate and deceive. One of their own prophets said Cretans are always liars, and this testimony is true. Rebuke them sharply.",
+  "translation": [
+   {
+    "english": "elder",
+    "greek": "πρεσβύτερος (presbyteros)",
+    "verseRef": "v.5",
+    "meaning": "An older, respected person. Verse 7 calls the same person an “overseer.”",
+    "gloss": "Older leader"
+   },
+   {
+    "english": "insubordinate",
+    "greek": "ἀνυπότακτοι (anypotaktoi)",
+    "verseRef": "v.6, 10",
+    "meaning": "Not under authority. Rebellious.",
+    "gloss": "Unruly"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 29:13",
+    "note": "Their worship is a human rule."
+   },
+   {
+    "ref": "Genesis 12:3",
+    "note": "Blessing for all nations, as the church spreads."
+   }
+  ],
+  "mapCoords": {
+   "lat": 35.2,
+   "lng": 24.9,
+   "zoom": 7,
+   "placeName": "Crete"
+  },
+  "overview": {
+   "summary": "Titus is to appoint elders in every Cretan town, chosen for character and faithfulness to the word, and to silence those who upset households.",
+   "settingLine": "Paul writes to Titus, who is in Crete.",
+   "placeName": "Crete",
+   "history": [
+    {
+     "h": "Crete and the Gospel",
+     "t": "Acts 2:11 lists Cretans among the people in Jerusalem who heard the apostles at Pentecost. Acts does not record a mission to Crete. The only visit it tells of is Paul’s ship putting in at Fair Havens on the way to Rome (Acts 27:7-13). Titus 1:5 says Paul left Titus in Crete to set in order what was unfinished and to appoint elders in every town, so the work there came at some other time."
+    },
+    {
+     "h": "Epimenides",
+     "t": "Paul quotes “one of their own prophets” (1:12) without naming him. Later writers such as Clement of Alexandria and Jerome name Epimenides, a half-legendary Cretan seer and poet traditionally dated about 600 BC. Some of the saying is also found in a hymn to Zeus by the poet Callimachus (3rd century BC)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Purity and Commands",
+     "t": "Paul tells Titus to rebuke those who pay attention to Jewish myths and the commands of men who have rejected the truth (1:14), and then says that to the pure all things are pure (1:15). The letter does not list the rules. The mention of those “of the circumcision” (1:10) and of what is defiled suggests that purity and food rules were part of the dispute."
+    },
+    {
+     "h": "Hospitality",
+     "t": "An elder must be hospitable (1:8). Inns in the Roman world often had a poor name, so travelers, including teachers and the helpers of apostles, depended on private homes. At the end of the letter Titus is told to equip Zenas and Apollos for their journey (3:13)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gortyn",
+     "t": "Gortyn was the capital of the Roman province of Crete and Cyrenaica, and its ruins include the governor’s residence, a theater, an Odeion and the large church of Saint Titus, built in the 6th century. Tradition, not the New Testament, ties Titus to Gortyn. Titus 1:5 names no town."
+    },
+    {
+     "h": "Knossos",
+     "t": "Knossos is best known for its Bronze Age palace, which is more than a thousand years older than Paul. In Paul’s day it was a Roman colony. Tradition links the poet Epimenides with Knossos. The letter does not say that Titus went there."
+    }
+   ],
+   "discussion": "Paul says the elder must be hospitable and love what is good. How can I practice hospitality as an ordinary form of leadership?",
+   "book": "The letter to Titus · 3 chapters. Short, practical instructions for a church on a difficult island.",
+   "author": "Paul",
+   "genre": "Pastoral letter",
+   "audience": "Titus, in Crete",
+   "refNotes": {
+    "Isaiah 29:13": "Rules taught by men",
+    "Genesis 12:3": "Blessing for the nations"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Writing"
+    },
+    {
+     "n": "Titus",
+     "d": "Left in Crete"
+    },
+    {
+     "n": "Elders",
+     "d": "To be appointed"
+    },
+    {
+     "n": "Cretans",
+     "d": "Reputed liars"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Greeting"
+    },
+    {
+     "when": "v.5-9",
+     "label": "Elders"
+    },
+    {
+     "when": "v.10-16",
+     "label": "False teachers"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Crete",
+    "lat": 35.2,
+    "lng": 24.9,
+    "verses": [
+     5
+    ],
+    "slug": "crete"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Epimenides-poet.jpg",
+   "caption": "Epimenides, a half-legendary Cretan seer and poet of the 6th century BC, in an imagined portrait from Guillaume Rouillé's book of portraits (1553). Later writers connect the saying about Cretans with him. Paul calls its author \"one of their own prophets\" (Titus 1:12) and does not give a name.",
+   "credit": "Guillaume Rouillé (1553), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gortyn_Agios_Titos.jpg",
+   "caption": "The ruined church of Saint Titus at Gortyn in the Messara plain of Crete. It was a large cathedral built in the 6th century AD, about 500 years after Paul. Tradition, not the New Testament, links Titus with Gortyn. Titus 1:5 says Paul left him in Crete and does not name a town.",
+   "credit": "Photo: Tomisti, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

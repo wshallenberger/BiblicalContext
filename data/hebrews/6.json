@@ -1,0 +1,234 @@
+{
+ "book": "Hebrews",
+ "chapter": 6,
+ "title": "An Anchor for the Soul",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Therefore let us leave the elementary teachings about Christ and go on to maturity, not laying again the foundation of repentance from dead works, and of faith in God,"
+  },
+  {
+   "num": 2,
+   "text": "instruction about baptisms, the laying on of hands, the resurrection of the dead, and eternal judgment."
+  },
+  {
+   "num": 3,
+   "text": "And this we will do, if God permits."
+  },
+  {
+   "num": 4,
+   "text": "It is impossible for those who have once been enlightened, who have tasted the heavenly gift, who have shared in the Holy Spirit,"
+  },
+  {
+   "num": 5,
+   "text": "who have tasted the goodness of the word of God and the powers of the coming age—"
+  },
+  {
+   "num": 6,
+   "text": "and then have fallen away—to be restored to repentance, because they themselves are crucifying the Son of God all over again and subjecting Him to open shame."
+  },
+  {
+   "num": 7,
+   "text": "For land that drinks in the rain often falling on it and that produces a crop useful to those for whom it is tended receives the blessing of God."
+  },
+  {
+   "num": 8,
+   "text": "But land that produces thorns and thistles is worthless, and its curse is imminent. In the end it will be burned."
+  },
+  {
+   "num": 9,
+   "text": "Even though we speak like this, beloved, we are convinced of better things in your case—things that accompany salvation."
+  },
+  {
+   "num": 10,
+   "text": "For God is not unjust. He will not forget your work and the love you have shown for His name as you have ministered to the saints and continue to do so."
+  },
+  {
+   "num": 11,
+   "text": "We want each of you to show this same diligence to the very end, in order to make your hope sure."
+  },
+  {
+   "num": 12,
+   "text": "Then you will not be sluggish, but will imitate those who through faith and patience inherit what has been promised."
+  },
+  {
+   "num": 13,
+   "text": "When God made His promise to Abraham, since He had no one greater to swear by, He swore by Himself,"
+  },
+  {
+   "num": 14,
+   "text": "saying, \"I will surely bless you and multiply your descendants.\""
+  },
+  {
+   "num": 15,
+   "text": "And so Abraham, after waiting patiently, obtained the promise."
+  },
+  {
+   "num": 16,
+   "text": "Men swear by someone greater than themselves, and their oath serves as a confirmation to end all argument."
+  },
+  {
+   "num": 17,
+   "text": "So when God wanted to make the unchanging nature of His purpose very clear to the heirs of the promise, He guaranteed it with an oath."
+  },
+  {
+   "num": 18,
+   "text": "Thus by two unchangeable things in which it is impossible for God to lie, we who have fled to take hold of the hope set before us may be strongly encouraged."
+  },
+  {
+   "num": 19,
+   "text": "We have this hope as an anchor for the soul, firm and secure. It enters the inner sanctuary behind the curtain,"
+  },
+  {
+   "num": 20,
+   "text": "where Jesus our forerunner has entered on our behalf. He has become a high priest forever in the order of Melchizedek."
+  }
+ ],
+ "context": {
+  "author": "Unknown. The letter does not name its author. Paul, Barnabas, Apollos, and others have been suggested.",
+  "genre": "A sermon in letter form, rich with Old Testament quotations",
+  "audience": "Jewish Christians tempted to go back to old patterns under pressure",
+  "mapLabel": "GOD'S OATH AND THE ANCHOR OF HOPE",
+  "setting": "The writer urges readers to go on to maturity and warns that those who have been enlightened and then fall away cannot be brought to repentance again. He then encourages them, with confidence of better things, and points to God’s oath to Abraham as the anchor of hope.",
+  "custom": "God's oath to Abraham (Genesis 22:16-17) is the writer's example of a promise that cannot fail. An anchor held a ship fast in a storm, and the anchor later became a symbol of hope on early Christian tombs. \"Behind the curtain\" (6:19) refers to the Holy of Holies.",
+  "timelineImmediate": "Chapter 7 describes Melchizedek.",
+  "timelineBible": "The oath to Abraham is Genesis 22:16-17. Jesus as “forerunner” going behind the curtain recalls the high priest entering the Holy of Holies in Leviticus 16.",
+  "sparkNotes": "Let us leave elementary teachings and go on to maturity. It is impossible to restore again to repentance those who have tasted the heavenly gift and fallen away. Yet the writer is convinced of better things. God is not unjust to forget your work. When God made a promise to Abraham, he swore by himself. We have this hope as an anchor of the soul, sure and steadfast, which enters behind the curtain, where Jesus has gone as a forerunner.",
+  "translation": [
+   {
+    "english": "anchor",
+    "greek": "ἄγκυρα (ankyra)",
+    "verseRef": "v.19",
+    "meaning": "The device that holds a ship in place. A symbol of hope.",
+    "gloss": "Anchor"
+   },
+   {
+    "english": "forerunner",
+    "greek": "πρόδρομος (prodromos)",
+    "verseRef": "v.20",
+    "meaning": "One who runs ahead to prepare.",
+    "gloss": "Runner ahead"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Genesis 22:16-17",
+    "note": "God swore by himself to bless Abraham."
+   },
+   {
+    "ref": "Leviticus 16:2",
+    "note": "The high priest goes inside the curtain."
+   },
+   {
+    "ref": "Psalm 110:4",
+    "note": "Quoted in 5:6 and 7:17: \"You are a priest forever in the order of Melchizedek.\""
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7767,
+   "lng": 35.2342,
+   "zoom": 6,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Move on to maturity. A serious warning against falling away is followed by encouragement: God’s oath to Abraham is the anchor of hope.",
+   "settingLine": "The promise to Abraham.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The Warning",
+     "t": "Hebrews 6:4-8 is one of several warnings in the letter (2:1-4; 3:7-4:13; 10:26-31; 12:25-29). Readers have understood it in different ways: as a warning about believers losing salvation, about people who looked like believers but never were, or about loss of reward. The writer follows it at once with confidence of \"better things\" (6:9)."
+    },
+    {
+     "h": "Anchors",
+     "t": "Mediterranean ships carried several anchors. In Acts 27:29-30 the ship carrying Paul dropped four from the stern in a storm."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Oaths",
+     "t": "People swore by something greater. God swore by himself."
+    },
+    {
+     "h": "Forerunner",
+     "t": "A scout who ran ahead to prepare the way."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Anchors in the Catacombs",
+     "t": "Christians in Rome drew anchors on tombs and in the catacombs. The anchor is often taken as a sign of hope, and in some drawings its shape also suggests a cross."
+    },
+    {
+     "h": "Ancient Anchors",
+     "t": "Stone and metal anchors survive from ancient harbors and wrecks, including a limestone anchor from Paphos on Cyprus."
+    }
+   ],
+   "discussion": "The writer says hope is an anchor. When life is stormy, what do I hold onto?",
+   "book": "The letter to the Hebrews · 13 chapters. A polished sermon showing that Jesus fulfills and surpasses the old covenant.",
+   "author": "Unknown",
+   "genre": "Sermon-letter",
+   "audience": "Jewish Christians under pressure",
+   "refNotes": {
+    "Genesis 22:16-17": "The oath to Abraham",
+    "Leviticus 16:2": "Inside the curtain",
+    "Psalm 110:4": "Priest forever"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Abraham",
+     "d": "Received the oath"
+    },
+    {
+     "n": "God",
+     "d": "Cannot lie"
+    },
+    {
+     "n": "Jesus",
+     "d": "Forerunner"
+    },
+    {
+     "n": "The Readers",
+     "d": "Encouraged"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Go on to maturity"
+    },
+    {
+     "when": "v.9-12",
+     "label": "Better things"
+    },
+    {
+     "when": "v.13-20",
+     "label": "God’s oath and the anchor"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7767,
+    "lng": 35.2342,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Limestone_anchor_from_Paphos_Cyprus-DSC09936.jpg",
+   "caption": "A limestone anchor of the Hellenistic or Roman period, found off the coast near Paphos, Cyprus, and now in the Paphos museum. Iron-bound wooden stocks were fitted into the holes at the lower end. Anchors were a familiar sight in Mediterranean harbors. Hebrews 6:19 calls the hope we have \"an anchor for the soul, firm and secure\" that enters the inner sanctuary behind the curtain.",
+   "credit": "Arjuno3, CC BY-SA 4.0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oak_of_Mamre_1.jpg",
+   "caption": "The site of Mamre near Hebron, where Abraham lived. Hebrews 6:13-18 recalls how God promised Abraham a blessing and swore by himself, because there was no one greater to swear by.",
+   "credit": "Photo: Copper Kettle, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

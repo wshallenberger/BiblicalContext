@@ -1,0 +1,212 @@
+{
+ "book": "1 Thessalonians",
+ "chapter": 1,
+ "title": "A Model Church",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Paul, Silvanus, and Timothy, To the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace and peace to you."
+  },
+  {
+   "num": 2,
+   "text": "We always thank God for all of you, remembering you in our prayers"
+  },
+  {
+   "num": 3,
+   "text": "and continually recalling before our God and Father your work of faith, your labor of love, and your enduring hope in our Lord Jesus Christ."
+  },
+  {
+   "num": 4,
+   "text": "Brothers who are beloved by God, we know that He has chosen you,"
+  },
+  {
+   "num": 5,
+   "text": "because our gospel came to you not only in word, but also in power, in the Holy Spirit, and with great conviction—just as you know we lived among you for your sake."
+  },
+  {
+   "num": 6,
+   "text": "And you became imitators of us and of the Lord when you welcomed the message with the joy of the Holy Spirit, in spite of your great suffering."
+  },
+  {
+   "num": 7,
+   "text": "As a result, you have become an example to all the believers in Macedonia and Achaia."
+  },
+  {
+   "num": 8,
+   "text": "For not only did the message of the Lord ring out from you to Macedonia and Achaia, but your faith in God has gone out to every place, so that we have no need to say anything more."
+  },
+  {
+   "num": 9,
+   "text": "For they themselves report what kind of welcome you gave us, and how you turned to God from idols to serve the living and true God"
+  },
+  {
+   "num": 10,
+   "text": "and to await His Son from heaven, whom He raised from the dead—Jesus our deliverer from the coming wrath."
+  }
+ ],
+ "context": {
+  "author": "Paul, with Silas and Timothy (1:1)",
+  "genre": "Letter of encouragement, warm and personal",
+  "audience": "The church in Thessalonica, a young church under pressure",
+  "mapLabel": "THESSALONICA, CAPITAL OF MACEDONIA",
+  "setting": "Thessalonica was a busy port on the Via Egnatia, the capital of Macedonia. Paul, Silas, and Timothy had preached there for a few weeks, then were forced to leave. Paul writes to thank God for the church’s faith, love, and hope, and for how they turned from idols and became an example to others.",
+  "custom": "Thessalonica was a Greek city with many gods, including the emperor cult. “Turned to God from idols” (v.9) describes a break with civic worship that could cost them socially.",
+  "timelineImmediate": "Chapter 2 recalls how Paul acted among them.",
+  "timelineBible": "The phrase “turned to God from idols to serve the living and true God” summarizes the Old Testament call to turn from idols (Isaiah 44; Psalm 115).",
+  "sparkNotes": "Paul gives thanks for their work of faith, labor of love, and steadfastness of hope. They received the word with joy in much affliction, and became an example in Macedonia and Achaia. News of their faith has spread everywhere. They turned from idols to serve the living God and wait for his Son from heaven.",
+  "translation": [
+   {
+    "english": "imitators",
+    "greek": "μιμηταί (mimētai)",
+    "verseRef": "v.6",
+    "meaning": "The word behind “mimic.” They followed Paul and the Lord.",
+    "gloss": "Followers"
+   },
+   {
+    "english": "wait",
+    "greek": "ἀναμένειν (anamenein)",
+    "verseRef": "v.10",
+    "meaning": "To wait expectantly for someone to arrive.",
+    "gloss": "Wait up for"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 44:9-20",
+    "note": "The foolishness of idols."
+   },
+   {
+    "ref": "Psalm 115:3-8",
+    "note": "Our God is in heaven; idols are silver and gold."
+   },
+   {
+    "ref": "Daniel 7:13",
+    "note": "The Son of Man comes from heaven."
+   }
+  ],
+  "mapCoords": {
+   "lat": 40.6401,
+   "lng": 22.9444,
+   "zoom": 8,
+   "placeName": "Thessalonica"
+  },
+  "overview": {
+   "summary": "Paul thanks God for the Thessalonians’ faith, love, and hope. They turned from idols and became an example to others as they wait for Jesus’ return.",
+   "settingLine": "Paul writes from Corinth to the young church in Thessalonica.",
+   "placeName": "Thessalonica",
+   "history": [
+    {
+     "h": "Founding the Church",
+     "t": "Acts 17:1-4 says Paul reasoned from the Scriptures in the synagogue on three Sabbaths, and that some Jews, many God-fearing Greeks and several leading women believed. Paul says they “turned to God from idols” (1:9), so many converts were not Jews. His stay may have been longer than three weeks, since the Philippians sent help more than once while he was in Thessalonica (Philippians 4:16)."
+    },
+    {
+     "h": "Emperor Cult",
+     "t": "Thessalonica was a free Greek city that honored Rome and its rulers. Bronze coins of the city from the reign of Augustus show Julius Caesar with the legend THEOS, “god,” on one side and Augustus on the other."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Gods of the City",
+     "t": "Inscriptions from Roman Thessalonica name cults of Dionysus, Sarapis, Zeus Hypsistos and others. Paul says the believers “turned to God from idols to serve the living and true God” (1:9), a break that probably cost them a place in the civic and family religion around them."
+    },
+    {
+     "h": "Waiting",
+     "t": "The Greek verb in 1:10 means to wait for or await someone. Paul describes the believers as people who serve God now while they wait for His Son from heaven."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Arch of Galerius",
+     "t": "The Arch of Galerius was built about AD 300, some 250 years after Paul. It stands over the main east-west street of the city, on the line of the Via Egnatia."
+    },
+    {
+     "h": "Via Egnatia",
+     "t": "The Via Egnatia was the Roman highway from the Adriatic coast toward Byzantium. It ran through the middle of Thessalonica as the main street, and today’s Egnatia Street follows its route. Amphipolis and Apollonia, named in Acts 17:1, lay on it."
+    }
+   ],
+   "discussion": "Paul praises a young church for how its faith became known. What does my life say to those around me about what I believe?",
+   "book": "The first letter to the Thessalonians · 5 chapters. One of Paul’s earliest letters, full of warmth and hope.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Thessalonica",
+   "refNotes": {
+    "Isaiah 44:9-20": "Idols are nothing",
+    "Psalm 115:3-8": "Silent idols",
+    "Daniel 7:13": "The Son from heaven"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul, Silas, and Timothy",
+     "d": "The senders"
+    },
+    {
+     "n": "The Thessalonians",
+     "d": "Turned from idols"
+    },
+    {
+     "n": "Jesus",
+     "d": "Delivers from the coming wrath"
+    },
+    {
+     "n": "God",
+     "d": "The living and true God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Thanks"
+    },
+    {
+     "when": "v.5-7",
+     "label": "The gospel came with power"
+    },
+    {
+     "when": "v.8-10",
+     "label": "An example to others"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Thessalonica",
+    "lat": 40.6401,
+    "lng": 22.9444,
+    "verses": [
+     1
+    ],
+    "slug": "thessalonica"
+   },
+   {
+    "name": "Macedonia",
+    "lat": 40.7,
+    "lng": 22.5,
+    "verses": [
+     7
+    ],
+    "slug": "macedonia"
+   },
+   {
+    "name": "Corinth",
+    "lat": 37.906,
+    "lng": 22.88,
+    "verses": [],
+    "slug": "corinth"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentin_de_Boulogne_-_Saint_Paul_Writing_His_Epistles_-_BF.1991.4_-_Museum_of_Fine_Arts.jpg",
+   "caption": "Saint Paul Writing His Epistles, by Valentin de Boulogne (about 1618-20). First Thessalonians opens with three names, \"Paul, Silvanus and Timothy\" (1:1), and is probably the earliest of Paul's letters that survive.",
+   "credit": "Valentin de Boulogne (c. 1618-20), Museum of Fine Arts, Boston / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thessaloniki_Roman_Forum.jpg",
+   "caption": "The Roman forum of Thessaloniki (Acts 17:1-9). The visible remains are later than Paul but show the city's civic heart.",
+   "credit": "Photo: Evilemperorzorg, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

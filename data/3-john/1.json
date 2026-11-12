@@ -1,0 +1,262 @@
+{
+ "book": "3 John",
+ "chapter": 1,
+ "title": "Fellow Workers for the Truth",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The elder, To the beloved Gaius, whom I love in the truth:"
+  },
+  {
+   "num": 2,
+   "text": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers."
+  },
+  {
+   "num": 3,
+   "text": "For I was overjoyed when the brothers came and testified about your devotion to the truth, in which you continue to walk."
+  },
+  {
+   "num": 4,
+   "text": "I have no greater joy than to hear that my children are walking in the truth."
+  },
+  {
+   "num": 5,
+   "text": "Beloved, you are faithful in what you are doing for the brothers, and especially since they are strangers to you."
+  },
+  {
+   "num": 6,
+   "text": "They have testified to the church about your love. You will do well to send them on their way in a manner worthy of God."
+  },
+  {
+   "num": 7,
+   "text": "For they went out on behalf of the Name, accepting nothing from the Gentiles."
+  },
+  {
+   "num": 8,
+   "text": "Therefore we ought to support such men, so that we may be fellow workers for the truth."
+  },
+  {
+   "num": 9,
+   "text": "I have written to the church about this, but Diotrephes, who loves to be first, will not accept our instruction."
+  },
+  {
+   "num": 10,
+   "text": "So if I come, I will call attention to his malicious slander against us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting them out of the church."
+  },
+  {
+   "num": 11,
+   "text": "Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God."
+  },
+  {
+   "num": 12,
+   "text": "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify for him, and you know that our testimony is true."
+  },
+  {
+   "num": 13,
+   "text": "I have many things to write to you, but I would prefer not to do so with pen and ink."
+  },
+  {
+   "num": 14,
+   "text": "Instead, I hope to see you soon and speak with you face to face. Peace to you. The friends here send you greetings. Greet each of our friends there by name."
+  }
+ ],
+ "context": {
+  "author": "The writer calls himself only “the elder” (verse 1), as in 2 John. Church tradition gives both letters to the apostle John at Ephesus. Papias spoke of an elder named John besides the apostle, and some scholars think this elder wrote them. The date is usually put between about AD 85 and 100.",
+  "genre": "Short personal letter",
+  "audience": "Gaius, a friend whom the elder calls “beloved” four times (verses 1, 2, 5 and 11). He belonged to a church within reach of the elder and had taken traveling brothers into his home. The letter does not name his town.",
+  "mapLabel": "A FRIEND IN THE FAITH",
+  "setting": "The elder writes to his friend Gaius. He prays for his health, rejoices that Gaius is walking in the truth, and praises him for taking in traveling brothers who were strangers to him. He then names Diotrephes, who loves to be first, will not accept what the elder says, and puts out of the church those who welcome the brothers. He speaks well of Demetrius and hopes to visit soon.",
+  "custom": "Greek letters often opened with a wish for the reader’s health, and verse 2 follows that custom. Traveling Christian workers took nothing from the pagans they preached to (verse 7), so they depended on homes like that of Gaius. To “send them on their way” (verse 6) meant to give them what they needed for the next stage of the road. Verse 12 works as a letter of recommendation for Demetrius. The “pen” of verse 13 is a cut reed.",
+  "timelineImmediate": "Jude follows, a short letter that warns against teachers who have slipped in among the believers.",
+  "timelineBible": "2 John 4 has nearly the same sentence as verse 4, and 2 John 12 nearly the same as verse 13. Verse 11, on doing good and not evil, echoes Psalm 34:14 and uses phrases from 1 John 3:6-10. Verse 12 on true testimony recalls John 19:35 and 21:24.",
+  "sparkNotes": "The elder, to the beloved Gaius, whom I love in the truth. Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers. I have no greater joy than to hear that my children are walking in the truth. You are faithful in what you are doing for the brothers, and especially since they are strangers to you. We ought to support such men, so that we may be fellow workers for the truth. Diotrephes, who loves to be first, will not accept our instruction. Beloved, do not imitate what is evil, but what is good. Demetrius has received a good testimony from everyone. I hope to see you soon and speak with you face to face. Peace to you.",
+  "translation": [
+   {
+    "english": "loves to be first",
+    "greek": "φιλοπρωτεύων (philoprōteuōn)",
+    "verseRef": "v.9",
+    "meaning": "One Greek word, used only here in the New Testament: fond of being first.",
+    "gloss": "First-lover"
+   },
+   {
+    "english": "fellow workers",
+    "greek": "συνεργοί (synergoi)",
+    "verseRef": "v.8",
+    "meaning": "People who work together. Those who support the travelers share in their work.",
+    "gloss": "Co-workers"
+   },
+   {
+    "english": "prosper",
+    "greek": "εὐοδόω (euodoō)",
+    "verseRef": "v.2",
+    "meaning": "Literally to have a good journey, and so to do well. Used twice in verse 2.",
+    "gloss": "Good road"
+   },
+   {
+    "english": "send on their way",
+    "greek": "προπέμπω (propempō)",
+    "verseRef": "v.6",
+    "meaning": "To help travelers on to the next stage with supplies, money or company.",
+    "gloss": "Send forward"
+   },
+   {
+    "english": "pen",
+    "greek": "κάλαμος (kalamos)",
+    "verseRef": "v.13",
+    "meaning": "A reed, and so a reed pen.",
+    "gloss": "Reed"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Psalm 34:14",
+    "note": "Turn away from evil and do good."
+   },
+   {
+    "ref": "Genesis 18:1-8",
+    "note": "Abraham welcomes three strangers."
+   },
+   {
+    "ref": "Deuteronomy 19:15",
+    "note": "A matter stands on two or three witnesses."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "The elder praises Gaius for taking in traveling brothers, warns about Diotrephes, who loves to be first and refuses them, and speaks well of Demetrius.",
+   "settingLine": "A letter to Gaius.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Gaius",
+     "t": "Gaius was one of the most common names in the Roman world. The New Testament has a Gaius of Macedonia (Acts 19:29), a Gaius of Derbe (Acts 20:4) and a Gaius of Corinth (Romans 16:23), and nothing links any of them with this man. A church list of about AD 380 makes a Gaius bishop of Pergamum, but it is late and cannot be checked."
+    },
+    {
+     "h": "Diotrephes",
+     "t": "Diotrephes loves to be first, will not accept what the elder says, speaks against him, refuses the traveling brothers and puts out of the church those who welcome them (9-10). The letter does not accuse him of false teaching. Some see him as the host of a house church who shut his door, and others as an early case of one man taking control of a local church. The letter gives only the elder’s side."
+    },
+    {
+     "h": "The Last Letter to Be Received",
+     "t": "No writer is known to quote 3 John before the 3rd century. Origen knew that some doubted it, Eusebius about AD 325 listed it among the disputed books, and the early Syriac Bible left it out. Athanasius’s Easter letter of AD 367 includes it. At about 219 Greek words it is the shortest book in the New Testament."
+    }
+   ],
+   "customs": [
+    {
+     "h": "A Prayer for Health",
+     "t": "Private letters on papyrus often begin with a wish or prayer that the reader is well. The soldier Apion, writing home to Egypt in the 2nd century, prays first of all that his father is in good health. Verse 2 follows the custom and adds to it: the elder prays that Gaius will do as well in body as he does in soul. It is one friend’s prayer for another."
+    },
+    {
+     "h": "Sending Travelers On",
+     "t": "The brothers went out “on behalf of the Name” and accepted nothing from the Gentiles, meaning the pagans they preached to (7). So believers lodged them and then sent them on with food and money for the next stage, which is the meaning of “send them on their way” in verse 6. Whoever helps in this way is a fellow worker for the truth (8)."
+    },
+    {
+     "h": "A Word for the Carrier",
+     "t": "A stranger who came to a town needed someone to vouch for him. Verse 12 does this for Demetrius, who probably carried the letter: everyone speaks well of him, his life fits the truth, and the elder adds his own word. Letters of recommendation like this are common among the papyri, and Paul writes one for Phoebe in Romans 16:1-2."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "3 John in Codex Sinaiticus",
+     "t": "Codex Sinaiticus, a Greek Bible copied in the 4th century AD, has 2 John, 3 John and Jude together on the page shown. It is one of the oldest copies of the letter. An older Latin witness is a single page in Codex Bezae (about AD 400) with the last verses of 3 John just before Acts begins."
+    },
+    {
+     "h": "The Letter of Apion",
+     "t": "This 2nd-century papyrus in Berlin is a letter from Apion, a recruit in the Roman fleet in Italy, to his father in Egypt. It opens with a prayer for his father’s health and closes with greetings to people at home, the same shape as 3 John 2 and 14. Apion worshiped the god Serapis, so the likeness is in the form of the letter only."
+    },
+    {
+     "h": "A Reed Pen",
+     "t": "The “pen” of verse 13 is the Greek kalamos, a reed. Pens like the one shown, from Roman Egypt, were cut at a slant, split at the tip and dipped in an ink made of soot and gum. A letter the length of 3 John would fit on one sheet of papyrus."
+    }
+   ],
+   "discussion": "John commends Gaius for quietly supporting others. Who is doing quiet, faithful service around me whom I could thank?",
+   "book": "The third letter of John · 1 chapter. A note to a friend about welcoming traveling workers, with a warning about a leader who would not.",
+   "author": "The elder (John, by early tradition)",
+   "genre": "Short letter",
+   "audience": "Gaius",
+   "refNotes": {
+    "Psalm 34:14": "Do good",
+    "Genesis 18:1-8": "Abraham welcomes strangers",
+    "Deuteronomy 19:15": "Two or three witnesses"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The elder who writes 2 John",
+     "d": "Writes this letter too"
+    },
+    {
+     "n": "Gaius, the friend the elder writes to",
+     "d": "Takes in the brothers"
+    },
+    {
+     "n": "Diotrephes",
+     "d": "Loves to be first"
+    },
+    {
+     "n": "Demetrius of 3 John",
+     "d": "Well spoken of by all"
+    },
+    {
+     "n": "The traveling brothers of 3 John",
+     "d": "Went out for the Name"
+    },
+    {
+     "n": "The friends",
+     "d": "Greeted by name"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Greeting to Gaius"
+    },
+    {
+     "when": "v.5-8",
+     "label": "Support missionaries"
+    },
+    {
+     "when": "v.9-10",
+     "label": "Diotrephes"
+    },
+    {
+     "when": "v.11-14",
+     "label": "Demetrius and closing"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2_John,_3_John,_and_Jude_in_Sinaiticus.jpg",
+   "caption": "A page of Codex Sinaiticus (4th century AD) with 2 John, 3 John and Jude. The two short letters of the elder sit side by side, as they do in most later Bibles.",
+   "credit": "VistaSunset, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acropolis_theatre_of_Pergamon.jpg",
+   "caption": "The steep theater on the acropolis of Pergamum (Bergama, Turkey). A church list of about AD 380, the Apostolic Constitutions, names a Gaius as bishop of Pergamum. The tradition is late and cannot be checked, and 3 John does not say where its Gaius lived.",
+   "credit": "Photo: Antoloji, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

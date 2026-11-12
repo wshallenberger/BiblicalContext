@@ -1,0 +1,277 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 12,
+  "title": "One Body, Many Gifts",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Now about spiritual gifts, brothers, I do not want you to be uninformed."
+    },
+    {
+      "num": 2,
+      "text": "You know that when you were pagans, you were influenced and led astray to mute idols."
+    },
+    {
+      "num": 3,
+      "text": "Therefore I inform you that no one who is speaking by the Spirit of God says, \"Jesus be cursed,\" and no one can say, \"Jesus is Lord,\" except by the Holy Spirit."
+    },
+    {
+      "num": 4,
+      "text": "There are different gifts, but the same Spirit."
+    },
+    {
+      "num": 5,
+      "text": "There are different ministries, but the same Lord."
+    },
+    {
+      "num": 6,
+      "text": "There are different ways of working, but the same God works all things in all people."
+    },
+    {
+      "num": 7,
+      "text": "Now to each one the manifestation of the Spirit is given for the common good."
+    },
+    {
+      "num": 8,
+      "text": "To one there is given through the Spirit the message of wisdom, to another the message of knowledge by the same Spirit,"
+    },
+    {
+      "num": 9,
+      "text": "to another faith by the same Spirit, to another gifts of healing by that one Spirit,"
+    },
+    {
+      "num": 10,
+      "text": "to another the working of miracles, to another prophecy, to another distinguishing between spirits, to another speaking in various tongues, and to still another the interpretation of tongues."
+    },
+    {
+      "num": 11,
+      "text": "All these are the work of one and the same Spirit, who apportions them to each one as He determines."
+    },
+    {
+      "num": 12,
+      "text": "The body is a unit, though it is composed of many parts. And although its parts are many, they all form one body. So it is with Christ."
+    },
+    {
+      "num": 13,
+      "text": "For in one Spirit we were all baptized into one body, whether Jews or Greeks, slave or free, and we were all given one Spirit to drink."
+    },
+    {
+      "num": 14,
+      "text": "For the body does not consist of one part, but of many."
+    },
+    {
+      "num": 15,
+      "text": "If the foot should say, \"Because I am not a hand, I do not belong to the body,\" that would not make it any less a part of the body."
+    },
+    {
+      "num": 16,
+      "text": "And if the ear should say, \"Because I am not an eye, I do not belong to the body,\" that would not make it any less a part of the body."
+    },
+    {
+      "num": 17,
+      "text": "If the whole body were an eye, where would the sense of hearing be? If the whole body were an ear, where would the sense of smell be?"
+    },
+    {
+      "num": 18,
+      "text": "But in fact, God has arranged the members of the body, every one of them, according to His design."
+    },
+    {
+      "num": 19,
+      "text": "If they were all one part, where would the body be?"
+    },
+    {
+      "num": 20,
+      "text": "As it is, there are many parts, but one body."
+    },
+    {
+      "num": 21,
+      "text": "The eye cannot say to the hand, \"I do not need you.\" Nor can the head say to the feet, \"I do not need you.\""
+    },
+    {
+      "num": 22,
+      "text": "On the contrary, the parts of the body that seem to be weaker are indispensable,"
+    },
+    {
+      "num": 23,
+      "text": "and the parts we consider less honorable, we treat with greater honor. And our unpresentable parts are treated with special modesty,"
+    },
+    {
+      "num": 24,
+      "text": "whereas our presentable parts have no such need. But God has composed the body and has given greater honor to the parts that lacked it,"
+    },
+    {
+      "num": 25,
+      "text": "so that there should be no division in the body, but that its members should have mutual concern for one another."
+    },
+    {
+      "num": 26,
+      "text": "If one part suffers, every part suffers with it; if one part is honored, every part rejoices with it."
+    },
+    {
+      "num": 27,
+      "text": "Now you are the body of Christ, and each of you is a member of it."
+    },
+    {
+      "num": 28,
+      "text": "And in the church God has appointed first of all apostles, second prophets, third teachers, then workers of miracles, and those with gifts of healing, helping, administration, and various tongues."
+    },
+    {
+      "num": 29,
+      "text": "Are all apostles? Are all prophets? Are all teachers? Do all work miracles?"
+    },
+    {
+      "num": 30,
+      "text": "Do all have gifts of healing? Do all speak in tongues? Do all interpret?"
+    },
+    {
+      "num": 31,
+      "text": "But eagerly desire the greater gifts. And now I will show you the most excellent way."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, THE GIFTS OF THE SPIRIT",
+    "setting": "The Corinthians had asked about spiritual gifts. Paul says that all gifts come from the same Spirit and are given for the good of all. He uses the human body to show that every member is needed and none can say to another, “I don’t need you.”",
+    "custom": "Greek writers used a body as a picture of the city, with the belly representing the people and the head the rulers, to urge unity. Paul adapts it: Christ is the head, and every member, including the weak, matters.",
+    "timelineImmediate": "Chapter 13, the love chapter, shows the “still more excellent way” (v.31) in which all the gifts are to be used.",
+    "timelineBible": "“Jesus is Lord” (v.3) is the basic Christian confession, which also appears in Romans 10:9. The Trinity appears in vv.4-6: Spirit, Lord, God.",
+    "sparkNotes": "No one can say “Jesus is Lord” except by the Spirit. There are many gifts but one Spirit, many services but one Lord, many workings but one God. The body has many parts, and the weaker ones are indispensable. If one suffers, all suffer, and if one is honored, all rejoice.",
+    "translation": [
+      {
+        "english": "gifts",
+        "greek": "χαρισμάτων (charismatōn)",
+        "verseRef": "v.4",
+        "meaning": "Grace gifts. The English “charismatic” comes from it.",
+        "gloss": "Grace gifts"
+      },
+      {
+        "english": "common good",
+        "greek": "συμφέρον (sympheron)",
+        "verseRef": "v.7",
+        "meaning": "Benefit that is shared. Gifts are for the church, not personal showing.",
+        "gloss": "The shared benefit"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Psalm 115:4-8",
+        "note": "Idols are mute. Paul reminds the Corinthians that they were led astray to mute idols."
+      },
+      {
+        "ref": "Numbers 11:25",
+        "note": "The Spirit rested on the elders and they prophesied."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "The Spirit gives different gifts to different people, for the common good. The church is one body with many parts, and every part is needed.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Corinthian Ecstasy",
+          "t": "Pagan worship in Corinth included ecstatic experiences, so the church needed guidance about what came from the Spirit."
+        },
+        {
+          "h": "Gifts List",
+          "t": "The lists in 12:8-10, 28-30 and Romans 12:6-8 do not match, so they are samples."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Body Metaphor",
+          "t": "The story of Menenius Agrippa, who calmed a revolt with a tale about the belly and limbs, was a Roman classic."
+        },
+        {
+          "h": "Healing Votives",
+          "t": "Terra-cotta body parts were offered at healing shrines in Corinth."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Terracotta Body Parts",
+          "t": "Votive feet, hands, and eyes found at Corinth’s Asklepieion show how people prayed for healing."
+        },
+        {
+          "h": "Corinth Inscriptions",
+          "t": "Greek dedications show religious devotion in the city."
+        }
+      ],
+      "discussion": "Paul says the parts that seem weaker are indispensable. Who in my church or family do I tend to overlook, and what might they contribute?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Psalm 115:4-8": "Mute idols",
+        "Numbers 11:25": "The Spirit on the elders"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Spirit",
+          "d": "Gives gifts"
+        },
+        {
+          "n": "The Lord Jesus",
+          "d": "Gives services"
+        },
+        {
+          "n": "God the Father",
+          "d": "Works all things"
+        },
+        {
+          "n": "The Body",
+          "d": "Many members"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-3",
+          "label": "Jesus is Lord"
+        },
+        {
+          "when": "v.4-11",
+          "label": "Varieties of gifts"
+        },
+        {
+          "when": "v.12-26",
+          "label": "One body"
+        },
+        {
+          "when": "v.27-31",
+          "label": "Gifts in the church"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pentecost%C3%A9s_(El_Greco,_c._1600)_Prado.jpg",
+      "caption": "Pentecost, by El Greco (about 1600). Paul says the gifts differ but come from one Spirit (1 Corinthians 12:4-11).",
+      "credit": "El Greco (about 1600), Museo del Prado / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Votive_terracotta_objects,_4th_century_BC,_AM_Corinthos,_202795.jpg",
+      "caption": "Votive offerings in clay, including an eye and ears (4th century BC), in the Archaeological Museum of Ancient Corinth. Such offerings were left at healing sanctuaries, among them the Asklepieion at Corinth. They are older than Paul and are not mentioned in the letter.",
+      "credit": "Photo: Zde, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

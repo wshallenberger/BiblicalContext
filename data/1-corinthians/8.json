@@ -1,0 +1,208 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 8,
+  "title": "Food Offered to Idols",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Now about food sacrificed to idols: We know that we all have knowledge. Knowledge puffs up, but love builds up."
+    },
+    {
+      "num": 2,
+      "text": "The one who thinks he knows something does not yet know as he ought to know."
+    },
+    {
+      "num": 3,
+      "text": "But the one who loves God is known by God."
+    },
+    {
+      "num": 4,
+      "text": "So about eating food sacrificed to idols: We know that an idol is nothing at all in the world, and that there is no God but one."
+    },
+    {
+      "num": 5,
+      "text": "For even if there are so-called gods, whether in heaven or on earth (as there are many so-called gods and lords),"
+    },
+    {
+      "num": 6,
+      "text": "yet for us there is but one God, the Father, from whom all things came and for whom we exist. And there is but one Lord, Jesus Christ, through whom all things came and through whom we exist."
+    },
+    {
+      "num": 7,
+      "text": "But not everyone has this knowledge. Some people are still so accustomed to idols that they eat such food as if it were sacrificed to an idol. And since their conscience is weak, it is defiled."
+    },
+    {
+      "num": 8,
+      "text": "But food does not bring us closer to God: We are no worse if we do not eat, and no better if we do."
+    },
+    {
+      "num": 9,
+      "text": "Be careful, however, that your freedom does not become a stumbling block to the weak."
+    },
+    {
+      "num": 10,
+      "text": "For if someone with a weak conscience sees you who are well informed eating in an idol's temple, will he not be encouraged to eat food sacrificed to idols?"
+    },
+    {
+      "num": 11,
+      "text": "So this weak brother, for whom Christ died, is destroyed by your knowledge."
+    },
+    {
+      "num": 12,
+      "text": "By sinning against your brothers in this way and wounding their weak conscience, you sin against Christ."
+    },
+    {
+      "num": 13,
+      "text": "Therefore, if what I eat causes my brother to stumble, I will never eat meat again, so that I will not cause him to stumble."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, MEAT FROM THE TEMPLES",
+    "setting": "Corinth had many temples, and much of the meat sold in its markets had first been offered to idols. Some believers thought this meat was harmless because idols are nothing. Others, still troubled, thought eating it was worship. Paul says knowledge puffs up but love builds up.",
+    "custom": "Public meals often took place in temple dining rooms for guilds, weddings, and festivals. Declining an invitation could mean social isolation. Leftover meat from sacrifices was sold in the markets.",
+    "timelineImmediate": "Chapter 9 gives Paul’s own example of giving up rights for others. Chapter 10 warns that going to idol feasts is a different matter.",
+    "timelineBible": "Paul affirms the Shema, “the Lord our God, the Lord is one” (Deuteronomy 6:4), in v.6, adding Christ to the confession: “one Lord, Jesus Christ, through whom are all things.”",
+    "sparkNotes": "Believers who know idols are nothing feel free to eat meat offered to them. But others with weaker consciences are wounded when they see it. Knowledge makes people proud, but love builds up. Paul says he would never eat meat if it made his brother fall.",
+    "translation": [
+      {
+        "english": "puffs up",
+        "greek": "φυσιοῖ (physioi)",
+        "verseRef": "v.1",
+        "meaning": "Swells like a bellows. Knowledge without love makes us proud.",
+        "gloss": "Inflates"
+      },
+      {
+        "english": "builds up",
+        "greek": "οἰκοδομεῖ (oikodomei)",
+        "verseRef": "v.1",
+        "meaning": "The building word again (as in chapter 3). Love constructs people.",
+        "gloss": "Constructs"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 6:4",
+        "note": "“The Lord our God, the Lord is one.” The foundation for Paul’s answer."
+      },
+      {
+        "ref": "Isaiah 44:9-20",
+        "note": "The foolishness of idols made by hand."
+      },
+      {
+        "ref": "Psalm 24:1",
+        "note": "The earth is the Lord’s, behind 10:26."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Idols are nothing, so food offered to them is not harmful in itself. But love limits freedom when it would cause a weaker brother or sister to fall.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Guild Meals",
+          "t": "Trade guilds held banquets at temples in honor of patron gods, and members were expected to attend."
+        },
+        {
+          "h": "Market Meat",
+          "t": "Meat came mostly from sacrifices, so even a normal meal could raise the question."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Dining in Temples",
+          "t": "Temples had dining rooms. Paul mentions someone “reclining at table in an idol’s temple” (v.10)."
+        },
+        {
+          "h": "Conscience",
+          "t": "To the Greeks, conscience was a witness within, a sense of moral self-awareness."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Asklepieion Dining Rooms",
+          "t": "Corinth’s healing sanctuary had dining rooms for worshipers, an example of what Paul describes."
+        },
+        {
+          "h": "Macellum",
+          "t": "Corinth’s meat market stood in the forum, with shops for butchers and fishmongers."
+        }
+      ],
+      "discussion": "Paul limits his freedom for the sake of others’ consciences. Is there something I’m free to do that might trip up someone close to me?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Deuteronomy 6:4": "The Lord is one",
+        "Isaiah 44:9-20": "Idols are nothing",
+        "Psalm 24:1": "The earth is the Lord’s"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Strong",
+          "d": "Know idols are nothing"
+        },
+        {
+          "n": "The Weak",
+          "d": "Still bothered in conscience"
+        },
+        {
+          "n": "Paul",
+          "d": "Gives up rights"
+        },
+        {
+          "n": "Christ",
+          "d": "Died for the weak"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-3",
+          "label": "Knowledge and love"
+        },
+        {
+          "when": "v.4-6",
+          "label": "One God, one Lord"
+        },
+        {
+          "when": "v.7-13",
+          "label": "Care for the weak"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [
+          10
+        ],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red-figure_kylix_symposium_scene_(Boston_MFA_01.8018).jpg",
+      "caption": "A Greek red-figure drinking cup with a symposium scene, Museum of Fine Arts, Boston. Such cups were made centuries before Paul, but dinner parties with wine and couches were part of social life in Corinth, the setting of 1 Corinthians 8 and 10.",
+      "credit": "Mark Landon, CC BY 4.0 (Museum of Fine Arts, Boston) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macellum_of_Pompeii_(5027).jpg",
+      "caption": "The market hall of Pompeii, where meat was sold, some of it from pagan sacrifices. Romans 14 and 1 Corinthians 8 and 10 deal with the question of whether Christians could eat such food.",
+      "credit": "Photo: Marco Ober, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

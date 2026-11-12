@@ -1,0 +1,283 @@
+{
+  "book": "Romans",
+  "chapter": 16,
+  "title": "Greetings and Final Words",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "I commend to you our sister Phoebe, a servant of the church in Cenchrea."
+    },
+    {
+      "num": 2,
+      "text": "Welcome her in the Lord in a manner worthy of the saints, and assist her with anything she may need from you. For she has been a great help to many people, including me."
+    },
+    {
+      "num": 3,
+      "text": "Greet Prisca and Aquila, my fellow workers in Christ Jesus,"
+    },
+    {
+      "num": 4,
+      "text": "who have risked their lives for me. Not only I but all the churches of the Gentiles are grateful to them."
+    },
+    {
+      "num": 5,
+      "text": "Greet also the church that meets at their house. Greet my beloved Epenetus, who was the first convert to Christ in the province of Asia."
+    },
+    {
+      "num": 6,
+      "text": "Greet Mary, who has worked very hard for you."
+    },
+    {
+      "num": 7,
+      "text": "Greet Andronicus and Junia, my fellow countrymen and fellow prisoners. They are outstanding among the apostles, and they were in Christ before I was."
+    },
+    {
+      "num": 8,
+      "text": "Greet Ampliatus, my beloved in the Lord."
+    },
+    {
+      "num": 9,
+      "text": "Greet Urbanus, our fellow worker in Christ, and my beloved Stachys."
+    },
+    {
+      "num": 10,
+      "text": "Greet Apelles, who is approved in Christ. Greet those who belong to the household of Aristobulus."
+    },
+    {
+      "num": 11,
+      "text": "Greet Herodion, my fellow countryman. Greet those from the household of Narcissus who are in the Lord."
+    },
+    {
+      "num": 12,
+      "text": "Greet Tryphena and Tryphosa, women who have worked hard in the Lord. Greet my beloved Persis, who has worked very hard in the Lord."
+    },
+    {
+      "num": 13,
+      "text": "Greet Rufus, chosen in the Lord, and his mother, who has been a mother to me as well."
+    },
+    {
+      "num": 14,
+      "text": "Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brothers with them."
+    },
+    {
+      "num": 15,
+      "text": "Greet Philologus and Julia, Nereus and his sister, and Olympas and all the saints with them."
+    },
+    {
+      "num": 16,
+      "text": "Greet one another with a holy kiss. All the churches of Christ send you greetings."
+    },
+    {
+      "num": 17,
+      "text": "Now I urge you, brothers, to watch out for those who create divisions and obstacles that are contrary to the teaching you have learned. Turn away from them."
+    },
+    {
+      "num": 18,
+      "text": "For such people are not serving our Lord Christ, but their own appetites. By smooth talk and flattery they deceive the hearts of the naive."
+    },
+    {
+      "num": 19,
+      "text": "Everyone has heard about your obedience, so I rejoice over you. But I want you to be wise about what is good and innocent about what is evil."
+    },
+    {
+      "num": 20,
+      "text": "The God of peace will soon crush Satan under your feet. The grace of our Lord Jesus Christ be with you."
+    },
+    {
+      "num": 21,
+      "text": "Timothy, my fellow worker, sends you greetings, as do Lucius, Jason, and Sosipater, my fellow countrymen."
+    },
+    {
+      "num": 22,
+      "text": "I, Tertius, who wrote down this letter, greet you in the Lord."
+    },
+    {
+      "num": 23,
+      "text": "Gaius, who has hosted me and all the church, sends you greetings. Erastus, the city treasurer, sends you greetings, as does our brother Quartus."
+    },
+    {
+      "num": 25,
+      "text": "Now to Him who is able to strengthen you by my gospel and by the proclamation of Jesus Christ, according to the revelation of the mystery concealed for ages past"
+    },
+    {
+      "num": 26,
+      "text": "but now revealed and made known through the writings of the prophets by the command of the eternal God, in order to lead all nations to the obedience that comes from faith—"
+    },
+    {
+      "num": 27,
+      "text": "to the only wise God be glory forever through Jesus Christ! Amen."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME AND CORINTH, WHERE THE LETTER WAS WRITTEN",
+    "setting": "Paul commends Phoebe, who carries the letter, and sends greetings to over two dozen people in Rome by name, including Priscilla and Aquila. He warns against people who cause divisions, sends greetings from his coworkers in Corinth, and ends with a doxology.",
+    "custom": "Letters were carried by trusted friends, who also read them aloud and explained them. Phoebe is called a “servant” or deacon of the church at Cenchreae and a “benefactor” (v.1-2), someone who helped many, Paul included.",
+    "timelineImmediate": "The letter ends here. Paul will go to Jerusalem (Acts 20-21), then to Rome in chains (Acts 27-28).",
+    "timelineBible": "The doxology (vv.25-27) speaks of the “mystery” now revealed through the prophetic Scriptures, tying the end of the letter to its beginning in 1:2-5.",
+    "sparkNotes": "Paul commends Phoebe and greets many co-workers, including Priscilla and Aquila, Andronicus and Junia, and others. He warns against those who cause divisions. His companions, including Timothy, Tertius (who wrote the letter), Gaius, and Erastus, send greetings. He closes with praise to God.",
+    "translation": [
+      {
+        "english": "servant",
+        "greek": "διάκονος (diakonos)",
+        "verseRef": "v.1",
+        "meaning": "Can mean servant, minister, or deacon. Phoebe held a recognized role of service in the church at Cenchreae.",
+        "gloss": "Servant or deacon"
+      },
+      {
+        "english": "apostles",
+        "greek": "ἀπόστολοι (apostoloi)",
+        "verseRef": "v.7",
+        "meaning": "Andronicus and Junia are “outstanding among the apostles,” a title here for traveling messengers, a wider group than the Twelve.",
+        "gloss": "Sent ones"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Genesis 3:15",
+        "note": "God will crush Satan under their feet (v.20), echoing the first promise."
+      },
+      {
+        "ref": "Isaiah 52:15",
+        "note": "Those who were not told will see, behind “obedience of faith” to the nations."
+      },
+      {
+        "ref": "Daniel 2:20",
+        "note": "Wisdom and power belong to God, echoed in the doxology."
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "Paul closes with a list of greetings, naming many men and women who served with him. He warns about divisive people and ends with praise to the only wise God.",
+      "settingLine": "Greetings to Rome, from Paul in Corinth.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Priscilla and Aquila",
+          "t": "Jews expelled from Rome by Claudius, they met Paul in Corinth (Acts 18) and later returned. A church met in their home."
+        },
+        {
+          "h": "Erastus",
+          "t": "Paul’s companion in Corinth, called the city’s “director of public works” (v.23)."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Holy Kiss",
+          "t": "A normal greeting between family members that Paul asks believers to share."
+        },
+        {
+          "h": "Household Churches",
+          "t": "Greetings mention groups meeting in homes: those with Aristobulus, Narcissus, and others."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Erastus Inscription",
+          "t": "A paving stone at Corinth reads that “Erastus laid this pavement at his own expense” as aedile (a city official). This may be the same man."
+        },
+        {
+          "h": "Cenchreae Harbor",
+          "t": "Excavations at Cenchreae, the port Phoebe came from, have uncovered warehouses and sea walls."
+        }
+      ],
+      "discussion": "Paul names about thirty people, many of them women, and says what each did for him. Who are the unnamed people who have carried me, and have I thanked them?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Genesis 3:15": "Crushing the serpent",
+        "Isaiah 52:15": "Nations will understand",
+        "Daniel 2:20": "To the only wise God"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Phoebe",
+          "d": "Carried the letter"
+        },
+        {
+          "n": "Priscilla and Aquila",
+          "d": "Risked their lives for Paul"
+        },
+        {
+          "n": "Tertius",
+          "d": "Wrote it down"
+        },
+        {
+          "n": "Erastus",
+          "d": "City official"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-2",
+          "label": "Phoebe"
+        },
+        {
+          "when": "v.3-16",
+          "label": "Greetings"
+        },
+        {
+          "when": "v.17-20",
+          "label": "A warning"
+        },
+        {
+          "when": "v.21-27",
+          "label": "Final greetings and praise"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Rome",
+        "lat": 41.9028,
+        "lng": 12.4964,
+        "verses": [
+          3,
+          16
+        ],
+        "slug": "rome"
+      },
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [
+          23
+        ],
+        "slug": "corinth"
+      },
+      {
+        "name": "Cenchreae",
+        "lat": 37.8833,
+        "lng": 22.9833,
+        "verses": [
+          1
+        ],
+        "slug": "cenchreae"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_van_de_Venne_-_Saint_Paul_with_Saints_Aquila_and_Priscilla_(crop).jpg",
+      "caption": "Saint Paul with Aquila and Priscilla, by Jan van de Venne (17th century). Paul greets the couple first in Romans 16:3-5.",
+      "credit": "Jan van de Venne (17th century), CC0 / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Kechries_on_January_10,_2020.jpg",
+      "caption": "The site of ancient Cenchreae, the eastern harbor of Corinth, where Phoebe served the church (Romans 16:1-2). Much of the harbor now lies under the sea.",
+      "credit": "Photo: George E. Koronaios, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

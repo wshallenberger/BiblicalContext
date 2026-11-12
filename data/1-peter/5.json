@@ -1,0 +1,239 @@
+{
+ "book": "1 Peter",
+ "chapter": 5,
+ "title": "Shepherd the Flock",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "As a fellow elder, a witness of Christ's sufferings, and a partaker of the glory to be revealed, I appeal to the elders among you:"
+  },
+  {
+   "num": 2,
+   "text": "Be shepherds of God's flock that is among you, watching over them not out of compulsion, but because it is God's will; not out of greed, but out of eagerness;"
+  },
+  {
+   "num": 3,
+   "text": "not lording it over those entrusted to you, but being examples to the flock."
+  },
+  {
+   "num": 4,
+   "text": "And when the Chief Shepherd appears, you will receive the crown of glory that will never fade away."
+  },
+  {
+   "num": 5,
+   "text": "Young men, in the same way, submit yourselves to your elders. And all of you, clothe yourselves with humility toward one another, because, \"God opposes the proud, but gives grace to the humble.\""
+  },
+  {
+   "num": 6,
+   "text": "Humble yourselves, therefore, under God's mighty hand, so that in due time He may exalt you."
+  },
+  {
+   "num": 7,
+   "text": "Cast all your anxiety on Him, because He cares for you."
+  },
+  {
+   "num": 8,
+   "text": "Be sober-minded and alert. Your adversary the devil prowls around like a roaring lion, seeking someone to devour."
+  },
+  {
+   "num": 9,
+   "text": "Resist him, standing firm in your faith and in the knowledge that your brothers throughout the world are undergoing the same kinds of suffering."
+  },
+  {
+   "num": 10,
+   "text": "And after you have suffered for a little while, the God of all grace, who has called you to His eternal glory in Christ, will Himself restore you, secure you, strengthen you, and establish you."
+  },
+  {
+   "num": 11,
+   "text": "To Him be the power forever and ever. Amen."
+  },
+  {
+   "num": 12,
+   "text": "Through Silvanus, whom I regard as a faithful brother, I have written to you briefly, encouraging you and testifying that this is the true grace of God. Stand firm in it."
+  },
+  {
+   "num": 13,
+   "text": "The church in Babylon, chosen together with you, sends you greetings, as does my son Mark."
+  },
+  {
+   "num": 14,
+   "text": "Greet one another with a kiss of love. Peace to all of you who are in Christ."
+  }
+ ],
+ "context": {
+  "author": "Peter, an apostle of Jesus Christ (1:1). He writes with Silvanus, who may have been his secretary, the carrier of the letter, or both (5:12).",
+  "genre": "Letter of encouragement to suffering believers",
+  "audience": "Believers scattered across five Roman provinces in what is now Turkey (1:1). Verses such as 1:14, 1:18 and 4:3 suggest many were Gentiles by background, though Peter uses names once given to Israel.",
+  "mapLabel": "ELDERS AND THE CHIEF SHEPHERD",
+  "setting": "Peter, a fellow elder and witness of Christ’s sufferings, urges the elders to shepherd the flock willingly, not for gain, and not lording it over them. He tells the younger to submit and everyone to clothe themselves with humility. He warns about the devil prowling like a lion, and ends with greetings from Babylon, Silvanus, and Mark.",
+  "custom": "A shepherd led, fed and protected his flock (Psalm 23; John 10:11-13). Ezekiel 34 rebukes shepherds who feed themselves, and Peter tells the elders to shepherd willingly, not for gain. The crown of glory that never fades (v.4) is set against wreaths of leaves, which wilted, and Peter calls the reward a gift of the Chief Shepherd.",
+  "timelineImmediate": "The letter ends. Peter’s second letter followed, written shortly before his death.",
+  "timelineBible": "Cast all your anxiety on him (v.7) follows Psalm 55:22. God opposes the proud (v.5) quotes Proverbs 3:34. The shepherd imagery draws on Ezekiel 34 and on Jesus' words to Peter in John 21:15-17. The roaring lion (v.8) recalls Psalm 22:13.",
+  "sparkNotes": "I exhort the elders among you, as a fellow elder: shepherd the flock of God, not under compulsion but willingly, not for shameful gain but eagerly, not domineering but being examples. When the Chief Shepherd appears, you will receive the unfading crown of glory. Clothe yourselves with humility. Humble yourselves under God’s mighty hand. Cast all your anxieties on him, because he cares for you. Be sober-minded and watchful. Your adversary the devil prowls like a roaring lion. Resist him, firm in your faith.",
+  "translation": [
+   {
+    "english": "shepherd",
+    "greek": "ποιμάνατε (poimanate)",
+    "verseRef": "v.2",
+    "meaning": "Act as a shepherd: lead, feed, protect.",
+    "gloss": "Be a shepherd"
+   },
+   {
+    "english": "cast",
+    "greek": "ἐπιρίψαντες (epirhipsantes)",
+    "verseRef": "v.7",
+    "meaning": "To throw upon, as one throws a load on a pack animal.",
+    "gloss": "Throw upon"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Ezekiel 34:2-16",
+    "note": "Shepherds who feed themselves, and the Lord who will shepherd his flock. Compare 5:2-4."
+   },
+   {
+    "ref": "Psalm 55:22",
+    "note": "Cast your burden on the Lord. Compare 5:7."
+   },
+   {
+    "ref": "Proverbs 3:34",
+    "note": "God opposes the proud and gives grace to the humble. Quoted in 5:5."
+   }
+  ],
+  "mapCoords": {
+   "lat": 38.5,
+   "lng": 28.0,
+   "zoom": 5,
+   "placeName": "Roman Asia"
+  },
+  "overview": {
+   "summary": "Elders are to shepherd willingly, all are to clothe themselves with humility, cast anxieties on God, and resist the devil.",
+   "settingLine": "Greetings from “Babylon.”",
+   "placeName": "Roman Asia",
+   "history": [
+    {
+     "h": "Babylon",
+     "t": "Peter sends greetings from the church in Babylon (5:13). The city on the Euphrates was in decline in the 1st century, Revelation uses Babylon for Rome (Revelation 17-18), and there was also a Roman fortress called Babylon in Egypt. Eusebius (Church History 2.15) reports that Peter called the city Babylon figuratively and wrote from Rome. Most scholars follow that reading."
+    },
+    {
+     "h": "Mark",
+     "t": "Peter calls Mark my son (5:13). Acts 12:12 shows Peter going to the house of Mary, the mother of John Mark. Papias, quoted by Eusebius (Church History 3.39), says that Mark was Peter's interpreter and wrote down what Peter taught."
+    },
+    {
+     "h": "Peter in Rome",
+     "t": "Early Christian writers say Peter died in Rome under Nero. First Clement 5 speaks of his sufferings, and later writers such as Tertullian and Eusebius name Rome. John 21:18-19 points to the way he would die. The usual date for the letter is the early to mid 60s, though some date it later."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Shepherding",
+     "t": "A shepherd led the flock to pasture and water, guarded it from wolves and thieves, and searched for the lost (Psalm 23; Luke 15:4; John 10:11-13). The Old Testament calls kings and leaders shepherds, and Ezekiel 34 rebukes shepherds who feed themselves."
+    },
+    {
+     "h": "A Kiss of Love",
+     "t": "A kiss was a usual greeting among family and close friends. Paul also tells churches to greet each other with a holy kiss (Romans 16:16; 1 Corinthians 16:20). Peter calls it a kiss of love (5:14)."
+    },
+    {
+     "h": "The Roaring Lion",
+     "t": "Lions were hunted in the Near East and used in Roman arenas. Psalm 22:13 compares enemies to a roaring lion, and Paul says that he was rescued from the lion's mouth (2 Timothy 4:17). Peter pictures the devil in the same way (5:8)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Papyrus 72",
+     "t": "The end of 1 Peter, with the greetings from Babylon and Mark, is on a leaf of Papyrus 72 that also begins 2 Peter. It is in the Vatican Library and dates to the 3rd or 4th century."
+    },
+    {
+     "h": "The Vatican Obelisk and Nero's Circus",
+     "t": "The obelisk now in St Peter's Square stood in the circus of Gaius and Nero until 1586. Tacitus says Nero put Christians to death after the fire of AD 64 (Annals 15.44). Excavations under St Peter's Basilica in the 1940s found a second-century monument on the spot the church had long honored as Peter's grave. Whether the bones found nearby are Peter's is disputed."
+    },
+    {
+     "h": "Wreaths",
+     "t": "Victors and honored people wore wreaths, usually of leaves that wilted. A gold wreath of the 4th or 3rd century BC is in the Metropolitan Museum. Peter promises a crown of glory that will never fade away (5:4)."
+    }
+   ],
+   "discussion": "Peter tells us to cast all our anxieties on God because he cares for us. What anxiety have I been holding that I could hand over today?",
+   "book": "The first letter of Peter · 5 chapters. Encouragement to live as “exiles” with a living hope.",
+   "author": "Peter",
+   "genre": "Letter",
+   "audience": "Believers across Asia Minor",
+   "refNotes": {
+    "Ezekiel 34:2-16": "Shepherds of Israel",
+    "Psalm 55:22": "Cast your burden",
+    "Proverbs 3:34": "Grace to the humble"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Peter",
+     "d": "Fellow elder"
+    },
+    {
+     "n": "The Elders",
+     "d": "Called to shepherd"
+    },
+    {
+     "n": "The Chief Shepherd",
+     "d": "Will appear with the crown"
+    },
+    {
+     "n": "Satan",
+     "d": "The adversary who prowls"
+    },
+    {
+     "n": "Silvanus and Mark",
+     "d": "Companions in the greetings"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Shepherd the flock"
+    },
+    {
+     "when": "v.5-7",
+     "label": "Humble yourselves"
+    },
+    {
+     "when": "v.8-11",
+     "label": "Resist the devil"
+    },
+    {
+     "when": "v.12-14",
+     "label": "Greetings"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [
+     13
+    ],
+    "slug": "rome"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fragment_of_an_ancient_Greek_gold_wreath.jpg",
+   "caption": "Fragment of a Greek gold laurel wreath of the 4th or 3rd century BC in the Metropolitan Museum of Art. Victors and honored people wore wreaths, which were usually made of leaves that soon withered. Peter promises the elders, when the Chief Shepherd appears, the crown of glory that will never fade away (5:4).",
+   "credit": "rosemania (Flickr), CC BY 2.0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Obelisk_via_della_Concilliazione_Piazza_San_Pietro_Vatican_City.jpg",
+   "caption": "The obelisk in St Peter's Square, Vatican City. It was brought from Egypt under Caligula, stood in the circus of Gaius and Nero on the Vatican plain, and was moved to its present place in 1586. Tacitus says Nero put Christians to death in his gardens and circus after the fire of AD 64. Church tradition says Peter died in Rome under Nero, and his letter ends with greetings from Babylon (5:13).",
+   "credit": "Photo: Jebulon, CC0 / Wikimedia Commons"
+  }
+ }
+}

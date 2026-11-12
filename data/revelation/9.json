@@ -1,0 +1,244 @@
+{
+ "book": "Revelation",
+ "chapter": 9,
+ "title": "The Fifth and Sixth Trumpets",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Then the fifth angel sounded his trumpet, and I saw a star that had fallen from heaven to earth, and it was given the key to the pit of the Abyss."
+  },
+  {
+   "num": 2,
+   "text": "The star opened the pit of the Abyss, and smoke rose out of it like the smoke of a great furnace, and the sun and the air were darkened by the smoke from the pit."
+  },
+  {
+   "num": 3,
+   "text": "And out of the smoke, locusts descended on the earth, and they were given power like that of the scorpions of the earth."
+  },
+  {
+   "num": 4,
+   "text": "They were told not to harm the grass of the earth or any plant or tree, but only those who did not have the seal of God on their foreheads."
+  },
+  {
+   "num": 5,
+   "text": "The locusts were not given power to kill them, but only to torment them for five months, and their torment was like the stinging of a scorpion."
+  },
+  {
+   "num": 6,
+   "text": "In those days men will seek death and will not find it; they will long to die, but death will escape them."
+  },
+  {
+   "num": 7,
+   "text": "And the locusts looked like horses prepared for battle, with something like crowns of gold on their heads, and faces like the faces of men."
+  },
+  {
+   "num": 8,
+   "text": "They had hair like that of women, and teeth like those of lions."
+  },
+  {
+   "num": 9,
+   "text": "They also had thoraxes like breastplates of iron, and the sound of their wings was like the roar of many horses and chariots rushing into battle."
+  },
+  {
+   "num": 10,
+   "text": "They had tails with stingers like scorpions, which had the power to injure people for five months."
+  },
+  {
+   "num": 11,
+   "text": "They were ruled by a king, the angel of the Abyss. His name in Hebrew is Abaddon, and in Greek it is Apollyon."
+  },
+  {
+   "num": 12,
+   "text": "The first woe has passed. Behold, two woes are still to follow."
+  },
+  {
+   "num": 13,
+   "text": "Then the sixth angel sounded his trumpet, and I heard a voice from the four horns of the golden altar before God"
+  },
+  {
+   "num": 14,
+   "text": "saying to the sixth angel with the trumpet, \"Release the four angels who are bound at the great river Euphrates.\""
+  },
+  {
+   "num": 15,
+   "text": "So the four angels who had been prepared for this hour and day and month and year were released to kill a third of mankind."
+  },
+  {
+   "num": 16,
+   "text": "And the number of mounted troops was two hundred million; I heard their number."
+  },
+  {
+   "num": 17,
+   "text": "Now the horses and riders in my vision looked like this: The riders had breastplates the colors of fire, sapphire, and sulfur. The heads of the horses were like the heads of lions, and out of their mouths proceeded fire, smoke, and sulfur."
+  },
+  {
+   "num": 18,
+   "text": "A third of mankind was killed by the three plagues of fire, smoke, and sulfur that proceeded from their mouths."
+  },
+  {
+   "num": 19,
+   "text": "For the power of the horses was in their mouths and in their tails; indeed, their tails were like snakes, having heads with which to inflict harm."
+  },
+  {
+   "num": 20,
+   "text": "Now the rest of mankind who were not killed by these plagues still did not repent of the works of their hands. They did not stop worshiping demons and idols of gold, silver, bronze, stone, and wood, which cannot see or hear or walk."
+  },
+  {
+   "num": 21,
+   "text": "Furthermore, they did not repent of their murder, sorcery, sexual immorality, and theft."
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "THE ABYSS AND THE EUPHRATES",
+  "setting": "At the fifth trumpet, a star falls to earth with the key to the shaft of the abyss. Smoke rises and locusts with scorpions’ stings torment people for five months. At the sixth trumpet, four angels bound at the great river Euphrates are released with an army of 200 million cavalry, killing a third of mankind. The people still refuse to repent.",
+  "custom": "The Euphrates was the boundary of the Roman Empire, beyond which lay the Parthians, feared horse-archers. Locust plagues devastated Mediterranean lands and were a standard picture of judgment (Joel 1-2). The “abyss” was the prison of evil spirits.",
+  "timelineImmediate": "Chapter 10 pauses with the angel and the little scroll.",
+  "timelineBible": "The locusts draw on Exodus 10 and Joel 1-2. Abaddon/Apollyon (“Destroyer”) is a name for the angel of the abyss (Job 26:6; Proverbs 15:11).",
+  "translation": [
+   {
+    "english": "Abaddon",
+    "greek": "Ἀβαδδών (Abaddōn)",
+    "verseRef": "v.11",
+    "meaning": "Hebrew for “destruction.” The Greek name Apollyon means “destroyer.”",
+    "gloss": "Destruction"
+   },
+   {
+    "english": "repent",
+    "greek": "μετενόησαν (metenoēsan)",
+    "verseRef": "v.20-21",
+    "meaning": "To change the mind and turn.",
+    "gloss": "Change the mind"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Joel 2:1-11",
+    "note": "The locust army of the day of the Lord."
+   },
+   {
+    "ref": "Exodus 10:12-15",
+    "note": "The plague of locusts."
+   },
+   {
+    "ref": "Isaiah 27:1",
+    "note": "The Lord’s sword on Leviathan."
+   }
+  ],
+  "mapCoords": {
+   "lat": 36.0,
+   "lng": 38.0,
+   "zoom": 6,
+   "placeName": "Euphrates River"
+  },
+  "overview": {
+   "summary": "The fifth and sixth trumpets bring locusts from the abyss and a vast army from the Euphrates, but the survivors still refuse to repent.",
+   "settingLine": "From the abyss to the Euphrates.",
+   "placeName": "Euphrates River",
+   "history": [
+    {
+     "h": "Parthians",
+     "t": "Rome’s eastern enemy, who defeated Roman armies at Carrhae."
+    },
+    {
+     "h": "Locust Plagues",
+     "t": "Devoured crops and caused famine."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Scorpion Sting",
+     "t": "Painful but not usually fatal."
+    },
+    {
+     "h": "Five Months",
+     "t": "The lifespan of a locust swarm."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Euphrates Crossing at Zeugma",
+     "t": "Roman frontier city with famous mosaics."
+    },
+    {
+     "h": "Parthian Archers",
+     "t": "Reliefs show their cavalry."
+    },
+    {
+     "h": "The Euphrates Frontier",
+     "t": "Dura-Europos on the Euphrates, a frontier town taken from the Parthians by Rome, shows the river as the edge of the Roman world, the place from which the army of the sixth trumpet comes (9:14)."
+    }
+   ],
+   "discussion": "Even after these terrors, the survivors “did not repent.” What does it take for me to listen when God is trying to get my attention?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Joel 2:1-11": "The locust army",
+    "Exodus 10:12-15": "Locusts",
+    "Isaiah 27:1": "Leviathan"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Fallen Star",
+     "d": "Opens the abyss"
+    },
+    {
+     "n": "The Locusts",
+     "d": "Torment for five months"
+    },
+    {
+     "n": "The Four Angels",
+     "d": "Released at the Euphrates"
+    },
+    {
+     "n": "Survivors",
+     "d": "Do not repent"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-12",
+     "label": "Fifth trumpet"
+    },
+    {
+     "when": "v.13-19",
+     "label": "Sixth trumpet"
+    },
+    {
+     "when": "v.20-21",
+     "label": "Refusal to repent"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Euphrates River",
+    "lat": 36.0,
+    "lng": 38.0,
+    "verses": [
+     14
+    ],
+    "slug": "euphrates"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Then the fifth angel sounded his trumpet, and I saw a star that had fallen from heaven to earth, and it was given the key to the pit of the Abyss. Then the sixth angel sounded his trumpet, and I heard a voice from the four horns of the golden altar before God saying to the sixth angel with the trumpet, Release the four angels who are bound at the great river Euphrates. Now the rest of mankind who were not killed by these plagues still did not repent of the works of their hands. They did not stop worshiping demons and idols of gold, silver, bronze, stone, and wood, which cannot see or hear or walk.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer,_The_Seven_Angels_with_the_Trumpets,_probably_c._1496-1498,_NGA_850.jpg",
+   "caption": "The Seven Angels with the Trumpets, from Dürer’s Apocalypse: the angels receive their trumpets before God while an angel offers incense at the altar and the first plagues fall on the earth (Revelation 8).",
+   "credit": "Albrecht Dürer (1498), National Gallery of Art, Washington, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Euphrates_River_by_Dura-Europus,_Syria._(V)_(5532991132).jpg",
+   "caption": "The Euphrates River below Dura-Europos in Syria, a frontier town fought over by Rome and Parthia. The sixth trumpet and the sixth bowl both turn to the Euphrates, the edge of the Roman world (Revelation 9:14; 16:12).",
+   "credit": "Photo: Erik Hermans / ISAW, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

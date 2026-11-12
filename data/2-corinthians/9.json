@@ -1,0 +1,235 @@
+{
+  "book": "2 Corinthians",
+  "chapter": 9,
+  "title": "Cheerful Giving",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Now about the service to the saints, there is no need for me to write to you."
+    },
+    {
+      "num": 2,
+      "text": "For I know your eagerness to help, and I have been boasting to the Macedonians that since last year you in Achaia were prepared to give. And your zeal has stirred most of them to do likewise."
+    },
+    {
+      "num": 3,
+      "text": "But I am sending the brothers in order that our boasting about you in this matter should not prove empty, but that you will be prepared, just as I said."
+    },
+    {
+      "num": 4,
+      "text": "Otherwise, if any Macedonians come with me and find you unprepared, we—to say nothing of you—would be ashamed of having been so confident."
+    },
+    {
+      "num": 5,
+      "text": "So I thought it necessary to urge the brothers to visit you beforehand and make arrangements for the bountiful gift you had promised. This way, your gift will be prepared generously and not begrudgingly."
+    },
+    {
+      "num": 6,
+      "text": "Remember this: Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously."
+    },
+    {
+      "num": 7,
+      "text": "Each one should give what he has decided in his heart to give, not out of regret or compulsion. For God loves a cheerful giver."
+    },
+    {
+      "num": 8,
+      "text": "And God is able to make all grace abound to you, so that in all things, at all times, having all that you need, you will abound in every good work."
+    },
+    {
+      "num": 9,
+      "text": "As it is written: \"He has scattered abroad His gifts to the poor; His righteousness endures forever.\""
+    },
+    {
+      "num": 10,
+      "text": "Now He who supplies seed to the sower and bread for food will supply and multiply your store of seed and will increase the harvest of your righteousness."
+    },
+    {
+      "num": 11,
+      "text": "You will be enriched in every way to be generous on every occasion, so that through us your giving will produce thanksgiving to God."
+    },
+    {
+      "num": 12,
+      "text": "For this ministry of service is not only supplying the needs of the saints, but is also overflowing in many expressions of thanksgiving to God."
+    },
+    {
+      "num": 13,
+      "text": "Because of the proof this ministry provides, the saints will glorify God for your obedient confession of the gospel of Christ, and for the generosity of your contribution to them and to all the others."
+    },
+    {
+      "num": 14,
+      "text": "And their prayers for you will express their affection for you, because of the surpassing grace God has given you."
+    },
+    {
+      "num": 15,
+      "text": "Thanks be to God for His indescribable gift!"
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Timothy (1:1)",
+    "genre": "Letter, personal and defensive, among Paul’s most emotional",
+    "audience": "The church in Corinth, after a painful period of conflict",
+    "mapLabel": "MACEDONIA, A GIFT FOR JERUSALEM",
+    "setting": "Paul continues the appeal. He had boasted of Corinth’s readiness to the Macedonians, and sends the brothers ahead so that the gift is ready when he arrives with some Macedonians. He teaches that giving is like sowing, and that God loves a cheerful giver.",
+    "custom": "Farmers broadcast seed by hand. Sowing generously meant a larger harvest, a proverb Paul applies to giving. Paul speaks of giving as thanksgiving overflowing to God, because those helped will pray for the givers.",
+    "timelineImmediate": "Chapter 10 starts the final section, where Paul’s tone changes and he defends his authority.",
+    "timelineBible": "Verse 7 recalls Proverbs 22:8 (Septuagint). Verse 9 quotes Psalm 112:9, “He has distributed freely, he has given to the poor.” Verse 10 echoes Isaiah 55:10 and Hosea 10:12.",
+    "sparkNotes": "Paul sends the brothers ahead so the gift is ready, not extracted. Whoever sows sparingly will reap sparingly, and each should give as he has decided, not reluctantly or under compulsion, for God loves a cheerful giver. God can supply every need. Thanks be to God for his indescribable gift.",
+    "translation": [
+      {
+        "english": "cheerful",
+        "greek": "ἱλαρὸν (hilaron)",
+        "verseRef": "v.7",
+        "meaning": "Glad, joyful. The English “hilarity” comes from it.",
+        "gloss": "Happy"
+      },
+      {
+        "english": "indescribable",
+        "greek": "ἀνεκδιηγήτῳ (anekdiēgētō)",
+        "verseRef": "v.15",
+        "meaning": "Too great to tell. Paul ends the appeal with wonder at God’s gift.",
+        "gloss": "Beyond telling"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Psalm 112:9",
+        "note": "“He has distributed freely, he has given to the poor.”"
+      },
+      {
+        "ref": "Proverbs 22:8",
+        "note": "In the Greek version, God blesses a cheerful giver."
+      },
+      {
+        "ref": "Isaiah 55:10",
+        "note": "God supplies seed for the sower and bread for food."
+      }
+    ],
+    "mapCoords": {
+      "lat": 40.7,
+      "lng": 22.5,
+      "zoom": 6,
+      "placeName": "Macedonia"
+    },
+    "overview": {
+      "summary": "Giving is like sowing. God loves a cheerful giver, supplies all needs, and the gift brings thanks to God. Paul ends with praise for God’s indescribable gift.",
+      "settingLine": "Paul plans to arrive with Macedonians.",
+      "placeName": "Macedonia",
+      "history": [
+        {
+          "h": "Preparing the Gift",
+          "t": "Paul worries that if Macedonian delegates arrive and find nothing ready, it would shame them."
+        },
+        {
+          "h": "Jewish Almsgiving",
+          "t": "Jews gave to the poor as an act of righteousness, which Paul builds on."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Sowing",
+          "t": "Seed was scattered by hand across the field."
+        },
+        {
+          "h": "Cheerful",
+          "t": "The Greek word is hilaros, from which we get “hilarious.” It means glad, not grudging."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Grain Storage",
+          "t": "Excavated granaries in Corinth show how seed was stored."
+        },
+        {
+          "h": "Scattered Seed",
+          "t": "Sowing scenes appear in Greek and Roman art."
+        }
+      ],
+      "discussion": "Paul says to give “not reluctantly or under compulsion.” What would it look like to give today with joy instead of obligation?",
+      "book": "The second letter to the Corinthians · 13 chapters. Paul’s most personal letter, written to heal a strained relationship.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Psalm 112:9": "Gives freely",
+        "Proverbs 22:8": "A cheerful giver",
+        "Isaiah 55:10": "Seed for sowing"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Boasts of Corinth"
+        },
+        {
+          "n": "The Brothers",
+          "d": "Sent ahead"
+        },
+        {
+          "n": "Cheerful Givers",
+          "d": "Loved by God"
+        },
+        {
+          "n": "The Saints in Jerusalem",
+          "d": "Will give thanks"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-5",
+          "label": "Be ready"
+        },
+        {
+          "when": "v.6-9",
+          "label": "Sowing and reaping"
+        },
+        {
+          "when": "v.10-14",
+          "label": "Harvest of thanks"
+        },
+        {
+          "when": "v.15",
+          "label": "Indescribable gift"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Macedonia",
+        "lat": 40.7,
+        "lng": 22.5,
+        "verses": [
+          2,
+          4
+        ],
+        "slug": "macedonia"
+      },
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Le_Semeur_dans_un_champ_de_bl%C3%A9_au_soleil_couchant_(1888).jpg",
+      "caption": "The Sower with Setting Sun, by Vincent van Gogh (1888). Paul writes that whoever sows generously will reap generously, and that God supplies seed to the sower (2 Corinthians 9:6-10).",
+      "credit": "Vincent van Gogh (1888) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+      "caption": "Aerial view of the Temple Mount and the City of David ridge, Jerusalem.",
+      "credit": "Wikimedia Commons"
+    }
+  }
+}

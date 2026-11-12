@@ -1,14 +1,14 @@
-/* sw.js — makes Verse Inspector installable and usable without internet.
+/* sw.js — makes Daily Butter installable and usable without internet.
  * Version label below changes with every release so phones notice the update.
  *   - The app itself (pages, scripts) is fetched fresh when online and kept for when you are offline.
  *   - Data (chapters, commentary, timeline, ...) is served from the phone's saved copy first and refreshed in the background.
  *   - ESV and NLT text (/api/...) is NEVER saved: the publishers do not allow it, so those versions need a connection.
  */
-const VER = 'r74';
+const VER = 'r129';
 const SHELL = 'vi-shell-' + VER;
 const DATA = 'vi-data';                     // chapters and pictures; survives updates; this is what "Download for offline use" fills
 const CDN = ['fonts.googleapis.com', 'fonts.gstatic.com', 'unpkg.com'];
-const SHELL_FILES = ['./', 'index.html', 'books.js', 'app.js', 'settings.js', 'music.js', 'saved.js', 'plans.js', 'search.js', 'parallels.js', 'compare.js', 'genealogy.js', 'commentary.js', 'glossary.js', 'home.js', 'vtrans.js', 'translations.js', 'pwa.js', 'manifest.webmanifest',
+const SHELL_FILES = ['./', 'index.html', 'books.js', 'bcpick.js', 'app.js', 'settings.js', 'music.js', 'saved.js', 'plans.js', 'search.js', 'parallels.js', 'compare.js', 'genealogy.js', 'commentary.js', 'glossary.js', 'home.js', 'vtrans.js', 'translations.js', 'pwa.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png',
   'data/translations/registry.json', 'data/manifest.json'];
 

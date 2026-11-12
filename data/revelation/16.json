@@ -1,0 +1,257 @@
+{
+ "book": "Revelation",
+ "chapter": 16,
+ "title": "The Seven Bowls",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Then I heard a loud voice from the temple saying to the seven angels, \"Go, pour out on the earth the seven bowls of God's wrath.\""
+  },
+  {
+   "num": 2,
+   "text": "So the first angel went and poured out his bowl on the earth, and loathsome, malignant sores broke out on those who had the mark of the beast and worshiped its image."
+  },
+  {
+   "num": 3,
+   "text": "And the second angel poured out his bowl into the sea, and it turned to blood like that of the dead, and every living thing in the sea died."
+  },
+  {
+   "num": 4,
+   "text": "And the third angel poured out his bowl into the rivers and springs of water, and they turned to blood."
+  },
+  {
+   "num": 5,
+   "text": "And I heard the angel of the waters say: \"Righteous are You, O Holy One, who is and was, because You have brought these judgments."
+  },
+  {
+   "num": 6,
+   "text": "For they have spilled the blood of saints and prophets, and You have given them blood to drink, as they deserve.\""
+  },
+  {
+   "num": 7,
+   "text": "And I heard the altar reply: \"Yes, Lord God Almighty, true and just are Your judgments.\""
+  },
+  {
+   "num": 8,
+   "text": "Then the fourth angel poured out his bowl on the sun, and it was given power to scorch the people with fire."
+  },
+  {
+   "num": 9,
+   "text": "And the people were scorched by intense heat, and they cursed the name of God, who had authority over these plagues; yet they did not repent and give Him glory."
+  },
+  {
+   "num": 10,
+   "text": "And the fifth angel poured out his bowl on the throne of the beast, and its kingdom was plunged into darkness, and men began to gnaw their tongues in anguish"
+  },
+  {
+   "num": 11,
+   "text": "and curse the God of heaven for their pains and sores; yet they did not repent of their deeds."
+  },
+  {
+   "num": 12,
+   "text": "And the sixth angel poured out his bowl on the great river Euphrates, and its water was dried up to prepare the way for the kings of the East."
+  },
+  {
+   "num": 13,
+   "text": "And I saw three unclean spirits that looked like frogs coming out of the mouths of the dragon, the beast, and the false prophet."
+  },
+  {
+   "num": 14,
+   "text": "These are demonic spirits that perform signs and go out to all the kings of the earth, to assemble them for battle on the great day of God the Almighty."
+  },
+  {
+   "num": 15,
+   "text": "\"Behold, I am coming like a thief. Blessed is the one who remains awake and clothed, so that he will not go naked and let his shame be exposed.\""
+  },
+  {
+   "num": 16,
+   "text": "And they assembled the kings in the place that in Hebrew is called Armageddon."
+  },
+  {
+   "num": 17,
+   "text": "Then the seventh angel poured out his bowl into the air, and a loud voice came from the throne in the temple, saying, \"It is done!\""
+  },
+  {
+   "num": 18,
+   "text": "And there were flashes of lightning, and rumblings, and peals of thunder, and a great earthquake the likes of which had not occurred since men were upon the earth—so mighty was the great quake."
+  },
+  {
+   "num": 19,
+   "text": "The great city was split into three parts, and the cities of the nations collapsed. And God remembered Babylon the great and gave her the cup of the wine of the fury of His wrath."
+  },
+  {
+   "num": 20,
+   "text": "Then every island fled, and no mountain could be found."
+  },
+  {
+   "num": 21,
+   "text": "And great hailstones weighing almost a hundred pounds each rained down on them from above. And men cursed God for the plague of hail, because it was so horrendous."
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "THE EUPHRATES AND ARMAGEDDON",
+  "setting": "A voice from the temple tells the seven angels to pour out the bowls of God’s wrath. Painful sores, blood in the sea and rivers, scorching heat, darkness, and the drying of the Euphrates follow. Spirits like frogs gather the kings to the place called Armageddon. When the seventh bowl is poured out, a voice says, “It is done!”",
+  "custom": "Har-Megiddo means mountain of Megiddo, the site of many ancient battles in the Jezreel Valley. The drying of the Euphrates echoes the way the river was diverted for Cyrus to take Babylon. “like a thief” is a call to watchfulness.",
+  "timelineImmediate": "Chapter 17 explains the fall of Babylon the great.",
+  "timelineBible": "The first five bowls echo the plagues of Egypt. The drying of the river draws on Isaiah 11:15 and Jeremiah 50-51. Megiddo recalls Judges 5 and 2 Kings 23:29.",
+  "translation": [
+   {
+    "english": "Armageddon",
+    "greek": "Ἁρμαγεδών (Harmagedōn)",
+    "verseRef": "v.16",
+    "meaning": "Probably from Hebrew “mountain of Megiddo.” The place is used as a symbol of the final battle.",
+    "gloss": "Mountain of Megiddo"
+   },
+   {
+    "english": "bowl",
+    "greek": "φιάλη (phialē)",
+    "verseRef": "v.1-17",
+    "meaning": "A shallow bowl, as used to pour libations.",
+    "gloss": "Shallow bowl"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Exodus 7-10",
+    "note": "The plagues of Egypt."
+   },
+   {
+    "ref": "Isaiah 11:15",
+    "note": "The Lord will dry up the River."
+   },
+   {
+    "ref": "Judges 5:19",
+    "note": "Kings fought at Megiddo."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.5845,
+   "lng": 35.185,
+   "zoom": 9,
+   "placeName": "Armageddon (Har-Megiddo)"
+  },
+  "overview": {
+   "summary": "Seven bowls of God’s wrath are poured out. Spirits gather the kings of the earth for the great battle at Armageddon, and the seventh bowl ends with “It is done!”",
+   "settingLine": "From the earth to the plain of Megiddo.",
+   "placeName": "Armageddon (Har-Megiddo)",
+   "history": [
+    {
+     "h": "Megiddo",
+     "t": "A fortress city that guarded the pass through the Carmel ridge."
+    },
+    {
+     "h": "Cyrus and Babylon",
+     "t": "He diverted the Euphrates to enter the city (539 BC)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Frogs",
+     "t": "Unclean animals in the Law, and a plague in Egypt."
+    },
+    {
+     "h": "Thief",
+     "t": "Unexpected arrival."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tel Megiddo",
+     "t": "Excavated mound with Solomon’s gates and a water system."
+    },
+    {
+     "h": "Babylon Ruins",
+     "t": "The ancient site in Iraq."
+    },
+    {
+     "h": "Megiddo",
+     "t": "Excavations at Megiddo have uncovered more than twenty levels of settlement, with gates, stables and water systems. The city guarded the pass where many battles were fought, behind the name Armageddon (16:16)."
+    }
+   ],
+   "discussion": "“Blessed is the one who remains awake” What would it look like to be watchful in my daily life without becoming anxious?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Exodus 7-10": "Plagues of Egypt",
+    "Isaiah 11:15": "The river dried up",
+    "Judges 5:19": "Battle at Megiddo"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Seven Angels",
+     "d": "Pour out the bowls"
+    },
+    {
+     "n": "The Kings",
+     "d": "Gathered for battle"
+    },
+    {
+     "n": "Unclean Spirits",
+     "d": "Call them"
+    },
+    {
+     "n": "Christ",
+     "d": "Comes like a thief"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-9",
+     "label": "First four bowls"
+    },
+    {
+     "when": "v.10-11",
+     "label": "Fifth bowl"
+    },
+    {
+     "when": "v.12-16",
+     "label": "Sixth bowl and Armageddon"
+    },
+    {
+     "when": "v.17-21",
+     "label": "Seventh bowl"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Armageddon (Har-Megiddo)",
+    "lat": 32.5845,
+    "lng": 35.185,
+    "verses": [
+     16
+    ],
+    "slug": "megiddo"
+   },
+   {
+    "name": "Euphrates River",
+    "lat": 36.0,
+    "lng": 38.0,
+    "verses": [
+     12
+    ],
+    "slug": "euphrates"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Then I heard a loud voice from the temple saying to the seven angels, Go, pour out on the earth the seven bowls of God's wrath. Behold, I am coming like a thief. Blessed is the one who remains awake and clothed, so that he will not go naked and let his shame be exposed. And they assembled the kings in the place that in Hebrew is called Armageddon. Then the seventh angel poured out his bowl into the air, and a loud voice came from the throne in the temple, saying, It is done!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tapisserie_de_l'apocalypse.jpg",
+   "caption": "Part of the Apocalypse Tapestry in the castle of Angers, France, woven about 1377-1382 and still the largest medieval tapestry in existence. Its scenes follow the visions of Revelation one by one.",
+   "credit": "Photo: Kimon Berlin, CC BY-SA 3.0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+   "caption": "The mound of ancient Megiddo above the Jezreel valley in northern Israel, a fortress that guarded the main road and saw many battles. “Armageddon” in Revelation 16:16 is usually taken as Har Megiddo, “the mountain of Megiddo.”",
+   "credit": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

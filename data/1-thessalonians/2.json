@@ -1,0 +1,242 @@
+{
+ "book": "1 Thessalonians",
+ "chapter": 2,
+ "title": "Gentle as a Nurse",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "You yourselves know, brothers, that our visit to you was not in vain."
+  },
+  {
+   "num": 2,
+   "text": "As you are aware, we had already endured suffering and shameful treatment in Philippi. But in the face of strong opposition, we were bold in our God to speak to you the gospel of God."
+  },
+  {
+   "num": 3,
+   "text": "For our appeal does not arise from deceit or ulterior motives or trickery."
+  },
+  {
+   "num": 4,
+   "text": "Instead, we speak as those approved by God to be entrusted with the gospel, not in order to please men but God, who examines our hearts."
+  },
+  {
+   "num": 5,
+   "text": "As you know, we never used words of flattery or any pretext for greed. God is our witness!"
+  },
+  {
+   "num": 6,
+   "text": "Nor did we seek praise from you or from anyone else, although as apostles of Christ we had authority to demand it."
+  },
+  {
+   "num": 7,
+   "text": "On the contrary, we were gentle among you, like a nursing mother caring for her children."
+  },
+  {
+   "num": 8,
+   "text": "We cared so deeply that we were delighted to share with you not only the gospel of God, but our own lives as well. That is how beloved you have become to us."
+  },
+  {
+   "num": 9,
+   "text": "Surely you recall, brothers, our labor and toil. We worked night and day so that we would not be a burden to anyone while we proclaimed to you the gospel of God."
+  },
+  {
+   "num": 10,
+   "text": "You are witnesses, and so is God, of how holy, righteous, and blameless our conduct was among you who believed."
+  },
+  {
+   "num": 11,
+   "text": "For you know that we treated each of you as a father treats his own children—"
+  },
+  {
+   "num": 12,
+   "text": "encouraging you, comforting you, and urging you to walk in a manner worthy of God, who calls you into His own kingdom and glory."
+  },
+  {
+   "num": 13,
+   "text": "And we continually thank God because, when you received the word of God that you heard from us, you accepted it not as the word of men, but as the true word of God—the word which is now at work in you who believe."
+  },
+  {
+   "num": 14,
+   "text": "For you, brothers, became imitators of the churches of God in Judea that are in Christ Jesus. You suffered from your own countrymen the very things they suffered from the Jews,"
+  },
+  {
+   "num": 15,
+   "text": "who killed both the Lord Jesus and their own prophets, and drove us out as well. They are displeasing to God and hostile to all men,"
+  },
+  {
+   "num": 16,
+   "text": "hindering us from telling the Gentiles how they may be saved. As a result, they continue to heap up their sins to full capacity; the utmost wrath has come upon them."
+  },
+  {
+   "num": 17,
+   "text": "Brothers, although we were torn away from you for a short time (in person, not in heart), our desire to see you face to face was even more intense."
+  },
+  {
+   "num": 18,
+   "text": "For we wanted to come to you—indeed I, Paul, tried again and again—but Satan obstructed us."
+  },
+  {
+   "num": 19,
+   "text": "After all, who is our hope, our joy, our crown of boasting, if it is not you yourselves in the presence of our Lord Jesus at His coming?"
+  },
+  {
+   "num": 20,
+   "text": "You are indeed our glory and our joy."
+  }
+ ],
+ "context": {
+  "author": "Paul, with Silas and Timothy (1:1)",
+  "genre": "Letter of encouragement, warm and personal",
+  "audience": "The church in Thessalonica, a young church under pressure",
+  "mapLabel": "THESSALONICA, PAUL’S MOTIVES",
+  "setting": "Critics may have accused Paul of being a fraud like wandering philosophers who preached for money. He reminds the Thessalonians of how he behaved: gentle like a nursing mother, working day and night to avoid being a burden, and exhorting them like a father. He expresses longing to see them again.",
+  "custom": "Traveling teachers often asked for fees, and some were swindlers. Paul worked at his trade, probably tentmaking, so the gospel could be preached free of charge (v.9).",
+  "timelineImmediate": "Chapter 3 tells how Paul sent Timothy, and how glad he was at the good report.",
+  "timelineBible": "Verse 16 echoes Genesis 15:16, “the measure of their sins is full.” Paul frames the opposition as part of the pattern of prophets being persecuted.",
+  "sparkNotes": "Paul says they came with boldness in spite of suffering at Philippi. They did not flatter or seek glory, but were gentle like a nursing mother and worked night and day. They exhorted each one as a father. The Thessalonians received the message as God’s word, and suffered from their countrymen as the Judean churches did. Paul longs to see them again, but Satan hindered him.",
+  "translation": [
+   {
+    "english": "gentle",
+    "greek": "νήπιοι / ἤπιοι (nēpioi / ēpioi)",
+    "verseRef": "v.7",
+    "meaning": "Manuscripts differ between “infants” and “gentle.” Both fit Paul’s image of a caring nurse.",
+    "gloss": "Gentle or infants"
+   },
+   {
+    "english": "affection",
+    "greek": "ὁμειρόμενοι (homeiromenoi)",
+    "verseRef": "v.8",
+    "meaning": "A rare word of deep fondness, like a mother’s longing.",
+    "gloss": "Tender longing"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Genesis 15:16",
+    "note": "The measure of sin is not yet full."
+   },
+   {
+    "ref": "1 Kings 19:10",
+    "note": "Prophets killed, behind “killed the prophets.”"
+   }
+  ],
+  "mapCoords": {
+   "lat": 40.6401,
+   "lng": 22.9444,
+   "zoom": 8,
+   "placeName": "Thessalonica"
+  },
+  "overview": {
+   "summary": "Paul reminds them of his gentle, honest ministry as nurse and father. They accepted the word and, like the Judean churches, suffered for it.",
+   "settingLine": "Paul writes from Corinth to the young church in Thessalonica.",
+   "placeName": "Thessalonica",
+   "history": [
+    {
+     "h": "Opposition in the City",
+     "t": "Acts 17:5-9 says some Jews, jealous of Paul’s success, gathered men from the marketplace and a mob, attacked Jason’s house, and dragged him and others before the politarchs. Paul says the believers suffered “from your own countrymen” (2:14), so the pressure came from fellow citizens and not only from Jews."
+    },
+    {
+     "h": "Satan Hindered",
+     "t": "Paul says he tried more than once to return, but “Satan hindered us” (2:18). Acts 17:9 says Jason and the others had to post bond. Some scholars think that bond kept Paul away, but he does not say what the hindrance was."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Nursing Mother",
+     "t": "Paul compares himself to a nursing mother caring for her own children (2:7) and, a few verses later, to a father who encourages and urges each child (2:11). Early manuscripts differ in 2:7 between “gentle” and “infants,” which changes the first picture."
+    },
+    {
+     "h": "Working Night and Day",
+     "t": "Paul says he and his team worked “night and day” so as not to burden the church (2:9; 2 Thessalonians 3:8). Manual trades were often looked down on by the educated. Philippians 4:16 says the Philippians also sent help while he was in Thessalonica."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Politarchs",
+     "t": "An inscription from the Vardar Gate of Thessalonica, now in the British Museum, lists six politarchs. It dates to the 2nd century AD, after Paul, but the city had politarchs earlier, and the title Luke uses in Acts 17:6, 8 is the one found in Macedonian inscriptions."
+    },
+    {
+     "h": "Workshops",
+     "t": "Roman shops were small rooms opening onto the street. Rows of them survive at Corinth, where Paul worked as a tentmaker (Acts 18:3). Little of the first-century street level of Thessalonica has been excavated, because the modern city covers it."
+    }
+   ],
+   "discussion": "Paul describes both a nurse’s tenderness and a father’s firmness. How can I show both care and honesty to people I influence?",
+   "book": "The first letter to the Thessalonians · 5 chapters. One of Paul’s earliest letters, full of warmth and hope.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Thessalonica",
+   "refNotes": {
+    "Genesis 15:16": "Filling the measure of sin",
+    "1 Kings 19:10": "Prophets killed"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Nurse and father"
+    },
+    {
+     "n": "Silas and Timothy",
+     "d": "Fellow workers"
+    },
+    {
+     "n": "The Thessalonians",
+     "d": "Received the word"
+    },
+    {
+     "n": "Satan",
+     "d": "Hindered Paul"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Paul’s boldness"
+    },
+    {
+     "when": "v.7-12",
+     "label": "Nurse and father"
+    },
+    {
+     "when": "v.13-16",
+     "label": "Received as God’s word"
+    },
+    {
+     "when": "v.17-20",
+     "label": "Longing to see them"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Thessalonica",
+    "lat": 40.6401,
+    "lng": 22.9444,
+    "verses": [],
+    "slug": "thessalonica"
+   },
+   {
+    "name": "Philippi",
+    "lat": 41.0128,
+    "lng": 24.2858,
+    "verses": [
+     2
+    ],
+    "slug": "philippi"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulus_bekeert_de_vrouwen_van_Filippi_Handelingen_van_de_apostelen_(serietitel)_Acta_Apostolorum_(serietitel),_RP-P-OB-6565.jpg",
+   "caption": "Paul speaks to the women at Philippi (Acts 16:13-15), from a 16th-century print series on Acts. In 1 Thessalonians 2:2 Paul recalls that he had \"suffered and been mistreated in Philippi\" before he came to Thessalonica.",
+   "credit": "Print series on Acts (16th c.), Rijksmuseum, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Via_Egnatia,_Philippi_(7272784744).jpg",
+   "caption": "A paved stretch of the Via Egnatia, the Roman highway that ran through Philippi and Thessalonica.",
+   "credit": "Photo: Carole Raddato, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

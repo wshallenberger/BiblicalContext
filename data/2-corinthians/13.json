@@ -1,0 +1,212 @@
+{
+  "book": "2 Corinthians",
+  "chapter": 13,
+  "title": "Final Warnings and Greetings",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "This is the third time I am coming to you. \"Every matter must be established by the testimony of two or three witnesses.\""
+    },
+    {
+      "num": 2,
+      "text": "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone,"
+    },
+    {
+      "num": 3,
+      "text": "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you, but is powerful among you."
+    },
+    {
+      "num": 4,
+      "text": "For He was indeed crucified in weakness, yet He lives by God's power. And though we are weak in Him, yet by God's power we will live with Him to serve you."
+    },
+    {
+      "num": 5,
+      "text": "Examine yourselves to see whether you are in the faith; test yourselves. Can't you see for yourselves that Jesus Christ is in you—unless you actually fail the test?"
+    },
+    {
+      "num": 6,
+      "text": "And I hope you will realize that we have not failed the test."
+    },
+    {
+      "num": 7,
+      "text": "Now we pray to God that you will not do anything wrong—not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed."
+    },
+    {
+      "num": 8,
+      "text": "For we cannot do anything against the truth, but only for the truth."
+    },
+    {
+      "num": 9,
+      "text": "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection."
+    },
+    {
+      "num": 10,
+      "text": "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down."
+    },
+    {
+      "num": 11,
+      "text": "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another, be of one mind, live in peace. And the God of love and peace will be with you."
+    },
+    {
+      "num": 12,
+      "text": "Greet one another with a holy kiss."
+    },
+    {
+      "num": 13,
+      "text": "All the saints send you greetings."
+    },
+    {
+      "num": 14,
+      "text": "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Timothy (1:1)",
+    "genre": "Letter, personal and defensive, among Paul’s most emotional",
+    "audience": "The church in Corinth, after a painful period of conflict",
+    "mapLabel": "CORINTH, THE THIRD VISIT AHEAD",
+    "setting": "Paul warns the Corinthians that he is about to come a third time and will not spare them if they have not repented. He urges them to test themselves and to see whether Christ is in them. He ends with simple instructions: rejoice, aim for restoration, and live in peace, and gives a benediction naming the whole Trinity.",
+    "custom": "“Every matter must be established by the testimony of two or three witnesses” (Deuteronomy 19:15) was a legal rule that Paul invokes. The holy kiss was a standard greeting in the early church.",
+    "timelineImmediate": "Paul went on to Greece, where he spent three months (Acts 20:2-3). Romans is usually thought to have been written during that stay.",
+    "timelineBible": "The blessing of v.14 names the Lord Jesus Christ, God and the Holy Spirit together: the grace of the Lord Jesus Christ, the love of God, and the fellowship of the Holy Spirit.",
+    "sparkNotes": "This will be Paul’s third visit, and he will not spare those who sinned earlier. He challenges them to examine themselves to see whether they are in the faith. He prays for their restoration, and says his authority is for building up, not for tearing down. He ends with “Rejoice. Aim for restoration. Comfort one another,” and a benediction.",
+    "translation": [
+      {
+        "english": "examine",
+        "greek": "πειράζετε (peirazete)",
+        "verseRef": "v.5",
+        "meaning": "To test, try, put to the proof.",
+        "gloss": "Put to the test"
+      },
+      {
+        "english": "restored",
+        "greek": "καταρτίζεσθε (katartizesthe)",
+        "verseRef": "v.9, 11",
+        "meaning": "To mend or repair, as nets (Mark 1:19) or bones that are reset.",
+        "gloss": "Mended"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 19:15",
+        "note": "Every matter established by two or three witnesses."
+      },
+      {
+        "ref": "Numbers 6:24-26",
+        "note": "The priestly blessing, which Paul’s closing blessing may recall."
+      },
+      {
+        "ref": "Psalm 34:14",
+        "note": "Seek peace and pursue it."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Paul warns that his third visit is coming, urges the Corinthians to test themselves, and closes with a Trinitarian blessing.",
+      "settingLine": "Paul writes from Macedonia to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "The Third Visit",
+          "t": "Paul spent three months in Greece (Acts 20:2-3), and Romans is usually thought to have been written during that stay."
+        },
+        {
+          "h": "Test and Pass",
+          "t": "The Greek word for “test” means to prove genuine, as a metal is tested."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Weakness and Power",
+          "t": "Paul compares Christ’s crucifixion in weakness with his living by God’s power."
+        },
+        {
+          "h": "Kiss",
+          "t": "A greeting kiss was common among family and close friends."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Corinthian Bronze Testing",
+          "t": "Metal was assayed in fire to prove its purity."
+        },
+        {
+          "h": "Cenchreae Port",
+          "t": "The eastern harbor of Corinth, where Paul sailed from."
+        }
+      ],
+      "discussion": "Paul tells the Corinthians to examine themselves. What would an honest self-examination show me right now?",
+      "book": "The second letter to the Corinthians · 13 chapters. Paul’s most personal letter, written to heal a strained relationship.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Deuteronomy 19:15": "Two or three witnesses",
+        "Numbers 6:24-26": "The blessing",
+        "Psalm 34:14": "Seek peace"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Preparing to come"
+        },
+        {
+          "n": "Corinthians",
+          "d": "Asked to test themselves"
+        },
+        {
+          "n": "Jesus Christ",
+          "d": "In you, unless you fail the test"
+        },
+        {
+          "n": "The Trinity",
+          "d": "Named in the blessing"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-4",
+          "label": "The third visit"
+        },
+        {
+          "when": "v.5-10",
+          "label": "Test yourselves"
+        },
+        {
+          "when": "v.11-14",
+          "label": "Final instructions and blessing"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [
+          1
+        ],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrey_Rublev_-_%D0%A1%D0%B2._%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%B0_-_Google_Art_Project.jpg",
+      "caption": "The Trinity, an icon by Andrei Rublev (early 15th century). Paul ends the letter with the blessing of \"the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit\" (2 Corinthians 13:14). Rublev painted the icon around the three visitors who came to Abraham (Genesis 18).",
+      "credit": "Andrei Rublev (early 15th century) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lechaion_Road,_Corinth,_203065.jpg",
+      "caption": "The Lechaion Road at Corinth, the paved street that led from the forum north to the harbor at Lechaion. The paving that survives is Roman, but not all of it dates from Paul's time.",
+      "credit": "Photo: Zde, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

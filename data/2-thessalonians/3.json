@@ -1,0 +1,230 @@
+{
+ "book": "2 Thessalonians",
+ "chapter": 3,
+ "title": "Pray, and Keep Working",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Finally, brothers, pray for us, that the word of the Lord may spread quickly and be held in honor, just as it was with you."
+  },
+  {
+   "num": 2,
+   "text": "And pray that we may be delivered from wicked and evil men; for not everyone holds to the faith."
+  },
+  {
+   "num": 3,
+   "text": "But the Lord is faithful, and He will strengthen you and guard you from the evil one."
+  },
+  {
+   "num": 4,
+   "text": "And we have confidence in the Lord that you are doing and will continue to do what we command."
+  },
+  {
+   "num": 5,
+   "text": "May the Lord direct your hearts into God's love and Christ's perseverance."
+  },
+  {
+   "num": 6,
+   "text": "Now we command you, brothers, in the name of our Lord Jesus Christ, to keep away from any brother who leads an undisciplined life that is not in keeping with the tradition you received from us."
+  },
+  {
+   "num": 7,
+   "text": "For you yourselves know how you ought to imitate us, because we were not undisciplined among you,"
+  },
+  {
+   "num": 8,
+   "text": "nor did we eat anyone's food without paying for it. Instead, in labor and toil, we worked night and day so that we would not be a burden to any of you."
+  },
+  {
+   "num": 9,
+   "text": "Not that we lack this right, but we wanted to offer ourselves as an example for you to imitate."
+  },
+  {
+   "num": 10,
+   "text": "For even while we were with you, we gave you this command: \"If anyone is unwilling to work, he shall not eat.\""
+  },
+  {
+   "num": 11,
+   "text": "Yet we hear that some of you are leading undisciplined lives and accomplishing nothing but being busybodies."
+  },
+  {
+   "num": 12,
+   "text": "We command and urge such people by our Lord Jesus Christ to begin working quietly to earn their own living."
+  },
+  {
+   "num": 13,
+   "text": "But as for you, brothers, do not grow weary in well-doing."
+  },
+  {
+   "num": 14,
+   "text": "Take note of anyone who does not obey the instructions we have given in this letter. Do not associate with him, so that he may be ashamed."
+  },
+  {
+   "num": 15,
+   "text": "Yet do not regard him as an enemy, but warn him as a brother."
+  },
+  {
+   "num": 16,
+   "text": "Now may the Lord of peace Himself give you peace at all times and in every way. The Lord be with all of you."
+  },
+  {
+   "num": 17,
+   "text": "This greeting is in my own hand—Paul. This is my mark in every letter; it is the way I write."
+  },
+  {
+   "num": 18,
+   "text": "The grace of our Lord Jesus Christ be with all of you."
+  }
+ ],
+ "context": {
+  "author": "Paul, with Silas and Timothy (1:1)",
+  "genre": "Letter of encouragement and correction",
+  "audience": "The church in Thessalonica",
+  "mapLabel": "THESSALONICA, ORDER IN THE CHURCH",
+  "setting": "Paul asks for prayer that the word of the Lord may spread, and expresses confidence that the Lord will guard them. Then he addresses a practical problem: some in the church had quit working, perhaps expecting the Lord’s return, and were living off others. Paul instructs them to work quietly and earn their own bread.",
+  "custom": "Patrons supported clients in Greek society, and some in the church may have expected to be supported. Paul had refused such support himself and worked night and day. His rule, “If anyone is not willing to work, let him not eat,” was a call to self-support, not a rule for people unable to work.",
+  "timelineImmediate": "The letter ends with Paul’s signature, “in my own hand,” to prevent forgeries.",
+  "timelineBible": "Verse 10 echoes Genesis 3:19, “by the sweat of your face you shall eat bread,” and Proverbs 6:6-11 on the sluggard.",
+  "sparkNotes": "Pray for us that the word may speed ahead and be honored. The Lord is faithful and will guard you from the evil one. We command you to keep away from any brother walking in idleness. Paul worked night and day, to give an example. If anyone will not work, he shall not eat. Do not grow weary in doing good. Paul signs the letter with his own hand.",
+  "translation": [
+   {
+    "english": "idle",
+    "greek": "ἀτάκτως (ataktōs)",
+    "verseRef": "v.6, 7, 11",
+    "meaning": "Out of order, like a soldier out of rank.",
+    "gloss": "Out of rank"
+   },
+   {
+    "english": "busybodies",
+    "greek": "περιεργαζομένους (periergazomenous)",
+    "verseRef": "v.11",
+    "meaning": "A play on words: not working, but working around, meddling.",
+    "gloss": "Over-working about"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Genesis 3:19",
+    "note": "By the sweat of your brow you will eat."
+   },
+   {
+    "ref": "Proverbs 6:6-11",
+    "note": "Go to the ant, you sluggard."
+   },
+   {
+    "ref": "Psalm 141:3",
+    "note": "Guard the door of my lips."
+   }
+  ],
+  "mapCoords": {
+   "lat": 40.6401,
+   "lng": 22.9444,
+   "zoom": 8,
+   "placeName": "Thessalonica"
+  },
+  "overview": {
+   "summary": "Paul asks for prayer, then tells idle believers to earn their own living. He closes with a personal signature to guard against forgeries.",
+   "settingLine": "Paul writes again to Thessalonica.",
+   "placeName": "Thessalonica",
+   "history": [
+    {
+     "h": "Idleness",
+     "t": "Paul tells the church to keep away from those living “in idleness” (3:6, 11). The letter does not say why they were idle. Readers suggest excitement about the Lord’s return, dependence on patrons, or contempt for manual work."
+    },
+    {
+     "h": "Paul’s Signature",
+     "t": "Paul writes the closing greeting himself and calls it “the sign in every letter” (3:17). He does the same in 1 Corinthians 16:21, Galatians 6:11 and Colossians 4:18."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Patrons and Clients",
+     "t": "In Greek and Roman cities wealthy patrons supported dependents who gave them honor and service. Some scholars think the idle believers were leaning on rich members of the church in this way. Paul tells them instead to earn their own bread (3:12)."
+    },
+    {
+     "h": "Tentmaking",
+     "t": "Paul says he worked “night and day” so as not to burden them, and to give an example (3:7-9). Acts 18:3 calls him a tentmaker. The Greek word is usually understood as a worker in leather or cloth."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Associations at Thessalonica",
+     "t": "Inscriptions from Thessalonica come from private associations that met for meals and worship, including cult groups of Dionysus and Sarapis. Associations in other cities were often formed by members of one trade."
+    },
+    {
+     "h": "Workshops",
+     "t": "Excavated shops, such as the west shops at Corinth, were small rooms opening onto a colonnade. Paul’s example of hard manual work (3:8) belongs in this setting."
+    }
+   ],
+   "discussion": "Paul says to “never tire of doing what is right.” Where am I tempted to grow weary in doing good?",
+   "book": "The second letter to the Thessalonians · 3 chapters. A short follow-up with correction about the day of the Lord.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Thessalonica",
+   "refNotes": {
+    "Genesis 3:19": "Toil and bread",
+    "Proverbs 6:6-11": "The ant and the sluggard",
+    "Psalm 141:3": "A guard"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "An example of work"
+    },
+    {
+     "n": "The Idle",
+     "d": "Told to work"
+    },
+    {
+     "n": "The Faithful",
+     "d": "Not to grow weary"
+    },
+    {
+     "n": "The Lord",
+     "d": "Faithful to guard"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Prayer"
+    },
+    {
+     "when": "v.6-12",
+     "label": "Idleness"
+    },
+    {
+     "when": "v.13-15",
+     "label": "Do not grow weary"
+    },
+    {
+     "when": "v.16-18",
+     "label": "Benediction"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Thessalonica",
+    "lat": 40.6401,
+    "lng": 22.9444,
+    "verses": [],
+    "slug": "thessalonica"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Paul_at_his_Writing-Desk,_by_Rembrandt.jpg",
+   "caption": "Saint Paul at his Writing Desk, by Rembrandt (about 1629-30). In 2 Thessalonians 3:17 Paul says, \"I, Paul, write this greeting with my own hand,\" and calls it the sign in every letter of his.",
+   "credit": "Rembrandt (about 1629-30) / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_west_shops_in_the_Roman_forum_of_Corinth_on_6_April_2019.jpg",
+   "caption": "The row of shops on the west side of the Roman forum at Corinth. Paul says he worked \"night and day\" among the Thessalonians (1 Thessalonians 2:9; 2 Thessalonians 3:8). Acts 18:3 says he worked as a tentmaker in Corinth, but nothing marks his shop.",
+   "credit": "Photo: George E. Koronaios, CC0 / Wikimedia Commons"
+  }
+ }
+}

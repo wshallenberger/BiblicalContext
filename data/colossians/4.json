@@ -1,0 +1,248 @@
+{
+ "book": "Colossians",
+ "chapter": 4,
+ "title": "Prayer, Wisdom, and Greetings",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Masters, supply your slaves with what is right and fair, since you know that you also have a Master in heaven."
+  },
+  {
+   "num": 2,
+   "text": "Devote yourselves to prayer, being watchful and thankful,"
+  },
+  {
+   "num": 3,
+   "text": "as you pray also for us, that God may open to us a door for the word, so that we may proclaim the mystery of Christ, for which I am in chains."
+  },
+  {
+   "num": 4,
+   "text": "Pray that I may declare it clearly, as I should."
+  },
+  {
+   "num": 5,
+   "text": "Act wisely toward outsiders, redeeming the time."
+  },
+  {
+   "num": 6,
+   "text": "Let your speech always be gracious, seasoned with salt, so that you may know how to answer everyone."
+  },
+  {
+   "num": 7,
+   "text": "Tychicus will tell you all the news about me. He is a beloved brother, a faithful minister, and a fellow servant in the Lord."
+  },
+  {
+   "num": 8,
+   "text": "I have sent him to you for this very purpose, that you may know about us, and that he may encourage your hearts."
+  },
+  {
+   "num": 9,
+   "text": "With him I am sending Onesimus, our faithful and beloved brother, who is one of you. They will tell you about everything here."
+  },
+  {
+   "num": 10,
+   "text": "My fellow prisoner Aristarchus sends you greetings, as does Mark the cousin of Barnabas. You have already received instructions about him: If he comes to you, welcome him."
+  },
+  {
+   "num": 11,
+   "text": "Jesus, who is called Justus, also sends greetings. These are the only Jews among my fellow workers for the kingdom of God, and they have been a comfort to me."
+  },
+  {
+   "num": 12,
+   "text": "Epaphras, who is one of you and a servant of Christ Jesus, sends you greetings. He is always wrestling in prayer for you, so that you may stand mature and fully assured in the full will of God."
+  },
+  {
+   "num": 13,
+   "text": "For I testify about him that he goes to great pains for you and for those at Laodicea and Hierapolis."
+  },
+  {
+   "num": 14,
+   "text": "Luke, the beloved physician, and Demas send you greetings."
+  },
+  {
+   "num": 15,
+   "text": "Greet the brothers in Laodicea, as well as Nympha and the church that meets at her house."
+  },
+  {
+   "num": 16,
+   "text": "After this letter has been read among you, make sure that it is also read in the church of the Laodiceans, and that you in turn read the letter from Laodicea."
+  },
+  {
+   "num": 17,
+   "text": "Tell Archippus: \"See to it that you complete the ministry you have received in the Lord.\""
+  },
+  {
+   "num": 18,
+   "text": "This greeting is in my own hand—Paul. Remember my chains. Grace be with you."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle, with Timothy (1:1)",
+  "genre": "Letter, with a hymn about Christ",
+  "audience": "The church in Colossae, a small town in the Lycus Valley",
+  "mapLabel": "ROME AND THE LYCUS VALLEY",
+  "setting": "Paul asks for prayer, tells them to be wise toward outsiders, and sends greetings from many co-workers, including Tychicus, Onesimus, Aristarchus, Mark, Luke, and Demas. He asks that this letter be shared with Laodicea and tells Archippus to complete his ministry.",
+  "custom": "Letters were passed among churches and read aloud. “Seasoned with salt” (v.6) means speech that is tasty and preserves. Tychicus would deliver the letter and also explain news.",
+  "timelineImmediate": "The letter ends. Tychicus and Onesimus delivered it along with Philemon.",
+  "timelineBible": "Paul’s hope for “an open door” (v.3) recalls doors of opportunity he mentions in 1 Corinthians 16:9 and 2 Corinthians 2:12.",
+  "sparkNotes": "Devote yourselves to prayer, and pray for an open door for the word. Walk in wisdom toward outsiders, and let your speech be gracious, seasoned with salt. Tychicus and Onesimus will tell you everything. Greetings from Aristarchus, Mark, Jesus called Justus, Epaphras, Luke the beloved physician, and Demas. Read this letter also in Laodicea. Remember my chains.",
+  "translation": [
+   {
+    "english": "seasoned with salt",
+    "greek": "ἅλατι ἠρτυμένος (halati ērtymenos)",
+    "verseRef": "v.6",
+    "meaning": "Speech with flavor and without rot.",
+    "gloss": "Salty"
+   },
+   {
+    "english": "open door",
+    "greek": "θύραν (thyran)",
+    "verseRef": "v.3",
+    "meaning": "A chance to proclaim the message.",
+    "gloss": "Door"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Proverbs 15:1",
+    "note": "A gentle answer turns away wrath."
+   },
+   {
+    "ref": "Psalm 141:3",
+    "note": "Set a guard over my mouth."
+   },
+   {
+    "ref": "Leviticus 2:13",
+    "note": "Salt of the covenant on every offering."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.795,
+   "lng": 29.268,
+   "zoom": 9,
+   "placeName": "Colossae"
+  },
+  "overview": {
+   "summary": "Paul asks for prayer and wisdom with outsiders, then sends greetings from many co-workers, including Luke and Mark. The letter is to be shared with Laodicea.",
+   "settingLine": "Greetings from many of Paul’s helpers.",
+   "placeName": "Colossae",
+   "history": [
+    {
+     "h": "Luke and Mark",
+     "t": "Luke is called the beloved physician (4:14). Mark, the cousin of Barnabas (4:10), is usually identified with John Mark, who left Paul and Barnabas in Acts 13:13."
+    },
+    {
+     "h": "Letter from Laodicea",
+     "t": "Paul does not say what this letter was. Suggestions are a lost letter, Ephesians as a circular letter, or Philemon. A Latin “Epistle to the Laodiceans” exists, but it is a much later patchwork of Paul’s phrases."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Salt",
+     "t": "Salt gave food flavor and kept it from spoiling, so speech “seasoned with salt” (4:6) can mean words that are both pleasant and sound."
+    },
+    {
+     "h": "Reading Aloud",
+     "t": "Most people heard letters read in groups."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Laodicea’s Water",
+     "t": "Laodicea had no good spring of its own and brought its water in by pipe. Pipes found there carry heavy lime scale, a sign of the mineral-rich water of the valley."
+    },
+    {
+     "h": "Ancient Letters",
+     "t": "No papyrus letter from Colossae is known. Papyri from Egypt show the usual shape: sender, greeting, thanks, body, closing greetings, and a last line in the writer’s own hand, as in 4:18."
+    }
+   ],
+   "discussion": "Paul asks for prayer for an open door. Where do I need to ask for a door to open, and where do I need to walk through one?",
+   "book": "The letter to the Colossians · 4 chapters. A short, rich letter about the supremacy of Christ.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Colossae",
+   "refNotes": {
+    "Proverbs 15:1": "Gentle answers",
+    "Psalm 141:3": "A guard over the mouth",
+    "Leviticus 2:13": "Salt of the covenant"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Tychicus",
+     "d": "Carries the letter"
+    },
+    {
+     "n": "Onesimus",
+     "d": "The slave from Colossae"
+    },
+    {
+     "n": "Epaphras",
+     "d": "Prays for them"
+    },
+    {
+     "n": "Luke",
+     "d": "The beloved physician"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Prayer and wisdom"
+    },
+    {
+     "when": "v.7-9",
+     "label": "Tychicus and Onesimus"
+    },
+    {
+     "when": "v.10-14",
+     "label": "Greetings"
+    },
+    {
+     "when": "v.15-18",
+     "label": "Final words"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Laodicea",
+    "lat": 37.836,
+    "lng": 29.108,
+    "verses": [
+     13,
+     15,
+     16
+    ],
+    "slug": "laodicea"
+   },
+   {
+    "name": "Colossae",
+    "lat": 37.795,
+    "lng": 29.268,
+    "verses": [],
+    "slug": "colossae"
+   },
+   {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "verses": [],
+    "slug": "rome"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Paul_at_his_Writing-Desk,_by_Rembrandt.jpg",
+   "caption": "Saint Paul at his Writing Desk, by Rembrandt (about 1629-30). In Colossians 4:18 Paul adds a greeting in his own hand and asks the church to remember his chains.",
+   "credit": "Rembrandt (about 1629-30) / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laodikeia_ad_Lycum_Caracalla_Nympheum_4776.jpg",
+   "caption": "A monumental fountain at the corner of Syria Street and Stadium Street in Laodicea, dedicated to the emperor Caracalla (AD 212-217), long after Paul. Laodicea had no good spring of its own and brought its water in by pipe.",
+   "credit": "Photo: Dosseman, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

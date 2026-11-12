@@ -1,0 +1,266 @@
+{
+ "book": "Colossians",
+ "chapter": 2,
+ "title": "Complete in Christ",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "For I want you to know how much I am struggling for you and for those at Laodicea, and for all who have not met me face to face,"
+  },
+  {
+   "num": 2,
+   "text": "that they may be encouraged in heart, knit together in love, and filled with the full riches of complete understanding, so that they may know the mystery of God, namely Christ,"
+  },
+  {
+   "num": 3,
+   "text": "in whom are hidden all the treasures of wisdom and knowledge."
+  },
+  {
+   "num": 4,
+   "text": "I say this so that no one will deceive you by smooth rhetoric."
+  },
+  {
+   "num": 5,
+   "text": "For although I am absent from you in body, I am present with you in spirit, and I delight to see your orderly condition and firm faith in Christ."
+  },
+  {
+   "num": 6,
+   "text": "Therefore, just as you have received Christ Jesus as Lord, continue to walk in Him,"
+  },
+  {
+   "num": 7,
+   "text": "rooted and built up in Him, established in the faith as you were taught, and overflowing with thankfulness."
+  },
+  {
+   "num": 8,
+   "text": "See to it that no one takes you captive through philosophy and empty deception, which are based on human tradition and the spiritual forces of the world rather than on Christ."
+  },
+  {
+   "num": 9,
+   "text": "For in Christ all the fullness of the Deity dwells in bodily form."
+  },
+  {
+   "num": 10,
+   "text": "And you have been made complete in Christ, who is the head over every ruler and authority."
+  },
+  {
+   "num": 11,
+   "text": "In Him you were also circumcised, in the putting off of your sinful nature, with the circumcision performed by Christ and not by human hands."
+  },
+  {
+   "num": 12,
+   "text": "And having been buried with Him in baptism, you were raised with Him through your faith in the power of God, who raised Him from the dead."
+  },
+  {
+   "num": 13,
+   "text": "When you were dead in your trespasses and in the uncircumcision of your sinful nature, God made you alive with Christ. He forgave us all our trespasses,"
+  },
+  {
+   "num": 14,
+   "text": "having canceled the debt ascribed to us in the decrees that stood against us. He took it away, nailing it to the cross!"
+  },
+  {
+   "num": 15,
+   "text": "And having disarmed the powers and authorities, He made a public spectacle of them, triumphing over them by the cross."
+  },
+  {
+   "num": 16,
+   "text": "Therefore let no one judge you by what you eat or drink, or with regard to a feast, a New Moon, or a Sabbath."
+  },
+  {
+   "num": 17,
+   "text": "These are a shadow of the things to come, but the body that casts it belongs to Christ."
+  },
+  {
+   "num": 18,
+   "text": "Do not let anyone who delights in false humility and the worship of angels disqualify you with speculation about what he has seen. Such a person is puffed up without basis by his unspiritual mind."
+  },
+  {
+   "num": 19,
+   "text": "He has lost connection to the head, from whom the whole body, supported and knit together by its joints and ligaments, grows as God causes it to grow."
+  },
+  {
+   "num": 20,
+   "text": "If you have died with Christ to the spiritual forces of the world, why, as though you still belonged to the world, do you submit to its regulations:"
+  },
+  {
+   "num": 21,
+   "text": "\"Do not handle, do not taste, do not touch!\"?"
+  },
+  {
+   "num": 22,
+   "text": "These will all perish with use, because they are based on human commands and teachings."
+  },
+  {
+   "num": 23,
+   "text": "Such restrictions indeed have an appearance of wisdom, with their self-prescribed worship, their false humility, and their harsh treatment of the body; but they are of no value against the indulgence of the flesh."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle, with Timothy (1:1)",
+  "genre": "Letter, with a hymn about Christ",
+  "audience": "The church in Colossae, a small town in the Lycus Valley",
+  "mapLabel": "COLOSSAE, AGAINST EMPTY PHILOSOPHY",
+  "setting": "Paul tells how hard he is working for the Colossians and the Laodiceans, whom he has not met. He warns them not to be taken captive by philosophy or by rules about food, festivals, and angel worship. Believers have been circumcised, buried, and raised with Christ and need no further additions.",
+  "custom": "Special days, new moons, and Sabbaths were Jewish observances, and “worship of angels” (v.18) and “elemental spirits” suggest local religion. Paul says these are shadows, but the substance is Christ.",
+  "timelineImmediate": "Chapter 3 begins “If then you have been raised with Christ,” turning from warning to practice.",
+  "timelineBible": "The “record of debt” (v.14) refers to the signed note of a debtor, which was nailed to the cross. The triumph over powers (v.15) echoes the Roman triumph.",
+  "sparkNotes": "In Christ are hidden all treasures of wisdom. Just as you received Christ, walk in him. See that no one takes you captive by philosophy. In him the fullness of deity dwells bodily, and you have been filled in him. You were buried with him in baptism and raised with him. God canceled the record of debt, nailing it to the cross, and disarmed the rulers and authorities. Don’t let anyone judge you in food, festivals, or angel worship.",
+  "translation": [
+   {
+    "english": "fullness",
+    "greek": "πλήρωμα (plērōma)",
+    "verseRef": "v.9-10",
+    "meaning": "The completeness of God’s nature. Paul says it dwells in Christ in bodily form.",
+    "gloss": "Completeness"
+   },
+   {
+    "english": "elemental spirits",
+    "greek": "στοιχεῖα (stoicheia)",
+    "verseRef": "v.8, 20",
+    "meaning": "Basic things or powers. It can mean elementary teachings or spiritual forces.",
+    "gloss": "Basic things"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Isaiah 29:13",
+    "note": "Human commands taught as rules."
+   },
+   {
+    "ref": "Genesis 17:10-14",
+    "note": "Circumcision of the flesh."
+   },
+   {
+    "ref": "Psalm 68:18",
+    "note": "The victor leading captives."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.795,
+   "lng": 29.268,
+   "zoom": 9,
+   "placeName": "Colossae"
+  },
+  "overview": {
+   "summary": "Believers are complete in Christ and need no extra rituals, philosophies, or powers. Christ canceled the debt and triumphed over the powers.",
+   "settingLine": "Paul writes from prison to Colossae.",
+   "placeName": "Colossae",
+   "history": [
+    {
+     "h": "Laodicea",
+     "t": "Paul says he struggles for those at Laodicea too (2:1), and asks that this letter be read there and that the Colossians read the letter from Laodicea (4:16)."
+    },
+    {
+     "h": "The Teaching Paul Opposes",
+     "t": "The letter never names the teachers. It points to food, festivals and Sabbaths (2:16), visions and the worship of angels (2:18), and a “philosophy” of human tradition (2:8). Scholars still debate where it came from."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Debt Note",
+     "t": "The Greek word in 2:14 means a handwritten record of debt. Papyrus IOUs could be canceled by crossing them out, and Paul says God wiped out the record and nailed it to the cross."
+    },
+    {
+     "h": "Triumph",
+     "t": "After a great victory a Roman general led his captives through the streets in a procession. Paul pictures Christ leading the defeated powers this way (2:15)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Hierapolis Springs",
+     "t": "Hierapolis (modern Pamukkale) stands above hot, mineral-rich springs that have built white terraces of travertine. Paul says Epaphras worked for the believers here (4:13)."
+    },
+    {
+     "h": "Plutonium and Temple of Apollo",
+     "t": "Strabo describes a cave at Hierapolis, the Plutonium, that gave off deadly fumes (13.4.14). Excavators have identified it beside the Temple of Apollo. The temple that stands is from the 3rd century AD."
+    }
+   ],
+   "discussion": "Paul says it is not enough to add rules to faith. What kinds of “extras” do people tend to add to the gospel today?",
+   "book": "The letter to the Colossians · 4 chapters. A short, rich letter about the supremacy of Christ.",
+   "author": "Paul",
+   "genre": "Letter",
+   "audience": "The church in Colossae",
+   "refNotes": {
+    "Isaiah 29:13": "Human commands",
+    "Genesis 17:10-14": "Circumcision",
+    "Psalm 68:18": "Leading captives"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Struggles for them"
+    },
+    {
+     "n": "Christ",
+     "d": "Contains all fullness"
+    },
+    {
+     "n": "False Teachers",
+     "d": "Insist on rules"
+    },
+    {
+     "n": "The Powers",
+     "d": "Disarmed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Paul’s struggle"
+    },
+    {
+     "when": "v.6-15",
+     "label": "Fullness in Christ"
+    },
+    {
+     "when": "v.16-19",
+     "label": "Do not be judged"
+    },
+    {
+     "when": "v.20-23",
+     "label": "Dead to rules"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Colossae",
+    "lat": 37.795,
+    "lng": 29.268,
+    "verses": [],
+    "slug": "colossae"
+   },
+   {
+    "name": "Laodicea",
+    "lat": 37.836,
+    "lng": 29.108,
+    "verses": [
+     1
+    ],
+    "slug": "laodicea"
+   },
+   {
+    "name": "Hierapolis",
+    "lat": 37.926,
+    "lng": 29.127,
+    "verses": [],
+    "slug": "hierapolis"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Vel%C3%A1zquez_-_Christ_on_the_Cross_-_WGA24389.jpg",
+   "caption": "Christ on the Cross, by Diego Velázquez (about 1632), in the Prado. Colossians 2:14 says God took the record of debt against us and nailed it to the cross.",
+   "credit": "Diego Velázquez (about 1632), Prado Museum / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_hot_springs_and_travertines,_terraces_of_carbonate_minerals_left_by_the_flowing_water,_Hierapolis,_Phrygia,_Turkey_(32481236792).jpg",
+   "caption": "The hot springs and white travertine terraces at Hierapolis (modern Pamukkale), across the valley from Laodicea. Paul says Epaphras worked hard for the believers here (Colossians 4:13).",
+   "credit": "Photo: Carole Raddato, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,234 @@
+{
+  "book": "Romans",
+  "chapter": 10,
+  "title": "The Word Near You",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Brothers, my heart's desire and prayer to God for the Israelites is for their salvation."
+    },
+    {
+      "num": 2,
+      "text": "For I testify about them that they are zealous for God, but not on the basis of knowledge."
+    },
+    {
+      "num": 3,
+      "text": "Because they were ignorant of God's righteousness and sought to establish their own, they did not submit to God's righteousness."
+    },
+    {
+      "num": 4,
+      "text": "For Christ is the end of the law, to bring righteousness to everyone who believes."
+    },
+    {
+      "num": 5,
+      "text": "For concerning the righteousness that is by the law, Moses writes: \"The man who does these things will live by them.\""
+    },
+    {
+      "num": 6,
+      "text": "But the righteousness that is by faith says: \"Do not say in your heart, 'Who will ascend into heaven?' (that is, to bring Christ down)"
+    },
+    {
+      "num": 7,
+      "text": "or, 'Who will descend into the Abyss?' (that is, to bring Christ up from the dead).\""
+    },
+    {
+      "num": 8,
+      "text": "But what does it say? \"The word is near you; it is in your mouth and in your heart,\" that is, the word of faith we are proclaiming:"
+    },
+    {
+      "num": 9,
+      "text": "that if you confess with your mouth, \"Jesus is Lord,\" and believe in your heart that God raised Him from the dead, you will be saved."
+    },
+    {
+      "num": 10,
+      "text": "For with your heart you believe and are justified, and with your mouth you confess and are saved."
+    },
+    {
+      "num": 11,
+      "text": "It is just as the Scripture says: \"Anyone who believes in Him will never be put to shame.\""
+    },
+    {
+      "num": 12,
+      "text": "For there is no difference between Jew and Greek: The same Lord is Lord of all, and gives richly to all who call on Him,"
+    },
+    {
+      "num": 13,
+      "text": "for, \"Everyone who calls on the name of the Lord will be saved.\""
+    },
+    {
+      "num": 14,
+      "text": "How then can they call on the One in whom they have not believed? And how can they believe in the One of whom they have not heard? And how can they hear without someone to preach?"
+    },
+    {
+      "num": 15,
+      "text": "And how can they preach unless they are sent? As it is written: \"How beautiful are the feet of those who bring good news!\""
+    },
+    {
+      "num": 16,
+      "text": "But not all of them welcomed the good news. For Isaiah says, \"Lord, who has believed our message?\""
+    },
+    {
+      "num": 17,
+      "text": "Consequently, faith comes by hearing, and hearing by the word of Christ."
+    },
+    {
+      "num": 18,
+      "text": "But I ask, did they not hear? Indeed they did: \"Their voice has gone out into all the earth, their words to the ends of the world.\""
+    },
+    {
+      "num": 19,
+      "text": "I ask instead, did Israel not understand? First, Moses says: \"I will make you jealous by those who are not a nation; I will make you angry by a nation without understanding.\""
+    },
+    {
+      "num": 20,
+      "text": "And Isaiah boldly says: \"I was found by those who did not seek Me; I revealed Myself to those who did not ask for Me.\""
+    },
+    {
+      "num": 21,
+      "text": "But as for Israel he says: \"All day long I have held out My hands to a disobedient and obstinate people.\""
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, THE MESSAGE FOR EVERYONE",
+    "setting": "Paul keeps praying for Israel and explains why they have not yet received the gospel: they pursued righteousness by the law and did not submit to God’s way. He says salvation is near, in the mouth and the heart, and open to everyone who calls on the Lord.",
+    "custom": "Verse 9 is one of the earliest creeds: “Jesus is Lord.” In a world where “Caesar is lord” was a political slogan, saying it of Jesus was a bold claim. Paul’s “beautiful feet” (v.15) comes from messengers who ran across hills with news of victory.",
+    "timelineImmediate": "Chapter 11 answers the obvious question: if Israel rejected the message, has God rejected Israel?",
+    "timelineBible": "Paul draws from Leviticus 18:5 (the law’s way), Deuteronomy 30:11-14 (the word near you), Joel 2:32 (everyone who calls), Isaiah 52:7 (beautiful feet), and Isaiah 53:1 (who believed our message?).",
+    "sparkNotes": "Israel has zeal but not knowledge, and tried to establish its own righteousness. Christ is the end of the law for everyone who believes. Salvation comes by confessing Jesus as Lord and believing God raised him, and there is no difference between Jew and Gentile. But people need to hear, so messengers must be sent.",
+    "translation": [
+      {
+        "english": "end",
+        "greek": "τέλος (telos)",
+        "verseRef": "v.4",
+        "meaning": "Can mean goal, culmination, or end. Christ is the goal toward which the law was aiming, and the end of the law as a way of earning righteousness.",
+        "gloss": "Goal or end"
+      },
+      {
+        "english": "Lord",
+        "greek": "κύριος (kyrios)",
+        "verseRef": "v.9, 12-13",
+        "meaning": "The Greek Old Testament used this word for God’s name. Paul applies a verse about the Lord God (Joel 2:32) to Jesus.",
+        "gloss": "Lord"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 30:11-14",
+        "note": "“The word is very near you; it is in your mouth and in your heart.”"
+      },
+      {
+        "ref": "Joel 2:32",
+        "note": "“Everyone who calls on the name of the Lord will be saved.”"
+      },
+      {
+        "ref": "Isaiah 52:7",
+        "note": "“How beautiful are the feet of those who bring good news.”"
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "Salvation is open to all who call on the Lord. Israel stumbled by seeking righteousness through the law, and Paul calls for messengers to carry the message that faith comes from hearing.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "Zeal Without Knowledge",
+          "t": "Many Jews were deeply devoted to God, as Paul himself had been (Acts 22:3)."
+        },
+        {
+          "h": "Messengers",
+          "t": "Letters and news traveled with couriers. Paul sees every preacher as one who carries news."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Confession",
+          "t": "Early Christians publicly said “Jesus is Lord,” which could cost them in a world of emperor worship."
+        },
+        {
+          "h": "Beautiful Feet",
+          "t": "A runner arriving with news of victory was welcomed with joy."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Emperor Inscriptions",
+          "t": "Greek inscriptions called Augustus “savior” and “lord,” showing the claim Paul’s words challenged."
+        },
+        {
+          "h": "Milestones",
+          "t": "Roman roads had milestones, a picture of the messages that moved along them."
+        }
+      ],
+      "discussion": "Paul asks how people will call on someone they haven’t heard of. Who told me the gospel, and who could I tell?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Deuteronomy 30:11-14": "The word is near",
+        "Joel 2:32": "Calling on the Lord",
+        "Isaiah 52:7": "Feet of the messenger"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Prays for Israel"
+        },
+        {
+          "n": "Israel",
+          "d": "Zeal without knowledge"
+        },
+        {
+          "n": "Christ",
+          "d": "The end of the law"
+        },
+        {
+          "n": "Messengers",
+          "d": "Sent to preach"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-4",
+          "label": "Israel’s zeal"
+        },
+        {
+          "when": "v.5-13",
+          "label": "The word near"
+        },
+        {
+          "when": "v.14-17",
+          "label": "Faith from hearing"
+        },
+        {
+          "when": "v.18-21",
+          "label": "Israel hears but resists"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Great_Isaiah_Scroll_MS_A_(1QIsa)_-_Google_Art_Project.jpg",
+      "caption": "The Great Isaiah Scroll from Qumran (about 125–100 BC), the kind of scroll Jesus unrolls in the Nazareth synagogue (Luke 4).",
+      "credit": "Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Priene_Calendar_Inscription_I,_1-31.png",
+      "caption": "The Priene inscription (about 9 BC), which calls the birthday of Augustus the beginning of the \"good news\" for the world. Paul uses the same word, gospel, for the news about Christ (Romans 1:1).",
+      "credit": "Photo: Adolf Deissmann, public domain / Wikimedia Commons"
+    }
+  }
+}

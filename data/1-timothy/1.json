@@ -1,0 +1,249 @@
+{
+ "book": "1 Timothy",
+ "chapter": 1,
+ "title": "Guard the Teaching",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope,"
+  },
+  {
+   "num": 2,
+   "text": "To Timothy, my true child in the faith: Grace, mercy, and peace from God the Father and Christ Jesus our Lord."
+  },
+  {
+   "num": 3,
+   "text": "As I urged you on my departure to Macedonia, you should stay on at Ephesus to instruct certain men not to teach false doctrines"
+  },
+  {
+   "num": 4,
+   "text": "or devote themselves to myths and endless genealogies, which promote speculation rather than the stewardship of God's work, which is by faith."
+  },
+  {
+   "num": 5,
+   "text": "The goal of our instruction is the love that comes from a pure heart, a clear conscience, and a sincere faith."
+  },
+  {
+   "num": 6,
+   "text": "Some have strayed from these ways and turned aside to empty talk."
+  },
+  {
+   "num": 7,
+   "text": "They want to be teachers of the law, but they do not understand what they are saying or that which they so confidently assert."
+  },
+  {
+   "num": 8,
+   "text": "Now we know that the law is good, if one uses it legitimately."
+  },
+  {
+   "num": 9,
+   "text": "We realize that law is not enacted for the righteous, but for the lawless and rebellious, for the ungodly and sinful, for the unholy and profane, for killers of father or mother, for murderers,"
+  },
+  {
+   "num": 10,
+   "text": "for the sexually immoral, for homosexuals, for slave traders and liars and perjurers, and for anyone else who is averse to sound teaching"
+  },
+  {
+   "num": 11,
+   "text": "that agrees with the glorious gospel of the blessed God, with which I have been entrusted."
+  },
+  {
+   "num": 12,
+   "text": "I thank Christ Jesus our Lord, who has strengthened me, that He considered me faithful and appointed me to service."
+  },
+  {
+   "num": 13,
+   "text": "I was formerly a blasphemer, a persecutor, and a violent man; yet because I had acted in ignorance and unbelief, I was shown mercy."
+  },
+  {
+   "num": 14,
+   "text": "And the grace of our Lord overflowed to me, along with the faith and love that are in Christ Jesus."
+  },
+  {
+   "num": 15,
+   "text": "This is a trustworthy saying, worthy of full acceptance: Christ Jesus came into the world to save sinners, of whom I am the worst."
+  },
+  {
+   "num": 16,
+   "text": "But for this very reason I was shown mercy, so that in me, the worst of sinners, Christ Jesus might display His perfect patience as an example to those who would believe in Him for eternal life."
+  },
+  {
+   "num": 17,
+   "text": "Now to the King eternal, immortal, and invisible, the only God, be honor and glory forever and ever. Amen."
+  },
+  {
+   "num": 18,
+   "text": "Timothy, my child, I entrust you with this command in keeping with the previous prophecies about you, so that by them you may fight the good fight,"
+  },
+  {
+   "num": 19,
+   "text": "holding on to faith and a good conscience, which some have rejected and thereby shipwrecked their faith."
+  },
+  {
+   "num": 20,
+   "text": "Among them are Hymenaeus and Alexander, whom I have handed over to Satan to be taught not to blaspheme."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1), though some scholars question this",
+  "genre": "Pastoral letter, personal advice from a mentor",
+  "audience": "Timothy, Paul’s younger coworker, left in Ephesus",
+  "mapLabel": "EPHESUS, TIMOTHY’S ASSIGNMENT",
+  "setting": "Paul had left Timothy in Ephesus to deal with people teaching different doctrines and wasting time on myths and genealogies. He reminds Timothy that the goal of the command is love, and tells his own story: once a blasphemer and persecutor, Paul received mercy.",
+  "custom": "Some in Ephesus mixed the law with speculative stories and genealogies, treating religion as a puzzle for experts. Paul says the aim is a pure heart, a good conscience, and sincere faith.",
+  "timelineImmediate": "Chapter 2 gives instructions for public prayer.",
+  "timelineBible": "The hymn-like “King of the ages” (v.17) echoes Psalm 145:13 and Daniel 4. Paul’s account of the law’s proper use (vv.8-11) draws on the Ten Commandments.",
+  "sparkNotes": "Paul urges Timothy to stay in Ephesus and charge certain men not to teach different doctrine or devote themselves to myths and endless genealogies. The aim of our charge is love. The law is good if used lawfully. Paul was once a blasphemer, but received mercy: Christ Jesus came into the world to save sinners, of whom I am the foremost. Fight the good fight, holding faith and a good conscience.",
+  "translation": [
+   {
+    "english": "sound",
+    "greek": "ὑγιαινούσῃ (hygiainousē)",
+    "verseRef": "v.10",
+    "meaning": "Healthy. The English “hygiene” comes from it. Teaching is called healthy, as opposed to diseased.",
+    "gloss": "Healthy"
+   },
+   {
+    "english": "foremost",
+    "greek": "πρῶτος (prōtos)",
+    "verseRef": "v.15",
+    "meaning": "First, chief. Paul calls himself the chief of sinners.",
+    "gloss": "Chief"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Psalm 145:13",
+    "note": "Your kingdom is an everlasting kingdom."
+   },
+   {
+    "ref": "Exodus 20:13-16",
+    "note": "Commandments Paul lists in vv.9-10."
+   },
+   {
+    "ref": "Isaiah 6:5",
+    "note": "“Woe is me! I am a man of unclean lips.”"
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Timothy is to confront false teachers. Paul recounts his own mercy: Christ Jesus came to save sinners, of whom he is the foremost.",
+   "settingLine": "Paul writes to Timothy, who is working in Ephesus.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Ephesus",
+     "t": "Acts 19 and 20 say Paul spent about three years in Ephesus. In Acts 20:29-30 he warns the Ephesian elders that savage wolves would come in and that some from among their own number would twist the truth. First Timothy 1:3 says he asked Timothy to stay on there to deal with certain teachers."
+    },
+    {
+     "h": "Timothy",
+     "t": "Acts 16:1-3 says Timothy was a disciple at Lystra, the son of a Jewish mother and a Greek father, and that Paul took him along. He is named with Paul in the openings of several letters (for example 2 Corinthians 1:1 and Philippians 1:1). Paul calls him his \"true child in the faith\" (1:2)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Myths and Genealogies",
+     "t": "Paul tells Timothy to stop some people from devoting themselves to \"myths and endless genealogies\" (1:4) but does not say what these were. Suggestions include Jewish speculation about the patriarchs' family lines, as in the book of Jubilees, and Greek stories about the founding of cities; Ephesus had its own legendary founder, Androclus. Scholars cannot tell which, if any, Paul has in view."
+    },
+    {
+     "h": "Shipwreck",
+     "t": "Paul says some have \"shipwrecked\" their faith (1:19) and names Hymenaeus and Alexander (1:20). He knew the sea well: he lists three shipwrecks in 2 Corinthians 11:25, and Acts 27 tells of another. Here the word is a picture of faith wrecked."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ephesus: Harbor Street",
+     "t": "A marble-paved colonnaded street ran from the theater to the harbor and was the main approach to the city from the sea. Today it is often called the Arcadian Way, after the emperor Arcadius (AD 395-408), who rebuilt it. Most of what stands is later than Paul, but the street itself is older."
+    },
+    {
+     "h": "Ephesian Letters",
+     "t": "Ancient writers speak of \"Ephesian letters\" (Ephesia grammata), magic words spoken or written as charms. Acts 19:19 says that believers at Ephesus burned magic scrolls worth fifty thousand pieces of silver. The magical papyri that survive come mostly from Egypt and are later, but they show what such spells looked like."
+    }
+   ],
+   "discussion": "Paul says the goal of all teaching is love from a pure heart. How can I keep the main thing as the main thing when discussing disputed issues?",
+   "book": "The first letter to Timothy · 6 chapters. A mentor’s guide to leading a church well.",
+   "author": "Paul",
+   "genre": "Pastoral letter",
+   "audience": "Timothy, in Ephesus",
+   "refNotes": {
+    "Psalm 145:13": "Eternal King",
+    "Exodus 20:13-16": "The commandments",
+    "Isaiah 6:5": "Unworthy, yet called"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Writes as mentor"
+    },
+    {
+     "n": "Timothy",
+     "d": "Left in Ephesus"
+    },
+    {
+     "n": "Hymenaeus and Alexander",
+     "d": "Shipwrecked in faith"
+    },
+    {
+     "n": "Christ Jesus",
+     "d": "Came to save sinners"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "False teachers"
+    },
+    {
+     "when": "v.8-11",
+     "label": "Using the law well"
+    },
+    {
+     "when": "v.12-17",
+     "label": "Paul’s mercy"
+    },
+    {
+     "when": "v.18-20",
+     "label": "Fight the good fight"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [
+     3
+    ],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Macedonia",
+    "lat": 40.7,
+    "lng": 22.5,
+    "verses": [
+     3
+    ],
+    "slug": "macedonia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timothy-and-Lois.jpg",
+   "caption": "Timothy and Lois, by Willem Drost (about 1650), in the Hermitage. Second Timothy 1:5 names Timothy's grandmother Lois and his mother Eunice as the source of his faith, and 1 Timothy 1:2 calls him Paul's \"true child in the faith.\"",
+   "credit": "Willem Drost (about 1650), Hermitage Museum / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ephesus_Celsus_Library_Fa%C3%A7ade.jpg",
+   "caption": "The façade of the Library of Celsus at Ephesus, built in the early 2nd century AD, decades after Paul's time. It shows the wealth and pride of the city where, according to 1 Timothy 1:3, Paul asked Timothy to stay on.",
+   "credit": "Photo: Benh LIEU SONG, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

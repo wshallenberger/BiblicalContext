@@ -1,0 +1,242 @@
+{
+ "book": "2 Timothy",
+ "chapter": 3,
+ "title": "All Scripture Is God-Breathed",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "But understand this: In the last days terrible times will come."
+  },
+  {
+   "num": 2,
+   "text": "For men will be lovers of themselves, lovers of money, boastful, arrogant, abusive, disobedient to their parents, ungrateful, unholy,"
+  },
+  {
+   "num": 3,
+   "text": "unloving, unforgiving, slanderous, without self-control, brutal, without love of good,"
+  },
+  {
+   "num": 4,
+   "text": "traitorous, reckless, conceited, lovers of pleasure rather than lovers of God,"
+  },
+  {
+   "num": 5,
+   "text": "having a form of godliness but denying its power. Turn away from such as these!"
+  },
+  {
+   "num": 6,
+   "text": "They are the kind who worm their way into households and captivate vulnerable women who are weighed down with sins and led astray by various passions,"
+  },
+  {
+   "num": 7,
+   "text": "who are always learning but never able to come to a knowledge of the truth."
+  },
+  {
+   "num": 8,
+   "text": "Just as Jannes and Jambres opposed Moses, so also these men oppose the truth. They are depraved in mind and disqualified from the faith."
+  },
+  {
+   "num": 9,
+   "text": "But they will not advance much further. For just like Jannes and Jambres, their folly will be plain to everyone."
+  },
+  {
+   "num": 10,
+   "text": "You, however, have observed my teaching, my conduct, my purpose, my faith, my patience, my love, my perseverance,"
+  },
+  {
+   "num": 11,
+   "text": "my persecutions, and the sufferings that came upon me in Antioch, Iconium, and Lystra. What persecutions I endured! Yet the Lord rescued me from all of them."
+  },
+  {
+   "num": 12,
+   "text": "Indeed, all who desire to live godly lives in Christ Jesus will be persecuted,"
+  },
+  {
+   "num": 13,
+   "text": "while evil men and imposters go from bad to worse, deceiving and being deceived."
+  },
+  {
+   "num": 14,
+   "text": "But as for you, continue in the things you have learned and firmly believed, since you know from whom you have learned them."
+  },
+  {
+   "num": 15,
+   "text": "From infancy you have known the Holy Scriptures, which are able to make you wise for salvation through faith in Christ Jesus."
+  },
+  {
+   "num": 16,
+   "text": "All Scripture is God-breathed and is useful for instruction, for conviction, for correction, and for training in righteousness,"
+  },
+  {
+   "num": 17,
+   "text": "so that the man of God may be complete, fully equipped for every good work."
+  }
+ ],
+ "context": {
+  "author": "Paul the apostle (1:1)",
+  "genre": "Pastoral letter and farewell testament",
+  "audience": "Timothy, Paul’s beloved coworker",
+  "mapLabel": "EPHESUS, DIFFICULT TIMES AHEAD",
+  "setting": "Paul describes how, in the last days, people will be lovers of self, money, and pleasure, with a form of godliness but denying its power. He contrasts them with his own endurance of persecution and tells Timothy to continue in what he has learned from childhood. All Scripture is breathed out by God.",
+  "custom": "Jannes and Jambres (v.8) are names of Egyptian magicians in Jewish tradition who opposed Moses. Paul’s experiences in Antioch, Iconium, and Lystra (v.11) were in Timothy’s home region.",
+  "timelineImmediate": "Chapter 4 gives the final charge.",
+  "timelineBible": "Timothy knew the “sacred writings” from childhood, meaning the Old Testament. Paul’s phrase “man of God” (v.17) is used of Moses, Samuel, and David.",
+  "sparkNotes": "In the last days there will be times of difficulty, with people lovers of self, boastful, ungrateful, having the appearance of godliness but denying its power. Evil people will go from bad to worse. Everyone who wants to live a godly life in Christ Jesus will be persecuted. Continue in what you have learned. All Scripture is breathed out by God and profitable for teaching, reproof, correction, and training in righteousness.",
+  "translation": [
+   {
+    "english": "God-breathed",
+    "greek": "θεόπνευστος (theopneustos)",
+    "verseRef": "v.16",
+    "meaning": "A rare word meaning breathed out by God. It stresses that Scripture originates with God.",
+    "gloss": "Breathed by God"
+   },
+   {
+    "english": "equipped",
+    "greek": "ἐξηρτισμένος (exērtismenos)",
+    "verseRef": "v.17",
+    "meaning": "Fully fitted out, as a ship for a voyage.",
+    "gloss": "Fully outfitted"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Exodus 7:11",
+    "note": "Pharaoh’s magicians imitated Moses."
+   },
+   {
+    "ref": "Psalm 34:19",
+    "note": "Many are the afflictions of the righteous, but the Lord delivers."
+   },
+   {
+    "ref": "Deuteronomy 33:1",
+    "note": "Moses, the man of God."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Hard times will come, and persecution awaits the godly. Timothy should continue in the Scriptures, which are God-breathed and equip the person of God for every good work.",
+   "settingLine": "Paul writes from prison, near the end of his life.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Antioch, Iconium, Lystra",
+     "t": "Paul reminds Timothy of the persecutions and sufferings he met at Antioch, Iconium and Lystra (3:11). Acts 13:50, 14:5 and 14:19 tell of them, and at Lystra Paul was stoned and dragged out of the city. Timothy came from that region (Acts 16:1-2)."
+    },
+    {
+     "h": "Jannes and Jambres",
+     "t": "The Old Testament does not name Pharaoh's magicians (Exodus 7:11). Paul does, saying Jannes and Jambres opposed Moses (3:8). The names are found in Jewish writings outside the Bible, such as the Targums, and Origen says Paul took them from a book. Where Paul got them is not stated."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sacred Writings",
+     "t": "Paul says Timothy has known the Holy Scriptures \"from infancy\" (3:15). Jewish writers such as Philo and Josephus say that children were taught the Law from their earliest years. The likely teachers were Timothy's mother and grandmother (1:5), though the letter does not say so."
+    },
+    {
+     "h": "Form of Godliness",
+     "t": "Paul says some will hold \"a form of godliness\" but deny its power (3:5). The phrase comes at the end of a long list of vices (3:2-4) that begins with lovers of self and lovers of money. The word \"form\" means outward shape or appearance."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Dead Sea Scrolls",
+     "t": "The manuscripts from Qumran, including the Great Isaiah Scroll (about 125-100 BC), show Scripture copied by hand and treasured. Second Timothy 3:16 says all Scripture is \"God-breathed,\" a Greek word (theopneustos) found nowhere else in the New Testament."
+    },
+    {
+     "h": "Iconium",
+     "t": "Iconium is the modern city of Konya in central Turkey. Acts 13:51-14:6 tells of Paul and Barnabas there, and Acts 14:19 says Jews came from Antioch and Iconium to Lystra. Little of the ancient city can be seen, because Konya was built over it."
+    }
+   ],
+   "discussion": "Paul says Timothy knew the Scriptures from childhood. Who gave me my first knowledge of the Bible, and who could I pass it to?",
+   "book": "The second letter to Timothy · 4 chapters. Paul’s last words, written from prison with death in view.",
+   "author": "Paul",
+   "genre": "Farewell letter",
+   "audience": "Timothy",
+   "refNotes": {
+    "Exodus 7:11": "Pharaoh’s magicians",
+    "Psalm 34:19": "Delivered from afflictions",
+    "Deuteronomy 33:1": "Man of God"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Paul",
+     "d": "Persecuted"
+    },
+    {
+     "n": "Timothy",
+     "d": "Continue in Scripture"
+    },
+    {
+     "n": "Evil People",
+     "d": "Go from bad to worse"
+    },
+    {
+     "n": "God",
+     "d": "Breathes out Scripture"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-9",
+     "label": "Difficult times"
+    },
+    {
+     "when": "v.10-13",
+     "label": "Paul’s example"
+    },
+    {
+     "when": "v.14-17",
+     "label": "Continue in Scripture"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Pisidian Antioch",
+    "lat": 38.3,
+    "lng": 31.1833,
+    "verses": [
+     11
+    ],
+    "slug": "pisidian-antioch"
+   },
+   {
+    "name": "Iconium",
+    "lat": 37.8714,
+    "lng": 32.4846,
+    "verses": [
+     11
+    ],
+    "slug": "iconium"
+   },
+   {
+    "name": "Lystra",
+    "lat": 37.5667,
+    "lng": 32.3667,
+    "verses": [
+     11
+    ],
+    "slug": "lystra"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Rods_of_Moses_and_the_Magicians_Turned_into_Serpents_(5752932).jpg",
+   "caption": "The rods of Moses and the magicians turned into serpents (Exodus 7:10-12), by Gerard Hoet (1728). Exodus does not name Pharaoh's magicians. Second Timothy 3:8 calls them Jannes and Jambres.",
+   "credit": "Gerard Hoet (1728) / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Konya_view_from_Seljuk_Tower_3992.jpg",
+   "caption": "Konya in central Turkey, built over ancient Iconium, seen from the Seljuk Tower, with the Alaeddin Mosque on its hill. Second Timothy 3:11 names Iconium among the places where Paul suffered (Acts 14:1-6).",
+   "credit": "Photo: Dosseman, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

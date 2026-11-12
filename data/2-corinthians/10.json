@@ -1,0 +1,228 @@
+{
+  "book": "2 Corinthians",
+  "chapter": 10,
+  "title": "Paul Defends His Authority",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Now by the mildness and gentleness of Christ, I appeal to you—I, Paul, who am humble when face to face with you, but bold when away."
+    },
+    {
+      "num": 2,
+      "text": "I beg you that when I come I may not need to be as bold as I expect toward those who presume that we live according to the flesh."
+    },
+    {
+      "num": 3,
+      "text": "For though we live in the flesh, we do not wage war according to the flesh."
+    },
+    {
+      "num": 4,
+      "text": "The weapons of our warfare are not the weapons of the world. Instead, they have divine power to demolish strongholds."
+    },
+    {
+      "num": 5,
+      "text": "We tear down arguments and every presumption set up against the knowledge of God; and we take captive every thought to make it obedient to Christ."
+    },
+    {
+      "num": 6,
+      "text": "And we will be ready to punish every act of disobedience, as soon as your obedience is complete."
+    },
+    {
+      "num": 7,
+      "text": "You are looking at outward appearances. If anyone is confident that he belongs to Christ, he should remind himself that we belong to Christ just as much as he does."
+    },
+    {
+      "num": 8,
+      "text": "For even if I boast somewhat excessively about the authority the Lord gave us for building you up rather than tearing you down, I will not be ashamed."
+    },
+    {
+      "num": 9,
+      "text": "I do not want to seem to be trying to frighten you by my letters."
+    },
+    {
+      "num": 10,
+      "text": "For some say, \"His letters are weighty and forceful, but his physical presence is unimpressive, and his speaking is of no account.\""
+    },
+    {
+      "num": 11,
+      "text": "Such people should consider that what we are in our letters when absent, we will be in our actions when present."
+    },
+    {
+      "num": 12,
+      "text": "We do not dare to classify or compare ourselves with some who commend themselves. When they measure themselves by themselves and compare themselves with themselves, they show their ignorance."
+    },
+    {
+      "num": 13,
+      "text": "We, however, will not boast beyond our limits, but only within the field of influence that God has assigned to us—a field that reaches even to you."
+    },
+    {
+      "num": 14,
+      "text": "We are not overstepping our bounds, as if we had not come to you. Indeed, we were the first to reach you with the gospel of Christ."
+    },
+    {
+      "num": 15,
+      "text": "Neither do we boast beyond our limits in the labors of others. But we hope that as your faith increases, our area of influence among you will greatly increase as well,"
+    },
+    {
+      "num": 16,
+      "text": "so that we can preach the gospel in the regions beyond you. Then we will not be boasting in the work already done in another man's territory."
+    },
+    {
+      "num": 17,
+      "text": "Rather, \"Let him who boasts boast in the Lord.\""
+    },
+    {
+      "num": 18,
+      "text": "For it is not the one who commends himself who is approved, but the one whom the Lord commends."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Timothy (1:1)",
+    "genre": "Letter, personal and defensive, among Paul’s most emotional",
+    "audience": "The church in Corinth, after a painful period of conflict",
+    "mapLabel": "CORINTH, WEAPONS NOT OF THE WORLD",
+    "setting": "The tone changes. Paul now answers critics who say he is bold in letters but weak in person, and who compare themselves to him. He says his weapons are spiritual, that he will use his authority to build up, and that he will boast only within the field God assigned to him.",
+    "custom": "Greek rhetoric prized a commanding presence, and Paul’s critics said his “bodily presence is weak.” Paul’s mention of “strongholds” (v.4) draws on siege warfare. His boasting only “in the Lord” (v.17) quotes Jeremiah.",
+    "timelineImmediate": "Chapter 11 continues in the language of a “foolish” boast about his credentials.",
+    "timelineBible": "Verse 17 quotes Jeremiah 9:24, “Let the one who boasts boast in the Lord.” The warfare language recalls Isaiah 59:17 and Ephesians 6.",
+    "sparkNotes": "Paul appeals to the meekness of Christ and says his critics think he walks “according to the flesh.” Although he lives in the world, he does not wage war as the world does. He takes every thought captive to obey Christ. He will not compare himself with those who commend themselves, but boast only in the Lord.",
+    "translation": [
+      {
+        "english": "strongholds",
+        "greek": "ὀχυρωμάτων (ochyrōmatōn)",
+        "verseRef": "v.4",
+        "meaning": "Fortresses. Paul says arguments and pretensions against God’s knowledge are like fortresses that can be torn down.",
+        "gloss": "Fortresses"
+      },
+      {
+        "english": "take captive",
+        "greek": "αἰχμαλωτίζοντες (aichmalōtizontes)",
+        "verseRef": "v.5",
+        "meaning": "To capture as a prisoner of war. Thoughts are brought into obedience to Christ.",
+        "gloss": "Take prisoner"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Jeremiah 9:24",
+        "note": "“Let the one who boasts boast in this: that they know me.”"
+      },
+      {
+        "ref": "Isaiah 59:17",
+        "note": "God puts on righteousness as a breastplate."
+      },
+      {
+        "ref": "Proverbs 21:22",
+        "note": "A wise man scales the city of the mighty."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Paul answers critics who say he is weak, claims weapons that are not of this world, and will boast only in what the Lord has assigned to him.",
+      "settingLine": "Paul writes from Macedonia to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "The Critics",
+          "t": "Some said Paul’s letters were weighty but his presence and speech were contemptible."
+        },
+        {
+          "h": "The Boundary",
+          "t": "Paul insists his field of work includes Corinth, because he came there first."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Strongholds",
+          "t": "Fortresses on hills in the ancient world, which siege engines battered."
+        },
+        {
+          "h": "Commendation",
+          "t": "Visitors came with credentials, and Paul says that’s not the same as being commended by God."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Acrocorinth",
+          "t": "The fortress hill above Corinth, which served as a stronghold for centuries."
+        },
+        {
+          "h": "Siege Ramps",
+          "t": "The Roman siege ramp at Masada is a famous example of ancient siege works."
+        }
+      ],
+      "discussion": "Paul takes “every thought captive to obey Christ.” What is one habit of thought I need to bring under Christ’s authority?",
+      "book": "The second letter to the Corinthians · 13 chapters. Paul’s most personal letter, written to heal a strained relationship.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Jeremiah 9:24": "Boast in the Lord",
+        "Isaiah 59:17": "God’s armor",
+        "Proverbs 21:22": "The wise take the stronghold"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Bold from a distance"
+        },
+        {
+          "n": "The Critics",
+          "d": "Say he is weak"
+        },
+        {
+          "n": "The Corinthians",
+          "d": "Asked to decide"
+        },
+        {
+          "n": "Christ",
+          "d": "Commends the faithful"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-6",
+          "label": "Weapons not of the world"
+        },
+        {
+          "when": "v.7-11",
+          "label": "Critics’ charges"
+        },
+        {
+          "when": "v.12-18",
+          "label": "Boasting in the Lord"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [
+          14
+        ],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Fouquet._La_Prise_de_J%C3%A9richo_par_Josu%C3%A9_(enluminure,_d%C3%A9tails).jpg",
+      "caption": "The fall of the walls of Jericho, a manuscript painting by Jean Fouquet (15th century). Paul says his weapons \"have divine power to demolish strongholds\" (2 Corinthians 10:4). Paul does not mention Jericho; the picture shows the best-known story of God bringing down a stronghold.",
+      "credit": "Jean Fouquet (15th century) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+      "caption": "The Roman siege ramp at Masada, seen from the hilltop. Paul writes that his weapons \"have divine power to demolish strongholds\" (2 Corinthians 10:4). The siege was about AD 73, after Paul's death, but it shows how armies took a fortress.",
+      "credit": "Photo: Carole Raddato, CC BY-SA 2.0 / Wikimedia Commons"
+    }
+  }
+}

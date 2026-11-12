@@ -1,0 +1,281 @@
+{
+  "book": "Romans",
+  "chapter": 3,
+  "title": "Righteousness Through Faith",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "What, then, is the advantage of being a Jew? Or what is the value of circumcision?"
+    },
+    {
+      "num": 2,
+      "text": "Much in every way. First of all, they have been entrusted with the very words of God."
+    },
+    {
+      "num": 3,
+      "text": "What if some did not have faith? Will their lack of faith nullify God's faithfulness?"
+    },
+    {
+      "num": 4,
+      "text": "Certainly not! Let God be true and every man a liar. As it is written: \"So that You may be proved right when You speak and victorious when You judge.\""
+    },
+    {
+      "num": 5,
+      "text": "But if our unrighteousness highlights the righteousness of God, what shall we say? That God is unjust to inflict His wrath on us? I am speaking in human terms."
+    },
+    {
+      "num": 6,
+      "text": "Certainly not! In that case, how could God judge the world?"
+    },
+    {
+      "num": 7,
+      "text": "However, if my falsehood accentuates God's truthfulness, to the increase of His glory, why am I still condemned as a sinner?"
+    },
+    {
+      "num": 8,
+      "text": "Why not say, as some slanderously claim that we say, \"Let us do evil that good may result\"? Their condemnation is deserved!"
+    },
+    {
+      "num": 9,
+      "text": "What then? Are we any better? Not at all. For we have already made the charge that Jews and Greeks alike are all under sin."
+    },
+    {
+      "num": 10,
+      "text": "As it is written: \"There is no one righteous, not even one."
+    },
+    {
+      "num": 11,
+      "text": "There is no one who understands, no one who seeks God."
+    },
+    {
+      "num": 12,
+      "text": "All have turned away, they have together become worthless; there is no one who does good, not even one.\""
+    },
+    {
+      "num": 13,
+      "text": "\"Their throats are open graves; their tongues practice deceit.\" \"The venom of vipers is on their lips.\""
+    },
+    {
+      "num": 14,
+      "text": "\"Their mouths are full of cursing and bitterness.\""
+    },
+    {
+      "num": 15,
+      "text": "\"Their feet are swift to shed blood;"
+    },
+    {
+      "num": 16,
+      "text": "ruin and misery lie in their wake,"
+    },
+    {
+      "num": 17,
+      "text": "and the way of peace they have not known.\""
+    },
+    {
+      "num": 18,
+      "text": "\"There is no fear of God before their eyes.\""
+    },
+    {
+      "num": 19,
+      "text": "Now we know that whatever the law says, it says to those who are under the law, so that every mouth may be silenced and the whole world held accountable to God."
+    },
+    {
+      "num": 20,
+      "text": "Therefore no one will be justified in His sight by works of the law. For the law merely brings awareness of sin."
+    },
+    {
+      "num": 21,
+      "text": "But now, apart from the law, the righteousness of God has been revealed, as attested by the Law and the Prophets."
+    },
+    {
+      "num": 22,
+      "text": "And this righteousness from God comes through faith in Jesus Christ to all who believe. There is no distinction,"
+    },
+    {
+      "num": 23,
+      "text": "for all have sinned and fall short of the glory of God,"
+    },
+    {
+      "num": 24,
+      "text": "and are justified freely by His grace through the redemption that is in Christ Jesus."
+    },
+    {
+      "num": 25,
+      "text": "God presented Him as the atoning sacrifice through faith in His blood, in order to demonstrate His righteousness, because in His forbearance He had passed over the sins committed beforehand."
+    },
+    {
+      "num": 26,
+      "text": "He did this to demonstrate His righteousness at the present time, so as to be just and to justify the one who has faith in Jesus."
+    },
+    {
+      "num": 27,
+      "text": "Where, then, is boasting? It is excluded. On what principle? On that of works? No, but on that of faith."
+    },
+    {
+      "num": 28,
+      "text": "For we maintain that a man is justified by faith apart from works of the law."
+    },
+    {
+      "num": 29,
+      "text": "Is God the God of Jews only? Is He not the God of Gentiles too? Yes, of Gentiles too,"
+    },
+    {
+      "num": 30,
+      "text": "since there is only one God, who will justify the circumcised by faith and the uncircumcised through that same faith."
+    },
+    {
+      "num": 31,
+      "text": "Do we, then, nullify the law by this faith? Certainly not! Instead, we uphold the law."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, writing through a secretary named Tertius (1:1; 16:22)",
+    "genre": "Letter (epistle), written as a carefully argued case for the gospel",
+    "audience": "The Christians in Rome, a mixed community of Jews and Gentiles",
+    "mapLabel": "ROME, THE LETTER’S HEART",
+    "setting": "Paul answers the objections that came to mind in chapter 2, gives the verdict that all are under sin, and then, in verse 21, turns to the good news. This short passage (vv.21-26) is often called the center of the letter. Paul uses the language of the law court, the marketplace, and the temple to describe what Christ’s death accomplished.",
+    "custom": "The “mercy seat” behind the word “propitiation” (v.25) was the gold cover of the ark of the covenant, sprinkled with blood on the Day of Atonement (Leviticus 16). Redemption (v.24) was the price paid to free a slave or prisoner.",
+    "timelineImmediate": "Chapter 4 proves that this is not a new idea, by showing that Abraham was also made right by faith. Chapter 5 spells out the results: peace, hope, and joy.",
+    "timelineBible": "Verses 10-18 are a chain of quotations from Psalms 14, 5, 140, 10, 36 and Isaiah 59 about humanity’s sin. Verse 21 says the law and the prophets witness to this righteousness.",
+    "sparkNotes": "Paul asks what advantage the Jew has, and strings together Scripture to show that everyone is under sin. Then he declares that God’s righteousness is now shown apart from law, through faith in Jesus. Christ’s death is God’s way of being just and making the ungodly right.",
+    "translation": [
+      {
+        "english": "justified",
+        "greek": "δικαιούμενοι (dikaioumenoi)",
+        "verseRef": "v.24",
+        "meaning": "A courtroom word meaning “declared in the right.” It is not that the person is made perfect on the spot, but that God declares them acquitted and in right standing.",
+        "gloss": "Declared right"
+      },
+      {
+        "english": "propitiation",
+        "greek": "ἱλαστήριον (hilastērion)",
+        "verseRef": "v.25",
+        "meaning": "The word for the mercy seat, the place where God met his people and where blood covered sin. Translators render it “atoning sacrifice,” “propitiation,” or “mercy seat.”",
+        "gloss": "Mercy seat"
+      },
+      {
+        "english": "redemption",
+        "greek": "ἀπολύτρωσις (apolytrōsis)",
+        "verseRef": "v.24",
+        "meaning": "A release won by paying a price, as when a slave was set free.",
+        "gloss": "Release by payment"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Psalm 14:1-3",
+        "note": "“There is no one who does good,” part of Paul’s chain of quotations."
+      },
+      {
+        "ref": "Leviticus 16:15",
+        "note": "The blood on the mercy seat on the Day of Atonement."
+      },
+      {
+        "ref": "Habakkuk 2:4",
+        "note": "The just live by faith, Paul’s lifelong text."
+      }
+    ],
+    "mapCoords": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "zoom": 6,
+      "placeName": "Rome"
+    },
+    "overview": {
+      "summary": "All are guilty, but God makes sinners right as a gift, through Christ’s redeeming death, received by faith.",
+      "settingLine": "Paul writes from Corinth to the Christians in Rome.",
+      "placeName": "Rome",
+      "history": [
+        {
+          "h": "The Day of Atonement",
+          "t": "Once a year the high priest sprinkled blood on the mercy seat. Paul says Jesus is that place of mercy."
+        },
+        {
+          "h": "Slave Markets",
+          "t": "Redemption was a familiar idea in a world where slaves were bought and freed."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Boasting",
+          "t": "People in Roman society boasted in family, rank, and achievements. Paul says faith leaves no room for it (v.27)."
+        },
+        {
+          "h": "One God",
+          "t": "The Shema, “the Lord is one,” was the Jewish creed. Paul uses it to say that God must be the God of Gentiles too (v.29-30)."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Stone Vessels",
+          "t": "Jerusalem households used stone jars to keep water pure for rituals, a world of purity Paul’s readers knew."
+        },
+        {
+          "h": "Temple Warning Inscription",
+          "t": "The Greek stone found near the Temple forbade Gentiles to go further. Paul says the barrier is gone in Christ."
+        }
+      ],
+      "discussion": "Paul says God’s way of making things right is a gift. What changes in my attitude if I believe that I can’t earn it and don’t have to?",
+      "book": "The letter to the Romans · 16 chapters. Paul’s fullest explanation of the gospel, written to a church he had not yet visited.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Rome",
+      "refNotes": {
+        "Psalm 14:1-3": "None who does good",
+        "Leviticus 16:15": "Blood on the mercy seat",
+        "Habakkuk 2:4": "Live by faith"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Argues the case"
+        },
+        {
+          "n": "The Jew",
+          "d": "Has the oracles of God"
+        },
+        {
+          "n": "All people",
+          "d": "Under sin"
+        },
+        {
+          "n": "Christ Jesus",
+          "d": "The mercy seat"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-8",
+          "label": "Objections"
+        },
+        {
+          "when": "v.9-20",
+          "label": "All under sin"
+        },
+        {
+          "when": "v.21-26",
+          "label": "Righteousness by faith"
+        },
+        {
+          "when": "v.27-31",
+          "label": "Boasting excluded"
+        }
+      ]
+    },
+    "biblePlaces": [],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heidelberg,_Universit%C3%A4t_Heidelberg,_Institut_f%C3%BCr_Papyrologie_Ms_P._Heid._Inv._G_645_(Papyrus_40)_Plate_1_%E2%80%94_Fragments_a_%26_b_Romans_3,_21%E2%80%9326_recto.jpg",
+      "caption": "Papyrus 40, a Greek papyrus usually dated to about the 3rd century. This page has Romans 3:21-26, Paul's central statement on being made right by faith.",
+      "credit": "Heidelberg Institute for Papyrology, public domain / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Temple_of_Apollo_in_Ancient_Corinth_on_June_6,_2018.jpg",
+      "caption": "The Temple of Apollo at Ancient Corinth, already centuries old when Paul lived in the city (Acts 18:1-17).",
+      "credit": "Photo: George E. Koronaios, CC0 / Wikimedia Commons"
+    }
+  }
+}

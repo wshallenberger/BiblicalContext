@@ -1,0 +1,80 @@
+{
+ "id": "kjv",
+ "source": "https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/KJV.json",
+ "files": 89,
+ "verses": 3779,
+ "verseNumbersDifferFromBSB": [
+  {
+   "ref": "Matthew 17",
+   "onlyBSB": [],
+   "onlyHere": [
+    21
+   ]
+  },
+  {
+   "ref": "Matthew 18",
+   "onlyBSB": [],
+   "onlyHere": [
+    11
+   ]
+  },
+  {
+   "ref": "Matthew 23",
+   "onlyBSB": [],
+   "onlyHere": [
+    14
+   ]
+  },
+  {
+   "ref": "Mark 7",
+   "onlyBSB": [],
+   "onlyHere": [
+    16
+   ]
+  },
+  {
+   "ref": "Mark 9",
+   "onlyBSB": [],
+   "onlyHere": [
+    44,
+    46
+   ]
+  },
+  {
+   "ref": "Mark 11",
+   "onlyBSB": [],
+   "onlyHere": [
+    26
+   ]
+  },
+  {
+   "ref": "Mark 15",
+   "onlyBSB": [],
+   "onlyHere": [
+    28
+   ]
+  },
+  {
+   "ref": "Luke 17",
+   "onlyBSB": [],
+   "onlyHere": [
+    36
+   ]
+  },
+  {
+   "ref": "Luke 23",
+   "onlyBSB": [],
+   "onlyHere": [
+    17
+   ]
+  },
+  {
+   "ref": "John 5",
+   "onlyBSB": [],
+   "onlyHere": [
+    4
+   ]
+  }
+ ],
+ "leftoverMarkup": []
+}

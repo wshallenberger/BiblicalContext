@@ -1,4 +1,4 @@
-/* search.js — Search the four Gospels (Read top bar magnifier, and More > Search).
+/* search.js — Search the New Testament (Read top bar magnifier, and More > Search).
  *
  * data/search.json (built by tools/build_search.py) holds every verse once: { b: [book slugs], v: [[bookIndex, chapter, verse, text], ...] }.
  * Everything is matched in the browser. Nothing you type leaves the device.
@@ -13,6 +13,13 @@
   var NAMES = Bk.nameMap();
   var data = null, loading = null, prev = 'read', built = false, timer = 0, lastQ = '';
   var st = { book: 'all', jesus: false };
+  var GROUPS = { '@gospels': ['the Gospels', ['matthew', 'mark', 'luke', 'john']], '@acts': ['Acts', ['acts']], '@letters': ['the Letters', null], '@rev': ['Revelation', ['revelation']] };
+  function inScope(book) {
+    if (st.book === 'all') return true;
+    var g = GROUPS[st.book]; if (!g) return st.book === book;
+    if (g[1]) return g[1].indexOf(book) >= 0;
+    return ['matthew', 'mark', 'luke', 'john', 'acts', 'revelation'].indexOf(book) < 0;
+  }
   var CAP = 150;
   function $(id) { return document.getElementById(id); }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
@@ -68,7 +75,7 @@
         var all = data.v, cnt = 0, per = {}; Bk.slugs().forEach(function (b) { per[b] = 0; });
         for (var i = 0; i < all.length; i++) {
           var r = all[i], book = data.b[r[0]];
-          if (st.book !== 'all' && st.book !== book) continue;
+          if (!inScope(book)) continue;
           var text = r[3], marks = [], ok = true, sp = st.jesus ? rlSpans(book, r[1], r[2]) : null;
           if (st.jesus && !sp) continue;
           for (var k = 0; k < res0.length && ok; k++) {
@@ -114,7 +121,7 @@
     var out = $('seOut'), sum = $('seSum'), h = pre;
     var parts = []; Object.keys(per).forEach(function (b) { if (per[b]) parts.push(NAMES[b] + ' ' + per[b]); });
     sum.textContent = cnt ? cnt + (cnt === 1 ? ' verse' : ' verses') + (st.book === 'all' && parts.length > 1 ? ' \u00b7 ' + parts.join(' \u00b7 ') : '') + (cnt > CAP ? ' \u00b7 showing the first ' + CAP : '') : '';
-    if (!cnt) h += '<p class="se-none">No verses found' + (st.jesus ? ' in the red letters' : '') + (st.book !== 'all' ? ' in ' + NAMES[st.book] : '') + '. Try fewer or shorter words' + (st.jesus || st.book !== 'all' ? ', or loosen a filter' : '') + '.</p>';
+    if (!cnt) h += '<p class="se-none">No verses found' + (st.jesus ? ' in the red letters' : '') + (st.book !== 'all' ? ' in ' + (GROUPS[st.book] ? GROUPS[st.book][0] : NAMES[st.book]) : '') + '. Try fewer or shorter words' + (st.jesus || st.book !== 'all' ? ', or loosen a filter' : '') + '.</p>';
     res.forEach(function (r) {
       var sp = rlSpans(r.book, r.ch, r.v);
       h += '<button type="button" class="se-r" data-b="' + r.book + '" data-c="' + r.ch + '" data-v="' + r.v + '"><span class="se-ref">' + NAMES[r.book] + ' ' + r.ch + ':' + r.v + '</span><span class="se-tx">' + mark(r.text, r.marks, sp) + '</span></button>';
@@ -128,9 +135,9 @@
     var w = $('seBody'); if (!w) return;
     w.innerHTML =
       '<div class="se-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>' +
-      '<input id="seQ" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search the Gospels" aria-label="Search the Gospels">' +
+      '<input id="seQ" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search the New Testament" aria-label="Search the New Testament">' +
       '<button type="button" id="seClr" class="se-clr" aria-label="Clear" hidden>\u00d7</button></div>' +
-      '<div class="se-filt" id="seFilt"><button type="button" data-f="all" class="on">All</button>' + Bk.slugs().map(function (b) { return '<button type="button" data-f="' + b + '">' + Bk.name(b) + '</button>'; }).join('') + '</div>' +
+      '<div class="se-filt" id="seFilt"><button type="button" data-f="all" class="on">All</button><button type="button" data-f="@gospels">Gospels</button><button type="button" data-f="@acts">Acts</button><button type="button" data-f="@letters">Letters</button><button type="button" data-f="@rev">Revelation</button>' + Bk.slugs().filter(function (b) { return b !== 'acts' && b !== 'revelation'; }).map(function (b) { return '<button type="button" data-f="' + b + '">' + Bk.name(b) + '</button>'; }).join('') + '</div>' +
       '<button type="button" class="se-red" id="seRed" aria-pressed="false"><i></i><span>Jesus\u2019 words only</span></button>' +
       '<p class="se-sum" id="seSum" aria-live="polite"></p><div id="seOut"></div>';
     var q = $('seQ');

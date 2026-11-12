@@ -1,0 +1,259 @@
+{
+ "book": "Revelation",
+ "chapter": 11,
+ "title": "The Two Witnesses and the Seventh Trumpet",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Then I was given a measuring rod like a staff and was told, \"Go and measure the temple of God and the altar, and count the number of worshipers there."
+  },
+  {
+   "num": 2,
+   "text": "But exclude the courtyard outside the temple. Do not measure it, because it has been given over to the nations, and they will trample the holy city for 42 months."
+  },
+  {
+   "num": 3,
+   "text": "And I will empower my two witnesses, and they will prophesy for 1,260 days, clothed in sackcloth.\""
+  },
+  {
+   "num": 4,
+   "text": "These witnesses are the two olive trees and the two lampstands that stand before the Lord of the earth."
+  },
+  {
+   "num": 5,
+   "text": "If anyone wants to harm them, fire proceeds from their mouths and devours their enemies. In this way, anyone who wants to harm them must be killed."
+  },
+  {
+   "num": 6,
+   "text": "These witnesses have power to shut the sky so that no rain will fall during the days of their prophecy, and power to turn the waters into blood and to strike the earth with every kind of plague as often as they wish."
+  },
+  {
+   "num": 7,
+   "text": "When the two witnesses have finished their testimony, the beast that comes up from the Abyss will wage war with them, and will overpower and kill them."
+  },
+  {
+   "num": 8,
+   "text": "Their bodies will lie in the street of the great city—figuratively called Sodom and Egypt—where their Lord was also crucified."
+  },
+  {
+   "num": 9,
+   "text": "For three and a half days all peoples and tribes and tongues and nations will view their bodies and will not permit them to be laid in a tomb."
+  },
+  {
+   "num": 10,
+   "text": "And those who dwell on the earth will gloat over them, and will celebrate and send one another gifts, because these two prophets had tormented them."
+  },
+  {
+   "num": 11,
+   "text": "But after the three and a half days, the breath of life from God entered the two witnesses, and they stood on their feet, and great fear fell upon those who saw them."
+  },
+  {
+   "num": 12,
+   "text": "And the witnesses heard a loud voice from heaven saying, \"Come up here.\" And they went up to heaven in a cloud as their enemies watched them."
+  },
+  {
+   "num": 13,
+   "text": "And in that hour there was a great earthquake, and a tenth of the city collapsed. Seven thousand were killed in the quake, and the rest were terrified and gave glory to the God of heaven."
+  },
+  {
+   "num": 14,
+   "text": "The second woe has passed. Behold, the third woe is coming shortly."
+  },
+  {
+   "num": 15,
+   "text": "Then the seventh angel sounded his trumpet, and loud voices called out in heaven: \"The kingdom of the world has become the kingdom of our Lord and of His Christ, and He will reign forever and ever.\""
+  },
+  {
+   "num": 16,
+   "text": "And the twenty-four elders who sit on their thrones before God fell on their faces and worshiped God,"
+  },
+  {
+   "num": 17,
+   "text": "saying: \"We give thanks to You, O Lord God Almighty, the One who is and who was, because You have taken Your great power and have begun to reign."
+  },
+  {
+   "num": 18,
+   "text": "The nations were enraged, and Your wrath has come. The time has come to judge the dead and to reward Your servants the prophets, as well as the saints and those who fear Your name, both small and great— and to destroy those who destroy the earth.\""
+  },
+  {
+   "num": 19,
+   "text": "Then the temple of God in heaven was opened, and the ark of His covenant appeared in His temple. And there were flashes of lightning, and rumblings, and peals of thunder, and an earthquake, and a great hailstorm."
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "THE HOLY CITY",
+  "setting": "John is given a measuring rod to measure the temple and the altar, but not the outer court, which is given to the nations for 42 months. Two witnesses prophesy for 1,260 days, are killed, left in the street of the great city, and then raised after three and a half days. The seventh trumpet sounds, and loud voices say, “The kingdom of the world has become the kingdom of our Lord and of His Christ”",
+  "custom": "Measuring is a prophetic act of marking out what God will protect. The “great city” where their Lord was crucified (v.8) is spiritually called Sodom and Egypt, so its meaning is symbolic. Forty-two months, 1,260 days, and “time, and times, and half a time.” are the same period of three and a half years, a number from Daniel 7:25 and 12:7.",
+  "timelineImmediate": "Chapter 12 turns to the woman, the child, and the dragon.",
+  "timelineBible": "The two witnesses draw on Moses and Elijah (Exodus 7-10; 1 Kings 17), the two olive trees of Zechariah 4:3, 14, and the pattern of Joshua and Zerubbabel. The seventh trumpet’s announcement echoes Psalm 2 and Daniel 7:14.",
+  "translation": [
+   {
+    "english": "witnesses",
+    "greek": "μάρτυσιν (martysin)",
+    "verseRef": "v.3",
+    "meaning": "Those who testify, from which “martyr” comes.",
+    "gloss": "Witnesses"
+   },
+   {
+    "english": "reign",
+    "greek": "βασιλεύσει (basileusei)",
+    "verseRef": "v.15",
+    "meaning": "To rule as king.",
+    "gloss": "Rule as king"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Zechariah 4:11-14",
+    "note": "The two olive trees and lampstands."
+   },
+   {
+    "ref": "Daniel 7:25",
+    "note": "A time, times, and half a time."
+   },
+   {
+    "ref": "Psalm 2",
+    "note": "The nations rage, and the Lord’s anointed reigns."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7767,
+   "lng": 35.2342,
+   "zoom": 11,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Two witnesses prophesy, are killed, and rise again. The seventh trumpet announces that the kingdom of the world has become the kingdom of Christ.",
+   "settingLine": "The temple, the holy city, and two witnesses.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Temple Destroyed",
+     "t": "If written after AD 70, the temple reference is symbolic."
+    },
+    {
+     "h": "Forty-two Months",
+     "t": "The length of Antiochus’s persecution and a pattern of limited time."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sackcloth",
+     "t": "Coarse cloth worn for mourning and repentance."
+    },
+    {
+     "h": "Left Unburied",
+     "t": "A dishonor in the ancient world."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Temple Mount",
+     "t": "The site of Herod’s Temple, destroyed in AD 70."
+    },
+    {
+     "h": "Jerusalem Streets",
+     "t": "Herodian paving stones."
+    },
+    {
+     "h": "The Arch of Titus",
+     "t": "The Arch of Titus in Rome shows the spoils of the Jerusalem temple carried in triumph after AD 70. Whether Revelation was written before or after that date affects how the measuring of the temple is read."
+    }
+   ],
+   "discussion": "The witnesses speak for God even when it costs everything. What would faithful witness look like in my own setting?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Zechariah 4:11-14": "Two olive trees",
+    "Daniel 7:25": "Time, times, and half a time",
+    "Psalm 2": "The nations rage"
+   },
+   "peoplePlaces": [
+    {
+     "n": "John",
+     "d": "Measures the temple"
+    },
+    {
+     "n": "Two Witnesses",
+     "d": "Prophesy and die"
+    },
+    {
+     "n": "The Beast",
+     "d": "Kills them"
+    },
+    {
+     "n": "The Seventh Angel",
+     "d": "Announces the kingdom"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Measuring the temple"
+    },
+    {
+     "when": "v.3-6",
+     "label": "The two witnesses"
+    },
+    {
+     "when": "v.7-13",
+     "label": "Death and resurrection"
+    },
+    {
+     "when": "v.14-19",
+     "label": "The seventh trumpet"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7767,
+    "lng": 35.2342,
+    "verses": [
+     1,
+     8
+    ],
+    "slug": "jerusalem"
+   },
+   {
+    "name": "Egypt",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "verses": [
+     8
+    ],
+    "slug": "egypt"
+   },
+   {
+    "name": "Sodom (Dead Sea)",
+    "lat": 31.2,
+    "lng": 35.4,
+    "verses": [
+     8
+    ],
+    "slug": "sodom"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "And I will empower my two witnesses, and they will prophesy for 1,260 days, clothed in sackcloth. But after the three and a half days, the breath of life from God entered the two witnesses, and they stood on their feet, and great fear fell upon those who saw them. Then the seventh angel sounded his trumpet, and loud voices called out in heaven: The kingdom of the world has become the kingdom of our Lord and of His Christ, and He will reign forever and ever.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reli%C3%ABf_van_de_Boog_van_Titus_voorstellend_Titus_op_een_zegekar_die_gekroond_wordt_door_de_Overwinning_Rome._Triomfboog_van_Titus._(titel_op_object),_RP-F-00-4176.jpg",
+   "caption": "Titus riding in a triumphal chariot, crowned by Victory, on a relief of the Arch of Titus in Rome (photographed about 1875-1900, Rijksmuseum). Paul writes that God \"always leads us in triumphal procession in Christ\" (2 Corinthians 2:14). The arch was built after Paul's death to mark the triumph of AD 71.",
+   "credit": "Rijksmuseum, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western_Wall_of_Temple_Mount,_Jerusalem_(49821361562).jpg",
+   "caption": "Herodian stones of the Temple Mount’s western retaining wall, Jerusalem.",
+   "credit": "Lodo, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

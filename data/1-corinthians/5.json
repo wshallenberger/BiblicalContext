@@ -1,0 +1,206 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 5,
+  "title": "Dealing With Sin in the Church",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "It is actually reported that there is sexual immorality among you, and of a kind that is intolerable even among pagans: A man has his father's wife."
+    },
+    {
+      "num": 2,
+      "text": "And you are proud! Shouldn't you rather have been stricken with grief and have removed from your fellowship the man who did this?"
+    },
+    {
+      "num": 3,
+      "text": "Although I am absent from you in body, I am present with you in spirit, and I have already pronounced judgment on the one who did this, just as if I were present."
+    },
+    {
+      "num": 4,
+      "text": "When you are assembled in the name of our Lord Jesus and I am with you in spirit, along with the power of the Lord Jesus,"
+    },
+    {
+      "num": 5,
+      "text": "hand this man over to Satan for the destruction of the flesh, so that his spirit may be saved on the Day of the Lord."
+    },
+    {
+      "num": 6,
+      "text": "Your boasting is not good. Do you not know that a little leaven works through the whole batch of dough?"
+    },
+    {
+      "num": 7,
+      "text": "Get rid of the old leaven, that you may be a new unleavened batch, as you really are. For Christ, our Passover lamb, has been sacrificed."
+    },
+    {
+      "num": 8,
+      "text": "Therefore let us keep the feast, not with the old bread, leavened with malice and wickedness, but with the unleavened bread of sincerity and of truth."
+    },
+    {
+      "num": 9,
+      "text": "I wrote you in my letter not to associate with sexually immoral people."
+    },
+    {
+      "num": 10,
+      "text": "I was not including the sexually immoral of this world, or the greedy and swindlers, or idolaters. In that case you would have to leave this world."
+    },
+    {
+      "num": 11,
+      "text": "But now I am writing you not to associate with anyone who claims to be a brother but is sexually immoral or greedy, an idolater or a verbal abuser, a drunkard or a swindler. With such a man do not even eat."
+    },
+    {
+      "num": 12,
+      "text": "What business of mine is it to judge those outside the church? Are you not to judge those inside?"
+    },
+    {
+      "num": 13,
+      "text": "God will judge those outside. \"Expel the wicked man from among you.\""
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, A SCANDAL THE CHURCH TOLERATED",
+    "setting": "Paul turns to a case of sexual immorality that even pagans condemned: a man living with his father’s wife (probably his stepmother). The church was proud rather than grieving. Paul tells them to remove him, using the picture of the Passover yeast that spreads through the whole batch of dough.",
+    "custom": "At Passover, Jewish families removed all yeast from the house. Paul says, “Christ our Passover lamb has been sacrificed,” so the church should clean out the old yeast of malice. Handing someone over to Satan (v.5) means putting him outside the church.",
+    "timelineImmediate": "Chapter 6 continues with believers who were taking each other to court and who were treating the body casually.",
+    "timelineBible": "The command “Purge the evil person from among you” (v.13) quotes Deuteronomy 17:7 and 24:7. Leviticus 18:8 forbids this marriage.",
+    "sparkNotes": "A man is sleeping with his father’s wife, and the church is arrogant about it. Paul tells them to deliver him over to Satan so his spirit may be saved, and cleanse out the old yeast. He says he never meant to avoid sinners in the world, but to judge those within the church.",
+    "translation": [
+      {
+        "english": "sexual immorality",
+        "greek": "πορνεία (porneia)",
+        "verseRef": "v.1",
+        "meaning": "A broad word for sexual sin outside marriage, the root of “pornography.”",
+        "gloss": "Sexual sin"
+      },
+      {
+        "english": "yeast",
+        "greek": "ζύμη (zymē)",
+        "verseRef": "v.6-8",
+        "meaning": "Leaven, which spreads silently through dough. A common picture for influence, here for sin.",
+        "gloss": "Leaven"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Deuteronomy 17:7",
+        "note": "“Purge the evil from among you.”"
+      },
+      {
+        "ref": "Leviticus 18:8",
+        "note": "Forbids relations with a father’s wife."
+      },
+      {
+        "ref": "Exodus 12:15",
+        "note": "Remove all yeast from the house at Passover."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "A shocking case of immorality is tolerated in the church. Paul calls them to remove the man, like clearing yeast before Passover, and to hold believers to a standard.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "A Previous Letter",
+          "t": "Paul wrote earlier, telling them not to associate with immoral people (v.9), and they misunderstood."
+        },
+        {
+          "h": "Roman Law",
+          "t": "Cicero called this kind of union unheard of, and Roman law prohibited it."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Removing Yeast",
+          "t": "Before Passover, families searched the house with a lamp and removed all leaven."
+        },
+        {
+          "h": "Excommunication",
+          "t": "The Jewish community could exclude a person. Paul asks the church to do the same."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Corinth Brothels",
+          "t": "Ancient writers described Corinth as a city of loose morals, and “to act like a Corinthian” was slang for immorality."
+        },
+        {
+          "h": "Temple of Aphrodite",
+          "t": "The hilltop above Corinth had an old temple of Aphrodite. Strabo says it had over a thousand temple slaves, but he describes the older Greek city, and scholars doubt that the Roman city had anything like it."
+        }
+      ],
+      "discussion": "Paul says a little yeast works through the whole batch. What small thing, if ignored, could slowly spread in a community or in my own life?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Deuteronomy 17:7": "Purge the evil",
+        "Leviticus 18:8": "The prohibited union",
+        "Exodus 12:15": "Remove the yeast"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Man",
+          "d": "Living with his stepmother"
+        },
+        {
+          "n": "The Church",
+          "d": "Proud, not grieving"
+        },
+        {
+          "n": "Paul",
+          "d": "Absent in body, present in spirit"
+        },
+        {
+          "n": "Christ",
+          "d": "Our Passover lamb"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-5",
+          "label": "The case"
+        },
+        {
+          "when": "v.6-8",
+          "label": "Old yeast out"
+        },
+        {
+          "when": "v.9-13",
+          "label": "Judging those inside"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamgods_open.jpg",
+      "caption": "The Ghent Altarpiece, by Jan van Eyck (finished 1432), with the Adoration of the Lamb in the center. Paul writes \"Christ, our Passover lamb, has been sacrificed\" (1 Corinthians 5:7).",
+      "credit": "Jan van Eyck (finished 1432) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Fountain_of_Peirene_in_ancient_Corinth_on_6_April_2019.jpg",
+      "caption": "The Fountain of Peirene at Corinth, a famous spring beside the forum. What stands today is mostly Roman and later rebuilding.",
+      "credit": "Photo: George E. Koronaios, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

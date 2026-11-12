@@ -1,0 +1,277 @@
+{
+ "book": "1 John",
+ "chapter": 3,
+ "title": "Children of God",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Behold what manner of love the Father has given to us, that we should be called children of God. And that is what we are! The reason the world does not know us is that it did not know Him."
+  },
+  {
+   "num": 2,
+   "text": "Beloved, we are now children of God, and what we will be has not yet been revealed. We know that when Christ appears, we will be like Him, for we will see Him as He is."
+  },
+  {
+   "num": 3,
+   "text": "And everyone who has this hope in Him purifies himself, just as Christ is pure."
+  },
+  {
+   "num": 4,
+   "text": "Everyone who practices sin practices lawlessness as well. Indeed, sin is lawlessness."
+  },
+  {
+   "num": 5,
+   "text": "But you know that Christ appeared to take away sins, and in Him there is no sin."
+  },
+  {
+   "num": 6,
+   "text": "No one who remains in Him keeps on sinning. No one who continues to sin has seen Him or known Him."
+  },
+  {
+   "num": 7,
+   "text": "Little children, let no one deceive you: The one who practices righteousness is righteous, just as Christ is righteous."
+  },
+  {
+   "num": 8,
+   "text": "The one who practices sin is of the devil, because the devil has been sinning from the very start. This is why the Son of God was revealed, to destroy the works of the devil."
+  },
+  {
+   "num": 9,
+   "text": "Anyone born of God refuses to practice sin, because God's seed abides in him; he cannot go on sinning, because he has been born of God."
+  },
+  {
+   "num": 10,
+   "text": "By this the children of God are distinguished from the children of the devil: Anyone who does not practice righteousness is not of God, nor is anyone who does not love his brother."
+  },
+  {
+   "num": 11,
+   "text": "This is the message you have heard from the beginning: We should love one another."
+  },
+  {
+   "num": 12,
+   "text": "Do not be like Cain, who belonged to the evil one and murdered his brother. And why did Cain slay him? Because his own deeds were evil, while those of his brother were righteous."
+  },
+  {
+   "num": 13,
+   "text": "So do not be surprised, brothers, if the world hates you."
+  },
+  {
+   "num": 14,
+   "text": "We know that we have passed from death to life, because we love our brothers. The one who does not love remains in death."
+  },
+  {
+   "num": 15,
+   "text": "Everyone who hates his brother is a murderer, and you know that eternal life does not reside in a murderer."
+  },
+  {
+   "num": 16,
+   "text": "By this we know what love is: Jesus laid down His life for us, and we ought to lay down our lives for our brothers."
+  },
+  {
+   "num": 17,
+   "text": "If anyone with earthly possessions sees his brother in need, but withholds his compassion from him, how can the love of God abide in him?"
+  },
+  {
+   "num": 18,
+   "text": "Little children, let us love not in word and speech, but in action and truth."
+  },
+  {
+   "num": 19,
+   "text": "And by this we will know that we belong to the truth, and will assure our hearts in His presence:"
+  },
+  {
+   "num": 20,
+   "text": "Even if our hearts condemn us, God is greater than our hearts, and He knows all things."
+  },
+  {
+   "num": 21,
+   "text": "Beloved, if our hearts do not condemn us, we have confidence before God,"
+  },
+  {
+   "num": 22,
+   "text": "and we will receive from Him whatever we ask, because we keep His commandments and do what is pleasing in His sight."
+  },
+  {
+   "num": 23,
+   "text": "And this is His commandment: that we should believe in the name of His Son, Jesus Christ, and we should love one another just as He commanded us."
+  },
+  {
+   "num": 24,
+   "text": "Whoever keeps His commandments remains in God, and God in him. And by this we know that He remains in us: by the Spirit He has given us."
+  }
+ ],
+ "context": {
+  "author": "The same unnamed writer, called John by early tradition.",
+  "genre": "Pastoral letter or sermon without a formal greeting or ending",
+  "audience": "The beloved (3:2, 21), told that they are now children of God.",
+  "mapLabel": "LOVE IN DEED AND TRUTH",
+  "setting": "John marvels at the love the Father has given us in calling us children of God. He contrasts the children of God with the children of the devil, and says the mark of the children of God is love. The model is Christ, who laid down his life for us, and we ought to lay down our lives for our brothers.",
+  "custom": "Cain (3:12) is the type of the envious murderer, as in Hebrews 11:4 and Jude 11. The world’s goods (3:17) means the means of living, and in a city without public welfare help for a brother in need was personal. The heart (3:19-21) in the Bible is the whole inner life, including conscience and will.",
+  "timelineImmediate": "Chapter 4 tells how to test the spirits and describes God’s love.",
+  "timelineBible": "Cain and Abel are the story of Genesis 4. Verse 15 recalls Jesus’s words on anger and murder (Matthew 5:21-22), and verse 16 recalls John 10:11 and 15:13, where laying down a life is the sign of love.",
+  "sparkNotes": "See what kind of love the Father has given us, that we should be called children of God. We know that when he appears we shall be like him. No one who abides in him keeps on sinning. Whoever does not practice righteousness is not of God, nor is the one who does not love his brother. We should not be like Cain, who murdered his brother. By this we know love, that he laid down his life for us, and we ought to lay down our lives for the brothers. Let us not love in word or talk but in deed and in truth.",
+  "translation": [
+   {
+    "english": "abide",
+    "greek": "μένει (menei)",
+    "verseRef": "v.6, 9, 14-15, 17, 24",
+    "meaning": "To remain, to live in, to stay.",
+    "gloss": "Remain"
+   },
+   {
+    "english": "lay down",
+    "greek": "τίθημι (tithēmi)",
+    "verseRef": "v.16",
+    "meaning": "To put down, as one sets aside a coat.",
+    "gloss": "Put down"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Genesis 4:1-8",
+    "note": "Cain and Abel."
+   },
+   {
+    "ref": "Leviticus 19:17",
+    "note": "Do not hate your brother in your heart."
+   },
+   {
+    "ref": "Psalm 51:10",
+    "note": "Create in me a clean heart."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Believers are children of God, and love is their mark. Christ laid down his life for us, so we love in deed and in truth, not just in word.",
+   "settingLine": "John writes to the churches he cares for.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Children of God",
+     "t": "Verses 1-3 begin with what kind of love the Father has given us. The readers are children of God now, and what they will be has not yet appeared. The word for children (tekna) stresses birth, and John uses it of believers, never of Jesus."
+    },
+    {
+     "h": "Cain",
+     "t": "Genesis 4:1-16 tells how Cain killed his brother Abel. John says Cain belonged to the evil one and killed Abel because his own deeds were evil and his brother’s righteous (3:12). Hatred, he says, is the root of murder (3:15)."
+    },
+    {
+     "h": "Sin and the Devil",
+     "t": "Verses 4-10 say that the one who practices sin is of the devil and that the Son of God appeared to destroy the works of the devil. The verbs are in the present tense, which many commentators take to mean continuing, habitual sin, set beside 1:8-10 and 2:1."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Laying Down a Life",
+     "t": "The Gospel of John uses the same words of the good shepherd, who lays down his life for the sheep (10:11, 15). Here the readers are to follow him by laying down their lives for the brothers (3:16)."
+    },
+    {
+     "h": "The World’s Goods",
+     "t": "The Greek word bios means a person’s livelihood, such as food and possessions. John’s test of love is plain: if someone has it and sees a brother in need, God’s love does not abide in him if he shuts his heart (3:17)."
+    },
+    {
+     "h": "The Heart and the Conscience",
+     "t": "In the Bible the heart is the seat of thought and will. John says that if our hearts condemn us, God is greater than our hearts and knows everything (3:20). The point is comfort for a troubled conscience, not an excuse for a hard one."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Cain in Art",
+     "t": "James Tissot painted Cain leading Abel out to the field in about 1896-1902. Genesis 4 does not say where the murder took place, and the story has been painted many times since."
+    },
+    {
+     "h": "Early Christian Charity",
+     "t": "Outsiders took notice of how the early Christians treated the needy. Aristides (about AD 125-140) says that if there is a poor man among them they fast two or three days to give him food. Lucian mocks them for rushing to help their own, and Tertullian says that gifts paid for feeding and burying the poor. The Catacomb of Domitilla in Rome belongs to the same world."
+    },
+    {
+     "h": "The Traditional Site of Golgotha",
+     "t": "The traditional site of Golgotha stands inside the Church of the Holy Sepulchre in Jerusalem. John says that we know what love is because Jesus laid down his life for us (3:16). The location of the crucifixion is a matter of tradition, but the church there is very old."
+    }
+   ],
+   "discussion": "John says to love “not in word or talk but in deed and in truth.” What is one practical way I can help someone this week?",
+   "book": "The first letter of John · 5 chapters. Plain, deep teaching about light, love, and assurance.",
+   "author": "John",
+   "genre": "Letter",
+   "audience": "Churches in Asia Minor",
+   "refNotes": {
+    "Genesis 4:1-8": "Cain and Abel",
+    "Leviticus 19:17": "Do not hate",
+    "Psalm 51:10": "A clean heart"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The children of God",
+     "d": "Called children now"
+    },
+    {
+     "n": "Cain",
+     "d": "The first murderer"
+    },
+    {
+     "n": "The devil",
+     "d": "Sins from the beginning"
+    },
+    {
+     "n": "Christ Jesus",
+     "d": "Laid down His life"
+    },
+    {
+     "n": "The readers of 1 John",
+     "d": "Told to love in deed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Children of God"
+    },
+    {
+     "when": "v.4-10",
+     "label": "Righteousness and sin"
+    },
+    {
+     "when": "v.11-18",
+     "label": "Love one another"
+    },
+    {
+     "when": "v.19-24",
+     "label": "Confidence before God"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cain_leadeth_abel_to_death_tissot.jpg",
+   "caption": "Cain leads Abel out to the field, by James Tissot, about 1896-1902. Hebrews 11:4 says that by faith Abel offered a better sacrifice than Cain, and 12:24 says the blood of Jesus speaks a better word than the blood of Abel.",
+   "credit": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golgotha_(Church_of_the_Holy_Sepulchre).jpg",
+   "caption": "The traditional site of Golgotha inside the Church of the Holy Sepulchre.",
+   "credit": "Photo: Wikimedia Commons"
+  }
+ }
+}

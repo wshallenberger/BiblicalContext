@@ -1,0 +1,270 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 16,
+  "title": "The Collection and Final Greetings",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "Now about the collection for the saints, you are to do as I directed the churches of Galatia:"
+    },
+    {
+      "num": 2,
+      "text": "On the first day of every week, each of you should set aside a portion of his income, saving it up, so that when I come no collections will be needed."
+    },
+    {
+      "num": 3,
+      "text": "Then, on my arrival, I will send letters with those you recommend to carry your gift to Jerusalem."
+    },
+    {
+      "num": 4,
+      "text": "And if it is advisable for me to go also, they can travel with me."
+    },
+    {
+      "num": 5,
+      "text": "After I go through Macedonia, however, I will come to you; for I will be going through Macedonia."
+    },
+    {
+      "num": 6,
+      "text": "Perhaps I will stay with you awhile, or even spend the winter, so that you can help me on my journey, wherever I go."
+    },
+    {
+      "num": 7,
+      "text": "For I do not want to see you now only in passing; I hope to spend some time with you, if the Lord permits."
+    },
+    {
+      "num": 8,
+      "text": "But I will stay in Ephesus until Pentecost,"
+    },
+    {
+      "num": 9,
+      "text": "because a great door for effective work has opened to me, even though many oppose me."
+    },
+    {
+      "num": 10,
+      "text": "If Timothy comes, see to it that he has nothing to fear while he is with you, for he is doing the work of the Lord, just as I am."
+    },
+    {
+      "num": 11,
+      "text": "No one, then, should treat him with contempt. Send him on his way in peace so that he can return to me, for I am expecting him along with the brothers."
+    },
+    {
+      "num": 12,
+      "text": "Now about our brother Apollos: I strongly urged him to go to you with the brothers. He was not at all inclined to go now, but he will go when he has the opportunity."
+    },
+    {
+      "num": 13,
+      "text": "Be on the alert. Stand firm in the faith. Be men of courage. Be strong."
+    },
+    {
+      "num": 14,
+      "text": "Do everything in love."
+    },
+    {
+      "num": 15,
+      "text": "You know that Stephanas and his household were the first converts in Achaia, and they have devoted themselves to the service of the saints. Now I urge you, brothers,"
+    },
+    {
+      "num": 16,
+      "text": "to submit to such as these, and to every fellow worker and laborer."
+    },
+    {
+      "num": 17,
+      "text": "I am glad that Stephanas, Fortunatus, and Achaicus have arrived, because they have supplied what was lacking from you."
+    },
+    {
+      "num": 18,
+      "text": "For they refreshed my spirit and yours as well. Show your appreciation, therefore, to such men."
+    },
+    {
+      "num": 19,
+      "text": "The churches in the province of Asia send you greetings. Aquila and Prisca greet you warmly in the Lord, and so does the church that meets at their house."
+    },
+    {
+      "num": 20,
+      "text": "All the brothers here send you greetings. Greet one another with a holy kiss."
+    },
+    {
+      "num": 21,
+      "text": "This greeting is in my own hand—Paul."
+    },
+    {
+      "num": 22,
+      "text": "If anyone does not love the Lord, let him be under a curse. Come, O Lord!"
+    },
+    {
+      "num": 23,
+      "text": "The grace of the Lord Jesus be with you."
+    },
+    {
+      "num": 24,
+      "text": "My love be with all of you in Christ Jesus. Amen."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "EPHESUS, WHERE PAUL WROTE",
+    "setting": "Paul ends with the collection for the poor Christians in Jerusalem, his travel plans, and greetings. He expects to stay in Ephesus until Pentecost and then to come to Corinth through Macedonia. He ends with a handwritten greeting and the word “Maranatha.”",
+    "custom": "Paul tells the Corinthians to set aside money on the first day of the week, probably the day of worship. The word “Maranatha” is Aramaic for “Our Lord, come!” or “Our Lord has come,” and it was preserved untranslated among Greek-speaking Christians.",
+    "timelineImmediate": "Paul wrote 2 Corinthians later, after more trouble and after meeting Titus in Macedonia.",
+    "timelineBible": "Paul ties his plans to the church calendar: Pentecost (v.8) was the feast of weeks. “Be on your guard, stand firm in the faith” echoes Joshua 1:6-9 and Psalm 31:24.",
+    "sparkNotes": "Paul tells them to save up a gift each week for the believers in Jerusalem. He plans to visit after traveling through Macedonia, but will stay in Ephesus for now because a great door has opened. He recommends Timothy and Apollos and greets them from Aquila and Priscilla and the churches of Asia. He writes the last lines himself.",
+    "translation": [
+      {
+        "english": "Maranatha",
+        "greek": "μαράνα θά (marana tha)",
+        "verseRef": "v.22",
+        "meaning": "An Aramaic phrase kept in Greek letters. It can mean “Our Lord, come!” and is a very old Christian prayer.",
+        "gloss": "Our Lord, come"
+      },
+      {
+        "english": "collection",
+        "greek": "λογεία (logeia)",
+        "verseRef": "v.1-2",
+        "meaning": "A rare word for a gathering of money for a religious or charitable purpose.",
+        "gloss": "A gathering of gifts"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Psalm 31:24",
+        "note": "“Be strong and take heart, all you who hope in the Lord.”"
+      },
+      {
+        "ref": "Joshua 1:9",
+        "note": "“Be strong and courageous.”"
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.9411,
+      "lng": 27.3419,
+      "zoom": 7,
+      "placeName": "Ephesus"
+    },
+    "overview": {
+      "summary": "Paul organizes a collection for Jerusalem, shares travel plans, and sends greetings. He ends with his own handwritten words and “Our Lord, come!”",
+      "settingLine": "Paul plans his next trip from Ephesus.",
+      "placeName": "Ephesus",
+      "history": [
+        {
+          "h": "The Jerusalem Collection",
+          "t": "Paul gathered money from the Gentile churches for Jerusalem’s poor and wanted to deliver it himself (Romans 15:25-27)."
+        },
+        {
+          "h": "Stephanas",
+          "t": "The first convert in Achaia (v.15), a household leader who served the church."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Weekly Offering",
+          "t": "Giving on “the first day of the week” (v.2) suggests that early Christians met on that day."
+        },
+        {
+          "h": "Holy Kiss",
+          "t": "A normal greeting for close family."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Ephesus Library of Celsus",
+          "t": "A grand building in Ephesus from a few decades after Paul, showing the city’s importance."
+        },
+        {
+          "h": "Temple of Artemis",
+          "t": "One of the Seven Wonders of the ancient world, located in Ephesus."
+        }
+      ],
+      "discussion": "Paul’s collection was a practical way of showing the unity of the church. How could I help in a concrete way someone in another community?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Psalm 31:24": "Be strong",
+        "Joshua 1:9": "Be strong and courageous"
+      },
+      "peoplePlaces": [
+        {
+          "n": "Paul",
+          "d": "Plans his journey"
+        },
+        {
+          "n": "Stephanas",
+          "d": "First converts of Achaia"
+        },
+        {
+          "n": "Timothy",
+          "d": "On his way to Corinth"
+        },
+        {
+          "n": "Apollos",
+          "d": "Not yet ready to come"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-4",
+          "label": "The collection"
+        },
+        {
+          "when": "v.5-12",
+          "label": "Travel plans"
+        },
+        {
+          "when": "v.13-18",
+          "label": "Final instructions"
+        },
+        {
+          "when": "v.19-24",
+          "label": "Greetings"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Ephesus",
+        "lat": 37.9411,
+        "lng": 27.3419,
+        "verses": [
+          8,
+          19
+        ],
+        "slug": "ephesus"
+      },
+      {
+        "name": "Macedonia",
+        "lat": 40.7,
+        "lng": 22.5,
+        "verses": [
+          5
+        ],
+        "slug": "macedonia"
+      },
+      {
+        "name": "Jerusalem",
+        "lat": 31.7767,
+        "lng": 35.2342,
+        "verses": [
+          3
+        ],
+        "slug": "jerusalem"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Paul_at_his_Writing-Desk,_by_Rembrandt.jpg",
+      "caption": "Saint Paul at his Writing Desk, by Rembrandt (about 1629-30). At the end of the letter Paul adds a greeting \"in my own hand\" (1 Corinthians 16:21).",
+      "credit": "Rembrandt (about 1629-30) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Theatre_of_Ephesus_2024.jpg",
+      "caption": "The Great Theater at Ephesus, which held some 24,000 people and is the setting of the riot of Acts 19:29-41.",
+      "credit": "Photo: Furkan Akkurt, CC BY-SA 4.0 / Wikimedia Commons"
+    }
+  }
+}

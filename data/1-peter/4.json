@@ -1,0 +1,249 @@
+{
+ "book": "1 Peter",
+ "chapter": 4,
+ "title": "Do Not Be Surprised by Fiery Trials",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Therefore, since Christ suffered in His body, arm yourselves with the same resolve, because anyone who has suffered in his body is done with sin."
+  },
+  {
+   "num": 2,
+   "text": "Consequently, he does not live out his remaining time on earth for human passions, but for the will of God."
+  },
+  {
+   "num": 3,
+   "text": "For you have spent enough time in the past carrying out the same desires as the Gentiles: living in debauchery, lust, drunkenness, orgies, carousing, and detestable idolatry."
+  },
+  {
+   "num": 4,
+   "text": "Because of this, they consider it strange of you not to plunge with them into the same flood of reckless indiscretion, and they heap abuse on you."
+  },
+  {
+   "num": 5,
+   "text": "But they will have to give an account to Him who is ready to judge the living and the dead."
+  },
+  {
+   "num": 6,
+   "text": "That is why the gospel was preached even to those who are now dead, so that they might be judged as men in the flesh, but live according to God in the spirit."
+  },
+  {
+   "num": 7,
+   "text": "The end of all things is near. Therefore be clear-minded and sober, so that you can pray."
+  },
+  {
+   "num": 8,
+   "text": "Above all, love one another deeply, because love covers over a multitude of sins."
+  },
+  {
+   "num": 9,
+   "text": "Show hospitality to one another without complaining."
+  },
+  {
+   "num": 10,
+   "text": "As good stewards of the manifold grace of God, each of you should use whatever gift he has received to serve one another."
+  },
+  {
+   "num": 11,
+   "text": "If anyone speaks, he should speak as one conveying the words of God. If anyone serves, he should serve with the strength God provides, so that in all things God may be glorified through Jesus Christ, to whom be the glory and the power forever and ever. Amen."
+  },
+  {
+   "num": 12,
+   "text": "Beloved, do not be surprised at the fiery trial that has come upon you, as though something strange were happening to you."
+  },
+  {
+   "num": 13,
+   "text": "But rejoice that you share in the sufferings of Christ, so that you may be overjoyed at the revelation of His glory."
+  },
+  {
+   "num": 14,
+   "text": "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests on you."
+  },
+  {
+   "num": 15,
+   "text": "Indeed, none of you should suffer as a murderer or thief or wrongdoer, or even as a meddler."
+  },
+  {
+   "num": 16,
+   "text": "But if you suffer as a Christian, do not be ashamed, but glorify God that you bear that name."
+  },
+  {
+   "num": 17,
+   "text": "For it is time for judgment to begin with the family of God; and if it begins with us, what will the outcome be for those who disobey the gospel of God?"
+  },
+  {
+   "num": 18,
+   "text": "And, \"If it is hard for the righteous to be saved, what will become of the ungodly and the sinner?\""
+  },
+  {
+   "num": 19,
+   "text": "So then, those who suffer according to God's will should entrust their souls to their faithful Creator and continue to do good."
+  }
+ ],
+ "context": {
+  "author": "Peter, an apostle of Jesus Christ (1:1). He writes with Silvanus, who may have been his secretary, the carrier of the letter, or both (5:12).",
+  "genre": "Letter of encouragement to suffering believers",
+  "audience": "Believers scattered across five Roman provinces in what is now Turkey (1:1). Verses such as 1:14, 1:18 and 4:3 suggest many were Gentiles by background, though Peter uses names once given to Israel.",
+  "mapLabel": "LIVING FOR GOD IN A HOSTILE WORLD",
+  "setting": "Since Christ suffered in the flesh, Peter urges believers to arm themselves with the same mind and stop living for human passions. Former friends are surprised that they no longer join in wild living. Fiery trials are not strange, but a share in Christ’s sufferings, and a cause for rejoicing.",
+  "custom": "Banquets, festivals and drinking parties were tied to the gods, and believers who stopped taking part were slandered. Peter says that the old friends think it strange (v.4). He also says judgment begins with the family of God (v.17), as in Ezekiel 9:6.",
+  "timelineImmediate": "Chapter 5 gives the final instructions to elders and the young.",
+  "timelineBible": "Love covers a multitude of sins (v.8) echoes Proverbs 10:12. Verse 18 quotes Proverbs 11:31 in its Greek form. The Spirit of glory (v.14) recalls Isaiah 11:2, and the fiery trial recalls the testing of gold in the furnace (1:7; Proverbs 17:3).",
+  "sparkNotes": "Arm yourselves with the same way of thinking, for whoever has suffered in the flesh has ceased from sin. The end of all things is at hand, so keep sane and sober. Above all, keep loving one another earnestly, since love covers a multitude of sins. Show hospitality without grumbling. Each has received a gift to serve others. Beloved, do not be surprised at the fiery trial, but rejoice insofar as you share Christ’s sufferings. If anyone suffers as a Christian, let him not be ashamed. Entrust your souls to a faithful Creator.",
+  "translation": [
+   {
+    "english": "fiery trial",
+    "greek": "πύρωσις (pyrōsis)",
+    "verseRef": "v.12",
+    "meaning": "A burning, as of a furnace to test metal.",
+    "gloss": "Burning"
+   },
+   {
+    "english": "Christian",
+    "greek": "Χριστιανός (Christianos)",
+    "verseRef": "v.16",
+    "meaning": "A follower of Christ, first used as a label by outsiders.",
+    "gloss": "Christ-follower"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Proverbs 10:12",
+    "note": "Love covers all offenses. Compare 4:8."
+   },
+   {
+    "ref": "Proverbs 11:31",
+    "note": "If the righteous are repaid on earth, how much more the wicked and the sinner? Quoted in 4:18 in its Greek form."
+   },
+   {
+    "ref": "Isaiah 11:2",
+    "note": "The Spirit of the Lord rests on the coming king. Compare the Spirit of glory in 4:14."
+   }
+  ],
+  "mapCoords": {
+   "lat": 38.5,
+   "lng": 28.0,
+   "zoom": 5,
+   "placeName": "Roman Asia"
+  },
+  "overview": {
+   "summary": "Believers live for God’s will, love one another, use their gifts, and are not surprised by fiery trials. Suffering as a Christian is a cause for glory.",
+   "settingLine": "Peter writes from “Babylon” to believers in Asia Minor.",
+   "placeName": "Roman Asia",
+   "history": [
+    {
+     "h": "The Name Christian",
+     "t": "The name appears only three times in the New Testament (Acts 11:26; 26:28; 1 Peter 4:16). Tacitus says the crowd in Rome used it by AD 64 (Annals 15.44), and Pliny asked Trajan how to treat people brought before him for the name alone (Letters 10.96). Whether Peter's readers faced courts or mostly abuse from their neighbors is debated."
+    },
+    {
+     "h": "Former Friends",
+     "t": "Peter says his readers once joined in debauchery, drunkenness and carousing (4:3), and that old friends now think it strange they will not and heap abuse on them (4:4). Meals and festivals were tied to the gods, so refusing to take part could look like disloyalty to friends and city."
+    },
+    {
+     "h": "Judgment Begins at the House of God",
+     "t": "Peter says judgment begins with the family of God (4:17). Ezekiel 9:6 says it begins at the sanctuary, and Peter backs his point with Proverbs 11:31 (4:18)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Drinking Parties and Processions",
+     "t": "Peter's list in 4:3 includes drunkenness and carousing. The Greek word for carousing (komos) was used for a noisy procession of revelers through the streets, often tied to a festival of a god."
+    },
+    {
+     "h": "Refiner's Fire",
+     "t": "The Greek word in 4:12 (purosis) means a burning, and the Greek Old Testament uses it of a refiner's furnace (Proverbs 27:21). Peter has already said that faith is tested like gold by fire (1:7)."
+    },
+    {
+     "h": "Hospitality",
+     "t": "Roman roadside inns had a poor reputation, so traveling Christians depended on believers' homes (see 3 John 5-8). Peter tells his readers to show hospitality to one another without grumbling (4:9)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Pliny's Letter to Trajan",
+     "t": "About AD 112 Pliny, governor of Bithynia and Pontus (two of Peter's provinces), wrote to the emperor about people accused of being Christians. He says they met before dawn, sang a hymn to Christ as to a god, and promised to avoid crime. The letter is about fifty years after the usual date of 1 Peter."
+    },
+    {
+     "h": "Banquet Scenes",
+     "t": "Frescoes from Pompeii show guests reclining on couches at banquets while slaves serve them. Peter's readers had once joined in such revelry, and their old friends were surprised when they stopped (4:3-4)."
+    },
+    {
+     "h": "Nero's Coins",
+     "t": "Coins show Nero as the young emperor in AD 54. The emperor is the king whom Peter tells believers to honor (2:17), and church tradition places Peter's death in Rome under Nero."
+    }
+   ],
+   "discussion": "Peter says to rejoice when we share in Christ’s sufferings. How do I respond when I am mocked or misunderstood for my faith?",
+   "book": "The first letter of Peter · 5 chapters. Encouragement to live as “exiles” with a living hope.",
+   "author": "Peter",
+   "genre": "Letter",
+   "audience": "Believers across Asia Minor",
+   "refNotes": {
+    "Proverbs 10:12": "Love covers",
+    "Proverbs 11:31": "Righteous scarcely saved",
+    "Isaiah 11:2": "Spirit of glory"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Believers",
+     "d": "Called to love and serve one another"
+    },
+    {
+     "n": "Former Friends",
+     "d": "Surprised at the change"
+    },
+    {
+     "n": "Christ",
+     "d": "Suffered first"
+    },
+    {
+     "n": "A Faithful Creator",
+     "d": "Guards those who suffer"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Live for God’s will"
+    },
+    {
+     "when": "v.7-11",
+     "label": "Love and serve"
+    },
+    {
+     "when": "v.12-19",
+     "label": "Fiery trials"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Roman Asia",
+    "lat": 38.5,
+    "lng": 28.0,
+    "verses": [],
+    "slug": "asia"
+   },
+   {
+    "name": "Bithynia and Pontus",
+    "lat": 40.6,
+    "lng": 31.3,
+    "verses": [],
+    "slug": "bithynia"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pliny_the_Younger_-_Como_-_Duomo_-_4.jpg",
+   "caption": "A statue of Pliny the Younger on the façade of Como cathedral, carved in the late 15th century. About AD 112 Pliny, governor of Bithynia and Pontus (two of the provinces Peter names), wrote to the emperor Trajan about people brought before him as Christians (Letters 10.96).",
+   "credit": "Howwi, CC BY-SA 3.0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ankara_Hac%C4%B1_Bayram_Mosque_Exterior_and_Augustus_Temple_in_2011_04.jpg",
+   "caption": "The Hacı Bayram Mosque in Ankara, with the Temple of Augustus and Rome beside it. Ankara is the modern city on the site of ancient Ancyra, a leading city of Galatia, one of the provinces Peter names (1:1). Peter names no town, so Ancyra is only an example of the kind of city his readers lived in.",
+   "credit": "Photo: Dosseman, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

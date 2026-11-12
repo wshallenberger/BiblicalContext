@@ -60,9 +60,14 @@
   function vOpts(n, cur, p, t) { var a = []; for (var i = 1; i <= n; i++) a.push([i, i]); return ph(t || 'v.', p) + opts(a, cur); }
   // small one-line selects: the little label sits inside the box, so a whole reference fits on one row
   function field(label, id, html, cls, off) { return '<label class="cmp-f' + (cls ? ' ' + cls : '') + (off ? ' off' : '') + '"><span>' + label + '</span><select id="' + id + '" aria-label="' + label + '"' + (off ? ' disabled' : '') + '>' + html + '</select></label>'; }
+  // Round 88: book and chapter are one button that opens the searchable drop-down (bcpick.js)
+  function passField(p, o) {
+    var lab = o.b && o.c ? Bk.name(o.b) + ' ' + o.c : (o.b ? Bk.name(o.b) : 'Book and chapter');
+    return '<div class="cmp-f bc"><button type="button" class="cmp-pass" data-pass="' + p + '" aria-haspopup="dialog" aria-expanded="false" aria-label="Choose a book and chapter">' + esc(lab) + '</button></div>';
+  }
   function refRow(p, o, verHtml, blank) {     // Book  Chapter : From - To  [Version]   (blank: nothing chosen yet, so empty placeholders)
     var hasB = !!o.b, hasC = !!(o.b && o.c);
-    return '<div class="cmp-ref-row' + (verHtml ? ' has-v' : '') + '">' + field('Book', p + 'b', bookOpts(o.b, blank), 'bk') + field('Chapter', p + 'c', chOpts(o.b, o.c, blank), 'ch', blank && !hasB) + '<i class="cmp-sep" aria-hidden="true">:</i>' +
+    return '<div class="cmp-ref-row' + (verHtml ? ' has-v' : '') + '">' + passField(p, o) + '<i class="cmp-sep" aria-hidden="true">:</i>' +
       field('From verse', p + 'f', hasC ? '' : '<option value="">v.</option>', 'vs', blank && !hasC) + '<i class="cmp-sep" aria-hidden="true">–</i>' + field('To verse', p + 't', hasC ? '' : '<option value="">v.</option>', 'vs', blank && !hasC) + (verHtml ? field('Version', p + 'v', verHtml, 'vr') : '') + '</div>';
   }
   function fix(o, n) { o.f = Math.min(Math.max(1, o.f | 0), n); o.t = Math.min(Math.max(o.f, o.t | 0), n); }
@@ -211,6 +216,11 @@
     } else if (a === 'diff') { st.tr.diff = !st.tr.diff; save(); drawTr(); }
     else if (a === 'shared') { st.cu.shared = !st.cu.shared; save(); drawCu(); }
     else if (a === 'swap') { var t = st.cu.a; st.cu.a = st.cu.b; st.cu.b = t; save(); drawCu(); }
+  });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.cmp-pass'); if (!b || !b.closest('#screen-parallels')) return;
+    var p = b.getAttribute('data-pass'), isT = p === 'cmpT', s = isT ? st.tr : (p === 'cmpa' ? st.cu.a : st.cu.b);
+    BCPick.open({ anchor: b, slug: s.b, chapter: s.c, onPick: function (bk, c) { s.b = bk; s.c = c; s.f = 1; s.t = 8; save(); if (isT) drawTr(); else drawCu(); } });
   });
   document.addEventListener('change', function (e) {
     var t = e.target; if (!t || !t.id || t.id.indexOf('cmp') !== 0 || !t.closest('#screen-parallels')) return;

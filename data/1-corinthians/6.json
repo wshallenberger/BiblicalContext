@@ -1,0 +1,238 @@
+{
+  "book": "1 Corinthians",
+  "chapter": 6,
+  "title": "Lawsuits and Your Body",
+  "translation": "BSB",
+  "verses": [
+    {
+      "num": 1,
+      "text": "If any of you has a grievance against another, how dare he go to law before the unrighteous instead of before the saints!"
+    },
+    {
+      "num": 2,
+      "text": "Do you not know that the saints will judge the world? And if you are to judge the world, are you not competent to judge trivial cases?"
+    },
+    {
+      "num": 3,
+      "text": "Do you not know that we will judge angels? How much more the things of this life!"
+    },
+    {
+      "num": 4,
+      "text": "So if you need to settle everyday matters, do you appoint as judges those of no standing in the church?"
+    },
+    {
+      "num": 5,
+      "text": "I say this to your shame. Is there really no one among you wise enough to arbitrate between his brothers?"
+    },
+    {
+      "num": 6,
+      "text": "Instead, one brother goes to law against another, and this in front of unbelievers!"
+    },
+    {
+      "num": 7,
+      "text": "The very fact that you have lawsuits among you means that you are thoroughly defeated already. Why not rather be wronged? Why not rather be cheated?"
+    },
+    {
+      "num": 8,
+      "text": "Instead, you yourselves cheat and do wrong, even against your own brothers!"
+    },
+    {
+      "num": 9,
+      "text": "Do you not know that the wicked will not inherit the kingdom of God? Do not be deceived: Neither the sexually immoral, nor idolaters, nor adulterers, nor men who submit to or perform homosexual acts,"
+    },
+    {
+      "num": 10,
+      "text": "nor thieves, nor the greedy, nor drunkards, nor verbal abusers, nor swindlers, will inherit the kingdom of God."
+    },
+    {
+      "num": 11,
+      "text": "And that is what some of you were. But you were washed, you were sanctified, you were justified, in the name of the Lord Jesus Christ and by the Spirit of our God."
+    },
+    {
+      "num": 12,
+      "text": "\"Everything is permissible for me,\" but not everything is beneficial. \"Everything is permissible for me,\" but I will not be mastered by anything."
+    },
+    {
+      "num": 13,
+      "text": "\"Food for the stomach and the stomach for food,\" but God will destroy them both. The body is not intended for sexual immorality, but for the Lord, and the Lord for the body."
+    },
+    {
+      "num": 14,
+      "text": "By His power God raised the Lord from the dead, and He will raise us also."
+    },
+    {
+      "num": 15,
+      "text": "Do you not know that your bodies are members of Christ? Shall I then take the members of Christ and unite them with a prostitute? Never!"
+    },
+    {
+      "num": 16,
+      "text": "Or don't you know that he who unites himself with a prostitute is one with her in body? For it is said, \"The two will become one flesh.\""
+    },
+    {
+      "num": 17,
+      "text": "But he who unites himself with the Lord is one with Him in spirit."
+    },
+    {
+      "num": 18,
+      "text": "Flee from sexual immorality. Every other sin a man can commit is outside his body, but he who sins sexually sins against his own body."
+    },
+    {
+      "num": 19,
+      "text": "Do you not know that your body is a temple of the Holy Spirit who is in you, whom you have received from God? You are not your own;"
+    },
+    {
+      "num": 20,
+      "text": "you were bought at a price. Therefore glorify God with your body."
+    }
+  ],
+  "context": {
+    "author": "Paul the apostle, with Sosthenes (1:1)",
+    "genre": "Letter, answering reports and questions point by point",
+    "audience": "The church in Corinth, founded by Paul a few years earlier",
+    "mapLabel": "CORINTH, A CHURCH THAT WENT TO COURT",
+    "setting": "Paul rebukes believers who sued each other in pagan courts and reminds them that saints will one day judge the world. Then he moves to sexual immorality: the Corinthians seem to have argued that the body does not matter. Paul says the body belongs to the Lord and is a temple of the Holy Spirit.",
+    "custom": "Roman courts favored the rich, and civil cases were often a way to shame a rival. Paul says believers should settle disputes within the church. “All things are lawful for me” was probably a Corinthian slogan he quotes, which he corrects.",
+    "timelineImmediate": "Chapter 7 starts answering the Corinthians’ written questions, beginning with marriage.",
+    "timelineBible": "“The two will become one flesh” (v.16) quotes Genesis 2:24. The idea of a body as a temple (v.19) builds on 3:16 and on Israel’s sanctuary, which is now the believer.",
+    "sparkNotes": "Paul asks how believers can sue each other before unbelievers, when they will judge the world. He lists those who will not inherit the kingdom, and adds, “that is what some of you were.” The body is for the Lord, and joining it to a prostitute is a union that denies that. Flee sexual immorality, because your body is a temple, and you were bought at a price.",
+    "translation": [
+      {
+        "english": "flee",
+        "greek": "φεύγετε (pheugete)",
+        "verseRef": "v.18",
+        "meaning": "A present command: keep running away. Joseph fled Potiphar’s wife (Genesis 39:12).",
+        "gloss": "Run away from"
+      },
+      {
+        "english": "bought",
+        "greek": "ἠγοράσθητε (ēgorasthēte)",
+        "verseRef": "v.20",
+        "meaning": "From the agora, the marketplace. Believers were purchased and now belong to a new master.",
+        "gloss": "Purchased at market"
+      }
+    ],
+    "gospelParallels": [],
+    "otBackground": [
+      {
+        "ref": "Genesis 2:24",
+        "note": "“The two will become one flesh,” quoted of union with a prostitute."
+      },
+      {
+        "ref": "Daniel 7:22",
+        "note": "The saints will judge, behind “the saints will judge the world.”"
+      },
+      {
+        "ref": "Leviticus 26:11-12",
+        "note": "God promises to live among his people."
+      }
+    ],
+    "mapCoords": {
+      "lat": 37.906,
+      "lng": 22.88,
+      "zoom": 7,
+      "placeName": "Corinth"
+    },
+    "overview": {
+      "summary": "Believers should not drag each other to pagan courts. Their bodies belong to the Lord and are temples of the Holy Spirit, so they flee sexual immorality.",
+      "settingLine": "Paul writes from Ephesus to the church in Corinth.",
+      "placeName": "Corinth",
+      "history": [
+        {
+          "h": "Roman Courts",
+          "t": "Judges were often corrupt, and the process favored the wealthy."
+        },
+        {
+          "h": "Slave Market",
+          "t": "Slaves were “bought with a price” in the market. Paul says Christ bought believers."
+        }
+      ],
+      "customs": [
+        {
+          "h": "Slogans",
+          "t": "Corinthians seem to have said “All things are lawful.” Paul quotes and qualifies it."
+        },
+        {
+          "h": "Food and Body",
+          "t": "Another slogan: “Food is for the stomach.” Paul answers that the body is for the Lord."
+        }
+      ],
+      "archaeology": [
+        {
+          "h": "Basilica at Corinth",
+          "t": "Excavated law courts in the forum were the sort of place these lawsuits would be heard."
+        },
+        {
+          "h": "Slave-Sale Receipts",
+          "t": "Papyri record sales of slaves and the price paid, behind Paul’s “bought with a price.”"
+        }
+      ],
+      "discussion": "Paul says “you are not your own.” What changes in how I treat my body, time, or money if I really believe I was bought and belong to God?",
+      "book": "The first letter to the Corinthians · 16 chapters. Paul’s answers to a lively and troubled church in a rich Greek port city.",
+      "author": "Paul",
+      "genre": "Letter",
+      "audience": "The church in Corinth",
+      "refNotes": {
+        "Genesis 2:24": "One flesh",
+        "Daniel 7:22": "Saints judge",
+        "Leviticus 26:11-12": "God’s dwelling"
+      },
+      "peoplePlaces": [
+        {
+          "n": "The Saints",
+          "d": "Will judge the world"
+        },
+        {
+          "n": "Believers",
+          "d": "Wrongly sue each other"
+        },
+        {
+          "n": "The Body",
+          "d": "A temple"
+        },
+        {
+          "n": "The Holy Spirit",
+          "d": "Lives in the believer"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "v.1-8",
+          "label": "Lawsuits"
+        },
+        {
+          "when": "v.9-11",
+          "label": "Who will not inherit"
+        },
+        {
+          "when": "v.12-17",
+          "label": "The body is for the Lord"
+        },
+        {
+          "when": "v.18-20",
+          "label": "Flee immorality"
+        }
+      ]
+    },
+    "biblePlaces": [
+      {
+        "name": "Corinth",
+        "lat": 37.906,
+        "lng": 22.88,
+        "verses": [],
+        "slug": "corinth"
+      }
+    ],
+    "biblePlacesCredit": "Place positions are approximate.",
+    "biblePlacesRadius": 0.8,
+    "historicalImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Last_Judgement_(Michelangelo).jpg",
+      "caption": "The Last Judgment, by Michelangelo (1536-41), in the Sistine Chapel. Paul asks, \"Do you not know that the saints will judge the world?\" (1 Corinthians 6:2).",
+      "credit": "Michelangelo (1536-41) / Wikimedia Commons"
+    },
+    "currentImage": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Corinth_-_Bema.jpg",
+      "caption": "The bema, a raised platform in Corinth's forum where officials judged cases, a likely setting for Paul's hearing before the proconsul Gallio (Acts 18:12-17).",
+      "credit": "Photo: Ploync, CC BY 3.0 / Wikimedia Commons"
+    }
+  }
+}

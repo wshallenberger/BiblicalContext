@@ -1,0 +1,217 @@
+{
+ "book": "Revelation",
+ "chapter": 8,
+ "title": "The First Trumpets",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "When the Lamb opened the seventh seal, there was silence in heaven for about half an hour."
+  },
+  {
+   "num": 2,
+   "text": "And I saw the seven angels who stand before God, and they were given seven trumpets."
+  },
+  {
+   "num": 3,
+   "text": "Then another angel, who had a golden censer, came and stood at the altar. He was given much incense to offer, along with the prayers of all the saints, on the golden altar before the throne."
+  },
+  {
+   "num": 4,
+   "text": "And the smoke of the incense, together with the prayers of the saints, rose up before God from the hand of the angel."
+  },
+  {
+   "num": 5,
+   "text": "Then the angel took the censer, filled it with fire from the altar, and hurled it to the earth; and there were peals of thunder, and rumblings, and flashes of lightning, and an earthquake."
+  },
+  {
+   "num": 6,
+   "text": "And the seven angels with the seven trumpets prepared to sound them."
+  },
+  {
+   "num": 7,
+   "text": "Then the first angel sounded his trumpet, and hail and fire mixed with blood were hurled down upon the earth. A third of the earth was burned up, along with a third of the trees and all the green grass."
+  },
+  {
+   "num": 8,
+   "text": "Then the second angel sounded his trumpet, and something like a great mountain burning with fire was thrown into the sea. A third of the sea turned to blood,"
+  },
+  {
+   "num": 9,
+   "text": "a third of the living creatures in the sea died, and a third of the ships were destroyed."
+  },
+  {
+   "num": 10,
+   "text": "Then the third angel sounded his trumpet, and a great star burning like a torch fell from heaven and landed on a third of the rivers and on the springs of water."
+  },
+  {
+   "num": 11,
+   "text": "The name of the star is Wormwood. A third of the waters turned bitter like wormwood oil, and many people died from the bitter waters."
+  },
+  {
+   "num": 12,
+   "text": "Then the fourth angel sounded his trumpet, and a third of the sun and moon and stars were struck. A third of the stars were darkened, a third of the day was without light, and a third of the night as well."
+  },
+  {
+   "num": 13,
+   "text": "And as I observed, I heard an eagle flying overhead, calling in a loud voice, \"Woe! Woe! Woe to those who dwell on the earth, because of the trumpet blasts about to be sounded by the remaining three angels!\""
+  }
+ ],
+ "context": {
+  "author": "John, who was on the island of Patmos (1:1, 4, 9); traditionally the apostle John",
+  "genre": "Apocalypse, prophecy, and letter, full of symbols and visions",
+  "audience": "Seven churches in the Roman province of Asia",
+  "mapLabel": "THE SEVENTH SEAL AND TRUMPETS",
+  "setting": "When the Lamb opens the seventh seal, there is silence in heaven for about half an hour. Then seven angels are given seven trumpets. An angel with a golden censer offers incense with the prayers of the saints. The first four trumpets strike a third of the land, sea, rivers, and sky.",
+  "custom": "Trumpets signaled the arrival of God’s presence at Sinai and called armies to battle. The plagues echo the plagues of Egypt, in which God judged Pharaoh to free his people. Wormwood is a bitter plant.",
+  "timelineImmediate": "Chapter 9 continues with the fifth and sixth trumpets.",
+  "timelineBible": "The first four trumpets echo the plagues of hail and fire, blood, darkness (Exodus 7-10). The star Wormwood draws on Jeremiah 9:15 and 23:15.",
+  "translation": [
+   {
+    "english": "censer",
+    "greek": "λιβανωτόν (libanōton)",
+    "verseRef": "v.3",
+    "meaning": "A vessel for burning incense.",
+    "gloss": "Incense burner"
+   },
+   {
+    "english": "wormwood",
+    "greek": "ἄψινθος (apsinthos)",
+    "verseRef": "v.11",
+    "meaning": "A bitter plant, used as a picture of sorrow and judgment.",
+    "gloss": "Bitter herb"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Exodus 9:22-26",
+    "note": "The plague of hail and fire."
+   },
+   {
+    "ref": "Exodus 7:20",
+    "note": "The Nile turned to blood."
+   },
+   {
+    "ref": "Jeremiah 9:15",
+    "note": "Wormwood and poisoned water."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.309,
+   "lng": 26.546,
+   "zoom": 9,
+   "placeName": "Patmos"
+  },
+  "overview": {
+   "summary": "After a heavenly silence and the prayers of the saints, the first four trumpets bring plagues upon a third of the earth, sea, waters, and heavens.",
+   "settingLine": "Silence in heaven, then trumpets.",
+   "placeName": "Patmos",
+   "history": [
+    {
+     "h": "Exodus Plagues",
+     "t": "Hail, water turned to blood, and darkness were Egyptian plagues."
+    },
+    {
+     "h": "Vesuvius",
+     "t": "The eruption in AD 79 may have shaped imagery."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Incense",
+     "t": "Offered at the altar before the Lord."
+    },
+    {
+     "h": "Trumpet",
+     "t": "Used for war and worship."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Temple Incense Altar",
+     "t": "Reconstructions of the golden altar."
+    },
+    {
+     "h": "Shofar Horns",
+     "t": "Rams’ horns from Jewish tradition."
+    },
+    {
+     "h": "Incense Altars",
+     "t": "Small horned incense altars have been found at many sites in Israel. In Revelation 8:3-5 an angel offers incense with the prayers of the saints at the golden altar before the throne."
+    }
+   ],
+   "discussion": "The prayers of the saints rise like incense before God. How do I think of my own prayers in light of this image?",
+   "book": "The book of Revelation · 22 chapters. A vision of Christ, judgment, and the new creation, written to encourage persecuted believers.",
+   "author": "John",
+   "genre": "Apocalypse",
+   "audience": "Seven churches in Asia",
+   "refNotes": {
+    "Exodus 9:22-26": "Hail and fire",
+    "Exodus 7:20": "Water turned to blood",
+    "Jeremiah 9:15": "Wormwood"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Lamb",
+     "d": "Opens the seventh seal"
+    },
+    {
+     "n": "Seven Angels",
+     "d": "Blow the trumpets"
+    },
+    {
+     "n": "The Saints",
+     "d": "Their prayers rise"
+    },
+    {
+     "n": "The Earth",
+     "d": "Struck in part"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Silence and incense"
+    },
+    {
+     "when": "v.6-9",
+     "label": "First and second trumpets"
+    },
+    {
+     "when": "v.10-13",
+     "label": "Third and fourth trumpets"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Patmos",
+    "lat": 37.309,
+    "lng": 26.546,
+    "verses": [],
+    "slug": "patmos"
+   },
+   {
+    "name": "Egypt",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "verses": [],
+    "slug": "egypt"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "When the Lamb opened the seventh seal, there was silence in heaven for about half an hour. Then another angel, who had a golden censer, came and stood at the altar. He was given much incense to offer, along with the prayers of all the saints, on the golden altar before the throne. And the seven angels with the seven trumpets prepared to sound them. And as I observed, I heard an eagle flying overhead, calling in a loud voice, Woe! Woe! Woe to those who dwell on the earth, because of the trumpet blasts about to be sounded by the remaining three angels!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer,_The_Seven_Angels_with_the_Trumpets,_probably_c._1496-1498,_NGA_850.jpg",
+   "caption": "The Seven Angels with the Trumpets, from Dürer’s Apocalypse: the angels receive their trumpets before God while an angel offers incense at the altar and the first plagues fall on the earth (Revelation 8).",
+   "credit": "Albrecht Dürer (1498), National Gallery of Art, Washington, CC0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patmos,_Monastery_of_Saint_John.JPG",
+   "caption": "The fortified Monastery of St John the Theologian on the hilltop of Patmos, founded by the monk Christodoulos in 1088. John says he was on Patmos “because of the word of God and my testimony about Jesus” (Revelation 1:9).",
+   "credit": "Photo: Odysses, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

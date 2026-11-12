@@ -1,0 +1,210 @@
+{
+ "book": "Hebrews",
+ "chapter": 5,
+ "title": "A Priest in the Order of Melchizedek",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Every high priest is appointed from among men to represent them in matters relating to God, to offer gifts and sacrifices for sins."
+  },
+  {
+   "num": 2,
+   "text": "He is able to deal gently with those who are ignorant and misguided, since he himself is beset by weakness."
+  },
+  {
+   "num": 3,
+   "text": "That is why he is obligated to offer sacrifices for his own sins, as well as for the sins of the people."
+  },
+  {
+   "num": 4,
+   "text": "No one takes this honor upon himself; he must be called by God, just as Aaron was."
+  },
+  {
+   "num": 5,
+   "text": "So also Christ did not take upon Himself the glory of becoming a high priest, but He was called by the One who said to Him: \"You are My Son; today I have become Your Father.\""
+  },
+  {
+   "num": 6,
+   "text": "And in another passage God says: \"You are a priest forever in the order of Melchizedek.\""
+  },
+  {
+   "num": 7,
+   "text": "During the days of Jesus' earthly life, He offered up prayers and petitions with loud cries and tears to the One who could save Him from death, and He was heard because of His reverence."
+  },
+  {
+   "num": 8,
+   "text": "Although He was a Son, He learned obedience from what He suffered."
+  },
+  {
+   "num": 9,
+   "text": "And having been made perfect, He became the source of eternal salvation to all who obey Him"
+  },
+  {
+   "num": 10,
+   "text": "and was designated by God as high priest in the order of Melchizedek."
+  },
+  {
+   "num": 11,
+   "text": "We have much to say about this, but it is hard to explain, because you are dull of hearing."
+  },
+  {
+   "num": 12,
+   "text": "Although by this time you ought to be teachers, you need someone to reteach you the basic principles of God's word. You need milk, not solid food!"
+  },
+  {
+   "num": 13,
+   "text": "For everyone who lives on milk is still an infant, inexperienced in the message of righteousness."
+  },
+  {
+   "num": 14,
+   "text": "But solid food is for the mature, who by constant use have trained their senses to distinguish good from evil."
+  }
+ ],
+ "context": {
+  "author": "Unknown. The letter does not name its author. Paul, Barnabas, Apollos, and others have been suggested.",
+  "genre": "A sermon in letter form, rich with Old Testament quotations",
+  "audience": "Jewish Christians tempted to go back to old patterns under pressure",
+  "mapLabel": "THE HIGH PRIEST’S ROLE",
+  "setting": "The writer describes what a high priest does: represents people before God, offers gifts and sacrifices, deals gently with the ignorant, and is called by God. Jesus fits and surpasses this role. He learned obedience through suffering and is called a priest forever after the order of Melchizedek. Then the writer rebukes the readers for being slow to grow.",
+  "custom": "Aaron's priests came from one family line. Melchizedek (Genesis 14) appears in Scripture without a genealogy, which is why Hebrews uses him as the picture of a priesthood that does not rest on ancestry (7:3, 15-17).",
+  "timelineImmediate": "Chapter 6 urges the readers to move on to maturity.",
+  "timelineBible": "Psalm 110:4 (\"You are a priest forever in the order of Melchizedek\") is the key text. Psalm 2:7 is quoted again.",
+  "sparkNotes": "Every high priest is chosen from among men and appointed to offer gifts and sacrifices, and he can deal gently because he is beset by weakness. No one takes this honor himself. So Christ did not exalt himself but was called by God. In the days of his flesh, Jesus offered up prayers with loud cries and tears. Although a Son, he learned obedience through what he suffered. You need milk, not solid food. Solid food is for the mature.",
+  "translation": [
+   {
+    "english": "perfect",
+    "greek": "τελειωθεὶς (teleiōtheis)",
+    "verseRef": "v.9",
+    "meaning": "Brought to completion or fitted for his role. It does not imply he had flaws.",
+    "gloss": "Completed"
+   },
+   {
+    "english": "mature",
+    "greek": "τελείων (teleiōn)",
+    "verseRef": "v.14",
+    "meaning": "Fully grown, adult.",
+    "gloss": "Full-grown"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Psalm 110:4",
+    "note": "Quoted in 5:6 and 7:17: \"You are a priest forever in the order of Melchizedek.\""
+   },
+   {
+    "ref": "Psalm 2:7",
+    "note": "God calls the king his Son and says he has become his Father (quoted in 1:5 and 5:5)."
+   },
+   {
+    "ref": "Leviticus 16",
+    "note": "The Day of Atonement."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7767,
+   "lng": 35.2342,
+   "zoom": 6,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Jesus is a high priest called by God and made perfect through suffering, a priest forever in the order of Melchizedek. The readers need to grow up.",
+   "settingLine": "Jesus as high priest.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The Day of Atonement",
+     "t": "Once a year the high priest entered the Holy of Holies with blood, first for himself and then for the people (Leviticus 16). Hebrews 5:3 says he had to offer for his own sins too."
+    },
+    {
+     "h": "Jesus' Prayers",
+     "t": "Verse 7 speaks of prayers \"with loud cries and tears\" in the days of his flesh. Many readers connect this with Gethsemane (Mark 14:32-42), though the letter does not name the place."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Milk and Solid Food",
+     "t": "A picture of infants and adults."
+    },
+    {
+     "h": "Called by God",
+     "t": "Priests did not choose their office."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Upper City of Jerusalem",
+     "t": "Excavations in Jerusalem's Upper City uncovered large, richly decorated houses from the time of Herod, some probably owned by priestly families. A stone weight in the Burnt House is inscribed \"of bar Kathros,\" the name of a priestly family known from the Talmud."
+    },
+    {
+     "h": "The Caiaphas Ossuary",
+     "t": "An ossuary inscribed \"Yehosef bar Qafa\" was found in 1990 in a tomb south of the Old City. Many scholars identify the man as Joseph Caiaphas, the high priest from AD 18 to 36."
+    }
+   ],
+   "discussion": "The writer says it was through suffering that Jesus learned obedience. What have I learned through hard things that I could not have learned otherwise?",
+   "book": "The letter to the Hebrews · 13 chapters. A polished sermon showing that Jesus fulfills and surpasses the old covenant.",
+   "author": "Unknown",
+   "genre": "Sermon-letter",
+   "audience": "Jewish Christians under pressure",
+   "refNotes": {
+    "Psalm 110:4": "Priest forever",
+    "Psalm 2:7": "You are my Son",
+    "Leviticus 16": "The Day of Atonement"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The High Priest",
+     "d": "Represents the people"
+    },
+    {
+     "n": "Jesus",
+     "d": "Priest forever"
+    },
+    {
+     "n": "Melchizedek",
+     "d": "The model priest-king"
+    },
+    {
+     "n": "The Readers",
+     "d": "Dull of hearing"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "What a high priest is"
+    },
+    {
+     "when": "v.5-10",
+     "label": "Jesus the priest"
+    },
+    {
+     "when": "v.11-14",
+     "label": "Milk or solid food"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7767,
+    "lng": 35.2342,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tissot_Drawing_147_The_costume_of_the_high_priest_(Exodus_28_4)_for_Brunoff_137_Le_costume_du_Grand-Pr%C3%A9tre.jpg",
+   "caption": "The high priest's clothing from Exodus 28, as imagined by the French artist James Tissot in a pen-and-ink sketch of about 1900. It is a modern artist's picture, not an archaeological find. Hebrews 5:1-4 and 7:26-28 compare Jesus with the high priests of Israel, who were chosen from among men, were weak themselves, and had to offer sacrifices for their own sins too.",
+   "credit": "James Tissot (about 1900), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem_Garten_Gethsemane_Garden_of_Gethsemane_(34936848792).jpg",
+   "caption": "Old olive trees at Gethsemane on the Mount of Olives. Hebrews 5:7 speaks of Jesus offering prayers \"with loud cries and tears\" in the days of his flesh. Many readers connect this with Gethsemane, though the letter does not name the place.",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

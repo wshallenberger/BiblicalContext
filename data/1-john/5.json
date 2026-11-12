@@ -1,0 +1,267 @@
+{
+ "book": "1 John",
+ "chapter": 5,
+ "title": "Faith That Overcomes",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the Father also loves those born of Him."
+  },
+  {
+   "num": 2,
+   "text": "By this we know that we love the children of God: when we love God and keep His commandments."
+  },
+  {
+   "num": 3,
+   "text": "For this is the love of God, that we keep His commandments. And His commandments are not burdensome,"
+  },
+  {
+   "num": 4,
+   "text": "because everyone born of God overcomes the world. And this is the victory that has overcome the world: our faith."
+  },
+  {
+   "num": 5,
+   "text": "Who then overcomes the world? Only he who believes that Jesus is the Son of God."
+  },
+  {
+   "num": 6,
+   "text": "This is the One who came by water and blood, Jesus Christ—not by water alone, but by water and blood. And it is the Spirit who testifies to this, because the Spirit is the truth."
+  },
+  {
+   "num": 7,
+   "text": "For there are three that testify:"
+  },
+  {
+   "num": 8,
+   "text": "the Spirit, the water, and the blood—and these three are in agreement."
+  },
+  {
+   "num": 9,
+   "text": "Even if we accept human testimony, the testimony of God is greater. For this is the testimony that God has given about His Son."
+  },
+  {
+   "num": 10,
+   "text": "Whoever believes in the Son of God has this testimony within him; whoever does not believe God has made Him out to be a liar, because he has not believed in the testimony that God has given about His Son."
+  },
+  {
+   "num": 11,
+   "text": "And this is that testimony: God has given us eternal life, and this life is in His Son."
+  },
+  {
+   "num": 12,
+   "text": "Whoever has the Son has life; whoever does not have the Son of God does not have life."
+  },
+  {
+   "num": 13,
+   "text": "I have written these things to you who believe in the name of the Son of God, so that you may know that you have eternal life."
+  },
+  {
+   "num": 14,
+   "text": "And this is the confidence that we have before Him: If we ask anything according to His will, He hears us."
+  },
+  {
+   "num": 15,
+   "text": "And if we know that He hears us in whatever we ask, we know that we already possess what we have asked of Him."
+  },
+  {
+   "num": 16,
+   "text": "If anyone sees his brother committing a sin not leading to death, he should ask God, who will give life to those who commit this kind of sin. There is a sin that leads to death; I am not saying he should ask regarding that sin."
+  },
+  {
+   "num": 17,
+   "text": "All unrighteousness is sin, yet there is sin that does not lead to death."
+  },
+  {
+   "num": 18,
+   "text": "We know that anyone born of God does not keep on sinning; the One who was born of God protects him, and the evil one cannot touch him."
+  },
+  {
+   "num": 19,
+   "text": "We know that we are of God, and that the whole world is under the power of the evil one."
+  },
+  {
+   "num": 20,
+   "text": "And we know that the Son of God has come and has given us understanding, so that we may know Him who is true; and we are in Him who is true—in His Son Jesus Christ. He is the true God and eternal life."
+  },
+  {
+   "num": 21,
+   "text": "Little children, keep yourselves from idols."
+  }
+ ],
+ "context": {
+  "author": "The same unnamed writer, called John by early tradition.",
+  "genre": "Pastoral letter or sermon without a formal greeting or ending",
+  "audience": "Those who believe in the name of the Son of God (5:13).",
+  "mapLabel": "ETERNAL LIFE IN THE SON",
+  "setting": "John ties together love, obedience, and faith. Everyone who believes that Jesus is the Christ has been born of God, and whoever has been born of God overcomes the world. The letter ends with its purpose: that you may know that you have eternal life, and with confidence in prayer and a warning against idols.",
+  "custom": "“Water and blood” (5:6) may refer to Jesus’s baptism and death, or to the water and blood from his side (John 19:34). Two or three witnesses were needed in Israel (Deuteronomy 19:15), and John gives three (5:7-8). The “sin that leads to death” (5:16) is a debated phrase, and some compare it with the sin with a high hand in Numbers 15:30-31. The warning about idols (5:21) would have been vivid in Ephesus.",
+  "timelineImmediate": "The letter ends. 2 John and 3 John follow as short letters from the elder.",
+  "timelineBible": "Overcoming the world (5:4-5) recalls John 16:33. Water and blood recall John 19:34-35, the witness of three recalls Deuteronomy 19:15, and 5:13 restates the purpose of John 20:31.",
+  "sparkNotes": "Everyone who believes that Jesus is the Christ has been born of God. This is the love of God, that we keep his commandments. For whatever is born of God overcomes the world. This is the victory that has overcome the world: our faith. God has given us eternal life, and this life is in his Son. Whoever has the Son has life. I write these things to you who believe in the name of the Son of God that you may know that you have eternal life. If we ask anything according to his will, he hears us. Little children, keep yourselves from idols.",
+  "translation": [
+   {
+    "english": "overcomes",
+    "greek": "νικᾷ (nika)",
+    "verseRef": "v.4-5",
+    "meaning": "Conquers, wins. The noun nikē (victory) is used in v.4.",
+    "gloss": "Conquers"
+   },
+   {
+    "english": "know",
+    "greek": "εἰδῆτε (eidēte)",
+    "verseRef": "v.13",
+    "meaning": "To know by seeing, with certainty.",
+    "gloss": "Know for sure"
+   }
+  ],
+  "gospelParallels": [],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 19:15",
+    "note": "Two or three witnesses."
+   },
+   {
+    "ref": "Numbers 15:30",
+    "note": "Defiant sin."
+   },
+   {
+    "ref": "Psalm 66:18",
+    "note": "If I regard iniquity, the Lord will not hear."
+   }
+  ],
+  "mapCoords": {
+   "lat": 37.9411,
+   "lng": 27.3419,
+   "zoom": 7,
+   "placeName": "Ephesus"
+  },
+  "overview": {
+   "summary": "Faith in Jesus overcomes the world. God’s gift is eternal life in his Son, and believers can know they have it.",
+   "settingLine": "John writes to the churches he cares for.",
+   "placeName": "Ephesus",
+   "history": [
+    {
+     "h": "Water and Blood",
+     "t": "Verse 6 says Jesus Christ came by water and by blood, not by water only. Commentators take water as his baptism and blood as his death. Irenaeus reports that Cerinthus taught that the Christ came down on Jesus at his baptism and left before his suffering, which would fit a denial of the blood. Whether the teachers behind this letter held that view is an inference."
+    },
+    {
+     "h": "The Added Words in 5:7-8",
+     "t": "Older English Bibles have extra words in 5:7-8 about the Father, the Word and the Holy Spirit in heaven. These words, called the Comma Johanneum, are in some Latin manuscripts but in no early Greek manuscript. Erasmus left them out in 1516 and 1519 and printed them in 1522 after being shown a Greek manuscript that had them, which many scholars think was copied to fit."
+    },
+    {
+     "h": "Idols and the Emperor",
+     "t": "The last words tell the readers to keep themselves from idols (5:21). Ephesus had the great Temple of Artemis, many shrines, and from about AD 89-90 a temple for the emperor Domitian and his family. The letter does not name a god, so the warning is general."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Two or Three Witnesses",
+     "t": "A matter was settled in Israel on the word of two or three witnesses (Deuteronomy 19:15). John gives three witnesses to Jesus: the Spirit, the water and the blood (5:7-8), and adds that the testimony of God is greater than that of men (5:9)."
+    },
+    {
+     "h": "Confidence in Prayer",
+     "t": "Confidence here is the same word as boldness (parrhesia, 4:17). The readers can ask according to God’s will and know that He hears them (5:14-15)."
+    },
+    {
+     "h": "The Sin That Leads to Death",
+     "t": "Verses 16-17 tell the readers to pray for a brother who sins a sin not leading to death, and say there is a sin that leads to death. The letter does not say what it is. Some compare Numbers 15:30-31, where deliberate sin against the LORD could not be atoned for by a sacrifice, and others think of the denial of Christ by the teachers who left."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Codex Montfortianus",
+     "t": "Codex Montfortianus is a Greek manuscript in Trinity College, Dublin, copied about 1520 by a Franciscan friar. It has the Comma Johanneum in 1 John 5:7-8. Because no earlier Greek manuscript has the words, scholars suspect it was copied from the Latin."
+    },
+    {
+     "h": "The Temple of the Sebastoi at Ephesus",
+     "t": "The Temple of the Sebastoi stood above the city center at Ephesus and was dedicated about AD 89-90 to the emperor Domitian and his family. It made Ephesus a keeper of an imperial temple, so the city that John’s tradition names also had emperor worship."
+    },
+    {
+     "h": "Papyri of the Gospel of John",
+     "t": "Papyrus 52 (a scrap with John 18, usually dated to the 2nd century) and Papyrus 66 (large parts of the Gospel, about AD 200) show how early the Gospel of John was copied. 1 John 5:13 echoes the purpose of John 20:31, with “that you may know” in place of “that you may believe.”"
+    }
+   ],
+   "discussion": "John says he writes so that we may know we have eternal life. How would my days differ if I lived from that assurance?",
+   "book": "The first letter of John · 5 chapters. Plain, deep teaching about light, love, and assurance.",
+   "author": "John",
+   "genre": "Letter",
+   "audience": "Churches in Asia Minor",
+   "refNotes": {
+    "Deuteronomy 19:15": "Two or three witnesses",
+    "Numbers 15:30": "Defiant sin",
+    "Psalm 66:18": "Prayer and sin"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Christ Jesus",
+     "d": "The Son of God who came by water and blood"
+    },
+    {
+     "n": "The Holy Spirit",
+     "d": "The Spirit who testifies"
+    },
+    {
+     "n": "The children of God",
+     "d": "Born of God, they overcome the world"
+    },
+    {
+     "n": "The writer of 1 John",
+     "d": "Writes so that you may know"
+    },
+    {
+     "n": "The readers of 1 John",
+     "d": "Told to keep from idols"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Faith overcomes"
+    },
+    {
+     "when": "v.6-12",
+     "label": "Witness and life"
+    },
+    {
+     "when": "v.13-15",
+     "label": "Know and ask"
+    },
+    {
+     "when": "v.16-21",
+     "label": "Final words"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ephesus",
+    "lat": 37.9411,
+    "lng": 27.3419,
+    "verses": [],
+    "slug": "ephesus"
+   },
+   {
+    "name": "Jordan",
+    "lat": 31.76,
+    "lng": 35.56,
+    "verses": [
+     6
+    ],
+    "slug": "jordan"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cod._Montfortianus_p_434_r_1_John_5_Comma.jpg",
+   "caption": "A page of Codex Montfortianus (Trinity College, Dublin), a Greek manuscript copied about 1520 that has the extra words in 1 John 5:7-8 about the Father, the Word and the Holy Spirit in heaven. The words are not in the early Greek manuscripts, and the Berean Standard Bible leaves them out. They were printed in Erasmus’s third edition (1522).",
+   "credit": "Monk Le Froy (about 1520), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baptism_Site_of_Jesus_Christ_JO_10.JPG",
+   "caption": "Al-Maghtas in Jordan, a traditional baptism site on the east bank of the Jordan, with excavated churches and pools.",
+   "credit": "Photo: Wikimedia Commons"
+  }
+ }
+}
