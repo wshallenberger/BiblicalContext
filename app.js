@@ -5298,7 +5298,7 @@ const tourMfOpen = (sel, only) => {
   } catch (e) {}
 };
 const TOUR_MAIN = [
-  { kind: 'welcome' },
+  { kind: 'welcome', cls: 'twelc' },
   { n: 1, t: 'What this app is for', res: true, pos: 'center',
     b: 'Four places to start, whatever you are looking for:' },
   { n: 2, t: 'The five round buttons', target: ['#navBtnBook', '#navBtnStudy', '.nav-btn-center', '#navBtnVisualize', '#navBtnMore'], pos: 'above', next: 'Next', cls: 'five',
@@ -5405,7 +5405,7 @@ function tourRender() {
   card.className = 'tcard' + (tour.min ? ' min' : '') + (s.res ? ' res' : '') + (s.sm ? ' sm' : '') + (s.side ? ' side' : '') + (s.cls ? ' ' + s.cls : '');
   let html;
   if (s.kind === 'welcome') {
-    html = '<p class="tk">WELCOME</p><h3>Want a quick tour?</h3><p>This is a Bible study companion. Read the four Gospels, then go deeper with translations, the original Greek, commentary, maps, timelines and more.</p><p class="tsub">The tour takes about two minutes.</p><div class="tfoot"><button type="button" class="tskip" data-a="skip">Not now</button><button type="button" class="tgo" data-a="next">Yes, show me around</button></div>';
+    html = '<p class="tk">WELCOME TO DAILY BUTTER</p><img class="tlogo" src="images/brand/logo.png" width="560" height="346" alt="Daily Butter: to add on to your daily bread"><p class="twel">God provides us with our daily bread. This Bible study companion is here to help you Read, Study and Visualize the Word in a way that draws you closer to Him.</p><h3 class="twq">Want a quick tour?</h3><p class="tsub">The tour takes about two minutes.</p><div class="tfoot"><button type="button" class="tskip" data-a="skip">Not now</button><button type="button" class="tgo" data-a="next">Yes, show me around</button></div>';
   } else if (tour.min) {
     const nx = s.next || s.finish ? `<button type="button" class="tgo sm" data-a="${s.finish ? 'finish' : 'next'}">${s.finish ? 'Finish' : (s.next === 'Continue the tour' ? 'Continue' : 'Next')}</button>` : '';
     html = `<div class="tpillrow"><button type="button" class="tpill" data-a="expand">${s.side ? 'Map guide' : (s.hint || s.t)}</button>${nx}</div>`;
