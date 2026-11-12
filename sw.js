@@ -9,7 +9,7 @@ const SHELL = 'vi-shell-' + VER;
 const DATA = 'vi-data';                     // chapters and pictures; survives updates; this is what "Download for offline use" fills
 const CDN = ['fonts.googleapis.com', 'fonts.gstatic.com', 'unpkg.com'];
 const SHELL_FILES = ['./', 'index.html', 'books.js', 'bcpick.js', 'app.js', 'settings.js', 'music.js', 'saved.js', 'plans.js', 'search.js', 'parallels.js', 'compare.js', 'genealogy.js', 'commentary.js', 'glossary.js', 'home.js', 'vtrans.js', 'translations.js', 'pwa.js', 'manifest.webmanifest',
-  'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'images/brand/logo.png',
+  'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'images/brand/logo.png', 'images/brand/logo-dark.png',
   'data/translations/registry.json', 'data/manifest.json'];
 
 self.addEventListener('install', e => {

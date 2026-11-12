@@ -2996,6 +2996,11 @@
   .mu-links{ display:flex; flex-direction:column; gap:7px; }
   .mu-links a{ display:block; text-align:center; text-decoration:none; padding:11px; border-radius:10px; background:var(--gold); color:var(--on-gold); font:600 13px 'IBM Plex Sans',sans-serif; }
   .mu-links a.alt{ background:none; border:1px solid var(--line); color:var(--parchment); }
+  .more-brand{ margin:28px auto 8px; width:min(190px, 60%); }
+  .more-brand img{ display:block; width:100%; height:auto; }
+  .more-brand .mb-dark{ display:none; }
+  html[data-theme="dark"] .more-brand .mb-light{ display:none; }
+  html[data-theme="dark"] .more-brand .mb-dark{ display:block; }
   .st-foot{ text-align:center; margin:14px 0 0; font:10px 'IBM Plex Mono',monospace; letter-spacing:.08em; color:var(--parchment-dim); opacity:.7; }
 
   /* ---------- Bible versions (vtrans.js) ---------- */
@@ -4584,6 +4589,7 @@
             <span class="more-t"><b>Settings</b><i>Look, commentary voices, offline use.</i></span><em>›</em>
           </button>
          </section>
+         <div class="more-brand"><img class="mb-light" src="images/brand/logo.png" width="560" height="346" alt="Daily Butter: to add on to your daily bread"><img class="mb-dark" src="images/brand/logo-dark.png" width="560" height="346" alt="Daily Butter: to add on to your daily bread"></div>
        </div>
      </div>
 
