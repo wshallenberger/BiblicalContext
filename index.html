@@ -4001,6 +4001,13 @@
   .phone:not(.nav-reserve) .screen-area :is(.st-wrap, .reader, .nav-list, .dh-scroll, .folder-content, .harmony-pane){ padding-bottom:calc(var(--navh) + 22px); }
   .phone:not(.nav-reserve) .ge-det{ bottom:calc(var(--navh) + 6px); }
   #hmWrap{ padding-bottom:calc(var(--navh) + 6px); }
+  /* Home: a calm band under the circles. The page fades to its own colour behind them, so pictures and cards never sit right behind the buttons (shorter once the circles shrink) */
+  .phone::after{ content:''; position:absolute; left:0; right:0; bottom:0; z-index:7; pointer-events:none; opacity:0;
+    height:calc(var(--cs) + var(--pb) + env(safe-area-inset-bottom,0px) + 84px);
+    background:linear-gradient(to bottom, transparent 0, var(--ink) 58%);
+    background:linear-gradient(to bottom, transparent 0, color-mix(in srgb, var(--ink) 67%, transparent) 70%);
+    transition:opacity .25s ease, height .45s cubic-bezier(.3,1.15,.4,1); }
+  .phone[data-screen="home"]::after{ opacity:1; }
   /* Continue Reading is a warm red now, so it does not blend with the gold-tinted circles */
   .hm-m-left{ background:linear-gradient(160deg, rgba(178,72,64,.20), rgba(178,72,64,.06)); border-color:rgba(178,72,64,.38); }
   .hm-m-left .hm-mi, .hm-m-left em{ color:#b24840; }

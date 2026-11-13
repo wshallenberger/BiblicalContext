@@ -761,6 +761,7 @@ var NAV_RESERVE = ['map', 'timeline'];      // these screens pan and zoom, so th
 function navReserve(name) {
   const ph = document.querySelector('.phone'); if (!ph) return;
   ph.classList.toggle('nav-reserve', NAV_RESERVE.indexOf(name) >= 0);
+  ph.dataset.screen = name;                   // lets the CSS style one screen's surroundings (Home's calm band under the circles)
   ph.classList.remove('nav-dock');
 }
 (function () {
