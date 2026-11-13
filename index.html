@@ -4008,6 +4008,17 @@
     background:linear-gradient(to bottom, transparent 0, color-mix(in srgb, var(--ink) 67%, transparent) 70%);
     transition:opacity .25s ease, height .45s cubic-bezier(.3,1.15,.4,1); }
   .phone[data-screen="home"]::after{ opacity:1; }
+  /* Read: the book-and-chapter picker opens as a pop-up over the page (90% of it), not as a new page */
+  .bcp.full .bcp-scrim{ display:block; }
+  .bcp.full .bcp-panel{ left:5%; right:5%; top:max(5%, calc(env(safe-area-inset-top) + 10px)); bottom:max(5%, calc(env(safe-area-inset-bottom) + 10px)); max-height:none;
+    border:1px solid rgba(var(--gold-rgb),.45); border-radius:18px; box-shadow:0 24px 60px -12px rgba(var(--shadow-rgb),.55); padding-top:0; }
+  .bcp.full .bcp-body{ padding-bottom:16px; }
+  /* Read: bigger, bolder book-and-chapter buttons, and a stronger READ THE WORD heading */
+  #screen-booknav .nav-top-find{ max-width:68%; padding:11px 14px; font:700 15px 'IBM Plex Sans',sans-serif; border-radius:12px; }
+  #screen-booknav .nav-top-find svg{ width:15px; height:15px; }
+  #screen-booknav .hub-sec{ font:700 21px/1.2 'Literata',serif; letter-spacing:.06em; text-transform:uppercase; }
+  #screen-booknav .nav-find{ padding:22px 18px; font:700 17px 'IBM Plex Sans',sans-serif; border-radius:14px; border-color:rgba(var(--gold-rgb),.55); }
+  #screen-booknav .nav-find svg{ width:18px; height:18px; }
   /* Continue Reading is a warm red now, so it does not blend with the gold-tinted circles */
   .hm-m-left{ background:linear-gradient(160deg, rgba(178,72,64,.20), rgba(178,72,64,.06)); border-color:rgba(178,72,64,.38); }
   .hm-m-left .hm-mi, .hm-m-left em{ color:#b24840; }
