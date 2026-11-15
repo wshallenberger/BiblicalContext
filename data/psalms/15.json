@@ -1,0 +1,197 @@
+{
+ "book": "Psalms",
+ "chapter": 15,
+ "title": "Who May Dwell on Your Holy Mountain?",
+ "translation": "BSB",
+ "superscription": "A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, who may abide in Your tent? Who may dwell on Your holy mountain?"
+  },
+  {
+   "num": 2,
+   "text": "He who walks with integrity and practices righteousness, who speaks the truth from his heart,"
+  },
+  {
+   "num": 3,
+   "text": "who has no slander on his tongue, who does no harm to his neighbor, who casts no scorn on his friend,"
+  },
+  {
+   "num": 4,
+   "text": "who despises the vile but honors those who fear the LORD, who does not revise a costly oath,"
+  },
+  {
+   "num": 5,
+   "text": "who lends his money without interest and refuses a bribe against the innocent. He who does these things will never be shaken."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“O LORD, who may abide in Your tent? Who may dwell on Your holy mountain?” (v.1). The answer is a portrait of a person of integrity: “He who walks with integrity and practices righteousness, who speaks the truth from his heart” (v.2). He does not slander or harm his neighbor (v.3), honors those who fear the LORD, and “does not revise a costly oath” (v.4). He lends without interest and will not take a bribe against the innocent (v.5). “He who does these things will never be shaken” (v.5).",
+  "custom": "Worshipers coming up to the sanctuary may have asked at the gate who could enter, and priests answered with the conditions, as in Psalm 24:3-6. God’s “tent” recalls the tabernacle where the ark stayed before the Temple was built (2 Samuel 6:17). The law forbade charging interest to a poor fellow Israelite (Exodus 22:25; Leviticus 25:35-37).",
+  "timelineImmediate": "Psalm 16 delights in the LORD as “my chosen portion and my cup.”",
+  "timelineBible": "Isaiah 33:14-16 asks the same question and gives a similar answer. Jesus taught, “Lend to them, expecting nothing in return” (Luke 6:35), and “Let your ‘Yes’ be ‘Yes’” (Matthew 5:37), keeping one’s word.",
+  "translation": [
+   {
+    "english": "tent",
+    "greek": "אֹהֶל (ohel)",
+    "verseRef": "v.1",
+    "meaning": "Tent, tabernacle. The tent of meeting where God dwelt among Israel.",
+    "gloss": "Tent",
+    "strongs": "H168",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "integrity",
+    "greek": "תָּמִים (tamim)",
+    "verseRef": "v.2",
+    "meaning": "Complete, whole, blameless; used of unblemished sacrifices.",
+    "gloss": "Whole, sound",
+    "strongs": "H8549",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "interest",
+    "greek": "נֶשֶׁךְ (neshekh)",
+    "verseRef": "v.5",
+    "meaning": "Interest on a loan, literally “a bite.”",
+    "gloss": "A bite",
+    "strongs": "H5392",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 6:34-35",
+    "note": "Lend, expecting nothing in return."
+   },
+   {
+    "ref": "Matthew 5:37",
+    "note": "Let your Yes be Yes."
+   },
+   {
+    "ref": "Hebrews 12:14",
+    "note": "Pursue holiness, without which no one will see the Lord."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 24:3-4",
+    "note": "Who may ascend the hill of the LORD?"
+   },
+   {
+    "ref": "Isaiah 33:14-16",
+    "note": "Who of us can dwell with consuming fire?"
+   },
+   {
+    "ref": "Exodus 22:25",
+    "note": "Do not charge interest to the poor."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Who may live with God? The one who walks with integrity, speaks truth, keeps his word and lends without exploiting; he will never be shaken.",
+   "settingLine": "At the gate of God’s holy mountain.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The tent on Zion",
+     "t": "David housed the ark in a tent."
+    },
+    {
+     "h": "Entrance liturgies",
+     "t": "Questions and answers at the sanctuary gate."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Loans",
+     "t": "Interest was forbidden among Israelites."
+    },
+    {
+     "h": "Oaths",
+     "t": "A promise kept even when it costs."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Loan documents",
+     "t": "Ancient Near Eastern loan contracts often charged 20-33 percent interest."
+    },
+    {
+     "h": "Gate shrines",
+     "t": "City gates at Dan and Bethsaida had small cult places."
+    }
+   ],
+   "discussion": "This person keeps a costly oath (v.4). Is there a promise I am tempted to revise because it now costs me more?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Entrance liturgy",
+   "audience": "Worshipers coming to Zion",
+   "refNotes": {
+    "Psalm 24:3-4": "A twin question",
+    "Isaiah 33:14-16": "The prophet’s version",
+    "Exodus 22:25": "No interest"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The worshiper",
+     "d": "Asks who may enter"
+    },
+    {
+     "n": "The person of integrity",
+     "d": "Will never be shaken"
+    },
+    {
+     "n": "The neighbor",
+     "d": "Not harmed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "Who may dwell?"
+    },
+    {
+     "when": "v.2-5",
+     "label": "The person of integrity"
+    },
+    {
+     "when": "v.5",
+     "label": "Never shaken"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, who may abide in Your tent? Who may dwell on Your holy mountain? He who walks with integrity and practices righteousness, who speaks the truth from his heart, who has no slander on his tongue, who does no harm to his neighbor, who casts no scorn on his friend, who despises the vile but honors those who fear the LORD, who does not revise a costly oath, who lends his money without interest and refuses a bribe against the innocent. He who does these things will never be shaken.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

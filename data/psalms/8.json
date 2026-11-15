@@ -1,0 +1,217 @@
+{
+ "book": "Psalms",
+ "chapter": 8,
+ "title": "How Majestic Is Your Name",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. According to Gittith. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, our Lord, how majestic is Your name in all the earth! You have set Your glory above the heavens."
+  },
+  {
+   "num": 2,
+   "text": "From the mouths of children and infants You have ordained praise on account of Your adversaries, to silence the enemy and avenger."
+  },
+  {
+   "num": 3,
+   "text": "When I behold Your heavens, the work of Your fingers, the moon and the stars, which You have set in place—"
+  },
+  {
+   "num": 4,
+   "text": "what is man that You are mindful of him, or the son of man that You care for him?"
+  },
+  {
+   "num": 5,
+   "text": "You made him a little lower than the angels; You crowned him with glory and honor."
+  },
+  {
+   "num": 6,
+   "text": "You made him ruler of the works of Your hands; You have placed everything under his feet:"
+  },
+  {
+   "num": 7,
+   "text": "all sheep and oxen, and even the beasts of the field,"
+  },
+  {
+   "num": 8,
+   "text": "the birds of the air and the fish of the sea, all that swim the paths of the seas."
+  },
+  {
+   "num": 9,
+   "text": "O LORD, our Lord, how majestic is Your name in all the earth!"
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The psalm begins and ends with the same cry: “O LORD, our Lord, how majestic is Your name in all the earth!” (vv.1, 9). God has set His glory above the heavens, and even the praise of children silences His enemies (vv.1-2). “When I behold Your heavens, the work of Your fingers, the moon and the stars… what is man that You are mindful of him, or the son of man that You care for him?” (vv.3-4). Yet God made man “a little lower than the angels” and “crowned him with glory and honor,” and put all creatures under his feet: flocks, wild beasts, birds and fish (vv.5-8).",
+  "custom": "Gittith in the title may name a tune or an instrument from Gath, or a song for the winepress. Ancient kings set up their images in conquered lands as signs of their rule; Genesis 1:26-28 makes humanity God’s image, set to rule His world. In a land without city lights, the night sky was overwhelming.",
+  "timelineImmediate": "Psalm 9 gives thanks for God’s justice, and with Psalm 10 forms an alphabet poem.",
+  "timelineBible": "Jesus quoted v.2 when children praised Him in the Temple (Matthew 21:16). Hebrews 2:6-9 reads vv.4-6 about Jesus, made for a little while lower than the angels and now crowned with glory and honor, and 1 Corinthians 15:27 applies v.6. The words of v.5 translated “angels” are elohim, which can also mean God.",
+  "translation": [
+   {
+    "english": "majestic",
+    "greek": "אַדִּיר (addir)",
+    "verseRef": "v.1",
+    "meaning": "Glorious, mighty, majestic.",
+    "gloss": "Majestic",
+    "strongs": "H117",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "man",
+    "greek": "אֱנוֹשׁ (enosh)",
+    "verseRef": "v.4",
+    "meaning": "Man, mortal man, humanity in its weakness.",
+    "gloss": "Mortal man",
+    "strongs": "H582",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "angels",
+    "greek": "אֱלֹהִים (elohim)",
+    "verseRef": "v.5",
+    "meaning": "Usually God; here heavenly beings. The Greek Old Testament and Hebrews 2:7 read “angels.”",
+    "gloss": "God, heavenly beings",
+    "strongs": "H430",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 21:15-16",
+    "note": "From the mouths of children You have ordained praise."
+   },
+   {
+    "ref": "Hebrews 2:6-9",
+    "note": "We see Jesus, crowned with glory and honor."
+   },
+   {
+    "ref": "1 Corinthians 15:27",
+    "note": "He has put everything under His feet."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 1:26-28",
+    "note": "Let Us make man in Our image; let them rule."
+   },
+   {
+    "ref": "Job 7:17-18",
+    "note": "What is man that You make so much of him?"
+   },
+   {
+    "ref": "Psalm 19:1",
+    "note": "The heavens declare the glory of God."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Under the night sky David marvels that the God whose name is majestic in all the earth cares for mortal man and crowns him to rule creation.",
+   "settingLine": "Under the night sky.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Image of a king",
+     "t": "Kings set up statues to show their rule."
+    },
+    {
+     "h": "Creation",
+     "t": "Genesis 1 lies behind the psalm."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Gittith",
+     "t": "Perhaps a tune or instrument from Gath."
+    },
+    {
+     "h": "Night sky",
+     "t": "Stars bright in a land without lights."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Royal statues",
+     "t": "Assyrian kings set up their images in conquered lands."
+    },
+    {
+     "h": "Ancient astronomy",
+     "t": "Babylonian tablets record careful watching of the moon and stars."
+    }
+   ],
+   "discussion": "“What is man that You are mindful of him?” (v.4). How does looking at creation change the way I see myself?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Hymn of praise",
+   "audience": "The LORD, our Lord",
+   "refNotes": {
+    "Genesis 1:26-28": "God’s image",
+    "Job 7:17-18": "What is man?",
+    "Psalm 19:1": "The heavens"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The LORD, our Lord",
+     "d": "Majestic in all the earth"
+    },
+    {
+     "n": "Children and infants",
+     "d": "Praise Him"
+    },
+    {
+     "n": "Man",
+     "d": "Crowned with glory"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Majestic name"
+    },
+    {
+     "when": "v.3-4",
+     "label": "What is man?"
+    },
+    {
+     "when": "v.5-8",
+     "label": "Crowned to rule"
+    },
+    {
+     "when": "v.9",
+     "label": "Majestic name"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, our Lord, how majestic is Your name in all the earth! You have set Your glory above the heavens. When I behold Your heavens, the work of Your fingers, the moon and the stars, which You have set in place— what is man that You are mindful of him, or the son of man that You care for him? You made him a little lower than the angels; You crowned him with glory and honor. You made him ruler of the works of Your hands; You have placed everything under his feet: O LORD, our Lord, how majestic is Your name in all the earth!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

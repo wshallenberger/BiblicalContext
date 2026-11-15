@@ -1,0 +1,213 @@
+{
+ "book": "Psalms",
+ "chapter": 20,
+ "title": "Some Trust in Chariots",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "May the LORD answer you in the day of trouble; may the name of the God of Jacob protect you."
+  },
+  {
+   "num": 2,
+   "text": "May He send you help from the sanctuary and sustain you from Zion."
+  },
+  {
+   "num": 3,
+   "text": "May He remember all your gifts and look favorably on your burnt offerings. Selah"
+  },
+  {
+   "num": 4,
+   "text": "May He give you the desires of your heart and make all your plans succeed."
+  },
+  {
+   "num": 5,
+   "text": "May we shout for joy at your victory and raise a banner in the name of our God. May the LORD grant all your petitions."
+  },
+  {
+   "num": 6,
+   "text": "Now I know that the LORD saves His anointed; He answers him from His holy heaven with the saving power of His right hand."
+  },
+  {
+   "num": 7,
+   "text": "Some trust in chariots and others in horses, but we trust in the name of the LORD our God."
+  },
+  {
+   "num": 8,
+   "text": "They collapse and fall, but we rise up and stand firm."
+  },
+  {
+   "num": 9,
+   "text": "O LORD, save the king. Answer us on the day we call."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The people pray for their king before battle: “May the LORD answer you in the day of trouble; may the name of the God of Jacob protect you” (v.1). They ask for help from the sanctuary in Zion, that God would remember the king’s offerings and give him the desires of his heart (vv.2-4). “May we shout for joy at your victory and raise a banner in the name of our God” (v.5). Then a single voice is sure: “Now I know that the LORD saves His anointed” (v.6). “Some trust in chariots and others in horses, but we trust in the name of the LORD our God” (v.7). The psalm ends, “O LORD, save the king. Answer us on the day we call” (v.9).",
+  "custom": "Kings offered sacrifices before going to war (1 Samuel 13:9-12). Armies marched under banners or standards that marked each unit (Numbers 2:2). Chariots were the most advanced weapons of the age, and Israel’s enemies had far more of them; the law told Israel’s king not to multiply horses (Deuteronomy 17:16).",
+  "timelineImmediate": "Psalm 21 (not yet in the app) gives thanks for the victory this psalm prays for.",
+  "timelineBible": "David told Goliath, “You come against me with sword and spear and javelin, but I come against you in the name of the LORD of Hosts” (1 Samuel 17:45). Isaiah warns those who go down to Egypt and “trust in their abundance of chariots” (Isaiah 31:1). Paul writes that “the weapons of our warfare are not the weapons of the world” (2 Corinthians 10:4).",
+  "translation": [
+   {
+    "english": "day of trouble",
+    "greek": "צָרָה (tsarah)",
+    "verseRef": "v.1",
+    "meaning": "Distress, trouble, a tight place.",
+    "gloss": "Distress",
+    "strongs": "H6869",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "anointed",
+    "greek": "מָשִׁיחַ (mashiach)",
+    "verseRef": "v.6",
+    "meaning": "The anointed king; the word behind “Messiah.”",
+    "gloss": "Messiah",
+    "strongs": "H4899",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "chariots",
+    "greek": "רֶכֶב (rekhev)",
+    "verseRef": "v.7",
+    "meaning": "Chariots, chariotry: the tanks of the ancient world.",
+    "gloss": "Chariotry",
+    "strongs": "H7393",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "2 Corinthians 10:3-4",
+    "note": "The weapons of our warfare are not of the world."
+   },
+   {
+    "ref": "Ephesians 6:10-11",
+    "note": "Be strong in the Lord."
+   },
+   {
+    "ref": "John 16:33",
+    "note": "Take courage; I have overcome the world."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 17:45",
+    "note": "I come in the name of the LORD of Hosts."
+   },
+   {
+    "ref": "Isaiah 31:1",
+    "note": "Woe to those who trust in chariots."
+   },
+   {
+    "ref": "Deuteronomy 20:1",
+    "note": "Do not fear horses and chariots."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The people pray for their king before battle and declare that some trust in chariots and horses, but they trust in the name of the LORD.",
+   "settingLine": "The army gathering under its banners.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Royal psalms",
+     "t": "Prayers for the kings of David’s line."
+    },
+    {
+     "h": "Chariot armies",
+     "t": "Egypt, Aram and Assyria fielded thousands."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sacrifice before battle",
+     "t": "Seeking God before war."
+    },
+    {
+     "h": "Banners",
+     "t": "Standards raised for each tribe and unit."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Megiddo",
+     "t": "Stables or storehouses from the Israelite period."
+    },
+    {
+     "h": "Kurkh Monolith",
+     "t": "Shalmaneser III says Ahab of Israel brought 2,000 chariots to the battle of Qarqar in 853 BC."
+    }
+   ],
+   "discussion": "“Some trust in chariots and others in horses” (v.7). What are my chariots, the things I lean on instead of God?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Royal prayer before battle",
+   "audience": "The king, and the people praying for him",
+   "refNotes": {
+    "1 Samuel 17:45": "David and Goliath",
+    "Isaiah 31:1": "Trusting Egypt",
+    "Deuteronomy 20:1": "Do not fear"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The king",
+     "d": "God’s anointed"
+    },
+    {
+     "n": "The people",
+     "d": "Pray for him"
+    },
+    {
+     "n": "The LORD",
+     "d": "Saves His anointed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "May the LORD answer you"
+    },
+    {
+     "when": "v.6-8",
+     "label": "Now I know"
+    },
+    {
+     "when": "v.9",
+     "label": "Save the king"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "May the LORD answer you in the day of trouble; may the name of the God of Jacob protect you. May He send you help from the sanctuary and sustain you from Zion. May He give you the desires of your heart and make all your plans succeed. May we shout for joy at your victory and raise a banner in the name of our God. May the LORD grant all your petitions. Now I know that the LORD saves His anointed; He answers him from His holy heaven with the saving power of His right hand. Some trust in chariots and others in horses, but we trust in the name of the LORD our God. O LORD, save the king. Answer us on the day we call.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Visit_of_the_Queen_of_Sheba_to_King_Solomon%27,_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+   "caption": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890). Royal psalms such as Psalms 2 and 20 were sung for the kings of David’s line in Jerusalem.",
+   "credit": "Edward Poynter (1890), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+   "caption": "The mound of Megiddo above the Jezreel Valley. Stables or storehouses found there are linked by many with the chariot forces of Israel’s kings. “Some trust in chariots and others in horses, but we trust in the name of the LORD our God” (Psalm 20:7).",
+   "credit": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

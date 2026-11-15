@@ -1,0 +1,221 @@
+{
+ "book": "Psalms",
+ "chapter": 16,
+ "title": "You Will Not Abandon My Soul to Sheol",
+ "translation": "BSB",
+ "superscription": "A Miktam of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Preserve me, O God, for in You I take refuge."
+  },
+  {
+   "num": 2,
+   "text": "I said to the LORD, \"You are my Lord; apart from You I have no good thing.\""
+  },
+  {
+   "num": 3,
+   "text": "As for the saints in the land, they are the excellence in whom all my delight resides."
+  },
+  {
+   "num": 4,
+   "text": "Sorrows will multiply to those who chase other gods. I will not pour out their libations of blood, or speak their names with my lips."
+  },
+  {
+   "num": 5,
+   "text": "The LORD is my chosen portion and my cup; You have made my lot secure."
+  },
+  {
+   "num": 6,
+   "text": "The lines of my boundary have fallen in pleasant places; surely my inheritance is delightful."
+  },
+  {
+   "num": 7,
+   "text": "I will bless the LORD who counsels me; even at night my conscience instructs me."
+  },
+  {
+   "num": 8,
+   "text": "I have set the LORD always before me. Because He is at my right hand, I will not be shaken."
+  },
+  {
+   "num": 9,
+   "text": "Therefore my heart is glad and my tongue rejoices; my body also will dwell securely."
+  },
+  {
+   "num": 10,
+   "text": "For You will not abandon my soul to Sheol, nor will You let Your Holy One see decay."
+  },
+  {
+   "num": 11,
+   "text": "You have made known to me the path of life; You will fill me with joy in Your presence, with eternal pleasures at Your right hand."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Preserve me, O God, for in You I take refuge” (v.1). “I said to the LORD, ‘You are my Lord; apart from You I have no good thing’” (v.2). David will not pour out offerings to other gods (v.4). “The LORD is my chosen portion and my cup” (v.5), and “the lines of my boundary have fallen in pleasant places” (v.6). With the LORD at his right hand he will not be shaken (v.8), and his body will rest securely, “for You will not abandon my soul to Sheol, nor will You let Your Holy One see decay” (v.10). “You will fill me with joy in Your presence, with eternal pleasures at Your right hand” (v.11).",
+  "custom": "When Israel divided the land by lot, measuring lines marked each family’s share (Joshua 18:8-10). The priests and Levites received no land: “I am your portion and your inheritance” (Numbers 18:20). Neighboring peoples poured out drink offerings, some with blood, to their gods (v.4). Miktam in the title is uncertain; it may mean an inscription or a golden poem.",
+  "timelineImmediate": "Psalm 17 is a prayer to be kept “as the apple of Your eye.”",
+  "timelineBible": "On the day of Pentecost Peter quoted vv.8-11 and argued that David, who died and was buried, spoke of the resurrection of the Messiah: “He was not abandoned to Hades, nor did His body see decay” (Acts 2:25-31). Paul made the same argument in Pisidian Antioch (Acts 13:35-37).",
+  "translation": [
+   {
+    "english": "portion",
+    "greek": "חֵלֶק (cheleq)",
+    "verseRef": "v.5",
+    "meaning": "Share, portion, allotment, as of land.",
+    "gloss": "Share",
+    "strongs": "H2506",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Holy One",
+    "greek": "חָסִיד (chasid)",
+    "verseRef": "v.10",
+    "meaning": "Faithful, godly one. The Greek translates it hosios, “Holy One,” the word Peter and Paul quote.",
+    "gloss": "Faithful one",
+    "strongs": "H2623",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "decay",
+    "greek": "שַׁחַת (shachat)",
+    "verseRef": "v.10",
+    "meaning": "The pit, corruption, decay.",
+    "gloss": "The pit",
+    "strongs": "H7845",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 2:25-31",
+    "note": "Peter: David foresaw the resurrection of the Christ."
+   },
+   {
+    "ref": "Acts 13:35-37",
+    "note": "Paul: the One God raised did not see decay."
+   },
+   {
+    "ref": "Matthew 28:5-6",
+    "note": "He is not here; He has risen."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Numbers 18:20",
+    "note": "I am your portion and your inheritance."
+   },
+   {
+    "ref": "Joshua 18:8-10",
+    "note": "The land divided by lot."
+   },
+   {
+    "ref": "Psalm 73:25-26",
+    "note": "God is my portion forever."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David finds every good thing in the LORD, his portion and cup, and trusts that God will not abandon him to the grave; the apostles read it of Jesus’ resurrection.",
+   "settingLine": "Boundary lines in pleasant places.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Land allotment",
+     "t": "Each family received an inheritance."
+    },
+    {
+     "h": "Pentecost",
+     "t": "Peter preached from this psalm."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Lots and lines",
+     "t": "Measuring out shares of land."
+    },
+    {
+     "h": "Drink offerings",
+     "t": "Poured out to gods."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Boundary stones",
+     "t": "Babylonian kudurru stones recorded land grants and cursed anyone who moved them."
+    },
+    {
+     "h": "David’s tomb",
+     "t": "Peter said David’s tomb was in Jerusalem “to this day” (Acts 2:29); its site is not known."
+    }
+   ],
+   "discussion": "“Apart from You I have no good thing” (v.2). What would change if God really were my portion and my cup?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Psalm of trust",
+   "audience": "God, David’s portion",
+   "refNotes": {
+    "Numbers 18:20": "God as portion",
+    "Joshua 18:8-10": "Boundary lines",
+    "Psalm 73:25-26": "My portion"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Takes refuge"
+    },
+    {
+     "n": "The saints in the land",
+     "d": "His delight"
+    },
+    {
+     "n": "The Holy One",
+     "d": "Will not see decay"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "My Lord, my good"
+    },
+    {
+     "when": "v.5-8",
+     "label": "My portion"
+    },
+    {
+     "when": "v.9-11",
+     "label": "The path of life"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Preserve me, O God, for in You I take refuge. I said to the LORD, You are my Lord; apart from You I have no good thing. The LORD is my chosen portion and my cup; You have made my lot secure. The lines of my boundary have fallen in pleasant places; surely my inheritance is delightful. I have set the LORD always before me. Because He is at my right hand, I will not be shaken. For You will not abandon my soul to Sheol, nor will You let Your Holy One see decay. You have made known to me the path of life; You will fill me with joy in Your presence, with eternal pleasures at Your right hand.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

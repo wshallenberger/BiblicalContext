@@ -1,0 +1,237 @@
+{
+ "book": "Psalms",
+ "chapter": 17,
+ "title": "The Apple of Your Eye",
+ "translation": "BSB",
+ "superscription": "A prayer of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hear, O LORD, my righteous plea; listen to my cry. Give ear to my prayer— it comes from lips free of deceit."
+  },
+  {
+   "num": 2,
+   "text": "May my vindication come from Your presence; may Your eyes see what is right."
+  },
+  {
+   "num": 3,
+   "text": "You have tried my heart; You have visited me in the night. You have tested me and found no evil; I have resolved not to sin with my mouth."
+  },
+  {
+   "num": 4,
+   "text": "As for the deeds of men— by the word of Your lips I have avoided the ways of the violent."
+  },
+  {
+   "num": 5,
+   "text": "My steps have held to Your paths; my feet have not slipped."
+  },
+  {
+   "num": 6,
+   "text": "I call on You, O God, for You will answer me. Incline Your ear to me; hear my words."
+  },
+  {
+   "num": 7,
+   "text": "Show the wonders of Your loving devotion, You who save by Your right hand those who seek refuge from their foes."
+  },
+  {
+   "num": 8,
+   "text": "Keep me as the apple of Your eye; hide me in the shadow of Your wings"
+  },
+  {
+   "num": 9,
+   "text": "from the wicked who assail me, from my mortal enemies who surround me."
+  },
+  {
+   "num": 10,
+   "text": "They have closed their callous hearts; their mouths speak with arrogance."
+  },
+  {
+   "num": 11,
+   "text": "They have tracked us down, and now surround us; their eyes are set to cast us to the ground,"
+  },
+  {
+   "num": 12,
+   "text": "like a lion greedy for prey, like a young lion lurking in ambush."
+  },
+  {
+   "num": 13,
+   "text": "Arise, O LORD, confront them! Bring them to their knees; deliver me from the wicked by Your sword,"
+  },
+  {
+   "num": 14,
+   "text": "from such men, O LORD, by Your hand— from men of the world whose portion is in this life. May You fill the bellies of Your treasured ones and satisfy their sons, so they leave their abundance to their children."
+  },
+  {
+   "num": 15,
+   "text": "As for me, I will behold Your face in righteousness; when I awake, I will be satisfied in Your presence."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Titled “A prayer of David,” the psalm begins, “Hear, O LORD, my righteous plea; listen to my cry” (v.1). God has tested David at night and found no evil plan (v.3); his feet have held to God’s paths (v.5). He asks God to show “the wonders of Your loving devotion” (v.7): “Keep me as the apple of Your eye; hide me in the shadow of Your wings” (v.8). His enemies are like “a lion greedy for prey” (v.12), men “whose portion is in this life” (v.14). David’s hope is beyond that: “As for me, I will behold Your face in righteousness; when I awake, I will be satisfied in Your presence” (v.15).",
+  "custom": "The apple of the eye is the pupil, literally ‘the little man of the eye,’ the small reflection a person sees in another’s eye; it is guarded by instinct. “The shadow of Your wings” pictures a mother bird sheltering her young, and may also recall the cherubim’s wings over the ark in the Temple. Testing someone “in the night” (v.3) is searching the heart when thoughts are unguarded.",
+  "timelineImmediate": "Psalm 18 is David’s great song of thanks after the LORD delivered him from Saul and all his enemies.",
+  "timelineBible": "Moses sang that God kept Israel “as the apple of His eye” (Deuteronomy 32:10), and Boaz blessed Ruth for coming to the God of Israel, “under whose wings you have taken refuge” (Ruth 2:12). Jesus longed to gather Jerusalem’s children “as a hen gathers her chicks under her wings” (Matthew 23:37).",
+  "translation": [
+   {
+    "english": "apple",
+    "greek": "אִישׁוֹן (ishon)",
+    "verseRef": "v.8",
+    "meaning": "The pupil, “little man” of the eye.",
+    "gloss": "Pupil",
+    "strongs": "H380",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "shadow",
+    "greek": "צֵל (tsel)",
+    "verseRef": "v.8",
+    "meaning": "Shade, shadow, protection from heat and danger.",
+    "gloss": "Shade",
+    "strongs": "H6738",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wings",
+    "greek": "כָּנָף (kanaf)",
+    "verseRef": "v.8",
+    "meaning": "Wing; also the corner or edge of a garment (Ruth 3:9).",
+    "gloss": "Wing",
+    "strongs": "H3671",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 23:37",
+    "note": "As a hen gathers her chicks under her wings."
+   },
+   {
+    "ref": "1 John 3:2",
+    "note": "We will see Him as He is."
+   },
+   {
+    "ref": "Revelation 22:3-4",
+    "note": "They will see His face."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 32:10",
+    "note": "He guarded him as the apple of His eye."
+   },
+   {
+    "ref": "Ruth 2:12",
+    "note": "Under whose wings you have come to take refuge."
+   },
+   {
+    "ref": "Zechariah 2:8",
+    "note": "Whoever touches you touches the apple of His eye."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David asks God to guard him as the apple of His eye and hide him under His wings, and looks beyond this life to seeing God’s face.",
+   "settingLine": "Hidden under the shadow of wings.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David pursued",
+     "t": "Enemies tracked him down."
+    },
+    {
+     "h": "Cherubim",
+     "t": "Winged figures over the ark."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The apple of the eye",
+     "t": "The pupil, guarded by instinct."
+    },
+    {
+     "h": "Sheltering wings",
+     "t": "A mother bird over her young."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Cherub ivories",
+     "t": "Winged figures on ivories from Samaria and Nimrud."
+    },
+    {
+     "h": "Lions",
+     "t": "Lions lived in Israel until the Middle Ages."
+    }
+   ],
+   "discussion": "David’s enemies have their portion in this life; David’s is God’s face (vv.14-15). What am I really hoping to be satisfied by?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Prayer for protection",
+   "audience": "God, the righteous Judge",
+   "refNotes": {
+    "Deuteronomy 32:10": "Apple of His eye",
+    "Ruth 2:12": "Under His wings",
+    "Zechariah 2:8": "Touching God’s eye"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Prays for protection"
+    },
+    {
+     "n": "His enemies",
+     "d": "Like a lion greedy for prey"
+    },
+    {
+     "n": "God",
+     "d": "Shelters under His wings"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Hear my plea"
+    },
+    {
+     "when": "v.6-12",
+     "label": "Keep me"
+    },
+    {
+     "when": "v.13-15",
+     "label": "Satisfied in Your presence"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hear, O LORD, my righteous plea; listen to my cry. Give ear to my prayer— it comes from lips free of deceit. You have tried my heart; You have visited me in the night. You have tested me and found no evil; I have resolved not to sin with my mouth. I call on You, O God, for You will answer me. Incline Your ear to me; hear my words. Show the wonders of Your loving devotion, You who save by Your right hand those who seek refuge from their foes. Keep me as the apple of Your eye; hide me in the shadow of Your wings As for me, I will behold Your face in righteousness; when I awake, I will be satisfied in Your presence.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

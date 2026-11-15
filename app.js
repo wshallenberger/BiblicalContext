@@ -636,16 +636,16 @@ function dhBookView(slug) {
   const col = MAP_BOOK_COLORS[slug] || '#8a6d0b';
   const ttl = k => (chapterIndex && chapterIndex[slug] && chapterIndex[slug][String(k)]) || '';
   const grid = `<div class="dh-grid">${mb.availableChapters.map(n => `<button type="button" data-c="${n}" title="${escHtml(ttl(n))}">${n}</button>`).join('')}</div>`;
-  const nums = st ? `<div class="bk-nums"><div><b>${st.ch}</b><span>chapters</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>${Bk.lang(slug)} words</span></div></div>` : '';
+  const nums = st ? `<div class="bk-nums"><div><b>${st.ch}${st.of ? '<small> / ' + st.of + '</small>' : ''}</b><span>${st.unit || 'chapters'}</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>${Bk.lang(slug)} words</span></div></div>` : '';
   const facts = B ? B.facts.map(f => `<dt>${escHtml(f[0])}</dt><dd>${escHtml(f[1])}</dd>`).join('') : '';
-  const outline = B ? B.outline.map(o => `<button type="button" class="dh-out" data-c="${o[0]}"><span class="dh-oc">${o[0] === o[1] ? 'Ch ' + o[0] : 'Ch ' + o[0] + '–' + o[1]}</span><span class="dh-ot"><b>${escHtml(o[2])}</b><span>${escHtml(o[3])}</span></span><i>›</i></button>`).join('') : '';
+  const outline = B ? B.outline.map(o => `<button type="button" class="dh-out" data-c="${o[0]}"><span class="dh-oc">${(slug === 'psalms' ? 'Ps ' : 'Ch ') + (o[0] === o[1] ? o[0] : o[0] + '–' + o[1])}</span><span class="dh-ot"><b>${escHtml(o[2])}</b><span>${escHtml(o[3])}</span></span><i>›</i></button>`).join('') : '';
   return `<button type="button" class="dh-back" data-go="home">‹ All books</button>
     <div class="dh-bk" style="--c:${col}">
       <p class="panel-eyebrow">BOOK OVERVIEW</p>
       <h2 class="dh-title">${escHtml(B ? B.full : mb.name)}</h2>
       ${B ? `<p class="dh-tag">${escHtml(B.tag)}</p>` : ''}
       ${nums}
-      <h3 class="dh-h">Choose a chapter <span>opens that chapter’s Deep Dive</span></h3>
+      <h3 class="dh-h">${slug === 'psalms' ? 'Choose a psalm <span>opens that psalm’s Deep Dive</span>' : 'Choose a chapter <span>opens that chapter’s Deep Dive</span>'}</h3>
       ${grid}
       ${B ? `<h3 class="dh-h">Why it was written</h3><p class="dh-p">${escHtml(B.purpose)}</p><p class="dh-p"><b>${escHtml(B.jesusLabel || 'Jesus is shown as:')}</b> ${escHtml(B.jesus)}</p>
       <h3 class="dh-h">At a glance</h3><dl class="dh-facts">${facts}</dl>
@@ -2267,10 +2267,12 @@ async function loadChapter() {
 
 function renderChapter() {
   const ch = currentChapterData;
-  bookLabel.textContent = `${ch.book.toUpperCase()} · CHAPTER ${ch.chapter}`;
+  bookLabel.textContent = `${ch.book.toUpperCase()} · ${ch.book === 'Psalms' ? 'PSALM' : 'CHAPTER'} ${ch.chapter}`;
   chapterTitle.textContent = ch.title;
 
   verseListEl.innerHTML = '';
+  // a psalm's title (superscription): part of the Hebrew text, printed above verse 1 in English Bibles
+  if (ch.superscription) { const t = document.createElement('p'); t.className = 'ps-title'; t.textContent = ch.superscription; t.dataset.bsb = ch.superscription; verseListEl.appendChild(t); }
   ch.verses.forEach(({ num, text }) => {
     const p = document.createElement('p');
     p.className = 'verse';
@@ -2507,9 +2509,9 @@ async function renderWbwTab() {
   const seq = ++wbwTabSeq;
   const data = await loadWords(currentBook, currentChapterNum);
   if (seq !== wbwTabSeq) return;
-  const verses = currentChapterData.verses;
+  const verses = (data && data['0'] && currentChapterData.superscription ? [{ num: 0, text: currentChapterData.superscription }] : []).concat(currentChapterData.verses);
   if (!verses.some(v => v.num === wbwTabVerse)) wbwTabVerse = verses[0].num;
-  vers.innerHTML = verses.map(v => `<option value="${v.num}"${v.num === wbwTabVerse ? ' selected' : ''}>${escHtml(currentChapterData.book)} ${currentChapterNum}:${v.num}</option>`).join('');
+  vers.innerHTML = verses.map(v => `<option value="${v.num}"${v.num === wbwTabVerse ? ' selected' : ''}>${escHtml(currentChapterData.book)} ${currentChapterNum}${v.num ? ':' + v.num : ' title'}</option>`).join('');
   vers.value = String(wbwTabVerse);
   vers.onchange = () => { wbwTabVerse = Number(vers.value); renderWbwTab(); };
   const vv = verses.find(v => v.num === wbwTabVerse);
@@ -3312,7 +3314,7 @@ function parseRef(ref) {
   const chapter = parseInt(m[2]);
   const verseStart = m[3] ? parseInt(m[3]) : null;
   const verseEnd = m[4] ? parseInt(m[4]) : verseStart;
-  const book = manifest.books.find(b => b.name.toLowerCase() === bookName.toLowerCase());
+  const book = manifest.books.find(b => b.name.toLowerCase() === bookName.toLowerCase() || (b.slug === 'psalms' && /^psalm$/i.test(bookName)));
   if (!book) return null;
   if (!book.availableChapters.includes(chapter)) return null;
   return { bookSlug: book.slug, bookName: book.name, chapter, verseStart, verseEnd };
@@ -3877,7 +3879,7 @@ function renderBookTab() {
   const cmp = BOOKS.compare.map(r => { const mx = Math.max.apply(null, r.slice(1)); return `<tr><td>${escHtml(r[0])}</td>${r.slice(1).map((n, i) => `<td class="${GOSPELS[i] === currentBook ? 'cur' : ''}${n === mx && mx > 0 ? ' mx' : ''}">${n}</td>`).join('')}</tr>`; }).join('');
   panel.innerHTML = `<p class="panel-eyebrow">BOOK OVERVIEW</p>
     <h3 class="bk-title">${escHtml(B.full)}</h3><p class="bk-tag">${escHtml(B.tag)}</p>
-    <div class="bk-nums"><div><b>${st.ch}</b><span>chapters</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>${Bk.lang(currentBook)} words</span></div></div>
+    <div class="bk-nums"><div><b>${st.ch}${st.of ? '<small> / ' + st.of + '</small>' : ''}</b><span>${st.unit || 'chapters'}</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>${Bk.lang(currentBook)} words</span></div></div>
     ${bkSection('AT A GLANCE', `<dl class="bk-facts">${B.facts.map(f => `<dt>${escHtml(f[0])}</dt><dd>${escHtml(f[1])}</dd>`).join('')}</dl>`)}
     ${bkSection('WHY IT WAS WRITTEN', `<p class="lib-p">${escHtml(B.purpose)}</p><p class="lib-p"><b>${escHtml(B.jesusLabel || 'Jesus is shown as:')}</b> ${escHtml(B.jesus)}</p>${B.caution ? `<p class="lib-caution"><b>Keep in mind:</b> ${escHtml(B.caution)}</p>` : ''}`, true)}
     ${bkSection('OUTLINE', `<div class="bk-outline">${outline}</div>`)}
@@ -4151,7 +4153,7 @@ const MAP_TST = Bk.map(Bk.testament);
 let EVENTS = null, EV_BY_ID = {};
 let mapMain = null, mapMainReady = false, mapStyleFailed = false;
 let mapF = { tst: 'all', book: 'all', chapter: 'all', from: 1, to: 9999 };
-let mapMaxI = 592;       // number of the last event (set when events load)
+let mapMaxI = 598;       // number of the last event (set when events load)
 let mapStory = '';       // '' or a story id (see MAP_STORIES): draws the path and numbers the stops
 // a story is never carried over from an earlier visit: the map always opens with no filters
 // Stories follow one life through the events, in order. More can be added (Life of Paul comes with Acts).
@@ -4257,6 +4259,10 @@ const MAP_STORIES = [
     key: [528, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 544, 550, 552, 555, 562, 564, 566, 570, 572, 574, 576, 579],
     short: [530, 531, 532, 533, 534, 535, 536, 537, 539, 562, 564, 576],
     blurb: 'The last book of the Bible: a letter, a prophecy and a series of visions given to John on the island of Patmos for seven churches in Roman Asia. Seven pins mark those churches, in the order a messenger would reach them. Most of the visions are set in heaven and have no place on a map, so their pins stand at Patmos, where John saw them. A few stand at places the book names or points to: the Euphrates, Megiddo (Armageddon), Jerusalem, and Rome and Babylon for the great city of chapters 17-18, which is a judgment call. The notes give the main ways Christians read each vision. Numbers show the order.' },
+  { id: 'psalms', name: 'Psalms 1-20', color: '#4f6f8f', ready: true, match: e => typeof e.i === 'number' && e.i > 592 && e.i <= 598 && !e.bg,
+    key: [593, 594, 595, 596, 597, 598],
+    short: [593, 594, 597],
+    blurb: 'Songs and prayers, not journeys: most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark and Solomon built the Temple, and his prayers in Jerusalem on the City of David. Two titles name events in David’s life: his flight from Absalom across the Jordan to Mahanaim (Psalm 3), a site that is uncertain, and his rescue from Saul (Psalm 18), pinned at the strongholds of En Gedi, a judgment call. Psalms 1-20 are in the app so far. Numbers show the order of the book.' },
   { id: 'proverbs', name: 'Proverbs', color: '#9a6b2f', ready: true, match: e => typeof e.i === 'number' && e.i > 579 && e.i <= 587 && !e.bg,
     key: [580, 581, 582, 583, 584, 585, 586, 587],
     short: [580, 582, 584, 587],
@@ -4313,6 +4319,7 @@ const MAP_PERIODS = [
   { n: 'Revelation: the throne, seals and trumpets (4-11)', a: 538, b: 551 },
   { n: 'Revelation: the dragon, the beasts and Babylon (12-18)', a: 552, b: 568 },
   { n: 'Revelation: the King and the new Jerusalem (19-22)', a: 569, b: 579 },
+  { n: 'Psalms: Book One begins (1-20)', a: 593, b: 598 },
   { n: 'Proverbs: Solomon’s court and the words of the wise (1-24)', a: 580, b: 583 },
   { n: 'Proverbs: Hezekiah’s men, Agur and Lemuel (25-31)', a: 584, b: 587 },
   { n: 'Ecclesiastes: the Teacher (1-12)', a: 588, b: 592 }

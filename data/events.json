@@ -14778,5 +14778,143 @@
    "ec_hezir",
    "ec_vanitas"
   ]
+ },
+ {
+  "i": 593,
+  "t": "Two doorways: the blessed man and God’s King on Zion",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    1,
+    1,
+    2,
+    12
+   ]
+  ],
+  "rs": "Ps1:1-2:12",
+  "s": "\"Blessed is the man who does not walk in the counsel of the wicked, or set foot on the path of sinners, or sit in the seat of mockers.\" \"I have installed My King on Zion, upon My holy mountain.\" Psalms 1 and 2 have no titles and open the whole book together.",
+  "n": "Psalm 2 names Zion, God’s “holy mountain” (2:6). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_scroll",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 594,
+  "t": "David flees from his son Absalom (Psalm 3)",
+  "p": "Mahanaim, east of the Jordan",
+  "la": 32.18,
+  "ln": 35.67,
+  "r": [
+   [
+    "psalms",
+    3,
+    1,
+    3,
+    8
+   ]
+  ],
+  "rs": "Ps3:1-8",
+  "s": "\"A Psalm of David, when he fled from his son Absalom.\" \"But You, O LORD, are a shield around me, my glory, and the One who lifts my head.\" \"I lie down and sleep; I wake again, for the LORD sustains me.\"",
+  "n": "2 Samuel 15-17 tells how David crossed the Jordan and took refuge at Mahanaim. Its site is uncertain; Tell edh-Dhahab el-Gharbi in the Jabbok valley is often suggested, so the pin is approximate.",
+  "im": [
+   "ps_harp",
+   "ps_jordan"
+  ]
+ },
+ {
+  "i": 595,
+  "t": "Prayers at morning and night (Psalms 4-10)",
+  "p": "Jerusalem, the City of David",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    4,
+    1,
+    10,
+    18
+   ]
+  ],
+  "rs": "Ps4:1-10:18",
+  "s": "\"I will lie down and sleep in peace, for You alone, O LORD, make me dwell in safety.\" \"In the morning, O LORD, You hear my voice; at daybreak I lay my plea before You and wait in expectation.\" \"O LORD, our Lord, how majestic is Your name in all the earth! You have set Your glory above the heavens.\" The cries of Psalms 6 and 10, the false charge of Psalm 7, and the thanks of Psalm 9 for God’s justice.",
+  "n": "Psalm 7 is “concerning the words of Cush, a Benjamite,” a man not otherwise known. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 596,
+  "t": "Who may dwell on Your holy mountain? (Psalms 11-17)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    11,
+    1,
+    17,
+    15
+   ]
+  ],
+  "rs": "Ps11:1-17:15",
+  "s": "\"In the LORD I take refuge.\" \"How long, O LORD?\" \"Who may dwell on Your holy mountain?\" \"You have made known to me the path of life.\"",
+  "n": "Psalm 15 asks who may abide in God’s “tent,” the tent where David kept the ark on Zion (2 Samuel 6:17). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_ps118",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 597,
+  "t": "Delivered from Saul: “The LORD is my rock” (Psalm 18)",
+  "p": "The strongholds of En Gedi",
+  "la": 31.4613,
+  "ln": 35.3917,
+  "r": [
+   [
+    "psalms",
+    18,
+    1,
+    18,
+    50
+   ]
+  ],
+  "rs": "Ps18:1-50",
+  "s": "The title: David sang it \"on the day the LORD had delivered him from the hand of all his enemies and from the hand of Saul.\" \"The LORD is my rock, my fortress, and my deliverer.\" The same song appears in 2 Samuel 22.",
+  "n": "David hid from Saul “in the strongholds of En Gedi” (1 Samuel 23:29). The psalm names no place; the pin marks where his years in the wilderness strongholds are best remembered.",
+  "im": [
+   "ps_masada",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 598,
+  "t": "The heavens declare, and a prayer for the king (Psalms 19-20)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    19,
+    1,
+    20,
+    9
+   ]
+  ],
+  "rs": "Ps19:1-20:9",
+  "s": "\"The heavens declare the glory of God; the skies proclaim the work of His hands.\" \"May the words of my mouth and the meditation of my heart be pleasing in Your sight…\" Then the people pray before battle: \"Some trust in chariots and others in horses, but we trust in the name of the LORD our God.\"",
+  "n": "Psalm 20 asks God to send help “from the sanctuary” and “from Zion” (20:2). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_qumran",
+   "ps_megiddo"
+  ]
  }
 ]

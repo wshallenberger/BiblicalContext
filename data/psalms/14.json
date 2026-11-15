@@ -1,0 +1,205 @@
+{
+ "book": "Psalms",
+ "chapter": 14,
+ "title": "The Fool Says There Is No God",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The fool says in his heart, \"There is no God.\" They are corrupt; their acts are vile. There is no one who does good."
+  },
+  {
+   "num": 2,
+   "text": "The LORD looks down from heaven upon the sons of men to see if any understand, if any seek God."
+  },
+  {
+   "num": 3,
+   "text": "All have turned away, they have together become corrupt; there is no one who does good, not even one."
+  },
+  {
+   "num": 4,
+   "text": "Will the workers of iniquity never learn? They devour my people like bread; they refuse to call upon the LORD."
+  },
+  {
+   "num": 5,
+   "text": "There they are, overwhelmed with dread, for God is in the company of the righteous."
+  },
+  {
+   "num": 6,
+   "text": "You sinners frustrate the plans of the oppressed, yet the LORD is their shelter."
+  },
+  {
+   "num": 7,
+   "text": "Oh, that the salvation of Israel would come from Zion! When the LORD restores His captive people, let Jacob rejoice, let Israel be glad!"
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The fool says in his heart, ‘There is no God.’ They are corrupt; their acts are vile. There is no one who does good” (v.1). The LORD looks down from heaven to see if any understand or seek God (v.2), and finds that “all have turned away… there is no one who does good, not even one” (v.3). The workers of iniquity devour God’s people like bread (v.4), but they will be filled with dread, “for God is in the company of the righteous” (v.5). The psalm ends with a longing: “Oh, that the salvation of Israel would come from Zion!” (v.7).",
+  "custom": "The “fool” (nabal) in Hebrew is not someone lacking intelligence but someone morally senseless, who lives as if God does not matter. Abigail’s husband was named Nabal, and she said “he lives up to his name” (1 Samuel 25:25). Practical atheism, living as though God will not act, was a greater danger than denying God in theory.",
+  "timelineImmediate": "Psalm 15 asks who may dwell on God’s holy mountain.",
+  "timelineBible": "Psalm 53 is almost the same psalm, using “God” where Psalm 14 uses “the LORD.” Paul quotes vv.1-3 to show that all people, Jews and Gentiles, are under sin: “There is no one righteous, not even one” (Romans 3:10).",
+  "translation": [
+   {
+    "english": "fool",
+    "greek": "נָבָל (nabal)",
+    "verseRef": "v.1",
+    "meaning": "A morally senseless person who lives as if there is no God.",
+    "gloss": "Senseless",
+    "strongs": "H5036",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "corrupt",
+    "greek": "שָׁחַת (shachat)",
+    "verseRef": "v.1",
+    "meaning": "To ruin, spoil, corrupt. Used of the earth before the flood (Genesis 6:12).",
+    "gloss": "Ruined",
+    "strongs": "H7843",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "restores",
+    "greek": "שׁוּב (shuv)",
+    "verseRef": "v.7",
+    "meaning": "To turn back, return, restore.",
+    "gloss": "Turn back",
+    "strongs": "H7725",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 3:10-12",
+    "note": "There is no one righteous, not even one."
+   },
+   {
+    "ref": "Romans 1:21-22",
+    "note": "Claiming to be wise, they became fools."
+   },
+   {
+    "ref": "Romans 11:26",
+    "note": "The Deliverer will come from Zion."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 53:1-6",
+    "note": "The same psalm in a second form."
+   },
+   {
+    "ref": "1 Samuel 25:25",
+    "note": "Nabal: he is just like his name."
+   },
+   {
+    "ref": "Genesis 6:11-12",
+    "note": "The earth was corrupt."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The fool lives as if there is no God, and God looks down and finds no one good; the psalm longs for salvation to come from Zion.",
+   "settingLine": "God looking down from heaven.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Psalms 14 and 53",
+     "t": "Two versions of one psalm."
+    },
+    {
+     "h": "Nabal",
+     "t": "A fool by name and nature."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The fool",
+     "t": "A moral, not mental, failure."
+    },
+    {
+     "h": "Captivity",
+     "t": "Restoring fortunes (v.7)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Carmel and Maon",
+     "t": "Nabal’s home region south of Hebron."
+    },
+    {
+     "h": "Bread ovens",
+     "t": "Clay ovens (tabun) in every village; enemies devour people “like bread” (v.4)."
+    }
+   ],
+   "discussion": "The fool says “There is no God” in his heart, not just with his mouth (v.1). Where do I live as though God is not watching?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Wisdom lament",
+   "audience": "All the sons of men",
+   "refNotes": {
+    "Psalm 53:1-6": "A twin psalm",
+    "1 Samuel 25:25": "The fool Nabal",
+    "Genesis 6:11-12": "Corrupt earth"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The fool",
+     "d": "Denies God in his heart"
+    },
+    {
+     "n": "The sons of men",
+     "d": "All have turned away"
+    },
+    {
+     "n": "The righteous",
+     "d": "God is with them"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "No one does good"
+    },
+    {
+     "when": "v.4-6",
+     "label": "God with the righteous"
+    },
+    {
+     "when": "v.7",
+     "label": "Salvation from Zion"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The fool says in his heart, There is no God. They are corrupt; their acts are vile. There is no one who does good. The LORD looks down from heaven upon the sons of men to see if any understand, if any seek God. All have turned away, they have together become corrupt; there is no one who does good, not even one. You sinners frustrate the plans of the oppressed, yet the LORD is their shelter. Oh, that the salvation of Israel would come from Zion! When the LORD restores His captive people, let Jacob rejoice, let Israel be glad!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

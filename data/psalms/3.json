@@ -1,0 +1,216 @@
+{
+ "book": "Psalms",
+ "chapter": 3,
+ "title": "A Morning Prayer in Flight",
+ "translation": "BSB",
+ "superscription": "A Psalm of David, when he fled from his son Absalom.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, how my foes have increased! How many rise up against me!"
+  },
+  {
+   "num": 2,
+   "text": "Many say of me, \"God will not deliver him.\" Selah"
+  },
+  {
+   "num": 3,
+   "text": "But You, O LORD, are a shield around me, my glory, and the One who lifts my head."
+  },
+  {
+   "num": 4,
+   "text": "To the LORD I cry aloud, and He answers me from His holy mountain. Selah"
+  },
+  {
+   "num": 5,
+   "text": "I lie down and sleep; I wake again, for the LORD sustains me."
+  },
+  {
+   "num": 6,
+   "text": "I will not fear the myriads set against me on every side."
+  },
+  {
+   "num": 7,
+   "text": "Arise, O LORD! Save me, O my God! Strike all my enemies on the jaw; break the teeth of the wicked."
+  },
+  {
+   "num": 8,
+   "text": "Salvation belongs to the LORD; may Your blessing be on Your people. Selah"
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "DAVID FLEEING FROM ABSALOM, ACROSS THE JORDAN",
+  "setting": "The title sets the scene: “A Psalm of David, when he fled from his son Absalom.” Absalom had seized the throne, and David left Jerusalem weeping, crossed the Jordan and went to Mahanaim (2 Samuel 15-17). “O LORD, how my foes have increased!” he prays, as many say, “God will not deliver him” (vv.1-2). “But You, O LORD, are a shield around me” (v.3). He sleeps and wakes, because the LORD sustains him (v.5), and will not fear “the myriads set against me on every side” (v.6). “Salvation belongs to the LORD” (v.8).",
+  "custom": "Selah (vv.2, 4, 8) appears 71 times in the Psalms; its meaning is uncertain. It may mark a pause, a musical interlude or a change of voice. Lifting someone’s head (v.3) meant restoring honor, as a king lifted the head of a pardoned servant (Genesis 40:13). Striking an enemy on the jaw (v.7) was a public insult.",
+  "timelineImmediate": "Psalm 4 is an evening prayer: “I will lie down and sleep in peace.”",
+  "timelineBible": "2 Samuel 15:13-17:24 tells how David fled from Absalom barefoot and weeping up the Mount of Olives, and crossed the Jordan to Mahanaim, where friends brought him food. Absalom was killed in battle in the forest of Ephraim (2 Samuel 18).",
+  "translation": [
+   {
+    "english": "shield",
+    "greek": "מָגֵן (magen)",
+    "verseRef": "v.3",
+    "meaning": "A small round shield. God surrounds David like a shield.",
+    "gloss": "Shield",
+    "strongs": "H4043",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Selah",
+    "greek": "סֶלָה (selah)",
+    "verseRef": "v.2",
+    "meaning": "A word of uncertain meaning, perhaps a pause or musical interlude.",
+    "gloss": "Pause?",
+    "strongs": "H5542",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "salvation",
+    "greek": "יְשׁוּעָה (yeshuah)",
+    "verseRef": "v.8",
+    "meaning": "Deliverance, rescue, victory. Related to the name Joshua (Yeshua), Jesus.",
+    "gloss": "Deliverance",
+    "strongs": "H3444",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 8:31",
+    "note": "If God is for us, who can be against us?"
+   },
+   {
+    "ref": "Matthew 8:24-26",
+    "note": "Jesus sleeps in the storm."
+   },
+   {
+    "ref": "Revelation 7:10",
+    "note": "Salvation belongs to our God."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 15:13-30",
+    "note": "David flees from Absalom, weeping."
+   },
+   {
+    "ref": "2 Samuel 17:22-29",
+    "note": "David crosses the Jordan to Mahanaim."
+   },
+   {
+    "ref": "Genesis 15:1",
+    "note": "I am your shield."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.18,
+   "lng": 35.67,
+   "zoom": 6,
+   "placeName": "Mahanaim (location uncertain)"
+  },
+  "overview": {
+   "summary": "Fleeing from his son Absalom, David prays that the LORD is his shield, sleeps in peace and trusts that salvation belongs to the LORD.",
+   "settingLine": "David in flight across the Jordan.",
+   "placeName": "Mahanaim (location uncertain)",
+   "history": [
+    {
+     "h": "Absalom’s revolt",
+     "t": "David’s son seized the throne."
+    },
+    {
+     "h": "Mahanaim",
+     "t": "David’s refuge east of the Jordan."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Selah",
+     "t": "A musical or reading mark, meaning unknown."
+    },
+    {
+     "h": "Lifting the head",
+     "t": "Restoring honor."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Mahanaim",
+     "t": "Its site east of the Jordan is uncertain; Tell edh-Dhahab el-Gharbi is often suggested."
+    },
+    {
+     "h": "Mount of Olives",
+     "t": "David went up it weeping (2 Samuel 15:30)."
+    }
+   ],
+   "discussion": "David slept in the middle of a crisis (v.5). What keeps me awake, and what would it mean to rest in God tonight?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and trust",
+   "audience": "God, in a time of danger",
+   "refNotes": {
+    "2 Samuel 15:13-30": "David flees",
+    "2 Samuel 17:22-29": "At Mahanaim",
+    "Genesis 15:1": "Your shield"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Fleeing his son"
+    },
+    {
+     "n": "Absalom",
+     "d": "His rebellious son"
+    },
+    {
+     "n": "Many foes",
+     "d": "Say God will not save him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Many foes"
+    },
+    {
+     "when": "v.3-6",
+     "label": "A shield around me"
+    },
+    {
+     "when": "v.7-8",
+     "label": "Salvation belongs to the LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Mahanaim (location uncertain)",
+    "lat": 32.18,
+    "lng": 35.67,
+    "verses": [],
+    "slug": "mahanaim"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, how my foes have increased! How many rise up against me! But You, O LORD, are a shield around me, my glory, and the One who lifts my head. To the LORD I cry aloud, and He answers me from His holy mountain. Selah I lie down and sleep; I wake again, for the LORD sustains me. I will not fear the myriads set against me on every side. Salvation belongs to the LORD; may Your blessing be on Your people. Selah",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+   "caption": "The Jordan River. “He is like a tree planted by streams of water” (Psalm 1:3). David crossed the Jordan when he fled from Absalom (2 Samuel 17:22).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

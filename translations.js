@@ -79,7 +79,7 @@
         if (tr.delivery === 'bundled') {
           const j = await getJson(tr.path ? tr.path.replace('{slug}', slug).replace('{ch}', ch) : base + tr.id + '/' + slug + '/' + ch + '.json');
           const vs = j.verses || (j.chapters && j.chapters[ch]) || [];       // a chapter file, or a whole-book file holding every chapter
-          data = { id: tr.id, book: slug, chapter: ch, translation: tr.abbr, verses: vs.map(v => ({ num: v.num, text: v.text })), notice: tr.notice, source: 'bundled' };
+          data = { id: tr.id, book: slug, chapter: ch, translation: tr.abbr, verses: vs.map(v => ({ num: v.num, text: v.text })), title: j.superscription || (j.titles && j.titles[ch]) || '', notice: tr.notice, source: 'bundled' };
         } else {
           const j = await getJson(endpoint + '?' + new URLSearchParams({ t: tr.id, b: slug, c: String(ch) }));
           data = Object.assign({}, j, { source: 'live' });

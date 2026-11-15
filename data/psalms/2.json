@@ -1,0 +1,228 @@
+{
+ "book": "Psalms",
+ "chapter": 2,
+ "title": "The LORD and His Anointed",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Why do the nations rage and the peoples plot in vain?"
+  },
+  {
+   "num": 2,
+   "text": "The kings of the earth take their stand and the rulers gather together, against the LORD and against His Anointed One:"
+  },
+  {
+   "num": 3,
+   "text": "\"Let us break Their chains and cast away Their cords.\""
+  },
+  {
+   "num": 4,
+   "text": "The One enthroned in heaven laughs; the Lord taunts them."
+  },
+  {
+   "num": 5,
+   "text": "Then He rebukes them in His anger, and terrifies them in His fury:"
+  },
+  {
+   "num": 6,
+   "text": "\"I have installed My King on Zion, upon My holy mountain.\""
+  },
+  {
+   "num": 7,
+   "text": "I will proclaim the decree spoken to Me by the LORD: \"You are My Son; today I have become Your Father."
+  },
+  {
+   "num": 8,
+   "text": "Ask Me, and I will make the nations Your inheritance, the ends of the earth Your possession."
+  },
+  {
+   "num": 9,
+   "text": "You will break them with an iron scepter; You will shatter them like pottery.\""
+  },
+  {
+   "num": 10,
+   "text": "Therefore be wise, O kings; be admonished, O judges of the earth."
+  },
+  {
+   "num": 11,
+   "text": "Serve the LORD with fear, and rejoice with trembling."
+  },
+  {
+   "num": 12,
+   "text": "Kiss the Son, lest He be angry and you perish in your rebellion, when His wrath ignites in an instant. Blessed are all who take refuge in Him."
+  }
+ ],
+ "context": {
+  "author": "Not named in its own heading, but the apostles quote it as spoken “through the mouth of our father David” (Acts 4:25).",
+  "genre": "Royal psalm: the crowning of the king God has chosen",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Why do the nations rage and the peoples plot in vain?” (v.1). The kings of the earth band together “against the LORD and against His Anointed One” (v.2). In heaven God laughs (v.4) and declares, “I have installed My King on Zion, upon My holy mountain” (v.6). Then the King speaks the decree: “You are My Son; today I have become Your Father” (v.7), and the nations are promised as His inheritance (v.8). The psalm ends with a warning and an invitation: “Serve the LORD with fear… Kiss the Son… Blessed are all who take refuge in Him” (vv.11-12).",
+  "custom": "Kings in Israel were anointed with oil when they were crowned (1 Samuel 16:13; 1 Kings 1:39). “Today I have become Your Father” uses the language of adoption: at his coronation the king became God’s son in a special sense, as God promised David (2 Samuel 7:14). Vassal kings showed loyalty to a great king by kissing his feet or hand (v.12). Ancient kings smashed clay pots inscribed with enemies’ names as a curse ritual, a picture behind v.9.",
+  "timelineImmediate": "Psalm 3 is the first psalm with a title: David’s prayer when he fled from his son Absalom.",
+  "timelineBible": "The New Testament quotes Psalm 2 more than almost any other psalm: Acts 4:25-26 applies vv.1-2 to Herod and Pilate against Jesus; Acts 13:33 and Hebrews 1:5 apply v.7 to Jesus; and Revelation 2:27, 12:5 and 19:15 echo v.9. The word “Anointed” in Hebrew is mashiach, Messiah, in Greek Christos.",
+  "translation": [
+   {
+    "english": "Anointed One",
+    "greek": "מָשִׁיחַ (mashiach)",
+    "verseRef": "v.2",
+    "meaning": "The one anointed with oil, the king. The source of “Messiah,” and in Greek “Christ.”",
+    "gloss": "Messiah",
+    "strongs": "H4899",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Son",
+    "greek": "בֵּן (ben)",
+    "verseRef": "v.7",
+    "meaning": "“You are My Son”: the king adopted by God. In v.12 the rare Aramaic-like word bar is used.",
+    "gloss": "Son",
+    "strongs": "H1121",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "take refuge",
+    "greek": "חָסָה (chasah)",
+    "verseRef": "v.12",
+    "meaning": "To flee for protection, to shelter. A key word through the Psalms.",
+    "gloss": "Shelter in",
+    "strongs": "H2620",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 4:25-28",
+    "note": "Herod and Pilate gathered against God’s anointed Jesus."
+   },
+   {
+    "ref": "Acts 13:32-33",
+    "note": "“You are My Son; today I have become Your Father,” fulfilled in the resurrection."
+   },
+   {
+    "ref": "Hebrews 1:5",
+    "note": "To which of the angels did God ever say, “You are My Son”?"
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 7:12-16",
+    "note": "God promises David a son and an everlasting throne."
+   },
+   {
+    "ref": "1 Samuel 16:13",
+    "note": "Samuel anoints David with oil."
+   },
+   {
+    "ref": "Psalm 110:1-2",
+    "note": "The LORD says to my Lord: Sit at My right hand."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The nations rebel, but God laughs and installs His King on Zion, declaring Him His Son; the wise kiss the Son and take refuge in Him.",
+   "settingLine": "The king crowned on Zion.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s line",
+     "t": "Kings of Judah were crowned in Jerusalem."
+    },
+    {
+     "h": "Rebel vassals",
+     "t": "Subject kings often revolted at a new reign."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Anointing",
+     "t": "Oil poured on the king’s head."
+    },
+    {
+     "h": "Kissing the king",
+     "t": "A sign of loyalty."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Execration texts",
+     "t": "Egyptians wrote enemies’ names on pots and smashed them as a curse."
+    },
+    {
+     "h": "The City of David",
+     "t": "Zion, the hill David captured."
+    }
+   ],
+   "discussion": "God laughs at those who plot against Him (v.4). What powers in the world look strong to me but small from heaven’s view?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David (Acts 4:25)",
+   "genre": "Royal psalm",
+   "audience": "The kings of the earth",
+   "refNotes": {
+    "2 Samuel 7:12-16": "Promise to David",
+    "1 Samuel 16:13": "David anointed",
+    "Psalm 110:1-2": "At My right hand"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The nations and kings",
+     "d": "Rage against God"
+    },
+    {
+     "n": "The LORD",
+     "d": "Enthroned in heaven"
+    },
+    {
+     "n": "His Anointed",
+     "d": "The King on Zion, God’s Son"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "The nations rage"
+    },
+    {
+     "when": "v.4-6",
+     "label": "God laughs"
+    },
+    {
+     "when": "v.7-9",
+     "label": "The decree"
+    },
+    {
+     "when": "v.10-12",
+     "label": "Kiss the Son"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Why do the nations rage and the peoples plot in vain? The kings of the earth take their stand and the rulers gather together, against the LORD and against His Anointed One: The One enthroned in heaven laughs; the Lord taunts them. I have installed My King on Zion, upon My holy mountain. I will proclaim the decree spoken to Me by the LORD: You are My Son; today I have become Your Father. Ask Me, and I will make the nations Your inheritance, the ends of the earth Your possession. Serve the LORD with fear, and rejoice with trembling. Kiss the Son, lest He be angry and you perish in your rebellion, when His wrath ignites in an instant. Blessed are all who take refuge in Him.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Visit_of_the_Queen_of_Sheba_to_King_Solomon%27,_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+   "caption": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890). Royal psalms such as Psalms 2 and 20 were sung for the kings of David’s line in Jerusalem.",
+   "credit": "Edward Poynter (1890), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

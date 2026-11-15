@@ -1,0 +1,257 @@
+{
+ "book": "Psalms",
+ "chapter": 9,
+ "title": "The LORD Reigns in Justice",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"The Death of the Son.\" A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I will give thanks to the LORD with all my heart; I will recount all Your wonders."
+  },
+  {
+   "num": 2,
+   "text": "I will be glad and rejoice in You; I will sing praise to Your name, O Most High."
+  },
+  {
+   "num": 3,
+   "text": "When my enemies retreat, they stumble and perish before You."
+  },
+  {
+   "num": 4,
+   "text": "For You have upheld my just cause; You sit on Your throne judging righteously."
+  },
+  {
+   "num": 5,
+   "text": "You have rebuked the nations; You have destroyed the wicked; You have erased their name forever and ever."
+  },
+  {
+   "num": 6,
+   "text": "The enemy has come to eternal ruin, and You have uprooted their cities; the very memory of them has vanished."
+  },
+  {
+   "num": 7,
+   "text": "But the LORD abides forever; He has established His throne for judgment."
+  },
+  {
+   "num": 8,
+   "text": "He judges the world with justice; He governs the people with equity."
+  },
+  {
+   "num": 9,
+   "text": "The LORD is a refuge for the oppressed, a stronghold in times of trouble."
+  },
+  {
+   "num": 10,
+   "text": "Those who know Your name trust in You, for You, O LORD, have not forsaken those who seek You."
+  },
+  {
+   "num": 11,
+   "text": "Sing praises to the LORD, who dwells in Zion; proclaim His deeds among the nations."
+  },
+  {
+   "num": 12,
+   "text": "For the Avenger of bloodshed remembers; He does not ignore the cry of the afflicted."
+  },
+  {
+   "num": 13,
+   "text": "Be merciful to me, O LORD; see how my enemies afflict me! Lift me up from the gates of death,"
+  },
+  {
+   "num": 14,
+   "text": "that I may declare all Your praises— that within the gates of Daughter Zion I may rejoice in Your salvation."
+  },
+  {
+   "num": 15,
+   "text": "The nations have fallen into a pit of their making; their feet are caught in the net they have hidden."
+  },
+  {
+   "num": 16,
+   "text": "The LORD is known by the justice He brings; the wicked are ensnared by the work of their hands. Higgaion Selah"
+  },
+  {
+   "num": 17,
+   "text": "The wicked will return to Sheol— all the nations who forget God."
+  },
+  {
+   "num": 18,
+   "text": "For the needy will not always be forgotten; nor the hope of the oppressed forever dashed."
+  },
+  {
+   "num": 19,
+   "text": "Rise up, O LORD, do not let man prevail; let the nations be judged in Your presence."
+  },
+  {
+   "num": 20,
+   "text": "Lay terror upon them, O LORD; let the nations know they are but men. Selah"
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I will give thanks to the LORD with all my heart; I will recount all Your wonders” (v.1). God has upheld David’s cause, rebuked the nations and erased their name (vv.3-6). “But the LORD abides forever; He has established His throne for judgment” (v.7). He judges the world with justice (v.8), and “the LORD is a refuge for the oppressed, a stronghold in times of trouble” (v.9). He remembers the cry of the afflicted (v.12). The nations fall into the pit they dug (v.15), but “the needy will not always be forgotten” (v.18).",
+  "custom": "Psalms 9 and 10 together form a broken acrostic: pairs of verses begin with successive letters of the Hebrew alphabet. The Greek Old Testament and the Latin Vulgate count them as one psalm, so their psalm numbers run one behind the Hebrew from here to Psalm 147. The title “The Death of the Son” (Muth-labben) is probably the name of a tune.",
+  "timelineImmediate": "Psalm 10 continues the alphabet poem and asks why God seems far off while the wicked prey on the poor.",
+  "timelineBible": "Paul tells the Athenians that God “has set a day when He will judge the world with justice by the Man He has appointed” (Acts 17:31), in words like v.8. “The Avenger of bloodshed” (v.12) recalls God’s word to Cain, “your brother’s blood cries out to Me” (Genesis 4:10).",
+  "translation": [
+   {
+    "english": "refuge",
+    "greek": "מִשְׂגָּב (misgav)",
+    "verseRef": "v.9",
+    "meaning": "A high, secure place, a stronghold.",
+    "gloss": "High stronghold",
+    "strongs": "H4869",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "oppressed",
+    "greek": "דַּךְ (dakh)",
+    "verseRef": "v.9",
+    "meaning": "Crushed, oppressed. God is their refuge.",
+    "gloss": "Crushed",
+    "strongs": "H1790",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "afflicted",
+    "greek": "עָנָו (anav)",
+    "verseRef": "v.12",
+    "meaning": "Humble, afflicted, poor. God does not ignore their cry.",
+    "gloss": "Humble, afflicted",
+    "strongs": "H6035",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 17:31",
+    "note": "He will judge the world with justice."
+   },
+   {
+    "ref": "Luke 1:52-53",
+    "note": "He has brought down rulers and lifted up the humble."
+   },
+   {
+    "ref": "Revelation 19:1-2",
+    "note": "His judgments are true and just."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 4:10",
+    "note": "Your brother’s blood cries out to Me."
+   },
+   {
+    "ref": "Psalm 7:15-16",
+    "note": "He fell into the pit he made."
+   },
+   {
+    "ref": "Deuteronomy 32:4",
+    "note": "All His ways are just."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David gives thanks that the LORD reigns forever as a just Judge, a refuge for the oppressed who never forgets the cry of the afflicted.",
+   "settingLine": "Praise in the gates of Daughter Zion.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Psalm numbering",
+     "t": "Greek and Latin Bibles join Psalms 9 and 10."
+    },
+    {
+     "h": "Nations around Israel",
+     "t": "Enemies on every side."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Acrostic",
+     "t": "Verses follow the Hebrew alphabet."
+    },
+    {
+     "h": "City gates",
+     "t": "Praise declared in the gates of Zion (v.14)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "City gates",
+     "t": "Iron Age gates at Dan and Beersheba had benches and open squares."
+    },
+    {
+     "h": "Alphabet",
+     "t": "Abecedaries scratched on stone and pottery show Hebrew letters being learned."
+    }
+   ],
+   "discussion": "“The needy will not always be forgotten” (v.18). Who are the forgotten people around me, and how can I share God’s concern for them?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Thanksgiving (an alphabet poem with Psalm 10)",
+   "audience": "The nations, and the afflicted",
+   "refNotes": {
+    "Genesis 4:10": "Blood cries out",
+    "Psalm 7:15-16": "The pit",
+    "Deuteronomy 32:4": "His ways are just"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Gives thanks"
+    },
+    {
+     "n": "The nations",
+     "d": "Fall into their own pit"
+    },
+    {
+     "n": "The afflicted",
+     "d": "God hears their cry"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Thanks for victory"
+    },
+    {
+     "when": "v.7-12",
+     "label": "The LORD reigns"
+    },
+    {
+     "when": "v.13-20",
+     "label": "Lift me up"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I will give thanks to the LORD with all my heart; I will recount all Your wonders. I will be glad and rejoice in You; I will sing praise to Your name, O Most High. But the LORD abides forever; He has established His throne for judgment. He judges the world with justice; He governs the people with equity. The LORD is a refuge for the oppressed, a stronghold in times of trouble. Those who know Your name trust in You, for You, O LORD, have not forsaken those who seek You. For the needy will not always be forgotten; nor the hope of the oppressed forever dashed.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalm_118_11Q5.jpg",
+   "caption": "Psalm 118 in the Great Psalms Scroll (11Q5) from Qumran Cave 11. The scroll writes the divine name YHWH in old Paleo-Hebrew letters, set apart from the square script around it.",
+   "credit": "Israel Antiquities Authority, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

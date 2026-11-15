@@ -1,0 +1,388 @@
+{
+ "book": "Psalms",
+ "chapter": 18,
+ "title": "The LORD Is My Rock",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. Of David the servant of the LORD, who sang this song to the LORD on the day the LORD had delivered him from the hand of all his enemies and from the hand of Saul. He said:",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I love You, O LORD, my strength."
+  },
+  {
+   "num": 2,
+   "text": "The LORD is my rock, my fortress, and my deliverer. My God is my rock, in whom I take refuge, my shield, and the horn of my salvation, my stronghold."
+  },
+  {
+   "num": 3,
+   "text": "I will call upon the LORD, who is worthy to be praised; so shall I be saved from my enemies."
+  },
+  {
+   "num": 4,
+   "text": "The cords of death encompassed me; the torrents of chaos overwhelmed me."
+  },
+  {
+   "num": 5,
+   "text": "The cords of Sheol entangled me; the snares of death confronted me."
+  },
+  {
+   "num": 6,
+   "text": "In my distress I called upon the LORD; I cried to my God for help. From His temple He heard my voice, and my cry for His help reached His ears."
+  },
+  {
+   "num": 7,
+   "text": "Then the earth shook and quaked, and the foundations of the mountains trembled; they were shaken because He burned with anger."
+  },
+  {
+   "num": 8,
+   "text": "Smoke rose from His nostrils, and consuming fire came from His mouth; glowing coals blazed forth."
+  },
+  {
+   "num": 9,
+   "text": "He parted the heavens and came down with dark clouds beneath His feet."
+  },
+  {
+   "num": 10,
+   "text": "He mounted a cherub and flew; He soared on the wings of the wind."
+  },
+  {
+   "num": 11,
+   "text": "He made darkness His hiding place, and storm clouds a canopy around Him."
+  },
+  {
+   "num": 12,
+   "text": "From the brightness of His presence His clouds advanced— hailstones and coals of fire."
+  },
+  {
+   "num": 13,
+   "text": "The LORD thundered from heaven; the voice of the Most High resounded— hailstones and coals of fire."
+  },
+  {
+   "num": 14,
+   "text": "He shot His arrows and scattered the foes; He hurled lightning and routed them."
+  },
+  {
+   "num": 15,
+   "text": "The channels of the sea appeared, and the foundations of the world were exposed, at Your rebuke, O LORD, at the blast of the breath of Your nostrils."
+  },
+  {
+   "num": 16,
+   "text": "He reached down from on high and took hold of me; He drew me out of deep waters."
+  },
+  {
+   "num": 17,
+   "text": "He rescued me from my powerful enemy, from foes too mighty for me."
+  },
+  {
+   "num": 18,
+   "text": "They confronted me in my day of calamity, but the LORD was my support."
+  },
+  {
+   "num": 19,
+   "text": "He brought me out into the open; He rescued me because He delighted in me."
+  },
+  {
+   "num": 20,
+   "text": "The LORD has rewarded me according to my righteousness; He has repaid me according to the cleanness of my hands."
+  },
+  {
+   "num": 21,
+   "text": "For I have kept the ways of the LORD and have not wickedly departed from my God."
+  },
+  {
+   "num": 22,
+   "text": "For all His ordinances are before me; I have not disregarded His statutes."
+  },
+  {
+   "num": 23,
+   "text": "And I have been blameless before Him and kept myself from iniquity."
+  },
+  {
+   "num": 24,
+   "text": "So the LORD has repaid me according to my righteousness, according to the cleanness of my hands in His sight."
+  },
+  {
+   "num": 25,
+   "text": "To the faithful You show Yourself faithful, to the blameless You show Yourself blameless;"
+  },
+  {
+   "num": 26,
+   "text": "to the pure You show Yourself pure, but to the crooked You show Yourself shrewd."
+  },
+  {
+   "num": 27,
+   "text": "For You save an afflicted people, but You humble those with haughty eyes."
+  },
+  {
+   "num": 28,
+   "text": "For You, O LORD, light my lamp; my God lights up my darkness."
+  },
+  {
+   "num": 29,
+   "text": "For in You I can charge an army, and with my God I can scale a wall."
+  },
+  {
+   "num": 30,
+   "text": "As for God, His way is perfect; the word of the LORD is flawless. He is a shield to all who take refuge in Him."
+  },
+  {
+   "num": 31,
+   "text": "For who is God besides the LORD? And who is the Rock except our God?"
+  },
+  {
+   "num": 32,
+   "text": "It is God who arms me with strength and makes my way clear."
+  },
+  {
+   "num": 33,
+   "text": "He makes my feet like those of a deer and stations me upon the heights."
+  },
+  {
+   "num": 34,
+   "text": "He trains my hands for battle; my arms can bend a bow of bronze."
+  },
+  {
+   "num": 35,
+   "text": "You have given me Your shield of salvation; Your right hand upholds me, and Your gentleness exalts me."
+  },
+  {
+   "num": 36,
+   "text": "You broaden the path beneath me so that my ankles do not give way."
+  },
+  {
+   "num": 37,
+   "text": "I pursued my enemies and overtook them; I did not turn back until they were consumed."
+  },
+  {
+   "num": 38,
+   "text": "I crushed them so they could not rise; they have fallen under my feet."
+  },
+  {
+   "num": 39,
+   "text": "You have armed me with strength for battle; You have subdued my foes beneath me."
+  },
+  {
+   "num": 40,
+   "text": "You have made my enemies retreat before me; I put an end to those who hated me."
+  },
+  {
+   "num": 41,
+   "text": "They cried for help, but there was no one to save them— to the LORD, but He did not answer."
+  },
+  {
+   "num": 42,
+   "text": "I ground them as dust in the face of the wind; I trampled them like mud in the streets."
+  },
+  {
+   "num": 43,
+   "text": "You have delivered me from the strife of the people; You have made me the head of nations; a people I had not known shall serve me."
+  },
+  {
+   "num": 44,
+   "text": "When they hear me, they obey me; foreigners cower before me."
+  },
+  {
+   "num": 45,
+   "text": "Foreigners lose heart and come trembling from their strongholds."
+  },
+  {
+   "num": 46,
+   "text": "The LORD lives, and blessed be my Rock! And may the God of my salvation be exalted—"
+  },
+  {
+   "num": 47,
+   "text": "the God who avenges me and subdues nations beneath me,"
+  },
+  {
+   "num": 48,
+   "text": "who delivers me from my enemies. You exalt me above my foes; You rescue me from violent men."
+  },
+  {
+   "num": 49,
+   "text": "Therefore I will praise You, O LORD, among the nations; I will sing praises to Your name."
+  },
+  {
+   "num": 50,
+   "text": "Great salvation He brings to His king. He shows loving devotion to His anointed, to David and his descendants forever."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "DAVID’S STRONGHOLDS IN THE WILDERNESS",
+  "setting": "The long title gives the occasion: David sang it “on the day the LORD had delivered him from the hand of all his enemies and from the hand of Saul.” “I love You, O LORD, my strength. The LORD is my rock, my fortress, and my deliverer” (vv.1-2). The cords of death wrapped him (vv.4-5), he called, and God came down: the earth shook, smoke and fire went out, and God “mounted a cherub and flew” (vv.7-10). “He drew me out of deep waters” and “brought me out into the open; He rescued me because He delighted in me” (vv.16, 19). God trained David for battle and gave him victory (vv.32-42). The song ends with praise among the nations and God’s loving devotion “to David and his descendants forever” (v.50).",
+  "custom": "David hid from Saul in the strongholds of the wilderness of En Gedi and in caves (1 Samuel 23:29-24:3); a rock or fortress was a place of real safety. The “horn” (v.2) was a symbol of strength, from a wild ox. Storm, earthquake, smoke and fire (vv.7-15) are the language of God’s coming at Sinai. The deer (v.33) moves surely on steep cliffs.",
+  "timelineImmediate": "Psalm 19 sings of God’s glory in the heavens and in His law.",
+  "timelineBible": "The same song appears in 2 Samuel 22, near the end of David’s story, with small differences. Paul quotes v.49 in Romans 15:9 to show that the Gentiles would praise God. Zechariah sang that God “has raised up a horn of salvation for us in the house of His servant David” (Luke 1:69).",
+  "translation": [
+   {
+    "english": "rock",
+    "greek": "סֶלַע (sela)",
+    "verseRef": "v.2",
+    "meaning": "A crag, a high rock, a cliff refuge.",
+    "gloss": "Crag",
+    "strongs": "H5553",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fortress",
+    "greek": "מְצוּדָה (metsudah)",
+    "verseRef": "v.2",
+    "meaning": "Stronghold, fortress. The source of the place name Masada.",
+    "gloss": "Stronghold",
+    "strongs": "H4686",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cherub",
+    "greek": "כְּרוּב (keruv)",
+    "verseRef": "v.10",
+    "meaning": "A winged heavenly being, carrying God’s throne.",
+    "gloss": "Cherub",
+    "strongs": "H3742",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 15:8-9",
+    "note": "Therefore I will praise You among the Gentiles."
+   },
+   {
+    "ref": "Luke 1:68-69",
+    "note": "A horn of salvation in the house of David."
+   },
+   {
+    "ref": "Hebrews 2:13",
+    "note": "I will put My trust in Him."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 22:1-4",
+    "note": "The same song in David’s story."
+   },
+   {
+    "ref": "1 Samuel 23:29",
+    "note": "David lived in the strongholds of En Gedi."
+   },
+   {
+    "ref": "Exodus 19:16-18",
+    "note": "Smoke, fire and trembling at Sinai."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.4613,
+   "lng": 35.3917,
+   "zoom": 6,
+   "placeName": "En Gedi (the wilderness strongholds)"
+  },
+  "overview": {
+   "summary": "Delivered from Saul and all his enemies, David praises the LORD his rock and fortress, who came down in storm and fire to rescue him because He delighted in him.",
+   "settingLine": "Strongholds in the wilderness.",
+   "placeName": "En Gedi (the wilderness strongholds)",
+   "history": [
+    {
+     "h": "Saul’s pursuit",
+     "t": "Years of flight before David was king."
+    },
+    {
+     "h": "2 Samuel 22",
+     "t": "The same song in narrative."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Strongholds",
+     "t": "Cliffs and caves for refuge."
+    },
+    {
+     "h": "The horn",
+     "t": "A symbol of strength."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "En Gedi",
+     "t": "An oasis with springs and caves above the Dead Sea."
+    },
+    {
+     "h": "Bronze bows",
+     "t": "Bows reinforced with metal were weapons of elite warriors (v.34)."
+    }
+   ],
+   "discussion": "“He rescued me because He delighted in me” (v.19). Do I think of God as delighting in me, or only putting up with me?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Royal thanksgiving",
+   "audience": "The LORD, among the nations",
+   "refNotes": {
+    "2 Samuel 22:1-4": "The twin song",
+    "1 Samuel 23:29": "Wilderness strongholds",
+    "Exodus 19:16-18": "God comes at Sinai"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Rescued"
+    },
+    {
+     "n": "Saul",
+     "d": "His pursuer"
+    },
+    {
+     "n": "The LORD",
+     "d": "Rock, fortress, deliverer"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "I love You"
+    },
+    {
+     "when": "v.4-19",
+     "label": "God comes down"
+    },
+    {
+     "when": "v.20-30",
+     "label": "His way is perfect"
+    },
+    {
+     "when": "v.31-50",
+     "label": "Victory and praise"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "En Gedi (the wilderness strongholds)",
+    "lat": 31.4613,
+    "lng": 35.3917,
+    "verses": [],
+    "slug": "en-gedi"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I love You, O LORD, my strength. The LORD is my rock, my fortress, and my deliverer. My God is my rock, in whom I take refuge, my shield, and the horn of my salvation, my stronghold. In my distress I called upon the LORD; I cried to my God for help. From His temple He heard my voice, and my cry for His help reached His ears. He reached down from on high and took hold of me; He drew me out of deep waters. He brought me out into the open; He rescued me because He delighted in me. For You, O LORD, light my lamp; my God lights up my darkness. As for God, His way is perfect; the word of the LORD is flawless. He is a shield to all who take refuge in Him. The LORD lives, and blessed be my Rock! And may the God of my salvation be exalted— Great salvation He brings to His king. He shows loving devotion to His anointed, to David and his descendants forever.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+   "caption": "The view down from Masada above the Dead Sea, with the siege ramp the Romans built in AD 73-74. The name Masada comes from the Hebrew metsudah, “fortress,” the word David uses in Psalm 18:2: “The LORD is my rock, my fortress, and my deliverer.” David hid in the strongholds of this wilderness when Saul hunted him (1 Samuel 23:29).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

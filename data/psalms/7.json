@@ -1,0 +1,245 @@
+{
+ "book": "Psalms",
+ "chapter": 7,
+ "title": "God the Righteous Judge",
+ "translation": "BSB",
+ "superscription": "A Shiggaion of David, which he sang to the LORD concerning the words of Cush, a Benjamite.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD my God, I take refuge in You; save me and deliver me from all my pursuers,"
+  },
+  {
+   "num": 2,
+   "text": "or they will shred my soul like a lion and tear me to pieces with no one to rescue me."
+  },
+  {
+   "num": 3,
+   "text": "O LORD my God, if I have done this, if injustice is on my hands,"
+  },
+  {
+   "num": 4,
+   "text": "if I have rewarded my ally with evil, if I have plundered my foe without cause,"
+  },
+  {
+   "num": 5,
+   "text": "then may my enemy pursue me and overtake me; may he trample me to the ground and leave my honor in the dust. Selah"
+  },
+  {
+   "num": 6,
+   "text": "Arise, O LORD, in Your anger; rise up against the fury of my enemies. Awake, my God, and ordain judgment."
+  },
+  {
+   "num": 7,
+   "text": "Let the assembled peoples gather around You; take Your seat over them on high."
+  },
+  {
+   "num": 8,
+   "text": "The LORD judges the peoples; vindicate me, O LORD, according to my righteousness and integrity."
+  },
+  {
+   "num": 9,
+   "text": "Put an end to the evil of the wicked, but establish the righteous, O righteous God who searches hearts and minds."
+  },
+  {
+   "num": 10,
+   "text": "My shield is with God, who saves the upright in heart."
+  },
+  {
+   "num": 11,
+   "text": "God is a righteous judge and a God who feels indignation each day."
+  },
+  {
+   "num": 12,
+   "text": "If one does not repent, God will sharpen His sword; He has bent and strung His bow."
+  },
+  {
+   "num": 13,
+   "text": "He has prepared His deadly weapons; He ordains His arrows with fire."
+  },
+  {
+   "num": 14,
+   "text": "Behold, the wicked man travails with evil; he conceives trouble and births falsehood."
+  },
+  {
+   "num": 15,
+   "text": "He has dug a hole and hollowed it out; he has fallen into a pit of his own making."
+  },
+  {
+   "num": 16,
+   "text": "His trouble recoils on himself, and his violence falls on his own head."
+  },
+  {
+   "num": 17,
+   "text": "I will thank the LORD for His righteousness and sing praise to the name of the LORD Most High."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title says David sang it “concerning the words of Cush, a Benjamite,” a man not otherwise known. Falsely accused, David takes refuge in God (v.1) and puts himself on oath: if he has done wrong, let his enemy trample him (vv.3-5). Then he calls the LORD to rise up and judge: “vindicate me, O LORD, according to my righteousness and integrity” (v.8), for God “searches hearts and minds” (v.9) and “is a righteous judge” (v.11). The wicked man conceives trouble and falls into the pit he dug (vv.14-16). David ends with thanks to “the LORD Most High” (v.17).",
+  "custom": "A shiggaion (title) may be a song of strong emotion or a lament; the word is rare and uncertain. An accused person could clear himself by an oath of innocence, calling down a curse on himself if guilty (vv.3-5; Numbers 5:19-22; Job 31). Benjamin was Saul’s tribe, and many Benjamites stayed loyal to Saul’s house against David (2 Samuel 16:5-8).",
+  "timelineImmediate": "Psalm 8 lifts our eyes to the heavens: “What is man that You are mindful of him?”",
+  "timelineBible": "Christ calls Himself “the One who searches minds and hearts” (Revelation 2:23), as God does in v.9. The pit-digger who falls into his own trap (v.15) comes again in Psalm 9:15 and Proverbs 26:27. Shimei, a Benjamite of Saul’s family, cursed David as he fled (2 Samuel 16:5-8).",
+  "translation": [
+   {
+    "english": "judge",
+    "greek": "שָׁפַט (shafat)",
+    "verseRef": "v.8",
+    "meaning": "To judge, govern, set right. God judges the peoples.",
+    "gloss": "Judge",
+    "strongs": "H8199",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Most High",
+    "greek": "עֶלְיוֹן (elyon)",
+    "verseRef": "v.17",
+    "meaning": "The Most High, a title of God as supreme over all (Genesis 14:18-20).",
+    "gloss": "Most High",
+    "strongs": "H5945",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "integrity",
+    "greek": "תֹּם (tom)",
+    "verseRef": "v.8",
+    "meaning": "Wholeness, blamelessness.",
+    "gloss": "Wholeness",
+    "strongs": "H8537",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 2:23",
+    "note": "I am He who searches minds and hearts."
+   },
+   {
+    "ref": "2 Timothy 4:8",
+    "note": "The righteous Judge will award the crown."
+   },
+   {
+    "ref": "1 Peter 2:23",
+    "note": "He entrusted Himself to Him who judges justly."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 16:5-8",
+    "note": "Shimei the Benjamite curses David."
+   },
+   {
+    "ref": "Genesis 14:18-20",
+    "note": "Melchizedek, priest of God Most High."
+   },
+   {
+    "ref": "Proverbs 26:27",
+    "note": "He who digs a pit will fall into it."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Falsely accused, David swears his innocence, calls on God the righteous Judge, and sees the wicked fall into their own pit.",
+   "settingLine": "A man falsely accused before God’s court.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Cush the Benjamite",
+     "t": "Unknown; perhaps one of Saul’s supporters."
+    },
+    {
+     "h": "Saul’s tribe",
+     "t": "Benjamites resented David."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Oaths of innocence",
+     "t": "Calling down a curse if guilty."
+    },
+    {
+     "h": "Shiggaion",
+     "t": "A rare word, perhaps an emotional song."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gibeah of Saul",
+     "t": "Saul’s hometown in Benjamin, north of Jerusalem (Tell el-Ful)."
+    },
+    {
+     "h": "Bows and arrows",
+     "t": "Bronze and iron arrowheads are common Iron Age finds."
+    }
+   ],
+   "discussion": "David brings his case to God instead of taking revenge (vv.6-9). Where do I need to leave my vindication with God?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and plea for justice",
+   "audience": "God the Judge",
+   "refNotes": {
+    "2 Samuel 16:5-8": "A Benjamite curses David",
+    "Genesis 14:18-20": "God Most High",
+    "Proverbs 26:27": "The pit-digger"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Falsely accused"
+    },
+    {
+     "n": "Cush, a Benjamite",
+     "d": "His accuser"
+    },
+    {
+     "n": "God",
+     "d": "The righteous Judge"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Refuge and oath"
+    },
+    {
+     "when": "v.6-11",
+     "label": "Arise and judge"
+    },
+    {
+     "when": "v.12-17",
+     "label": "The pit and the praise"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD my God, I take refuge in You; save me and deliver me from all my pursuers, The LORD judges the peoples; vindicate me, O LORD, according to my righteousness and integrity. Put an end to the evil of the wicked, but establish the righteous, O righteous God who searches hearts and minds. My shield is with God, who saves the upright in heart. God is a righteous judge and a God who feels indignation each day. He has dug a hole and hollowed it out; he has fallen into a pit of his own making. I will thank the LORD for His righteousness and sing praise to the name of the LORD Most High.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

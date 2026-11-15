@@ -1,0 +1,201 @@
+{
+ "book": "Psalms",
+ "chapter": 13,
+ "title": "How Long, O LORD?",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "How long, O LORD? Will You forget me forever? How long will You hide Your face from me?"
+  },
+  {
+   "num": 2,
+   "text": "How long must I wrestle in my soul, with sorrow in my heart each day? How long will my enemy dominate me?"
+  },
+  {
+   "num": 3,
+   "text": "Consider me and respond, O LORD my God. Give light to my eyes, lest I sleep in death,"
+  },
+  {
+   "num": 4,
+   "text": "lest my enemy say, \"I have overcome him,\" and my foes rejoice when I fall."
+  },
+  {
+   "num": 5,
+   "text": "But I have trusted in Your loving devotion; my heart will rejoice in Your salvation."
+  },
+  {
+   "num": 6,
+   "text": "I will sing to the LORD, for He has been good to me."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Four times David asks, “How long?” “How long, O LORD? Will You forget me forever? How long will You hide Your face from me?” (v.1). He wrestles in his soul with sorrow every day, while his enemy rules over him (v.2). “Consider me and respond, O LORD my God. Give light to my eyes, lest I sleep in death” (v.3). Then, with nothing yet changed, he turns to trust: “But I have trusted in Your loving devotion; my heart will rejoice in Your salvation” (v.5), and “I will sing to the LORD, for He has been good to me” (v.6).",
+  "custom": "Laments follow a common pattern: a complaint to God, a request, and a turn to trust and praise, often without any change in the situation. Bright eyes were a sign of health and strength (1 Samuel 14:27, 29); dim eyes showed weakness or approaching death. To hide the face was to withdraw favor.",
+  "timelineImmediate": "Psalm 14 describes the fool who says, “There is no God.”",
+  "timelineBible": "The souls under the altar cry the same words: “How long, O Lord, holy and true” (Revelation 6:10). Lamentations 3:21-23 makes the same turn from grief to hope in God’s loving devotion.",
+  "translation": [
+   {
+    "english": "how long",
+    "greek": "עַד (ad)",
+    "verseRef": "v.1",
+    "meaning": "“Until when?” Asked four times in two verses.",
+    "gloss": "Until when",
+    "strongs": "H5704",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "loving devotion",
+    "greek": "חֶסֶד (chesed)",
+    "verseRef": "v.5",
+    "meaning": "Steadfast love, covenant loyalty, the ground of David’s trust.",
+    "gloss": "Steadfast love",
+    "strongs": "H2617",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "salvation",
+    "greek": "יְשׁוּעָה (yeshuah)",
+    "verseRef": "v.5",
+    "meaning": "Deliverance, rescue.",
+    "gloss": "Deliverance",
+    "strongs": "H3444",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 6:9-10",
+    "note": "How long, O Lord, holy and true?"
+   },
+   {
+    "ref": "2 Corinthians 4:8-9",
+    "note": "Struck down, but not destroyed."
+   },
+   {
+    "ref": "Romans 8:35-37",
+    "note": "Who can separate us from the love of Christ?"
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 6:3",
+    "note": "How long, O LORD, how long?"
+   },
+   {
+    "ref": "Lamentations 3:21-23",
+    "note": "His mercies are new every morning."
+   },
+   {
+    "ref": "Habakkuk 1:2",
+    "note": "How long, O LORD, must I call?"
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David asks four times how long God will forget him, then chooses to trust His steadfast love and sing because God has been good.",
+   "settingLine": "A long wait in the dark.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Lament psalms",
+     "t": "The most common kind of psalm."
+    },
+    {
+     "h": "Enemies",
+     "t": "David’s foes waited for his fall."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Lament pattern",
+     "t": "Complaint, request, trust."
+    },
+    {
+     "h": "Bright eyes",
+     "t": "A sign of life and strength."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tomb inscriptions",
+     "t": "Judean burial caves near Jerusalem carry prayers and blessings scratched on their walls."
+    },
+    {
+     "h": "Lyres",
+     "t": "Lament was often sung to music."
+    }
+   ],
+   "discussion": "David trusts before anything changes (v.5). What helps me say “But I have trusted” while I am still asking “How long?”",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament",
+   "audience": "God, who seems to forget",
+   "refNotes": {
+    "Psalm 6:3": "How long?",
+    "Lamentations 3:21-23": "Hope in grief",
+    "Habakkuk 1:2": "The prophet’s cry"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Waiting"
+    },
+    {
+     "n": "His enemy",
+     "d": "Ready to gloat"
+    },
+    {
+     "n": "The LORD",
+     "d": "Good to him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "How long?"
+    },
+    {
+     "when": "v.3-4",
+     "label": "Consider and answer"
+    },
+    {
+     "when": "v.5-6",
+     "label": "But I have trusted"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "How long, O LORD? Will You forget me forever? How long will You hide Your face from me? How long must I wrestle in my soul, with sorrow in my heart each day? How long will my enemy dominate me? Consider me and respond, O LORD my God. Give light to my eyes, lest I sleep in death, But I have trusted in Your loving devotion; my heart will rejoice in Your salvation. I will sing to the LORD, for He has been good to me.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

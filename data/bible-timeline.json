@@ -752,6 +752,35 @@
    ]
   },
   {
+   "id": "ps_saul",
+   "s": "kingdom",
+   "z": 2,
+   "t": "David hunted by Saul",
+   "d": "c. 1020-1010 BC",
+   "c": "a",
+   "r": "1 Samuel 19-31; Psalm 18",
+   "sum": "Saul pursues David through the wilderness strongholds; Psalm 18 gives thanks for the day the LORD delivered him “from the hand of Saul.”",
+   "ev": 597,
+   "go": [
+    "psalms",
+    18,
+    1
+   ],
+   "bk": [
+    [
+     8,
+     19,
+     31
+    ],
+    [
+     18,
+     18,
+     18
+    ]
+   ],
+   "n": "Dates are approximate."
+  },
+  {
    "id": "david",
    "s": "kingdom",
    "z": 0,
@@ -767,6 +796,35 @@
      5
     ]
    ]
+  },
+  {
+   "id": "ps_absalom",
+   "s": "kingdom",
+   "z": 2,
+   "t": "David flees from Absalom",
+   "d": "c. 980 BC",
+   "c": "a",
+   "r": "2 Samuel 15-18; Psalm 3",
+   "sum": "David’s son Absalom seizes the throne, and David flees across the Jordan to Mahanaim. Psalm 3 is titled for that flight: “But You, O LORD, are a shield around me” (Psalm 3:3).",
+   "ev": 594,
+   "go": [
+    "psalms",
+    3,
+    1
+   ],
+   "bk": [
+    [
+     9,
+     15,
+     18
+    ],
+    [
+     18,
+     3,
+     3
+    ]
+   ],
+   "n": "Dates for David’s reign are approximate; the revolt came late in his reign."
   },
   {
    "id": "davcov",
@@ -793,7 +851,7 @@
    "d": "c. 1000-900 BC",
    "c": "a",
    "r": "Psalms; Song of Songs",
-   "sum": "Many Psalms are credited to David, and the Song of Songs is traditionally linked to Solomon.",
+   "sum": "Many Psalms are credited to David, and the Song of Songs is traditionally linked to Solomon. Psalms 1-20 are in the app.",
    "bk": [
     [
      18,
@@ -805,6 +863,12 @@
      0,
      0
     ]
+   ],
+   "ev": 593,
+   "go": [
+    "psalms",
+    1,
+    1
    ]
   },
   {

@@ -2689,6 +2689,71 @@
   "ecclesiastes:12": [
    "ec_hezir",
    "ec_vanitas"
+  ],
+  "psalms:1": [
+   "ps_scroll",
+   "ps_jordan"
+  ],
+  "psalms:2": [
+   "ps_templemount"
+  ],
+  "psalms:3": [
+   "ps_harp",
+   "ps_jordan"
+  ],
+  "psalms:4": [
+   "ps_harp"
+  ],
+  "psalms:5": [
+   "ps_templemount"
+  ],
+  "psalms:6": [
+   "ps_harp"
+  ],
+  "psalms:7": [
+   "ps_cityofdavid"
+  ],
+  "psalms:8": [
+   "ps_harp"
+  ],
+  "psalms:9": [
+   "ps_ps118"
+  ],
+  "psalms:10": [
+   "ps_cityofdavid"
+  ],
+  "psalms:11": [
+   "ps_masada"
+  ],
+  "psalms:12": [
+   "ps_scroll"
+  ],
+  "psalms:13": [
+   "ps_harp"
+  ],
+  "psalms:14": [
+   "ps_templemount"
+  ],
+  "psalms:15": [
+   "ps_templemount",
+   "ps_cityofdavid"
+  ],
+  "psalms:16": [
+   "ps_scroll"
+  ],
+  "psalms:17": [
+   "ps_harp"
+  ],
+  "psalms:18": [
+   "ps_masada",
+   "ps_harp"
+  ],
+  "psalms:19": [
+   "ps_qumran",
+   "ps_scroll"
+  ],
+  "psalms:20": [
+   "ps_megiddo"
   ]
  },
  "ac_ascmat": {
@@ -7040,5 +7105,77 @@
   "n": "Qumran caves",
   "d": "The caves at Qumran above the Dead Sea. Fragments of Ecclesiastes were found in Cave 4, among the oldest copies of any book of the Bible.",
   "a": "Wikimedia Commons"
+ },
+ "ps_harp": {
+  "k": "art",
+  "f": "Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+  "c": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+  "n": "Honthorst, King David Playing the Harp",
+  "d": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+  "a": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+ },
+ "ps_scroll": {
+  "k": "dig",
+  "f": "Psalms_Scroll.jpg",
+  "c": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+  "n": "The Great Psalms Scroll",
+  "d": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+  "a": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+ },
+ "ps_ps118": {
+  "k": "dig",
+  "f": "Psalm_118_11Q5.jpg",
+  "c": "Psalm 118 in the Great Psalms Scroll (11Q5) from Qumran Cave 11. The scroll writes the divine name YHWH in old Paleo-Hebrew letters, set apart from the square script around it.",
+  "n": "Psalm 118 in the Psalms Scroll",
+  "d": "Psalm 118 in the Great Psalms Scroll (11Q5) from Qumran Cave 11. The scroll writes the divine name YHWH in old Paleo-Hebrew letters, set apart from the square script around it.",
+  "a": "Israel Antiquities Authority, via Wikimedia Commons"
+ },
+ "ps_masada": {
+  "k": "now",
+  "f": "The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+  "c": "The view down from Masada above the Dead Sea, with the siege ramp the Romans built in AD 73-74. The name Masada comes from the Hebrew metsudah, “fortress,” the word David uses in Psalm 18:2: “The LORD is my rock, my fortress, and my deliverer.” David hid in the strongholds of this wilderness when Saul hunted him (1 Samuel 23:29).",
+  "n": "Masada above the Dead Sea",
+  "d": "The view down from Masada above the Dead Sea, with the siege ramp the Romans built in AD 73-74. The name Masada comes from the Hebrew metsudah, “fortress,” the word David uses in Psalm 18:2: “The LORD is my rock, my fortress, and my deliverer.” David hid in the strongholds of this wilderness when Saul hunted him (1 Samuel 23:29).",
+  "a": "Wikimedia Commons"
+ },
+ "ps_jordan": {
+  "k": "now",
+  "f": "Jordan_River_(5418351509).jpg",
+  "c": "The Jordan River. “He is like a tree planted by streams of water” (Psalm 1:3). David crossed the Jordan when he fled from Absalom (2 Samuel 17:22).",
+  "n": "The Jordan River",
+  "d": "The Jordan River. “He is like a tree planted by streams of water” (Psalm 1:3). David crossed the Jordan when he fled from Absalom (2 Samuel 17:22).",
+  "a": "Wikimedia Commons"
+ },
+ "ps_templemount": {
+  "k": "now",
+  "f": "Temple_Mount_(Aerial_view,_2007)_01.jpg",
+  "c": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+  "n": "The Temple Mount",
+  "d": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+  "a": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "ps_cityofdavid": {
+  "k": "dig",
+  "f": "The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+  "c": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+  "n": "The City of David",
+  "d": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+  "a": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+ },
+ "ps_qumran": {
+  "k": "dig",
+  "f": "Qumran_Caves.jpg",
+  "c": "The caves at Qumran above the Dead Sea, where more than thirty copies of the Psalms were found among the Dead Sea Scrolls.",
+  "n": "Qumran caves",
+  "d": "The caves at Qumran above the Dead Sea, where more than thirty copies of the Psalms were found among the Dead Sea Scrolls.",
+  "a": "Wikimedia Commons"
+ },
+ "ps_megiddo": {
+  "k": "dig",
+  "f": "AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+  "c": "The mound of Megiddo above the Jezreel Valley. Stables or storehouses found there are linked by many with the chariot forces of Israel’s kings. “Some trust in chariots and others in horses, but we trust in the name of the LORD our God” (Psalm 20:7).",
+  "n": "Tel Megiddo",
+  "d": "The mound of Megiddo above the Jezreel Valley. Stables or storehouses found there are linked by many with the chariot forces of Israel’s kings. “Some trust in chariots and others in horses, but we trust in the name of the LORD our God” (Psalm 20:7).",
+  "a": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
  }
 }

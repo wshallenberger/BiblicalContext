@@ -1,0 +1,248 @@
+{
+ "book": "Psalms",
+ "chapter": 10,
+ "title": "Why, O LORD, Do You Stand Far Off?",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Why, O LORD, do You stand far off? Why do You hide in times of trouble?"
+  },
+  {
+   "num": 2,
+   "text": "In pride the wicked pursue the needy; let them be caught in the schemes they devise."
+  },
+  {
+   "num": 3,
+   "text": "For the wicked man boasts in the cravings of his heart; he blesses the greedy and reviles the LORD."
+  },
+  {
+   "num": 4,
+   "text": "In his pride the wicked man does not seek Him; in all his schemes there is no God."
+  },
+  {
+   "num": 5,
+   "text": "He is secure in his ways at all times; Your lofty judgments are far from him; he sneers at all his foes."
+  },
+  {
+   "num": 6,
+   "text": "He says to himself, \"I will not be moved; from age to age I am free of distress.\""
+  },
+  {
+   "num": 7,
+   "text": "His mouth is full of cursing, deceit, and violence; trouble and malice are under his tongue."
+  },
+  {
+   "num": 8,
+   "text": "He lies in wait near the villages; in ambush he slays the innocent; his eyes watch in stealth for the helpless."
+  },
+  {
+   "num": 9,
+   "text": "He lies in wait like a lion in a thicket; he lurks to seize the oppressed; he catches the lowly in his net."
+  },
+  {
+   "num": 10,
+   "text": "They are crushed and beaten down; the hapless fall prey to his strength."
+  },
+  {
+   "num": 11,
+   "text": "He says to himself, \"God has forgotten; He hides His face and never sees.\""
+  },
+  {
+   "num": 12,
+   "text": "Arise, O LORD! Lift up Your hand, O God! Do not forget the helpless."
+  },
+  {
+   "num": 13,
+   "text": "Why has the wicked man renounced God? He says to himself, \"You will never call me to account.\""
+  },
+  {
+   "num": 14,
+   "text": "But You have regarded trouble and grief; You see to repay it by Your hand. The victim entrusts himself to You; You are the helper of the fatherless."
+  },
+  {
+   "num": 15,
+   "text": "Break the arm of the wicked and evildoer; call him to account for his wickedness until none is left to be found."
+  },
+  {
+   "num": 16,
+   "text": "The LORD is King forever and ever; the nations perish from His land."
+  },
+  {
+   "num": 17,
+   "text": "You have heard, O LORD, the desire of the humble; You will strengthen their hearts. You will incline Your ear,"
+  },
+  {
+   "num": 18,
+   "text": "to vindicate the fatherless and oppressed, that the men of the earth may strike terror no more."
+  }
+ ],
+ "context": {
+  "author": "Not named; Psalm 10 has no title because it continues Psalm 9, with which it forms one alphabet poem.",
+  "genre": "Lament over the wicked who oppress the poor",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Why, O LORD, do You stand far off? Why do You hide in times of trouble?” (v.1). The psalm draws a long portrait of the proud wicked man: he boasts, reviles the LORD, and thinks, “There is no God” in all his schemes (vv.2-4). He lies in wait near the villages like a lion in a thicket and catches the poor in his net (vv.8-10). He tells himself, “God has forgotten; He hides His face and never sees” (v.11). Then the prayer: “Arise, O LORD! Lift up Your hand, O God! Do not forget the helpless” (v.12). God does see, and is “the helper of the fatherless” (v.14). “The LORD is King forever and ever” (v.16).",
+  "custom": "Villages without walls were open to raiders and powerful men who seized land and goods (v.8; Micah 2:1-2). Lions hunted from the thickets of the Jordan valley. The fatherless and widows had no male protector and were the first victims of injustice, so the law and the prophets name them again and again (Exodus 22:22-24).",
+  "timelineImmediate": "Psalm 11 answers the advice to flee: “In the LORD I take refuge.”",
+  "timelineBible": "Paul quotes v.7: “Their mouths are full of cursing and bitterness” (Romans 3:14). Habakkuk asks the same question: “How long, O LORD, must I call for help, but You do not hear?” (Habakkuk 1:2).",
+  "translation": [
+   {
+    "english": "far off",
+    "greek": "רָחֹק (rachoq)",
+    "verseRef": "v.1",
+    "meaning": "Distant, far away. God seems remote.",
+    "gloss": "Distant",
+    "strongs": "H7350",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "helpless",
+    "greek": "חֵלְכָה (chelekhah)",
+    "verseRef": "v.8",
+    "meaning": "The unfortunate, the hapless, a rare word used only in this psalm.",
+    "gloss": "Unfortunate",
+    "strongs": "H2489",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fatherless",
+    "greek": "יָתוֹם (yatom)",
+    "verseRef": "v.14",
+    "meaning": "Orphan, fatherless child. God is his helper.",
+    "gloss": "Orphan",
+    "strongs": "H3490",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 3:14",
+    "note": "Their mouths are full of cursing and bitterness."
+   },
+   {
+    "ref": "Luke 18:1-8",
+    "note": "Will not God bring about justice for His elect who cry out?"
+   },
+   {
+    "ref": "James 1:27",
+    "note": "Look after orphans and widows in their distress."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Habakkuk 1:2-4",
+    "note": "How long, O LORD, must I call for help?"
+   },
+   {
+    "ref": "Exodus 22:22-24",
+    "note": "Do not mistreat any widow or orphan."
+   },
+   {
+    "ref": "Micah 2:1-2",
+    "note": "They covet fields and seize them."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The psalmist asks why God seems far off while the proud wicked prey on the poor, then calls Him to arise, for He sees and helps the fatherless.",
+   "settingLine": "Unwalled villages and men lying in wait.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Land grabbing",
+     "t": "The powerful seized the fields of the poor."
+    },
+    {
+     "h": "Psalms 9-10",
+     "t": "One poem in two parts."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Unwalled villages",
+     "t": "Open to raiders."
+    },
+    {
+     "h": "Orphans and widows",
+     "t": "The most vulnerable."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Village houses",
+     "t": "Small Iron Age farm villages in the hill country."
+    },
+    {
+     "h": "Lion art",
+     "t": "Lions on seals and ivories from Israel and Judah."
+    }
+   ],
+   "discussion": "The wicked man thinks God never sees (v.11). When have I felt that God was far off, and what does this psalm say to that feeling?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named (continues Psalm 9)",
+   "genre": "Lament",
+   "audience": "God, who seems far off",
+   "refNotes": {
+    "Habakkuk 1:2-4": "How long?",
+    "Exodus 22:22-24": "Widows and orphans",
+    "Micah 2:1-2": "Seizing fields"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The wicked man",
+     "d": "Thinks there is no God"
+    },
+    {
+     "n": "The helpless",
+     "d": "His victims"
+    },
+    {
+     "n": "The LORD",
+     "d": "King forever, helper of the fatherless"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Why far off?"
+    },
+    {
+     "when": "v.3-11",
+     "label": "The wicked man"
+    },
+    {
+     "when": "v.12-18",
+     "label": "Arise, O LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Why, O LORD, do You stand far off? Why do You hide in times of trouble? In his pride the wicked man does not seek Him; in all his schemes there is no God. He says to himself, God has forgotten; He hides His face and never sees. Arise, O LORD! Lift up Your hand, O God! Do not forget the helpless. But You have regarded trouble and grief; You see to repay it by Your hand. The victim entrusts himself to You; You are the helper of the fatherless. The LORD is King forever and ever; the nations perish from His land. You have heard, O LORD, the desire of the humble; You will strengthen their hearts. You will incline Your ear, to vindicate the fatherless and oppressed, that the men of the earth may strike terror no more.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

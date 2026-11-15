@@ -1,0 +1,217 @@
+{
+ "book": "Psalms",
+ "chapter": 6,
+ "title": "How Long, O LORD?",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. With stringed instruments, according to Sheminith. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, do not rebuke me in Your anger or discipline me in Your wrath."
+  },
+  {
+   "num": 2,
+   "text": "Be merciful to me, O LORD, for I am frail; heal me, O LORD, for my bones are in agony."
+  },
+  {
+   "num": 3,
+   "text": "My soul is deeply distressed. How long, O LORD, how long?"
+  },
+  {
+   "num": 4,
+   "text": "Turn, O LORD, and deliver my soul; save me because of Your loving devotion."
+  },
+  {
+   "num": 5,
+   "text": "For there is no mention of You in death; who can praise You from Sheol?"
+  },
+  {
+   "num": 6,
+   "text": "I am weary from groaning; all night I flood my bed with weeping and drench my couch with tears."
+  },
+  {
+   "num": 7,
+   "text": "My eyes fail from grief; they grow dim because of all my foes."
+  },
+  {
+   "num": 8,
+   "text": "Depart from me, all you workers of iniquity, for the LORD has heard my weeping."
+  },
+  {
+   "num": 9,
+   "text": "The LORD has heard my cry for mercy; the LORD accepts my prayer."
+  },
+  {
+   "num": 10,
+   "text": "All my enemies will be ashamed and dismayed; they will turn back in sudden disgrace."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“O LORD, do not rebuke me in Your anger or discipline me in Your wrath” (v.1). David is frail, his bones in agony and his soul deeply distressed: “How long, O LORD, how long?” (vv.2-3). He asks God to turn and save him “because of Your loving devotion” (v.4), for no one praises God from Sheol (v.5). “All night I flood my bed with weeping and drench my couch with tears” (v.6). Then the turn: “Depart from me, all you workers of iniquity, for the LORD has heard my weeping” (v.8).",
+  "custom": "Sickness was often thought to be linked with sin, and the sick prayed for forgiveness and healing together (Psalm 38). Sheminith in the title may mean ‘on the eighth,’ perhaps an eight-stringed instrument or a lower octave. Christians have long counted Psalms 6, 32, 38, 51, 102, 130 and 143 as the seven penitential psalms.",
+  "timelineImmediate": "Psalm 7 is a plea for justice against slanderers: “O LORD my God, I take refuge in You.”",
+  "timelineBible": "Jesus uses the words of v.8 when He says to the false disciples, “Depart from Me, you workers of lawlessness” (Matthew 7:23). Jesus says, “Now My soul is troubled” (John 12:27), in words like v.3 in Greek. King Hezekiah prayed in sickness in the same way (Isaiah 38).",
+  "translation": [
+   {
+    "english": "how long",
+    "greek": "עַד (ad)",
+    "verseRef": "v.3",
+    "meaning": "“Until when?” The cry of every lament.",
+    "gloss": "Until when",
+    "strongs": "H5704",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Sheol",
+    "greek": "שְׁאוֹל (she’ol)",
+    "verseRef": "v.5",
+    "meaning": "The grave, the realm of the dead, where no one praises God.",
+    "gloss": "Grave",
+    "strongs": "H7585",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "weeping",
+    "greek": "בְּכִי (bekhi)",
+    "verseRef": "v.8",
+    "meaning": "Weeping, crying. The LORD has heard it.",
+    "gloss": "Weeping",
+    "strongs": "H1065",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 7:23",
+    "note": "Depart from Me, you workers of lawlessness."
+   },
+   {
+    "ref": "John 12:27",
+    "note": "Now My soul is troubled."
+   },
+   {
+    "ref": "Hebrews 5:7",
+    "note": "Jesus offered prayers with loud cries and tears."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 38:1-5",
+    "note": "Hezekiah’s tears in sickness are heard."
+   },
+   {
+    "ref": "Psalm 38:1-3",
+    "note": "Do not rebuke me in Your anger."
+   },
+   {
+    "ref": "Psalm 13:1",
+    "note": "How long, O LORD?"
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Sick and weeping all night, David asks how long God will be angry, pleads for mercy for the sake of His steadfast love, and then knows he has been heard.",
+   "settingLine": "A night of tears on a sickbed.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Penitential psalms",
+     "t": "Seven psalms used for confession."
+    },
+    {
+     "h": "Sickness and sin",
+     "t": "Often prayed about together."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sheminith",
+     "t": "Perhaps ‘the eighth,’ an instrument or octave."
+    },
+    {
+     "h": "Mourning",
+     "t": "Weeping on the bed through the night."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lachish letters",
+     "t": "Ostraca from about 588 BC show the writing of Judah’s last days."
+    },
+    {
+     "h": "Clay beds",
+     "t": "Simple houses used mats and couches for beds."
+    }
+   ],
+   "discussion": "David moves from “How long?” to “The LORD has heard” (vv.3, 9). What helps me hold on between the two?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament (a penitential psalm)",
+   "audience": "God, in sickness and grief",
+   "refNotes": {
+    "Isaiah 38:1-5": "Hezekiah’s tears",
+    "Psalm 38:1-3": "Another penitential psalm",
+    "Psalm 13:1": "How long?"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Sick and weeping"
+    },
+    {
+     "n": "Workers of iniquity",
+     "d": "Told to depart"
+    },
+    {
+     "n": "The LORD",
+     "d": "Hears his cry"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Mercy, O LORD"
+    },
+    {
+     "when": "v.6-7",
+     "label": "Tears all night"
+    },
+    {
+     "when": "v.8-10",
+     "label": "The LORD has heard"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, do not rebuke me in Your anger or discipline me in Your wrath. Be merciful to me, O LORD, for I am frail; heal me, O LORD, for my bones are in agony. My soul is deeply distressed. How long, O LORD, how long? Turn, O LORD, and deliver my soul; save me because of Your loving devotion. I am weary from groaning; all night I flood my bed with weeping and drench my couch with tears. The LORD has heard my cry for mercy; the LORD accepts my prayer.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

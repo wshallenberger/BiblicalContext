@@ -51,9 +51,9 @@
     if (cache[key]) return cache[key];
     var d = def(id), p;
     if (!d) p = Promise.resolve({ map: null, err: 'NOT_AVAILABLE' });
-    else if (T) p = T.chapter(id, slug, ch).then(function (j) { reportFums(j); return { map: toMap(j.verses), err: null }; }, function (e) { return { map: null, err: (e && e.code) || 'NETWORK' }; });
+    else if (T) p = T.chapter(id, slug, ch).then(function (j) { reportFums(j); return { map: toMap(j.verses), title: j.title || '', err: null }; }, function (e) { return { map: null, err: (e && e.code) || 'NETWORK' }; });
     else p = fetchJson(d.path ? d.path.replace('{slug}', slug).replace('{ch}', ch) : 'data/translations/' + id + '/' + slug + '/' + ch + '.json')
-      .then(function (j) { return j ? { map: toMap(j.verses), err: null } : { map: null, err: 'NOT_AVAILABLE' }; });
+      .then(function (j) { return j ? { map: toMap(j.verses), title: j.superscription || (j.titles && j.titles[ch]) || '', err: null } : { map: null, err: 'NOT_AVAILABLE' }; });
     cache[key] = p;
     p.then(function (r) { if (r.err === 'NETWORK' || r.err === 'RATE_LIMIT') delete cache[key]; });   // try again next time
     return p;
@@ -79,6 +79,12 @@
     var h = id ? creditHtml(id) : '';
     c.innerHTML = h; c.hidden = !h;
   }
+  // a psalm title: the version's own wording when it has one, otherwise the BSB's
+  function setTitle(box, t) {
+    var el = box && box.querySelector('.ps-title'); if (!el) return;
+    var bsb = el.dataset.bsb || el.textContent;
+    el.dataset.bsb = bsb; el.textContent = t || bsb;
+  }
   function afterRender(slug, chap) {
     ctx.slug = slug; ctx.chap = chap;
     var id = have(cur) ? cur : 'bsb';
@@ -88,6 +94,7 @@
     if (id === 'bsb') {      // coming back from another version: put the BSB text (with the red letters) back
       var bx = $('verseList');
       if (bx && window.paintBsbVerse) bx.querySelectorAll('.verse[data-ver]').forEach(function (p) { window.paintBsbVerse(p); });
+      setTitle(bx, null);
       return;
     }
     chapter(id, slug, chap).then(function (r) {
@@ -99,6 +106,7 @@
         if (t != null && window.setVerseText) window.setVerseText(p, t, id);
         else { if (window.paintBsbVerse) window.paintBsbVerse(p); p.classList.add('vt-missing'); }
       });
+      setTitle(box, r.title);
       setCredit(id);      // the publisher's credit line goes at the END of the chapter, not at the top
     });
   }

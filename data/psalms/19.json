@@ -1,0 +1,233 @@
+{
+ "book": "Psalms",
+ "chapter": 19,
+ "title": "The Heavens Declare the Glory of God",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The heavens declare the glory of God; the skies proclaim the work of His hands."
+  },
+  {
+   "num": 2,
+   "text": "Day after day they pour forth speech; night after night they reveal knowledge."
+  },
+  {
+   "num": 3,
+   "text": "Without speech or language, without a sound to be heard,"
+  },
+  {
+   "num": 4,
+   "text": "their voice has gone out into all the earth, their words to the ends of the world. In the heavens He has pitched a tent for the sun."
+  },
+  {
+   "num": 5,
+   "text": "Like a bridegroom emerging from his chamber, like a champion rejoicing to run his course,"
+  },
+  {
+   "num": 6,
+   "text": "it rises at one end of the heavens and runs its circuit to the other; nothing is deprived of its warmth."
+  },
+  {
+   "num": 7,
+   "text": "The Law of the LORD is perfect, reviving the soul; the testimony of the LORD is trustworthy, making wise the simple."
+  },
+  {
+   "num": 8,
+   "text": "The precepts of the LORD are right, bringing joy to the heart; the commandments of the LORD are radiant, giving light to the eyes."
+  },
+  {
+   "num": 9,
+   "text": "The fear of the LORD is pure, enduring forever; the judgments of the LORD are true, being altogether righteous."
+  },
+  {
+   "num": 10,
+   "text": "They are more precious than gold, than much pure gold; they are sweeter than honey, than honey from the comb."
+  },
+  {
+   "num": 11,
+   "text": "By them indeed Your servant is warned; in keeping them is great reward."
+  },
+  {
+   "num": 12,
+   "text": "Who can discern his own errors? Cleanse me from my hidden faults."
+  },
+  {
+   "num": 13,
+   "text": "Keep Your servant also from willful sins; may they not rule over me. Then I will be blameless and cleansed of great transgression."
+  },
+  {
+   "num": 14,
+   "text": "May the words of my mouth and the meditation of my heart be pleasing in Your sight, O LORD, my Rock and my Redeemer."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The heavens declare the glory of God; the skies proclaim the work of His hands” (v.1). Day and night pour out speech without words, and “their voice has gone out into all the earth” (vv.2-4). The sun runs its course like a bridegroom and a champion, and nothing escapes its heat (vv.5-6). Then the psalm turns from the sky to the scroll: “The Law of the LORD is perfect, reviving the soul” (v.7). God’s words are “more precious than gold… sweeter than honey” (v.10). Finally the psalmist turns to his own heart: “Cleanse me from my hidden faults” (v.12), and ends, “May the words of my mouth and the meditation of my heart be pleasing in Your sight, O LORD, my Rock and my Redeemer” (v.14).",
+  "custom": "Neighboring peoples worshiped the sun: the Babylonian Shamash was the god of justice who saw everything. Psalm 19 makes the sun a servant in a tent God pitched for it, and gives the role of revealing truth and justice to God’s law. Honey from the comb (v.10) was the sweetest food known. A Redeemer (go’el) was a close relative who bought back land or freedom for family members (Leviticus 25:25).",
+  "timelineImmediate": "Psalm 20 is a prayer for the king before battle: “Some trust in chariots and others in horses.”",
+  "timelineBible": "Paul quotes v.4 in Romans 10:18 about the gospel going out to all the earth, and in Romans 1:20 he says God’s power is seen in what He has made. Psalm 119 develops the second half of this psalm at length. C. S. Lewis ranked Psalm 19 as the greatest poem in the Psalter (Reflections on the Psalms, 1958).",
+  "translation": [
+   {
+    "english": "heavens",
+    "greek": "שָׁמַיִם (shamayim)",
+    "verseRef": "v.1",
+    "meaning": "The heavens, the sky.",
+    "gloss": "Sky",
+    "strongs": "H8064",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "perfect",
+    "greek": "תָּמִים (tamim)",
+    "verseRef": "v.7",
+    "meaning": "Complete, whole, without blemish.",
+    "gloss": "Whole",
+    "strongs": "H8549",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Redeemer",
+    "greek": "גָּאַל (ga’al)",
+    "verseRef": "v.14",
+    "meaning": "To redeem, act as kinsman-redeemer, buy back.",
+    "gloss": "Kinsman-redeemer",
+    "strongs": "H1350",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 10:17-18",
+    "note": "Their voice has gone out into all the earth."
+   },
+   {
+    "ref": "Romans 1:19-20",
+    "note": "God’s power seen in what He has made."
+   },
+   {
+    "ref": "2 Timothy 3:16-17",
+    "note": "All Scripture is God-breathed."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 1:14-18",
+    "note": "Lights in the heavens."
+   },
+   {
+    "ref": "Psalm 119:103",
+    "note": "Sweeter than honey to my mouth."
+   },
+   {
+    "ref": "Leviticus 25:25",
+    "note": "The nearest kinsman shall redeem."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The skies speak God’s glory without words, His law revives the soul and is sweeter than honey, and the psalmist asks his Redeemer to cleanse his heart.",
+   "settingLine": "The sun rising across the sky.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Sun worship",
+     "t": "Shamash, the Babylonian sun god of justice."
+    },
+    {
+     "h": "Torah psalms",
+     "t": "Psalms 1, 19 and 119 praise the law."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Honey",
+     "t": "The sweetest thing known."
+    },
+    {
+     "h": "The redeemer",
+     "t": "A kinsman who bought back."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Hammurabi’s stele",
+     "t": "The Babylonian law code shows the king receiving authority from Shamash, the sun god, about 1750 BC."
+    },
+    {
+     "h": "Sun disks",
+     "t": "Winged sun disks appear on Judean royal seal impressions."
+    }
+   ],
+   "discussion": "The psalm moves from the sky, to Scripture, to the heart (vv.1, 7, 12). Which of the three do I most need to pay attention to today?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Hymn: creation and the law",
+   "audience": "All the earth",
+   "refNotes": {
+    "Genesis 1:14-18": "Sun, moon and stars",
+    "Psalm 119:103": "Sweet words",
+    "Leviticus 25:25": "The redeemer"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The heavens",
+     "d": "Declare God’s glory"
+    },
+    {
+     "n": "The sun",
+     "d": "Runs its course"
+    },
+    {
+     "n": "Your servant",
+     "d": "Asks to be cleansed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "The heavens speak"
+    },
+    {
+     "when": "v.7-11",
+     "label": "The law of the LORD"
+    },
+    {
+     "when": "v.12-14",
+     "label": "My Rock and my Redeemer"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The heavens declare the glory of God; the skies proclaim the work of His hands. Day after day they pour forth speech; night after night they reveal knowledge. their voice has gone out into all the earth, their words to the ends of the world. In the heavens He has pitched a tent for the sun. The Law of the LORD is perfect, reviving the soul; the testimony of the LORD is trustworthy, making wise the simple. The precepts of the LORD are right, bringing joy to the heart; the commandments of the LORD are radiant, giving light to the eyes. They are more precious than gold, than much pure gold; they are sweeter than honey, than honey from the comb. May the words of my mouth and the meditation of my heart be pleasing in Your sight, O LORD, my Rock and my Redeemer.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Qumran_Caves.jpg",
+   "caption": "The caves at Qumran above the Dead Sea, where more than thirty copies of the Psalms were found among the Dead Sea Scrolls.",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

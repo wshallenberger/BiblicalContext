@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 5,
+ "title": "Lead Me in Your Righteousness",
+ "translation": "BSB",
+ "superscription": "For the choirmaster, to be accompanied by flutes. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Give ear to my words, O LORD; consider my groaning."
+  },
+  {
+   "num": 2,
+   "text": "Attend to the sound of my cry, my King and my God, for to You I pray."
+  },
+  {
+   "num": 3,
+   "text": "In the morning, O LORD, You hear my voice; at daybreak I lay my plea before You and wait in expectation."
+  },
+  {
+   "num": 4,
+   "text": "For You are not a God who delights in wickedness; no evil can dwell with You."
+  },
+  {
+   "num": 5,
+   "text": "The boastful cannot stand in Your presence; You hate all workers of iniquity."
+  },
+  {
+   "num": 6,
+   "text": "You destroy those who tell lies; the LORD abhors the man of bloodshed and deceit."
+  },
+  {
+   "num": 7,
+   "text": "But I will enter Your house by the abundance of Your loving devotion; in reverence I will bow down toward Your holy temple."
+  },
+  {
+   "num": 8,
+   "text": "Lead me, O LORD, in Your righteousness because of my enemies; make straight Your way before me."
+  },
+  {
+   "num": 9,
+   "text": "For not a word they speak can be trusted; destruction lies within them. Their throats are open graves; their tongues practice deceit."
+  },
+  {
+   "num": 10,
+   "text": "Declare them guilty, O God; let them fall by their own devices. Drive them out for their many transgressions, for they have rebelled against You."
+  },
+  {
+   "num": 11,
+   "text": "But let all who take refuge in You rejoice; let them ever shout for joy. May You shelter them, that those who love Your name may rejoice in You."
+  },
+  {
+   "num": 12,
+   "text": "For surely You, O LORD, bless the righteous; You surround them with the shield of Your favor."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Give ear to my words, O LORD; consider my groaning” (v.1). “In the morning, O LORD, You hear my voice; at daybreak I lay my plea before You and wait in expectation” (v.3). God takes no pleasure in wickedness, and the boastful and liars cannot stand before Him (vv.4-6). “But I will enter Your house by the abundance of Your loving devotion” (v.7). David asks God to lead him and make His way straight because of his enemies, whose “throats are open graves” (vv.8-9). Those who take refuge in God will rejoice, and He surrounds the righteous “with the shield of Your favor” (vv.11-12).",
+  "custom": "The morning was the time of the daily sacrifice at the sanctuary (Exodus 29:38-39), and of laying out a request like an offering (v.3). Worshipers bowed toward the Temple when praying, even far away (v.7; 1 Kings 8:29-30; Daniel 6:10). The large shield of v.12 (tsinnah) covered the whole body.",
+  "timelineImmediate": "Psalm 6 is the first of the seven traditional penitential psalms: “O LORD, do not rebuke me in Your anger.”",
+  "timelineBible": "Paul quotes v.9 in Romans 3:13, in a chain of verses showing that all are under sin: “Their throats are open graves; their tongues practice deceit” (Romans 3:13). Solomon asked God to hear prayers made toward the Temple (1 Kings 8:29-30).",
+  "translation": [
+   {
+    "english": "loving devotion",
+    "greek": "חֶסֶד (chesed)",
+    "verseRef": "v.7",
+    "meaning": "Steadfast love, covenant loyalty, kindness. One of the great words of the Psalms; BSB “loving devotion.”",
+    "gloss": "Steadfast love",
+    "strongs": "H2617",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "morning",
+    "greek": "בֹּקֶר (boqer)",
+    "verseRef": "v.3",
+    "meaning": "Morning, daybreak, the time of prayer and sacrifice.",
+    "gloss": "Morning",
+    "strongs": "H1242",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "lead",
+    "greek": "נָחָה (nachah)",
+    "verseRef": "v.8",
+    "meaning": "To lead, guide. The word of Psalm 23:3, “He leads me.”",
+    "gloss": "Guide",
+    "strongs": "H5148",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 3:10-13",
+    "note": "Their throats are open graves."
+   },
+   {
+    "ref": "Mark 1:35",
+    "note": "Very early in the morning Jesus went off to pray."
+   },
+   {
+    "ref": "Hebrews 10:19-22",
+    "note": "We have confidence to enter the holy place."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Kings 8:29-30",
+    "note": "Hear the prayer toward this place."
+   },
+   {
+    "ref": "Exodus 29:38-39",
+    "note": "The morning and evening offerings."
+   },
+   {
+    "ref": "Daniel 6:10",
+    "note": "Daniel prays toward Jerusalem."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "At daybreak David lays his plea before God, enters His house by His steadfast love, and asks to be led straight among lying enemies.",
+   "settingLine": "Morning prayer toward the sanctuary.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Daily sacrifices",
+     "t": "Offered every morning and evening."
+    },
+    {
+     "h": "Prayer toward the Temple",
+     "t": "Worshipers faced Jerusalem."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Flutes",
+     "t": "The title names wind instruments."
+    },
+    {
+     "h": "Bowing",
+     "t": "Bowing toward the holy place."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Arad sanctuary",
+     "t": "A small Judean temple at Arad, about 800 BC, had an altar and a holy room."
+    },
+    {
+     "h": "Shields",
+     "t": "Assyrian reliefs show full-body shields carried by soldiers."
+    }
+   ],
+   "discussion": "David lays his plea before God and “wait in expectation” (v.3). What do I bring to God in the morning, and do I wait for His answer?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and prayer",
+   "audience": "God, the King",
+   "refNotes": {
+    "1 Kings 8:29-30": "Prayer toward the Temple",
+    "Exodus 29:38-39": "Morning offering",
+    "Daniel 6:10": "Toward Jerusalem"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Prays at daybreak"
+    },
+    {
+     "n": "The boastful and liars",
+     "d": "Cannot stand before God"
+    },
+    {
+     "n": "Those who take refuge",
+     "d": "Rejoice"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Morning plea"
+    },
+    {
+     "when": "v.4-7",
+     "label": "God and the wicked"
+    },
+    {
+     "when": "v.8-12",
+     "label": "Lead me"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Give ear to my words, O LORD; consider my groaning. In the morning, O LORD, You hear my voice; at daybreak I lay my plea before You and wait in expectation. But I will enter Your house by the abundance of Your loving devotion; in reverence I will bow down toward Your holy temple. Lead me, O LORD, in Your righteousness because of my enemies; make straight Your way before me. But let all who take refuge in You rejoice; let them ever shout for joy. May You shelter them, that those who love Your name may rejoice in You. For surely You, O LORD, bless the righteous; You surround them with the shield of Your favor.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalm_118_11Q5.jpg",
+   "caption": "Psalm 118 in the Great Psalms Scroll (11Q5) from Qumran Cave 11. The scroll writes the divine name YHWH in old Paleo-Hebrew letters, set apart from the square script around it.",
+   "credit": "Israel Antiquities Authority, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

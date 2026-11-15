@@ -61,7 +61,7 @@
   function build() {
     var k = slugs().join(',');
     if (cache.k === k) return;
-    var names = list().map(function (b) { return b.name; }).sort(function (a, b) { return b.length - a.length; });
+    var names = list().map(function (b) { return b.name; }).concat(get('psalms') ? ['Psalm'] : []).sort(function (a, b) { return b.length - a.length; });   // 'Psalm 23:1' as well as 'Psalms'
     cache = { k: k, splitRe: new RegExp('^(' + names.map(esc).join('|') + ')\\s+(.*)$'), refRe: new RegExp('^(' + names.map(esc).join('|') + ')\\s+(\\d+)(?::(\\d+))?'), keyRe: new RegExp('^(' + slugs().map(esc).join('|') + '):\\d+$') };
   }
   function refRe() { build(); return cache.refRe; }

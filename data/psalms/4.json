@@ -1,0 +1,209 @@
+{
+ "book": "Psalms",
+ "chapter": 4,
+ "title": "An Evening Prayer",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. With stringed instruments. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Answer me when I call, O God of my righteousness! You have relieved my distress; show me grace and hear my prayer."
+  },
+  {
+   "num": 2,
+   "text": "How long, O men, will my honor be maligned? How long will you love vanity and seek after lies? Selah"
+  },
+  {
+   "num": 3,
+   "text": "Know that the LORD has set apart the godly for Himself; the LORD hears when I call to Him."
+  },
+  {
+   "num": 4,
+   "text": "Be angry, yet do not sin; on your bed, search your heart and be still. Selah"
+  },
+  {
+   "num": 5,
+   "text": "Offer the sacrifices of the righteous and trust in the LORD."
+  },
+  {
+   "num": 6,
+   "text": "Many ask, \"Who can show us the good?\" Shine the light of Your face upon us, O LORD."
+  },
+  {
+   "num": 7,
+   "text": "You have filled my heart with more joy than when grain and new wine abound."
+  },
+  {
+   "num": 8,
+   "text": "I will lie down and sleep in peace, for You alone, O LORD, make me dwell in safety."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Answer me when I call, O God of my righteousness!” (v.1). David speaks to people who malign him and “love vanity and seek after lies” (v.2), reminding them that the LORD has set apart the godly and hears (v.3). “Be angry, yet do not sin; on your bed, search your heart and be still” (v.4). Many ask, “Who can show us the good?” and David prays, “Shine the light of Your face upon us, O LORD” (v.6). God has given him more joy than a rich harvest (v.7), and he ends, “I will lie down and sleep in peace, for You alone, O LORD, make me dwell in safety” (v.8).",
+  "custom": "The title’s “with stringed instruments” (neginot) points to lyres and harps played in worship. Grain and new wine (v.7) were the joy of the harvest, celebrated at the Feasts of Weeks and Tabernacles. Lying on one’s bed at night was the time for reflection and prayer (Psalm 63:6).",
+  "timelineImmediate": "Psalm 5 is a morning prayer: “In the morning, O LORD, You hear my voice.”",
+  "timelineBible": "Paul quotes v.4 in its Greek form: “Be angry, yet do not sin. Do not let the sun set upon your anger” (Ephesians 4:26). The prayer of v.6 echoes the priestly blessing, “may the LORD cause His face to shine upon you” (Numbers 6:25).",
+  "translation": [
+   {
+    "english": "righteousness",
+    "greek": "צֶדֶק (tsedeq)",
+    "verseRef": "v.1",
+    "meaning": "Rightness, justice. “God of my righteousness”: the God who vindicates me.",
+    "gloss": "Rightness",
+    "strongs": "H6664",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "be still",
+    "greek": "דָּמַם (damam)",
+    "verseRef": "v.4",
+    "meaning": "Be silent, be still. Searching the heart in quiet.",
+    "gloss": "Be silent",
+    "strongs": "H1826",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "peace",
+    "greek": "שָׁלוֹם (shalom)",
+    "verseRef": "v.8",
+    "meaning": "Peace, wholeness, well-being.",
+    "gloss": "Peace",
+    "strongs": "H7965",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Ephesians 4:26",
+    "note": "Be angry, yet do not sin."
+   },
+   {
+    "ref": "Philippians 4:6-7",
+    "note": "The peace of God will guard your hearts."
+   },
+   {
+    "ref": "2 Corinthians 4:6",
+    "note": "God has shone in our hearts the light of the knowledge of His glory."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Numbers 6:24-26",
+    "note": "The LORD make His face shine upon you."
+   },
+   {
+    "ref": "Psalm 63:6",
+    "note": "On my bed I remember You."
+   },
+   {
+    "ref": "Proverbs 3:24",
+    "note": "When you lie down, your sleep will be sweet."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David calls on God, tells his accusers to search their hearts, asks God to shine His face on His people, and lies down to sleep in peace.",
+   "settingLine": "Night, on a bed of quiet trust.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Temple music",
+     "t": "Lyres and harps in worship."
+    },
+    {
+     "h": "Harvest joy",
+     "t": "Grain and new wine."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Stringed instruments",
+     "t": "Neginot in the title."
+    },
+    {
+     "h": "Night prayer",
+     "t": "Reflection before sleep."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ketef Hinnom amulets",
+     "t": "Silver scrolls from about 600 BC carry the priestly blessing of Numbers 6."
+    },
+    {
+     "h": "Ancient lyres",
+     "t": "Pictures of lyres appear on seals and pottery from Iron Age Israel."
+    }
+   ],
+   "discussion": "“Who can show us the good?” (v.6). Where do I look for good, and what would it mean for God’s face to shine on me?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Prayer of trust",
+   "audience": "God, and those who doubt",
+   "refNotes": {
+    "Numbers 6:24-26": "The priestly blessing",
+    "Psalm 63:6": "At night",
+    "Proverbs 3:24": "Sweet sleep"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Prays at night"
+    },
+    {
+     "n": "Men who malign him",
+     "d": "Love vanity and lies"
+    },
+    {
+     "n": "The godly",
+     "d": "Set apart by the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "Answer me"
+    },
+    {
+     "when": "v.2-5",
+     "label": "Words to the doubters"
+    },
+    {
+     "when": "v.6-8",
+     "label": "Peace and sleep"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Answer me when I call, O God of my righteousness! You have relieved my distress; show me grace and hear my prayer. Know that the LORD has set apart the godly for Himself; the LORD hears when I call to Him. Be angry, yet do not sin; on your bed, search your heart and be still. Selah Many ask, Who can show us the good? Shine the light of Your face upon us, O LORD. You have filled my heart with more joy than when grain and new wine abound. I will lie down and sleep in peace, for You alone, O LORD, make me dwell in safety.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

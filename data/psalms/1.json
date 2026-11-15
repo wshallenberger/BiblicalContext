@@ -1,0 +1,200 @@
+{
+ "book": "Psalms",
+ "chapter": 1,
+ "title": "The Two Ways",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Blessed is the man who does not walk in the counsel of the wicked, or set foot on the path of sinners, or sit in the seat of mockers."
+  },
+  {
+   "num": 2,
+   "text": "But his delight is in the Law of the LORD, and on His law he meditates day and night."
+  },
+  {
+   "num": 3,
+   "text": "He is like a tree planted by streams of water, yielding its fruit in season, whose leaf does not wither, and who prospers in all he does."
+  },
+  {
+   "num": 4,
+   "text": "Not so the wicked! For they are like chaff driven off by the wind."
+  },
+  {
+   "num": 5,
+   "text": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous."
+  },
+  {
+   "num": 6,
+   "text": "For the LORD guards the path of the righteous, but the way of the wicked will perish."
+  }
+ ],
+ "context": {
+  "author": "Not named; Psalm 1 has no title. It was placed first as the doorway to the whole book.",
+  "genre": "Wisdom psalm: a blessing on the one who delights in God’s law",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The Psalter opens with a blessing: “Blessed is the man who does not walk in the counsel of the wicked, or set foot on the path of sinners, or sit in the seat of mockers” (v.1). Instead “his delight is in the Law of the LORD, and on His law he meditates day and night” (v.2). He is like a tree planted by streams of water, fruitful and green (v.3). The wicked are like chaff blown away by the wind (v.4). The last line sums up the two ways: “the LORD guards the path of the righteous, but the way of the wicked will perish” (v.6).",
+  "custom": "At harvest farmers threw threshed grain into the air with a fork; the heavy grain fell back and the light chaff blew away (v.4; Matthew 3:12). Irrigation channels watered orchards in a dry land, so a tree “planted by streams” (v.3) was deliberately set where it would thrive. To “meditate” (v.2) is to murmur, to read aloud quietly and turn the words over.",
+  "timelineImmediate": "Psalm 2 pairs with Psalm 1 as a second doorway: the nations rage, but God has installed His King on Zion.",
+  "timelineBible": "Psalms 1 and 2 have no titles and frame the book together: Psalm 1 begins “Blessed is the man” and Psalm 2 ends “Blessed are all who take refuge in Him.” Joshua was told to meditate on the law day and night (Joshua 1:8), and Jeremiah 17:7-8 uses the same picture of a tree by the water.",
+  "translation": [
+   {
+    "english": "blessed",
+    "greek": "אֶשֶׁר (ashrei)",
+    "verseRef": "v.1",
+    "meaning": "Happy, how fortunate! A cry of congratulation, the first word of the Psalter.",
+    "gloss": "How happy",
+    "strongs": "H835",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "law",
+    "greek": "תּוֹרָה (torah)",
+    "verseRef": "v.2",
+    "meaning": "Instruction, teaching. God’s guidance for life, not only rules.",
+    "gloss": "Instruction",
+    "strongs": "H8451",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "meditates",
+    "greek": "הָגָה (hagah)",
+    "verseRef": "v.2",
+    "meaning": "To murmur, mutter, ponder. Used of a lion growling over its prey (Isaiah 31:4).",
+    "gloss": "Murmur, ponder",
+    "strongs": "H1897",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 7:24-27",
+    "note": "The wise and foolish builders."
+   },
+   {
+    "ref": "Matthew 3:12",
+    "note": "He will burn up the chaff."
+   },
+   {
+    "ref": "James 1:25",
+    "note": "The one who looks into the perfect law will be blessed."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Joshua 1:8",
+    "note": "Meditate on it day and night."
+   },
+   {
+    "ref": "Jeremiah 17:7-8",
+    "note": "Like a tree planted by the waters."
+   },
+   {
+    "ref": "Proverbs 4:18-19",
+    "note": "The path of the righteous and the way of the wicked."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The book opens with two ways: the blessed person delights in God’s law and grows like a tree by water; the wicked blow away like chaff.",
+   "settingLine": "A tree by streams of water.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The Psalter",
+     "t": "150 psalms in five books."
+    },
+    {
+     "h": "A doorway",
+     "t": "Psalms 1 and 2 introduce the whole book."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Winnowing",
+     "t": "Chaff blown away from grain."
+    },
+    {
+     "h": "Meditating",
+     "t": "Reading aloud in a low voice."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Qumran Psalms scrolls",
+     "t": "More than thirty copies of Psalms were found among the Dead Sea Scrolls."
+    },
+    {
+     "h": "Threshing floors",
+     "t": "Flat rock floors where grain was winnowed in the wind."
+    }
+   ],
+   "discussion": "The blessed person delights in God’s law (v.2). What would it look like for God’s word to be a delight to me, not just a duty?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Wisdom psalm",
+   "audience": "Every reader",
+   "refNotes": {
+    "Joshua 1:8": "Day and night",
+    "Jeremiah 17:7-8": "A tree by water",
+    "Proverbs 4:18-19": "Two ways"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The blessed man",
+     "d": "Delights in the law"
+    },
+    {
+     "n": "The wicked",
+     "d": "Like chaff"
+    },
+    {
+     "n": "The LORD",
+     "d": "Guards the path of the righteous"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "The blessed one"
+    },
+    {
+     "when": "v.4-5",
+     "label": "The wicked"
+    },
+    {
+     "when": "v.6",
+     "label": "Two ways"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Blessed is the man who does not walk in the counsel of the wicked, or set foot on the path of sinners, or sit in the seat of mockers. But his delight is in the Law of the LORD, and on His law he meditates day and night. He is like a tree planted by streams of water, yielding its fruit in season, whose leaf does not wither, and who prospers in all he does. Not so the wicked! For they are like chaff driven off by the wind. For the LORD guards the path of the righteous, but the way of the wicked will perish.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+   "caption": "The Jordan River. “He is like a tree planted by streams of water” (Psalm 1:3). David crossed the Jordan when he fled from Absalom (2 Samuel 17:22).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}
