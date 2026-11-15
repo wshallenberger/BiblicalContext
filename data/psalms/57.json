@@ -1,0 +1,228 @@
+{
+ "book": "Psalms",
+ "chapter": 57,
+ "title": "In the Shadow of Your Wings",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"Do Not Destroy.\" A Miktam of David, when he fled from Saul into the cave.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Have mercy on me, O God, have mercy, for in You my soul takes refuge. In the shadow of Your wings I will take shelter until the danger has passed."
+  },
+  {
+   "num": 2,
+   "text": "I cry out to God Most High, to God who fulfills His purpose for me."
+  },
+  {
+   "num": 3,
+   "text": "He reaches down from heaven and saves me; He rebukes those who trample me. Selah God sends forth His loving devotion and His truth."
+  },
+  {
+   "num": 4,
+   "text": "My soul is among the lions; I lie down with ravenous beasts— with men whose teeth are spears and arrows, whose tongues are sharp swords."
+  },
+  {
+   "num": 5,
+   "text": "Be exalted, O God, above the heavens; may Your glory cover all the earth."
+  },
+  {
+   "num": 6,
+   "text": "They spread a net for my feet; my soul was despondent. They dug a pit before me, but they themselves have fallen into it! Selah"
+  },
+  {
+   "num": 7,
+   "text": "My heart is steadfast, O God, my heart is steadfast. I will sing and make music."
+  },
+  {
+   "num": 8,
+   "text": "Awake, my glory! Awake, O harp and lyre! I will awaken the dawn."
+  },
+  {
+   "num": 9,
+   "text": "I will praise You, O Lord, among the nations; I will sing Your praises among the peoples."
+  },
+  {
+   "num": 10,
+   "text": "For Your loving devotion reaches to the heavens, and Your faithfulness to the clouds."
+  },
+  {
+   "num": 11,
+   "text": "Be exalted, O God, above the heavens; may Your glory cover all the earth."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "DAVID IN THE CAVE",
+  "setting": "The title places it “when he fled from Saul into the cave,” either the cave of Adullam (1 Samuel 22:1) or the cave at En Gedi where Saul came in and David spared him (1 Samuel 24:1-7). “Have mercy on me, O God, have mercy, for in You my soul takes refuge. In the shadow of Your wings I will take shelter until the danger has passed” (v.1). “My soul is among the lions” (v.4); his enemies dug a pit and fell into it (v.6). The refrain: “Be exalted, O God, above the heavens; may Your glory cover all the earth” (vv.5, 11). Then David breaks into song: “My heart is steadfast, O God… Awake, my glory! Awake, O harp and lyre! I will awaken the dawn” (vv.7-8). “For Your loving devotion reaches to the heavens” (v.10).",
+  "custom": "The limestone hills of Judah are full of caves used as shelters, hideouts and sheepfolds. Musicians woke at dawn to begin the morning praise; David says his song will wake the dawn itself. Do Not Destroy (title), the tune for Psalms 57-59 and 75, may be a known melody or a prayer in itself.",
+  "timelineImmediate": "Psalm 58 calls unjust rulers to account.",
+  "timelineBible": "Verses 7-11 appear again as the first half of Psalm 108. In the En Gedi cave David cut a corner off Saul’s robe instead of killing him, saying, “I will not lift my hand against my lord, since he is the LORD’s anointed” (1 Samuel 24:10). Paul and Silas sang hymns at midnight in prison (Acts 16:25).",
+  "translation": [
+   {
+    "english": "shadow",
+    "greek": "צֵל (tsel)",
+    "verseRef": "v.1",
+    "meaning": "Shade, shadow, protection.",
+    "gloss": "Shade",
+    "strongs": "H6738",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "steadfast",
+    "greek": "כּוּן (kun)",
+    "verseRef": "v.7",
+    "meaning": "To be firm, established, fixed.",
+    "gloss": "Fixed, firm",
+    "strongs": "H3559",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "dawn",
+    "greek": "שַׁחַר (shachar)",
+    "verseRef": "v.8",
+    "meaning": "Dawn, daybreak.",
+    "gloss": "Dawn",
+    "strongs": "H7837",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 16:25",
+    "note": "Paul and Silas singing at midnight."
+   },
+   {
+    "ref": "Matthew 23:37",
+    "note": "As a hen gathers her chicks under her wings."
+   },
+   {
+    "ref": "Ephesians 5:19",
+    "note": "Sing and make music in your hearts to the Lord."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 24:1-7",
+    "note": "David spares Saul in the cave at En Gedi."
+   },
+   {
+    "ref": "1 Samuel 22:1-2",
+    "note": "The cave of Adullam."
+   },
+   {
+    "ref": "Psalm 108:1-5",
+    "note": "The same song again."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.4613,
+   "lng": 35.3917,
+   "zoom": 6,
+   "placeName": "En Gedi (the wilderness strongholds)"
+  },
+  "overview": {
+   "summary": "Hiding from Saul in a cave among enemies like lions, David shelters under the shadow of God’s wings and ends by waking the dawn with praise.",
+   "settingLine": "A cave in the wilderness, before dawn.",
+   "placeName": "En Gedi (the wilderness strongholds)",
+   "history": [
+    {
+     "h": "David the fugitive",
+     "t": "Hiding from Saul."
+    },
+    {
+     "h": "Psalm 108",
+     "t": "Repeats vv.7-11."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Caves",
+     "t": "Shelters in the Judean hills."
+    },
+    {
+     "h": "Morning praise",
+     "t": "Music at dawn."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "En Gedi caves",
+     "t": "Caves in the cliffs above the springs."
+    },
+    {
+     "h": "Adullam",
+     "t": "Khirbet esh-Sheikh Madhkur, with caves nearby."
+    }
+   ],
+   "discussion": "David sings while still in the cave (vv.7-8). Can I praise God before my situation changes?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament that becomes praise",
+   "audience": "God Most High",
+   "refNotes": {
+    "1 Samuel 24:1-7": "The cave at En Gedi",
+    "1 Samuel 22:1-2": "The cave of Adullam",
+    "Psalm 108:1-5": "A twin song"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "In the cave"
+    },
+    {
+     "n": "Saul",
+     "d": "Hunting him"
+    },
+    {
+     "n": "God Most High",
+     "d": "Fulfills His purpose"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Under Your wings"
+    },
+    {
+     "when": "v.6",
+     "label": "The pit they dug"
+    },
+    {
+     "when": "v.7-11",
+     "label": "I will awaken the dawn"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "En Gedi (the wilderness strongholds)",
+    "lat": 31.4613,
+    "lng": 35.3917,
+    "verses": [],
+    "slug": "en-gedi"
+   },
+   {
+    "name": "The cave of Adullam (traditional site)",
+    "lat": 31.652,
+    "lng": 34.963,
+    "verses": [],
+    "slug": "adullam"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Have mercy on me, O God, have mercy, for in You my soul takes refuge. In the shadow of Your wings I will take shelter until the danger has passed. I cry out to God Most High, to God who fulfills His purpose for me. He reaches down from heaven and saves me; He rebukes those who trample me. Selah God sends forth His loving devotion and His truth. Be exalted, O God, above the heavens; may Your glory cover all the earth. My heart is steadfast, O God, my heart is steadfast. I will sing and make music. Awake, my glory! Awake, O harp and lyre! I will awaken the dawn. For Your loving devotion reaches to the heavens, and Your faithfulness to the clouds. Be exalted, O God, above the heavens; may Your glory cover all the earth.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki_Israel_4281_Waterfall_in_Ein_Gedi.jpg",
+   "caption": "A waterfall at En Gedi above the Dead Sea, where David hid from Saul among the caves and “the Rocks of the Wild Goats” (1 Samuel 24:2-3).",
+   "credit": "PikiWiki Israel / Wikimedia Commons"
+  }
+ }
+}

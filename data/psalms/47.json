@@ -1,0 +1,213 @@
+{
+ "book": "Psalms",
+ "chapter": 47,
+ "title": "God Has Ascended amid Shouts of Joy",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of the sons of Korah.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Clap your hands, all you peoples; shout unto God with a voice of triumph."
+  },
+  {
+   "num": 2,
+   "text": "How awesome is the LORD Most High, the great King over all the earth!"
+  },
+  {
+   "num": 3,
+   "text": "He subdues nations beneath us, and peoples under our feet."
+  },
+  {
+   "num": 4,
+   "text": "He chooses our inheritance for us, the pride of Jacob, whom He loves. Selah"
+  },
+  {
+   "num": 5,
+   "text": "God has ascended amid shouts of joy, the LORD with the sound of the horn."
+  },
+  {
+   "num": 6,
+   "text": "Sing praises to God, sing praises; sing praises to our King, sing praises!"
+  },
+  {
+   "num": 7,
+   "text": "For God is King of all the earth; sing profound praises to Him."
+  },
+  {
+   "num": 8,
+   "text": "God reigns over the nations; God is seated on His holy throne."
+  },
+  {
+   "num": 9,
+   "text": "The nobles of the nations have assembled as the people of the God of Abraham; for the shields of the earth belong to God; He is highly exalted."
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Clap your hands, all you peoples; shout unto God with a voice of triumph. How awesome is the LORD Most High, the great King over all the earth!” (vv.1-2). He chose Israel’s inheritance (v.4). Then a procession: “God has ascended amid shouts of joy, the LORD with the sound of the horn” (v.5). “Sing praises to God, sing praises; sing praises to our King, sing praises!” (v.6). “God reigns over the nations; God is seated on His holy throne” (v.8). At the end the nobles of the nations gather “as the people of the God of Abraham” (v.9).",
+  "custom": "Coronations were celebrated with clapping, shouting and the ram’s horn (2 Kings 11:12; 1 Kings 1:39). The ark, God’s throne, was carried up to Zion with shouting and the shofar (2 Samuel 6:15), which may be the picture behind “God has ascended.” Kings of conquered nations came to pay homage to the great king.",
+  "timelineImmediate": "Psalm 48 praises Zion, “the city of the great King.”",
+  "timelineBible": "Christians have long read v.5 on Ascension Day, when Jesus was taken up into heaven (Acts 1:9). God promised Abraham that “all the families of the earth will be blessed through you” (Genesis 12:3), the hope of v.9. Revelation celebrates when “the kingdom of the world has become the kingdom of our Lord and of His Christ” (Revelation 11:15).",
+  "translation": [
+   {
+    "english": "ascended",
+    "greek": "עָלָה (alah)",
+    "verseRef": "v.5",
+    "meaning": "To go up, ascend, climb.",
+    "gloss": "Go up",
+    "strongs": "H5927",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "horn",
+    "greek": "שֹׁפָר (shofar)",
+    "verseRef": "v.5",
+    "meaning": "Ram’s horn trumpet.",
+    "gloss": "Ram’s horn",
+    "strongs": "H7782",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "reigns",
+    "greek": "מָלַךְ (malakh)",
+    "verseRef": "v.8",
+    "meaning": "To be king, reign.",
+    "gloss": "Reign",
+    "strongs": "H4427",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 1:9-11",
+    "note": "He was taken up before their eyes."
+   },
+   {
+    "ref": "Ephesians 4:8-10",
+    "note": "When He ascended on high."
+   },
+   {
+    "ref": "Revelation 11:15",
+    "note": "The kingdom of our Lord and of His Christ."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 6:15",
+    "note": "The ark brought up with shouts and the horn."
+   },
+   {
+    "ref": "Genesis 12:3",
+    "note": "All the families of the earth will be blessed."
+   },
+   {
+    "ref": "Zechariah 14:9",
+    "note": "The LORD will be King over all the earth."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "All peoples are called to clap and shout as God goes up to His throne with the sound of the horn, King over all the earth and the nations.",
+   "settingLine": "A coronation procession with the ram’s horn.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Enthronement psalms",
+     "t": "Psalms 47, 93, 95-99."
+    },
+    {
+     "h": "The ark to Zion",
+     "t": "Brought up with shouting."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Clapping",
+     "t": "Acclaiming a king."
+    },
+    {
+     "h": "The shofar",
+     "t": "Sounded at coronations."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Shofar",
+     "t": "Ram’s horns are pictured on later Jewish art; the instrument is still blown."
+    },
+    {
+     "h": "Throne rooms",
+     "t": "Assyrian palace reliefs show vassal kings paying homage."
+    }
+   ],
+   "discussion": "The psalm calls “all you peoples” to praise (v.1). How does God’s reign over all nations shape the way I see people from other nations?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Enthronement hymn",
+   "audience": "All the peoples",
+   "refNotes": {
+    "2 Samuel 6:15": "The ark goes up",
+    "Genesis 12:3": "Blessing for the nations",
+    "Zechariah 14:9": "King of all"
+   },
+   "peoplePlaces": [
+    {
+     "n": "All peoples",
+     "d": "Called to clap"
+    },
+    {
+     "n": "Jacob",
+     "d": "Loved by God"
+    },
+    {
+     "n": "The nobles of the nations",
+     "d": "Gather to God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Clap your hands"
+    },
+    {
+     "when": "v.5-7",
+     "label": "God has ascended"
+    },
+    {
+     "when": "v.8-9",
+     "label": "King over the nations"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Clap your hands, all you peoples; shout unto God with a voice of triumph. How awesome is the LORD Most High, the great King over all the earth! God has ascended amid shouts of joy, the LORD with the sound of the horn. Sing praises to God, sing praises; sing praises to our King, sing praises! For God is King of all the earth; sing profound praises to Him. God reigns over the nations; God is seated on His holy throne. The nobles of the nations have assembled as the people of the God of Abraham; for the shields of the earth belong to God; He is highly exalted.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Visit_of_the_Queen_of_Sheba_to_King_Solomon%27,_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+   "caption": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890). Royal psalms such as Psalms 2 and 20 were sung for the kings of David’s line in Jerusalem.",
+   "credit": "Edward Poynter (1890), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

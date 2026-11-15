@@ -1,0 +1,237 @@
+{
+ "book": "Psalms",
+ "chapter": 42,
+ "title": "As the Deer Pants for Streams of Water",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Maskil of the sons of Korah.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "As the deer pants for streams of water, so my soul longs after You, O God."
+  },
+  {
+   "num": 2,
+   "text": "My soul thirsts for God, the living God. When shall I come and appear in God's presence?"
+  },
+  {
+   "num": 3,
+   "text": "My tears have been my food both day and night, while men ask me all day long, \"Where is your God?\""
+  },
+  {
+   "num": 4,
+   "text": "These things come to mind as I pour out my soul: how I walked with the multitude, leading the procession to the house of God with shouts of joy and praise."
+  },
+  {
+   "num": 5,
+   "text": "Why are you downcast, O my soul? Why the unease within me? Put your hope in God, for I will yet praise Him for the salvation of His presence."
+  },
+  {
+   "num": 6,
+   "text": "O my God, my soul despairs within me. Therefore I remember You from the land of Jordan and the peaks of Hermon— even from Mount Mizar."
+  },
+  {
+   "num": 7,
+   "text": "Deep calls to deep in the roar of Your waterfalls; all Your breakers and waves have rolled over me."
+  },
+  {
+   "num": 8,
+   "text": "The LORD decrees His loving devotion by day, and at night His song is with me as a prayer to the God of my life."
+  },
+  {
+   "num": 9,
+   "text": "I say to God my Rock, \"Why have You forgotten me? Why must I walk in sorrow because of the enemy's oppression?\""
+  },
+  {
+   "num": 10,
+   "text": "Like the crushing of my bones, my enemies taunt me, while they say to me all day long, \"Where is your God?\""
+  },
+  {
+   "num": 11,
+   "text": "Why are you downcast, O my soul? Why the unease within me? Put your hope in God, for I will yet praise Him, my Savior and my God."
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "FAR FROM ZION, BY THE SOURCES OF THE JORDAN",
+  "setting": "Book Two opens with thirst: “As the deer pants for streams of water, so my soul longs after You, O God. My soul thirsts for God, the living God” (vv.1-2). The psalmist is far from the Temple, living on tears, while people ask, “Where is your God?” (v.3). He remembers leading the festival crowds to the house of God (v.4) and argues with himself: “Why are you downcast, O my soul?… Put your hope in God, for I will yet praise Him” (v.5). He is in the far north, “the land of Jordan and the peaks of Hermon” (v.6), where the springs crash down: “Deep calls to deep in the roar of Your waterfalls; all Your breakers and waves have rolled over me” (v.7). The refrain returns at the end (v.11) and again in Psalm 43.",
+  "custom": "Pilgrims went up to Jerusalem in crowds for the three great feasts, singing as they walked (Psalm 122). The streams that feed the Jordan burst from the foot of Mount Hermon at Dan and Banias and tumble down in waterfalls. In late summer the wadis dry up, and deer search the stream beds for water (Joel 1:20).",
+  "timelineImmediate": "Psalm 43 continues the same prayer and ends with the same refrain.",
+  "timelineBible": "Psalms 42 and 43 form one poem: they share the refrain (42:5, 11; 43:5), and many Hebrew manuscripts write them as one. In Gethsemane Jesus said, “My soul is consumed with sorrow to the point of death” (Matthew 26:38), echoing the Greek of v.5. He invited, “If anyone is thirsty, let him come to Me and drink” (John 7:37).",
+  "translation": [
+   {
+    "english": "deer",
+    "greek": "אַיָּל (ayyal)",
+    "verseRef": "v.1",
+    "meaning": "A deer, stag, hart.",
+    "gloss": "Stag",
+    "strongs": "H354",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "thirsts",
+    "greek": "צָמֵא (tsame)",
+    "verseRef": "v.2",
+    "meaning": "To be thirsty, to long for.",
+    "gloss": "Thirst",
+    "strongs": "H6770",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "downcast",
+    "greek": "שָׁחַח (shachach)",
+    "verseRef": "v.5",
+    "meaning": "To be bowed down, sunk low, depressed.",
+    "gloss": "Bowed down",
+    "strongs": "H7817",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 7:37-38",
+    "note": "If anyone is thirsty, let him come to Me and drink."
+   },
+   {
+    "ref": "Matthew 26:38",
+    "note": "My soul is consumed with sorrow."
+   },
+   {
+    "ref": "Revelation 22:17",
+    "note": "Let the one who is thirsty come."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 63:1",
+    "note": "My soul thirsts for You in a dry and weary land."
+   },
+   {
+    "ref": "Isaiah 55:1",
+    "note": "Come, all you who are thirsty."
+   },
+   {
+    "ref": "Joel 1:20",
+    "note": "Even the beasts of the field pant for You."
+   }
+  ],
+  "mapCoords": {
+   "lat": 33.2486,
+   "lng": 35.6944,
+   "zoom": 6,
+   "placeName": "Banias, the springs of the Jordan below Hermon"
+  },
+  "overview": {
+   "summary": "Far from the Temple in the north, the psalmist thirsts for God like a deer for water, remembers the festival crowds, and tells his downcast soul to hope in God.",
+   "settingLine": "Waterfalls below Mount Hermon, far from Zion.",
+   "placeName": "Banias, the springs of the Jordan below Hermon",
+   "history": [
+    {
+     "h": "Book Two begins",
+     "t": "Psalms 42-72."
+    },
+    {
+     "h": "The sons of Korah",
+     "t": "Levite singers and gatekeepers."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Pilgrim feasts",
+     "t": "Crowds going up to Jerusalem."
+    },
+    {
+     "h": "Dry wadis",
+     "t": "Streams that vanish in summer."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tel Dan",
+     "t": "An Israelite city at the springs of the Jordan, with a gate and high place."
+    },
+    {
+     "h": "Banias",
+     "t": "The spring at the foot of Hermon, later Caesarea Philippi."
+    }
+   ],
+   "discussion": "The psalmist talks to his own soul: “Why are you downcast?” (v.5). What would I say to my own soul today?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Lament of longing",
+   "audience": "My own soul, and God",
+   "refNotes": {
+    "Psalm 63:1": "Thirst in the wilderness",
+    "Isaiah 55:1": "Come to the waters",
+    "Joel 1:20": "Animals panting for water"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The psalmist",
+     "d": "Thirsting for God"
+    },
+    {
+     "n": "Mockers",
+     "d": "Ask, “Where is your God?”"
+    },
+    {
+     "n": "The festival crowd",
+     "d": "Remembered with longing"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Thirst for God"
+    },
+    {
+     "when": "v.6-11",
+     "label": "Deep calls to deep"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Banias, the springs of the Jordan below Hermon",
+    "lat": 33.2486,
+    "lng": 35.6944,
+    "verses": [
+     6
+    ],
+    "slug": "banias"
+   },
+   {
+    "name": "Mount Hermon (Sirion)",
+    "lat": 33.416,
+    "lng": 35.857,
+    "verses": [
+     6
+    ],
+    "slug": "mount-hermon"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     4
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "As the deer pants for streams of water, so my soul longs after You, O God. My soul thirsts for God, the living God. When shall I come and appear in God's presence? My tears have been my food both day and night, while men ask me all day long, Where is your God? Why are you downcast, O my soul? Why the unease within me? Put your hope in God, for I will yet praise Him for the salvation of His presence. Deep calls to deep in the roar of Your waterfalls; all Your breakers and waves have rolled over me. The LORD decrees His loving devotion by day, and at night His song is with me as a prayer to the God of my life. Why are you downcast, O my soul? Why the unease within me? Put your hope in God, for I will yet praise Him, my Savior and my God.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Banias_Spring_Cliff_Pan%27s_Cave.JPG",
+   "caption": "The Banias spring at the foot of Mount Hermon, one of the sources of the Jordan. “I remember You from the land of Jordan and the peaks of Hermon… Deep calls to deep in the roar of Your waterfalls” (Psalm 42:6-7).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

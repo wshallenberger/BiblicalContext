@@ -1,0 +1,237 @@
+{
+ "book": "Psalms",
+ "chapter": 60,
+ "title": "With God We Will Perform with Valor",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"The Lily of the Covenant.\" A Miktam of David for instruction. When he fought Aram-naharaim and Aram-zobah, and Joab returned and struck down 12,000 Edomites in the Valley of Salt.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "You have rejected us, O God; You have broken us; You have been angry; restore us!"
+  },
+  {
+   "num": 2,
+   "text": "You have shaken the land and torn it open. Heal its fractures, for it is quaking."
+  },
+  {
+   "num": 3,
+   "text": "You have shown Your people hardship; we are staggered from the wine You made us drink."
+  },
+  {
+   "num": 4,
+   "text": "You have raised a banner for those who fear You, that they may flee the bow. Selah"
+  },
+  {
+   "num": 5,
+   "text": "Respond and save us with Your right hand, that Your beloved may be delivered."
+  },
+  {
+   "num": 6,
+   "text": "God has spoken from His sanctuary: \"I will triumph! I will parcel out Shechem and apportion the Valley of Succoth."
+  },
+  {
+   "num": 7,
+   "text": "Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter."
+  },
+  {
+   "num": 8,
+   "text": "Moab is My washbasin; upon Edom I toss My sandal; over Philistia I shout in triumph.\""
+  },
+  {
+   "num": 9,
+   "text": "Who will bring me to the fortified city? Who will lead me to Edom?"
+  },
+  {
+   "num": 10,
+   "text": "Have You not rejected us, O God? Will You no longer march out, O God, with our armies?"
+  },
+  {
+   "num": 11,
+   "text": "Give us aid against the enemy, for the help of man is worthless."
+  },
+  {
+   "num": 12,
+   "text": "With God we will perform with valor, and He will trample our enemies."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "DAVID’S WARS WITH ARAM AND EDOM",
+  "setting": "The long title places it when David “fought Aram-naharaim and Aram-zobah, and Joab returned and struck down 12,000 Edomites in the Valley of Salt.” While David’s army fought in the north, Edom seems to have attacked from the south, and the psalm begins in defeat: “You have rejected us, O God; You have broken us” (v.1). The land shakes like an earthquake (v.2). Then God speaks from His sanctuary, claiming the whole land as His: “I will parcel out Shechem… Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter. Moab is My washbasin; upon Edom I toss My sandal” (vv.6-8). The king asks who will lead him into Edom’s fortified city (v.9), and ends: “Give us aid against the enemy, for the help of man is worthless. With God we will perform with valor, and He will trample our enemies” (vv.11-12).",
+  "custom": "To toss a sandal on land was a way of claiming it (Ruth 4:7-8). A washbasin was a lowly household pot for washing feet, so “Moab is My washbasin” makes the proud nation a servant. Shechem and Succoth, on either side of the Jordan, were where Jacob settled on returning to the land (Genesis 33:17-18).",
+  "timelineImmediate": "Psalm 61, “Lead me to the rock that is higher than I,” is not yet in the app.",
+  "timelineBible": "2 Samuel 8:3-14 and 1 Chronicles 18:3-13 tell of these wars; the numbers and commanders vary between the accounts (18,000 Edomites in 2 Samuel 8:13 and 1 Chronicles 18:12). Verses 5-12 are repeated as the second half of Psalm 108. Paul writes, “If God is for us, who can be against us?” (Romans 8:31).",
+  "translation": [
+   {
+    "english": "banner",
+    "greek": "נֵס (nes)",
+    "verseRef": "v.4",
+    "meaning": "Banner, standard, signal pole.",
+    "gloss": "Banner",
+    "strongs": "H5251",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "washbasin",
+    "greek": "סִיר (sir)",
+    "verseRef": "v.8",
+    "meaning": "Pot, basin; a lowly household vessel.",
+    "gloss": "Pot",
+    "strongs": "H5518",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "sandal",
+    "greek": "נַעַל (na’al)",
+    "verseRef": "v.8",
+    "meaning": "Sandal; tossing it on land claims ownership.",
+    "gloss": "Sandal",
+    "strongs": "H5275",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 8:31",
+    "note": "If God is for us, who can be against us?"
+   },
+   {
+    "ref": "Romans 8:37",
+    "note": "More than conquerors through Him who loved us."
+   },
+   {
+    "ref": "Matthew 28:18",
+    "note": "All authority in heaven and on earth has been given to Me."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 8:3-14",
+    "note": "David’s wars with Aram and Edom."
+   },
+   {
+    "ref": "Ruth 4:7-8",
+    "note": "Removing a sandal to confirm a transaction."
+   },
+   {
+    "ref": "Psalm 108:6-13",
+    "note": "The same oracle again."
+   }
+  ],
+  "mapCoords": {
+   "lat": 30.73,
+   "lng": 35.61,
+   "zoom": 6,
+   "placeName": "Edom (Bozrah, its capital)"
+  },
+  "overview": {
+   "summary": "After a defeat while David fought Aram, the people cry that God has rejected them; God answers that every land is His, and they trust Him alone for victory over Edom.",
+   "settingLine": "War on two fronts, north and south.",
+   "placeName": "Edom (Bozrah, its capital)",
+   "history": [
+    {
+     "h": "Aram-zobah",
+     "t": "An Aramean kingdom north of Damascus."
+    },
+    {
+     "h": "The Valley of Salt",
+     "t": "South of the Dead Sea, near Edom."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Tossing a sandal",
+     "t": "Claiming land."
+    },
+    {
+     "h": "Washbasins",
+     "t": "Lowly household pots."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tel Dan Stele",
+     "t": "An Aramean king’s inscription naming the “House of David,” about 840 BC."
+    },
+    {
+     "h": "Edomite copper mines",
+     "t": "Huge 10th-century BC copper works at Khirbet en-Nahas in Edom."
+    }
+   ],
+   "discussion": "“The help of man is worthless” (v.11). Where am I leaning on human help instead of God?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "National lament and oracle",
+   "audience": "God, who goes out with the army",
+   "refNotes": {
+    "2 Samuel 8:3-14": "David’s wars",
+    "Ruth 4:7-8": "The sandal custom",
+    "Psalm 108:6-13": "A twin psalm"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "At war"
+    },
+    {
+     "n": "Joab",
+     "d": "Defeated Edom"
+    },
+    {
+     "n": "Edom",
+     "d": "The enemy in the south"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "You have rejected us"
+    },
+    {
+     "when": "v.6-8",
+     "label": "God has spoken"
+    },
+    {
+     "when": "v.9-12",
+     "label": "With God we will do valiantly"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Edom (Bozrah, its capital)",
+    "lat": 30.73,
+    "lng": 35.61,
+    "verses": [
+     8,
+     9
+    ],
+    "slug": "edom"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     6
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "You have rejected us, O God; You have broken us; You have been angry; restore us! You have raised a banner for those who fear You, that they may flee the bow. Selah God has spoken from His sanctuary: I will triumph! I will parcel out Shechem and apportion the Valley of Succoth. Moab is My washbasin; upon Edom I toss My sandal; over Philistia I shout in triumph. Give us aid against the enemy, for the help of man is worthless. With God we will perform with valor, and He will trample our enemies.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+   "caption": "The Judean wilderness above the Dead Sea from Masada. Beyond the Dead Sea to the south and east lay Moab and Edom, the lands God claims in Psalm 60:8: “Moab is My washbasin; upon Edom I toss My sandal.”",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

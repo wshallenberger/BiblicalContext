@@ -1,0 +1,196 @@
+{
+ "book": "Psalms",
+ "chapter": 43,
+ "title": "Send Out Your Light and Your Truth",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Vindicate me, O God, and plead my case against an ungodly nation; deliver me from deceitful and unjust men."
+  },
+  {
+   "num": 2,
+   "text": "For You are the God of my refuge. Why have You rejected me? Why must I walk in sorrow because of the enemy's oppression?"
+  },
+  {
+   "num": 3,
+   "text": "Send out Your light and Your truth; let them lead me. Let them bring me to Your holy mountain, and to the place where You dwell."
+  },
+  {
+   "num": 4,
+   "text": "Then I will go to the altar of God, to God, my greatest joy. I will praise You with the harp, O God, my God."
+  },
+  {
+   "num": 5,
+   "text": "Why are you downcast, O my soul? Why the unease within me? Put your hope in God, for I will yet praise Him, my Savior and my God."
+  }
+ ],
+ "context": {
+  "author": "Not named; Psalm 43 has no title because it continues Psalm 42, whose title names the sons of Korah.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The prayer of Psalm 42 goes on. “Vindicate me, O God, and plead my case against an ungodly nation” (v.1). “For You are the God of my refuge. Why have You rejected me?” (v.2). Then the turn: “Send out Your light and Your truth; let them lead me. Let them bring me to Your holy mountain, and to the place where You dwell” (v.3). The exile imagines arriving: “Then I will go to the altar of God, to God, my greatest joy. I will praise You with the harp” (v.4). The refrain sounds for the third time: “Why are you downcast, O my soul?… Put your hope in God, for I will yet praise Him, my Savior and my God” (v.5).",
+  "custom": "Light and truth are pictured as two guides sent ahead to lead a traveler home, like the pillar of fire that led Israel (Exodus 13:21). The altar stood in the Temple court, where worshipers brought offerings with music. An exiled Levite singer could no longer serve at the Temple.",
+  "timelineImmediate": "Psalm 44 is a lament of the whole nation, defeated though it has been faithful.",
+  "timelineBible": "Jesus said, “I am the way and the truth and the life” (John 14:6), and “I am the light of the world” (John 8:12), the two guides of v.3. Psalm 27:1 also calls the LORD “my light.” Christians have long used vv.3-4 as a prayer on coming to worship.",
+  "translation": [
+   {
+    "english": "light",
+    "greek": "אוֹר (or)",
+    "verseRef": "v.3",
+    "meaning": "Light, God’s guiding presence.",
+    "gloss": "Light",
+    "strongs": "H216",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "truth",
+    "greek": "אֱמֶת (emet)",
+    "verseRef": "v.3",
+    "meaning": "Truth, faithfulness, reliability.",
+    "gloss": "Faithfulness",
+    "strongs": "H571",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "altar",
+    "greek": "מִזְבֵּחַ (mizbeach)",
+    "verseRef": "v.4",
+    "meaning": "Altar, the place of sacrifice in the Temple court.",
+    "gloss": "Altar",
+    "strongs": "H4196",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 14:6",
+    "note": "I am the way and the truth and the life."
+   },
+   {
+    "ref": "John 8:12",
+    "note": "I am the light of the world."
+   },
+   {
+    "ref": "Hebrews 10:19-22",
+    "note": "Let us draw near with a sincere heart."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 42:5",
+    "note": "The same refrain."
+   },
+   {
+    "ref": "Exodus 13:21",
+    "note": "A pillar of fire to give them light."
+   },
+   {
+    "ref": "Psalm 27:1",
+    "note": "The LORD is my light and my salvation."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Still far from the Temple, the psalmist asks God to send His light and truth to lead him back to the altar, and again tells his soul to hope in God.",
+   "settingLine": "Longing for the road back to the altar.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Psalms 42-43",
+     "t": "One poem, three refrains."
+    },
+    {
+     "h": "Exile",
+     "t": "The singer cannot reach the Temple."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Guides",
+     "t": "Light and truth lead the way home."
+    },
+    {
+     "h": "Harp at the altar",
+     "t": "Music with sacrifice."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Temple Mount",
+     "t": "The holy mountain the singer longs for."
+    },
+    {
+     "h": "Lyres",
+     "t": "Small portable lyres appear on seals and figurines."
+    }
+   ],
+   "discussion": "“Send out Your light and Your truth; let them lead me” (v.3). Where do I need God’s light and truth to lead me back to Him?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named (continues Psalm 42)",
+   "genre": "Lament and prayer",
+   "audience": "God, my greatest joy",
+   "refNotes": {
+    "Psalm 42:5": "One poem",
+    "Exodus 13:21": "Light that leads",
+    "Psalm 27:1": "My light"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The psalmist",
+     "d": "Longs to return"
+    },
+    {
+     "n": "An ungodly nation",
+     "d": "Opposes him"
+    },
+    {
+     "n": "God",
+     "d": "My greatest joy"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Why have You rejected me?"
+    },
+    {
+     "when": "v.3-4",
+     "label": "Light and truth"
+    },
+    {
+     "when": "v.5",
+     "label": "Hope in God"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Vindicate me, O God, and plead my case against an ungodly nation; deliver me from deceitful and unjust men. Send out Your light and Your truth; let them lead me. Let them bring me to Your holy mountain, and to the place where You dwell. Then I will go to the altar of God, to God, my greatest joy. I will praise You with the harp, O God, my God. Why are you downcast, O my soul? Why the unease within me? Put your hope in God, for I will yet praise Him, my Savior and my God.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

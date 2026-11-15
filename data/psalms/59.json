@@ -1,0 +1,245 @@
+{
+ "book": "Psalms",
+ "chapter": 59,
+ "title": "You Are My Fortress",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"Do Not Destroy.\" A Miktam of David, when Saul sent men to watch David's house in order to kill him.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Deliver me from my enemies, O my God; protect me from those who rise against me."
+  },
+  {
+   "num": 2,
+   "text": "Deliver me from workers of iniquity, and save me from men of bloodshed."
+  },
+  {
+   "num": 3,
+   "text": "See how they lie in wait for me. Fierce men conspire against me for no transgression or sin of my own, O LORD."
+  },
+  {
+   "num": 4,
+   "text": "For no fault of my own, they move swiftly to attack me. Arise to help me, and take notice."
+  },
+  {
+   "num": 5,
+   "text": "O LORD God of Hosts, the God of Israel, rouse Yourself to punish all the nations; show no mercy to the wicked traitors. Selah"
+  },
+  {
+   "num": 6,
+   "text": "They return in the evening, snarling like dogs and prowling around the city."
+  },
+  {
+   "num": 7,
+   "text": "See what they spew from their mouths— sharp words from their lips: \"For who can hear us?\""
+  },
+  {
+   "num": 8,
+   "text": "But You, O LORD, laugh at them; You scoff at all the nations."
+  },
+  {
+   "num": 9,
+   "text": "I will keep watch for You, O my strength, because You, O God, are my fortress."
+  },
+  {
+   "num": 10,
+   "text": "My God of loving devotion will come to meet me; God will let me stare down my foes."
+  },
+  {
+   "num": 11,
+   "text": "Do not kill them, or my people will forget. Scatter them by Your power, and bring them down, O Lord, our shield."
+  },
+  {
+   "num": 12,
+   "text": "By the sins of their mouths and the words of their lips, let them be trapped in their pride, in the curses and lies they utter."
+  },
+  {
+   "num": 13,
+   "text": "Consume them in wrath; consume them till they are no more, so it may be known to the ends of the earth that God rules over Jacob. Selah"
+  },
+  {
+   "num": 14,
+   "text": "They return in the evening, snarling like dogs and prowling around the city."
+  },
+  {
+   "num": 15,
+   "text": "They scavenge for food, and growl if they are not satisfied."
+  },
+  {
+   "num": 16,
+   "text": "But I will sing of Your strength and proclaim Your loving devotion in the morning. For You are my fortress, my refuge in times of trouble."
+  },
+  {
+   "num": 17,
+   "text": "To You, O my strength, I sing praises, for You, O God, are my fortress, my God of loving devotion."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "DAVID’S HOUSE WATCHED BY SAUL’S MEN",
+  "setting": "The title places it “when Saul sent men to watch David’s house in order to kill him.” That night Michal, Saul’s daughter and David’s wife, let him down through a window and he escaped, while she put an idol in his bed to fool the soldiers (1 Samuel 19:11-17). “Deliver me from my enemies, O my God” (v.1). They lie in wait “for no transgression or sin of my own” (v.3). Twice the psalm pictures them: “They return in the evening, snarling like dogs and prowling around the city” (vv.6, 14). But God laughs at them (v.8). “I will keep watch for You, O my strength, because You, O God, are my fortress” (v.9). In the morning David will sing: “For You are my fortress, my refuge in times of trouble” (v.16).",
+  "custom": "Packs of half-wild dogs roamed ancient towns at night, scavenging for scraps (1 Kings 14:11). Houses built against city walls had windows in the wall (Joshua 2:15). Night was the time for an ambush; morning brought relief and song.",
+  "timelineImmediate": "Psalm 60 is titled for David’s wars with Aram and Edom.",
+  "timelineBible": "Paul escaped Damascus the same way David escaped, let down through a window in the wall in a basket (2 Corinthians 11:32-33). The cry of v.8, “You, O LORD, laugh at them,” echoes Psalm 2:4.",
+  "translation": [
+   {
+    "english": "dogs",
+    "greek": "כֶּלֶב (kelev)",
+    "verseRef": "v.6",
+    "meaning": "Dog; a scavenger, a term of contempt.",
+    "gloss": "Dog",
+    "strongs": "H3611",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fortress",
+    "greek": "מִשְׂגָּב (misgav)",
+    "verseRef": "v.9",
+    "meaning": "A high, secure place, a stronghold.",
+    "gloss": "High refuge",
+    "strongs": "H4869",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "morning",
+    "greek": "בֹּקֶר (boqer)",
+    "verseRef": "v.16",
+    "meaning": "Morning, the time of deliverance and song.",
+    "gloss": "Morning",
+    "strongs": "H1242",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "2 Corinthians 11:32-33",
+    "note": "Let down in a basket through a window."
+   },
+   {
+    "ref": "Acts 9:23-25",
+    "note": "They watched the gates day and night to kill him."
+   },
+   {
+    "ref": "Philippians 3:2",
+    "note": "Watch out for those dogs."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 19:11-17",
+    "note": "Michal lets David down through a window."
+   },
+   {
+    "ref": "Joshua 2:15",
+    "note": "Rahab lets the spies down by a rope."
+   },
+   {
+    "ref": "Psalm 2:4",
+    "note": "The One enthroned in heaven laughs."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.822,
+   "lng": 35.231,
+   "zoom": 6,
+   "placeName": "Gibeah of Saul (Tell el-Ful)"
+  },
+  "overview": {
+   "summary": "With Saul’s men watching his house to kill him, David pictures them as prowling dogs, calls God his fortress, and promises to sing of His love in the morning.",
+   "settingLine": "A watched house at night.",
+   "placeName": "Gibeah of Saul (Tell el-Ful)",
+   "history": [
+    {
+     "h": "Michal",
+     "t": "Saul’s daughter, David’s wife."
+    },
+    {
+     "h": "Saul’s jealousy",
+     "t": "He tried to kill David many times."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Town dogs",
+     "t": "Scavengers at night."
+    },
+    {
+     "h": "Wall windows",
+     "t": "Houses built into walls."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tell el-Ful",
+     "t": "Gibeah of Saul, with a fortress from Iron Age Israel."
+    },
+    {
+     "h": "Teraphim",
+     "t": "Household idols like the one Michal used have been found in many sites."
+    }
+   ],
+   "discussion": "“I will keep watch for You” (v.9). When danger watches me, what does it mean for me to watch for God?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and trust",
+   "audience": "God, my fortress",
+   "refNotes": {
+    "1 Samuel 19:11-17": "Escape by night",
+    "Joshua 2:15": "A window in the wall",
+    "Psalm 2:4": "God laughs"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Escapes by night"
+    },
+    {
+     "n": "Saul’s men",
+     "d": "Prowling like dogs"
+    },
+    {
+     "n": "Michal",
+     "d": "Helped him escape"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Deliver me"
+    },
+    {
+     "when": "v.9-15",
+     "label": "You are my fortress"
+    },
+    {
+     "when": "v.16-17",
+     "label": "Song in the morning"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Gibeah of Saul (Tell el-Ful)",
+    "lat": 31.822,
+    "lng": 35.231,
+    "verses": [],
+    "slug": "gibeah"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Deliver me from my enemies, O my God; protect me from those who rise against me. Deliver me from workers of iniquity, and save me from men of bloodshed. They return in the evening, snarling like dogs and prowling around the city. I will keep watch for You, O my strength, because You, O God, are my fortress. My God of loving devotion will come to meet me; God will let me stare down my foes. But I will sing of Your strength and proclaim Your loving devotion in the morning. For You are my fortress, my refuge in times of trouble. To You, O my strength, I sing praises, for You, O God, are my fortress, my God of loving devotion.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

@@ -15077,5 +15077,281 @@
    "ps_scroll",
    "ps_ps118"
   ]
+ },
+ {
+  "i": 606,
+  "t": "Blessed is the one who cares for the poor; Book One ends (Psalm 41)",
+  "p": "Jerusalem, the City of David",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    41,
+    1,
+    41,
+    13
+   ]
+  ],
+  "rs": "Ps41:1-13",
+  "s": "\"Blessed is the one who cares for the poor.\" \"Even my close friend whom I trusted, the one who shared my bread, has lifted up his heel against me.\" The psalm, and Book One, ends: \"Blessed be the LORD, the God of Israel, from everlasting to everlasting.\"",
+  "n": "Jesus applied v.9 to Judas (John 13:18). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 607,
+  "t": "Thirsting for God by the springs of the Jordan (Psalms 42-43)",
+  "p": "Banias, below Mount Hermon",
+  "la": 33.2486,
+  "ln": 35.6944,
+  "r": [
+   [
+    "psalms",
+    42,
+    1,
+    43,
+    5
+   ]
+  ],
+  "rs": "Ps42:1-43:5",
+  "s": "\"As the deer pants for streams of water, so my soul longs after You, O God.\" \"Deep calls to deep in the roar of Your waterfalls.\" \"Send out Your light and Your truth.\"",
+  "n": "Book Two begins. The singer remembers God “from the land of Jordan and the peaks of Hermon” (42:6), where the Jordan’s springs pour from the mountain; the pin stands at Banias, one of those springs. Mount Mizar is unknown.",
+  "im": [
+   "ps_banias",
+   "ps_hermon"
+  ]
+ },
+ {
+  "i": 608,
+  "t": "God is our refuge: the songs of the sons of Korah (Psalms 44-49)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    44,
+    1,
+    49,
+    20
+   ]
+  ],
+  "rs": "Ps44:1-49:20",
+  "s": "\"God is our refuge and strength, an ever-present help in times of trouble.\" \"Be still and know that I am God.\" \"Mount Zion, the city of the great King.\" A defeated nation cries \"Wake up, O Lord!\" (44:23), a court poet sings for the king’s wedding (45), and a teacher warns that no one can ransom his brother (49).",
+  "n": "The sons of Korah were Levite singers and gatekeepers of the Temple. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_tunnel",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 609,
+  "t": "God summons His people to court (Psalm 50)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    50,
+    1,
+    50,
+    23
+   ]
+  ],
+  "rs": "Ps50:1-23",
+  "s": "\"From Zion, perfect in beauty, God shines forth.\" \"the cattle on a thousand hills.\" \"Sacrifice a thank offering to God.\"",
+  "n": "The first psalm of Asaph, one of David’s chief musicians. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_scroll",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 610,
+  "t": "David’s prayer after Nathan’s rebuke (Psalm 51)",
+  "p": "Jerusalem, David’s palace",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    51,
+    1,
+    51,
+    19
+   ]
+  ],
+  "rs": "Ps51:1-19",
+  "s": "The title: \"When Nathan the prophet came to him after his adultery with Bathsheba.\" \"Create in me a clean heart, O God, and renew a right spirit within me.\" \"The sacrifices of God are a broken spirit.\"",
+  "n": "2 Samuel 11-12 tells the story. The palace stood on the City of David; the pin is approximate.",
+  "im": [
+   "ps_nathan",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 611,
+  "t": "Doeg the Edomite and the priests of Nob (Psalm 52)",
+  "p": "Nob, the city of priests",
+  "la": 31.795,
+  "ln": 35.242,
+  "r": [
+   [
+    "psalms",
+    52,
+    1,
+    52,
+    9
+   ]
+  ],
+  "rs": "Ps52:1-9",
+  "s": "The title: \"After Doeg the Edomite went to Saul and told him, 'David has gone to the house of Ahimelech.'\" \"But I am like an olive tree flourishing in the house of God.\"",
+  "n": "1 Samuel 21-22 tells the story. Nob was within sight of Jerusalem (Isaiah 10:32), probably on the ridge of Mount Scopus; the exact site is unknown.",
+  "im": [
+   "ps_harp",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 612,
+  "t": "The fool again, and betrayal at Ziph (Psalms 53-54)",
+  "p": "The wilderness of Ziph",
+  "la": 31.479,
+  "ln": 35.131,
+  "r": [
+   [
+    "psalms",
+    53,
+    1,
+    54,
+    7
+   ]
+  ],
+  "rs": "Ps53:1-54:7",
+  "s": "\"The fool says in his heart, 'There is no God.'\" Then the title of Psalm 54: \"When the Ziphites went to Saul and said, 'Is David not hiding among us?'\" \"Surely God is my helper.\"",
+  "n": "Psalm 53 repeats Psalm 14. The Ziphites twice told Saul where David was hiding (1 Samuel 23:19; 26:1); ancient Ziph is Tel Zif, south-east of Hebron.",
+  "im": [
+   "ps_judea",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 613,
+  "t": "Betrayed by a close friend (Psalm 55)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    55,
+    1,
+    55,
+    23
+   ]
+  ],
+  "rs": "Ps55:1-23",
+  "s": "\"Oh, that I had wings like a dove! I would fly away and find rest.\" \"But it is you, a man like myself, my companion and close friend.\" \"Cast your burden upon the LORD and He will sustain you.\"",
+  "n": "Many link the psalm with Ahithophel, David’s counselor who joined Absalom (2 Samuel 15:12, 31). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 614,
+  "t": "Seized by the Philistines at Gath (Psalm 56)",
+  "p": "Gath (Tell es-Safi)",
+  "la": 31.7042,
+  "ln": 34.8469,
+  "r": [
+   [
+    "psalms",
+    56,
+    1,
+    56,
+    13
+   ]
+  ],
+  "rs": "Ps56:1-13",
+  "s": "The title: \"Of David, when the Philistines seized him in Gath.\" \"When I am afraid, I put my trust in You.\" \"You have taken account of my wanderings. Put my tears in Your bottle.\"",
+  "n": "The same episode as Psalm 34 (1 Samuel 21:10-15).",
+  "im": [
+   "ps_gath",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 615,
+  "t": "In the cave, under the shadow of God’s wings (Psalm 57)",
+  "p": "The caves of En Gedi",
+  "la": 31.4613,
+  "ln": 35.3917,
+  "r": [
+   [
+    "psalms",
+    57,
+    1,
+    57,
+    11
+   ]
+  ],
+  "rs": "Ps57:1-11",
+  "s": "The title: \"Of David, when he fled from Saul into the cave.\" \"In the shadow of Your wings I will take shelter until the danger has passed.\" \"Awake, my glory!\"",
+  "n": "The cave may be Adullam (1 Samuel 22:1) or the cave at En Gedi where David spared Saul (1 Samuel 24); the pin stands at En Gedi, a judgment call.",
+  "im": [
+   "ps_engedi",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 616,
+  "t": "Unjust rulers, and Saul’s men at the door (Psalms 58-59)",
+  "p": "Gibeah of Saul",
+  "la": 31.822,
+  "ln": 35.231,
+  "r": [
+   [
+    "psalms",
+    58,
+    1,
+    59,
+    17
+   ]
+  ],
+  "rs": "Ps58:1-59:17",
+  "s": "\"There is surely a God who judges the earth!\" Then the title of Psalm 59: \"Of David, when Saul sent men to watch David's house in order to kill him.\" \"For You are my fortress, my refuge in times of trouble.\"",
+  "n": "Michal let David down through a window and he escaped (1 Samuel 19:11-17). David then lived at Saul’s court town, Gibeah (Tell el-Ful); the pin is a judgment call.",
+  "im": [
+   "ps_harp",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 617,
+  "t": "War with Aram and Edom (Psalm 60)",
+  "p": "Edom",
+  "la": 30.73,
+  "ln": 35.61,
+  "r": [
+   [
+    "psalms",
+    60,
+    1,
+    60,
+    12
+   ]
+  ],
+  "rs": "Ps60:1-12",
+  "s": "The title: \"When he fought Aram-naharaim and Aram-zobah, and Joab returned and struck down 12,000 Edomites in the Valley of Salt.\" \"Moab is My washbasin.\" \"With God we will perform with valor.\"",
+  "n": "2 Samuel 8:3-14 tells of these wars. The Valley of Salt lay south of the Dead Sea toward Edom; the pin stands at Bozrah, Edom’s capital.",
+  "im": [
+   "ps_masada",
+   "ps_harp"
+  ]
  }
 ]

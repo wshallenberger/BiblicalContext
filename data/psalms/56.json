@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 56,
+ "title": "Put My Tears in Your Bottle",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"A Dove on Distant Oaks.\" A Miktam of David, when the Philistines seized him in Gath.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Be merciful to me, O God, for men are hounding me; all day they press their attack."
+  },
+  {
+   "num": 2,
+   "text": "My enemies pursue me all day long, for many proudly assail me."
+  },
+  {
+   "num": 3,
+   "text": "When I am afraid, I put my trust in You."
+  },
+  {
+   "num": 4,
+   "text": "In God, whose word I praise— in God I trust. I will not be afraid. What can man do to me?"
+  },
+  {
+   "num": 5,
+   "text": "All day long they twist my words; all their thoughts are on my demise."
+  },
+  {
+   "num": 6,
+   "text": "They conspire, they lurk, they watch my steps while they wait to take my life."
+  },
+  {
+   "num": 7,
+   "text": "In spite of such sin, will they escape? In Your anger, O God, cast down the nations."
+  },
+  {
+   "num": 8,
+   "text": "You have taken account of my wanderings. Put my tears in Your bottle— are they not in Your book?"
+  },
+  {
+   "num": 9,
+   "text": "Then my enemies will retreat on the day I cry for help. By this I will know that God is on my side."
+  },
+  {
+   "num": 10,
+   "text": "In God, whose word I praise, in the LORD, whose word I praise,"
+  },
+  {
+   "num": 11,
+   "text": "in God I trust; I will not be afraid. What can man do to me?"
+  },
+  {
+   "num": 12,
+   "text": "Your vows are upon me, O God; I will render thank offerings to You."
+  },
+  {
+   "num": 13,
+   "text": "For You have delivered my soul from death, and my feet from stumbling, that I may walk before God in the light of life."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "DAVID SEIZED AT GATH",
+  "setting": "The title places it “when the Philistines seized him in Gath,” the same episode as Psalm 34 (1 Samuel 21:10-15). Enemies hound David all day (vv.1-2). “When I am afraid, I put my trust in You. In God, whose word I praise—in God I trust. I will not be afraid. What can man do to me?” (vv.3-4). They twist his words and watch his steps (vv.5-6). Then one of the most tender lines in the Psalms: “You have taken account of my wanderings. Put my tears in Your bottle—are they not in Your book?” (v.8). “By this I will know that God is on my side” (v.9). The refrain returns (vv.10-11), and David will pay his vows, for God has delivered him “that I may walk before God in the light of life” (v.13).",
+  "custom": "Bottles were skins of leather (Joshua 9:13) or small clay flasks; to keep someone’s tears in a bottle is to treasure every one. Kings kept records of loyal service (Esther 6:1-2), and God’s “book” records His people’s lives (Malachi 3:16). The title’s tune, “A Dove on Distant Oaks,” fits a fugitive far from home.",
+  "timelineImmediate": "Psalm 57 is titled for David’s flight from Saul into the cave.",
+  "timelineBible": "Hebrews combines God’s promise with v.4: “The Lord is my helper; I will not be afraid. What can man do to me?” (Hebrews 13:6). Jesus said, “Do not be afraid of those who kill the body” (Matthew 10:28). Revelation promises that God “will wipe away every tear from their eyes” (Revelation 21:4).",
+  "translation": [
+   {
+    "english": "trust",
+    "greek": "בָּטַח (batach)",
+    "verseRef": "v.3",
+    "meaning": "To trust, feel secure, rely on.",
+    "gloss": "Rely on",
+    "strongs": "H982",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "word",
+    "greek": "דָּבָר (davar)",
+    "verseRef": "v.4",
+    "meaning": "Word, promise.",
+    "gloss": "Word",
+    "strongs": "H1697",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "bottle",
+    "greek": "נֹאד (nod)",
+    "verseRef": "v.8",
+    "meaning": "A skin bottle, leather flask.",
+    "gloss": "Skin bottle",
+    "strongs": "H4997",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 13:6",
+    "note": "What can man do to me?"
+   },
+   {
+    "ref": "Matthew 10:28-31",
+    "note": "Do not be afraid; you are worth more than many sparrows."
+   },
+   {
+    "ref": "Revelation 21:4",
+    "note": "He will wipe away every tear."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 21:10-15",
+    "note": "David at Gath."
+   },
+   {
+    "ref": "Malachi 3:16",
+    "note": "A book of remembrance."
+   },
+   {
+    "ref": "Isaiah 25:8",
+    "note": "The Lord GOD will wipe away the tears."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7042,
+   "lng": 34.8469,
+   "zoom": 6,
+   "placeName": "Gath (Tell es-Safi)"
+  },
+  "overview": {
+   "summary": "Seized by the Philistines at Gath, David answers his fear with trust in God’s word, and believes God keeps every one of his tears in His bottle and His book.",
+   "settingLine": "A fugitive held at Gath.",
+   "placeName": "Gath (Tell es-Safi)",
+   "history": [
+    {
+     "h": "Gath",
+     "t": "Goliath’s city."
+    },
+    {
+     "h": "Psalms 34 and 56",
+     "t": "Two psalms for one escape."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Skin bottles",
+     "t": "Leather flasks."
+    },
+    {
+     "h": "Royal records",
+     "t": "Deeds written in a book."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tell es-Safi",
+     "t": "Gath’s huge Iron Age city, destroyed about 830 BC by Hazael."
+    },
+    {
+     "h": "Philistine pottery",
+     "t": "Painted bichrome ware found at Gath."
+    }
+   ],
+   "discussion": "“When I am afraid, I put my trust in You” (v.3). David does not deny his fear. What do I do with mine?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and trust",
+   "audience": "God, who keeps account of tears",
+   "refNotes": {
+    "1 Samuel 21:10-15": "Seized at Gath",
+    "Malachi 3:16": "God’s book",
+    "Isaiah 25:8": "Tears wiped away"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Afraid, trusting"
+    },
+    {
+     "n": "The Philistines",
+     "d": "Seized him"
+    },
+    {
+     "n": "God",
+     "d": "Keeps his tears"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "When I am afraid"
+    },
+    {
+     "when": "v.5-9",
+     "label": "Tears in Your bottle"
+    },
+    {
+     "when": "v.10-13",
+     "label": "The light of life"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Gath (Tell es-Safi)",
+    "lat": 31.7042,
+    "lng": 34.8469,
+    "verses": [],
+    "slug": "gath"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Be merciful to me, O God, for men are hounding me; all day they press their attack. When I am afraid, I put my trust in You. In God, whose word I praise— in God I trust. I will not be afraid. What can man do to me? You have taken account of my wanderings. Put my tears in Your bottle— are they not in Your book? Then my enemies will retreat on the day I cry for help. By this I will know that God is on my side. For You have delivered my soul from death, and my feet from stumbling, that I may walk before God in the light of life.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tel-Tsafit-206.jpg",
+   "caption": "Tell es-Safi (Tel Tzafit), widely identified as Gath of the Philistines, where David pretended to be insane before King Achish (1 Samuel 21:10-15), the setting the title gives Psalm 34.",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

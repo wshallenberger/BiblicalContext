@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 41,
+ "title": "Blessed Is the One Who Cares for the Poor",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Blessed is the one who cares for the poor; the LORD will deliver him in the day of trouble."
+  },
+  {
+   "num": 2,
+   "text": "The LORD will protect and preserve him; He will bless him in the land and refuse to surrender him to the will of his foes."
+  },
+  {
+   "num": 3,
+   "text": "The LORD will sustain him on his bed of illness and restore him from his bed of sickness."
+  },
+  {
+   "num": 4,
+   "text": "I said, \"O LORD, be gracious to me; heal me, for I have sinned against You.\""
+  },
+  {
+   "num": 5,
+   "text": "My enemies say with malice: \"When will he die and be forgotten?\""
+  },
+  {
+   "num": 6,
+   "text": "My visitor speaks falsehood; he gathers slander in his heart; he goes out and spreads it abroad."
+  },
+  {
+   "num": 7,
+   "text": "All who hate me whisper against me; they imagine the worst for me:"
+  },
+  {
+   "num": 8,
+   "text": "\"A vile disease has been poured into him; he will never get up from where he lies!\""
+  },
+  {
+   "num": 9,
+   "text": "Even my close friend whom I trusted, the one who shared my bread, has lifted up his heel against me."
+  },
+  {
+   "num": 10,
+   "text": "But You, O LORD, be gracious to me and raise me up, that I may repay them."
+  },
+  {
+   "num": 11,
+   "text": "By this I know that You delight in me, for my enemy does not triumph over me."
+  },
+  {
+   "num": 12,
+   "text": "In my integrity You uphold me and set me in Your presence forever."
+  },
+  {
+   "num": 13,
+   "text": "Blessed be the LORD, the God of Israel, from everlasting to everlasting. Amen and Amen."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Book One ends where it began, with “Blessed”: “Blessed is the one who cares for the poor; the LORD will deliver him in the day of trouble” (v.1). God will sustain him “on his bed of illness” (v.3). Then David speaks of his own sickness: “O LORD, be gracious to me; heal me, for I have sinned against You” (v.4). His enemies ask, “When will he die and be forgotten?” (v.5); visitors come only to gather gossip (v.6). Worst of all, “Even my close friend whom I trusted, the one who shared my bread, has lifted up his heel against me” (v.9). David trusts that God delights in him and will set him “in Your presence forever” (v.12). Verse 13 is the doxology that closes Book One: “Blessed be the LORD, the God of Israel, from everlasting to everlasting. Amen and Amen.”",
+  "custom": "Eating bread together made people allies, almost family, so betraying someone you had eaten with was especially shameful. To lift the heel was a picture of a horse kicking, or of contempt and treachery. Each of the five books of Psalms ends with a blessing of God like v.13 (41:13; 72:19; 89:52; 106:48; 150).",
+  "timelineImmediate": "Psalm 42 opens Book Two: “As the deer pants for streams of water, so my soul longs after You, O God.”",
+  "timelineBible": "At the Last Supper Jesus applied v.9 to Judas: “The one who shares My bread has lifted up his heel against Me” (John 13:18). Ahithophel, David’s trusted counselor who joined Absalom (2 Samuel 15:12), is often seen behind this verse and Psalm 55. Jesus taught, “Blessed are the merciful, for they will be shown mercy” (Matthew 5:7).",
+  "translation": [
+   {
+    "english": "poor",
+    "greek": "דַּל (dal)",
+    "verseRef": "v.1",
+    "meaning": "Weak, poor, low; one with no power or means.",
+    "gloss": "Weak",
+    "strongs": "H1800",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "heel",
+    "greek": "עָקֵב (aqev)",
+    "verseRef": "v.9",
+    "meaning": "Heel; lifting the heel is an act of treachery. The same root gives the name Jacob.",
+    "gloss": "Heel",
+    "strongs": "H6119",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Amen",
+    "greek": "אָמֵן (amen)",
+    "verseRef": "v.13",
+    "meaning": "Truly, so be it; from a root meaning firm, sure.",
+    "gloss": "So be it",
+    "strongs": "H543",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 13:18",
+    "note": "He who shares My bread has lifted up his heel against Me."
+   },
+   {
+    "ref": "Matthew 5:7",
+    "note": "Blessed are the merciful."
+   },
+   {
+    "ref": "Matthew 25:35-36",
+    "note": "I was sick and you looked after Me."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 15:12",
+    "note": "Ahithophel joins Absalom."
+   },
+   {
+    "ref": "Proverbs 14:21",
+    "note": "Blessed is he who is kind to the poor."
+   },
+   {
+    "ref": "Psalm 72:18-19",
+    "note": "The doxology that ends Book Two."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Sick and betrayed even by a friend who ate at his table, David trusts the God who blesses those who care for the weak; a doxology closes Book One.",
+   "settingLine": "A sickbed, with false visitors.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "End of Book One",
+     "t": "Psalms 1-41 close with a blessing."
+    },
+    {
+     "h": "Ahithophel",
+     "t": "David’s counselor who turned traitor."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Shared bread",
+     "t": "A bond of loyalty."
+    },
+    {
+     "h": "Doxologies",
+     "t": "Each book of Psalms ends with one."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Bread ovens",
+     "t": "Clay ovens for daily bread are found in every Israelite house."
+    },
+    {
+     "h": "Giloh",
+     "t": "Ahithophel’s hometown (2 Samuel 15:12), in the hill country of Judah."
+    }
+   ],
+   "discussion": "David was hurt most by a friend (v.9). How do I respond when someone close lets me down, and how do I treat the weak?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Thanksgiving and lament",
+   "audience": "God, and those who care for the weak",
+   "refNotes": {
+    "2 Samuel 15:12": "A trusted friend betrays",
+    "Proverbs 14:21": "Kindness to the poor",
+    "Psalm 72:18-19": "The next doxology"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Sick and betrayed"
+    },
+    {
+     "n": "A close friend",
+     "d": "Lifted his heel"
+    },
+    {
+     "n": "The one who cares for the poor",
+     "d": "Blessed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Blessed is the one who cares"
+    },
+    {
+     "when": "v.4-10",
+     "label": "Sick and betrayed"
+    },
+    {
+     "when": "v.11-13",
+     "label": "Forever in Your presence"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Blessed is the one who cares for the poor; the LORD will deliver him in the day of trouble. The LORD will sustain him on his bed of illness and restore him from his bed of sickness. I said, O LORD, be gracious to me; heal me, for I have sinned against You. Even my close friend whom I trusted, the one who shared my bread, has lifted up his heel against me. In my integrity You uphold me and set me in Your presence forever. Blessed be the LORD, the God of Israel, from everlasting to everlasting. Amen and Amen.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

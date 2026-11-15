@@ -810,6 +810,35 @@
    "n": "Dates are approximate."
   },
   {
+   "id": "ps_nob",
+   "s": "kingdom",
+   "z": 3,
+   "t": "Doeg and the priests of Nob",
+   "d": "c. 1015 BC",
+   "c": "a",
+   "r": "1 Samuel 21-22; Psalm 52",
+   "sum": "Doeg the Edomite reports that the priest Ahimelech helped David, and at Saul’s order kills the priests of Nob. Psalm 52 is titled for it.",
+   "ev": 611,
+   "go": [
+    "psalms",
+    52,
+    1
+   ],
+   "bk": [
+    [
+     8,
+     22,
+     22
+    ],
+    [
+     18,
+     52,
+     52
+    ]
+   ],
+   "n": "Dates are approximate."
+  },
+  {
    "id": "david",
    "s": "kingdom",
    "z": 0,
@@ -825,6 +854,35 @@
      5
     ]
    ]
+  },
+  {
+   "id": "ps_nathan",
+   "s": "kingdom",
+   "z": 2,
+   "t": "Nathan confronts David",
+   "d": "c. 995 BC",
+   "c": "a",
+   "r": "2 Samuel 11-12; Psalm 51",
+   "sum": "After David takes Bathsheba and has Uriah killed, the prophet Nathan tells him, “You are that man!” (2 Samuel 12:7). Psalm 51 is David’s prayer of repentance.",
+   "ev": 610,
+   "go": [
+    "psalms",
+    51,
+    1
+   ],
+   "bk": [
+    [
+     9,
+     11,
+     12
+    ],
+    [
+     18,
+     51,
+     51
+    ]
+   ],
+   "n": "Dates are approximate."
   },
   {
    "id": "ps_absalom",

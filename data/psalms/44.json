@@ -1,0 +1,281 @@
+{
+ "book": "Psalms",
+ "chapter": 44,
+ "title": "Wake Up, O Lord!",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Maskil of the sons of Korah.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "We have heard with our ears, O God; our fathers have told us the work You did in their days, in the days of old."
+  },
+  {
+   "num": 2,
+   "text": "With Your hand You drove out the nations and planted our fathers there; You crushed the peoples and cast them out."
+  },
+  {
+   "num": 3,
+   "text": "For it was not by their sword that they took the land; their arm did not bring them victory. It was by Your right hand, Your arm, and the light of Your face, because You favored them."
+  },
+  {
+   "num": 4,
+   "text": "You are my King, O God, who ordains victories for Jacob."
+  },
+  {
+   "num": 5,
+   "text": "Through You we repel our foes; through Your name we trample our enemies."
+  },
+  {
+   "num": 6,
+   "text": "For I do not trust in my bow, nor does my sword save me."
+  },
+  {
+   "num": 7,
+   "text": "For You save us from our enemies; You put those who hate us to shame."
+  },
+  {
+   "num": 8,
+   "text": "In God we have boasted all day long, and Your name we will praise forever. Selah"
+  },
+  {
+   "num": 9,
+   "text": "But You have rejected and humbled us; You no longer go forth with our armies."
+  },
+  {
+   "num": 10,
+   "text": "You have made us retreat from the foe, and those who hate us have plundered us."
+  },
+  {
+   "num": 11,
+   "text": "You have given us up as sheep to be devoured; You have scattered us among the nations."
+  },
+  {
+   "num": 12,
+   "text": "You sell Your people for nothing; no profit do You gain from their sale."
+  },
+  {
+   "num": 13,
+   "text": "You have made us a reproach to our neighbors, a mockery and derision to those around us."
+  },
+  {
+   "num": 14,
+   "text": "You have made us a byword among the nations, a laughingstock among the peoples."
+  },
+  {
+   "num": 15,
+   "text": "All day long my disgrace is before me, and shame has covered my face,"
+  },
+  {
+   "num": 16,
+   "text": "at the voice of the scorner and reviler, because of the enemy, bent on revenge."
+  },
+  {
+   "num": 17,
+   "text": "All this has come upon us, though we have not forgotten You or betrayed Your covenant."
+  },
+  {
+   "num": 18,
+   "text": "Our hearts have not turned back; our steps have not strayed from Your path."
+  },
+  {
+   "num": 19,
+   "text": "But You have crushed us in the lair of jackals; You have covered us with deepest darkness."
+  },
+  {
+   "num": 20,
+   "text": "If we had forgotten the name of our God or spread out our hands to a foreign god,"
+  },
+  {
+   "num": 21,
+   "text": "would not God have discovered, since He knows the secrets of the heart?"
+  },
+  {
+   "num": 22,
+   "text": "Yet for Your sake we face death all day long; we are considered as sheep to be slaughtered."
+  },
+  {
+   "num": 23,
+   "text": "Wake up, O Lord! Why are You sleeping? Arise! Do not reject us forever."
+  },
+  {
+   "num": 24,
+   "text": "Why do You hide Your face and forget our affliction and oppression?"
+  },
+  {
+   "num": 25,
+   "text": "For our soul has sunk to the dust; our bodies cling to the earth."
+  },
+  {
+   "num": 26,
+   "text": "Rise up; be our help! Redeem us on account of Your loving devotion."
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“We have heard with our ears, O God; our fathers have told us the work You did in their days” (v.1). God gave Israel the land: “it was not by their sword that they took the land… It was by Your right hand” (v.3). The people still trust Him: “I do not trust in my bow” (v.6). “But You have rejected and humbled us” (v.9): defeat, plunder, scattering, mockery (vv.10-16). The shock is that they have not been unfaithful: “All this has come upon us, though we have not forgotten You or betrayed Your covenant” (v.17). “Yet for Your sake we face death all day long; we are considered as sheep to be slaughtered” (v.22). The psalm ends with a bold cry: “Wake up, O Lord! Why are You sleeping? Arise!” (v.23), and a plea based on God’s loving devotion (v.26).",
+  "custom": "Fathers retold God’s great acts to their children at the feasts (Exodus 12:26-27; Deuteronomy 6:20-23). Defeated peoples were sold into slavery; “You sell Your people for nothing” (v.12) means God seems to give them away cheaply. Spreading out the hands (v.20) was the posture of prayer.",
+  "timelineImmediate": "Psalm 45 is a love song for the king’s wedding.",
+  "timelineBible": "Paul quotes v.22 in Romans 8:36, then answers: “No, in all these things we are more than conquerors through Him who loved us” (Romans 8:37). When the disciples woke Jesus in the storm, they asked, “Teacher, don’t You care that we are perishing?” (Mark 4:38). God reminded Israel that the land was won “not by your own sword or bow” (Joshua 24:12).",
+  "translation": [
+   {
+    "english": "arm",
+    "greek": "זְרוֹעַ (zeroa)",
+    "verseRef": "v.3",
+    "meaning": "Arm, strength, power.",
+    "gloss": "Arm",
+    "strongs": "H2220",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "slaughtered",
+    "greek": "טִבְחָה (tivchah)",
+    "verseRef": "v.22",
+    "meaning": "Slaughter, butchery.",
+    "gloss": "Slaughter",
+    "strongs": "H2878",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wake up",
+    "greek": "עוּר (ur)",
+    "verseRef": "v.23",
+    "meaning": "To rouse, awake, stir up.",
+    "gloss": "Rouse",
+    "strongs": "H5782",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 8:35-37",
+    "note": "For Your sake we face death all day long."
+   },
+   {
+    "ref": "Mark 4:37-39",
+    "note": "Teacher, don’t You care that we are perishing?"
+   },
+   {
+    "ref": "1 Peter 4:12-13",
+    "note": "Do not be surprised at the fiery trial."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Joshua 24:12",
+    "note": "Not by your own sword or bow."
+   },
+   {
+    "ref": "Judges 6:13",
+    "note": "Where are all His wonders that our fathers told us about?"
+   },
+   {
+    "ref": "Deuteronomy 6:20-23",
+    "note": "Telling the children what God did."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The nation remembers how God gave their fathers the land, then protests that He has let them be defeated though they stayed faithful, and cries for Him to wake up.",
+   "settingLine": "An army defeated and scattered.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "National defeat",
+     "t": "The occasion is unknown."
+    },
+    {
+     "h": "Faithful suffering",
+     "t": "The psalm claims innocence."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Retelling history",
+     "t": "Fathers taught their children."
+    },
+    {
+     "h": "Captives sold",
+     "t": "War brought slavery."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lachish reliefs",
+     "t": "Assyrian carvings show Judeans led away captive in 701 BC."
+    },
+    {
+     "h": "Mesha Stele",
+     "t": "Moab’s king boasts of defeating Israel, about 840 BC."
+    }
+   ],
+   "discussion": "The psalm says, “All this has come upon us, though we have not forgotten You” (v.17). How do I pray when suffering does not seem deserved?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Lament of the nation",
+   "audience": "God, who seems asleep",
+   "refNotes": {
+    "Joshua 24:12": "Not by the sword",
+    "Judges 6:13": "Gideon’s question",
+    "Deuteronomy 6:20-23": "Telling the story"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The fathers",
+     "d": "Told of God’s works"
+    },
+    {
+     "n": "The nation",
+     "d": "Defeated and mocked"
+    },
+    {
+     "n": "The Lord",
+     "d": "Called to wake up"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "What You did of old"
+    },
+    {
+     "when": "v.9-16",
+     "label": "But You have rejected us"
+    },
+    {
+     "when": "v.17-26",
+     "label": "Wake up, O Lord"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "We have heard with our ears, O God; our fathers have told us the work You did in their days, in the days of old. For it was not by their sword that they took the land; their arm did not bring them victory. It was by Your right hand, Your arm, and the light of Your face, because You favored them. For I do not trust in my bow, nor does my sword save me. But You have rejected and humbled us; You no longer go forth with our armies. All this has come upon us, though we have not forgotten You or betrayed Your covenant. Yet for Your sake we face death all day long; we are considered as sheep to be slaughtered. Wake up, O Lord! Why are You sleeping? Arise! Do not reject us forever. Rise up; be our help! Redeem us on account of Your loving devotion.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

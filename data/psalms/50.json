@@ -1,0 +1,269 @@
+{
+ "book": "Psalms",
+ "chapter": 50,
+ "title": "The Cattle on a Thousand Hills",
+ "translation": "BSB",
+ "superscription": "A Psalm of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The Mighty One, God the LORD, speaks and summons the earth from where the sun rises to where it sets."
+  },
+  {
+   "num": 2,
+   "text": "From Zion, perfect in beauty, God shines forth."
+  },
+  {
+   "num": 3,
+   "text": "Our God approaches and will not be silent! Consuming fire precedes Him, and a tempest rages around Him."
+  },
+  {
+   "num": 4,
+   "text": "He summons the heavens above, and the earth, that He may judge His people:"
+  },
+  {
+   "num": 5,
+   "text": "\"Gather to Me My saints, who made a covenant with Me by sacrifice.\""
+  },
+  {
+   "num": 6,
+   "text": "And the heavens proclaim His righteousness, for God Himself is Judge. Selah"
+  },
+  {
+   "num": 7,
+   "text": "\"Hear, O My people, and I will speak, O Israel, and I will testify against you: I am God, your God."
+  },
+  {
+   "num": 8,
+   "text": "I do not rebuke you for your sacrifices, and your burnt offerings are ever before Me."
+  },
+  {
+   "num": 9,
+   "text": "I have no need for a bull from your stall or goats from your pens,"
+  },
+  {
+   "num": 10,
+   "text": "for every beast of the forest is Mine— the cattle on a thousand hills."
+  },
+  {
+   "num": 11,
+   "text": "I know every bird in the mountains, and the creatures of the field are Mine."
+  },
+  {
+   "num": 12,
+   "text": "If I were hungry, I would not tell you, for the world is Mine, and the fullness thereof."
+  },
+  {
+   "num": 13,
+   "text": "Do I eat the flesh of bulls, or drink the blood of goats?"
+  },
+  {
+   "num": 14,
+   "text": "Sacrifice a thank offering to God, and fulfill your vows to the Most High."
+  },
+  {
+   "num": 15,
+   "text": "Call upon Me in the day of trouble; I will deliver you, and you will honor Me.\""
+  },
+  {
+   "num": 16,
+   "text": "To the wicked, however, God says, \"What right have you to recite My statutes and to bear My covenant on your lips?"
+  },
+  {
+   "num": 17,
+   "text": "For you hate My instruction and cast My words behind you."
+  },
+  {
+   "num": 18,
+   "text": "When you see a thief, you befriend him, and throw in your lot with adulterers."
+  },
+  {
+   "num": 19,
+   "text": "You unleash your mouth for evil and unharness your tongue for deceit."
+  },
+  {
+   "num": 20,
+   "text": "You sit and malign your brother; you slander your own mother's son."
+  },
+  {
+   "num": 21,
+   "text": "You have done these things, and I kept silent; you thought I was just like you. But now I rebuke you and accuse you to your face."
+  },
+  {
+   "num": 22,
+   "text": "Now consider this, you who forget God, lest I tear you to pieces, with no one to rescue you:"
+  },
+  {
+   "num": 23,
+   "text": "He who sacrifices a thank offering honors Me, and to him who rights his way, I will show the salvation of God.\""
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians (1 Chronicles 16:4-5). Twelve psalms carry his name: this one and Psalms 73-83.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "God comes as Judge: “The Mighty One, God the LORD, speaks and summons the earth” (v.1), shining from Zion with fire and storm (vv.2-3). He calls heaven and earth as witnesses and gathers His covenant people (vv.4-5). His charge is surprising. He does not fault their sacrifices, but He needs nothing: “every beast of the forest is Mine—the cattle on a thousand hills” (v.10). “If I were hungry, I would not tell you, for the world is Mine” (v.12). What He wants: “Sacrifice a thank offering to God… Call upon Me in the day of trouble; I will deliver you, and you will honor Me” (vv.14-15). To the wicked who recite His laws while stealing, committing adultery and slandering, He says, “you thought I was just like you” (vv.16-21). The way back: “He who sacrifices a thank offering honors Me” (v.23).",
+  "custom": "Treaties and covenants were witnessed by heaven and earth (Deuteronomy 32:1). Neighboring peoples set out food for their gods, believing the gods ate it. A thank offering (todah) was a sacrifice shared in a meal with family and friends, with songs of thanks (Leviticus 7:12-15).",
+  "timelineImmediate": "Psalm 51 is David’s prayer of repentance after Nathan confronted him.",
+  "timelineBible": "Paul told the Athenians that God is not “served by human hands, as if He needed anything” (Acts 17:25). Hebrews calls believers to “continually offer to God a sacrifice of praise” (Hebrews 13:15). Isaiah 1:11-17 and Micah 6:6-8 make the same complaint about sacrifice without justice.",
+  "translation": [
+   {
+    "english": "sacrifice",
+    "greek": "זֶבַח (zevach)",
+    "verseRef": "v.5",
+    "meaning": "Sacrifice, especially one eaten in a meal.",
+    "gloss": "Sacrifice",
+    "strongs": "H2077",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cattle",
+    "greek": "בְּהֵמָה (behemah)",
+    "verseRef": "v.10",
+    "meaning": "Animals, beasts, cattle.",
+    "gloss": "Beasts",
+    "strongs": "H929",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "thank offering",
+    "greek": "תּוֹדָה (todah)",
+    "verseRef": "v.14",
+    "meaning": "Thanksgiving, a thank offering, a song of thanks.",
+    "gloss": "Thanks",
+    "strongs": "H8426",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 17:24-25",
+    "note": "He is not served by human hands."
+   },
+   {
+    "ref": "Hebrews 13:15",
+    "note": "A sacrifice of praise."
+   },
+   {
+    "ref": "Romans 2:21-23",
+    "note": "You who preach against stealing, do you steal?"
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Micah 6:6-8",
+    "note": "What does the LORD require of you?"
+   },
+   {
+    "ref": "Isaiah 1:11-17",
+    "note": "What are your many sacrifices to Me?"
+   },
+   {
+    "ref": "Leviticus 7:12-15",
+    "note": "The thank offering."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God summons His people to court: He needs none of their sacrifices, since every animal is His, but wants thanks, prayer and obedience, and rebukes those who recite His laws and break them.",
+   "settingLine": "A covenant lawsuit before heaven and earth.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Asaph",
+     "t": "One of David’s music leaders."
+    },
+    {
+     "h": "Covenant lawsuits",
+     "t": "Prophets brought God’s case."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Food for the gods",
+     "t": "Pagan belief God refutes."
+    },
+    {
+     "h": "Thank offerings",
+     "t": "Shared meals of praise."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Altars and offering bowls",
+     "t": "Found at temples across Canaan."
+    },
+    {
+     "h": "Hittite treaties",
+     "t": "Call gods, heaven and earth as witnesses."
+    }
+   ],
+   "discussion": "“You thought I was just like you” (v.21). Where have I shrunk God down to my own size?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Prophetic judgment psalm",
+   "audience": "God’s people, and the wicked among them",
+   "refNotes": {
+    "Micah 6:6-8": "Justice, mercy, humility",
+    "Isaiah 1:11-17": "Empty worship",
+    "Leviticus 7:12-15": "The thank offering"
+   },
+   "peoplePlaces": [
+    {
+     "n": "God",
+     "d": "Judge and owner of all"
+    },
+    {
+     "n": "His saints",
+     "d": "In covenant by sacrifice"
+    },
+    {
+     "n": "The wicked",
+     "d": "Recite His laws, break them"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "God comes to judge"
+    },
+    {
+     "when": "v.7-15",
+     "label": "I do not need your bulls"
+    },
+    {
+     "when": "v.16-23",
+     "label": "To the wicked"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The Mighty One, God the LORD, speaks and summons the earth from where the sun rises to where it sets. From Zion, perfect in beauty, God shines forth. Hear, O My people, and I will speak, O Israel, and I will testify against you: I am God, your God. for every beast of the forest is Mine— the cattle on a thousand hills. If I were hungry, I would not tell you, for the world is Mine, and the fullness thereof. Sacrifice a thank offering to God, and fulfill your vows to the Most High. Call upon Me in the day of trouble; I will deliver you, and you will honor Me. He who sacrifices a thank offering honors Me, and to him who rights his way, I will show the salvation of God.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

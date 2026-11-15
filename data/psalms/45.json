@@ -1,0 +1,245 @@
+{
+ "book": "Psalms",
+ "chapter": 45,
+ "title": "A Song for the King’s Wedding",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"The Lilies.\" A Maskil of the sons of Korah. A love song.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "My heart is stirred by a noble theme as I recite my verses to the king; my tongue is the pen of a skillful writer."
+  },
+  {
+   "num": 2,
+   "text": "You are the most handsome of men; grace has anointed your lips, since God has blessed you forever."
+  },
+  {
+   "num": 3,
+   "text": "Strap your sword at your side, O mighty warrior; appear in your majesty and splendor."
+  },
+  {
+   "num": 4,
+   "text": "In your splendor ride forth in victory on behalf of truth and humility and justice; may your right hand show your awesome deeds."
+  },
+  {
+   "num": 5,
+   "text": "Your arrows pierce the hearts of the king's foes; the nations fall beneath your feet."
+  },
+  {
+   "num": 6,
+   "text": "Your throne, O God, endures forever and ever, and justice is the scepter of Your kingdom."
+  },
+  {
+   "num": 7,
+   "text": "You have loved righteousness and hated wickedness; therefore God, your God, has anointed you above your companions with the oil of joy."
+  },
+  {
+   "num": 8,
+   "text": "All your garments are fragrant with myrrh and aloes and cassia; from palaces of ivory the harps make you glad."
+  },
+  {
+   "num": 9,
+   "text": "The daughters of kings are among your honored women; the queen stands at your right hand, adorned with the gold of Ophir."
+  },
+  {
+   "num": 10,
+   "text": "Listen, O daughter! Consider and incline your ear: Forget your people and your father's house,"
+  },
+  {
+   "num": 11,
+   "text": "and the king will desire your beauty; bow to him, for he is your lord."
+  },
+  {
+   "num": 12,
+   "text": "The Daughter of Tyre will come with a gift; men of wealth will seek your favor."
+  },
+  {
+   "num": 13,
+   "text": "All glorious is the princess in her chamber; her gown is embroidered with gold."
+  },
+  {
+   "num": 14,
+   "text": "In colorful garments she is led to the king; her virgin companions are brought before you."
+  },
+  {
+   "num": 15,
+   "text": "They are led in with joy and gladness; they enter the palace of the king."
+  },
+  {
+   "num": 16,
+   "text": "Your sons will succeed your fathers; you will make them princes throughout the land."
+  },
+  {
+   "num": 17,
+   "text": "I will commemorate your name through all generations; therefore the nations will praise you forever and ever."
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title calls it “a love song.” The poet says, “My heart is stirred by a noble theme as I recite my verses to the king” (v.1). He praises the king’s beauty and grace (v.2), his sword and his ride “on behalf of truth and humility and justice” (vv.3-5). Then: “Your throne, O God, endures forever and ever, and justice is the scepter of Your kingdom” (v.6); God has anointed him “with the oil of joy” (v.7). His robes are fragrant, his palaces inlaid with ivory (v.8). The bride, a foreign princess, is told, “Forget your people and your father’s house, and the king will desire your beauty” (vv.10-11). She is led in gold-embroidered garments to the palace (vv.13-15), and the poet promises the king sons and lasting fame (vv.16-17).",
+  "custom": "Royal marriages sealed alliances with neighboring kingdoms; Solomon married Pharaoh’s daughter (1 Kings 3:1) and Ahab married Jezebel of Sidon. The bride left her family for good. Myrrh, aloes and cassia were costly imported spices used for perfume. Ivory inlay decorated the palaces of the wealthy (1 Kings 22:39; Amos 3:15).",
+  "timelineImmediate": "Psalm 46 declares, “God is our refuge and strength.”",
+  "timelineBible": "Hebrews 1:8-9 quotes vv.6-7 of the Son: “Your throne, O God, endures forever and ever.” The church has long read the psalm of Christ the King and His bride, the church (Ephesians 5:25-27; Revelation 19:7). Isaiah also calls the coming king “Wonderful Counselor, Mighty God” (Isaiah 9:6).",
+  "translation": [
+   {
+    "english": "throne",
+    "greek": "כִּסֵּא (kisse)",
+    "verseRef": "v.6",
+    "meaning": "Throne, seat of honor.",
+    "gloss": "Throne",
+    "strongs": "H3678",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "anointed",
+    "greek": "מָשַׁח (mashach)",
+    "verseRef": "v.7",
+    "meaning": "To anoint with oil; the verb behind “Messiah.”",
+    "gloss": "Anoint",
+    "strongs": "H4886",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gold of Ophir",
+    "greek": "כֶּתֶם (ketem)",
+    "verseRef": "v.9",
+    "meaning": "Fine gold; Ophir was famous for it.",
+    "gloss": "Fine gold",
+    "strongs": "H3800",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 1:8-9",
+    "note": "Your throne, O God, endures forever and ever."
+   },
+   {
+    "ref": "Revelation 19:7-8",
+    "note": "The marriage of the Lamb has come."
+   },
+   {
+    "ref": "Ephesians 5:25-27",
+    "note": "Christ loved the church and gave Himself up for her."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Kings 10:11",
+    "note": "Gold from Ophir."
+   },
+   {
+    "ref": "Isaiah 9:6-7",
+    "note": "Mighty God, on the throne of David."
+   },
+   {
+    "ref": "Song of Solomon 3:11",
+    "note": "King Solomon on the day of his wedding."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A court poet sings for the king’s wedding, praising his beauty, justice and eternal throne, and telling the foreign bride to leave her home for the king.",
+   "settingLine": "A royal wedding in the palace.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Royal marriages",
+     "t": "Alliances sealed by weddings."
+    },
+    {
+     "h": "Tyre",
+     "t": "The rich Phoenician port sends gifts."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Spices",
+     "t": "Myrrh, aloes and cassia."
+    },
+    {
+     "h": "The bride’s procession",
+     "t": "Led to the king with companions."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Samaria ivories",
+     "t": "Carved ivory inlays from Ahab’s palace at Samaria."
+    },
+    {
+     "h": "Tell Qasile ostracon",
+     "t": "A potsherd records ‘gold of Ophir for Beth-horon.’"
+    }
+   ],
+   "discussion": "The king rides out “on behalf of truth and humility and justice” (v.4). What would it look like for Christ to reign that way in my life?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Royal wedding song",
+   "audience": "The king and his bride",
+   "refNotes": {
+    "1 Kings 10:11": "Ophir gold",
+    "Isaiah 9:6-7": "The divine King",
+    "Song of Solomon 3:11": "A royal wedding"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The king",
+     "d": "Anointed with the oil of joy"
+    },
+    {
+     "n": "The bride",
+     "d": "A princess from abroad"
+    },
+    {
+     "n": "The Daughter of Tyre",
+     "d": "Brings a gift"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-9",
+     "label": "Praise of the king"
+    },
+    {
+     "when": "v.10-15",
+     "label": "Words to the bride"
+    },
+    {
+     "when": "v.16-17",
+     "label": "Sons and fame"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "My heart is stirred by a noble theme as I recite my verses to the king; my tongue is the pen of a skillful writer. You are the most handsome of men; grace has anointed your lips, since God has blessed you forever. Your throne, O God, endures forever and ever, and justice is the scepter of Your kingdom. You have loved righteousness and hated wickedness; therefore God, your God, has anointed you above your companions with the oil of joy. Listen, O daughter! Consider and incline your ear: Forget your people and your father's house, and the king will desire your beauty; bow to him, for he is your lord. I will commemorate your name through all generations; therefore the nations will praise you forever and ever.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Visit_of_the_Queen_of_Sheba_to_King_Solomon%27,_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+   "caption": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890). Royal psalms such as Psalms 2 and 20 were sung for the kings of David’s line in Jerusalem.",
+   "credit": "Edward Poynter (1890), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

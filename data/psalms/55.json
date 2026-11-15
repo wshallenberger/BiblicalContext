@@ -1,0 +1,269 @@
+{
+ "book": "Psalms",
+ "chapter": 55,
+ "title": "Cast Your Burden upon the LORD",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. With stringed instruments. A Maskil of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Listen to my prayer, O God, and do not ignore my plea."
+  },
+  {
+   "num": 2,
+   "text": "Attend to me and answer me. I am restless in my complaint, and distraught"
+  },
+  {
+   "num": 3,
+   "text": "at the voice of the enemy, at the pressure of the wicked. For they release disaster upon me and revile me in their anger."
+  },
+  {
+   "num": 4,
+   "text": "My heart murmurs within me, and the terrors of death assail me."
+  },
+  {
+   "num": 5,
+   "text": "Fear and trembling grip me, and horror has overwhelmed me."
+  },
+  {
+   "num": 6,
+   "text": "I said, \"Oh, that I had wings like a dove! I would fly away and find rest."
+  },
+  {
+   "num": 7,
+   "text": "How far away I would flee! In the wilderness I would remain. Selah"
+  },
+  {
+   "num": 8,
+   "text": "I would hurry to my shelter, far from this raging tempest.\""
+  },
+  {
+   "num": 9,
+   "text": "O Lord, confuse and confound their speech, for I see violence and strife in the city."
+  },
+  {
+   "num": 10,
+   "text": "Day and night they encircle the walls, while malice and trouble lie within."
+  },
+  {
+   "num": 11,
+   "text": "Destruction is within; oppression and deceit never leave the streets."
+  },
+  {
+   "num": 12,
+   "text": "For it is not an enemy who insults me; that I could endure. It is not a foe who rises against me; from him I could hide."
+  },
+  {
+   "num": 13,
+   "text": "But it is you, a man like myself, my companion and close friend."
+  },
+  {
+   "num": 14,
+   "text": "We shared sweet fellowship together; we walked with the crowd into the house of God."
+  },
+  {
+   "num": 15,
+   "text": "Let death seize them by surprise; let them go down to Sheol alive, for evil is with them in their homes."
+  },
+  {
+   "num": 16,
+   "text": "But I call to God, and the LORD saves me."
+  },
+  {
+   "num": 17,
+   "text": "Morning, noon, and night, I cry out in distress, and He hears my voice."
+  },
+  {
+   "num": 18,
+   "text": "He redeems my soul in peace from the battle waged against me, even though many oppose me."
+  },
+  {
+   "num": 19,
+   "text": "God will hear and humiliate them— the One enthroned for the ages— Selah because they do not change and they have no fear of God."
+  },
+  {
+   "num": 20,
+   "text": "My companion attacks his friends; he violates his covenant."
+  },
+  {
+   "num": 21,
+   "text": "His speech is smooth as butter, but war is in his heart. His words are softer than oil, yet they are swords unsheathed."
+  },
+  {
+   "num": 22,
+   "text": "Cast your burden upon the LORD and He will sustain you; He will never let the righteous be shaken."
+  },
+  {
+   "num": 23,
+   "text": "But You, O God, will bring them down to the Pit of destruction; men of bloodshed and deceit will not live out half their days. But I will trust in You."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Listen to my prayer, O God” (v.1). Terror grips David (vv.4-5), and he wishes he could escape: “Oh, that I had wings like a dove! I would fly away and find rest” (v.6). The city is full of violence and deceit (vv.9-11). But the deepest wound is personal: “For it is not an enemy who insults me; that I could endure… But it is you, a man like myself, my companion and close friend. We shared sweet fellowship together; we walked with the crowd into the house of God” (vv.12-14). “His speech is smooth as butter, but war is in his heart” (v.21). David prays “morning, noon, and night” (v.17) and gives the reader this word: “Cast your burden upon the LORD and He will sustain you; He will never let the righteous be shaken” (v.22).",
+  "custom": "Doves nest in clefts of rock in remote cliffs (Song of Songs 2:14; Jeremiah 48:28). Praying three times a day, evening, morning and noon, became a Jewish custom (Daniel 6:10). Covenant partners swore loyalty to one another; breaking that covenant (v.20) was deep treachery.",
+  "timelineImmediate": "Psalm 56 is titled for David’s capture by the Philistines at Gath: “Put my tears in Your bottle.”",
+  "timelineBible": "Many readers see Ahithophel behind this psalm: David’s trusted counselor joined Absalom’s revolt, and when his advice was rejected he hanged himself (2 Samuel 15:31; 17:23). Christians see Judas, who betrayed Jesus with a kiss (Matthew 26:49). Peter echoes v.22: “Cast all your anxiety on Him, because He cares for you” (1 Peter 5:7).",
+  "translation": [
+   {
+    "english": "dove",
+    "greek": "יוֹנָה (yonah)",
+    "verseRef": "v.6",
+    "meaning": "Dove, pigeon; the name Jonah.",
+    "gloss": "Dove",
+    "strongs": "H3123",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "oil",
+    "greek": "שֶׁמֶן (shemen)",
+    "verseRef": "v.21",
+    "meaning": "Oil, olive oil; smooth, soothing.",
+    "gloss": "Oil",
+    "strongs": "H8081",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "burden",
+    "greek": "יְהָב (yehav)",
+    "verseRef": "v.22",
+    "meaning": "Burden, lot, what has been given you; used only here.",
+    "gloss": "Lot, load",
+    "strongs": "H3053",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Peter 5:7",
+    "note": "Cast all your anxiety on Him."
+   },
+   {
+    "ref": "Matthew 26:47-50",
+    "note": "Judas betrays Jesus with a kiss."
+   },
+   {
+    "ref": "Matthew 11:28-30",
+    "note": "Come to Me, all you who are weary."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 15:31",
+    "note": "Ahithophel is among the conspirators."
+   },
+   {
+    "ref": "2 Samuel 17:23",
+    "note": "Ahithophel hangs himself."
+   },
+   {
+    "ref": "Daniel 6:10",
+    "note": "Daniel prays three times a day."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Terrified and wishing for a dove’s wings, David grieves that his close friend has betrayed him, prays all day, and tells others to cast their burden on the LORD.",
+   "settingLine": "A violent city and a friend turned enemy.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Ahithophel",
+     "t": "David’s counselor who joined Absalom."
+    },
+    {
+     "h": "Absalom’s plot",
+     "t": "Brewed inside Jerusalem."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Doves in the cliffs",
+     "t": "Safe, far-off nests."
+    },
+    {
+     "h": "Prayer three times a day",
+     "t": "Morning, noon and night."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "City walls",
+     "t": "Watchmen walked the walls day and night (v.10)."
+    },
+    {
+     "h": "Rock doves",
+     "t": "Still nest in the cliffs of Wadi Hamam and the Arbel."
+    }
+   ],
+   "discussion": "“Cast your burden upon the LORD” (v.22). What burden am I carrying that I need to hand over to Him today?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament over betrayal",
+   "audience": "God, who hears morning, noon and night",
+   "refNotes": {
+    "2 Samuel 15:31": "A counselor turns traitor",
+    "2 Samuel 17:23": "Ahithophel’s end",
+    "Daniel 6:10": "Morning, noon and night"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Betrayed"
+    },
+    {
+     "n": "A close friend",
+     "d": "Smooth words, war in his heart"
+    },
+    {
+     "n": "The LORD",
+     "d": "Sustains the righteous"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Wings like a dove"
+    },
+    {
+     "when": "v.9-15",
+     "label": "A friend’s betrayal"
+    },
+    {
+     "when": "v.16-23",
+     "label": "Cast your burden"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Listen to my prayer, O God, and do not ignore my plea. I said, Oh, that I had wings like a dove! I would fly away and find rest. For it is not an enemy who insults me; that I could endure. It is not a foe who rises against me; from him I could hide. But it is you, a man like myself, my companion and close friend. We shared sweet fellowship together; we walked with the crowd into the house of God. Morning, noon, and night, I cry out in distress, and He hears my voice. His speech is smooth as butter, but war is in his heart. His words are softer than oil, yet they are swords unsheathed. Cast your burden upon the LORD and He will sustain you; He will never let the righteous be shaken.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

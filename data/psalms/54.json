@@ -1,0 +1,212 @@
+{
+ "book": "Psalms",
+ "chapter": 54,
+ "title": "Surely God Is My Helper",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. With stringed instruments. A Maskil of David. When the Ziphites went to Saul and said, \"Is David not hiding among us?\"",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Save me, O God, by Your name, and vindicate me by Your might!"
+  },
+  {
+   "num": 2,
+   "text": "Hear my prayer, O God; listen to the words of my mouth."
+  },
+  {
+   "num": 3,
+   "text": "For strangers rise up against me, and ruthless men seek my life— men with no regard for God. Selah"
+  },
+  {
+   "num": 4,
+   "text": "Surely God is my helper; the Lord is the sustainer of my soul."
+  },
+  {
+   "num": 5,
+   "text": "He will reward my enemies with evil. In Your faithfulness, destroy them."
+  },
+  {
+   "num": 6,
+   "text": "Freely I will sacrifice to You; I will praise Your name, O LORD, for it is good."
+  },
+  {
+   "num": 7,
+   "text": "For He has delivered me from every trouble, and my eyes have stared down my foes."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "THE WILDERNESS OF ZIPH",
+  "setting": "The title places it “when the Ziphites went to Saul and said, Is David not hiding among us?” David was hiding in the wilderness of Ziph, south-east of Hebron, when the local people betrayed him to Saul, twice (1 Samuel 23:19-24; 26:1). “Save me, O God, by Your name, and vindicate me by Your might!” (v.1). “Strangers rise up against me, and ruthless men seek my life—men with no regard for God” (v.3). “Surely God is my helper; the Lord is the sustainer of my soul” (v.4). David promises a freewill offering and thanks “for He has delivered me from every trouble” (vv.6-7).",
+  "custom": "God’s name stood for His character and presence; to be saved “by Your name” was to be saved by who God is (Proverbs 18:10). The wilderness of Ziph is rough, dry country of hills and ravines, good for hiding. A freewill offering (v.6) was given out of gratitude, not obligation (Leviticus 22:18-23).",
+  "timelineImmediate": "Psalm 55 laments betrayal by a close friend: “Oh, that I had wings like a dove!”",
+  "timelineBible": "Saul was about to catch David near Ziph when a messenger brought news of a Philistine raid, and Saul turned back (1 Samuel 23:26-28). Hebrews says, “The Lord is my helper; I will not be afraid” (Hebrews 13:6). Jesus prayed for His disciples, “Holy Father, protect them by Your name” (John 17:11).",
+  "translation": [
+   {
+    "english": "name",
+    "greek": "שֵׁם (shem)",
+    "verseRef": "v.1",
+    "meaning": "Name; reputation, character, presence.",
+    "gloss": "Name",
+    "strongs": "H8034",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "helper",
+    "greek": "עָזַר (azar)",
+    "verseRef": "v.4",
+    "meaning": "To help, aid; God is my helper.",
+    "gloss": "Help",
+    "strongs": "H5826",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "freely",
+    "greek": "נְדָבָה (nedavah)",
+    "verseRef": "v.6",
+    "meaning": "Freewill offering, a gift given willingly.",
+    "gloss": "Freewill offering",
+    "strongs": "H5071",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 13:6",
+    "note": "The Lord is my Helper."
+   },
+   {
+    "ref": "John 17:11-12",
+    "note": "Protect them by Your name."
+   },
+   {
+    "ref": "2 Corinthians 9:7",
+    "note": "God loves a cheerful giver."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 23:19-28",
+    "note": "The Ziphites betray David; Saul turns back."
+   },
+   {
+    "ref": "1 Samuel 26:1-2",
+    "note": "The Ziphites report him again."
+   },
+   {
+    "ref": "Proverbs 18:10",
+    "note": "The name of the LORD is a strong tower."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.479,
+   "lng": 35.131,
+   "zoom": 6,
+   "placeName": "Ziph (Tel Zif)"
+  },
+  "overview": {
+   "summary": "Betrayed to Saul by the people of Ziph, David asks God to save him by His name, declares that God is his helper, and promises a freewill offering.",
+   "settingLine": "Hiding in the wilderness of Ziph.",
+   "placeName": "Ziph (Tel Zif)",
+   "history": [
+    {
+     "h": "The Ziphites",
+     "t": "Twice reported David to Saul."
+    },
+    {
+     "h": "Saul’s pursuit",
+     "t": "Broken off by a Philistine raid."
+    }
+   ],
+   "customs": [
+    {
+     "h": "God’s name",
+     "t": "His character and presence."
+    },
+    {
+     "h": "Freewill offerings",
+     "t": "Given in thanks."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tel Zif",
+     "t": "The mound of ancient Ziph, south-east of Hebron."
+    },
+    {
+     "h": "Lmlk jars",
+     "t": "Royal jar handles stamped “Ziph” show it was a Judean administrative town in Hezekiah’s day."
+    }
+   ],
+   "discussion": "“Surely God is my helper” (v.4). When people I live among turn against me, where do I look for help?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Prayer for help",
+   "audience": "God, whose name saves",
+   "refNotes": {
+    "1 Samuel 23:19-28": "Betrayed at Ziph",
+    "1 Samuel 26:1-2": "A second betrayal",
+    "Proverbs 18:10": "A strong tower"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Hiding"
+    },
+    {
+     "n": "The Ziphites",
+     "d": "Betrayed him"
+    },
+    {
+     "n": "Saul",
+     "d": "Pursued him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Save me by Your name"
+    },
+    {
+     "when": "v.4-5",
+     "label": "God is my helper"
+    },
+    {
+     "when": "v.6-7",
+     "label": "A freewill offering"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Ziph (Tel Zif)",
+    "lat": 31.479,
+    "lng": 35.131,
+    "verses": [],
+    "slug": "ziph"
+   },
+   {
+    "name": "Gibeah of Saul (Tell el-Ful)",
+    "lat": 31.822,
+    "lng": 35.231,
+    "verses": [],
+    "slug": "gibeah"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Save me, O God, by Your name, and vindicate me by Your might! Hear my prayer, O God; listen to the words of my mouth. Surely God is my helper; the Lord is the sustainer of my soul. Freely I will sacrifice to You; I will praise Your name, O LORD, for it is good. For He has delivered me from every trouble, and my eyes have stared down my foes.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "The dry hills and ravines of the Judean wilderness, the kind of country around Ziph where David hid from Saul (1 Samuel 23:14-15).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

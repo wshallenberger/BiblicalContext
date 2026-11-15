@@ -1,0 +1,257 @@
+{
+ "book": "Psalms",
+ "chapter": 49,
+ "title": "No One Can Ransom His Brother",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of the sons of Korah.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hear this, all you peoples; listen, all inhabitants of the world,"
+  },
+  {
+   "num": 2,
+   "text": "both low and high, rich and poor alike."
+  },
+  {
+   "num": 3,
+   "text": "My mouth will impart wisdom, and the meditation of my heart will bring understanding."
+  },
+  {
+   "num": 4,
+   "text": "I will incline my ear to a proverb; I will express my riddle with the harp:"
+  },
+  {
+   "num": 5,
+   "text": "Why should I fear in times of trouble, when wicked usurpers surround me?"
+  },
+  {
+   "num": 6,
+   "text": "They trust in their wealth and boast in their great riches."
+  },
+  {
+   "num": 7,
+   "text": "No man can possibly redeem his brother or pay his ransom to God."
+  },
+  {
+   "num": 8,
+   "text": "For the redemption of his soul is costly, and never can payment suffice,"
+  },
+  {
+   "num": 9,
+   "text": "that he should live on forever and not see decay."
+  },
+  {
+   "num": 10,
+   "text": "For it is clear that wise men die, and the foolish and the senseless both perish and leave their wealth to others."
+  },
+  {
+   "num": 11,
+   "text": "Their graves are their eternal homes— their dwellings for endless generations— even though their lands were their namesakes."
+  },
+  {
+   "num": 12,
+   "text": "But a man, despite his wealth, cannot endure; he is like the beasts that perish."
+  },
+  {
+   "num": 13,
+   "text": "This is the fate of the self-confident and their followers who endorse their sayings. Selah"
+  },
+  {
+   "num": 14,
+   "text": "Like sheep they are destined for Sheol. Death will be their shepherd. The upright will rule them in the morning, and their form will decay in Sheol, far from their lofty abode."
+  },
+  {
+   "num": 15,
+   "text": "But God will redeem my life from Sheol, for He will surely take me to Himself. Selah"
+  },
+  {
+   "num": 16,
+   "text": "Do not be amazed when a man grows rich, when the splendor of his house increases."
+  },
+  {
+   "num": 17,
+   "text": "For when he dies, he will carry nothing away; his abundance will not follow him down."
+  },
+  {
+   "num": 18,
+   "text": "Though in his lifetime he blesses his soul— and men praise you when you prosper—"
+  },
+  {
+   "num": 19,
+   "text": "he will join the generation of his fathers, who will never see the light of day."
+  },
+  {
+   "num": 20,
+   "text": "A man who has riches without understanding is like the beasts that perish."
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hear this, all you peoples… both low and high, rich and poor alike” (vv.1-2). The psalmist will solve a riddle with the harp (v.4): why fear the rich who “trust in their wealth and boast in their great riches” (v.6)? Because “No man can possibly redeem his brother or pay his ransom to God” (v.7). Wise and foolish alike die and leave their wealth to others (v.10). “A man, despite his wealth, cannot endure; he is like the beasts that perish” (v.12). “Death will be their shepherd” (v.14). But: “God will redeem my life from Sheol, for He will surely take me to Himself” (v.15). So “Do not be amazed when a man grows rich… For when he dies, he will carry nothing away” (vv.16-17).",
+  "custom": "Israel’s law allowed a ransom payment in some cases (Exodus 21:30), and a relative could redeem family members from slavery (Leviticus 25:47-49), but no price can buy back a life from death. The rich named their estates after themselves (v.11). Wisdom teachers posed riddles and answered them (Proverbs 1:6).",
+  "timelineImmediate": "Psalm 50 summons the earth to court as God judges His people.",
+  "timelineBible": "Jesus asked, “What can a man give in exchange for his soul?” (Mark 8:37), and told the parable of the rich fool (Luke 12:16-21). He came “to give His life as a ransom for many” (Mark 10:45), the ransom no man could pay. The words “take me” in v.15 recall Enoch: “God had taken him away” (Genesis 5:24).",
+  "translation": [
+   {
+    "english": "riddle",
+    "greek": "חִידָה (chidah)",
+    "verseRef": "v.4",
+    "meaning": "Riddle, puzzle, hard question.",
+    "gloss": "Riddle",
+    "strongs": "H2420",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "redeem",
+    "greek": "פָּדָה (padah)",
+    "verseRef": "v.7",
+    "meaning": "To ransom, redeem by payment.",
+    "gloss": "Ransom",
+    "strongs": "H6299",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "ransom",
+    "greek": "כֹּפֶר (kopher)",
+    "verseRef": "v.7",
+    "meaning": "Ransom price, payment to cover a life.",
+    "gloss": "Price of a life",
+    "strongs": "H3724",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Mark 8:36-37",
+    "note": "What can a man give in exchange for his soul?"
+   },
+   {
+    "ref": "Luke 12:16-21",
+    "note": "The rich fool."
+   },
+   {
+    "ref": "1 Timothy 6:7",
+    "note": "We brought nothing into the world."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Ecclesiastes 5:15",
+    "note": "He takes nothing from his labor."
+   },
+   {
+    "ref": "Job 1:21",
+    "note": "Naked I will depart."
+   },
+   {
+    "ref": "Genesis 5:24",
+    "note": "God took Enoch away."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Wealth cannot ransom anyone from death; rich and poor alike die like beasts, but God will redeem the psalmist from Sheol and take him to Himself.",
+   "settingLine": "Rich men’s tombs and the grave.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Wisdom psalms",
+     "t": "Teaching in song."
+    },
+    {
+     "h": "Ransom law",
+     "t": "A price for a life."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Estates named for owners",
+     "t": "A bid for lasting fame."
+    },
+    {
+     "h": "Riddles",
+     "t": "Wisdom puzzles."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Royal tombs",
+     "t": "Rock-cut tombs of Jerusalem’s rich in Silwan, about 800-600 BC."
+    },
+    {
+     "h": "Shebna’s tomb",
+     "t": "An inscription on a tomb for a royal steward, perhaps the Shebna of Isaiah 22:15-16."
+    }
+   ],
+   "discussion": "“When he dies, he will carry nothing away” (v.17). What am I counting on that I cannot take with me?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Wisdom psalm",
+   "audience": "All the inhabitants of the world",
+   "refNotes": {
+    "Ecclesiastes 5:15": "Nothing carried away",
+    "Job 1:21": "Naked we go",
+    "Genesis 5:24": "Taken by God"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The rich",
+     "d": "Trust in wealth"
+    },
+    {
+     "n": "All peoples",
+     "d": "Called to listen"
+    },
+    {
+     "n": "God",
+     "d": "Redeems from Sheol"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Hear this"
+    },
+    {
+     "when": "v.5-12",
+     "label": "No ransom"
+    },
+    {
+     "when": "v.13-20",
+     "label": "God will redeem me"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hear this, all you peoples; listen, all inhabitants of the world, They trust in their wealth and boast in their great riches. No man can possibly redeem his brother or pay his ransom to God. But a man, despite his wealth, cannot endure; he is like the beasts that perish. But God will redeem my life from Sheol, for He will surely take me to Himself. Selah Do not be amazed when a man grows rich, when the splendor of his house increases. For when he dies, he will carry nothing away; his abundance will not follow him down. A man who has riches without understanding is like the beasts that perish.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

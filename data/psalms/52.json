@@ -1,0 +1,220 @@
+{
+ "book": "Psalms",
+ "chapter": 52,
+ "title": "Like an Olive Tree in the House of God",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Maskil of David. After Doeg the Edomite went to Saul and told him, \"David has gone to the house of Ahimelech.\"",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Why do you boast of evil, O mighty man? The loving devotion of God endures all day long."
+  },
+  {
+   "num": 2,
+   "text": "Your tongue devises destruction like a sharpened razor, O worker of deceit."
+  },
+  {
+   "num": 3,
+   "text": "You love evil more than good, falsehood more than speaking truth. Selah"
+  },
+  {
+   "num": 4,
+   "text": "You love every word that devours, O deceitful tongue."
+  },
+  {
+   "num": 5,
+   "text": "Surely God will bring you down to everlasting ruin; He will snatch you up and tear you away from your tent; He will uproot you from the land of the living. Selah"
+  },
+  {
+   "num": 6,
+   "text": "The righteous will see and fear; they will mock the evildoer, saying,"
+  },
+  {
+   "num": 7,
+   "text": "\"Look at the man who did not make God his refuge, but trusted in the abundance of his wealth and strengthened himself by destruction.\""
+  },
+  {
+   "num": 8,
+   "text": "But I am like an olive tree flourishing in the house of God; I trust in the loving devotion of God forever and ever."
+  },
+  {
+   "num": 9,
+   "text": "I will praise You forever, because You have done it. I will wait on Your name— for it is good— in the presence of Your saints."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "NOB, THE CITY OF PRIESTS",
+  "setting": "The title sets it after “Doeg the Edomite went to Saul and told him, David has gone to the house of Ahimelech.” David, fleeing Saul, had received bread and Goliath’s sword from Ahimelech the priest at Nob; Doeg, Saul’s chief herdsman, saw it, reported it, and at Saul’s order killed eighty-five priests and the people of Nob (1 Samuel 21:1-9; 22:9-19). “Why do you boast of evil, O mighty man?” (v.1). “Your tongue devises destruction like a sharpened razor” (v.2). God will uproot him “from the land of the living” (v.5). The righteous will say, “Look at the man who did not make God his refuge, but trusted in the abundance of his wealth” (v.7). “But I am like an olive tree flourishing in the house of God; I trust in the loving devotion of God forever and ever” (v.8).",
+  "custom": "Olive trees live for centuries and stay green all year, a picture of lasting life (Jeremiah 11:16). Trees grew in the courts of some ancient temples. Informers who reported to kings were feared, and a single report could destroy a town.",
+  "timelineImmediate": "Psalm 53 is a second version of Psalm 14: “The fool says in his heart, There is no God.”",
+  "timelineBible": "Only Abiathar escaped the massacre at Nob, and David took responsibility: “I myself am responsible for the lives of everyone in your father’s house” (1 Samuel 22:22). James warns that the tongue “is a fire” (James 3:6). Paul pictures believers grafted into God’s olive tree (Romans 11:17).",
+  "translation": [
+   {
+    "english": "razor",
+    "greek": "תַּעַר (ta’ar)",
+    "verseRef": "v.2",
+    "meaning": "A razor, a sharp knife.",
+    "gloss": "Razor",
+    "strongs": "H8593",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "tongue",
+    "greek": "לָשׁוֹן (lashon)",
+    "verseRef": "v.4",
+    "meaning": "Tongue, speech, language.",
+    "gloss": "Tongue",
+    "strongs": "H3956",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "olive tree",
+    "greek": "זַיִת (zayit)",
+    "verseRef": "v.8",
+    "meaning": "Olive tree, olive; a picture of fruitfulness and long life.",
+    "gloss": "Olive",
+    "strongs": "H2132",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "James 3:5-6",
+    "note": "The tongue is a fire."
+   },
+   {
+    "ref": "Luke 12:19-21",
+    "note": "The rich man who stored up treasure."
+   },
+   {
+    "ref": "Romans 11:17",
+    "note": "Grafted into the olive tree."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 22:9-19",
+    "note": "Doeg reports to Saul and kills the priests of Nob."
+   },
+   {
+    "ref": "Jeremiah 11:16",
+    "note": "A green olive tree, beautiful in fruit."
+   },
+   {
+    "ref": "Proverbs 11:28",
+    "note": "He who trusts in his riches will fall."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.795,
+   "lng": 35.242,
+   "zoom": 6,
+   "placeName": "Nob, the city of priests (location uncertain)"
+  },
+  "overview": {
+   "summary": "Against Doeg, the boasting informer who caused the massacre at Nob, David declares that God will uproot the deceitful, while he flourishes like an olive tree in God’s house.",
+   "settingLine": "The massacre at the city of priests.",
+   "placeName": "Nob, the city of priests (location uncertain)",
+   "history": [
+    {
+     "h": "Doeg the Edomite",
+     "t": "Saul’s herdsman and informer."
+    },
+    {
+     "h": "Nob",
+     "t": "A town of priests near Jerusalem."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Olive trees",
+     "t": "Green for centuries."
+    },
+    {
+     "h": "Informers",
+     "t": "Feared at royal courts."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ancient olive trees",
+     "t": "Some olive trees in Israel are over a thousand years old."
+    },
+    {
+     "h": "Nob",
+     "t": "Its site is uncertain; Isaiah 10:32 places it within sight of Jerusalem."
+    }
+   ],
+   "discussion": "Doeg “did not make God his refuge, but trusted in the abundance of his wealth” (v.7). What do I make my refuge?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Judgment on a boaster, and trust",
+   "audience": "The mighty man, Doeg",
+   "refNotes": {
+    "1 Samuel 22:9-19": "Doeg’s crime",
+    "Jeremiah 11:16": "The olive tree",
+    "Proverbs 11:28": "Trusting riches"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Doeg the Edomite",
+     "d": "Boaster and informer"
+    },
+    {
+     "n": "Ahimelech",
+     "d": "The priest he betrayed"
+    },
+    {
+     "n": "David",
+     "d": "Like an olive tree"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Why do you boast?"
+    },
+    {
+     "when": "v.5-7",
+     "label": "Uprooted"
+    },
+    {
+     "when": "v.8-9",
+     "label": "An olive tree in God’s house"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Nob, the city of priests (location uncertain)",
+    "lat": 31.795,
+    "lng": 35.242,
+    "verses": [],
+    "slug": "nob"
+   },
+   {
+    "name": "Gibeah of Saul (Tell el-Ful)",
+    "lat": 31.822,
+    "lng": 35.231,
+    "verses": [],
+    "slug": "gibeah"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Why do you boast of evil, O mighty man? The loving devotion of God endures all day long. Your tongue devises destruction like a sharpened razor, O worker of deceit. Surely God will bring you down to everlasting ruin; He will snatch you up and tear you away from your tent; He will uproot you from the land of the living. Selah Look at the man who did not make God his refuge, but trusted in the abundance of his wealth and strengthened himself by destruction. But I am like an olive tree flourishing in the house of God; I trust in the loving devotion of God forever and ever. I will praise You forever, because You have done it. I will wait on Your name— for it is good— in the presence of Your saints.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

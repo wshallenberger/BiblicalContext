@@ -2816,6 +2816,68 @@
   ],
   "psalms:40": [
    "ps_scroll"
+  ],
+  "psalms:41": [
+   "ps_harp"
+  ],
+  "psalms:42": [
+   "ps_banias",
+   "ps_hermon"
+  ],
+  "psalms:43": [
+   "ps_templemount"
+  ],
+  "psalms:44": [
+   "ps_scroll"
+  ],
+  "psalms:45": [
+   "ps_harp"
+  ],
+  "psalms:46": [
+   "ps_tunnel"
+  ],
+  "psalms:47": [
+   "ps_templemount"
+  ],
+  "psalms:48": [
+   "ps_templemount"
+  ],
+  "psalms:49": [
+   "ps_scroll"
+  ],
+  "psalms:50": [
+   "ps_scroll"
+  ],
+  "psalms:51": [
+   "ps_nathan",
+   "ps_cityofdavid"
+  ],
+  "psalms:52": [
+   "ps_harp"
+  ],
+  "psalms:53": [
+   "ps_scroll"
+  ],
+  "psalms:54": [
+   "ps_judea"
+  ],
+  "psalms:55": [
+   "ps_cityofdavid"
+  ],
+  "psalms:56": [
+   "ps_gath"
+  ],
+  "psalms:57": [
+   "ps_engedi"
+  ],
+  "psalms:58": [
+   "ps_harp"
+  ],
+  "psalms:59": [
+   "ps_cityofdavid"
+  ],
+  "psalms:60": [
+   "ps_masada"
   ]
  },
  "ac_ascmat": {
@@ -7279,5 +7341,37 @@
   "n": "Tell es-Safi (Gath)",
   "d": "Tell es-Safi (Tel Tzafit), widely identified as Gath of the Philistines, where David pretended to be insane before King Achish (1 Samuel 21:10-15), the setting the title gives Psalm 34.",
   "a": "Wikimedia Commons"
+ },
+ "ps_nathan": {
+  "k": "art",
+  "f": "Nathan_and_David.jpg",
+  "c": "Nathan and David, by Henri de Triqueti (1837). The prophet confronted the king over Bathsheba and Uriah: “You are that man!” (2 Samuel 12:7). Psalm 51 is titled for that moment.",
+  "n": "Triqueti, Nathan and David",
+  "d": "Nathan and David, by Henri de Triqueti (1837). The prophet confronted the king over Bathsheba and Uriah: “You are that man!” (2 Samuel 12:7). Psalm 51 is titled for that moment.",
+  "a": "Henri de Triqueti (1837), public domain / Wikimedia Commons"
+ },
+ "ps_banias": {
+  "k": "now",
+  "f": "Banias_Spring_Cliff_Pan's_Cave.JPG",
+  "c": "The Banias spring at the foot of Mount Hermon, one of the sources of the Jordan. “I remember You from the land of Jordan and the peaks of Hermon… Deep calls to deep in the roar of Your waterfalls” (Psalm 42:6-7).",
+  "n": "The Banias spring",
+  "d": "The Banias spring at the foot of Mount Hermon, one of the sources of the Jordan. “I remember You from the land of Jordan and the peaks of Hermon… Deep calls to deep in the roar of Your waterfalls” (Psalm 42:6-7).",
+  "a": "Wikimedia Commons"
+ },
+ "ps_tunnel": {
+  "k": "dig",
+  "f": "Hezekiah's_Tunnel_enlightened.jpg",
+  "c": "Water from the Gihon spring running through Hezekiah’s Tunnel under the City of David. Jerusalem had no great river, yet “there is a river whose streams delight the city of God” (Psalm 46:4).",
+  "n": "Hezekiah’s Tunnel",
+  "d": "Water from the Gihon spring running through Hezekiah’s Tunnel under the City of David. Jerusalem had no great river, yet “there is a river whose streams delight the city of God” (Psalm 46:4).",
+  "a": "Wikimedia Commons"
+ },
+ "ps_engedi": {
+  "k": "now",
+  "f": "PikiWiki_Israel_4281_Waterfall_in_Ein_Gedi.jpg",
+  "c": "A waterfall at En Gedi above the Dead Sea, where David hid from Saul among the caves and “the Rocks of the Wild Goats” (1 Samuel 24:2-3).",
+  "n": "En Gedi waterfall",
+  "d": "A waterfall at En Gedi above the Dead Sea, where David hid from Saul among the caves and “the Rocks of the Wild Goats” (1 Samuel 24:2-3).",
+  "a": "PikiWiki Israel / Wikimedia Commons"
  }
 }

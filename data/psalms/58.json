@@ -1,0 +1,221 @@
+{
+ "book": "Psalms",
+ "chapter": 58,
+ "title": "Surely There Is a God Who Judges",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"Do Not Destroy.\" A Miktam of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Do you indeed speak justly, O rulers? Do you judge uprightly, O sons of men?"
+  },
+  {
+   "num": 2,
+   "text": "No, in your hearts you devise injustice; with your hands you mete out violence on the earth."
+  },
+  {
+   "num": 3,
+   "text": "The wicked are estranged from the womb; the liars go astray from birth."
+  },
+  {
+   "num": 4,
+   "text": "Their venom is like the venom of a snake, like a cobra that shuts its ears,"
+  },
+  {
+   "num": 5,
+   "text": "refusing to hear the tune of the charmer who skillfully weaves his spell."
+  },
+  {
+   "num": 6,
+   "text": "O God, shatter their teeth in their mouths; O LORD, tear out the fangs of the lions."
+  },
+  {
+   "num": 7,
+   "text": "May they vanish like water that runs off; when they draw the bow, may their arrows be blunted."
+  },
+  {
+   "num": 8,
+   "text": "Like a slug that dissolves in its slime, like a woman's stillborn child, may they never see the sun."
+  },
+  {
+   "num": 9,
+   "text": "Before your pots can feel the burning thorns— whether green or dry— He will sweep them away."
+  },
+  {
+   "num": 10,
+   "text": "The righteous will rejoice when they see they are avenged; they will wash their feet in the blood of the wicked."
+  },
+  {
+   "num": 11,
+   "text": "Then men will say, \"There is surely a reward for the righteous! There is surely a God who judges the earth!\""
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Do you indeed speak justly, O rulers? Do you judge uprightly, O sons of men? No, in your hearts you devise injustice” (vv.1-2). The wicked go astray from birth (v.3). “Their venom is like the venom of a snake, like a cobra that shuts its ears, refusing to hear the tune of the charmer” (vv.4-5). David prays in vivid images: break the lions’ teeth, let them vanish like water that runs off, like a slug that melts, swept away before a cooking pot can feel the fire (vv.6-9). The end: “Then men will say, There is surely a reward for the righteous! There is surely a God who judges the earth!” (v.11).",
+  "custom": "Snake charmers in the ancient Near East claimed to control snakes with music and spells; a snake that would not respond was the most dangerous (Ecclesiastes 10:11; Jeremiah 8:17). Thorns were burned as quick fuel under cooking pots (Ecclesiastes 7:6). Judges sat in the city gate, and a corrupt judge could ruin the poor.",
+  "timelineImmediate": "Psalm 59 is titled for the night Saul’s men watched David’s house.",
+  "timelineBible": "The word translated “rulers” (v.1) may also be read “gods,” as in Psalm 82, where God judges the unjust judges. The souls under the altar ask, “How long, O Lord… until You avenge our blood?” (Revelation 6:10). Paul says, “Do not avenge yourselves… for it is written: Vengeance is Mine” (Romans 12:19). The psalm’s harsh images are prayers handing judgment to God.",
+  "translation": [
+   {
+    "english": "cobra",
+    "greek": "פֶּתֶן (peten)",
+    "verseRef": "v.4",
+    "meaning": "Cobra, a poisonous snake.",
+    "gloss": "Cobra",
+    "strongs": "H6620",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "charmer",
+    "greek": "לָחַשׁ (lachash)",
+    "verseRef": "v.5",
+    "meaning": "To whisper, charm; a snake charmer’s spell.",
+    "gloss": "Whisper a spell",
+    "strongs": "H3907",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "judges",
+    "greek": "שָׁפַט (shafat)",
+    "verseRef": "v.11",
+    "meaning": "To judge, govern, put right.",
+    "gloss": "Judge",
+    "strongs": "H8199",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 6:10",
+    "note": "How long, O Lord, until You avenge our blood?"
+   },
+   {
+    "ref": "Romans 12:19",
+    "note": "Vengeance is Mine; I will repay."
+   },
+   {
+    "ref": "Luke 18:7-8",
+    "note": "Will not God bring about justice for His elect?"
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 82:1-4",
+    "note": "God judges among the gods."
+   },
+   {
+    "ref": "Ecclesiastes 10:11",
+    "note": "If the snake bites before it is charmed."
+   },
+   {
+    "ref": "Jeremiah 8:17",
+    "note": "Vipers that cannot be charmed."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David accuses corrupt rulers who are deaf to justice like a cobra to the charmer, asks God to break their power, and looks to the day all will see there is a God who judges.",
+   "settingLine": "Corrupt judges in the gate.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Corrupt courts",
+     "t": "The prophets condemned them."
+    },
+    {
+     "h": "Imprecatory psalms",
+     "t": "Prayers for God’s judgment."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Snake charming",
+     "t": "Music and spells."
+    },
+    {
+     "h": "Thorn fires",
+     "t": "Quick heat under the pot."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gate courts",
+     "t": "Benches in Iron Age gates where judges sat."
+    },
+    {
+     "h": "Cobras",
+     "t": "Egyptian art shows the cobra as a royal symbol (the uraeus)."
+    }
+   ],
+   "discussion": "The psalm ends with confidence that “there is surely a God who judges the earth” (v.11). How does that truth help me face injustice?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Prayer for judgment",
+   "audience": "Unjust rulers",
+   "refNotes": {
+    "Psalm 82:1-4": "Unjust judges judged",
+    "Ecclesiastes 10:11": "Snake charming",
+    "Jeremiah 8:17": "Uncharmable snakes"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Rulers",
+     "d": "Speak unjustly"
+    },
+    {
+     "n": "The wicked",
+     "d": "Like deaf cobras"
+    },
+    {
+     "n": "The righteous",
+     "d": "Will see justice"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Unjust rulers"
+    },
+    {
+     "when": "v.6-9",
+     "label": "Break their teeth"
+    },
+    {
+     "when": "v.10-11",
+     "label": "A God who judges"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Do you indeed speak justly, O rulers? Do you judge uprightly, O sons of men? No, in your hearts you devise injustice; with your hands you mete out violence on the earth. The wicked are estranged from the womb; the liars go astray from birth. Their venom is like the venom of a snake, like a cobra that shuts its ears, O God, shatter their teeth in their mouths; O LORD, tear out the fangs of the lions. Then men will say, There is surely a reward for the righteous! There is surely a God who judges the earth!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

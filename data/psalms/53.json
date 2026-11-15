@@ -1,0 +1,201 @@
+{
+ "book": "Psalms",
+ "chapter": 53,
+ "title": "The Fool Says There Is No God",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. According to Mahalath. A Maskil of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The fool says in his heart, \"There is no God.\" They are corrupt; their ways are vile. There is no one who does good."
+  },
+  {
+   "num": 2,
+   "text": "God looks down from heaven upon the sons of men to see if any understand, if any seek God."
+  },
+  {
+   "num": 3,
+   "text": "All have turned away, they have together become corrupt; there is no one who does good, not even one."
+  },
+  {
+   "num": 4,
+   "text": "Will the workers of iniquity never learn? They devour my people like bread; they refuse to call upon God."
+  },
+  {
+   "num": 5,
+   "text": "There they are, overwhelmed with dread, where there was nothing to fear. For God has scattered the bones of those who besieged you. You put them to shame, for God has despised them."
+  },
+  {
+   "num": 6,
+   "text": "Oh, that the salvation of Israel would come from Zion! When God restores His captive people, let Jacob rejoice, let Israel be glad!"
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 are all “of David,” and several titles tie them to events in his life.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Psalm 53 repeats Psalm 14 almost word for word: “The fool says in his heart, There is no God. They are corrupt; their ways are vile. There is no one who does good” (v.1). God looks down and finds that “all have turned away… there is no one who does good, not even one” (v.3). The workers of iniquity devour God’s people “like bread” (v.4). The main change is in v.5: “There they are, overwhelmed with dread, where there was nothing to fear. For God has scattered the bones of those who besieged you.” The psalm ends with the same longing: “Oh, that the salvation of Israel would come from Zion!” (v.6).",
+  "custom": "Book Two of the Psalms prefers the word “God” (Elohim) to “the LORD” (YHWH), and this version uses “God” where Psalm 14 says “the LORD.” Scattering the bones of an enemy left unburied was the final disgrace (Jeremiah 8:1-2). Mahalath in the title may be a tune or mean “sickness.”",
+  "timelineImmediate": "Psalm 54 is titled for the Ziphites, who betrayed David’s hiding place to Saul.",
+  "timelineBible": "Paul quotes these verses in Romans 3:10-12. The besieging army whose bones are scattered (v.5) may point to the Assyrians who died outside Jerusalem in 701 BC (2 Kings 19:35), a sign that the psalm was adapted for a new situation.",
+  "translation": [
+   {
+    "english": "fool",
+    "greek": "נָבָל (nabal)",
+    "verseRef": "v.1",
+    "meaning": "A morally senseless person who lives as if God does not matter.",
+    "gloss": "Senseless",
+    "strongs": "H5036",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "God",
+    "greek": "אֱלֹהִים (elohim)",
+    "verseRef": "v.1",
+    "meaning": "God; Book Two uses this name far more than YHWH.",
+    "gloss": "God",
+    "strongs": "H430",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "dread",
+    "greek": "פַּחַד (pachad)",
+    "verseRef": "v.5",
+    "meaning": "Dread, terror.",
+    "gloss": "Terror",
+    "strongs": "H6343",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 3:10-12",
+    "note": "There is no one righteous, not even one."
+   },
+   {
+    "ref": "Romans 1:21-22",
+    "note": "Claiming to be wise, they became fools."
+   },
+   {
+    "ref": "Luke 12:20",
+    "note": "You fool! This very night your life will be required of you."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 14:1-7",
+    "note": "The first version of this psalm."
+   },
+   {
+    "ref": "2 Kings 19:35",
+    "note": "The Assyrian army struck down outside Jerusalem."
+   },
+   {
+    "ref": "Jeremiah 8:1-2",
+    "note": "Bones scattered and unburied."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A second version of Psalm 14: the fool lives as if there is no God and none does good, but God scatters the besiegers and His people long for salvation from Zion.",
+   "settingLine": "A besieging army turned to scattered bones.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Psalms 14 and 53",
+     "t": "One psalm in two books."
+    },
+    {
+     "h": "Elohistic psalter",
+     "t": "Book Two prefers “God.”"
+    }
+   ],
+   "customs": [
+    {
+     "h": "Unburied bones",
+     "t": "The worst disgrace."
+    },
+    {
+     "h": "Mahalath",
+     "t": "Perhaps a tune."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Sennacherib’s prism",
+     "t": "The Assyrian king boasts he shut Hezekiah up ‘like a bird in a cage’ but does not claim to take Jerusalem."
+    },
+    {
+     "h": "Lachish",
+     "t": "The Judean city Sennacherib did capture, 701 BC."
+    }
+   ],
+   "discussion": "Why would a psalm be repeated with small changes? What does it tell me that God’s word was prayed again in new situations?",
+   "book": "The book of Psalms · 150 psalms (1-60 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Wisdom lament",
+   "audience": "All the sons of men",
+   "refNotes": {
+    "Psalm 14:1-7": "The twin psalm",
+    "2 Kings 19:35": "A besieging army destroyed",
+    "Jeremiah 8:1-2": "Scattered bones"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The fool",
+     "d": "Denies God"
+    },
+    {
+     "n": "Besiegers",
+     "d": "Scattered"
+    },
+    {
+     "n": "Israel",
+     "d": "Longs for salvation"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "No one does good"
+    },
+    {
+     "when": "v.4-5",
+     "label": "Dread where there was nothing to fear"
+    },
+    {
+     "when": "v.6",
+     "label": "Salvation from Zion"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The fool says in his heart, There is no God. They are corrupt; their ways are vile. There is no one who does good. God looks down from heaven upon the sons of men to see if any understand, if any seek God. All have turned away, they have together become corrupt; there is no one who does good, not even one. There they are, overwhelmed with dread, where there was nothing to fear. For God has scattered the bones of those who besieged you. You put them to shame, for God has despised them. Oh, that the salvation of Israel would come from Zion! When God restores His captive people, let Jacob rejoice, let Israel be glad!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}
