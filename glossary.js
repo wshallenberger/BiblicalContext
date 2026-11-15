@@ -13,7 +13,7 @@
   var DATA = null, loadP = null, BY = {}, SH = {}, LIST = {}, SORT = {};
   var st = { view: 'home', shelf: '', grp: '', q: '', f: '', id: '' };   // current page
   var stack = [];                                                       // pages to go back to
-  var SPINE = { greek: 'Greek', names: 'Names', archaeology: 'Archaeology' };
+  var SPINE = { greek: 'Words', names: 'Names', archaeology: 'Archaeology' };
 
   // ---------- data ----------
   function fold(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
@@ -111,7 +111,7 @@
   var TRY = ['sin', 'passover', 'pharisees', 'the-sower', 'agape', 'love'];
   function renderHome() {
     var total = DATA.e.length;
-    var h = '<p class="cmx-kick">Study</p><h2 class="cmx-h lead">Glossary</h2><p class="gl-sub">' + total.toLocaleString() + ' entries about the people, places, teachings and words of the Gospels, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, the Thessalonian letters, the Timothy letters, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude and Revelation. Pick a book from the shelf, search, or browse A–Z.</p>' +
+    var h = '<p class="cmx-kick">Study</p><h2 class="cmx-h lead">Glossary</h2><p class="gl-sub">' + total.toLocaleString() + ' entries about the people, places, teachings and words of ' + esc(typeof booksHeld === 'function' ? booksHeld() : 'the New Testament') + '. Pick a book from the shelf, search, or browse A–Z.</p>' +
       '<div class="gl-bar"><label class="gl-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg><input id="glQ" type="search" placeholder="Search the glossary" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Search the glossary" value="' + esc(st.q) + '"></label>' +
       '<button type="button" class="gl-az" data-gl="az">A–Z</button></div><div id="glBody"></div>';
     $('glMain').innerHTML = h;
@@ -290,7 +290,7 @@
   function tabHtml() {
     var ch = chapterNow(), mine = chapterIndex()[ch.b + ':' + ch.c] || [], by = {};
     mine.forEach(function (e) { (by[e.s] || (by[e.s] = [])).push(e); });
-    var shelves = DATA.s.filter(function (s) { return by[s.k]; }).sort(function (a, b) { return (a.k === 'greek') - (b.k === 'greek'); });      // the many Greek words go last
+    var shelves = DATA.s.filter(function (s) { return by[s.k]; }).sort(function (a, b) { return (a.k === 'greek') - (b.k === 'greek'); });      // the many Hebrew and Greek words go last
     var h = '<p class="panel-eyebrow">GLOSSARY</p>';
     if (!shelves.length) return h + '<div class="tpl-card"><p class="panel-text dim" style="margin:0;">Nothing in the Glossary is tied to this chapter yet.</p></div><button type="button" class="dg-open" data-dg="home">Open the Glossary</button>';
     var bits = shelves.map(function (s) { return by[s.k].length + ' ' + s.n.toLowerCase(); });

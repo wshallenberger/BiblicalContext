@@ -1,0 +1,300 @@
+{
+ "book": "Proverbs",
+ "chapter": 20,
+ "title": "Wine Is a Mocker",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Wine is a mocker, strong drink is a brawler, and whoever is led astray by them is not wise."
+  },
+  {
+   "num": 2,
+   "text": "The terror of a king is like the roar of a lion; whoever provokes him forfeits his own life."
+  },
+  {
+   "num": 3,
+   "text": "It is honorable for a man to resolve a dispute, but any fool will quarrel."
+  },
+  {
+   "num": 4,
+   "text": "The slacker does not plow in season; at harvest time he looks, but nothing is there."
+  },
+  {
+   "num": 5,
+   "text": "The intentions of a man's heart are deep waters, but a man of understanding draws them out."
+  },
+  {
+   "num": 6,
+   "text": "Many a man proclaims his loving devotion, but who can find a trustworthy man?"
+  },
+  {
+   "num": 7,
+   "text": "The righteous man walks with integrity; blessed are his children after him."
+  },
+  {
+   "num": 8,
+   "text": "A king who sits on a throne to judge sifts out all evil with his eyes."
+  },
+  {
+   "num": 9,
+   "text": "Who can say, \"I have kept my heart pure; I am cleansed from my sin\"?"
+  },
+  {
+   "num": 10,
+   "text": "Differing weights and unequal measures— both are detestable to the LORD."
+  },
+  {
+   "num": 11,
+   "text": "Even a young man is known by his actions— whether his conduct is pure and upright."
+  },
+  {
+   "num": 12,
+   "text": "Ears that hear and eyes that see— the LORD has made them both."
+  },
+  {
+   "num": 13,
+   "text": "Do not love sleep, or you will grow poor; open your eyes, and you will have plenty of food."
+  },
+  {
+   "num": 14,
+   "text": "\"Worthless, worthless!\" says the buyer, but on the way out, he gloats."
+  },
+  {
+   "num": 15,
+   "text": "There is an abundance of gold and rubies, but lips of knowledge are a rare treasure."
+  },
+  {
+   "num": 16,
+   "text": "Take the garment of the one who posts security for a stranger; get collateral if it is for a foreigner."
+  },
+  {
+   "num": 17,
+   "text": "Food gained by fraud is sweet to a man, but later his mouth is full of gravel."
+  },
+  {
+   "num": 18,
+   "text": "Set plans by consultation, and wage war under sound guidance."
+  },
+  {
+   "num": 19,
+   "text": "He who reveals secrets is a constant gossip; avoid the one who babbles with his lips."
+  },
+  {
+   "num": 20,
+   "text": "Whoever curses his father or mother, his lamp will be extinguished in deepest darkness."
+  },
+  {
+   "num": 21,
+   "text": "An inheritance gained quickly will not be blessed in the end."
+  },
+  {
+   "num": 22,
+   "text": "Do not say, \"I will avenge this evil!\" Wait on the LORD, and He will save you."
+  },
+  {
+   "num": 23,
+   "text": "Unequal weights are detestable to the LORD, and dishonest scales are no good."
+  },
+  {
+   "num": 24,
+   "text": "A man's steps are from the LORD, so how can anyone understand his own way?"
+  },
+  {
+   "num": 25,
+   "text": "It is a trap for a man to dedicate something rashly, only later to reconsider his vows."
+  },
+  {
+   "num": 26,
+   "text": "A wise king separates out the wicked and drives the threshing wheel over them."
+  },
+  {
+   "num": 27,
+   "text": "The spirit of a man is the lamp of the LORD, searching out his inmost being."
+  },
+  {
+   "num": 28,
+   "text": "Loving devotion and faithfulness preserve a king; by these he maintains his throne."
+  },
+  {
+   "num": 29,
+   "text": "The glory of young men is their strength, and gray hair is the splendor of the old."
+  },
+  {
+   "num": 30,
+   "text": "Lashes and wounds scour evil, and beatings cleanse the inmost parts."
+  }
+ ],
+ "context": {
+  "author": "Solomon, named in the heading “The proverbs of Solomon” (10:1). The collection runs from 10:1 to 22:16, about 375 sayings.",
+  "genre": "Wisdom sayings: two-line proverbs, most of them contrasts",
+  "audience": "Anyone learning to live wisely, first the young men of Israel’s court and households",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "“Wine is a mocker, strong drink is a brawler, and whoever is led astray by them is not wise” (v.1). Counsel in a man’s heart is like deep waters, and a man of understanding draws it out (v.5). “Who can say, ‘I have kept my heart pure; I am cleansed from my sin’?” (v.9). Even a child is known by his actions (v.11). Differing weights and differing measures are both detestable to the LORD (v.10, and again v.23). Do not say, “I will avenge this evil!” Wait on the LORD, and He will save you (v.22). “The spirit of a man is the lamp of the LORD” (v.27). The glory of young men is their strength, and the splendor of the old is gray hair (v.29).",
+  "custom": "Wine was part of daily life and of feasts in Israel, but drunkenness was a disgrace (Genesis 9:20-23; Isaiah 5:11-12). A king “sifts out” the wicked by winnowing them like grain and driving the threshing wheel over them (v.26). The lamp (vv.20, 27) was a small clay oil lamp, kept burning through the night in a home.",
+  "timelineImmediate": "Chapter 21 says the king’s heart is in the LORD’s hand and righteousness pleases him more than sacrifice.",
+  "timelineBible": "Paul quotes the spirit of v.22 when he says, “Do not avenge yourselves, beloved, but leave room for God’s wrath” (Romans 12:19). 1 John 1:8 answers the question of v.9: “If we say we have no sin, we deceive ourselves” (1 John 1:8).",
+  "translation": [
+   {
+    "english": "mocker",
+    "greek": "לִיץ (lits)",
+    "verseRef": "v.1",
+    "meaning": "A scoffer. Wine makes a man act like one.",
+    "gloss": "Scoffer",
+    "strongs": "H3887",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "measure",
+    "greek": "אֵיפָה (efah)",
+    "verseRef": "v.10",
+    "meaning": "The ephah, a dry measure for grain, about 20 liters.",
+    "gloss": "Grain measure",
+    "strongs": "H374",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "lamp",
+    "greek": "נֵר (ner)",
+    "verseRef": "v.27",
+    "meaning": "An oil lamp. The human spirit is a lamp God uses to search the inner self.",
+    "gloss": "Lamp",
+    "strongs": "H5216",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 12:17-19",
+    "note": "Do not repay evil for evil; leave room for God."
+   },
+   {
+    "ref": "1 John 1:8-9",
+    "note": "If we say we have no sin, we deceive ourselves."
+   },
+   {
+    "ref": "Ephesians 5:18",
+    "note": "Do not get drunk on wine."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 9:20-23",
+    "note": "Noah’s drunkenness."
+   },
+   {
+    "ref": "Leviticus 19:35-36",
+    "note": "Honest scales and measures."
+   },
+   {
+    "ref": "Psalm 139:23-24",
+    "note": "Search me, O God, and know my heart."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Wine leads astray, no one can claim a pure heart, God hates false measures, and the wise wait for the LORD instead of taking revenge.",
+   "settingLine": "Sayings about wine, honesty and waiting on God.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Wine in Israel",
+     "t": "A gift, and a danger."
+    },
+    {
+     "h": "Royal justice",
+     "t": "The king sifts out the wicked."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Oil lamps",
+     "t": "Small clay lamps lit every home."
+    },
+    {
+     "h": "The ephah",
+     "t": "A standard measure for grain."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Wine presses",
+     "t": "Rock-cut presses and storage jars show how much wine Judah made."
+    },
+    {
+     "h": "Oil lamps",
+     "t": "Iron Age clay lamps are among the commonest finds in Israel."
+    }
+   ],
+   "discussion": "“Do not say, ‘I will avenge this evil!’ Wait on the LORD” (v.22). What wrong am I tempted to repay, and what would waiting on the LORD look like?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (10:1)",
+   "genre": "Proverbs (two-line sayings)",
+   "audience": "Everyone, starting with the young",
+   "refNotes": {
+    "Genesis 9:20-23": "Noah drunk",
+    "Leviticus 19:35-36": "Honest measures",
+    "Psalm 139:23-24": "Search me"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The drunkard",
+     "d": "Led astray"
+    },
+    {
+     "n": "The king",
+     "d": "Sifts out the wicked"
+    },
+    {
+     "n": "The young",
+     "d": "Glory in strength"
+    },
+    {
+     "n": "The old",
+     "d": "Splendor of gray hair"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-11",
+     "label": "Wine and the heart"
+    },
+    {
+     "when": "v.12-21",
+     "label": "Work and honesty"
+    },
+    {
+     "when": "v.22-30",
+     "label": "Wait on the LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Wine is a mocker, strong drink is a brawler, and whoever is led astray by them is not wise. The intentions of a man's heart are deep waters, but a man of understanding draws them out. The righteous man walks with integrity; blessed are his children after him. Who can say, I have kept my heart pure; I am cleansed from my sin? Even a young man is known by his actions— whether his conduct is pure and upright. Do not say, I will avenge this evil! Wait on the LORD, and He will save you. A man's steps are from the LORD, so how can anyone understand his own way? The spirit of a man is the lamp of the LORD, searching out his inmost being. The glory of young men is their strength, and gray hair is the splendor of the old.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+   "caption": "Netherlandish Proverbs, painted by Pieter Bruegel the Elder in 1559 (Gemäldegalerie, Berlin). More than a hundred Dutch sayings are acted out at once in one crowded village, a reminder that every people keeps its wisdom in short, memorable lines.",
+   "credit": "Pieter Bruegel the Elder (1559), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

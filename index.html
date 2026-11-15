@@ -13,11 +13,11 @@
 <meta name="application-name" content="Daily Butter">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>Daily Butter</title>
-<meta name="description" content="Read the New Testament and dive into the setting, history, original words and commentary behind every verse.">
+<meta name="description" content="Read the Bible and dive into the setting, history, original words and commentary behind every verse.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Daily Butter">
 <meta property="og:title" content="Daily Butter">
-<meta property="og:description" content="Read the New Testament and dive into the setting, history, original words and commentary behind every verse.">
+<meta property="og:description" content="Read the Bible and dive into the setting, history, original words and commentary behind every verse.">
 <meta property="og:url" content="https://dailybutter.netlify.app/">
 <meta property="og:image" content="https://dailybutter.netlify.app/icons/og-logo.png?v=4">
 <meta property="og:image:width" content="1200">
@@ -25,10 +25,10 @@
 <meta property="og:image:alt" content="Daily Butter">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Daily Butter">
-<meta name="twitter:description" content="Read the New Testament and dive into the setting, history, original words and commentary behind every verse.">
+<meta name="twitter:description" content="Read the Bible and dive into the setting, history, original words and commentary behind every verse.">
 <meta name="twitter:image" content="https://dailybutter.netlify.app/icons/og-logo.png?v=4">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+Hebrew:wght@400;500&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <meta name="color-scheme" content="light dark">
@@ -349,6 +349,8 @@
   .nav-find, .dh-find{ width:100%; margin:6px 0 10px; justify-content:space-between; font-size:15px; padding:13px 14px; border-radius:12px; }
   .nav-find svg, .dh-find svg{ width:14px; height:14px; }
   .dh-groups{ display:flex; flex-direction:column; gap:10px; margin-top:10px; }
+  .dh-tst{ margin:8px 2px -2px; font:600 10.5px 'IBM Plex Mono',monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--parchment-dim); }
+  .dh-tst:first-child{ margin-top:0; }
   .dh-g{ border:1px solid var(--line); border-left:5px solid var(--c); border-radius:12px; background:var(--ink-raised); overflow:hidden; }
   .dh-g > summary{ display:flex; align-items:baseline; gap:8px; padding:13px 14px; cursor:pointer; list-style:none; color:var(--parchment); }
   .dh-g > summary::-webkit-details-marker{ display:none; }
@@ -418,6 +420,18 @@
   .wbw-row.big .wbw-chip{ padding:4px 8px 4px; min-width:42px; }
   .wbw-row.big .wbw-chip .g{ font-size:15.5px; }
   .wbw-row.big .wbw-chip .e{ font-size:10px; }
+  /* Old Testament: Hebrew words read right to left, in a font with vowel points */
+  .he, [lang="he"], .wbw-row.heb .g{ font-family:'Noto Serif Hebrew','SBL Hebrew','Ezra SIL','Times New Roman',serif; }
+  .word-greek, .ov-greek{ font-family:'Literata','Noto Serif Hebrew',serif; }
+  .wbw-row.heb{ direction:rtl; }
+  .wbw-row.heb .wbw-chip .g{ font-size:16px; line-height:1.35; }
+  .wbw-row.heb.big .wbw-chip .g{ font-size:18px; }
+  .sheet .wbw-row.heb .wbw-chip .g{ font-size:14.5px; }
+  .wbw-row.heb .wbw-chip .e{ direction:ltr; unicode-bidi:isolate; }
+  .wbw-row.heb .wbw-all{ direction:ltr; }
+  .wbw-card .bg .he{ font-size:1.25em; }
+  .wbw-dir{ margin:0 0 6px; font:11px 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); }
+  .sheet .wbw-dir{ display:none; }
   .wbw-chip.on{ border-color:var(--wc); background:var(--ink-raised); box-shadow:0 0 0 1px var(--wc); }
   .wbw-card{ margin-top:10px; background:var(--ink); border:1px solid var(--line); border-radius:12px; padding:12px 14px; font-family:'IBM Plex Sans',sans-serif; font-size:12.5px; line-height:1.5; color:var(--parchment); }
   .wbw-card .bg{ font-family:'Literata',serif; font-size:23px; line-height:1.2; }
@@ -619,6 +633,8 @@
   .bcp.full .bcp-scrim{ display:none; }
   .bcp.full .bcp-panel{ left:0; right:0; top:0; bottom:0; max-height:none; border:0; border-radius:0; box-shadow:none; padding-top:env(safe-area-inset-top); animation:none; }
   .bcp.full .bcp-body{ padding-bottom:calc(18px + env(safe-area-inset-bottom)); }
+  .bcp-t{ margin:16px 2px 0; padding-bottom:4px; border-bottom:1px solid var(--line); font:600 11px 'IBM Plex Sans',sans-serif; letter-spacing:.04em; color:var(--parchment); }
+  .bcp-t:first-child{ margin-top:4px; }
   .bcp-g{ margin:12px 2px 2px; font:600 9.5px 'IBM Plex Mono',monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--gold); }
   .bcp-b{ display:flex; justify-content:space-between; align-items:baseline; width:100%; padding:11px 4px; background:none; border:0; border-bottom:1px solid var(--line); color:var(--parchment); font:16px 'Literata',serif; text-align:left; cursor:pointer; }
   .bcp-b small{ font:10.5px 'IBM Plex Mono',monospace; color:var(--parchment-dim); }
@@ -4262,7 +4278,7 @@
           <button type="button" class="vt-btn" id="vtOpen" aria-haspopup="listbox" aria-expanded="false" aria-label="Bible version">BSB ▾</button>
           <div class="vt-menu" id="vtMenu" role="listbox" aria-label="Bible version" hidden></div>
         </div>
-        <button type="button" class="rd-search" data-search aria-label="Search the New Testament"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
+        <button type="button" class="rd-search" data-search aria-label="Search the Bible"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
       </div>
       <div class="reader" id="reader">
         <p class="book-label" id="bookLabel">Loading…</p>
@@ -4417,11 +4433,11 @@
           </div>
           <div class="tab-panel" data-panel="xref">
             <section class="sec">
-              <div class="sec-head"><h3 class="sec-title">Gospel Parallels</h3><span class="sec-sub" id="gpSub"></span></div>
+              <div class="sec-head"><h3 class="sec-title" id="gpTitle">Gospel Parallels</h3><span class="sec-sub" id="gpSub"></span></div>
               <div id="gospelParallelsList"></div>
             </section>
             <section class="sec">
-              <div class="sec-head"><h3 class="sec-title">Old Testament Background</h3><span class="sec-sub" id="otSub"></span></div>
+              <div class="sec-head"><h3 class="sec-title" id="otTitle">Old Testament Background</h3><span class="sec-sub" id="otSub"></span></div>
               <div id="otBackgroundList"></div>
             </section>
           </div>
@@ -4564,7 +4580,7 @@
       <div class="st-wrap" id="hmWrap">
         <div class="hm-top">
           <div class="hm-ttl"><p class="hm-date" id="hmDate"></p><h2 class="st-title hm-hello" id="hmHello">Welcome</h2></div>
-          <button type="button" class="hm-ic" data-search aria-label="Search the New Testament"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
+          <button type="button" class="hm-ic" data-search aria-label="Search the Bible"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
           <button type="button" class="hm-ic" id="hmEdit" aria-label="Customize Home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></svg></button>
         </div>
         <div id="hmBody"></div>

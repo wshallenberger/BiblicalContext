@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   var GOSPELS = { matthew: 1, mark: 1, luke: 1, john: 1 };
-  var ALIAS = { jn: 'john', mt: 'matthew', matt: 'matthew', mk: 'mark', lk: 'luke', rm: 'romans', rom: 'romans', gal: 'galatians', eph: 'ephesians', php: 'philippians', phil: 'philippians',
+  var ALIAS = { pr: 'proverbs', prov: 'proverbs', prv: 'proverbs', jn: 'john', mt: 'matthew', matt: 'matthew', mk: 'mark', lk: 'luke', rm: 'romans', rom: 'romans', gal: 'galatians', eph: 'ephesians', php: 'philippians', phil: 'philippians',
     col: 'colossians', heb: 'hebrews', jas: 'james', rev: 'revelation', act: 'acts', tit: 'titus', phm: 'philemon', phlm: 'philemon' };
   var root, panel, input, body, crumb, pos, st = { opts: null, view: 'books', book: null, q: '' };
 
@@ -15,6 +15,7 @@
   function label(slug, ch) { var b = find(slug); return (b ? b.name : '') + (ch ? ' ' + ch : ''); }
 
   function group(b) {
+    if (window.Bk && Bk.group) return Bk.groupLabel(Bk.group(b.slug));
     if (GOSPELS[b.slug]) return 'Gospels';
     if (b.slug === 'acts') return 'Acts';
     if (b.slug === 'revelation') return 'Revelation';
@@ -121,9 +122,10 @@
       body.innerHTML = h; body.scrollTop = 0;
       return;
     }
-    var seen = {};
+    var seen = {}, tst = '', both = books().some(function (b) { return b.testament === 'Old'; }) && books().some(function (b) { return b.testament !== 'Old'; });
     books().forEach(function (b) {
-      var g = group(b);
+      var g = group(b), t = b.testament === 'Old' ? 'Old Testament' : 'New Testament';
+      if (both && t !== tst) { tst = t; h += '<h4 class="bcp-t">' + t + '</h4>'; }
       if (!seen[g]) { seen[g] = 1; h += '<h4 class="bcp-g">' + g + '</h4>'; }
       h += row(b, b.slug === cur);
     });

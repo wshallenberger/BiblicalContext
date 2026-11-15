@@ -1,4 +1,4 @@
-/* search.js — Search the New Testament (Read top bar magnifier, and More > Search).
+/* search.js — Search the Bible (Read top bar magnifier, and More > Search).
  *
  * data/search.json (built by tools/build_search.py) holds every verse once: { b: [book slugs], v: [[bookIndex, chapter, verse, text], ...] }.
  * Everything is matched in the browser. Nothing you type leaves the device.
@@ -13,11 +13,13 @@
   var NAMES = Bk.nameMap();
   var data = null, loading = null, prev = 'read', built = false, timer = 0, lastQ = '';
   var st = { book: 'all', jesus: false };
-  var GROUPS = { '@gospels': ['the Gospels', ['matthew', 'mark', 'luke', 'john']], '@acts': ['Acts', ['acts']], '@letters': ['the Letters', null], '@rev': ['Revelation', ['revelation']] };
+  var GROUPS = { '@ot': ['the Old Testament', null], '@gospels': ['the Gospels', ['matthew', 'mark', 'luke', 'john']], '@acts': ['Acts', ['acts']], '@letters': ['the Letters', null], '@rev': ['Revelation', ['revelation']] };
   function inScope(book) {
     if (st.book === 'all') return true;
     var g = GROUPS[st.book]; if (!g) return st.book === book;
     if (g[1]) return g[1].indexOf(book) >= 0;
+    if (st.book === '@ot') return Bk.testament(book) === 'OT';
+    if (Bk.testament(book) === 'OT') return false;
     return ['matthew', 'mark', 'luke', 'john', 'acts', 'revelation'].indexOf(book) < 0;
   }
   var CAP = 150;
@@ -135,9 +137,9 @@
     var w = $('seBody'); if (!w) return;
     w.innerHTML =
       '<div class="se-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>' +
-      '<input id="seQ" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search the New Testament" aria-label="Search the New Testament">' +
+      '<input id="seQ" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search the Bible" aria-label="Search the Bible">' +
       '<button type="button" id="seClr" class="se-clr" aria-label="Clear" hidden>\u00d7</button></div>' +
-      '<div class="se-filt" id="seFilt"><button type="button" data-f="all" class="on">All</button><button type="button" data-f="@gospels">Gospels</button><button type="button" data-f="@acts">Acts</button><button type="button" data-f="@letters">Letters</button><button type="button" data-f="@rev">Revelation</button>' + Bk.slugs().filter(function (b) { return b !== 'acts' && b !== 'revelation'; }).map(function (b) { return '<button type="button" data-f="' + b + '">' + Bk.name(b) + '</button>'; }).join('') + '</div>' +
+      '<div class="se-filt" id="seFilt"><button type="button" data-f="all" class="on">All</button>' + (Bk.slugs().some(function (b) { return Bk.testament(b) === 'OT'; }) ? '<button type="button" data-f="@ot">Old Testament</button>' : '') + '<button type="button" data-f="@gospels">Gospels</button><button type="button" data-f="@acts">Acts</button><button type="button" data-f="@letters">Letters</button><button type="button" data-f="@rev">Revelation</button>' + Bk.slugs().filter(function (b) { return b !== 'acts' && b !== 'revelation'; }).map(function (b) { return '<button type="button" data-f="' + b + '">' + Bk.name(b) + '</button>'; }).join('') + '</div>' +
       '<button type="button" class="se-red" id="seRed" aria-pressed="false"><i></i><span>Jesus\u2019 words only</span></button>' +
       '<p class="se-sum" id="seSum" aria-live="polite"></p><div id="seOut"></div>';
     var q = $('seQ');

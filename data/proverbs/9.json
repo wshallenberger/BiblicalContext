@@ -1,0 +1,252 @@
+{
+ "book": "Proverbs",
+ "chapter": 9,
+ "title": "Wisdom’s Feast and Folly’s",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Wisdom has built her house; she has carved out her seven pillars."
+  },
+  {
+   "num": 2,
+   "text": "She has prepared her meat and mixed her wine; she has also set her table."
+  },
+  {
+   "num": 3,
+   "text": "She has sent out her maidservants; she calls out from the heights of the city."
+  },
+  {
+   "num": 4,
+   "text": "\"Whoever is simple, let him turn in here!\" she says to him who lacks judgment."
+  },
+  {
+   "num": 5,
+   "text": "\"Come, eat my bread and drink the wine I have mixed."
+  },
+  {
+   "num": 6,
+   "text": "Leave your folly behind, and you will live; walk in the way of understanding.\""
+  },
+  {
+   "num": 7,
+   "text": "He who corrects a mocker brings shame on himself; he who rebukes a wicked man taints himself."
+  },
+  {
+   "num": 8,
+   "text": "Do not rebuke a mocker, or he will hate you; rebuke a wise man, and he will love you."
+  },
+  {
+   "num": 9,
+   "text": "Instruct a wise man, and he will be wiser still; teach a righteous man, and he will increase his learning."
+  },
+  {
+   "num": 10,
+   "text": "The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding."
+  },
+  {
+   "num": 11,
+   "text": "For through wisdom your days will be multiplied, and years will be added to your life."
+  },
+  {
+   "num": 12,
+   "text": "If you are wise, you are wise to your own advantage; but if you scoff, you alone will bear the consequences."
+  },
+  {
+   "num": 13,
+   "text": "The woman named Folly is loud; she is naive and knows nothing."
+  },
+  {
+   "num": 14,
+   "text": "She sits at the door of her house, on a seat in the heights of the city,"
+  },
+  {
+   "num": 15,
+   "text": "calling out to those who pass by, who make their paths straight."
+  },
+  {
+   "num": 16,
+   "text": "\"Whoever is simple, let him turn in here!\" she says to him who lacks judgment."
+  },
+  {
+   "num": 17,
+   "text": "\"Stolen water is sweet, and bread eaten in secret is tasty!\""
+  },
+  {
+   "num": 18,
+   "text": "But they do not know that the dead are there, that her guests are in the depths of Sheol."
+  }
+ ],
+ "context": {
+  "author": "Solomon son of David, king of Israel, according to the heading (1:1). Chapters 1-9 are a father’s speeches to his son, with Wisdom speaking for herself, and many scholars think an editor set them at the front as the book’s introduction.",
+  "genre": "Wisdom poetry: a father’s teaching and Lady Wisdom’s speeches",
+  "audience": "A young man (“my son”) being trained for adult life in Israel, and with him “the simple” and the wise (1:4-5)",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "Wisdom has built her house with seven pillars, prepared meat and mixed wine, and sent her maidservants to call from the heights of the city: “Whoever is simple, let him turn in here!” (v.4). A short middle section on teaching mockers and the wise (vv.7-12) holds the book’s motto again: “The fear of the LORD is the beginning of wisdom” (v.10). Then Folly, loud and ignorant, sits at the door of her house on a seat in the heights of the city and calls to the same simple passers-by: “Stolen water is sweet” (vv.13-17). Her guests do not know “that her guests are in the depths of Sheol” (v.18).",
+  "custom": "Feasts with meat and mixed wine were for great occasions; wine was mixed with water or spices. Inviting guests by sending servants was the custom of the wealthy (compare Matthew 22:1-4). A house with seven pillars suggests a large, well-built house; seven was the number of completeness. The “heights of the city” (v.3) were where a call could be heard far and wide.",
+  "timelineImmediate": "Chapter 10 begins “The proverbs of Solomon,” the first great collection of short sayings, running to 22:16.",
+  "timelineBible": "Chapters 1-9 end as they began, with the fear of the LORD (1:7; 9:10). Isaiah 55:1 uses a similar invitation: “come, buy, and eat!” (Isaiah 55:1) Jesus’ parable of the great banquet (Luke 14:15-24) also sends servants to call guests to a feast.",
+  "translation": [
+   {
+    "english": "pillars",
+    "greek": "עַמּוּד (ammud)",
+    "verseRef": "v.1",
+    "meaning": "Columns holding up a roof. Seven pillars picture a house complete and secure.",
+    "gloss": "Columns",
+    "strongs": "H5982",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "mocker",
+    "greek": "לִיץ (lits)",
+    "verseRef": "v.7",
+    "meaning": "The scoffer, who laughs at correction. He is the hardest kind of fool to teach.",
+    "gloss": "Scoffer",
+    "strongs": "H3887",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "folly",
+    "greek": "כְּסִילוּת (kesilut)",
+    "verseRef": "v.13",
+    "meaning": "Foolishness, here pictured as a woman, Wisdom’s rival.",
+    "gloss": "Foolishness",
+    "strongs": "H3687",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 14:15-24",
+    "note": "The parable of the great banquet."
+   },
+   {
+    "ref": "John 6:35",
+    "note": "“I am the bread of life”: come and eat."
+   },
+   {
+    "ref": "Revelation 22:17",
+    "note": "The Spirit and the bride say, “Come!”"
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 55:1-3",
+    "note": "Come, buy and eat without money."
+   },
+   {
+    "ref": "Proverbs 1:7",
+    "note": "The fear of the LORD is the beginning of knowledge."
+   },
+   {
+    "ref": "Psalm 23:5",
+    "note": "You prepare a table before me."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Wisdom and Folly both build houses and invite the simple to a meal; one leads to life, the other to the grave.",
+   "settingLine": "Two houses on the heights of the city.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Great houses",
+     "t": "Wealthy homes had pillared halls."
+    },
+    {
+     "h": "Royal feasts",
+     "t": "Solomon’s table was famous (1 Kings 4:22-23)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Mixed wine",
+     "t": "Wine was mixed with water or spices."
+    },
+    {
+     "h": "Sending servants",
+     "t": "The rich sent servants to invite guests."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Pillared buildings",
+     "t": "Rows of stone pillars stand in the Iron Age halls at Megiddo and Hazor."
+    },
+    {
+     "h": "Royal jars",
+     "t": "Storage jars stamped lmlk (belonging to the king) held supplies for the kings of Judah."
+    }
+   ],
+   "discussion": "Folly says, “Stolen water is sweet” (v.17). What kinds of stolen water look sweet to me, and what would it mean to accept Wisdom’s invitation instead?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (1:1)",
+   "genre": "Wisdom poetry",
+   "audience": "“My son”: the young",
+   "refNotes": {
+    "Isaiah 55:1-3": "Come and eat",
+    "Proverbs 1:7": "The book’s motto",
+    "Psalm 23:5": "A table prepared"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Wisdom",
+     "d": "Builds her house and sets a table"
+    },
+    {
+     "n": "Her maidservants",
+     "d": "Call the guests"
+    },
+    {
+     "n": "Folly",
+     "d": "Loud and ignorant"
+    },
+    {
+     "n": "The simple",
+     "d": "Invited by both"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Wisdom’s feast"
+    },
+    {
+     "when": "v.7-12",
+     "label": "Mockers and the wise"
+    },
+    {
+     "when": "v.13-18",
+     "label": "Folly’s feast"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Wisdom has built her house; she has carved out her seven pillars. Whoever is simple, let him turn in here! she says to him who lacks judgment. Come, eat my bread and drink the wine I have mixed. Leave your folly behind, and you will live; walk in the way of understanding. Do not rebuke a mocker, or he will hate you; rebuke a wise man, and he will love you. The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding. For through wisdom your days will be multiplied, and years will be added to your life. The woman named Folly is loud; she is naive and knows nothing. Stolen water is sweet, and bread eaten in secret is tasty! But they do not know that the dead are there, that her guests are in the depths of Sheol.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+   "caption": "The mound of Megiddo above the Jezreel Valley. Large Iron Age buildings with rows of stone pillars were found here; Wisdom’s house of seven pillars (9:1) is a picture of a grand house like these.",
+   "credit": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "book": "Proverbs",
+ "chapter": 5,
+ "title": "Warning Against Adultery",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "My son, pay attention to my wisdom; incline your ear to my insight,"
+  },
+  {
+   "num": 2,
+   "text": "that you may maintain discretion and your lips may preserve knowledge."
+  },
+  {
+   "num": 3,
+   "text": "Though the lips of the forbidden woman drip honey and her speech is smoother than oil,"
+  },
+  {
+   "num": 4,
+   "text": "in the end she is bitter as wormwood, sharp as a double-edged sword."
+  },
+  {
+   "num": 5,
+   "text": "Her feet go down to death; her steps lead straight to Sheol."
+  },
+  {
+   "num": 6,
+   "text": "She does not consider the path of life; she does not know that her ways are unstable."
+  },
+  {
+   "num": 7,
+   "text": "So now, my sons, listen to me, and do not turn aside from the words of my mouth."
+  },
+  {
+   "num": 8,
+   "text": "Keep your path far from her; do not go near the door of her house,"
+  },
+  {
+   "num": 9,
+   "text": "lest you concede your vigor to others, and your years to one who is cruel;"
+  },
+  {
+   "num": 10,
+   "text": "lest strangers feast on your wealth, and your labors enrich the house of a foreigner."
+  },
+  {
+   "num": 11,
+   "text": "At the end of your life you will groan when your flesh and your body are spent,"
+  },
+  {
+   "num": 12,
+   "text": "and you will say, \"How I hated discipline, and my heart despised reproof!"
+  },
+  {
+   "num": 13,
+   "text": "I did not listen to the voice of my teachers or incline my ear to my mentors."
+  },
+  {
+   "num": 14,
+   "text": "I am on the brink of utter ruin in the midst of the whole assembly.\""
+  },
+  {
+   "num": 15,
+   "text": "Drink water from your own cistern, and running water from your own well."
+  },
+  {
+   "num": 16,
+   "text": "Why should your springs flow in the streets, your streams of water in the public squares?"
+  },
+  {
+   "num": 17,
+   "text": "Let them be yours alone, never to be shared with strangers."
+  },
+  {
+   "num": 18,
+   "text": "May your fountain be blessed, and may you rejoice in the wife of your youth:"
+  },
+  {
+   "num": 19,
+   "text": "A loving doe, a graceful fawn— may her breasts satisfy you always; may you be captivated by her love forever."
+  },
+  {
+   "num": 20,
+   "text": "Why be captivated, my son, by an adulteress, or embrace the bosom of a stranger?"
+  },
+  {
+   "num": 21,
+   "text": "For a man's ways are before the eyes of the LORD, and the LORD examines all his paths."
+  },
+  {
+   "num": 22,
+   "text": "The iniquities of a wicked man entrap him; the cords of his sin entangle him."
+  },
+  {
+   "num": 23,
+   "text": "He dies for lack of discipline, led astray by his own great folly."
+  }
+ ],
+ "context": {
+  "author": "Solomon son of David, king of Israel, according to the heading (1:1). Chapters 1-9 are a father’s speeches to his son, with Wisdom speaking for herself, and many scholars think an editor set them at the front as the book’s introduction.",
+  "genre": "Wisdom poetry: a father’s teaching and Lady Wisdom’s speeches",
+  "audience": "A young man (“my son”) being trained for adult life in Israel, and with him “the simple” and the wise (1:4-5)",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "The father warns his son about the adulteress, whose lips drip honey but whose end is bitter as wormwood (vv.1-6). Keep far from her door, he says, or you will lose your strength to strangers and groan at the end of your life (vv.7-14). Then he turns the picture around: “Drink water from your own cistern” (v.15), and “rejoice in the wife of your youth” (v.18). The LORD sees every path a man takes (v.21).",
+  "custom": "In the dry hill country families cut cisterns into the rock to catch rain, and a private cistern or well was precious (2 Kings 18:31). Water from your own cistern is a picture of love kept within marriage. Wormwood is a bitter plant. The “assembly” (v.14) was the gathered community, where a man’s shame would be public.",
+  "timelineImmediate": "Chapter 6 warns against rash promises, laziness and troublemakers, and then returns to adultery.",
+  "timelineBible": "The seventh commandment forbids adultery (Exodus 20:14). David’s sin with Bathsheba, Solomon’s own mother, shows its cost (2 Samuel 11-12). The Song of Songs celebrates the love the father describes in vv.18-19.",
+  "translation": [
+   {
+    "english": "strange woman",
+    "greek": "זוּר (zarah)",
+    "verseRef": "v.3",
+    "meaning": "Literally “strange” or “foreign”: a woman outside the man’s marriage, another man’s wife. BSB translates “the adulteress.”",
+    "gloss": "Outsider, adulteress",
+    "strongs": "H2114",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cistern",
+    "greek": "בּוֹר (bor)",
+    "verseRef": "v.15",
+    "meaning": "A pit cut in rock to collect rainwater. Here a picture of one’s own wife.",
+    "gloss": "Water pit",
+    "strongs": "H953",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "captivated",
+    "greek": "שָׁגָה (shagah)",
+    "verseRef": "v.19",
+    "meaning": "To stagger, to be carried away, as by wine. Be carried away by your wife’s love, not by another’s (v.20).",
+    "gloss": "Carried away",
+    "strongs": "H7686",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 13:4",
+    "note": "Marriage should be honored by all and the marriage bed kept pure."
+   },
+   {
+    "ref": "1 Corinthians 6:18",
+    "note": "Flee from sexual immorality."
+   },
+   {
+    "ref": "Matthew 5:27-28",
+    "note": "Jesus on adultery in the heart."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 20:14",
+    "note": "“You shall not commit adultery.”"
+   },
+   {
+    "ref": "2 Samuel 11:1-27",
+    "note": "David and Bathsheba."
+   },
+   {
+    "ref": "Song of Solomon 4:12-15",
+    "note": "A well of flowing water, a picture of love."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The adulteress offers sweetness that ends in bitterness and ruin; the father calls his son to find joy in his own wife.",
+   "settingLine": "A father speaks plainly to his son.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Cisterns",
+     "t": "Families stored rainwater in rock-cut pits."
+    },
+    {
+     "h": "Public shame",
+     "t": "Sin was judged before the assembly."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Wormwood",
+     "t": "A bitter plant, a picture of sorrow."
+    },
+    {
+     "h": "Marriage",
+     "t": "A covenant and a joy."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Rock-cut cisterns",
+     "t": "Bell-shaped cisterns are found under houses all over Iron Age Israel."
+    },
+    {
+     "h": "Wells",
+     "t": "Wells like the one at Beersheba gave water to whole towns."
+    }
+   ],
+   "discussion": "The father does not only say “no.” He paints a picture of joy in marriage. Why does a better love do more than a warning alone?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (1:1)",
+   "genre": "Wisdom poetry",
+   "audience": "“My son”: the young",
+   "refNotes": {
+    "Exodus 20:14": "The seventh commandment",
+    "2 Samuel 11:1-27": "David and Bathsheba",
+    "Song of Solomon 4:12-15": "A well of water"
+   },
+   "peoplePlaces": [
+    {
+     "n": "My son",
+     "d": "Warned"
+    },
+    {
+     "n": "The adulteress",
+     "d": "Lips drip honey"
+    },
+    {
+     "n": "The wife of your youth",
+     "d": "A joy and a blessing"
+    },
+    {
+     "n": "The LORD",
+     "d": "Sees every path"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Her sweet lies"
+    },
+    {
+     "when": "v.7-14",
+     "label": "Keep far away"
+    },
+    {
+     "when": "v.15-20",
+     "label": "Your own cistern"
+    },
+    {
+     "when": "v.21-23",
+     "label": "The LORD sees"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "My son, pay attention to my wisdom; incline your ear to my insight, Though the lips of the forbidden woman drip honey and her speech is smoother than oil, in the end she is bitter as wormwood, sharp as a double-edged sword. Keep your path far from her; do not go near the door of her house, Drink water from your own cistern, and running water from your own well. May your fountain be blessed, and may you rejoice in the wife of your youth: A loving doe, a graceful fawn— may her breasts satisfy you always; may you be captivated by her love forever. For a man's ways are before the eyes of the LORD, and the LORD examines all his paths. The iniquities of a wicked man entrap him; the cords of his sin entangle him.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

@@ -789,11 +789,11 @@
    "id": "psalms",
    "s": "kingdom",
    "z": 3,
-   "t": "Psalms and Proverbs",
+   "t": "Psalms and Ecclesiastes",
    "d": "c. 1000-900 BC",
    "c": "a",
-   "r": "Psalms; Proverbs",
-   "sum": "Many Psalms are credited to David, and Proverbs and Ecclesiastes are traditionally linked to Solomon.",
+   "r": "Psalms; Ecclesiastes",
+   "sum": "Many Psalms are credited to David, and Ecclesiastes and the Song of Songs are traditionally linked to Solomon.",
    "bk": [
     [
      18,
@@ -801,7 +801,7 @@
      0
     ],
     [
-     19,
+     20,
      0,
      0
     ]
@@ -823,6 +823,30 @@
      8
     ]
    ]
+  },
+  {
+   "id": "pv_solomon",
+   "s": "kingdom",
+   "z": 2,
+   "t": "Solomon’s proverbs",
+   "d": "c. 970-930 BC",
+   "c": "a",
+   "r": "Proverbs 1-24",
+   "sum": "God gives Solomon wisdom, and he speaks 3,000 proverbs (1 Kings 4:29-34). Proverbs gathers his sayings with “the words of the wise” and a father’s teaching to his son.",
+   "ev": 582,
+   "go": [
+    "proverbs",
+    1,
+    1
+   ],
+   "bk": [
+    [
+     19,
+     1,
+     24
+    ]
+   ],
+   "n": "The book names Solomon in its headings (1:1; 10:1; 25:1). How much of chapters 1-9 and 22:17-24:34 he wrote himself is debated."
   },
   {
    "id": "split",
@@ -928,6 +952,30 @@
      37
     ]
    ]
+  },
+  {
+   "id": "pv_hezekiah",
+   "s": "divided",
+   "z": 3,
+   "t": "Hezekiah’s men copy Solomon’s proverbs",
+   "d": "c. 715-686 BC",
+   "c": "a",
+   "r": "Proverbs 25-29",
+   "sum": "“These are additional proverbs of Solomon, which were copied by the men of Hezekiah king of Judah” (Proverbs 25:1).",
+   "ev": 584,
+   "go": [
+    "proverbs",
+    25,
+    1
+   ],
+   "bk": [
+    [
+     19,
+     25,
+     31
+    ]
+   ],
+   "n": "Agur (chapter 30) and King Lemuel (chapter 31) are not dated; their words were added to the book at an unknown time."
   },
   {
    "id": "josiah",

@@ -1,0 +1,292 @@
+{
+ "book": "Proverbs",
+ "chapter": 7,
+ "title": "The Seductive Woman",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "My son, keep my words and treasure my commandments within you."
+  },
+  {
+   "num": 2,
+   "text": "Keep my commandments and live; guard my teachings as the apple of your eye."
+  },
+  {
+   "num": 3,
+   "text": "Tie them to your fingers; write them on the tablet of your heart."
+  },
+  {
+   "num": 4,
+   "text": "Say to wisdom, \"You are my sister,\" and call understanding your kinsman,"
+  },
+  {
+   "num": 5,
+   "text": "that they may keep you from the adulteress, from the stranger with seductive words."
+  },
+  {
+   "num": 6,
+   "text": "For at the window of my house I looked through the lattice."
+  },
+  {
+   "num": 7,
+   "text": "I saw among the simple, I noticed among the youths, a young man lacking judgment,"
+  },
+  {
+   "num": 8,
+   "text": "crossing the street near her corner, strolling down the road to her house,"
+  },
+  {
+   "num": 9,
+   "text": "at twilight, as the day was fading into the dark of the night."
+  },
+  {
+   "num": 10,
+   "text": "Then a woman came out to meet him, with the attire of a harlot and cunning of heart."
+  },
+  {
+   "num": 11,
+   "text": "She is loud and defiant; her feet do not remain at home."
+  },
+  {
+   "num": 12,
+   "text": "Now in the street, now in the squares, she lurks at every corner."
+  },
+  {
+   "num": 13,
+   "text": "She seizes him and kisses him; she brazenly says to him:"
+  },
+  {
+   "num": 14,
+   "text": "\"I have made my peace offerings; today I have paid my vows."
+  },
+  {
+   "num": 15,
+   "text": "So I came out to meet you; I sought you, and I have found you."
+  },
+  {
+   "num": 16,
+   "text": "I have decked my bed with coverings, with colored linen from Egypt."
+  },
+  {
+   "num": 17,
+   "text": "I have perfumed my bed with myrrh, with aloes, and with cinnamon."
+  },
+  {
+   "num": 18,
+   "text": "Come, let us take our fill of love till morning. Let us delight in loving caresses!"
+  },
+  {
+   "num": 19,
+   "text": "For my husband is not at home; he has gone on a long journey."
+  },
+  {
+   "num": 20,
+   "text": "He took with him a bag of money and will not return till the moon is full.\""
+  },
+  {
+   "num": 21,
+   "text": "With her great persuasion she entices him; with her flattering lips she lures him."
+  },
+  {
+   "num": 22,
+   "text": "He follows her on impulse, like an ox going to the slaughter, like a deer bounding into a trap,"
+  },
+  {
+   "num": 23,
+   "text": "until an arrow pierces his liver, like a bird darting into a snare— not knowing it will cost him his life."
+  },
+  {
+   "num": 24,
+   "text": "Now, my sons, listen to me, and attend to the words of my mouth."
+  },
+  {
+   "num": 25,
+   "text": "Do not let your heart turn aside to her ways; do not stray into her paths."
+  },
+  {
+   "num": 26,
+   "text": "For she has brought many down to death; her slain are many in number."
+  },
+  {
+   "num": 27,
+   "text": "Her house is the road to Sheol, descending to the chambers of death."
+  }
+ ],
+ "context": {
+  "author": "Solomon son of David, king of Israel, according to the heading (1:1). Chapters 1-9 are a father’s speeches to his son, with Wisdom speaking for herself, and many scholars think an editor set them at the front as the book’s introduction.",
+  "genre": "Wisdom poetry: a father’s teaching and Lady Wisdom’s speeches",
+  "audience": "A young man (“my son”) being trained for adult life in Israel, and with him “the simple” and the wise (1:4-5)",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "The father looks out through the lattice of his window and tells what he saw (v.6). A young man lacking judgment walks at twilight toward the corner where a certain woman lives (vv.7-9). She comes out dressed like a prostitute, kisses him, and invites him in: she has made her peace offerings, her husband is away on a long journey, and her bed is spread with colored linens from Egypt (vv.10-20). He follows her “like an ox going to the slaughter” (v.22). The chapter ends: “Her house is the road to Sheol” (v.27).",
+  "custom": "Windows had wooden lattices instead of glass, so one could look out without being seen. A peace offering (v.14) was a sacrifice whose meat the worshiper took home to eat that day or the next (Leviticus 7:15-16), so she has a feast ready and religion as her cover. Fine linen from Egypt and spices such as myrrh, aloes and cinnamon (v.17) were costly imports. The husband took “a bag of money” (v.20), silver for trade.",
+  "timelineImmediate": "Chapter 8 lets Wisdom speak for herself, calling out at the gates and telling how she was there when God made the world.",
+  "timelineBible": "The scene of a woman inviting a man to her house is answered in chapter 9, where Wisdom and Folly both call from their houses. “Sheol” (v.27) is the Hebrew name for the place of the dead.",
+  "translation": [
+   {
+    "english": "Sheol",
+    "greek": "שְׁאוֹל (she’ol)",
+    "verseRef": "v.27",
+    "meaning": "The grave, the realm of the dead. In Proverbs it is where the foolish road leads.",
+    "gloss": "Grave, realm of the dead",
+    "strongs": "H7585",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "simple",
+    "greek": "פֶּתִי (peti)",
+    "verseRef": "v.7",
+    "meaning": "Naive, easily led. The young man is not wicked yet, only unguarded.",
+    "gloss": "Naive",
+    "strongs": "H6612",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "lacking judgment",
+    "greek": "לֵב (lev)",
+    "verseRef": "v.7",
+    "meaning": "Literally “lacking heart”: without sense, without an inner guard.",
+    "gloss": "Without sense",
+    "strongs": "H3820",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "James 1:14-15",
+    "note": "Each one is tempted when carried away by his own desire."
+   },
+   {
+    "ref": "1 Corinthians 10:12-13",
+    "note": "Let him who thinks he stands take heed; God provides a way out."
+   },
+   {
+    "ref": "2 Timothy 2:22",
+    "note": "Flee youthful passions."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Leviticus 7:15-16",
+    "note": "The meat of a peace offering was eaten that day."
+   },
+   {
+    "ref": "Genesis 39:7-12",
+    "note": "Joseph refuses his master’s wife."
+   },
+   {
+    "ref": "Judges 16:4-21",
+    "note": "Samson and Delilah."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The father watches a naive young man follow a married woman into her house at dusk, and warns that her house is the road to death.",
+   "settingLine": "Seen through a lattice window at dusk.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Trade journeys",
+     "t": "Merchants were away for weeks."
+    },
+    {
+     "h": "Imported goods",
+     "t": "Linen from Egypt, spices from Arabia and beyond."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Lattice windows",
+     "t": "Wooden screens for privacy and air."
+    },
+    {
+     "h": "Peace offerings",
+     "t": "A sacrifice shared as a meal."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Egyptian linen",
+     "t": "Egypt was famous for fine linen, and pieces survive in its tombs."
+    },
+    {
+     "h": "Spice trade",
+     "t": "Incense routes ran from south Arabia north to Gaza and Damascus."
+    }
+   ],
+   "discussion": "The young man did not set out to sin; he just walked toward her street at twilight (vv.8-9). What streets do I wander down that lead where I do not want to go?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (1:1)",
+   "genre": "Wisdom poetry",
+   "audience": "“My son”: the young",
+   "refNotes": {
+    "Leviticus 7:15-16": "The peace offering meal",
+    "Genesis 39:7-12": "Joseph refuses",
+    "Judges 16:4-21": "Samson and Delilah"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The father",
+     "d": "Watches from the window"
+    },
+    {
+     "n": "The young man",
+     "d": "Lacks judgment"
+    },
+    {
+     "n": "The woman",
+     "d": "Married, inviting"
+    },
+    {
+     "n": "Her husband",
+     "d": "Away on a journey"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Keep my words"
+    },
+    {
+     "when": "v.6-9",
+     "label": "At twilight"
+    },
+    {
+     "when": "v.10-20",
+     "label": "Her invitation"
+    },
+    {
+     "when": "v.21-27",
+     "label": "He follows"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "My son, keep my words and treasure my commandments within you. Keep my commandments and live; guard my teachings as the apple of your eye. Say to wisdom, You are my sister, and call understanding your kinsman, For at the window of my house I looked through the lattice. I saw among the simple, I noticed among the youths, a young man lacking judgment, Then a woman came out to meet him, with the attire of a harlot and cunning of heart. Come, let us take our fill of love till morning. Let us delight in loving caresses! With her great persuasion she entices him; with her flattering lips she lures him. He follows her on impulse, like an ox going to the slaughter, like a deer bounding into a trap, Do not let your heart turn aside to her ways; do not stray into her paths. Her house is the road to Sheol, descending to the chambers of death.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+   "caption": "Ancient steps on the south side of the Temple Mount in Jerusalem. Wisdom “calls out in the street” at the busy places where people came and went (Proverbs 1:20-21; 8:1-3).",
+   "credit": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

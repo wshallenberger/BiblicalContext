@@ -14483,5 +14483,185 @@
   "im": [
    "rv_patmos_mon"
   ]
+ },
+ {
+  "i": 580,
+  "t": "Solomon’s proverbs: a father teaches his son",
+  "p": "Jerusalem, the royal court of Solomon",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "proverbs",
+    1,
+    1,
+    7,
+    33
+   ]
+  ],
+  "rs": "Prov1:1-7:27",
+  "s": "The book opens, \"These are the proverbs of Solomon son of David, king of Israel,\" and sets out its motto: \"The fear of the LORD is the beginning of knowledge, but fools despise wisdom and discipline.\" A father then teaches his son to trust the LORD and keep away from violence and adultery.",
+  "n": "The pin stands on the City of David, the ridge south of the Temple Mount where Solomon’s Jerusalem stood. Solomon reigned about 970-930 BC. The book names him as the author of its main collections (1:1; 10:1; 25:1), and 1 Kings 4:32 says he spoke 3,000 proverbs. Many scholars think chapters 1-9 were set at the front by a later editor as an introduction. The father’s speeches read like the teaching given to young men at court and at home.",
+  "im": [
+   "pv_cityofdavid",
+   "pv_sheba"
+  ]
+ },
+ {
+  "i": 581,
+  "t": "Wisdom calls at the gates and invites all to her feast",
+  "p": "Jerusalem, at the city gates",
+  "la": 31.7752,
+  "ln": 35.2357,
+  "r": [
+   [
+    "proverbs",
+    8,
+    1,
+    9,
+    18
+   ]
+  ],
+  "rs": "Prov8:1-9:18",
+  "s": "\"Does not wisdom call out, and understanding raise her voice?\" Wisdom stands at the gates, tells how she was with the LORD when He made the world, and sets a feast in her house of seven pillars. Folly calls the same simple people to stolen water.",
+  "n": "The gates and the high places of the city were where crowds passed, so Wisdom speaks there (8:1-3; 9:3). The pin is at the north end of the City of David near the Ophel, a judgment call: Proverbs names no gate. Christians have long read Wisdom at creation (8:22-31) alongside John 1:1-3 and Colossians 1:15-17.",
+  "im": [
+   "pv_steps",
+   "pv_episteme"
+  ]
+ },
+ {
+  "i": 582,
+  "t": "The proverbs of Solomon: about 375 sayings",
+  "p": "Jerusalem, the royal court of Solomon",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "proverbs",
+    10,
+    1,
+    22,
+    16
+   ]
+  ],
+  "rs": "Prov10:1-22:16",
+  "s": "A new heading begins the book’s largest collection: \"The proverbs of Solomon: A wise son brings joy to his father, but a foolish son grief to his mother.\"",
+  "n": "The collection holds about 375 two-line sayings, and the letters of Solomon’s name in Hebrew add up to 375. Most sayings in chapters 10-15 are contrasts; chapters 16-22 have more “better than” sayings and sayings about the king. Pin: Solomon’s Jerusalem.",
+  "im": [
+   "pv_bruegel",
+   "pv_cityofdavid"
+  ]
+ },
+ {
+  "i": 583,
+  "t": "The words of the wise: thirty sayings",
+  "p": "Jerusalem, the royal court",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "proverbs",
+    22,
+    17,
+    24,
+    34
+   ]
+  ],
+  "rs": "Prov22:17-24:34",
+  "s": "\"Incline your ear and hear the words of the wise.\" The teacher asks, \"Have I not written for you thirty sayings about counsel and knowledge,\" and goes on with sayings about the poor, rulers, riches, wine and rescuing those led away to death.",
+  "n": "Proverbs 22:17-24:22 has close links with the Egyptian Instruction of Amenemope, a teaching in thirty chapters known from a papyrus now in the British Museum. Many scholars think the Israelite teacher knew and reworked it; others think both drew on wisdom shared across the region. The pin stays at Jerusalem, where the collection was kept; the link with Egypt is noted, not mapped.",
+  "im": [
+   "pv_amenemope"
+  ]
+ },
+ {
+  "i": 584,
+  "t": "Hezekiah’s men copy more of Solomon’s proverbs",
+  "p": "Jerusalem, the court of Hezekiah",
+  "la": 31.7746,
+  "ln": 35.2358,
+  "r": [
+   [
+    "proverbs",
+    25,
+    1,
+    29,
+    27
+   ]
+  ],
+  "rs": "Prov25:1-29:27",
+  "s": "\"These are additional proverbs of Solomon, which were copied by the men of Hezekiah king of Judah.\" The collection includes the famous lines, \"If your enemy is hungry, give him food to eat, and if he is thirsty, give him water to drink.\"",
+  "n": "Hezekiah reigned in Judah about 715-686 BC, more than two centuries after Solomon. His court had royal scribes such as Shebna (2 Kings 18:18), and his reign saw a revival of worship (2 Chronicles 29-31). The pin is on the Ophel, south of the Temple Mount, where a clay seal impression naming “Hezekiah son of Ahaz, king of Judah” was found and announced in 2015.",
+  "im": [
+   "pv_siloam",
+   "pv_templemount"
+  ]
+ },
+ {
+  "i": 585,
+  "t": "The words of Agur son of Jakeh",
+  "p": "Massa in north Arabia? (place uncertain)",
+  "la": 27.63,
+  "ln": 38.55,
+  "r": [
+   [
+    "proverbs",
+    30,
+    1,
+    30,
+    33
+   ]
+  ],
+  "rs": "Prov30:1-33",
+  "s": "Agur begins, \"I am weary, O God, and worn out.\" He asks, \"Who has ascended to heaven and come down?\", prays, \"Give me neither poverty nor riches,\" and lists wonders in numbered sayings.",
+  "n": "Agur is not mentioned anywhere else. The Hebrew word massa in 30:1, read in the BSB as “the burden,” may instead name Massa, a tribe descended from Ishmael that lived in north Arabia (Genesis 25:14). The pin stands at the oasis of Tayma as a rough guess for that region, and it may be wrong. If he came from there, a man outside Israel is here speaking about Israel’s God.",
+  "im": [
+   "pv_ants"
+  ]
+ },
+ {
+  "i": 586,
+  "t": "King Lemuel’s mother teaches her son",
+  "p": "Massa in north Arabia? (place uncertain)",
+  "la": 27.7,
+  "ln": 38.6,
+  "r": [
+   [
+    "proverbs",
+    31,
+    1,
+    31,
+    9
+   ]
+  ],
+  "rs": "Prov31:1-9",
+  "s": "\"These are the words of King Lemuel—the burden that his mother taught him.\" She tells him not to waste his strength on women or wine, and: \"Open your mouth for those with no voice, for the cause of all the dispossessed.\"",
+  "n": "Lemuel is not known from any other source, and some Jewish tradition took the name as another name for Solomon. As in 30:1, the word massa may name his people in north Arabia. A queen mother had real influence at court (1 Kings 2:19), and here her teaching is kept in Scripture. Pin: a rough guess near Tayma.",
+  "im": [
+   "pv_sheba"
+  ]
+ },
+ {
+  "i": 587,
+  "t": "The woman of noble character",
+  "p": "No place named (pin at Jerusalem, where the book was gathered)",
+  "la": 31.774,
+  "ln": 35.234,
+  "r": [
+   [
+    "proverbs",
+    31,
+    10,
+    31,
+    31
+   ]
+  ],
+  "rs": "Prov31:10-31",
+  "s": "\"A wife of noble character, who can find? She is far more precious than rubies.\" The alphabet poem praises her work and ends, \"Charm is deceptive and beauty is fleeting, but a woman who fears the LORD is to be praised.\"",
+  "n": "The poem is an acrostic: its 22 verses begin with the 22 letters of the Hebrew alphabet in order. It names no place and no person. In many Hebrew Bibles the book of Ruth follows Proverbs, and Boaz calls Ruth “a woman of noble character” (Ruth 3:11), the same words as 31:10.",
+  "im": [
+   "pv_milkmaid"
+  ]
  }
 ]

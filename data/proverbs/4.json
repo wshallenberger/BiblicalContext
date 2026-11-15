@@ -1,0 +1,288 @@
+{
+ "book": "Proverbs",
+ "chapter": 4,
+ "title": "Get Wisdom",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Listen, my sons, to a father's instruction; pay attention and gain understanding."
+  },
+  {
+   "num": 2,
+   "text": "For I give you sound teaching; do not abandon my directive."
+  },
+  {
+   "num": 3,
+   "text": "When I was a son to my father, tender and the only child of my mother,"
+  },
+  {
+   "num": 4,
+   "text": "he taught me and said, \"Let your heart lay hold of my words; keep my commands and you will live."
+  },
+  {
+   "num": 5,
+   "text": "Get wisdom, get understanding; do not forget my words or turn from them."
+  },
+  {
+   "num": 6,
+   "text": "Do not forsake wisdom, and she will preserve you; love her, and she will guard you."
+  },
+  {
+   "num": 7,
+   "text": "Wisdom is supreme; so acquire wisdom. And whatever you may acquire, gain understanding."
+  },
+  {
+   "num": 8,
+   "text": "Prize her, and she will exalt you; if you embrace her, she will honor you."
+  },
+  {
+   "num": 9,
+   "text": "She will set a garland of grace on your head; she will present you with a crown of beauty.\""
+  },
+  {
+   "num": 10,
+   "text": "Listen, my son, and receive my words, and the years of your life will be many."
+  },
+  {
+   "num": 11,
+   "text": "I will guide you in the way of wisdom; I will lead you on straight paths."
+  },
+  {
+   "num": 12,
+   "text": "When you walk, your steps will not be impeded; when you run, you will not stumble."
+  },
+  {
+   "num": 13,
+   "text": "Hold on to instruction; do not let go. Guard it, for it is your life."
+  },
+  {
+   "num": 14,
+   "text": "Do not set foot on the path of the wicked or walk in the way of evildoers."
+  },
+  {
+   "num": 15,
+   "text": "Avoid it; do not travel on it. Turn from it and pass on by."
+  },
+  {
+   "num": 16,
+   "text": "For they cannot sleep unless they do evil; they are deprived of slumber until they make someone fall."
+  },
+  {
+   "num": 17,
+   "text": "For they eat the bread of wickedness and drink the wine of violence."
+  },
+  {
+   "num": 18,
+   "text": "The path of the righteous is like the first gleam of dawn, shining brighter and brighter until midday."
+  },
+  {
+   "num": 19,
+   "text": "But the way of the wicked is like the darkest gloom; they do not know what makes them stumble."
+  },
+  {
+   "num": 20,
+   "text": "My son, pay attention to my words; incline your ear to my sayings."
+  },
+  {
+   "num": 21,
+   "text": "Do not lose sight of them; keep them within your heart."
+  },
+  {
+   "num": 22,
+   "text": "For they are life to those who find them, and health to the whole body."
+  },
+  {
+   "num": 23,
+   "text": "Guard your heart with all diligence, for from it flow springs of life."
+  },
+  {
+   "num": 24,
+   "text": "Put away deception from your mouth; keep your lips from perverse speech."
+  },
+  {
+   "num": 25,
+   "text": "Let your eyes look forward; fix your gaze straight ahead."
+  },
+  {
+   "num": 26,
+   "text": "Make a level path for your feet, and all your ways will be sure."
+  },
+  {
+   "num": 27,
+   "text": "Do not swerve to the right or to the left; turn your feet away from evil."
+  }
+ ],
+ "context": {
+  "author": "Solomon son of David, king of Israel, according to the heading (1:1). Chapters 1-9 are a father’s speeches to his son, with Wisdom speaking for herself, and many scholars think an editor set them at the front as the book’s introduction.",
+  "genre": "Wisdom poetry: a father’s teaching and Lady Wisdom’s speeches",
+  "audience": "A young man (“my son”) being trained for adult life in Israel, and with him “the simple” and the wise (1:4-5)",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "The father tells his sons what his own father told him when he was young and tender: “Get wisdom, get understanding” (vv.1-9). Three generations stand in the chapter, a grandfather, a father and a son, handing wisdom down. Then come two paths: the path of the wicked, who cannot sleep until they have done evil, and the path of the righteous, “like the first gleam of dawn” growing brighter until full day (vv.10-19). Last, the son is told to guard his heart, his mouth, his eyes and his feet (vv.20-27).",
+  "custom": "In Israel family teaching passed from parents to children and grandchildren (Deuteronomy 4:9; Psalm 78:4-6). The “heart” in Hebrew is not just feelings; it is the inner person where we think, choose and decide. Roads in the hill country were rough tracks, so a level, straight path (v.26) meant a safe journey.",
+  "timelineImmediate": "Chapter 5 warns the son about the adulteress and calls him to delight in his own wife.",
+  "timelineBible": "The two ways, one of light and one of darkness, run through Psalm 1 and Jeremiah 21:8, and Jesus speaks of a narrow road and a wide one (Matthew 7:13-14). Hebrews 12:13 draws on v.26: “Make straight paths for your feet” (Hebrews 12:13).",
+  "translation": [
+   {
+    "english": "heart",
+    "greek": "לֵב (lev)",
+    "verseRef": "v.23",
+    "meaning": "The inner self: mind, will and desires. Proverbs uses the word about 90 times. Guard it, “for from it flow springs of life.”",
+    "gloss": "Inner self",
+    "strongs": "H3820",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "path",
+    "greek": "אֹרַח (orach)",
+    "verseRef": "v.14",
+    "meaning": "A road or way of life. Proverbs often pictures life as a journey on one path or another.",
+    "gloss": "Way of life",
+    "strongs": "H734",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "get",
+    "greek": "קָנָה (qanah)",
+    "verseRef": "v.5",
+    "meaning": "To acquire, to buy. Wisdom is worth whatever it costs (v.7).",
+    "gloss": "Acquire, buy",
+    "strongs": "H7069",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 7:13-14",
+    "note": "The narrow gate and the wide road."
+   },
+   {
+    "ref": "Hebrews 12:13",
+    "note": "“Make straight paths for your feet,” from v.26."
+   },
+   {
+    "ref": "Luke 6:45",
+    "note": "Out of the overflow of the heart the mouth speaks (vv.23-24)."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 1:1-6",
+    "note": "The way of the righteous and the way of the wicked."
+   },
+   {
+    "ref": "Deuteronomy 4:9",
+    "note": "Teach these things to your children and grandchildren."
+   },
+   {
+    "ref": "Jeremiah 17:9-10",
+    "note": "The LORD searches the heart."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A father passes on his own father’s words: get wisdom at any cost, stay on the path of light, and guard your heart.",
+   "settingLine": "Three generations pass wisdom on.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Family teaching",
+     "t": "Wisdom was handed down at home."
+    },
+    {
+     "h": "Hill country roads",
+     "t": "Rough tracks between villages."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The heart",
+     "t": "The seat of thought and choice."
+    },
+    {
+     "h": "Walking a path",
+     "t": "A common picture for a way of life."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ancient roads",
+     "t": "Stretches of Iron Age roads and paved Roman roads still cross the hills of Judah."
+    },
+    {
+     "h": "Family houses",
+     "t": "The four-room house was the home of an Israelite family."
+    }
+   ],
+   "discussion": "The father says wisdom was given to him by his father. Who handed wisdom to me, and to whom am I handing it on?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (1:1)",
+   "genre": "Wisdom poetry",
+   "audience": "“My son”: the young",
+   "refNotes": {
+    "Psalm 1:1-6": "Two ways",
+    "Deuteronomy 4:9": "To your grandchildren",
+    "Jeremiah 17:9-10": "The LORD searches hearts"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The grandfather",
+     "d": "Taught the father"
+    },
+    {
+     "n": "The father",
+     "d": "Teaches his sons"
+    },
+    {
+     "n": "Wisdom",
+     "d": "To be loved and embraced"
+    },
+    {
+     "n": "The wicked",
+     "d": "Cannot sleep without evil"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-9",
+     "label": "Get wisdom"
+    },
+    {
+     "when": "v.10-19",
+     "label": "Two paths"
+    },
+    {
+     "when": "v.20-27",
+     "label": "Guard your heart"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Listen, my sons, to a father's instruction; pay attention and gain understanding. Get wisdom, get understanding; do not forget my words or turn from them. Wisdom is supreme; so acquire wisdom. And whatever you may acquire, gain understanding. Hold on to instruction; do not let go. Guard it, for it is your life. The path of the righteous is like the first gleam of dawn, shining brighter and brighter until midday. But the way of the wicked is like the darkest gloom; they do not know what makes them stumble. Guard your heart with all diligence, for from it flow springs of life. Make a level path for your feet, and all your ways will be sure. Do not swerve to the right or to the left; turn your feet away from evil.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

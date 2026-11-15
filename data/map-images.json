@@ -2530,6 +2530,122 @@
    "rv_pudenziana",
    "rv_patmos_mon",
    "rv_trier"
+  ],
+  "proverbs:1": [
+   "pv_cityofdavid",
+   "pv_sheba"
+  ],
+  "proverbs:2": [
+   "pv_episteme",
+   "pv_cityofdavid"
+  ],
+  "proverbs:3": [
+   "pv_sheba",
+   "pv_megiddo"
+  ],
+  "proverbs:4": [
+   "pv_twelve",
+   "pv_cityofdavid"
+  ],
+  "proverbs:5": [
+   "pv_twelve"
+  ],
+  "proverbs:6": [
+   "pv_ants",
+   "pv_megiddo"
+  ],
+  "proverbs:7": [
+   "pv_steps",
+   "pv_twelve"
+  ],
+  "proverbs:8": [
+   "pv_episteme",
+   "pv_steps"
+  ],
+  "proverbs:9": [
+   "pv_megiddo",
+   "pv_twelve"
+  ],
+  "proverbs:10": [
+   "pv_bruegel",
+   "pv_cityofdavid"
+  ],
+  "proverbs:11": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:12": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:13": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:14": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:15": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:16": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:17": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:18": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:19": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:20": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:21": [
+   "pv_bruegel",
+   "pv_templemount"
+  ],
+  "proverbs:22": [
+   "pv_amenemope"
+  ],
+  "proverbs:23": [
+   "pv_amenemope"
+  ],
+  "proverbs:24": [
+   "pv_amenemope"
+  ],
+  "proverbs:25": [
+   "pv_siloam",
+   "pv_templemount"
+  ],
+  "proverbs:26": [
+   "pv_siloam"
+  ],
+  "proverbs:27": [
+   "pv_megiddo"
+  ],
+  "proverbs:28": [
+   "pv_siloam"
+  ],
+  "proverbs:29": [
+   "pv_siloam"
+  ],
+  "proverbs:30": [
+   "pv_ants",
+   "pv_qumran"
+  ],
+  "proverbs:31": [
+   "pv_milkmaid",
+   "pv_qumran"
   ]
  },
  "ac_ascmat": {
@@ -6697,5 +6813,109 @@
   "n": "Michelangelo, The Last Judgment",
   "d": "The Last Judgment by Michelangelo, painted on the altar wall of the Sistine Chapel in 1536-1541. Christ judges the dead, who rise from the earth, a picture of the great white throne of Revelation 20:11-15.",
   "a": "Michelangelo (1536-1541), public domain"
+ },
+ "pv_cityofdavid": {
+  "k": "now",
+  "f": "The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+  "c": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+  "n": "The City of David",
+  "d": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+  "a": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+ },
+ "pv_templemount": {
+  "k": "now",
+  "f": "Temple_Mount_(Aerial_view,_2007)_01.jpg",
+  "c": "The Temple Mount in Jerusalem from the air. Solomon built the first Temple on this hill (1 Kings 6), in the city where his proverbs were first collected.",
+  "n": "The Temple Mount",
+  "d": "The Temple Mount in Jerusalem from the air. Solomon built the first Temple on this hill (1 Kings 6), in the city where his proverbs were first collected.",
+  "a": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "pv_steps": {
+  "k": "dig",
+  "f": "Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+  "c": "Ancient steps on the south side of the Temple Mount in Jerusalem. Wisdom “calls out in the street” at the busy places where people came and went (Proverbs 1:20-21; 8:1-3).",
+  "n": "Steps south of the Temple Mount",
+  "d": "Ancient steps on the south side of the Temple Mount in Jerusalem. Wisdom “calls out in the street” at the busy places where people came and went (Proverbs 1:20-21; 8:1-3).",
+  "a": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+ },
+ "pv_sheba": {
+  "k": "art",
+  "f": "'The_Visit_of_the_Queen_of_Sheba_to_King_Solomon',_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+  "c": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890, Art Gallery of New South Wales). The queen came to test Solomon with hard questions, and said, “Your wisdom and prosperity far exceed the report I heard” (1 Kings 10:1-7).",
+  "n": "Poynter, The Queen of Sheba visits Solomon",
+  "d": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890, Art Gallery of New South Wales). The queen came to test Solomon with hard questions, and said, “Your wisdom and prosperity far exceed the report I heard” (1 Kings 10:1-7).",
+  "a": "Edward Poynter (1890), public domain / Wikimedia Commons"
+ },
+ "pv_bruegel": {
+  "k": "art",
+  "f": "Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+  "c": "Netherlandish Proverbs, painted by Pieter Bruegel the Elder in 1559 (Gemäldegalerie, Berlin). More than a hundred Dutch sayings are acted out at once in one crowded village, a reminder that every people keeps its wisdom in short, memorable lines.",
+  "n": "Bruegel, Netherlandish Proverbs",
+  "d": "Netherlandish Proverbs, painted by Pieter Bruegel the Elder in 1559 (Gemäldegalerie, Berlin). More than a hundred Dutch sayings are acted out at once in one crowded village, a reminder that every people keeps its wisdom in short, memorable lines.",
+  "a": "Pieter Bruegel the Elder (1559), public domain / Wikimedia Commons"
+ },
+ "pv_episteme": {
+  "k": "dig",
+  "f": "Efez_Celsus_Library_5_RB.jpg",
+  "c": "A statue on the front of the Library of Celsus at Ephesus (about AD 117), labeled in Greek “Episteme,” Knowledge. Its partner in the next niche is Sophia, Wisdom. Greeks and Romans pictured wisdom and knowledge as women, as Proverbs does long before them.",
+  "n": "Library of Celsus, Ephesus: Knowledge",
+  "d": "A statue on the front of the Library of Celsus at Ephesus (about AD 117), labeled in Greek “Episteme,” Knowledge. Its partner in the next niche is Sophia, Wisdom. Greeks and Romans pictured wisdom and knowledge as women, as Proverbs does long before them.",
+  "a": "Photo: Radomil, CC BY-SA 3.0 / Wikimedia Commons"
+ },
+ "pv_amenemope": {
+  "k": "dig",
+  "f": "Hieratic_Ostracon_with_the_beginning_of_\"The_Wisdom_of_Amenemope\"_MET_LC-26_3_165_EGDP027774.jpg",
+  "c": "A potsherd written in hieratic with the opening of the Egyptian Instruction of Amenemope (Metropolitan Museum of Art). The full text is on a papyrus in the British Museum. Many scholars see close links between Amenemope and Proverbs 22:17-24:22.",
+  "n": "The Instruction of Amenemope",
+  "d": "A potsherd written in hieratic with the opening of the Egyptian Instruction of Amenemope (Metropolitan Museum of Art). The full text is on a papyrus in the British Museum. Many scholars see close links between Amenemope and Proverbs 22:17-24:22.",
+  "a": "Metropolitan Museum of Art, public domain (CC0) / Wikimedia Commons"
+ },
+ "pv_siloam": {
+  "k": "dig",
+  "f": "Siloam_Inscription.jpg",
+  "c": "A drawing of the Siloam inscription, cut in Hezekiah’s water tunnel under Jerusalem about 700 BC (the stone is now in Istanbul). It shows the Hebrew script that “the men of Hezekiah” would have used when they copied out Solomon’s proverbs (25:1).",
+  "n": "The Siloam inscription",
+  "d": "A drawing of the Siloam inscription, cut in Hezekiah’s water tunnel under Jerusalem about 700 BC (the stone is now in Istanbul). It shows the Hebrew script that “the men of Hezekiah” would have used when they copied out Solomon’s proverbs (25:1).",
+  "a": "Jewish Encyclopedia (1901-1906), public domain / Wikimedia Commons"
+ },
+ "pv_ants": {
+  "k": "now",
+  "f": "Ants_CBMen_4.JPG",
+  "c": "Harvester ants (Messor) carrying seeds into their nest. Ants like these gather grain in summer and store it underground, the habit Proverbs points to (6:6-8; 30:25).",
+  "n": "Harvester ants",
+  "d": "Harvester ants (Messor) carrying seeds into their nest. Ants like these gather grain in summer and store it underground, the habit Proverbs points to (6:6-8; 30:25).",
+  "a": "Wikimedia Commons"
+ },
+ "pv_milkmaid": {
+  "k": "art",
+  "f": "Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+  "c": "The Milkmaid, by Johannes Vermeer (about 1658, Rijksmuseum, Amsterdam). Proverbs ends by praising a woman’s ordinary, skilled work with food, cloth and trade as the fear of the LORD lived out (31:10-31).",
+  "n": "Vermeer, The Milkmaid",
+  "d": "The Milkmaid, by Johannes Vermeer (about 1658, Rijksmuseum, Amsterdam). Proverbs ends by praising a woman’s ordinary, skilled work with food, cloth and trade as the fear of the LORD lived out (31:10-31).",
+  "a": "Johannes Vermeer (about 1658), public domain / Wikimedia Commons"
+ },
+ "pv_twelve": {
+  "k": "art",
+  "f": "Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+  "c": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+  "n": "Bruegel, Twelve Proverbs",
+  "d": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+  "a": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+ },
+ "pv_megiddo": {
+  "k": "now",
+  "f": "AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+  "c": "The mound of Megiddo above the Jezreel Valley. Solomon fortified Megiddo, Hazor and Gezer (1 Kings 9:15), and his officers ran the kingdom from towns like these.",
+  "n": "Megiddo",
+  "d": "The mound of Megiddo above the Jezreel Valley. Solomon fortified Megiddo, Hazor and Gezer (1 Kings 9:15), and his officers ran the kingdom from towns like these.",
+  "a": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+ },
+ "pv_qumran": {
+  "k": "dig",
+  "f": "Storage_jars,_Qumran,_2019_(01).jpg",
+  "c": "Storage jars of the kind that held the Dead Sea Scrolls. Two fragmentary copies of Proverbs (4Q102 and 4Q103) were among the scrolls found near Qumran.",
+  "n": "Qumran storage jars",
+  "d": "Storage jars of the kind that held the Dead Sea Scrolls. Two fragmentary copies of Proverbs (4Q102 and 4Q103) were among the scrolls found near Qumran.",
+  "a": "Photo: Bahnfrend, CC BY-SA 4.0 / Wikimedia Commons"
  }
 }

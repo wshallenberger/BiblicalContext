@@ -1,0 +1,272 @@
+{
+ "book": "Proverbs",
+ "chapter": 2,
+ "title": "The Value of Wisdom",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "My son, if you accept my words and hide my commandments within you,"
+  },
+  {
+   "num": 2,
+   "text": "if you incline your ear to wisdom and direct your heart to understanding,"
+  },
+  {
+   "num": 3,
+   "text": "if you truly call out to insight and lift your voice to understanding,"
+  },
+  {
+   "num": 4,
+   "text": "if you seek it like silver and search it out like hidden treasure,"
+  },
+  {
+   "num": 5,
+   "text": "then you will discern the fear of the LORD and discover the knowledge of God."
+  },
+  {
+   "num": 6,
+   "text": "For the LORD gives wisdom; from His mouth come knowledge and understanding."
+  },
+  {
+   "num": 7,
+   "text": "He stores up sound wisdom for the upright; He is a shield to those who walk with integrity,"
+  },
+  {
+   "num": 8,
+   "text": "to guard the paths of justice and protect the way of His saints."
+  },
+  {
+   "num": 9,
+   "text": "Then you will discern righteousness and justice and equity—every good path."
+  },
+  {
+   "num": 10,
+   "text": "For wisdom will enter your heart, and knowledge will delight your soul."
+  },
+  {
+   "num": 11,
+   "text": "Discretion will watch over you, and understanding will guard you,"
+  },
+  {
+   "num": 12,
+   "text": "to deliver you from the way of evil, from the man who speaks perversity,"
+  },
+  {
+   "num": 13,
+   "text": "from those who leave the straight paths to walk in the ways of darkness,"
+  },
+  {
+   "num": 14,
+   "text": "from those who enjoy doing evil and rejoice in the twistedness of evil,"
+  },
+  {
+   "num": 15,
+   "text": "whose paths are crooked and whose ways are devious."
+  },
+  {
+   "num": 16,
+   "text": "It will rescue you from the forbidden woman, from the stranger with seductive words"
+  },
+  {
+   "num": 17,
+   "text": "who abandons the partner of her youth and forgets the covenant of her God."
+  },
+  {
+   "num": 18,
+   "text": "For her house sinks down to death, and her tracks to the departed spirits."
+  },
+  {
+   "num": 19,
+   "text": "None who go to her return or negotiate the paths of life."
+  },
+  {
+   "num": 20,
+   "text": "So you will follow in the ways of the good, and keep to the paths of the righteous."
+  },
+  {
+   "num": 21,
+   "text": "For the upright will inhabit the land, and the blameless will remain in it;"
+  },
+  {
+   "num": 22,
+   "text": "but the wicked will be cut off from the land, and the unfaithful will be uprooted."
+  }
+ ],
+ "context": {
+  "author": "Solomon son of David, king of Israel, according to the heading (1:1). Chapters 1-9 are a father’s speeches to his son, with Wisdom speaking for herself, and many scholars think an editor set them at the front as the book’s introduction.",
+  "genre": "Wisdom poetry: a father’s teaching and Lady Wisdom’s speeches",
+  "audience": "A young man (“my son”) being trained for adult life in Israel, and with him “the simple” and the wise (1:4-5)",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "The father uses a chain of “if” and “then.” If his son accepts his words, calls out for insight and searches for wisdom like silver or hidden treasure (vv.1-4), then he will understand the fear of the LORD and find the knowledge of God (vv.5-8). Wisdom will guard him from men whose ways are crooked (vv.12-15) and from the adulteress who has left the companion of her youth and forgotten the covenant of her God (vv.16-19). The upright will live in the land; the wicked will be cut off from it (vv.21-22).",
+  "custom": "People hid silver and valuables in the ground or in jars, and Jesus later tells of a man who found treasure hidden in a field (Matthew 13:44). Mining was hard work in ancient Israel; Job 28 describes miners digging for silver and gold as a picture of searching for wisdom. Marriage was a covenant made before God (v.17; Malachi 2:14), so leaving it was more than a private matter.",
+  "timelineImmediate": "Chapter 3 teaches trust in the LORD with all the heart and shows the blessings that follow.",
+  "timelineBible": "The promise that the upright will “inhabit the land” (v.21) recalls God’s covenant gift of Canaan (Deuteronomy 4:1). The search for wisdom as for buried treasure is echoed in Job 28, which ends, “the fear of the Lord, that is wisdom” (Job 28:28).",
+  "translation": [
+   {
+    "english": "treasure",
+    "greek": "מַטְמוֹן (matmon)",
+    "verseRef": "v.4",
+    "meaning": "Something hidden away, buried treasure. Wisdom is worth digging for.",
+    "gloss": "Hidden treasure",
+    "strongs": "H4301",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "understanding",
+    "greek": "תְּבוּנָה (tevunah)",
+    "verseRef": "v.2",
+    "meaning": "Discernment, the ability to see how things fit together and choose well.",
+    "gloss": "Discernment",
+    "strongs": "H8394",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "covenant",
+    "greek": "בְּרִית (berit)",
+    "verseRef": "v.17",
+    "meaning": "A binding agreement made before God. Here it is the covenant of marriage, which the adulteress forgets.",
+    "gloss": "Binding agreement",
+    "strongs": "H1285",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 13:44",
+    "note": "The kingdom is like treasure hidden in a field."
+   },
+   {
+    "ref": "Colossians 2:3",
+    "note": "In Christ “are hidden all the treasures of wisdom and knowledge.”"
+   },
+   {
+    "ref": "James 1:5",
+    "note": "Whoever lacks wisdom should ask God, who gives generously."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Job 28:12-28",
+    "note": "Where can wisdom be found? The fear of the Lord."
+   },
+   {
+    "ref": "1 Kings 3:9-12",
+    "note": "Solomon asks for a discerning heart, and God grants it."
+   },
+   {
+    "ref": "Malachi 2:14-16",
+    "note": "The wife of your youth, your partner by covenant."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Search for wisdom like hidden treasure, and the LORD will give it; wisdom will then keep you from crooked men and from the adulteress.",
+   "settingLine": "A father teaches his son at home.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Gift and search",
+     "t": "Wisdom is God’s gift (v.6) and must still be sought."
+    },
+    {
+     "h": "The land",
+     "t": "Living in the land was the covenant blessing."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Buried treasure",
+     "t": "Valuables were hidden in jars and fields."
+    },
+    {
+     "h": "Marriage covenant",
+     "t": "Made before God, not only between two people."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Silver hoards",
+     "t": "Jars of silver pieces have been dug up at sites in Israel such as Eshtemoa."
+    },
+    {
+     "h": "Mines of the Arabah",
+     "t": "Copper mines at Timna and Faynan were worked in the time of David and Solomon."
+    }
+   ],
+   "discussion": "The father says the LORD gives wisdom (v.6) but also tells his son to dig for it like silver (v.4). How do God’s gift and my own effort fit together?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (1:1)",
+   "genre": "Wisdom poetry",
+   "audience": "“My son”: the young",
+   "refNotes": {
+    "Job 28:12-28": "Where is wisdom found?",
+    "1 Kings 3:9-12": "Solomon asks for wisdom",
+    "Malachi 2:14-16": "The wife of your youth"
+   },
+   "peoplePlaces": [
+    {
+     "n": "My son",
+     "d": "Told to search for wisdom"
+    },
+    {
+     "n": "The LORD",
+     "d": "Gives wisdom"
+    },
+    {
+     "n": "Crooked men",
+     "d": "Walk in darkness"
+    },
+    {
+     "n": "The adulteress",
+     "d": "Forgets her covenant"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "If you search"
+    },
+    {
+     "when": "v.5-11",
+     "label": "Then you will find"
+    },
+    {
+     "when": "v.12-19",
+     "label": "Saved from evil"
+    },
+    {
+     "when": "v.20-22",
+     "label": "The two ends"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "My son, if you accept my words and hide my commandments within you, if you incline your ear to wisdom and direct your heart to understanding, if you seek it like silver and search it out like hidden treasure, then you will discern the fear of the LORD and discover the knowledge of God. For the LORD gives wisdom; from His mouth come knowledge and understanding. He stores up sound wisdom for the upright; He is a shield to those who walk with integrity, Discretion will watch over you, and understanding will guard you, It will rescue you from the forbidden woman, from the stranger with seductive words So you will follow in the ways of the good, and keep to the paths of the righteous.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Efez_Celsus_Library_5_RB.jpg",
+   "caption": "A statue on the front of the Library of Celsus at Ephesus (about AD 117), labeled in Greek “Episteme,” Knowledge. Its partner in the next niche is Sophia, Wisdom. Greeks and Romans pictured wisdom and knowledge as women, as Proverbs does long before them.",
+   "credit": "Photo: Radomil, CC BY-SA 3.0 / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

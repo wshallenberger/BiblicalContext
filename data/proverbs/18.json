@@ -1,0 +1,276 @@
+{
+ "book": "Proverbs",
+ "chapter": 18,
+ "title": "The Name of the LORD Is a Strong Tower",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "He who isolates himself pursues selfish desires; he rebels against all sound judgment."
+  },
+  {
+   "num": 2,
+   "text": "A fool does not delight in understanding, but only in airing his opinions."
+  },
+  {
+   "num": 3,
+   "text": "With a wicked man comes contempt as well, and shame is accompanied by disgrace."
+  },
+  {
+   "num": 4,
+   "text": "The words of a man's mouth are deep waters; the fountain of wisdom is a bubbling brook."
+  },
+  {
+   "num": 5,
+   "text": "Showing partiality to the wicked is not good, nor is depriving the innocent of justice."
+  },
+  {
+   "num": 6,
+   "text": "A fool's lips bring him strife, and his mouth invites a beating."
+  },
+  {
+   "num": 7,
+   "text": "A fool's mouth is his ruin, and his lips are a snare to his soul."
+  },
+  {
+   "num": 8,
+   "text": "The words of a gossip are like choice morsels that go down into the inmost being."
+  },
+  {
+   "num": 9,
+   "text": "Whoever is slothful in his work is brother to him who destroys."
+  },
+  {
+   "num": 10,
+   "text": "The name of the LORD is a strong tower; the righteous run to it and are safe."
+  },
+  {
+   "num": 11,
+   "text": "A rich man's wealth is his fortified city; it is like a high wall in his imagination."
+  },
+  {
+   "num": 12,
+   "text": "Before his downfall a man's heart is proud, but humility comes before honor."
+  },
+  {
+   "num": 13,
+   "text": "He who answers a matter before he hears it— this is folly and disgrace to him."
+  },
+  {
+   "num": 14,
+   "text": "The spirit of a man can endure his sickness, but who can survive a broken spirit?"
+  },
+  {
+   "num": 15,
+   "text": "The heart of the discerning acquires knowledge, and the ear of the wise seeks it out."
+  },
+  {
+   "num": 16,
+   "text": "A man's gift opens doors for him, and brings him before great men."
+  },
+  {
+   "num": 17,
+   "text": "The first to state his case seems right until another comes and cross-examines him."
+  },
+  {
+   "num": 18,
+   "text": "Casting the lot ends quarrels and separates strong opponents."
+  },
+  {
+   "num": 19,
+   "text": "An offended brother is harder to win than a fortified city, and disputes are like the bars of a castle."
+  },
+  {
+   "num": 20,
+   "text": "From the fruit of his mouth a man's belly is filled; with the harvest from his lips he is satisfied."
+  },
+  {
+   "num": 21,
+   "text": "Life and death are in the power of the tongue, and those who love it will eat its fruit."
+  },
+  {
+   "num": 22,
+   "text": "He who finds a wife finds a good thing and obtains favor from the LORD."
+  },
+  {
+   "num": 23,
+   "text": "The poor man pleads for mercy, but the rich man answers harshly."
+  },
+  {
+   "num": 24,
+   "text": "A man of many companions may come to ruin, but there is a friend who stays closer than a brother."
+  }
+ ],
+ "context": {
+  "author": "Solomon, named in the heading “The proverbs of Solomon” (10:1). The collection runs from 10:1 to 22:16, about 375 sayings.",
+  "genre": "Wisdom sayings: two-line proverbs, most of them contrasts",
+  "audience": "Anyone learning to live wisely, first the young men of Israel’s court and households",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "The man who isolates himself pursues his own desires and rejects sound judgment (v.1), and the fool does not delight in understanding but only in airing his opinions (v.2). Words are deep waters (v.4), the gossip’s words are choice morsels (v.8), and “life and death are in the power of the tongue” (v.21). The rich man thinks his wealth is a high wall (v.11), but “the name of the LORD is a strong tower; the righteous run to it and are safe” (v.10). Answer before you listen and you show folly (v.13); the first to state his case seems right until another comes to question him (v.17). He who finds a wife finds a good thing (v.22), and there is a friend who sticks closer than a brother (v.24).",
+  "custom": "Walled towns had towers at the corners and gates where people fled in war (Judges 9:51). Disputes were heard at the gate, where both sides spoke before the elders (vv.13, 17). Casting lots could settle a dispute between powerful men (v.18). A gift could open doors and bring a man before the great (v.16).",
+  "timelineImmediate": "Chapter 19 sets the poor man of integrity above the rich fool and returns to the slacker and the angry man.",
+  "timelineBible": "David calls God “my rock, my fortress and my deliverer” (Psalm 18:2) and “a tower of strength against the enemy” (Psalm 61:3). The law required that both sides be heard (Deuteronomy 1:16-17), as v.17 says.",
+  "translation": [
+   {
+    "english": "tower",
+    "greek": "מִגְדָּל (migdal)",
+    "verseRef": "v.10",
+    "meaning": "A tower, the strongest part of a city’s walls. Magdala and Migdol are named from it.",
+    "gloss": "Tower",
+    "strongs": "H4026",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "tongue",
+    "greek": "לָשׁוֹן (lashon)",
+    "verseRef": "v.21",
+    "meaning": "The tongue, and so speech or language. Life and death are in its power.",
+    "gloss": "Tongue",
+    "strongs": "H3956",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "choice morsels",
+    "greek": "לָהַם (laham)",
+    "verseRef": "v.8",
+    "meaning": "Tasty bits, swallowed eagerly. Gossip goes down easily and stays inside.",
+    "gloss": "Tasty bits",
+    "strongs": "H3859",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "James 3:6-10",
+    "note": "From the same mouth come blessing and cursing."
+   },
+   {
+    "ref": "James 1:19",
+    "note": "Quick to listen, slow to speak (v.13)."
+   },
+   {
+    "ref": "John 15:15",
+    "note": "I have called you friends."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 61:3",
+    "note": "A strong tower against the enemy."
+   },
+   {
+    "ref": "Psalm 18:2",
+    "note": "The LORD is my rock and my fortress."
+   },
+   {
+    "ref": "Deuteronomy 1:16-17",
+    "note": "Hear both sides and judge fairly."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Words carry life and death; listen before you answer, hear both sides, and run to the LORD, whose name is a strong tower.",
+   "settingLine": "Sayings about words, refuge and friendship.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "City towers",
+     "t": "People fled to the tower in war."
+    },
+    {
+     "h": "Hearing cases",
+     "t": "Elders heard both sides at the gate."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Gifts",
+     "t": "Gifts opened the way to the great."
+    },
+    {
+     "h": "Casting lots",
+     "t": "Lots settled disputes."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gate towers",
+     "t": "The towered gates of Megiddo and Gezer guarded the way in."
+    },
+    {
+     "h": "Wall of Jerusalem",
+     "t": "Hezekiah’s broad wall in Jerusalem, about 7 meters thick, still survives in the Jewish Quarter."
+    }
+   ],
+   "discussion": "“He who answers a matter before he hears it— this is folly and disgrace to him” (v.13). When did I last answer before I really heard someone out?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (10:1)",
+   "genre": "Proverbs (two-line sayings)",
+   "audience": "Everyone, starting with the young",
+   "refNotes": {
+    "Psalm 61:3": "A strong tower",
+    "Psalm 18:2": "My fortress",
+    "Deuteronomy 1:16-17": "Hear both sides"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The loner",
+     "d": "Pursues his own desires"
+    },
+    {
+     "n": "The gossip",
+     "d": "Serves tasty morsels"
+    },
+    {
+     "n": "The righteous",
+     "d": "Run to the strong tower"
+    },
+    {
+     "n": "The friend",
+     "d": "Sticks closer than a brother"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Fools and gossip"
+    },
+    {
+     "when": "v.9-16",
+     "label": "The strong tower"
+    },
+    {
+     "when": "v.17-24",
+     "label": "Both sides; friends"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "He who isolates himself pursues selfish desires; he rebels against all sound judgment. A fool does not delight in understanding, but only in airing his opinions. The name of the LORD is a strong tower; the righteous run to it and are safe. Before his downfall a man's heart is proud, but humility comes before honor. He who answers a matter before he hears it— this is folly and disgrace to him. The first to state his case seems right until another comes and cross-examines him. Life and death are in the power of the tongue, and those who love it will eat its fruit. He who finds a wife finds a good thing and obtains favor from the LORD. A man of many companions may come to ruin, but there is a friend who stays closer than a brother.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+   "caption": "Netherlandish Proverbs, painted by Pieter Bruegel the Elder in 1559 (Gemäldegalerie, Berlin). More than a hundred Dutch sayings are acted out at once in one crowded village, a reminder that every people keeps its wisdom in short, memorable lines.",
+   "credit": "Pieter Bruegel the Elder (1559), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+   "caption": "The mound of Megiddo above the Jezreel Valley. Towered walls and gates guarded cities like this one; “the name of the LORD is a strong tower; the righteous run to it and are safe” (Proverbs 18:10).",
+   "credit": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

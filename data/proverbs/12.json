@@ -1,0 +1,292 @@
+{
+ "book": "Proverbs",
+ "chapter": 12,
+ "title": "Love Discipline",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Whoever loves discipline loves knowledge, but he who hates correction is stupid."
+  },
+  {
+   "num": 2,
+   "text": "The good man obtains favor from the LORD, but the LORD condemns a man who devises evil."
+  },
+  {
+   "num": 3,
+   "text": "A man cannot be established through wickedness, but the righteous cannot be uprooted."
+  },
+  {
+   "num": 4,
+   "text": "A wife of noble character is her husband's crown, but she who causes shame is like decay in his bones."
+  },
+  {
+   "num": 5,
+   "text": "The plans of the righteous are just, but the counsel of the wicked leads to deceit."
+  },
+  {
+   "num": 6,
+   "text": "The words of the wicked lie in wait for blood, but the speech of the upright rescues them."
+  },
+  {
+   "num": 7,
+   "text": "The wicked are overthrown and perish, but the house of the righteous will stand."
+  },
+  {
+   "num": 8,
+   "text": "A man is praised according to his wisdom, but a twisted mind is despised."
+  },
+  {
+   "num": 9,
+   "text": "Better to be lightly esteemed yet have a servant, than to be self-important but lack food."
+  },
+  {
+   "num": 10,
+   "text": "A righteous man regards the life of his animal, but the tender mercies of the wicked are only cruelty."
+  },
+  {
+   "num": 11,
+   "text": "The one who works his land will have plenty of food, but whoever chases fantasies lacks judgment."
+  },
+  {
+   "num": 12,
+   "text": "The wicked desire the plunder of evil men, but the root of the righteous flourishes."
+  },
+  {
+   "num": 13,
+   "text": "An evil man is trapped by his rebellious speech, but a righteous man escapes from trouble."
+  },
+  {
+   "num": 14,
+   "text": "By fruitful speech a man is filled with good things, and the work of his hands returns to him."
+  },
+  {
+   "num": 15,
+   "text": "The way of a fool is right in his own eyes, but a wise man listens to counsel."
+  },
+  {
+   "num": 16,
+   "text": "A fool's anger is known at once, but a prudent man overlooks an insult."
+  },
+  {
+   "num": 17,
+   "text": "He who speaks the truth declares what is right, but a false witness speaks deceit."
+  },
+  {
+   "num": 18,
+   "text": "Speaking rashly is like a piercing sword, but the tongue of the wise brings healing."
+  },
+  {
+   "num": 19,
+   "text": "Truthful lips endure forever, but a lying tongue lasts only a moment."
+  },
+  {
+   "num": 20,
+   "text": "Deceit is in the hearts of those who devise evil, but the counselors of peace have joy."
+  },
+  {
+   "num": 21,
+   "text": "No harm befalls the righteous, but the wicked are filled with trouble."
+  },
+  {
+   "num": 22,
+   "text": "Lying lips are detestable to the LORD, but those who deal faithfully are His delight."
+  },
+  {
+   "num": 23,
+   "text": "A shrewd man keeps his knowledge to himself, but a foolish heart proclaims its folly."
+  },
+  {
+   "num": 24,
+   "text": "The hand of the diligent will rule, but laziness ends in forced labor."
+  },
+  {
+   "num": 25,
+   "text": "Anxiety weighs down the heart of a man, but a good word cheers it up."
+  },
+  {
+   "num": 26,
+   "text": "A righteous man is cautious in friendship, but the ways of the wicked lead them astray."
+  },
+  {
+   "num": 27,
+   "text": "A lazy man does not roast his game, but a diligent man prizes his possession."
+  },
+  {
+   "num": 28,
+   "text": "There is life in the path of righteousness, but another path leads to death."
+  }
+ ],
+ "context": {
+  "author": "Solomon, named in the heading “The proverbs of Solomon” (10:1). The collection runs from 10:1 to 22:16, about 375 sayings.",
+  "genre": "Wisdom sayings: two-line proverbs, most of them contrasts",
+  "audience": "Anyone learning to live wisely, first the young men of Israel’s court and households",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "“Whoever loves discipline loves knowledge, but he who hates correction is stupid” (v.1). The chapter sets the righteous beside the wicked in family, farm and court. A noble wife is her husband’s crown, and a disgraceful one is like rot in his bones (v.4). The righteous man cares for the needs of his animals (v.10), and the one who works his land has plenty of food (v.11). Much of the chapter is about words: lying lips, a truthful witness, reckless words that pierce like a sword, and “the tongue of the wise brings healing” (v.18).",
+  "custom": "Most families lived from their own fields and animals. The law told Israel to rest their animals on the Sabbath (Exodus 23:12) and not to muzzle an ox while it threshed (Deuteronomy 25:4), and v.10 reflects that care. Legal cases were settled by witnesses at the gate, so a true or false witness (v.17) could decide a life.",
+  "timelineImmediate": "Chapter 13 continues with sayings about hope, work, wealth and the training of children.",
+  "timelineBible": "The false witness is forbidden in the ninth commandment (Exodus 20:16). Paul tells the Thessalonians to work with their hands (1 Thessalonians 4:11-12), and James warns about the fire of the tongue (James 3:5-10).",
+  "translation": [
+   {
+    "english": "discipline",
+    "greek": "מוּסָר (musar)",
+    "verseRef": "v.1",
+    "meaning": "Correction and training. The wise love it because it makes them grow.",
+    "gloss": "Correction",
+    "strongs": "H4148",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "anxiety",
+    "greek": "דְּאָגָה (de’agah)",
+    "verseRef": "v.25",
+    "meaning": "Worry, a heavy heart. “Anxiety weighs down the heart of a man, but a good word cheers it up.”",
+    "gloss": "Worry",
+    "strongs": "H1674",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "noble",
+    "greek": "חַיִל (chayil)",
+    "verseRef": "v.4",
+    "meaning": "Strength, worth, valor. The same phrase “a woman of valor” describes the wife of 31:10 and Ruth (Ruth 3:11).",
+    "gloss": "Strong, worthy",
+    "strongs": "H2428",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "James 3:5-10",
+    "note": "The tongue is a small part but sets a forest ablaze."
+   },
+   {
+    "ref": "Hebrews 12:11",
+    "note": "No discipline seems pleasant at the time."
+   },
+   {
+    "ref": "Ephesians 4:25",
+    "note": "Put off falsehood and speak truthfully."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 25:4",
+    "note": "Do not muzzle an ox while it is treading grain."
+   },
+   {
+    "ref": "Exodus 20:16",
+    "note": "Do not bear false witness."
+   },
+   {
+    "ref": "Ruth 3:11",
+    "note": "A woman of noble character."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The wise love correction, care for their animals, work their land, and speak words that heal; the wicked lie and are caught by their own words.",
+   "settingLine": "Sayings for the home, the field and the court.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Village farms",
+     "t": "Families lived from their own land."
+    },
+    {
+     "h": "Trials at the gate",
+     "t": "Witnesses decided cases."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Animals",
+     "t": "Oxen and donkeys were the family’s wealth."
+    },
+    {
+     "h": "Witnesses",
+     "t": "Two or three were needed (Deuteronomy 19:15)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Animal stalls",
+     "t": "Israelite houses kept animals on the ground floor."
+    },
+    {
+     "h": "Threshing floors",
+     "t": "Every village had one for the grain harvest."
+    }
+   ],
+   "discussion": "“The tongue of the wise brings healing” (v.18). Whose words have healed me, and whom could my words heal this week?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (10:1)",
+   "genre": "Proverbs (two-line sayings)",
+   "audience": "Everyone, starting with the young",
+   "refNotes": {
+    "Deuteronomy 25:4": "Care for animals",
+    "Exodus 20:16": "False witness",
+    "Ruth 3:11": "A woman of valor"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The noble wife",
+     "d": "Her husband’s crown"
+    },
+    {
+     "n": "The righteous",
+     "d": "Cares for his animals"
+    },
+    {
+     "n": "The truthful witness",
+     "d": "Speaks what is right"
+    },
+    {
+     "n": "The liar",
+     "d": "Abhorred by the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-12",
+     "label": "Home and field"
+    },
+    {
+     "when": "v.13-23",
+     "label": "True and false words"
+    },
+    {
+     "when": "v.24-28",
+     "label": "Work and the way of life"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Whoever loves discipline loves knowledge, but he who hates correction is stupid. A wife of noble character is her husband's crown, but she who causes shame is like decay in his bones. A righteous man regards the life of his animal, but the tender mercies of the wicked are only cruelty. The one who works his land will have plenty of food, but whoever chases fantasies lacks judgment. The way of a fool is right in his own eyes, but a wise man listens to counsel. Speaking rashly is like a piercing sword, but the tongue of the wise brings healing. Truthful lips endure forever, but a lying tongue lasts only a moment. Lying lips are detestable to the LORD, but those who deal faithfully are His delight. Anxiety weighs down the heart of a man, but a good word cheers it up. There is life in the path of righteousness, but another path leads to death.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

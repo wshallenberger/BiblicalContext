@@ -1,0 +1,292 @@
+{
+ "book": "Proverbs",
+ "chapter": 26,
+ "title": "The Fool, the Slacker and the Gossip",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Like snow in summer and rain at harvest, honor does not befit a fool."
+  },
+  {
+   "num": 2,
+   "text": "Like a fluttering sparrow or darting swallow, an undeserved curse does not come to rest."
+  },
+  {
+   "num": 3,
+   "text": "A whip for the horse, a bridle for the donkey, and a rod for the backs of fools!"
+  },
+  {
+   "num": 4,
+   "text": "Do not answer a fool according to his folly, or you yourself will be like him."
+  },
+  {
+   "num": 5,
+   "text": "Answer a fool according to his folly, lest he become wise in his own eyes."
+  },
+  {
+   "num": 6,
+   "text": "Like cutting off one's own feet or drinking violence is the sending of a message by the hand of a fool."
+  },
+  {
+   "num": 7,
+   "text": "Like lame legs hanging limp is a proverb in the mouth of a fool."
+  },
+  {
+   "num": 8,
+   "text": "Like binding a stone into a sling is the giving of honor to a fool."
+  },
+  {
+   "num": 9,
+   "text": "Like a thorn that falls into the hand of a drunkard is a proverb in the mouth of a fool."
+  },
+  {
+   "num": 10,
+   "text": "Like an archer who wounds at random is he who hires a fool or passerby."
+  },
+  {
+   "num": 11,
+   "text": "As a dog returns to its vomit, so a fool repeats his folly."
+  },
+  {
+   "num": 12,
+   "text": "Do you see a man who is wise in his own eyes? There is more hope for a fool than for him."
+  },
+  {
+   "num": 13,
+   "text": "The slacker says, \"A lion is in the road! A fierce lion roams the public square!\""
+  },
+  {
+   "num": 14,
+   "text": "As a door turns on its hinges, so the slacker turns on his bed."
+  },
+  {
+   "num": 15,
+   "text": "The slacker buries his hand in the dish; it wearies him to bring it back to his mouth."
+  },
+  {
+   "num": 16,
+   "text": "The slacker is wiser in his own eyes than seven men who answer discreetly."
+  },
+  {
+   "num": 17,
+   "text": "Like one who grabs a dog by the ears is a passerby who meddles in a quarrel not his own."
+  },
+  {
+   "num": 18,
+   "text": "Like a madman shooting firebrands and deadly arrows,"
+  },
+  {
+   "num": 19,
+   "text": "so is the man who deceives his neighbor and says, \"I was only joking!\""
+  },
+  {
+   "num": 20,
+   "text": "Without wood, a fire goes out; without gossip, a conflict ceases."
+  },
+  {
+   "num": 21,
+   "text": "Like charcoal for embers and wood for fire, so is a quarrelsome man for kindling strife."
+  },
+  {
+   "num": 22,
+   "text": "The words of a gossip are like choice morsels that go down into the inmost being."
+  },
+  {
+   "num": 23,
+   "text": "Like glaze covering an earthen vessel are burning lips and a wicked heart."
+  },
+  {
+   "num": 24,
+   "text": "A hateful man disguises himself with his speech, but he lays up deceit in his heart."
+  },
+  {
+   "num": 25,
+   "text": "When he speaks graciously, do not believe him, for seven abominations fill his heart."
+  },
+  {
+   "num": 26,
+   "text": "Though his hatred is concealed by deception, his wickedness will be exposed in the assembly."
+  },
+  {
+   "num": 27,
+   "text": "He who digs a pit will fall into it, and he who rolls a stone will have it roll back on him."
+  },
+  {
+   "num": 28,
+   "text": "A lying tongue hates those it crushes, and a flattering mouth causes ruin."
+  }
+ ],
+ "context": {
+  "author": "Solomon; these proverbs “were copied by the men of Hezekiah king of Judah” (25:1), about 250 years after Solomon",
+  "genre": "Wisdom sayings: comparisons, word pictures and contrasts",
+  "audience": "The people of Judah, and especially those who served the king (25:2-7)",
+  "mapLabel": "JERUSALEM, THE COURT OF HEZEKIAH",
+  "setting": "Three portraits fill this chapter. First the fool: honor fits him like snow in summer (v.1), and sending a message by him is like cutting off your own feet (v.6). Two sayings stand side by side on purpose: “Do not answer a fool according to his folly, or you yourself will be like him” (v.4), and “Answer a fool according to his folly, lest he become wise in his own eyes” (v.5). “As a dog returns to its vomit, so a fool repeats his folly” (v.11), yet the man wise in his own eyes is worse (v.12). Next the slacker, who says, “A lion is in the road!” (v.13) and turns on his bed like a door on its hinges (v.14). Last the gossip and the liar, whose fire goes out without wood (v.20), and whose smooth words hide hatred (vv.23-28).",
+  "custom": "Dogs in the ancient Near East were mostly scavengers, not pets, and grabbing a passing dog by the ears (v.17) was asking to be bitten. Pottery was glazed with a thin coat of silver dross to look like silver (v.23). Lions still lived in the thickets of the Jordan valley (Jeremiah 49:19), but not in the town square.",
+  "timelineImmediate": "Chapter 27 warns against boasting about tomorrow and praises honest friends.",
+  "timelineBible": "Peter quotes v.11 about false teachers who return to their old ways (2 Peter 2:22). Haman’s gallows (Esther 7:10) and the warning of Psalm 7:15-16 show v.27: the one who digs a pit falls into it.",
+  "translation": [
+   {
+    "english": "fool",
+    "greek": "כְּסִיל (kesil)",
+    "verseRef": "v.1",
+    "meaning": "The fool who is set in his ways and will not learn. He appears eleven times in vv.1-12.",
+    "gloss": "Stubborn fool",
+    "strongs": "H3684",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "slacker",
+    "greek": "עָצֵל (atsel)",
+    "verseRef": "v.13",
+    "meaning": "The lazy man, full of excuses.",
+    "gloss": "Lazy one",
+    "strongs": "H6102",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gossip",
+    "greek": "רָגַן (nirgan)",
+    "verseRef": "v.20",
+    "meaning": "A whisperer, a slanderer. Without him a quarrel dies out.",
+    "gloss": "Whisperer",
+    "strongs": "H7279",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "2 Peter 2:22",
+    "note": "A dog returns to its vomit (v.11)."
+   },
+   {
+    "ref": "Romans 12:16",
+    "note": "Do not be wise in your own eyes (v.12)."
+   },
+   {
+    "ref": "James 3:5-6",
+    "note": "The tongue is a fire."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Esther 7:9-10",
+    "note": "Haman is hanged on his own gallows."
+   },
+   {
+    "ref": "Psalm 7:15-16",
+    "note": "He digs a hole and falls into it."
+   },
+   {
+    "ref": "Isaiah 5:21",
+    "note": "Woe to those wise in their own eyes."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Portraits of the fool, the slacker and the gossip, and two sayings side by side on when to answer a fool and when not to.",
+   "settingLine": "Sayings about folly, laziness and lies.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Messengers",
+     "t": "News traveled by runners."
+    },
+    {
+     "h": "Lions",
+     "t": "Lived in the Jordan thickets."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Dogs",
+     "t": "Scavengers, not pets."
+    },
+    {
+     "h": "Glazed pottery",
+     "t": "Clay coated to look like silver."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Door sockets",
+     "t": "Stone sockets in which doors turned on a post."
+    },
+    {
+     "h": "Lion seal",
+     "t": "The seal of Shema, servant of Jeroboam, from Megiddo shows a roaring lion."
+    }
+   ],
+   "discussion": "Verses 4 and 5 give opposite advice side by side. How can both be true, and how do I know which one fits a situation?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (25:1)",
+   "genre": "Proverbs (word pictures)",
+   "audience": "Judah, and the king’s servants",
+   "refNotes": {
+    "Esther 7:9-10": "Haman’s gallows",
+    "Psalm 7:15-16": "The pit-digger",
+    "Isaiah 5:21": "Wise in their own eyes"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The fool",
+     "d": "Repeats his folly"
+    },
+    {
+     "n": "The slacker",
+     "d": "Sees lions in the road"
+    },
+    {
+     "n": "The meddler",
+     "d": "Grabs a dog by the ears"
+    },
+    {
+     "n": "The liar",
+     "d": "Hides hatred"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-12",
+     "label": "The fool"
+    },
+    {
+     "when": "v.13-16",
+     "label": "The slacker"
+    },
+    {
+     "when": "v.17-28",
+     "label": "The meddler, gossip and liar"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Like snow in summer and rain at harvest, honor does not befit a fool. Do not answer a fool according to his folly, or you yourself will be like him. Answer a fool according to his folly, lest he become wise in his own eyes. As a dog returns to its vomit, so a fool repeats his folly. Do you see a man who is wise in his own eyes? There is more hope for a fool than for him. The slacker says, A lion is in the road! A fierce lion roams the public square! As a door turns on its hinges, so the slacker turns on his bed. Like one who grabs a dog by the ears is a passerby who meddles in a quarrel not his own. Without wood, a fire goes out; without gossip, a conflict ceases. He who digs a pit will fall into it, and he who rolls a stone will have it roll back on him.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013-Aerial-Temple_Mount_03.jpg",
+   "caption": "The Temple Mount and the Old City of Jerusalem from the air, the royal city of Solomon and, later, of Hezekiah.",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

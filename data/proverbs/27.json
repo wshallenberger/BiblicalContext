@@ -1,0 +1,288 @@
+{
+ "book": "Proverbs",
+ "chapter": 27,
+ "title": "Iron Sharpens Iron",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Do not boast about tomorrow, for you do not know what a day may bring."
+  },
+  {
+   "num": 2,
+   "text": "Let another praise you, and not your own mouth— a stranger, and not your own lips."
+  },
+  {
+   "num": 3,
+   "text": "A stone is heavy and sand is a burden, but aggravation from a fool outweighs them both."
+  },
+  {
+   "num": 4,
+   "text": "Wrath is cruel and anger is like a flood, but who can withstand jealousy?"
+  },
+  {
+   "num": 5,
+   "text": "Better an open rebuke than love that is concealed."
+  },
+  {
+   "num": 6,
+   "text": "The wounds of a friend are faithful, but the kisses of an enemy are deceitful."
+  },
+  {
+   "num": 7,
+   "text": "The soul that is full loathes honey, but to a hungry soul, any bitter thing is sweet."
+  },
+  {
+   "num": 8,
+   "text": "Like a bird that strays from its nest is a man who wanders from his home."
+  },
+  {
+   "num": 9,
+   "text": "Oil and incense bring joy to the heart, and the sweetness of a friend is counsel to the soul."
+  },
+  {
+   "num": 10,
+   "text": "Do not forsake your friend or your father's friend, and do not go to your brother's house in the day of your calamity; better a neighbor nearby than a brother far away."
+  },
+  {
+   "num": 11,
+   "text": "Be wise, my son, and bring joy to my heart, so that I can answer him who taunts me."
+  },
+  {
+   "num": 12,
+   "text": "The prudent see danger and take cover; but the simple keep going and pay the penalty."
+  },
+  {
+   "num": 13,
+   "text": "Take the garment of him who posts security for a stranger; get collateral if it is for a foreigner."
+  },
+  {
+   "num": 14,
+   "text": "If one blesses his neighbor with a loud voice early in the morning, it will be counted to him as a curse."
+  },
+  {
+   "num": 15,
+   "text": "A constant dripping on a rainy day and a contentious woman are alike—"
+  },
+  {
+   "num": 16,
+   "text": "restraining her is like holding back the wind or grasping oil with one's right hand."
+  },
+  {
+   "num": 17,
+   "text": "As iron sharpens iron, so one man sharpens another."
+  },
+  {
+   "num": 18,
+   "text": "Whoever tends a fig tree will eat its fruit, and he who looks after his master will be honored."
+  },
+  {
+   "num": 19,
+   "text": "As water reflects the face, so the heart reflects the true man."
+  },
+  {
+   "num": 20,
+   "text": "Sheol and Abaddon are never satisfied; so the eyes of man are never satisfied."
+  },
+  {
+   "num": 21,
+   "text": "A crucible for silver and a furnace for gold, but a man is tested by the praise accorded him."
+  },
+  {
+   "num": 22,
+   "text": "Though you grind a fool like grain with mortar and a pestle, yet his folly will not depart from him."
+  },
+  {
+   "num": 23,
+   "text": "Be sure to know the state of your flocks, and pay close attention to your herds;"
+  },
+  {
+   "num": 24,
+   "text": "for riches are not forever, nor does a crown endure to every generation."
+  },
+  {
+   "num": 25,
+   "text": "When hay is removed and new growth appears and the grain from the hills is gathered,"
+  },
+  {
+   "num": 26,
+   "text": "the lambs will provide you with clothing, and the goats with the price of a field."
+  },
+  {
+   "num": 27,
+   "text": "You will have plenty of goats' milk to feed you— food for your household and nourishment for your maidservants."
+  }
+ ],
+ "context": {
+  "author": "Solomon; these proverbs “were copied by the men of Hezekiah king of Judah” (25:1), about 250 years after Solomon",
+  "genre": "Wisdom sayings: comparisons, word pictures and contrasts",
+  "audience": "The people of Judah, and especially those who served the king (25:2-7)",
+  "mapLabel": "JERUSALEM, THE COURT OF HEZEKIAH",
+  "setting": "“Do not boast about tomorrow, for you do not know what a day may bring” (v.1). “Let another praise you, and not your own mouth” (v.2). Two sayings about honest friends follow: “Better an open rebuke than love that is concealed” (v.5), and “the wounds of a friend are faithful, but the kisses of an enemy are deceitful” (v.6). Keep your old friends, even your father’s friend (v.10). “As iron sharpens iron, so one man sharpens another” (v.17), and “as water reflects the face, so the heart reflects the true man” (v.19). The chapter ends with a short poem for farmers: know the state of your flocks, for riches do not last forever, but the lambs will clothe you and the goats will pay for a field (vv.23-27).",
+  "custom": "Flocks of sheep and goats were the wealth of most families in the hill country, giving wool, milk, meat and skins. A shepherd who knew each animal (v.23) could tell when one was sick or missing (compare John 10:3). Iron tools and weapons were sharpened by rubbing them with another piece of iron or stone. Refining in a crucible tested silver (v.21), as praise tests a man.",
+  "timelineImmediate": "Chapter 28 contrasts the wicked who flee when no one pursues with the righteous who are bold as a lion.",
+  "timelineBible": "James 4:13-15 warns those who say, “Today or tomorrow we will go to this or that city” (James 4:13), as in v.1. Judas betrays Jesus with a kiss (Matthew 26:48-49), the deceitful kiss of v.6. David, a shepherd, knew his flock and defended it (1 Samuel 17:34-35).",
+  "translation": [
+   {
+    "english": "sharpens",
+    "greek": "חָדַה (chadad)",
+    "verseRef": "v.17",
+    "meaning": "To make sharp. Friends sharpen each other as iron sharpens iron.",
+    "gloss": "Make sharp",
+    "strongs": "H2300",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "faithful",
+    "greek": "אָמַן (’aman)",
+    "verseRef": "v.6",
+    "meaning": "To be firm, trustworthy. The word behind “amen.” A friend’s wounds can be trusted.",
+    "gloss": "Trustworthy",
+    "strongs": "H539",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "flocks",
+    "greek": "צֹאן (tso’n)",
+    "verseRef": "v.23",
+    "meaning": "Sheep and goats together, the family’s wealth.",
+    "gloss": "Sheep and goats",
+    "strongs": "H6629",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "James 4:13-15",
+    "note": "You do not know what tomorrow will bring."
+   },
+   {
+    "ref": "Matthew 26:48-49",
+    "note": "Judas betrays Jesus with a kiss."
+   },
+   {
+    "ref": "Hebrews 10:24-25",
+    "note": "Spur one another on toward love and good deeds (v.17)."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 17:34-35",
+    "note": "David the shepherd defends his flock."
+   },
+   {
+    "ref": "2 Samuel 12:1-7",
+    "note": "Nathan rebukes David: “You are that man!”"
+   },
+   {
+    "ref": "Ecclesiastes 4:9-10",
+    "note": "Two are better than one."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Do not boast about tomorrow; welcome a friend’s honest rebuke; let friends sharpen you; and care for your flocks, for riches do not last.",
+   "settingLine": "Sayings about friends, and a poem for shepherds.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Hill country flocks",
+     "t": "Sheep and goats were the family wealth."
+    },
+    {
+     "h": "Iron tools",
+     "t": "Iron spread through Israel from about 1000 BC."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Shepherds",
+     "t": "Knew each animal by sight."
+    },
+    {
+     "h": "Kisses",
+     "t": "A greeting between friends."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Sheepfolds",
+     "t": "Stone-walled pens for flocks dot the Judean wilderness."
+    },
+    {
+     "h": "Iron tools",
+     "t": "Iron plow points, sickles and blades from 10th-century BC sites."
+    }
+   ],
+   "discussion": "“The wounds of a friend are faithful” (v.6). Who in my life loves me enough to tell me the truth, and do I let them?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (25:1)",
+   "genre": "Proverbs (word pictures)",
+   "audience": "Judah, and the king’s servants",
+   "refNotes": {
+    "1 Samuel 17:34-35": "A shepherd’s care",
+    "2 Samuel 12:1-7": "An honest rebuke",
+    "Ecclesiastes 4:9-10": "Two are better"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The boaster",
+     "d": "Does not know tomorrow"
+    },
+    {
+     "n": "The friend",
+     "d": "Wounds faithfully"
+    },
+    {
+     "n": "The enemy",
+     "d": "Kisses deceitfully"
+    },
+    {
+     "n": "The shepherd",
+     "d": "Knows his flock"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-10",
+     "label": "Boasting and friendship"
+    },
+    {
+     "when": "v.11-22",
+     "label": "Sharpening and testing"
+    },
+    {
+     "when": "v.23-27",
+     "label": "Know your flocks"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Do not boast about tomorrow, for you do not know what a day may bring. Let another praise you, and not your own mouth— a stranger, and not your own lips. Better an open rebuke than love that is concealed. The wounds of a friend are faithful, but the kisses of an enemy are deceitful. Do not forsake your friend or your father's friend, and do not go to your brother's house in the day of your calamity; better a neighbor nearby than a brother far away. As iron sharpens iron, so one man sharpens another. As water reflects the face, so the heart reflects the true man. Be sure to know the state of your flocks, and pay close attention to your herds; for riches are not forever, nor does a crown endure to every generation.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+   "caption": "The mound of Megiddo above the Jezreel Valley. Solomon fortified Megiddo, Hazor and Gezer (1 Kings 9:15), and his officers ran the kingdom from towns like these.",
+   "credit": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

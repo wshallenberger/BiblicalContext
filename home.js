@@ -115,7 +115,7 @@
   };
   function stripHtml(kind) {
     return TABS[kind].map(function (t) { return '<button type="button" class="hs-tab" data-hs="' + t[0] + '" role="tab">' + t[1] + '</button>'; }).join('') +
-      (kind === 'study' ? '' : '<button type="button" class="hs-search" data-search aria-label="Search the New Testament">' + ICON.search + '</button>');
+      (kind === 'study' ? '' : '<button type="button" class="hs-search" data-search aria-label="Search the Bible">' + ICON.search + '</button>');
   }
   function buildStrips() {
     [['study', STUDY], ['visualize', VISUAL]].forEach(function (g) {

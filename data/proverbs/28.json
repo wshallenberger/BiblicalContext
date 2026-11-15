@@ -1,0 +1,292 @@
+{
+ "book": "Proverbs",
+ "chapter": 28,
+ "title": "Bold as a Lion",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The wicked flee when no one pursues, but the righteous are as bold as a lion."
+  },
+  {
+   "num": 2,
+   "text": "A land in rebellion has many rulers, but a man of understanding and knowledge maintains order."
+  },
+  {
+   "num": 3,
+   "text": "A destitute leader who oppresses the poor is like a driving rain that leaves no food."
+  },
+  {
+   "num": 4,
+   "text": "Those who forsake the law praise the wicked, but those who keep the law resist them."
+  },
+  {
+   "num": 5,
+   "text": "Evil men do not understand justice, but those who seek the LORD comprehend fully."
+  },
+  {
+   "num": 6,
+   "text": "Better a poor man who walks with integrity than a rich man whose ways are perverse."
+  },
+  {
+   "num": 7,
+   "text": "A discerning son keeps the law, but a companion of gluttons disgraces his father."
+  },
+  {
+   "num": 8,
+   "text": "He who increases his wealth by interest and usury lays it up for one who is kind to the poor."
+  },
+  {
+   "num": 9,
+   "text": "Whoever turns his ear away from hearing the law, even his prayer is detestable."
+  },
+  {
+   "num": 10,
+   "text": "He who leads the upright along the path of evil will fall into his own pit, but the blameless will inherit what is good."
+  },
+  {
+   "num": 11,
+   "text": "A rich man is wise in his own eyes, but a poor man with discernment sees through him."
+  },
+  {
+   "num": 12,
+   "text": "When the righteous triumph, there is great glory, but when the wicked rise, men hide themselves."
+  },
+  {
+   "num": 13,
+   "text": "He who conceals his sins will not prosper, but whoever confesses and renounces them will find mercy."
+  },
+  {
+   "num": 14,
+   "text": "Blessed is the man who is always reverent, but he who hardens his heart falls into trouble."
+  },
+  {
+   "num": 15,
+   "text": "Like a roaring lion or a charging bear is a wicked ruler over a helpless people."
+  },
+  {
+   "num": 16,
+   "text": "A leader who lacks judgment is also a great oppressor, but he who hates dishonest profit will prolong his days."
+  },
+  {
+   "num": 17,
+   "text": "A man burdened by bloodguilt will flee into the Pit; let no one support him."
+  },
+  {
+   "num": 18,
+   "text": "He who walks with integrity will be kept safe, but whoever is perverse in his ways will suddenly fall."
+  },
+  {
+   "num": 19,
+   "text": "The one who works his land will have plenty of food, but whoever chases fantasies will have his fill of poverty."
+  },
+  {
+   "num": 20,
+   "text": "A faithful man will abound with blessings, but one eager to be rich will not go unpunished."
+  },
+  {
+   "num": 21,
+   "text": "To show partiality is not good, yet a man will do wrong for a piece of bread."
+  },
+  {
+   "num": 22,
+   "text": "A stingy man hastens after wealth and does not know that poverty awaits him."
+  },
+  {
+   "num": 23,
+   "text": "He who rebukes a man will later find more favor than one who flatters with his tongue."
+  },
+  {
+   "num": 24,
+   "text": "He who robs his father or mother, saying, \"It is not wrong,\" is a companion to the man who destroys."
+  },
+  {
+   "num": 25,
+   "text": "A greedy man stirs up strife, but he who trusts in the LORD will prosper."
+  },
+  {
+   "num": 26,
+   "text": "He who trusts in himself is a fool, but one who walks in wisdom will be safe."
+  },
+  {
+   "num": 27,
+   "text": "Whoever gives to the poor will not be in need, but he who hides his eyes will receive many curses."
+  },
+  {
+   "num": 28,
+   "text": "When the wicked come to power, people hide themselves; but when they perish, the righteous flourish."
+  }
+ ],
+ "context": {
+  "author": "Solomon; these proverbs “were copied by the men of Hezekiah king of Judah” (25:1), about 250 years after Solomon",
+  "genre": "Wisdom sayings: comparisons, word pictures and contrasts",
+  "audience": "The people of Judah, and especially those who served the king (25:2-7)",
+  "mapLabel": "JERUSALEM, THE COURT OF HEZEKIAH",
+  "setting": "“The wicked flee when no one pursues, but the righteous are as bold as a lion” (v.1). This chapter often speaks of “the law” (vv.4, 7, 9): those who forsake it praise the wicked, and whoever turns away from hearing it, “even his prayer is detestable” (v.9). Rulers come and go when a land rebels (v.2), and a ruler who oppresses the poor is like a driving rain that leaves no food (v.3). “Better a poor man who walks with integrity than a rich man whose ways are perverse” (v.6). The best-known line is about confession: “He who conceals his sins will not prosper, but whoever confesses and renounces them will find mercy” (v.13). Greed stirs up strife, but he who trusts in the LORD will prosper (v.25), and whoever gives to the poor will not be in need (v.27).",
+  "custom": "In Hezekiah’s day Judah had seen the northern kingdom of Israel go through king after king before it fell to Assyria in 722 BC (2 Kings 15-17), the picture of v.2. Interest on loans to fellow Israelites was forbidden (v.8; Leviticus 25:36-37). A king who tore down the poor with heavy taxes was like a storm that flattens the crops (v.3).",
+  "timelineImmediate": "Chapter 29 ends Hezekiah’s collection with sayings on correction, justice, vision and the fear of man.",
+  "timelineBible": "David’s psalm of confession says, “I acknowledged my sin to You… and You forgave the guilt of my sin” (Psalm 32:5). 1 John 1:9 promises, “If we confess our sins, He is faithful and just to forgive us our sins” (1 John 1:9).",
+  "translation": [
+   {
+    "english": "bold",
+    "greek": "בָּטַח (batach)",
+    "verseRef": "v.1",
+    "meaning": "Confident, secure, trusting. The same word means “trust” in 3:5.",
+    "gloss": "Secure, confident",
+    "strongs": "H982",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "law",
+    "greek": "תּוֹרָה (torah)",
+    "verseRef": "v.4",
+    "meaning": "Instruction, teaching, and so God’s law. In 1:8 the same word is a mother’s teaching.",
+    "gloss": "Instruction, law",
+    "strongs": "H8451",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "confesses",
+    "greek": "יָדָה (yadah)",
+    "verseRef": "v.13",
+    "meaning": "To admit openly, to give thanks. The confession that finds mercy.",
+    "gloss": "Admit, confess",
+    "strongs": "H3034",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 John 1:9",
+    "note": "If we confess our sins, he is faithful and just to forgive."
+   },
+   {
+    "ref": "Luke 18:13-14",
+    "note": "The tax collector: “God, have mercy on me, a sinner.”"
+   },
+   {
+    "ref": "1 Timothy 6:9-10",
+    "note": "Those eager to be rich fall into temptation (v.20)."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 32:3-5",
+    "note": "When I kept silent, my bones wasted away; I confessed."
+   },
+   {
+    "ref": "2 Kings 17:5-7",
+    "note": "Samaria falls to Assyria."
+   },
+   {
+    "ref": "Leviticus 25:35-37",
+    "note": "Do not take interest from a poor brother."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The righteous are bold as a lion; keep the law, confess your sins and find mercy, and trust the LORD rather than greed.",
+   "settingLine": "Sayings for a kingdom that has seen kings fall.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Israel’s fall",
+     "t": "Samaria fell to Assyria in 722 BC."
+    },
+    {
+     "h": "Unstable thrones",
+     "t": "The north had many kings in a short time."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Interest",
+     "t": "Forbidden on loans to the poor."
+    },
+    {
+     "h": "Heavy taxes",
+     "t": "Kings could crush the poor."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lachish reliefs",
+     "t": "Assyrian wall carvings show the siege of Lachish in Hezekiah’s day, 701 BC."
+    },
+    {
+     "h": "Samaria ostraca",
+     "t": "Potsherds from Samaria record shipments of wine and oil to the palace."
+    }
+   ],
+   "discussion": "“He who conceals his sins will not prosper, but whoever confesses and renounces them will find mercy” (v.13). What makes confessing hard, and what has it given me when I did?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (25:1)",
+   "genre": "Proverbs (word pictures)",
+   "audience": "Judah, and the king’s servants",
+   "refNotes": {
+    "Psalm 32:3-5": "Confession",
+    "2 Kings 17:5-7": "Samaria falls",
+    "Leviticus 25:35-37": "No interest"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The righteous",
+     "d": "Bold as a lion"
+    },
+    {
+     "n": "The ruler",
+     "d": "Who oppresses the poor"
+    },
+    {
+     "n": "The one who confesses",
+     "d": "Finds mercy"
+    },
+    {
+     "n": "The greedy",
+     "d": "Stirs up strife"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-11",
+     "label": "The law and the poor"
+    },
+    {
+     "when": "v.12-18",
+     "label": "Confession and integrity"
+    },
+    {
+     "when": "v.19-28",
+     "label": "Work, greed and trust"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The wicked flee when no one pursues, but the righteous are as bold as a lion. Better a poor man who walks with integrity than a rich man whose ways are perverse. Whoever turns his ear away from hearing the law, even his prayer is detestable. He who conceals his sins will not prosper, but whoever confesses and renounces them will find mercy. Blessed is the man who is always reverent, but he who hardens his heart falls into trouble. A faithful man will abound with blessings, but one eager to be rich will not go unpunished. A greedy man stirs up strife, but he who trusts in the LORD will prosper. He who trusts in himself is a fool, but one who walks in wisdom will be safe. Whoever gives to the poor will not be in need, but he who hides his eyes will receive many curses.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Siloam_Inscription.jpg",
+   "caption": "A drawing of the Siloam inscription, cut in Hezekiah’s water tunnel under Jerusalem about 700 BC (the stone is now in Istanbul). It shows the Hebrew script that “the men of Hezekiah” would have used when they copied out Solomon’s proverbs (25:1).",
+   "credit": "Jewish Encyclopedia (1901-1906), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013-Aerial-Temple_Mount_03.jpg",
+   "caption": "The Temple Mount and the Old City of Jerusalem from the air, the royal city of Solomon and, later, of Hezekiah.",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

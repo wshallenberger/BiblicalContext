@@ -1,0 +1,296 @@
+{
+ "book": "Proverbs",
+ "chapter": 19,
+ "title": "Better a Poor Man",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Better a poor man who walks with integrity than a fool whose lips are perverse."
+  },
+  {
+   "num": 2,
+   "text": "Even zeal is no good without knowledge, and he who hurries his footsteps misses the mark."
+  },
+  {
+   "num": 3,
+   "text": "A man's own folly subverts his way, yet his heart rages against the LORD."
+  },
+  {
+   "num": 4,
+   "text": "Wealth attracts many friends, but a poor man is deserted by his friend."
+  },
+  {
+   "num": 5,
+   "text": "A false witness will not go unpunished, and one who utters lies will not escape."
+  },
+  {
+   "num": 6,
+   "text": "Many seek the favor of the prince, and everyone is a friend of the gift giver."
+  },
+  {
+   "num": 7,
+   "text": "All the brothers of a poor man hate him— how much more do his friends avoid him! He may pursue them with pleading, but they are nowhere to be found."
+  },
+  {
+   "num": 8,
+   "text": "He who acquires wisdom loves himself; one who safeguards understanding will find success."
+  },
+  {
+   "num": 9,
+   "text": "A false witness will not go unpunished, and one who pours out lies will perish."
+  },
+  {
+   "num": 10,
+   "text": "Luxury is unseemly for a fool— how much worse for a slave to rule over princes!"
+  },
+  {
+   "num": 11,
+   "text": "A man's insight gives him patience, and his virtue is to overlook an offense."
+  },
+  {
+   "num": 12,
+   "text": "A king's rage is like the roar of a lion, but his favor is like dew on the grass."
+  },
+  {
+   "num": 13,
+   "text": "A foolish son is his father's ruin, and a quarrelsome wife is like a constant dripping."
+  },
+  {
+   "num": 14,
+   "text": "Houses and wealth are inherited from fathers, but a prudent wife is from the LORD."
+  },
+  {
+   "num": 15,
+   "text": "Laziness brings on deep sleep, and an idle soul will suffer hunger."
+  },
+  {
+   "num": 16,
+   "text": "He who keeps a commandment preserves his soul, but he who is careless in his ways will die."
+  },
+  {
+   "num": 17,
+   "text": "Kindness to the poor is a loan to the LORD, and He will repay the lender."
+  },
+  {
+   "num": 18,
+   "text": "Discipline your son, for in that there is hope; do not be party to his death."
+  },
+  {
+   "num": 19,
+   "text": "A man of great anger must pay the penalty; if you rescue him, you will have to do so again."
+  },
+  {
+   "num": 20,
+   "text": "Listen to counsel and accept discipline, that you may be wise the rest of your days."
+  },
+  {
+   "num": 21,
+   "text": "Many plans are in a man's heart, but the purpose of the LORD will prevail."
+  },
+  {
+   "num": 22,
+   "text": "The desire of a man is loving devotion; better to be poor than a liar."
+  },
+  {
+   "num": 23,
+   "text": "The fear of the LORD leads to life, that one may rest content, without visitation from harm."
+  },
+  {
+   "num": 24,
+   "text": "The slacker buries his hand in the dish; he will not even bring it back to his mouth."
+  },
+  {
+   "num": 25,
+   "text": "Strike a mocker, and the simple will beware; rebuke the discerning man, and he will gain knowledge."
+  },
+  {
+   "num": 26,
+   "text": "He who assaults his father or evicts his mother is a son who brings shame and disgrace."
+  },
+  {
+   "num": 27,
+   "text": "If you cease to hear instruction, my son, you will stray from the words of knowledge."
+  },
+  {
+   "num": 28,
+   "text": "A corrupt witness mocks justice, and a wicked mouth swallows iniquity."
+  },
+  {
+   "num": 29,
+   "text": "Judgments are prepared for mockers, and beatings for the backs of fools."
+  }
+ ],
+ "context": {
+  "author": "Solomon, named in the heading “The proverbs of Solomon” (10:1). The collection runs from 10:1 to 22:16, about 375 sayings.",
+  "genre": "Wisdom sayings: two-line proverbs, most of them contrasts",
+  "audience": "Anyone learning to live wisely, first the young men of Israel’s court and households",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "“Better a poor man who walks with integrity than a fool whose lips are perverse” (v.1). Zeal without knowledge is not good (v.2), and a man’s own folly ruins his life, yet his heart rages against the LORD (v.3). Wealth attracts friends, but the poor are left alone (vv.4, 7). A man’s insight gives him patience, and it is his glory to overlook an offense (v.11). Houses and wealth come from fathers, but a prudent wife is from the LORD (v.14). “Kindness to the poor is a loan to the LORD” (v.17). Many plans are in a man’s heart, “but the purpose of the LORD will prevail” (v.21).",
+  "custom": "Lending to a poor neighbor in Israel was to be without interest, and debts were released every seventh year (Deuteronomy 15:1-11). A man’s property passed from his father, but marriages were often arranged by families, and the proverb says a good wife is still a gift from God (v.14). The slacker who buries his hand in the dish and will not lift it to his mouth (v.24) is the book’s comic picture of laziness.",
+  "timelineImmediate": "Chapter 20 warns about wine and strong drink and about dishonest weights.",
+  "timelineBible": "Jesus says that what is done for the least of his brothers is done for him (Matthew 25:40), as v.17 counts kindness to the poor as a loan to the LORD. The two witnesses required by the law (Deuteronomy 19:15-19) lie behind vv.5 and 9.",
+  "translation": [
+   {
+    "english": "integrity",
+    "greek": "תֹּם (tom)",
+    "verseRef": "v.1",
+    "meaning": "Wholeness, blamelessness. Better poor and whole than rich and crooked.",
+    "gloss": "Wholeness",
+    "strongs": "H8537",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "lends",
+    "greek": "לָוָה (lavah)",
+    "verseRef": "v.17",
+    "meaning": "To lend. Kindness to the poor puts the LORD in our debt.",
+    "gloss": "Lend",
+    "strongs": "H3867",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "purpose",
+    "greek": "עֵצָה (etsah)",
+    "verseRef": "v.21",
+    "meaning": "Counsel, plan. Our plans are many; God’s plan stands.",
+    "gloss": "Plan, counsel",
+    "strongs": "H6098",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 25:40",
+    "note": "Whatever you did for the least of these, you did for me."
+   },
+   {
+    "ref": "Romans 10:2",
+    "note": "They have zeal for God, but not according to knowledge (v.2)."
+   },
+   {
+    "ref": "Ephesians 4:32",
+    "note": "Be kind and forgiving (v.11)."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 15:7-11",
+    "note": "Open your hand to the poor."
+   },
+   {
+    "ref": "Deuteronomy 19:15-19",
+    "note": "False witnesses are punished."
+   },
+   {
+    "ref": "Isaiah 46:10",
+    "note": "My purpose will stand."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Integrity matters more than wealth; overlook offenses, be kind to the poor as a loan to the LORD, and trust that his purpose will stand.",
+   "settingLine": "Sayings about the poor, the family and God’s purpose.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Debt release",
+     "t": "Debts were canceled every seventh year."
+    },
+    {
+     "h": "Family wealth",
+     "t": "Houses and land came from fathers."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Shared dish",
+     "t": "People ate from a common bowl with their hands."
+    },
+    {
+     "h": "Witnesses",
+     "t": "False witnesses faced the penalty they intended."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Common bowls",
+     "t": "Large serving bowls are common finds in Iron Age houses."
+    },
+    {
+     "h": "Loan documents",
+     "t": "Ostraca from Judah record debts and pleas for justice, like the Yavne Yam letter."
+    }
+   ],
+   "discussion": "“Kindness to the poor is a loan to the LORD” (v.17). How would I give differently if I believed this?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (10:1)",
+   "genre": "Proverbs (two-line sayings)",
+   "audience": "Everyone, starting with the young",
+   "refNotes": {
+    "Deuteronomy 15:7-11": "Open your hand",
+    "Deuteronomy 19:15-19": "False witnesses",
+    "Isaiah 46:10": "God’s purpose stands"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The poor man",
+     "d": "Walks with integrity"
+    },
+    {
+     "n": "The prudent wife",
+     "d": "A gift from the LORD"
+    },
+    {
+     "n": "The slacker",
+     "d": "Hand in the dish"
+    },
+    {
+     "n": "The false witness",
+     "d": "Will not go unpunished"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-10",
+     "label": "Rich, poor and false witnesses"
+    },
+    {
+     "when": "v.11-19",
+     "label": "Patience and kindness"
+    },
+    {
+     "when": "v.20-29",
+     "label": "God’s purpose; discipline"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Better a poor man who walks with integrity than a fool whose lips are perverse. Even zeal is no good without knowledge, and he who hurries his footsteps misses the mark. A man's own folly subverts his way, yet his heart rages against the LORD. A man's insight gives him patience, and his virtue is to overlook an offense. Houses and wealth are inherited from fathers, but a prudent wife is from the LORD. Kindness to the poor is a loan to the LORD, and He will repay the lender. Discipline your son, for in that there is hope; do not be party to his death. Many plans are in a man's heart, but the purpose of the LORD will prevail. The fear of the LORD leads to life, that one may rest content, without visitation from harm.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

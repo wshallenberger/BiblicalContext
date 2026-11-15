@@ -1,0 +1,280 @@
+{
+ "book": "Proverbs",
+ "chapter": 13,
+ "title": "Hope Deferred",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "A wise son heeds his father's discipline, but a mocker does not listen to rebuke."
+  },
+  {
+   "num": 2,
+   "text": "From the fruit of his lips a man enjoys good things, but the desire of the faithless is violence."
+  },
+  {
+   "num": 3,
+   "text": "He who guards his mouth protects his life, but the one who opens his lips invites his own ruin."
+  },
+  {
+   "num": 4,
+   "text": "The slacker craves yet has nothing, but the soul of the diligent is fully satisfied."
+  },
+  {
+   "num": 5,
+   "text": "The righteous hate falsehood, but the wicked bring shame and disgrace."
+  },
+  {
+   "num": 6,
+   "text": "Righteousness guards the man of integrity, but wickedness undermines the sinner."
+  },
+  {
+   "num": 7,
+   "text": "One pretends to be rich, but has nothing; another pretends to be poor, yet has great wealth."
+  },
+  {
+   "num": 8,
+   "text": "Riches may ransom a man's life, but a poor man hears no threat."
+  },
+  {
+   "num": 9,
+   "text": "The light of the righteous shines brightly, but the lamp of the wicked is extinguished."
+  },
+  {
+   "num": 10,
+   "text": "Arrogance leads only to strife, but wisdom is with the well-advised."
+  },
+  {
+   "num": 11,
+   "text": "Dishonest wealth will dwindle, but what is earned through hard work will be multiplied."
+  },
+  {
+   "num": 12,
+   "text": "Hope deferred makes the heart sick, but desire fulfilled is a tree of life."
+  },
+  {
+   "num": 13,
+   "text": "He who despises instruction will pay the penalty, but the one who respects a command will be rewarded."
+  },
+  {
+   "num": 14,
+   "text": "The teaching of the wise is a fountain of life, turning one from the snares of death."
+  },
+  {
+   "num": 15,
+   "text": "Good understanding wins favor, but the way of the faithless is difficult."
+  },
+  {
+   "num": 16,
+   "text": "Every prudent man acts with knowledge, but a fool displays his folly."
+  },
+  {
+   "num": 17,
+   "text": "A wicked messenger falls into trouble, but a faithful envoy brings healing."
+  },
+  {
+   "num": 18,
+   "text": "Poverty and shame come to him who ignores discipline, but whoever heeds correction is honored."
+  },
+  {
+   "num": 19,
+   "text": "Desire fulfilled is sweet to the soul, but turning from evil is detestable to fools."
+  },
+  {
+   "num": 20,
+   "text": "He who walks with the wise will become wise, but the companion of fools will be destroyed."
+  },
+  {
+   "num": 21,
+   "text": "Disaster pursues sinners, but prosperity is the reward of the righteous."
+  },
+  {
+   "num": 22,
+   "text": "A good man leaves an inheritance to his children's children, but the sinner's wealth is passed to the righteous."
+  },
+  {
+   "num": 23,
+   "text": "Abundant food is in the fallow ground of the poor, but without justice it is swept away."
+  },
+  {
+   "num": 24,
+   "text": "He who spares the rod hates his son, but he who loves him disciplines him diligently."
+  },
+  {
+   "num": 25,
+   "text": "A righteous man eats to his heart's content, but the stomach of the wicked is empty."
+  }
+ ],
+ "context": {
+  "author": "Solomon, named in the heading “The proverbs of Solomon” (10:1). The collection runs from 10:1 to 22:16, about 375 sayings.",
+  "genre": "Wisdom sayings: two-line proverbs, most of them contrasts",
+  "audience": "Anyone learning to live wisely, first the young men of Israel’s court and households",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "These sayings are about words, work and the path a life takes. The one who guards his mouth protects his life (v.3); the slacker craves and has nothing, while the diligent are fully satisfied (v.4). Some pretend to be rich and have nothing; others pretend to be poor and have great wealth (v.7). “Hope deferred makes the heart sick, but desire fulfilled is a tree of life” (v.12). “He who walks with the wise will become wise, but the companion of fools will be destroyed” (v.20). The chapter ends with two well-known lines on raising children and on having enough (vv.24-25).",
+  "custom": "Inheritance mattered greatly in Israel, where land passed down through families (Numbers 27:8-11); a good man leaves an inheritance to his grandchildren (v.22). Wealth gained quickly was distrusted (v.11). The rod (v.24) was the shepherd’s and teacher’s staff and the common tool of correction in the ancient world.",
+  "timelineImmediate": "Chapter 14 sets the wise woman who builds her house beside the fool who tears hers down.",
+  "timelineBible": "The land of Israel was the people’s inheritance from God (Joshua 13-21), and Naboth refused to sell his vineyard because it was his fathers’ inheritance (1 Kings 21:3). Hebrews 12:5-11 explains the Lord’s discipline as the love of a father.",
+  "translation": [
+   {
+    "english": "hope",
+    "greek": "תּוֹחֶלֶת (tochelet)",
+    "verseRef": "v.12",
+    "meaning": "Expectation, waiting. Hope that keeps being put off wears down the heart.",
+    "gloss": "Waiting hope",
+    "strongs": "H8431",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "diligent",
+    "greek": "חָרוּץ (charuts)",
+    "verseRef": "v.4",
+    "meaning": "Sharp, eager, hardworking. The diligent are the opposite of the slacker.",
+    "gloss": "Hardworking",
+    "strongs": "H2742",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "rod",
+    "greek": "שֵׁבֶט (shevet)",
+    "verseRef": "v.24",
+    "meaning": "A staff or rod, also a scepter or a tribe. Here the tool of a parent’s correction.",
+    "gloss": "Staff, rod",
+    "strongs": "H7626",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 12:5-11",
+    "note": "God disciplines us as sons, for our good."
+   },
+   {
+    "ref": "1 Corinthians 15:33",
+    "note": "Bad company corrupts good character (v.20)."
+   },
+   {
+    "ref": "Ephesians 6:4",
+    "note": "Fathers, do not provoke your children; raise them in the Lord."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Numbers 27:8-11",
+    "note": "How an inheritance passes on."
+   },
+   {
+    "ref": "1 Kings 21:1-3",
+    "note": "Naboth will not sell his fathers’ inheritance."
+   },
+   {
+    "ref": "Psalm 1:1",
+    "note": "Blessed is the man who does not walk with the wicked."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Guard your words, work hard, choose wise friends, and discipline your children; hope delayed hurts, but desire fulfilled is a tree of life.",
+   "settingLine": "Sayings about choices and their fruit.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Family land",
+     "t": "Land passed down for generations."
+    },
+    {
+     "h": "Quick wealth",
+     "t": "Gains without labor were distrusted."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The rod",
+     "t": "A common tool of correction."
+    },
+    {
+     "h": "Companions",
+     "t": "Friends shaped a young man’s path."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Boundary stones",
+     "t": "Fields were marked with stones that could not be moved (Deuteronomy 19:14)."
+    },
+    {
+     "h": "Family tombs",
+     "t": "Bench tombs near Jerusalem held generations of one family."
+    }
+   ],
+   "discussion": "“He who walks with the wise will become wise” (v.20). Who are the people I walk with most, and what are they making of me?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (10:1)",
+   "genre": "Proverbs (two-line sayings)",
+   "audience": "Everyone, starting with the young",
+   "refNotes": {
+    "Numbers 27:8-11": "Inheritance",
+    "1 Kings 21:1-3": "Naboth’s vineyard",
+    "Psalm 1:1": "Choose your company"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The wise son",
+     "d": "Heeds his father"
+    },
+    {
+     "n": "The slacker",
+     "d": "Craves and has nothing"
+    },
+    {
+     "n": "The diligent",
+     "d": "Fully satisfied"
+    },
+    {
+     "n": "The companion of fools",
+     "d": "Will be destroyed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-11",
+     "label": "Words, work and wealth"
+    },
+    {
+     "when": "v.12-19",
+     "label": "Hope and instruction"
+    },
+    {
+     "when": "v.20-25",
+     "label": "Companions and children"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "A wise son heeds his father's discipline, but a mocker does not listen to rebuke. He who guards his mouth protects his life, but the one who opens his lips invites his own ruin. The slacker craves yet has nothing, but the soul of the diligent is fully satisfied. One pretends to be rich, but has nothing; another pretends to be poor, yet has great wealth. Dishonest wealth will dwindle, but what is earned through hard work will be multiplied. Hope deferred makes the heart sick, but desire fulfilled is a tree of life. He who walks with the wise will become wise, but the companion of fools will be destroyed. A good man leaves an inheritance to his children's children, but the sinner's wealth is passed to the righteous. He who spares the rod hates his son, but he who loves him disciplines him diligently.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Twelve_Proverbs_-_WGA03372.jpg",
+   "caption": "Twelve Proverbs, a set of small roundels attributed to Pieter Bruegel the Elder (1558, Museum Mayer van den Bergh, Antwerp). Each little picture acts out one folly, as many proverbs in this book do.",
+   "credit": "Pieter Bruegel the Elder (1558), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

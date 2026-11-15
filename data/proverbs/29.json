@@ -1,0 +1,288 @@
+{
+ "book": "Proverbs",
+ "chapter": 29,
+ "title": "Where There Is No Vision",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "A man who remains stiff-necked after much reproof will suddenly be shattered beyond recovery."
+  },
+  {
+   "num": 2,
+   "text": "When the righteous flourish, the people rejoice, but when the wicked rule, the people groan."
+  },
+  {
+   "num": 3,
+   "text": "A man who loves wisdom brings joy to his father, but a companion of prostitutes squanders his wealth."
+  },
+  {
+   "num": 4,
+   "text": "By justice a king brings stability to the land, but a man who exacts tribute demolishes it."
+  },
+  {
+   "num": 5,
+   "text": "A man who flatters his neighbor spreads a net for his feet."
+  },
+  {
+   "num": 6,
+   "text": "An evil man is caught by his own sin, but a righteous one sings and rejoices."
+  },
+  {
+   "num": 7,
+   "text": "The righteous consider the cause of the poor, but the wicked have no regard for such concerns."
+  },
+  {
+   "num": 8,
+   "text": "Mockers inflame a city, but the wise turn away anger."
+  },
+  {
+   "num": 9,
+   "text": "If a wise man goes to court with a fool, there will be raving and laughing with no resolution."
+  },
+  {
+   "num": 10,
+   "text": "Men of bloodshed hate a blameless man, but the upright care for his life."
+  },
+  {
+   "num": 11,
+   "text": "A fool vents all his anger, but a wise man holds it back."
+  },
+  {
+   "num": 12,
+   "text": "If a ruler listens to lies, all his officials will be wicked."
+  },
+  {
+   "num": 13,
+   "text": "The poor man and the oppressor have this in common: The LORD gives light to the eyes of both."
+  },
+  {
+   "num": 14,
+   "text": "A king who judges the poor with fairness— his throne will be established forever."
+  },
+  {
+   "num": 15,
+   "text": "A rod of correction imparts wisdom, but a child left to himself disgraces his mother."
+  },
+  {
+   "num": 16,
+   "text": "When the wicked thrive, rebellion increases; but the righteous will see their downfall."
+  },
+  {
+   "num": 17,
+   "text": "Discipline your son, and he will give you rest; he will bring delight to your soul."
+  },
+  {
+   "num": 18,
+   "text": "Where there is no vision, the people cast off restraint; but blessed is he who keeps the Law."
+  },
+  {
+   "num": 19,
+   "text": "A servant cannot be corrected by words alone; though he understands, he will not respond."
+  },
+  {
+   "num": 20,
+   "text": "Do you see a man who speaks in haste? There is more hope for a fool than for him."
+  },
+  {
+   "num": 21,
+   "text": "A servant pampered from his youth will bring grief in the end."
+  },
+  {
+   "num": 22,
+   "text": "An angry man stirs up dissension, and a hot-tempered man abounds in transgression."
+  },
+  {
+   "num": 23,
+   "text": "A man's pride will bring him low, but a humble spirit will obtain honor."
+  },
+  {
+   "num": 24,
+   "text": "A partner to a thief hates his own soul; he receives the oath, but does not testify."
+  },
+  {
+   "num": 25,
+   "text": "The fear of man is a snare, but whoever trusts in the LORD is set securely on high."
+  },
+  {
+   "num": 26,
+   "text": "Many seek the ruler's favor, but a man receives justice from the LORD."
+  },
+  {
+   "num": 27,
+   "text": "An unjust man is detestable to the righteous, and one whose way is upright is detestable to the wicked."
+  }
+ ],
+ "context": {
+  "author": "Solomon; these proverbs “were copied by the men of Hezekiah king of Judah” (25:1), about 250 years after Solomon",
+  "genre": "Wisdom sayings: comparisons, word pictures and contrasts",
+  "audience": "The people of Judah, and especially those who served the king (25:2-7)",
+  "mapLabel": "JERUSALEM, THE COURT OF HEZEKIAH",
+  "setting": "Hezekiah’s collection closes with warnings and promises. “A man who remains stiff-necked after much reproof will suddenly be shattered beyond recovery” (v.1). “When the righteous flourish, the people rejoice, but when the wicked rule, the people groan” (v.2). The righteous care about justice for the poor (v.7). “A fool vents all his anger, but a wise man holds it back” (v.11). “Where there is no vision, the people cast off restraint; but blessed is he who keeps the Law” (v.18). Pride brings a man low, but a humble spirit obtains honor (v.23). “The fear of man is a snare, but whoever trusts in the LORD is set securely on high” (v.25), and justice comes from the LORD, not from the ruler’s favor (v.26).",
+  "custom": "“Vision” (v.18) is the word used for a prophet’s revelation from God (1 Samuel 3:1; Isaiah 1:1). Without God’s word, people run wild, as Israel did when they made the golden calf (Exodus 32:25, the same verb for “cast off restraint”). A servant who is pampered from youth will grieve his master in the end (v.21); household servants were part of many families.",
+  "timelineImmediate": "Chapter 30 brings the words of Agur, a humble man who asks God for neither poverty nor riches.",
+  "timelineBible": "“In those days the word of the LORD was rare and visions were scarce” (1 Samuel 3:1). Amos warns of a famine “of hearing the words of the LORD” (Amos 8:11). Jesus says the humble will be exalted (Matthew 23:12), as in v.23.",
+  "translation": [
+   {
+    "english": "vision",
+    "greek": "חָזוֹן (chazon)",
+    "verseRef": "v.18",
+    "meaning": "A prophetic vision, a revelation from God, not a plan for the future. Without God’s word the people run wild.",
+    "gloss": "Revelation",
+    "strongs": "H2377",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cast off restraint",
+    "greek": "פָּרַע (para)",
+    "verseRef": "v.18",
+    "meaning": "To let loose, to run wild. Used of Israel at the golden calf (Exodus 32:25).",
+    "gloss": "Run wild",
+    "strongs": "H6544",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "snare",
+    "greek": "מוֹקֵשׁ (moqesh)",
+    "verseRef": "v.25",
+    "meaning": "A bird trap. Fear of people catches a man like a bird.",
+    "gloss": "Trap",
+    "strongs": "H4170",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 23:12",
+    "note": "Whoever humbles himself will be exalted (v.23)."
+   },
+   {
+    "ref": "Galatians 1:10",
+    "note": "Am I trying to please people? Then I would not be Christ’s servant (v.25)."
+   },
+   {
+    "ref": "James 1:19-20",
+    "note": "Slow to anger (v.11)."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 3:1",
+    "note": "Visions were rare in those days."
+   },
+   {
+    "ref": "Exodus 32:25",
+    "note": "The people were running wild at the golden calf."
+   },
+   {
+    "ref": "Amos 8:11-12",
+    "note": "A famine of hearing the words of the LORD."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Hezekiah’s collection ends: accept correction, rule justly, control your anger, hold to God’s word, and trust the LORD rather than fearing people.",
+   "settingLine": "The last of Hezekiah’s collection.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Prophets in Judah",
+     "t": "Isaiah and Micah spoke in Hezekiah’s time."
+    },
+    {
+     "h": "Just kings",
+     "t": "The king’s justice made a land stable."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Bird snares",
+     "t": "Traps of string and wood caught birds."
+    },
+    {
+     "h": "Household servants",
+     "t": "Servants lived as part of the family."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Isaiah’s seal?",
+     "t": "A clay seal impression found on the Ophel and announced in 2018 may name Isaiah the prophet; the reading is debated."
+    },
+    {
+     "h": "Bird traps",
+     "t": "Egyptian tomb paintings show nets and snares for catching birds."
+    }
+   ],
+   "discussion": "“The fear of man is a snare” (v.25). Whose opinion of me am I most afraid of, and what would trusting the LORD change?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (25:1)",
+   "genre": "Proverbs (word pictures)",
+   "audience": "Judah, and the king’s servants",
+   "refNotes": {
+    "1 Samuel 3:1": "Rare visions",
+    "Exodus 32:25": "Running wild",
+    "Amos 8:11-12": "A famine of the word"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The stiff-necked",
+     "d": "Shattered suddenly"
+    },
+    {
+     "n": "The righteous ruler",
+     "d": "The people rejoice"
+    },
+    {
+     "n": "The fool",
+     "d": "Vents his anger"
+    },
+    {
+     "n": "The humble",
+     "d": "Obtain honor"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-11",
+     "label": "Correction and rule"
+    },
+    {
+     "when": "v.12-21",
+     "label": "Vision and discipline"
+    },
+    {
+     "when": "v.22-27",
+     "label": "Pride and the fear of man"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "A man who remains stiff-necked after much reproof will suddenly be shattered beyond recovery. When the righteous flourish, the people rejoice, but when the wicked rule, the people groan. The righteous consider the cause of the poor, but the wicked have no regard for such concerns. A fool vents all his anger, but a wise man holds it back. A rod of correction imparts wisdom, but a child left to himself disgraces his mother. Where there is no vision, the people cast off restraint; but blessed is he who keeps the Law. A man's pride will bring him low, but a humble spirit will obtain honor. The fear of man is a snare, but whoever trusts in the LORD is set securely on high. Many seek the ruler's favor, but a man receives justice from the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Siloam_Inscription.jpg",
+   "caption": "A drawing of the Siloam inscription, cut in Hezekiah’s water tunnel under Jerusalem about 700 BC (the stone is now in Istanbul). It shows the Hebrew script that “the men of Hezekiah” would have used when they copied out Solomon’s proverbs (25:1).",
+   "credit": "Jewish Encyclopedia (1901-1906), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013-Aerial-Temple_Mount_03.jpg",
+   "caption": "The Temple Mount and the Old City of Jerusalem from the air, the royal city of Solomon and, later, of Hezekiah.",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

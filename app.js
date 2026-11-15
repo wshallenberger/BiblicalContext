@@ -475,7 +475,7 @@ function drawAccordion(sections) {
 // ---------- Boot ----------
 async function init() {
   manifest = await fetchJSON('data/manifest.json');
-  currentBook = manifest.books[0].slug;
+  currentBook = (manifest.books.find(b => b.slug === 'matthew') || manifest.books[0]).slug;
   const book = manifest.books.find(b => b.slug === currentBook);
   currentChapterNum = book.availableChapters[0];
 
@@ -636,7 +636,7 @@ function dhBookView(slug) {
   const col = MAP_BOOK_COLORS[slug] || '#8a6d0b';
   const ttl = k => (chapterIndex && chapterIndex[slug] && chapterIndex[slug][String(k)]) || '';
   const grid = `<div class="dh-grid">${mb.availableChapters.map(n => `<button type="button" data-c="${n}" title="${escHtml(ttl(n))}">${n}</button>`).join('')}</div>`;
-  const nums = st ? `<div class="bk-nums"><div><b>${st.ch}</b><span>chapters</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>Greek words</span></div></div>` : '';
+  const nums = st ? `<div class="bk-nums"><div><b>${st.ch}</b><span>chapters</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>${Bk.lang(slug)} words</span></div></div>` : '';
   const facts = B ? B.facts.map(f => `<dt>${escHtml(f[0])}</dt><dd>${escHtml(f[1])}</dd>`).join('') : '';
   const outline = B ? B.outline.map(o => `<button type="button" class="dh-out" data-c="${o[0]}"><span class="dh-oc">${o[0] === o[1] ? 'Ch ' + o[0] : 'Ch ' + o[0] + '–' + o[1]}</span><span class="dh-ot"><b>${escHtml(o[2])}</b><span>${escHtml(o[3])}</span></span><i>›</i></button>`).join('') : '';
   return `<button type="button" class="dh-back" data-go="home">‹ All books</button>
@@ -647,7 +647,7 @@ function dhBookView(slug) {
       ${nums}
       <h3 class="dh-h">Choose a chapter <span>opens that chapter’s Deep Dive</span></h3>
       ${grid}
-      ${B ? `<h3 class="dh-h">Why it was written</h3><p class="dh-p">${escHtml(B.purpose)}</p><p class="dh-p"><b>Jesus is shown as:</b> ${escHtml(B.jesus)}</p>
+      ${B ? `<h3 class="dh-h">Why it was written</h3><p class="dh-p">${escHtml(B.purpose)}</p><p class="dh-p"><b>${escHtml(B.jesusLabel || 'Jesus is shown as:')}</b> ${escHtml(B.jesus)}</p>
       <h3 class="dh-h">At a glance</h3><dl class="dh-facts">${facts}</dl>
       <h3 class="dh-h">Outline <span>tap a section to open it</span></h3><div class="dh-outline">${outline}</div>` : '<p class="dh-p">The overview for this book is still loading.</p>'}
     </div>`;
@@ -659,16 +659,8 @@ function renderDiveHome() {
   const cur = currentChapterData;
   const resume = cur ? `<button type="button" class="dh-resume" data-go="resume"><span><em>PICK UP WHERE YOU LEFT OFF</em><b>${escHtml(cur.book)} ${cur.chapter}${cur.title ? ' · ' + escHtml(cur.title) : ''}</b></span><i>›</i></button>` : '';
   // Round 88: one search button and four short groups instead of 27 tiles and a shelf
-  const grpOf = slug => (['matthew', 'mark', 'luke', 'john'].includes(slug) ? 'Gospels' : slug === 'acts' ? 'Acts' : slug === 'revelation' ? 'Revelation' : 'Letters');
-  const GBLURB = { Gospels: 'The life of Jesus', Acts: 'The first church', Letters: 'Paul, Peter, John and others', Revelation: 'The end and the new beginning' };
   if (dhOpen === null) dhOpen = {};
-  const groups = ['Gospels', 'Acts', 'Letters', 'Revelation'].map(g => {
-    const bs = manifest.books.filter(b => grpOf(b.slug) === g);
-    if (!bs.length) return '';
-    const col = (TL_GROUPS.find(x => x.n === g) || {}).c || '#8a6d0b';
-    const chips = bs.map(b => `<button type="button" class="dh-chip" data-b="${b.slug}" style="--c:${MAP_BOOK_COLORS[b.slug] || col}"><b>${escHtml(b.name)}</b><span>${b.availableChapters.length} ch.</span></button>`).join('');
-    return `<details class="dh-g" data-g="${g}" style="--c:${col}"${dhOpen[g] ? ' open' : ''}><summary><b>${g}</b><span>${GBLURB[g]}</span><em>${bs.length}</em></summary><div class="dh-chips">${chips}</div></details>`;
-  }).join('');
+  const groups = bookGroupsHTML(dhOpen, (bs, col) => `<div class="dh-chips">${bs.map(b => `<button type="button" class="dh-chip" data-b="${b.slug}" style="--c:${MAP_BOOK_COLORS[b.slug] || col}"><b>${escHtml(b.name)}</b><span>${b.availableChapters.length} ch.</span></button>`).join('')}</div>`);
   box.innerHTML = `<p class="panel-eyebrow">DEEP DIVE</p>
     <h2 class="dh-title">Go deeper into the Word</h2>
     <p class="dh-intro">Explore the history, setting and customs behind any passage. Search for a book and chapter, or browse a book below.</p>
@@ -1978,9 +1970,30 @@ let topicsP = null;
 function loadTopics() { return topicsP || (topicsP = fetch('data/topics.json').then(r => (r.ok ? r.json() : null)).catch(() => null)); }
 let navTopicId = null;     // the collection being read when navStep is 'topic'
 let navOpen = null;        // which book groups are open on the Read the Word page
-const NAV_GROUPS = ['Gospels', 'Acts', 'Letters', 'Revelation'];
-const NAV_GBLURB = { Gospels: 'The life of Jesus', Acts: 'The first church', Letters: 'Paul, Peter, John and others', Revelation: 'The end and the new beginning' };
-const navGroupOf = slug => (['matthew', 'mark', 'luke', 'john'].includes(slug) ? 'Gospels' : slug === 'acts' ? 'Acts' : slug === 'revelation' ? 'Revelation' : 'Letters');
+const NAV_GROUPS = Bk.groups().map(g => g.n);
+const NAV_GBLURB = {}; Bk.groups().forEach(g => { NAV_GBLURB[g.n] = g.b; });
+const navGroupOf = slug => Bk.group(slug);
+// "Proverbs from the Old Testament and all 27 books of the New Testament": what the app holds, in words
+function booksHeld() {
+  const ot = manifest.books.filter(b => b.testament === 'Old'), nt = manifest.books.filter(b => b.testament !== 'Old');
+  const names = l => l.length === 1 ? l[0].name : l.slice(0, -1).map(b => b.name).join(', ') + ' and ' + l[l.length - 1].name;
+  const otT = !ot.length ? '' : ot.length === 39 ? 'all 39 books of the Old Testament' : ot.length <= 4 ? names(ot) + ' from the Old Testament' : ot.length + ' books of the Old Testament';
+  const ntT = !nt.length ? '' : nt.length === 27 ? 'all 27 books of the New Testament' : nt.length <= 4 ? names(nt) + ' from the New Testament' : nt.length + ' books of the New Testament';
+  return otT && ntT ? otT + ' and ' + ntT : (otT || ntT);
+}
+// The book groups (Law, History, Wisdom & Poetry, Prophets, Gospels, Acts, Letters, Revelation) as <details>, under an Old Testament and a New Testament heading
+function bookGroupsHTML(openState, rowsFor) {
+  let out = '', lastT = '';
+  const both = manifest.books.some(b => b.testament === 'Old') && manifest.books.some(b => b.testament !== 'Old');
+  Bk.groups().forEach(g => {
+    const bs = manifest.books.filter(b => Bk.group(b.slug) === g.n);
+    if (!bs.length) return;
+    if (both && g.t !== lastT) { lastT = g.t; out += `<p class="dh-tst">${g.t === 'Old' ? 'Old Testament' : 'New Testament'}</p>`; }
+    const col = (TL_GROUPS.find(x => x.n === g.n) || {}).c || '#8a6d0b';
+    out += `<details class="dh-g" data-g="${g.n}" style="--c:${col}"${openState[g.n] ? ' open' : ''}><summary><b>${Bk.groupLabel(g.n)}</b><span>${g.b}</span><em>${bs.length}</em></summary>${rowsFor(bs, col)}</details>`;
+  });
+  return out;
+}
 const HUB_ICON = {
   word: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v15H5.5A1.5 1.5 0 0 0 4 20.5v-15ZM20 5.5c0-.8-.7-1.5-1.5-1.5H13v15h5.5c.8 0 1.5.7 1.5 1.5v-15Z"/></svg>',
   time: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.2 2"/></svg>'
@@ -2026,16 +2039,10 @@ function renderBookNav() {
   if (navStep === 'hub') {
     navSet('Read', false);
     if (navOpen === null) navOpen = {};
-    const groups = NAV_GROUPS.map(g => {
-      const bs = manifest.books.filter(b => navGroupOf(b.slug) === g);
-      if (!bs.length) return '';
-      const col = (TL_GROUPS.find(x => x.n === g) || {}).c || '#8a6d0b';
-      const rows = bs.map(b => `<div class="nav-item" data-bk="${b.slug}"><span class="nav-item-name">${escHtml(b.name)}</span><span class="nav-item-meta">${b.availableChapters.length} / ${b.totalChapters} ch.</span></div>`).join('');
-      return `<details class="dh-g" data-g="${g}" style="--c:${col}"${navOpen[g] ? ' open' : ''}><summary><b>${g}</b><span>${NAV_GBLURB[g]}</span><em>${bs.length}</em></summary>${rows}</details>`;
-    }).join('');
+    const groups = bookGroupsHTML(navOpen, bs => bs.map(b => `<div class="nav-item" data-bk="${b.slug}"><span class="nav-item-name">${escHtml(b.name)}</span><span class="nav-item-meta">${b.availableChapters.length} / ${b.totalChapters} ch.</span></div>`).join(''));
     body.innerHTML = `<button type="button" class="hub-card hub-time" data-step="topics"><span class="hub-ic">${HUB_ICON.time}</span><span class="hub-tx"><b>A Time for Everything…</b><span>Passages for what you are feeling or facing: in hard times, in good times, and by topic.</span></span><i class="hub-go">›</i></button>
       <h2 class="hub-sec">Read the Word</h2>
-      <p class="hub-sub">All ${manifest.books.length} books of the New Testament</p>
+      <p class="hub-sub">${escHtml(booksHeld().charAt(0).toUpperCase() + booksHeld().slice(1))}</p>
       <button type="button" class="rd-pass nav-find" id="navFind" aria-haspopup="dialog" aria-expanded="false"><span>Find a book and chapter</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
       <div class="dh-groups">${groups}</div>`;
     return;
@@ -2393,13 +2400,16 @@ function clampBlock(el, maxH, moreLabel, lessLabel) {
 }
 const wbwTrim = s => String(s).replace(/[\s·,.;:·;¶—]+$/g, '');
 function drawWbw(box, words, data, big) {
+  const heb = /^H\d/.test((words.find(w => w[3]) || [])[3] || '');
   const counts = {};
   Object.values(data).forEach(vw => vw.forEach(w => { if (w[3]) counts[w[3]] = (counts[w[3]] || 0) + 1; }));
   box.innerHTML =
     `<div class="wbw-legend"><span class="c-v">Verb</span><span class="c-n">Noun</span><span class="c-a">Adjective / pronoun</span><span class="c-o">Little words</span></div>` +
-    `<div class="wbw-row${big ? ' big' : ''}">${words.map((w, i) => `<button class="wbw-chip c-${wbwClass(w[6])}" data-i="${i}"><span class="g">${escHtml(wbwTrim(w[0]))}</span><span class="e">${escHtml(w[2])}</span></button>`).join('')}</div>` +
+    (heb ? `<p class="wbw-dir">Hebrew reads from right to left. The first word is on the right.</p>` : '') +
+    `<div class="wbw-row${big ? ' big' : ''}${heb ? ' heb' : ''}"${heb ? ' dir="rtl"' : ''}>${words.map((w, i) => `<button class="wbw-chip c-${wbwClass(w[6])}" data-i="${i}"><span class="g">${escHtml(wbwTrim(w[0]))}</span><span class="e">${escHtml(w[2])}</span></button>`).join('')}</div>` +
     `<div class="wbw-card" style="display:none"></div>` +
-    (big ? `<p class="wbw-credit">Word data: <a href="https://www.stepbible.org" target="_blank" rel="noopener">STEP Bible</a> · CC BY 4.0</p>` : '');
+    (big ? `<p class="wbw-credit">Word data: <a href="https://www.stepbible.org" target="_blank" rel="noopener">STEP Bible</a>${heb ? ' (TAHOT, from the Leningrad Codex)' : ''} · CC BY 4.0</p>` : '');
+  if (heb) box.classList.add('heb-words'); else box.classList.remove('heb-words');
   const card = box.querySelector('.wbw-card');
   const chips = Array.from(box.querySelectorAll('.wbw-chip'));
   const sheetMode = !!box.closest('.sx-body');
@@ -2410,10 +2420,10 @@ function drawWbw(box, words, data, big) {
   const allBtn = row.querySelector('.wbw-all');
   const reduce = () => window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   const fillCard = w => {
-    const lex = w[4] ? `${escHtml(w[4])}${w[5] ? ' · ' + escHtml(w[5]) : ''}${w[3] ? ' · ' + escHtml(w[3]) : ''}` : '';
+    const lex = w[4] ? `<span>${heb ? '<bdi class="he" lang="he">' + escHtml(w[4]) + '</bdi>' : escHtml(w[4])}${w[5] ? ' · ' + escHtml(w[5]) : ''}${w[3] ? ' · ' + escHtml(w[3]) : ''}</span>` : '';
     const n = w[3] ? counts[w[3]] : 0;
     card.innerHTML =
-      `<div class="bg">${escHtml(wbwTrim(w[0]))}<i>${escHtml(w[1])}</i></div>` +
+      `<div class="bg"><span${heb ? ' class="he" dir="rtl" lang="he"' : ''}>${escHtml(wbwTrim(w[0]))}</span><i>${escHtml(w[1])}</i></div>` +
       `<div class="ln"><b>IN THIS VERSE</b>${escHtml(wbwTrim(w[2]))}</div>` +
       (worldFor(null, w[3]) ? `<div class="ln wd"><b>IN THEIR WORLD</b><span>${escHtml(worldFor(null, w[3]))}</span></div>` : '') +
       (lex ? `<div class="ln"><b>ROOT</b>${lex}</div>` : '') +
@@ -2470,7 +2480,11 @@ function drawWbw(box, words, data, big) {
   }));
   if (allBtn) allBtn.addEventListener('click', unfocus);
 }
+function wbwNone() { return Bk.lang(currentBook) === 'Hebrew' ? 'No word-by-word data for this verse.' : 'No word-by-word data for this verse. Some verses appear only in later manuscripts and are left out of the earliest Greek text.'; }
+// The verse sheet tab says "Original Greek" or "Original Hebrew" to match the book
+function wbwTabLabel() { const t = document.querySelector('.sx-tabs [data-p="gr"]'); if (t) t.textContent = 'Original ' + Bk.lang(currentBook); const m = document.getElementById('sxMain'); if (m) m.setAttribute('aria-label', 'Commentary, original ' + Bk.lang(currentBook) + ' and translation comparison'); }
 async function renderWordStrip(verseNum) {
+  wbwTabLabel();
   const box = document.getElementById('wbw');
   const seq = ++wbwSeq;
   box.innerHTML = '';
@@ -2478,13 +2492,14 @@ async function renderWordStrip(verseNum) {
   if (seq !== wbwSeq) return;
   const words = data && data[String(verseNum)];
   if (!words || !words.length) {
-    box.innerHTML = '<p class="sx-empty">No word-by-word data for this verse. Some verses appear only in later manuscripts and are left out of the earliest Greek text.</p>';
+    box.innerHTML = '<p class="sx-empty">' + wbwNone() + '</p>';
     return;
   }
   box.innerHTML = '<div class="wbw-body"></div>';
   drawWbw(box.querySelector('.wbw-body'), words, data, false);
 }
 async function renderWbwTab() {
+  wbwTabLabel();
   const vers = document.getElementById('wbwVers');
   if (!vers || !currentChapterData) return;
   const key = currentBook + '/' + currentChapterNum;
@@ -2502,7 +2517,7 @@ async function renderWbwTab() {
   const body = document.getElementById('wbwTabBody');
   const words = data && data[String(wbwTabVerse)];
   if (!words || !words.length) {
-    body.innerHTML = '<p class="panel-text dim">No word-by-word data for this verse. Some verses appear only in later manuscripts and are left out of the earliest Greek text.</p>';
+    body.innerHTML = '<p class="panel-text dim">' + wbwNone() + '</p>';
     return;
   }
   drawWbw(body, words, data, true);
@@ -3171,7 +3186,7 @@ function renderFolderContent() {
     const usageBlock = hasOcc ? `
       <button class="word-usage-toggle" data-idx="${idx}">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
-        Used ${entry.occurrences.total}\u00d7 in the New Testament
+        Used ${entry.occurrences.total}\u00d7 in ${Bk.testament(currentBook) === 'OT' ? 'the Old Testament' : 'the New Testament'}
       </button>
       <div class="word-usage-panel" id="wordUsage${idx}"></div>
     ` : (entry.gospelCount ? `<p class="kw-count">Appears ${entry.gospelCount}\u00d7 in the Gospel chapters in this app.</p>` : '');
@@ -3210,6 +3225,9 @@ function renderFolderContent() {
 
   drawChapterCommentaryList(ctx);
   const gList = document.getElementById('gospelParallelsList');
+  { const ot = Bk.testament(currentBook) === 'OT', t1 = document.getElementById('gpTitle'), t2 = document.getElementById('otTitle');
+    if (t1) t1.textContent = ot ? 'Echoes in the New Testament' : 'Gospel Parallels';
+    if (t2) t2.textContent = ot ? 'Elsewhere in the Old Testament' : 'Old Testament Background'; }
   document.getElementById('gpSub').textContent = ctx.gospelParallels.length ? ctx.gospelParallels.length + (ctx.gospelParallels.length === 1 ? ' passage' : ' passages') : '';
   document.getElementById('otSub').textContent = ctx.otBackground.length ? ctx.otBackground.length + (ctx.otBackground.length === 1 ? ' passage' : ' passages') : '';
   gList.innerHTML = '';
@@ -3599,9 +3617,16 @@ function loadBooks() { return booksP || (booksP = fetch('data/books.json').then(
 const fmtN = n => Number(n).toLocaleString('en-US');
 // how many books the word files cover (Gospels = 4; Gospels + Acts = 5)
 function WCN() { return (WC && WC.b && WC.b.length) || 4; }
-function usageBars(counts) {
+// how many New Testament books are counted (4 = the four Gospels, 5 adds Acts, ...): wcBooksText() speaks in these terms
+function WCNT() { return WC && WC.b ? WC.b.filter(b => Bk.testament(b) !== 'OT').length : 4; }
+// the Old Testament books counted, as a phrase: "Proverbs", "Genesis and Proverbs"
+function wcOtText() { const l = (WC && WC.b ? WC.b : []).filter(b => Bk.testament(b) === 'OT').map(Bk.name); return l.length <= 1 ? (l[0] || 'the Old Testament') : l.length > 4 ? 'the Old Testament books in this app' : l.slice(0, -1).join(', ') + ' and ' + l[l.length - 1]; }
+// which book slots a Strong's number is counted in: Hebrew (H) in the Old Testament books, Greek (G) in the New
+function wcIdx(code) { const ot = /^H/.test(code); return Bk.slugs().map((b, i) => i).filter(i => (Bk.testament(Bk.slugs()[i]) === 'OT') === ot); }
+function usageBars(counts, idxs) {
+  idxs = idxs || counts.map((n, i) => i);
   const tot = counts.reduce((a, b) => a + b, 0), mx = Math.max.apply(null, counts) || 1;
-  return `<div class="gu-bars">${counts.map((n, i) => `<div class="gu-row${Bk.slugs()[i] === currentBook ? ' cur' : ''}"><span class="gu-l">${LIB_BOOK_SHORT[Bk.slugs()[i]]}</span><span class="gu-bar"><i style="width:${Math.max(n ? 3 : 0, Math.round(n / mx * 100))}%"></i></span><span class="gu-n">${fmtN(n)}</span></div>`).join('')}</div>`;
+  return `<div class="gu-bars">${counts.map((n, k) => { const i = idxs[k]; return `<div class="gu-row${Bk.slugs()[i] === currentBook ? ' cur' : ''}"><span class="gu-l">${LIB_BOOK_SHORT[Bk.slugs()[i]]}</span><span class="gu-bar"><i style="width:${Math.max(n ? 3 : 0, Math.round(n / mx * 100))}%"></i></span><span class="gu-n">${fmtN(n)}</span></div>`; }).join('')}</div>`;
 }
 function chapChips(list, act) {
   return (list || []).map(t => `<button type="button" class="lib-chip" data-lib="${act}" data-b="${Bk.slugs()[t[0]]}" data-c="${t[1]}">${LIB_BOOK_SHORT[Bk.slugs()[t[0]]]} ${t[1]}${t[2] > 1 ? ' · ' + t[2] + '×' : ''}</button>`).join('');
@@ -3624,9 +3649,11 @@ function wcBooksText(n, style) {
 }
 function gospelUsageHTML(s) {
   const e = WC && WC.w && WC.w[s]; if (!e) return '';
-  const nb = WCN(), counts = e.slice(0, nb), tot = counts.reduce((a, b) => a + b, 0);
-  return `<div class="gu"><p class="gu-h">${nb > 4 ? ('IN ' + wcBooksText(nb, 'hdr').toUpperCase()) : 'IN THE FOUR GOSPELS'}<span>${fmtN(tot)} time${tot === 1 ? '' : 's'}</span></p>${usageBars(counts)}${e[nb] && e[nb].length ? `<div class="lib-chips"><span class="lib-chiplbl">Most in:</span>${chapChips(e[nb], 'chap')}</div>` : ''}</div>`;
+  const nb = WCN(), idxs = wcIdx(s), counts = idxs.map(i => e[i]), tot = counts.reduce((a, b) => a + b, 0), ntn = WCNT();
+  const hdr = /^H/.test(s) ? 'IN ' + wcOtText().toUpperCase() : ntn > 4 ? ('IN ' + wcBooksText(ntn, 'hdr').toUpperCase()) : 'IN THE FOUR GOSPELS';
+  return `<div class="gu"><p class="gu-h">${hdr}<span>${fmtN(tot)} time${tot === 1 ? '' : 's'}</span></p>${usageBars(counts, idxs)}${e[nb] && e[nb].length ? `<div class="lib-chips"><span class="lib-chiplbl">Most in:</span>${chapChips(e[nb], 'chap')}</div>` : ''}</div>`;
 }
+function normHeb(s) { return String(s || '').replace(/[\u0591-\u05C7]/g, '').replace(/[^\u05D0-\u05EA]/g, '').replace(/ך/g, 'כ').replace(/ם/g, 'מ').replace(/ן/g, 'נ').replace(/ף/g, 'פ').replace(/ץ/g, 'צ'); }
 function normGreek(s) {
   return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^Ͱ-Ͽ]/g, '').toLowerCase().replace(/ς/g, 'σ');
 }
@@ -3637,17 +3664,18 @@ async function fillKeywordUsage(ctx, listEl) {
   if (!data || !WC || key !== currentBook + '/' + currentChapterNum) return;
   ctx.translation.forEach((entry, idx) => {
     const card = listEl.querySelector('#kwc' + idx); if (!card) return;
-    const g = normGreek(String(entry.greek || '').split('(')[0]); if (!g) return;
+    const hebK = /[\u05D0-\u05EA]/.test(String(entry.greek || ''));
+    const g = hebK ? normHeb(String(entry.greek || '').split('(')[0]) : normGreek(String(entry.greek || '').split('(')[0]); if (!g && !entry.strongs) return;
     const m = String(entry.verseRef || '').match(/(\d+)(?:\s*[-–]\s*(\d+))?/);
     const lo = m ? Number(m[1]) : 0, hi = m ? Number(m[2] || m[1]) : 0;
     let s = null;
-    const scan = inRange => { for (const v of Object.keys(data)) { const n = Number(v); if (!inRange(n)) continue; const w = data[v].find(x => normGreek(x[0]) === g && x[3]); if (w) return w[3]; } return null; };
-    s = (lo && scan(n => n >= lo && n <= hi)) || scan(() => true);
+    const scan = inRange => { for (const v of Object.keys(data)) { const n = Number(v); if (!inRange(n)) continue; const w = data[v].find(x => x[3] && (hebK ? (normHeb(x[4]) === g || normHeb(x[0]) === g) : normGreek(x[0]) === g)); if (w) return w[3]; } return null; };
+    s = (entry.strongs && WC.w[entry.strongs] ? entry.strongs : null) || (lo && scan(n => n >= lo && n <= hi)) || scan(() => true);
     const html = s ? gospelUsageHTML(s) : '';
     if (!html) return;
     const extra = card.querySelector('.exp-extra'); if (!extra || extra.querySelector('.gu')) return;
-    const tot = WC.w[s].slice(0, WCN()).reduce((x, y) => x + y, 0), mEl = card.querySelector('.word-meaning');
-    if (mEl && !card.querySelector('.kw-tot')) mEl.insertAdjacentHTML('beforebegin', `<span class="kw-tot">${fmtN(tot)}\u00d7 in the ${WCN() > 4 ? wcBooksText(WCN(), 'tot') : 'four Gospels'}</span>`);
+    const tot = wcIdx(s).reduce((x, i) => x + WC.w[s][i], 0), mEl = card.querySelector('.word-meaning');
+    if (mEl && !card.querySelector('.kw-tot')) mEl.insertAdjacentHTML('beforebegin', `<span class="kw-tot">${fmtN(tot)}\u00d7 in ${/^H/.test(s) ? wcOtText() : 'the ' + (WCNT() > 4 ? wcBooksText(WCNT(), 'tot') : 'four Gospels')}</span>`);
     extra.insertAdjacentHTML('beforeend', html);
     if (!card.querySelector('.exp-more')) card.insertAdjacentHTML('beforeend', '<span class="exp-more"><span class="exp-lbl">Read more</span><svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>');
     if (!card.dataset.wx) wireExpand(card.parentNode);
@@ -3663,7 +3691,7 @@ function wordForms(w) {
   return Array.from(set);
 }
 function renderWordCounter(box) {
-  box.innerHTML = `<p class="lib-intro">Type any English word to see how often it appears in each Gospel and in Acts (Berean Standard Bible).</p>
+  box.innerHTML = `<p class="lib-intro">Type any English word to see how often it appears in each book (Berean Standard Bible).</p>
     <div class="wc-form"><input type="search" id="wcInput" class="wc-in" placeholder="e.g. love, believe, kingdom" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Word to count"><label class="wc-opt"><input type="checkbox" id="wcForms"> Include simple forms (-s, -ed, -ing)</label></div>
     <div class="lib-chips wc-sugg">${['love', 'believe', 'faith', 'kingdom', 'peace', 'sin', 'fear', 'joy', 'bread', 'water'].map(w => `<button type="button" class="lib-chip" data-wc="${w}">${w}</button>`).join('')}</div>
     <div id="wcOut" class="wc-out"></div>`;
@@ -3676,7 +3704,7 @@ function renderWordCounter(box) {
     if (!idx) { out.innerHTML = '<p class="lib-intro">The word list could not be loaded.</p>'; return; }
     if (w !== inp.value.trim().toLowerCase().replace(/[^a-z’']/g, '')) return;
     const keys = forms.checked ? wordForms(w).filter(k => idx.w[k]) : (idx.w[w] ? [w] : []);
-    if (!keys.length) { out.innerHTML = `<p class="lib-intro">“${escHtml(w)}” does not appear in the Gospels or Acts (or only once). Words that appear just once are not listed.</p>`; return; }
+    if (!keys.length) { out.innerHTML = `<p class="lib-intro">“${escHtml(w)}” does not appear in the books in this app (or only once). Words that appear just once are not listed.</p>`; return; }
     const nb = (idx.b && idx.b.length) || 4, counts = new Array(nb).fill(0), merged = {};
     keys.forEach(k => { const e = idx.w[k]; for (let i = 0; i < nb; i++) counts[i] += e[i]; (e[nb] || []).forEach(t => { const kk = t[0] + ':' + t[1]; merged[kk] = (merged[kk] || 0) + t[2]; }); });
     const tops = Object.keys(merged).map(k => { const [b, c] = k.split(':').map(Number); return [b, c, merged[k]]; }).sort((a, b) => b[2] - a[2]).slice(0, 8);
@@ -3841,7 +3869,7 @@ function renderBookTab() {
   if (!B) { panel.innerHTML = '<p class="panel-eyebrow">BOOK OVERVIEW</p><div class="tpl-card"><p class="panel-text dim" style="margin:0;">The big picture of this book. Coming soon.</p></div>'; return; }
   const st = BOOKS.stats[currentBook], ch = currentChapterNum;
   const top = WC && WC.top && WC.top[currentBook], sig = WC && WC.sig && WC.sig[currentBook];
-  const wordRow = x => `<li><b>${escHtml(x.l)}</b> <span>${escHtml(x.g)}</span><em>${fmtN(x.n)}×</em></li>`;
+  const wordRow = x => `<li><b${/^H/.test(x.s) ? ' class="he" dir="rtl" lang="he"' : ''}>${escHtml(x.l)}</b> <span>${escHtml(x.g)}</span><em>${fmtN(x.n)}×</em></li>`;
   const outline = B.outline.map(o => { const here = ch >= o[0] && ch <= o[1]; return `<button type="button" class="bk-sec${here ? ' here' : ''}" data-lib="chapdeep" data-b="${currentBook}" data-c="${o[0]}"><span class="bk-ch">${o[0] === o[1] ? 'Ch ' + o[0] : 'Ch ' + o[0] + '–' + o[1]}</span><span class="bk-st"><b>${escHtml(o[2])}</b>${here ? '<i>You are here</i>' : ''}<span>${escHtml(o[3])}</span></span></button>`; }).join('');
   const keys = B.keys.map(k => `<button type="button" class="lib-chip" data-lib="ref" data-b="${k[0].toLowerCase()}" data-c="${k[1]}" data-v="${k[2]}">${escHtml(k[0])} ${k[1]}:${k[2]}</button>`).join('');
   const GOSPELS = ['matthew', 'mark', 'luke', 'john'], isGospel = GOSPELS.indexOf(currentBook) >= 0;
@@ -3849,14 +3877,14 @@ function renderBookTab() {
   const cmp = BOOKS.compare.map(r => { const mx = Math.max.apply(null, r.slice(1)); return `<tr><td>${escHtml(r[0])}</td>${r.slice(1).map((n, i) => `<td class="${GOSPELS[i] === currentBook ? 'cur' : ''}${n === mx && mx > 0 ? ' mx' : ''}">${n}</td>`).join('')}</tr>`; }).join('');
   panel.innerHTML = `<p class="panel-eyebrow">BOOK OVERVIEW</p>
     <h3 class="bk-title">${escHtml(B.full)}</h3><p class="bk-tag">${escHtml(B.tag)}</p>
-    <div class="bk-nums"><div><b>${st.ch}</b><span>chapters</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>Greek words</span></div></div>
+    <div class="bk-nums"><div><b>${st.ch}</b><span>chapters</span></div><div><b>${fmtN(st.v)}</b><span>verses</span></div><div><b>${fmtN(st.w)}</b><span>English words</span></div><div><b>${fmtN(st.g)}</b><span>${Bk.lang(currentBook)} words</span></div></div>
     ${bkSection('AT A GLANCE', `<dl class="bk-facts">${B.facts.map(f => `<dt>${escHtml(f[0])}</dt><dd>${escHtml(f[1])}</dd>`).join('')}</dl>`)}
-    ${bkSection('WHY IT WAS WRITTEN', `<p class="lib-p">${escHtml(B.purpose)}</p><p class="lib-p"><b>Jesus is shown as:</b> ${escHtml(B.jesus)}</p>${B.caution ? `<p class="lib-caution"><b>Keep in mind:</b> ${escHtml(B.caution)}</p>` : ''}`, true)}
+    ${bkSection('WHY IT WAS WRITTEN', `<p class="lib-p">${escHtml(B.purpose)}</p><p class="lib-p"><b>${escHtml(B.jesusLabel || 'Jesus is shown as:')}</b> ${escHtml(B.jesus)}</p>${B.caution ? `<p class="lib-caution"><b>Keep in mind:</b> ${escHtml(B.caution)}</p>` : ''}`, true)}
     ${bkSection('OUTLINE', `<div class="bk-outline">${outline}</div>`)}
     ${bkSection('THEMES', B.themes.map(t => `<div class="bk-theme"><b>${escHtml(t[0])}</b><p class="lib-p">${escHtml(t[1])}</p></div>`).join(''))}
     ${bkSection('ONLY OR MOSTLY IN ' + B.name.toUpperCase(), `<ul class="bk-list">${B.unique.map(u => `<li>${escHtml(u)}</li>`).join('')}</ul>`)}
     ${bkSection('KEY PASSAGES', `<div class="lib-chips">${keys}</div>`)}
-    ${top ? bkSection('MOST-USED WORDS IN THE GREEK', `<div class="bk-cols"><div><p class="bk-sub">Nouns</p><ul class="bk-words">${top.nouns.map(wordRow).join('')}</ul></div><div><p class="bk-sub">Verbs</p><ul class="bk-words">${top.verbs.map(wordRow).join('')}</ul></div></div><p class="lib-intro">Counted by root word from the earliest Greek text (STEP Bible). Verses found only in later manuscripts, such as Mark 16:9–20, are left out.</p>`) : ''}
+    ${top ? bkSection('MOST-USED WORDS IN THE ' + Bk.lang(currentBook).toUpperCase(), `<div class="bk-cols"><div><p class="bk-sub">Nouns</p><ul class="bk-words">${top.nouns.map(wordRow).join('')}</ul></div><div><p class="bk-sub">Verbs</p><ul class="bk-words">${top.verbs.map(wordRow).join('')}</ul></div></div><p class="lib-intro">${Bk.lang(currentBook) === 'Hebrew' ? 'Counted by root word from the Hebrew text (STEP Bible’s TAHOT, from the Leningrad Codex). Little words such as “all” are left out.' : 'Counted by root word from the earliest Greek text (STEP Bible). Verses found only in later manuscripts, such as Mark 16:9–20, are left out.'}</p>`) : ''}
     ${sig ? bkSection('WORDS ' + B.name.toUpperCase() + ' FAVORS', `<ul class="bk-words fav">${sig.map(x => `<li><b>${escHtml(x.l)}</b> <span>${escHtml(x.g)}</span><em>${fmtN(x.n)}× here · ${fmtN(x.o)}× in the ${WCBK[currentBook] ? wcBooksText(WCBK[currentBook], 'fav') : 'other three'}</em></li>`).join('')}</ul>`) : ''}
     ${!isGospel ? '' : bkSection('COMPARE THE GOSPELS', `<div class="bk-tblwrap"><table class="bk-tbl">${cmpHead}${cmp}</table></div><p class="lib-intro">Counts of English words and phrases in the Berean Standard Bible. The highest count in each row is shaded.</p>`)}
     <details class="acc"><summary>WORD COUNTER</summary><div class="acc-body" id="wcBox"></div></details>`;
@@ -3933,8 +3961,9 @@ function renderOverview(ctx) {
   const refLine = r => `<span class="ov-ref"><b>${escHtml(r.ref)}</b><span>${escHtml((ov.refNotes && ov.refNotes[r.ref]) || clip(r.note, 22))}</span></span>`;
   const gps = (ctx.gospelParallels || []).slice(0, 1);
   const ots = (ctx.otBackground || []).slice(0, gps.length ? 2 : 3);
-  const refs = (gps.length ? '<span class="ov-subh" style="color:var(--burgundy)">GOSPEL PARALLELS</span>' + gps.map(refLine).join('') : '') +
-    '<span class="ov-subh"' + (gps.length ? ' style="margin-top:4px;color:var(--burgundy)"' : ' style="color:var(--burgundy)"') + '>OLD TESTAMENT</span>' + ots.map(refLine).join('');
+  const otBk = Bk.testament(currentBook) === 'OT';
+  const refs = (gps.length ? '<span class="ov-subh" style="color:var(--burgundy)">' + (otBk ? 'NEW TESTAMENT' : 'GOSPEL PARALLELS') + '</span>' + gps.map(refLine).join('') : '') +
+    '<span class="ov-subh"' + (gps.length ? ' style="margin-top:4px;color:var(--burgundy)"' : ' style="color:var(--burgundy)"') + '>' + (otBk ? 'ELSEWHERE IN THE OT' : 'OLD TESTAMENT') + '</span>' + ots.map(refLine).join('');
   const voices = ovVoicesHtml(ctx);
   const tl = (ov.timeline || []).map(t => `<div><b>${escHtml(t.when)}</b>${escHtml(t.label)}</div>`).join('');
 
@@ -3945,8 +3974,8 @@ function renderOverview(ctx) {
     const total = bk ? bk.totalChapters : 0;
     const ttl = k => (chapterIndex && chapterIndex[slug] && chapterIndex[slug][String(k)]) || '';
     const bc = (typeof MAP_BOOK_COLORS !== 'undefined' && MAP_BOOK_COLORS[slug]) || '#8a6d0b';
-    const prev = n > 1 ? `<span class="tl-seg tl-side" style="--c:${bc}"><em>BEFORE · ${escHtml(nm)} ${n - 1}</em><span>${escHtml(ttl(n - 1))}</span></span>` : `<span class="tl-seg tl-side tl-edge"><em>BEFORE</em><span>The start of ${escHtml(bk ? bk.name : '')}’s Gospel</span></span>`;
-    const next = n < total ? `<span class="tl-seg tl-side" style="--c:${bc}"><em>AFTER · ${escHtml(nm)} ${n + 1}</em><span>${escHtml(ttl(n + 1))}</span></span>` : `<span class="tl-seg tl-side tl-edge"><em>AFTER</em><span>The end of ${escHtml(bk ? bk.name : '')}’s Gospel</span></span>`;
+    const prev = n > 1 ? `<span class="tl-seg tl-side" style="--c:${bc}"><em>BEFORE · ${escHtml(nm)} ${n - 1}</em><span>${escHtml(ttl(n - 1))}</span></span>` : `<span class="tl-seg tl-side tl-edge"><em>BEFORE</em><span>The start of ${escHtml(bk ? bk.name : '')}${Bk.group(slug) === 'Gospels' ? '’s Gospel' : ''}</span></span>`;
+    const next = n < total ? `<span class="tl-seg tl-side" style="--c:${bc}"><em>AFTER · ${escHtml(nm)} ${n + 1}</em><span>${escHtml(ttl(n + 1))}</span></span>` : `<span class="tl-seg tl-side tl-edge"><em>AFTER</em><span>The end of ${escHtml(bk ? bk.name : '')}${Bk.group(slug) === 'Gospels' ? '’s Gospel' : ''}</span></span>`;
     return prev + `<span class="tl-seg tl-mid" style="--c:${bc}"><em>NOW · ${escHtml(nm)} ${n}</em><span>${escHtml(currentChapterData.title)}</span></span>` + next;
   };
   const block = (cls, label, color, go, inner, section) =>
@@ -4122,7 +4151,7 @@ const MAP_TST = Bk.map(Bk.testament);
 let EVENTS = null, EV_BY_ID = {};
 let mapMain = null, mapMainReady = false, mapStyleFailed = false;
 let mapF = { tst: 'all', book: 'all', chapter: 'all', from: 1, to: 9999 };
-let mapMaxI = 579;       // number of the last event (set when events load)
+let mapMaxI = 587;       // number of the last event (set when events load)
 let mapStory = '';       // '' or a story id (see MAP_STORIES): draws the path and numbers the stops
 // a story is never carried over from an earlier visit: the map always opens with no filters
 // Stories follow one life through the events, in order. More can be added (Life of Paul comes with Acts).
@@ -4227,7 +4256,11 @@ const MAP_STORIES = [
   { id: 'revelation', name: 'Revelation', color: '#8a2f3d', ready: true, match: e => typeof e.i === 'number' && e.i > 527 && e.i <= 579 && !e.bg,
     key: [528, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 544, 550, 552, 555, 562, 564, 566, 570, 572, 574, 576, 579],
     short: [530, 531, 532, 533, 534, 535, 536, 537, 539, 562, 564, 576],
-    blurb: 'The last book of the Bible: a letter, a prophecy and a series of visions given to John on the island of Patmos for seven churches in Roman Asia. Seven pins mark those churches, in the order a messenger would reach them. Most of the visions are set in heaven and have no place on a map, so their pins stand at Patmos, where John saw them. A few stand at places the book names or points to: the Euphrates, Megiddo (Armageddon), Jerusalem, and Rome and Babylon for the great city of chapters 17-18, which is a judgment call. The notes give the main ways Christians read each vision. Numbers show the order.' }
+    blurb: 'The last book of the Bible: a letter, a prophecy and a series of visions given to John on the island of Patmos for seven churches in Roman Asia. Seven pins mark those churches, in the order a messenger would reach them. Most of the visions are set in heaven and have no place on a map, so their pins stand at Patmos, where John saw them. A few stand at places the book names or points to: the Euphrates, Megiddo (Armageddon), Jerusalem, and Rome and Babylon for the great city of chapters 17-18, which is a judgment call. The notes give the main ways Christians read each vision. Numbers show the order.' },
+  { id: 'proverbs', name: 'Proverbs', color: '#9a6b2f', ready: true, match: e => typeof e.i === 'number' && e.i > 579 && e.i <= 587 && !e.bg,
+    key: [580, 581, 582, 583, 584, 585, 586, 587],
+    short: [580, 582, 584, 587],
+    blurb: 'A book of wisdom, not of journeys: most of it was gathered at the royal court in Jerusalem, first under Solomon (about 970-930 BC) and then by the scribes of King Hezekiah (about 715-686 BC). Pins on the City of David and the Ophel mark those courts. Agur and King Lemuel may have come from Massa in north Arabia; those two pins are rough guesses. Numbers show the order of the book.' },
 ];
 // number shown on a pin or list row: its place in the story that is switched on (the Gospel events keep their own numbers)
 function mapNo(e) {
@@ -4275,7 +4308,9 @@ const MAP_PERIODS = [
   { n: 'Revelation: the seven churches (1-3)', a: 528, b: 537 },
   { n: 'Revelation: the throne, seals and trumpets (4-11)', a: 538, b: 551 },
   { n: 'Revelation: the dragon, the beasts and Babylon (12-18)', a: 552, b: 568 },
-  { n: 'Revelation: the King and the new Jerusalem (19-22)', a: 569, b: 579 }
+  { n: 'Revelation: the King and the new Jerusalem (19-22)', a: 569, b: 579 },
+  { n: 'Proverbs: Solomon’s court and the words of the wise (1-24)', a: 580, b: 583 },
+  { n: 'Proverbs: Hezekiah’s men, Agur and Lemuel (25-31)', a: 584, b: 587 }
 ];
 let mapShown = [];       // events currently on the map (after filters)
 let mapSelId = null;
@@ -5279,7 +5314,7 @@ const TOUR_ICO = {
 };
 const TOUR_RES = [
   { k: 'read', op: '50% 12%', im: [['g_read', 640, 408]], alt: 'The Verse Inspector open on a verse', t: 'Read', 
-    d: 'Read the Bible, then tap any verse to open it up.<span class="tex">Try: compare translations · see the original Greek word by word · read commentary · follow a reading plan</span>' },
+    d: 'Read the Bible, then tap any verse to open it up.<span class="tex">Try: compare translations · see the original Hebrew and Greek word by word · read commentary · follow a reading plan</span>' },
   { k: 'study', op: '50% 4%', im: [['g_study', 640, 408]], alt: 'The Chapter Deep Dive', t: 'Study',
     d: 'Put a chapter or a story in context.<span class="tex">Try: a Chapter Deep Dive for setting, history and customs · Compare Scripture: Gospel parallels, Bible versions and any two passages side by side · Commentary: learn from pastors, authors, teachers and early church writers · the Glossary: a library of people, places, parables, Greek words and more</span>' },
   { k: 'vis', op: '50% 0%', im: [['g_vis', 640, 408]], alt: 'The Timeline', t: 'Visualize',

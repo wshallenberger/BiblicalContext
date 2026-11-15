@@ -3,6 +3,7 @@
  * testament, totalChapters, availableChapters) and the pickers, Commentary, Compare, Glossary, Search, Plans, Saved, Notes and the
  * Map all see it with no other code change.
  *   Bk.slugs()  Bk.name(slug)  Bk.short(slug)  Bk.chapters(slug)  Bk.has(slug)  Bk.order(slug)  Bk.color(slug)  Bk.testament(slug)
+ *   Bk.group(slug)  Bk.groups()  Bk.groupLabel(name)  Bk.lang(slug) ('Hebrew'|'Greek')  Bk.scope() ('the Bible' once both testaments are in)
  *   Bk.slugOf(text)  Bk.abbr()  Bk.refRe()  Bk.keyRe()  Bk.parse('Luke 14:28')  Bk.names()  Bk.nameMap()
  */
 (function () {
@@ -26,6 +27,36 @@
   function order(slug) { var i = slugs().indexOf(slug); return i < 0 ? 99 : i; }
   function color(slug) { var b = get(slug), i = slugs().indexOf(slug); return (b && b.color) || PALETTE[(i < 0 ? 0 : i) % PALETTE.length]; }
   function testament(slug) { var b = get(slug); return b && b.testament === 'Old' ? 'OT' : 'NT'; }
+  // Book groups, in Bible order. The Old Testament groups come first; a group with no books in the manifest is simply not shown.
+  var GROUPS = [
+    { n: 'Law', t: 'Old', b: 'Genesis to Deuteronomy, the books of Moses' },
+    { n: 'History', t: 'Old', b: 'Israel in the land, from Joshua to Esther' },
+    { n: 'Poetry', t: 'Old', label: 'Wisdom & Poetry', b: 'Job, Psalms, Proverbs, Ecclesiastes and the Song' },
+    { n: 'Prophets', t: 'Old', b: 'Isaiah to Malachi' },
+    { n: 'Gospels', t: 'New', b: 'The life of Jesus' },
+    { n: 'Acts', t: 'New', b: 'The first church' },
+    { n: 'Letters', t: 'New', b: 'Paul, Peter, John and others' },
+    { n: 'Revelation', t: 'New', b: 'The end and the new beginning' }
+  ];
+  var OT_GROUP = { genesis: 'Law', exodus: 'Law', leviticus: 'Law', numbers: 'Law', deuteronomy: 'Law',
+    job: 'Poetry', psalms: 'Poetry', proverbs: 'Poetry', ecclesiastes: 'Poetry', 'song-of-solomon': 'Poetry' };
+  var PROPHETS = 'isaiah jeremiah lamentations ezekiel daniel hosea joel amos obadiah jonah micah nahum habakkuk zephaniah haggai zechariah malachi'.split(' ');
+  function group(slug) {
+    if (OT_GROUP[slug]) return OT_GROUP[slug];
+    if (PROPHETS.indexOf(slug) >= 0) return 'Prophets';
+    var b = get(slug);
+    if (b && b.testament === 'Old') return 'History';
+    if (['matthew', 'mark', 'luke', 'john'].indexOf(slug) >= 0) return 'Gospels';
+    if (slug === 'acts') return 'Acts';
+    if (slug === 'revelation') return 'Revelation';
+    return 'Letters';
+  }
+  function groups() { return GROUPS; }
+  function groupLabel(n) { for (var i = 0; i < GROUPS.length; i++) if (GROUPS[i].n === n) return GROUPS[i].label || n; return n; }
+  // 'Hebrew' for the Old Testament, 'Greek' for the New
+  function lang(slug) { return testament(slug) === 'OT' ? 'Hebrew' : 'Greek'; }
+  // 'the Old Testament', 'the New Testament', or 'the Bible' when the app has books from both
+  function scope() { var o = 0, n = 0; list().forEach(function (b) { if (b.testament === 'Old') o++; else n++; }); return o && n ? 'the Bible' : o ? 'the Old Testament' : 'the New Testament'; }
   function esc(s) { return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
   function build() {
     var k = slugs().join(',');
@@ -53,6 +84,6 @@
   }
   // an object that looks like { slug: value } but is always up to date: Bk.nameMap(), or any function of the slug
   function map(fn) { return new Proxy({}, { get: function (_, k) { return typeof k === 'string' && has(k) ? fn(k) : undefined; }, has: function (_, k) { return has(k); }, ownKeys: function () { return slugs(); }, getOwnPropertyDescriptor: function (_, k) { return has(k) ? { enumerable: true, configurable: true, value: fn(k) } : undefined; } }); }
-  window.Bk = { list: list, slugs: slugs, get: get, name: name, short: short, chapters: chapters, has: has, order: order, color: color, testament: testament,
+  window.Bk = { list: list, slugs: slugs, get: get, name: name, short: short, chapters: chapters, has: has, order: order, color: color, testament: testament, group: group, groups: groups, groupLabel: groupLabel, lang: lang, scope: scope,
     slugOf: slugOf, abbr: abbr, refRe: refRe, splitRe: splitRe, keyRe: keyRe, parse: parse, map: map, nameMap: function () { return map(name); }, names: function () { return list().map(function (b) { return b.name; }); } };
 })();

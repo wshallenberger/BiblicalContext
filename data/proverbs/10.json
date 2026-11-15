@@ -1,0 +1,308 @@
+{
+ "book": "Proverbs",
+ "chapter": 10,
+ "title": "The Proverbs of Solomon",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The proverbs of Solomon: A wise son brings joy to his father, but a foolish son grief to his mother."
+  },
+  {
+   "num": 2,
+   "text": "Ill-gotten treasures profit nothing, but righteousness brings deliverance from death."
+  },
+  {
+   "num": 3,
+   "text": "The LORD does not let the righteous go hungry, but He denies the craving of the wicked."
+  },
+  {
+   "num": 4,
+   "text": "Idle hands make one poor, but diligent hands bring wealth."
+  },
+  {
+   "num": 5,
+   "text": "He who gathers in summer is a wise son, but he who sleeps during harvest is a disgraceful son."
+  },
+  {
+   "num": 6,
+   "text": "Blessings are on the head of the righteous, but the mouth of the wicked conceals violence."
+  },
+  {
+   "num": 7,
+   "text": "The memory of the righteous is a blessing, but the name of the wicked will rot."
+  },
+  {
+   "num": 8,
+   "text": "A wise heart will receive commandments, but foolish lips will come to ruin."
+  },
+  {
+   "num": 9,
+   "text": "He who walks in integrity walks securely, but he who perverts his ways will be found out."
+  },
+  {
+   "num": 10,
+   "text": "He who winks the eye causes grief, and foolish lips will come to ruin."
+  },
+  {
+   "num": 11,
+   "text": "The mouth of the righteous is a fountain of life, but the mouth of the wicked conceals violence."
+  },
+  {
+   "num": 12,
+   "text": "Hatred stirs up dissension, but love covers all transgressions."
+  },
+  {
+   "num": 13,
+   "text": "Wisdom is found on the lips of the discerning, but a rod is for the back of him who lacks judgment."
+  },
+  {
+   "num": 14,
+   "text": "The wise store up knowledge, but the mouth of the fool invites destruction."
+  },
+  {
+   "num": 15,
+   "text": "The wealth of the rich man is his fortified city, but poverty is the ruin of the poor."
+  },
+  {
+   "num": 16,
+   "text": "The labor of the righteous leads to life, but the gain of the wicked brings punishment."
+  },
+  {
+   "num": 17,
+   "text": "Whoever heeds instruction is on the path to life, but he who ignores reproof goes astray."
+  },
+  {
+   "num": 18,
+   "text": "The one who conceals hatred has lying lips, and whoever spreads slander is a fool."
+  },
+  {
+   "num": 19,
+   "text": "When words are many, sin is unavoidable, but he who restrains his lips is wise."
+  },
+  {
+   "num": 20,
+   "text": "The tongue of the righteous is choice silver, but the heart of the wicked has little worth."
+  },
+  {
+   "num": 21,
+   "text": "The lips of the righteous feed many, but fools die for lack of judgment."
+  },
+  {
+   "num": 22,
+   "text": "The blessing of the LORD enriches, and He adds no sorrow to it."
+  },
+  {
+   "num": 23,
+   "text": "The fool delights in shameful conduct, but a man of understanding has wisdom."
+  },
+  {
+   "num": 24,
+   "text": "What the wicked man dreads will overtake him, but the desire of the righteous will be granted."
+  },
+  {
+   "num": 25,
+   "text": "When the whirlwind passes, the wicked are no more, but the righteous are secure forever."
+  },
+  {
+   "num": 26,
+   "text": "Like vinegar to the teeth and smoke to the eyes, so is the slacker to those who send him."
+  },
+  {
+   "num": 27,
+   "text": "The fear of the LORD prolongs life, but the years of the wicked will be cut short."
+  },
+  {
+   "num": 28,
+   "text": "The hope of the righteous is joy, but the expectations of the wicked will perish."
+  },
+  {
+   "num": 29,
+   "text": "The way of the LORD is a refuge to the upright, but destruction awaits those who do evil."
+  },
+  {
+   "num": 30,
+   "text": "The righteous will never be shaken, but the wicked will not inhabit the land."
+  },
+  {
+   "num": 31,
+   "text": "The mouth of the righteous brings forth wisdom, but a perverse tongue will be cut out."
+  },
+  {
+   "num": 32,
+   "text": "The lips of the righteous know what is fitting, but the mouth of the wicked is perverse."
+  }
+ ],
+ "context": {
+  "author": "Solomon, named in the heading “The proverbs of Solomon” (10:1). The collection runs from 10:1 to 22:16, about 375 sayings.",
+  "genre": "Wisdom sayings: two-line proverbs, most of them contrasts",
+  "audience": "Anyone learning to live wisely, first the young men of Israel’s court and households",
+  "mapLabel": "JERUSALEM, THE ROYAL COURT OF SOLOMON",
+  "setting": "A new heading, “The proverbs of Solomon” (v.1), starts the book’s largest collection. From here to 22:16 almost every verse is a separate two-line saying, and in chapters 10-15 most of them are contrasts joined by “but”: the wise son and the foolish son, the hard worker and the lazy, the righteous and the wicked, the careful speaker and the babbler. Speech is the big theme of this chapter: the mouth of the righteous is a fountain of life (v.11), love covers all transgressions (v.12), and “when words are many, sin is unavoidable” (v.19).",
+  "custom": "Short sayings were easy to remember and repeat in a world where few people owned books. Harvest was the busiest time in a farming village, and the son who sleeps during harvest (v.5) shames his family. A wealthy man’s goods were his “fortified city” (v.15), his defense in hard times, while poverty left the poor with nothing to fall back on.",
+  "timelineImmediate": "Chapter 11 continues with sayings about honest scales, pride, generosity and the reward of the righteous.",
+  "timelineBible": "1 Kings 4:32 says Solomon “composed three thousand proverbs” (1 Kings 4:32). The number value of the Hebrew letters in “Solomon” is 375, the number of sayings in 10:1-22:16, which many scholars think is not a coincidence. Verse 12 is echoed in 1 Peter 4:8 and James 5:20.",
+  "translation": [
+   {
+    "english": "proverb",
+    "greek": "מָשָׁל (mashal)",
+    "verseRef": "v.1",
+    "meaning": "A saying that compares or sets side by side. It can mean a proverb, a parable or a taunt. The book is named after it.",
+    "gloss": "Saying, comparison",
+    "strongs": "H4912",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "righteous",
+    "greek": "צַדִּיק (tsaddiq)",
+    "verseRef": "v.3",
+    "meaning": "The one who lives rightly with God and neighbor. In Proverbs he is the opposite of the wicked.",
+    "gloss": "Just, upright",
+    "strongs": "H6662",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "integrity",
+    "greek": "תֹּם (tom)",
+    "verseRef": "v.9",
+    "meaning": "Wholeness, being all of one piece. The one who walks in it walks securely.",
+    "gloss": "Wholeness",
+    "strongs": "H8537",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Peter 4:8",
+    "note": "Love covers a multitude of sins (v.12)."
+   },
+   {
+    "ref": "James 5:20",
+    "note": "Turning a sinner back covers a multitude of sins."
+   },
+   {
+    "ref": "James 1:19",
+    "note": "Be quick to listen, slow to speak (v.19)."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Kings 4:32",
+    "note": "Solomon composed 3,000 proverbs."
+   },
+   {
+    "ref": "Psalm 1:6",
+    "note": "The LORD watches over the way of the righteous."
+   },
+   {
+    "ref": "Psalm 37:25",
+    "note": "I have not seen the righteous forsaken."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The proverbs of Solomon begin: short contrasts between the wise and the foolish, the hard worker and the lazy, and above all the careful and the careless tongue.",
+   "settingLine": "The first collection of Solomon’s sayings.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "375 sayings",
+     "t": "The collection runs to 22:16."
+    },
+    {
+     "h": "Solomon’s fame",
+     "t": "His wisdom drew visitors from far away."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Harvest time",
+     "t": "Every hand was needed in the field."
+    },
+    {
+     "h": "Oral wisdom",
+     "t": "Short sayings were memorized and repeated."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Gezer calendar",
+     "t": "A 10th-century BC limestone tablet, perhaps a student’s writing exercise, lists the farming months."
+    },
+    {
+     "h": "Ostraca",
+     "t": "Notes on potsherds show reading and writing in Israel’s towns."
+    }
+   ],
+   "discussion": "Almost half of chapter 10 is about speech. Which of these sayings about the tongue do I most need this week?",
+   "book": "The book of Proverbs · 31 chapters. Short sayings and longer poems that teach how to live wisely in God’s world, beginning with the fear of the LORD.",
+   "author": "Solomon (10:1)",
+   "genre": "Proverbs (two-line sayings)",
+   "audience": "Everyone, starting with the young",
+   "refNotes": {
+    "1 Kings 4:32": "3,000 proverbs",
+    "Psalm 1:6": "The way of the righteous",
+    "Psalm 37:25": "Never forsaken"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Solomon",
+     "d": "Named in the heading"
+    },
+    {
+     "n": "The wise son",
+     "d": "Brings joy to his father"
+    },
+    {
+     "n": "The righteous",
+     "d": "Their mouth is a fountain of life"
+    },
+    {
+     "n": "The slacker",
+     "d": "Like smoke to the eyes"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Wise and foolish sons"
+    },
+    {
+     "when": "v.6-21",
+     "label": "Words and the mouth"
+    },
+    {
+     "when": "v.22-32",
+     "label": "The righteous endure"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The proverbs of Solomon: A wise son brings joy to his father, but a foolish son grief to his mother. Idle hands make one poor, but diligent hands bring wealth. The memory of the righteous is a blessing, but the name of the wicked will rot. He who walks in integrity walks securely, but he who perverts his ways will be found out. Hatred stirs up dissension, but love covers all transgressions. Whoever heeds instruction is on the path to life, but he who ignores reproof goes astray. When words are many, sin is unavoidable, but he who restrains his lips is wise. The blessing of the LORD enriches, and He adds no sorrow to it. The fear of the LORD prolongs life, but the years of the wicked will be cut short. The lips of the righteous know what is fitting, but the mouth of the wicked is perverse.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+   "caption": "Netherlandish Proverbs, painted by Pieter Bruegel the Elder in 1559 (Gemäldegalerie, Berlin). More than a hundred Dutch sayings are acted out at once in one crowded village, a reminder that every people keeps its wisdom in short, memorable lines.",
+   "credit": "Pieter Bruegel the Elder (1559), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air. Solomon built the first Temple on this hill (1 Kings 6), in the city where his proverbs were first collected.",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}
