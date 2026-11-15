@@ -1,0 +1,230 @@
+{
+ "book": "Psalms",
+ "chapter": 32,
+ "title": "Blessed Is He Whose Transgressions Are Forgiven",
+ "translation": "BSB",
+ "superscription": "Of David. A Maskil.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Blessed is he whose transgressions are forgiven, whose sins are covered."
+  },
+  {
+   "num": 2,
+   "text": "Blessed is the man whose iniquity the LORD does not count against him, in whose spirit there is no deceit."
+  },
+  {
+   "num": 3,
+   "text": "When I kept silent, my bones became brittle from my groaning all day long."
+  },
+  {
+   "num": 4,
+   "text": "For day and night Your hand was heavy upon me; my strength was drained as in the summer heat. Selah"
+  },
+  {
+   "num": 5,
+   "text": "Then I acknowledged my sin to You and did not hide my iniquity. I said, \"I will confess my transgressions to the LORD,\" and You forgave the guilt of my sin. Selah"
+  },
+  {
+   "num": 6,
+   "text": "Therefore let all the godly pray to You while You may be found. Surely when great waters rise, they will not come near."
+  },
+  {
+   "num": 7,
+   "text": "You are my hiding place. You protect me from trouble; You surround me with songs of deliverance. Selah"
+  },
+  {
+   "num": 8,
+   "text": "I will instruct you and teach you the way you should go; I will give you counsel and watch over you."
+  },
+  {
+   "num": 9,
+   "text": "Do not be like the horse or mule, which have no understanding; they must be controlled with bit and bridle to make them come to you."
+  },
+  {
+   "num": 10,
+   "text": "Many are the sorrows of the wicked, but loving devotion surrounds him who trusts in the LORD."
+  },
+  {
+   "num": 11,
+   "text": "Be glad in the LORD and rejoice, O righteous ones; shout for joy, all you upright in heart."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Blessed is he whose transgressions are forgiven, whose sins are covered. Blessed is the man whose iniquity the LORD does not count against him” (vv.1-2). David tells what happened when he hid his sin: “When I kept silent, my bones became brittle from my groaning all day long. For day and night Your hand was heavy upon me” (vv.3-4). Then: “I acknowledged my sin to You and did not hide my iniquity… and You forgave the guilt of my sin” (v.5). God is now his “hiding place” (v.7). God answers, “I will instruct you and teach you the way you should go” (v.8), and warns against being stubborn like a horse or mule (v.9). The psalm ends in joy (v.11).",
+  "custom": "Horses and mules were steered with bits and bridles, a picture of a will that must be forced. Hot, dry summer months (v.4) drained the land until the autumn rains. A Maskil (title) may be a teaching song or a skillful psalm; the word comes from the verb “to instruct” used in v.8.",
+  "timelineImmediate": "Psalm 33 calls the righteous to sing a new song to the Creator.",
+  "timelineBible": "Paul quotes vv.1-2 to show that God credits righteousness apart from works: “Blessed are they whose lawless acts are forgiven” (Romans 4:7). Many read the psalm with David’s sin with Bathsheba and his confession after Nathan’s rebuke (2 Samuel 12:13; Psalm 51). It is one of the seven penitential psalms; Augustine’s biographer Possidius says he had the penitential psalms copied on the wall by his deathbed.",
+  "translation": [
+   {
+    "english": "forgiven",
+    "greek": "נָשָׂא (nasa)",
+    "verseRef": "v.1",
+    "meaning": "To lift, carry away. Sin is lifted off and taken away.",
+    "gloss": "Lift away",
+    "strongs": "H5375",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "covered",
+    "greek": "כָּסָה (kasah)",
+    "verseRef": "v.1",
+    "meaning": "To cover, conceal. God covers what the sinner stops hiding (v.5).",
+    "gloss": "Cover",
+    "strongs": "H3680",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "count",
+    "greek": "חָשַׁב (chashav)",
+    "verseRef": "v.2",
+    "meaning": "To reckon, account, credit; the word of Genesis 15:6.",
+    "gloss": "Reckon",
+    "strongs": "H2803",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "hiding place",
+    "greek": "סֵתֶר (seter)",
+    "verseRef": "v.7",
+    "meaning": "Shelter, secret place, hiding place.",
+    "gloss": "Shelter",
+    "strongs": "H5643",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 4:6-8",
+    "note": "Blessed are those whose lawless acts are forgiven."
+   },
+   {
+    "ref": "1 John 1:8-9",
+    "note": "If we confess our sins, He is faithful to forgive."
+   },
+   {
+    "ref": "James 5:16",
+    "note": "Confess your sins to one another."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 12:13",
+    "note": "David confesses to Nathan."
+   },
+   {
+    "ref": "Proverbs 28:13",
+    "note": "He who conceals his sins will not prosper."
+   },
+   {
+    "ref": "Genesis 15:6",
+    "note": "It was credited to him as righteousness."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David describes the misery of hiding sin and the joy of confessing it, blesses the one whose sin God covers, and invites others to learn from him.",
+   "settingLine": "Silence, confession and relief.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David and Bathsheba",
+     "t": "The sin many link with this psalm."
+    },
+    {
+     "h": "Penitential psalms",
+     "t": "Psalms 6, 32, 38, 51, 102, 130, 143."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Bit and bridle",
+     "t": "Control for animals without understanding."
+    },
+    {
+     "h": "Summer heat",
+     "t": "Months of drought before the rains."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Horse bits",
+     "t": "Bronze and iron bits are found at Megiddo and other Iron Age sites."
+    },
+    {
+     "h": "Bathsheba’s Jerusalem",
+     "t": "The City of David, where the royal palace stood."
+    }
+   ],
+   "discussion": "“When I kept silent, my bones became brittle” (v.3). What does hiding sin cost me, and what keeps me from confessing it?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Penitential psalm and thanksgiving",
+   "audience": "God, and those who need forgiving",
+   "refNotes": {
+    "2 Samuel 12:13": "David confesses",
+    "Proverbs 28:13": "Confess and be shown mercy",
+    "Genesis 15:6": "Credited"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Confesses and is forgiven"
+    },
+    {
+     "n": "The godly",
+     "d": "Called to pray"
+    },
+    {
+     "n": "The horse and mule",
+     "d": "A picture of stubbornness"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Blessed is the forgiven"
+    },
+    {
+     "when": "v.3-5",
+     "label": "Silence and confession"
+    },
+    {
+     "when": "v.6-11",
+     "label": "Instruction and joy"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Blessed is he whose transgressions are forgiven, whose sins are covered. Blessed is the man whose iniquity the LORD does not count against him, in whose spirit there is no deceit. When I kept silent, my bones became brittle from my groaning all day long. Then I acknowledged my sin to You and did not hide my iniquity. I said, I will confess my transgressions to the LORD, and You forgave the guilt of my sin. Selah You are my hiding place. You protect me from trouble; You surround me with songs of deliverance. Selah I will instruct you and teach you the way you should go; I will give you counsel and watch over you. Be glad in the LORD and rejoice, O righteous ones; shout for joy, all you upright in heart.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

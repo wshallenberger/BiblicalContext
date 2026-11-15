@@ -1,0 +1,265 @@
+{
+ "book": "Psalms",
+ "chapter": 25,
+ "title": "To You, O LORD, I Lift Up My Soul",
+ "translation": "BSB",
+ "superscription": "Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "To You, O LORD, I lift up my soul;"
+  },
+  {
+   "num": 2,
+   "text": "in You, my God, I trust. Do not let me be put to shame; do not let my enemies exult over me."
+  },
+  {
+   "num": 3,
+   "text": "Surely none who wait for You will be put to shame; but those who are faithless without cause will be disgraced."
+  },
+  {
+   "num": 4,
+   "text": "Show me Your ways, O LORD; teach me Your paths."
+  },
+  {
+   "num": 5,
+   "text": "Guide me in Your truth and teach me, for You are the God of my salvation; all day long I wait for You."
+  },
+  {
+   "num": 6,
+   "text": "Remember, O LORD, Your compassion and loving devotion, for they are from age to age."
+  },
+  {
+   "num": 7,
+   "text": "Remember not the sins of my youth, nor my rebellious acts; remember me according to Your loving devotion, because of Your goodness, O LORD."
+  },
+  {
+   "num": 8,
+   "text": "Good and upright is the LORD; therefore He shows sinners the way."
+  },
+  {
+   "num": 9,
+   "text": "He guides the humble in what is right and teaches them His way."
+  },
+  {
+   "num": 10,
+   "text": "All the LORD's ways are loving and faithful to those who keep His covenant and His decrees."
+  },
+  {
+   "num": 11,
+   "text": "For the sake of Your name, O LORD, forgive my iniquity, for it is great."
+  },
+  {
+   "num": 12,
+   "text": "Who is the man who fears the LORD? He will instruct him in the path chosen for him."
+  },
+  {
+   "num": 13,
+   "text": "His soul will dwell in prosperity, and his descendants will inherit the land."
+  },
+  {
+   "num": 14,
+   "text": "The LORD confides in those who fear Him, and reveals His covenant to them."
+  },
+  {
+   "num": 15,
+   "text": "My eyes are always on the LORD, for He will free my feet from the mesh."
+  },
+  {
+   "num": 16,
+   "text": "Turn to me and be gracious, for I am lonely and afflicted."
+  },
+  {
+   "num": 17,
+   "text": "The troubles of my heart increase; free me from my distress."
+  },
+  {
+   "num": 18,
+   "text": "Consider my affliction and trouble, and take away all my sins."
+  },
+  {
+   "num": 19,
+   "text": "Consider my enemies, for they are many, and they hate me with vicious hatred."
+  },
+  {
+   "num": 20,
+   "text": "Guard my soul and deliver me; let me not be put to shame, for I take refuge in You."
+  },
+  {
+   "num": 21,
+   "text": "May integrity and uprightness preserve me, because I wait for You."
+  },
+  {
+   "num": 22,
+   "text": "Redeem Israel, O God, from all its distress."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Each verse begins, more or less, with the next letter of the Hebrew alphabet. “To You, O LORD, I lift up my soul; in You, my God, I trust” (vv.1-2). The prayer asks for three things again and again: protection from shame, guidance, and forgiveness. “Show me Your ways, O LORD; teach me Your paths” (v.4). “Remember not the sins of my youth” (v.7). “For the sake of Your name, O LORD, forgive my iniquity, for it is great” (v.11). “The LORD confides in those who fear Him” (v.14). Lonely and afflicted, the psalmist asks God to turn to him (v.16), and the poem ends with a prayer for the whole people: “Redeem Israel, O God, from all its distress” (v.22).",
+  "custom": "Alphabet poems (acrostics) helped memory and expressed completeness, ‘from A to Z.’ Psalm 25 skips or doubles a few letters and adds a last verse outside the alphabet, as Psalm 34 also does. The “mesh” (v.15) is a hunter’s net for catching birds or animals.",
+  "timelineImmediate": "Psalm 26 asks God to test and vindicate one who has walked with integrity.",
+  "timelineBible": "Paul writes that “hope does not disappoint us” (Romans 5:5), the promise of v.3 that none who wait for God will be put to shame. James 1:5 promises wisdom to those who ask, like the prayer for guidance here. Psalm 34 is another alphabet psalm with the same extra closing verse.",
+  "translation": [
+   {
+    "english": "lift up",
+    "greek": "נָשָׂא (nasa)",
+    "verseRef": "v.1",
+    "meaning": "To lift, carry, bear. To lift up the soul is to set one’s desire and trust on God.",
+    "gloss": "Lift",
+    "strongs": "H5375",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "ways",
+    "greek": "דֶּרֶךְ (derekh)",
+    "verseRef": "v.4",
+    "meaning": "Way, road, path, manner of life.",
+    "gloss": "Road",
+    "strongs": "H1870",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "confides",
+    "greek": "סוֹד (sod)",
+    "verseRef": "v.14",
+    "meaning": "Council, intimate counsel, secret shared among friends.",
+    "gloss": "Friendship, counsel",
+    "strongs": "H5475",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 5:5",
+    "note": "Hope does not disappoint us."
+   },
+   {
+    "ref": "James 1:5",
+    "note": "If any of you lacks wisdom, let him ask God."
+   },
+   {
+    "ref": "John 15:15",
+    "note": "I have called you friends."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 34:1-3",
+    "note": "Another alphabet psalm."
+   },
+   {
+    "ref": "Exodus 34:6-7",
+    "note": "Compassionate and gracious, forgiving iniquity."
+   },
+   {
+    "ref": "Isaiah 40:31",
+    "note": "Those who wait upon the LORD will renew their strength."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "In an alphabet prayer David lifts his soul to God, asking to be taught His ways, forgiven the sins of his youth and kept from shame.",
+   "settingLine": "A lonely prayer for guidance and forgiveness.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Acrostic psalms",
+     "t": "Psalms 9-10, 25, 34, 37, 111, 112, 119, 145."
+    },
+    {
+     "h": "Sins of youth",
+     "t": "Remembered in later years."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Alphabet poems",
+     "t": "A to Z, a complete prayer."
+    },
+    {
+     "h": "Nets",
+     "t": "Hunters trapped birds and animals."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Izbet Sartah abecedary",
+     "t": "An alphabet scratched on a potsherd about 1100 BC."
+    },
+    {
+     "h": "Tel Zayit stone",
+     "t": "An alphabet carved on a stone about 950 BC."
+    }
+   ],
+   "discussion": "“Show me Your ways… teach me Your paths” (v.4). Where do I need God to teach me the way right now?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Prayer in an alphabet poem",
+   "audience": "God, the teacher and forgiver",
+   "refNotes": {
+    "Psalm 34:1-3": "A twin acrostic",
+    "Exodus 34:6-7": "God’s character",
+    "Isaiah 40:31": "Waiting on the LORD"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Lonely and afflicted"
+    },
+    {
+     "n": "Those who fear the LORD",
+     "d": "God confides in them"
+    },
+    {
+     "n": "Israel",
+     "d": "Prayed for at the end"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Teach me, remember me"
+    },
+    {
+     "when": "v.8-15",
+     "label": "The LORD guides the humble"
+    },
+    {
+     "when": "v.16-22",
+     "label": "Turn to me, redeem Israel"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "To You, O LORD, I lift up my soul; Show me Your ways, O LORD; teach me Your paths. Guide me in Your truth and teach me, for You are the God of my salvation; all day long I wait for You. Remember not the sins of my youth, nor my rebellious acts; remember me according to Your loving devotion, because of Your goodness, O LORD. All the LORD's ways are loving and faithful to those who keep His covenant and His decrees. The LORD confides in those who fear Him, and reveals His covenant to them. Turn to me and be gracious, for I am lonely and afflicted.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

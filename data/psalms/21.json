@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 21,
+ "title": "The King Rejoices in Your Strength",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, the king rejoices in Your strength. How greatly he exults in Your salvation!"
+  },
+  {
+   "num": 2,
+   "text": "You have granted his heart's desire and have not withheld the request of his lips. Selah"
+  },
+  {
+   "num": 3,
+   "text": "For You welcomed him with rich blessings; You placed on his head a crown of pure gold."
+  },
+  {
+   "num": 4,
+   "text": "He asked You for life, and You granted it— length of days, forever and ever."
+  },
+  {
+   "num": 5,
+   "text": "Great is his glory in Your salvation; You bestow on him splendor and majesty."
+  },
+  {
+   "num": 6,
+   "text": "For You grant him blessings forever; You cheer him with joy in Your presence."
+  },
+  {
+   "num": 7,
+   "text": "For the king trusts in the LORD; through the loving devotion of the Most High, he will not be shaken."
+  },
+  {
+   "num": 8,
+   "text": "Your hand will apprehend all Your enemies; Your right hand will seize those who hate You."
+  },
+  {
+   "num": 9,
+   "text": "You will place them in a fiery furnace at the time of Your appearing. In His wrath the LORD will engulf them, and the fire will consume them."
+  },
+  {
+   "num": 10,
+   "text": "You will wipe their descendants from the earth, and their offspring from the sons of men."
+  },
+  {
+   "num": 11,
+   "text": "Though they intend You harm, the schemes they devise will not prevail."
+  },
+  {
+   "num": 12,
+   "text": "For You will put them to flight when Your bow is trained upon them."
+  },
+  {
+   "num": 13,
+   "text": "Be exalted, O LORD, in Your strength; we will sing and praise Your power."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Psalm 21 answers Psalm 20. There the people prayed, “May He give you the desires of your heart” (20:4); here they give thanks: “You have granted his heart’s desire and have not withheld the request of his lips” (v.2). “O LORD, the king rejoices in Your strength” (v.1). God has set “a crown of pure gold” on his head (v.3) and given him “length of days, forever and ever” (v.4). The reason is trust: “For the king trusts in the LORD; through the loving devotion of the Most High, he will not be shaken” (v.7). The second half turns to the king’s enemies, who will not prevail (vv.8-12), and ends, “Be exalted, O LORD, in Your strength; we will sing and praise Your power” (v.13).",
+  "custom": "Kings were crowned at their coronation (2 Kings 11:12), and a crown taken from a conquered king could be set on the victor’s head: David took the crown of the king of Rabbah, a talent of gold set with precious stones (2 Samuel 12:30). Wishing a king long life was a standard court greeting (1 Kings 1:31). A fiery furnace (v.9) was a kiln or oven, a picture of complete destruction.",
+  "timelineImmediate": "Psalm 22 begins with the cry Jesus prayed on the cross: “My God, my God, why have You forsaken me?”",
+  "timelineBible": "Psalms 20 and 21 form a pair: a prayer before battle and thanks after victory. The Aramaic Targum reads the king of v.1 as the ‘King Messiah,’ and Christians have long read the crown and “length of days, forever and ever” (v.4) of Christ, who is “crowned with glory and honor” (Hebrews 2:9).",
+  "translation": [
+   {
+    "english": "strength",
+    "greek": "עֹז (oz)",
+    "verseRef": "v.1",
+    "meaning": "Strength, might, power. The psalm begins and ends with God’s strength (vv.1, 13).",
+    "gloss": "Might",
+    "strongs": "H5797",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "crown",
+    "greek": "עֲטָרָה (atarah)",
+    "verseRef": "v.3",
+    "meaning": "A crown or wreath, a royal headdress.",
+    "gloss": "Crown",
+    "strongs": "H5850",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "loving devotion",
+    "greek": "חֶסֶד (chesed)",
+    "verseRef": "v.7",
+    "meaning": "Steadfast love, covenant loyalty: why the king will not be shaken.",
+    "gloss": "Steadfast love",
+    "strongs": "H2617",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 2:9",
+    "note": "We see Jesus crowned with glory and honor."
+   },
+   {
+    "ref": "Revelation 19:11-12",
+    "note": "On His head are many crowns."
+   },
+   {
+    "ref": "Revelation 4:10-11",
+    "note": "They lay their crowns before the throne."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 12:30",
+    "note": "David receives the crown of Rabbah."
+   },
+   {
+    "ref": "Psalm 20:4-5",
+    "note": "May He give you the desires of your heart."
+   },
+   {
+    "ref": "2 Samuel 7:16",
+    "note": "Your throne will be established forever."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The people thank God that He answered their prayer for the king, crowned him with gold and gave him life, because the king trusts in the LORD.",
+   "settingLine": "Victory celebrated in Jerusalem.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Psalms 20 and 21",
+     "t": "Prayer before battle, thanks after."
+    },
+    {
+     "h": "Davidic kings",
+     "t": "The king ruled as God’s servant."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Crowns",
+     "t": "Placed on the king at coronation."
+    },
+    {
+     "h": "Long life",
+     "t": "The standard blessing on a king."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Royal crowns",
+     "t": "Assyrian reliefs show kings in tall jeweled crowns."
+    },
+    {
+     "h": "Rabbah",
+     "t": "Ammon’s capital, modern Amman; its citadel was a royal center."
+    }
+   ],
+   "discussion": "The king is not shaken because he trusts in God’s loving devotion (v.7). What steadies me when things go well, as well as when they go badly?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Royal thanksgiving",
+   "audience": "The LORD, for the king",
+   "refNotes": {
+    "2 Samuel 12:30": "A captured crown",
+    "Psalm 20:4-5": "The prayer answered",
+    "2 Samuel 7:16": "An everlasting throne"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The king",
+     "d": "Rejoices in God’s strength"
+    },
+    {
+     "n": "The people",
+     "d": "Give thanks for him"
+    },
+    {
+     "n": "The king’s enemies",
+     "d": "Their schemes fail"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Thanks for the king"
+    },
+    {
+     "when": "v.8-12",
+     "label": "The enemies defeated"
+    },
+    {
+     "when": "v.13",
+     "label": "Be exalted, O LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, the king rejoices in Your strength. How greatly he exults in Your salvation! You have granted his heart's desire and have not withheld the request of his lips. Selah For You welcomed him with rich blessings; You placed on his head a crown of pure gold. He asked You for life, and You granted it— length of days, forever and ever. For the king trusts in the LORD; through the loving devotion of the Most High, he will not be shaken. Be exalted, O LORD, in Your strength; we will sing and praise Your power.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Visit_of_the_Queen_of_Sheba_to_King_Solomon%27,_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+   "caption": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890). Royal psalms such as Psalms 2 and 20 were sung for the kings of David’s line in Jerusalem.",
+   "credit": "Edward Poynter (1890), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

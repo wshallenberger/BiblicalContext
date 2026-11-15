@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 26,
+ "title": "Vindicate Me, O LORD",
+ "translation": "BSB",
+ "superscription": "Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Vindicate me, O LORD! For I have walked with integrity; I have trusted in the LORD without wavering."
+  },
+  {
+   "num": 2,
+   "text": "Test me, O LORD, and try me; examine my heart and mind."
+  },
+  {
+   "num": 3,
+   "text": "For Your loving devotion is before my eyes, and I have walked in Your truth."
+  },
+  {
+   "num": 4,
+   "text": "I do not sit with deceitful men, nor keep company with hypocrites."
+  },
+  {
+   "num": 5,
+   "text": "I hate the mob of evildoers, and refuse to sit with the wicked."
+  },
+  {
+   "num": 6,
+   "text": "I wash my hands in innocence that I may go about Your altar, O LORD,"
+  },
+  {
+   "num": 7,
+   "text": "to raise my voice in thanksgiving and declare all Your wonderful works."
+  },
+  {
+   "num": 8,
+   "text": "O LORD, I love the house where You dwell, the place where Your glory resides."
+  },
+  {
+   "num": 9,
+   "text": "Do not take my soul away with sinners, or my life with men of bloodshed,"
+  },
+  {
+   "num": 10,
+   "text": "in whose hands are wicked schemes, whose right hands are full of bribes."
+  },
+  {
+   "num": 11,
+   "text": "But I will walk with integrity; redeem me and be merciful to me."
+  },
+  {
+   "num": 12,
+   "text": "My feet stand on level ground; in the congregations I will bless the LORD."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Vindicate me, O LORD! For I have walked with integrity” (v.1). David invites God’s inspection: “Test me, O LORD, and try me; examine my heart and mind” (v.2). He has kept away from deceitful men and the mob of evildoers (vv.4-5). “I wash my hands in innocence that I may go about Your altar, O LORD” (v.6), singing thanks. “O LORD, I love the house where You dwell, the place where Your glory resides” (v.8). He asks not to be swept away with the bloodthirsty, whose hands are full of bribes (vv.9-10), and ends standing firm: “My feet stand on level ground; in the congregations I will bless the LORD” (v.12).",
+  "custom": "Washing the hands was a public sign of innocence: elders washed their hands over a heifer to declare that they had not shed innocent blood (Deuteronomy 21:6-7). Priests washed before approaching the altar (Exodus 30:19-21). Processions walked around the altar in worship.",
+  "timelineImmediate": "Psalm 27 declares, “The LORD is my light and my salvation—whom shall I fear?”",
+  "timelineBible": "Pilate washed his hands before the crowd and said, “I am innocent of this man’s blood” (Matthew 27:24), using the old gesture while handing Jesus over. Psalm 139 ends with the same request as v.2: “Search me, O God, and know my heart” (Psalm 139:23).",
+  "translation": [
+   {
+    "english": "integrity",
+    "greek": "תֹּם (tom)",
+    "verseRef": "v.1",
+    "meaning": "Wholeness, innocence, blamelessness.",
+    "gloss": "Wholeness",
+    "strongs": "H8537",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "test",
+    "greek": "בָּחַן (bachan)",
+    "verseRef": "v.2",
+    "meaning": "To examine, test, try as metal is tested.",
+    "gloss": "Examine",
+    "strongs": "H974",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "altar",
+    "greek": "מִזְבֵּחַ (mizbeach)",
+    "verseRef": "v.6",
+    "meaning": "Altar, the place of sacrifice.",
+    "gloss": "Altar",
+    "strongs": "H4196",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 27:24",
+    "note": "Pilate washes his hands before the crowd."
+   },
+   {
+    "ref": "1 Timothy 2:8",
+    "note": "Lift up holy hands without anger."
+   },
+   {
+    "ref": "James 4:8",
+    "note": "Cleanse your hands, you sinners."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 21:6-7",
+    "note": "Elders wash their hands to declare innocence."
+   },
+   {
+    "ref": "Exodus 30:19-21",
+    "note": "Priests wash before going to the altar."
+   },
+   {
+    "ref": "Psalm 139:23-24",
+    "note": "Search me, O God, and know my heart."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David asks God to test him and vindicate him, washes his hands in innocence, and declares his love for God’s house.",
+   "settingLine": "At the altar with washed hands.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "False accusation",
+     "t": "A charge brought against an innocent man."
+    },
+    {
+     "h": "The tabernacle",
+     "t": "God’s house in David’s day."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Washing hands",
+     "t": "A sign of innocence."
+    },
+    {
+     "h": "Bribes",
+     "t": "The plague of ancient courts."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Altars",
+     "t": "Horned stone altars have been found at Beersheba, Dan and Megiddo."
+    },
+    {
+     "h": "Basins",
+     "t": "Large bronze and stone basins stood in temple courts."
+    }
+   ],
+   "discussion": "David asks God to examine his heart (v.2). Would I invite that kind of inspection? What might God find?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Prayer of the innocent",
+   "audience": "God, the Judge who tests",
+   "refNotes": {
+    "Deuteronomy 21:6-7": "Hand-washing",
+    "Exodus 30:19-21": "The bronze basin",
+    "Psalm 139:23-24": "Search me"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Asks to be tested"
+    },
+    {
+     "n": "Deceitful men",
+     "d": "Whom he avoids"
+    },
+    {
+     "n": "The congregation",
+     "d": "Where he blesses God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Test me"
+    },
+    {
+     "when": "v.4-8",
+     "label": "Clean hands at the altar"
+    },
+    {
+     "when": "v.9-12",
+     "label": "Redeem me"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Vindicate me, O LORD! For I have walked with integrity; I have trusted in the LORD without wavering. Test me, O LORD, and try me; examine my heart and mind. For Your loving devotion is before my eyes, and I have walked in Your truth. I wash my hands in innocence that I may go about Your altar, O LORD, O LORD, I love the house where You dwell, the place where Your glory resides. But I will walk with integrity; redeem me and be merciful to me. My feet stand on level ground; in the congregations I will bless the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

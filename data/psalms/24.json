@@ -1,0 +1,217 @@
+{
+ "book": "Psalms",
+ "chapter": 24,
+ "title": "Lift Up Your Heads, O Gates",
+ "translation": "BSB",
+ "superscription": "A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The earth is the LORD's, and the fullness thereof, the world and all who dwell therein."
+  },
+  {
+   "num": 2,
+   "text": "For He has founded it upon the seas and established it upon the waters."
+  },
+  {
+   "num": 3,
+   "text": "Who may ascend the hill of the LORD? Who may stand in His holy place?"
+  },
+  {
+   "num": 4,
+   "text": "He who has clean hands and a pure heart, who does not lift up his soul to an idol or swear deceitfully."
+  },
+  {
+   "num": 5,
+   "text": "He will receive blessing from the LORD and vindication from the God of his salvation."
+  },
+  {
+   "num": 6,
+   "text": "Such is the generation of those who seek Him, who seek Your face, O God of Jacob. Selah"
+  },
+  {
+   "num": 7,
+   "text": "Lift up your heads, O gates! Be lifted up, O ancient doors, that the King of Glory may enter!"
+  },
+  {
+   "num": 8,
+   "text": "Who is this King of Glory? The LORD strong and mighty, the LORD mighty in battle."
+  },
+  {
+   "num": 9,
+   "text": "Lift up your heads, O gates! Be lifted up, O ancient doors, that the King of Glory may enter!"
+  },
+  {
+   "num": 10,
+   "text": "Who is He, this King of Glory? The LORD of Hosts— He is the King of Glory. Selah"
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The psalm begins with the whole world: “The earth is the LORD’s, and the fullness thereof” (v.1). Then it asks, as Psalm 15 does, “Who may ascend the hill of the LORD? Who may stand in His holy place?” (v.3). The answer: “He who has clean hands and a pure heart” (v.4). Finally the procession reaches the city gates, and a voice calls, “Lift up your heads, O gates! Be lifted up, O ancient doors, that the King of Glory may enter!” A gatekeeper answers, “Who is this King of Glory?” “The LORD strong and mighty, the LORD mighty in battle” (vv.7-8). The call and answer repeat, ending, “The LORD of Hosts—He is the King of Glory” (v.10).",
+  "custom": "Processions carried the ark, the throne of the invisible King, into Jerusalem with music and shouting (2 Samuel 6:12-15), and the psalm may have been sung as they arrived. The question-and-answer form suggests two choirs or a leader and gatekeepers. In the Second Temple the Levites sang Psalm 24 on the first day of the week, and the Greek title adds ‘for the first day of the week.’",
+  "timelineImmediate": "Psalm 25 is an alphabet prayer: “To You, O LORD, I lift up my soul.”",
+  "timelineBible": "Paul quotes v.1 to say that Christians may eat what is sold in the market, “for, The earth is the Lord’s, and the fullness thereof” (1 Corinthians 10:26). Jesus said, “Blessed are the pure in heart” (Matthew 5:8), echoing v.4. Christians have long sung vv.7-10 at Ascension, when the risen King entered heaven, and on Palm Sunday.",
+  "translation": [
+   {
+    "english": "pure",
+    "greek": "בַּר (bar)",
+    "verseRef": "v.4",
+    "meaning": "Pure, clean, clear; used of grain winnowed clean.",
+    "gloss": "Clean",
+    "strongs": "H1249",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "glory",
+    "greek": "כָּבוֹד (kavod)",
+    "verseRef": "v.7",
+    "meaning": "Weight, honor, glory. “The King of Glory” is God Himself.",
+    "gloss": "Weight, glory",
+    "strongs": "H3519",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Hosts",
+    "greek": "צָבָא (tsava)",
+    "verseRef": "v.10",
+    "meaning": "Army, host. “The LORD of Hosts” commands the armies of heaven.",
+    "gloss": "Armies",
+    "strongs": "H6635",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Corinthians 10:25-26",
+    "note": "The earth is the Lord’s, and the fullness thereof."
+   },
+   {
+    "ref": "Matthew 5:8",
+    "note": "Blessed are the pure in heart."
+   },
+   {
+    "ref": "1 Corinthians 2:8",
+    "note": "They would not have crucified the Lord of glory."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 6:12-15",
+    "note": "David brings the ark up to Jerusalem."
+   },
+   {
+    "ref": "Psalm 15:1-2",
+    "note": "Who may dwell on Your holy mountain?"
+   },
+   {
+    "ref": "Isaiah 6:3",
+    "note": "The whole earth is full of His glory."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The earth is the LORD’s; only clean hands and a pure heart may climb His hill; and the gates are told to open for the King of Glory, the LORD of Hosts.",
+   "settingLine": "A procession at the gates of Zion.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The ark to Zion",
+     "t": "David brought it up with dancing."
+    },
+    {
+     "h": "Temple Sunday psalm",
+     "t": "Sung by the Levites on the first day."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Processions",
+     "t": "Music, shouting and the ark."
+    },
+    {
+     "h": "Antiphonal singing",
+     "t": "Call and answer between choirs."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "City gates",
+     "t": "Iron Age gates had huge doors and towers on each side."
+    },
+    {
+     "h": "Kiryat Yearim",
+     "t": "Where the ark rested before David brought it up; excavated since 2017."
+    }
+   ],
+   "discussion": "“Who is this King of Glory?” (v.8). How would I answer that question, and what gates in my life need to open to Him?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Entrance liturgy and hymn to the King",
+   "audience": "Worshipers going up to Zion",
+   "refNotes": {
+    "2 Samuel 6:12-15": "The ark arrives",
+    "Psalm 15:1-2": "A twin question",
+    "Isaiah 6:3": "The LORD of Hosts"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The worshiper",
+     "d": "Clean hands and pure heart"
+    },
+    {
+     "n": "The gatekeepers",
+     "d": "Ask who the King is"
+    },
+    {
+     "n": "The King of Glory",
+     "d": "The LORD of Hosts"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "The earth is the LORD’s"
+    },
+    {
+     "when": "v.3-6",
+     "label": "Who may ascend?"
+    },
+    {
+     "when": "v.7-10",
+     "label": "The King of Glory enters"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The earth is the LORD's, and the fullness thereof, the world and all who dwell therein. Who may ascend the hill of the LORD? Who may stand in His holy place? He who has clean hands and a pure heart, who does not lift up his soul to an idol or swear deceitfully. Lift up your heads, O gates! Be lifted up, O ancient doors, that the King of Glory may enter! Who is this King of Glory? The LORD strong and mighty, the LORD mighty in battle. Who is He, this King of Glory? The LORD of Hosts— He is the King of Glory. Selah",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

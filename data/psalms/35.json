@@ -1,0 +1,289 @@
+{
+ "book": "Psalms",
+ "chapter": 35,
+ "title": "Contend with My Opponents, O LORD",
+ "translation": "BSB",
+ "superscription": "Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Contend with my opponents, O LORD; fight against those who fight against me."
+  },
+  {
+   "num": 2,
+   "text": "Take up Your shield and buckler; arise and come to my aid."
+  },
+  {
+   "num": 3,
+   "text": "Draw the spear and javelin against my pursuers; say to my soul: \"I am your salvation.\""
+  },
+  {
+   "num": 4,
+   "text": "May those who seek my life be disgraced and put to shame; may those who plan to harm me be driven back and confounded."
+  },
+  {
+   "num": 5,
+   "text": "May they be like chaff in the wind, as the angel of the LORD drives them away."
+  },
+  {
+   "num": 6,
+   "text": "May their path be dark and slick, as the angel of the LORD pursues."
+  },
+  {
+   "num": 7,
+   "text": "For without cause they laid their net for me; without reason they dug a pit for my soul."
+  },
+  {
+   "num": 8,
+   "text": "May ruin befall them by surprise; may the net they hid ensnare them; may they fall into the hazard they created."
+  },
+  {
+   "num": 9,
+   "text": "Then my soul will rejoice in the LORD and exult in His salvation."
+  },
+  {
+   "num": 10,
+   "text": "All my bones will exclaim, \"Who is like You, O LORD, who delivers the afflicted from the aggressor, the poor and needy from the robber?\""
+  },
+  {
+   "num": 11,
+   "text": "Hostile witnesses come forward; they make charges I know nothing about."
+  },
+  {
+   "num": 12,
+   "text": "They repay me evil for good, to the bereavement of my soul."
+  },
+  {
+   "num": 13,
+   "text": "Yet when they were ill, I put on sackcloth; I humbled myself with fasting, but my prayers returned unanswered."
+  },
+  {
+   "num": 14,
+   "text": "I paced about as for my friend or brother; I was bowed down with grief, like one mourning for his mother."
+  },
+  {
+   "num": 15,
+   "text": "But when I stumbled, they assembled in glee; they gathered together against me. Assailants I did not know slandered me without ceasing."
+  },
+  {
+   "num": 16,
+   "text": "Like godless jesters at a feast, they gnashed their teeth at me."
+  },
+  {
+   "num": 17,
+   "text": "How long, O Lord, will You look on? Rescue my soul from their ravages, my precious life from these lions."
+  },
+  {
+   "num": 18,
+   "text": "Then I will give You thanks in the great assembly; I will praise You among many people."
+  },
+  {
+   "num": 19,
+   "text": "Let not my enemies gloat over me without cause, nor those who hate me without reason wink in malice."
+  },
+  {
+   "num": 20,
+   "text": "For they do not speak peace, but they devise deceitful schemes against those who live quietly in the land."
+  },
+  {
+   "num": 21,
+   "text": "They gape at me and say, \"Aha, aha! Our eyes have seen!\""
+  },
+  {
+   "num": 22,
+   "text": "O LORD, You have seen it; be not silent. O Lord, be not far from me."
+  },
+  {
+   "num": 23,
+   "text": "Awake and rise to my defense, to my cause, my God and my Lord!"
+  },
+  {
+   "num": 24,
+   "text": "Vindicate me by Your righteousness, O LORD my God, and do not let them gloat over me."
+  },
+  {
+   "num": 25,
+   "text": "Let them not say in their hearts, \"Aha, just what we wanted!\" Let them not say, \"We have swallowed him up!\""
+  },
+  {
+   "num": 26,
+   "text": "May those who gloat in my distress be ashamed and confounded; may those who exalt themselves over me be clothed in shame and reproach."
+  },
+  {
+   "num": 27,
+   "text": "May those who favor my vindication shout for joy and gladness; may they always say, \"Exalted be the LORD who delights in His servant's well-being.\""
+  },
+  {
+   "num": 28,
+   "text": "Then my tongue will proclaim Your righteousness and Your praises all day long."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Contend with my opponents, O LORD; fight against those who fight against me” (v.1). David asks God to take up shield and spear and say to his soul, “I am your salvation” (vv.2-3). His enemies have set a net for him “without cause” (v.7). Worse, they were people he had cared for: “when they were ill, I put on sackcloth; I humbled myself with fasting” (v.13), but when he stumbled “they assembled in glee” (v.15) and mocked him like jesters at a feast (v.16). “How long, O Lord, will You look on?” (v.17). He asks that those who hate him “without reason” not gloat (v.19), and ends with his tongue proclaiming God’s righteousness “all day long” (v.28).",
+  "custom": "Court cases were argued at the city gate, and a man without a powerful advocate could be ruined by false witnesses (v.11). A buckler was a large shield; the spear and javelin were weapons of close combat. Fasting and sackcloth were ways of praying for the sick.",
+  "timelineImmediate": "Psalm 36 sets the wicked man’s heart beside the vast loving devotion of God.",
+  "timelineBible": "Jesus applied the phrase of v.19 to Himself: “They hated Me without reason” (John 15:25), quoting this psalm or Psalm 69:4. Paul tells Christians not to take revenge but to leave room for God’s wrath (Romans 12:19); the psalm’s requests are prayers to God, not plans to act.",
+  "translation": [
+   {
+    "english": "contend",
+    "greek": "רִיב (riv)",
+    "verseRef": "v.1",
+    "meaning": "To strive, plead a case, bring a lawsuit.",
+    "gloss": "Plead a case",
+    "strongs": "H7378",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "without cause",
+    "greek": "חִנָּם (chinnam)",
+    "verseRef": "v.7",
+    "meaning": "For nothing, freely, without reason.",
+    "gloss": "For nothing",
+    "strongs": "H2600",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fasting",
+    "greek": "צוֹם (tsom)",
+    "verseRef": "v.13",
+    "meaning": "A fast, going without food in prayer or mourning.",
+    "gloss": "Fast",
+    "strongs": "H6685",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 15:24-25",
+    "note": "They hated Me without reason."
+   },
+   {
+    "ref": "Romans 12:19",
+    "note": "Leave room for God’s wrath."
+   },
+   {
+    "ref": "Matthew 5:44",
+    "note": "Pray for those who persecute you."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 69:4",
+    "note": "Those who hate me without cause."
+   },
+   {
+    "ref": "1 Samuel 24:15",
+    "note": "May the LORD plead my cause."
+   },
+   {
+    "ref": "Exodus 14:14",
+    "note": "The LORD will fight for you."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Repaid with evil by people he had prayed for, David asks the LORD to fight his battle and defend his case, and promises to praise Him all day long.",
+   "settingLine": "Betrayed by friends, accused in court.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Saul’s court",
+     "t": "David was slandered to Saul (1 Samuel 24:9)."
+    },
+    {
+     "h": "Imprecatory psalms",
+     "t": "Prayers for God to judge enemies."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Courts at the gate",
+     "t": "Cases argued in public."
+    },
+    {
+     "h": "Fasting for the sick",
+     "t": "Prayer with sackcloth."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gate benches",
+     "t": "Benches for elders line Iron Age gates at Dan and Beersheba."
+    },
+    {
+     "h": "Shields and spears",
+     "t": "Assyrian reliefs of Lachish show Judean soldiers armed this way."
+    }
+   ],
+   "discussion": "David prayed for his enemies when they were sick (v.13). How do I respond when kindness is repaid with harm?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and plea for justice",
+   "audience": "God, the defender",
+   "refNotes": {
+    "Psalm 69:4": "Hated without cause",
+    "1 Samuel 24:15": "David leaves the case to God",
+    "Exodus 14:14": "God fights"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Hated without cause"
+    },
+    {
+     "n": "False friends",
+     "d": "Gloat over his fall"
+    },
+    {
+     "n": "The LORD",
+     "d": "Pleads his case"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-10",
+     "label": "Fight for me"
+    },
+    {
+     "when": "v.11-18",
+     "label": "Repaid evil for good"
+    },
+    {
+     "when": "v.19-28",
+     "label": "Vindicate me"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Contend with my opponents, O LORD; fight against those who fight against me. Draw the spear and javelin against my pursuers; say to my soul: I am your salvation. Then my soul will rejoice in the LORD and exult in His salvation. Yet when they were ill, I put on sackcloth; I humbled myself with fasting, but my prayers returned unanswered. How long, O Lord, will You look on? Rescue my soul from their ravages, my precious life from these lions. Let not my enemies gloat over me without cause, nor those who hate me without reason wink in malice. May those who favor my vindication shout for joy and gladness; may they always say, Exalted be the LORD who delights in His servant's well-being. Then my tongue will proclaim Your righteousness and Your praises all day long.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

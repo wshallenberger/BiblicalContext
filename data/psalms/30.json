@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 30,
+ "title": "Joy Comes in the Morning",
+ "translation": "BSB",
+ "superscription": "A Psalm. A song for the dedication of the temple. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I will exalt You, O LORD, for You have lifted me up and have not allowed my foes to rejoice over me."
+  },
+  {
+   "num": 2,
+   "text": "O LORD my God, I cried to You for help, and You healed me."
+  },
+  {
+   "num": 3,
+   "text": "O LORD, You pulled me up from Sheol; You spared me from descending into the Pit."
+  },
+  {
+   "num": 4,
+   "text": "Sing to the LORD, O you His saints, and praise His holy name."
+  },
+  {
+   "num": 5,
+   "text": "For His anger is fleeting, but His favor lasts a lifetime. Weeping may stay the night, but joy comes in the morning."
+  },
+  {
+   "num": 6,
+   "text": "In prosperity I said, \"I will never be shaken.\""
+  },
+  {
+   "num": 7,
+   "text": "O LORD, You favored me; You made my mountain stand strong. When You hid Your face, I was dismayed."
+  },
+  {
+   "num": 8,
+   "text": "To You, O LORD, I called, and I begged my Lord for mercy:"
+  },
+  {
+   "num": 9,
+   "text": "\"What gain is there in my bloodshed, in my descent to the Pit? Will the dust praise You? Will it proclaim Your faithfulness?"
+  },
+  {
+   "num": 10,
+   "text": "Hear me, O LORD, and have mercy; O LORD, be my helper.\""
+  },
+  {
+   "num": 11,
+   "text": "You turned my mourning into dancing; You peeled off my sackcloth and clothed me with joy,"
+  },
+  {
+   "num": 12,
+   "text": "that my heart may sing Your praises and not be silent. O LORD my God, I will give thanks forever."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title calls it “a song for the dedication of the temple” (literally “the house”). “I will exalt You, O LORD, for You have lifted me up” (v.1). David cried for help, and God healed him and pulled him up from Sheol (vv.2-3). He calls others to praise: “For His anger is fleeting, but His favor lasts a lifetime. Weeping may stay the night, but joy comes in the morning” (v.5). He confesses his old pride: “In prosperity I said, I will never be shaken” (v.6), until God hid His face (v.7). He pleaded, “Will the dust praise You?” (v.9), and God answered: “You turned my mourning into dancing; You peeled off my sackcloth and clothed me with joy” (v.11).",
+  "custom": "Mourners wore sackcloth, coarse goat-hair cloth, and sat in ashes; taking it off meant grief was over. A new house was dedicated with a ceremony (Deuteronomy 20:5). Which house the title means is debated: David’s palace (2 Samuel 5:11), the site for the Temple he chose (1 Chronicles 22:1), or a later dedication. Jews read this psalm at Hanukkah, the feast of the rededication of the Temple in 164 BC.",
+  "timelineImmediate": "Psalm 31 includes the words Jesus spoke as He died: “Into Your hands I commit my spirit.”",
+  "timelineBible": "David’s pride in his strength led to the census and plague of 2 Samuel 24, after which he bought the threshing floor where the Temple would be built; some link this psalm to that story. Jesus promised, “your grief will turn to joy” (John 16:20). Hezekiah, healed from sickness, also said that the dead cannot praise God (Isaiah 38:18-19).",
+  "translation": [
+   {
+    "english": "healed",
+    "greek": "רָפָא (rapha)",
+    "verseRef": "v.2",
+    "meaning": "To heal, make whole. God calls Himself “the LORD who heals you” (Exodus 15:26).",
+    "gloss": "Heal",
+    "strongs": "H7495",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "dancing",
+    "greek": "מָחוֹל (machol)",
+    "verseRef": "v.11",
+    "meaning": "Dancing, a round dance of celebration.",
+    "gloss": "Dance",
+    "strongs": "H4234",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "sackcloth",
+    "greek": "שַׂק (saq)",
+    "verseRef": "v.11",
+    "meaning": "Sackcloth, coarse cloth worn in mourning; the source of English “sack.”",
+    "gloss": "Sack",
+    "strongs": "H8242",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 16:20",
+    "note": "Your grief will turn to joy."
+   },
+   {
+    "ref": "2 Corinthians 4:17",
+    "note": "Our light and momentary affliction."
+   },
+   {
+    "ref": "Matthew 5:4",
+    "note": "Blessed are those who mourn."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 24:15-25",
+    "note": "The plague stops at Araunah’s threshing floor."
+   },
+   {
+    "ref": "Isaiah 38:17-19",
+    "note": "Hezekiah’s song after healing."
+   },
+   {
+    "ref": "Jeremiah 31:13",
+    "note": "I will turn their mourning into joy."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Healed and lifted from the edge of death, David confesses his pride, praises God whose anger lasts a night but favor a lifetime, and dances where he once mourned.",
+   "settingLine": "A house dedicated with thanksgiving.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The dedication",
+     "t": "Of a palace, a temple site or the Temple."
+    },
+    {
+     "h": "Hanukkah",
+     "t": "Jews read this psalm at the feast."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sackcloth",
+     "t": "Clothing of mourning."
+    },
+    {
+     "h": "Dancing",
+     "t": "Joy in worship and victory."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "David’s palace",
+     "t": "Eilat Mazar proposed the Large Stone Structure in the City of David as his palace; others disagree."
+    },
+    {
+     "h": "Threshing floors",
+     "t": "Flat rock floors on hilltops, like Araunah’s."
+    }
+   ],
+   "discussion": "“In prosperity I said, I will never be shaken” (v.6). When has success made me forget I depend on God?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Thanksgiving for healing",
+   "audience": "God, and His saints",
+   "refNotes": {
+    "2 Samuel 24:15-25": "The threshing floor",
+    "Isaiah 38:17-19": "A healed king’s praise",
+    "Jeremiah 31:13": "Mourning to joy"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Healed"
+    },
+    {
+     "n": "His saints",
+     "d": "Called to sing"
+    },
+    {
+     "n": "The LORD",
+     "d": "Turns mourning into dancing"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Lifted up"
+    },
+    {
+     "when": "v.6-10",
+     "label": "Pride and plea"
+    },
+    {
+     "when": "v.11-12",
+     "label": "Mourning into dancing"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I will exalt You, O LORD, for You have lifted me up and have not allowed my foes to rejoice over me. O LORD my God, I cried to You for help, and You healed me. O LORD, You pulled me up from Sheol; You spared me from descending into the Pit. For His anger is fleeting, but His favor lasts a lifetime. Weeping may stay the night, but joy comes in the morning. In prosperity I said, I will never be shaken. You turned my mourning into dancing; You peeled off my sackcloth and clothed me with joy, that my heart may sing Your praises and not be silent. O LORD my God, I will give thanks forever.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

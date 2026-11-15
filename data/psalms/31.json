@@ -1,0 +1,273 @@
+{
+ "book": "Psalms",
+ "chapter": 31,
+ "title": "Into Your Hands I Commit My Spirit",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "In You, O LORD, I have taken refuge; let me never be put to shame; save me by Your righteousness."
+  },
+  {
+   "num": 2,
+   "text": "Incline Your ear to me; come quickly to my rescue. Be my rock of refuge, the stronghold of my deliverance."
+  },
+  {
+   "num": 3,
+   "text": "For You are my rock and my fortress; lead me and guide me for the sake of Your name."
+  },
+  {
+   "num": 4,
+   "text": "You free me from the net laid out for me, for You are my refuge."
+  },
+  {
+   "num": 5,
+   "text": "Into Your hands I commit my spirit; You have redeemed me, O LORD, God of truth."
+  },
+  {
+   "num": 6,
+   "text": "I hate those who cling to worthless idols, but in the LORD I trust."
+  },
+  {
+   "num": 7,
+   "text": "I will be glad and rejoice in Your loving devotion, for You have seen my affliction; You have known the anguish of my soul."
+  },
+  {
+   "num": 8,
+   "text": "You have not delivered me to the enemy; You have set my feet in the open."
+  },
+  {
+   "num": 9,
+   "text": "Be merciful to me, O LORD, for I am in distress; my eyes fail from sorrow, my soul and body as well."
+  },
+  {
+   "num": 10,
+   "text": "For my life is consumed with grief and my years with groaning; my iniquity has drained my strength, and my bones are wasting away."
+  },
+  {
+   "num": 11,
+   "text": "Among all my enemies I am a disgrace, and among my neighbors even more. I am dreaded by my friends— they flee when they see me on the street."
+  },
+  {
+   "num": 12,
+   "text": "I am forgotten like a dead man, out of mind. I am like a broken vessel."
+  },
+  {
+   "num": 13,
+   "text": "For I hear the slander of many; there is terror on every side. They conspire against me and plot to take my life."
+  },
+  {
+   "num": 14,
+   "text": "But I trust in You, O LORD; I say, \"You are my God.\""
+  },
+  {
+   "num": 15,
+   "text": "My times are in Your hands; deliver me from my enemies and from those who pursue me."
+  },
+  {
+   "num": 16,
+   "text": "Make Your face shine on Your servant; save me by Your loving devotion."
+  },
+  {
+   "num": 17,
+   "text": "O LORD, let me not be ashamed, for I have called on You. Let the wicked be put to shame; let them lie silent in Sheol."
+  },
+  {
+   "num": 18,
+   "text": "May lying lips be silenced— lips that speak with arrogance against the righteous, full of pride and contempt."
+  },
+  {
+   "num": 19,
+   "text": "How great is Your goodness which You have laid up for those who fear You, which You have bestowed before the sons of men on those who take refuge in You!"
+  },
+  {
+   "num": 20,
+   "text": "You hide them in the secret place of Your presence from the schemes of men. You conceal them in Your shelter from accusing tongues."
+  },
+  {
+   "num": 21,
+   "text": "Blessed be the LORD, for He has shown me His loving devotion in a city under siege."
+  },
+  {
+   "num": 22,
+   "text": "In my alarm I said, \"I am cut off from Your sight!\" But You heard my plea for mercy when I called to You for help."
+  },
+  {
+   "num": 23,
+   "text": "Love the LORD, all His saints. The LORD preserves the faithful, but fully repays the arrogant."
+  },
+  {
+   "num": 24,
+   "text": "Be strong and courageous, all you who hope in the LORD."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“In You, O LORD, I have taken refuge; let me never be put to shame” (v.1). David asks God to be his rock and fortress (vv.2-3), and then speaks the words of complete trust: “Into Your hands I commit my spirit; You have redeemed me, O LORD, God of truth” (v.5). His distress is deep: grief consumes his life, his friends flee when they see him, and he is “forgotten like a dead man… like a broken vessel” (vv.10-12), with “terror on every side” (v.13). “But I trust in You, O LORD; I say, You are my God. My times are in Your hands” (vv.14-15). He ends blessing God for His loving devotion “in a city under siege” (v.21) and tells all the saints, “Be strong and courageous, all you who hope in the LORD” (v.24).",
+  "custom": "To commit something into another’s hands was to deposit it in trust, as a valuable left with a guardian (Leviticus 6:2-4 uses the same idea for a deposit). A broken clay pot (v.12) was thrown away on the rubbish heap; every ancient city mound is full of potsherds. Jewish evening prayers still use v.5 at bedtime.",
+  "timelineImmediate": "Psalm 32 celebrates forgiveness: “Blessed is he whose transgressions are forgiven.”",
+  "timelineBible": "As He died, Jesus cried out with a loud voice, “Father, into Your hands I commit My spirit” (Luke 23:46). Stephen prayed in the same way, “Lord Jesus, receive my spirit” (Acts 7:59). Jeremiah’s enemies whispered the phrase of v.13, “Terror on every side!” (Jeremiah 20:10), and Jonah echoes v.6 in his prayer from the fish (Jonah 2:8).",
+  "translation": [
+   {
+    "english": "commit",
+    "greek": "פָּקַד (paqad)",
+    "verseRef": "v.5",
+    "meaning": "To entrust, deposit, appoint; to hand over for safekeeping.",
+    "gloss": "Entrust",
+    "strongs": "H6485",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "spirit",
+    "greek": "רוּחַ (ruach)",
+    "verseRef": "v.5",
+    "meaning": "Spirit, breath, wind; the life God gives.",
+    "gloss": "Breath, spirit",
+    "strongs": "H7307",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "times",
+    "greek": "עֵת (et)",
+    "verseRef": "v.15",
+    "meaning": "Time, season, the course of a life; as in “a time for everything” (Ecclesiastes 3:1).",
+    "gloss": "Time, season",
+    "strongs": "H6256",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 23:46",
+    "note": "Father, into Your hands I commit My spirit."
+   },
+   {
+    "ref": "Acts 7:59",
+    "note": "Lord Jesus, receive my spirit."
+   },
+   {
+    "ref": "1 Peter 4:19",
+    "note": "Entrust their souls to their faithful Creator."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Jeremiah 20:10",
+    "note": "Terror on every side!"
+   },
+   {
+    "ref": "Jonah 2:8",
+    "note": "Those who cling to worthless idols."
+   },
+   {
+    "ref": "Psalm 27:14",
+    "note": "Be strong and courageous."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Abandoned by friends and surrounded by terror, David commits his spirit into God’s hands and trusts that his times are in God’s hands; Jesus prayed v.5 as He died.",
+   "settingLine": "A city under siege and a man left alone.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David hunted",
+     "t": "He was betrayed and trapped more than once (1 Samuel 23:7-12)."
+    },
+    {
+     "h": "Jewish night prayer",
+     "t": "Verse 5 is said before sleep."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Deposits",
+     "t": "Valuables entrusted to a guardian."
+    },
+    {
+     "h": "Broken pots",
+     "t": "Thrown on the rubbish heap."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Potsherds",
+     "t": "Broken pottery fills every tell and dates its layers."
+    },
+    {
+     "h": "Keilah",
+     "t": "David was nearly handed over to Saul there (1 Samuel 23:12); identified with Khirbet Qila."
+    }
+   ],
+   "discussion": "“My times are in Your hands” (v.15). What part of my future am I trying to hold in my own hands?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and trust",
+   "audience": "God, my rock of refuge",
+   "refNotes": {
+    "Jeremiah 20:10": "A prophet surrounded",
+    "Jonah 2:8": "Jonah’s prayer",
+    "Psalm 27:14": "The same call to courage"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Commits his spirit to God"
+    },
+    {
+     "n": "Friends and neighbors",
+     "d": "Flee from him"
+    },
+    {
+     "n": "The saints",
+     "d": "Told to be strong"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Into Your hands"
+    },
+    {
+     "when": "v.9-18",
+     "label": "A broken vessel"
+    },
+    {
+     "when": "v.19-24",
+     "label": "How great is Your goodness"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "In You, O LORD, I have taken refuge; let me never be put to shame; save me by Your righteousness. For You are my rock and my fortress; lead me and guide me for the sake of Your name. Into Your hands I commit my spirit; You have redeemed me, O LORD, God of truth. But I trust in You, O LORD; I say, You are my God. My times are in Your hands; deliver me from my enemies and from those who pursue me. How great is Your goodness which You have laid up for those who fear You, which You have bestowed before the sons of men on those who take refuge in You! Be strong and courageous, all you who hope in the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cristo_crucificado.jpg",
+   "caption": "Christ Crucified, by Diego Velázquez (about 1632, Museo del Prado, Madrid). On the cross Jesus cried out the first line of Psalm 22: “My God, My God, why have You forsaken Me?” (Matthew 27:46).",
+   "credit": "Diego Velázquez (c. 1632), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

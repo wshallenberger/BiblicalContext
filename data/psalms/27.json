@@ -1,0 +1,233 @@
+{
+ "book": "Psalms",
+ "chapter": 27,
+ "title": "The LORD Is My Light and My Salvation",
+ "translation": "BSB",
+ "superscription": "Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The LORD is my light and my salvation— whom shall I fear? The LORD is the stronghold of my life— whom shall I dread?"
+  },
+  {
+   "num": 2,
+   "text": "When the wicked came upon me to devour my flesh, my enemies and foes stumbled and fell."
+  },
+  {
+   "num": 3,
+   "text": "Though an army encamps around me, my heart will not fear; though a war breaks out against me, I will keep my trust."
+  },
+  {
+   "num": 4,
+   "text": "One thing I have asked of the LORD; this is what I desire: to dwell in the house of the LORD all the days of my life, to gaze on the beauty of the LORD and seek Him in His temple."
+  },
+  {
+   "num": 5,
+   "text": "For in the day of trouble He will hide me in His shelter; He will conceal me under the cover of His tent; He will set me high upon a rock."
+  },
+  {
+   "num": 6,
+   "text": "Then my head will be held high above my enemies around me. At His tabernacle I will offer sacrifices with shouts of joy; I will sing and make music to the LORD."
+  },
+  {
+   "num": 7,
+   "text": "Hear, O LORD, my voice when I call; be merciful and answer me."
+  },
+  {
+   "num": 8,
+   "text": "My heart said, \"Seek His face.\" Your face, O LORD, I will seek."
+  },
+  {
+   "num": 9,
+   "text": "Hide not Your face from me, nor turn away Your servant in anger. You have been my helper; do not leave me or forsake me, O God of my salvation."
+  },
+  {
+   "num": 10,
+   "text": "Though my father and mother forsake me, the LORD will receive me."
+  },
+  {
+   "num": 11,
+   "text": "Teach me Your way, O LORD, and lead me on a level path, because of my oppressors."
+  },
+  {
+   "num": 12,
+   "text": "Do not hand me over to the will of my foes, for false witnesses rise up against me, breathing out violence."
+  },
+  {
+   "num": 13,
+   "text": "Still I am certain to see the goodness of the LORD in the land of the living."
+  },
+  {
+   "num": 14,
+   "text": "Wait patiently for the LORD; be strong and courageous. Wait patiently for the LORD!"
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The LORD is my light and my salvation—whom shall I fear? The LORD is the stronghold of my life—whom shall I dread?” (v.1). Even if an army camps around him, David will trust (v.3). His one desire: “to dwell in the house of the LORD all the days of my life, to gaze on the beauty of the LORD and seek Him in His temple” (v.4). In trouble God will hide him in His tent and set him high on a rock (v.5). The second half becomes a plea: “Hide not Your face from me” (v.9). “Though my father and mother forsake me, the LORD will receive me” (v.10). The psalm ends with hope and a word to the reader: “Wait patiently for the LORD; be strong and courageous. Wait patiently for the LORD!” (v.14).",
+  "custom": "A fugitive could claim protection by entering a host’s tent; hospitality obliged the host to defend him. Light was a picture of life, joy and rescue in a world where night was dangerous. False witnesses (v.12) could bring a death sentence in an ancient court (1 Kings 21:10-13).",
+  "timelineImmediate": "Psalm 28 cries, “To You, O LORD, I call; be not deaf to me, O my Rock.”",
+  "timelineBible": "Jesus said, “I am the light of the world” (John 8:12). Hebrews 13:5-6 combines God’s promise never to leave or forsake with the confident question “What can man do to me?” Joshua was told to “be strong and courageous” (Joshua 1:9), the words of v.14.",
+  "translation": [
+   {
+    "english": "light",
+    "greek": "אוֹר (or)",
+    "verseRef": "v.1",
+    "meaning": "Light, daylight, the light of life.",
+    "gloss": "Light",
+    "strongs": "H216",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "seek",
+    "greek": "בָּקַשׁ (baqash)",
+    "verseRef": "v.4",
+    "meaning": "To seek, look for, ask. David seeks God’s face (v.8).",
+    "gloss": "Seek",
+    "strongs": "H1245",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wait",
+    "greek": "קָוָה (qavah)",
+    "verseRef": "v.14",
+    "meaning": "To wait, hope, look eagerly for; related to a stretched cord.",
+    "gloss": "Hope in",
+    "strongs": "H6960",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 8:12",
+    "note": "I am the light of the world."
+   },
+   {
+    "ref": "Hebrews 13:5-6",
+    "note": "Never will I leave you. The Lord is my helper."
+   },
+   {
+    "ref": "Romans 8:31",
+    "note": "If God is for us, who can be against us?"
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Joshua 1:9",
+    "note": "Be strong and courageous."
+   },
+   {
+    "ref": "Isaiah 60:19-20",
+    "note": "The LORD will be your everlasting light."
+   },
+   {
+    "ref": "Micah 7:8",
+    "note": "Though I sit in darkness, the LORD will be my light."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "With the LORD as his light and stronghold David fears no army, longs to dwell in God’s house, and waits for Him even if father and mother forsake him.",
+   "settingLine": "An army camped around, a tent of shelter.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s wars",
+     "t": "Armies encamped against him many times."
+    },
+    {
+     "h": "The tabernacle",
+     "t": "God’s tent on Zion."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sanctuary in a tent",
+     "t": "Hosts protected their guests."
+    },
+    {
+     "h": "False witnesses",
+     "t": "A deadly danger in court."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Oil lamps",
+     "t": "Clay lamps lit every Israelite house."
+    },
+    {
+     "h": "Shiloh",
+     "t": "Where the tabernacle stood before Jerusalem; excavated at Tel Shiloh."
+    }
+   ],
+   "discussion": "David asks for “one thing” (v.4). If I could ask God for only one thing, what would it be?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Trust and lament",
+   "audience": "God, and the waiting heart",
+   "refNotes": {
+    "Joshua 1:9": "Strong and courageous",
+    "Isaiah 60:19-20": "Everlasting light",
+    "Micah 7:8": "Light in darkness"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Seeks God’s face"
+    },
+    {
+     "n": "An army",
+     "d": "Encamps around him"
+    },
+    {
+     "n": "Father and mother",
+     "d": "Even they may forsake"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Whom shall I fear?"
+    },
+    {
+     "when": "v.7-12",
+     "label": "Hide not Your face"
+    },
+    {
+     "when": "v.13-14",
+     "label": "Wait for the LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The LORD is my light and my salvation— whom shall I fear? The LORD is the stronghold of my life— whom shall I dread? Though an army encamps around me, my heart will not fear; though a war breaks out against me, I will keep my trust. One thing I have asked of the LORD; this is what I desire: to dwell in the house of the LORD all the days of my life, to gaze on the beauty of the LORD and seek Him in His temple. My heart said, Seek His face. Your face, O LORD, I will seek. Though my father and mother forsake me, the LORD will receive me. Still I am certain to see the goodness of the LORD in the land of the living. Wait patiently for the LORD; be strong and courageous. Wait patiently for the LORD!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

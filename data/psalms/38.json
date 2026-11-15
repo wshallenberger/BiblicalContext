@@ -1,0 +1,265 @@
+{
+ "book": "Psalms",
+ "chapter": 38,
+ "title": "Do Not Forsake Me, O LORD",
+ "translation": "BSB",
+ "superscription": "A Psalm of David, for remembrance.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, do not rebuke me in Your anger or discipline me in Your wrath."
+  },
+  {
+   "num": 2,
+   "text": "For Your arrows have pierced me deeply, and Your hand has pressed down on me."
+  },
+  {
+   "num": 3,
+   "text": "There is no soundness in my body because of Your anger; there is no rest in my bones because of my sin."
+  },
+  {
+   "num": 4,
+   "text": "For my iniquities have overwhelmed me; they are a burden too heavy to bear."
+  },
+  {
+   "num": 5,
+   "text": "My wounds are foul and festering because of my sinful folly."
+  },
+  {
+   "num": 6,
+   "text": "I am bent and brought low; all day long I go about mourning."
+  },
+  {
+   "num": 7,
+   "text": "For my loins are full of burning pain, and no soundness remains in my body."
+  },
+  {
+   "num": 8,
+   "text": "I am numb and badly crushed; I groan in anguish of heart."
+  },
+  {
+   "num": 9,
+   "text": "O Lord, my every desire is before You; my groaning is not hidden from You."
+  },
+  {
+   "num": 10,
+   "text": "My heart pounds, my strength fails, and even the light of my eyes has faded."
+  },
+  {
+   "num": 11,
+   "text": "My beloved and friends shun my disease, and my kinsmen stand at a distance."
+  },
+  {
+   "num": 12,
+   "text": "Those who seek my life lay snares; those who wish me harm speak destruction, plotting deceit all day long."
+  },
+  {
+   "num": 13,
+   "text": "But like a deaf man, I do not hear; and like a mute man, I do not open my mouth."
+  },
+  {
+   "num": 14,
+   "text": "I am like a man who cannot hear, whose mouth offers no reply."
+  },
+  {
+   "num": 15,
+   "text": "I wait for You, O LORD; You will answer, O Lord my God."
+  },
+  {
+   "num": 16,
+   "text": "For I said, \"Let them not gloat over me— those who taunt me when my foot slips.\""
+  },
+  {
+   "num": 17,
+   "text": "For I am ready to fall, and my pain is ever with me."
+  },
+  {
+   "num": 18,
+   "text": "Yes, I confess my iniquity; I am troubled by my sin."
+  },
+  {
+   "num": 19,
+   "text": "Many are my enemies without cause, and many hate me without reason."
+  },
+  {
+   "num": 20,
+   "text": "Those who repay my good with evil attack me for pursuing the good."
+  },
+  {
+   "num": 21,
+   "text": "Do not forsake me, O LORD; be not far from me, O my God."
+  },
+  {
+   "num": 22,
+   "text": "Come quickly to help me, O Lord my Savior."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title says it is “for remembrance.” Like Psalm 6, it begins, “O LORD, do not rebuke me in Your anger” (v.1). David is sick and knows why: “there is no rest in my bones because of my sin. For my iniquities have overwhelmed me; they are a burden too heavy to bear” (vv.3-4). His wounds fester, he is bent over and burning with pain (vv.5-8). “O Lord, my every desire is before You” (v.9). Friends stand at a distance (v.11), enemies plot, and he keeps silent “like a deaf man” (v.13), waiting for God to answer (v.15). “Yes, I confess my iniquity” (v.18). He ends, “Do not forsake me, O LORD… Come quickly to help me, O Lord my Savior” (vv.21-22).",
+  "custom": "Skin diseases and festering sores could make a person unclean and force them to live apart (Leviticus 13:45-46), which may be why friends kept away. “For remembrance” may connect the psalm with the memorial portion of the grain offering (Leviticus 2:2), or simply mean a prayer asking God to remember.",
+  "timelineImmediate": "Psalm 39 reflects on how fleeting life is: “each man at his best exists as but a breath.”",
+  "timelineBible": "At the crucifixion Jesus’ acquaintances “stood at a distance” (Luke 23:49), as David’s friends do in v.11. Jesus, like the sufferer of v.13, was silent before His accusers: “He did not open His mouth” (Isaiah 53:7; Matthew 27:12-14). This is one of the seven penitential psalms.",
+  "translation": [
+   {
+    "english": "sin",
+    "greek": "חַטָּאת (chatta’ah)",
+    "verseRef": "v.3",
+    "meaning": "Sin, missing the mark; also the sin offering.",
+    "gloss": "Sin",
+    "strongs": "H2403",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "disease",
+    "greek": "נֶגַע (nega)",
+    "verseRef": "v.11",
+    "meaning": "Stroke, plague, affliction, a skin disease.",
+    "gloss": "Plague",
+    "strongs": "H5061",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wait",
+    "greek": "יָחַל (yachal)",
+    "verseRef": "v.15",
+    "meaning": "To wait, hope, expect.",
+    "gloss": "Hope",
+    "strongs": "H3176",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 23:49",
+    "note": "His acquaintances stood at a distance."
+   },
+   {
+    "ref": "Matthew 27:12-14",
+    "note": "He gave no answer, not even to a single charge."
+   },
+   {
+    "ref": "Hebrews 12:5-6",
+    "note": "The Lord disciplines the one He loves."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 6:1-2",
+    "note": "Do not rebuke me in Your anger."
+   },
+   {
+    "ref": "Leviticus 13:45-46",
+    "note": "He must live alone, outside the camp."
+   },
+   {
+    "ref": "Isaiah 53:7",
+    "note": "He did not open His mouth."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Sick, in pain and abandoned by friends because of his sin, David confesses his iniquity, waits silently for God, and asks the LORD not to forsake him.",
+   "settingLine": "A sickbed, with friends keeping their distance.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Penitential psalms",
+     "t": "The third of the seven."
+    },
+    {
+     "h": "Memorial offering",
+     "t": "Perhaps sung with it."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Skin disease",
+     "t": "Could mean living apart."
+    },
+    {
+     "h": "Silence before enemies",
+     "t": "Leaving the answer to God."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Healing shrines",
+     "t": "Clay models of body parts were offered at Asclepius shrines in the Greek world."
+    },
+    {
+     "h": "Medical texts",
+     "t": "Babylonian tablets list symptoms and treatments."
+    }
+   ],
+   "discussion": "David names both his sin and his suffering, and brings both to God (vv.4, 9). Do I hide either from Him?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Penitential psalm",
+   "audience": "God, in sickness and guilt",
+   "refNotes": {
+    "Psalm 6:1-2": "A twin opening",
+    "Leviticus 13:45-46": "Isolation in sickness",
+    "Isaiah 53:7": "Silent before accusers"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Sick and confessing"
+    },
+    {
+     "n": "Friends and kinsmen",
+     "d": "Stand at a distance"
+    },
+    {
+     "n": "Enemies",
+     "d": "Plot and taunt"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Your arrows in me"
+    },
+    {
+     "when": "v.9-14",
+     "label": "Friends far off"
+    },
+    {
+     "when": "v.15-22",
+     "label": "I wait for You"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, do not rebuke me in Your anger or discipline me in Your wrath. There is no soundness in my body because of Your anger; there is no rest in my bones because of my sin. For my iniquities have overwhelmed me; they are a burden too heavy to bear. O Lord, my every desire is before You; my groaning is not hidden from You. I wait for You, O LORD; You will answer, O Lord my God. Yes, I confess my iniquity; I am troubled by my sin. Do not forsake me, O LORD; be not far from me, O my God. Come quickly to help me, O Lord my Savior.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

@@ -14916,5 +14916,166 @@
    "ps_qumran",
    "ps_megiddo"
   ]
+ },
+ {
+  "i": 599,
+  "t": "The king’s victory and the forsaken sufferer (Psalms 21-22)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    21,
+    1,
+    22,
+    31
+   ]
+  ],
+  "rs": "Ps21:1-22:31",
+  "s": "\"O LORD, the king rejoices in Your strength. How greatly he exults in Your salvation!\" Then the cry: \"My God, my God, why have You forsaken me?\" The sufferer of Psalm 22 is mocked and stripped, then answered, and praises God before the nations.",
+  "n": "Jesus prayed the first line of Psalm 22 on the cross at Golgotha (Matthew 27:46), and the Gospels see its mocking and casting of lots there (John 19:23-24). The psalm itself names no place. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_crucified",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 600,
+  "t": "The LORD is my shepherd (Psalm 23)",
+  "p": "Bethlehem, the shepherds’ country",
+  "la": 31.7054,
+  "ln": 35.2024,
+  "r": [
+   [
+    "psalms",
+    23,
+    1,
+    23,
+    6
+   ]
+  ],
+  "rs": "Ps23:1-6",
+  "s": "\"The LORD is my shepherd; I shall not want.\" \"Even though I walk through the valley of the shadow of death, I will fear no evil, for You are with me.\"",
+  "n": "The psalm names no place. The pin is at Bethlehem, where David kept his father’s sheep (1 Samuel 16:11), a judgment call.",
+  "im": [
+   "ps_judea",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 601,
+  "t": "The King of Glory enters Zion (Psalms 24-28)",
+  "p": "Jerusalem, the gates of Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    24,
+    1,
+    28,
+    9
+   ]
+  ],
+  "rs": "Ps24:1-28:9",
+  "s": "\"Lift up your heads, O gates! Be lifted up, O ancient doors, that the King of Glory may enter!\" \"The LORD is my light and my salvation.\" David asks to be taught, tested and heard, and longs to dwell in the house of the LORD.",
+  "n": "Psalm 24 may have been sung when David brought the ark into Jerusalem (2 Samuel 6:12-15). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_templemount",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 602,
+  "t": "The voice of the LORD in the storm (Psalm 29)",
+  "p": "The cedars of Lebanon",
+  "la": 34.243,
+  "ln": 36.048,
+  "r": [
+   [
+    "psalms",
+    29,
+    1,
+    29,
+    11
+   ]
+  ],
+  "rs": "Ps29:1-11",
+  "s": "\"The voice of the LORD breaks the cedars; the LORD shatters the cedars of Lebanon.\" \"The LORD sits enthroned over the flood.\"",
+  "n": "The storm passes over Lebanon and Sirion (Mount Hermon) and the Wilderness of Kadesh. Kadesh may be Kadesh-barnea in the south or Kadesh on the Orontes in Syria; the pin stands in the cedar mountains of Lebanon.",
+  "im": [
+   "ps_cedars",
+   "ps_hermon"
+  ]
+ },
+ {
+  "i": 603,
+  "t": "Mourning into dancing, and the joy of forgiveness (Psalms 30-33)",
+  "p": "Jerusalem, the City of David",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    30,
+    1,
+    33,
+    22
+   ]
+  ],
+  "rs": "Ps30:1-33:22",
+  "s": "\"You turned my mourning into dancing.\" \"Into Your hands I commit my spirit.\" \"Blessed is he whose transgressions are forgiven.\" \"Sing to Him a new song.\"",
+  "n": "Psalm 30’s title calls it “a song for the dedication of the temple” (literally “the house”). Jesus prayed Psalm 31:5 as He died (Luke 23:46). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 604,
+  "t": "David before the king of Gath (Psalm 34)",
+  "p": "Gath (Tell es-Safi)",
+  "la": 31.7042,
+  "ln": 34.8469,
+  "r": [
+   [
+    "psalms",
+    34,
+    1,
+    34,
+    22
+   ]
+  ],
+  "rs": "Ps34:1-22",
+  "s": "The title: \"Of David, when he pretended to be insane before Abimelech, so that the king drove him away.\" \"Taste and see that the LORD is good.\"",
+  "n": "1 Samuel 21:10-15 tells the story; the king there is Achish of Gath, and Abimelech may be a royal title. Gath is widely identified with Tell es-Safi.",
+  "im": [
+   "ps_gath",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 605,
+  "t": "Hated without cause, waiting and hoping (Psalms 35-40)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    35,
+    1,
+    40,
+    17
+   ]
+  ],
+  "rs": "Ps35:1-40:17",
+  "s": "\"Delight yourself in the LORD, and He will give you the desires of your heart.\" \"Truly each man at his best exists as but a breath.\" \"I waited patiently for the LORD.\"",
+  "n": "Psalm 39 is “for Jeduthun,” one of David’s chief musicians. Hebrews 10:5-7 reads Psalm 40:6-8 as Christ’s words. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_scroll",
+   "ps_ps118"
+  ]
  }
 ]

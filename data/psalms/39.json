@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 39,
+ "title": "Each Man Is but a Breath",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. For Jeduthun. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I said, \"I will watch my ways so that I will not sin with my tongue; I will guard my mouth with a muzzle as long as the wicked are present.\""
+  },
+  {
+   "num": 2,
+   "text": "I was speechless and still; I remained silent, even from speaking good, and my sorrow was stirred."
+  },
+  {
+   "num": 3,
+   "text": "My heart grew hot within me; as I mused, the fire burned. Then I spoke with my tongue:"
+  },
+  {
+   "num": 4,
+   "text": "\"Show me, O LORD, my end and the measure of my days. Let me know how fleeting my life is."
+  },
+  {
+   "num": 5,
+   "text": "You, indeed, have made my days as handbreadths, and my lifetime as nothing before You. Truly each man at his best exists as but a breath. Selah"
+  },
+  {
+   "num": 6,
+   "text": "Surely every man goes about like a phantom; surely he bustles in vain; he heaps up riches not knowing who will haul them away."
+  },
+  {
+   "num": 7,
+   "text": "And now, O Lord, for what do I wait? My hope is in You."
+  },
+  {
+   "num": 8,
+   "text": "Deliver me from all my transgressions; do not make me the reproach of fools."
+  },
+  {
+   "num": 9,
+   "text": "I have become mute; I do not open my mouth because of what You have done."
+  },
+  {
+   "num": 10,
+   "text": "Remove Your scourge from me; I am perishing by the force of Your hand."
+  },
+  {
+   "num": 11,
+   "text": "You discipline and correct a man for his iniquity, consuming like a moth what he holds dear; surely each man is but a vapor. Selah"
+  },
+  {
+   "num": 12,
+   "text": "Hear my prayer, O LORD, and give ear to my cry for help; do not be deaf to my weeping. For I am a foreigner dwelling with You, a stranger like all my fathers."
+  },
+  {
+   "num": 13,
+   "text": "Turn Your gaze away from me, that I may again be cheered before I depart and am no more.\""
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title names Jeduthun, one of David’s chief musicians. David decided to keep silent while the wicked were near (v.1), but “my heart grew hot within me; as I mused, the fire burned” (v.3). So he speaks to God: “Show me, O LORD, my end and the measure of my days. Let me know how fleeting my life is” (v.4). “You, indeed, have made my days as handbreadths… Truly each man at his best exists as but a breath” (v.5). People bustle about, heaping up riches without knowing who will get them (v.6). “And now, O Lord, for what do I wait? My hope is in You” (v.7). He ends as “a foreigner dwelling with You, a stranger like all my fathers” (v.12).",
+  "custom": "A handbreadth (v.5), the width of four fingers, was the smallest common unit of length. A foreigner or sojourner (ger) lived in a land without owning it, depending on the protection of the local people; Abraham told the Hittites, “I am a foreigner and an outsider among you” (Genesis 23:4). Jeduthun led one of the families of Temple singers (1 Chronicles 25:1-3).",
+  "timelineImmediate": "Psalm 40 begins, “I waited patiently for the LORD; He inclined to me and heard my cry.”",
+  "timelineBible": "The word “breath” (hevel) in vv.5, 6 and 11 is the key word of Ecclesiastes, “everything is futile” (Ecclesiastes 1:2). James asks, “What is your life? You are a mist” (James 4:14). Hebrews 11:13 says the patriarchs confessed that they were strangers and exiles on the earth, and Peter calls Christians “foreigners and exiles” (1 Peter 2:11).",
+  "translation": [
+   {
+    "english": "handbreadths",
+    "greek": "טֶפַח (tefach)",
+    "verseRef": "v.5",
+    "meaning": "A handbreadth, about 3 inches (7-8 cm).",
+    "gloss": "Hand’s width",
+    "strongs": "H2947",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "breath",
+    "greek": "הֶבֶל (hevel)",
+    "verseRef": "v.5",
+    "meaning": "Breath, vapor; the key word of Ecclesiastes.",
+    "gloss": "Vapor",
+    "strongs": "H1892",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "foreigner",
+    "greek": "גֵּר (ger)",
+    "verseRef": "v.12",
+    "meaning": "Sojourner, resident alien, a guest in the land.",
+    "gloss": "Sojourner",
+    "strongs": "H1616",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "James 4:14",
+    "note": "You are a mist that appears for a little while."
+   },
+   {
+    "ref": "Hebrews 11:13",
+    "note": "Strangers and exiles on the earth."
+   },
+   {
+    "ref": "Luke 12:20-21",
+    "note": "Who will get what you have prepared?"
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Ecclesiastes 1:2",
+    "note": "Futility of futilities."
+   },
+   {
+    "ref": "Genesis 23:4",
+    "note": "I am a foreigner and an outsider among you."
+   },
+   {
+    "ref": "1 Chronicles 25:1-3",
+    "note": "The sons of Jeduthun prophesied with the harp."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Trying to keep silent, David bursts out asking God to show him how short his life is, sees that every man is a breath, and puts his hope in God as a guest on earth.",
+   "settingLine": "A man measuring his days by handbreadths.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Jeduthun",
+     "t": "One of David’s three chief musicians."
+    },
+    {
+     "h": "Hevel",
+     "t": "The word Ecclesiastes uses 38 times."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Handbreadth",
+     "t": "The smallest measure."
+    },
+    {
+     "h": "Sojourners",
+     "t": "Guests without land of their own."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Cubit rods",
+     "t": "Egyptian measuring rods mark cubits, palms and fingers."
+    },
+    {
+     "h": "Musicians’ reliefs",
+     "t": "A relief from Sennacherib’s palace shows captive lyre players, often thought to be Judeans."
+    }
+   ],
+   "discussion": "“Let me know how fleeting my life is” (v.4). How would I live differently if I really took that prayer seriously?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament and reflection on life’s brevity",
+   "audience": "God, before whom life is a breath",
+   "refNotes": {
+    "Ecclesiastes 1:2": "Everything a breath",
+    "Genesis 23:4": "Abraham the sojourner",
+    "1 Chronicles 25:1-3": "Jeduthun’s family"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "A guest on earth"
+    },
+    {
+     "n": "Jeduthun",
+     "d": "The choir leader"
+    },
+    {
+     "n": "The wicked",
+     "d": "Present while he keeps silent"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Silence and fire"
+    },
+    {
+     "when": "v.4-6",
+     "label": "A breath"
+    },
+    {
+     "when": "v.7-13",
+     "label": "My hope is in You"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I said, I will watch my ways so that I will not sin with my tongue; I will guard my mouth with a muzzle as long as the wicked are present. Show me, O LORD, my end and the measure of my days. Let me know how fleeting my life is. You, indeed, have made my days as handbreadths, and my lifetime as nothing before You. Truly each man at his best exists as but a breath. Selah Surely every man goes about like a phantom; surely he bustles in vain; he heaps up riches not knowing who will haul them away. And now, O Lord, for what do I wait? My hope is in You. Hear my prayer, O LORD, and give ear to my cry for help; do not be deaf to my weeping. For I am a foreigner dwelling with You, a stranger like all my fathers.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "Hills of the Judean desert, the shepherds’ country east of Bethlehem where David kept his father’s flocks (1 Samuel 16:11; 17:34-35). “He makes me lie down in green pastures; He leads me beside quiet waters” (Psalm 23:2).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

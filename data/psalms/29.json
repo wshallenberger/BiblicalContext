@@ -1,0 +1,251 @@
+{
+ "book": "Psalms",
+ "chapter": 29,
+ "title": "The Voice of the LORD",
+ "translation": "BSB",
+ "superscription": "A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Ascribe to the LORD, O heavenly beings, ascribe to the LORD glory and strength."
+  },
+  {
+   "num": 2,
+   "text": "Ascribe to the LORD the glory due His name; worship the LORD in the splendor of His holiness."
+  },
+  {
+   "num": 3,
+   "text": "The voice of the LORD is over the waters; the God of glory thunders; the LORD is heard over many waters."
+  },
+  {
+   "num": 4,
+   "text": "The voice of the LORD is powerful; the voice of the LORD is majestic."
+  },
+  {
+   "num": 5,
+   "text": "The voice of the LORD breaks the cedars; the LORD shatters the cedars of Lebanon."
+  },
+  {
+   "num": 6,
+   "text": "He makes Lebanon skip like a calf, and Sirion like a young wild ox."
+  },
+  {
+   "num": 7,
+   "text": "The voice of the LORD strikes with flames of fire."
+  },
+  {
+   "num": 8,
+   "text": "The voice of the LORD shakes the wilderness; the LORD shakes the Wilderness of Kadesh."
+  },
+  {
+   "num": 9,
+   "text": "The voice of the LORD twists the oaks and strips the forests bare. And in His temple all cry, \"Glory!\""
+  },
+  {
+   "num": 10,
+   "text": "The LORD sits enthroned over the flood; the LORD is enthroned as King forever."
+  },
+  {
+   "num": 11,
+   "text": "The LORD gives His people strength; the LORD blesses His people with peace."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "THE STORM FROM LEBANON TO THE WILDERNESS",
+  "setting": "The psalm calls the “heavenly beings” to give the LORD glory (vv.1-2), then follows a thunderstorm across the land. Seven times it says “the voice of the LORD.” The storm rolls in over the Mediterranean, “over many waters” (v.3), crashes into the mountains of the north, where “the LORD shatters the cedars of Lebanon” and makes Lebanon and Sirion skip like young animals (vv.5-6), flashes with lightning (v.7), and sweeps south to shake “the Wilderness of Kadesh” (v.8). Meanwhile, “in His temple all cry, Glory!” (v.9). “The LORD sits enthroned over the flood; the LORD is enthroned as King forever” (v.10), and He gives His people strength and peace (v.11).",
+  "custom": "The Canaanites credited storms to Baal, the storm god, whose voice was the thunder; texts from Ugarit (about 1300 BC) use language close to this psalm. Psalm 29 gives that glory to the LORD alone. Sirion was the Sidonian name for Mount Hermon (Deuteronomy 3:9). Cedars of Lebanon were the tallest, strongest trees known, used for palaces and temples.",
+  "timelineImmediate": "Psalm 30 thanks God for healing: “Weeping may stay the night, but joy comes in the morning.”",
+  "timelineBible": "The word for “flood” in v.10, mabbul, is used elsewhere only for Noah’s flood in Genesis 6-11. When God spoke from heaven to Jesus, some in the crowd said it had thundered (John 12:28-29). In Revelation, seven thunders speak (Revelation 10:3-4).",
+  "translation": [
+   {
+    "english": "voice",
+    "greek": "קוֹל (qol)",
+    "verseRef": "v.3",
+    "meaning": "Voice, sound, thunder. Used seven times in the psalm.",
+    "gloss": "Voice, thunder",
+    "strongs": "H6963",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cedars",
+    "greek": "אֶרֶז (erez)",
+    "verseRef": "v.5",
+    "meaning": "Cedar, the great tree of Lebanon.",
+    "gloss": "Cedar",
+    "strongs": "H730",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "flood",
+    "greek": "מַבּוּל (mabbul)",
+    "verseRef": "v.10",
+    "meaning": "The flood, the great deluge; used only of Noah’s flood and here.",
+    "gloss": "The Flood",
+    "strongs": "H3999",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 12:28-29",
+    "note": "The crowd said it had thundered."
+   },
+   {
+    "ref": "Revelation 10:3-4",
+    "note": "The seven thunders spoke."
+   },
+   {
+    "ref": "Matthew 8:26-27",
+    "note": "Even the winds and the sea obey Him."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 3:9",
+    "note": "The Sidonians call Hermon Sirion."
+   },
+   {
+    "ref": "Genesis 7:17",
+    "note": "The flood continued forty days."
+   },
+   {
+    "ref": "1 Kings 19:11-12",
+    "note": "The LORD was not in the wind or the earthquake."
+   }
+  ],
+  "mapCoords": {
+   "lat": 34.243,
+   "lng": 36.048,
+   "zoom": 6,
+   "placeName": "Lebanon (the cedar mountains)"
+  },
+  "overview": {
+   "summary": "A thunderstorm sweeps from the sea over Lebanon to the southern wilderness, and every crash is the voice of the LORD, who reigns over the flood and gives His people peace.",
+   "settingLine": "A storm from the sea over the mountains.",
+   "placeName": "Lebanon (the cedar mountains)",
+   "history": [
+    {
+     "h": "Baal worship",
+     "t": "The Canaanite storm god."
+    },
+    {
+     "h": "Ugarit",
+     "t": "Its texts share the psalm’s storm language."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Cedars",
+     "t": "Lebanon’s great timber trees."
+    },
+    {
+     "h": "Seven",
+     "t": "The voice of the LORD seven times."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ugaritic tablets",
+     "t": "Baal myths from Ras Shamra in Syria, about 1300 BC."
+    },
+    {
+     "h": "Baal stele",
+     "t": "A carved Baal with a thunderbolt club, from Ugarit, now in the Louvre."
+    }
+   ],
+   "discussion": "The storm that terrifies the land is God’s voice, and it ends in “peace” (v.11). How does God’s power become comfort for His people?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Hymn: the LORD of the storm",
+   "audience": "The heavenly beings",
+   "refNotes": {
+    "Deuteronomy 3:9": "Sirion is Hermon",
+    "Genesis 7:17": "The Flood",
+    "1 Kings 19:11-12": "God and the storm"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The heavenly beings",
+     "d": "Called to give glory"
+    },
+    {
+     "n": "The LORD",
+     "d": "King over the flood"
+    },
+    {
+     "n": "His people",
+     "d": "Given strength and peace"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Ascribe glory"
+    },
+    {
+     "when": "v.3-9",
+     "label": "The voice of the LORD"
+    },
+    {
+     "when": "v.10-11",
+     "label": "King forever"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Lebanon (the cedar mountains)",
+    "lat": 34.243,
+    "lng": 36.048,
+    "verses": [
+     5,
+     6
+    ],
+    "slug": "lebanon"
+   },
+   {
+    "name": "Mount Hermon (Sirion)",
+    "lat": 33.416,
+    "lng": 35.857,
+    "verses": [
+     6
+    ],
+    "slug": "mount-hermon"
+   },
+   {
+    "name": "Kadesh (location debated)",
+    "lat": 30.687,
+    "lng": 34.494,
+    "verses": [
+     8
+    ],
+    "slug": "kadesh"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     9
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Ascribe to the LORD, O heavenly beings, ascribe to the LORD glory and strength. Ascribe to the LORD the glory due His name; worship the LORD in the splendor of His holiness. The voice of the LORD is over the waters; the God of glory thunders; the LORD is heard over many waters. The voice of the LORD breaks the cedars; the LORD shatters the cedars of Lebanon. The voice of the LORD twists the oaks and strips the forests bare. And in His temple all cry, Glory! The LORD sits enthroned over the flood; the LORD is enthroned as King forever. The LORD gives His people strength; the LORD blesses His people with peace.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cedars01(js).jpg",
+   "caption": "The ancient grove of cedars of Lebanon at Bsharri, in the mountains of northern Lebanon. “The voice of the LORD breaks the cedars; the LORD shatters the cedars of Lebanon” (Psalm 29:5).",
+   "credit": "Jerzy Strzelecki / Wikimedia Commons"
+  }
+ }
+}

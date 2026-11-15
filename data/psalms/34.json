@@ -1,0 +1,281 @@
+{
+ "book": "Psalms",
+ "chapter": 34,
+ "title": "Taste and See That the LORD Is Good",
+ "translation": "BSB",
+ "superscription": "Of David, when he pretended to be insane before Abimelech, so that the king drove him away.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I will bless the LORD at all times; His praise will always be on my lips."
+  },
+  {
+   "num": 2,
+   "text": "My soul boasts in the LORD; let the oppressed hear and rejoice."
+  },
+  {
+   "num": 3,
+   "text": "Magnify the LORD with me; let us exalt His name together."
+  },
+  {
+   "num": 4,
+   "text": "I sought the LORD, and He answered me; He delivered me from all my fears."
+  },
+  {
+   "num": 5,
+   "text": "Those who look to Him are radiant with joy; their faces shall never be ashamed."
+  },
+  {
+   "num": 6,
+   "text": "This poor man called out, and the LORD heard him; He saved him from all his troubles."
+  },
+  {
+   "num": 7,
+   "text": "The angel of the LORD encamps around those who fear Him, and he delivers them."
+  },
+  {
+   "num": 8,
+   "text": "Taste and see that the LORD is good; blessed is the man who takes refuge in Him!"
+  },
+  {
+   "num": 9,
+   "text": "Fear the LORD, you His saints, for those who fear Him lack nothing."
+  },
+  {
+   "num": 10,
+   "text": "Young lions go lacking and hungry, but those who seek the LORD lack no good thing."
+  },
+  {
+   "num": 11,
+   "text": "Come, children, listen to me; I will teach you the fear of the LORD."
+  },
+  {
+   "num": 12,
+   "text": "Who is the man who delights in life, who desires to see good days?"
+  },
+  {
+   "num": 13,
+   "text": "Keep your tongue from evil and your lips from deceitful speech."
+  },
+  {
+   "num": 14,
+   "text": "Turn away from evil and do good; seek peace and pursue it."
+  },
+  {
+   "num": 15,
+   "text": "The eyes of the LORD are on the righteous, and His ears are inclined to their cry."
+  },
+  {
+   "num": 16,
+   "text": "But the face of the LORD is against those who do evil, to wipe out all memory of them from the earth."
+  },
+  {
+   "num": 17,
+   "text": "The righteous cry out, and the LORD hears; He delivers them from all their troubles."
+  },
+  {
+   "num": 18,
+   "text": "The LORD is near to the brokenhearted; He saves the contrite in spirit."
+  },
+  {
+   "num": 19,
+   "text": "Many are the afflictions of the righteous, but the LORD delivers him from them all."
+  },
+  {
+   "num": 20,
+   "text": "He protects all his bones; not one of them will be broken."
+  },
+  {
+   "num": 21,
+   "text": "Evil will slay the wicked, and the haters of the righteous will be condemned."
+  },
+  {
+   "num": 22,
+   "text": "The LORD redeems His servants, and none who take refuge in Him will be condemned."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "DAVID AT GATH",
+  "setting": "The title sets it after David “pretended to be insane before Abimelech, so that the king drove him away.” In 1 Samuel 21:10-15 David fled from Saul to Achish, king of Gath, was recognized, and saved himself by acting mad. Now safe, he says, “I will bless the LORD at all times” (v.1) and invites others: “Magnify the LORD with me” (v.3). “This poor man called out, and the LORD heard him” (v.6). “The angel of the LORD encamps around those who fear Him” (v.7). “Taste and see that the LORD is good” (v.8). Then he teaches: “Come, children, listen to me” (v.11): guard your tongue, “turn away from evil and do good; seek peace and pursue it” (v.14). “The LORD is near to the brokenhearted” (v.18), and “He protects all his bones; not one of them will be broken” (v.20).",
+  "custom": "Abimelech in the title may be a royal title used by Philistine kings, as Pharaoh was in Egypt; the king’s personal name was Achish (1 Samuel 21:10). In the ancient world madness was often treated with fear or superstition, so a madman might be left alone. Like Psalm 25, this alphabet psalm adds a last verse outside the alphabet.",
+  "timelineImmediate": "Psalm 35 asks the LORD to fight for one hated without cause.",
+  "timelineBible": "Peter quotes v.8, “you have tasted that the Lord is good” (1 Peter 2:3), and vv.12-16 at length in 1 Peter 3:10-12. John sees v.20, with the Passover lamb law of Exodus 12:46, fulfilled when the soldiers did not break Jesus’ legs: “Not one of His bones will be broken” (John 19:36).",
+  "translation": [
+   {
+    "english": "angel",
+    "greek": "מַלְאָךְ (mal’akh)",
+    "verseRef": "v.7",
+    "meaning": "Messenger, angel. “The angel of the LORD” guards God’s people.",
+    "gloss": "Messenger",
+    "strongs": "H4397",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "taste",
+    "greek": "טָעַם (ta’am)",
+    "verseRef": "v.8",
+    "meaning": "To taste, perceive; to try something by experience.",
+    "gloss": "Taste",
+    "strongs": "H2938",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "brokenhearted",
+    "greek": "שָׁבַר (shavar)",
+    "verseRef": "v.18",
+    "meaning": "To break, shatter; the LORD is near the broken in heart.",
+    "gloss": "Break",
+    "strongs": "H7665",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "bones",
+    "greek": "עֶצֶם (etsem)",
+    "verseRef": "v.20",
+    "meaning": "Bone; the whole body or self.",
+    "gloss": "Bone",
+    "strongs": "H6106",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Peter 2:2-3",
+    "note": "You have tasted that the Lord is good."
+   },
+   {
+    "ref": "1 Peter 3:10-12",
+    "note": "Whoever would love life and see good days."
+   },
+   {
+    "ref": "John 19:33-36",
+    "note": "Not one of His bones will be broken."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 21:10-15",
+    "note": "David pretends to be insane before Achish of Gath."
+   },
+   {
+    "ref": "Exodus 12:46",
+    "note": "You must not break any of the lamb’s bones."
+   },
+   {
+    "ref": "2 Kings 6:15-17",
+    "note": "Horses and chariots of fire around Elisha."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7042,
+   "lng": 34.8469,
+   "zoom": 6,
+   "placeName": "Gath (Tell es-Safi)"
+  },
+  "overview": {
+   "summary": "After escaping from the Philistine king by feigning madness, David praises God who heard the poor man’s cry, invites all to taste His goodness, and teaches the fear of the LORD.",
+   "settingLine": "A fugitive saved at the Philistine court.",
+   "placeName": "Gath (Tell es-Safi)",
+   "history": [
+    {
+     "h": "Achish of Gath",
+     "t": "The Philistine king David fled to."
+    },
+    {
+     "h": "Gath",
+     "t": "Goliath’s hometown."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Royal titles",
+     "t": "Abimelech may be a Philistine title."
+    },
+    {
+     "h": "Feigned madness",
+     "t": "David scratched the gate and drooled."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tell es-Safi",
+     "t": "Excavations at Gath found a large Iron Age city and an inscription with names like Goliath."
+    },
+    {
+     "h": "Ekron inscription",
+     "t": "A royal inscription from nearby Ekron names a king Achish (Ikausu), about 700 BC."
+    }
+   ],
+   "discussion": "“Taste and see that the LORD is good” (v.8). What has God done in my life that I could invite someone else to taste?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Thanksgiving and teaching (an alphabet psalm)",
+   "audience": "The afflicted, and children",
+   "refNotes": {
+    "1 Samuel 21:10-15": "David at Gath",
+    "Exodus 12:46": "The Passover lamb",
+    "2 Kings 6:15-17": "Angels encamped around"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Escaped and praising"
+    },
+    {
+     "n": "Abimelech (Achish)",
+     "d": "The Philistine king"
+    },
+    {
+     "n": "The angel of the LORD",
+     "d": "Encamps around the faithful"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Magnify the LORD with me"
+    },
+    {
+     "when": "v.8-10",
+     "label": "Taste and see"
+    },
+    {
+     "when": "v.11-22",
+     "label": "Come, children, listen"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Gath (Tell es-Safi)",
+    "lat": 31.7042,
+    "lng": 34.8469,
+    "verses": [],
+    "slug": "gath"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I will bless the LORD at all times; His praise will always be on my lips. Magnify the LORD with me; let us exalt His name together. I sought the LORD, and He answered me; He delivered me from all my fears. The angel of the LORD encamps around those who fear Him, and he delivers them. Taste and see that the LORD is good; blessed is the man who takes refuge in Him! Turn away from evil and do good; seek peace and pursue it. The LORD is near to the brokenhearted; He saves the contrite in spirit. Many are the afflictions of the righteous, but the LORD delivers him from them all. He protects all his bones; not one of them will be broken.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tel-Tsafit-206.jpg",
+   "caption": "Tell es-Safi (Tel Tzafit), widely identified as Gath of the Philistines, where David pretended to be insane before King Achish (1 Samuel 21:10-15), the setting the title gives Psalm 34.",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

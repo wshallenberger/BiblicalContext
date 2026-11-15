@@ -781,6 +781,35 @@
    "n": "Dates are approximate."
   },
   {
+   "id": "ps_gath",
+   "s": "kingdom",
+   "z": 3,
+   "t": "David feigns madness at Gath",
+   "d": "c. 1015 BC",
+   "c": "a",
+   "r": "1 Samuel 21:10-15; Psalm 34",
+   "sum": "Fleeing Saul, David goes to Achish king of Gath and saves himself by acting insane. Psalm 34 is titled for that escape: “Taste and see that the LORD is good” (Psalm 34:8).",
+   "ev": 604,
+   "go": [
+    "psalms",
+    34,
+    1
+   ],
+   "bk": [
+    [
+     8,
+     21,
+     21
+    ],
+    [
+     18,
+     34,
+     34
+    ]
+   ],
+   "n": "Dates are approximate."
+  },
+  {
    "id": "david",
    "s": "kingdom",
    "z": 0,
@@ -851,7 +880,7 @@
    "d": "c. 1000-900 BC",
    "c": "a",
    "r": "Psalms; Song of Songs",
-   "sum": "Many Psalms are credited to David, and the Song of Songs is traditionally linked to Solomon. Psalms 1-20 are in the app.",
+   "sum": "Many Psalms are credited to David, and the Song of Songs is traditionally linked to Solomon. Psalms 1-40 are in the app.",
    "bk": [
     [
      18,

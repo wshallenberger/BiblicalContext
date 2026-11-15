@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 36,
+ "title": "The Fountain of Life",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David, the servant of the LORD.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "An oracle is in my heart regarding the transgression of the wicked man: There is no fear of God before his eyes."
+  },
+  {
+   "num": 2,
+   "text": "For his eyes are too full of conceit to detect or hate his own sin."
+  },
+  {
+   "num": 3,
+   "text": "The words of his mouth are wicked and deceitful; he has ceased to be wise and well-doing."
+  },
+  {
+   "num": 4,
+   "text": "Even on his bed he plots wickedness; he sets himself on a path that is not good; he fails to reject evil."
+  },
+  {
+   "num": 5,
+   "text": "Your loving devotion, O LORD, reaches to the heavens, Your faithfulness to the clouds."
+  },
+  {
+   "num": 6,
+   "text": "Your righteousness is like the highest mountains; Your judgments are like the deepest sea. O LORD, You preserve man and beast."
+  },
+  {
+   "num": 7,
+   "text": "How precious is Your loving devotion, O God, that the children of men take refuge in the shadow of Your wings!"
+  },
+  {
+   "num": 8,
+   "text": "They feast on the abundance of Your house, and You give them drink from Your river of delights."
+  },
+  {
+   "num": 9,
+   "text": "For with You is the fountain of life; in Your light we see light."
+  },
+  {
+   "num": 10,
+   "text": "Extend Your loving devotion to those who know You, and Your righteousness to the upright in heart."
+  },
+  {
+   "num": 11,
+   "text": "Let not the foot of the proud come against me, nor the hand of the wicked drive me away."
+  },
+  {
+   "num": 12,
+   "text": "There the evildoers lie fallen, thrown down and unable to rise."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The psalm opens inside the wicked man’s heart: “There is no fear of God before his eyes” (v.1). He flatters himself, speaks deceit and plots evil even on his bed (vv.2-4). Then David turns to God, and the contrast could not be greater: “Your loving devotion, O LORD, reaches to the heavens, Your faithfulness to the clouds. Your righteousness is like the highest mountains; Your judgments are like the deepest sea” (vv.5-6). People “take refuge in the shadow of Your wings” and “feast on the abundance of Your house” (vv.7-8). “For with You is the fountain of life; in Your light we see light” (v.9). David asks God to keep showing His love to those who know Him (v.10).",
+  "custom": "Springs and fountains meant life in a dry land; Jerusalem depended on the Gihon spring. Feasting in God’s house points to the meals eaten after peace offerings at the sanctuary (Leviticus 7:15). “The shadow of Your wings” may recall the cherubim over the ark, as well as a mother bird.",
+  "timelineImmediate": "Psalm 37 tells the righteous not to fret over the wicked.",
+  "timelineBible": "Paul quotes v.1 to end his chain of verses about human sin: “There is no fear of God before their eyes” (Romans 3:18). Jesus offered “living water” (John 4:10), and Revelation pictures the river of life flowing “from the throne of God and of the Lamb” (Revelation 22:1). Jeremiah calls God “the fountain of living water” (Jeremiah 2:13).",
+  "translation": [
+   {
+    "english": "fear",
+    "greek": "פַּחַד (pachad)",
+    "verseRef": "v.1",
+    "meaning": "Dread, terror, awe.",
+    "gloss": "Dread",
+    "strongs": "H6343",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "loving devotion",
+    "greek": "חֶסֶד (chesed)",
+    "verseRef": "v.5",
+    "meaning": "Steadfast love that reaches to the heavens.",
+    "gloss": "Steadfast love",
+    "strongs": "H2617",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fountain",
+    "greek": "מָקוֹר (maqor)",
+    "verseRef": "v.9",
+    "meaning": "Spring, fountain, source.",
+    "gloss": "Spring",
+    "strongs": "H4726",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 3:18",
+    "note": "There is no fear of God before their eyes."
+   },
+   {
+    "ref": "John 4:10-14",
+    "note": "Living water welling up to eternal life."
+   },
+   {
+    "ref": "Revelation 22:1",
+    "note": "The river of the water of life."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Jeremiah 2:13",
+    "note": "The fountain of living water."
+   },
+   {
+    "ref": "Ezekiel 47:1-9",
+    "note": "A river flows from the Temple."
+   },
+   {
+    "ref": "Psalm 17:8",
+    "note": "The shadow of Your wings."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Beside the self-deceived wicked man stands God’s love, as high as the heavens, and His house, where people find refuge, a feast, and the fountain of life.",
+   "settingLine": "A river of delights in God’s house.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The Gihon spring",
+     "t": "Jerusalem’s water source."
+    },
+    {
+     "h": "Temple feasts",
+     "t": "Meals from the peace offerings."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Springs",
+     "t": "Life in a dry land."
+    },
+    {
+     "h": "Feasting",
+     "t": "Eating before the LORD."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gihon spring",
+     "t": "Its waters were brought into the city by Hezekiah’s tunnel."
+    },
+    {
+     "h": "Warren’s Shaft",
+     "t": "An early water system in the City of David."
+    }
+   ],
+   "discussion": "“In Your light we see light” (v.9). How does knowing God change the way I see everything else?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Wisdom and hymn",
+   "audience": "God, and the upright in heart",
+   "refNotes": {
+    "Jeremiah 2:13": "The true fountain",
+    "Ezekiel 47:1-9": "The Temple river",
+    "Psalm 17:8": "Under His wings"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The wicked man",
+     "d": "No fear of God"
+    },
+    {
+     "n": "The children of men",
+     "d": "Shelter under God’s wings"
+    },
+    {
+     "n": "Those who know God",
+     "d": "Receive His love"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "The wicked heart"
+    },
+    {
+     "when": "v.5-9",
+     "label": "The fountain of life"
+    },
+    {
+     "when": "v.10-12",
+     "label": "Keep Your love on us"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "An oracle is in my heart regarding the transgression of the wicked man: There is no fear of God before his eyes. Your loving devotion, O LORD, reaches to the heavens, Your faithfulness to the clouds. Your righteousness is like the highest mountains; Your judgments are like the deepest sea. O LORD, You preserve man and beast. How precious is Your loving devotion, O God, that the children of men take refuge in the shadow of Your wings! They feast on the abundance of Your house, and You give them drink from Your river of delights. For with You is the fountain of life; in Your light we see light. Extend Your loving devotion to those who know You, and Your righteousness to the upright in heart.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalm_118_11Q5.jpg",
+   "caption": "Psalm 118 in the Great Psalms Scroll (11Q5) from Qumran Cave 11. The scroll writes the divine name YHWH in old Paleo-Hebrew letters, set apart from the square script around it.",
+   "credit": "Israel Antiquities Authority, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

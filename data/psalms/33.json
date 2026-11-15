@@ -1,0 +1,264 @@
+{
+ "book": "Psalms",
+ "chapter": 33,
+ "title": "Sing to Him a New Song",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Rejoice in the LORD, O righteous ones; it is fitting for the upright to praise Him."
+  },
+  {
+   "num": 2,
+   "text": "Praise the LORD with the harp; make music to Him with ten strings."
+  },
+  {
+   "num": 3,
+   "text": "Sing to Him a new song; play skillfully with a shout of joy."
+  },
+  {
+   "num": 4,
+   "text": "For the word of the LORD is upright, and all His work is trustworthy."
+  },
+  {
+   "num": 5,
+   "text": "The LORD loves righteousness and justice; the earth is full of His loving devotion."
+  },
+  {
+   "num": 6,
+   "text": "By the word of the LORD the heavens were made, and all the stars by the breath of His mouth."
+  },
+  {
+   "num": 7,
+   "text": "He piles up the waters of the sea; He puts the depths into storehouses."
+  },
+  {
+   "num": 8,
+   "text": "Let all the earth fear the LORD; let all the people of the world revere Him."
+  },
+  {
+   "num": 9,
+   "text": "For He spoke, and it came to be; He commanded, and it stood firm."
+  },
+  {
+   "num": 10,
+   "text": "The LORD frustrates the plans of the nations; He thwarts the devices of the peoples."
+  },
+  {
+   "num": 11,
+   "text": "The counsel of the LORD stands forever, the purposes of His heart to all generations."
+  },
+  {
+   "num": 12,
+   "text": "Blessed is the nation whose God is the LORD, the people He has chosen as His inheritance!"
+  },
+  {
+   "num": 13,
+   "text": "The LORD looks down from heaven; He sees all the sons of men."
+  },
+  {
+   "num": 14,
+   "text": "From His dwelling place He gazes on all who inhabit the earth."
+  },
+  {
+   "num": 15,
+   "text": "He shapes the hearts of each; He considers all their works."
+  },
+  {
+   "num": 16,
+   "text": "No king is saved by his vast army; no warrior is delivered by his great strength."
+  },
+  {
+   "num": 17,
+   "text": "A horse is a vain hope for salvation; even its great strength cannot save."
+  },
+  {
+   "num": 18,
+   "text": "Surely the eyes of the LORD are on those who fear Him, on those whose hope is in His loving devotion"
+  },
+  {
+   "num": 19,
+   "text": "to deliver them from death and keep them alive in famine."
+  },
+  {
+   "num": 20,
+   "text": "Our soul waits for the LORD; He is our help and our shield."
+  },
+  {
+   "num": 21,
+   "text": "For our hearts rejoice in Him, since we trust in His holy name."
+  },
+  {
+   "num": 22,
+   "text": "May Your loving devotion rest on us, O LORD, as we put our hope in You."
+  }
+ ],
+ "context": {
+  "author": "Not named; Psalm 33 has no title in Hebrew (the Greek Old Testament gives it to David).",
+  "genre": "Hymn of praise to the Creator and Lord of history",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Rejoice in the LORD, O righteous ones; it is fitting for the upright to praise Him” (v.1). The singers are told to use harp and ten strings and to “sing to Him a new song” (vv.2-3). Then the reasons: His word is upright (v.4), and “by the word of the LORD the heavens were made, and all the stars by the breath of His mouth” (v.6). “He spoke, and it came to be; He commanded, and it stood firm” (v.9). He overrules the plans of nations, and “blessed is the nation whose God is the LORD” (v.12). He sees every person (vv.13-15). “No king is saved by his vast army… A horse is a vain hope for salvation” (vv.16-17). The psalm ends with waiting and hope in His loving devotion (vv.20-22).",
+  "custom": "The ten-stringed instrument (v.2) was probably a kind of harp or zither. A “new song” was sung for a new act of God, often a victory (Exodus 15). Kings boasted of the size of their armies and chariot forces in their inscriptions; the psalm says numbers do not save.",
+  "timelineImmediate": "Psalm 34 is David’s alphabet song after escaping from the Philistine king: “Taste and see that the LORD is good.”",
+  "timelineBible": "John begins his Gospel with the creating Word: “Through Him all things were made” (John 1:3). Hebrews says “the universe was formed at God’s command” (Hebrews 11:3). Revelation 5:9 and 14:3 describe the “new song” sung to the Lamb.",
+  "translation": [
+   {
+    "english": "new song",
+    "greek": "שִׁיר (shir)",
+    "verseRef": "v.3",
+    "meaning": "Song, a song sung in worship.",
+    "gloss": "Song",
+    "strongs": "H7892",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "word",
+    "greek": "דָּבָר (davar)",
+    "verseRef": "v.6",
+    "meaning": "Word, speech, matter, thing. God creates by speaking.",
+    "gloss": "Word",
+    "strongs": "H1697",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "breath",
+    "greek": "רוּחַ (ruach)",
+    "verseRef": "v.6",
+    "meaning": "Breath, wind, spirit; the breath of God’s mouth.",
+    "gloss": "Breath",
+    "strongs": "H7307",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 1:1-3",
+    "note": "In the beginning was the Word."
+   },
+   {
+    "ref": "Hebrews 11:3",
+    "note": "The universe was formed at God’s command."
+   },
+   {
+    "ref": "Revelation 5:9",
+    "note": "They sang a new song."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 1:1-3",
+    "note": "And God said, Let there be light."
+   },
+   {
+    "ref": "Exodus 15:1-2",
+    "note": "The song of Moses at the sea."
+   },
+   {
+    "ref": "Psalm 20:7",
+    "note": "Some trust in chariots."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The righteous are called to sing a new song to the LORD, who made the heavens by His word, rules the nations, and saves not by armies but by His loving devotion.",
+   "settingLine": "Music and shouting in the house of God.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "No title",
+     "t": "One of only four untitled psalms in Book One."
+    },
+    {
+     "h": "Royal armies",
+     "t": "Kings boasted of numbers."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Ten strings",
+     "t": "A harp or zither."
+    },
+    {
+     "h": "A new song",
+     "t": "For a new act of God."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Megiddo ivory",
+     "t": "An ivory from Megiddo shows a lyre player before a ruler."
+    },
+    {
+     "h": "Creation texts",
+     "t": "Babylonian Enuma Elish tells creation by battle; Genesis and this psalm by word."
+    }
+   ],
+   "discussion": "“He spoke, and it came to be” (v.9). What would change if I believed God’s word is that powerful?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hymn",
+   "audience": "The righteous, and all the earth",
+   "refNotes": {
+    "Genesis 1:1-3": "Creation by word",
+    "Exodus 15:1-2": "A new song of victory",
+    "Psalm 20:7": "Not in horses"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The righteous",
+     "d": "Called to sing"
+    },
+    {
+     "n": "The nations",
+     "d": "Their plans are frustrated"
+    },
+    {
+     "n": "Kings and warriors",
+     "d": "Not saved by strength"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Sing a new song"
+    },
+    {
+     "when": "v.4-12",
+     "label": "The word that made the world"
+    },
+    {
+     "when": "v.13-22",
+     "label": "The LORD sees and saves"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Rejoice in the LORD, O righteous ones; it is fitting for the upright to praise Him. Sing to Him a new song; play skillfully with a shout of joy. For the word of the LORD is upright, and all His work is trustworthy. By the word of the LORD the heavens were made, and all the stars by the breath of His mouth. For He spoke, and it came to be; He commanded, and it stood firm. Blessed is the nation whose God is the LORD, the people He has chosen as His inheritance! No king is saved by his vast army; no warrior is delivered by his great strength. Our soul waits for the LORD; He is our help and our shield. May Your loving devotion rest on us, O LORD, as we put our hope in You.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

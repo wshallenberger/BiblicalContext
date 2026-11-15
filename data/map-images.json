@@ -2754,6 +2754,68 @@
   ],
   "psalms:20": [
    "ps_megiddo"
+  ],
+  "psalms:21": [
+   "ps_harp"
+  ],
+  "psalms:22": [
+   "ps_crucified"
+  ],
+  "psalms:23": [
+   "ps_judea",
+   "ps_harp"
+  ],
+  "psalms:24": [
+   "ps_templemount"
+  ],
+  "psalms:25": [
+   "ps_scroll"
+  ],
+  "psalms:26": [
+   "ps_templemount"
+  ],
+  "psalms:27": [
+   "ps_cityofdavid"
+  ],
+  "psalms:28": [
+   "ps_templemount"
+  ],
+  "psalms:29": [
+   "ps_cedars",
+   "ps_hermon"
+  ],
+  "psalms:30": [
+   "ps_cityofdavid"
+  ],
+  "psalms:31": [
+   "ps_crucified"
+  ],
+  "psalms:32": [
+   "ps_harp"
+  ],
+  "psalms:33": [
+   "ps_harp"
+  ],
+  "psalms:34": [
+   "ps_gath"
+  ],
+  "psalms:35": [
+   "ps_cityofdavid"
+  ],
+  "psalms:36": [
+   "ps_ps118"
+  ],
+  "psalms:37": [
+   "ps_scroll"
+  ],
+  "psalms:38": [
+   "ps_harp"
+  ],
+  "psalms:39": [
+   "ps_judea"
+  ],
+  "psalms:40": [
+   "ps_scroll"
   ]
  },
  "ac_ascmat": {
@@ -7177,5 +7239,45 @@
   "n": "Tel Megiddo",
   "d": "The mound of Megiddo above the Jezreel Valley. Stables or storehouses found there are linked by many with the chariot forces of Israel’s kings. “Some trust in chariots and others in horses, but we trust in the name of the LORD our God” (Psalm 20:7).",
   "a": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+ },
+ "ps_crucified": {
+  "k": "art",
+  "f": "Cristo_crucificado.jpg",
+  "c": "Christ Crucified, by Diego Velázquez (about 1632, Museo del Prado, Madrid). On the cross Jesus cried out the first line of Psalm 22: “My God, My God, why have You forsaken Me?” (Matthew 27:46).",
+  "n": "Velázquez, Christ Crucified",
+  "d": "Christ Crucified, by Diego Velázquez (about 1632, Museo del Prado, Madrid). On the cross Jesus cried out the first line of Psalm 22: “My God, My God, why have You forsaken Me?” (Matthew 27:46).",
+  "a": "Diego Velázquez (c. 1632), public domain / Wikimedia Commons"
+ },
+ "ps_judea": {
+  "k": "now",
+  "f": "Judea_1_by_David_Shankbone.jpg",
+  "c": "Hills of the Judean desert, the shepherds’ country east of Bethlehem where David kept his father’s flocks (1 Samuel 16:11; 17:34-35). “He makes me lie down in green pastures; He leads me beside quiet waters” (Psalm 23:2).",
+  "n": "The Judean desert hills",
+  "d": "Hills of the Judean desert, the shepherds’ country east of Bethlehem where David kept his father’s flocks (1 Samuel 16:11; 17:34-35). “He makes me lie down in green pastures; He leads me beside quiet waters” (Psalm 23:2).",
+  "a": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+ },
+ "ps_cedars": {
+  "k": "now",
+  "f": "Cedars01(js).jpg",
+  "c": "The ancient grove of cedars of Lebanon at Bsharri, in the mountains of northern Lebanon. “The voice of the LORD breaks the cedars; the LORD shatters the cedars of Lebanon” (Psalm 29:5).",
+  "n": "The cedars of Lebanon",
+  "d": "The ancient grove of cedars of Lebanon at Bsharri, in the mountains of northern Lebanon. “The voice of the LORD breaks the cedars; the LORD shatters the cedars of Lebanon” (Psalm 29:5).",
+  "a": "Jerzy Strzelecki / Wikimedia Commons"
+ },
+ "ps_hermon": {
+  "k": "now",
+  "f": "Hermonsnow.jpg",
+  "c": "Snow-capped Mount Hermon, which the Sidonians called Sirion (Deuteronomy 3:9). “He makes Lebanon skip like a calf, and Sirion like a young wild ox” (Psalm 29:6).",
+  "n": "Mount Hermon (Sirion)",
+  "d": "Snow-capped Mount Hermon, which the Sidonians called Sirion (Deuteronomy 3:9). “He makes Lebanon skip like a calf, and Sirion like a young wild ox” (Psalm 29:6).",
+  "a": "Wikimedia Commons"
+ },
+ "ps_gath": {
+  "k": "dig",
+  "f": "Tel-Tsafit-206.jpg",
+  "c": "Tell es-Safi (Tel Tzafit), widely identified as Gath of the Philistines, where David pretended to be insane before King Achish (1 Samuel 21:10-15), the setting the title gives Psalm 34.",
+  "n": "Tell es-Safi (Gath)",
+  "d": "Tell es-Safi (Tel Tzafit), widely identified as Gath of the Philistines, where David pretended to be insane before King Achish (1 Samuel 21:10-15), the setting the title gives Psalm 34.",
+  "a": "Wikimedia Commons"
  }
 }

@@ -1,0 +1,245 @@
+{
+ "book": "Psalms",
+ "chapter": 40,
+ "title": "I Waited Patiently for the LORD",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I waited patiently for the LORD; He inclined to me and heard my cry."
+  },
+  {
+   "num": 2,
+   "text": "He lifted me up from the pit of despair, out of the miry clay; He set my feet upon a rock, and made my footsteps firm."
+  },
+  {
+   "num": 3,
+   "text": "He put a new song in my mouth, a hymn of praise to our God. Many will see and fear and put their trust in the LORD."
+  },
+  {
+   "num": 4,
+   "text": "Blessed is the man who has made the LORD his trust, who has not turned to the proud, nor to those who lapse into falsehood."
+  },
+  {
+   "num": 5,
+   "text": "Many, O LORD my God, are the wonders You have done, and the plans You have for us— none can compare to You— if I proclaim and declare them, they are more than I can count."
+  },
+  {
+   "num": 6,
+   "text": "Sacrifice and offering You did not desire, but my ears You have opened. Burnt offerings and sin offerings You did not require."
+  },
+  {
+   "num": 7,
+   "text": "Then I said, \"Here I am, I have come— it is written about me in the scroll:"
+  },
+  {
+   "num": 8,
+   "text": "I delight to do Your will, O my God; Your law is within my heart.\""
+  },
+  {
+   "num": 9,
+   "text": "I proclaim righteousness in the great assembly; behold, I do not seal my lips, as You, O LORD, do know."
+  },
+  {
+   "num": 10,
+   "text": "I have not covered up Your righteousness in my heart; I have declared Your faithfulness and salvation; I have not concealed Your loving devotion and faithfulness from the great assembly."
+  },
+  {
+   "num": 11,
+   "text": "O LORD, do not withhold Your mercy from me; Your loving devotion and faithfulness will always guard me."
+  },
+  {
+   "num": 12,
+   "text": "For evils without number surround me; my sins have overtaken me, so that I cannot see. They are more than the hairs of my head, and my heart has failed within me."
+  },
+  {
+   "num": 13,
+   "text": "Be pleased, O LORD, to deliver me; hurry, O LORD, to help me."
+  },
+  {
+   "num": 14,
+   "text": "May those who seek my life be ashamed and confounded; may those who wish me harm be repelled and humiliated."
+  },
+  {
+   "num": 15,
+   "text": "May those who say to me, \"Aha, aha!\" be appalled at their own shame."
+  },
+  {
+   "num": 16,
+   "text": "May all who seek You rejoice and be glad in You; may those who love Your salvation always say, \"The LORD be magnified!\""
+  },
+  {
+   "num": 17,
+   "text": "But I am poor and needy; may the Lord think of me. You are my helper and deliverer; O my God, do not delay."
+  }
+ ],
+ "context": {
+  "author": "The title says “of David” (Hebrew le-David), which can mean by David, for David or about David. Seventy-three psalms carry his name; tradition and the New Testament take many of them as his.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I waited patiently for the LORD; He inclined to me and heard my cry. He lifted me up from the pit of despair, out of the miry clay; He set my feet upon a rock” (vv.1-2). God “put a new song in my mouth” (v.3), and David says His wonders are more than he can count (v.5). Then he says what God really wants: “Sacrifice and offering You did not desire, but my ears You have opened” (v.6). “Here I am, I have come—it is written about me in the scroll: I delight to do Your will, O my God; Your law is within my heart” (vv.7-8). He has told God’s faithfulness in the great assembly (vv.9-10). But troubles return, “more than the hairs of my head” (v.12), and the psalm ends with a new cry: “I am poor and needy… O my God, do not delay” (v.17).",
+  "custom": "Cisterns, pits cut in rock to store rainwater, had mud at the bottom when they ran low; Jeremiah was let down into one and sank in the mud (Jeremiah 38:6). To have one’s ears “opened” (literally “dug”) is to be made able to hear and obey. Verses 13-17 appear again, almost word for word, as Psalm 70.",
+  "timelineImmediate": "Psalm 41, the last psalm of Book One, is not yet in the app.",
+  "timelineBible": "Hebrews quotes vv.6-8 as Christ’s own words: “when Christ came into the world, He said” (Hebrews 10:5). It follows the Greek Old Testament, which reads “a body You prepared for Me” (Hebrews 10:5) where the Hebrew has “my ears You have opened.” Samuel told Saul, “obedience is better than sacrifice” (1 Samuel 15:22).",
+  "translation": [
+   {
+    "english": "waited patiently",
+    "greek": "קָוָה (qavah)",
+    "verseRef": "v.1",
+    "meaning": "To wait, hope eagerly; the verb is doubled: “waiting I waited.”",
+    "gloss": "Wait eagerly",
+    "strongs": "H6960",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "ears",
+    "greek": "אֹזֶן (ozen)",
+    "verseRef": "v.6",
+    "meaning": "Ear; “my ears You have dug,” made to hear and obey.",
+    "gloss": "Ear",
+    "strongs": "H241",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "scroll",
+    "greek": "מְגִלָּה (megillah)",
+    "verseRef": "v.7",
+    "meaning": "A scroll, a roll of writing.",
+    "gloss": "Scroll",
+    "strongs": "H4039",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 10:5-7",
+    "note": "A body You prepared for Me. I have come to do Your will."
+   },
+   {
+    "ref": "John 4:34",
+    "note": "My food is to do the will of Him who sent Me."
+   },
+   {
+    "ref": "Revelation 14:3",
+    "note": "They sang a new song before the throne."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 15:22",
+    "note": "To obey is better than sacrifice."
+   },
+   {
+    "ref": "Jeremiah 38:6",
+    "note": "Jeremiah sinks into the mud of the cistern."
+   },
+   {
+    "ref": "Psalm 70:1-5",
+    "note": "The last verses repeated as a psalm."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Lifted from the miry pit after waiting patiently, David sings a new song, offers God an obedient heart rather than sacrifices, and cries again for help in new trouble.",
+   "settingLine": "Out of the miry clay, onto a rock.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Psalm 70",
+     "t": "The same closing prayer."
+    },
+    {
+     "h": "Hebrews 10",
+     "t": "Reads the psalm as Christ’s words."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Cisterns",
+     "t": "Rock pits with mud at the bottom."
+    },
+    {
+     "h": "Opened ears",
+     "t": "Ready to obey."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Plastered cisterns",
+     "t": "Thousands are cut into the rock of Judah’s hills."
+    },
+    {
+     "h": "Scrolls",
+     "t": "The Dead Sea Scrolls show how books were rolled and read."
+    }
+   ],
+   "discussion": "“I delight to do Your will, O my God” (v.8). Do I see God’s will as something to delight in, or only to put up with?",
+   "book": "The book of Psalms · 150 psalms (1-20 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Thanksgiving and lament",
+   "audience": "God, and the great assembly",
+   "refNotes": {
+    "1 Samuel 15:22": "Obedience over sacrifice",
+    "Jeremiah 38:6": "The miry pit",
+    "Psalm 70:1-5": "A twin psalm"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Lifted from the pit"
+    },
+    {
+     "n": "The great assembly",
+     "d": "Hears his praise"
+    },
+    {
+     "n": "Those who seek God",
+     "d": "Rejoice"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Out of the pit"
+    },
+    {
+     "when": "v.6-10",
+     "label": "Here I am"
+    },
+    {
+     "when": "v.11-17",
+     "label": "Do not delay"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I waited patiently for the LORD; He inclined to me and heard my cry. He lifted me up from the pit of despair, out of the miry clay; He set my feet upon a rock, and made my footsteps firm. He put a new song in my mouth, a hymn of praise to our God. Many will see and fear and put their trust in the LORD. Sacrifice and offering You did not desire, but my ears You have opened. Burnt offerings and sin offerings You did not require. Then I said, Here I am, I have come— it is written about me in the scroll: I delight to do Your will, O my God; Your law is within my heart. May all who seek You rejoice and be glad in You; may those who love Your salvation always say, The LORD be magnified! But I am poor and needy; may the Lord think of me. You are my helper and deliverer; O my God, do not delay.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}
