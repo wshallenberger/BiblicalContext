@@ -1,0 +1,220 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 11,
+ "title": "Cast Your Bread on the Waters",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Cast your bread upon the waters, for after many days you will find it again."
+  },
+  {
+   "num": 2,
+   "text": "Divide your portion among seven, or even eight, for you do not know what disaster may befall the land."
+  },
+  {
+   "num": 3,
+   "text": "If the clouds are full, they will pour out rain upon the earth; whether a tree falls to the south or to the north, in the place where it falls, there it will lie."
+  },
+  {
+   "num": 4,
+   "text": "He who watches the wind will fail to sow, and he who observes the clouds will fail to reap."
+  },
+  {
+   "num": 5,
+   "text": "As you do not know the path of the wind, or how the bones are formed in a mother's womb, so you cannot understand the work of God, the Maker of all things."
+  },
+  {
+   "num": 6,
+   "text": "Sow your seed in the morning, and do not rest your hands in the evening, for you do not know which will succeed, whether this or that, or if both will equally prosper."
+  },
+  {
+   "num": 7,
+   "text": "Light is sweet, and it pleases the eyes to see the sun."
+  },
+  {
+   "num": 8,
+   "text": "So if a man lives many years, let him rejoice in them all. But let him remember the days of darkness, for they will be many. Everything to come is futile."
+  },
+  {
+   "num": 9,
+   "text": "Rejoice, O young man, while you are young, and let your heart be glad in the days of your youth. Walk in the ways of your heart and in the sight of your eyes, but know that for all these things God will bring you to judgment."
+  },
+  {
+   "num": 10,
+   "text": "So banish sorrow from your heart, and cast off pain from your body, for youth and vigor are fleeting."
+  }
+ ],
+ "context": {
+  "author": "“The Teacher, the son of David, king in Jerusalem” (1:1); in Hebrew Qoheleth, “one who gathers” or “speaks to an assembly.” The book never names Solomon. Jewish and Christian tradition read it as Solomon; many scholars think a later writer took Solomon’s voice, because the Hebrew looks late and the speaker talks of kings before him in Jerusalem (1:16).",
+  "genre": "Wisdom reflection: a searching first-person essay with poems and proverbs",
+  "audience": "Anyone trying to find meaning in work, pleasure, wisdom and wealth, and finally “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "“Cast your bread upon the waters, for after many days you will find it again” (v.1). Divide your portion among seven or eight, because you do not know what disaster may come (v.2). Clouds full of rain will pour it out; a fallen tree lies where it falls (v.3). “He who watches the wind will fail to sow, and he who observes the clouds will fail to reap” (v.4). As we do not know how the bones grow in a mother’s womb, we cannot understand the work of God, “the Maker of all things” (v.5), so sow in the morning and work in the evening (v.6). “Light is sweet, and it pleases the eyes to see the sun” (v.7). Then a word to the young: “Rejoice, O young man, while you are young… but know that for all these things God will bring you to judgment” (v.9).",
+  "custom": "“Bread upon the waters” may picture sending grain by sea in trade, which returns profit after a long voyage, or giving generously and trusting God for the return. Farmers in Israel sowed after the early rains of autumn, and anyone who waited for perfect weather would never plant (v.4). The Hebrew word for wind in v.5 (ruach) also means spirit.",
+  "timelineImmediate": "Chapter 12 ends the book with a poem about old age and death, the Teacher’s last refrain, and the epilogue: fear God and keep His commandments.",
+  "timelineBible": "Jesus speaks of the wind that blows where it wishes, a picture of the Spirit (John 3:8), as v.5 speaks of not knowing the path of the wind. Paul says, “Whoever sows generously will also reap generously” (2 Corinthians 9:6).",
+  "translation": [
+   {
+    "english": "bread",
+    "greek": "לֶחֶם (lechem)",
+    "verseRef": "v.1",
+    "meaning": "Bread, food, grain. Cast it upon the waters: invest it, or give it freely.",
+    "gloss": "Bread, grain",
+    "strongs": "H3899",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wind",
+    "greek": "רוּחַ (ruach)",
+    "verseRef": "v.5",
+    "meaning": "Wind, breath, spirit. We do not know its path, any more than the work of God.",
+    "gloss": "Wind, spirit",
+    "strongs": "H7307",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "youth",
+    "greek": "יַלְדוּת (yaldut)",
+    "verseRef": "v.10",
+    "meaning": "Youth, childhood. It is fleeting, hevel.",
+    "gloss": "Youth",
+    "strongs": "H3208",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 3:8",
+    "note": "The wind blows where it wishes."
+   },
+   {
+    "ref": "2 Corinthians 9:6",
+    "note": "Whoever sows generously will also reap generously."
+   },
+   {
+    "ref": "Galatians 6:9",
+    "note": "In due time we will reap, if we do not give up."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 139:13-16",
+    "note": "You knit me together in my mother’s womb."
+   },
+   {
+    "ref": "Proverbs 11:24-25",
+    "note": "One gives freely, yet gains even more."
+   },
+   {
+    "ref": "Psalm 126:5-6",
+    "note": "Those who sow in tears will reap with joy."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Give and invest boldly though the future is unknown, sow without waiting for perfect weather, enjoy the light, and rejoice in youth knowing God will judge.",
+   "settingLine": "Farmers, merchants and the young.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Sea trade",
+     "t": "Grain was shipped by sea from ports like Joppa."
+    },
+    {
+     "h": "Farming year",
+     "t": "Sowing after the early rains."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sowing and reaping",
+     "t": "Morning to evening in the fields."
+    },
+    {
+     "h": "Shared portions",
+     "t": "Spreading goods to guard against disaster."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Grain silos",
+     "t": "Stone-lined silos stored grain against bad years."
+    },
+    {
+     "h": "Harbors",
+     "t": "Joppa and Tyre shipped goods around the eastern Mediterranean."
+    }
+   ],
+   "discussion": "“He who watches the wind will fail to sow” (v.4). What good thing am I putting off until conditions are perfect?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher (Qoheleth)",
+   "genre": "Wisdom reflection",
+   "audience": "Every searcher",
+   "refNotes": {
+    "Psalm 139:13-16": "Formed in the womb",
+    "Proverbs 11:24-25": "Give freely",
+    "Psalm 126:5-6": "Sow and reap"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The giver",
+     "d": "Casts bread on the waters"
+    },
+    {
+     "n": "The farmer",
+     "d": "Sows morning and evening"
+    },
+    {
+     "n": "The young man",
+     "d": "Rejoice, and remember judgment"
+    },
+    {
+     "n": "God",
+     "d": "Maker of all things"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Give and sow boldly"
+    },
+    {
+     "when": "v.7-8",
+     "label": "Light is sweet"
+    },
+    {
+     "when": "v.9-10",
+     "label": "Rejoice in youth"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Cast your bread upon the waters, for after many days you will find it again. Divide your portion among seven, or even eight, for you do not know what disaster may befall the land. He who watches the wind will fail to sow, and he who observes the clouds will fail to reap. As you do not know the path of the wind, or how the bones are formed in a mother's womb, so you cannot understand the work of God, the Maker of all things. Sow your seed in the morning, and do not rest your hands in the evening, for you do not know which will succeed, whether this or that, or if both will equally prosper. Light is sweet, and it pleases the eyes to see the sun. Rejoice, O young man, while you are young, and let your heart be glad in the days of your youth. Walk in the ways of your heart and in the sight of your eyes, but know that for all these things God will bring you to judgment. So banish sorrow from your heart, and cast off pain from your body, for youth and vigor are fleeting.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Harvesters.jpg",
+   "caption": "The Harvesters, by Pieter Bruegel the Elder (1565, Metropolitan Museum of Art). “Sow your seed in the morning, and do not rest your hands in the evening, for you do not know which will succeed” (Ecclesiastes 11:6).",
+   "credit": "Pieter Bruegel the Elder (1565), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+   "caption": "The Jordan River today. “Cast your bread upon the waters, for after many days you will find it again” (Ecclesiastes 11:1).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

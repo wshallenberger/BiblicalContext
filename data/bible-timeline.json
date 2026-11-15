@@ -789,11 +789,11 @@
    "id": "psalms",
    "s": "kingdom",
    "z": 3,
-   "t": "Psalms and Ecclesiastes",
+   "t": "Psalms and the Song of Songs",
    "d": "c. 1000-900 BC",
    "c": "a",
-   "r": "Psalms; Ecclesiastes",
-   "sum": "Many Psalms are credited to David, and Ecclesiastes and the Song of Songs are traditionally linked to Solomon.",
+   "r": "Psalms; Song of Songs",
+   "sum": "Many Psalms are credited to David, and the Song of Songs is traditionally linked to Solomon.",
    "bk": [
     [
      18,
@@ -801,7 +801,7 @@
      0
     ],
     [
-     20,
+     21,
      0,
      0
     ]
@@ -847,6 +847,30 @@
     ]
    ],
    "n": "The book names Solomon in its headings (1:1; 10:1; 25:1). How much of chapters 1-9 and 22:17-24:34 he wrote himself is debated."
+  },
+  {
+   "id": "ec_teacher",
+   "s": "kingdom",
+   "z": 2,
+   "t": "The Teacher of Ecclesiastes",
+   "d": "Traditionally c. 970-930 BC",
+   "c": "a",
+   "r": "Ecclesiastes 1-12",
+   "sum": "“The words of the Teacher, the son of David, king in Jerusalem” (Ecclesiastes 1:1): everything under the sun is a breath, so enjoy God’s gifts and fear God.",
+   "ev": 588,
+   "go": [
+    "ecclesiastes",
+    1,
+    1
+   ],
+   "bk": [
+    [
+     20,
+     1,
+     12
+    ]
+   ],
+   "n": "Tradition places the book with Solomon. Many scholars date it after the exile, about 450-250 BC; a copy from Qumran dates to about 175-150 BC."
   },
   {
    "id": "split",

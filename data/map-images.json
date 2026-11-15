@@ -2646,6 +2646,49 @@
   "proverbs:31": [
    "pv_milkmaid",
    "pv_qumran"
+  ],
+  "ecclesiastes:1": [
+   "ec_vanitas",
+   "ec_jordan",
+   "ec_qumran"
+  ],
+  "ecclesiastes:2": [
+   "ec_babel",
+   "ec_siloam"
+  ],
+  "ecclesiastes:3": [
+   "ec_harvesters"
+  ],
+  "ecclesiastes:4": [
+   "ec_vanitas"
+  ],
+  "ecclesiastes:5": [
+   "ec_templemount"
+  ],
+  "ecclesiastes:6": [
+   "ec_hezir"
+  ],
+  "ecclesiastes:7": [
+   "ec_fall",
+   "ec_hezir"
+  ],
+  "ecclesiastes:8": [
+   "ec_cityofdavid"
+  ],
+  "ecclesiastes:9": [
+   "ec_vanitas",
+   "ec_cityofdavid"
+  ],
+  "ecclesiastes:10": [
+   "ec_babel"
+  ],
+  "ecclesiastes:11": [
+   "ec_harvesters",
+   "ec_jordan"
+  ],
+  "ecclesiastes:12": [
+   "ec_hezir",
+   "ec_vanitas"
   ]
  },
  "ac_ascmat": {
@@ -6917,5 +6960,85 @@
   "n": "Qumran storage jars",
   "d": "Storage jars of the kind that held the Dead Sea Scrolls. Two fragmentary copies of Proverbs (4Q102 and 4Q103) were among the scrolls found near Qumran.",
   "a": "Photo: Bahnfrend, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "ec_vanitas": {
+  "k": "art",
+  "f": "Harmen_Steenwijck_-_Vanitas_Still-Life_-_WGA21768.jpg",
+  "c": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). A skull, books, a snuffed lamp and a shell: Dutch “vanitas” paintings took their name from the Latin of Ecclesiastes 1:2, “vanity of vanities.”",
+  "n": "Steenwijck, Vanities of Human Life",
+  "d": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). A skull, books, a snuffed lamp and a shell: Dutch “vanitas” paintings took their name from the Latin of Ecclesiastes 1:2, “vanity of vanities.”",
+  "a": "Harmen Steenwijck (about 1640), public domain / Wikimedia Commons"
+ },
+ "ec_harvesters": {
+  "k": "art",
+  "f": "The_Harvesters.jpg",
+  "c": "The Harvesters, by Pieter Bruegel the Elder (1565, Metropolitan Museum of Art). One of his paintings of the seasons: “a time to plant and a time to uproot” (Ecclesiastes 3:2).",
+  "n": "Bruegel, The Harvesters",
+  "d": "The Harvesters, by Pieter Bruegel the Elder (1565, Metropolitan Museum of Art). One of his paintings of the seasons: “a time to plant and a time to uproot” (Ecclesiastes 3:2).",
+  "a": "Pieter Bruegel the Elder (1565), public domain / Wikimedia Commons"
+ },
+ "ec_babel": {
+  "k": "art",
+  "f": "Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg",
+  "c": "The Tower of Babel, by Pieter Bruegel the Elder (1563, Vienna). A huge building project left unfinished, a picture of the Teacher’s great works that brought him no lasting gain (Ecclesiastes 2:4-11).",
+  "n": "Bruegel, The Tower of Babel",
+  "d": "The Tower of Babel, by Pieter Bruegel the Elder (1563, Vienna). A huge building project left unfinished, a picture of the Teacher’s great works that brought him no lasting gain (Ecclesiastes 2:4-11).",
+  "a": "Pieter Bruegel the Elder (1563), public domain / Wikimedia Commons"
+ },
+ "ec_fall": {
+  "k": "art",
+  "f": "Michelangelo,_Fall_and_Expulsion_from_Garden_of_Eden_00.jpg",
+  "c": "The Fall and Expulsion from the Garden of Eden, by Michelangelo (1509-10), Sistine Chapel. “God made men upright, but they have sought out many schemes” (Ecclesiastes 7:29); “all come from dust, and all return to dust” (3:20).",
+  "n": "Michelangelo, the Fall",
+  "d": "The Fall and Expulsion from the Garden of Eden, by Michelangelo (1509-10), Sistine Chapel. “God made men upright, but they have sought out many schemes” (Ecclesiastes 7:29); “all come from dust, and all return to dust” (3:20).",
+  "a": "Michelangelo (1509-10), public domain / Wikimedia Commons"
+ },
+ "ec_siloam": {
+  "k": "dig",
+  "f": "City_of_David_-_Pool_of_Siloam_IMG_5918.JPG",
+  "c": "The Pool of Siloam at the south end of the City of David. The king’s gardens lay near here (Nehemiah 3:15), the kind of place the Teacher means: “I built reservoirs to water my groves” (Ecclesiastes 2:6). The steps seen today are from the time of Jesus.",
+  "n": "Pool of Siloam",
+  "d": "The Pool of Siloam at the south end of the City of David. The king’s gardens lay near here (Nehemiah 3:15), the kind of place the Teacher means: “I built reservoirs to water my groves” (Ecclesiastes 2:6). The steps seen today are from the time of Jesus.",
+  "a": "Wikimedia Commons"
+ },
+ "ec_hezir": {
+  "k": "dig",
+  "f": "Hezir_tomb.JPG",
+  "c": "The rock-cut tomb of the priestly family of Hezir in the Kidron Valley, Jerusalem (2nd century BC). “Man goes to his eternal home and mourners walk the streets” (Ecclesiastes 12:5).",
+  "n": "Tomb of the sons of Hezir",
+  "d": "The rock-cut tomb of the priestly family of Hezir in the Kidron Valley, Jerusalem (2nd century BC). “Man goes to his eternal home and mourners walk the streets” (Ecclesiastes 12:5).",
+  "a": "Wikimedia Commons"
+ },
+ "ec_jordan": {
+  "k": "now",
+  "f": "Jordan_River_(5418351509).jpg",
+  "c": "The Jordan River today. It runs into the Dead Sea, which has no outlet, a picture of Ecclesiastes 1:7: “All the rivers flow into the sea, yet the sea is never full.”",
+  "n": "The Jordan River",
+  "d": "The Jordan River today. It runs into the Dead Sea, which has no outlet, a picture of Ecclesiastes 1:7: “All the rivers flow into the sea, yet the sea is never full.”",
+  "a": "Wikimedia Commons"
+ },
+ "ec_templemount": {
+  "k": "now",
+  "f": "Temple_Mount_(Aerial_view,_2007)_01.jpg",
+  "c": "The Temple Mount in Jerusalem from the air. “Guard your steps when you go to the house of God. Draw near to listen” (Ecclesiastes 5:1).",
+  "n": "The Temple Mount",
+  "d": "The Temple Mount in Jerusalem from the air. “Guard your steps when you go to the house of God. Draw near to listen” (Ecclesiastes 5:1).",
+  "a": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "ec_cityofdavid": {
+  "k": "now",
+  "f": "The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+  "c": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+  "n": "The City of David",
+  "d": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+  "a": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+ },
+ "ec_qumran": {
+  "k": "dig",
+  "f": "Qumran_Caves.jpg",
+  "c": "The caves at Qumran above the Dead Sea. Fragments of Ecclesiastes were found in Cave 4, among the oldest copies of any book of the Bible.",
+  "n": "Qumran caves",
+  "d": "The caves at Qumran above the Dead Sea. Fragments of Ecclesiastes were found in Cave 4, among the oldest copies of any book of the Bible.",
+  "a": "Wikimedia Commons"
  }
 }

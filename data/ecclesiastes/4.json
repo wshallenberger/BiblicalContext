@@ -1,0 +1,248 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 4,
+ "title": "Two Are Better Than One",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Again I looked, and I considered all the oppression taking place under the sun. I saw the tears of the oppressed, and they had no comforter; the power lay in the hands of their oppressors, and there was no comforter."
+  },
+  {
+   "num": 2,
+   "text": "So I admired the dead, who had already died, above the living, who are still alive."
+  },
+  {
+   "num": 3,
+   "text": "But better than both is he who has not yet existed, who has not seen the evil that is done under the sun."
+  },
+  {
+   "num": 4,
+   "text": "I saw that all labor and success spring from a man's envy of his neighbor. This too is futile and a pursuit of the wind."
+  },
+  {
+   "num": 5,
+   "text": "The fool folds his hands and consumes his own flesh."
+  },
+  {
+   "num": 6,
+   "text": "Better one handful with tranquility than two handfuls with toil and pursuit of the wind."
+  },
+  {
+   "num": 7,
+   "text": "Again, I saw futility under the sun."
+  },
+  {
+   "num": 8,
+   "text": "There is a man all alone, without even a son or brother. And though there is no end to his labor, his eyes are still not content with his wealth: \"For whom do I toil and bereave my soul of enjoyment?\" This too is futile—a miserable task."
+  },
+  {
+   "num": 9,
+   "text": "Two are better than one, because they have a good return for their labor."
+  },
+  {
+   "num": 10,
+   "text": "For if one falls down, his companion can lift him up; but pity the one who falls without another to help him up!"
+  },
+  {
+   "num": 11,
+   "text": "Again, if two lie down together, they will keep warm; but how can one keep warm alone?"
+  },
+  {
+   "num": 12,
+   "text": "And though one may be overpowered, two can resist. Moreover, a cord of three strands is not quickly broken."
+  },
+  {
+   "num": 13,
+   "text": "Better is a poor but wise youth than an old but foolish king who no longer knows how to take a warning."
+  },
+  {
+   "num": 14,
+   "text": "For the youth has come from the prison to the kingship, though he was born poor in his own kingdom."
+  },
+  {
+   "num": 15,
+   "text": "I saw that all who lived and walked under the sun followed this second one, the youth who succeeded the king."
+  },
+  {
+   "num": 16,
+   "text": "There is no limit to all the people who were before them. Yet the successor will not be celebrated by those who come even later. This too is futile and a pursuit of the wind."
+  }
+ ],
+ "context": {
+  "author": "“The Teacher, the son of David, king in Jerusalem” (1:1); in Hebrew Qoheleth, “one who gathers” or “speaks to an assembly.” The book never names Solomon. Jewish and Christian tradition read it as Solomon; many scholars think a later writer took Solomon’s voice, because the Hebrew looks late and the speaker talks of kings before him in Jerusalem (1:16).",
+  "genre": "Wisdom reflection: a searching first-person essay with poems and proverbs",
+  "audience": "Anyone trying to find meaning in work, pleasure, wisdom and wealth, and finally “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "The Teacher looks at oppression and sees “the tears of the oppressed, and they had no comforter” (v.1). He sees that much labor springs from envy of a neighbor (v.4), and offers a middle way: “Better one handful with tranquility than two handfuls with toil and pursuit of the wind” (v.6). He sees a man all alone, working without end for no one (v.8). Then the best-known lines of the chapter: “Two are better than one… if one falls down, his companion can lift him up” (vv.9-10), and “a cord of three strands is not quickly broken” (v.12). It ends with a poor but wise youth who becomes king and is forgotten in his turn (vv.13-16).",
+  "custom": "Travelers on the roads at night needed companions for warmth and safety from robbers (vv.10-12). Rope was made by twisting strands together; three strands made a strong cord. A youth rising “from the prison to the kingship” (v.14) recalls stories like Joseph’s (Genesis 41:14, 41).",
+  "timelineImmediate": "Chapter 5 turns to worship: guard your steps in the house of God, keep your vows, and see that the lover of money is never satisfied.",
+  "timelineBible": "The Teacher’s cry that the oppressed have “no comforter” is answered in Isaiah 40:1, “Comfort, comfort My people” (Isaiah 40:1), and in Jesus’ promise of the Comforter, the Holy Spirit (John 14:16). Weddings often quote vv.9-12.",
+  "translation": [
+   {
+    "english": "oppression",
+    "greek": "עָשׁוּקִים (ashuqim)",
+    "verseRef": "v.1",
+    "meaning": "Acts of oppression, crushing the weak, especially by extortion.",
+    "gloss": "Oppressions",
+    "strongs": "H6217",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "comforter",
+    "greek": "נָחַם (nacham)",
+    "verseRef": "v.1",
+    "meaning": "To comfort, console. The oppressed had no one to comfort them.",
+    "gloss": "Comfort",
+    "strongs": "H5162",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "envy",
+    "greek": "קִנְאָה (qin’ah)",
+    "verseRef": "v.4",
+    "meaning": "Jealousy, rivalry. The Teacher says much hard work is driven by it.",
+    "gloss": "Rivalry",
+    "strongs": "H7068",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 14:16-18",
+    "note": "I will ask the Father, and He will give you another Comforter."
+   },
+   {
+    "ref": "Galatians 6:2",
+    "note": "Carry one another’s burdens."
+   },
+   {
+    "ref": "Hebrews 10:24-25",
+    "note": "Spur one another on; do not neglect meeting together."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 2:18",
+    "note": "It is not good for the man to be alone."
+   },
+   {
+    "ref": "Genesis 41:14-41",
+    "note": "Joseph goes from prison to ruling Egypt."
+   },
+   {
+    "ref": "Isaiah 40:1",
+    "note": "Comfort, comfort My people."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The Teacher weeps over the oppressed, warns that envy drives much work, praises a quiet handful over two of toil, and shows that two are better than one.",
+   "settingLine": "Lonely workers and companions on the road.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Oppression",
+     "t": "The powerful crushed the poor."
+    },
+    {
+     "h": "Kings rise and fall",
+     "t": "Today’s hero is forgotten tomorrow."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Traveling together",
+     "t": "Companions kept warm and safe at night."
+    },
+    {
+     "h": "Rope making",
+     "t": "Strands twisted into a strong cord."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Rope and cord",
+     "t": "Pieces of ancient rope of palm fiber and flax survive in the dry caves of the Judean desert."
+    },
+    {
+     "h": "Prisons",
+     "t": "Pits and guardrooms in palaces held prisoners (Jeremiah 38:6)."
+    }
+   ],
+   "discussion": "“Two are better than one” (v.9). Who would lift me up if I fell, and whom am I there to lift?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher (Qoheleth)",
+   "genre": "Wisdom reflection",
+   "audience": "Every searcher",
+   "refNotes": {
+    "Genesis 2:18": "Not good to be alone",
+    "Genesis 41:14-41": "Prison to power",
+    "Isaiah 40:1": "Comfort My people"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The oppressed",
+     "d": "Have no comforter"
+    },
+    {
+     "n": "The lonely worker",
+     "d": "Toils for whom?"
+    },
+    {
+     "n": "Two companions",
+     "d": "Lift each other up"
+    },
+    {
+     "n": "The poor wise youth",
+     "d": "Becomes king"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Oppression"
+    },
+    {
+     "when": "v.4-8",
+     "label": "Envy and loneliness"
+    },
+    {
+     "when": "v.9-12",
+     "label": "Two are better"
+    },
+    {
+     "when": "v.13-16",
+     "label": "The youth and the king"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Again I looked, and I considered all the oppression taking place under the sun. I saw the tears of the oppressed, and they had no comforter; the power lay in the hands of their oppressors, and there was no comforter. I saw that all labor and success spring from a man's envy of his neighbor. This too is futile and a pursuit of the wind. Better one handful with tranquility than two handfuls with toil and pursuit of the wind. Two are better than one, because they have a good return for their labor. For if one falls down, his companion can lift him up; but pity the one who falls without another to help him up! And though one may be overpowered, two can resist. Moreover, a cord of three strands is not quickly broken. Better is a poor but wise youth than an old but foolish king who no longer knows how to take a warning.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harmen_Steenwijck_-_Vanitas_Still-Life_-_WGA21768.jpg",
+   "caption": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). A skull, books, a snuffed lamp and a shell: Dutch “vanitas” paintings took their name from the Latin of Ecclesiastes 1:2, “vanity of vanities.”",
+   "credit": "Harmen Steenwijck (about 1640), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

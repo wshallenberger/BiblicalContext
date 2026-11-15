@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   var GOSPELS = { matthew: 1, mark: 1, luke: 1, john: 1 };
-  var ALIAS = { pr: 'proverbs', prov: 'proverbs', prv: 'proverbs', jn: 'john', mt: 'matthew', matt: 'matthew', mk: 'mark', lk: 'luke', rm: 'romans', rom: 'romans', gal: 'galatians', eph: 'ephesians', php: 'philippians', phil: 'philippians',
+  var ALIAS = { pr: 'proverbs', prov: 'proverbs', prv: 'proverbs', ecc: 'ecclesiastes', eccl: 'ecclesiastes', qoh: 'ecclesiastes', jn: 'john', mt: 'matthew', matt: 'matthew', mk: 'mark', lk: 'luke', rm: 'romans', rom: 'romans', gal: 'galatians', eph: 'ephesians', php: 'philippians', phil: 'philippians',
     col: 'colossians', heb: 'hebrews', jas: 'james', rev: 'revelation', act: 'acts', tit: 'titus', phm: 'philemon', phlm: 'philemon' };
   var root, panel, input, body, crumb, pos, st = { opts: null, view: 'books', book: null, q: '' };
 

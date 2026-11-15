@@ -1,0 +1,240 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 12,
+ "title": "Remember Your Creator",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Remember your Creator in the days of your youth, before the days of adversity come and the years approach of which you will say, \"I find no pleasure in them,\""
+  },
+  {
+   "num": 2,
+   "text": "before the light of the sun, moon, and stars is darkened, and the clouds return after the rain,"
+  },
+  {
+   "num": 3,
+   "text": "on the day the keepers of the house tremble and the strong men stoop, when those grinding cease because they are few and those watching through windows see dimly,"
+  },
+  {
+   "num": 4,
+   "text": "when the doors to the street are shut and the sound of the mill fades away, when one rises at the sound of a bird and all the daughters of song grow faint,"
+  },
+  {
+   "num": 5,
+   "text": "when men fear the heights and dangers of the road, when the almond tree blossoms, the grasshopper loses its spring, and the caper berry shrivels— for then man goes to his eternal home and mourners walk the streets."
+  },
+  {
+   "num": 6,
+   "text": "Remember Him before the silver cord is snapped and the golden bowl is crushed, before the pitcher is shattered at the spring and the wheel is broken at the well,"
+  },
+  {
+   "num": 7,
+   "text": "before the dust returns to the ground from which it came and the spirit returns to God who gave it."
+  },
+  {
+   "num": 8,
+   "text": "\"Futility of futilities,\" says the Teacher. \"Everything is futile!\""
+  },
+  {
+   "num": 9,
+   "text": "Not only was the Teacher wise, but he also taught the people knowledge; he pondered, searched out, and arranged many proverbs."
+  },
+  {
+   "num": 10,
+   "text": "The Teacher searched to find delightful sayings and to record accurate words of truth."
+  },
+  {
+   "num": 11,
+   "text": "The words of the wise are like goads, and the anthologies of the masters are like firmly embedded nails driven by a single Shepherd."
+  },
+  {
+   "num": 12,
+   "text": "And by these, my son, be further warned: There is no end to the making of many books, and much study wearies the body."
+  },
+  {
+   "num": 13,
+   "text": "When all has been heard, the conclusion of the matter is this: Fear God and keep His commandments, because this is the whole duty of man."
+  },
+  {
+   "num": 14,
+   "text": "For God will bring every deed into judgment, along with every hidden thing, whether good or evil."
+  }
+ ],
+ "context": {
+  "author": "The Teacher’s words (1:1-12:8), with a closing note about him by an editor or student (12:9-14), who speaks of “the Teacher” and calls the reader “my son”",
+  "genre": "Wisdom reflection, ending with an editor’s epilogue",
+  "audience": "The young (11:9-12:1), and every reader: “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "“Remember your Creator in the days of your youth, before the days of adversity come” (v.1). A poem pictures old age and death: the light grows dim, “the keepers of the house tremble and the strong men stoop,” those grinding cease because they are few, those looking through windows see dimly, “the almond tree blossoms” and desire fails, “for then man goes to his eternal home and mourners walk the streets” (vv.2-5). Remember Him “before the silver cord is snapped and the golden bowl is crushed… before the dust returns to the ground… and the spirit returns to God who gave it” (vv.6-7). The refrain closes the Teacher’s words: “Everything is futile!” (v.8). Then an epilogue describes the Teacher and his proverbs, warns that “there is no end to the making of many books” (v.12), and gives the conclusion: “Fear God and keep His commandments, because this is the whole duty of man. For God will bring every deed into judgment” (vv.13-14).",
+  "custom": "Many readers take vv.3-4 as pictures of an aging body: trembling hands (keepers), bent legs (strong men), few teeth (grinders), dim eyes (windows), dull hearing (sound of the mill). The almond tree’s white blossoms suggest white hair. Ox goads (v.11) were sharp sticks for driving oxen; nails or tent pegs held things firmly in place. The “single Shepherd” (v.11) is usually taken as God.",
+  "timelineImmediate": "This is the end of Ecclesiastes. In English Bibles the Song of Solomon comes next; in Jewish tradition Ecclesiastes is read at the Feast of Tabernacles.",
+  "timelineBible": "“The spirit returns to God who gave it” (v.7) recalls Genesis 2:7. Jesus on the cross says, “Father, into Your hands I commit My Spirit” (Luke 23:46). Paul writes that “we must all appear before the judgment seat of Christ” (2 Corinthians 5:10), as v.14 says God will judge every deed.",
+  "translation": [
+   {
+    "english": "Creator",
+    "greek": "בָּרָא (bara)",
+    "verseRef": "v.1",
+    "meaning": "To create. The same verb as in Genesis 1:1. Remember the One who made you.",
+    "gloss": "Create",
+    "strongs": "H1254",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "eternal home",
+    "greek": "עוֹלָם (olam)",
+    "verseRef": "v.5",
+    "meaning": "His house of forever: the grave.",
+    "gloss": "Lasting home",
+    "strongs": "H5769",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "whole duty",
+    "greek": "כֹּל (kol)",
+    "verseRef": "v.13",
+    "meaning": "All. Literally “this is all of man”: what being human is about.",
+    "gloss": "The whole",
+    "strongs": "H3605",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 23:46",
+    "note": "Father, into Your hands I commit My Spirit."
+   },
+   {
+    "ref": "2 Corinthians 5:10",
+    "note": "We must all appear before the judgment seat of Christ."
+   },
+   {
+    "ref": "1 Corinthians 15:54-57",
+    "note": "Death is swallowed up in victory."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 2:7",
+    "note": "God formed man from dust and breathed life into him."
+   },
+   {
+    "ref": "Genesis 3:19",
+    "note": "To dust you shall return."
+   },
+   {
+    "ref": "Deuteronomy 10:12-13",
+    "note": "Fear the LORD and keep His commandments."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Remember your Creator while young, before old age and death; everything is a breath; and the conclusion of all is to fear God and keep His commandments.",
+   "settingLine": "A house growing old, and a funeral in the street.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The epilogue",
+     "t": "An editor’s note about the Teacher."
+    },
+    {
+     "h": "Many books",
+     "t": "Even then, writing never ended."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Goads",
+     "t": "Sharp sticks for driving oxen."
+    },
+    {
+     "h": "Mourners",
+     "t": "Paid mourners walked in funeral processions."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lamps and bowls",
+     "t": "Clay oil lamps hung by cords from the ceiling; a golden bowl may picture such a lamp."
+    },
+    {
+     "h": "Wells and wheels",
+     "t": "A wheel or pulley drew water at wells and cisterns."
+    }
+   ],
+   "discussion": "“Remember your Creator in the days of your youth” (v.1). What would remembering my Creator look like in the season of life I am in now?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher; an epilogue (12:9-14)",
+   "genre": "Wisdom reflection",
+   "audience": "The young, and every reader",
+   "refNotes": {
+    "Genesis 2:7": "Dust and breath",
+    "Genesis 3:19": "Return to dust",
+    "Deuteronomy 10:12-13": "Fear and obey"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The young",
+     "d": "Remember your Creator"
+    },
+    {
+     "n": "The Teacher",
+     "d": "Wise, taught the people"
+    },
+    {
+     "n": "The single Shepherd",
+     "d": "Gives the words of the wise"
+    },
+    {
+     "n": "My son",
+     "d": "Warned about many books"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Before old age"
+    },
+    {
+     "when": "v.8",
+     "label": "The refrain"
+    },
+    {
+     "when": "v.9-12",
+     "label": "The Teacher"
+    },
+    {
+     "when": "v.13-14",
+     "label": "Fear God"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Remember your Creator in the days of your youth, before the days of adversity come and the years approach of which you will say, I find no pleasure in them, before the light of the sun, moon, and stars is darkened, and the clouds return after the rain, Remember Him before the silver cord is snapped and the golden bowl is crushed, before the pitcher is shattered at the spring and the wheel is broken at the well, before the dust returns to the ground from which it came and the spirit returns to God who gave it. Futility of futilities, says the Teacher. Everything is futile! When all has been heard, the conclusion of the matter is this: Fear God and keep His commandments, because this is the whole duty of man. For God will bring every deed into judgment, along with every hidden thing, whether good or evil.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harmen_Steenwijck_-_Vanitas_Still-Life_-_WGA21768.jpg",
+   "caption": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). Paintings like this took their name from Ecclesiastes’ “vanity of vanities” (12:8, KJV), with a skull and a snuffed lamp as reminders of death.",
+   "credit": "Harmen Steenwijck (about 1640), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hezir_tomb.JPG",
+   "caption": "The rock-cut tomb of the priestly family of Hezir in the Kidron Valley, Jerusalem (2nd century BC). “Man goes to his eternal home and mourners walk the streets” (Ecclesiastes 12:5).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

@@ -4151,7 +4151,7 @@ const MAP_TST = Bk.map(Bk.testament);
 let EVENTS = null, EV_BY_ID = {};
 let mapMain = null, mapMainReady = false, mapStyleFailed = false;
 let mapF = { tst: 'all', book: 'all', chapter: 'all', from: 1, to: 9999 };
-let mapMaxI = 587;       // number of the last event (set when events load)
+let mapMaxI = 592;       // number of the last event (set when events load)
 let mapStory = '';       // '' or a story id (see MAP_STORIES): draws the path and numbers the stops
 // a story is never carried over from an earlier visit: the map always opens with no filters
 // Stories follow one life through the events, in order. More can be added (Life of Paul comes with Acts).
@@ -4261,6 +4261,10 @@ const MAP_STORIES = [
     key: [580, 581, 582, 583, 584, 585, 586, 587],
     short: [580, 582, 584, 587],
     blurb: 'A book of wisdom, not of journeys: most of it was gathered at the royal court in Jerusalem, first under Solomon (about 970-930 BC) and then by the scribes of King Hezekiah (about 715-686 BC). Pins on the City of David and the Ophel mark those courts. Agur and King Lemuel may have come from Massa in north Arabia; those two pins are rough guesses. Numbers show the order of the book.' },
+  { id: 'ecclesiastes', name: 'Ecclesiastes', color: '#5f6b78', ready: true, match: e => typeof e.i === 'number' && e.i > 587 && e.i <= 592 && !e.bg,
+    key: [588, 589, 590, 591, 592],
+    short: [588, 589, 592],
+    blurb: 'The Teacher, “the son of David, king in Jerusalem,” searches everything done under the sun. The book names no place but Jerusalem, so every pin stands there: on the City of David, and near the Temple Mount for the “house of God” (5:1). Numbers show the order of the book.' },
 ];
 // number shown on a pin or list row: its place in the story that is switched on (the Gospel events keep their own numbers)
 function mapNo(e) {
@@ -4310,7 +4314,8 @@ const MAP_PERIODS = [
   { n: 'Revelation: the dragon, the beasts and Babylon (12-18)', a: 552, b: 568 },
   { n: 'Revelation: the King and the new Jerusalem (19-22)', a: 569, b: 579 },
   { n: 'Proverbs: Solomon’s court and the words of the wise (1-24)', a: 580, b: 583 },
-  { n: 'Proverbs: Hezekiah’s men, Agur and Lemuel (25-31)', a: 584, b: 587 }
+  { n: 'Proverbs: Hezekiah’s men, Agur and Lemuel (25-31)', a: 584, b: 587 },
+  { n: 'Ecclesiastes: the Teacher (1-12)', a: 588, b: 592 }
 ];
 let mapShown = [];       // events currently on the map (after filters)
 let mapSelId = null;

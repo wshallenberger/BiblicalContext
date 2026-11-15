@@ -1,0 +1,248 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 1,
+ "title": "Everything Is a Breath",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "These are the words of the Teacher, the son of David, king in Jerusalem:"
+  },
+  {
+   "num": 2,
+   "text": "\"Futility of futilities,\" says the Teacher, \"futility of futilities! Everything is futile!\""
+  },
+  {
+   "num": 3,
+   "text": "What does a man gain from all his labor, at which he toils under the sun?"
+  },
+  {
+   "num": 4,
+   "text": "Generations come and generations go, but the earth remains forever."
+  },
+  {
+   "num": 5,
+   "text": "The sun rises and the sun sets; it hurries back to where it rises."
+  },
+  {
+   "num": 6,
+   "text": "The wind blows southward, then turns northward; round and round it swirls, ever returning on its course."
+  },
+  {
+   "num": 7,
+   "text": "All the rivers flow into the sea, yet the sea is never full; to the place from which the streams come, there again they flow."
+  },
+  {
+   "num": 8,
+   "text": "All things are wearisome, more than one can describe; the eye is not satisfied with seeing, nor the ear content with hearing."
+  },
+  {
+   "num": 9,
+   "text": "What has been will be again, and what has been done will be done again; there is nothing new under the sun."
+  },
+  {
+   "num": 10,
+   "text": "Is there a case where one can say, \"Look, this is new\"? It has already existed in the ages before us."
+  },
+  {
+   "num": 11,
+   "text": "There is no remembrance of those who came before, and those yet to come will not be remembered by those who follow after."
+  },
+  {
+   "num": 12,
+   "text": "I, the Teacher, was king over Israel in Jerusalem."
+  },
+  {
+   "num": 13,
+   "text": "And I set my mind to seek and explore by wisdom all that is done under heaven. What a heavy burden God has laid upon the sons of men to occupy them!"
+  },
+  {
+   "num": 14,
+   "text": "I have seen all the things that are done under the sun, and have found them all to be futile, a pursuit of the wind."
+  },
+  {
+   "num": 15,
+   "text": "What is crooked cannot be straightened, and what is lacking cannot be counted."
+  },
+  {
+   "num": 16,
+   "text": "I said to myself, \"Behold, I have grown and increased in wisdom beyond all those before me who were over Jerusalem, and my mind has observed a wealth of wisdom and knowledge.\""
+  },
+  {
+   "num": 17,
+   "text": "So I set my mind to know wisdom and madness and folly; I learned that this, too, is a pursuit of the wind."
+  },
+  {
+   "num": 18,
+   "text": "For with much wisdom comes much sorrow, and as knowledge grows, grief increases."
+  }
+ ],
+ "context": {
+  "author": "“The Teacher, the son of David, king in Jerusalem” (1:1); in Hebrew Qoheleth, “one who gathers” or “speaks to an assembly.” The book never names Solomon. Jewish and Christian tradition read it as Solomon; many scholars think a later writer took Solomon’s voice, because the Hebrew looks late and the speaker talks of kings before him in Jerusalem (1:16).",
+  "genre": "Wisdom reflection: a searching first-person essay with poems and proverbs",
+  "audience": "Anyone trying to find meaning in work, pleasure, wisdom and wealth, and finally “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "The book opens with its speaker, “the Teacher, the son of David, king in Jerusalem” (v.1), and its refrain: “Futility of futilities! Everything is futile!” (v.2). He asks what a man gains from all his toil “under the sun” (v.3), then paints the world as a circle that never arrives: generations come and go, the sun rises and hurries back, the wind swirls, and “all the rivers flow into the sea, yet the sea is never full” (vv.4-7). “There is nothing new under the sun” (v.9), and no one is remembered (v.11). Then the Teacher, “king over Israel in Jerusalem” (v.12), sets out to search everything by wisdom, and finds that “with much wisdom comes much sorrow” (v.18).",
+  "custom": "Hevel, the word BSB translates “futility,” means breath or vapor: something real but fleeting, which cannot be held. “Under the sun” (used about 30 times) means life seen from the ground, in this world. A king searching out the meaning of things was the ideal of ancient wisdom: “It is the glory of God to conceal a matter and the glory of kings to search it out” (Proverbs 25:2).",
+  "timelineImmediate": "Chapter 2 tells how the Teacher tested pleasure, great building projects, wealth and wisdom, and found them all a breath.",
+  "timelineBible": "The book gives no date. Tradition linked it with Solomon, who reigned about 970-930 BC. Many scholars date it after the exile, in the Persian or early Greek period (about 450-250 BC), because of its Hebrew; pieces of a copy from Qumran (4Q109) date to about 175-150 BC. Paul’s word in Romans 8:20, that creation “was subjected to futility” (Romans 8:20), is the same Greek word the Greek Old Testament uses for hevel.",
+  "translation": [
+   {
+    "english": "futility",
+    "greek": "הֶבֶל (hevel)",
+    "verseRef": "v.2",
+    "meaning": "Breath, vapor, mist. The book’s key word, used about 38 times: what is fleeting, hard to grasp or senseless. Translations say “vanity” (KJV), “meaningless” (NIV) or “futility” (BSB).",
+    "gloss": "Breath, vapor",
+    "strongs": "H1892",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Teacher",
+    "greek": "קֹהֶלֶת (qohelet)",
+    "verseRef": "v.1",
+    "meaning": "One who gathers, or one who speaks to a gathered assembly (qahal). The Greek Ekklesiastes, “one of the assembly,” gives the book its English name.",
+    "gloss": "Gatherer, preacher",
+    "strongs": "H6953",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gain",
+    "greek": "יִתְרוֹן (yitron)",
+    "verseRef": "v.3",
+    "meaning": "Profit, what is left over. A word from business: after all the toil, what remains? It appears only in Ecclesiastes.",
+    "gloss": "Profit, surplus",
+    "strongs": "H3504",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 8:20-21",
+    "note": "Creation was subjected to futility, in hope of freedom."
+   },
+   {
+    "ref": "Revelation 21:5",
+    "note": "“Behold, I make all things new.”"
+   },
+   {
+    "ref": "James 4:14",
+    "note": "You are a mist that appears for a little while."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 39:5-6",
+    "note": "Each man at his best is but a breath."
+   },
+   {
+    "ref": "1 Kings 4:29-34",
+    "note": "Solomon’s wisdom surpassed all the people of the East."
+   },
+   {
+    "ref": "Psalm 144:4",
+    "note": "Man is like a breath; his days are like a passing shadow."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The Teacher calls everything a breath: the world goes round and round, nothing is new, no one is remembered, and even wisdom brings sorrow.",
+   "settingLine": "A king looks at the world under the sun.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Son of David",
+     "t": "The speaker writes as a king in Jerusalem."
+    },
+    {
+     "h": "Date debated",
+     "t": "From Solomon’s day to the Persian era."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Hevel",
+     "t": "A breath: fleeting, not worthless."
+    },
+    {
+     "h": "Under the sun",
+     "t": "Life seen from this world only."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Qumran Cave 4",
+     "t": "Fragments of Ecclesiastes (4Q109) from about 175-150 BC are among the oldest Bible manuscripts."
+    },
+    {
+     "h": "The City of David",
+     "t": "The ridge where the kings of Jerusalem lived."
+    }
+   ],
+   "discussion": "The Teacher says the eye is never satisfied with seeing nor the ear with hearing (v.8). Where do I keep looking for satisfaction that never quite arrives?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher (Qoheleth)",
+   "genre": "Wisdom reflection",
+   "audience": "Every searcher",
+   "refNotes": {
+    "Psalm 39:5-6": "A breath",
+    "1 Kings 4:29-34": "Solomon’s wisdom",
+    "Psalm 144:4": "Like a breath"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Teacher",
+     "d": "Son of David, king in Jerusalem"
+    },
+    {
+     "n": "Generations",
+     "d": "Come and go"
+    },
+    {
+     "n": "The sons of men",
+     "d": "Given a heavy burden"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Everything is a breath"
+    },
+    {
+     "when": "v.4-11",
+     "label": "Nothing new"
+    },
+    {
+     "when": "v.12-18",
+     "label": "The king’s search"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Futility of futilities, says the Teacher, futility of futilities! Everything is futile! What does a man gain from all his labor, at which he toils under the sun? Generations come and generations go, but the earth remains forever. All the rivers flow into the sea, yet the sea is never full; to the place from which the streams come, there again they flow. What has been will be again, and what has been done will be done again; there is nothing new under the sun. I have seen all the things that are done under the sun, and have found them all to be futile, a pursuit of the wind. For with much wisdom comes much sorrow, and as knowledge grows, grief increases.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harmen_Steenwijck_-_Vanitas_Still-Life_-_WGA21768.jpg",
+   "caption": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). A skull, books, a snuffed lamp and a shell: Dutch “vanitas” paintings took their name from the Latin of Ecclesiastes 1:2, “vanity of vanities.”",
+   "credit": "Harmen Steenwijck (about 1640), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+   "caption": "The Jordan River today. It runs into the Dead Sea, which has no outlet, a picture of Ecclesiastes 1:7: “All the rivers flow into the sea, yet the sea is never full.”",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

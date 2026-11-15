@@ -1,0 +1,256 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 9,
+ "title": "One Fate for All, So Enjoy Your Life",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "So I took all this to heart and concluded that the righteous and the wise, as well as their deeds, are in God's hands. Man does not know what lies ahead, whether love or hate."
+  },
+  {
+   "num": 2,
+   "text": "It is the same for all: There is a common fate for the righteous and the wicked, for the good and the bad, for the clean and the unclean, for the one who sacrifices and the one who does not. As it is for the good, so it is for the sinner; as it is for the one who makes a vow, so it is for the one who refuses to take a vow."
+  },
+  {
+   "num": 3,
+   "text": "This is an evil in everything that is done under the sun: There is one fate for everyone. Furthermore, the hearts of men are full of evil and madness while they are alive, and afterward they join the dead."
+  },
+  {
+   "num": 4,
+   "text": "There is hope, however, for anyone who is among the living; for even a live dog is better than a dead lion."
+  },
+  {
+   "num": 5,
+   "text": "For the living know that they will die, but the dead know nothing. They have no further reward, because the memory of them is forgotten."
+  },
+  {
+   "num": 6,
+   "text": "Their love, their hate, and their envy have already vanished, and they will never again have a share in all that is done under the sun."
+  },
+  {
+   "num": 7,
+   "text": "Go, eat your bread with joy, and drink your wine with a cheerful heart, for God has already approved your works:"
+  },
+  {
+   "num": 8,
+   "text": "Let your garments always be white, and never spare the oil for your head."
+  },
+  {
+   "num": 9,
+   "text": "Enjoy life with your beloved wife all the days of the fleeting life that God has given you under the sun—all your fleeting days. For this is your portion in life and in your labor under the sun."
+  },
+  {
+   "num": 10,
+   "text": "Whatever you find to do with your hands, do it with all your might, for in Sheol, where you are going, there is no work or planning or knowledge or wisdom."
+  },
+  {
+   "num": 11,
+   "text": "I saw something else under the sun: The race is not to the swift, nor the battle to the strong; neither is the bread to the wise, nor the wealth to the intelligent, nor the favor to the skillful. For time and chance happen to all."
+  },
+  {
+   "num": 12,
+   "text": "For surely no man knows his time: Like fish caught in a cruel net or birds trapped in a snare, so men are ensnared in an evil time that suddenly falls upon them."
+  },
+  {
+   "num": 13,
+   "text": "I have also seen this wisdom under the sun, and it was great to me:"
+  },
+  {
+   "num": 14,
+   "text": "There was a small city with few men. A mighty king came against it, surrounded it, and built large siege ramps against it."
+  },
+  {
+   "num": 15,
+   "text": "Now a poor wise man was found in the city, and he saved the city by his wisdom. Yet no one remembered that poor man."
+  },
+  {
+   "num": 16,
+   "text": "And I said, \"Wisdom is better than strength, but the wisdom of the poor man is despised, and his words are not heeded.\""
+  },
+  {
+   "num": 17,
+   "text": "The calm words of the wise are heeded over the shouts of a ruler among fools."
+  },
+  {
+   "num": 18,
+   "text": "Wisdom is better than weapons of war, but one sinner destroys much good."
+  }
+ ],
+ "context": {
+  "author": "“The Teacher, the son of David, king in Jerusalem” (1:1); in Hebrew Qoheleth, “one who gathers” or “speaks to an assembly.” The book never names Solomon. Jewish and Christian tradition read it as Solomon; many scholars think a later writer took Solomon’s voice, because the Hebrew looks late and the speaker talks of kings before him in Jerusalem (1:16).",
+  "genre": "Wisdom reflection: a searching first-person essay with poems and proverbs",
+  "audience": "Anyone trying to find meaning in work, pleasure, wisdom and wealth, and finally “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "“The righteous and the wise, as well as their deeds, are in God’s hands” (v.1), yet one fate comes to all, good and bad alike (vv.2-3). Still, “even a live dog is better than a dead lion” (v.4). So the Teacher urges: “Go, eat your bread with joy, and drink your wine with a cheerful heart, for God has already approved your works” (v.7); wear white, use oil, enjoy life with your wife (vv.8-9). “Whatever you find to do with your hands, do it with all your might, for in Sheol… there is no work” (v.10). “The race is not to the swift, nor the battle to the strong… For time and chance happen to all” (v.11). He tells of a small city saved by a poor wise man whom no one remembered (vv.13-15): “Wisdom is better than strength,” and “better than weapons of war” (vv.16, 18).",
+  "custom": "White garments and oil on the head were signs of festival joy in a hot land (v.8; Psalm 104:15). Dogs were despised scavengers and the lion was the king of beasts, which makes v.4 sharp. Besiegers built ramps of earth and stone against a city’s walls to bring up battering rams (v.14).",
+  "timelineImmediate": "Chapter 10 collects proverbs about folly, rulers, work and words.",
+  "timelineBible": "Sheol, the grave (v.10), is where all go in the Old Testament; the New Testament proclaims that Christ holds “the keys of Death and of Hades” (Revelation 1:18). A wise woman saved the city of Abel Beth-maacah by her advice (2 Samuel 20:16-22).",
+  "translation": [
+   {
+    "english": "fate",
+    "greek": "מִקְרֶה (miqreh)",
+    "verseRef": "v.2",
+    "meaning": "What happens, chance, fate. Here, the death that comes to all.",
+    "gloss": "Happening",
+    "strongs": "H4745",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Sheol",
+    "greek": "שְׁאוֹל (she’ol)",
+    "verseRef": "v.10",
+    "meaning": "The grave, the realm of the dead, where there is no work or planning.",
+    "gloss": "Grave",
+    "strongs": "H7585",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "chance",
+    "greek": "פֶּגַע (pega)",
+    "verseRef": "v.11",
+    "meaning": "An occurrence, an event that meets you. Time and chance happen to all.",
+    "gloss": "Occurrence",
+    "strongs": "H6294",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 1:18",
+    "note": "I hold the keys of Death and of Hades."
+   },
+   {
+    "ref": "Colossians 3:23",
+    "note": "Whatever you do, work at it with your whole heart."
+   },
+   {
+    "ref": "1 Corinthians 1:26-29",
+    "note": "God chose the weak and lowly of the world."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 20:16-22",
+    "note": "A wise woman saves her city."
+   },
+   {
+    "ref": "Psalm 104:15",
+    "note": "Wine that gladdens and oil that makes the face shine."
+   },
+   {
+    "ref": "Proverbs 21:22",
+    "note": "A wise man scales the city of the mighty."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "One fate comes to all, so enjoy life with joy, work with all your might, remember that time and chance happen to everyone, and value wisdom even when it is forgotten.",
+   "settingLine": "A small city under siege, saved by a poor wise man.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Sieges",
+     "t": "Ramps were built against city walls."
+    },
+    {
+     "h": "Sheol",
+     "t": "The grave, where all go."
+    }
+   ],
+   "customs": [
+    {
+     "h": "White clothes and oil",
+     "t": "Signs of festival joy."
+    },
+    {
+     "h": "Dogs and lions",
+     "t": "The lowest and the noblest animals."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lachish siege ramp",
+     "t": "The Assyrian siege ramp of 701 BC still stands against the mound of Lachish."
+    },
+    {
+     "h": "Wine and oil presses",
+     "t": "Presses in every village made the wine and oil of joy."
+    }
+   ],
+   "discussion": "“Whatever you find to do with your hands, do it with all your might” (v.10). What is in my hands today that deserves my full strength?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher (Qoheleth)",
+   "genre": "Wisdom reflection",
+   "audience": "Every searcher",
+   "refNotes": {
+    "2 Samuel 20:16-22": "A wise woman’s rescue",
+    "Psalm 104:15": "Wine and oil",
+    "Proverbs 21:22": "Wisdom over strength"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The righteous and the wise",
+     "d": "In God’s hands"
+    },
+    {
+     "n": "Your wife",
+     "d": "Enjoy life together"
+    },
+    {
+     "n": "The poor wise man",
+     "d": "Saved the city, forgotten"
+    },
+    {
+     "n": "The mighty king",
+     "d": "Besieged the city"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "One fate for all"
+    },
+    {
+     "when": "v.7-10",
+     "label": "Eat with joy"
+    },
+    {
+     "when": "v.11-12",
+     "label": "Time and chance"
+    },
+    {
+     "when": "v.13-18",
+     "label": "The poor wise man"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "So I took all this to heart and concluded that the righteous and the wise, as well as their deeds, are in God's hands. Man does not know what lies ahead, whether love or hate. There is hope, however, for anyone who is among the living; for even a live dog is better than a dead lion. Go, eat your bread with joy, and drink your wine with a cheerful heart, for God has already approved your works: Enjoy life with your beloved wife all the days of the fleeting life that God has given you under the sun—all your fleeting days. For this is your portion in life and in your labor under the sun. Whatever you find to do with your hands, do it with all your might, for in Sheol, where you are going, there is no work or planning or knowledge or wisdom. I saw something else under the sun: The race is not to the swift, nor the battle to the strong; neither is the bread to the wise, nor the wealth to the intelligent, nor the favor to the skillful. For time and chance happen to all. For surely no man knows his time: Like fish caught in a cruel net or birds trapped in a snare, so men are ensnared in an evil time that suddenly falls upon them. Wisdom is better than weapons of war, but one sinner destroys much good.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harmen_Steenwijck_-_Vanitas_Still-Life_-_WGA21768.jpg",
+   "caption": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). A skull, books, a snuffed lamp and a shell: Dutch “vanitas” paintings took their name from the Latin of Ecclesiastes 1:2, “vanity of vanities.”",
+   "credit": "Harmen Steenwijck (about 1640), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the east slope of the City of David, the oldest part of Jerusalem. Many archaeologists date it to the 10th or 9th century BC, the age of David and Solomon, though the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 3,
+ "title": "A Time for Everything",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "To everything there is a season, and a time for every purpose under heaven:"
+  },
+  {
+   "num": 2,
+   "text": "a time to be born and a time to die, a time to plant and a time to uproot,"
+  },
+  {
+   "num": 3,
+   "text": "a time to kill and a time to heal, a time to break down and a time to build,"
+  },
+  {
+   "num": 4,
+   "text": "a time to weep and a time to laugh, a time to mourn and a time to dance,"
+  },
+  {
+   "num": 5,
+   "text": "a time to cast away stones and a time to gather stones together, a time to embrace and a time to refrain from embracing,"
+  },
+  {
+   "num": 6,
+   "text": "a time to search and a time to count as lost, a time to keep and a time to discard,"
+  },
+  {
+   "num": 7,
+   "text": "a time to tear and a time to mend, a time to be silent and a time to speak,"
+  },
+  {
+   "num": 8,
+   "text": "a time to love and a time to hate, a time for war and a time for peace."
+  },
+  {
+   "num": 9,
+   "text": "What does the worker gain from his toil?"
+  },
+  {
+   "num": 10,
+   "text": "I have seen the burden that God has laid upon the sons of men to occupy them."
+  },
+  {
+   "num": 11,
+   "text": "He has made everything beautiful in its time. He has also set eternity in the hearts of men, yet they cannot fathom the work that God has done from beginning to end."
+  },
+  {
+   "num": 12,
+   "text": "I know that there is nothing better for them than to rejoice and do good while they live,"
+  },
+  {
+   "num": 13,
+   "text": "and also that every man should eat and drink and find satisfaction in all his labor—this is the gift of God."
+  },
+  {
+   "num": 14,
+   "text": "I know that everything God does endures forever; nothing can be added to it or taken from it. God does it so that they should fear Him."
+  },
+  {
+   "num": 15,
+   "text": "What exists has already been, and what will be has already been, for God will call to account what has passed."
+  },
+  {
+   "num": 16,
+   "text": "Furthermore, I saw under the sun that in the place of judgment there is wickedness, and in the place of righteousness there is wickedness."
+  },
+  {
+   "num": 17,
+   "text": "I said in my heart, \"God will judge the righteous and the wicked, since there is a time for every activity and every deed.\""
+  },
+  {
+   "num": 18,
+   "text": "I said to myself, \"As for the sons of men, God tests them so that they may see for themselves that they are but beasts.\""
+  },
+  {
+   "num": 19,
+   "text": "For the fates of both men and beasts are the same: As one dies, so dies the other—they all have the same breath. Man has no advantage over the animals, since everything is futile."
+  },
+  {
+   "num": 20,
+   "text": "All go to one place; all come from dust, and all return to dust."
+  },
+  {
+   "num": 21,
+   "text": "Who knows if the spirit of man rises upward and the spirit of the animal descends into the earth?"
+  },
+  {
+   "num": 22,
+   "text": "I have seen that there is nothing better for a man than to enjoy his work, because that is his lot. For who can bring him to see what will come after him?"
+  }
+ ],
+ "context": {
+  "author": "“The Teacher, the son of David, king in Jerusalem” (1:1); in Hebrew Qoheleth, “one who gathers” or “speaks to an assembly.” The book never names Solomon. Jewish and Christian tradition read it as Solomon; many scholars think a later writer took Solomon’s voice, because the Hebrew looks late and the speaker talks of kings before him in Jerusalem (1:16).",
+  "genre": "Wisdom reflection: a searching first-person essay with poems and proverbs",
+  "audience": "Anyone trying to find meaning in work, pleasure, wisdom and wealth, and finally “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "“To everything there is a season, and a time for every purpose under heaven” (v.1). Fourteen pairs of opposites follow, from “a time to be born and a time to die” to “a time for war and a time for peace” (vv.2-8). The Teacher then reflects: God “has made everything beautiful in its time. He has also set eternity in the hearts of men, yet they cannot fathom the work that God has done from beginning to end” (v.11). The best thing is to rejoice, do good, eat, drink and find satisfaction in work, “the gift of God” (vv.12-13). Injustice sits even in the courts, but “God will judge the righteous and the wicked” (vv.16-17). Men die like animals and return to dust (vv.18-21).",
+  "custom": "The poem uses pairs to cover all of life, a way of saying “everything” (like “day and night”). “A time to cast away stones and a time to gather stones” (v.5) may mean clearing a field and building, or, as an old Jewish reading has it, marital love. Tearing clothing (v.7) was a sign of grief, and mending followed the time of mourning.",
+  "timelineImmediate": "Chapter 4 looks at oppression, envy, loneliness and the strength of friendship.",
+  "timelineBible": "“All come from dust, and all return to dust” (v.20) echoes Genesis 3:19. Paul says that “when the time had fully come, God sent His Son” (Galatians 4:4): the God who sets the times also chose the time for Christ. Pete Seeger’s song Turn! Turn! Turn! takes its words from vv.1-8.",
+  "translation": [
+   {
+    "english": "season",
+    "greek": "זְמָן (zeman)",
+    "verseRef": "v.1",
+    "meaning": "An appointed time. A late Hebrew word, also used in Aramaic.",
+    "gloss": "Set time",
+    "strongs": "H2165",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "time",
+    "greek": "עֵת (et)",
+    "verseRef": "v.2",
+    "meaning": "A time, a moment, an occasion. It appears 29 times in vv.1-8.",
+    "gloss": "Time, occasion",
+    "strongs": "H6256",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "eternity",
+    "greek": "עוֹלָם (olam)",
+    "verseRef": "v.11",
+    "meaning": "A very long time, the distant past or future, forever. God has put a sense of it in the human heart.",
+    "gloss": "Forever",
+    "strongs": "H5769",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Galatians 4:4",
+    "note": "When the time had fully come, God sent His Son."
+   },
+   {
+    "ref": "Romans 5:6",
+    "note": "At just the right time Christ died for the ungodly."
+   },
+   {
+    "ref": "Acts 17:26-27",
+    "note": "God set the appointed times, so that men would seek Him."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 3:19",
+    "note": "For dust you are, and to dust you shall return."
+   },
+   {
+    "ref": "Psalm 31:15",
+    "note": "My times are in Your hands."
+   },
+   {
+    "ref": "Psalm 90:10-12",
+    "note": "Teach us to number our days."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "There is a time for everything; God has made all things beautiful in their time and set eternity in human hearts, yet we cannot see his whole work, so we enjoy his gifts and leave judgment to him.",
+   "settingLine": "The seasons of a life under heaven.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Courts and justice",
+     "t": "Wickedness even in the place of judgment."
+    },
+    {
+     "h": "Farming year",
+     "t": "Planting and uprooting set the calendar."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Tearing clothes",
+     "t": "A sign of grief."
+    },
+    {
+     "h": "Pairs of opposites",
+     "t": "A Hebrew way to say “everything.”"
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Gezer calendar",
+     "t": "A 10th-century BC tablet lists the months of planting, harvest and pruning."
+    },
+    {
+     "h": "Threshing floors",
+     "t": "Every village had a season for harvest and threshing."
+    }
+   ],
+   "discussion": "“He has also set eternity in the hearts of men” (v.11). Where do I feel that longing for something more than time, and what do I do with it?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher (Qoheleth)",
+   "genre": "Wisdom reflection",
+   "audience": "Every searcher",
+   "refNotes": {
+    "Genesis 3:19": "To dust",
+    "Psalm 31:15": "My times",
+    "Psalm 90:10-12": "Number our days"
+   },
+   "peoplePlaces": [
+    {
+     "n": "God",
+     "d": "Makes everything beautiful in its time"
+    },
+    {
+     "n": "The sons of men",
+     "d": "Given a burden"
+    },
+    {
+     "n": "Men and beasts",
+     "d": "Return to dust"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "A time for everything"
+    },
+    {
+     "when": "v.9-15",
+     "label": "Eternity in the heart"
+    },
+    {
+     "when": "v.16-22",
+     "label": "Injustice and death"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "To everything there is a season, and a time for every purpose under heaven: a time to be born and a time to die, a time to plant and a time to uproot, a time to weep and a time to laugh, a time to mourn and a time to dance, a time to tear and a time to mend, a time to be silent and a time to speak, a time to love and a time to hate, a time for war and a time for peace. He has made everything beautiful in its time. He has also set eternity in the hearts of men, yet they cannot fathom the work that God has done from beginning to end. and also that every man should eat and drink and find satisfaction in all his labor—this is the gift of God. I know that everything God does endures forever; nothing can be added to it or taken from it. God does it so that they should fear Him. All go to one place; all come from dust, and all return to dust.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Harvesters.jpg",
+   "caption": "The Harvesters, by Pieter Bruegel the Elder (1565, Metropolitan Museum of Art). One of his paintings of the seasons: “a time to plant and a time to uproot” (Ecclesiastes 3:2).",
+   "credit": "Pieter Bruegel the Elder (1565), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

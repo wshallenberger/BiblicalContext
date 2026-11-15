@@ -1,0 +1,224 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 6,
+ "title": "Wealth Without Enjoyment",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "There is another evil I have seen under the sun, and it weighs heavily upon mankind:"
+  },
+  {
+   "num": 2,
+   "text": "God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them. This is futile and a grievous affliction."
+  },
+  {
+   "num": 3,
+   "text": "A man may father a hundred children and live for many years; yet no matter how long he lives, if he is unsatisfied with his prosperity and does not even receive a proper burial, I say that a stillborn child is better off than he."
+  },
+  {
+   "num": 4,
+   "text": "For a stillborn child enters in futility and departs in darkness, and his name is shrouded in obscurity."
+  },
+  {
+   "num": 5,
+   "text": "The child, though neither seeing the sun nor knowing anything, has more rest than that man,"
+  },
+  {
+   "num": 6,
+   "text": "even if he lives a thousand years twice over but fails to enjoy his prosperity. Do not all go to the same place?"
+  },
+  {
+   "num": 7,
+   "text": "All a man's labor is for his mouth, yet his appetite is never satisfied."
+  },
+  {
+   "num": 8,
+   "text": "What advantage, then, has the wise man over the fool? What gain comes to the poor man who knows how to conduct himself before others?"
+  },
+  {
+   "num": 9,
+   "text": "Better what the eye can see than the wandering of desire. This too is futile and a pursuit of the wind."
+  },
+  {
+   "num": 10,
+   "text": "Whatever exists was named long ago, and what happens to a man is foreknown; but he cannot contend with one stronger than he."
+  },
+  {
+   "num": 11,
+   "text": "For the more words, the more futility—and how does that profit anyone?"
+  },
+  {
+   "num": 12,
+   "text": "For who knows what is good for a man during the few days in which he passes through his fleeting life like a shadow? Who can tell a man what will come after him under the sun?"
+  }
+ ],
+ "context": {
+  "author": "“The Teacher, the son of David, king in Jerusalem” (1:1); in Hebrew Qoheleth, “one who gathers” or “speaks to an assembly.” The book never names Solomon. Jewish and Christian tradition read it as Solomon; many scholars think a later writer took Solomon’s voice, because the Hebrew looks late and the speaker talks of kings before him in Jerusalem (1:16).",
+  "genre": "Wisdom reflection: a searching first-person essay with poems and proverbs",
+  "audience": "Anyone trying to find meaning in work, pleasure, wisdom and wealth, and finally “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "The Teacher names another sorrow: “God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them” (v.2). A man could have a hundred children and live a thousand years twice over, but if he cannot enjoy his life and is not even buried properly, a stillborn child is better off (vv.3-6). “All a man’s labor is for his mouth, yet his appetite is never satisfied” (v.7). “Better what the eye can see than the wandering of desire” (v.9). The chapter, the middle of the book, ends with two questions: “Who knows what is good for a man during the few days… like a shadow? Who can tell a man what will come after him under the sun?” (v.12).",
+  "custom": "Many children and a long life were the great blessings of the ancient world (Psalm 127:3-5; Genesis 25:8). A proper burial with one’s fathers mattered deeply; to be left unburied was a disgrace (Jeremiah 22:18-19). A stillborn child had no name and no memory, the opposite of what people hoped for.",
+  "timelineImmediate": "Chapter 7 gives a string of “better than” sayings and finds that no one on earth is righteous.",
+  "timelineBible": "Jesus taught that life does not consist in the abundance of possessions (Luke 12:15). Paul says, “I have learned to be content regardless of my circumstances” (Philippians 4:11).",
+  "translation": [
+   {
+    "english": "appetite",
+    "greek": "נֶפֶשׁ (nefesh)",
+    "verseRef": "v.7",
+    "meaning": "Soul, life, throat, appetite. The whole person with its hunger and desires.",
+    "gloss": "Soul, desire",
+    "strongs": "H5315",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "shadow",
+    "greek": "צֵל (tsel)",
+    "verseRef": "v.12",
+    "meaning": "A shadow, quickly gone, a picture of a short life.",
+    "gloss": "Shadow",
+    "strongs": "H6738",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "stillborn child",
+    "greek": "נֵפֶל (nefel)",
+    "verseRef": "v.3",
+    "meaning": "A miscarriage, a child born dead.",
+    "gloss": "Miscarriage",
+    "strongs": "H5309",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 12:15",
+    "note": "Life does not consist in the abundance of possessions."
+   },
+   {
+    "ref": "Philippians 4:11-12",
+    "note": "I have learned to be content."
+   },
+   {
+    "ref": "James 4:14",
+    "note": "What is your life? You are a mist."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 127:3-5",
+    "note": "Children are a heritage from the LORD."
+   },
+   {
+    "ref": "Psalm 102:11",
+    "note": "My days are like a lengthening shadow."
+   },
+   {
+    "ref": "Job 3:16",
+    "note": "Why was I not hidden like a stillborn child?"
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Wealth, children and long life mean nothing if they cannot be enjoyed; desire wanders and is never satisfied, and no one knows what is good for a short life like a shadow.",
+   "settingLine": "A rich man who cannot enjoy what he has.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Long life and children",
+     "t": "The great blessings of the ancient world."
+    },
+    {
+     "h": "Burial",
+     "t": "Being buried with one’s fathers was an honor."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Family tombs",
+     "t": "Bones were gathered to the fathers."
+    },
+    {
+     "h": "Names",
+     "t": "A name kept a person’s memory alive."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Bench tombs",
+     "t": "Iron Age family tombs around Jerusalem had benches and bone repositories."
+    },
+    {
+     "h": "Ketef Hinnom",
+     "t": "Tombs in Jerusalem held two tiny silver scrolls with the priestly blessing (Numbers 6:24-26), about 600 BC."
+    }
+   ],
+   "discussion": "“Better what the eye can see than the wandering of desire” (v.9). What does contentment with what I have look like this week?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher (Qoheleth)",
+   "genre": "Wisdom reflection",
+   "audience": "Every searcher",
+   "refNotes": {
+    "Psalm 127:3-5": "Many children",
+    "Psalm 102:11": "Like a shadow",
+    "Job 3:16": "A stillborn child"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The rich man",
+     "d": "Cannot enjoy his wealth"
+    },
+    {
+     "n": "The stranger",
+     "d": "Enjoys it instead"
+    },
+    {
+     "n": "The stillborn child",
+     "d": "Has more rest"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Wealth not enjoyed"
+    },
+    {
+     "when": "v.7-9",
+     "label": "Never satisfied"
+    },
+    {
+     "when": "v.10-12",
+     "label": "Who knows what is good?"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "There is another evil I have seen under the sun, and it weighs heavily upon mankind: God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them. This is futile and a grievous affliction. A man may father a hundred children and live for many years; yet no matter how long he lives, if he is unsatisfied with his prosperity and does not even receive a proper burial, I say that a stillborn child is better off than he. All a man's labor is for his mouth, yet his appetite is never satisfied. Better what the eye can see than the wandering of desire. This too is futile and a pursuit of the wind. For who knows what is good for a man during the few days in which he passes through his fleeting life like a shadow? Who can tell a man what will come after him under the sun?",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harmen_Steenwijck_-_Vanitas_Still-Life_-_WGA21768.jpg",
+   "caption": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). A skull, books, a snuffed lamp and a shell: Dutch “vanitas” paintings took their name from the Latin of Ecclesiastes 1:2, “vanity of vanities.”",
+   "credit": "Harmen Steenwijck (about 1640), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hezir_tomb.JPG",
+   "caption": "The rock-cut tomb of the priestly family of Hezir in the Kidron Valley, Jerusalem (2nd century BC). “Man goes to his eternal home and mourners walk the streets” (Ecclesiastes 12:5).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

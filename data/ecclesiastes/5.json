@@ -1,0 +1,260 @@
+{
+ "book": "Ecclesiastes",
+ "chapter": 5,
+ "title": "Guard Your Steps Before God",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Guard your steps when you go to the house of God. Draw near to listen rather than to offer the sacrifice of fools, who do not know that they do wrong."
+  },
+  {
+   "num": 2,
+   "text": "Do not be quick to speak, and do not be hasty in your heart to utter a word before God. After all, God is in heaven and you are on earth. So let your words be few."
+  },
+  {
+   "num": 3,
+   "text": "As a dream comes through many cares, so the speech of a fool comes with many words."
+  },
+  {
+   "num": 4,
+   "text": "When you make a vow to God, do not delay in fulfilling it, because He takes no pleasure in fools. Fulfill your vow."
+  },
+  {
+   "num": 5,
+   "text": "It is better not to vow than to make a vow and not fulfill it."
+  },
+  {
+   "num": 6,
+   "text": "Do not let your mouth cause your flesh to sin, and do not tell the messenger that your vow was a mistake. Why should God be angry with your words and destroy the work of your hands?"
+  },
+  {
+   "num": 7,
+   "text": "For as many dreams bring futility, so do many words. Therefore, fear God."
+  },
+  {
+   "num": 8,
+   "text": "If you see the oppression of the poor and the denial of justice and righteousness in the province, do not be astonished at the matter; for one official is watched by a superior, and others higher still are over them."
+  },
+  {
+   "num": 9,
+   "text": "The produce of the earth is taken by all; the king himself profits from the fields."
+  },
+  {
+   "num": 10,
+   "text": "He who loves money is never satisfied by money, and he who loves wealth is never satisfied by income. This too is futile."
+  },
+  {
+   "num": 11,
+   "text": "When good things increase, so do those who consume them; what then is the profit to the owner, except to behold them with his eyes?"
+  },
+  {
+   "num": 12,
+   "text": "The sleep of the worker is sweet, whether he eats little or much, but the abundance of the rich man permits him no sleep."
+  },
+  {
+   "num": 13,
+   "text": "There is a grievous evil I have seen under the sun: wealth hoarded to the harm of its owner,"
+  },
+  {
+   "num": 14,
+   "text": "or wealth lost in a failed venture, so when that man has a son there is nothing to pass on."
+  },
+  {
+   "num": 15,
+   "text": "As a man came from his mother's womb, so he will depart again, naked as he arrived. He takes nothing for his labor to carry in his hands."
+  },
+  {
+   "num": 16,
+   "text": "This too is a grievous evil: Exactly as a man is born, so he will depart. What does he gain as he toils for the wind?"
+  },
+  {
+   "num": 17,
+   "text": "Moreover, all his days he eats in darkness, with much sorrow, sickness, and anger."
+  },
+  {
+   "num": 18,
+   "text": "Here is what I have seen to be good and fitting: to eat and drink, and to find satisfaction in all the labor one does under the sun during the few days of life that God has given him—for this is his lot."
+  },
+  {
+   "num": 19,
+   "text": "Furthermore, God has given riches and wealth to every man, and He has enabled him to enjoy them, to accept his lot, and to rejoice in his labor. This is a gift from God."
+  },
+  {
+   "num": 20,
+   "text": "For a man seldom considers the days of his life, because God keeps him occupied with the joy of his heart."
+  }
+ ],
+ "context": {
+  "author": "“The Teacher, the son of David, king in Jerusalem” (1:1); in Hebrew Qoheleth, “one who gathers” or “speaks to an assembly.” The book never names Solomon. Jewish and Christian tradition read it as Solomon; many scholars think a later writer took Solomon’s voice, because the Hebrew looks late and the speaker talks of kings before him in Jerusalem (1:16).",
+  "genre": "Wisdom reflection: a searching first-person essay with poems and proverbs",
+  "audience": "Anyone trying to find meaning in work, pleasure, wisdom and wealth, and finally “my son” (12:12)",
+  "mapLabel": "JERUSALEM, THE TEACHER’S COURT",
+  "setting": "The Teacher speaks about worship: “Guard your steps when you go to the house of God. Draw near to listen rather than to offer the sacrifice of fools” (v.1). “God is in heaven and you are on earth. So let your words be few” (v.2). Keep your vows; it is better not to vow than to vow and not pay (vv.4-6). Then he turns to money: officials over officials take their share (vv.8-9), and “he who loves money is never satisfied by money” (v.10). The worker sleeps sweetly, but the rich man’s abundance keeps him awake (v.12). We leave the world as naked as we came (v.15). Yet to eat, drink and enjoy one’s work and wealth is “a gift from God” (vv.18-19). (In Hebrew Bibles v.1 is 4:17, and vv.2-20 are 5:1-19.)",
+  "custom": "A vow was a promise to God, often to give an offering if a prayer was answered (1 Samuel 1:11); the law said to pay it without delay (Deuteronomy 23:21-23). “The messenger” (v.6) may be a priest who came to collect what was vowed. Persian and later Greek rulers governed through layers of officials in each “province” (v.8), a word used in Esther and Nehemiah.",
+  "timelineImmediate": "Chapter 6 describes a man who has wealth and honor but is not allowed to enjoy them.",
+  "timelineBible": "Job said, “Naked I came from my mother’s womb, and naked I will return” (Job 1:21), and Paul, “we brought nothing into the world, so we cannot carry anything out of it” (1 Timothy 6:7). Jesus warned against heaping up empty phrases in prayer (Matthew 6:7).",
+  "translation": [
+   {
+    "english": "vow",
+    "greek": "נֶדֶר (neder)",
+    "verseRef": "v.4",
+    "meaning": "A solemn promise made to God.",
+    "gloss": "Promise to God",
+    "strongs": "H5088",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "money",
+    "greek": "כֶּסֶף (kesef)",
+    "verseRef": "v.10",
+    "meaning": "Silver, and so money. The lover of silver is never satisfied with silver.",
+    "gloss": "Silver",
+    "strongs": "H3701",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "lot",
+    "greek": "חֵלֶק (cheleq)",
+    "verseRef": "v.18",
+    "meaning": "Portion, share. What God gives a person to enjoy in this life.",
+    "gloss": "Portion",
+    "strongs": "H2506",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 6:7-8",
+    "note": "Do not babble like the pagans; your Father knows."
+   },
+   {
+    "ref": "1 Timothy 6:6-10",
+    "note": "We brought nothing into the world; the love of money is a root of evil."
+   },
+   {
+    "ref": "Hebrews 13:5",
+    "note": "Keep your lives free from the love of money."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 23:21-23",
+    "note": "Do not delay to fulfill a vow."
+   },
+   {
+    "ref": "Job 1:21",
+    "note": "Naked I came, and naked I will return."
+   },
+   {
+    "ref": "1 Samuel 15:22",
+    "note": "Obedience is better than sacrifice."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Come to God to listen, not to talk; keep your vows; the lover of money is never satisfied, we leave as naked as we came, and enjoying our portion is God’s gift.",
+   "settingLine": "At the house of God, and in the markets of the province.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Layers of officials",
+     "t": "Provinces were run by officials over officials."
+    },
+    {
+     "h": "Temple worship",
+     "t": "Sacrifices and vows at the house of God."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Vows",
+     "t": "Promises to God, paid at the Temple."
+    },
+    {
+     "h": "Sleep of the worker",
+     "t": "Hard work, sound sleep."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Temple Mount",
+     "t": "The hill where the house of God stood in Jerusalem."
+    },
+    {
+     "h": "Persian provinces",
+     "t": "Seals and coins of the province of Yehud (Judah) date from the Persian period."
+    }
+   ],
+   "discussion": "“God is in heaven and you are on earth. So let your words be few” (v.2). What would it look like for me to come to God to listen more than to speak?",
+   "book": "The book of Ecclesiastes · 12 chapters. The Teacher searches for lasting gain “under the sun,” finds everything a breath, and ends: fear God and keep His commandments.",
+   "author": "The Teacher (Qoheleth)",
+   "genre": "Wisdom reflection",
+   "audience": "Every searcher",
+   "refNotes": {
+    "Deuteronomy 23:21-23": "Paying vows",
+    "Job 1:21": "Naked we return",
+    "1 Samuel 15:22": "Obedience first"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The worshiper",
+     "d": "Should listen"
+    },
+    {
+     "n": "The fool",
+     "d": "Makes rash vows"
+    },
+    {
+     "n": "Officials",
+     "d": "Watched by higher officials"
+    },
+    {
+     "n": "The rich man",
+     "d": "Cannot sleep"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Worship and vows"
+    },
+    {
+     "when": "v.8-17",
+     "label": "Money and its trouble"
+    },
+    {
+     "when": "v.18-20",
+     "label": "God’s gift of enjoyment"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Guard your steps when you go to the house of God. Draw near to listen rather than to offer the sacrifice of fools, who do not know that they do wrong. Do not be quick to speak, and do not be hasty in your heart to utter a word before God. After all, God is in heaven and you are on earth. So let your words be few. When you make a vow to God, do not delay in fulfilling it, because He takes no pleasure in fools. Fulfill your vow. He who loves money is never satisfied by money, and he who loves wealth is never satisfied by income. This too is futile. The sleep of the worker is sweet, whether he eats little or much, but the abundance of the rich man permits him no sleep. As a man came from his mother's womb, so he will depart again, naked as he arrived. He takes nothing for his labor to carry in his hands. Here is what I have seen to be good and fitting: to eat and drink, and to find satisfaction in all the labor one does under the sun during the few days of life that God has given him—for this is his lot. Furthermore, God has given riches and wealth to every man, and He has enabled him to enjoy them, to accept his lot, and to rejoice in his labor. This is a gift from God.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harmen_Steenwijck_-_Vanitas_Still-Life_-_WGA21768.jpg",
+   "caption": "Still Life: An Allegory of the Vanities of Human Life, by Harmen Steenwijck (about 1640, National Gallery, London). A skull, books, a snuffed lamp and a shell: Dutch “vanitas” paintings took their name from the Latin of Ecclesiastes 1:2, “vanity of vanities.”",
+   "credit": "Harmen Steenwijck (about 1640), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air. “Guard your steps when you go to the house of God. Draw near to listen” (Ecclesiastes 5:1).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}
