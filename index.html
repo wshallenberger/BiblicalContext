@@ -3998,16 +3998,16 @@
   .phone.nav-dock .bottom-nav .nav-btn span, .phone.nav-dock .bottom-nav .nav-btn-center span{ opacity:0; transition:opacity .12s ease; }
   /* the screens that pan and zoom keep their own space; every other screen runs under the circles and scrolls clear of them */
   .phone.nav-reserve .screen-area{ padding-bottom:var(--navh); }
-  .phone:not(.nav-reserve) .screen-area :is(.st-wrap, .reader, .nav-list, .dh-scroll, .folder-content, .harmony-pane){ padding-bottom:calc(var(--navh) + 22px); }
+  .phone:not(.nav-reserve) .screen-area :is(.st-wrap, .reader, .nav-list, .dh-scroll, .folder-content, .harmony-pane){ padding-bottom:calc(var(--navh) + 56px); }
   .phone:not(.nav-reserve) .ge-det{ bottom:calc(var(--navh) + 6px); }
   #hmWrap{ padding-bottom:calc(var(--navh) + 6px); }
-  /* Home: a calm band under the circles. The page fades to its own colour behind them, so pictures and cards never sit right behind the buttons (shorter once the circles shrink) */
+  /* A calm, frosted band under the circles on every screen. The page fades to its own colour behind them, so pictures and cards never sit right behind the buttons (shorter once the circles shrink) */
   .phone::after{ content:''; position:absolute; left:0; right:0; bottom:0; z-index:7; pointer-events:none; opacity:0;
     height:calc(var(--cs) + var(--pb) + env(safe-area-inset-bottom,0px) + 84px);
     background:linear-gradient(to bottom, transparent 0, var(--ink) 58%);
     background:linear-gradient(to bottom, transparent 0, color-mix(in srgb, var(--ink) 67%, transparent) 70%);
     transition:opacity .25s ease, height .45s cubic-bezier(.3,1.15,.4,1); }
-  .phone[data-screen="home"]::after{ opacity:1; }
+  .phone:not(.nav-reserve)::after{ opacity:1; }   /* every screen except the map and timeline, which keep their own space */
   /* Read: the book-and-chapter picker opens as a pop-up over the page (90% of it), not as a new page */
   .bcp.full .bcp-scrim{ display:block; }
   .bcp.full .bcp-panel{ left:5%; right:5%; top:max(5%, calc(env(safe-area-inset-top) + 10px)); bottom:max(5%, calc(env(safe-area-inset-bottom) + 10px)); max-height:none;
