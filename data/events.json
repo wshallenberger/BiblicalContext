@@ -15353,5 +15353,304 @@
    "ps_masada",
    "ps_harp"
   ]
+ },
+ {
+  "i": 618,
+  "t": "Lead me to the rock; in God alone my soul finds rest (Psalms 61-62)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    61,
+    1,
+    62,
+    12
+   ]
+  ],
+  "rs": "Ps61:1-62:12",
+  "s": "\"Lead me to the rock that is higher than I.\" \"In God alone my soul finds rest.\" \"Trust in Him at all times, O people.\"",
+  "n": "Psalm 61 prays from “the ends of the earth,” perhaps from across the Jordan during Absalom’s revolt. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_masada"
+  ]
+ },
+ {
+  "i": 619,
+  "t": "Thirsting for God in the wilderness of Judah (Psalm 63)",
+  "p": "The Wilderness of Judah",
+  "la": 31.56,
+  "ln": 35.33,
+  "r": [
+   [
+    "psalms",
+    63,
+    1,
+    63,
+    11
+   ]
+  ],
+  "rs": "Ps63:1-11",
+  "s": "The title: \"A Psalm of David, when he was in the Wilderness of Judah.\" \"Earnestly I seek You; my soul thirsts for You.\" \"Because Your loving devotion is better than life.\"",
+  "n": "David was in this wilderness both when Saul hunted him and when he fled from Absalom (2 Samuel 15:23); the pin marks the desert between Jerusalem and the Dead Sea.",
+  "im": [
+   "ps_judea",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 620,
+  "t": "Harvest and praise for all the earth (Psalms 64-67)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    64,
+    1,
+    67,
+    7
+   ]
+  ],
+  "rs": "Ps64:1-67:7",
+  "s": "\"You crown the year with Your bounty.\" \"Come and see the works of God.\" \"May God be gracious to us and bless us, and cause His face to shine upon us.\"",
+  "n": "Psalm 65 thanks God for rain and harvest; Psalm 66 recalls the crossing of the sea; Psalm 67 prays the priestly blessing for the nations. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_scroll",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 621,
+  "t": "God marches from Sinai to Zion (Psalm 68)",
+  "p": "Mount Sinai (traditional site)",
+  "la": 28.539,
+  "ln": 33.975,
+  "r": [
+   [
+    "psalms",
+    68,
+    1,
+    68,
+    35
+   ]
+  ],
+  "rs": "Ps68:1-35",
+  "s": "\"God arises.\" \"the earth shook and the heavens poured down rain before God.\" \"You have ascended on high.\"",
+  "n": "The psalm follows God from Sinai through the wilderness to His chosen mountain in Jerusalem, past the envious peaks of Bashan. The pin is at Jebel Musa, the traditional Mount Sinai; its true site is debated.",
+  "im": [
+   "ps_sinai",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 622,
+  "t": "Deep waters and an old man’s prayer (Psalms 69-71)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    69,
+    1,
+    71,
+    24
+   ]
+  ],
+  "rs": "Ps69:1-71:24",
+  "s": "\"Save me, O God, for the waters are up to my neck.\" \"because zeal for Your house has consumed me.\" \"Do not discard me in my old age.\"",
+  "n": "The New Testament quotes Psalm 69 often of Jesus (John 2:17; 15:25). Psalm 70 repeats Psalm 40:13-17. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_crucified",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 623,
+  "t": "A prayer for the king; Book Two ends (Psalm 72)",
+  "p": "Jerusalem, the royal court",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    72,
+    1,
+    72,
+    20
+   ]
+  ],
+  "rs": "Ps72:1-20",
+  "s": "The title: \"Of Solomon.\" \"Endow the king with Your justice.\" \"may the kings of Sheba and Seba offer gifts.\" The book closes: \"Thus conclude the prayers of David son of Jesse.\"",
+  "n": "Solomon’s court was famous for its tribute and the visit of the Queen of Sheba (1 Kings 10). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_sheba",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 624,
+  "t": "Asaph in the sanctuary (Psalm 73)",
+  "p": "Jerusalem, the Temple courts",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    73,
+    1,
+    73,
+    28
+   ]
+  ],
+  "rs": "Ps73:1-28",
+  "s": "\"For I envied the arrogant when I saw the prosperity of the wicked.\" \"until I entered God's sanctuary; then I discerned their end.\" \"God is the strength of my heart and my portion forever.\"",
+  "n": "Book Three begins with eleven psalms of Asaph (73-83). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_scroll",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 625,
+  "t": "The sanctuary burned to the ground (Psalm 74)",
+  "p": "Jerusalem, the ruined Temple",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    74,
+    1,
+    74,
+    23
+   ]
+  ],
+  "rs": "Ps74:1-23",
+  "s": "\"Why have You rejected us forever, O God?\" \"They have burned Your sanctuary to the ground.\" \"There is no longer any prophet.\"",
+  "n": "The psalm best fits the Babylonian burning of Solomon’s Temple in 586 BC (2 Kings 25:8-9). The painting shows the later Roman destruction of AD 70.",
+  "im": [
+   "ps_hayez",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 626,
+  "t": "God judges, and the army falls at Salem (Psalms 75-76)",
+  "p": "Jerusalem (Salem)",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    75,
+    1,
+    76,
+    12
+   ]
+  ],
+  "rs": "Ps75:1-76:12",
+  "s": "\"It is God who judges.\" \"His tent is in Salem, His dwelling place in Zion.\" \"There He shattered the flaming arrows, the shield and sword and weapons of war.\"",
+  "n": "The Greek Old Testament titles Psalm 76 ‘concerning the Assyrian,’ linking it to Sennacherib’s failed siege of Jerusalem in 701 BC (2 Kings 19:35).",
+  "im": [
+   "ps_lachish",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 627,
+  "t": "Remembering the path through the sea (Psalm 77)",
+  "p": "The sea crossing (location debated)",
+  "la": 30.35,
+  "ln": 32.37,
+  "r": [
+   [
+    "psalms",
+    77,
+    1,
+    77,
+    20
+   ]
+  ],
+  "rs": "Ps77:1-20",
+  "s": "\"Has God forgotten to be gracious?\" \"I will remember the works of the LORD.\" \"Your path led through the sea, Your way through the mighty waters.\"",
+  "n": "Where Israel crossed the sea is debated: the Bitter Lakes, the Gulf of Suez and the Gulf of Aqaba have all been proposed. The pin near the Bitter Lakes is only a marker.",
+  "im": [
+   "ps_scroll",
+   "ps_sinai"
+  ]
+ },
+ {
+  "i": 628,
+  "t": "From Zoan to Shiloh to Zion (Psalm 78)",
+  "p": "Shiloh",
+  "la": 32.056,
+  "ln": 35.29,
+  "r": [
+   [
+    "psalms",
+    78,
+    1,
+    78,
+    72
+   ]
+  ],
+  "rs": "Ps78:1-72",
+  "s": "\"I will open my mouth in parables.\" \"He abandoned the tabernacle of Shiloh, the tent He had pitched among men.\" \"He chose David His servant and took him from the sheepfolds.\"",
+  "n": "The psalm tells Israel’s history from the wonders “in the fields of Zoan” in Egypt to the fall of Shiloh, where the tabernacle stood (1 Samuel 4), and God’s choice of Zion and David.",
+  "im": [
+   "ps_shiloh",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 629,
+  "t": "Jerusalem in ruins (Psalm 79)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    79,
+    1,
+    79,
+    13
+   ]
+  ],
+  "rs": "Ps79:1-13",
+  "s": "\"The nations, O God, have invaded Your inheritance; they have defiled Your holy temple and reduced Jerusalem to rubble.\" \"How long, O LORD?\" \"Help us, O God of our salvation, for the glory of Your name.\"",
+  "n": "Like Psalm 74, this lament fits the Babylonian destruction of 586 BC. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_hayez",
+   "ps_cityofdavid"
+  ]
+ },
+ {
+  "i": 630,
+  "t": "Restore us: the vine of Joseph (Psalm 80)",
+  "p": "Samaria and the tribes of Joseph",
+  "la": 32.276,
+  "ln": 35.197,
+  "r": [
+   [
+    "psalms",
+    80,
+    1,
+    80,
+    19
+   ]
+  ],
+  "rs": "Ps80:1-19",
+  "s": "\"Hear us, O Shepherd of Israel, who leads Joseph like a flock.\" \"Restore us, O God, and cause Your face to shine upon us, that we may be saved.\" \"You uprooted a vine from Egypt.\"",
+  "n": "The psalm names Ephraim, Benjamin and Manasseh, the tribes of Rachel, and may come from the Assyrian attacks that ended the northern kingdom in 722 BC. The pin is at Samaria, its capital.",
+  "im": [
+   "ps_scroll",
+   "ps_cityofdavid"
+  ]
  }
 ]

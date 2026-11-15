@@ -1,0 +1,209 @@
+{
+ "book": "Psalms",
+ "chapter": 61,
+ "title": "Lead Me to the Rock That Is Higher Than I",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. With stringed instruments. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hear my cry, O God; attend to my prayer."
+  },
+  {
+   "num": 2,
+   "text": "From the ends of the earth I call out to You whenever my heart is faint. Lead me to the rock that is higher than I."
+  },
+  {
+   "num": 3,
+   "text": "For You have been my refuge, a tower of strength against the enemy."
+  },
+  {
+   "num": 4,
+   "text": "Let me dwell in Your tent forever and take refuge in the shelter of Your wings. Selah"
+  },
+  {
+   "num": 5,
+   "text": "For You have heard my vows, O God; You have given me the inheritance reserved for those who fear Your name."
+  },
+  {
+   "num": 6,
+   "text": "Increase the days of the king's life; may his years span many generations."
+  },
+  {
+   "num": 7,
+   "text": "May he sit enthroned in God's presence forever; appoint Your loving devotion and Your faithfulness to guard him."
+  },
+  {
+   "num": 8,
+   "text": "Then I will ever sing praise to Your name and fulfill my vows day by day."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 and 68-70 are “of David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hear my cry, O God; attend to my prayer. From the ends of the earth I call out to You whenever my heart is faint. Lead me to the rock that is higher than I” (vv.1-2). David feels far away, perhaps across the Jordan during Absalom’s revolt (2 Samuel 17:22-24). He remembers God as “a tower of strength against the enemy” (v.3) and longs to “dwell in Your tent forever and take refuge in the shelter of Your wings” (v.4). Then the prayer turns to the king: “Increase the days of the king’s life… May he sit enthroned in God’s presence forever” (vv.6-7). He promises to sing and keep his vows “day by day” (v.8).",
+  "custom": "Rocks and cliffs high above the land were natural refuges in war; a fugitive could not climb them alone. The “ends of the earth” (v.2) can mean the far edge of the land, as far from the Temple as one could feel. Vows were promises of offerings made in trouble and paid after rescue (Psalm 66:13-14).",
+  "timelineImmediate": "Psalm 62 begins, “In God alone my soul finds rest.”",
+  "timelineBible": "Paul says the rock that followed Israel in the wilderness “was Christ” (1 Corinthians 10:4). Hebrews calls the hope set before us “an anchor for the soul, firm and secure” (Hebrews 6:19). Isaiah pictures a righteous king who will be “like the shadow of a great rock in an arid land” (Isaiah 32:2).",
+  "translation": [
+   {
+    "english": "rock",
+    "greek": "צוּר (tsur)",
+    "verseRef": "v.2",
+    "meaning": "Rock, cliff; a refuge too high for enemies to reach.",
+    "gloss": "Rock",
+    "strongs": "H6697",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wings",
+    "greek": "כָּנָף (kanaf)",
+    "verseRef": "v.4",
+    "meaning": "Wings; shelter like a bird’s, or the cherubim’s wings over the ark.",
+    "gloss": "Wing",
+    "strongs": "H3671",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "vows",
+    "greek": "נֶדֶר (neder)",
+    "verseRef": "v.5",
+    "meaning": "A vow, a promise made to God.",
+    "gloss": "Vow",
+    "strongs": "H5088",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Corinthians 10:4",
+    "note": "The rock was Christ."
+   },
+   {
+    "ref": "Hebrews 6:18-19",
+    "note": "An anchor for the soul, firm and secure."
+   },
+   {
+    "ref": "Matthew 7:24-25",
+    "note": "A house built on the rock."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 17:22-24",
+    "note": "David crosses the Jordan to Mahanaim."
+   },
+   {
+    "ref": "Isaiah 32:2",
+    "note": "The shadow of a great rock in an arid land."
+   },
+   {
+    "ref": "Psalm 18:2",
+    "note": "The LORD is my rock."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Far away and faint-hearted, David asks God to lead him to the rock higher than himself, longs for His tent and wings, and prays for the king’s long life.",
+   "settingLine": "A faint heart at the ends of the land.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Absalom’s revolt",
+     "t": "David across the Jordan."
+    },
+    {
+     "h": "Royal prayers",
+     "t": "Long life for the king."
+    }
+   ],
+   "customs": [
+    {
+     "h": "High rocks",
+     "t": "Refuges from enemies."
+    },
+    {
+     "h": "Vows",
+     "t": "Promised in trouble, paid in thanks."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Fortified heights",
+     "t": "Iron Age forts were built on hilltops and cliffs."
+    },
+    {
+     "h": "Mahanaim",
+     "t": "Its site east of the Jordan is uncertain."
+    }
+   ],
+   "discussion": "“Lead me to the rock that is higher than I” (v.2). What am I trying to stand on that is not high enough?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Prayer of the king far from home",
+   "audience": "God, my refuge",
+   "refNotes": {
+    "2 Samuel 17:22-24": "Far from Jerusalem",
+    "Isaiah 32:2": "A sheltering rock",
+    "Psalm 18:2": "My rock"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Faint and far away"
+    },
+    {
+     "n": "The king",
+     "d": "Prayed for"
+    },
+    {
+     "n": "Those who fear God’s name",
+     "d": "Share the inheritance"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Lead me to the rock"
+    },
+    {
+     "when": "v.5-7",
+     "label": "Long life for the king"
+    },
+    {
+     "when": "v.8",
+     "label": "Praise day by day"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hear my cry, O God; attend to my prayer. From the ends of the earth I call out to You whenever my heart is faint. Lead me to the rock that is higher than I. For You have been my refuge, a tower of strength against the enemy. Let me dwell in Your tent forever and take refuge in the shelter of Your wings. Selah Increase the days of the king's life; may his years span many generations. Then I will ever sing praise to Your name and fulfill my vows day by day.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+   "caption": "High rock and cliffs above the Dead Sea at Masada. “Lead me to the rock that is higher than I” (Psalm 61:2).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

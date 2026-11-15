@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 79,
+ "title": "Jerusalem in Ruins",
+ "translation": "BSB",
+ "superscription": "A Psalm of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The nations, O God, have invaded Your inheritance; they have defiled Your holy temple and reduced Jerusalem to rubble."
+  },
+  {
+   "num": 2,
+   "text": "They have given the corpses of Your servants as food to the birds of the air, the flesh of Your saints to the beasts of the earth."
+  },
+  {
+   "num": 3,
+   "text": "They have poured out their blood like water all around Jerusalem, and there is no one to bury the dead."
+  },
+  {
+   "num": 4,
+   "text": "We have become a reproach to our neighbors, a scorn and derision to those around us."
+  },
+  {
+   "num": 5,
+   "text": "How long, O LORD? Will You be angry forever? Will Your jealousy burn like fire?"
+  },
+  {
+   "num": 6,
+   "text": "Pour out Your wrath on the nations that do not acknowledge You, on the kingdoms that refuse to call on Your name,"
+  },
+  {
+   "num": 7,
+   "text": "for they have devoured Jacob and devastated his homeland."
+  },
+  {
+   "num": 8,
+   "text": "Do not hold past sins against us; let Your compassion come quickly, for we are brought low."
+  },
+  {
+   "num": 9,
+   "text": "Help us, O God of our salvation, for the glory of Your name; deliver us and atone for our sins, for the sake of Your name."
+  },
+  {
+   "num": 10,
+   "text": "Why should the nations ask, \"Where is their God?\" Before our eyes, make known among the nations Your vengeance for the bloodshed of Your servants."
+  },
+  {
+   "num": 11,
+   "text": "May the groans of the captives reach You; by the strength of Your arm preserve those condemned to death."
+  },
+  {
+   "num": 12,
+   "text": "Pay back into the laps of our neighbors sevenfold the reproach they hurled at You, O Lord."
+  },
+  {
+   "num": 13,
+   "text": "Then we Your people, the sheep of Your pasture, will thank You forever; from generation to generation we will declare Your praise."
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The nations, O God, have invaded Your inheritance; they have defiled Your holy temple and reduced Jerusalem to rubble” (v.1). The dead lie unburied, food for birds and beasts (vv.2-3). “How long, O LORD? Will You be angry forever?” (v.5). The people admit their sin but plead God’s mercy and His reputation: “Do not hold past sins against us… Help us, O God of our salvation, for the glory of Your name; deliver us and atone for our sins, for the sake of Your name. Why should the nations ask, Where is their God?” (vv.8-10). “May the groans of the captives reach You” (v.11). The psalm ends: “Then we Your people, the sheep of Your pasture, will thank You forever” (v.13).",
+  "custom": "Leaving the dead unburied was the worst disgrace in the ancient world (Jeremiah 7:33). Edom and other neighbors gloated and joined in when Jerusalem fell (Obadiah 10-14; Psalm 137:7). “Sevenfold” (v.12) means in full measure.",
+  "timelineImmediate": "Psalm 80, “Hear us, O Shepherd of Israel,” is the last psalm in the app so far.",
+  "timelineBible": "Verses 6-7 appear almost word for word in Jeremiah 10:25. The souls under the altar ask God to avenge their blood (Revelation 6:10), and Jesus foretold that “Jerusalem will be trodden down by the Gentiles” (Luke 21:24). The prayer “for the glory of Your name” is also Daniel’s (Daniel 9:18-19).",
+  "translation": [
+   {
+    "english": "rubble",
+    "greek": "עִי (iy)",
+    "verseRef": "v.1",
+    "meaning": "Heap of ruins.",
+    "gloss": "Ruin heap",
+    "strongs": "H5856",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "atone",
+    "greek": "כִּפֶּר (kaphar)",
+    "verseRef": "v.9",
+    "meaning": "To cover, atone, forgive.",
+    "gloss": "Cover sin",
+    "strongs": "H3722",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "captives",
+    "greek": "אַסִּיר (assir)",
+    "verseRef": "v.11",
+    "meaning": "Prisoner, captive.",
+    "gloss": "Prisoner",
+    "strongs": "H616",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 6:9-10",
+    "note": "How long until You avenge our blood?"
+   },
+   {
+    "ref": "Luke 21:20-24",
+    "note": "Jerusalem trampled by the Gentiles."
+   },
+   {
+    "ref": "Matthew 6:9",
+    "note": "Hallowed be Your name."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Kings 25:8-10",
+    "note": "Jerusalem burned by the Babylonians."
+   },
+   {
+    "ref": "Jeremiah 10:25",
+    "note": "Pour out Your wrath on the nations."
+   },
+   {
+    "ref": "Daniel 9:18-19",
+    "note": "For Your own sake, O my God."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "With Jerusalem in ruins and its dead unburied, the people ask how long God will be angry, confess their sins, and plead for help for the sake of His name.",
+   "settingLine": "Jerusalem reduced to rubble.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "586 BC",
+     "t": "Babylon destroys Jerusalem."
+    },
+    {
+     "h": "Edom’s gloating",
+     "t": "Neighbors joined the plunder."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Unburied dead",
+     "t": "The deepest disgrace."
+    },
+    {
+     "h": "Sevenfold",
+     "t": "Full measure."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Destruction layers",
+     "t": "Burned rooms, arrowheads and collapsed houses from 586 BC in the City of David."
+    },
+    {
+     "h": "Bullae",
+     "t": "Clay seal impressions baked hard in the fire that burned Jerusalem."
+    }
+   ],
+   "discussion": "The people pray “for the glory of Your name” (v.9). How would my prayers change if God’s name, not just my need, were at the center?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph (or a later singer of his guild)",
+   "genre": "Lament of the nation",
+   "audience": "God, for the glory of His name",
+   "refNotes": {
+    "2 Kings 25:8-10": "The fall of Jerusalem",
+    "Jeremiah 10:25": "The same prayer",
+    "Daniel 9:18-19": "For Your name"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The nations",
+     "d": "Invaded Jerusalem"
+    },
+    {
+     "n": "The captives",
+     "d": "Groaning"
+    },
+    {
+     "n": "God’s people",
+     "d": "The sheep of His pasture"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Jerusalem in ruins"
+    },
+    {
+     "when": "v.5-10",
+     "label": "How long? For Your name"
+    },
+    {
+     "when": "v.11-13",
+     "label": "Hear the captives"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The nations, O God, have invaded Your inheritance; they have defiled Your holy temple and reduced Jerusalem to rubble. They have poured out their blood like water all around Jerusalem, and there is no one to bury the dead. How long, O LORD? Will You be angry forever? Will Your jealousy burn like fire? Do not hold past sins against us; let Your compassion come quickly, for we are brought low. Help us, O God of our salvation, for the glory of Your name; deliver us and atone for our sins, for the sake of Your name. Why should the nations ask, Where is their God? Before our eyes, make known among the nations Your vengeance for the bloodshed of Your servants. Then we Your people, the sheep of Your pasture, will thank You forever; from generation to generation we will declare Your praise.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Hayez_017.jpg",
+   "caption": "The Destruction of the Temple of Jerusalem, by Francesco Hayez (1867, Gallerie dell’Accademia, Venice). It shows the Roman burning of the Second Temple in AD 70; Psalms 74 and 79 lament the earlier destruction by Babylon in 586 BC.",
+   "credit": "Francesco Hayez (1867), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

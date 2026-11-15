@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 65,
+ "title": "You Crown the Year with Your Bounty",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David. A song.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Praise awaits You, O God, in Zion; to You our vows will be fulfilled."
+  },
+  {
+   "num": 2,
+   "text": "O You who listen to prayer, all people will come to You."
+  },
+  {
+   "num": 3,
+   "text": "When iniquities prevail against me, You atone for our transgressions."
+  },
+  {
+   "num": 4,
+   "text": "Blessed is the one You choose and bring near to dwell in Your courts! We are filled with the goodness of Your house, the holiness of Your temple."
+  },
+  {
+   "num": 5,
+   "text": "With awesome deeds of righteousness You answer us, O God of our salvation, the hope of all the ends of the earth and of the farthest seas."
+  },
+  {
+   "num": 6,
+   "text": "You formed the mountains by Your power, having girded Yourself with might."
+  },
+  {
+   "num": 7,
+   "text": "You stilled the roaring of the seas, the pounding of their waves, and the tumult of the nations."
+  },
+  {
+   "num": 8,
+   "text": "Those who live far away fear Your wonders; You make the dawn and sunset shout for joy."
+  },
+  {
+   "num": 9,
+   "text": "You attend to the earth and water it; with abundance You enrich it. The streams of God are full of water, for You prepare our grain by providing for the earth."
+  },
+  {
+   "num": 10,
+   "text": "You soak its furrows and level its ridges; You soften it with showers and bless its growth."
+  },
+  {
+   "num": 11,
+   "text": "You crown the year with Your bounty, and Your paths overflow with plenty."
+  },
+  {
+   "num": 12,
+   "text": "The pastures of the wilderness overflow; the hills are robed with joy."
+  },
+  {
+   "num": 13,
+   "text": "The pastures are clothed with flocks, and the valleys are decked with grain. They shout in triumph; indeed, they sing."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 and 68-70 are “of David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Praise awaits You, O God, in Zion… O You who listen to prayer, all people will come to You” (vv.1-2). God forgives sins (v.3), and “blessed is the one You choose and bring near to dwell in Your courts” (v.4). He is the hope of the ends of the earth; He formed the mountains and “stilled the roaring of the seas… and the tumult of the nations” (vv.5-7). Then the psalm turns to the fields: “You attend to the earth and water it… You soak its furrows and level its ridges; You soften it with showers and bless its growth. You crown the year with Your bounty” (vv.9-11). The hills, pastures and valleys are dressed in joy: “they shout in triumph; indeed, they sing” (v.13).",
+  "custom": "Israel’s farming depended entirely on rain: the early rains in autumn softened the ground for plowing, and the late rains in spring filled out the grain (Deuteronomy 11:14). “The streams of God” (v.9) is a picture of the heavens holding water. Vows made in drought were paid at the Temple when harvest came (v.1).",
+  "timelineImmediate": "Psalm 66 calls all the earth to “come and see the works of God.”",
+  "timelineBible": "Paul told the people of Lystra that God “gives you rain from heaven and fruitful seasons” (Acts 14:17). Jesus said the Father “sends rain on the righteous and the unrighteous” (Matthew 5:45), and He stilled the sea (Mark 4:39), as v.7 says of God.",
+  "translation": [
+   {
+    "english": "atone",
+    "greek": "כִּפֶּר (kaphar)",
+    "verseRef": "v.3",
+    "meaning": "To cover, make atonement, forgive.",
+    "gloss": "Cover sin",
+    "strongs": "H3722",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "furrows",
+    "greek": "תֶּלֶם (telem)",
+    "verseRef": "v.10",
+    "meaning": "Furrow, the plowed line in a field.",
+    "gloss": "Furrow",
+    "strongs": "H8525",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "crown",
+    "greek": "עָטַר (atar)",
+    "verseRef": "v.11",
+    "meaning": "To surround, crown.",
+    "gloss": "Crown",
+    "strongs": "H5849",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 14:17",
+    "note": "Rain from heaven and fruitful seasons."
+   },
+   {
+    "ref": "Matthew 5:45",
+    "note": "He sends rain on the righteous and the unrighteous."
+   },
+   {
+    "ref": "Mark 4:39",
+    "note": "The wind died down, and it was perfectly calm."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 11:13-14",
+    "note": "The early and latter rains."
+   },
+   {
+    "ref": "Genesis 8:22",
+    "note": "Seedtime and harvest shall never cease."
+   },
+   {
+    "ref": "Joel 2:23-24",
+    "note": "The threshing floors will be full of grain."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God who hears prayer and forgives sin also waters the earth and crowns the year with harvest, until the hills and valleys seem to sing.",
+   "settingLine": "Fields of grain after the spring rains.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Harvest festivals",
+     "t": "Weeks and Tabernacles."
+    },
+    {
+     "h": "Rain theology",
+     "t": "Israel looked to God, not Baal, for rain."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Early and latter rains",
+     "t": "Autumn and spring."
+    },
+    {
+     "h": "Paying vows",
+     "t": "Thanks at harvest."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gezer Calendar",
+     "t": "A schoolboy’s list of the farming months, about 950 BC."
+    },
+    {
+     "h": "Threshing floors",
+     "t": "Flat rock floors where grain was threshed."
+    }
+   ],
+   "discussion": "“You crown the year with Your bounty” (v.11). What ordinary gifts this year have I failed to thank Him for?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Hymn of thanksgiving for harvest",
+   "audience": "God, who answers prayer",
+   "refNotes": {
+    "Deuteronomy 11:13-14": "Rain in its season",
+    "Genesis 8:22": "Seedtime and harvest",
+    "Joel 2:23-24": "Full threshing floors"
+   },
+   "peoplePlaces": [
+    {
+     "n": "God",
+     "d": "Hears prayer, waters the earth"
+    },
+    {
+     "n": "The chosen",
+     "d": "Dwell in His courts"
+    },
+    {
+     "n": "The ends of the earth",
+     "d": "Hope in Him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Praise in Zion"
+    },
+    {
+     "when": "v.5-8",
+     "label": "Lord of mountains and seas"
+    },
+    {
+     "when": "v.9-13",
+     "label": "The crowned year"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Praise awaits You, O God, in Zion; to You our vows will be fulfilled. O You who listen to prayer, all people will come to You. When iniquities prevail against me, You atone for our transgressions. Blessed is the one You choose and bring near to dwell in Your courts! We are filled with the goodness of Your house, the holiness of Your temple. You attend to the earth and water it; with abundance You enrich it. The streams of God are full of water, for You prepare our grain by providing for the earth. You crown the year with Your bounty, and Your paths overflow with plenty. The pastures are clothed with flocks, and the valleys are decked with grain. They shout in triumph; indeed, they sing.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "Olive trees and terraced fields in the hills of Judah. “You crown the year with Your bounty, and Your paths overflow with plenty” (Psalm 65:11).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

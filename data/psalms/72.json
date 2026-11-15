@@ -1,0 +1,261 @@
+{
+ "book": "Psalms",
+ "chapter": 72,
+ "title": "Endow the King with Your Justice",
+ "translation": "BSB",
+ "superscription": "Of Solomon.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Endow the king with Your justice, O God, and the son of the king with Your righteousness."
+  },
+  {
+   "num": 2,
+   "text": "May he judge Your people with righteousness and Your afflicted with justice."
+  },
+  {
+   "num": 3,
+   "text": "May the mountains bring peace to the people, and the hills bring righteousness."
+  },
+  {
+   "num": 4,
+   "text": "May he vindicate the afflicted among the people; may he save the children of the needy and crush the oppressor."
+  },
+  {
+   "num": 5,
+   "text": "May they fear him as long as the sun shines, as long as the moon remains, through all generations."
+  },
+  {
+   "num": 6,
+   "text": "May he be like rain that falls on freshly cut grass, like spring showers that water the earth."
+  },
+  {
+   "num": 7,
+   "text": "May the righteous flourish in his days and prosperity abound, until the moon is no more."
+  },
+  {
+   "num": 8,
+   "text": "May he rule from sea to sea, and from the Euphrates to the ends of the earth."
+  },
+  {
+   "num": 9,
+   "text": "May the nomads bow before him, and his enemies lick the dust."
+  },
+  {
+   "num": 10,
+   "text": "May the kings of Tarshish and distant shores bring tribute; may the kings of Sheba and Seba offer gifts."
+  },
+  {
+   "num": 11,
+   "text": "May all kings bow down to him and all nations serve him."
+  },
+  {
+   "num": 12,
+   "text": "For he will deliver the needy who cry out and the afflicted who have no helper."
+  },
+  {
+   "num": 13,
+   "text": "He will take pity on the poor and needy and save the lives of the oppressed."
+  },
+  {
+   "num": 14,
+   "text": "He will redeem them from oppression and violence, for their blood is precious in his sight."
+  },
+  {
+   "num": 15,
+   "text": "Long may he live! May gold from Sheba be given him. May people ever pray for him; may they bless him all day long."
+  },
+  {
+   "num": 16,
+   "text": "May there be an abundance of grain in the land; may it sway atop the hills. May its fruit trees flourish like the forests of Lebanon, and its people like the grass of the field."
+  },
+  {
+   "num": 17,
+   "text": "May his name endure forever; may his name continue as long as the sun shines. In him may all nations be blessed; may they call him blessed."
+  },
+  {
+   "num": 18,
+   "text": "Blessed be the LORD God, the God of Israel, who alone does marvelous deeds."
+  },
+  {
+   "num": 19,
+   "text": "And blessed be His glorious name forever; may all the earth be filled with His glory. Amen and amen."
+  },
+  {
+   "num": 20,
+   "text": "Thus conclude the prayers of David son of Jesse."
+  }
+ ],
+ "context": {
+  "author": "The title says “Of Solomon,” which may mean by Solomon or for him; v.20 closes Book Two with “Thus conclude the prayers of David son of Jesse.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Endow the king with Your justice, O God, and the son of the king with Your righteousness. May he judge Your people with righteousness and Your afflicted with justice” (vv.1-2). The prayer pictures an ideal reign: the king defends the poor and crushes the oppressor (v.4); he is “like rain that falls on freshly cut grass” (v.6); “may he rule from sea to sea” (v.8), and kings of Tarshish, Sheba and Seba bring gifts (v.10). The reason for his greatness: “For he will deliver the needy who cry out and the afflicted who have no helper… for their blood is precious in his sight” (vv.12-14). “May his name endure forever… In him may all nations be blessed” (v.17). A doxology closes Book Two (vv.18-19), and a note: “Thus conclude the prayers of David son of Jesse” (v.20).",
+  "custom": "Kings in the ancient Near East claimed to be shepherds and protectors of the weak; Hammurabi said he made justice shine so the strong would not oppress the weak. Tribute from distant lands was a sign of a great king (1 Kings 4:21; 10:23-25). Sheba was in southern Arabia, famous for gold, spices and incense.",
+  "timelineImmediate": "Psalm 73 opens Book Three with Asaph’s struggle over the prosperity of the wicked.",
+  "timelineBible": "The Queen of Sheba brought Solomon gold and spices (1 Kings 10:1-10), and the magi brought the child Jesus “gold and frankincense and myrrh” (Matthew 2:11; Isaiah 60:6). The blessing on the nations in v.17 echoes God’s promise to Abraham (Genesis 12:3; Galatians 3:8). Isaac Watts based his hymn ‘Jesus Shall Reign Where’er the Sun’ (1719) on this psalm.",
+  "translation": [
+   {
+    "english": "justice",
+    "greek": "מִשְׁפָּט (mishpat)",
+    "verseRef": "v.1",
+    "meaning": "Justice, right judgment, what is due.",
+    "gloss": "Justice",
+    "strongs": "H4941",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "rain",
+    "greek": "מָטַר (matar)",
+    "verseRef": "v.6",
+    "meaning": "Rain.",
+    "gloss": "Rain",
+    "strongs": "H4306",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Sheba",
+    "greek": "שְׁבָא (sheva)",
+    "verseRef": "v.10",
+    "meaning": "Sheba, a kingdom in southern Arabia.",
+    "gloss": "Sheba",
+    "strongs": "H7614",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 2:11",
+    "note": "Gold and frankincense and myrrh."
+   },
+   {
+    "ref": "Luke 1:32-33",
+    "note": "His kingdom will never end."
+   },
+   {
+    "ref": "Galatians 3:8",
+    "note": "All nations will be blessed through you."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Kings 10:1-10",
+    "note": "The Queen of Sheba visits Solomon."
+   },
+   {
+    "ref": "Isaiah 11:1-5",
+    "note": "He will judge the poor with righteousness."
+   },
+   {
+    "ref": "Isaiah 60:6",
+    "note": "All from Sheba will come, bearing gold and frankincense."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A prayer for the king to rule with God’s justice, defend the poor, and reign over all nations, so that all are blessed in him; it closes Book Two and the prayers of David.",
+   "settingLine": "A royal court receiving the nations.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Solomon’s reign",
+     "t": "Wealth, wisdom and tribute."
+    },
+    {
+     "h": "End of Book Two",
+     "t": "The prayers of David concluded."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Royal justice",
+     "t": "Kings claimed to protect the weak."
+    },
+    {
+     "h": "Tribute",
+     "t": "Gifts from distant kings."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Hammurabi’s code",
+     "t": "Its prologue says the king made justice prevail so the strong would not oppress the weak."
+    },
+    {
+     "h": "South Arabian inscriptions",
+     "t": "Record the kingdom of Saba (Sheba) and its incense trade."
+    }
+   ],
+   "discussion": "The king is great because “their blood is precious in his sight” (v.14). How does that picture of greatness compare with how I measure success?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Solomon (or for Solomon)",
+   "genre": "Royal psalm, prayer for the king",
+   "audience": "God, for the king",
+   "refNotes": {
+    "1 Kings 10:1-10": "Sheba’s gifts",
+    "Isaiah 11:1-5": "The just king",
+    "Isaiah 60:6": "Gold and frankincense"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The king",
+     "d": "Rules with justice"
+    },
+    {
+     "n": "The afflicted",
+     "d": "Defended"
+    },
+    {
+     "n": "The kings of Sheba and Seba",
+     "d": "Bring gifts"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Justice and peace"
+    },
+    {
+     "when": "v.8-11",
+     "label": "From sea to sea"
+    },
+    {
+     "when": "v.12-17",
+     "label": "The needy saved"
+    },
+    {
+     "when": "v.18-20",
+     "label": "Doxology; the prayers of David end"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Endow the king with Your justice, O God, and the son of the king with Your righteousness. May he judge Your people with righteousness and Your afflicted with justice. May he vindicate the afflicted among the people; may he save the children of the needy and crush the oppressor. May he be like rain that falls on freshly cut grass, like spring showers that water the earth. May he rule from sea to sea, and from the Euphrates to the ends of the earth. May all kings bow down to him and all nations serve him. For he will deliver the needy who cry out and the afflicted who have no helper. May his name endure forever; may his name continue as long as the sun shines. In him may all nations be blessed; may they call him blessed. And blessed be His glorious name forever; may all the earth be filled with His glory. Amen and amen. Thus conclude the prayers of David son of Jesse.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Visit_of_the_Queen_of_Sheba_to_King_Solomon%27,_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+   "caption": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890). Royal psalms such as Psalms 2 and 20 were sung for the kings of David’s line in Jerusalem.",
+   "credit": "Edward Poynter (1890), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

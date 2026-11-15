@@ -1,0 +1,205 @@
+{
+ "book": "Psalms",
+ "chapter": 67,
+ "title": "Let All the Peoples Praise You",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. With stringed instruments. A Psalm. A song.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "May God be gracious to us and bless us, and cause His face to shine upon us, Selah"
+  },
+  {
+   "num": 2,
+   "text": "that Your ways may be known on earth, Your salvation among all nations."
+  },
+  {
+   "num": 3,
+   "text": "Let the peoples praise You, O God; let all the peoples praise You."
+  },
+  {
+   "num": 4,
+   "text": "Let the nations be glad and sing for joy, for You judge the peoples justly and lead the nations of the earth. Selah"
+  },
+  {
+   "num": 5,
+   "text": "Let the peoples praise You, O God; let all the peoples praise You."
+  },
+  {
+   "num": 6,
+   "text": "The earth has yielded its harvest; God, our God, blesses us."
+  },
+  {
+   "num": 7,
+   "text": "God blesses us, that all the ends of the earth shall fear Him."
+  }
+ ],
+ "context": {
+  "author": "Not named; the title says only “a Psalm, a song.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“May God be gracious to us and bless us, and cause His face to shine upon us” (v.1), the words of the priestly blessing. But the blessing has a purpose: “that Your ways may be known on earth, Your salvation among all nations” (v.2). The refrain calls the world to worship: “Let the peoples praise You, O God; let all the peoples praise You” (vv.3, 5). God judges the peoples justly and leads the nations (v.4). “The earth has yielded its harvest; God, our God, blesses us. God blesses us, that all the ends of the earth shall fear Him” (vv.6-7).",
+  "custom": "Priests blessed the people with the words of Numbers 6:24-26 at the end of worship. Harvest was the visible sign of God’s blessing on the land. Jewish tradition reads this psalm during the Counting of the Omer, the 49 days between Passover and Pentecost, which run through the grain harvest.",
+  "timelineImmediate": "Psalm 68 celebrates God marching from Sinai to Zion.",
+  "timelineBible": "God’s promise to Abraham was that “all the families of the earth will be blessed through you” (Genesis 12:3). Simeon called the child Jesus “a light for revelation to the Gentiles” (Luke 2:32). Revelation sees “a multitude too large to count, from every nation and tribe and people and tongue” (Revelation 7:9).",
+  "translation": [
+   {
+    "english": "gracious",
+    "greek": "חָנַן (chanan)",
+    "verseRef": "v.1",
+    "meaning": "To be gracious, show favor.",
+    "gloss": "Show favor",
+    "strongs": "H2603",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "bless",
+    "greek": "בָּרַךְ (barakh)",
+    "verseRef": "v.1",
+    "meaning": "To bless; to kneel.",
+    "gloss": "Bless",
+    "strongs": "H1288",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "harvest",
+    "greek": "יְבוּל (yevul)",
+    "verseRef": "v.6",
+    "meaning": "Produce, harvest, yield of the land.",
+    "gloss": "Yield",
+    "strongs": "H2981",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 2:30-32",
+    "note": "A light for revelation to the Gentiles."
+   },
+   {
+    "ref": "Acts 13:47",
+    "note": "A light to the nations."
+   },
+   {
+    "ref": "Revelation 7:9-10",
+    "note": "A great multitude from every nation."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Numbers 6:24-26",
+    "note": "The LORD bless you and keep you."
+   },
+   {
+    "ref": "Genesis 12:2-3",
+    "note": "All the families of the earth will be blessed."
+   },
+   {
+    "ref": "Isaiah 49:6",
+    "note": "A light for the nations."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Israel prays the priestly blessing, asking God to bless them so that all nations will know His salvation, praise Him and fear Him.",
+   "settingLine": "Harvest fields and the nations watching.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The priestly blessing",
+     "t": "Spoken over Israel."
+    },
+    {
+     "h": "Counting the Omer",
+     "t": "Read through the harvest weeks."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Blessing",
+     "t": "Priests raised their hands over the people."
+    },
+    {
+     "h": "Harvest",
+     "t": "A sign of blessing."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ketef Hinnom amulets",
+     "t": "Silver scrolls with the priestly blessing, about 600 BC."
+    },
+    {
+     "h": "Grain storage pits",
+     "t": "Silos at Megiddo and elsewhere held the harvest."
+    }
+   ],
+   "discussion": "God blesses Israel “that Your ways may be known on earth” (v.2). How might God’s blessings to me be meant for others?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Harvest blessing for the nations",
+   "audience": "All the peoples",
+   "refNotes": {
+    "Numbers 6:24-26": "The priestly blessing",
+    "Genesis 12:2-3": "Blessed to bless",
+    "Isaiah 49:6": "Light for the nations"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Israel",
+     "d": "Asks to be blessed"
+    },
+    {
+     "n": "All the peoples",
+     "d": "Called to praise"
+    },
+    {
+     "n": "God",
+     "d": "Judges and leads the nations"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Bless us, that the nations may know"
+    },
+    {
+     "when": "v.3-5",
+     "label": "Let the peoples praise You"
+    },
+    {
+     "when": "v.6-7",
+     "label": "The harvest"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "May God be gracious to us and bless us, and cause His face to shine upon us, Selah that Your ways may be known on earth, Your salvation among all nations. Let the peoples praise You, O God; let all the peoples praise You. Let the nations be glad and sing for joy, for You judge the peoples justly and lead the nations of the earth. Selah The earth has yielded its harvest; God, our God, blesses us. God blesses us, that all the ends of the earth shall fear Him.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

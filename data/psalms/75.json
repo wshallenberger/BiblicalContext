@@ -1,0 +1,217 @@
+{
+ "book": "Psalms",
+ "chapter": 75,
+ "title": "God Is the Judge",
+ "translation": "BSB",
+ "superscription": "For the choirmaster: To the tune of \"Do Not Destroy.\" A Psalm of Asaph. A song.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "We give thanks to You, O God; we give thanks, for Your Name is near. The people declare Your wondrous works."
+  },
+  {
+   "num": 2,
+   "text": "\"When I choose a time, I will judge fairly."
+  },
+  {
+   "num": 3,
+   "text": "When the earth and all its dwellers quake, it is I who bear up its pillars. Selah"
+  },
+  {
+   "num": 4,
+   "text": "I say to the proud, 'Do not boast,' and to the wicked, 'Do not lift up your horn."
+  },
+  {
+   "num": 5,
+   "text": "Do not lift up your horn against heaven or speak with an outstretched neck.'\""
+  },
+  {
+   "num": 6,
+   "text": "For exaltation comes neither from east nor west, nor out of the desert,"
+  },
+  {
+   "num": 7,
+   "text": "but it is God who judges; He brings down one and exalts another."
+  },
+  {
+   "num": 8,
+   "text": "For a cup is in the hand of the LORD, full of foaming wine mixed with spices. He pours from His cup, and all the wicked of the earth drink it down to the dregs."
+  },
+  {
+   "num": 9,
+   "text": "But I will proclaim Him forever; I will sing praise to the God of Jacob."
+  },
+  {
+   "num": 10,
+   "text": "\"All the horns of the wicked I will cut off, but the horns of the righteous will be exalted.\""
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“We give thanks to You, O God; we give thanks, for Your Name is near” (v.1). Then God speaks: “When I choose a time, I will judge fairly. When the earth and all its dwellers quake, it is I who bear up its pillars” (vv.2-3). He warns the proud, “Do not lift up your horn” (vv.4-5). “For exaltation comes neither from east nor west, nor out of the desert, but it is God who judges; He brings down one and exalts another” (vv.6-7). “A cup is in the hand of the LORD, full of foaming wine… all the wicked of the earth drink it down to the dregs” (v.8). The singer will praise the God of Jacob, and God ends: “All the horns of the wicked I will cut off, but the horns of the righteous will be exalted” (v.10).",
+  "custom": "A horn, like a wild ox’s, stood for strength and pride; to lift it was to boast. The earth was pictured as resting on pillars (1 Samuel 2:8). The cup of wrath was mixed wine that made the drinker stagger, a picture of judgment (Jeremiah 25:15).",
+  "timelineImmediate": "Psalm 76 celebrates God who broke the weapons of war at Salem.",
+  "timelineBible": "Hannah sang, “He humbles and He exalts” (1 Samuel 2:7). Mary sang, “He has brought down rulers from their thrones, but has exalted the humble” (Luke 1:52). In Gethsemane Jesus prayed, “Let this cup pass from Me” (Matthew 26:39), the cup of judgment He drank for others.",
+  "translation": [
+   {
+    "english": "horn",
+    "greek": "קֶרֶן (qeren)",
+    "verseRef": "v.4",
+    "meaning": "Horn; strength, pride, power.",
+    "gloss": "Horn",
+    "strongs": "H7161",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "judges",
+    "greek": "שָׁפַט (shafat)",
+    "verseRef": "v.7",
+    "meaning": "To judge, govern.",
+    "gloss": "Judge",
+    "strongs": "H8199",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cup",
+    "greek": "כּוֹס (kos)",
+    "verseRef": "v.8",
+    "meaning": "Cup; one’s lot, often of judgment.",
+    "gloss": "Cup",
+    "strongs": "H3563",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 1:51-52",
+    "note": "He has brought down rulers from their thrones."
+   },
+   {
+    "ref": "Matthew 26:39",
+    "note": "Let this cup pass from Me."
+   },
+   {
+    "ref": "Revelation 14:10",
+    "note": "The wine of God’s anger."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 2:7-10",
+    "note": "Hannah: He brings low and He exalts."
+   },
+   {
+    "ref": "Jeremiah 25:15",
+    "note": "The cup of the wine of wrath."
+   },
+   {
+    "ref": "Isaiah 51:17",
+    "note": "You who drank the cup of His fury."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God declares that He will judge at His appointed time; exaltation comes from Him alone, the proud will drink His cup of wrath, and the righteous will be lifted up.",
+   "settingLine": "The earth shaking on its pillars.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Asaph’s psalms",
+     "t": "Psalms 73-83."
+    },
+    {
+     "h": "Do Not Destroy",
+     "t": "The tune of 57-59 and 75."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Horns",
+     "t": "Symbols of strength."
+    },
+    {
+     "h": "Mixed wine",
+     "t": "Spiced and strong."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Horned altars",
+     "t": "Horns on altar corners stood for power and refuge."
+    },
+    {
+     "h": "Drinking cups",
+     "t": "Painted Iron Age cups and kraters for mixing wine."
+    }
+   ],
+   "discussion": "“Exaltation comes neither from east nor west… but it is God who judges” (vv.6-7). Where am I looking for promotion or recognition?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Thanksgiving and oracle",
+   "audience": "The proud and the wicked",
+   "refNotes": {
+    "1 Samuel 2:7-10": "Hannah’s song",
+    "Jeremiah 25:15": "The cup of wrath",
+    "Isaiah 51:17": "Drunk to the dregs"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The people",
+     "d": "Give thanks"
+    },
+    {
+     "n": "The proud",
+     "d": "Warned"
+    },
+    {
+     "n": "God",
+     "d": "The Judge"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "Thanks"
+    },
+    {
+     "when": "v.2-5",
+     "label": "God speaks"
+    },
+    {
+     "when": "v.6-10",
+     "label": "The cup and the horns"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "We give thanks to You, O God; we give thanks, for Your Name is near. The people declare Your wondrous works. When I choose a time, I will judge fairly. When the earth and all its dwellers quake, it is I who bear up its pillars. Selah For exaltation comes neither from east nor west, nor out of the desert, but it is God who judges; He brings down one and exalts another. For a cup is in the hand of the LORD, full of foaming wine mixed with spices. He pours from His cup, and all the wicked of the earth drink it down to the dregs. But I will proclaim Him forever; I will sing praise to the God of Jacob.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

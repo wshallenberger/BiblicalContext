@@ -718,6 +718,35 @@
    ]
   },
   {
+   "id": "ps_shiloh",
+   "s": "land",
+   "z": 2,
+   "t": "The ark is captured; Shiloh falls",
+   "d": "c. 1050 BC",
+   "c": "a",
+   "r": "1 Samuel 4; Psalm 78:60-64",
+   "sum": "The Philistines defeat Israel at Ebenezer and capture the ark; Eli’s sons die and the sanctuary at Shiloh is lost. Psalm 78 remembers: “He abandoned the tabernacle of Shiloh” (Psalm 78:60).",
+   "ev": 628,
+   "go": [
+    "psalms",
+    78,
+    1
+   ],
+   "bk": [
+    [
+     8,
+     4,
+     4
+    ],
+    [
+     18,
+     78,
+     78
+    ]
+   ],
+   "n": "Excavations at Tel Shiloh found a destruction in the mid-11th century BC. Dates are approximate."
+  },
+  {
    "id": "saul",
    "s": "kingdom",
    "z": 1,
@@ -972,6 +1001,11 @@
      10,
      5,
      8
+    ],
+    [
+     18,
+     72,
+     72
     ]
    ]
   },
@@ -1107,6 +1141,35 @@
    ]
   },
   {
+   "id": "ps_samaria",
+   "s": "divided",
+   "z": 2,
+   "t": "Samaria falls to Assyria",
+   "d": "722 BC",
+   "c": "a",
+   "r": "2 Kings 17; Psalm 80",
+   "sum": "After a three-year siege Assyria captures Samaria and deports the northern tribes. Psalm 80 prays for Ephraim, Benjamin and Manasseh: “Restore us, O God” (Psalm 80:3).",
+   "ev": 630,
+   "go": [
+    "psalms",
+    80,
+    1
+   ],
+   "bk": [
+    [
+     11,
+     17,
+     17
+    ],
+    [
+     18,
+     80,
+     80
+    ]
+   ],
+   "n": "Psalm 80 names no date; the link is a common suggestion."
+  },
+  {
    "id": "hezekiah",
    "s": "divided",
    "z": 2,
@@ -1125,6 +1188,11 @@
      22,
      36,
      37
+    ],
+    [
+     18,
+     76,
+     76
     ]
    ]
   },
@@ -1227,6 +1295,16 @@
      11,
      25,
      25
+    ],
+    [
+     18,
+     74,
+     74
+    ],
+    [
+     18,
+     79,
+     79
     ]
    ]
   },

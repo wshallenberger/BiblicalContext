@@ -1,0 +1,230 @@
+{
+ "book": "Psalms",
+ "chapter": 63,
+ "title": "My Soul Thirsts for You",
+ "translation": "BSB",
+ "superscription": "A Psalm of David, when he was in the Wilderness of Judah.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O God, You are my God. Earnestly I seek You; my soul thirsts for You. My body yearns for You in a dry and weary land without water."
+  },
+  {
+   "num": 2,
+   "text": "So I have seen You in the sanctuary and beheld Your power and glory."
+  },
+  {
+   "num": 3,
+   "text": "Because Your loving devotion is better than life, my lips will glorify You."
+  },
+  {
+   "num": 4,
+   "text": "So I will bless You as long as I live; in Your name I will lift my hands."
+  },
+  {
+   "num": 5,
+   "text": "My soul is satisfied as with the richest of foods; with joyful lips my mouth will praise You."
+  },
+  {
+   "num": 6,
+   "text": "When I remember You on my bed, I think of You through the watches of the night."
+  },
+  {
+   "num": 7,
+   "text": "For You are my help; I will sing for joy in the shadow of Your wings."
+  },
+  {
+   "num": 8,
+   "text": "My soul clings to You; Your right hand upholds me."
+  },
+  {
+   "num": 9,
+   "text": "But those who seek my life to destroy it will go into the depths of the earth."
+  },
+  {
+   "num": 10,
+   "text": "They will fall to the power of the sword; they will become a portion for foxes."
+  },
+  {
+   "num": 11,
+   "text": "But the king will rejoice in God; all who swear by Him will exult, for the mouths of liars will be shut."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 and 68-70 are “of David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "THE WILDERNESS OF JUDAH",
+  "setting": "The title places it “when he was in the Wilderness of Judah,” either fleeing Saul or crossing the Kidron eastward when Absalom rebelled (2 Samuel 15:23). “O God, You are my God. Earnestly I seek You; my soul thirsts for You. My body yearns for You in a dry and weary land without water” (v.1). He remembers seeing God’s power and glory in the sanctuary (v.2). “Because Your loving devotion is better than life, my lips will glorify You” (v.3). His soul is satisfied as with a rich feast (v.5); he lies awake thinking of God “through the watches of the night” (v.6), singing “in the shadow of Your wings” (v.7). “My soul clings to You; Your right hand upholds me” (v.8). The king will rejoice in God (v.11).",
+  "custom": "The Judean wilderness east of Jerusalem drops to the Dead Sea through bare, dry hills with almost no water. The night was divided into three watches (Judges 7:19); a sleepless man counted them. “The richest of foods” (v.5) is literally ‘fat and fatness,’ the best portions of a feast.",
+  "timelineImmediate": "Psalm 64 asks God to hide the psalmist from enemies who aim words like arrows.",
+  "timelineBible": "The early church sang Psalm 63 every morning; the Apostolic Constitutions (about AD 380) call it the morning psalm. Jesus said, “Blessed are those who hunger and thirst for righteousness, for they will be filled” (Matthew 5:6), and Paul wrote, “For to me, to live is Christ, and to die is gain” (Philippians 1:21), the spirit of v.3.",
+  "translation": [
+   {
+    "english": "earnestly seek",
+    "greek": "שָׁחַר (shachar)",
+    "verseRef": "v.1",
+    "meaning": "To seek early, look for diligently; related to “dawn.”",
+    "gloss": "Seek at dawn",
+    "strongs": "H7836",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "thirsts",
+    "greek": "צָמֵא (tsame)",
+    "verseRef": "v.1",
+    "meaning": "To thirst.",
+    "gloss": "Thirst",
+    "strongs": "H6770",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "clings",
+    "greek": "דָּבַק (davaq)",
+    "verseRef": "v.8",
+    "meaning": "To cling, stick to, hold fast; used of a man clinging to his wife (Genesis 2:24).",
+    "gloss": "Cling",
+    "strongs": "H1692",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 5:6",
+    "note": "Blessed are those who hunger and thirst."
+   },
+   {
+    "ref": "John 4:13-14",
+    "note": "The water I give will never run dry."
+   },
+   {
+    "ref": "Philippians 1:21",
+    "note": "For me, to live is Christ."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 15:23",
+    "note": "David crosses the Kidron toward the wilderness."
+   },
+   {
+    "ref": "Psalm 42:1-2",
+    "note": "My soul thirsts for God."
+   },
+   {
+    "ref": "Isaiah 26:9",
+    "note": "My soul longs for You in the night."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.56,
+   "lng": 35.33,
+   "zoom": 6,
+   "placeName": "The Wilderness of Judah"
+  },
+  "overview": {
+   "summary": "In the dry wilderness of Judah David thirsts for God, finds His loving devotion better than life, and clings to Him through the night.",
+   "settingLine": "A dry and weary land without water.",
+   "placeName": "The Wilderness of Judah",
+   "history": [
+    {
+     "h": "David in the wilderness",
+     "t": "Fleeing Saul or Absalom."
+    },
+    {
+     "h": "The morning psalm",
+     "t": "Sung daily by the early church."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Night watches",
+     "t": "Three watches of the night."
+    },
+    {
+     "h": "Rich food",
+     "t": "The best portions of a feast."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Judean desert monasteries",
+     "t": "Monks lived in these hills from the 4th century, praying the Psalms."
+    },
+    {
+     "h": "Cisterns",
+     "t": "The only water in the wilderness was what people stored."
+    }
+   ],
+   "discussion": "“Your loving devotion is better than life” (v.3). What would have to be true for me to say that and mean it?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Psalm of longing and trust",
+   "audience": "God, my God",
+   "refNotes": {
+    "2 Samuel 15:23": "Into the wilderness",
+    "Psalm 42:1-2": "Thirst for God",
+    "Isaiah 26:9": "Longing at night"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Thirsting in the wilderness"
+    },
+    {
+     "n": "His enemies",
+     "d": "Seek his life"
+    },
+    {
+     "n": "The king",
+     "d": "Will rejoice in God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "My soul thirsts"
+    },
+    {
+     "when": "v.3-8",
+     "label": "Better than life"
+    },
+    {
+     "when": "v.9-11",
+     "label": "The king will rejoice"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "The Wilderness of Judah",
+    "lat": 31.56,
+    "lng": 35.33,
+    "verses": [],
+    "slug": "wilderness-of-judah"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     2
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O God, You are my God. Earnestly I seek You; my soul thirsts for You. My body yearns for You in a dry and weary land without water. Because Your loving devotion is better than life, my lips will glorify You. So I will bless You as long as I live; in Your name I will lift my hands. My soul is satisfied as with the richest of foods; with joyful lips my mouth will praise You. When I remember You on my bed, I think of You through the watches of the night. For You are my help; I will sing for joy in the shadow of Your wings. My soul clings to You; Your right hand upholds me.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "The bare hills of the Judean wilderness. “My body yearns for You in a dry and weary land without water” (Psalm 63:1).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

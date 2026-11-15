@@ -1,0 +1,197 @@
+{
+ "book": "Psalms",
+ "chapter": 70,
+ "title": "Make Haste, O God, to Deliver Me",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. Of David. To bring remembrance.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Make haste, O God, to deliver me! Hurry, O LORD, to help me!"
+  },
+  {
+   "num": 2,
+   "text": "May those who seek my life be ashamed and confounded; may those who wish me harm be repelled and humiliated."
+  },
+  {
+   "num": 3,
+   "text": "May those who say, \"Aha, aha!\" retreat because of their shame."
+  },
+  {
+   "num": 4,
+   "text": "May all who seek You rejoice and be glad in You; may those who love Your salvation always say, \"Let God be magnified!\""
+  },
+  {
+   "num": 5,
+   "text": "But I am poor and needy; hurry to me, O God. You are my help and my deliverer; O LORD, do not delay."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 and 68-70 are “of David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "This short psalm is almost word for word the last five verses of Psalm 40, used as a prayer on its own. “Make haste, O God, to deliver me! Hurry, O LORD, to help me!” (v.1). David asks that those who seek his life and mock him with “Aha, aha!” be turned back in shame (vv.2-3), and that all who seek God rejoice and say, “Let God be magnified!” (v.4). He ends: “But I am poor and needy; hurry to me, O God. You are my help and my deliverer; O LORD, do not delay” (v.5).",
+  "custom": "“To bring remembrance” (title) may connect the psalm with the memorial portion of an offering (Leviticus 2:2), or mean simply a prayer asking God to remember. Psalm 38 has the same note. The monks of the early church used v.1 as a constant short prayer; John Cassian (about AD 420) recommended it for every need.",
+  "timelineImmediate": "Psalm 71 is the prayer of an old man: “Do not discard me in my old age.”",
+  "timelineBible": "Psalm 40:13-17 contains nearly the same words, with “the LORD” where Psalm 70 often has “God.” The opening words became the start of the daily offices in Western churches: ‘O God, come to my aid; O Lord, make haste to help me.’ Hebrews invites us to find “grace to help us in our time of need” (Hebrews 4:16).",
+  "translation": [
+   {
+    "english": "hurry",
+    "greek": "חוּשׁ (chush)",
+    "verseRef": "v.1",
+    "meaning": "To hurry, hasten, come quickly.",
+    "gloss": "Hasten",
+    "strongs": "H2363",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "help",
+    "greek": "עֶזְרָה (ezrah)",
+    "verseRef": "v.1",
+    "meaning": "Help, aid.",
+    "gloss": "Help",
+    "strongs": "H5833",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "deliverer",
+    "greek": "פָּלַט (palat)",
+    "verseRef": "v.5",
+    "meaning": "To rescue, deliver, bring to safety.",
+    "gloss": "Rescue",
+    "strongs": "H6403",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 4:16",
+    "note": "Grace to help us in our time of need."
+   },
+   {
+    "ref": "Luke 18:7-8",
+    "note": "Will He delay in helping them?"
+   },
+   {
+    "ref": "2 Corinthians 12:9",
+    "note": "My grace is sufficient for you."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 40:13-17",
+    "note": "The same prayer."
+   },
+   {
+    "ref": "Isaiah 41:10",
+    "note": "I will help you; I will uphold you."
+   },
+   {
+    "ref": "Psalm 38:22",
+    "note": "Come quickly to help me."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A short, urgent prayer, the same as the end of Psalm 40: hurry to help me, turn back my mockers, let all who seek You rejoice; I am poor and needy.",
+   "settingLine": "A cry with no time to spare.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Psalm 40",
+     "t": "The source of these verses."
+    },
+    {
+     "h": "The church’s prayer",
+     "t": "Opening of the daily offices."
+    }
+   ],
+   "customs": [
+    {
+     "h": "“For remembrance”",
+     "t": "Perhaps with a memorial offering."
+    },
+    {
+     "h": "Short prayers",
+     "t": "Repeated by early monks."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Memorial offerings",
+     "t": "Small portions burned on the altar."
+    },
+    {
+     "h": "Monastic cells",
+     "t": "Desert monks’ cells in Egypt and Judea where such prayers were repeated."
+    }
+   ],
+   "discussion": "“O LORD, do not delay” (v.5). Do I feel free to pray this urgently? Why or why not?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Urgent prayer for help",
+   "audience": "God, my deliverer",
+   "refNotes": {
+    "Psalm 40:13-17": "A twin psalm",
+    "Isaiah 41:10": "I will help you",
+    "Psalm 38:22": "Another “for remembrance” psalm"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Poor and needy"
+    },
+    {
+     "n": "Mockers",
+     "d": "Say “Aha, aha!”"
+    },
+    {
+     "n": "All who seek God",
+     "d": "Rejoice"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Hurry to help me"
+    },
+    {
+     "when": "v.4",
+     "label": "Let God be magnified"
+    },
+    {
+     "when": "v.5",
+     "label": "Do not delay"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Make haste, O God, to deliver me! Hurry, O LORD, to help me! May those who seek my life be ashamed and confounded; may those who wish me harm be repelled and humiliated. May all who seek You rejoice and be glad in You; may those who love Your salvation always say, Let God be magnified! But I am poor and needy; hurry to me, O God. You are my help and my deliverer; O LORD, do not delay.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

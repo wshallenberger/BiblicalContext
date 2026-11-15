@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 62,
+ "title": "In God Alone My Soul Finds Rest",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. According to Jeduthun. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "In God alone my soul finds rest; my salvation comes from Him."
+  },
+  {
+   "num": 2,
+   "text": "He alone is my rock and my salvation. He is my fortress; I will never be shaken."
+  },
+  {
+   "num": 3,
+   "text": "How long will you threaten a man? Will all of you throw him down like a leaning wall or a tottering fence?"
+  },
+  {
+   "num": 4,
+   "text": "They fully intend to cast him down from his lofty perch; they delight in lies; with their mouths they bless, but inwardly they curse. Selah"
+  },
+  {
+   "num": 5,
+   "text": "Rest in God alone, O my soul, for my hope comes from Him."
+  },
+  {
+   "num": 6,
+   "text": "He alone is my rock and my salvation; He is my fortress; I will not be shaken."
+  },
+  {
+   "num": 7,
+   "text": "My salvation and my honor rest on God, my strong rock; my refuge is in God."
+  },
+  {
+   "num": 8,
+   "text": "Trust in Him at all times, O people; pour out your hearts before Him. God is our refuge. Selah"
+  },
+  {
+   "num": 9,
+   "text": "Lowborn men are but a vapor, the exalted but a lie. Weighed on the scale, they go up; together they are but a vapor."
+  },
+  {
+   "num": 10,
+   "text": "Place no trust in extortion, or false hope in stolen goods. If your riches increase, do not set your heart upon them."
+  },
+  {
+   "num": 11,
+   "text": "God has spoken once; I have heard this twice: that power belongs to God,"
+  },
+  {
+   "num": 12,
+   "text": "and loving devotion to You, O Lord. For You will repay each man according to his deeds."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 and 68-70 are “of David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“In God alone my soul finds rest; my salvation comes from Him. He alone is my rock and my salvation. He is my fortress; I will never be shaken” (vv.1-2). Enemies try to push David over “like a leaning wall or a tottering fence”; with their mouths they bless, but inwardly they curse (vv.3-4). He tells himself, “Rest in God alone, O my soul, for my hope comes from Him” (v.5), and then the people: “Trust in Him at all times, O people; pour out your hearts before Him” (v.8). People high or low are “but a vapor”; on the scales they weigh nothing (v.9). Do not trust in extortion or set your heart on riches (v.10). “God has spoken once; I have heard this twice: that power belongs to God, and loving devotion to You, O Lord” (vv.11-12).",
+  "custom": "The word translated “rest” (dumiyyah) means silence or stillness: a soul waiting quietly. Merchants weighed silver on balance scales; something that weighs nothing rises on the scale (v.9). “Once… twice” is a Hebrew way of saying something certain (Job 33:14; Proverbs 6:16).",
+  "timelineImmediate": "Psalm 63 is David’s prayer in the wilderness of Judah: “My soul thirsts for You.”",
+  "timelineBible": "Paul writes that God “will repay each one according to his deeds” (Romans 2:6), echoing v.12. Isaiah told Israel, “your strength would lie in quiet confidence” (Isaiah 30:15). Belshazzar was told, “You have been weighed on the scales and found deficient” (Daniel 5:27).",
+  "translation": [
+   {
+    "english": "rest",
+    "greek": "דּוּמִיָּה (dumiyyah)",
+    "verseRef": "v.1",
+    "meaning": "Silence, stillness, quiet waiting.",
+    "gloss": "Silence",
+    "strongs": "H1747",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "vapor",
+    "greek": "הֶבֶל (hevel)",
+    "verseRef": "v.9",
+    "meaning": "Breath, vapor; the key word of Ecclesiastes.",
+    "gloss": "Breath",
+    "strongs": "H1892",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "scale",
+    "greek": "מֹאזֵן (mozen)",
+    "verseRef": "v.9",
+    "meaning": "Balance, pair of scales.",
+    "gloss": "Scales",
+    "strongs": "H3976",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 2:6",
+    "note": "He will repay each one according to his deeds."
+   },
+   {
+    "ref": "Matthew 11:28-29",
+    "note": "You will find rest for your souls."
+   },
+   {
+    "ref": "1 Timothy 6:17",
+    "note": "Do not put your hope in the uncertainty of wealth."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 30:15",
+    "note": "In quietness and trust is your strength."
+   },
+   {
+    "ref": "Daniel 5:27",
+    "note": "Weighed on the scales and found deficient."
+   },
+   {
+    "ref": "Ecclesiastes 1:2",
+    "note": "Futility of futilities."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David rests his soul in God alone, his rock and fortress, calls the people to pour out their hearts to Him, and reminds them that people and riches weigh nothing beside God’s power and love.",
+   "settingLine": "A leaning wall and a quiet soul.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Jeduthun",
+     "t": "Named in the title."
+    },
+    {
+     "h": "Court intrigue",
+     "t": "Smiling enemies plotting a fall."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Balance scales",
+     "t": "Weighing silver."
+    },
+    {
+     "h": "“Once… twice”",
+     "t": "A way of stressing certainty."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Scale weights",
+     "t": "Stone shekel weights inscribed with their value are common finds in Judah."
+    },
+    {
+     "h": "Tottering walls",
+     "t": "Mud-brick walls collapsed easily without upkeep."
+    }
+   ],
+   "discussion": "“In God alone my soul finds rest” (v.1). What else do I try to rest in, and what happens when it shakes?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Psalm of trust",
+   "audience": "My own soul, and God’s people",
+   "refNotes": {
+    "Isaiah 30:15": "Quiet trust",
+    "Daniel 5:27": "Weighed and found wanting",
+    "Ecclesiastes 1:2": "Breath"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Rests in God"
+    },
+    {
+     "n": "Enemies",
+     "d": "Bless with mouths, curse inside"
+    },
+    {
+     "n": "The people",
+     "d": "Told to pour out their hearts"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "My rock and salvation"
+    },
+    {
+     "when": "v.5-8",
+     "label": "Rest, O my soul"
+    },
+    {
+     "when": "v.9-12",
+     "label": "Power belongs to God"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "In God alone my soul finds rest; my salvation comes from Him. He alone is my rock and my salvation. He is my fortress; I will never be shaken. Rest in God alone, O my soul, for my hope comes from Him. Trust in Him at all times, O people; pour out your hearts before Him. God is our refuge. Selah Lowborn men are but a vapor, the exalted but a lie. Weighed on the scale, they go up; together they are but a vapor. God has spoken once; I have heard this twice: that power belongs to God, and loving devotion to You, O Lord. For You will repay each man according to his deeds.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

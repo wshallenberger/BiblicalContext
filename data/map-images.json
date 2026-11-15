@@ -2878,6 +2878,67 @@
   ],
   "psalms:60": [
    "ps_masada"
+  ],
+  "psalms:61": [
+   "ps_masada"
+  ],
+  "psalms:62": [
+   "ps_harp"
+  ],
+  "psalms:63": [
+   "ps_judea"
+  ],
+  "psalms:64": [
+   "ps_harp"
+  ],
+  "psalms:65": [
+   "ps_scroll"
+  ],
+  "psalms:66": [
+   "ps_templemount"
+  ],
+  "psalms:67": [
+   "ps_scroll"
+  ],
+  "psalms:68": [
+   "ps_sinai",
+   "ps_scroll"
+  ],
+  "psalms:69": [
+   "ps_crucified"
+  ],
+  "psalms:70": [
+   "ps_harp"
+  ],
+  "psalms:71": [
+   "ps_harp"
+  ],
+  "psalms:72": [
+   "ps_sheba"
+  ],
+  "psalms:73": [
+   "ps_templemount"
+  ],
+  "psalms:74": [
+   "ps_hayez"
+  ],
+  "psalms:75": [
+   "ps_scroll"
+  ],
+  "psalms:76": [
+   "ps_lachish"
+  ],
+  "psalms:77": [
+   "ps_sinai"
+  ],
+  "psalms:78": [
+   "ps_shiloh"
+  ],
+  "psalms:79": [
+   "ps_hayez"
+  ],
+  "psalms:80": [
+   "ps_scroll"
   ]
  },
  "ac_ascmat": {
@@ -7373,5 +7434,37 @@
   "n": "En Gedi waterfall",
   "d": "A waterfall at En Gedi above the Dead Sea, where David hid from Saul among the caves and “the Rocks of the Wild Goats” (1 Samuel 24:2-3).",
   "a": "PikiWiki Israel / Wikimedia Commons"
+ },
+ "ps_hayez": {
+  "k": "art",
+  "f": "Francesco_Hayez_017.jpg",
+  "c": "The Destruction of the Temple of Jerusalem, by Francesco Hayez (1867, Gallerie dell’Accademia, Venice). It shows the Roman burning of the Second Temple in AD 70; Psalms 74 and 79 lament the earlier destruction by Babylon in 586 BC.",
+  "n": "Hayez, Destruction of the Temple",
+  "d": "The Destruction of the Temple of Jerusalem, by Francesco Hayez (1867, Gallerie dell’Accademia, Venice). It shows the Roman burning of the Second Temple in AD 70; Psalms 74 and 79 lament the earlier destruction by Babylon in 586 BC.",
+  "a": "Francesco Hayez (1867), public domain / Wikimedia Commons"
+ },
+ "ps_lachish": {
+  "k": "dig",
+  "f": "Lachish_Relief,_British_Museum.jpg",
+  "c": "Part of the Lachish relief from Sennacherib’s palace at Nineveh (British Museum): Judean prisoners brought before the Assyrian king after the fall of Lachish in 701 BC. Jerusalem itself was spared, the deliverance many hear in Psalm 76.",
+  "n": "The Lachish relief",
+  "d": "Part of the Lachish relief from Sennacherib’s palace at Nineveh (British Museum): Judean prisoners brought before the Assyrian king after the fall of Lachish in 701 BC. Jerusalem itself was spared, the deliverance many hear in Psalm 76.",
+  "a": "Photo: Mike Peel, CC BY-SA / Wikimedia Commons"
+ },
+ "ps_shiloh": {
+  "k": "dig",
+  "f": "116930_ancient_shiloh_site_shiloh_PikiWiki_Israel.jpg",
+  "c": "Tel Shiloh in the hill country of Ephraim, where the tabernacle stood in the days of the judges. “He abandoned the tabernacle of Shiloh, the tent He had pitched among men” (Psalm 78:60).",
+  "n": "Tel Shiloh",
+  "d": "Tel Shiloh in the hill country of Ephraim, where the tabernacle stood in the days of the judges. “He abandoned the tabernacle of Shiloh, the tent He had pitched among men” (Psalm 78:60).",
+  "a": "Zeev Stein / PikiWiki Israel, CC BY 2.5 / Wikimedia Commons"
+ },
+ "ps_sinai": {
+  "k": "now",
+  "f": "Mount_Moses.jpg",
+  "c": "The view from the summit of Jebel Musa, the traditional Mount Sinai. “The earth shook and the heavens poured down rain before God, the One on Sinai” (Psalm 68:8).",
+  "n": "Jebel Musa (Mount Sinai)",
+  "d": "The view from the summit of Jebel Musa, the traditional Mount Sinai. “The earth shook and the heavens poured down rain before God, the One on Sinai” (Psalm 68:8).",
+  "a": "Wikimedia Commons"
  }
 }

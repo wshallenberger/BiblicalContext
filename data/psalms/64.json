@@ -1,0 +1,217 @@
+{
+ "book": "Psalms",
+ "chapter": 64,
+ "title": "Hide Me from the Scheming of the Wicked",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hear, O God, my voice of complaint; preserve my life from dread of the enemy."
+  },
+  {
+   "num": 2,
+   "text": "Hide me from the scheming of the wicked, from the mob of workers of iniquity,"
+  },
+  {
+   "num": 3,
+   "text": "who sharpen their tongues like swords and aim their bitter words like arrows,"
+  },
+  {
+   "num": 4,
+   "text": "ambushing the innocent in seclusion, shooting suddenly, without fear."
+  },
+  {
+   "num": 5,
+   "text": "They hold fast to their evil purpose; they speak of hiding their snares. \"Who will see them?\" they say."
+  },
+  {
+   "num": 6,
+   "text": "They devise injustice and say, \"We have perfected a secret plan.\" For the inner man and the heart are mysterious."
+  },
+  {
+   "num": 7,
+   "text": "But God will shoot them with arrows; suddenly they will be wounded."
+  },
+  {
+   "num": 8,
+   "text": "They will be made to stumble, their own tongues turned against them. All who see will shake their heads."
+  },
+  {
+   "num": 9,
+   "text": "Then all mankind will fear and proclaim the work of God; so they will ponder what He has done."
+  },
+  {
+   "num": 10,
+   "text": "Let the righteous rejoice in the LORD and take refuge in Him; let all the upright in heart exult."
+  }
+ ],
+ "context": {
+  "author": "The title names David. In Book Two, Psalms 51-65 and 68-70 are “of David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hear, O God, my voice of complaint; preserve my life from dread of the enemy” (v.1). The wicked “sharpen their tongues like swords and aim their bitter words like arrows, ambushing the innocent in seclusion” (vv.3-4). They plot secretly and say, “Who will see them?” (v.5). But the tables turn: “God will shoot them with arrows; suddenly they will be wounded. They will be made to stumble, their own tongues turned against them” (vv.7-8). Then all people will fear and “proclaim the work of God” (v.9), and “the righteous rejoice in the LORD” (v.10).",
+  "custom": "Archers shot from hiding places, behind rocks or in ambush, and slander works the same way, from behind. Hunters hid snares on paths (v.5). In a world of honor and shame, a lie spread in secret could ruin a person’s name.",
+  "timelineImmediate": "Psalm 65 is a harvest hymn: “You crown the year with Your bounty.”",
+  "timelineBible": "James writes that no one can tame the tongue: “It is a restless evil, full of deadly poison” (James 3:8). Jesus said, “There is nothing concealed that will not be disclosed” (Luke 12:2). The reversal of vv.7-8 is the pattern of Proverbs 26:27.",
+  "translation": [
+   {
+    "english": "tongues",
+    "greek": "לָשׁוֹן (lashon)",
+    "verseRef": "v.3",
+    "meaning": "Tongue, speech.",
+    "gloss": "Tongue",
+    "strongs": "H3956",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "snares",
+    "greek": "מוֹקֵשׁ (moqesh)",
+    "verseRef": "v.5",
+    "meaning": "Snare, trap, lure.",
+    "gloss": "Trap",
+    "strongs": "H4170",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "arrows",
+    "greek": "חֵץ (chets)",
+    "verseRef": "v.7",
+    "meaning": "Arrow.",
+    "gloss": "Arrow",
+    "strongs": "H2671",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "James 3:7-8",
+    "note": "No one can tame the tongue."
+   },
+   {
+    "ref": "Luke 12:2-3",
+    "note": "Nothing concealed that will not be disclosed."
+   },
+   {
+    "ref": "Galatians 6:7",
+    "note": "Whatever a man sows, he will reap."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Proverbs 26:27",
+    "note": "He who digs a pit will fall into it."
+   },
+   {
+    "ref": "Jeremiah 9:8",
+    "note": "Their tongues are deadly arrows."
+   },
+   {
+    "ref": "Psalm 57:4",
+    "note": "Tongues like sharp swords."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David asks God to hide him from secret plotters whose words are arrows, and trusts that God will shoot His own arrows and turn their tongues against them.",
+   "settingLine": "Slander shot from hiding.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Court slander",
+     "t": "A danger to every leader."
+    },
+    {
+     "h": "Secret plots",
+     "t": "The wicked think no one sees."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Archers in ambush",
+     "t": "Shooting from cover."
+    },
+    {
+     "h": "Snares",
+     "t": "Hidden traps."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Arrowheads",
+     "t": "Bronze and iron arrowheads from many Iron Age destruction layers."
+    },
+    {
+     "h": "Lachish letters",
+     "t": "Military letters on potsherds, about 588 BC."
+    }
+   ],
+   "discussion": "Words can be arrows (v.3). Have I ever aimed words at someone from hiding? What would it take to stop?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Lament against slanderers",
+   "audience": "God, who shoots His arrows",
+   "refNotes": {
+    "Proverbs 26:27": "The trap returns",
+    "Jeremiah 9:8": "Arrow tongues",
+    "Psalm 57:4": "Sword tongues"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Slandered"
+    },
+    {
+     "n": "The wicked",
+     "d": "Plot in secret"
+    },
+    {
+     "n": "All mankind",
+     "d": "Will see God’s work"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Arrows of words"
+    },
+    {
+     "when": "v.7-9",
+     "label": "God’s arrow"
+    },
+    {
+     "when": "v.10",
+     "label": "Rejoice in the LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hear, O God, my voice of complaint; preserve my life from dread of the enemy. Hide me from the scheming of the wicked, from the mob of workers of iniquity, who sharpen their tongues like swords and aim their bitter words like arrows, But God will shoot them with arrows; suddenly they will be wounded. Then all mankind will fear and proclaim the work of God; so they will ponder what He has done. Let the righteous rejoice in the LORD and take refuge in Him; let all the upright in heart exult.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

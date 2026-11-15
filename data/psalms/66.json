@@ -1,0 +1,257 @@
+{
+ "book": "Psalms",
+ "chapter": 66,
+ "title": "Come and See the Works of God",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A song. A Psalm.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Make a joyful noise to God, all the earth!"
+  },
+  {
+   "num": 2,
+   "text": "Sing the glory of His name; make His praise glorious."
+  },
+  {
+   "num": 3,
+   "text": "Say to God, \"How awesome are Your deeds! So great is Your power that Your enemies cower before You."
+  },
+  {
+   "num": 4,
+   "text": "All the earth bows down to You; they sing praise to You; they sing praise to Your name.\" Selah"
+  },
+  {
+   "num": 5,
+   "text": "Come and see the works of God; how awesome are His deeds toward mankind."
+  },
+  {
+   "num": 6,
+   "text": "He turned the sea into dry land; they passed through the waters on foot; there we rejoiced in Him."
+  },
+  {
+   "num": 7,
+   "text": "He rules forever by His power; His eyes watch the nations. Do not let the rebellious exalt themselves. Selah"
+  },
+  {
+   "num": 8,
+   "text": "Bless our God, O peoples; let the sound of His praise be heard."
+  },
+  {
+   "num": 9,
+   "text": "He preserves our lives and keeps our feet from slipping."
+  },
+  {
+   "num": 10,
+   "text": "For You, O God, have tested us; You have refined us like silver."
+  },
+  {
+   "num": 11,
+   "text": "You led us into the net; You laid burdens on our backs."
+  },
+  {
+   "num": 12,
+   "text": "You let men ride over our heads; we went through fire and water, but You brought us into abundance."
+  },
+  {
+   "num": 13,
+   "text": "I will enter Your house with burnt offerings; I will fulfill my vows to You—"
+  },
+  {
+   "num": 14,
+   "text": "the vows that my lips promised and my mouth spoke in my distress."
+  },
+  {
+   "num": 15,
+   "text": "I will offer You fatlings as burnt offerings, with the fragrant smoke of rams; I will offer bulls and goats. Selah"
+  },
+  {
+   "num": 16,
+   "text": "Come and listen, all you who fear God, and I will declare what He has done for me."
+  },
+  {
+   "num": 17,
+   "text": "I cried out to Him with my mouth and praised Him with my tongue."
+  },
+  {
+   "num": 18,
+   "text": "If I had cherished iniquity in my heart, the Lord would not have listened."
+  },
+  {
+   "num": 19,
+   "text": "But God has surely heard; He has attended to the sound of my prayer."
+  },
+  {
+   "num": 20,
+   "text": "Blessed be God, who has not rejected my prayer or withheld from me His loving devotion!"
+  }
+ ],
+ "context": {
+  "author": "Not named; the title says only “a song, a Psalm.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Make a joyful noise to God, all the earth!” (v.1). “Come and see the works of God; how awesome are His deeds toward mankind. He turned the sea into dry land; they passed through the waters on foot” (vv.5-6). The people remember hard times as God’s refining: “For You, O God, have tested us; You have refined us like silver… we went through fire and water, but You brought us into abundance” (vv.10-12). Then one voice speaks: “I will enter Your house with burnt offerings; I will fulfill my vows to You” (v.13). “Come and listen, all you who fear God, and I will declare what He has done for me” (v.16). “If I had cherished iniquity in my heart, the Lord would not have listened. But God has surely heard” (vv.18-19).",
+  "custom": "A person rescued from trouble came to the Temple to pay the vow he had made, with sacrifices and a public testimony to the gathered worshipers (vv.13-16). Silver was refined in fire to remove dross (v.10). “Fire and water” was a proverbial phrase for every kind of danger (Isaiah 43:2).",
+  "timelineImmediate": "Psalm 67 prays that God’s face would shine so that all nations would know Him.",
+  "timelineBible": "“They passed through the waters on foot” recalls both the Red Sea (Exodus 14:21-22) and the Jordan (Joshua 3:14-17). Peter says trials refine faith like gold (1 Peter 1:6-7). The healed blind man said, “God does not listen to sinners” (John 9:31), a thought like v.18.",
+  "translation": [
+   {
+    "english": "joyful noise",
+    "greek": "רוּעַ (rua)",
+    "verseRef": "v.1",
+    "meaning": "To shout, raise a shout of joy or battle.",
+    "gloss": "Shout",
+    "strongs": "H7321",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "refined",
+    "greek": "צָרַף (tsaraf)",
+    "verseRef": "v.10",
+    "meaning": "To smelt, refine, test.",
+    "gloss": "Refine",
+    "strongs": "H6884",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "burnt offerings",
+    "greek": "עֹלָה (olah)",
+    "verseRef": "v.13",
+    "meaning": "Burnt offering, wholly burned on the altar.",
+    "gloss": "Ascending offering",
+    "strongs": "H5930",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Peter 1:6-7",
+    "note": "Faith refined by fire."
+   },
+   {
+    "ref": "John 9:31",
+    "note": "God does not listen to sinners."
+   },
+   {
+    "ref": "Revelation 15:3-4",
+    "note": "Great and wonderful are Your works."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 14:21-22",
+    "note": "Through the sea on dry ground."
+   },
+   {
+    "ref": "Joshua 3:14-17",
+    "note": "Crossing the Jordan."
+   },
+   {
+    "ref": "Isaiah 43:2",
+    "note": "When you pass through the waters, I will be with you."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "All the earth is called to praise God who brought Israel through sea and fire; then one worshiper pays his vows and tells what God has done for him.",
+   "settingLine": "A worshiper paying vows before the crowd.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The Exodus",
+     "t": "Remembered in worship."
+    },
+    {
+     "h": "National trials",
+     "t": "Seen as refining."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Paying vows",
+     "t": "Sacrifices and testimony."
+    },
+    {
+     "h": "Fire and water",
+     "t": "Every danger."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Horned altars",
+     "t": "Large altars for burnt offerings, as at Beersheba."
+    },
+    {
+     "h": "Silver hoards",
+     "t": "Hoards of cut silver show how silver was weighed and refined."
+    }
+   ],
+   "discussion": "“Come and listen… I will declare what He has done for me” (v.16). What has God done for me that someone else needs to hear?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Thanksgiving of the nation and of one worshiper",
+   "audience": "All the earth",
+   "refNotes": {
+    "Exodus 14:21-22": "The sea",
+    "Joshua 3:14-17": "The river",
+    "Isaiah 43:2": "Fire and water"
+   },
+   "peoplePlaces": [
+    {
+     "n": "All the earth",
+     "d": "Called to shout"
+    },
+    {
+     "n": "Israel",
+     "d": "Refined like silver"
+    },
+    {
+     "n": "The worshiper",
+     "d": "Pays his vows"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Come and see"
+    },
+    {
+     "when": "v.8-12",
+     "label": "Refined like silver"
+    },
+    {
+     "when": "v.13-20",
+     "label": "What He has done for me"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Make a joyful noise to God, all the earth! Sing the glory of His name; make His praise glorious. Come and see the works of God; how awesome are His deeds toward mankind. He turned the sea into dry land; they passed through the waters on foot; there we rejoiced in Him. For You, O God, have tested us; You have refined us like silver. You let men ride over our heads; we went through fire and water, but You brought us into abundance. Come and listen, all you who fear God, and I will declare what He has done for me. Blessed be God, who has not rejected my prayer or withheld from me His loving devotion!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

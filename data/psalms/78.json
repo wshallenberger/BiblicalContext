@@ -1,0 +1,491 @@
+{
+ "book": "Psalms",
+ "chapter": 78,
+ "title": "Tell the Next Generation",
+ "translation": "BSB",
+ "superscription": "A Maskil of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Give ear, O my people, to my instruction; listen to the words of my mouth."
+  },
+  {
+   "num": 2,
+   "text": "I will open my mouth in parables; I will utter things hidden from the beginning,"
+  },
+  {
+   "num": 3,
+   "text": "that we have heard and known and our fathers have relayed to us."
+  },
+  {
+   "num": 4,
+   "text": "We will not hide them from their children, but will declare to the next generation the praises of the LORD and His might, and the wonders He has performed."
+  },
+  {
+   "num": 5,
+   "text": "For He established a testimony in Jacob and appointed a law in Israel, which He commanded our fathers to teach to their children,"
+  },
+  {
+   "num": 6,
+   "text": "that the coming generation would know them— even children yet to be born— to arise and tell their own children"
+  },
+  {
+   "num": 7,
+   "text": "that they should put their confidence in God, not forgetting His works, but keeping His commandments."
+  },
+  {
+   "num": 8,
+   "text": "Then they will not be like their fathers, a stubborn and rebellious generation, whose heart was not loyal, whose spirit was not faithful to God."
+  },
+  {
+   "num": 9,
+   "text": "The archers of Ephraim turned back on the day of battle."
+  },
+  {
+   "num": 10,
+   "text": "They failed to keep God's covenant and refused to live by His law."
+  },
+  {
+   "num": 11,
+   "text": "They forgot what He had done, the wonders He had shown them."
+  },
+  {
+   "num": 12,
+   "text": "He worked wonders before their fathers in the land of Egypt, in the region of Zoan."
+  },
+  {
+   "num": 13,
+   "text": "He split the sea and brought them through; He set the waters upright like a wall."
+  },
+  {
+   "num": 14,
+   "text": "He led them with a cloud by day and with a light of fire all night."
+  },
+  {
+   "num": 15,
+   "text": "He split the rocks in the wilderness and gave them drink as abundant as the seas."
+  },
+  {
+   "num": 16,
+   "text": "He brought streams from the stone and made water flow down like rivers."
+  },
+  {
+   "num": 17,
+   "text": "But they continued to sin against Him, rebelling in the desert against the Most High."
+  },
+  {
+   "num": 18,
+   "text": "They willfully tested God by demanding the food they craved."
+  },
+  {
+   "num": 19,
+   "text": "They spoke against God, saying, \"Can God really prepare a table in the wilderness?"
+  },
+  {
+   "num": 20,
+   "text": "When He struck the rock, water gushed out and torrents raged. But can He also give bread or supply His people with meat?\""
+  },
+  {
+   "num": 21,
+   "text": "Therefore the LORD heard and was filled with wrath; so a fire was kindled against Jacob, and His anger flared against Israel,"
+  },
+  {
+   "num": 22,
+   "text": "because they did not believe God or rely on His salvation."
+  },
+  {
+   "num": 23,
+   "text": "Yet He commanded the clouds above and opened the doors of the heavens."
+  },
+  {
+   "num": 24,
+   "text": "He rained down manna for them to eat; He gave them grain from heaven."
+  },
+  {
+   "num": 25,
+   "text": "Man ate the bread of angels; He sent them food in abundance."
+  },
+  {
+   "num": 26,
+   "text": "He stirred the east wind from the heavens and drove the south wind by His might."
+  },
+  {
+   "num": 27,
+   "text": "He rained meat on them like dust, and winged birds like the sand of the sea."
+  },
+  {
+   "num": 28,
+   "text": "He felled them in the midst of their camp, all around their dwellings."
+  },
+  {
+   "num": 29,
+   "text": "So they ate and were well filled, for He gave them what they craved."
+  },
+  {
+   "num": 30,
+   "text": "Yet before they had filled their desire, with the food still in their mouths,"
+  },
+  {
+   "num": 31,
+   "text": "God's anger flared against them, and He put to death their strongest and subdued the young men of Israel."
+  },
+  {
+   "num": 32,
+   "text": "In spite of all this, they kept on sinning; despite His wonderful works, they did not believe."
+  },
+  {
+   "num": 33,
+   "text": "So He ended their days in futility, and their years in sudden terror."
+  },
+  {
+   "num": 34,
+   "text": "When He slew them, they would seek Him; they repented and searched for God."
+  },
+  {
+   "num": 35,
+   "text": "And they remembered that God was their Rock, that God Most High was their Redeemer."
+  },
+  {
+   "num": 36,
+   "text": "But they deceived Him with their mouths, and lied to Him with their tongues."
+  },
+  {
+   "num": 37,
+   "text": "Their hearts were disloyal to Him, and they were unfaithful to His covenant."
+  },
+  {
+   "num": 38,
+   "text": "And yet He was compassionate; He forgave their iniquity and did not destroy them. He often restrained His anger and did not unleash His full wrath."
+  },
+  {
+   "num": 39,
+   "text": "He remembered that they were but flesh, a passing breeze that does not return."
+  },
+  {
+   "num": 40,
+   "text": "How often they disobeyed Him in the wilderness and grieved Him in the desert!"
+  },
+  {
+   "num": 41,
+   "text": "Again and again they tested God and provoked the Holy One of Israel."
+  },
+  {
+   "num": 42,
+   "text": "They did not remember His power— the day He redeemed them from the adversary,"
+  },
+  {
+   "num": 43,
+   "text": "when He performed His signs in Egypt and His wonders in the fields of Zoan."
+  },
+  {
+   "num": 44,
+   "text": "He turned their rivers to blood, and from their streams they could not drink."
+  },
+  {
+   "num": 45,
+   "text": "He sent swarms of flies that devoured them, and frogs that devastated them."
+  },
+  {
+   "num": 46,
+   "text": "He gave their crops to the grasshopper, the fruit of their labor to the locust."
+  },
+  {
+   "num": 47,
+   "text": "He killed their vines with hailstones and their sycamore-figs with sleet."
+  },
+  {
+   "num": 48,
+   "text": "He abandoned their cattle to the hail and their livestock to bolts of lightning."
+  },
+  {
+   "num": 49,
+   "text": "He unleashed His fury against them, wrath, indignation, and calamity— a band of destroying angels."
+  },
+  {
+   "num": 50,
+   "text": "He cleared a path for His anger; He did not spare them from death but delivered their lives to the plague."
+  },
+  {
+   "num": 51,
+   "text": "He struck all the firstborn of Egypt, the virility in the tents of Ham."
+  },
+  {
+   "num": 52,
+   "text": "He led out His people like sheep and guided them like a flock in the wilderness."
+  },
+  {
+   "num": 53,
+   "text": "He led them safely, so they did not fear, but the sea engulfed their enemies."
+  },
+  {
+   "num": 54,
+   "text": "He brought them to His holy land, to the mountain His right hand had acquired."
+  },
+  {
+   "num": 55,
+   "text": "He drove out nations before them and apportioned their inheritance; He settled the tribes of Israel in their tents."
+  },
+  {
+   "num": 56,
+   "text": "But they tested and disobeyed God Most High, for they did not keep His decrees."
+  },
+  {
+   "num": 57,
+   "text": "They turned back and were faithless like their fathers, twisted like a faulty bow."
+  },
+  {
+   "num": 58,
+   "text": "They enraged Him with their high places and provoked His jealousy with their idols."
+  },
+  {
+   "num": 59,
+   "text": "On hearing it, God was furious and rejected Israel completely."
+  },
+  {
+   "num": 60,
+   "text": "He abandoned the tabernacle of Shiloh, the tent He had pitched among men."
+  },
+  {
+   "num": 61,
+   "text": "He delivered His strength to captivity, and His splendor to the hand of the adversary."
+  },
+  {
+   "num": 62,
+   "text": "He surrendered His people to the sword because He was enraged by His heritage."
+  },
+  {
+   "num": 63,
+   "text": "Fire consumed His young men, and their maidens were left without wedding songs."
+  },
+  {
+   "num": 64,
+   "text": "His priests fell by the sword, but their widows could not lament."
+  },
+  {
+   "num": 65,
+   "text": "Then the Lord awoke as from sleep, like a mighty warrior overcome by wine."
+  },
+  {
+   "num": 66,
+   "text": "He beat back His foes; He put them to everlasting shame."
+  },
+  {
+   "num": 67,
+   "text": "He rejected the tent of Joseph and refused the tribe of Ephraim."
+  },
+  {
+   "num": 68,
+   "text": "But He chose the tribe of Judah, Mount Zion, which He loved."
+  },
+  {
+   "num": 69,
+   "text": "He built His sanctuary like the heights, like the earth He has established forever."
+  },
+  {
+   "num": 70,
+   "text": "He chose David His servant and took him from the sheepfolds;"
+  },
+  {
+   "num": 71,
+   "text": "from tending the ewes He brought him to be shepherd of His people Jacob, of Israel His inheritance."
+  },
+  {
+   "num": 72,
+   "text": "So David shepherded them with integrity of heart and guided them with skillful hands."
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "FROM ZOAN TO SHILOH TO ZION",
+  "setting": "“Give ear, O my people, to my instruction… I will open my mouth in parables; I will utter things hidden from the beginning” (vv.1-2). The aim: to “declare to the next generation the praises of the LORD” so that children “put their confidence in God” and are not “like their fathers, a stubborn and rebellious generation” (vv.4-8). Then 72 verses of history: the wonders in Egypt “in the region of Zoan,” the sea, the cloud and fire, water from the rock (vv.12-16); Israel’s complaints, the manna, “the bread of angels,” and the quail (vv.17-31); God’s mercy: “He remembered that they were but flesh” (v.39); the plagues (vv.43-51); the land; the idolatry; and the disaster when God “abandoned the tabernacle of Shiloh” and let the ark be captured (vv.56-64). At last He chose Judah and Mount Zion, “He chose David His servant and took him from the sheepfolds… to be shepherd of His people Jacob” (vv.70-71).",
+  "custom": "Zoan (Tanis) was a royal city in the Nile Delta. Shiloh in Ephraim held the tabernacle in the days of the judges, until the Philistines captured the ark at the battle of Ebenezer (1 Samuel 4). History was taught as a story with a moral: “parables” (mashal) here means lessons drawn from the past.",
+  "timelineImmediate": "Psalm 79 laments Jerusalem in ruins: “The nations, O God, have invaded Your inheritance.”",
+  "timelineBible": "Matthew quotes v.2 to explain why Jesus taught in parables (Matthew 13:34-35). Jesus called Himself the true bread from heaven, greater than the manna of v.24 (John 6:31-35). Paul retells the wilderness story as a warning for the church (1 Corinthians 10:1-11). Jeremiah told Jerusalem, “go now to the place in Shiloh” (Jeremiah 7:12) and see what God did to it.",
+  "translation": [
+   {
+    "english": "parables",
+    "greek": "מָשָׁל (mashal)",
+    "verseRef": "v.2",
+    "meaning": "Proverb, parable, lesson; the word that names Proverbs.",
+    "gloss": "Saying",
+    "strongs": "H4912",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "manna",
+    "greek": "מָן (man)",
+    "verseRef": "v.24",
+    "meaning": "Manna, “What is it?” (Exodus 16:15).",
+    "gloss": "Manna",
+    "strongs": "H4478",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Shiloh",
+    "greek": "שִׁלוֹ (shiloh)",
+    "verseRef": "v.60",
+    "meaning": "Shiloh, where the tabernacle stood.",
+    "gloss": "Shiloh",
+    "strongs": "H7887",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 13:34-35",
+    "note": "I will open My mouth in parables."
+   },
+   {
+    "ref": "John 6:31-35",
+    "note": "I am the bread of life."
+   },
+   {
+    "ref": "1 Corinthians 10:1-11",
+    "note": "These things happened as examples."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 16:4-15",
+    "note": "Bread from heaven."
+   },
+   {
+    "ref": "1 Samuel 4:10-11",
+    "note": "The ark of God is captured."
+   },
+   {
+    "ref": "Jeremiah 7:12",
+    "note": "Go to My place in Shiloh."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.056,
+   "lng": 35.29,
+   "zoom": 6,
+   "placeName": "Shiloh (Tel Shiloh)"
+  },
+  "overview": {
+   "summary": "A long history lesson for the next generation: God’s wonders from Egypt to the wilderness, Israel’s repeated rebellion, His mercy and judgment at Shiloh, and His choice of Zion and David the shepherd.",
+   "settingLine": "From the fields of Zoan to the sheepfolds of David.",
+   "placeName": "Shiloh (Tel Shiloh)",
+   "history": [
+    {
+     "h": "Shiloh’s fall",
+     "t": "The ark captured by the Philistines."
+    },
+    {
+     "h": "David chosen",
+     "t": "From the sheepfolds."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Teaching children",
+     "t": "Each generation told the next."
+    },
+    {
+     "h": "Parables",
+     "t": "Lessons from history."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tel Shiloh",
+     "t": "Excavations found Iron Age storerooms and signs of destruction about 1050 BC."
+    },
+    {
+     "h": "Tanis",
+     "t": "Zoan in the Nile Delta, a later royal capital of Egypt."
+    }
+   ],
+   "discussion": "The psalm was written so the next generation would not repeat their fathers’ mistakes (vv.6-8). What lessons from my own story should I pass on?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Historical teaching psalm",
+   "audience": "The people, and the next generation",
+   "refNotes": {
+    "Exodus 16:4-15": "Manna",
+    "1 Samuel 4:10-11": "Shiloh’s fall",
+    "Jeremiah 7:12": "Remember Shiloh"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The fathers",
+     "d": "Stubborn and rebellious"
+    },
+    {
+     "n": "Moses’ generation",
+     "d": "Fed with manna"
+    },
+    {
+     "n": "David",
+     "d": "Taken from the sheepfolds"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Tell the next generation"
+    },
+    {
+     "when": "v.9-39",
+     "label": "Wonders and rebellion in the wilderness"
+    },
+    {
+     "when": "v.40-64",
+     "label": "Egypt to Shiloh"
+    },
+    {
+     "when": "v.65-72",
+     "label": "Zion and David"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Shiloh (Tel Shiloh)",
+    "lat": 32.056,
+    "lng": 35.29,
+    "verses": [
+     60
+    ],
+    "slug": "shiloh"
+   },
+   {
+    "name": "Zoan (Tanis) in the Nile Delta",
+    "lat": 30.98,
+    "lng": 31.88,
+    "verses": [
+     12,
+     43
+    ],
+    "slug": "zoan"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     68,
+     69
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Give ear, O my people, to my instruction; listen to the words of my mouth. I will open my mouth in parables; I will utter things hidden from the beginning, We will not hide them from their children, but will declare to the next generation the praises of the LORD and His might, and the wonders He has performed. that they should put their confidence in God, not forgetting His works, but keeping His commandments. He rained down manna for them to eat; He gave them grain from heaven. And yet He was compassionate; He forgave their iniquity and did not destroy them. He often restrained His anger and did not unleash His full wrath. He abandoned the tabernacle of Shiloh, the tent He had pitched among men. But He chose the tribe of Judah, Mount Zion, which He loved. He chose David His servant and took him from the sheepfolds; So David shepherded them with integrity of heart and guided them with skillful hands.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/116930_ancient_shiloh_site_shiloh_PikiWiki_Israel.jpg",
+   "caption": "Tel Shiloh in the hill country of Ephraim, where the tabernacle stood in the days of the judges. “He abandoned the tabernacle of Shiloh, the tent He had pitched among men” (Psalm 78:60).",
+   "credit": "Zeev Stein / PikiWiki Israel, CC BY 2.5 / Wikimedia Commons"
+  }
+ }
+}

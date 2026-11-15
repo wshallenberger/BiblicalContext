@@ -1,0 +1,257 @@
+{
+ "book": "Psalms",
+ "chapter": 77,
+ "title": "I Will Remember the Works of the LORD",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. According to Jeduthun. A Psalm of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I cried out to God; I cried aloud to God to hear me."
+  },
+  {
+   "num": 2,
+   "text": "In the day of trouble I sought the Lord; through the night my outstretched hands did not grow weary; my soul refused to be comforted."
+  },
+  {
+   "num": 3,
+   "text": "I remembered You, O God, and I groaned; I mused and my spirit grew faint. Selah"
+  },
+  {
+   "num": 4,
+   "text": "You have kept my eyes from closing; I am too troubled to speak."
+  },
+  {
+   "num": 5,
+   "text": "I considered the days of old, the years long in the past."
+  },
+  {
+   "num": 6,
+   "text": "At night I remembered my song; in my heart I mused, and my spirit pondered:"
+  },
+  {
+   "num": 7,
+   "text": "\"Will the Lord spurn us forever and never show His favor again?"
+  },
+  {
+   "num": 8,
+   "text": "Is His loving devotion gone forever? Has His promise failed for all time?"
+  },
+  {
+   "num": 9,
+   "text": "Has God forgotten to be gracious? Has His anger shut off His compassion?\" Selah"
+  },
+  {
+   "num": 10,
+   "text": "So I said, \"I am grieved that the right hand of the Most High has changed.\""
+  },
+  {
+   "num": 11,
+   "text": "I will remember the works of the LORD; yes, I will remember Your wonders of old."
+  },
+  {
+   "num": 12,
+   "text": "I will reflect on all You have done and ponder Your mighty deeds."
+  },
+  {
+   "num": 13,
+   "text": "Your way, O God, is holy. What god is so great as our God?"
+  },
+  {
+   "num": 14,
+   "text": "You are the God who works wonders; You display Your strength among the peoples."
+  },
+  {
+   "num": 15,
+   "text": "With power You redeemed Your people, the sons of Jacob and Joseph. Selah"
+  },
+  {
+   "num": 16,
+   "text": "The waters saw You, O God; the waters saw You and swirled; even the depths were shaken."
+  },
+  {
+   "num": 17,
+   "text": "The clouds poured down water; the skies resounded with thunder; Your arrows flashed back and forth."
+  },
+  {
+   "num": 18,
+   "text": "Your thunder resounded in the whirlwind; the lightning lit up the world; the earth trembled and quaked."
+  },
+  {
+   "num": 19,
+   "text": "Your path led through the sea, Your way through the mighty waters, but Your footprints were not to be found."
+  },
+  {
+   "num": 20,
+   "text": "You led Your people like a flock by the hand of Moses and Aaron."
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I cried out to God; I cried aloud to God to hear me. In the day of trouble I sought the Lord; through the night my outstretched hands did not grow weary; my soul refused to be comforted” (vv.1-2). Sleepless, Asaph asks the hardest questions: “Will the Lord spurn us forever?… Is His loving devotion gone forever? Has His promise failed for all time? Has God forgotten to be gracious?” (vv.7-9). Then he makes a choice: “I will remember the works of the LORD; yes, I will remember Your wonders of old” (v.11). He remembers the Exodus: “The waters saw You, O God… Your path led through the sea, Your way through the mighty waters, but Your footprints were not to be found. You led Your people like a flock by the hand of Moses and Aaron” (vv.16-20).",
+  "custom": "People prayed at night with hands stretched out (Lamentations 2:19). Remembering God’s past acts was central to Israel’s faith, built into its feasts (Exodus 12:14). The storm imagery of vv.16-18 pictures the crossing of the sea as a mighty thunderstorm, as in Exodus 14:24.",
+  "timelineImmediate": "Psalm 78 is a long teaching poem on Israel’s history, from Egypt to David.",
+  "timelineBible": "Jesus calmed the sea, and the disciples asked, “Who is this, that even the wind and the sea obey Him?” (Mark 4:41). Habakkuk 3:10-15 uses the same picture of God trampling the sea. Lamentations makes the same turn: “Yet I call this to mind, and therefore I have hope” (Lamentations 3:21).",
+  "translation": [
+   {
+    "english": "remember",
+    "greek": "זָכַר (zakhar)",
+    "verseRef": "v.11",
+    "meaning": "To remember, call to mind.",
+    "gloss": "Remember",
+    "strongs": "H2142",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wonders",
+    "greek": "פֶּלֶא (pele)",
+    "verseRef": "v.11",
+    "meaning": "Wonder, marvel.",
+    "gloss": "Wonder",
+    "strongs": "H6382",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "footprints",
+    "greek": "עָקֵב (aqev)",
+    "verseRef": "v.19",
+    "meaning": "Heel, footprint, track.",
+    "gloss": "Track",
+    "strongs": "H6119",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Mark 4:39-41",
+    "note": "Even the winds and the sea obey Him."
+   },
+   {
+    "ref": "Hebrews 11:29",
+    "note": "By faith they passed through the Red Sea."
+   },
+   {
+    "ref": "2 Corinthians 1:8-10",
+    "note": "He has delivered us, and He will deliver us."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 14:21-31",
+    "note": "The sea divided."
+   },
+   {
+    "ref": "Habakkuk 3:10-15",
+    "note": "You trampled the sea with Your horses."
+   },
+   {
+    "ref": "Lamentations 3:19-24",
+    "note": "Yet I call this to mind."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "In a sleepless night Asaph asks whether God has forgotten to be gracious, then chooses to remember His wonders, above all the path through the sea with unseen footprints.",
+   "settingLine": "A sleepless night remembering the sea.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Jeduthun",
+     "t": "Named in the title."
+    },
+    {
+     "h": "The Exodus",
+     "t": "The heart of Israel’s memory."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Night prayer",
+     "t": "Hands stretched out."
+    },
+    {
+     "h": "Remembering",
+     "t": "Built into the feasts."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Red Sea route",
+     "t": "The route of the crossing is debated."
+    },
+    {
+     "h": "Egyptian reliefs",
+     "t": "Temple reliefs show the kind of chariot army that pursued Israel."
+    }
+   ],
+   "discussion": "Asaph’s turning point was “I will remember” (v.11). What works of God in my past do I need to remember tonight?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Lament that turns to remembrance",
+   "audience": "God, in a sleepless night",
+   "refNotes": {
+    "Exodus 14:21-31": "The crossing",
+    "Habakkuk 3:10-15": "God over the waters",
+    "Lamentations 3:19-24": "Hope remembered"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Asaph",
+     "d": "Sleepless"
+    },
+    {
+     "n": "Moses and Aaron",
+     "d": "Led the flock"
+    },
+    {
+     "n": "The sons of Jacob and Joseph",
+     "d": "Redeemed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-9",
+     "label": "Has God forgotten?"
+    },
+    {
+     "when": "v.10-15",
+     "label": "I will remember"
+    },
+    {
+     "when": "v.16-20",
+     "label": "Your path through the sea"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I cried out to God; I cried aloud to God to hear me. In the day of trouble I sought the Lord; through the night my outstretched hands did not grow weary; my soul refused to be comforted. Will the Lord spurn us forever and never show His favor again? Is His loving devotion gone forever? Has His promise failed for all time? Has God forgotten to be gracious? Has His anger shut off His compassion? Selah I will remember the works of the LORD; yes, I will remember Your wonders of old. Your way, O God, is holy. What god is so great as our God? Your path led through the sea, Your way through the mighty waters, but Your footprints were not to be found. You led Your people like a flock by the hand of Moses and Aaron.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

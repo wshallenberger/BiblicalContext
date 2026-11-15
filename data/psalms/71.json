@@ -1,0 +1,272 @@
+{
+ "book": "Psalms",
+ "chapter": 71,
+ "title": "Do Not Forsake Me When I Am Old",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "In You, O LORD, I have taken refuge; let me never be put to shame."
+  },
+  {
+   "num": 2,
+   "text": "In Your justice, rescue and deliver me; incline Your ear and save me."
+  },
+  {
+   "num": 3,
+   "text": "Be my rock of refuge, where I can always go. Give the command to save me, for You are my rock and my fortress."
+  },
+  {
+   "num": 4,
+   "text": "Deliver me, O my God, from the hand of the wicked, from the grasp of the unjust and ruthless."
+  },
+  {
+   "num": 5,
+   "text": "For You are my hope, O Lord GOD, my confidence from my youth."
+  },
+  {
+   "num": 6,
+   "text": "I have leaned on You since birth; You pulled me from my mother's womb. My praise is always for You."
+  },
+  {
+   "num": 7,
+   "text": "I have become a portent to many, but You are my strong refuge."
+  },
+  {
+   "num": 8,
+   "text": "My mouth is filled with Your praise and with Your splendor all day long."
+  },
+  {
+   "num": 9,
+   "text": "Do not discard me in my old age; do not forsake me when my strength fails."
+  },
+  {
+   "num": 10,
+   "text": "For my enemies speak against me, and those who lie in wait for my life conspire,"
+  },
+  {
+   "num": 11,
+   "text": "saying, \"God has forsaken him; pursue him and seize him, for there is no one to rescue him.\""
+  },
+  {
+   "num": 12,
+   "text": "Be not far from me, O God. Hurry, O my God, to help me."
+  },
+  {
+   "num": 13,
+   "text": "May the accusers of my soul be ashamed and consumed; may those who seek my harm be covered with scorn and disgrace."
+  },
+  {
+   "num": 14,
+   "text": "But I will always hope and will praise You more and more."
+  },
+  {
+   "num": 15,
+   "text": "My mouth will declare Your righteousness and Your salvation all day long, though I cannot know their full measure."
+  },
+  {
+   "num": 16,
+   "text": "I will enter in the strength of the Lord GOD; I will proclaim Your righteousness—Yours alone."
+  },
+  {
+   "num": 17,
+   "text": "O God, You have taught me from my youth, and to this day I proclaim Your marvelous deeds."
+  },
+  {
+   "num": 18,
+   "text": "Even when I am old and gray, do not forsake me, O God, until I proclaim Your power to the next generation, Your might to all who are to come."
+  },
+  {
+   "num": 19,
+   "text": "Your righteousness reaches to the heavens, O God, You who have done great things. Who, O God, is like You?"
+  },
+  {
+   "num": 20,
+   "text": "Though You have shown me many troubles and misfortunes, You will revive me once again. Even from the depths of the earth You will bring me back up."
+  },
+  {
+   "num": 21,
+   "text": "You will increase my honor and comfort me once again."
+  },
+  {
+   "num": 22,
+   "text": "So I will praise You with the harp for Your faithfulness, O my God; I will sing praise to You with the lyre, O Holy One of Israel."
+  },
+  {
+   "num": 23,
+   "text": "When I sing praise to You my lips will shout for joy, along with my soul, which You have redeemed."
+  },
+  {
+   "num": 24,
+   "text": "My tongue will indeed proclaim Your righteousness all day long, for those who seek my harm are disgraced and confounded."
+  }
+ ],
+ "context": {
+  "author": "Not named; Psalm 71 has no title. It borrows lines from Psalms 22, 31 and 35, and the Greek Old Testament gives it to David.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship in Jerusalem, and every reader who prays",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“In You, O LORD, I have taken refuge; let me never be put to shame” (v.1). An old man looks back: “For You are my hope, O Lord GOD, my confidence from my youth. I have leaned on You since birth” (vv.5-6). Now he is weak, and enemies say, “God has forsaken him” (v.11). “Do not discard me in my old age; do not forsake me when my strength fails” (v.9). “But I will always hope and will praise You more and more” (v.14). He has a task left: “Even when I am old and gray, do not forsake me, O God, until I proclaim Your power to the next generation” (v.18). “Though You have shown me many troubles and misfortunes, You will revive me once again” (v.20), and he will praise “O Holy One of Israel” with harp and lyre (v.22).",
+  "custom": "The old were honored in Israel (Leviticus 19:32), but a weak old man could also be pushed aside, robbed or ignored. Gray hair was a crown of glory for the righteous (Proverbs 16:31). Passing faith on to the next generation was every parent’s duty (Deuteronomy 6:6-7).",
+  "timelineImmediate": "Psalm 72, “Of Solomon,” prays for the king and closes Book Two.",
+  "timelineBible": "God promises, “Even to your old age, I will be the same… I will carry you” (Isaiah 46:4). Anna, a widow of great age, “never left the temple” (Luke 2:37) and spoke of the child Jesus to all who were waiting (Luke 2:36-38). Paul, near death, wrote, “I have fought the good fight, I have finished the race” (2 Timothy 4:7).",
+  "translation": [
+   {
+    "english": "old age",
+    "greek": "זִקְנָה (ziqnah)",
+    "verseRef": "v.9",
+    "meaning": "Old age.",
+    "gloss": "Old age",
+    "strongs": "H2209",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gray",
+    "greek": "שֵׂיבָה (sevah)",
+    "verseRef": "v.18",
+    "meaning": "Gray hair, old age.",
+    "gloss": "Gray hair",
+    "strongs": "H7872",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Holy One",
+    "greek": "קָדוֹשׁ (qadosh)",
+    "verseRef": "v.22",
+    "meaning": "Holy, set apart; “the Holy One of Israel,” a favorite title in Isaiah.",
+    "gloss": "Holy",
+    "strongs": "H6918",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 2:36-38",
+    "note": "Anna, of great age, speaks of the child."
+   },
+   {
+    "ref": "2 Timothy 4:6-8",
+    "note": "I have finished the race."
+   },
+   {
+    "ref": "2 Corinthians 4:16",
+    "note": "Though our outer self is wasting away, our inner self is being renewed."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 46:3-4",
+    "note": "Even to your old age I will carry you."
+   },
+   {
+    "ref": "Joshua 14:10-11",
+    "note": "Caleb at eighty-five, still strong."
+   },
+   {
+    "ref": "Psalm 92:12-14",
+    "note": "They will still bear fruit in old age."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "An old man who has trusted God since birth asks not to be cast aside in weakness, and to live long enough to tell the next generation of God’s power.",
+   "settingLine": "Gray hair and a story still to tell.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David in old age",
+     "t": "Weak and threatened by rivals (1 Kings 1)."
+    },
+    {
+     "h": "Untitled psalm",
+     "t": "Continues Psalm 70."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Honor for the old",
+     "t": "Rise before the gray-headed."
+    },
+    {
+     "h": "Passing on faith",
+     "t": "Teaching children."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lyres and harps",
+     "t": "Instruments shown on seals and in Assyrian reliefs."
+    },
+    {
+     "h": "Family tombs",
+     "t": "Bench tombs where generations were buried together."
+    }
+   ],
+   "discussion": "The psalmist wants to live “until I proclaim Your power to the next generation” (v.18). Who in the next generation am I passing faith to?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Prayer of an old believer",
+   "audience": "God, my hope since youth",
+   "refNotes": {
+    "Isaiah 46:3-4": "Carried to old age",
+    "Joshua 14:10-11": "Caleb",
+    "Psalm 92:12-14": "Fruit in old age"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The old psalmist",
+     "d": "Trusting since youth"
+    },
+    {
+     "n": "His enemies",
+     "d": "Say God has forsaken him"
+    },
+    {
+     "n": "The next generation",
+     "d": "To be told"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "My hope since youth"
+    },
+    {
+     "when": "v.9-16",
+     "label": "Do not forsake me when I am old"
+    },
+    {
+     "when": "v.17-24",
+     "label": "To the next generation"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "In You, O LORD, I have taken refuge; let me never be put to shame. Be my rock of refuge, where I can always go. Give the command to save me, for You are my rock and my fortress. For You are my hope, O Lord GOD, my confidence from my youth. Do not discard me in my old age; do not forsake me when my strength fails. But I will always hope and will praise You more and more. O God, You have taught me from my youth, and to this day I proclaim Your marvelous deeds. Even when I am old and gray, do not forsake me, O God, until I proclaim Your power to the next generation, Your might to all who are to come. Though You have shown me many troubles and misfortunes, You will revive me once again. Even from the depths of the earth You will bring me back up.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

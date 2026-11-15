@@ -1,0 +1,263 @@
+{
+ "book": "Psalms",
+ "chapter": 80,
+ "title": "Restore Us, O God",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. To the tune of \"The Lilies of the Covenant.\" A Psalm of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hear us, O Shepherd of Israel, who leads Joseph like a flock; You who sit enthroned between the cherubim, shine forth"
+  },
+  {
+   "num": 2,
+   "text": "before Ephraim, Benjamin, and Manasseh. Rally Your mighty power and come to save us."
+  },
+  {
+   "num": 3,
+   "text": "Restore us, O God, and cause Your face to shine upon us, that we may be saved."
+  },
+  {
+   "num": 4,
+   "text": "O LORD God of Hosts, how long will Your anger smolder against the prayers of Your people?"
+  },
+  {
+   "num": 5,
+   "text": "You fed them with the bread of tears and made them drink the full measure of their tears."
+  },
+  {
+   "num": 6,
+   "text": "You make us contend with our neighbors; our enemies mock us."
+  },
+  {
+   "num": 7,
+   "text": "Restore us, O God of Hosts, and cause Your face to shine upon us, that we may be saved."
+  },
+  {
+   "num": 8,
+   "text": "You uprooted a vine from Egypt; You drove out the nations and transplanted it."
+  },
+  {
+   "num": 9,
+   "text": "You cleared the ground for it, and it took root and filled the land."
+  },
+  {
+   "num": 10,
+   "text": "The mountains were covered by its shade, and the mighty cedars with its branches."
+  },
+  {
+   "num": 11,
+   "text": "It sent out its branches to the Sea, and its shoots toward the River."
+  },
+  {
+   "num": 12,
+   "text": "Why have You broken down its walls, so that all who pass by pick its fruit?"
+  },
+  {
+   "num": 13,
+   "text": "The boar from the forest ravages it, and the creatures of the field feed upon it."
+  },
+  {
+   "num": 14,
+   "text": "Return, O God of Hosts, we pray! Look down from heaven and see! Attend to this vine—"
+  },
+  {
+   "num": 15,
+   "text": "the root Your right hand has planted, the son You have raised up for Yourself."
+  },
+  {
+   "num": 16,
+   "text": "Your vine has been cut down and burned; they perish at the rebuke of Your countenance."
+  },
+  {
+   "num": 17,
+   "text": "Let Your hand be upon the man at Your right hand, on the son of man You have raised up for Yourself."
+  },
+  {
+   "num": 18,
+   "text": "Then we will not turn away from You; revive us, and we will call on Your name."
+  },
+  {
+   "num": 19,
+   "text": "Restore us, O LORD God of Hosts; cause Your face to shine upon us, that we may be saved."
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JOSEPH’S TRIBES: EPHRAIM, BENJAMIN, MANASSEH",
+  "setting": "“Hear us, O Shepherd of Israel, who leads Joseph like a flock; You who sit enthroned between the cherubim, shine forth before Ephraim, Benjamin, and Manasseh” (vv.1-2). These are the northern tribes, descended from Rachel. Three times a refrain rises, growing stronger: “Restore us, O God, and cause Your face to shine upon us, that we may be saved” (vv.3, 7, 19). God has fed them “the bread of tears” (v.5). Then a parable: “You uprooted a vine from Egypt; You drove out the nations and transplanted it” (v.8). It filled the land from the Sea to the River (vv.9-11). “Why have You broken down its walls?” (v.12): boars ravage it, and it has been cut down and burned (vv.13-16). “Let Your hand be upon the man at Your right hand, on the son of man You have raised up for Yourself” (v.17).",
+  "custom": "Vineyards were walled or hedged to keep out animals; wild boars could ruin a vineyard in a night. Ephraim and Manasseh were Joseph’s sons, and Benjamin was Joseph’s full brother; the three tribes camped together on the west side of the tabernacle (Numbers 2:18-24). The psalm may come from the time of Assyria’s attacks on the northern kingdom, which fell in 722 BC.",
+  "timelineImmediate": "Psalm 81 is not yet in the app.",
+  "timelineBible": "Isaiah’s Song of the Vineyard tells the same story of God’s vine that failed (Isaiah 5:1-7). Jesus said, “I am the true vine” (John 15:1), the faithful Israel. The refrain echoes the priestly blessing, “the LORD cause His face to shine upon you” (Numbers 6:25).",
+  "translation": [
+   {
+    "english": "Shepherd",
+    "greek": "רָעָה (ra’ah)",
+    "verseRef": "v.1",
+    "meaning": "To shepherd, tend.",
+    "gloss": "Shepherd",
+    "strongs": "H7462",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "restore",
+    "greek": "שׁוּב (shuv)",
+    "verseRef": "v.3",
+    "meaning": "To turn back, return, restore.",
+    "gloss": "Turn back",
+    "strongs": "H7725",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "vine",
+    "greek": "גֶּפֶן (gefen)",
+    "verseRef": "v.8",
+    "meaning": "Vine, grapevine.",
+    "gloss": "Vine",
+    "strongs": "H1612",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 15:1-5",
+    "note": "I am the true vine."
+   },
+   {
+    "ref": "Mark 12:1-9",
+    "note": "A man planted a vineyard."
+   },
+   {
+    "ref": "John 10:11",
+    "note": "I am the good shepherd."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 5:1-7",
+    "note": "The Song of the Vineyard."
+   },
+   {
+    "ref": "Numbers 6:25",
+    "note": "May the LORD cause His face to shine upon you."
+   },
+   {
+    "ref": "2 Kings 17:5-6",
+    "note": "Samaria captured; Israel deported to Assyria."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.276,
+   "lng": 35.197,
+   "zoom": 6,
+   "placeName": "Samaria, capital of the northern kingdom"
+  },
+  "overview": {
+   "summary": "The Shepherd of Israel is asked to restore His people; Israel was His vine brought out of Egypt and planted in the land, now broken down and burned.",
+   "settingLine": "A vineyard with broken walls.",
+   "placeName": "Samaria, capital of the northern kingdom",
+   "history": [
+    {
+     "h": "The northern kingdom",
+     "t": "Ephraim and Manasseh."
+    },
+    {
+     "h": "722 BC",
+     "t": "Samaria falls to Assyria."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Vineyard walls",
+     "t": "Protection from animals."
+    },
+    {
+     "h": "Joseph’s tribes",
+     "t": "Camped together."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Samaria",
+     "t": "Excavations of Israel’s capital, destroyed by Assyria."
+    },
+    {
+     "h": "Wine presses",
+     "t": "Rock-cut presses in vineyards across the hill country."
+    }
+   ],
+   "discussion": "“Restore us… that we may be saved” (v.3). Where do I need God to turn me back and let His face shine on me?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Community lament",
+   "audience": "The Shepherd of Israel",
+   "refNotes": {
+    "Isaiah 5:1-7": "God’s vineyard",
+    "Numbers 6:25": "The shining face",
+    "2 Kings 17:5-6": "The north falls"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Shepherd of Israel",
+     "d": "Enthroned on the cherubim"
+    },
+    {
+     "n": "Ephraim, Benjamin, Manasseh",
+     "d": "The northern tribes"
+    },
+    {
+     "n": "The man at Your right hand",
+     "d": "The son of man raised up"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Shine forth, restore us"
+    },
+    {
+     "when": "v.8-13",
+     "label": "The vine from Egypt"
+    },
+    {
+     "when": "v.14-19",
+     "label": "Return and restore"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Samaria, capital of the northern kingdom",
+    "lat": 32.276,
+    "lng": 35.197,
+    "verses": [
+     1,
+     2
+    ],
+    "slug": "samaria"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hear us, O Shepherd of Israel, who leads Joseph like a flock; You who sit enthroned between the cherubim, shine forth Restore us, O God, and cause Your face to shine upon us, that we may be saved. Restore us, O God of Hosts, and cause Your face to shine upon us, that we may be saved. You uprooted a vine from Egypt; You drove out the nations and transplanted it. Return, O God of Hosts, we pray! Look down from heaven and see! Attend to this vine— Let Your hand be upon the man at Your right hand, on the son of man You have raised up for Yourself. Restore us, O LORD God of Hosts; cause Your face to shine upon us, that we may be saved.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

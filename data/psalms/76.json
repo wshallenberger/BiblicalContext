@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 76,
+ "title": "God Is Known in Judah",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. With stringed instruments. A Psalm of Asaph. A song.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "God is known in Judah; His name is great in Israel."
+  },
+  {
+   "num": 2,
+   "text": "His tent is in Salem, His dwelling place in Zion."
+  },
+  {
+   "num": 3,
+   "text": "There He shattered the flaming arrows, the shield and sword and weapons of war. Selah"
+  },
+  {
+   "num": 4,
+   "text": "You are resplendent with light, more majestic than mountains filled with game."
+  },
+  {
+   "num": 5,
+   "text": "The valiant lie plundered; they sleep their last sleep. No men of might could lift a hand."
+  },
+  {
+   "num": 6,
+   "text": "At Your rebuke, O God of Jacob, both horse and rider lie stunned."
+  },
+  {
+   "num": 7,
+   "text": "You alone are to be feared. When You are angry, who can stand before You?"
+  },
+  {
+   "num": 8,
+   "text": "From heaven You pronounced judgment, and the earth feared and was still"
+  },
+  {
+   "num": 9,
+   "text": "when God rose up to judge, to save all the lowly of the earth. Selah"
+  },
+  {
+   "num": 10,
+   "text": "Even the wrath of man shall praise You; with the survivors of wrath You will clothe Yourself."
+  },
+  {
+   "num": 11,
+   "text": "Make and fulfill your vows to the LORD your God; let all the neighboring lands bring tribute to Him who is to be feared."
+  },
+  {
+   "num": 12,
+   "text": "He breaks the spirits of princes; He is feared by the kings of the earth."
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“God is known in Judah; His name is great in Israel. His tent is in Salem, His dwelling place in Zion. There He shattered the flaming arrows, the shield and sword and weapons of war” (vv.1-3). An attacking army lies dead: “The valiant lie plundered; they sleep their last sleep… At Your rebuke, O God of Jacob, both horse and rider lie stunned” (vv.5-6). “You alone are to be feared” (v.7). God judged from heaven “to save all the lowly of the earth” (v.9). “Even the wrath of man shall praise You” (v.10). Neighboring lands are told to bring tribute to Him who “breaks the spirits of princes” (vv.11-12).",
+  "custom": "Salem is an old name for Jerusalem, the city of Melchizedek (Genesis 14:18). Flaming arrows were shot into besieged towns to set them on fire. Armies camped around a besieged city for months; a sudden disaster in the camp could end a siege.",
+  "timelineImmediate": "Psalm 77 remembers God’s wonders in a long night of doubt.",
+  "timelineBible": "The Greek Old Testament titles this psalm ‘concerning the Assyrian,’ linking it to 701 BC, when the Assyrian army besieging Jerusalem was struck down in one night (2 Kings 19:35; Isaiah 37:36). Hebrews explains that Salem means peace, so Melchizedek was “king of peace” (Hebrews 7:2).",
+  "translation": [
+   {
+    "english": "Salem",
+    "greek": "שָׁלֵם (shalem)",
+    "verseRef": "v.2",
+    "meaning": "Salem, an old name for Jerusalem; related to shalom, peace.",
+    "gloss": "Salem",
+    "strongs": "H8004",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "flaming arrows",
+    "greek": "רֶשֶׁף (reshef)",
+    "verseRef": "v.3",
+    "meaning": "Flame, spark, flash; “the sparks of the bow.”",
+    "gloss": "Flame",
+    "strongs": "H7565",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "feared",
+    "greek": "מוֹרָא (mora)",
+    "verseRef": "v.11",
+    "meaning": "Awe, the one to be feared.",
+    "gloss": "Awe",
+    "strongs": "H4172",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 7:1-2",
+    "note": "Melchizedek, king of Salem, king of peace."
+   },
+   {
+    "ref": "Revelation 6:15-17",
+    "note": "The kings of the earth hid themselves."
+   },
+   {
+    "ref": "Matthew 10:28",
+    "note": "Fear Him who can destroy both soul and body."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 14:18",
+    "note": "Melchizedek king of Salem."
+   },
+   {
+    "ref": "2 Kings 19:35-36",
+    "note": "The angel of the LORD strikes the Assyrian camp."
+   },
+   {
+    "ref": "Isaiah 37:36-37",
+    "note": "Sennacherib returns to Nineveh."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God, who dwells in Salem, shattered the weapons of an army that came against Zion; the warriors lie in their last sleep, and the kings of the earth are told to fear Him.",
+   "settingLine": "An enemy camp silent around Jerusalem.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "701 BC",
+     "t": "Sennacherib’s siege of Jerusalem fails."
+    },
+    {
+     "h": "Salem",
+     "t": "Jerusalem’s ancient name."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Flaming arrows",
+     "t": "Fire shot into cities."
+    },
+    {
+     "h": "Siege camps",
+     "t": "Armies surrounding a city."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lachish reliefs",
+     "t": "Sennacherib’s palace walls show the siege of Lachish, not Jerusalem."
+    },
+    {
+     "h": "Sennacherib’s prism",
+     "t": "Says he shut Hezekiah up in Jerusalem but does not claim to take it."
+    }
+   ],
+   "discussion": "“Even the wrath of man shall praise You” (v.10). How has God turned someone’s hostility into something good in my life?",
+   "book": "The book of Psalms · 150 psalms (1-80 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Song of Zion and victory",
+   "audience": "The kings of the earth",
+   "refNotes": {
+    "Genesis 14:18": "Salem",
+    "2 Kings 19:35-36": "The Assyrian army struck",
+    "Isaiah 37:36-37": "Sennacherib withdraws"
+   },
+   "peoplePlaces": [
+    {
+     "n": "God",
+     "d": "Dwells in Salem"
+    },
+    {
+     "n": "The valiant",
+     "d": "Lie in their last sleep"
+    },
+    {
+     "n": "The kings of the earth",
+     "d": "Fear Him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "God in Salem"
+    },
+    {
+     "when": "v.4-9",
+     "label": "The army asleep"
+    },
+    {
+     "when": "v.10-12",
+     "label": "Bring Him tribute"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "God is known in Judah; His name is great in Israel. His tent is in Salem, His dwelling place in Zion. There He shattered the flaming arrows, the shield and sword and weapons of war. Selah The valiant lie plundered; they sleep their last sleep. No men of might could lift a hand. At Your rebuke, O God of Jacob, both horse and rider lie stunned. You alone are to be feared. When You are angry, who can stand before You? when God rose up to judge, to save all the lowly of the earth. Selah Even the wrath of man shall praise You; with the survivors of wrath You will clothe Yourself.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lachish_Relief,_British_Museum.jpg",
+   "caption": "Part of the Lachish relief from Sennacherib’s palace at Nineveh (British Museum): Judean prisoners brought before the Assyrian king after the fall of Lachish in 701 BC. Jerusalem itself was spared, the deliverance many hear in Psalm 76.",
+   "credit": "Photo: Mike Peel, CC BY-SA / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}
