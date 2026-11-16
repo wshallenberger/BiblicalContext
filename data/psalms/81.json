@@ -1,0 +1,241 @@
+{
+ "book": "Psalms",
+ "chapter": 81,
+ "title": "Sound the Ram’s Horn at the New Moon",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. According to Gittith. Of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Sing for joy to God our strength; make a joyful noise to the God of Jacob."
+  },
+  {
+   "num": 2,
+   "text": "Lift up a song, strike the tambourine, play the sweet-sounding harp and lyre."
+  },
+  {
+   "num": 3,
+   "text": "Sound the ram's horn at the New Moon, and at the full moon on the day of our Feast."
+  },
+  {
+   "num": 4,
+   "text": "For this is a statute for Israel, an ordinance of the God of Jacob."
+  },
+  {
+   "num": 5,
+   "text": "He ordained it as a testimony for Joseph when he went out over the land of Egypt, where I heard an unfamiliar language:"
+  },
+  {
+   "num": 6,
+   "text": "\"I relieved his shoulder of the burden; his hands were freed from the basket."
+  },
+  {
+   "num": 7,
+   "text": "You called out in distress, and I rescued you; I answered you from the cloud of thunder; I tested you at the waters of Meribah. Selah"
+  },
+  {
+   "num": 8,
+   "text": "Hear, O My people, and I will warn you: O Israel, if only you would listen to Me!"
+  },
+  {
+   "num": 9,
+   "text": "There must be no strange god among you, nor shall you bow to a foreign god."
+  },
+  {
+   "num": 10,
+   "text": "I am the LORD your God, who brought you up out of Egypt. Open wide your mouth, and I will fill it."
+  },
+  {
+   "num": 11,
+   "text": "But My people would not listen to Me, and Israel would not obey Me."
+  },
+  {
+   "num": 12,
+   "text": "So I gave them up to their stubborn hearts to follow their own devices."
+  },
+  {
+   "num": 13,
+   "text": "If only My people would listen to Me, if Israel would follow My ways,"
+  },
+  {
+   "num": 14,
+   "text": "how soon I would subdue their enemies and turn My hand against their foes!"
+  },
+  {
+   "num": 15,
+   "text": "Those who hate the LORD would feign obedience, and their doom would last forever."
+  },
+  {
+   "num": 16,
+   "text": "But I would feed you the finest wheat; with honey from the rock I would satisfy you.\""
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "A festival call: “Sing for joy to God our strength; make a joyful noise to the God of Jacob” (v.1). Musicians strike tambourine, harp and lyre, and the shofar sounds “at the New Moon, and at the full moon on the day of our Feast” (v.3), a statute from the time Israel left Egypt (vv.4-5). Then God Himself speaks, probably through a Levite prophet: “I relieved his shoulder of the burden; his hands were freed from the basket” (v.6). He rescued them, answered them “from the cloud of thunder,” and tested them at Meribah (v.7). “Hear, O My people… There must be no strange god among you” (vv.8-9). “I am the LORD your God, who brought you up out of Egypt. Open wide your mouth, and I will fill it” (v.10). But Israel would not listen, so “I gave them up to their stubborn hearts” (vv.11-12). “If only My people would listen to Me” (v.13), He would feed them “the finest wheat; with honey from the rock I would satisfy you” (v.16).",
+  "custom": "The seventh month opened with a day of trumpet blasts at the new moon (Leviticus 23:24), and the Feast of Tabernacles began at the full moon two weeks later (Leviticus 23:34), so many link this psalm to that autumn season. The “basket” (v.6) was the laborer’s basket for carrying clay and bricks in Egypt. Honey from the rock was wild honey found in clefts of the rocks (Deuteronomy 32:13).",
+  "timelineImmediate": "Psalm 82 shows God standing in judgment over unjust rulers.",
+  "timelineBible": "The first of the Ten Commandments stands behind v.10: “I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery” (Exodus 20:2). The water from the rock at Meribah is told in Exodus 17:1-7. Jesus wept over Jerusalem with the same longing: “How often I have longed to gather your children together… but you were unwilling!” (Matthew 23:37).",
+  "translation": [
+   {
+    "english": "ram’s horn",
+    "greek": "שֹׁפָר (shofar)",
+    "verseRef": "v.3",
+    "meaning": "Ram’s horn trumpet, blown for feasts, war and the crowning of kings.",
+    "gloss": "Ram’s horn",
+    "strongs": "H7782",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "New Moon",
+    "greek": "חֹדֶשׁ (chodesh)",
+    "verseRef": "v.3",
+    "meaning": "New moon; also month, since months began with the new moon.",
+    "gloss": "New moon",
+    "strongs": "H2320",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Meribah",
+    "greek": "מְרִיבָה (merivah)",
+    "verseRef": "v.7",
+    "meaning": "Meribah, “quarreling,” where Israel tested God for water.",
+    "gloss": "Quarreling",
+    "strongs": "H4809",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 23:37",
+    "note": "How often I longed to gather you."
+   },
+   {
+    "ref": "Hebrews 3:7-8",
+    "note": "Do not harden your hearts."
+   },
+   {
+    "ref": "Romans 1:24",
+    "note": "God gave them over to the desires of their hearts."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Leviticus 23:23-25",
+    "note": "A day of trumpet blasts in the seventh month."
+   },
+   {
+    "ref": "Exodus 17:1-7",
+    "note": "Water from the rock at Meribah."
+   },
+   {
+    "ref": "Deuteronomy 32:13",
+    "note": "Honey from the rock."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A festival song breaks into God’s own voice: He freed Israel from Egypt and longs to feed them the finest wheat and honey, if only they would listen.",
+   "settingLine": "The ram’s horn sounds for the Feast.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The exodus",
+     "t": "Freed from the brick baskets of Egypt."
+    },
+    {
+     "h": "Meribah",
+     "t": "Israel tested at the waters."
+    }
+   ],
+   "customs": [
+    {
+     "h": "New moon and full moon",
+     "t": "Feast days set by the moon."
+    },
+    {
+     "h": "The shofar",
+     "t": "A ram’s horn blown to call the people."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tomb of Rekhmire",
+     "t": "Paintings at Thebes show foreign laborers making bricks and carrying loads in Egypt."
+    },
+    {
+     "h": "Drum figurines",
+     "t": "Clay figurines from Iron Age Israel show women playing hand drums."
+    }
+   ],
+   "discussion": "“Open wide your mouth, and I will fill it” (v.10). What is God offering me that I am too stubborn to receive?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Festival psalm and prophetic warning",
+   "audience": "Israel gathered for the Feast",
+   "refNotes": {
+    "Leviticus 23:23-25": "Trumpets",
+    "Exodus 17:1-7": "Meribah",
+    "Deuteronomy 32:13": "Honey from the rock"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Asaph",
+     "d": "Leads the festival song"
+    },
+    {
+     "n": "Joseph",
+     "d": "Stands for all Israel (v.5)"
+    },
+    {
+     "n": "My people",
+     "d": "Would not listen"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Call to the Feast"
+    },
+    {
+     "when": "v.6-10",
+     "label": "God recalls the exodus"
+    },
+    {
+     "when": "v.11-16",
+     "label": "If only My people would listen"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Sing for joy to God our strength; make a joyful noise to the God of Jacob. Sound the ram's horn at the New Moon, and at the full moon on the day of our Feast. I relieved his shoulder of the burden; his hands were freed from the basket. You called out in distress, and I rescued you; I answered you from the cloud of thunder; I tested you at the waters of Meribah. Selah I am the LORD your God, who brought you up out of Egypt. Open wide your mouth, and I will fill it. If only My people would listen to Me, if Israel would follow My ways, But I would feed you the finest wheat; with honey from the rock I would satisfy you.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shofar-16-Zachi-Evenor.jpg",
+   "caption": "A shofar, the ram’s horn trumpet still blown at the New Year and on the Day of Atonement. “Sound the ram’s horn at the New Moon, and at the full moon on the day of our Feast” (Psalm 81:3).",
+   "credit": "Zachi Evenor, CC BY / Wikimedia Commons"
+  }
+ }
+}

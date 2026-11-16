@@ -1,0 +1,249 @@
+{
+ "book": "Psalms",
+ "chapter": 88,
+ "title": "Darkness Is My Closest Companion",
+ "translation": "BSB",
+ "superscription": "A song. A Psalm of the sons of Korah. For the choirmaster. According to Mahalath Leannoth. A Maskil of Heman the Ezrahite.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, the God of my salvation, day and night I cry out before You."
+  },
+  {
+   "num": 2,
+   "text": "May my prayer come before You; incline Your ear to my cry."
+  },
+  {
+   "num": 3,
+   "text": "For my soul is full of troubles, and my life draws near to Sheol."
+  },
+  {
+   "num": 4,
+   "text": "I am counted among those descending to the Pit. I am like a man without strength."
+  },
+  {
+   "num": 5,
+   "text": "I am forsaken among the dead, like the slain who lie in the grave, whom You remember no more, who are cut off from Your care."
+  },
+  {
+   "num": 6,
+   "text": "You have laid me in the lowest Pit, in the darkest of the depths."
+  },
+  {
+   "num": 7,
+   "text": "Your wrath weighs heavily upon me; all Your waves have submerged me. Selah"
+  },
+  {
+   "num": 8,
+   "text": "You have removed my friends from me; You have made me repulsive to them; I am confined and cannot escape."
+  },
+  {
+   "num": 9,
+   "text": "My eyes grow dim with grief. I call to You daily, O LORD; I spread out my hands to You."
+  },
+  {
+   "num": 10,
+   "text": "Do You work wonders for the dead? Do departed spirits rise up to praise You? Selah"
+  },
+  {
+   "num": 11,
+   "text": "Can Your loving devotion be proclaimed in the grave, Your faithfulness in Abaddon?"
+  },
+  {
+   "num": 12,
+   "text": "Will Your wonders be known in the darkness, or Your righteousness in the land of oblivion?"
+  },
+  {
+   "num": 13,
+   "text": "But to You, O LORD, I cry for help; in the morning my prayer comes before You."
+  },
+  {
+   "num": 14,
+   "text": "Why, O LORD, do You reject me? Why do You hide Your face from me?"
+  },
+  {
+   "num": 15,
+   "text": "From my youth I was afflicted and near death. I have borne Your terrors; I am in despair."
+  },
+  {
+   "num": 16,
+   "text": "Your wrath has swept over me; Your terrors have destroyed me."
+  },
+  {
+   "num": 17,
+   "text": "All day long they engulf me like water; they enclose me on every side."
+  },
+  {
+   "num": 18,
+   "text": "You have removed my beloved and my friend; darkness is my closest companion."
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah and Heman the Ezrahite. A Heman was one of David’s three chief singers (1 Chronicles 15:19), and a wise man Heman is named in 1 Kings 4:31; ‘Ezrahite’ probably means a descendant of Zerah of Judah (1 Chronicles 2:6). Whether these are the same man is debated.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“O LORD, the God of my salvation, day and night I cry out before You” (v.1). That first line is the only light in the psalm. “My soul is full of troubles, and my life draws near to Sheol” (v.3). He feels as if he were already dead: “I am forsaken among the dead… You have laid me in the lowest Pit, in the darkest of the depths” (vv.5-6). He holds God responsible: “Your wrath weighs heavily upon me; all Your waves have submerged me” (v.7). His friends shun him (v.8). He argues with God: “Do You work wonders for the dead? Do departed spirits rise up to praise You?” (v.10). He keeps praying: “in the morning my prayer comes before You” (v.13). “Why, O LORD, do You reject me?” (v.14). He has suffered “From my youth” (v.15), and the psalm ends with no relief: “darkness is my closest companion” (v.18).",
+  "custom": "Sheol, the Pit and Abaddon (destruction) are names for the place of the dead. The Old Testament speaks of it as silent, dark and forgetful (v.12), from which no praise rises; the full hope of resurrection was revealed only step by step (Isaiah 26:19; Daniel 12:2). A lifelong illness, perhaps a skin disease that made a person unclean and isolated (Leviticus 13:46), may lie behind vv.8 and 15.",
+  "timelineImmediate": "Psalm 89 praises God’s covenant with David, then asks why it seems broken.",
+  "timelineBible": "In Gethsemane Jesus said, “My soul is consumed with sorrow to the point of death” (Mark 14:34), and on the cross He cried out to the God who seemed absent (Mark 15:34). Paul answers the question of v.10: Christ “has abolished death and illuminated the way to life and immortality through the gospel” (2 Timothy 1:10). Heman’s psalm shows that faith can keep praying even when no answer has come yet.",
+  "translation": [
+   {
+    "english": "Pit",
+    "greek": "בּוֹר (bor)",
+    "verseRef": "v.4",
+    "meaning": "Pit, cistern; a picture of the grave.",
+    "gloss": "Pit",
+    "strongs": "H953",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Abaddon",
+    "greek": "אֲבַדּוֹן (abaddon)",
+    "verseRef": "v.11",
+    "meaning": "Destruction; a name for the realm of the dead.",
+    "gloss": "Destruction",
+    "strongs": "H11",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "oblivion",
+    "greek": "נְשִׁיָּה (neshiyyah)",
+    "verseRef": "v.12",
+    "meaning": "Forgetfulness; the land where all is forgotten.",
+    "gloss": "Forgetting",
+    "strongs": "H5388",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Mark 14:32-36",
+    "note": "Sorrow to the point of death."
+   },
+   {
+    "ref": "Mark 15:34",
+    "note": "Why have You forsaken Me?"
+   },
+   {
+    "ref": "2 Timothy 1:10",
+    "note": "Christ has abolished death."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Job 3:20-26",
+    "note": "Why is light given to the miserable?"
+   },
+   {
+    "ref": "Lamentations 3:1-9",
+    "note": "He has made me dwell in darkness."
+   },
+   {
+    "ref": "Isaiah 38:18",
+    "note": "Sheol cannot thank You."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A man near death since his youth cries day and night to the God of his salvation, feels drowned by God’s wrath and abandoned by friends, and ends with darkness as his only companion.",
+   "settingLine": "A prayer from the lowest pit.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Heman",
+     "t": "A musician of David’s court."
+    },
+    {
+     "h": "Long illness",
+     "t": "Afflicted from youth."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Isolation of the sick",
+     "t": "Unclean sufferers lived apart."
+    },
+    {
+     "h": "Morning prayer",
+     "t": "Prayer at dawn."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Cistern prisons",
+     "t": "Bell-shaped cisterns like the one Jeremiah was lowered into (Jeremiah 38:6)."
+    },
+    {
+     "h": "Bench tombs",
+     "t": "Rock-cut family tombs around Jerusalem from the late Iron Age."
+    }
+   ],
+   "discussion": "This psalm ends in darkness, yet it begins “O LORD, the God of my salvation” (v.1). What does it mean to keep praying when God seems silent?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Heman the Ezrahite",
+   "genre": "Lament with no answer",
+   "audience": "God, from the edge of death",
+   "refNotes": {
+    "Job 3:20-26": "Job’s despair",
+    "Lamentations 3:1-9": "In darkness",
+    "Isaiah 38:18": "Hezekiah’s sickness"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Heman the Ezrahite",
+     "d": "Prays in the dark"
+    },
+    {
+     "n": "His friends",
+     "d": "Removed from him"
+    },
+    {
+     "n": "The dead",
+     "d": "Who cannot praise"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-9",
+     "label": "Near the Pit"
+    },
+    {
+     "when": "v.10-12",
+     "label": "Do the dead praise You?"
+    },
+    {
+     "when": "v.13-18",
+     "label": "Darkness my companion"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, the God of my salvation, day and night I cry out before You. For my soul is full of troubles, and my life draws near to Sheol. You have laid me in the lowest Pit, in the darkest of the depths. Your wrath weighs heavily upon me; all Your waves have submerged me. Selah My eyes grow dim with grief. I call to You daily, O LORD; I spread out my hands to You. Do You work wonders for the dead? Do departed spirits rise up to praise You? Selah But to You, O LORD, I cry for help; in the morning my prayer comes before You. Why, O LORD, do You reject me? Why do You hide Your face from me? You have removed my beloved and my friend; darkness is my closest companion.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hezekiah%27s_Tunnel_enlightened.jpg",
+   "caption": "The dark rock passage of Hezekiah’s Tunnel under the City of David. “You have laid me in the lowest Pit, in the darkest of the depths” (Psalm 88:6).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

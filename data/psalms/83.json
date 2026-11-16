@@ -1,0 +1,277 @@
+{
+ "book": "Psalms",
+ "chapter": 83,
+ "title": "O God, Be Not Silent",
+ "translation": "BSB",
+ "superscription": "A song. A Psalm of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O God, be not silent; be not speechless; be not still, O God."
+  },
+  {
+   "num": 2,
+   "text": "See how Your enemies rage, how Your foes have reared their heads."
+  },
+  {
+   "num": 3,
+   "text": "With cunning they scheme against Your people and conspire against those You cherish,"
+  },
+  {
+   "num": 4,
+   "text": "saying, \"Come, let us erase them as a nation; may the name of Israel be remembered no more.\""
+  },
+  {
+   "num": 5,
+   "text": "For with one mind they plot together, they form an alliance against You—"
+  },
+  {
+   "num": 6,
+   "text": "the tents of Edom and the Ishmaelites, of Moab and the Hagrites,"
+  },
+  {
+   "num": 7,
+   "text": "of Gebal, Ammon, and Amalek, of Philistia with the people of Tyre."
+  },
+  {
+   "num": 8,
+   "text": "Even Assyria has joined them, lending strength to the sons of Lot. Selah"
+  },
+  {
+   "num": 9,
+   "text": "Do to them as You did to Midian, as to Sisera and Jabin at the River Kishon,"
+  },
+  {
+   "num": 10,
+   "text": "who perished at Endor and became like dung on the ground."
+  },
+  {
+   "num": 11,
+   "text": "Make their nobles like Oreb and Zeeb, and all their princes like Zebah and Zalmunna,"
+  },
+  {
+   "num": 12,
+   "text": "who said, \"Let us possess for ourselves the pastures of God.\""
+  },
+  {
+   "num": 13,
+   "text": "Make them like tumbleweed, O my God, like chaff before the wind."
+  },
+  {
+   "num": 14,
+   "text": "As fire consumes a forest, as a flame sets the mountains ablaze,"
+  },
+  {
+   "num": 15,
+   "text": "so pursue them with Your tempest, and terrify them with Your storm."
+  },
+  {
+   "num": 16,
+   "text": "Cover their faces with shame, that they may seek Your name, O LORD."
+  },
+  {
+   "num": 17,
+   "text": "May they be ever ashamed and terrified; may they perish in disgrace."
+  },
+  {
+   "num": 18,
+   "text": "May they know that You alone, whose name is the LORD, are Most High over all the earth."
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "THE RIVER KISHON AND THE NATIONS AROUND ISRAEL",
+  "setting": "“O God, be not silent; be not speechless; be not still, O God” (v.1). Israel’s neighbors have joined forces: “Come, let us erase them as a nation; may the name of Israel be remembered no more” (v.4). Ten peoples are named, from Edom and Moab in the south and east to Philistia and Tyre on the coast, and “even Assyria has joined them” (vv.6-8). The psalmist asks God to repeat His old victories: “Do to them as You did to Midian, as to Sisera and Jabin at the River Kishon” (v.9), and to the Midianite princes Oreb, Zeeb, Zebah and Zalmunna (v.11). “Make them like tumbleweed, O my God, like chaff before the wind” (v.13). Yet the goal is more than defeat: “Cover their faces with shame, that they may seek Your name, O LORD” (v.16), so that they may know “that You alone, whose name is the LORD, are Most High over all the earth” (v.18).",
+  "custom": "Alliances of small kingdoms were common in the ancient Near East; Ahab joined eleven other kings against Assyria at Qarqar in 853 BC. Gebal is Byblos on the Phoenician coast. The tumbleweed (v.13) is the dry wild artichoke that the wind rolls across the fields in late summer. The list may describe a real crisis like the one in 2 Chronicles 20, or gather Israel’s enemies from many ages.",
+  "timelineImmediate": "Psalm 84, of the sons of Korah, longs for the courts of the LORD.",
+  "timelineBible": "Deborah’s song places the battle against Sisera “at Taanach by the waters of Megiddo” (Judges 5:19). Gideon’s men killed Oreb and Zeeb (Judges 7:25), and Gideon himself killed Zebah and Zalmunna (Judges 8:21). When Moab and Ammon attacked Jehoshaphat, a Levite of the sons of Asaph prophesied, “the battle does not belong to you, but to God” (2 Chronicles 20:15).",
+  "translation": [
+   {
+    "english": "silent",
+    "greek": "דֳּמִי (domi)",
+    "verseRef": "v.1",
+    "meaning": "Silence, rest, stillness.",
+    "gloss": "Silence",
+    "strongs": "H1824",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Kishon",
+    "greek": "קִישׁוֹן (qishon)",
+    "verseRef": "v.9",
+    "meaning": "Kishon, the river of the Jezreel Valley.",
+    "gloss": "Kishon",
+    "strongs": "H7028",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "tumbleweed",
+    "greek": "גַּלְגַּל (galgal)",
+    "verseRef": "v.13",
+    "meaning": "Wheel; whirling dust or tumbleweed driven by the wind.",
+    "gloss": "Whirling",
+    "strongs": "H1534",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 4:25-29",
+    "note": "The nations rage; grant Your servants boldness."
+   },
+   {
+    "ref": "Philippians 2:10-11",
+    "note": "Every knee will bow."
+   },
+   {
+    "ref": "Revelation 20:8-9",
+    "note": "The nations gathered against the saints."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Judges 4:13-16",
+    "note": "Sisera routed at the Kishon."
+   },
+   {
+    "ref": "Judges 7:24-25",
+    "note": "Oreb and Zeeb captured."
+   },
+   {
+    "ref": "2 Chronicles 20:1-17",
+    "note": "The battle is God’s."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.66,
+   "lng": 35.22,
+   "zoom": 6,
+   "placeName": "The River Kishon in the Jezreel Valley"
+  },
+  "overview": {
+   "summary": "Israel’s neighbors league together to wipe out its name; the psalmist asks God to break them as He broke Sisera and Midian, so that they may seek His name and know He alone is Most High.",
+   "settingLine": "Ten nations against one.",
+   "placeName": "The River Kishon in the Jezreel Valley",
+   "history": [
+    {
+     "h": "Deborah and Barak",
+     "t": "Sisera defeated at the Kishon."
+    },
+    {
+     "h": "Jehoshaphat’s crisis",
+     "t": "Moab and Ammon invade (2 Chronicles 20)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Alliances of kings",
+     "t": "Small states joined against a common foe."
+    },
+    {
+     "h": "Naming the enemy",
+     "t": "Laments listed the foes before God."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Kurkh Monolith",
+     "t": "Shalmaneser III lists Ahab among the kings allied against him at Qarqar."
+    },
+    {
+     "h": "Byblos",
+     "t": "Excavations at ancient Gebal on the Lebanese coast."
+    }
+   ],
+   "discussion": "The psalmist prays that his enemies may be shamed “that they may seek Your name” (v.16). Can I pray for my opponents’ good even while asking God to stop them?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "National lament",
+   "audience": "God, against a league of nations",
+   "refNotes": {
+    "Judges 4:13-16": "Sisera",
+    "Judges 7:24-25": "Midian’s princes",
+    "2 Chronicles 20:1-17": "Jehoshaphat"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Asaph",
+     "d": "Prays for help"
+    },
+    {
+     "n": "Sisera and Jabin",
+     "d": "Defeated at the Kishon"
+    },
+    {
+     "n": "Oreb, Zeeb, Zebah and Zalmunna",
+     "d": "Princes of Midian"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "The conspiracy"
+    },
+    {
+     "when": "v.9-12",
+     "label": "As You did to Midian"
+    },
+    {
+     "when": "v.13-18",
+     "label": "That they may know You"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "The River Kishon in the Jezreel Valley",
+    "lat": 32.66,
+    "lng": 35.22,
+    "verses": [
+     9,
+     10
+    ],
+    "slug": "kishon"
+   },
+   {
+    "name": "Edom (Bozrah, its capital)",
+    "lat": 30.73,
+    "lng": 35.61,
+    "verses": [
+     6
+    ],
+    "slug": "edom"
+   },
+   {
+    "name": "Tyre, the Phoenician port",
+    "lat": 33.271,
+    "lng": 35.196,
+    "verses": [
+     7
+    ],
+    "slug": "tyre"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O God, be not silent; be not speechless; be not still, O God. See how Your enemies rage, how Your foes have reared their heads. saying, Come, let us erase them as a nation; may the name of Israel be remembered no more. For with one mind they plot together, they form an alliance against You— Do to them as You did to Midian, as to Sisera and Jabin at the River Kishon, Make them like tumbleweed, O my God, like chaff before the wind. Cover their faces with shame, that they may seek Your name, O LORD. May they know that You alone, whose name is the LORD, are Most High over all the earth.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AERIAL_VIEW_OF_TEL_MEGIDDO_(7723470910).jpg",
+   "caption": "The mound of Megiddo above the Jezreel Valley, where the River Kishon runs toward the sea. Deborah’s song places the battle with Sisera “by the waters of Megiddo” (Judges 5:19).",
+   "credit": "Photo: Israel Tourism, CC BY-SA 2.0 / Wikimedia Commons"
+  }
+ }
+}

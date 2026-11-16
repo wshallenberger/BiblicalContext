@@ -1,0 +1,218 @@
+{
+ "book": "Psalms",
+ "chapter": 87,
+ "title": "Born in Zion",
+ "translation": "BSB",
+ "superscription": "A Psalm of the sons of Korah. A song.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "He has founded His city on the holy mountains."
+  },
+  {
+   "num": 2,
+   "text": "The LORD loves the gates of Zion more than all the dwellings of Jacob."
+  },
+  {
+   "num": 3,
+   "text": "Glorious things are ascribed to you, O city of God. Selah"
+  },
+  {
+   "num": 4,
+   "text": "\"I will mention Rahab and Babylon among those who know Me— along with Philistia, Tyre, and Cush— when I say, 'This one was born in Zion.'\""
+  },
+  {
+   "num": 5,
+   "text": "And it will be said of Zion: \"This one and that one were born in her, and the Most High Himself will establish her.\""
+  },
+  {
+   "num": 6,
+   "text": "The LORD will record in the register of the peoples: \"This one was born in Zion.\" Selah"
+  },
+  {
+   "num": 7,
+   "text": "Singers and pipers will proclaim, \"All my springs of joy are in You.\""
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“He has founded His city on the holy mountains. The LORD loves the gates of Zion more than all the dwellings of Jacob” (vv.1-2). “Glorious things are ascribed to you, O city of God” (v.3). Then God speaks a surprise. He will count among those who know Him Israel’s old enemies and distant peoples: Rahab (Egypt), Babylon, Philistia, Tyre and Cush (v.4). Of each one it will be said, “This one was born in Zion” (v.4). “This one and that one were born in her” (v.5), and “The LORD will record in the register of the peoples” (v.6) that they belong to Zion. The singers and pipers proclaim, “All my springs of joy are in You” (v.7).",
+  "custom": "Rahab, the name of a sea monster, was a poetic name for Egypt (Isaiah 30:7). Cities kept registers of citizens and families (Nehemiah 7:5), and to be born in a city gave the right to belong. Cush was the land south of Egypt, in modern Sudan. The psalm is short and terse, and some lines are hard to translate.",
+  "timelineImmediate": "Psalm 88 is the darkest psalm in the Psalter, a prayer that ends in darkness.",
+  "timelineBible": "Paul wrote, “the Jerusalem above is free, and she is our mother” (Galatians 4:26). Hebrews tells believers they have come “to Mount Zion, to the city of the living God” (Hebrews 12:22), where the firstborn are enrolled in heaven (Hebrews 12:23). John Newton’s hymn ‘Glorious Things of Thee Are Spoken’ (1779) is based on v.3.",
+  "translation": [
+   {
+    "english": "Rahab",
+    "greek": "רַהַב (rahav)",
+    "verseRef": "v.4",
+    "meaning": "Rahab, “arrogance” or “storm”; a sea monster and a poetic name for Egypt.",
+    "gloss": "Rahab",
+    "strongs": "H7293",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "born",
+    "greek": "יָלַד (yalad)",
+    "verseRef": "v.4",
+    "meaning": "To bear, give birth; to be born.",
+    "gloss": "Born",
+    "strongs": "H3205",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "springs",
+    "greek": "מַעְיָן (maayan)",
+    "verseRef": "v.7",
+    "meaning": "Spring, fountain.",
+    "gloss": "Spring",
+    "strongs": "H4599",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Galatians 4:26",
+    "note": "The Jerusalem above is our mother."
+   },
+   {
+    "ref": "Hebrews 12:22-23",
+    "note": "You have come to Mount Zion."
+   },
+   {
+    "ref": "Revelation 7:9",
+    "note": "From every nation."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 19:23-25",
+    "note": "Egypt My people, Assyria My handiwork."
+   },
+   {
+    "ref": "Isaiah 2:2-3",
+    "note": "All nations will stream to it."
+   },
+   {
+    "ref": "Isaiah 30:7",
+    "note": "Egypt called Rahab."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God loves Zion, and in a startling promise He enrolls even Egypt, Babylon, Philistia, Tyre and Cush as her native-born citizens.",
+   "settingLine": "A city whose citizens come from every nation.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Egypt and Babylon",
+     "t": "Israel’s great oppressors."
+    },
+    {
+     "h": "Converts from the nations",
+     "t": "Like Ruth the Moabite."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Citizen registers",
+     "t": "Lists of families by city."
+    },
+    {
+     "h": "Birthplace",
+     "t": "Gave the right to belong."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Lists of families",
+     "t": "The lists of returning families in Ezra 2 and Nehemiah 7 resemble ancient registers."
+    },
+    {
+     "h": "Tyre",
+     "t": "Remains of the island city off the Lebanese coast."
+    }
+   ],
+   "discussion": "God writes former enemies into Zion’s register (v.4). Whom do I find hard to imagine as a fellow citizen of God’s city?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Song of Zion",
+   "audience": "Zion and the nations",
+   "refNotes": {
+    "Isaiah 19:23-25": "Egypt and Assyria blessed",
+    "Isaiah 2:2-3": "The nations stream",
+    "Isaiah 30:7": "Rahab"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The sons of Korah",
+     "d": "Sing of Zion"
+    },
+    {
+     "n": "Rahab and Babylon",
+     "d": "Former enemies enrolled"
+    },
+    {
+     "n": "Singers and pipers",
+     "d": "Proclaim the joy"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "The city God loves"
+    },
+    {
+     "when": "v.4-6",
+     "label": "Born in Zion"
+    },
+    {
+     "when": "v.7",
+     "label": "All my springs"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     1,
+     2,
+     5
+    ],
+    "slug": "jerusalem"
+   },
+   {
+    "name": "Tyre, the Phoenician port",
+    "lat": 33.271,
+    "lng": 35.196,
+    "verses": [
+     4
+    ],
+    "slug": "tyre"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "He has founded His city on the holy mountains. The LORD loves the gates of Zion more than all the dwellings of Jacob. Glorious things are ascribed to you, O city of God. Selah I will mention Rahab and Babylon among those who know Me— along with Philistia, Tyre, and Cush— when I say, 'This one was born in Zion.' And it will be said of Zion: This one and that one were born in her, and the Most High Himself will establish her. The LORD will record in the register of the peoples: This one was born in Zion. Selah Singers and pipers will proclaim, All my springs of joy are in You.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “He has founded His city on the holy mountains. The LORD loves the gates of Zion” (Psalm 87:1-2).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

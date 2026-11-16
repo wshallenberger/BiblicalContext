@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 84,
+ "title": "How Lovely Is Your Dwelling Place",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. According to Gittith. A Psalm of the sons of Korah.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "How lovely is Your dwelling place, O LORD of Hosts!"
+  },
+  {
+   "num": 2,
+   "text": "My soul longs, even faints, for the courts of the LORD; my heart and my flesh cry out for the living God."
+  },
+  {
+   "num": 3,
+   "text": "Even the sparrow has found a home, and the swallow a nest for herself, where she places her young near Your altars, O LORD of Hosts, my King and my God."
+  },
+  {
+   "num": 4,
+   "text": "How blessed are those who dwell in Your house! They are ever praising You. Selah"
+  },
+  {
+   "num": 5,
+   "text": "Blessed are those whose strength is in You, whose hearts are set on pilgrimage."
+  },
+  {
+   "num": 6,
+   "text": "As they pass through the Valley of Baca, they make it a place of springs; even the autumn rain covers it with pools."
+  },
+  {
+   "num": 7,
+   "text": "They go from strength to strength, until each appears before God in Zion."
+  },
+  {
+   "num": 8,
+   "text": "O LORD God of Hosts, hear my prayer; give ear, O God of Jacob. Selah"
+  },
+  {
+   "num": 9,
+   "text": "Take notice of our shield, O God, and look with favor on the face of Your anointed."
+  },
+  {
+   "num": 10,
+   "text": "For better is one day in Your courts than a thousand elsewhere. I would rather be a doorkeeper in the house of my God than dwell in the tents of the wicked."
+  },
+  {
+   "num": 11,
+   "text": "For the LORD God is a sun and a shield; the LORD gives grace and glory; He withholds no good thing from those who walk with integrity."
+  },
+  {
+   "num": 12,
+   "text": "O LORD of Hosts, how blessed is the man who trusts in You!"
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“How lovely is Your dwelling place, O LORD of Hosts! My soul longs, even faints, for the courts of the LORD” (vv.1-2). The psalmist envies the birds: “Even the sparrow has found a home, and the swallow a nest for herself, where she places her young near Your altars” (v.3). “How blessed are those who dwell in Your house!” (v.4), and blessed are those “whose hearts are set on pilgrimage” (v.5). Passing “through the Valley of Baca, they make it a place of springs” (v.6), and “they go from strength to strength, until each appears before God in Zion” (v.7). He prays for the king, “Your anointed” (v.9). “For better is one day in Your courts than a thousand elsewhere. I would rather be a doorkeeper in the house of my God than dwell in the tents of the wicked” (v.10). “For the LORD God is a sun and a shield… He withholds no good thing from those who walk with integrity” (v.11).",
+  "custom": "Every Israelite man was to appear before the LORD three times a year at the pilgrim feasts (Deuteronomy 16:16). Pilgrims walked for days, often in family groups, singing on the way. The Valley of Baca is unknown; baca may mean balsam trees or weeping, a dry valley turned to springs by the autumn rains. The sons of Korah kept the thresholds of the Temple (1 Chronicles 9:19), so a doorkeeper (v.10) was their own humble office.",
+  "timelineImmediate": "Psalm 85 prays for revival after God has restored His people.",
+  "timelineBible": "After the Passover pilgrimage the boy Jesus stayed behind in the Temple, His Father’s house (Luke 2:49). Jesus called Himself the door of the sheep (John 10:9). Revelation pictures the end of every pilgrimage: “the dwelling place of God is with man” (Revelation 21:3).",
+  "translation": [
+   {
+    "english": "dwelling place",
+    "greek": "מִשְׁכָּן (mishkan)",
+    "verseRef": "v.1",
+    "meaning": "Dwelling, tabernacle; the word for the tent sanctuary.",
+    "gloss": "Dwelling",
+    "strongs": "H4908",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Baca",
+    "greek": "בָּכָא (baka)",
+    "verseRef": "v.6",
+    "meaning": "Baca; perhaps balsam trees, or weeping.",
+    "gloss": "Baca",
+    "strongs": "H1056",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "doorkeeper",
+    "greek": "סָפַף (saphaph)",
+    "verseRef": "v.10",
+    "meaning": "To stand at the threshold, keep the door.",
+    "gloss": "Doorkeeper",
+    "strongs": "H5605",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 2:41-49",
+    "note": "In My Father’s house."
+   },
+   {
+    "ref": "John 10:9",
+    "note": "I am the gate."
+   },
+   {
+    "ref": "Revelation 21:3",
+    "note": "The dwelling place of God is with man."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 16:16",
+    "note": "Three times a year before the LORD."
+   },
+   {
+    "ref": "1 Chronicles 9:19",
+    "note": "Korah’s sons keep the thresholds."
+   },
+   {
+    "ref": "Isaiah 40:31",
+    "note": "They will run and not grow weary."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A pilgrim longs for the courts of God, envies the birds that nest by His altars, and would rather keep God’s door than live in comfort with the wicked.",
+   "settingLine": "On the road to Zion.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Pilgrim feasts",
+     "t": "Passover, Weeks and Tabernacles."
+    },
+    {
+     "h": "Korah’s sons",
+     "t": "Gatekeepers and singers."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Pilgrimage",
+     "t": "Families traveled together to Jerusalem."
+    },
+    {
+     "h": "Birds at the Temple",
+     "t": "Sparrows and swallows nesting in its walls."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The pilgrim road",
+     "t": "A stepped street from the Pool of Siloam up toward the Temple Mount, from Herod’s time."
+    },
+    {
+     "h": "The Arad shrine",
+     "t": "An Iron Age shrine in Judah with a courtyard, a hall and a raised inner room, a small picture of a house of God."
+    }
+   ],
+   "discussion": "“Better is one day in Your courts than a thousand elsewhere” (v.10). Is that true of my own heart? What would make it truer?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Pilgrim song",
+   "audience": "God, from pilgrims to Zion",
+   "refNotes": {
+    "Deuteronomy 16:16": "Pilgrim feasts",
+    "1 Chronicles 9:19": "Doorkeepers",
+    "Isaiah 40:31": "Strength renewed"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The sons of Korah",
+     "d": "Temple doorkeepers"
+    },
+    {
+     "n": "The pilgrims",
+     "d": "Go from strength to strength"
+    },
+    {
+     "n": "The anointed",
+     "d": "The king"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Longing for God’s house"
+    },
+    {
+     "when": "v.5-7",
+     "label": "The pilgrim road"
+    },
+    {
+     "when": "v.8-12",
+     "label": "A day in Your courts"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "How lovely is Your dwelling place, O LORD of Hosts! My soul longs, even faints, for the courts of the LORD; my heart and my flesh cry out for the living God. Even the sparrow has found a home, and the swallow a nest for herself, where she places her young near Your altars, O LORD of Hosts, my King and my God. How blessed are those who dwell in Your house! They are ever praising You. Selah Blessed are those whose strength is in You, whose hearts are set on pilgrimage. They go from strength to strength, until each appears before God in Zion. For better is one day in Your courts than a thousand elsewhere. I would rather be a doorkeeper in the house of my God than dwell in the tents of the wicked. For the LORD God is a sun and a shield; the LORD gives grace and glory; He withholds no good thing from those who walk with integrity.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem, goal of every pilgrim. “How lovely is Your dwelling place, O LORD of Hosts!” (Psalm 84:1).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,213 @@
+{
+ "book": "Psalms",
+ "chapter": 82,
+ "title": "God Judges the Gods",
+ "translation": "BSB",
+ "superscription": "A Psalm of Asaph.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "God presides in the divine assembly; He renders judgment among the gods:"
+  },
+  {
+   "num": 2,
+   "text": "\"How long will you judge unjustly and show partiality to the wicked? Selah"
+  },
+  {
+   "num": 3,
+   "text": "Defend the cause of the weak and fatherless; uphold the rights of the afflicted and oppressed."
+  },
+  {
+   "num": 4,
+   "text": "Rescue the weak and needy; save them from the hand of the wicked."
+  },
+  {
+   "num": 5,
+   "text": "They do not know or understand; they wander in the darkness; all the foundations of the earth are shaken."
+  },
+  {
+   "num": 6,
+   "text": "I have said, 'You are gods; you are all sons of the Most High.'"
+  },
+  {
+   "num": 7,
+   "text": "But like mortals you will die, and like rulers you will fall.\""
+  },
+  {
+   "num": 8,
+   "text": "Arise, O God, judge the earth, for all the nations are Your inheritance."
+  }
+ ],
+ "context": {
+  "author": "Asaph, one of David’s chief musicians; his family led Temple singing for centuries (Ezra 2:41). Book Three (Psalms 73-89) opens with eleven psalms of Asaph (73-83), several of which mourn the fall of Jerusalem or of the northern kingdom, so many were written or adapted by later members of his guild.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“God presides in the divine assembly; He renders judgment among the gods” (v.1). He charges them: “How long will you judge unjustly and show partiality to the wicked?” (v.2). Their duty was plain: “Defend the cause of the weak and fatherless; uphold the rights of the afflicted and oppressed. Rescue the weak and needy” (vv.3-4). But “they do not know or understand; they wander in the darkness,” and the foundations of the earth shake (v.5). God passes sentence. He had called them “You are gods; you are all sons of the Most High” (v.6), yet “like mortals you will die” (v.7). The psalmist ends with a prayer: “Arise, O God, judge the earth, for all the nations are Your inheritance” (v.8).",
+  "custom": "Who the “gods” are is debated. Some see human judges, who in Israel acted in God’s name (Exodus 22:8-9 uses elohim for the judges); others see heavenly beings set over the nations (Deuteronomy 32:8), who will be judged with their peoples. Ugaritic texts describe the assembly of the gods gathered around El. Judges in Israel sat at the city gate, and bribes and favor to the rich were constant temptations (Deuteronomy 16:19).",
+  "timelineImmediate": "Psalm 83 calls on God to act against a league of nations plotting to wipe out Israel.",
+  "timelineBible": "Jesus quoted v.6 when the crowd accused Him of blasphemy (John 10:34). If Scripture called them gods, “to whom the word of God came—and the Scripture cannot be broken” (John 10:35), then the One the Father sent was not blaspheming when He called Himself God’s Son (John 10:36). James warns against favoring the rich in the assembly (James 2:1-4).",
+  "translation": [
+   {
+    "english": "assembly",
+    "greek": "עֵדָה (edah)",
+    "verseRef": "v.1",
+    "meaning": "Congregation, assembly, council.",
+    "gloss": "Assembly",
+    "strongs": "H5712",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gods",
+    "greek": "אֱלֹהִים (elohim)",
+    "verseRef": "v.6",
+    "meaning": "God, gods; also used of judges and heavenly beings.",
+    "gloss": "Gods",
+    "strongs": "H430",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fatherless",
+    "greek": "יָתוֹם (yatom)",
+    "verseRef": "v.3",
+    "meaning": "Orphan, a child without a father to defend him.",
+    "gloss": "Orphan",
+    "strongs": "H3490",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 10:34-36",
+    "note": "I have said you are gods."
+   },
+   {
+    "ref": "James 2:1-4",
+    "note": "Do not show favoritism."
+   },
+   {
+    "ref": "Revelation 20:12",
+    "note": "The dead are judged by their deeds."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 22:8-9",
+    "note": "Cases brought before God, the judges."
+   },
+   {
+    "ref": "Deuteronomy 32:8",
+    "note": "The nations divided by number."
+   },
+   {
+    "ref": "Isaiah 1:23",
+    "note": "Rulers who do not defend the fatherless."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God stands in the assembly and condemns the “gods” who judge unjustly and neglect the weak; they will die like mortals, and God Himself will judge the earth.",
+   "settingLine": "The divine court in session.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Corrupt judges",
+     "t": "Condemned by Amos and Isaiah."
+    },
+    {
+     "h": "The council of heaven",
+     "t": "Pictured in 1 Kings 22:19."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Judges at the gate",
+     "t": "Justice done in public."
+    },
+    {
+     "h": "Care for orphans",
+     "t": "The test of a just ruler."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ugaritic tablets",
+     "t": "Speak of the assembly of the gods around El."
+    },
+    {
+     "h": "City gates",
+     "t": "Gate complexes at Dan and Beersheba with benches where elders may have sat."
+    }
+   ],
+   "discussion": "God’s test for rulers is how they treat the weak and fatherless (v.3). Where do I have power, and who is weaker than me there?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Asaph",
+   "genre": "Prophetic judgment psalm",
+   "audience": "Rulers and judges",
+   "refNotes": {
+    "Exodus 22:8-9": "Judges",
+    "Deuteronomy 32:8": "The nations",
+    "Isaiah 1:23": "Unjust rulers"
+   },
+   "peoplePlaces": [
+    {
+     "n": "God",
+     "d": "The Judge"
+    },
+    {
+     "n": "The gods",
+     "d": "Unjust rulers"
+    },
+    {
+     "n": "The weak and fatherless",
+     "d": "Left undefended"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "God takes His place"
+    },
+    {
+     "when": "v.2-5",
+     "label": "The charge"
+    },
+    {
+     "when": "v.6-7",
+     "label": "The sentence"
+    },
+    {
+     "when": "v.8",
+     "label": "Arise, O God"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "God presides in the divine assembly; He renders judgment among the gods: How long will you judge unjustly and show partiality to the wicked? Selah Defend the cause of the weak and fatherless; uphold the rights of the afflicted and oppressed. Rescue the weak and needy; save them from the hand of the wicked. I have said, 'You are gods; you are all sons of the Most High.' But like mortals you will die, and like rulers you will fall. Arise, O God, judge the earth, for all the nations are Your inheritance.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem from the air, Mount Zion of the Psalms: “I have installed My King on Zion, upon My holy mountain” (Psalm 2:6).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

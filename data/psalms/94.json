@@ -1,0 +1,268 @@
+{
+ "book": "Psalms",
+ "chapter": 94,
+ "title": "God of Vengeance, Shine Forth",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, God of vengeance, O God of vengeance, shine forth."
+  },
+  {
+   "num": 2,
+   "text": "Rise up, O Judge of the earth; render a reward to the proud."
+  },
+  {
+   "num": 3,
+   "text": "How long will the wicked, O LORD, how long will the wicked exult?"
+  },
+  {
+   "num": 4,
+   "text": "They pour out arrogant words; all workers of iniquity boast."
+  },
+  {
+   "num": 5,
+   "text": "They crush Your people, O LORD; they oppress Your heritage."
+  },
+  {
+   "num": 6,
+   "text": "They kill the widow and the foreigner; they murder the fatherless."
+  },
+  {
+   "num": 7,
+   "text": "They say, \"The LORD does not see; the God of Jacob pays no heed.\""
+  },
+  {
+   "num": 8,
+   "text": "Take notice, O senseless among the people! O fools, when will you be wise?"
+  },
+  {
+   "num": 9,
+   "text": "He who affixed the ear, can He not hear? He who formed the eye, can He not see?"
+  },
+  {
+   "num": 10,
+   "text": "He who admonishes the nations, does He not discipline? He who teaches man, does He lack knowledge?"
+  },
+  {
+   "num": 11,
+   "text": "The LORD knows the thoughts of man, that they are futile."
+  },
+  {
+   "num": 12,
+   "text": "Blessed is the man You discipline, O LORD, and teach from Your law,"
+  },
+  {
+   "num": 13,
+   "text": "to grant him relief from days of trouble, until a pit is dug for the wicked."
+  },
+  {
+   "num": 14,
+   "text": "For the LORD will not forsake His people; He will never abandon His heritage."
+  },
+  {
+   "num": 15,
+   "text": "Surely judgment will again be righteous, and all the upright in heart will follow it."
+  },
+  {
+   "num": 16,
+   "text": "Who will rise up for me against the wicked? Who will stand for me against the workers of iniquity?"
+  },
+  {
+   "num": 17,
+   "text": "Unless the LORD had been my helper, I would soon have dwelt in the abode of silence."
+  },
+  {
+   "num": 18,
+   "text": "If I say, \"My foot is slipping,\" Your loving devotion, O LORD, supports me."
+  },
+  {
+   "num": 19,
+   "text": "When anxiety overwhelms me, Your consolation delights my soul."
+  },
+  {
+   "num": 20,
+   "text": "Can a corrupt throne be Your ally— one devising mischief by decree?"
+  },
+  {
+   "num": 21,
+   "text": "They band together against the righteous and condemn the innocent to death."
+  },
+  {
+   "num": 22,
+   "text": "But the LORD has been my stronghold, and my God is my rock of refuge."
+  },
+  {
+   "num": 23,
+   "text": "He will bring upon them their own iniquity and destroy them for their wickedness. The LORD our God will destroy them."
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“O LORD, God of vengeance, O God of vengeance, shine forth. Rise up, O Judge of the earth” (vv.1-2). “How long will the wicked, O LORD, how long will the wicked exult?” (v.3). They crush God’s people; “They kill the widow and the foreigner; they murder the fatherless” (v.6), and they say, “The LORD does not see” (v.7). The psalmist answers such fools: “He who affixed the ear, can He not hear? He who formed the eye, can He not see?” (v.9). “Blessed is the man You discipline, O LORD” (v.12), for “the LORD will not forsake His people” (v.14). When his own foot was slipping, God’s loving devotion held him up (v.18): “When anxiety overwhelms me, Your consolation delights my soul” (v.19). Corrupt rulers devise mischief by decree (v.20), but “the LORD has been my stronghold, and my God is my rock of refuge” (v.22).",
+  "custom": "Vengeance in the Bible is God’s right to set things right, not personal revenge (Deuteronomy 32:35). Widows, foreigners and orphans had no one to speak for them in court, and the Law put them under God’s special care (Exodus 22:21-24). Corrupt rulers could make oppression legal, “devising mischief by decree” (v.20).",
+  "timelineImmediate": "Psalm 95 calls God’s people to worship and to hear His voice today.",
+  "timelineBible": "Paul wrote, “Do not avenge yourselves, beloved, but leave room for God’s wrath” (Romans 12:19). He quoted v.11: “The Lord knows that the thoughts of the wise are futile” (1 Corinthians 3:20). Hebrews says, “The Lord disciplines the one He loves” (Hebrews 12:6), like v.12.",
+  "translation": [
+   {
+    "english": "vengeance",
+    "greek": "נְקָמָה (neqamah)",
+    "verseRef": "v.1",
+    "meaning": "Vengeance, just retribution.",
+    "gloss": "Vengeance",
+    "strongs": "H5360",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "discipline",
+    "greek": "יָסַר (yasar)",
+    "verseRef": "v.12",
+    "meaning": "To discipline, instruct, correct.",
+    "gloss": "Discipline",
+    "strongs": "H3256",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "consolation",
+    "greek": "תַּנְחוּם (tanchum)",
+    "verseRef": "v.19",
+    "meaning": "Comfort, consolation.",
+    "gloss": "Comfort",
+    "strongs": "H8575",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 12:19",
+    "note": "Leave room for God’s wrath."
+   },
+   {
+    "ref": "1 Corinthians 3:20",
+    "note": "The thoughts of the wise are futile."
+   },
+   {
+    "ref": "Hebrews 12:5-11",
+    "note": "The Lord disciplines the one He loves."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 32:35",
+    "note": "Vengeance is Mine."
+   },
+   {
+    "ref": "Exodus 22:21-24",
+    "note": "Do not mistreat the widow or orphan."
+   },
+   {
+    "ref": "Isaiah 10:1-2",
+    "note": "Woe to those who enact unjust decrees."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The psalmist calls the Judge of the earth to act against rulers who crush the weak and think God does not see, and testifies that God held him up when his foot slipped.",
+   "settingLine": "When the powerful say God does not see.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Unjust rulers",
+     "t": "Condemned by the prophets."
+    },
+    {
+     "h": "A weekday psalm",
+     "t": "The Mishnah lists it for the fourth day."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Widows and orphans",
+     "t": "Without defenders in court."
+    },
+    {
+     "h": "Law by decree",
+     "t": "Oppression made legal."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Hammurabi’s stele",
+     "t": "Its epilogue claims justice for the orphan and the widow."
+    },
+    {
+     "h": "The weighing of the heart",
+     "t": "Egyptian Books of the Dead show the heart weighed before the judges of the dead."
+    }
+   ],
+   "discussion": "“When anxiety overwhelms me, Your consolation delights my soul” (v.19). What consolations from God have met me in anxious times?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Lament and wisdom psalm",
+   "audience": "God, the Judge of the earth",
+   "refNotes": {
+    "Deuteronomy 32:35": "God’s vengeance",
+    "Exodus 22:21-24": "The vulnerable",
+    "Isaiah 10:1-2": "Unjust decrees"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The wicked rulers",
+     "d": "Crush the weak"
+    },
+    {
+     "n": "The widow, foreigner and fatherless",
+     "d": "Their victims"
+    },
+    {
+     "n": "The psalmist",
+     "d": "Upheld by God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "How long will the wicked exult?"
+    },
+    {
+     "when": "v.8-15",
+     "label": "Can He not see?"
+    },
+    {
+     "when": "v.16-23",
+     "label": "My rock of refuge"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, God of vengeance, O God of vengeance, shine forth. Rise up, O Judge of the earth; render a reward to the proud. How long will the wicked, O LORD, how long will the wicked exult? They say, The LORD does not see; the God of Jacob pays no heed. He who affixed the ear, can He not hear? He who formed the eye, can He not see? Blessed is the man You discipline, O LORD, and teach from Your law, For the LORD will not forsake His people; He will never abandon His heritage. If I say, My foot is slipping, Your loving devotion, O LORD, supports me. When anxiety overwhelms me, Your consolation delights my soul. But the LORD has been my stronghold, and my God is my rock of refuge.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "book": "Psalms",
+ "chapter": 100,
+ "title": "Enter His Gates with Thanksgiving",
+ "translation": "BSB",
+ "superscription": "A Psalm of thanksgiving.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Make a joyful noise to the LORD, all the earth."
+  },
+  {
+   "num": 2,
+   "text": "Serve the LORD with gladness; come into His presence with joyful songs."
+  },
+  {
+   "num": 3,
+   "text": "Know that the LORD is God. It is He who made us, and we are His; we are His people, and the sheep of His pasture."
+  },
+  {
+   "num": 4,
+   "text": "Enter His gates with thanksgiving and His courts with praise; give thanks to Him and bless His name."
+  },
+  {
+   "num": 5,
+   "text": "For the LORD is good, and His loving devotion endures forever; His faithfulness continues to all generations."
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title calls it “A Psalm of thanksgiving,” and it closes the run of songs that began with Psalm 93. “Make a joyful noise to the LORD, all the earth. Serve the LORD with gladness; come into His presence with joyful songs” (vv.1-2). “Know that the LORD is God. It is He who made us, and we are His; we are His people, and the sheep of His pasture” (v.3). “Enter His gates with thanksgiving and His courts with praise; give thanks to Him and bless His name” (v.4). “For the LORD is good, and His loving devotion endures forever; His faithfulness continues to all generations” (v.5).",
+  "custom": "The thanksgiving offering (todah) was a sacrifice brought with bread to thank God for a rescue (Leviticus 7:12-15), and it was eaten in a meal of praise. Worshipers passed through the Temple gates into its courts. “Serve” (v.2) is the word for a servant’s work and for worship. William Kethe’s version of the psalm, ‘All People That on Earth Do Dwell’ (1561), is sung to the tune known as the Old Hundredth.",
+  "timelineImmediate": "Psalm 101 is David’s vow to lead his house with integrity.",
+  "timelineBible": "Jesus said, “I am the gate” (John 10:9), and “I am the good shepherd. I know My sheep and My sheep know Me” (John 10:14). Paul urged, “Give thanks in every circumstance” (1 Thessalonians 5:18), and Hebrews calls believers to offer God “a sacrifice of praise” (Hebrews 13:15).",
+  "translation": [
+   {
+    "english": "joyful noise",
+    "greek": "רוּעַ (rua)",
+    "verseRef": "v.1",
+    "meaning": "To shout, raise a shout of joy or alarm.",
+    "gloss": "Shout",
+    "strongs": "H7321",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "thanksgiving",
+    "greek": "תּוֹדָה (todah)",
+    "verseRef": "v.4",
+    "meaning": "Thanksgiving; a thank offering; a choir of thanks.",
+    "gloss": "Thanks",
+    "strongs": "H8426",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "pasture",
+    "greek": "מַרְעִית (marit)",
+    "verseRef": "v.3",
+    "meaning": "Pasture, the flock that grazes.",
+    "gloss": "Pasture",
+    "strongs": "H4830",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 10:9-16",
+    "note": "I am the gate; I am the good shepherd."
+   },
+   {
+    "ref": "1 Thessalonians 5:16-18",
+    "note": "Give thanks in every circumstance."
+   },
+   {
+    "ref": "Hebrews 13:15",
+    "note": "A sacrifice of praise."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Leviticus 7:11-15",
+    "note": "The thank offering."
+   },
+   {
+    "ref": "Psalm 95:6-7",
+    "note": "The sheep of His pasture."
+   },
+   {
+    "ref": "Jeremiah 33:11",
+    "note": "Give thanks to the LORD, for He is good."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "All the earth is called to serve the LORD with gladness, to know that He made us and we are His sheep, and to enter His gates with thanksgiving, for His love endures forever.",
+   "settingLine": "Through the gates with thanks.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Thank offerings",
+     "t": "Brought for rescue and blessing."
+    },
+    {
+     "h": "The Old Hundredth",
+     "t": "Sung since the Reformation."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Thanksgiving sacrifice",
+     "t": "A shared meal of praise."
+    },
+    {
+     "h": "Temple gates",
+     "t": "The way into the courts."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Huldah Gates",
+     "t": "Blocked gates on the south side of the Temple Mount, where pilgrims entered in Herod’s time."
+    },
+    {
+     "h": "Offering vessels",
+     "t": "Bowls and lamps from Iron Age shrines such as Arad."
+    }
+   ],
+   "discussion": "“It is He who made us, and we are His” (v.3). How does belonging to God change the way I see myself today?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Psalm of thanksgiving",
+   "audience": "All the earth",
+   "refNotes": {
+    "Leviticus 7:11-15": "Thank offering",
+    "Psalm 95:6-7": "His sheep",
+    "Jeremiah 33:11": "Thanks restored"
+   },
+   "peoplePlaces": [
+    {
+     "n": "All the earth",
+     "d": "Called to shout"
+    },
+    {
+     "n": "His people",
+     "d": "The sheep of His pasture"
+    },
+    {
+     "n": "The worshipers",
+     "d": "Enter His gates"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Know that the LORD is God"
+    },
+    {
+     "when": "v.4-5",
+     "label": "Enter His gates"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Make a joyful noise to the LORD, all the earth. Serve the LORD with gladness; come into His presence with joyful songs. Know that the LORD is God. It is He who made us, and we are His; we are His people, and the sheep of His pasture. Enter His gates with thanksgiving and His courts with praise; give thanks to Him and bless His name. For the LORD is good, and His loving devotion endures forever; His faithfulness continues to all generations.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "Shepherds’ country in the Judean hills. “we are His people, and the sheep of His pasture” (Psalm 100:3).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

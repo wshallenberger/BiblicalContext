@@ -1,0 +1,224 @@
+{
+ "book": "Psalms",
+ "chapter": 97,
+ "title": "Clouds and Darkness Surround Him",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The LORD reigns, let the earth rejoice; let the distant shores be glad."
+  },
+  {
+   "num": 2,
+   "text": "Clouds and darkness surround Him; righteousness and justice are His throne's foundation."
+  },
+  {
+   "num": 3,
+   "text": "Fire goes before Him and consumes His foes on every side."
+  },
+  {
+   "num": 4,
+   "text": "His lightning illuminates the world; the earth sees and trembles."
+  },
+  {
+   "num": 5,
+   "text": "The mountains melt like wax at the presence of the LORD, before the Lord of all the earth."
+  },
+  {
+   "num": 6,
+   "text": "The heavens proclaim His righteousness; all the peoples see His glory."
+  },
+  {
+   "num": 7,
+   "text": "All worshipers of images are put to shame— those who boast in idols. Worship Him, all you gods!"
+  },
+  {
+   "num": 8,
+   "text": "Zion hears and rejoices, and the towns of Judah exult because of Your judgments, O LORD."
+  },
+  {
+   "num": 9,
+   "text": "For You, O LORD, are Most High over all the earth; You are exalted far above all gods."
+  },
+  {
+   "num": 10,
+   "text": "Hate evil, O you who love the LORD! He preserves the souls of His saints; He delivers them from the hand of the wicked."
+  },
+  {
+   "num": 11,
+   "text": "Light shines on the righteous, gladness on the upright in heart."
+  },
+  {
+   "num": 12,
+   "text": "Rejoice in the LORD, you righteous ones, and praise His holy name."
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The LORD reigns, let the earth rejoice; let the distant shores be glad” (v.1). His coming is pictured like Sinai: “Clouds and darkness surround Him; righteousness and justice are His throne’s foundation. Fire goes before Him” (vv.2-3). “His lightning illuminates the world” (v.4), and “The mountains melt like wax at the presence of the LORD” (v.5). Idol worshipers are put to shame: “Worship Him, all you gods!” (v.7). Zion rejoices (v.8), for “You, O LORD, are Most High over all the earth” (v.9). “Hate evil, O you who love the LORD!” (v.10). “Light shines on the righteous, gladness on the upright in heart” (v.11).",
+  "custom": "The cloud, darkness, fire and lightning recall God’s appearing at Sinai (Exodus 19:16-18; Deuteronomy 4:11). The “distant shores” (v.1) are the islands and coastlands of the Mediterranean, the far edge of the known world. Royal thrones often stood on a raised base; here God’s throne rests on righteousness and justice.",
+  "timelineImmediate": "Psalm 98 sings a new song for the LORD’s victory.",
+  "timelineBible": "Hebrews applies v.7 in its Greek form to Christ: “Let all God’s angels worship Him” (Hebrews 1:6). Paul wrote, “Detest what is evil; cling to what is good” (Romans 12:9). Peter speaks of the day when the elements will melt in the heat (2 Peter 3:12).",
+  "translation": [
+   {
+    "english": "clouds",
+    "greek": "עָנָן (anan)",
+    "verseRef": "v.2",
+    "meaning": "Cloud.",
+    "gloss": "Cloud",
+    "strongs": "H6051",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "darkness",
+    "greek": "עֲרָפֶל (araphel)",
+    "verseRef": "v.2",
+    "meaning": "Thick darkness, deep cloud, as at Sinai.",
+    "gloss": "Thick darkness",
+    "strongs": "H6205",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "distant shores",
+    "greek": "אִי (iy)",
+    "verseRef": "v.1",
+    "meaning": "Coastland, island.",
+    "gloss": "Coastland",
+    "strongs": "H339",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 1:6",
+    "note": "Let all God’s angels worship Him."
+   },
+   {
+    "ref": "Romans 12:9",
+    "note": "Abhor what is evil."
+   },
+   {
+    "ref": "2 Peter 3:10-13",
+    "note": "The elements melt in the heat."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 19:16-19",
+    "note": "Thunder, cloud and fire on Sinai."
+   },
+   {
+    "ref": "Micah 1:3-4",
+    "note": "Mountains melt beneath Him."
+   },
+   {
+    "ref": "Isaiah 42:10-12",
+    "note": "The coastlands give Him glory."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The LORD reigns in cloud, fire and lightning; mountains melt, idols are shamed, Zion rejoices, and light shines on the righteous who hate evil.",
+   "settingLine": "Sinai’s storm over all the earth.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Sinai",
+     "t": "God appeared in cloud and fire."
+    },
+    {
+     "h": "Idolatry",
+     "t": "Israel’s long struggle with images."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Thrones on platforms",
+     "t": "A raised foundation for the king."
+    },
+    {
+     "h": "Idol images",
+     "t": "Gods of wood, stone and metal."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Baal figurines",
+     "t": "Bronze statuettes of the storm god from Ugarit and Hazor."
+    },
+    {
+     "h": "Throne bases",
+     "t": "Raised royal platforms in Assyrian palaces."
+    }
+   ],
+   "discussion": "“Hate evil, O you who love the LORD!” (v.10). Is there evil I have grown comfortable with instead of hating?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Enthronement psalm",
+   "audience": "The earth and the distant shores",
+   "refNotes": {
+    "Exodus 19:16-19": "Sinai",
+    "Micah 1:3-4": "Melting mountains",
+    "Isaiah 42:10-12": "The coastlands"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The LORD",
+     "d": "King in glory"
+    },
+    {
+     "n": "Worshipers of images",
+     "d": "Put to shame"
+    },
+    {
+     "n": "The righteous",
+     "d": "Light shines on them"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "The King appears"
+    },
+    {
+     "when": "v.7-9",
+     "label": "Idols shamed, Zion glad"
+    },
+    {
+     "when": "v.10-12",
+     "label": "Light for the righteous"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The LORD reigns, let the earth rejoice; let the distant shores be glad. Clouds and darkness surround Him; righteousness and justice are His throne's foundation. His lightning illuminates the world; the earth sees and trembles. The mountains melt like wax at the presence of the LORD, before the Lord of all the earth. All worshipers of images are put to shame— those who boast in idols. Worship Him, all you gods! For You, O LORD, are Most High over all the earth; You are exalted far above all gods. Hate evil, O you who love the LORD! He preserves the souls of His saints; He delivers them from the hand of the wicked. Light shines on the righteous, gladness on the upright in heart.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermonsnow.jpg",
+   "caption": "Snow-covered Mount Hermon. “The mountains melt like wax at the presence of the LORD” (Psalm 97:5).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

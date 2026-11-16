@@ -1,0 +1,212 @@
+{
+ "book": "Psalms",
+ "chapter": 99,
+ "title": "Holy Is He",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The LORD reigns; let the nations tremble! He is enthroned above the cherubim; let the earth quake!"
+  },
+  {
+   "num": 2,
+   "text": "Great is the LORD in Zion; He is exalted above all the peoples."
+  },
+  {
+   "num": 3,
+   "text": "Let them praise Your great and awesome name— He is holy!"
+  },
+  {
+   "num": 4,
+   "text": "The mighty King loves justice. You have established equity; You have exercised justice and righteousness in Jacob."
+  },
+  {
+   "num": 5,
+   "text": "Exalt the LORD our God, and worship at His footstool; He is holy!"
+  },
+  {
+   "num": 6,
+   "text": "Moses and Aaron were among His priests; Samuel was among those who called on His name. They called to the LORD and He answered."
+  },
+  {
+   "num": 7,
+   "text": "He spoke to them from the pillar of cloud; they kept His decrees and the statutes He gave them."
+  },
+  {
+   "num": 8,
+   "text": "O LORD our God, You answered them. You were a forgiving God to them, yet an avenger of their misdeeds."
+  },
+  {
+   "num": 9,
+   "text": "Exalt the LORD our God and worship at His holy mountain, for the LORD our God is holy."
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The LORD reigns; let the nations tremble! He is enthroned above the cherubim; let the earth quake!” (v.1). “Great is the LORD in Zion” (v.2). A refrain rings out, “He is holy!” (vv.3, 5), and the psalm ends, “the LORD our God is holy” (v.9). The holy King “loves justice” (v.4). The psalm remembers leaders who prayed: “Moses and Aaron were among His priests; Samuel was among those who called on His name. They called to the LORD and He answered. He spoke to them from the pillar of cloud” (vv.6-7). “You were a forgiving God to them, yet an avenger of their misdeeds” (v.8). “Exalt the LORD our God and worship at His holy mountain” (v.9).",
+  "custom": "The ark of the covenant was God’s footstool (1 Chronicles 28:2), and above it, between the gold cherubim, the LORD was enthroned (1 Samuel 4:4). Cherubim were winged guardian creatures; the thrones of ancient kings were often flanked by winged sphinxes. Moses and Samuel were remembered as Israel’s great intercessors (Jeremiah 15:1).",
+  "timelineImmediate": "Psalm 100 calls all the earth to enter His gates with thanksgiving.",
+  "timelineBible": "Isaiah heard the seraphim calling, “Holy, holy, holy is the LORD of Hosts” (Isaiah 6:3), and the living creatures in Revelation cry, “Holy, Holy, Holy, is the Lord God Almighty” (Revelation 4:8). Peter writes, “Be holy, because I am holy” (1 Peter 1:16).",
+  "translation": [
+   {
+    "english": "cherubim",
+    "greek": "כְּרוּב (keruv)",
+    "verseRef": "v.1",
+    "meaning": "Cherub, a winged guardian creature.",
+    "gloss": "Cherub",
+    "strongs": "H3742",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "footstool",
+    "greek": "הֲדֹם (hadom)",
+    "verseRef": "v.5",
+    "meaning": "Footstool; used of the ark and of the earth.",
+    "gloss": "Footstool",
+    "strongs": "H1916",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "holy",
+    "greek": "קָדוֹשׁ (qadosh)",
+    "verseRef": "v.3",
+    "meaning": "Holy, set apart.",
+    "gloss": "Holy",
+    "strongs": "H6918",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 4:8",
+    "note": "Holy, holy, holy."
+   },
+   {
+    "ref": "1 Peter 1:15-16",
+    "note": "Be holy, because I am holy."
+   },
+   {
+    "ref": "Hebrews 7:25",
+    "note": "He always lives to intercede."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 6:1-5",
+    "note": "Holy, holy, holy is the LORD."
+   },
+   {
+    "ref": "1 Samuel 7:5-10",
+    "note": "Samuel cried out and the LORD answered."
+   },
+   {
+    "ref": "Exodus 33:9-11",
+    "note": "God speaks from the pillar of cloud."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The LORD reigns, enthroned above the cherubim in Zion; He is holy, He loves justice, and He answered Moses, Aaron and Samuel, forgiving yet not ignoring sin.",
+   "settingLine": "The holy King on His cherub throne.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Moses and Aaron",
+     "t": "Priests and intercessors."
+    },
+    {
+     "h": "Samuel",
+     "t": "Called on His name at Mizpah."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The ark as footstool",
+     "t": "God’s throne on earth."
+    },
+    {
+     "h": "Intercession",
+     "t": "Leaders praying for the people."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ahiram’s sarcophagus",
+     "t": "Shows a king of Byblos on a throne flanked by winged sphinxes."
+    },
+    {
+     "h": "Megiddo ivories",
+     "t": "Carved ivories with winged, cherub-like creatures."
+    }
+   ],
+   "discussion": "God was “a forgiving God to them, yet an avenger of their misdeeds” (v.8). How do forgiveness and consequences fit together in my life?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Enthronement psalm",
+   "audience": "The nations and Israel",
+   "refNotes": {
+    "Isaiah 6:1-5": "Isaiah’s vision",
+    "1 Samuel 7:5-10": "Samuel at Mizpah",
+    "Exodus 33:9-11": "The pillar of cloud"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Moses and Aaron",
+     "d": "Among His priests"
+    },
+    {
+     "n": "Samuel",
+     "d": "Called on His name"
+    },
+    {
+     "n": "The nations",
+     "d": "Called to tremble"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Holy is He"
+    },
+    {
+     "when": "v.4-5",
+     "label": "The King loves justice"
+    },
+    {
+     "when": "v.6-9",
+     "label": "They called, He answered"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The LORD reigns; let the nations tremble! He is enthroned above the cherubim; let the earth quake! Great is the LORD in Zion; He is exalted above all the peoples. Let them praise Your great and awesome name— He is holy! The mighty King loves justice. You have established equity; You have exercised justice and righteousness in Jacob. Exalt the LORD our God, and worship at His footstool; He is holy! Moses and Aaron were among His priests; Samuel was among those who called on His name. They called to the LORD and He answered. O LORD our God, You answered them. You were a forgiving God to them, yet an avenger of their misdeeds. Exalt the LORD our God and worship at His holy mountain, for the LORD our God is holy.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg",
+   "caption": "Moses with the Ten Commandments, by Rembrandt (1659, Gemäldegalerie, Berlin). “Moses and Aaron were among His priests… He spoke to them from the pillar of cloud” (Psalm 99:6-7).",
+   "credit": "Rembrandt (1659), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “Exalt the LORD our God and worship at His holy mountain, for the LORD our God is holy” (Psalm 99:9).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

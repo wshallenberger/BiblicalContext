@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 85,
+ "title": "Righteousness and Peace Have Kissed",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of the sons of Korah.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "You showed favor to Your land, O LORD; You restored Jacob from captivity."
+  },
+  {
+   "num": 2,
+   "text": "You forgave the iniquity of Your people; You covered all their sin. Selah"
+  },
+  {
+   "num": 3,
+   "text": "You withheld all Your fury; You turned from Your burning anger."
+  },
+  {
+   "num": 4,
+   "text": "Restore us, O God of our salvation, and put away Your displeasure toward us."
+  },
+  {
+   "num": 5,
+   "text": "Will You be angry with us forever? Will You draw out Your anger to all generations?"
+  },
+  {
+   "num": 6,
+   "text": "Will You not revive us again, that Your people may rejoice in You?"
+  },
+  {
+   "num": 7,
+   "text": "Show us Your loving devotion, O LORD, and grant us Your salvation."
+  },
+  {
+   "num": 8,
+   "text": "I will listen to what God the LORD will say; for He will surely speak peace to His people and His saints; He will not let them return to folly."
+  },
+  {
+   "num": 9,
+   "text": "Surely His salvation is near to those who fear Him, that His glory may dwell in our land."
+  },
+  {
+   "num": 10,
+   "text": "Loving devotion and faithfulness have joined together; righteousness and peace have kissed."
+  },
+  {
+   "num": 11,
+   "text": "Faithfulness sprouts from the earth, and righteousness looks down from heaven."
+  },
+  {
+   "num": 12,
+   "text": "The LORD will indeed provide what is good, and our land will yield its increase."
+  },
+  {
+   "num": 13,
+   "text": "Righteousness will go before Him to prepare the way for His steps."
+  }
+ ],
+ "context": {
+  "author": "The title names the sons of Korah, a family of Levites descended from the Korah who rebelled against Moses (Numbers 16). His sons did not die with him (Numbers 26:11), and their descendants became gatekeepers and singers at the Temple (1 Chronicles 9:19; 2 Chronicles 20:19).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The psalm remembers grace: “You showed favor to Your land, O LORD; You restored Jacob from captivity. You forgave the iniquity of Your people; You covered all their sin” (vv.1-2). Yet the people still live under God’s displeasure: “Restore us, O God of our salvation” (v.4). “Will You not revive us again, that Your people may rejoice in You?” (v.6). The psalmist waits: “I will listen to what God the LORD will say; for He will surely speak peace to His people” (v.8). Then comes a picture of salvation: “Loving devotion and faithfulness have joined together; righteousness and peace have kissed. Faithfulness sprouts from the earth, and righteousness looks down from heaven” (vv.10-11). “The LORD will indeed provide what is good, and our land will yield its increase” (v.12).",
+  "custom": "Many read the psalm after the return from Babylon, when the exiles were home but the land was poor and life was hard (Haggai 1:6-11; Nehemiah 9:36-37). The phrase “restored Jacob from captivity” can also mean a general turning of fortunes. A kiss was the greeting of family and friends and a sign of reconciliation (Genesis 33:4).",
+  "timelineImmediate": "Psalm 86, a prayer of David, asks God for an undivided heart.",
+  "timelineBible": "At Jesus’ birth the angels sang, “Glory to God in the highest, and on earth peace to men on whom His favor rests!” (Luke 2:14). Paul wrote, “since we have been justified through faith, we have peace with God through our Lord Jesus Christ” (Romans 5:1): righteousness and peace meet in Christ. The old wording of v.10, ‘mercy and truth are met together,’ made it a favorite Christmas text.",
+  "translation": [
+   {
+    "english": "restored",
+    "greek": "שׁוּב (shuv)",
+    "verseRef": "v.1",
+    "meaning": "To turn, return, restore.",
+    "gloss": "Turn back",
+    "strongs": "H7725",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "kissed",
+    "greek": "נָשַׁק (nashaq)",
+    "verseRef": "v.10",
+    "meaning": "To kiss.",
+    "gloss": "Kiss",
+    "strongs": "H5401",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "peace",
+    "greek": "שָׁלוֹם (shalom)",
+    "verseRef": "v.10",
+    "meaning": "Peace, wholeness, well-being.",
+    "gloss": "Peace",
+    "strongs": "H7965",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 2:14",
+    "note": "On earth peace."
+   },
+   {
+    "ref": "Romans 5:1",
+    "note": "Peace with God through Christ."
+   },
+   {
+    "ref": "Ephesians 2:14-17",
+    "note": "He Himself is our peace."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Haggai 1:5-11",
+    "note": "The returned exiles’ hard times."
+   },
+   {
+    "ref": "Isaiah 45:8",
+    "note": "Let righteousness sprout up."
+   },
+   {
+    "ref": "Hosea 14:4-7",
+    "note": "I will heal their apostasy."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Remembering past forgiveness, the people ask God to revive them again, and wait to hear Him speak peace, until love and faithfulness meet and righteousness and peace kiss.",
+   "settingLine": "Home again, but still waiting.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Return from exile",
+     "t": "Exiles home in 538 BC."
+    },
+    {
+     "h": "Hard years after",
+     "t": "Poor harvests and slow rebuilding."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The kiss",
+     "t": "A sign of welcome and reconciliation."
+    },
+    {
+     "h": "Harvest and blessing",
+     "t": "Good crops seen as God’s favor."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Cyrus Cylinder",
+     "t": "Records Cyrus’ policy of returning deported peoples and their gods."
+    },
+    {
+     "h": "Yehud seals",
+     "t": "Seal impressions reading Yehud from the Persian province of Judah."
+    }
+   ],
+   "discussion": "“I will listen to what God the LORD will say” (v.8). How much of my prayer is speaking, and how much is listening?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "The sons of Korah",
+   "genre": "Community prayer for revival",
+   "audience": "God, from a restored people",
+   "refNotes": {
+    "Haggai 1:5-11": "After the exile",
+    "Isaiah 45:8": "Righteousness sprouting",
+    "Hosea 14:4-7": "Healing"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The sons of Korah",
+     "d": "Pray for the people"
+    },
+    {
+     "n": "Jacob",
+     "d": "Israel restored"
+    },
+    {
+     "n": "His saints",
+     "d": "Waiting for peace"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "You restored us"
+    },
+    {
+     "when": "v.4-7",
+     "label": "Revive us again"
+    },
+    {
+     "when": "v.8-13",
+     "label": "Righteousness and peace kiss"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "You showed favor to Your land, O LORD; You restored Jacob from captivity. You forgave the iniquity of Your people; You covered all their sin. Selah Restore us, O God of our salvation, and put away Your displeasure toward us. Will You not revive us again, that Your people may rejoice in You? I will listen to what God the LORD will say; for He will surely speak peace to His people and His saints; He will not let them return to folly. Loving devotion and faithfulness have joined together; righteousness and peace have kissed. Faithfulness sprouts from the earth, and righteousness looks down from heaven. Righteousness will go before Him to prepare the way for His steps.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "Olive trees in the hills of Judah. “The LORD will indeed provide what is good, and our land will yield its increase” (Psalm 85:12).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

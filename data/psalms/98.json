@@ -1,0 +1,213 @@
+{
+ "book": "Psalms",
+ "chapter": 98,
+ "title": "His Right Hand Has Gained the Victory",
+ "translation": "BSB",
+ "superscription": "A Psalm.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Sing to the LORD a new song, for He has done wonders; His right hand and holy arm have gained Him the victory."
+  },
+  {
+   "num": 2,
+   "text": "The LORD has proclaimed His salvation and revealed His righteousness to the nations."
+  },
+  {
+   "num": 3,
+   "text": "He has remembered His love and faithfulness to the house of Israel; all the ends of the earth have seen the salvation of our God."
+  },
+  {
+   "num": 4,
+   "text": "Make a joyful noise to the LORD, all the earth; break forth—let your cry ring out, and sing praises!"
+  },
+  {
+   "num": 5,
+   "text": "Sing praises to the LORD with the lyre, in melodious song with the harp."
+  },
+  {
+   "num": 6,
+   "text": "With trumpets and the blast of the ram's horn shout for joy before the LORD, the King."
+  },
+  {
+   "num": 7,
+   "text": "Let the sea resound, and all that fills it, the world, and all who dwell in it."
+  },
+  {
+   "num": 8,
+   "text": "Let the rivers clap their hands, let the mountains sing together for joy"
+  },
+  {
+   "num": 9,
+   "text": "before the LORD, for He comes to judge the earth. He will judge the world with righteousness and the peoples with equity."
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title is simply “A Psalm.” “Sing to the LORD a new song, for He has done wonders; His right hand and holy arm have gained Him the victory” (v.1). “The LORD has proclaimed His salvation and revealed His righteousness to the nations. He has remembered His love and faithfulness to the house of Israel; all the ends of the earth have seen the salvation of our God” (vv.2-3). So the whole earth is to break out in praise with lyre and harp, trumpets and the ram’s horn, before “the LORD, the King” (vv.4-6). “Let the rivers clap their hands, let the mountains sing together for joy before the LORD, for He comes to judge the earth” (vv.8-9).",
+  "custom": "Silver trumpets were blown by the priests (Numbers 10:1-10) and the ram’s horn by the people; both sounded when a king was acclaimed (1 Kings 1:39; 2 Kings 11:14), and the crowd clapped their hands (2 Kings 11:12). Verse 3 echoes Isaiah 52:10 almost word for word.",
+  "timelineImmediate": "Psalm 99 praises the holy King enthroned above the cherubim.",
+  "timelineBible": "Mary sang that God “has helped His servant Israel, remembering to be merciful” (Luke 1:54), like v.3. Simeon held the child Jesus and said, “my eyes have seen Your salvation, which You have prepared in the sight of all people” (Luke 2:30-31). Isaac Watts based his carol ‘Joy to the World’ (1719) on this psalm.",
+  "translation": [
+   {
+    "english": "victory",
+    "greek": "יָשַׁע (yasha)",
+    "verseRef": "v.1",
+    "meaning": "To save, deliver, give victory; the root of the names Joshua and Jesus.",
+    "gloss": "Save",
+    "strongs": "H3467",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "trumpets",
+    "greek": "חֲצֹצְרָה (chatsotsrah)",
+    "verseRef": "v.6",
+    "meaning": "Trumpet, the straight silver trumpet of the priests.",
+    "gloss": "Trumpet",
+    "strongs": "H2689",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "clap",
+    "greek": "מָחָא (macha)",
+    "verseRef": "v.8",
+    "meaning": "To clap, strike the hands.",
+    "gloss": "Clap",
+    "strongs": "H4222",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 1:54-55",
+    "note": "He has remembered to be merciful."
+   },
+   {
+    "ref": "Luke 2:29-32",
+    "note": "My eyes have seen Your salvation."
+   },
+   {
+    "ref": "Revelation 11:15",
+    "note": "The kingdom of the world has become His."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 52:10",
+    "note": "All the ends of the earth will see."
+   },
+   {
+    "ref": "Exodus 15:6",
+    "note": "Your right hand, O LORD."
+   },
+   {
+    "ref": "Isaiah 55:12",
+    "note": "The trees will clap their hands."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A new song for the LORD’s victory: He has shown His salvation to the nations, so all the earth, with instruments, sea, rivers and mountains, shouts for joy before the coming King.",
+   "settingLine": "Trumpets for the victorious King.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The exodus",
+     "t": "God’s right hand at the sea."
+    },
+    {
+     "h": "Joy to the World",
+     "t": "Watts’ carol on this psalm."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Trumpets and horns",
+     "t": "Sounded at coronations."
+    },
+    {
+     "h": "Clapping",
+     "t": "Applause for a new king."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Arch of Titus",
+     "t": "A relief in Rome shows the Temple’s silver trumpets carried off in AD 70."
+    },
+    {
+     "h": "The trumpeting stone",
+     "t": "A stone from the Temple Mount inscribed ‘to the place of trumpeting.’"
+    }
+   ],
+   "discussion": "Even the mountains “sing together for joy” (v.8). What helps me praise God with my whole self, not just my lips?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Enthronement psalm",
+   "audience": "All the earth",
+   "refNotes": {
+    "Isaiah 52:10": "Salvation seen",
+    "Exodus 15:6": "God’s right hand",
+    "Isaiah 55:12": "Creation’s applause"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The LORD, the King",
+     "d": "Gains the victory"
+    },
+    {
+     "n": "The house of Israel",
+     "d": "Remembered"
+    },
+    {
+     "n": "All the earth",
+     "d": "Shouts for joy"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "He has done wonders"
+    },
+    {
+     "when": "v.4-6",
+     "label": "Praise the King"
+    },
+    {
+     "when": "v.7-9",
+     "label": "Creation’s chorus"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Sing to the LORD a new song, for He has done wonders; His right hand and holy arm have gained Him the victory. The LORD has proclaimed His salvation and revealed His righteousness to the nations. He has remembered His love and faithfulness to the house of Israel; all the ends of the earth have seen the salvation of our God. Make a joyful noise to the LORD, all the earth; break forth—let your cry ring out, and sing praises! With trumpets and the blast of the ram's horn shout for joy before the LORD, the King. Let the rivers clap their hands, let the mountains sing together for joy before the LORD, for He comes to judge the earth. He will judge the world with righteousness and the peoples with equity.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shofar-16-Zachi-Evenor.jpg",
+   "caption": "A ram’s horn shofar. “shout for joy before the LORD, the King” (Psalm 98:6).",
+   "credit": "Zachi Evenor, CC BY / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "book": "Psalms",
+ "chapter": 96,
+ "title": "Sing to the LORD a New Song",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Sing to the LORD a new song; sing to the LORD, all the earth."
+  },
+  {
+   "num": 2,
+   "text": "Sing to the LORD, bless His name; proclaim His salvation day after day."
+  },
+  {
+   "num": 3,
+   "text": "Declare His glory among the nations, His wonderful deeds among all peoples."
+  },
+  {
+   "num": 4,
+   "text": "For great is the LORD, and greatly to be praised; He is to be feared above all gods."
+  },
+  {
+   "num": 5,
+   "text": "For all the gods of the nations are idols, but it is the LORD who made the heavens."
+  },
+  {
+   "num": 6,
+   "text": "Splendor and majesty are before Him; strength and beauty fill His sanctuary."
+  },
+  {
+   "num": 7,
+   "text": "Ascribe to the LORD, O families of the nations, ascribe to the LORD glory and strength."
+  },
+  {
+   "num": 8,
+   "text": "Ascribe to the LORD the glory due His name; bring an offering and enter His courts."
+  },
+  {
+   "num": 9,
+   "text": "Worship the LORD in the splendor of His holiness; tremble before Him, all the earth."
+  },
+  {
+   "num": 10,
+   "text": "Declare among the nations: \"The LORD reigns!\" The world is firmly established; it cannot be moved; He will judge the peoples with equity."
+  },
+  {
+   "num": 11,
+   "text": "Let the heavens be glad and the earth rejoice; let the sea resound, and all that fills it."
+  },
+  {
+   "num": 12,
+   "text": "Let the fields exult, and all that is in them. Then all the trees of the forest will sing for joy"
+  },
+  {
+   "num": 13,
+   "text": "before the LORD, for He is coming— He is coming to judge the earth. He will judge the world in righteousness and the peoples in His faithfulness."
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Sing to the LORD a new song; sing to the LORD, all the earth” (v.1). The song is for the nations: “Declare His glory among the nations, His wonderful deeds among all peoples” (v.3). “For all the gods of the nations are idols, but it is the LORD who made the heavens” (v.5). Echoing Psalm 29, the families of the nations are told, “Ascribe to the LORD the glory due His name; bring an offering and enter His courts” (v.8). “Worship the LORD in the splendor of His holiness; tremble before Him, all the earth” (v.9). The message to carry: “The LORD reigns!” (v.10). Creation joins in: “Let the heavens be glad and the earth rejoice… Then all the trees of the forest will sing for joy before the LORD, for He is coming— He is coming to judge the earth” (vv.11-13).",
+  "custom": "When David brought the ark to Jerusalem, Asaph and his relatives sang a psalm that includes almost all of Psalm 96 (1 Chronicles 16:23-33). A new song in the Psalms celebrates a fresh act of God’s salvation. The phrase “the splendor of His holiness” may also be read as holy attire, the festal robes of worshipers.",
+  "timelineImmediate": "Psalm 97 pictures the LORD’s reign in cloud, fire and lightning.",
+  "timelineBible": "Revelation hears a new song to the Lamb, who ransomed people “from every tribe and tongue and people and nation” (Revelation 5:9). Paul told the Athenians that God “has set a day when He will judge the world with justice” (Acts 17:31). Paul also wrote that creation itself waits to be set free (Romans 8:21).",
+  "translation": [
+   {
+    "english": "new",
+    "greek": "חָדָשׁ (chadash)",
+    "verseRef": "v.1",
+    "meaning": "New, fresh.",
+    "gloss": "New",
+    "strongs": "H2319",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "splendor",
+    "greek": "הֲדָרָה (hadarah)",
+    "verseRef": "v.9",
+    "meaning": "Adornment, splendor, majesty.",
+    "gloss": "Splendor",
+    "strongs": "H1927",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "judge",
+    "greek": "שָׁפַט (shaphat)",
+    "verseRef": "v.13",
+    "meaning": "To judge, rule, set right.",
+    "gloss": "Judge",
+    "strongs": "H8199",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 5:9-10",
+    "note": "A new song to the Lamb."
+   },
+   {
+    "ref": "Acts 17:30-31",
+    "note": "He will judge the world with justice."
+   },
+   {
+    "ref": "Romans 8:19-21",
+    "note": "Creation waits to be set free."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Chronicles 16:23-33",
+    "note": "Sung when the ark came to Jerusalem."
+   },
+   {
+    "ref": "Isaiah 42:10",
+    "note": "Sing to the LORD a new song."
+   },
+   {
+    "ref": "Isaiah 55:12",
+    "note": "The trees will clap their hands."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "All the earth is called to sing a new song, declare God’s glory among the nations, worship in holy splendor, and rejoice with sea, fields and forests because the LORD reigns and comes to judge.",
+   "settingLine": "A song for every nation.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The ark comes to Jerusalem",
+     "t": "Asaph’s song (1 Chronicles 16)."
+    },
+    {
+     "h": "Idols of the nations",
+     "t": "Gods made by hands."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Offerings at the courts",
+     "t": "Bringing gifts to the King."
+    },
+    {
+     "h": "Festal robes",
+     "t": "Dressing for worship."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Idol figurines",
+     "t": "Clay and bronze figurines of Canaanite gods found across Israel."
+    },
+    {
+     "h": "Temple courts",
+     "t": "Outer courts where worshipers brought offerings."
+    }
+   ],
+   "discussion": "Even the trees “sing for joy” because God comes to judge (v.12). Why would God’s judgment be good news?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Enthronement psalm",
+   "audience": "All the earth",
+   "refNotes": {
+    "1 Chronicles 16:23-33": "The ark’s arrival",
+    "Isaiah 42:10": "A new song",
+    "Isaiah 55:12": "Creation rejoicing"
+   },
+   "peoplePlaces": [
+    {
+     "n": "All the earth",
+     "d": "Called to sing"
+    },
+    {
+     "n": "The families of the nations",
+     "d": "Ascribe glory"
+    },
+    {
+     "n": "The LORD",
+     "d": "Coming to judge"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Sing a new song"
+    },
+    {
+     "when": "v.7-10",
+     "label": "Ascribe to the LORD"
+    },
+    {
+     "when": "v.11-13",
+     "label": "Creation rejoices"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Sing to the LORD a new song; sing to the LORD, all the earth. Sing to the LORD, bless His name; proclaim His salvation day after day. Declare His glory among the nations, His wonderful deeds among all peoples. For great is the LORD, and greatly to be praised; He is to be feared above all gods. For all the gods of the nations are idols, but it is the LORD who made the heavens. Worship the LORD in the splendor of His holiness; tremble before Him, all the earth. Declare among the nations: The LORD reigns! The world is firmly established; it cannot be moved; He will judge the peoples with equity. Let the heavens be glad and the earth rejoice; let the sea resound, and all that fills it. before the LORD, for He is coming— He is coming to judge the earth. He will judge the world in righteousness and the peoples in His faithfulness.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "Olive groves in the hills of Judah. “Let the fields exult, and all that is in them. Then all the trees of the forest will sing for joy” (Psalm 96:12).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

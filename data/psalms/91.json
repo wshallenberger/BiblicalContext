@@ -1,0 +1,240 @@
+{
+ "book": "Psalms",
+ "chapter": 91,
+ "title": "Under His Wings",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "He who dwells in the shelter of the Most High will abide in the shadow of the Almighty."
+  },
+  {
+   "num": 2,
+   "text": "I will say to the LORD, \"You are my refuge and my fortress, my God, in whom I trust.\""
+  },
+  {
+   "num": 3,
+   "text": "Surely He will deliver you from the snare of the fowler, and from the deadly plague."
+  },
+  {
+   "num": 4,
+   "text": "He will cover you with His feathers; under His wings you will find refuge; His faithfulness is a shield and rampart."
+  },
+  {
+   "num": 5,
+   "text": "You will not fear the terror of the night, nor the arrow that flies by day,"
+  },
+  {
+   "num": 6,
+   "text": "nor the pestilence that stalks in the darkness, nor the calamity that destroys at noon."
+  },
+  {
+   "num": 7,
+   "text": "Though a thousand may fall at your side, and ten thousand at your right hand, no harm will come near you."
+  },
+  {
+   "num": 8,
+   "text": "You will only see it with your eyes and witness the punishment of the wicked."
+  },
+  {
+   "num": 9,
+   "text": "Because you have made the LORD your dwelling— my refuge, the Most High—"
+  },
+  {
+   "num": 10,
+   "text": "no evil will befall you, no plague will approach your tent."
+  },
+  {
+   "num": 11,
+   "text": "For He will command His angels concerning you to guard you in all your ways."
+  },
+  {
+   "num": 12,
+   "text": "They will lift you up in their hands, so that you will not strike your foot against a stone."
+  },
+  {
+   "num": 13,
+   "text": "You will tread on the lion and cobra; you will trample the young lion and serpent."
+  },
+  {
+   "num": 14,
+   "text": "\"Because he loves Me, I will deliver him; because he knows My name, I will protect him."
+  },
+  {
+   "num": 15,
+   "text": "When he calls out to Me, I will answer him; I will be with him in trouble. I will deliver him and honor him."
+  },
+  {
+   "num": 16,
+   "text": "With long life I will satisfy him and show him My salvation.\""
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“He who dwells in the shelter of the Most High will abide in the shadow of the Almighty” (v.1). One voice answers, “You are my refuge and my fortress, my God, in whom I trust” (v.2). Another promises: “Surely He will deliver you from the snare of the fowler, and from the deadly plague. He will cover you with His feathers; under His wings you will find refuge” (vv.3-4). “You will not fear the terror of the night, nor the arrow that flies by day” (v.5). “Though a thousand may fall at your side, and ten thousand at your right hand, no harm will come near you” (v.7). “For He will command His angels concerning you to guard you in all your ways” (v.11). At the end God Himself speaks: “Because he loves Me, I will deliver him… I will be with him in trouble” (vv.14-15).",
+  "custom": "Fowlers caught birds with nets and spring traps (Amos 3:5). Plague and the arrow by day stand for the dangers of disease and war. The “shadow of the Almighty” and “under His wings” may picture a mother bird, or the wings of the cherubim over the ark in the Holy of Holies. Jewish tradition recited the psalm at night and in danger.",
+  "timelineImmediate": "Psalm 92 is a song for the Sabbath day.",
+  "timelineBible": "The devil quoted vv.11-12 to tempt Jesus to throw Himself from the Temple, and Jesus answered, “Do not put the Lord your God to the test” (Matthew 4:7). Jesus longed to gather Jerusalem’s children “as a hen gathers her chicks under her wings” (Matthew 23:37). He gave His disciples authority to tread on snakes and scorpions (Luke 10:19), like v.13.",
+  "translation": [
+   {
+    "english": "shelter",
+    "greek": "סֵתֶר (seter)",
+    "verseRef": "v.1",
+    "meaning": "Covering, hiding place, shelter.",
+    "gloss": "Shelter",
+    "strongs": "H5643",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Almighty",
+    "greek": "שַׁדַּי (shaddai)",
+    "verseRef": "v.1",
+    "meaning": "The Almighty, a name of God from the patriarchs’ time (Genesis 17:1).",
+    "gloss": "Almighty",
+    "strongs": "H7706",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "wings",
+    "greek": "כָּנָף (kanaph)",
+    "verseRef": "v.4",
+    "meaning": "Wing; also the edge of a garment.",
+    "gloss": "Wing",
+    "strongs": "H3671",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 4:5-7",
+    "note": "The devil quotes this psalm."
+   },
+   {
+    "ref": "Luke 10:19",
+    "note": "Authority to tread on serpents."
+   },
+   {
+    "ref": "Hebrews 1:14",
+    "note": "Angels sent to serve."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Ruth 2:12",
+    "note": "Under whose wings you have taken refuge."
+   },
+   {
+    "ref": "Exodus 12:23",
+    "note": "The destroyer passes over."
+   },
+   {
+    "ref": "2 Kings 6:15-17",
+    "note": "Horses and chariots of fire."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Whoever makes the Most High his dwelling is sheltered under God’s wings from plague, terror and attack, guarded by angels and promised God’s presence in trouble.",
+   "settingLine": "Safe in the shadow of the Almighty.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Plague in Israel",
+     "t": "Like the plague after David’s census (2 Samuel 24)."
+    },
+    {
+     "h": "Temptation of Jesus",
+     "t": "Satan quotes vv.11-12."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Fowlers’ traps",
+     "t": "Nets and snares for birds."
+    },
+    {
+     "h": "Night prayers",
+     "t": "Recited for protection."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Bird traps",
+     "t": "Egyptian tomb paintings show fowlers with clap-nets."
+    },
+    {
+     "h": "Protective amulets",
+     "t": "Amulets against demons and plague were common in the ancient world; Israel was to trust God alone."
+    }
+   ],
+   "discussion": "The promise is for the one who “dwells” in God’s shelter (v.1), not one who visits. What would it look like to live there rather than run there only in emergencies?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Psalm of trust",
+   "audience": "The one who trusts, and God",
+   "refNotes": {
+    "Ruth 2:12": "Under His wings",
+    "Exodus 12:23": "Passover",
+    "2 Kings 6:15-17": "Unseen protectors"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The one who trusts",
+     "d": "Dwells in God’s shelter"
+    },
+    {
+     "n": "The angels",
+     "d": "Guard him"
+    },
+    {
+     "n": "God",
+     "d": "Answers and delivers"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "My refuge"
+    },
+    {
+     "when": "v.3-13",
+     "label": "He will deliver you"
+    },
+    {
+     "when": "v.14-16",
+     "label": "God speaks"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "He who dwells in the shelter of the Most High will abide in the shadow of the Almighty. I will say to the LORD, You are my refuge and my fortress, my God, in whom I trust. He will cover you with His feathers; under His wings you will find refuge; His faithfulness is a shield and rampart. You will not fear the terror of the night, nor the arrow that flies by day, Though a thousand may fall at your side, and ten thousand at your right hand, no harm will come near you. Because you have made the LORD your dwelling— my refuge, the Most High— For He will command His angels concerning you to guard you in all your ways. Because he loves Me, I will deliver him; because he knows My name, I will protect him. When he calls out to Me, I will answer him; I will be with him in trouble. I will deliver him and honor him. With long life I will satisfy him and show him My salvation.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+   "caption": "The fortress rock of Masada above the Dead Sea. Its name comes from metsudah, the word for “fortress” in Psalm 91:2: “You are my refuge and my fortress, my God, in whom I trust.”",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

@@ -15652,5 +15652,281 @@
    "ps_scroll",
    "ps_cityofdavid"
   ]
+ },
+ {
+  "i": 631,
+  "t": "The ram’s horn at the Feast; God among the gods (Psalms 81-82)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    81,
+    1,
+    82,
+    8
+   ]
+  ],
+  "rs": "Ps81:1-82:8",
+  "s": "\"Sound the ram's horn at the New Moon, and at the full moon on the day of our Feast.\" \"Open wide your mouth, and I will fill it.\" \"Arise, O God, judge the earth, for all the nations are Your inheritance.\"",
+  "n": "Psalm 81 fits the autumn feasts, when the ram’s horn sounded at the new moon and the Feast of Tabernacles began at the full moon. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_shofar",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 632,
+  "t": "A league of nations; remember the Kishon (Psalm 83)",
+  "p": "The River Kishon, Jezreel Valley",
+  "la": 32.66,
+  "ln": 35.22,
+  "r": [
+   [
+    "psalms",
+    83,
+    1,
+    83,
+    18
+   ]
+  ],
+  "rs": "Ps83:1-18",
+  "s": "\"O God, be not silent; be not speechless; be not still, O God.\" \"Do to them as You did to Midian, as to Sisera and Jabin at the River Kishon.\" \"May they know that You alone, whose name is the LORD, are Most High over all the earth.\"",
+  "n": "The psalm asks God to act as He did when Deborah and Barak routed Sisera by the Kishon (Judges 4-5). The pin is on the river below Megiddo.",
+  "im": [
+   "ps_megiddo",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 633,
+  "t": "The pilgrim road to Zion (Psalms 84-85)",
+  "p": "Jerusalem, the Temple courts",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    84,
+    1,
+    85,
+    13
+   ]
+  ],
+  "rs": "Ps84:1-85:13",
+  "s": "\"How lovely is Your dwelling place, O LORD of Hosts!\" \"For better is one day in Your courts than a thousand elsewhere.\" \"Loving devotion and faithfulness have joined together; righteousness and peace have kissed.\"",
+  "n": "Pilgrims climbed to Jerusalem for the three great feasts. The Valley of Baca in Psalm 84:6 is unknown. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_templemount",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 634,
+  "t": "An undivided heart; born in Zion (Psalms 86-87)",
+  "p": "Jerusalem (Zion)",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    86,
+    1,
+    87,
+    7
+   ]
+  ],
+  "rs": "Ps86:1-87:7",
+  "s": "\"Give me an undivided heart, that I may fear Your name.\" \"The LORD loves the gates of Zion more than all the dwellings of Jacob.\" \"Glorious things are ascribed to you, O city of God.\"",
+  "n": "Psalm 87 counts Egypt, Babylon, Philistia, Tyre and Cush among Zion’s citizens. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_templemount",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 635,
+  "t": "The darkest psalm (Psalm 88)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    88,
+    1,
+    88,
+    18
+   ]
+  ],
+  "rs": "Ps88:1-18",
+  "s": "\"O LORD, the God of my salvation, day and night I cry out before You.\" \"You have laid me in the lowest Pit, in the darkest of the depths.\" \"Darkness is my closest companion.\"",
+  "n": "The title names Heman the Ezrahite, one of David’s chief singers. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_tunnel",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 636,
+  "t": "The oath to David and a fallen crown (Psalm 89)",
+  "p": "Mount Tabor",
+  "la": 32.687,
+  "ln": 35.39,
+  "r": [
+   [
+    "psalms",
+    89,
+    1,
+    89,
+    52
+   ]
+  ],
+  "rs": "Ps89:1-52",
+  "s": "\"I have found My servant David; with My sacred oil I have anointed him.\" \"Tabor and Hermon shout for joy at Your name.\" \"Where, O Lord, is Your loving devotion of old, which You faithfully swore to David?\"",
+  "n": "Ethan praises God’s covenant with David (2 Samuel 7) and then mourns a king of David’s line cast down. The pin is at Mount Tabor, named with Hermon in v.12. Book Three ends here.",
+  "im": [
+   "ps_tabor",
+   "ps_nathan"
+  ]
+ },
+ {
+  "i": 637,
+  "t": "A prayer of Moses; Book Four begins (Psalm 90)",
+  "p": "The wilderness of Sinai",
+  "la": 28.539,
+  "ln": 33.975,
+  "r": [
+   [
+    "psalms",
+    90,
+    1,
+    90,
+    17
+   ]
+  ],
+  "rs": "Ps90:1-17",
+  "s": "The title: \"A prayer of Moses the man of God.\" \"Lord, You have been our dwelling place through all generations.\" \"So teach us to number our days, that we may present a heart of wisdom.\"",
+  "n": "The only psalm of Moses. Many link it with the forty years in the wilderness; the pin at the traditional Mount Sinai is only a marker.",
+  "im": [
+   "ps_moses",
+   "ps_sinai"
+  ]
+ },
+ {
+  "i": 638,
+  "t": "Under His wings; a song for the Sabbath (Psalms 91-92)",
+  "p": "Jerusalem, the Temple courts",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    91,
+    1,
+    92,
+    15
+   ]
+  ],
+  "rs": "Ps91:1-92:15",
+  "s": "\"He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.\" \"Under His wings you will find refuge.\" \"The righteous will flourish like a palm tree, and grow like a cedar in Lebanon.\"",
+  "n": "The Mishnah says the Levites sang Psalm 92 in the Temple on the Sabbath. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_masada",
+   "ps_cedars"
+  ]
+ },
+ {
+  "i": 639,
+  "t": "The LORD reigns above the floods (Psalms 93-94)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    93,
+    1,
+    94,
+    23
+   ]
+  ],
+  "rs": "Ps93:1-94:23",
+  "s": "\"The LORD reigns! He is robed in majesty.\" \"Above the roar of many waters— the mighty breakers of the sea— the LORD on high is majestic.\" \"When anxiety overwhelms me, Your consolation delights my soul.\"",
+  "n": "Psalms 93 and 95-99 are called enthronement psalms. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_banias",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 640,
+  "t": "Today, if you hear His voice (Psalm 95)",
+  "p": "Massah and Meribah (location debated)",
+  "la": 28.7,
+  "ln": 33.63,
+  "r": [
+   [
+    "psalms",
+    95,
+    1,
+    95,
+    11
+   ]
+  ],
+  "rs": "Ps95:1-11",
+  "s": "\"O come, let us worship and bow down; let us kneel before the LORD our Maker.\" \"Today, if you hear His voice, do not harden your hearts as you did at Meribah, in the day at Massah in the wilderness.\"",
+  "n": "The psalm recalls the quarrel over water at Rephidim (Exodus 17:1-7). Rephidim is traditionally placed in Wadi Feiran in southern Sinai, but its site and Israel’s route are debated. The psalm itself was sung at the sanctuary.",
+  "im": [
+   "ps_sinai",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 641,
+  "t": "Sing a new song: the LORD reigns (Psalms 96-99)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    96,
+    1,
+    99,
+    9
+   ]
+  ],
+  "rs": "Ps96:1-99:9",
+  "s": "\"Sing to the LORD a new song; sing to the LORD, all the earth.\" \"The LORD reigns, let the earth rejoice; let the distant shores be glad.\" \"Exalt the LORD our God, and worship at His footstool; He is holy!\"",
+  "n": "Much of Psalm 96 was sung when David brought the ark to Jerusalem (1 Chronicles 16:23-33). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_shofar",
+   "ps_hermon"
+  ]
+ },
+ {
+  "i": 642,
+  "t": "Enter His gates with thanksgiving (Psalm 100)",
+  "p": "Jerusalem, the Temple gates",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    100,
+    1,
+    100,
+    5
+   ]
+  ],
+  "rs": "Ps100:1-5",
+  "s": "The title: \"A Psalm of thanksgiving.\" \"Make a joyful noise to the LORD, all the earth.\" \"Enter His gates with thanksgiving and His courts with praise.\"",
+  "n": "Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_templemount",
+   "ps_judea"
+  ]
  }
 ]

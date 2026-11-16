@@ -1,0 +1,249 @@
+{
+ "book": "Psalms",
+ "chapter": 86,
+ "title": "Give Me an Undivided Heart",
+ "translation": "BSB",
+ "superscription": "A prayer of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Incline Your ear, O LORD, and answer me, for I am poor and needy."
+  },
+  {
+   "num": 2,
+   "text": "Preserve my soul, for I am godly. You are my God; save Your servant who trusts in You."
+  },
+  {
+   "num": 3,
+   "text": "Be merciful to me, O Lord, for I call to You all day long."
+  },
+  {
+   "num": 4,
+   "text": "Bring joy to Your servant, for to You, O Lord, I lift up my soul."
+  },
+  {
+   "num": 5,
+   "text": "For You, O Lord, are kind and forgiving, rich in loving devotion to all who call on You."
+  },
+  {
+   "num": 6,
+   "text": "Hear my prayer, O LORD, and attend to my plea for mercy."
+  },
+  {
+   "num": 7,
+   "text": "In the day of my distress I call on You, because You answer me."
+  },
+  {
+   "num": 8,
+   "text": "O Lord, there is none like You among the gods, nor any works like Yours."
+  },
+  {
+   "num": 9,
+   "text": "All the nations You have made will come and bow before You, O Lord, and they will glorify Your name."
+  },
+  {
+   "num": 10,
+   "text": "For You are great and perform wonders; You alone are God."
+  },
+  {
+   "num": 11,
+   "text": "Teach me Your way, O LORD, that I may walk in Your truth. Give me an undivided heart, that I may fear Your name."
+  },
+  {
+   "num": 12,
+   "text": "I will praise You, O Lord my God, with all my heart; I will glorify Your name forever."
+  },
+  {
+   "num": 13,
+   "text": "For great is Your loving devotion to me; You have delivered me from the depths of Sheol."
+  },
+  {
+   "num": 14,
+   "text": "The arrogant rise against me, O God; a band of ruthless men seeks my life, with no regard for You."
+  },
+  {
+   "num": 15,
+   "text": "But You, O Lord, are a compassionate and gracious God, slow to anger, abounding in loving devotion and faithfulness."
+  },
+  {
+   "num": 16,
+   "text": "Turn to me and have mercy; grant Your strength to Your servant; save the son of Your maidservant."
+  },
+  {
+   "num": 17,
+   "text": "Show me a sign of Your goodness, that my enemies may see and be ashamed; for You, O LORD, have helped me and comforted me."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “a prayer of David,” the only psalm of David in Book Three. Much of it is woven from lines found elsewhere in the Psalms and from God’s words to Moses in Exodus 34:6.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, in times of national crisis",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Incline Your ear, O LORD, and answer me, for I am poor and needy” (v.1). David calls himself God’s servant again and again (vv.2, 4, 16) and grounds his plea in God’s character: “For You, O Lord, are kind and forgiving, rich in loving devotion to all who call on You” (v.5). “There is none like You among the gods” (v.8), and “All the nations You have made will come and bow before You” (v.9). He asks, “Teach me Your way, O LORD, that I may walk in Your truth. Give me an undivided heart, that I may fear Your name” (v.11). Proud and ruthless men seek his life (v.14), “But You, O Lord, are a compassionate and gracious God, slow to anger, abounding in loving devotion and faithfulness” (v.15). He asks for “a sign of Your goodness” (v.17).",
+  "custom": "Verse 15 repeats the name God proclaimed to Moses on Sinai: “The LORD, the LORD God, is compassionate and gracious, slow to anger, abounding in loving devotion and faithfulness” (Exodus 34:6). It is the most quoted description of God in the Old Testament (Numbers 14:18; Joel 2:13; Jonah 4:2). “The son of Your maidservant” (v.16) was a servant born in the house, belonging to the master from birth.",
+  "timelineImmediate": "Psalm 87 celebrates Zion as the birthplace of the nations.",
+  "timelineBible": "Jesus said, “No one can serve two masters” (Matthew 6:24), and James warns that a double-minded man is unstable in all his ways (James 1:8). The song of the redeemed in Revelation echoes v.9: “All nations will come and worship before You” (Revelation 15:4).",
+  "translation": [
+   {
+    "english": "undivided",
+    "greek": "יָחַד (yachad)",
+    "verseRef": "v.11",
+    "meaning": "To unite, make one.",
+    "gloss": "Unite",
+    "strongs": "H3161",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gracious",
+    "greek": "חַנּוּן (channun)",
+    "verseRef": "v.15",
+    "meaning": "Gracious, showing favor; used only of God.",
+    "gloss": "Gracious",
+    "strongs": "H2587",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "slow",
+    "greek": "אָרֵךְ (erekh)",
+    "verseRef": "v.15",
+    "meaning": "Long; “long of anger” means slow to anger, patient.",
+    "gloss": "Long",
+    "strongs": "H750",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 6:24",
+    "note": "No one can serve two masters."
+   },
+   {
+    "ref": "James 1:5-8",
+    "note": "Ask in faith, not double-minded."
+   },
+   {
+    "ref": "Revelation 15:3-4",
+    "note": "All nations will come and worship."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 34:6-7",
+    "note": "Compassionate and gracious."
+   },
+   {
+    "ref": "Jonah 4:2",
+    "note": "Jonah knew God was gracious."
+   },
+   {
+    "ref": "Jeremiah 32:39",
+    "note": "One heart and one way."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A poor and needy servant asks God to hear him, teach him, and unite his heart to fear His name, resting on God’s own description of Himself as compassionate and gracious.",
+   "settingLine": "A servant pleading with his Master.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s prayers",
+     "t": "The only Davidic psalm in Book Three."
+    },
+    {
+     "h": "Sinai",
+     "t": "God proclaims His name to Moses."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Household servants",
+     "t": "Born into the master’s house."
+    },
+    {
+     "h": "Signs",
+     "t": "Asking God for a visible token."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Household records",
+     "t": "Mesopotamian contracts record servants born in the house."
+    },
+    {
+     "h": "Ketef Hinnom amulets",
+     "t": "Silver scrolls from about 600 BC carry the priestly blessing, prayers worn for protection."
+    }
+   ],
+   "discussion": "“Give me an undivided heart” (v.11). What pulls my heart in two directions right now?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Personal lament",
+   "audience": "God, my only God",
+   "refNotes": {
+    "Exodus 34:6-7": "God’s name",
+    "Jonah 4:2": "Gracious God",
+    "Jeremiah 32:39": "One heart"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "God’s servant"
+    },
+    {
+     "n": "The arrogant",
+     "d": "Seek his life"
+    },
+    {
+     "n": "The nations",
+     "d": "Will bow before God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Hear Your servant"
+    },
+    {
+     "when": "v.8-10",
+     "label": "None like You"
+    },
+    {
+     "when": "v.11-13",
+     "label": "An undivided heart"
+    },
+    {
+     "when": "v.14-17",
+     "label": "A sign of Your goodness"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Incline Your ear, O LORD, and answer me, for I am poor and needy. For You, O Lord, are kind and forgiving, rich in loving devotion to all who call on You. O Lord, there is none like You among the gods, nor any works like Yours. All the nations You have made will come and bow before You, O Lord, and they will glorify Your name. Teach me Your way, O LORD, that I may walk in Your truth. Give me an undivided heart, that I may fear Your name. For great is Your loving devotion to me; You have delivered me from the depths of Sheol. But You, O Lord, are a compassionate and gracious God, slow to anger, abounding in loving devotion and faithfulness. Show me a sign of Your goodness, that my enemies may see and be ashamed; for You, O LORD, have helped me and comforted me.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

@@ -612,6 +612,16 @@
      3,
      13,
      14
+    ],
+    [
+     18,
+     90,
+     90
+    ],
+    [
+     18,
+     95,
+     95
     ]
    ]
   },
@@ -680,6 +690,11 @@
      6,
      0,
      0
+    ],
+    [
+     18,
+     83,
+     83
     ]
    ]
   },
@@ -714,6 +729,11 @@
      8,
      1,
      8
+    ],
+    [
+     18,
+     99,
+     99
     ]
    ]
   },
@@ -883,6 +903,35 @@
      5
     ]
    ]
+  },
+  {
+   "id": "ps_covenant",
+   "s": "kingdom",
+   "z": 2,
+   "t": "God’s covenant with David",
+   "d": "c. 1000 BC",
+   "c": "a",
+   "r": "2 Samuel 7; Psalm 89",
+   "sum": "Through the prophet Nathan, God promises David a house, a kingdom and a throne established forever. Psalm 89 celebrates the oath: “I have found My servant David; with My sacred oil I have anointed him” (Psalm 89:20).",
+   "ev": 636,
+   "go": [
+    "psalms",
+    89,
+    1
+   ],
+   "bk": [
+    [
+     9,
+     7,
+     7
+    ],
+    [
+     18,
+     89,
+     89
+    ]
+   ],
+   "n": "Dates are approximate."
   },
   {
    "id": "ps_nathan",

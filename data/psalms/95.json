@@ -1,0 +1,232 @@
+{
+ "book": "Psalms",
+ "chapter": 95,
+ "title": "Today, If You Hear His Voice",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Come, let us sing for joy to the LORD; let us shout to the Rock of our salvation!"
+  },
+  {
+   "num": 2,
+   "text": "Let us enter His presence with thanksgiving; let us make a joyful noise to Him in song."
+  },
+  {
+   "num": 3,
+   "text": "For the LORD is a great God, a great King above all gods."
+  },
+  {
+   "num": 4,
+   "text": "In His hand are the depths of the earth, and the mountain peaks belong to Him."
+  },
+  {
+   "num": 5,
+   "text": "The sea is His, for He made it, and His hands formed the dry land."
+  },
+  {
+   "num": 6,
+   "text": "O come, let us worship and bow down; let us kneel before the LORD our Maker."
+  },
+  {
+   "num": 7,
+   "text": "For He is our God, and we are the people of His pasture, the sheep under His care. Today, if you hear His voice,"
+  },
+  {
+   "num": 8,
+   "text": "do not harden your hearts as you did at Meribah, in the day at Massah in the wilderness,"
+  },
+  {
+   "num": 9,
+   "text": "where your fathers tested and tried Me, though they had seen My work."
+  },
+  {
+   "num": 10,
+   "text": "For forty years I was angry with that generation, and I said, \"They are a people whose hearts go astray, and they have not known My ways.\""
+  },
+  {
+   "num": 11,
+   "text": "So I swore on oath in My anger, \"They shall never enter My rest.\""
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "MASSAH AND MERIBAH IN THE WILDERNESS",
+  "setting": "“Come, let us sing for joy to the LORD; let us shout to the Rock of our salvation!” (v.1). He is “a great King above all gods” (v.3), who holds the depths of the earth, the mountain peaks and the sea (vv.4-5). “O come, let us worship and bow down; let us kneel before the LORD our Maker. For He is our God, and we are the people of His pasture, the sheep under His care” (vv.6-7). Then a warning: “Today, if you hear His voice, do not harden your hearts as you did at Meribah, in the day at Massah in the wilderness” (vv.7-8). That generation tested God for forty years (vv.9-10), and He swore, “They shall never enter My rest” (v.11).",
+  "custom": "At Rephidim the people quarreled with Moses for lack of water, and the place was named Massah (testing) and Meribah (quarreling) (Exodus 17:7). Kneeling and bowing to the ground were the posture of worship and of a subject before his king. Psalm 95 has long opened daily prayer: in synagogues on the eve of the Sabbath, and in churches as the Venite at morning prayer.",
+  "timelineImmediate": "Psalm 96 calls all the earth to sing a new song.",
+  "timelineBible": "Hebrews quotes vv.7-11 at length (Hebrews 3:7-11) and says God spoke them “through David” (Hebrews 4:7). It argues that God’s rest was more than Canaan, for there remains “a Sabbath rest for the people of God” (Hebrews 4:9), and urges, “Let us, therefore, make every effort to enter that rest” (Hebrews 4:11). Paul says Israel “drank from the spiritual rock that accompanied them, and that rock was Christ” (1 Corinthians 10:4).",
+  "translation": [
+   {
+    "english": "Massah",
+    "greek": "מַסָּה (massah)",
+    "verseRef": "v.8",
+    "meaning": "Massah, “testing.”",
+    "gloss": "Testing",
+    "strongs": "H4532",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Meribah",
+    "greek": "מְרִיבָה (merivah)",
+    "verseRef": "v.8",
+    "meaning": "Meribah, “quarreling, strife.”",
+    "gloss": "Quarreling",
+    "strongs": "H4809",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "rest",
+    "greek": "מְנוּחָה (menuchah)",
+    "verseRef": "v.11",
+    "meaning": "Rest, resting place; Canaan as the land of rest.",
+    "gloss": "Rest",
+    "strongs": "H4496",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 3:7-19",
+    "note": "Today, if you hear His voice."
+   },
+   {
+    "ref": "Hebrews 4:1-11",
+    "note": "A Sabbath rest remains."
+   },
+   {
+    "ref": "1 Corinthians 10:1-12",
+    "note": "That rock was Christ."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 17:1-7",
+    "note": "Massah and Meribah."
+   },
+   {
+    "ref": "Numbers 14:20-35",
+    "note": "They shall not see the land."
+   },
+   {
+    "ref": "Numbers 20:1-13",
+    "note": "Meribah again at Kadesh."
+   }
+  ],
+  "mapCoords": {
+   "lat": 28.7,
+   "lng": 33.63,
+   "zoom": 6,
+   "placeName": "Massah and Meribah, at Rephidim (location debated)"
+  },
+  "overview": {
+   "summary": "A call to sing to the Rock of our salvation and kneel before our Maker, followed by a warning not to harden our hearts like Israel at Massah, who never entered God’s rest.",
+   "settingLine": "Worship today, or harden the heart.",
+   "placeName": "Massah and Meribah, at Rephidim (location debated)",
+   "history": [
+    {
+     "h": "Massah and Meribah",
+     "t": "Water from the rock."
+    },
+    {
+     "h": "Forty years",
+     "t": "A generation shut out of Canaan."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Kneeling in worship",
+     "t": "Bowing before the King."
+    },
+    {
+     "h": "The Venite",
+     "t": "Psalm 95 at morning prayer."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Wadi Feiran",
+     "t": "The traditional Rephidim, an oasis valley in southern Sinai."
+    },
+    {
+     "h": "The Black Obelisk",
+     "t": "Shows Jehu of Israel bowing to the ground before Shalmaneser III."
+    }
+   ],
+   "discussion": "The warning is about “Today” (v.7). Where is God speaking to me today that I am tempted to put off?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named (Hebrews: David)",
+   "genre": "Call to worship and warning",
+   "audience": "God’s people gathered",
+   "refNotes": {
+    "Exodus 17:1-7": "Water from the rock",
+    "Numbers 14:20-35": "Shut out of the land",
+    "Numbers 20:1-13": "Meribah at Kadesh"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The worshipers",
+     "d": "Sheep of His pasture"
+    },
+    {
+     "n": "The wilderness generation",
+     "d": "Tested God"
+    },
+    {
+     "n": "God",
+     "d": "The great King"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "The great King"
+    },
+    {
+     "when": "v.6-7",
+     "label": "Kneel before our Maker"
+    },
+    {
+     "when": "v.7-11",
+     "label": "Do not harden your hearts"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Massah and Meribah, at Rephidim (location debated)",
+    "lat": 28.7,
+    "lng": 33.63,
+    "verses": [
+     8
+    ],
+    "slug": "massah"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     2,
+     6
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Come, let us sing for joy to the LORD; let us shout to the Rock of our salvation! Let us enter His presence with thanksgiving; let us make a joyful noise to Him in song. For the LORD is a great God, a great King above all gods. O come, let us worship and bow down; let us kneel before the LORD our Maker. For He is our God, and we are the people of His pasture, the sheep under His care. Today, if you hear His voice, do not harden your hearts as you did at Meribah, in the day at Massah in the wilderness, So I swore on oath in My anger, They shall never enter My rest.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Moses.jpg",
+   "caption": "The mountains of southern Sinai, the wilderness where Israel wandered. “do not harden your hearts as you did at Meribah, in the day at Massah in the wilderness” (Psalm 95:8).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

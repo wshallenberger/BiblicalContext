@@ -2939,6 +2939,68 @@
   ],
   "psalms:80": [
    "ps_scroll"
+  ],
+  "psalms:81": [
+   "ps_shofar"
+  ],
+  "psalms:82": [
+   "ps_templemount"
+  ],
+  "psalms:83": [
+   "ps_megiddo"
+  ],
+  "psalms:84": [
+   "ps_templemount"
+  ],
+  "psalms:85": [
+   "ps_scroll"
+  ],
+  "psalms:86": [
+   "ps_harp"
+  ],
+  "psalms:87": [
+   "ps_templemount"
+  ],
+  "psalms:88": [
+   "ps_tunnel"
+  ],
+  "psalms:89": [
+   "ps_tabor",
+   "ps_nathan"
+  ],
+  "psalms:90": [
+   "ps_moses",
+   "ps_sinai"
+  ],
+  "psalms:91": [
+   "ps_masada"
+  ],
+  "psalms:92": [
+   "ps_cedars"
+  ],
+  "psalms:93": [
+   "ps_banias"
+  ],
+  "psalms:94": [
+   "ps_scroll"
+  ],
+  "psalms:95": [
+   "ps_sinai"
+  ],
+  "psalms:96": [
+   "ps_harp"
+  ],
+  "psalms:97": [
+   "ps_hermon"
+  ],
+  "psalms:98": [
+   "ps_shofar"
+  ],
+  "psalms:99": [
+   "ps_moses"
+  ],
+  "psalms:100": [
+   "ps_templemount"
   ]
  },
  "ac_ascmat": {
@@ -7466,5 +7528,29 @@
   "n": "Jebel Musa (Mount Sinai)",
   "d": "The view from the summit of Jebel Musa, the traditional Mount Sinai. “The earth shook and the heavens poured down rain before God, the One on Sinai” (Psalm 68:8).",
   "a": "Wikimedia Commons"
+ },
+ "ps_moses": {
+  "k": "art",
+  "f": "Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg",
+  "c": "Moses with the Ten Commandments, by Rembrandt (1659, Gemäldegalerie, Berlin). Psalm 90, “a prayer of Moses the man of God,” opens Book Four, and Moses is named seven times in Psalms 90-106.",
+  "n": "Rembrandt, Moses with the Ten Commandments",
+  "d": "Moses with the Ten Commandments, by Rembrandt (1659, Gemäldegalerie, Berlin). Psalm 90, “a prayer of Moses the man of God,” opens Book Four, and Moses is named seven times in Psalms 90-106.",
+  "a": "Rembrandt (1659), public domain / Wikimedia Commons"
+ },
+ "ps_shofar": {
+  "k": "now",
+  "f": "Shofar-16-Zachi-Evenor.jpg",
+  "c": "A shofar, the ram’s horn trumpet still blown at the New Year and on the Day of Atonement. “Sound the ram’s horn at the New Moon, and at the full moon on the day of our Feast” (Psalm 81:3).",
+  "n": "A shofar (ram’s horn)",
+  "d": "A shofar, the ram’s horn trumpet still blown at the New Year and on the Day of Atonement. “Sound the ram’s horn at the New Moon, and at the full moon on the day of our Feast” (Psalm 81:3).",
+  "a": "Zachi Evenor, CC BY / Wikimedia Commons"
+ },
+ "ps_tabor": {
+  "k": "now",
+  "f": "Mount_tabor_from_mount_carmel_1912.jpg",
+  "c": "Mount Tabor rising from the plain of Jezreel, photographed by Dwight Elmendorf (1912). “Tabor and Hermon shout for joy at Your name” (Psalm 89:12).",
+  "n": "Mount Tabor (1912)",
+  "d": "Mount Tabor rising from the plain of Jezreel, photographed by Dwight Elmendorf (1912). “Tabor and Hermon shout for joy at Your name” (Psalm 89:12).",
+  "a": "Dwight L. Elmendorf (1912), public domain / Wikimedia Commons"
  }
 }

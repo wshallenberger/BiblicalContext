@@ -1,0 +1,237 @@
+{
+ "book": "Psalms",
+ "chapter": 92,
+ "title": "A Song for the Sabbath Day",
+ "translation": "BSB",
+ "superscription": "A Psalm. A song for the Sabbath day.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "It is good to praise the LORD, and to sing praises to Your name, O Most High,"
+  },
+  {
+   "num": 2,
+   "text": "to proclaim Your loving devotion in the morning and Your faithfulness at night"
+  },
+  {
+   "num": 3,
+   "text": "with the ten-stringed harp and the melody of the lyre."
+  },
+  {
+   "num": 4,
+   "text": "For You, O LORD, have made me glad by Your deeds; I sing for joy at the works of Your hands."
+  },
+  {
+   "num": 5,
+   "text": "How great are Your works, O LORD, how deep are Your thoughts!"
+  },
+  {
+   "num": 6,
+   "text": "A senseless man does not know, and a fool does not understand,"
+  },
+  {
+   "num": 7,
+   "text": "that though the wicked sprout like grass, and all evildoers flourish, they will be forever destroyed."
+  },
+  {
+   "num": 8,
+   "text": "But You, O LORD, are exalted forever!"
+  },
+  {
+   "num": 9,
+   "text": "For surely Your enemies, O LORD, surely Your enemies will perish; all evildoers will be scattered."
+  },
+  {
+   "num": 10,
+   "text": "But You have exalted my horn like that of a wild ox; with fine oil I have been anointed."
+  },
+  {
+   "num": 11,
+   "text": "My eyes see the downfall of my enemies; my ears hear the wailing of my wicked foes."
+  },
+  {
+   "num": 12,
+   "text": "The righteous will flourish like a palm tree, and grow like a cedar in Lebanon."
+  },
+  {
+   "num": 13,
+   "text": "Planted in the house of the LORD, they will flourish in the courts of our God."
+  },
+  {
+   "num": 14,
+   "text": "In old age they will still bear fruit; healthy and green they will remain,"
+  },
+  {
+   "num": 15,
+   "text": "to proclaim, \"The LORD is upright; He is my Rock, and in Him there is no unrighteousness.\""
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The title calls it “A song for the Sabbath day.” “It is good to praise the LORD, and to sing praises to Your name, O Most High, to proclaim Your loving devotion in the morning and Your faithfulness at night” (vv.1-2), with harp and lyre (v.3). “How great are Your works, O LORD, how deep are Your thoughts!” (v.5). The fool does not see that the wicked “sprout like grass” only to be destroyed (vv.6-7), while the LORD is exalted forever (v.8). God has made the singer strong like a wild ox and anointed him (v.10). “The righteous will flourish like a palm tree, and grow like a cedar in Lebanon. Planted in the house of the LORD, they will flourish in the courts of our God. In old age they will still bear fruit” (vv.12-14), to proclaim, “The LORD is upright; He is my Rock” (v.15).",
+  "custom": "The Mishnah says the Levites sang this psalm in the Temple on the Sabbath, with a set psalm for each day of the week (Tamid 7:4). Date palms grow tall and straight and bear fruit for many decades; cedars of Lebanon live for centuries. David pictured himself as “an olive tree flourishing in the house of God” (Psalm 52:8).",
+  "timelineImmediate": "Psalm 93 begins the songs that proclaim, ‘The LORD reigns!’",
+  "timelineBible": "Jesus said, “The Sabbath was made for man, not man for the Sabbath” (Mark 2:27), and Hebrews speaks of “a Sabbath rest for the people of God” (Hebrews 4:9). Jesus taught that every good tree bears good fruit (Matthew 7:17), and Paul prayed that believers would be “filled with the fruit of righteousness” (Philippians 1:11).",
+  "translation": [
+   {
+    "english": "palm tree",
+    "greek": "תָּמָר (tamar)",
+    "verseRef": "v.12",
+    "meaning": "Date palm; also the name Tamar.",
+    "gloss": "Palm",
+    "strongs": "H8558",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cedar",
+    "greek": "אֶרֶז (erez)",
+    "verseRef": "v.12",
+    "meaning": "Cedar, the great tree of Lebanon.",
+    "gloss": "Cedar",
+    "strongs": "H730",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "bear fruit",
+    "greek": "נוּב (nuv)",
+    "verseRef": "v.14",
+    "meaning": "To bear fruit, flourish.",
+    "gloss": "Bear fruit",
+    "strongs": "H5107",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Mark 2:27-28",
+    "note": "The Sabbath made for man."
+   },
+   {
+    "ref": "Hebrews 4:9-10",
+    "note": "A Sabbath rest remains."
+   },
+   {
+    "ref": "John 15:5",
+    "note": "Abide in Me and bear much fruit."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 20:8-11",
+    "note": "Remember the Sabbath."
+   },
+   {
+    "ref": "Psalm 1:3",
+    "note": "Like a tree planted by streams."
+   },
+   {
+    "ref": "Jeremiah 17:7-8",
+    "note": "Like a tree planted by the waters."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A Sabbath song: it is good to praise God morning and night; the wicked sprout like grass and wither, but the righteous, planted in God’s house, flourish like palm and cedar and bear fruit into old age.",
+   "settingLine": "Praise morning and night on the day of rest.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Temple Sabbath worship",
+     "t": "Levites sang a psalm for each day."
+    },
+    {
+     "h": "The Sabbath",
+     "t": "Given at creation and at Sinai."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Daily psalms",
+     "t": "A psalm sung for each day of the week."
+    },
+    {
+     "h": "Palm and cedar",
+     "t": "Pictures of long, fruitful life."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Many-stringed instruments",
+     "t": "Harps and lyres with many strings appear on Assyrian and Egyptian reliefs."
+    },
+    {
+     "h": "The Masada palm",
+     "t": "A 2,000-year-old date seed from Masada was grown into a living palm."
+    }
+   ],
+   "discussion": "The righteous “still bear fruit” in old age (v.14). What fruit do I hope my life will still bear at the end?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of thanksgiving",
+   "audience": "Worshipers on the Sabbath",
+   "refNotes": {
+    "Exodus 20:8-11": "The Sabbath",
+    "Psalm 1:3": "The fruitful tree",
+    "Jeremiah 17:7-8": "Planted by water"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The worshiper",
+     "d": "Praises morning and night"
+    },
+    {
+     "n": "The fool",
+     "d": "Does not understand"
+    },
+    {
+     "n": "The righteous",
+     "d": "Flourish like a palm"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "It is good to praise"
+    },
+    {
+     "when": "v.5-9",
+     "label": "The wicked perish"
+    },
+    {
+     "when": "v.10-15",
+     "label": "The righteous flourish"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "It is good to praise the LORD, and to sing praises to Your name, O Most High, to proclaim Your loving devotion in the morning and Your faithfulness at night For You, O LORD, have made me glad by Your deeds; I sing for joy at the works of Your hands. How great are Your works, O LORD, how deep are Your thoughts! that though the wicked sprout like grass, and all evildoers flourish, they will be forever destroyed. The righteous will flourish like a palm tree, and grow like a cedar in Lebanon. Planted in the house of the LORD, they will flourish in the courts of our God. In old age they will still bear fruit; healthy and green they will remain, to proclaim, The LORD is upright; He is my Rock, and in Him there is no unrighteousness.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cedars01(js).jpg",
+   "caption": "Ancient cedars at Bsharri in the mountains of Lebanon. “The righteous will flourish like a palm tree, and grow like a cedar in Lebanon” (Psalm 92:12).",
+   "credit": "Jerzy Strzelecki / Wikimedia Commons"
+  }
+ }
+}

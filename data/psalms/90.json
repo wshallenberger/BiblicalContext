@@ -1,0 +1,245 @@
+{
+ "book": "Psalms",
+ "chapter": 90,
+ "title": "Teach Us to Number Our Days",
+ "translation": "BSB",
+ "superscription": "A prayer of Moses the man of God.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Lord, You have been our dwelling place through all generations."
+  },
+  {
+   "num": 2,
+   "text": "Before the mountains were born or You brought forth the earth and the world, from everlasting to everlasting You are God."
+  },
+  {
+   "num": 3,
+   "text": "You return man to dust, saying, \"Return, O sons of mortals.\""
+  },
+  {
+   "num": 4,
+   "text": "For in Your sight a thousand years are but a day that passes, or a watch of the night."
+  },
+  {
+   "num": 5,
+   "text": "You whisk them away in their sleep; they are like the new grass of the morning—"
+  },
+  {
+   "num": 6,
+   "text": "in the morning it springs up new, but by evening it fades and withers."
+  },
+  {
+   "num": 7,
+   "text": "For we are consumed by Your anger and terrified by Your wrath."
+  },
+  {
+   "num": 8,
+   "text": "You have set our iniquities before You, our secret sins in the light of Your presence."
+  },
+  {
+   "num": 9,
+   "text": "For all our days decline in Your fury; we finish our years with a sigh."
+  },
+  {
+   "num": 10,
+   "text": "The length of our days is seventy years— or eighty if we are strong— yet their pride is but labor and sorrow, for they quickly pass, and we fly away."
+  },
+  {
+   "num": 11,
+   "text": "Who knows the power of Your anger? Your wrath matches the fear You are due."
+  },
+  {
+   "num": 12,
+   "text": "So teach us to number our days, that we may present a heart of wisdom."
+  },
+  {
+   "num": 13,
+   "text": "Return, O LORD! How long will it be? Have compassion on Your servants."
+  },
+  {
+   "num": 14,
+   "text": "Satisfy us in the morning with Your loving devotion, that we may sing for joy and be glad all our days."
+  },
+  {
+   "num": 15,
+   "text": "Make us glad for as many days as You have afflicted us, for as many years as we have seen evil."
+  },
+  {
+   "num": 16,
+   "text": "May Your work be shown to Your servants, and Your splendor to their children."
+  },
+  {
+   "num": 17,
+   "text": "May the favor of the Lord our God rest upon us; establish for us the work of our hands— yes, establish the work of our hands!"
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A prayer of Moses the man of God,” the only psalm with his name and perhaps the oldest in the book. Many link it with the forty years in the wilderness, when a whole generation died (Numbers 14:29-35).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "THE WILDERNESS OF SINAI",
+  "setting": "Book Four opens with Moses: “Lord, You have been our dwelling place through all generations. Before the mountains were born or You brought forth the earth and the world, from everlasting to everlasting You are God” (vv.1-2). Man is dust, and time is nothing to God: “For in Your sight a thousand years are but a day that passes, or a watch of the night” (v.4). We are like grass that springs up in the morning and withers by evening (vv.5-6), and our secret sins lie open before Him (v.8). “The length of our days is seventy years” (v.10), and they quickly pass. So Moses prays, “teach us to number our days, that we may present a heart of wisdom” (v.12). “Return, O LORD!” (v.13). “Satisfy us in the morning with Your loving devotion, that we may sing for joy and be glad all our days” (v.14). “May the favor of the Lord our God rest upon us; establish for us the work of our hands” (v.17).",
+  "custom": "The night was divided into watches of about four hours (Judges 7:19), gone in a moment to a sleeper. Grass in Israel springs up green after the winter rains and is scorched brown within days when the hot east wind blows (Isaiah 40:7). Seventy years was a full life; Moses himself lived to 120 (Deuteronomy 34:7), but most of his generation died in the desert.",
+  "timelineImmediate": "Psalm 91 promises shelter to the one who makes the Most High his dwelling.",
+  "timelineBible": "Peter echoes v.4: “With the Lord a day is like a thousand years, and a thousand years are like a day” (2 Peter 3:8), so God’s patience is not slowness. James asks, “What is your life? You are a mist” (James 4:14). The saints in Revelation sing “the song of God’s servant Moses and of the Lamb” (Revelation 15:3).",
+  "translation": [
+   {
+    "english": "dwelling place",
+    "greek": "מָעוֹן (maon)",
+    "verseRef": "v.1",
+    "meaning": "Dwelling, refuge, home.",
+    "gloss": "Dwelling",
+    "strongs": "H4583",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "number",
+    "greek": "מָנָה (manah)",
+    "verseRef": "v.12",
+    "meaning": "To count, number, appoint.",
+    "gloss": "Count",
+    "strongs": "H4487",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "favor",
+    "greek": "נֹעַם (noam)",
+    "verseRef": "v.17",
+    "meaning": "Pleasantness, kindness, beauty, favor.",
+    "gloss": "Favor",
+    "strongs": "H5278",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "2 Peter 3:8-9",
+    "note": "A day is like a thousand years."
+   },
+   {
+    "ref": "James 4:13-15",
+    "note": "You are a mist."
+   },
+   {
+    "ref": "1 Corinthians 15:58",
+    "note": "Your labor in the Lord is not in vain."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Numbers 14:28-35",
+    "note": "A generation dies in the wilderness."
+   },
+   {
+    "ref": "Deuteronomy 33:27",
+    "note": "The eternal God is your dwelling place."
+   },
+   {
+    "ref": "Isaiah 40:6-8",
+    "note": "All flesh is grass."
+   }
+  ],
+  "mapCoords": {
+   "lat": 28.539,
+   "lng": 33.975,
+   "zoom": 6,
+   "placeName": "Mount Sinai (traditional site, Jebel Musa)"
+  },
+  "overview": {
+   "summary": "Moses sets the shortness of human life and the weight of sin against the eternal God who has always been His people’s home, and prays for wisdom, mercy and work that lasts.",
+   "settingLine": "A generation passing in the desert.",
+   "placeName": "Mount Sinai (traditional site, Jebel Musa)",
+   "history": [
+    {
+     "h": "Forty years in the wilderness",
+     "t": "A whole generation died."
+    },
+    {
+     "h": "Moses at 120",
+     "t": "His death on Mount Nebo."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Night watches",
+     "t": "The night divided into watches."
+    },
+    {
+     "h": "Counting days",
+     "t": "A short life measured in years."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Wilderness camps",
+     "t": "Few remains survive of nomads’ camps in Sinai, so the route of the wandering is debated."
+    },
+    {
+     "h": "Egyptian lifespans",
+     "t": "Egyptian texts call 110 years the ideal life."
+    }
+   ],
+   "discussion": "“Teach us to number our days” (v.12). If I counted my remaining days, what would I change about how I spend this one?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Moses",
+   "genre": "Community lament and wisdom prayer",
+   "audience": "God, our dwelling place",
+   "refNotes": {
+    "Numbers 14:28-35": "The wilderness generation",
+    "Deuteronomy 33:27": "Eternal refuge",
+    "Isaiah 40:6-8": "Like grass"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Moses",
+     "d": "The man of God"
+    },
+    {
+     "n": "The sons of mortals",
+     "d": "Return to dust"
+    },
+    {
+     "n": "Your servants",
+     "d": "Pray for mercy"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Our dwelling place"
+    },
+    {
+     "when": "v.3-11",
+     "label": "Like grass"
+    },
+    {
+     "when": "v.12-17",
+     "label": "Teach us; satisfy us"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Mount Sinai (traditional site, Jebel Musa)",
+    "lat": 28.539,
+    "lng": 33.975,
+    "verses": [],
+    "slug": "mount-sinai"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Lord, You have been our dwelling place through all generations. Before the mountains were born or You brought forth the earth and the world, from everlasting to everlasting You are God. For in Your sight a thousand years are but a day that passes, or a watch of the night. The length of our days is seventy years— or eighty if we are strong— yet their pride is but labor and sorrow, for they quickly pass, and we fly away. So teach us to number our days, that we may present a heart of wisdom. Satisfy us in the morning with Your loving devotion, that we may sing for joy and be glad all our days. May the favor of the Lord our God rest upon us; establish for us the work of our hands— yes, establish the work of our hands!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg",
+   "caption": "Moses with the Ten Commandments, by Rembrandt (1659, Gemäldegalerie, Berlin). Psalm 90, “a prayer of Moses the man of God,” opens Book Four, and Moses is named seven times in Psalms 90-106.",
+   "credit": "Rembrandt (1659), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Moses.jpg",
+   "caption": "The granite peaks around Jebel Musa, the traditional Mount Sinai. “Before the mountains were born… from everlasting to everlasting You are God” (Psalm 90:2).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

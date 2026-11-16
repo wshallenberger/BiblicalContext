@@ -1,0 +1,196 @@
+{
+ "book": "Psalms",
+ "chapter": 93,
+ "title": "The LORD Reigns, Robed in Majesty",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The LORD reigns! He is robed in majesty; the LORD has clothed and armed Himself with strength. The world indeed is firmly established; it cannot be moved."
+  },
+  {
+   "num": 2,
+   "text": "Your throne was established long ago; You are from all eternity."
+  },
+  {
+   "num": 3,
+   "text": "The floodwaters have risen, O LORD; the rivers have raised their voice; the seas lift up their pounding waves."
+  },
+  {
+   "num": 4,
+   "text": "Above the roar of many waters— the mighty breakers of the sea— the LORD on high is majestic."
+  },
+  {
+   "num": 5,
+   "text": "Your testimonies are fully confirmed; holiness adorns Your house, O LORD, for all the days to come."
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Four (Psalms 90-106) opens with “a prayer of Moses,” and most of its psalms have no title. The Greek Old Testament gives several of them to David, and Hebrews 4:7 quotes Psalm 95 as spoken “through David.”",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The LORD reigns! He is robed in majesty; the LORD has clothed and armed Himself with strength. The world indeed is firmly established; it cannot be moved” (v.1). His throne is ancient: “You are from all eternity” (v.2). Against Him the waters rise: “The floodwaters have risen, O LORD; the rivers have raised their voice; the seas lift up their pounding waves” (v.3). But above the roar of the breakers, “the LORD on high is majestic” (v.4). His word stands sure, and “holiness adorns Your house, O LORD, for all the days to come” (v.5).",
+  "custom": "Psalms 93 and 95-99 are called enthronement psalms because they proclaim that the LORD reigns. In Canaanite myth Baal won kingship by defeating Yam, the sea god; this psalm says the LORD has always reigned, and the sea only roars beneath His throne. Kings were robed and crowned at their enthronement (2 Kings 11:12).",
+  "timelineImmediate": "Psalm 94 calls on the God of vengeance to judge the oppressors.",
+  "timelineBible": "When Jesus calmed the storm the disciples asked, “Who is this, that even the wind and the sea obey Him?” (Mark 4:41). John heard the risen Christ’s voice “like the roar of many waters” (Revelation 1:15), and the great multitude cried, “Hallelujah! For the Lord our God, the Almighty, reigns” (Revelation 19:6). In the new creation “the sea was no more” (Revelation 21:1).",
+  "translation": [
+   {
+    "english": "reigns",
+    "greek": "מָלַךְ (malakh)",
+    "verseRef": "v.1",
+    "meaning": "To reign, be king.",
+    "gloss": "Reign",
+    "strongs": "H4427",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "rivers",
+    "greek": "נָהָר (nahar)",
+    "verseRef": "v.3",
+    "meaning": "River, stream, flood.",
+    "gloss": "River",
+    "strongs": "H5104",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "majestic",
+    "greek": "אַדִּיר (addir)",
+    "verseRef": "v.4",
+    "meaning": "Majestic, mighty, glorious.",
+    "gloss": "Majestic",
+    "strongs": "H117",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Mark 4:35-41",
+    "note": "Even the wind and sea obey Him."
+   },
+   {
+    "ref": "Revelation 19:6",
+    "note": "The Lord our God reigns."
+   },
+   {
+    "ref": "Revelation 21:1",
+    "note": "The sea was no more."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 15:18",
+    "note": "The LORD will reign forever."
+   },
+   {
+    "ref": "Psalm 29:10",
+    "note": "Enthroned over the flood."
+   },
+   {
+    "ref": "Isaiah 52:7",
+    "note": "Your God reigns!"
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The LORD reigns, robed in majesty; the floods lift up their roar, but He is mightier than the sea, His throne is eternal, and His word and house are holy.",
+   "settingLine": "The King above the floods.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Creation",
+     "t": "God set limits for the sea."
+    },
+    {
+     "h": "The Red Sea",
+     "t": "The sea parted at God’s word."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Enthronement",
+     "t": "Kings robed and acclaimed."
+    },
+    {
+     "h": "The sea",
+     "t": "A picture of chaos and hostile powers."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Baal Cycle",
+     "t": "Ugaritic poems tell of Baal fighting Yam, the sea."
+    },
+    {
+     "h": "Royal robes",
+     "t": "Assyrian reliefs show kings in embroidered robes of state."
+    }
+   ],
+   "discussion": "The floods are loud, but “the LORD on high is majestic” (v.4). What loud thing in my life needs to be seen beneath God’s throne?",
+   "book": "The book of Psalms · 150 psalms (1-100 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Enthronement psalm",
+   "audience": "All who hear the floods roar",
+   "refNotes": {
+    "Exodus 15:18": "Song of the sea",
+    "Psalm 29:10": "King over the flood",
+    "Isaiah 52:7": "Good news"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The LORD",
+     "d": "King forever"
+    },
+    {
+     "n": "The floods",
+     "d": "Roar against Him"
+    },
+    {
+     "n": "His house",
+     "d": "Adorned with holiness"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "The LORD reigns"
+    },
+    {
+     "when": "v.3-4",
+     "label": "Above the floods"
+    },
+    {
+     "when": "v.5",
+     "label": "Sure testimonies"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The LORD reigns! He is robed in majesty; the LORD has clothed and armed Himself with strength. The world indeed is firmly established; it cannot be moved. Your throne was established long ago; You are from all eternity. The floodwaters have risen, O LORD; the rivers have raised their voice; the seas lift up their pounding waves. Above the roar of many waters— the mighty breakers of the sea— the LORD on high is majestic. Your testimonies are fully confirmed; holiness adorns Your house, O LORD, for all the days to come.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Banias_Spring_Cliff_Pan%27s_Cave.JPG",
+   "caption": "Water pouring from the springs at Banias below Mount Hermon. “The floodwaters have risen, O LORD; the rivers have raised their voice” (Psalm 93:3).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}
