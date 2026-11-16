@@ -1,0 +1,204 @@
+{
+ "book": "Psalms",
+ "chapter": 150,
+ "title": "Let Everything That Has Breath Praise the LORD",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! Praise God in His sanctuary. Praise Him in His mighty heavens."
+  },
+  {
+   "num": 2,
+   "text": "Praise Him for His mighty acts; praise Him for His excellent greatness."
+  },
+  {
+   "num": 3,
+   "text": "Praise Him with the sound of the horn; praise Him with the harp and lyre."
+  },
+  {
+   "num": 4,
+   "text": "Praise Him with tambourine and dancing; praise Him with strings and flute."
+  },
+  {
+   "num": 5,
+   "text": "Praise Him with clashing cymbals; praise Him with resounding cymbals."
+  },
+  {
+   "num": 6,
+   "text": "Let everything that has breath praise the LORD! Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Psalms 146-150 are the final Hallel: each begins and ends with “Hallelujah,” “Praise the LORD,” and together they close the whole book in praise. They are part of the daily morning prayers in the synagogue. Psalm 150 is the doxology of Book Five and of the whole Psalter.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The book ends with nothing but praise. “Hallelujah! Praise God in His sanctuary. Praise Him in His mighty heavens” (v.1): where to praise. “Praise Him for His mighty acts; praise Him for His excellent greatness” (v.2): why. “Praise Him with the sound of the horn; praise Him with the harp and lyre. Praise Him with tambourine and dancing; praise Him with strings and flute. Praise Him with clashing cymbals; praise Him with resounding cymbals” (vv.3-5): how. And who: “Let everything that has breath praise the LORD! Hallelujah!” (v.6). The Psalms began with “Blessed is the man” (1:1) and end with every living thing praising God.",
+  "custom": "The instruments cover the whole Temple orchestra: the shofar (ram’s horn) blown by priests, the harp and lyre played by Levites, and the tambourine, strings, flute and cymbals of the people’s festivals (1 Chronicles 15:16-28). Cymbals came in two kinds, loud clashing ones and ringing ones. Each of the five books of the Psalms ends with a doxology; this whole psalm is the last.",
+  "timelineImmediate": "The end of the Psalms. Proverbs, the next book, begins with ‘The fear of the LORD is the beginning of knowledge.’",
+  "timelineBible": "John heard “every creature in heaven and on earth and under the earth and in the sea, and all that is in them” (Revelation 5:13) praising God and the Lamb. Paul urges, “Sing psalms, hymns, and spiritual songs with gratitude in your hearts to God” (Colossians 3:16).",
+  "translation": [
+   {
+    "english": "horn",
+    "greek": "שֹׁפָר (shofar)",
+    "verseRef": "v.3",
+    "meaning": "Ram’s horn trumpet.",
+    "gloss": "Ram’s horn",
+    "strongs": "H7782",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "cymbals",
+    "greek": "צֶלְצְלִים (tseltselim)",
+    "verseRef": "v.5",
+    "meaning": "Cymbals; a word that sounds like their ringing.",
+    "gloss": "Cymbals",
+    "strongs": "H6767",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "breath",
+    "greek": "נְשָׁמָה (neshamah)",
+    "verseRef": "v.6",
+    "meaning": "Breath, the breath of life God breathed into man (Genesis 2:7).",
+    "gloss": "Breath",
+    "strongs": "H5397",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 5:13-14",
+    "note": "Every creature praises."
+   },
+   {
+    "ref": "Colossians 3:16-17",
+    "note": "Psalms, hymns and spiritual songs."
+   },
+   {
+    "ref": "Revelation 19:1-6",
+    "note": "Hallelujah! The Lord our God reigns."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Chronicles 15:16-28",
+    "note": "David’s musicians and instruments."
+   },
+   {
+    "ref": "Genesis 2:7",
+    "note": "The breath of life."
+   },
+   {
+    "ref": "Psalm 1:1-2",
+    "note": "Where the Psalms begin."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The grand finale of the Psalms: praise God in His sanctuary and the heavens, for His mighty acts, with every instrument, and let everything that has breath praise the LORD.",
+   "settingLine": "Every instrument, every breath.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s musicians",
+     "t": "The Temple orchestra."
+    },
+    {
+     "h": "The end of the Psalter",
+     "t": "Five books closed in praise."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Temple instruments",
+     "t": "Horn, harp, lyre, drum, flute, cymbals."
+    },
+    {
+     "h": "Dancing in worship",
+     "t": "At festivals."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Bronze cymbals",
+     "t": "Pairs of bronze cymbals found at Hazor, Megiddo and Akko."
+    },
+    {
+     "h": "Lyre players",
+     "t": "A seal and drawings of lyre players from Iron Age Israel and Judah."
+    }
+   ],
+   "discussion": "“Let everything that has breath praise the LORD!” (v.6). Each breath I take is a gift. How will I use it to praise Him today?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hallelujah psalm; closing doxology",
+   "audience": "Everything that has breath",
+   "refNotes": {
+    "1 Chronicles 15:16-28": "The Temple orchestra",
+    "Genesis 2:7": "Breath of life",
+    "Psalm 1:1-2": "The first psalm"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The Temple musicians",
+     "d": "Play every instrument"
+    },
+    {
+     "n": "The dancers",
+     "d": "Praise with tambourines"
+    },
+    {
+     "n": "Everything that has breath",
+     "d": "Called to praise"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "Where to praise"
+    },
+    {
+     "when": "v.2",
+     "label": "Why to praise"
+    },
+    {
+     "when": "v.3-5",
+     "label": "How to praise"
+    },
+    {
+     "when": "v.6",
+     "label": "Who should praise"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! Praise God in His sanctuary. Praise Him in His mighty heavens. Praise Him for His mighty acts; praise Him for His excellent greatness. Praise Him with the sound of the horn; praise Him with the harp and lyre. Praise Him with tambourine and dancing; praise Him with strings and flute. Praise Him with clashing cymbals; praise Him with resounding cymbals. Let everything that has breath praise the LORD! Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shofar-16-Zachi-Evenor.jpg",
+   "caption": "A shofar, the ram’s horn trumpet. “Praise Him with the sound of the horn; praise Him with the harp and lyre” (Psalm 150:3).",
+   "credit": "Zachi Evenor, CC BY / Wikimedia Commons"
+  }
+ }
+}

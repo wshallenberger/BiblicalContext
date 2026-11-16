@@ -1,0 +1,277 @@
+{
+ "book": "Psalms",
+ "chapter": 139,
+ "title": "You Have Searched Me and Known Me",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, You have searched me and known me."
+  },
+  {
+   "num": 2,
+   "text": "You know when I sit and when I rise; You understand my thoughts from afar."
+  },
+  {
+   "num": 3,
+   "text": "You search out my path and my lying down; You are aware of all my ways."
+  },
+  {
+   "num": 4,
+   "text": "Even before a word is on my tongue, You know all about it, O LORD."
+  },
+  {
+   "num": 5,
+   "text": "You hem me in behind and before; You have laid Your hand upon me."
+  },
+  {
+   "num": 6,
+   "text": "Such knowledge is too wonderful for me, too lofty for me to attain."
+  },
+  {
+   "num": 7,
+   "text": "Where can I go to escape Your Spirit? Where can I flee from Your presence?"
+  },
+  {
+   "num": 8,
+   "text": "If I ascend to the heavens, You are there; if I make my bed in Sheol, You are there."
+  },
+  {
+   "num": 9,
+   "text": "If I rise on the wings of the dawn, if I settle by the farthest sea,"
+  },
+  {
+   "num": 10,
+   "text": "even there Your hand will guide me; Your right hand will hold me fast."
+  },
+  {
+   "num": 11,
+   "text": "If I say, \"Surely the darkness will hide me, and the light become night around me\"—"
+  },
+  {
+   "num": 12,
+   "text": "even the darkness is not dark to You, but the night shines like the day, for darkness is as light to You."
+  },
+  {
+   "num": 13,
+   "text": "For You formed my inmost being; You knit me together in my mother's womb."
+  },
+  {
+   "num": 14,
+   "text": "I praise You, for I am fearfully and wonderfully made. Marvelous are Your works, and I know this very well."
+  },
+  {
+   "num": 15,
+   "text": "My frame was not hidden from You when I was made in secret, when I was woven together in the depths of the earth."
+  },
+  {
+   "num": 16,
+   "text": "Your eyes saw my unformed body; all my days were written in Your book and ordained for me before one of them came to be."
+  },
+  {
+   "num": 17,
+   "text": "How precious to me are Your thoughts, O God, how vast is their sum!"
+  },
+  {
+   "num": 18,
+   "text": "If I were to count them, they would outnumber the grains of sand; and when I awake, I am still with You."
+  },
+  {
+   "num": 19,
+   "text": "O God, that You would slay the wicked— away from me, you bloodthirsty men—"
+  },
+  {
+   "num": 20,
+   "text": "who speak of You deceitfully; Your enemies take Your name in vain."
+  },
+  {
+   "num": 21,
+   "text": "Do I not hate those who hate You, O LORD, and detest those who rise against You?"
+  },
+  {
+   "num": 22,
+   "text": "I hate them with perfect hatred; I count them as my enemies."
+  },
+  {
+   "num": 23,
+   "text": "Search me, O God, and know my heart; test me and know my concerns."
+  },
+  {
+   "num": 24,
+   "text": "See if there is any offensive way in me; lead me in the way everlasting."
+  }
+ ],
+ "context": {
+  "author": "The title names David. Psalms 138-145 are the last group of David’s psalms in the book.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“O LORD, You have searched me and known me. You know when I sit and when I rise; You understand my thoughts from afar” (vv.1-2). “Even before a word is on my tongue, You know all about it” (v.4). “Such knowledge is too wonderful for me” (v.6). God is everywhere: “Where can I go to escape Your Spirit?… If I ascend to the heavens, You are there; if I make my bed in Sheol, You are there. If I rise on the wings of the dawn, if I settle by the farthest sea, even there Your hand will guide me” (vv.7-10). Not even darkness hides: “the night shines like the day” (v.12). God made him: “You knit me together in my mother’s womb. I praise You, for I am fearfully and wonderfully made” (vv.13-14). “all my days were written in Your book and ordained for me before one of them came to be” (v.16). After a hard turn against the wicked (vv.19-22), he ends: “Search me, O God, and know my heart; test me and know my concerns. See if there is any offensive way in me; lead me in the way everlasting” (vv.23-24).",
+  "custom": "The “wings of the dawn” fly east where the sun rises, and “the farthest sea” is the Mediterranean in the west, so the psalm spans east to west as well as heaven to Sheol. The womb was a hidden place, “the depths of the earth” (v.15), where only God could see a child being formed.",
+  "timelineImmediate": "Psalm 140: Rescue me, O LORD, from evil men.",
+  "timelineBible": "Hebrews says, “Nothing in all creation is hidden from God’s sight” (Hebrews 4:13). Paul told the Athenians that God “is not far from each one of us. ‘For in Him we live and move and have our being’” (Acts 17:27-28). Jesus said even the hairs of your head are all numbered (Matthew 10:30).",
+  "translation": [
+   {
+    "english": "searched",
+    "greek": "חָקַר (chaqar)",
+    "verseRef": "v.1",
+    "meaning": "To search, examine thoroughly.",
+    "gloss": "Search",
+    "strongs": "H2713",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "knit",
+    "greek": "סָכַךְ (sakak)",
+    "verseRef": "v.13",
+    "meaning": "To weave, knit together; also to cover.",
+    "gloss": "Weave",
+    "strongs": "H5526",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "unformed body",
+    "greek": "גֹּלֶם (golem)",
+    "verseRef": "v.16",
+    "meaning": "Unformed substance, embryo.",
+    "gloss": "Embryo",
+    "strongs": "H1564",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 4:12-13",
+    "note": "Nothing is hidden from God’s sight."
+   },
+   {
+    "ref": "Acts 17:24-28",
+    "note": "In Him we live and move."
+   },
+   {
+    "ref": "Matthew 10:29-31",
+    "note": "The hairs of your head are numbered."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Jeremiah 1:5",
+    "note": "Before I formed you in the womb I knew you."
+   },
+   {
+    "ref": "Jonah 1:3",
+    "note": "Fleeing from the presence of the LORD."
+   },
+   {
+    "ref": "Job 10:8-12",
+    "note": "You knit me together."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David marvels that God knows him completely, is present everywhere from heaven to Sheol, formed him in the womb and wrote his days in His book, and asks God to search his heart and lead him in the everlasting way.",
+   "settingLine": "Known from the womb to the farthest sea.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s life",
+     "t": "A king who knew he was fully seen."
+    },
+    {
+     "h": "Hebrew wisdom",
+     "t": "Wonder at God’s knowledge."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Weaving",
+     "t": "A loom picture for the forming of a baby."
+    },
+    {
+     "h": "Books of record",
+     "t": "Kings kept written records."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Loom weights",
+     "t": "Clay loom weights found in nearly every Israelite house."
+    },
+    {
+     "h": "Scrolls and seals",
+     "t": "Sealed papyrus documents (bullae) show how records were kept."
+    }
+   ],
+   "discussion": "“Search me, O God, and know my heart” (v.23). What would I want God to search in me today?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Personal meditation and prayer",
+   "audience": "God, who knows me",
+   "refNotes": {
+    "Jeremiah 1:5": "Known before birth",
+    "Jonah 1:3": "Trying to flee",
+    "Job 10:8-12": "Formed by God"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Fully known"
+    },
+    {
+     "n": "The wicked",
+     "d": "Enemies of God"
+    },
+    {
+     "n": "God",
+     "d": "Present everywhere"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "You know me"
+    },
+    {
+     "when": "v.7-12",
+     "label": "Where can I go?"
+    },
+    {
+     "when": "v.13-18",
+     "label": "You formed me"
+    },
+    {
+     "when": "v.19-24",
+     "label": "Search me, O God"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, You have searched me and known me. You know when I sit and when I rise; You understand my thoughts from afar. Where can I go to escape Your Spirit? Where can I flee from Your presence? If I ascend to the heavens, You are there; if I make my bed in Sheol, You are there. even the darkness is not dark to You, but the night shines like the day, for darkness is as light to You. For You formed my inmost being; You knit me together in my mother's womb. I praise You, for I am fearfully and wonderfully made. Marvelous are Your works, and I know this very well. Your eyes saw my unformed body; all my days were written in Your book and ordained for me before one of them came to be. How precious to me are Your thoughts, O God, how vast is their sum! Search me, O God, and know my heart; test me and know my concerns. See if there is any offensive way in me; lead me in the way everlasting.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Moses.jpg",
+   "caption": "The view from the summit of Jebel Musa at dawn. “If I rise on the wings of the dawn, if I settle by the farthest sea, even there Your hand will guide me” (Psalm 139:9-10).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

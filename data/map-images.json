@@ -3079,6 +3079,82 @@
   ],
   "psalms:125": [
    "ps_olives"
+  ],
+  "psalms:126": [
+   "ps_negev"
+  ],
+  "psalms:127": [
+   "ps_cityofdavid"
+  ],
+  "psalms:128": [
+   "ps_olives"
+  ],
+  "psalms:129": [
+   "ps_judea"
+  ],
+  "psalms:130": [
+   "ps_tunnel"
+  ],
+  "psalms:131": [
+   "ps_harp"
+  ],
+  "psalms:132": [
+   "ps_templemount"
+  ],
+  "psalms:133": [
+   "ps_hermon"
+  ],
+  "psalms:134": [
+   "ps_steps"
+  ],
+  "psalms:135": [
+   "ps_templemount"
+  ],
+  "psalms:136": [
+   "ps_moses"
+  ],
+  "psalms:137": [
+   "ps_exile",
+   "ps_ishtar"
+  ],
+  "psalms:138": [
+   "ps_templemount"
+  ],
+  "psalms:139": [
+   "ps_harp"
+  ],
+  "psalms:140": [
+   "ps_harp"
+  ],
+  "psalms:141": [
+   "ps_templemount"
+  ],
+  "psalms:142": [
+   "ps_engedi"
+  ],
+  "psalms:143": [
+   "ps_judea"
+  ],
+  "psalms:144": [
+   "ps_masada"
+  ],
+  "psalms:145": [
+   "ps_olives"
+  ],
+  "psalms:146": [
+   "ps_templemount"
+  ],
+  "psalms:147": [
+   "ps_hermon"
+  ],
+  "psalms:148": [
+   "ps_cedars"
+  ],
+  "psalms:149": [
+   "ps_harp"
+  ],
+  "psalms:150": [
+   "ps_shofar"
   ]
  },
  "ac_ascmat": {
@@ -7662,5 +7738,29 @@
   "n": "The southern steps of the Temple Mount",
   "d": "Ancient steps on the south side of the Temple Mount, where pilgrims climbed to the Temple at the feasts. Psalms 120-134 are each titled “A song of ascents,” perhaps sung on the way up to Jerusalem.",
   "a": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+ },
+ "ps_exile": {
+  "k": "art",
+  "f": "Eduard_Bendemann-_Die_trauernden_Juden_im_Exil_um_1832.jpg",
+  "c": "The Mourning Jews in Exile, by Eduard Bendemann (about 1832, Wallraf-Richartz-Museum, Cologne), painted from Psalm 137. Here the harps rest on the ground instead of hanging in the willows: “By the rivers of Babylon we sat and wept when we remembered Zion” (Psalm 137:1).",
+  "n": "Bendemann, The Mourning Jews in Exile",
+  "d": "The Mourning Jews in Exile, by Eduard Bendemann (about 1832, Wallraf-Richartz-Museum, Cologne), painted from Psalm 137. Here the harps rest on the ground instead of hanging in the willows: “By the rivers of Babylon we sat and wept when we remembered Zion” (Psalm 137:1).",
+  "a": "Eduard Bendemann (c. 1832), public domain / Wikimedia Commons"
+ },
+ "ps_ishtar": {
+  "k": "dig",
+  "f": "Ishtar_Gate_at_Berlin_Museum.jpg",
+  "c": "The Ishtar Gate of Babylon, built by Nebuchadnezzar II about 575 BC, reconstructed in the Pergamon Museum in Berlin. The exiles of Psalm 137 lived in this city.",
+  "n": "The Ishtar Gate of Babylon",
+  "d": "The Ishtar Gate of Babylon, built by Nebuchadnezzar II about 575 BC, reconstructed in the Pergamon Museum in Berlin. The exiles of Psalm 137 lived in this city.",
+  "a": "Rictor Norton, CC BY 2.0 / Wikimedia Commons"
+ },
+ "ps_negev": {
+  "k": "now",
+  "f": "Israel-2013-Ein_Avdat_02.jpg",
+  "c": "The canyon of Ein Avdat, part of Nahal Zin, the largest dry riverbed in the Negev. Winter rains can fill such wadis with sudden torrents: “Restore our captives, O LORD, like streams in the Negev” (Psalm 126:4).",
+  "n": "Ein Avdat in the Negev",
+  "d": "The canyon of Ein Avdat, part of Nahal Zin, the largest dry riverbed in the Negev. Winter rains can fill such wadis with sudden torrents: “Restore our captives, O LORD, like streams in the Negev” (Psalm 126:4).",
+  "a": "Godot13 / Wikimedia Commons"
  }
 }

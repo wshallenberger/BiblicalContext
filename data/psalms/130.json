@@ -1,0 +1,213 @@
+{
+ "book": "Psalms",
+ "chapter": 130,
+ "title": "Out of the Depths",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Out of the depths I cry to You, O LORD!"
+  },
+  {
+   "num": 2,
+   "text": "O Lord, hear my voice; let Your ears be attentive to my plea for mercy."
+  },
+  {
+   "num": 3,
+   "text": "If You, O LORD, kept track of iniquities, then who, O Lord, could stand?"
+  },
+  {
+   "num": 4,
+   "text": "But with You there is forgiveness, so that You may be feared."
+  },
+  {
+   "num": 5,
+   "text": "I wait for the LORD; my soul does wait, and in His word I put my hope."
+  },
+  {
+   "num": 6,
+   "text": "My soul waits for the Lord more than watchmen wait for the morning— more than watchmen wait for the morning."
+  },
+  {
+   "num": 7,
+   "text": "O Israel, put your hope in the LORD, for with the LORD is loving devotion, and with Him is redemption in abundance."
+  },
+  {
+   "num": 8,
+   "text": "And He will redeem Israel from all iniquity."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Out of the depths I cry to You, O LORD! O Lord, hear my voice” (vv.1-2). The depths are the singer’s guilt: “If You, O LORD, kept track of iniquities, then who, O Lord, could stand? But with You there is forgiveness, so that You may be feared” (vv.3-4). So he waits: “I wait for the LORD; my soul does wait, and in His word I put my hope. My soul waits for the Lord more than watchmen wait for the morning— more than watchmen wait for the morning” (vv.5-6). Then he turns to all Israel: “O Israel, put your hope in the LORD, for with the LORD is loving devotion, and with Him is redemption in abundance. And He will redeem Israel from all iniquity” (vv.7-8).",
+  "custom": "The depths are deep waters, a picture of distress and chaos (Psalm 69:1-2). Watchmen on the city wall waited through the night for dawn, when danger passed and their shift ended. Forgiveness leads to fear, reverent awe, because it shows God’s grace, not His weakness. This is one of the seven penitential psalms; Martin Luther made it a hymn, ‘Out of the Depths I Cry to You’ (1524).",
+  "timelineImmediate": "Psalm 131: a soul stilled like a weaned child.",
+  "timelineBible": "Paul wrote, “there is now no condemnation for those who are in Christ Jesus” (Romans 8:1). The angel told Joseph that Jesus “will save His people from their sins” (Matthew 1:21), like v.8. John writes, “If we confess our sins, He is faithful and just to forgive us” (1 John 1:9).",
+  "translation": [
+   {
+    "english": "depths",
+    "greek": "מַעֲמַקִּים (maamaqqim)",
+    "verseRef": "v.1",
+    "meaning": "Depths, deep waters.",
+    "gloss": "Depths",
+    "strongs": "H4615",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "forgiveness",
+    "greek": "סְלִיחָה (selichah)",
+    "verseRef": "v.4",
+    "meaning": "Forgiveness, pardon.",
+    "gloss": "Forgiveness",
+    "strongs": "H5547",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "watchmen",
+    "greek": "שָׁמַר (shamar)",
+    "verseRef": "v.6",
+    "meaning": "To watch, keep, guard.",
+    "gloss": "Watch",
+    "strongs": "H8104",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 8:1",
+    "note": "No condemnation."
+   },
+   {
+    "ref": "Matthew 1:21",
+    "note": "He will save His people from their sins."
+   },
+   {
+    "ref": "1 John 1:8-9",
+    "note": "Faithful and just to forgive."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 34:6-7",
+    "note": "Forgiving iniquity."
+   },
+   {
+    "ref": "Isaiah 21:11-12",
+    "note": "Watchman, what is left of the night?"
+   },
+   {
+    "ref": "Lamentations 3:24-26",
+    "note": "Wait quietly for the LORD."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "From the depths of guilt the psalmist cries to the God who forgives, waits for Him more eagerly than watchmen wait for morning, and calls Israel to hope in His abundant redemption.",
+   "settingLine": "Waiting for dawn.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Penitential psalms",
+     "t": "Prayed in Lent."
+    },
+    {
+     "h": "Luther’s hymn",
+     "t": "Aus tiefer Not."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Night watchmen",
+     "t": "Waiting for morning."
+    },
+    {
+     "h": "Deep waters",
+     "t": "A picture of distress."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Watchtowers",
+     "t": "Towers on the walls of Iron Age cities, such as at Tel en-Nasbeh."
+    },
+    {
+     "h": "Lachish ostraca",
+     "t": "A soldier’s letters watching for the signal fires of Lachish."
+    }
+   ],
+   "discussion": "“with You there is forgiveness, so that You may be feared” (v.4). How does being forgiven make me take God more seriously, not less?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; penitential psalm",
+   "audience": "God, and then Israel",
+   "refNotes": {
+    "Exodus 34:6-7": "Forgiving God",
+    "Isaiah 21:11-12": "Watchman",
+    "Lamentations 3:24-26": "Waiting"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The psalmist",
+     "d": "Cries from the depths"
+    },
+    {
+     "n": "The watchmen",
+     "d": "Wait for morning"
+    },
+    {
+     "n": "Israel",
+     "d": "Called to hope"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Out of the depths"
+    },
+    {
+     "when": "v.3-4",
+     "label": "With You there is forgiveness"
+    },
+    {
+     "when": "v.5-6",
+     "label": "I wait"
+    },
+    {
+     "when": "v.7-8",
+     "label": "O Israel, hope"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Out of the depths I cry to You, O LORD! O Lord, hear my voice; let Your ears be attentive to my plea for mercy. If You, O LORD, kept track of iniquities, then who, O Lord, could stand? But with You there is forgiveness, so that You may be feared. I wait for the LORD; my soul does wait, and in His word I put my hope. My soul waits for the Lord more than watchmen wait for the morning— more than watchmen wait for the morning. O Israel, put your hope in the LORD, for with the LORD is loving devotion, and with Him is redemption in abundance. And He will redeem Israel from all iniquity.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hezekiah%27s_Tunnel_enlightened.jpg",
+   "caption": "The dark rock passage of Hezekiah’s Tunnel under the City of David. “Out of the depths I cry to You, O LORD!” (Psalm 130:1).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "book": "Psalms",
+ "chapter": 126,
+ "title": "Those Who Sow in Tears",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "When the LORD restored the captives of Zion, we were like dreamers."
+  },
+  {
+   "num": 2,
+   "text": "Then our mouths were filled with laughter, our tongues with shouts of joy. Then it was said among the nations, \"The LORD has done great things for them.\""
+  },
+  {
+   "num": 3,
+   "text": "The LORD has done great things for us; we are filled with joy."
+  },
+  {
+   "num": 4,
+   "text": "Restore our captives, O LORD, like streams in the Negev."
+  },
+  {
+   "num": 5,
+   "text": "Those who sow in tears will reap with shouts of joy."
+  },
+  {
+   "num": 6,
+   "text": "He who goes out weeping, bearing a trail of seed, will surely return with shouts of joy, carrying sheaves of grain."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "STREAMS IN THE NEGEV",
+  "setting": "“When the LORD restored the captives of Zion, we were like dreamers. Then our mouths were filled with laughter, our tongues with shouts of joy” (vv.1-2). Even the nations said, “The LORD has done great things for them” (v.2), and Israel answers, “The LORD has done great things for us; we are filled with joy” (v.3). Then a fresh prayer, because the restoration is not complete: “Restore our captives, O LORD, like streams in the Negev” (v.4). The psalm ends with a farmer’s promise: “Those who sow in tears will reap with shouts of joy. He who goes out weeping, bearing a trail of seed, will surely return with shouts of joy, carrying sheaves of grain” (vv.5-6).",
+  "custom": "The Negev is the dry south of Judah. Its wadis are dry most of the year, but winter storms can fill them with water in minutes, a picture of sudden, total restoration. Sowing was hard, anxious work: seed set aside for planting was food the family did without, and a failed crop meant hunger.",
+  "timelineImmediate": "Psalm 127, “Of Solomon”: Unless the LORD builds the house, its builders labor in vain.",
+  "timelineBible": "Jesus told His disciples, “your grief will turn to joy” (John 16:20). Paul wrote that “whoever sows generously will also reap generously” (2 Corinthians 9:6), and “Let us not grow weary in well-doing, for in due time we will reap a harvest, if we do not give up” (Galatians 6:9).",
+  "translation": [
+   {
+    "english": "dreamers",
+    "greek": "חָלַם (chalam)",
+    "verseRef": "v.1",
+    "meaning": "To dream.",
+    "gloss": "Dream",
+    "strongs": "H2492",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Negev",
+    "greek": "נֶגֶב (negev)",
+    "verseRef": "v.4",
+    "meaning": "The Negev, the dry south; also “south.”",
+    "gloss": "Negev",
+    "strongs": "H5045",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "sheaves",
+    "greek": "אֲלֻמָה (alummah)",
+    "verseRef": "v.6",
+    "meaning": "Sheaf of grain.",
+    "gloss": "Sheaf",
+    "strongs": "H485",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 16:20-22",
+    "note": "Your grief will turn to joy."
+   },
+   {
+    "ref": "Galatians 6:7-9",
+    "note": "In due time we will reap."
+   },
+   {
+    "ref": "2 Corinthians 9:6",
+    "note": "Whoever sows generously."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Ezra 1:1-4",
+    "note": "Cyrus lets the exiles go home."
+   },
+   {
+    "ref": "Isaiah 35:6-10",
+    "note": "Streams in the desert; the ransomed return with joy."
+   },
+   {
+    "ref": "Jeremiah 31:9-13",
+    "note": "They will come with weeping."
+   }
+  ],
+  "mapCoords": {
+   "lat": 30.826,
+   "lng": 34.767,
+   "zoom": 6,
+   "placeName": "The Negev (Ein Avdat, Nahal Zin)"
+  },
+  "overview": {
+   "summary": "The returned exiles remember laughing like dreamers when God restored Zion, pray for Him to finish the work like sudden streams in the Negev, and trust that tears sown now will bring a harvest of joy.",
+   "settingLine": "Back home, still praying for rain.",
+   "placeName": "The Negev (Ein Avdat, Nahal Zin)",
+   "history": [
+    {
+     "h": "Return from Babylon",
+     "t": "After 538 BC."
+    },
+    {
+     "h": "Hard years after",
+     "t": "Poor harvests (Haggai 1:6)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sowing seed",
+     "t": "Costly and uncertain work."
+    },
+    {
+     "h": "Wadis",
+     "t": "Dry valleys that flood in winter."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Negev wadis",
+     "t": "Terraces and dams built across Negev wadis to catch rare floodwater."
+    },
+    {
+     "h": "Persian-era Judah",
+     "t": "Small villages resettled after the return."
+    }
+   ],
+   "discussion": "“Those who sow in tears will reap with shouts of joy” (v.5). What am I sowing in tears right now, and what harvest am I trusting God for?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; community prayer",
+   "audience": "Returned exiles",
+   "refNotes": {
+    "Ezra 1:1-4": "The return",
+    "Isaiah 35:6-10": "Joy on their heads",
+    "Jeremiah 31:9-13": "Mourning to joy"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The returned captives",
+     "d": "Like dreamers"
+    },
+    {
+     "n": "The nations",
+     "d": "Saw God’s great deeds"
+    },
+    {
+     "n": "The sower",
+     "d": "Goes out weeping"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "We were like dreamers"
+    },
+    {
+     "when": "v.4",
+     "label": "Restore us again"
+    },
+    {
+     "when": "v.5-6",
+     "label": "Tears and sheaves"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "The Negev (Ein Avdat, Nahal Zin)",
+    "lat": 30.826,
+    "lng": 34.767,
+    "verses": [
+     4
+    ],
+    "slug": "negev"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     1
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "When the LORD restored the captives of Zion, we were like dreamers. Then our mouths were filled with laughter, our tongues with shouts of joy. Then it was said among the nations, The LORD has done great things for them. The LORD has done great things for us; we are filled with joy. Restore our captives, O LORD, like streams in the Negev. Those who sow in tears will reap with shouts of joy. He who goes out weeping, bearing a trail of seed, will surely return with shouts of joy, carrying sheaves of grain.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Israel-2013-Ein_Avdat_02.jpg",
+   "caption": "The canyon of Ein Avdat, part of Nahal Zin, the largest dry riverbed in the Negev. Winter rains can fill such wadis with sudden torrents: “Restore our captives, O LORD, like streams in the Negev” (Psalm 126:4).",
+   "credit": "Godot13 / Wikimedia Commons"
+  }
+ }
+}

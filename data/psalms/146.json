@@ -1,0 +1,216 @@
+{
+ "book": "Psalms",
+ "chapter": 146,
+ "title": "Put Not Your Trust in Princes",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! Praise the LORD, O my soul."
+  },
+  {
+   "num": 2,
+   "text": "I will praise the LORD all my life; I will sing praises to my God while I have my being."
+  },
+  {
+   "num": 3,
+   "text": "Put not your trust in princes, in mortal man, who cannot save."
+  },
+  {
+   "num": 4,
+   "text": "When his spirit departs, he returns to the ground; on that very day his plans perish."
+  },
+  {
+   "num": 5,
+   "text": "Blessed is he whose help is the God of Jacob, whose hope is in the LORD his God,"
+  },
+  {
+   "num": 6,
+   "text": "the Maker of heaven and earth, the sea, and everything in them. He remains faithful forever."
+  },
+  {
+   "num": 7,
+   "text": "He executes justice for the oppressed and gives food to the hungry. The LORD sets the prisoners free,"
+  },
+  {
+   "num": 8,
+   "text": "the LORD opens the eyes of the blind, the LORD lifts those who are weighed down, the LORD loves the righteous."
+  },
+  {
+   "num": 9,
+   "text": "The LORD protects foreigners; He sustains the fatherless and the widow, but the ways of the wicked He frustrates."
+  },
+  {
+   "num": 10,
+   "text": "The LORD reigns forever, your God, O Zion, for all generations. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Psalms 146-150 are the final Hallel: each begins and ends with “Hallelujah,” “Praise the LORD,” and together they close the whole book in praise. They are part of the daily morning prayers in the synagogue.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hallelujah! Praise the LORD, O my soul. I will praise the LORD all my life” (vv.1-2). A warning: “Put not your trust in princes, in mortal man, who cannot save. When his spirit departs, he returns to the ground; on that very day his plans perish” (vv.3-4). Instead: “Blessed is he whose help is the God of Jacob” (v.5), the Maker of heaven and earth who stays faithful forever. The LORD acts for the weak: He “executes justice for the oppressed and gives food to the hungry. The LORD sets the prisoners free, the LORD opens the eyes of the blind, the LORD lifts those who are weighed down… The LORD protects foreigners; He sustains the fatherless and the widow” (vv.7-9). “The LORD reigns forever, your God, O Zion, for all generations. Hallelujah!” (v.10).",
+  "custom": "Kings and nobles were the natural patrons people looked to for protection and favors. Foreigners, orphans and widows had no family to defend them, so the Law placed them under God’s special care (Deuteronomy 10:18).",
+  "timelineImmediate": "Psalm 147: The LORD builds up Jerusalem and heals the brokenhearted.",
+  "timelineBible": "When John the Baptist asked if Jesus was the One, Jesus answered, “The blind receive sight, the lame walk… and the good news is preached to the poor” (Matthew 11:5), the works of v.8. He read Isaiah in Nazareth: “to proclaim liberty to the captives and recovery of sight to the blind” (Luke 4:18).",
+  "translation": [
+   {
+    "english": "princes",
+    "greek": "נָדִיב (nadiv)",
+    "verseRef": "v.3",
+    "meaning": "Noble, prince; generous.",
+    "gloss": "Noble",
+    "strongs": "H5081",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "spirit",
+    "greek": "רוּחַ (ruach)",
+    "verseRef": "v.4",
+    "meaning": "Spirit, breath, wind.",
+    "gloss": "Breath",
+    "strongs": "H7307",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "plans",
+    "greek": "עֶשְׁתֹּנָה (eshtonah)",
+    "verseRef": "v.4",
+    "meaning": "Thought, plan.",
+    "gloss": "Plan",
+    "strongs": "H6250",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 11:2-6",
+    "note": "The blind receive sight."
+   },
+   {
+    "ref": "Luke 4:16-21",
+    "note": "Liberty to the captives."
+   },
+   {
+    "ref": "James 1:27",
+    "note": "Care for orphans and widows."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 2:22",
+    "note": "Stop trusting in man."
+   },
+   {
+    "ref": "Jeremiah 17:5-8",
+    "note": "Cursed is the one who trusts in man."
+   },
+   {
+    "ref": "Deuteronomy 10:17-18",
+    "note": "He defends the fatherless and widow."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The first of the closing Hallelujah psalms: do not trust mortal princes whose plans die with them, but the faithful Creator who feeds the hungry, frees prisoners, heals the blind and protects the vulnerable.",
+   "settingLine": "A better patron than any prince.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Kings who failed",
+     "t": "From Saul to Zedekiah."
+    },
+    {
+     "h": "Jesus’ ministry",
+     "t": "The works of v.8 fulfilled."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Royal patrons",
+     "t": "Seeking favor from the powerful."
+    },
+    {
+     "h": "Care for the vulnerable",
+     "t": "Commanded in the Law."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Royal tombs",
+     "t": "Rock-cut tombs of Judah’s officials in Silwan, such as the ‘Royal Steward’ tomb."
+    },
+    {
+     "h": "Prisoner reliefs",
+     "t": "Assyrian reliefs of captives in fetters."
+    }
+   ],
+   "discussion": "“Put not your trust in princes” (v.3). Whom or what am I tempted to trust more than God?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hallelujah psalm",
+   "audience": "My soul, and Zion",
+   "refNotes": {
+    "Isaiah 2:22": "Man’s breath",
+    "Jeremiah 17:5-8": "Trust",
+    "Deuteronomy 10:17-18": "God’s justice"
+   },
+   "peoplePlaces": [
+    {
+     "n": "My soul",
+     "d": "Called to praise"
+    },
+    {
+     "n": "Princes",
+     "d": "Cannot save"
+    },
+    {
+     "n": "The oppressed, hungry and blind",
+     "d": "Helped by the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "I will praise the LORD"
+    },
+    {
+     "when": "v.3-4",
+     "label": "Not in princes"
+    },
+    {
+     "when": "v.5-10",
+     "label": "The God of Jacob"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! Praise the LORD, O my soul. I will praise the LORD all my life; I will sing praises to my God while I have my being. Put not your trust in princes, in mortal man, who cannot save. When his spirit departs, he returns to the ground; on that very day his plans perish. Blessed is he whose help is the God of Jacob, whose hope is in the LORD his God, He executes justice for the oppressed and gives food to the hungry. The LORD sets the prisoners free, the LORD opens the eyes of the blind, the LORD lifts those who are weighed down, the LORD loves the righteous. The LORD reigns forever, your God, O Zion, for all generations. Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “The LORD reigns forever, your God, O Zion, for all generations. Hallelujah!” (Psalm 146:10).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

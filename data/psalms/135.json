@@ -1,0 +1,298 @@
+{
+ "book": "Psalms",
+ "chapter": 135,
+ "title": "Praise the Name of the LORD",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! Praise the name of the LORD. Give praise, O servants of the LORD,"
+  },
+  {
+   "num": 2,
+   "text": "who stand in the house of the LORD, in the courts of the house of our God."
+  },
+  {
+   "num": 3,
+   "text": "Hallelujah, for the LORD is good; sing praises to His name, for it is lovely."
+  },
+  {
+   "num": 4,
+   "text": "For the LORD has chosen Jacob as His own, Israel as His treasured possession."
+  },
+  {
+   "num": 5,
+   "text": "For I know that the LORD is great; our Lord is above all gods."
+  },
+  {
+   "num": 6,
+   "text": "The LORD does all that pleases Him in the heavens and on the earth, in the seas and in all their depths."
+  },
+  {
+   "num": 7,
+   "text": "He causes the clouds to rise from the ends of the earth. He generates the lightning with the rain and brings forth the wind from His storehouses."
+  },
+  {
+   "num": 8,
+   "text": "He struck down the firstborn of Egypt, of both man and beast."
+  },
+  {
+   "num": 9,
+   "text": "He sent signs and wonders into your midst, O Egypt, against Pharaoh and all his servants."
+  },
+  {
+   "num": 10,
+   "text": "He struck down many nations and slaughtered mighty kings:"
+  },
+  {
+   "num": 11,
+   "text": "Sihon king of the Amorites, Og king of Bashan, and all the kings of Canaan."
+  },
+  {
+   "num": 12,
+   "text": "He gave their land as an inheritance, as a heritage to His people Israel."
+  },
+  {
+   "num": 13,
+   "text": "Your name, O LORD, endures forever, Your renown, O LORD, through all generations."
+  },
+  {
+   "num": 14,
+   "text": "For the LORD will vindicate His people and will have compassion on His servants."
+  },
+  {
+   "num": 15,
+   "text": "The idols of the nations are silver and gold, made by the hands of men."
+  },
+  {
+   "num": 16,
+   "text": "They have mouths, but cannot speak; they have eyes, but cannot see;"
+  },
+  {
+   "num": 17,
+   "text": "they have ears, but cannot hear; nor is there breath in their mouths."
+  },
+  {
+   "num": 18,
+   "text": "Those who make them become like them, as do all who trust in them."
+  },
+  {
+   "num": 19,
+   "text": "O house of Israel, bless the LORD; O house of Aaron, bless the LORD;"
+  },
+  {
+   "num": 20,
+   "text": "O house of Levi, bless the LORD; you who fear the LORD, bless the LORD!"
+  },
+  {
+   "num": 21,
+   "text": "Blessed be the LORD from Zion— He who dwells in Jerusalem. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Book Five (Psalms 107-150) gathers psalms of thanksgiving and praise, with groups of David’s psalms, the Hallel sung at Passover (113-118), the great psalm of God’s word (119) and the Songs of Ascents (120-134). Many seem to come from after the return from exile (107:2-3).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hallelujah! Praise the name of the LORD. Give praise, O servants of the LORD, who stand in the house of the LORD” (vv.1-2). The reasons: “For the LORD has chosen Jacob as His own, Israel as His treasured possession” (v.4), and “our Lord is above all gods” (v.5). He rules sky and sea, cloud, lightning and wind (vv.6-7). He struck Egypt’s firstborn and sent signs against Pharaoh (vv.8-9), defeated “Sihon king of the Amorites, Og king of Bashan, and all the kings of Canaan” (v.11), and gave Israel their land. By contrast, “The idols of the nations are silver and gold, made by the hands of men” (v.15), with mouths that cannot speak, and “Those who make them become like them” (v.18). So all Israel, the houses of Aaron and Levi, and all who fear Him are called to bless the LORD (vv.19-21).",
+  "custom": "The psalm weaves together lines from other Scriptures: Psalm 115’s description of idols, Psalm 136’s history and the Law’s language of Israel as God’s “treasured possession” (Exodus 19:5). Sihon ruled from Heshbon and Og from Bashan, east of the Jordan; their defeat was Israel’s first conquest (Numbers 21:21-35). It was sung at Passover with Psalm 136.",
+  "timelineImmediate": "Psalm 136, the Great Hallel: His loving devotion endures forever.",
+  "timelineBible": "Peter calls believers “a people for God’s own possession” (1 Peter 2:9), using the language of v.4. Paul told the Athenians that God “does not live in temples made by human hands” (Acts 17:24). John warns, “Little children, keep yourselves from idols” (1 John 5:21).",
+  "translation": [
+   {
+    "english": "treasured possession",
+    "greek": "סְגֻלָּה (segullah)",
+    "verseRef": "v.4",
+    "meaning": "Treasured possession, a king’s private treasure.",
+    "gloss": "Treasure",
+    "strongs": "H5459",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Sihon",
+    "greek": "סִיחוֹן (sichon)",
+    "verseRef": "v.11",
+    "meaning": "Sihon, Amorite king of Heshbon.",
+    "gloss": "Sihon",
+    "strongs": "H5511",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Og",
+    "greek": "עוֹג (og)",
+    "verseRef": "v.11",
+    "meaning": "Og, king of Bashan.",
+    "gloss": "Og",
+    "strongs": "H5747",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Peter 2:9-10",
+    "note": "A people for His own possession."
+   },
+   {
+    "ref": "Acts 17:24-29",
+    "note": "Not served by human hands."
+   },
+   {
+    "ref": "1 John 5:21",
+    "note": "Keep yourselves from idols."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 19:5-6",
+    "note": "My treasured possession."
+   },
+   {
+    "ref": "Numbers 21:21-35",
+    "note": "Sihon and Og defeated."
+   },
+   {
+    "ref": "Psalm 115:4-8",
+    "note": "The same words about idols."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The servants in God’s house are called to praise the LORD who chose Israel, rules all creation, struck Egypt and the kings of Canaan, and is utterly unlike the lifeless idols of the nations.",
+   "settingLine": "A medley of praise in the Temple courts.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The plagues of Egypt",
+     "t": "The firstborn struck down."
+    },
+    {
+     "h": "Sihon and Og",
+     "t": "Kings east of the Jordan."
+    }
+   ],
+   "customs": [
+    {
+     "h": "A king’s treasure",
+     "t": "Segullah, his own private wealth."
+    },
+    {
+     "h": "Temple choirs",
+     "t": "Levites standing in the courts."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tell Hesban",
+     "t": "Excavations at Heshbon in Jordan, the site of Sihon’s city."
+    },
+    {
+     "h": "Bashan’s basalt towns",
+     "t": "Fortified towns of black basalt in the Golan and Hauran."
+    }
+   ],
+   "discussion": "God calls Israel “His treasured possession” (v.4). How would I live differently if I believed I was God’s treasure?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hymn of praise",
+   "audience": "The servants in the house of the LORD",
+   "refNotes": {
+    "Exodus 19:5-6": "Treasured possession",
+    "Numbers 21:21-35": "Sihon and Og",
+    "Psalm 115:4-8": "Idols"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The servants of the LORD",
+     "d": "Stand in His house"
+    },
+    {
+     "n": "Sihon and Og",
+     "d": "Kings defeated"
+    },
+    {
+     "n": "The houses of Aaron and Levi",
+     "d": "Called to bless"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Praise His name"
+    },
+    {
+     "when": "v.5-7",
+     "label": "Lord of creation"
+    },
+    {
+     "when": "v.8-14",
+     "label": "Lord of history"
+    },
+    {
+     "when": "v.15-18",
+     "label": "The idols"
+    },
+    {
+     "when": "v.19-21",
+     "label": "Bless the LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Heshbon, Sihon’s city",
+    "lat": 31.8,
+    "lng": 35.81,
+    "verses": [
+     11
+    ],
+    "slug": "heshbon"
+   },
+   {
+    "name": "Bashan, the high plateau east of Galilee",
+    "lat": 32.9,
+    "lng": 35.85,
+    "verses": [
+     11
+    ],
+    "slug": "bashan"
+   },
+   {
+    "name": "Goshen in the Nile Delta (the land of Ham)",
+    "lat": 30.8,
+    "lng": 31.8,
+    "verses": [
+     8,
+     9
+    ],
+    "slug": "goshen"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     21
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! Praise the name of the LORD. Give praise, O servants of the LORD, Hallelujah, for the LORD is good; sing praises to His name, for it is lovely. For the LORD has chosen Jacob as His own, Israel as His treasured possession. For I know that the LORD is great; our Lord is above all gods. The LORD does all that pleases Him in the heavens and on the earth, in the seas and in all their depths. Your name, O LORD, endures forever, Your renown, O LORD, through all generations. The idols of the nations are silver and gold, made by the hands of men. Those who make them become like them, as do all who trust in them. Blessed be the LORD from Zion— He who dwells in Jerusalem. Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg",
+   "caption": "Moses with the Ten Commandments, by Rembrandt (1659). “He sent signs and wonders into your midst, O Egypt, against Pharaoh and all his servants” (Psalm 135:9).",
+   "credit": "Rembrandt (1659), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “Give praise, O servants of the LORD, who stand in the house of the LORD” (Psalm 135:1-2).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

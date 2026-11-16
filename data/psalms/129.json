@@ -1,0 +1,205 @@
+{
+ "book": "Psalms",
+ "chapter": 129,
+ "title": "They Have Not Prevailed Against Me",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Many a time they have persecuted me from my youth— let Israel now declare—"
+  },
+  {
+   "num": 2,
+   "text": "many a time they have persecuted me from my youth, but they have not prevailed against me."
+  },
+  {
+   "num": 3,
+   "text": "The plowmen plowed over my back; they made their furrows long."
+  },
+  {
+   "num": 4,
+   "text": "The LORD is righteous; He has cut me from the cords of the wicked."
+  },
+  {
+   "num": 5,
+   "text": "May all who hate Zion be turned back in shame."
+  },
+  {
+   "num": 6,
+   "text": "May they be like grass on the rooftops, which withers before it can grow,"
+  },
+  {
+   "num": 7,
+   "text": "unable to fill the hands of the reaper, or the arms of the binder of sheaves."
+  },
+  {
+   "num": 8,
+   "text": "May none who pass by say to them, \"The blessing of the LORD be on you; we bless you in the name of the LORD.\""
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Many a time they have persecuted me from my youth— let Israel now declare— many a time they have persecuted me from my youth, but they have not prevailed against me” (vv.1-2). Israel speaks of its long sufferings in a shocking image: “The plowmen plowed over my back; they made their furrows long” (v.3). “The LORD is righteous; He has cut me from the cords of the wicked” (v.4). The psalm prays that those who hate Zion will be “like grass on the rooftops, which withers before it can grow” (v.6), so useless that no harvesters will greet each other over them with “The blessing of the LORD be on you” (v.8).",
+  "custom": "Israel’s “youth” was its slavery in Egypt (Hosea 11:1). Plowing over someone’s back pictures cruel oppression, perhaps whipping. Grass sprouted on the flat mud roofs of houses after rain but withered at once in the sun (2 Kings 19:26). Reapers and passers-by greeted each other with blessings at harvest (Ruth 2:4).",
+  "timelineImmediate": "Psalm 130: Out of the depths I cry to You.",
+  "timelineBible": "Jesus told His disciples, “In the world you will have tribulation. But take courage; I have overcome the world!” (John 16:33). Jesus said of His church, “the gates of Hades will not prevail against it” (Matthew 16:18). Paul wrote, “We are hard pressed on all sides, but not crushed” (2 Corinthians 4:8).",
+  "translation": [
+   {
+    "english": "plowmen",
+    "greek": "חָרַשׁ (charash)",
+    "verseRef": "v.3",
+    "meaning": "To plow, engrave.",
+    "gloss": "Plow",
+    "strongs": "H2790",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "furrows",
+    "greek": "מַעֲנָה (maanah)",
+    "verseRef": "v.3",
+    "meaning": "Furrow.",
+    "gloss": "Furrow",
+    "strongs": "H4618",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "rooftops",
+    "greek": "גָּג (gag)",
+    "verseRef": "v.6",
+    "meaning": "Roof, housetop.",
+    "gloss": "Roof",
+    "strongs": "H1406",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 16:33",
+    "note": "I have overcome the world."
+   },
+   {
+    "ref": "Matthew 16:18",
+    "note": "The gates of Hades will not prevail."
+   },
+   {
+    "ref": "2 Corinthians 4:8-9",
+    "note": "Hard pressed but not crushed."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 1:11-14",
+    "note": "Bitter labor in Egypt."
+   },
+   {
+    "ref": "Isaiah 51:23",
+    "note": "You made your back like the ground."
+   },
+   {
+    "ref": "Ruth 2:4",
+    "note": "Harvest greetings."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Israel declares that enemies have afflicted it since its youth, plowing its back like a field, yet have never prevailed, and prays that those who hate Zion will wither like rooftop grass.",
+   "settingLine": "Scarred, but still standing.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Slavery in Egypt",
+     "t": "Israel’s youth."
+    },
+    {
+     "h": "Assyria and Babylon",
+     "t": "Later oppressors."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Rooftop grass",
+     "t": "Sprouting and withering."
+    },
+    {
+     "h": "Harvest greetings",
+     "t": "Blessings exchanged in the fields."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Mud-plaster roofs",
+     "t": "Stone rollers found in houses were used to pack roofs after rain."
+    },
+    {
+     "h": "Iron plowpoints",
+     "t": "Iron Age plow tips from Israelite villages."
+    }
+   ],
+   "discussion": "“they have not prevailed against me” (v.2). Where can I look back and see that God kept me through long trouble?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; community confidence",
+   "audience": "Israel, called to declare it",
+   "refNotes": {
+    "Exodus 1:11-14": "Egypt",
+    "Isaiah 51:23": "Back as a road",
+    "Ruth 2:4": "Blessing at harvest"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Israel",
+     "d": "Persecuted from youth"
+    },
+    {
+     "n": "The plowmen",
+     "d": "Oppressors"
+    },
+    {
+     "n": "Those who hate Zion",
+     "d": "Like rooftop grass"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Afflicted but not defeated"
+    },
+    {
+     "when": "v.5-8",
+     "label": "Let the haters wither"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Many a time they have persecuted me from my youth— let Israel now declare— many a time they have persecuted me from my youth, but they have not prevailed against me. The plowmen plowed over my back; they made their furrows long. The LORD is righteous; He has cut me from the cords of the wicked. May all who hate Zion be turned back in shame. May none who pass by say to them, The blessing of the LORD be on you; we bless you in the name of the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "Hills of Judea. “The plowmen plowed over my back; they made their furrows long” (Psalm 129:3).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

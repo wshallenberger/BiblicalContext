@@ -1,0 +1,208 @@
+{
+ "book": "Psalms",
+ "chapter": 149,
+ "title": "Sing a New Song in the Assembly",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! Sing to the LORD a new song— His praise in the assembly of the godly."
+  },
+  {
+   "num": 2,
+   "text": "Let Israel rejoice in their Maker; let the children of Zion rejoice in their King."
+  },
+  {
+   "num": 3,
+   "text": "Let them praise His name with dancing, and make music to Him with tambourine and harp."
+  },
+  {
+   "num": 4,
+   "text": "For the LORD takes pleasure in His people; He adorns the afflicted with salvation."
+  },
+  {
+   "num": 5,
+   "text": "Let the saints exult in glory; let them shout for joy upon their beds."
+  },
+  {
+   "num": 6,
+   "text": "May the high praises of God be in their mouths, and a double-edged sword in their hands,"
+  },
+  {
+   "num": 7,
+   "text": "to inflict vengeance on the nations and punishment on the peoples,"
+  },
+  {
+   "num": 8,
+   "text": "to bind their kings with chains and their nobles with shackles of iron,"
+  },
+  {
+   "num": 9,
+   "text": "to execute the judgment written against them. This honor is for all His saints. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Psalms 146-150 are the final Hallel: each begins and ends with “Hallelujah,” “Praise the LORD,” and together they close the whole book in praise. They are part of the daily morning prayers in the synagogue.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hallelujah! Sing to the LORD a new song— His praise in the assembly of the godly. Let Israel rejoice in their Maker; let the children of Zion rejoice in their King” (vv.1-2). “Let them praise His name with dancing, and make music to Him with tambourine and harp. For the LORD takes pleasure in His people; He adorns the afflicted with salvation” (vv.3-4). Then a surprising turn: “May the high praises of God be in their mouths, and a double-edged sword in their hands, to inflict vengeance on the nations… to execute the judgment written against them. This honor is for all His saints” (vv.6-9).",
+  "custom": "Dancing with tambourines celebrated victories (Exodus 15:20; 1 Samuel 18:6). The builders under Nehemiah worked with a tool in one hand and a weapon in the other (Nehemiah 4:17-18). The judgment “written” (v.9) is God’s own decree against oppressive nations; the psalm does not license private violence but celebrates God’s justice.",
+  "timelineImmediate": "Psalm 150, the grand finale: let everything that has breath praise the LORD.",
+  "timelineBible": "In the New Testament the sword is “the word of God” (Ephesians 6:17), “sharper than any double-edged sword” (Hebrews 4:12), and the risen Christ judges with a sword from His mouth (Revelation 19:15). Paul writes that “the saints will judge the world” (1 Corinthians 6:2), and Jesus told Peter to put away his sword (Matthew 26:52).",
+  "translation": [
+   {
+    "english": "dancing",
+    "greek": "מָחוֹל (machol)",
+    "verseRef": "v.3",
+    "meaning": "Dance, dancing.",
+    "gloss": "Dance",
+    "strongs": "H4234",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "sword",
+    "greek": "חֶרֶב (cherev)",
+    "verseRef": "v.6",
+    "meaning": "Sword.",
+    "gloss": "Sword",
+    "strongs": "H2719",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "adorns",
+    "greek": "פָּאַר (paar)",
+    "verseRef": "v.4",
+    "meaning": "To beautify, glorify.",
+    "gloss": "Adorn",
+    "strongs": "H6286",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Ephesians 6:17",
+    "note": "The sword of the Spirit."
+   },
+   {
+    "ref": "Hebrews 4:12",
+    "note": "Sharper than any double-edged sword."
+   },
+   {
+    "ref": "Revelation 19:11-16",
+    "note": "The sword from His mouth."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 15:20-21",
+    "note": "Miriam dances with tambourines."
+   },
+   {
+    "ref": "Nehemiah 4:16-18",
+    "note": "Building with sword at side."
+   },
+   {
+    "ref": "Psalm 2:8-12",
+    "note": "The King rules the nations."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God’s people sing a new song with dancing and music to their King, who delights in them and crowns the humble with salvation, and they celebrate His coming judgment on oppressive nations.",
+   "settingLine": "Praise in the mouth, a sword in the hand.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Miriam’s song",
+     "t": "Tambourines at the sea."
+    },
+    {
+     "h": "Nehemiah’s builders",
+     "t": "Armed while building."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Victory dances",
+     "t": "Led by women with tambourines."
+    },
+    {
+     "h": "Written judgments",
+     "t": "Royal decrees."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Frame drums",
+     "t": "Clay figurines of women holding hand drums from Iron Age Israel."
+    },
+    {
+     "h": "Iron swords",
+     "t": "Double-edged iron swords from the Iron Age."
+    }
+   ],
+   "discussion": "“the LORD takes pleasure in His people” (v.4). Do I believe God delights in me, and how would that change my worship?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hallelujah psalm",
+   "audience": "The assembly of the godly",
+   "refNotes": {
+    "Exodus 15:20-21": "Dancing",
+    "Nehemiah 4:16-18": "Sword and trowel",
+    "Psalm 2:8-12": "The nations"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The godly",
+     "d": "Sing a new song"
+    },
+    {
+     "n": "The children of Zion",
+     "d": "Rejoice in their King"
+    },
+    {
+     "n": "The nations",
+     "d": "Face judgment"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Rejoice in your King"
+    },
+    {
+     "when": "v.6-9",
+     "label": "Praise and the sword"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! Sing to the LORD a new song— His praise in the assembly of the godly. Let Israel rejoice in their Maker; let the children of Zion rejoice in their King. Let them praise His name with dancing, and make music to Him with tambourine and harp. For the LORD takes pleasure in His people; He adorns the afflicted with salvation. Let the saints exult in glory; let them shout for joy upon their beds. May the high praises of God be in their mouths, and a double-edged sword in their hands, to execute the judgment written against them. This honor is for all His saints. Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “Let Israel rejoice in their Maker; let the children of Zion rejoice in their King” (Psalm 149:2).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

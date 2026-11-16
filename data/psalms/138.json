@@ -1,0 +1,209 @@
+{
+ "book": "Psalms",
+ "chapter": 138,
+ "title": "I Give You Thanks with All My Heart",
+ "translation": "BSB",
+ "superscription": "Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I give You thanks with all my heart; before the gods I sing Your praises."
+  },
+  {
+   "num": 2,
+   "text": "I bow down toward Your holy temple and give thanks to Your name for Your loving devotion and Your faithfulness; You have exalted Your name and Your word above all else."
+  },
+  {
+   "num": 3,
+   "text": "On the day I called, You answered me; You emboldened me and strengthened my soul."
+  },
+  {
+   "num": 4,
+   "text": "All the kings of the earth will give You thanks, O LORD, when they hear the words of Your mouth."
+  },
+  {
+   "num": 5,
+   "text": "They will sing of the ways of the LORD, for the glory of the LORD is great."
+  },
+  {
+   "num": 6,
+   "text": "Though the LORD is on high, He attends to the lowly; but the proud He knows from afar."
+  },
+  {
+   "num": 7,
+   "text": "If I walk in the midst of trouble, You preserve me from the anger of my foes; You extend Your hand, and Your right hand saves me."
+  },
+  {
+   "num": 8,
+   "text": "The LORD will fulfill His purpose for me. O LORD, Your loving devotion endures forever— do not abandon the works of Your hands."
+  }
+ ],
+ "context": {
+  "author": "The title names David. Psalms 138-145 are the last group of David’s psalms in the book.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I give You thanks with all my heart; before the gods I sing Your praises. I bow down toward Your holy temple and give thanks to Your name for Your loving devotion and Your faithfulness” (vv.1-2). “On the day I called, You answered me; You emboldened me and strengthened my soul” (v.3). David looks ahead to the nations: “All the kings of the earth will give You thanks, O LORD, when they hear the words of Your mouth” (v.4). “Though the LORD is on high, He attends to the lowly” (v.6). “If I walk in the midst of trouble, You preserve me” (v.7). “The LORD will fulfill His purpose for me. O LORD, Your loving devotion endures forever— do not abandon the works of Your hands” (v.8).",
+  "custom": "Praising God “before the gods” means praising Him openly in a world full of other gods and the kings who served them. Israelites far from Jerusalem prayed facing toward the Temple (1 Kings 8:29-30; Daniel 6:10).",
+  "timelineImmediate": "Psalm 139: O LORD, You have searched me and known me.",
+  "timelineBible": "Paul wrote, “He who began a good work in you will carry it on to completion until the day of Christ Jesus” (Philippians 1:6), like v.8. James writes, “God opposes the proud, but gives grace to the humble” (James 4:6), like v.6.",
+  "translation": [
+   {
+    "english": "bow down",
+    "greek": "שָׁחָה (shachah)",
+    "verseRef": "v.2",
+    "meaning": "To bow down, worship.",
+    "gloss": "Bow down",
+    "strongs": "H7812",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "lowly",
+    "greek": "שָׁפָל (shaphal)",
+    "verseRef": "v.6",
+    "meaning": "Low, humble.",
+    "gloss": "Lowly",
+    "strongs": "H8217",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fulfill",
+    "greek": "גָּמַר (gamar)",
+    "verseRef": "v.8",
+    "meaning": "To complete, bring to an end.",
+    "gloss": "Complete",
+    "strongs": "H1584",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Philippians 1:6",
+    "note": "He will carry it on to completion."
+   },
+   {
+    "ref": "James 4:6-10",
+    "note": "Grace to the humble."
+   },
+   {
+    "ref": "Revelation 21:24",
+    "note": "The kings of the earth bring their glory."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Kings 8:29-30",
+    "note": "Praying toward the Temple."
+   },
+   {
+    "ref": "Daniel 6:10",
+    "note": "Daniel prays toward Jerusalem."
+   },
+   {
+    "ref": "Isaiah 57:15",
+    "note": "The High One dwells with the lowly."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David thanks God wholeheartedly before every rival power, for He answered and strengthened him; the kings of the earth will praise Him, and He will complete His purpose for His servant.",
+   "settingLine": "Thanks sung before the gods.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s reign",
+     "t": "Victories over surrounding kings."
+    },
+    {
+     "h": "Exile prayers",
+     "t": "Facing toward Jerusalem."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Bowing toward the Temple",
+     "t": "Prayer directed to Zion."
+    },
+    {
+     "h": "Praise before kings",
+     "t": "Public witness."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Royal inscriptions",
+     "t": "Kings like Mesha of Moab praised their own gods for victory."
+    },
+    {
+     "h": "Temple orientation",
+     "t": "Synagogues were later built facing Jerusalem."
+    }
+   ],
+   "discussion": "“The LORD will fulfill His purpose for me” (v.8). What unfinished work in my life am I trusting God to complete?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Personal thanksgiving",
+   "audience": "God, before the gods and kings",
+   "refNotes": {
+    "1 Kings 8:29-30": "Toward the Temple",
+    "Daniel 6:10": "Daniel",
+    "Isaiah 57:15": "With the lowly"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Gives thanks"
+    },
+    {
+     "n": "The kings of the earth",
+     "d": "Will praise"
+    },
+    {
+     "n": "The lowly",
+     "d": "Seen by God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Thanks with all my heart"
+    },
+    {
+     "when": "v.4-6",
+     "label": "The kings will praise"
+    },
+    {
+     "when": "v.7-8",
+     "label": "He will fulfill His purpose"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I give You thanks with all my heart; before the gods I sing Your praises. I bow down toward Your holy temple and give thanks to Your name for Your loving devotion and Your faithfulness; You have exalted Your name and Your word above all else. On the day I called, You answered me; You emboldened me and strengthened my soul. Though the LORD is on high, He attends to the lowly; but the proud He knows from afar. If I walk in the midst of trouble, You preserve me from the anger of my foes; You extend Your hand, and Your right hand saves me. The LORD will fulfill His purpose for me. O LORD, Your loving devotion endures forever— do not abandon the works of Your hands.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “I bow down toward Your holy temple and give thanks to Your name” (Psalm 138:2).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

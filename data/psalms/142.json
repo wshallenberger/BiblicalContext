@@ -1,0 +1,212 @@
+{
+ "book": "Psalms",
+ "chapter": 142,
+ "title": "You Are My Refuge",
+ "translation": "BSB",
+ "superscription": "A Maskil of David, when he was in the cave. A prayer.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I cry aloud to the LORD; I lift my voice to the LORD for mercy."
+  },
+  {
+   "num": 2,
+   "text": "I pour out my complaint before Him; I reveal my trouble to Him."
+  },
+  {
+   "num": 3,
+   "text": "Although my spirit grows faint within me, You know my way. Along the path I travel they have hidden a snare for me."
+  },
+  {
+   "num": 4,
+   "text": "Look to my right and see; no one attends to me. There is no refuge for me; no one cares for my soul."
+  },
+  {
+   "num": 5,
+   "text": "I cry to You, O LORD: \"You are my refuge, my portion in the land of the living.\""
+  },
+  {
+   "num": 6,
+   "text": "Listen to my cry, for I am brought quite low. Rescue me from my pursuers, for they are too strong for me."
+  },
+  {
+   "num": 7,
+   "text": "Free my soul from prison, that I may praise Your name. The righteous will gather around me because of Your goodness to me."
+  }
+ ],
+ "context": {
+  "author": "The title says “A Maskil of David, when he was in the cave. A prayer.” The cave may be Adullam (1 Samuel 22:1) or the cave at En Gedi where he spared Saul (1 Samuel 24:3). Psalm 57 has the same setting.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "THE CAVE: ADULLAM OR EN GEDI",
+  "setting": "“I cry aloud to the LORD; I lift my voice to the LORD for mercy. I pour out my complaint before Him; I reveal my trouble to Him” (vv.1-2). David is hunted and alone: “Look to my right and see; no one attends to me. There is no refuge for me; no one cares for my soul” (v.4). So he turns to God: “You are my refuge, my portion in the land of the living” (v.5). “Free my soul from prison, that I may praise Your name. The righteous will gather around me because of Your goodness to me” (v.7).",
+  "custom": "The right hand was where a defender or advocate stood (Psalm 16:8; 109:31), so “no one attends to me” at the right means no one to help. The cave felt like a prison (v.7). At Adullam “all who were distressed or indebted or discontented rallied around him” (1 Samuel 22:2), as v.7 hopes.",
+  "timelineImmediate": "Psalm 143: Do not bring Your servant into judgment.",
+  "timelineBible": "Paul wrote at his trial, “no one stood with me, but everyone deserted me… But the Lord stood by me” (2 Timothy 4:16-17). Jesus invites, “Come to Me, all you who are weary and burdened” (Matthew 11:28).",
+  "translation": [
+   {
+    "english": "complaint",
+    "greek": "שִׂיחַ (siach)",
+    "verseRef": "v.2",
+    "meaning": "Complaint, meditation, musing.",
+    "gloss": "Complaint",
+    "strongs": "H7879",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "refuge",
+    "greek": "מָנוֹס (manos)",
+    "verseRef": "v.4",
+    "meaning": "Place of escape, refuge.",
+    "gloss": "Escape",
+    "strongs": "H4498",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "portion",
+    "greek": "חֵלֶק (cheleq)",
+    "verseRef": "v.5",
+    "meaning": "Portion, share, inheritance.",
+    "gloss": "Portion",
+    "strongs": "H2506",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "2 Timothy 4:16-18",
+    "note": "The Lord stood by me."
+   },
+   {
+    "ref": "Matthew 11:28-30",
+    "note": "Come to Me."
+   },
+   {
+    "ref": "Hebrews 13:5-6",
+    "note": "I will never leave you."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 22:1-2",
+    "note": "The cave of Adullam."
+   },
+   {
+    "ref": "1 Samuel 24:1-7",
+    "note": "The cave at En Gedi."
+   },
+   {
+    "ref": "Psalm 57:1-3",
+    "note": "In the shadow of Your wings."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.652,
+   "lng": 34.963,
+   "zoom": 6,
+   "placeName": "The cave of Adullam (traditional site)"
+  },
+  "overview": {
+   "summary": "Hiding in a cave with no one to help, David pours out his complaint to the LORD, his only refuge and portion, and asks to be freed so the righteous can gather round him in praise.",
+   "settingLine": "A fugitive’s prayer in the dark.",
+   "placeName": "The cave of Adullam (traditional site)",
+   "history": [
+    {
+     "h": "David in the cave",
+     "t": "Hiding from Saul."
+    },
+    {
+     "h": "His band at Adullam",
+     "t": "The distressed gathered to him."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The right hand",
+     "t": "Where an advocate stood."
+    },
+    {
+     "h": "Caves as refuge",
+     "t": "Common hiding places in the Judean hills."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Caves of the Shephelah",
+     "t": "Limestone caves around Adullam used as shelters and hideouts for millennia."
+    },
+    {
+     "h": "En Gedi caves",
+     "t": "Caves above the oasis, used in many periods."
+    }
+   ],
+   "discussion": "“no one cares for my soul” (v.4). When I feel alone, what does it mean to call God my portion?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Individual lament",
+   "audience": "God, from the cave",
+   "refNotes": {
+    "1 Samuel 22:1-2": "Adullam",
+    "1 Samuel 24:1-7": "En Gedi",
+    "Psalm 57:1-3": "The same cave"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Hiding in the cave"
+    },
+    {
+     "n": "His pursuers",
+     "d": "Too strong for him"
+    },
+    {
+     "n": "The righteous",
+     "d": "Will gather around him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "I pour out my complaint"
+    },
+    {
+     "when": "v.3-4",
+     "label": "No one cares"
+    },
+    {
+     "when": "v.5-7",
+     "label": "You are my refuge"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "The cave of Adullam (traditional site)",
+    "lat": 31.652,
+    "lng": 34.963,
+    "verses": [],
+    "slug": "adullam"
+   },
+   {
+    "name": "En Gedi (the wilderness strongholds)",
+    "lat": 31.4613,
+    "lng": 35.3917,
+    "verses": [],
+    "slug": "en-gedi"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I cry aloud to the LORD; I lift my voice to the LORD for mercy. I pour out my complaint before Him; I reveal my trouble to Him. Although my spirit grows faint within me, You know my way. Along the path I travel they have hidden a snare for me. Look to my right and see; no one attends to me. There is no refuge for me; no one cares for my soul. I cry to You, O LORD: You are my refuge, my portion in the land of the living. Listen to my cry, for I am brought quite low. Rescue me from my pursuers, for they are too strong for me. Free my soul from prison, that I may praise Your name. The righteous will gather around me because of Your goodness to me.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki_Israel_4281_Waterfall_in_Ein_Gedi.jpg",
+   "caption": "The waterfall at En Gedi, among the caves where David hid. “I cry aloud to the LORD; I lift my voice to the LORD for mercy” (Psalm 142:1).",
+   "credit": "PikiWiki Israel / Wikimedia Commons"
+  }
+ }
+}

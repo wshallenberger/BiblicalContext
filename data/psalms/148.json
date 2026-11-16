@@ -1,0 +1,232 @@
+{
+ "book": "Psalms",
+ "chapter": 148,
+ "title": "Praise Him, Sun and Moon",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! Praise the LORD from the heavens; praise Him in the highest places."
+  },
+  {
+   "num": 2,
+   "text": "Praise Him, all His angels; praise Him, all His heavenly hosts."
+  },
+  {
+   "num": 3,
+   "text": "Praise Him, O sun and moon; praise Him, all you shining stars."
+  },
+  {
+   "num": 4,
+   "text": "Praise Him, O highest heavens, and you waters above the skies."
+  },
+  {
+   "num": 5,
+   "text": "Let them praise the name of the LORD, for He gave the command and they were created."
+  },
+  {
+   "num": 6,
+   "text": "He established them forever and ever; He issued a decree that will never pass away."
+  },
+  {
+   "num": 7,
+   "text": "Praise the LORD from the earth, all great sea creatures and ocean depths,"
+  },
+  {
+   "num": 8,
+   "text": "lightning and hail, snow and clouds, powerful wind fulfilling His word,"
+  },
+  {
+   "num": 9,
+   "text": "mountains and all hills, fruit trees and all cedars,"
+  },
+  {
+   "num": 10,
+   "text": "wild animals and all cattle, crawling creatures and flying birds,"
+  },
+  {
+   "num": 11,
+   "text": "kings of the earth and all peoples, princes and all rulers of the earth,"
+  },
+  {
+   "num": 12,
+   "text": "young men and maidens, old and young together."
+  },
+  {
+   "num": 13,
+   "text": "Let them praise the name of the LORD, for His name alone is exalted; His splendor is above the earth and the heavens."
+  },
+  {
+   "num": 14,
+   "text": "He has raised up a horn for His people, the praise of all His saints, of Israel, a people near to Him. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Psalms 146-150 are the final Hallel: each begins and ends with “Hallelujah,” “Praise the LORD,” and together they close the whole book in praise. They are part of the daily morning prayers in the synagogue.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The whole universe is called to sing, from the top down. “Hallelujah! Praise the LORD from the heavens” (v.1): angels and heavenly hosts, sun and moon, shining stars and the highest heavens (vv.2-4). “Let them praise the name of the LORD, for He gave the command and they were created” (v.5). Then from the earth: “all great sea creatures and ocean depths, lightning and hail, snow and clouds… mountains and all hills, fruit trees and all cedars, wild animals and all cattle, crawling creatures and flying birds” (vv.7-10). Then people: “kings of the earth and all peoples… young men and maidens, old and young together” (vv.11-12). “for His name alone is exalted” (v.13). Last of all, God has raised up “a horn for His people… Israel, a people near to Him” (v.14).",
+  "custom": "The order follows creation in Genesis 1, from the heavens to the sea creatures and land animals to humanity. The “great sea creatures” (tanninim) were feared in the ancient world as monsters, but here they are part of the choir. A similar song, the Benedicite, ‘Bless the Lord, all works of the Lord,’ appears in the Greek additions to Daniel, and Francis of Assisi’s ‘Canticle of the Sun’ follows the same idea.",
+  "timelineImmediate": "Psalm 149: Sing to the LORD a new song in the assembly of the godly.",
+  "timelineBible": "John heard “every creature in heaven and on earth and under the earth and in the sea” (Revelation 5:13) praising the Lamb. Paul says creation itself waits eagerly to be set free (Romans 8:19-21). Jesus said that if the people were silent, “the very stones will cry out” (Luke 19:40).",
+  "translation": [
+   {
+    "english": "sea creatures",
+    "greek": "תַּנִּין (tannin)",
+    "verseRef": "v.7",
+    "meaning": "Sea monster, serpent, dragon.",
+    "gloss": "Sea creature",
+    "strongs": "H8577",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "horn",
+    "greek": "קֶרֶן (qeren)",
+    "verseRef": "v.14",
+    "meaning": "Horn; strength.",
+    "gloss": "Horn",
+    "strongs": "H7161",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "maidens",
+    "greek": "בְּתוּלָה (betulah)",
+    "verseRef": "v.12",
+    "meaning": "Young woman, maiden.",
+    "gloss": "Maiden",
+    "strongs": "H1330",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 5:11-14",
+    "note": "Every creature praises the Lamb."
+   },
+   {
+    "ref": "Romans 8:19-22",
+    "note": "Creation waits to be freed."
+   },
+   {
+    "ref": "Luke 19:37-40",
+    "note": "The stones will cry out."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 1:1-27",
+    "note": "The order of creation."
+   },
+   {
+    "ref": "Job 38:7",
+    "note": "The morning stars sang together."
+   },
+   {
+    "ref": "Isaiah 55:12",
+    "note": "The trees clap their hands."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Everything in heaven and on earth, from angels and stars to sea monsters, weather, trees, animals, kings and children, is called to praise the LORD, whose name alone is exalted.",
+   "settingLine": "A choir as wide as creation.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Creation",
+     "t": "Genesis 1."
+    },
+    {
+     "h": "The Benedicite",
+     "t": "An ancient canticle of all creation."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sea monsters",
+     "t": "Feared creatures of the deep."
+    },
+    {
+     "h": "Old and young",
+     "t": "Every generation praises."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ancient star maps",
+     "t": "Babylonian astronomical diaries recorded sun, moon and stars."
+    },
+    {
+     "h": "Ugaritic myths",
+     "t": "Tell of the god Baal battling sea monsters."
+    }
+   ],
+   "discussion": "Even hail and sea monsters praise God by being what He made them (vv.7-8). How can my ordinary work today be praise?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hallelujah psalm; creation’s choir",
+   "audience": "All creation",
+   "refNotes": {
+    "Genesis 1:1-27": "Creation",
+    "Job 38:7": "Stars singing",
+    "Isaiah 55:12": "Nature’s praise"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The angels",
+     "d": "Praise from heaven"
+    },
+    {
+     "n": "Kings and peoples",
+     "d": "Praise from earth"
+    },
+    {
+     "n": "Israel",
+     "d": "A people near to Him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Praise from the heavens"
+    },
+    {
+     "when": "v.7-12",
+     "label": "Praise from the earth"
+    },
+    {
+     "when": "v.13-14",
+     "label": "His name alone is exalted"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! Praise the LORD from the heavens; praise Him in the highest places. Praise Him, all His angels; praise Him, all His heavenly hosts. Praise Him, O sun and moon; praise Him, all you shining stars. Let them praise the name of the LORD, for He gave the command and they were created. Praise the LORD from the earth, all great sea creatures and ocean depths, mountains and all hills, fruit trees and all cedars, kings of the earth and all peoples, princes and all rulers of the earth, young men and maidens, old and young together. Let them praise the name of the LORD, for His name alone is exalted; His splendor is above the earth and the heavens.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cedars01(js).jpg",
+   "caption": "Ancient cedars of Lebanon. “mountains and all hills, fruit trees and all cedars” (Psalm 148:9).",
+   "credit": "Jerzy Strzelecki / Wikimedia Commons"
+  }
+ }
+}

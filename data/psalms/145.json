@@ -1,0 +1,261 @@
+{
+ "book": "Psalms",
+ "chapter": 145,
+ "title": "Great Is the LORD and Greatly to Be Praised",
+ "translation": "BSB",
+ "superscription": "A Psalm of praise. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I will exalt You, my God and King; I will bless Your name forever and ever."
+  },
+  {
+   "num": 2,
+   "text": "Every day I will bless You, and I will praise Your name forever and ever."
+  },
+  {
+   "num": 3,
+   "text": "Great is the LORD and greatly to be praised; His greatness is unsearchable."
+  },
+  {
+   "num": 4,
+   "text": "One generation will commend Your works to the next, and will proclaim Your mighty acts—"
+  },
+  {
+   "num": 5,
+   "text": "the glorious splendor of Your majesty. And I will meditate on Your wondrous works."
+  },
+  {
+   "num": 6,
+   "text": "They will proclaim the power of Your awesome deeds, and I will declare Your greatness."
+  },
+  {
+   "num": 7,
+   "text": "They will extol the fame of Your abundant goodness and sing joyfully of Your righteousness."
+  },
+  {
+   "num": 8,
+   "text": "The LORD is gracious and compassionate, slow to anger and abounding in loving devotion."
+  },
+  {
+   "num": 9,
+   "text": "The LORD is good to all; His compassion rests on all He has made."
+  },
+  {
+   "num": 10,
+   "text": "All You have made will give You thanks, O LORD, and Your saints will bless You."
+  },
+  {
+   "num": 11,
+   "text": "They will tell of the glory of Your kingdom and speak of Your might,"
+  },
+  {
+   "num": 12,
+   "text": "to make known to men Your mighty acts and the glorious splendor of Your kingdom."
+  },
+  {
+   "num": 13,
+   "text": "Your kingdom is an everlasting kingdom, and Your dominion endures through all generations. The LORD is faithful in all His words and kind in all His actions."
+  },
+  {
+   "num": 14,
+   "text": "The LORD upholds all who fall and lifts up all who are bowed down."
+  },
+  {
+   "num": 15,
+   "text": "The eyes of all look to You, and You give them their food in season."
+  },
+  {
+   "num": 16,
+   "text": "You open Your hand and satisfy the desire of every living thing."
+  },
+  {
+   "num": 17,
+   "text": "The LORD is righteous in all His ways and kind in all His deeds."
+  },
+  {
+   "num": 18,
+   "text": "The LORD is near to all who call on Him, to all who call out to Him in truth."
+  },
+  {
+   "num": 19,
+   "text": "He fulfills the desires of those who fear Him; He hears their cry and saves them."
+  },
+  {
+   "num": 20,
+   "text": "The LORD preserves all who love Him, but all the wicked He will destroy."
+  },
+  {
+   "num": 21,
+   "text": "My mouth will declare the praise of the LORD; let every creature bless His holy name forever and ever."
+  }
+ ],
+ "context": {
+  "author": "The title says “A Psalm of praise. Of David,” the only psalm titled tehillah, “praise,” the word that gives the book its Hebrew name, Tehillim. It is an alphabet poem; the line for the letter nun is missing in the standard Hebrew text, but the Dead Sea Psalms Scroll and the Greek have it, and it appears as v.13b.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I will exalt You, my God and King; I will bless Your name forever and ever. Every day I will bless You” (vv.1-2). “Great is the LORD and greatly to be praised; His greatness is unsearchable” (v.3). “One generation will commend Your works to the next” (v.4). David repeats God’s name to Moses: “The LORD is gracious and compassionate, slow to anger and abounding in loving devotion. The LORD is good to all; His compassion rests on all He has made” (vv.8-9). “Your kingdom is an everlasting kingdom” (v.13). He cares for the weak: “The LORD upholds all who fall and lifts up all who are bowed down. The eyes of all look to You, and You give them their food in season. You open Your hand and satisfy the desire of every living thing” (vv.14-16). “The LORD is near to all who call on Him” (v.18). “let every creature bless His holy name forever and ever” (v.21).",
+  "custom": "The Talmud says that whoever says Psalm 145 three times a day has a share in the world to come (Berakhot 4b), and it is still prayed three times daily in the synagogue. Verse 16 is a traditional grace before meals. The verse for the missing letter reads in the Psalms Scroll from Qumran, ‘God is faithful in His words and gracious in all His deeds.’",
+  "timelineImmediate": "Psalm 146 begins the five Hallelujah psalms that close the book.",
+  "timelineBible": "Jesus taught His disciples to pray, “Your kingdom come” (Matthew 6:10), and spoke of the Father who feeds the birds (Matthew 6:26). Paul says, “The Lord is near” (Philippians 4:5), and James, “Draw near to God, and He will draw near to you” (James 4:8).",
+  "translation": [
+   {
+    "english": "unsearchable",
+    "greek": "חֵקֶר (cheqer)",
+    "verseRef": "v.3",
+    "meaning": "Searching; what can be searched out.",
+    "gloss": "Search",
+    "strongs": "H2714",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "kingdom",
+    "greek": "מַלְכוּת (malkut)",
+    "verseRef": "v.13",
+    "meaning": "Kingdom, royal rule.",
+    "gloss": "Kingdom",
+    "strongs": "H4438",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "near",
+    "greek": "קָרֹב (qarov)",
+    "verseRef": "v.18",
+    "meaning": "Near, close.",
+    "gloss": "Near",
+    "strongs": "H7138",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 6:9-13",
+    "note": "Your kingdom come."
+   },
+   {
+    "ref": "Philippians 4:4-6",
+    "note": "The Lord is near."
+   },
+   {
+    "ref": "Revelation 11:15",
+    "note": "He will reign forever and ever."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 34:6",
+    "note": "Gracious and compassionate."
+   },
+   {
+    "ref": "Daniel 4:3",
+    "note": "His kingdom is an everlasting kingdom."
+   },
+   {
+    "ref": "Psalm 104:27-28",
+    "note": "All creatures look to You."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David’s alphabet hymn praises the great King whose kingdom is everlasting, who is gracious and good to all, upholds the fallen, feeds every creature and is near to all who call on Him.",
+   "settingLine": "Praise from aleph to taw, every day.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s praise",
+     "t": "The last psalm with his name."
+    },
+    {
+     "h": "Synagogue prayer",
+     "t": "Said three times a day."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Grace at meals",
+     "t": "v.16 before eating."
+    },
+    {
+     "h": "Teaching the next generation",
+     "t": "Passing on God’s works."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Great Psalms Scroll",
+     "t": "11Q5 preserves the missing nun line and adds a refrain after every verse."
+    },
+    {
+     "h": "Synagogue liturgy",
+     "t": "Medieval prayer books with Ashrei, Psalm 145."
+    }
+   ],
+   "discussion": "“You open Your hand and satisfy the desire of every living thing” (v.16). What has God’s open hand given me today?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Acrostic hymn of praise",
+   "audience": "God the King, and every generation",
+   "refNotes": {
+    "Exodus 34:6": "God’s name",
+    "Daniel 4:3": "An everlasting kingdom",
+    "Psalm 104:27-28": "Food in season"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Praises the King"
+    },
+    {
+     "n": "Every generation",
+     "d": "Tells the next"
+    },
+    {
+     "n": "All who fall",
+     "d": "Upheld by God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Great is the LORD"
+    },
+    {
+     "when": "v.8-13",
+     "label": "Gracious King of an everlasting kingdom"
+    },
+    {
+     "when": "v.14-21",
+     "label": "Near to all who call"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I will exalt You, my God and King; I will bless Your name forever and ever. Great is the LORD and greatly to be praised; His greatness is unsearchable. One generation will commend Your works to the next, and will proclaim Your mighty acts— The LORD is gracious and compassionate, slow to anger and abounding in loving devotion. The LORD is good to all; His compassion rests on all He has made. Your kingdom is an everlasting kingdom, and Your dominion endures through all generations. The LORD is faithful in all His words and kind in all His actions. The LORD upholds all who fall and lifts up all who are bowed down. The eyes of all look to You, and You give them their food in season. You open Your hand and satisfy the desire of every living thing. The LORD is near to all who call on Him, to all who call out to Him in truth. My mouth will declare the praise of the LORD; let every creature bless His holy name forever and ever.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives. “The eyes of all look to You, and You give them their food in season” (Psalm 145:15).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

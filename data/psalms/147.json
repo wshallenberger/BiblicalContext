@@ -1,0 +1,256 @@
+{
+ "book": "Psalms",
+ "chapter": 147,
+ "title": "He Heals the Brokenhearted",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! How good it is to sing praises to our God, how pleasant and lovely to praise Him!"
+  },
+  {
+   "num": 2,
+   "text": "The LORD builds up Jerusalem; He gathers the exiles of Israel."
+  },
+  {
+   "num": 3,
+   "text": "He heals the brokenhearted and binds up their wounds."
+  },
+  {
+   "num": 4,
+   "text": "He determines the number of the stars; He calls them each by name."
+  },
+  {
+   "num": 5,
+   "text": "Great is our Lord, and mighty in power; His understanding has no limit."
+  },
+  {
+   "num": 6,
+   "text": "The LORD sustains the humble, but casts the wicked to the ground."
+  },
+  {
+   "num": 7,
+   "text": "Sing to the LORD with thanksgiving; make music on the harp to our God,"
+  },
+  {
+   "num": 8,
+   "text": "who covers the sky with clouds, who prepares rain for the earth, who makes grass to grow on the hills."
+  },
+  {
+   "num": 9,
+   "text": "He provides food for the animals, and for the young ravens when they call."
+  },
+  {
+   "num": 10,
+   "text": "He does not delight in the strength of the horse; He takes no pleasure in the legpower of the man."
+  },
+  {
+   "num": 11,
+   "text": "The LORD is pleased with those who fear Him, who hope in His loving devotion."
+  },
+  {
+   "num": 12,
+   "text": "Exalt the LORD, O Jerusalem; praise your God, O Zion!"
+  },
+  {
+   "num": 13,
+   "text": "For He strengthens the bars of your gates and blesses the children within you."
+  },
+  {
+   "num": 14,
+   "text": "He makes peace at your borders; He fills you with the finest wheat."
+  },
+  {
+   "num": 15,
+   "text": "He sends forth His command to the earth; His word runs swiftly."
+  },
+  {
+   "num": 16,
+   "text": "He spreads the snow like wool; He scatters the frost like ashes;"
+  },
+  {
+   "num": 17,
+   "text": "He casts forth His hail like pebbles. Who can withstand His icy blast?"
+  },
+  {
+   "num": 18,
+   "text": "He sends forth His word and melts them; He unleashes His winds, and the waters flow."
+  },
+  {
+   "num": 19,
+   "text": "He declares His word to Jacob, His statutes and judgments to Israel."
+  },
+  {
+   "num": 20,
+   "text": "He has done this for no other nation; they do not know His judgments. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Psalms 146-150 are the final Hallel: each begins and ends with “Hallelujah,” “Praise the LORD,” and together they close the whole book in praise. They are part of the daily morning prayers in the synagogue.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hallelujah! How good it is to sing praises to our God” (v.1). “The LORD builds up Jerusalem; He gathers the exiles of Israel. He heals the brokenhearted and binds up their wounds” (vv.2-3). The same God “determines the number of the stars; He calls them each by name” (v.4). He sends rain, grows grass on the hills and feeds the animals “and… the young ravens when they call” (vv.8-9). He is not impressed by military power: “He does not delight in the strength of the horse” (v.10); “The LORD is pleased with those who fear Him” (v.11). He strengthens Jerusalem’s gates and gives peace (vv.12-14). His word runs swiftly: “He spreads the snow like wool; He scatters the frost like ashes” (v.16), then melts it (v.18). Above all, “He declares His word to Jacob… He has done this for no other nation” (vv.19-20).",
+  "custom": "The psalm fits the time after the exile, when Jerusalem’s walls and gates were rebuilt under Nehemiah (Nehemiah 3; 12:27-43). Snow falls in Jerusalem in some winters, though it rarely lasts long. Ravens were unclean birds (Leviticus 11:15), yet God feeds even their chicks.",
+  "timelineImmediate": "Psalm 148 calls all creation, from angels to sea creatures, to praise the LORD.",
+  "timelineBible": "Jesus said, “Consider the ravens: They do not sow or reap… yet God feeds them” (Luke 12:24). He came, as Isaiah said, “to bind up the brokenhearted” (Isaiah 61:1; Luke 4:18). Paul says the Jews were “entrusted with the very words of God” (Romans 3:2), like vv.19-20.",
+  "translation": [
+   {
+    "english": "brokenhearted",
+    "greek": "שָׁבַר (shavar)",
+    "verseRef": "v.3",
+    "meaning": "To break, shatter.",
+    "gloss": "Break",
+    "strongs": "H7665",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "stars",
+    "greek": "כּוֹכָב (kokhav)",
+    "verseRef": "v.4",
+    "meaning": "Star.",
+    "gloss": "Star",
+    "strongs": "H3556",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "snow",
+    "greek": "שֶׁלֶג (sheleg)",
+    "verseRef": "v.16",
+    "meaning": "Snow.",
+    "gloss": "Snow",
+    "strongs": "H7950",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 12:22-24",
+    "note": "Consider the ravens."
+   },
+   {
+    "ref": "Luke 4:18",
+    "note": "To heal the brokenhearted."
+   },
+   {
+    "ref": "Romans 3:1-2",
+    "note": "Entrusted with the words of God."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Isaiah 40:26",
+    "note": "He calls the stars by name."
+   },
+   {
+    "ref": "Nehemiah 12:27-43",
+    "note": "Dedicating Jerusalem’s wall."
+   },
+   {
+    "ref": "Job 38:22-30",
+    "note": "The storehouses of the snow."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Praise the God who rebuilds Jerusalem, gathers exiles and heals the brokenhearted, who numbers the stars, feeds the ravens, sends snow and thaw, and has given His word to Israel.",
+   "settingLine": "The walls rebuilt, the exiles home.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Nehemiah’s walls",
+     "t": "Rebuilt in 445 BC."
+    },
+    {
+     "h": "The return",
+     "t": "Exiles gathered."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Winter in Jerusalem",
+     "t": "Snow, frost and hail."
+    },
+    {
+     "h": "Horses in war",
+     "t": "The pride of armies."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Nehemiah’s wall",
+     "t": "Stretches of a Persian-period wall on the City of David have been linked with Nehemiah; the dating is debated."
+    },
+    {
+     "h": "Astronomy tablets",
+     "t": "Babylonian star catalogs list and name the stars."
+    }
+   ],
+   "discussion": "The God who names every star “heals the brokenhearted” (vv.3-4). What broken place in me needs His care today?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hallelujah psalm",
+   "audience": "Jerusalem and her people",
+   "refNotes": {
+    "Isaiah 40:26": "Stars named",
+    "Nehemiah 12:27-43": "Walls rebuilt",
+    "Job 38:22-30": "Snow and frost"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The exiles",
+     "d": "Gathered home"
+    },
+    {
+     "n": "The brokenhearted",
+     "d": "Healed"
+    },
+    {
+     "n": "Jacob",
+     "d": "Given His word"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "He builds and heals"
+    },
+    {
+     "when": "v.7-11",
+     "label": "He provides"
+    },
+    {
+     "when": "v.12-20",
+     "label": "His word to Jerusalem"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! How good it is to sing praises to our God, how pleasant and lovely to praise Him! The LORD builds up Jerusalem; He gathers the exiles of Israel. He heals the brokenhearted and binds up their wounds. He determines the number of the stars; He calls them each by name. Great is our Lord, and mighty in power; His understanding has no limit. who covers the sky with clouds, who prepares rain for the earth, who makes grass to grow on the hills. The LORD is pleased with those who fear Him, who hope in His loving devotion. He sends forth His command to the earth; His word runs swiftly. He spreads the snow like wool; He scatters the frost like ashes; He declares His word to Jacob, His statutes and judgments to Israel. He has done this for no other nation; they do not know His judgments. Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermonsnow.jpg",
+   "caption": "Snow on Mount Hermon. “He spreads the snow like wool; He scatters the frost like ashes” (Psalm 147:16).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

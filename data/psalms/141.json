@@ -1,0 +1,217 @@
+{
+ "book": "Psalms",
+ "chapter": 141,
+ "title": "My Prayer Like Incense",
+ "translation": "BSB",
+ "superscription": "A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I call upon You, O LORD; come quickly to me. Hear my voice when I call to You."
+  },
+  {
+   "num": 2,
+   "text": "May my prayer be set before You like incense, my uplifted hands like the evening offering."
+  },
+  {
+   "num": 3,
+   "text": "Set a guard, O LORD, over my mouth; keep watch at the door of my lips."
+  },
+  {
+   "num": 4,
+   "text": "Do not let my heart be drawn to any evil thing or take part in works of wickedness with men who do iniquity; let me not feast on their delicacies."
+  },
+  {
+   "num": 5,
+   "text": "Let the righteous man strike me; let his rebuke be an act of loving devotion. It is oil for my head; let me not refuse it. For my prayer is ever against the deeds of the wicked."
+  },
+  {
+   "num": 6,
+   "text": "When their rulers are thrown down from the cliffs, the people will listen to my words, for they are pleasant."
+  },
+  {
+   "num": 7,
+   "text": "As when one plows and breaks up the soil, so our bones have been scattered at the mouth of Sheol."
+  },
+  {
+   "num": 8,
+   "text": "But my eyes are fixed on You, O GOD the Lord. In You I seek refuge; do not leave my soul defenseless."
+  },
+  {
+   "num": 9,
+   "text": "Keep me from the snares they have laid for me, and from the lures of evildoers."
+  },
+  {
+   "num": 10,
+   "text": "Let the wicked fall into their own nets, while I pass by in safety."
+  }
+ ],
+ "context": {
+  "author": "The title names David. Psalms 138-145 are the last group of David’s psalms in the book.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I call upon You, O LORD; come quickly to me” (v.1). “May my prayer be set before You like incense, my uplifted hands like the evening offering” (v.2). David prays about his own speech and desires: “Set a guard, O LORD, over my mouth; keep watch at the door of my lips. Do not let my heart be drawn to any evil thing… let me not feast on their delicacies” (vv.3-4). He welcomes correction: “Let the righteous man strike me; let his rebuke be an act of loving devotion. It is oil for my head; let me not refuse it” (v.5). “But my eyes are fixed on You, O GOD the Lord. In You I seek refuge” (v.8).",
+  "custom": "Incense was burned on the golden altar every morning and evening (Exodus 30:7-8), and the evening offering was made at twilight. Its rising smoke was a picture of prayer going up to God. The Eastern Orthodox Church sings this psalm at evening prayer while incense is offered.",
+  "timelineImmediate": "Psalm 142, “when he was in the cave”: You are my refuge.",
+  "timelineBible": "Revelation pictures golden bowls “full of incense, which are the prayers of the saints” (Revelation 5:8; 8:3-4). James calls the tongue a fire that needs taming (James 3:5-10). Hebrews says discipline “yields a harvest of righteousness and peace” (Hebrews 12:11).",
+  "translation": [
+   {
+    "english": "incense",
+    "greek": "קְטֹרֶת (qetoreth)",
+    "verseRef": "v.2",
+    "meaning": "Incense, the smoke of sacrifice.",
+    "gloss": "Incense",
+    "strongs": "H7004",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "guard",
+    "greek": "שׇׁמְרָה (shomrah)",
+    "verseRef": "v.3",
+    "meaning": "Guard, watch.",
+    "gloss": "Guard",
+    "strongs": "H8108",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "rebuke",
+    "greek": "יָכַח (yakach)",
+    "verseRef": "v.5",
+    "meaning": "To rebuke, correct, reason with.",
+    "gloss": "Rebuke",
+    "strongs": "H3198",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 5:8",
+    "note": "Incense, the prayers of the saints."
+   },
+   {
+    "ref": "James 3:2-10",
+    "note": "Taming the tongue."
+   },
+   {
+    "ref": "Hebrews 12:10-11",
+    "note": "Discipline yields righteousness."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 30:7-8",
+    "note": "Incense morning and evening."
+   },
+   {
+    "ref": "Proverbs 27:6",
+    "note": "Faithful are the wounds of a friend."
+   },
+   {
+    "ref": "Daniel 9:21",
+    "note": "At the time of the evening offering."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "An evening prayer: David asks that his prayer rise like incense, that God guard his mouth and heart from evil, and that he welcome the rebuke of the righteous while trusting God for refuge.",
+   "settingLine": "Evening prayer rising like smoke.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Temple incense",
+     "t": "Offered twice daily."
+    },
+    {
+     "h": "Orthodox vespers",
+     "t": "This psalm sung with incense."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Evening offering",
+     "t": "At twilight."
+    },
+    {
+     "h": "Lifted hands",
+     "t": "The posture of prayer."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Incense altars",
+     "t": "Small stone incense altars found at Arad and Megiddo."
+    },
+    {
+     "h": "Incense routes",
+     "t": "Frankincense came by caravan from southern Arabia."
+    }
+   ],
+   "discussion": "“Set a guard, O LORD, over my mouth” (v.3). What words do I most need God to guard today?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Evening prayer",
+   "audience": "God, at the evening offering",
+   "refNotes": {
+    "Exodus 30:7-8": "Daily incense",
+    "Proverbs 27:6": "A friend’s wounds",
+    "Daniel 9:21": "Evening prayer"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Prays at evening"
+    },
+    {
+     "n": "The righteous man",
+     "d": "Rebukes in love"
+    },
+    {
+     "n": "The wicked",
+     "d": "Set snares"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Prayer like incense"
+    },
+    {
+     "when": "v.3-5",
+     "label": "Guard my mouth and heart"
+    },
+    {
+     "when": "v.6-10",
+     "label": "My eyes are on You"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I call upon You, O LORD; come quickly to me. Hear my voice when I call to You. May my prayer be set before You like incense, my uplifted hands like the evening offering. Set a guard, O LORD, over my mouth; keep watch at the door of my lips. Do not let my heart be drawn to any evil thing or take part in works of wickedness with men who do iniquity; let me not feast on their delicacies. Let the righteous man strike me; let his rebuke be an act of loving devotion. It is oil for my head; let me not refuse it. For my prayer is ever against the deeds of the wicked. But my eyes are fixed on You, O GOD the Lord. In You I seek refuge; do not leave my soul defenseless.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem, where incense was offered morning and evening. “May my prayer be set before You like incense” (Psalm 141:2).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

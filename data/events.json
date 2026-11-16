@@ -16273,5 +16273,258 @@
    "ps_steps",
    "ps_judea"
   ]
+ },
+ {
+  "i": 658,
+  "t": "Streams in the Negev (Psalm 126)",
+  "p": "The Negev (Ein Avdat)",
+  "la": 30.826,
+  "ln": 34.767,
+  "r": [
+   [
+    "psalms",
+    126,
+    1,
+    126,
+    6
+   ]
+  ],
+  "rs": "Ps126:1-6",
+  "s": "\"When the LORD restored the captives of Zion, we were like dreamers.\" \"Restore our captives, O LORD, like streams in the Negev.\" \"Those who sow in tears will reap with shouts of joy.\"",
+  "n": "A song of the returned exiles. The pin is in the Negev, whose dry wadis fill suddenly in the winter rains, the picture of v.4.",
+  "im": [
+   "ps_negev",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 659,
+  "t": "Unless the LORD builds the house (Psalms 127-128)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    127,
+    1,
+    128,
+    6
+   ]
+  ],
+  "rs": "Ps127:1-128:6",
+  "s": "\"Unless the LORD builds the house, its builders labor in vain.\" \"Children are indeed a heritage from the LORD.\" \"Your sons like olive shoots sitting around your table.\"",
+  "n": "Psalm 127 is titled “Of Solomon.” Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_cityofdavid",
+   "ps_olives"
+  ]
+ },
+ {
+  "i": 660,
+  "t": "Out of the depths (Psalms 129-131)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    129,
+    1,
+    131,
+    3
+   ]
+  ],
+  "rs": "Ps129:1-131:3",
+  "s": "\"Out of the depths I cry to You, O LORD!\" \"But with You there is forgiveness, so that You may be feared.\" \"Surely I have stilled and quieted my soul.\"",
+  "n": "Psalm 130 is one of the seven penitential psalms. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_tunnel",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 661,
+  "t": "The ark comes to Zion (Psalm 132)",
+  "p": "Kiriath-jearim, the fields of Jaar",
+  "la": 31.807,
+  "ln": 35.103,
+  "r": [
+   [
+    "psalms",
+    132,
+    1,
+    132,
+    18
+   ]
+  ],
+  "rs": "Ps132:1-18",
+  "s": "\"We heard that the ark was in Ephrathah; we found it in the fields of Jaar.\" \"Arise, O LORD, to Your resting place, You and the ark of Your strength.\" \"For the LORD has chosen Zion; He has desired it for His home.\"",
+  "n": "The ark stayed twenty years at Kiriath-jearim before David brought it to Jerusalem (1 Samuel 7:1-2; 2 Samuel 6). The pin is at Kiriath-jearim.",
+  "im": [
+   "ps_templemount",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 662,
+  "t": "The dew of Hermon; blessing by night (Psalms 133-134)",
+  "p": "Jerusalem, the Temple courts",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    133,
+    1,
+    134,
+    3
+   ]
+  ],
+  "rs": "Ps133:1-134:3",
+  "s": "\"Behold, how good and pleasant it is when brothers live together in harmony!\" \"It is like the dew of Hermon falling on the mountains of Zion.\" \"May the LORD, the Maker of heaven and earth, bless you from Zion.\"",
+  "n": "Psalm 134 is the last of the fifteen Songs of Ascents. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_hermon",
+   "ps_steps"
+  ]
+ },
+ {
+  "i": 663,
+  "t": "His loving devotion endures forever (Psalms 135-136)",
+  "p": "Jerusalem, the Temple courts",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    135,
+    1,
+    136,
+    26
+   ]
+  ],
+  "rs": "Ps135:1-136:26",
+  "s": "\"Hallelujah! Praise the name of the LORD.\" \"For the LORD has chosen Jacob as His own, Israel as His treasured possession.\" \"Give thanks to the LORD, for He is good. His loving devotion endures forever.\"",
+  "n": "Psalm 136, the Great Hallel, has the same response in all 26 verses. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_moses",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 664,
+  "t": "By the rivers of Babylon (Psalm 137)",
+  "p": "Babylon on the Euphrates",
+  "la": 32.536,
+  "ln": 44.421,
+  "r": [
+   [
+    "psalms",
+    137,
+    1,
+    137,
+    9
+   ]
+  ],
+  "rs": "Ps137:1-9",
+  "s": "\"By the rivers of Babylon we sat and wept when we remembered Zion.\" \"How can we sing a song of the LORD in a foreign land?\" \"If I forget you, O Jerusalem, may my right hand cease to function.\"",
+  "n": "The exiles were taken to Babylon in 597 and 586 BC. The pin is at the ruins of Babylon in Iraq.",
+  "im": [
+   "ps_exile",
+   "ps_ishtar"
+  ]
+ },
+ {
+  "i": 665,
+  "t": "You have searched me and known me (Psalms 138-139)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    138,
+    1,
+    139,
+    24
+   ]
+  ],
+  "rs": "Ps138:1-139:24",
+  "s": "\"O LORD, You have searched me and known me.\" \"I praise You, for I am fearfully and wonderfully made.\" \"Search me, O God, and know my heart.\"",
+  "n": "Psalms 138-145 are the last group of David’s psalms. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_sinai"
+  ]
+ },
+ {
+  "i": 666,
+  "t": "A prayer from the cave (Psalms 140-142)",
+  "p": "The cave of Adullam (traditional site)",
+  "la": 31.652,
+  "ln": 34.963,
+  "r": [
+   [
+    "psalms",
+    140,
+    1,
+    142,
+    7
+   ]
+  ],
+  "rs": "Ps140:1-142:7",
+  "s": "\"May my prayer be set before You like incense, my uplifted hands like the evening offering.\" \"Set a guard, O LORD, over my mouth.\" \"You are my refuge, my portion in the land of the living.\"",
+  "n": "Psalm 142 is titled for David “when he was in the cave,” perhaps Adullam or En Gedi; the pin is at the traditional cave of Adullam.",
+  "im": [
+   "ps_engedi",
+   "ps_harp"
+  ]
+ },
+ {
+  "i": 667,
+  "t": "Teach me; my Rock; great is the LORD (Psalms 143-145)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    143,
+    1,
+    145,
+    21
+   ]
+  ],
+  "rs": "Ps143:1-145:21",
+  "s": "\"Teach me to do Your will.\" \"Blessed be the LORD, my Rock.\" \"Great is the LORD and greatly to be praised.\"",
+  "n": "Psalm 145 is the last psalm with David’s name and the last alphabet psalm. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_judea",
+   "ps_masada"
+  ]
+ },
+ {
+  "i": 668,
+  "t": "Let everything that has breath praise the LORD (Psalms 146-150)",
+  "p": "Jerusalem, the sanctuary",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    146,
+    1,
+    150,
+    6
+   ]
+  ],
+  "rs": "Ps146:1-150:6",
+  "s": "\"Put not your trust in princes.\" \"He heals the brokenhearted and binds up their wounds.\" \"Let everything that has breath praise the LORD!\"",
+  "n": "The five closing Hallelujah psalms end the book in praise. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_shofar",
+   "ps_cedars"
+  ]
  }
 ]

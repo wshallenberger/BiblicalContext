@@ -1,0 +1,200 @@
+{
+ "book": "Psalms",
+ "chapter": 133,
+ "title": "How Good and Pleasant When Brothers Dwell Together",
+ "translation": "BSB",
+ "superscription": "A song of ascents. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Behold, how good and pleasant it is when brothers live together in harmony!"
+  },
+  {
+   "num": 2,
+   "text": "It is like fine oil on the head, running down on the beard, running down Aaron's beard over the collar of his robes."
+  },
+  {
+   "num": 3,
+   "text": "It is like the dew of Hermon falling on the mountains of Zion. For there the LORD has bestowed the blessing of life forevermore."
+  }
+ ],
+ "context": {
+  "author": "The title says “A song of ascents. Of David.” They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Behold, how good and pleasant it is when brothers live together in harmony!” (v.1). Two pictures describe it. First, the anointing of the high priest: “It is like fine oil on the head, running down on the beard, running down Aaron’s beard over the collar of his robes” (v.2). Second, the dew of the north: “It is like the dew of Hermon falling on the mountains of Zion” (v.3). Both flow downward from above, as gifts. “For there the LORD has bestowed the blessing of life forevermore” (v.3).",
+  "custom": "Aaron was anointed by pouring holy oil on his head (Exodus 29:7; Leviticus 8:12), so generously that it ran down. Mount Hermon, often snow-capped, receives heavy dew that waters the north. At the pilgrim feasts tribes and families from all over the land camped together in Jerusalem, a living picture of brothers dwelling together.",
+  "timelineImmediate": "Psalm 134, the last Song of Ascents, blesses the servants who keep the night watch in the Temple.",
+  "timelineBible": "Jesus prayed that “all of them may be one” (John 17:21). The first believers in Jerusalem were “one in heart and soul” (Acts 4:32). Paul urges believers “to preserve the unity of the Spirit through the bond of peace” (Ephesians 4:3).",
+  "translation": [
+   {
+    "english": "harmony",
+    "greek": "יַחַד (yachad)",
+    "verseRef": "v.1",
+    "meaning": "Together, in unity.",
+    "gloss": "Together",
+    "strongs": "H3162",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "oil",
+    "greek": "שֶׁמֶן (shemen)",
+    "verseRef": "v.2",
+    "meaning": "Oil, olive oil.",
+    "gloss": "Oil",
+    "strongs": "H8081",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "dew",
+    "greek": "טַל (tal)",
+    "verseRef": "v.3",
+    "meaning": "Dew, night mist.",
+    "gloss": "Dew",
+    "strongs": "H2919",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 17:20-23",
+    "note": "That they may all be one."
+   },
+   {
+    "ref": "Acts 4:32-35",
+    "note": "One in heart and soul."
+   },
+   {
+    "ref": "Ephesians 4:1-6",
+    "note": "The unity of the Spirit."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 29:7",
+    "note": "Anointing Aaron."
+   },
+   {
+    "ref": "Genesis 13:8",
+    "note": "Let there be no strife, for we are brothers."
+   },
+   {
+    "ref": "Hosea 14:5",
+    "note": "I will be like the dew to Israel."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Unity among God’s people is as precious as the anointing oil on Aaron’s beard and as refreshing as Hermon’s dew on Zion, for there the LORD commands His blessing.",
+   "settingLine": "Pilgrims from every tribe together in Zion.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Aaron’s anointing",
+     "t": "The first high priest."
+    },
+    {
+     "h": "Pilgrim feasts",
+     "t": "The tribes gathered."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Anointing with oil",
+     "t": "Poured generously on the head."
+    },
+    {
+     "h": "Mountain dew",
+     "t": "Water for the summer months."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Oil juglets",
+     "t": "Small Iron Age flasks for perfumed oil."
+    },
+    {
+     "h": "Mount Hermon shrines",
+     "t": "Ancient temples on Hermon’s slopes, such as at Banias."
+    }
+   ],
+   "discussion": "Unity is a gift that flows down from above (vv.2-3). Where is God calling me to keep or restore harmony with a brother or sister?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Song of ascents; wisdom psalm",
+   "audience": "God’s gathered people",
+   "refNotes": {
+    "Exodus 29:7": "Anointing oil",
+    "Genesis 13:8": "Abram and Lot",
+    "Hosea 14:5": "Dew"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Brothers",
+     "d": "Living in harmony"
+    },
+    {
+     "n": "Aaron",
+     "d": "Anointed high priest"
+    },
+    {
+     "n": "The LORD",
+     "d": "Bestows life"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "How good and pleasant"
+    },
+    {
+     "when": "v.2",
+     "label": "Like oil"
+    },
+    {
+     "when": "v.3",
+     "label": "Like dew"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Mount Hermon (Sirion)",
+    "lat": 33.416,
+    "lng": 35.857,
+    "verses": [
+     3
+    ],
+    "slug": "mount-hermon"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     3
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Behold, how good and pleasant it is when brothers live together in harmony! It is like fine oil on the head, running down on the beard, running down Aaron's beard over the collar of his robes. It is like the dew of Hermon falling on the mountains of Zion. For there the LORD has bestowed the blessing of life forevermore.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermonsnow.jpg",
+   "caption": "Snow-capped Mount Hermon. “It is like the dew of Hermon falling on the mountains of Zion” (Psalm 133:3).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

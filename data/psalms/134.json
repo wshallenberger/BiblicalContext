@@ -1,0 +1,185 @@
+{
+ "book": "Psalms",
+ "chapter": 134,
+ "title": "Bless the LORD by Night",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Come, bless the LORD, all you servants of the LORD who serve by night in the house of the LORD!"
+  },
+  {
+   "num": 2,
+   "text": "Lift up your hands to the sanctuary and bless the LORD!"
+  },
+  {
+   "num": 3,
+   "text": "May the LORD, the Maker of heaven and earth, bless you from Zion."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4). This is the last of the fifteen.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "The last Song of Ascents is a short exchange in the Temple at night. Pilgrims, perhaps leaving after the feast, call to the Levites on duty: “Come, bless the LORD, all you servants of the LORD who serve by night in the house of the LORD! Lift up your hands to the sanctuary and bless the LORD!” (vv.1-2). The priests answer with a blessing for the pilgrims: “May the LORD, the Maker of heaven and earth, bless you from Zion” (v.3).",
+  "custom": "Levites kept watch in the Temple day and night (1 Chronicles 9:27, 33). Lifting the hands was the posture of prayer and blessing (Leviticus 9:22; 1 Timothy 2:8). The pilgrims who came “up” to Jerusalem in Psalm 120 now go home with God’s blessing.",
+  "timelineImmediate": "Psalm 135 praises the LORD who chose Israel and is greater than all idols.",
+  "timelineBible": "Anna the prophetess “never left the temple, but worshiped night and day” (Luke 2:37). Before His ascension, Jesus “lifted up His hands and blessed them” (Luke 24:50). Revelation pictures the redeemed serving God “day and night in His temple” (Revelation 7:15).",
+  "translation": [
+   {
+    "english": "bless",
+    "greek": "בָּרַךְ (barakh)",
+    "verseRef": "v.1",
+    "meaning": "To bless, kneel, praise.",
+    "gloss": "Bless",
+    "strongs": "H1288",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "night",
+    "greek": "לַיְלָה (laylah)",
+    "verseRef": "v.1",
+    "meaning": "Night.",
+    "gloss": "Night",
+    "strongs": "H3915",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "sanctuary",
+    "greek": "קֹדֶשׁ (qodesh)",
+    "verseRef": "v.2",
+    "meaning": "Holiness; the holy place.",
+    "gloss": "Holy place",
+    "strongs": "H6944",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 2:36-38",
+    "note": "Worshiping night and day."
+   },
+   {
+    "ref": "Luke 24:50-53",
+    "note": "He lifted His hands and blessed them."
+   },
+   {
+    "ref": "Revelation 7:15",
+    "note": "Serving day and night in His temple."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Chronicles 9:27-33",
+    "note": "Levites on duty day and night."
+   },
+   {
+    "ref": "Numbers 6:24-26",
+    "note": "The LORD bless you."
+   },
+   {
+    "ref": "Psalm 121:2",
+    "note": "The Maker of heaven and earth."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The last pilgrim song: worshipers call the Temple’s night servants to bless the LORD, and the priests bless them in return from Zion.",
+   "settingLine": "Night in the Temple, blessing given and received.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Levite watches",
+     "t": "Day and night service."
+    },
+    {
+     "h": "End of the pilgrimage",
+     "t": "Going home blessed."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Lifted hands",
+     "t": "Prayer and blessing."
+    },
+    {
+     "h": "Night service",
+     "t": "Lamps kept burning (Leviticus 24:3)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Temple lamps",
+     "t": "The seven-branched lampstand carved on the Arch of Titus."
+    },
+    {
+     "h": "Ketef Hinnom amulets",
+     "t": "Silver scrolls with the priestly blessing."
+    }
+   ],
+   "discussion": "Blessing goes both ways: to God and from God (vv.1-3). Who could I bless today, and when will I take time to bless the LORD?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; liturgy of blessing",
+   "audience": "The Temple’s night servants",
+   "refNotes": {
+    "1 Chronicles 9:27-33": "Night watch",
+    "Numbers 6:24-26": "Priestly blessing",
+    "Psalm 121:2": "Maker of heaven and earth"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The servants of the LORD",
+     "d": "Serve by night"
+    },
+    {
+     "n": "The pilgrims",
+     "d": "Call them to bless"
+    },
+    {
+     "n": "The priests",
+     "d": "Bless from Zion"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Bless the LORD"
+    },
+    {
+     "when": "v.3",
+     "label": "The LORD bless you"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Come, bless the LORD, all you servants of the LORD who serve by night in the house of the LORD! Lift up your hands to the sanctuary and bless the LORD! May the LORD, the Maker of heaven and earth, bless you from Zion.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+   "caption": "Ancient steps on the south side of the Temple Mount. “Lift up your hands to the sanctuary and bless the LORD!” (Psalm 134:2).",
+   "credit": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

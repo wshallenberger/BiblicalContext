@@ -1,0 +1,274 @@
+{
+ "book": "Psalms",
+ "chapter": 132,
+ "title": "Arise, O LORD, to Your Resting Place",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, remember on behalf of David all the hardships he endured,"
+  },
+  {
+   "num": 2,
+   "text": "how he swore an oath to the LORD, and vowed to the Mighty One of Jacob:"
+  },
+  {
+   "num": 3,
+   "text": "\"I will not enter my house or get into my bed,"
+  },
+  {
+   "num": 4,
+   "text": "I will not give sleep to my eyes or slumber to my eyelids,"
+  },
+  {
+   "num": 5,
+   "text": "until I find a place for the LORD, a dwelling for the Mighty One of Jacob.\""
+  },
+  {
+   "num": 6,
+   "text": "We heard that the ark was in Ephrathah; we found it in the fields of Jaar."
+  },
+  {
+   "num": 7,
+   "text": "Let us go to His dwelling place; let us worship at His footstool."
+  },
+  {
+   "num": 8,
+   "text": "Arise, O LORD, to Your resting place, You and the ark of Your strength."
+  },
+  {
+   "num": 9,
+   "text": "May Your priests be clothed with righteousness, and Your saints shout for joy."
+  },
+  {
+   "num": 10,
+   "text": "For the sake of Your servant David, do not reject Your anointed one."
+  },
+  {
+   "num": 11,
+   "text": "The LORD swore an oath to David, a promise He will not revoke: \"One of your descendants I will place on your throne."
+  },
+  {
+   "num": 12,
+   "text": "If your sons keep My covenant and the testimony I will teach them, then their sons will also sit on your throne forever and ever.\""
+  },
+  {
+   "num": 13,
+   "text": "For the LORD has chosen Zion; He has desired it for His home:"
+  },
+  {
+   "num": 14,
+   "text": "\"This is My resting place forever and ever; here I will dwell, for I have desired this home."
+  },
+  {
+   "num": 15,
+   "text": "I will bless her with abundant provisions; I will satisfy her poor with bread."
+  },
+  {
+   "num": 16,
+   "text": "I will clothe her priests with salvation, and her saints will sing out in joy."
+  },
+  {
+   "num": 17,
+   "text": "There I will make a horn grow for David; I have prepared a lamp for My anointed one."
+  },
+  {
+   "num": 18,
+   "text": "I will clothe his enemies with shame, but the crown upon him will gleam.\""
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "FROM THE FIELDS OF JAAR TO ZION",
+  "setting": "“O LORD, remember on behalf of David all the hardships he endured” (v.1), and his oath not to rest “until I find a place for the LORD, a dwelling for the Mighty One of Jacob” (v.5). The people remember finding the ark: “We heard that the ark was in Ephrathah; we found it in the fields of Jaar” (v.6). “Let us go to His dwelling place; let us worship at His footstool. Arise, O LORD, to Your resting place, You and the ark of Your strength” (vv.7-8). Then God’s own oath to David: “One of your descendants I will place on your throne” (v.11). “For the LORD has chosen Zion… ‘This is My resting place forever and ever; here I will dwell’” (vv.13-14). He will bless her, clothe her priests with salvation, and “There I will make a horn grow for David; I have prepared a lamp for My anointed one” (v.17).",
+  "custom": "After the Philistines returned the ark, it stayed for twenty years at Kiriath-jearim, ‘the town of the forests,’ here called the fields of Jaar (1 Samuel 7:1-2), until David brought it to Jerusalem (2 Samuel 6). Ephrathah is an old name for the Bethlehem area (Micah 5:2). A horn stands for strength, and a lamp for a dynasty that does not go out (1 Kings 11:36).",
+  "timelineImmediate": "Psalm 133: how good and pleasant it is when brothers live together in harmony.",
+  "timelineBible": "Solomon ended his prayer at the Temple’s dedication with vv.8-10 (2 Chronicles 6:41-42). Peter said David knew “that God had promised him on oath that He would place one of his descendants on his throne” (Acts 2:30). Zechariah praised God for raising up “a horn of salvation for us in the house of His servant David” (Luke 1:69).",
+  "translation": [
+   {
+    "english": "Ephrathah",
+    "greek": "אֶפְרָתָה (ephrathah)",
+    "verseRef": "v.6",
+    "meaning": "Ephrathah, the Bethlehem district.",
+    "gloss": "Ephrathah",
+    "strongs": "H672",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "resting place",
+    "greek": "מְנוּחָה (menuchah)",
+    "verseRef": "v.8",
+    "meaning": "Rest, resting place.",
+    "gloss": "Rest",
+    "strongs": "H4496",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "horn",
+    "greek": "קֶרֶן (qeren)",
+    "verseRef": "v.17",
+    "meaning": "Horn; a picture of strength.",
+    "gloss": "Horn",
+    "strongs": "H7161",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Acts 2:29-36",
+    "note": "God promised David on oath."
+   },
+   {
+    "ref": "Luke 1:68-70",
+    "note": "A horn of salvation in the house of David."
+   },
+   {
+    "ref": "Revelation 21:3",
+    "note": "God will dwell with them."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 7:1-2",
+    "note": "The ark at Kiriath-jearim."
+   },
+   {
+    "ref": "2 Samuel 6:12-17",
+    "note": "David brings the ark to Zion."
+   },
+   {
+    "ref": "2 Chronicles 6:41-42",
+    "note": "Arise, O LORD, to Your resting place."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.807,
+   "lng": 35.103,
+   "zoom": 6,
+   "placeName": "Kiriath-jearim, “the fields of Jaar”"
+  },
+  "overview": {
+   "summary": "Pilgrims remember David’s oath to find a home for the ark and God’s oath to David: He has chosen Zion as His resting place forever and will raise a horn for David’s line.",
+   "settingLine": "The ark’s journey to Zion.",
+   "placeName": "Kiriath-jearim, “the fields of Jaar”",
+   "history": [
+    {
+     "h": "The ark at Kiriath-jearim",
+     "t": "Twenty years."
+    },
+    {
+     "h": "David brings it up",
+     "t": "With dancing (2 Samuel 6)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The ark as footstool",
+     "t": "God’s throne on earth."
+    },
+    {
+     "h": "A lamp for the king",
+     "t": "A dynasty that endures."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Kiriath-jearim excavations",
+     "t": "Recent digs at Tel Qiryat Yearim found a large raised platform from the 8th century BC."
+    },
+    {
+     "h": "Processional psalms",
+     "t": "The Psalms Scroll from Qumran preserves this psalm with the Songs of Ascents."
+    }
+   ],
+   "discussion": "David would not rest until God had a dwelling (vv.3-5). What place does God have at the center of my life?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; royal psalm",
+   "audience": "God, for David’s line",
+   "refNotes": {
+    "1 Samuel 7:1-2": "Twenty years at Kiriath-jearim",
+    "2 Samuel 6:12-17": "The ark comes home",
+    "2 Chronicles 6:41-42": "Solomon’s prayer"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Swore an oath"
+    },
+    {
+     "n": "The priests",
+     "d": "Clothed with salvation"
+    },
+    {
+     "n": "The anointed one",
+     "d": "A lamp prepared"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "David’s oath"
+    },
+    {
+     "when": "v.6-10",
+     "label": "The ark comes to rest"
+    },
+    {
+     "when": "v.11-12",
+     "label": "God’s oath to David"
+    },
+    {
+     "when": "v.13-18",
+     "label": "Zion, My resting place"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Kiriath-jearim, “the fields of Jaar”",
+    "lat": 31.807,
+    "lng": 35.103,
+    "verses": [
+     6
+    ],
+    "slug": "kiriath-jearim"
+   },
+   {
+    "name": "Bethlehem, David’s hometown",
+    "lat": 31.7054,
+    "lng": 35.2024,
+    "verses": [
+     6
+    ],
+    "slug": "bethlehem"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     13,
+     14
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, remember on behalf of David all the hardships he endured, how he swore an oath to the LORD, and vowed to the Mighty One of Jacob: until I find a place for the LORD, a dwelling for the Mighty One of Jacob. We heard that the ark was in Ephrathah; we found it in the fields of Jaar. Arise, O LORD, to Your resting place, You and the ark of Your strength. The LORD swore an oath to David, a promise He will not revoke: One of your descendants I will place on your throne. For the LORD has chosen Zion; He has desired it for His home: This is My resting place forever and ever; here I will dwell, for I have desired this home. There I will make a horn grow for David; I have prepared a lamp for My anointed one.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “This is My resting place forever and ever; here I will dwell, for I have desired this home” (Psalm 132:14).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

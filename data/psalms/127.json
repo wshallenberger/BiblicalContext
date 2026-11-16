@@ -1,0 +1,193 @@
+{
+ "book": "Psalms",
+ "chapter": 127,
+ "title": "Unless the LORD Builds the House",
+ "translation": "BSB",
+ "superscription": "A song of ascents. Of Solomon.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Unless the LORD builds the house, its builders labor in vain; unless the LORD protects the city, its watchmen stand guard in vain."
+  },
+  {
+   "num": 2,
+   "text": "In vain you rise early and stay up late, toiling for bread to eat— for He gives sleep to His beloved."
+  },
+  {
+   "num": 3,
+   "text": "Children are indeed a heritage from the LORD, and the fruit of the womb is His reward."
+  },
+  {
+   "num": 4,
+   "text": "Like arrows in the hand of a warrior, so are children born in one's youth."
+  },
+  {
+   "num": 5,
+   "text": "Blessed is the man whose quiver is full of them. He will not be put to shame when he confronts the enemies at the gate."
+  }
+ ],
+ "context": {
+  "author": "The title says “A song of ascents. Of Solomon.” Solomon built the Temple, and his other name was Jedidiah, “beloved of the LORD” (2 Samuel 12:25), which may lie behind “His beloved” in v.2.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Unless the LORD builds the house, its builders labor in vain; unless the LORD protects the city, its watchmen stand guard in vain” (v.1). Anxious overwork is pointless: “In vain you rise early and stay up late, toiling for bread to eat— for He gives sleep to His beloved” (v.2). The second half turns from building houses to building a household: “Children are indeed a heritage from the LORD, and the fruit of the womb is His reward. Like arrows in the hand of a warrior, so are children born in one’s youth. Blessed is the man whose quiver is full of them” (vv.3-5). Such a father “will not be put to shame when he confronts the enemies at the gate” (v.5).",
+  "custom": "In Hebrew “house” can mean a building, a family or a dynasty (2 Samuel 7:11-13), so the psalm moves easily from one to the other. Cases were heard at the city gate, where grown sons could stand with their father. Watchmen guarded city walls through the night.",
+  "timelineImmediate": "Psalm 128 pictures the blessed home of one who fears the LORD.",
+  "timelineBible": "Jesus warned against anxious toil: “do not worry about your life” (Matthew 6:25), for “your heavenly Father knows that you need them” (Matthew 6:32). He described the wise man who built his house on the rock (Matthew 7:24). Paul wrote, “I planted the seed and Apollos watered it, but God made it grow” (1 Corinthians 3:6).",
+  "translation": [
+   {
+    "english": "builds",
+    "greek": "בָּנָה (banah)",
+    "verseRef": "v.1",
+    "meaning": "To build; related to ben, son.",
+    "gloss": "Build",
+    "strongs": "H1129",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "heritage",
+    "greek": "נַחֲלָה (nachalah)",
+    "verseRef": "v.3",
+    "meaning": "Inheritance, heritage.",
+    "gloss": "Inheritance",
+    "strongs": "H5159",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "quiver",
+    "greek": "אַשְׁפָּה (ashpah)",
+    "verseRef": "v.5",
+    "meaning": "Quiver for arrows.",
+    "gloss": "Quiver",
+    "strongs": "H827",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 6:25-34",
+    "note": "Do not worry."
+   },
+   {
+    "ref": "Matthew 7:24-27",
+    "note": "The house on the rock."
+   },
+   {
+    "ref": "1 Corinthians 3:6-9",
+    "note": "God made it grow."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Samuel 7:11-13",
+    "note": "The LORD will build you a house."
+   },
+   {
+    "ref": "Proverbs 10:22",
+    "note": "The blessing of the LORD brings wealth without toil."
+   },
+   {
+    "ref": "Genesis 33:5",
+    "note": "The children God has graciously given."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Building, guarding and working are vain without the LORD, who gives rest to those He loves; children are His gift, like arrows in a warrior’s hand.",
+   "settingLine": "A house and a household built by God.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Solomon’s Temple",
+     "t": "The house the LORD built."
+    },
+    {
+     "h": "Jedidiah",
+     "t": "Solomon, the beloved of the LORD."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The city gate",
+     "t": "Where cases were heard."
+    },
+    {
+     "h": "Night watchmen",
+     "t": "Guarding the walls."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Four-room houses",
+     "t": "Typical Israelite family homes with rooms around a courtyard."
+    },
+    {
+     "h": "Arrowheads",
+     "t": "Iron and bronze arrowheads found at Lachish and other sites."
+    }
+   ],
+   "discussion": "“In vain you rise early and stay up late” (v.2). Where am I working anxiously instead of trusting God, and how could I rest?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Solomon",
+   "genre": "Song of ascents; wisdom psalm",
+   "audience": "Builders, watchmen and parents",
+   "refNotes": {
+    "2 Samuel 7:11-13": "House and dynasty",
+    "Proverbs 10:22": "Blessing without toil",
+    "Genesis 33:5": "Children as gift"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Solomon",
+     "d": "Named in the title"
+    },
+    {
+     "n": "The builders and watchmen",
+     "d": "Labor in vain without God"
+    },
+    {
+     "n": "Children",
+     "d": "A heritage from the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Unless the LORD builds"
+    },
+    {
+     "when": "v.3-5",
+     "label": "Children are a heritage"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Unless the LORD builds the house, its builders labor in vain; unless the LORD protects the city, its watchmen stand guard in vain. In vain you rise early and stay up late, toiling for bread to eat— for He gives sleep to His beloved. Children are indeed a heritage from the LORD, and the fruit of the womb is His reward. Like arrows in the hand of a warrior, so are children born in one's youth. Blessed is the man whose quiver is full of them. He will not be put to shame when he confronts the enemies at the gate.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27The_Visit_of_the_Queen_of_Sheba_to_King_Solomon%27,_oil_on_canvas_painting_by_Edward_Poynter,_1890,_Art_Gallery_of_New_South_Wales.jpg",
+   "caption": "The Visit of the Queen of Sheba to King Solomon, by Edward Poynter (1890). Psalm 127 is titled “Of Solomon,” the king who built the Temple.",
+   "credit": "Edward Poynter (1890), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, Jerusalem’s oldest hill. “Unless the LORD builds the house, its builders labor in vain” (Psalm 127:1).",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

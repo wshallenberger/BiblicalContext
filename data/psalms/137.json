@@ -1,0 +1,235 @@
+{
+ "book": "Psalms",
+ "chapter": 137,
+ "title": "By the Rivers of Babylon",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "By the rivers of Babylon we sat and wept when we remembered Zion."
+  },
+  {
+   "num": 2,
+   "text": "There on the willows we hung our harps,"
+  },
+  {
+   "num": 3,
+   "text": "for there our captors requested a song; our tormentors demanded songs of joy: \"Sing us a song of Zion.\""
+  },
+  {
+   "num": 4,
+   "text": "How can we sing a song of the LORD in a foreign land?"
+  },
+  {
+   "num": 5,
+   "text": "If I forget you, O Jerusalem, may my right hand cease to function."
+  },
+  {
+   "num": 6,
+   "text": "May my tongue cling to the roof of my mouth if I do not remember you, if I do not exalt Jerusalem as my greatest joy!"
+  },
+  {
+   "num": 7,
+   "text": "Remember, O LORD, the sons of Edom on the day Jerusalem fell: \"Destroy it,\" they said, \"tear it down to its foundations!\""
+  },
+  {
+   "num": 8,
+   "text": "O Daughter of Babylon, doomed to destruction, blessed is he who repays you as you have done to us."
+  },
+  {
+   "num": 9,
+   "text": "Blessed is he who seizes your infants and dashes them against the rocks."
+  }
+ ],
+ "context": {
+  "author": "Not named. Written by an exile in Babylon, or soon after the return, remembering the captivity that followed 586 BC.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "BY THE RIVERS OF BABYLON",
+  "setting": "“By the rivers of Babylon we sat and wept when we remembered Zion. There on the willows we hung our harps” (vv.1-2). The captors mocked them: “Sing us a song of Zion” (v.3). “How can we sing a song of the LORD in a foreign land?” (v.4). The exile swears an oath: “If I forget you, O Jerusalem, may my right hand cease to function. May my tongue cling to the roof of my mouth if I do not remember you” (vv.5-6). Then a raw cry for justice. Edom had cheered on the destroyers: “Destroy it… tear it down to its foundations!” (v.7). And to Babylon: “blessed is he who repays you as you have done to us. Blessed is he who seizes your infants and dashes them against the rocks” (vv.8-9).",
+  "custom": "Babylon stood on the Euphrates, with canals running through the plain; Ezekiel lived “among the exiles by the River Kebar” (Ezekiel 1:1). The harps hung up were the Levites’ lyres, silenced in exile. Killing children was a known horror of ancient war (2 Kings 8:12; Hosea 13:16), and Isaiah had prophesied it against Babylon (Isaiah 13:16). The psalmist asks God to repay Babylon in kind, handing vengeance to God rather than taking it.",
+  "timelineImmediate": "Psalm 138 begins the last group of David’s psalms: I give You thanks with all my heart.",
+  "timelineBible": "Revelation pictures the fall of “Babylon the great” (Revelation 18:2), the city that oppressed God’s people, and heaven rejoices that God has judged her (Revelation 18:20). Paul teaches, “Do not avenge yourselves, beloved, but leave room for God’s wrath” (Romans 12:19). Jesus wept over the coming destruction of Jerusalem (Luke 19:41-44). See the article on psalms that call down judgment.",
+  "translation": [
+   {
+    "english": "rivers",
+    "greek": "נָהָר (nahar)",
+    "verseRef": "v.1",
+    "meaning": "River, canal.",
+    "gloss": "River",
+    "strongs": "H5104",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Babylon",
+    "greek": "בָּבֶל, בָּבֶל (bavel)",
+    "verseRef": "v.1",
+    "meaning": "Babylon, Babel.",
+    "gloss": "Babylon",
+    "strongs": "H894",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "willows",
+    "greek": "עֲרָבָה (aravah)",
+    "verseRef": "v.2",
+    "meaning": "Poplar or willow tree.",
+    "gloss": "Poplar",
+    "strongs": "H6155",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Revelation 18:1-24",
+    "note": "The fall of Babylon the great."
+   },
+   {
+    "ref": "Romans 12:17-21",
+    "note": "Leave room for God’s wrath."
+   },
+   {
+    "ref": "Luke 19:41-44",
+    "note": "Jesus weeps over Jerusalem."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "2 Kings 25:8-21",
+    "note": "Jerusalem burned; the people exiled."
+   },
+   {
+    "ref": "Obadiah 1:10-14",
+    "note": "Edom’s violence against Jacob."
+   },
+   {
+    "ref": "Jeremiah 51:24",
+    "note": "I will repay Babylon."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.536,
+   "lng": 44.421,
+   "zoom": 6,
+   "placeName": "Babylon on the Euphrates"
+  },
+  "overview": {
+   "summary": "Exiles weep by Babylon’s rivers, refuse to sing Zion’s songs for their captors, swear never to forget Jerusalem, and cry out for justice against Edom and Babylon.",
+   "settingLine": "Silent harps in a foreign land.",
+   "placeName": "Babylon on the Euphrates",
+   "history": [
+    {
+     "h": "The exile",
+     "t": "Judah taken to Babylon in 597 and 586 BC."
+    },
+    {
+     "h": "Edom’s betrayal",
+     "t": "Cheering the destruction."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Harps and lyres",
+     "t": "The Levites’ instruments."
+    },
+    {
+     "h": "Oaths",
+     "t": "Calling a curse on oneself."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Ishtar Gate",
+     "t": "Nebuchadnezzar’s gate of blue glazed bricks, now in Berlin."
+    },
+    {
+     "h": "Al-Yahudu tablets",
+     "t": "Babylonian tablets from ‘the town of Judah,’ a village of Judean exiles, from the 6th and 5th centuries BC."
+    }
+   ],
+   "discussion": "The psalmist pours out his rage to God instead of acting on it. What anger do I need to bring honestly to God and leave with Him?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "An exile",
+   "genre": "Community lament",
+   "audience": "God, and Jerusalem",
+   "refNotes": {
+    "2 Kings 25:8-21": "The exile",
+    "Obadiah 1:10-14": "Edom",
+    "Jeremiah 51:24": "Babylon repaid"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The exiles",
+     "d": "Weep by the rivers"
+    },
+    {
+     "n": "The captors",
+     "d": "Demand songs"
+    },
+    {
+     "n": "Edom and Babylon",
+     "d": "Called to account"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "By the rivers of Babylon"
+    },
+    {
+     "when": "v.5-6",
+     "label": "If I forget you, O Jerusalem"
+    },
+    {
+     "when": "v.7-9",
+     "label": "Remember, O LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Babylon on the Euphrates",
+    "lat": 32.536,
+    "lng": 44.421,
+    "verses": [
+     1,
+     8
+    ],
+    "slug": "babylon"
+   },
+   {
+    "name": "Edom (Bozrah, its capital)",
+    "lat": 30.73,
+    "lng": 35.61,
+    "verses": [
+     7
+    ],
+    "slug": "edom"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     5,
+     6,
+     7
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "By the rivers of Babylon we sat and wept when we remembered Zion. There on the willows we hung our harps, for there our captors requested a song; our tormentors demanded songs of joy: Sing us a song of Zion. How can we sing a song of the LORD in a foreign land? If I forget you, O Jerusalem, may my right hand cease to function. May my tongue cling to the roof of my mouth if I do not remember you, if I do not exalt Jerusalem as my greatest joy! Remember, O LORD, the sons of Edom on the day Jerusalem fell: Destroy it, they said, tear it down to its foundations! O Daughter of Babylon, doomed to destruction, blessed is he who repays you as you have done to us. Blessed is he who seizes your infants and dashes them against the rocks.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eduard_Bendemann-_Die_trauernden_Juden_im_Exil_um_1832.jpg",
+   "caption": "The Mourning Jews in Exile, by Eduard Bendemann (about 1832, Wallraf-Richartz-Museum, Cologne), painted from Psalm 137. Here the harps rest on the ground instead of hanging in the willows: “By the rivers of Babylon we sat and wept when we remembered Zion” (Psalm 137:1).",
+   "credit": "Eduard Bendemann (c. 1832), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ishtar_Gate_at_Berlin_Museum.jpg",
+   "caption": "The Ishtar Gate of Babylon, built by Nebuchadnezzar II about 575 BC, reconstructed in the Pergamon Museum in Berlin. The exiles of Psalm 137 lived in this city.",
+   "credit": "Rictor Norton, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "book": "Psalms",
+ "chapter": 143,
+ "title": "Teach Me to Do Your Will",
+ "translation": "BSB",
+ "superscription": "A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "O LORD, hear my prayer. In Your faithfulness, give ear to my plea; in Your righteousness, answer me."
+  },
+  {
+   "num": 2,
+   "text": "Do not bring Your servant into judgment, for no one alive is righteous before You."
+  },
+  {
+   "num": 3,
+   "text": "For the enemy has pursued my soul, crushing my life to the ground, making me dwell in darkness like those long since dead."
+  },
+  {
+   "num": 4,
+   "text": "My spirit grows faint within me; my heart is dismayed inside me."
+  },
+  {
+   "num": 5,
+   "text": "I remember the days of old; I meditate on all Your works; I consider the work of Your hands."
+  },
+  {
+   "num": 6,
+   "text": "I stretch out my hands to You; my soul thirsts for You like a parched land. Selah"
+  },
+  {
+   "num": 7,
+   "text": "Answer me quickly, O LORD; my spirit fails. Do not hide Your face from me, or I will be like those who descend to the Pit."
+  },
+  {
+   "num": 8,
+   "text": "Let me hear Your loving devotion in the morning, for I have put my trust in You. Teach me the way I should walk, for to You I lift up my soul."
+  },
+  {
+   "num": 9,
+   "text": "Deliver me from my enemies, O LORD; I flee to You for refuge."
+  },
+  {
+   "num": 10,
+   "text": "Teach me to do Your will, for You are my God. May Your good Spirit lead me on level ground."
+  },
+  {
+   "num": 11,
+   "text": "For the sake of Your name, O LORD, revive me. In Your righteousness, bring my soul out of trouble."
+  },
+  {
+   "num": 12,
+   "text": "And in Your loving devotion, cut off my enemies. Destroy all who afflict me, for I am Your servant."
+  }
+ ],
+ "context": {
+  "author": "The title names David. Psalms 138-145 are the last group of David’s psalms in the book.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“O LORD, hear my prayer. In Your faithfulness, give ear to my plea; in Your righteousness, answer me” (v.1). David knows he has no claim on God: “Do not bring Your servant into judgment, for no one alive is righteous before You” (v.2). The enemy has crushed him and made him “dwell in darkness like those long since dead” (v.3). He remembers God’s past works and reaches out: “I stretch out my hands to You; my soul thirsts for You like a parched land” (vv.5-6). “Let me hear Your loving devotion in the morning, for I have put my trust in You. Teach me the way I should walk” (v.8). “Teach me to do Your will, for You are my God. May Your good Spirit lead me on level ground” (v.10).",
+  "custom": "This is the last of the seven penitential psalms (6, 32, 38, 51, 102, 130, 143). A parched land after the long dry summer cracks open, waiting for the first rains, a picture of thirst for God. Level ground was a safe, easy road, as opposed to rough, slippery paths.",
+  "timelineImmediate": "Psalm 144: Blessed be the LORD, my Rock, who trains my hands for war.",
+  "timelineBible": "Paul echoes v.2: “no one will be justified in His sight by works of the law” (Romans 3:20; Galatians 2:16). Jesus promised the Spirit who “will guide you into all truth” (John 16:13), and prayed, “Your will be done” (Matthew 26:42).",
+  "translation": [
+   {
+    "english": "righteous",
+    "greek": "צָדֵק (tsadaq)",
+    "verseRef": "v.2",
+    "meaning": "To be righteous, in the right, justified.",
+    "gloss": "Be righteous",
+    "strongs": "H6663",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "parched",
+    "greek": "עָיֵף (ayeph)",
+    "verseRef": "v.6",
+    "meaning": "Weary, faint, thirsty.",
+    "gloss": "Parched",
+    "strongs": "H5889",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "level ground",
+    "greek": "מִישׁוֹר (mishor)",
+    "verseRef": "v.10",
+    "meaning": "Level ground, plain; uprightness.",
+    "gloss": "Level",
+    "strongs": "H4334",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 3:19-24",
+    "note": "No one justified by works."
+   },
+   {
+    "ref": "Galatians 2:16",
+    "note": "Justified by faith in Christ."
+   },
+   {
+    "ref": "John 16:13",
+    "note": "The Spirit will guide you."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 63:1",
+    "note": "My soul thirsts in a dry land."
+   },
+   {
+    "ref": "Job 9:2",
+    "note": "How can a man be righteous before God?"
+   },
+   {
+    "ref": "Isaiah 26:7",
+    "note": "You make the path of the righteous level."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Crushed and in darkness, David asks God not to judge him, since no one is righteous before Him, but to hear him in faithfulness, teach him His will and lead him by His good Spirit.",
+   "settingLine": "A thirsty soul asking to be taught.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Penitential psalms",
+     "t": "The seventh and last."
+    },
+    {
+     "h": "David pursued",
+     "t": "Perhaps by Absalom (the Greek title says so)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Morning hope",
+     "t": "Help expected at dawn."
+    },
+    {
+     "h": "Stretched-out hands",
+     "t": "Prayer and longing."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Cisterns",
+     "t": "Plastered cisterns stored rain for the long dry season."
+    },
+    {
+     "h": "Cracked earth",
+     "t": "The summer drought lasts from May to October."
+    }
+   ],
+   "discussion": "“Teach me to do Your will” (v.10). What part of God’s will do I need to be taught, not just told?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Penitential lament",
+   "audience": "God, from a servant in darkness",
+   "refNotes": {
+    "Psalm 63:1": "Thirst for God",
+    "Job 9:2": "No one righteous",
+    "Isaiah 26:7": "A level path"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "God’s servant"
+    },
+    {
+     "n": "The enemy",
+     "d": "Crushes his life"
+    },
+    {
+     "n": "The good Spirit",
+     "d": "Leads him"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Do not judge Your servant"
+    },
+    {
+     "when": "v.5-6",
+     "label": "I thirst for You"
+    },
+    {
+     "when": "v.7-12",
+     "label": "Teach me and lead me"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "O LORD, hear my prayer. In Your faithfulness, give ear to my plea; in Your righteousness, answer me. Do not bring Your servant into judgment, for no one alive is righteous before You. I remember the days of old; I meditate on all Your works; I consider the work of Your hands. I stretch out my hands to You; my soul thirsts for You like a parched land. Selah Let me hear Your loving devotion in the morning, for I have put my trust in You. Teach me the way I should walk, for to You I lift up my soul. Teach me to do Your will, for You are my God. May Your good Spirit lead me on level ground. For the sake of Your name, O LORD, revive me. In Your righteousness, bring my soul out of trouble.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "The dry hills of the Judean wilderness. “my soul thirsts for You like a parched land” (Psalm 143:6).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

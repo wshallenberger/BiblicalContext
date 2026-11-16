@@ -1,0 +1,189 @@
+{
+ "book": "Psalms",
+ "chapter": 131,
+ "title": "Like a Weaned Child",
+ "translation": "BSB",
+ "superscription": "A song of ascents. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "My heart is not proud, O LORD, my eyes are not haughty. I do not aspire to great things or matters too lofty for me."
+  },
+  {
+   "num": 2,
+   "text": "Surely I have stilled and quieted my soul; like a weaned child with his mother, like a weaned child is my soul within me."
+  },
+  {
+   "num": 3,
+   "text": "O Israel, put your hope in the LORD, both now and forevermore."
+  }
+ ],
+ "context": {
+  "author": "The title says “A song of ascents. Of David.” They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Three verses of quiet humility. “My heart is not proud, O LORD, my eyes are not haughty. I do not aspire to great things or matters too lofty for me” (v.1). Instead: “Surely I have stilled and quieted my soul; like a weaned child with his mother, like a weaned child is my soul within me” (v.2). Then the lesson for all: “O Israel, put your hope in the LORD, both now and forevermore” (v.3).",
+  "custom": "Children were often weaned at two or three years old, and weaning was celebrated (Genesis 21:8; 1 Samuel 1:22-24). A nursing baby frets for milk, but a weaned child sits contentedly with its mother, wanting her presence, not only what she gives.",
+  "timelineImmediate": "Psalm 132 remembers David’s oath to find a home for the ark.",
+  "timelineBible": "Jesus said, “unless you change and become like little children, you will never enter the kingdom of heaven” (Matthew 18:3). Paul wrote, “I have learned to be content regardless of my circumstances” (Philippians 4:11). Peter says, “Humble yourselves, therefore, under God’s mighty hand” (1 Peter 5:6).",
+  "translation": [
+   {
+    "english": "weaned",
+    "greek": "גָּמַל (gamal)",
+    "verseRef": "v.2",
+    "meaning": "To wean, deal fully with.",
+    "gloss": "Wean",
+    "strongs": "H1580",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "stilled",
+    "greek": "שָׁוָה (shavah)",
+    "verseRef": "v.2",
+    "meaning": "To level, make smooth, quiet.",
+    "gloss": "Calm",
+    "strongs": "H7737",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "haughty",
+    "greek": "רוּם (rum)",
+    "verseRef": "v.1",
+    "meaning": "To be high, lifted up.",
+    "gloss": "Lifted up",
+    "strongs": "H7311",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 18:1-4",
+    "note": "Become like little children."
+   },
+   {
+    "ref": "Philippians 4:11-13",
+    "note": "Content in all circumstances."
+   },
+   {
+    "ref": "1 Peter 5:5-7",
+    "note": "Humble yourselves."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 1:22-24",
+    "note": "Hannah weans Samuel."
+   },
+   {
+    "ref": "Isaiah 30:15",
+    "note": "In quiet confidence is your strength."
+   },
+   {
+    "ref": "Psalm 46:10",
+    "note": "Be still and know."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David has given up pride and great ambitions and quieted his soul like a weaned child resting with its mother, and calls Israel to hope in the LORD.",
+   "settingLine": "A child at rest with its mother.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s humility",
+     "t": "He waited years for the throne."
+    },
+    {
+     "h": "Weaning feasts",
+     "t": "Isaac’s weaning (Genesis 21:8)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Weaning",
+     "t": "At two or three years."
+    },
+    {
+     "h": "Mothers and children",
+     "t": "Close until weaning."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Mother figurines",
+     "t": "Clay figurines of women holding children from Iron Age Judah."
+    },
+    {
+     "h": "Feeding vessels",
+     "t": "Small spouted clay vessels thought to be used for feeding infants."
+    }
+   ],
+   "discussion": "A weaned child wants its mother, not just her milk (v.2). Do I seek God for Himself, or mainly for what He gives?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Song of ascents; psalm of trust",
+   "audience": "God, and Israel",
+   "refNotes": {
+    "1 Samuel 1:22-24": "Weaning",
+    "Isaiah 30:15": "Quietness",
+    "Psalm 46:10": "Be still"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Humbled and quiet"
+    },
+    {
+     "n": "The weaned child",
+     "d": "Content with its mother"
+    },
+    {
+     "n": "Israel",
+     "d": "Called to hope"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "Not proud"
+    },
+    {
+     "when": "v.2",
+     "label": "A quiet soul"
+    },
+    {
+     "when": "v.3",
+     "label": "Hope in the LORD"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "My heart is not proud, O LORD, my eyes are not haughty. I do not aspire to great things or matters too lofty for me. Surely I have stilled and quieted my soul; like a weaned child with his mother, like a weaned child is my soul within me. O Israel, put your hope in the LORD, both now and forevermore.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “O Israel, put your hope in the LORD, both now and forevermore” (Psalm 131:3).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

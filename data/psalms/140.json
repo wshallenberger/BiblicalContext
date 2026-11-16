@@ -1,0 +1,229 @@
+{
+ "book": "Psalms",
+ "chapter": 140,
+ "title": "Rescue Me from Evil Men",
+ "translation": "BSB",
+ "superscription": "For the choirmaster. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Rescue me, O LORD, from evil men. Protect me from men of violence,"
+  },
+  {
+   "num": 2,
+   "text": "who devise evil in their hearts and stir up war all day long."
+  },
+  {
+   "num": 3,
+   "text": "They sharpen their tongues like snakes; the venom of vipers is on their lips. Selah"
+  },
+  {
+   "num": 4,
+   "text": "Guard me, O LORD, from the hands of the wicked. Keep me safe from men of violence who scheme to make me stumble."
+  },
+  {
+   "num": 5,
+   "text": "The proud hide a snare for me; the cords of their net are spread along the path, and lures are set out for me. Selah"
+  },
+  {
+   "num": 6,
+   "text": "I say to the LORD, \"You are my God.\" Hear, O LORD, my cry for help."
+  },
+  {
+   "num": 7,
+   "text": "O GOD the Lord, the strength of my salvation, You shield my head in the day of battle."
+  },
+  {
+   "num": 8,
+   "text": "Grant not, O LORD, the desires of the wicked; do not promote their evil plans, lest they be exalted. Selah"
+  },
+  {
+   "num": 9,
+   "text": "May the heads of those who surround me be covered in the trouble their lips have caused."
+  },
+  {
+   "num": 10,
+   "text": "May burning coals fall on them; may they be thrown into the fire, into the miry pits, never to rise again."
+  },
+  {
+   "num": 11,
+   "text": "May no slanderer be established in the land; may calamity hunt down the man of violence."
+  },
+  {
+   "num": 12,
+   "text": "I know that the LORD upholds justice for the poor and defends the cause of the needy."
+  },
+  {
+   "num": 13,
+   "text": "Surely the righteous will praise Your name; the upright will dwell in Your presence."
+  }
+ ],
+ "context": {
+  "author": "The title names David. Psalms 138-145 are the last group of David’s psalms in the book.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Rescue me, O LORD, from evil men. Protect me from men of violence, who devise evil in their hearts and stir up war all day long” (vv.1-2). “They sharpen their tongues like snakes; the venom of vipers is on their lips” (v.3). They set traps: “The proud hide a snare for me” (v.5). David holds on: “I say to the LORD, ‘You are my God.’” and “You shield my head in the day of battle” (vv.6-7). He asks God to turn their schemes back on them (vv.8-11), and ends in confidence: “I know that the LORD upholds justice for the poor and defends the cause of the needy. Surely the righteous will praise Your name” (vv.12-13).",
+  "custom": "Hunters set nets and snares along paths (v.5), the same images used for slander and traps in court. A helmet shielded the head in battle (v.7), the most vulnerable part of a soldier.",
+  "timelineImmediate": "Psalm 141: May my prayer be set before You like incense.",
+  "timelineBible": "Paul quotes v.3 in his description of human sin: “The venom of vipers is on their lips” (Romans 3:13). James warns that the tongue is “full of deadly poison” (James 3:8). Paul calls salvation a helmet (Ephesians 6:17).",
+  "translation": [
+   {
+    "english": "venom",
+    "greek": "חֵמָה (chemah)",
+    "verseRef": "v.3",
+    "meaning": "Heat, rage, poison.",
+    "gloss": "Venom",
+    "strongs": "H2534",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "vipers",
+    "greek": "עַכְשׁוּב (akhshuv)",
+    "verseRef": "v.3",
+    "meaning": "Viper, asp.",
+    "gloss": "Viper",
+    "strongs": "H5919",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "snare",
+    "greek": "פַּח (pach)",
+    "verseRef": "v.5",
+    "meaning": "Snare, trap.",
+    "gloss": "Snare",
+    "strongs": "H6341",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 3:10-18",
+    "note": "The venom of vipers is on their lips."
+   },
+   {
+    "ref": "James 3:5-10",
+    "note": "The tongue, full of poison."
+   },
+   {
+    "ref": "Ephesians 6:17",
+    "note": "The helmet of salvation."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 58:3-5",
+    "note": "Venom like a serpent."
+   },
+   {
+    "ref": "Proverbs 18:21",
+    "note": "Death and life in the tongue."
+   },
+   {
+    "ref": "Psalm 141:9-10",
+    "note": "Keep me from the snares."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David asks God to rescue him from violent men with snake-like tongues and hidden traps, trusting the LORD who shields him in battle and upholds justice for the poor.",
+   "settingLine": "Snares on the path, a shield over the head.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s enemies",
+     "t": "Plotting and slandering."
+    },
+    {
+     "h": "Paul’s use",
+     "t": "Romans 3:13."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Hunting snares",
+     "t": "Nets along the path."
+    },
+    {
+     "h": "Helmets",
+     "t": "Shielding the head in battle."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Bronze helmets",
+     "t": "Assyrian reliefs show soldiers with pointed bronze helmets."
+    },
+    {
+     "h": "Snake imagery",
+     "t": "Bronze serpents and cobra amulets from Canaan and Egypt."
+    }
+   ],
+   "discussion": "David says, “You are my God” (v.6) when surrounded by traps. What do I need to say to God about the snares I face?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Individual lament",
+   "audience": "God, against violent men",
+   "refNotes": {
+    "Psalm 58:3-5": "Serpent speech",
+    "Proverbs 18:21": "The tongue",
+    "Psalm 141:9-10": "Snares"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Prays for rescue"
+    },
+    {
+     "n": "Men of violence",
+     "d": "Devise evil"
+    },
+    {
+     "n": "The poor and needy",
+     "d": "Defended by God"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Rescue me"
+    },
+    {
+     "when": "v.6-8",
+     "label": "You are my God"
+    },
+    {
+     "when": "v.9-13",
+     "label": "Justice for the needy"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Rescue me, O LORD, from evil men. Protect me from men of violence, They sharpen their tongues like snakes; the venom of vipers is on their lips. Selah Guard me, O LORD, from the hands of the wicked. Keep me safe from men of violence who scheme to make me stumble. I say to the LORD, You are my God. Hear, O LORD, my cry for help. O GOD the Lord, the strength of my salvation, You shield my head in the day of battle. I know that the LORD upholds justice for the poor and defends the cause of the needy. Surely the righteous will praise Your name; the upright will dwell in Your presence.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

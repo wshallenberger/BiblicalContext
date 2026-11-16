@@ -1,0 +1,197 @@
+{
+ "book": "Psalms",
+ "chapter": 128,
+ "title": "Your Children Like Olive Shoots",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Blessed are all who fear the LORD, who walk in His ways!"
+  },
+  {
+   "num": 2,
+   "text": "For when you eat the fruit of your labor, blessings and prosperity will be yours."
+  },
+  {
+   "num": 3,
+   "text": "Your wife will be like a fruitful vine flourishing within your house, your sons like olive shoots sitting around your table."
+  },
+  {
+   "num": 4,
+   "text": "In this way indeed shall blessing come to the man who fears the LORD."
+  },
+  {
+   "num": 5,
+   "text": "May the LORD bless you from Zion, that you may see the prosperity of Jerusalem all the days of your life,"
+  },
+  {
+   "num": 6,
+   "text": "that you may see your children's children. Peace be upon Israel!"
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Blessed are all who fear the LORD, who walk in His ways! For when you eat the fruit of your labor, blessings and prosperity will be yours” (vv.1-2). The picture is a family meal: “Your wife will be like a fruitful vine flourishing within your house, your sons like olive shoots sitting around your table” (v.3). “In this way indeed shall blessing come to the man who fears the LORD” (v.4). Then a priestly blessing on the pilgrim: “May the LORD bless you from Zion, that you may see the prosperity of Jerusalem all the days of your life, that you may see your children’s children. Peace be upon Israel!” (vv.5-6).",
+  "custom": "The vine and the olive were the two great crops of the hill country. New shoots spring up around the base of an old olive tree, which can live for centuries, a picture of children around a parent. Seeing grandchildren was the sign of a long and blessed life (Proverbs 17:6). The psalm has long been read at weddings.",
+  "timelineImmediate": "Psalm 129: Israel persecuted from its youth, but not defeated.",
+  "timelineBible": "Jesus said, “I am the vine and you are the branches” (John 15:5). Paul pictures believers grafted into God’s olive tree (Romans 11:17-24). Peter writes to husbands and wives as “fellow heirs of the gracious gift of life” (1 Peter 3:7).",
+  "translation": [
+   {
+    "english": "vine",
+    "greek": "גֶּפֶן (gephen)",
+    "verseRef": "v.3",
+    "meaning": "Vine, grapevine.",
+    "gloss": "Vine",
+    "strongs": "H1612",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "olive shoots",
+    "greek": "שָׁתִיל (shethil)",
+    "verseRef": "v.3",
+    "meaning": "Shoot, young plant.",
+    "gloss": "Shoot",
+    "strongs": "H8363",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "table",
+    "greek": "שֻׁלְחָן (shulchan)",
+    "verseRef": "v.3",
+    "meaning": "Table.",
+    "gloss": "Table",
+    "strongs": "H7979",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 15:1-8",
+    "note": "I am the vine."
+   },
+   {
+    "ref": "Romans 11:17-24",
+    "note": "Grafted into the olive tree."
+   },
+   {
+    "ref": "1 Peter 3:7",
+    "note": "Co-heirs of the gift of life."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 127:3-5",
+    "note": "Children a heritage."
+   },
+   {
+    "ref": "Proverbs 17:6",
+    "note": "Grandchildren are the crown of the aged."
+   },
+   {
+    "ref": "Micah 4:4",
+    "note": "Everyone under his own vine."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The one who fears the LORD is blessed at work and at home, with a wife like a fruitful vine and children like olive shoots around the table, and receives a blessing from Zion to see his children’s children.",
+   "settingLine": "A family meal under God’s blessing.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Pilgrims at the feasts",
+     "t": "Families traveling together."
+    },
+    {
+     "h": "Priestly blessings",
+     "t": "Spoken from the sanctuary."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Olive trees",
+     "t": "Shoots growing around old trunks."
+    },
+    {
+     "h": "Family meals",
+     "t": "Sitting around the table."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Olive presses",
+     "t": "Iron Age oil installations at Tel Miqne (Ekron), one of the largest olive oil centers known."
+    },
+    {
+     "h": "Wine presses",
+     "t": "Rock-cut winepresses in the hill country."
+    }
+   ],
+   "discussion": "The blessing is pictured as a full table (v.3). Who sits at my table, and how can I bless them this week?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; wisdom blessing",
+   "audience": "The one who fears the LORD",
+   "refNotes": {
+    "Psalm 127:3-5": "The twin psalm",
+    "Proverbs 17:6": "Grandchildren",
+    "Micah 4:4": "Vine and fig tree"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The man who fears the LORD",
+     "d": "Blessed"
+    },
+    {
+     "n": "His wife",
+     "d": "A fruitful vine"
+    },
+    {
+     "n": "His children",
+     "d": "Olive shoots"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "The blessed home"
+    },
+    {
+     "when": "v.5-6",
+     "label": "Blessing from Zion"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Blessed are all who fear the LORD, who walk in His ways! For when you eat the fruit of your labor, blessings and prosperity will be yours. Your wife will be like a fruitful vine flourishing within your house, your sons like olive shoots sitting around your table. In this way indeed shall blessing come to the man who fears the LORD. May the LORD bless you from Zion, that you may see the prosperity of Jerusalem all the days of your life, that you may see your children's children. Peace be upon Israel!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives. “your sons like olive shoots sitting around your table” (Psalm 128:3).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

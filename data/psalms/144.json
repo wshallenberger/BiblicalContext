@@ -1,0 +1,237 @@
+{
+ "book": "Psalms",
+ "chapter": 144,
+ "title": "Blessed Be the LORD, My Rock",
+ "translation": "BSB",
+ "superscription": "Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Blessed be the LORD, my Rock, who trains my hands for war, my fingers for battle."
+  },
+  {
+   "num": 2,
+   "text": "He is my steadfast love and my fortress, my stronghold and my deliverer. He is my shield, in whom I take refuge, who subdues peoples under me."
+  },
+  {
+   "num": 3,
+   "text": "O LORD, what is man, that You regard him, the son of man that You think of him?"
+  },
+  {
+   "num": 4,
+   "text": "Man is like a breath; his days are like a passing shadow."
+  },
+  {
+   "num": 5,
+   "text": "Part Your heavens, O LORD, and come down; touch the mountains, that they may smoke."
+  },
+  {
+   "num": 6,
+   "text": "Flash forth Your lightning and scatter them; shoot Your arrows and rout them."
+  },
+  {
+   "num": 7,
+   "text": "Reach down from on high; set me free and rescue me from the deep waters, from the grasp of foreigners,"
+  },
+  {
+   "num": 8,
+   "text": "whose mouths speak falsehood, whose right hands are deceitful."
+  },
+  {
+   "num": 9,
+   "text": "I will sing to You a new song, O God; on a harp of ten strings I will make music to You—"
+  },
+  {
+   "num": 10,
+   "text": "to Him who gives victory to kings, who frees His servant David from the deadly sword."
+  },
+  {
+   "num": 11,
+   "text": "Set me free and rescue me from the grasp of foreigners, whose mouths speak falsehood, whose right hands are deceitful."
+  },
+  {
+   "num": 12,
+   "text": "Then our sons will be like plants nurtured in their youth, our daughters like corner pillars carved to adorn a palace."
+  },
+  {
+   "num": 13,
+   "text": "Our storehouses will be full, supplying all manner of produce; our flocks will bring forth thousands, tens of thousands in our fields."
+  },
+  {
+   "num": 14,
+   "text": "Our oxen will bear great loads. There will be no breach in the walls, no going into captivity, and no cry of lament in our streets."
+  },
+  {
+   "num": 15,
+   "text": "Blessed are the people of whom this is so; blessed are the people whose God is the LORD."
+  }
+ ],
+ "context": {
+  "author": "The title names David. Psalms 138-145 are the last group of David’s psalms in the book. Much of it is drawn from Psalm 18 and Psalm 8.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Blessed be the LORD, my Rock, who trains my hands for war, my fingers for battle. He is my steadfast love and my fortress” (vv.1-2). Then wonder: “O LORD, what is man, that You regard him…? Man is like a breath; his days are like a passing shadow” (vv.3-4). The king asks God to come down in storm and rescue him “from the grasp of foreigners, whose mouths speak falsehood” (vv.5-8). “I will sing to You a new song, O God; on a harp of ten strings I will make music to You” (v.9). The psalm ends picturing a blessed nation: sons “like plants nurtured in their youth,” daughters “like corner pillars carved to adorn a palace,” full barns and flocks, “no breach in the walls, no going into captivity” (vv.12-14). “Blessed are the people whose God is the LORD” (v.15).",
+  "custom": "Kings trained for war with sword and bow (2 Samuel 22:35). Carved corner pillars were the most ornate parts of a palace. A breach in the wall and going into captivity were the worst fates of a besieged city (v.14).",
+  "timelineImmediate": "Psalm 145, David’s great alphabet psalm of praise.",
+  "timelineBible": "Hebrews quotes Psalm 8’s question “What is man, that You are mindful of him?” about Jesus (Hebrews 2:6). James asks, “What is your life? You are a mist” (James 4:14), like v.4. Paul says believers fight with weapons that are “not the weapons of the world” (2 Corinthians 10:4).",
+  "translation": [
+   {
+    "english": "breath",
+    "greek": "הֶבֶל (hevel)",
+    "verseRef": "v.4",
+    "meaning": "Breath, vapor; the “vanity” of Ecclesiastes.",
+    "gloss": "Breath",
+    "strongs": "H1892",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "ten",
+    "greek": "עָשׂוֹר (asor)",
+    "verseRef": "v.9",
+    "meaning": "Ten; a ten-stringed instrument.",
+    "gloss": "Ten strings",
+    "strongs": "H6218",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "corner pillars",
+    "greek": "זָוִית (zaviyyah)",
+    "verseRef": "v.12",
+    "meaning": "Corner, corner pillar.",
+    "gloss": "Corner",
+    "strongs": "H2106",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 2:6-9",
+    "note": "What is man?"
+   },
+   {
+    "ref": "James 4:13-15",
+    "note": "Your life is a mist."
+   },
+   {
+    "ref": "2 Corinthians 10:3-5",
+    "note": "Weapons not of the world."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 18:1-2",
+    "note": "My rock and my fortress."
+   },
+   {
+    "ref": "Psalm 8:4",
+    "note": "What is man?"
+   },
+   {
+    "ref": "Ecclesiastes 6:12",
+    "note": "His days like a shadow."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David blesses the LORD who trains him for battle and asks to be rescued, marveling that God cares for fleeting man, and pictures the blessed people whose God is the LORD.",
+   "settingLine": "A king armed by God.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s wars",
+     "t": "Victories over the Philistines and others."
+    },
+    {
+     "h": "A blessed land",
+     "t": "Peace and plenty."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Royal training",
+     "t": "Kings trained for war."
+    },
+    {
+     "h": "Carved pillars",
+     "t": "Palace decoration."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Proto-Aeolic capitals",
+     "t": "Carved stone capitals from royal buildings at Samaria, Megiddo and Ramat Rachel."
+    },
+    {
+     "h": "Storehouses",
+     "t": "Pillared storehouses at Beersheba and Hazor."
+    }
+   ],
+   "discussion": "“Man is like a breath” (v.4), yet God regards him (v.3). How does God’s attention to me change how I face my own frailty?",
+   "book": "The book of Psalms · 150 psalms (all 150 in the app). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Royal prayer and blessing",
+   "audience": "God, from the king",
+   "refNotes": {
+    "Psalm 18:1-2": "The source psalm",
+    "Psalm 8:4": "What is man?",
+    "Ecclesiastes 6:12": "A shadow"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Trained by God"
+    },
+    {
+     "n": "The foreigners",
+     "d": "Speak falsehood"
+    },
+    {
+     "n": "The blessed people",
+     "d": "Whose God is the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "My Rock; what is man?"
+    },
+    {
+     "when": "v.5-11",
+     "label": "Come down and rescue me"
+    },
+    {
+     "when": "v.12-15",
+     "label": "The blessed people"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Blessed be the LORD, my Rock, who trains my hands for war, my fingers for battle. He is my steadfast love and my fortress, my stronghold and my deliverer. He is my shield, in whom I take refuge, who subdues peoples under me. O LORD, what is man, that You regard him, the son of man that You think of him? Man is like a breath; his days are like a passing shadow. I will sing to You a new song, O God; on a harp of ten strings I will make music to You— Then our sons will be like plants nurtured in their youth, our daughters like corner pillars carved to adorn a palace. Blessed are the people of whom this is so; blessed are the people whose God is the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+   "caption": "The fortress rock of Masada above the Dead Sea. “He is my steadfast love and my fortress, my stronghold and my deliverer” (Psalm 144:2).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}
