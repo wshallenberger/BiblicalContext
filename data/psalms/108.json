@@ -1,0 +1,259 @@
+{
+ "book": "Psalms",
+ "chapter": 108,
+ "title": "My Heart Is Steadfast, O God",
+ "translation": "BSB",
+ "superscription": "A song. A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "My heart is steadfast, O God; I will sing and make music with all my being."
+  },
+  {
+   "num": 2,
+   "text": "Awake, O harp and lyre! I will awaken the dawn."
+  },
+  {
+   "num": 3,
+   "text": "I will praise You, O LORD, among the nations; I will sing Your praises among the peoples."
+  },
+  {
+   "num": 4,
+   "text": "For Your loving devotion extends beyond the heavens, and Your faithfulness reaches to the clouds."
+  },
+  {
+   "num": 5,
+   "text": "Be exalted, O God, above the heavens; may Your glory cover all the earth."
+  },
+  {
+   "num": 6,
+   "text": "Respond and save us with Your right hand, that Your beloved may be delivered."
+  },
+  {
+   "num": 7,
+   "text": "God has spoken from His sanctuary: \"I will triumph! I will parcel out Shechem and apportion the Valley of Succoth."
+  },
+  {
+   "num": 8,
+   "text": "Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter."
+  },
+  {
+   "num": 9,
+   "text": "Moab is My washbasin; upon Edom I toss My sandal; over Philistia I shout in triumph.\""
+  },
+  {
+   "num": 10,
+   "text": "Who will bring me to the fortified city? Who will lead me to Edom?"
+  },
+  {
+   "num": 11,
+   "text": "Have You not rejected us, O God? Will You no longer march out, O God, with our armies?"
+  },
+  {
+   "num": 12,
+   "text": "Give us aid against the enemy, for the help of man is worthless."
+  },
+  {
+   "num": 13,
+   "text": "With God we will perform with valor, and He will trample our enemies."
+  }
+ ],
+ "context": {
+  "author": "The title says “A song. A Psalm of David.” It joins the end of Psalm 57 (57:7-11) and the end of Psalm 60 (60:5-12), turning a lament and a defeat into a song of confidence.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "SHECHEM, SUCCOTH, GILEAD AND EDOM",
+  "setting": "“My heart is steadfast, O God; I will sing and make music with all my being. Awake, O harp and lyre! I will awaken the dawn” (vv.1-2). “For Your loving devotion extends beyond the heavens” (v.4). “Be exalted, O God, above the heavens; may Your glory cover all the earth” (v.5). Then God speaks from His sanctuary, claiming the whole land as His: “I will parcel out Shechem and apportion the Valley of Succoth. Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter” (vv.7-8). Israel’s enemies are His servants: “Moab is My washbasin; upon Edom I toss My sandal” (v.9). The king asks, “Who will lead me to Edom?” (v.10), and ends, “Give us aid against the enemy, for the help of man is worthless. With God we will perform with valor” (vv.12-13).",
+  "custom": "Reusing older psalms in new settings was common in Israel’s worship; Psalm 70 repeats Psalm 40:13-17 in the same way. A washbasin was for washing a servant’s or guest’s feet, and tossing a sandal over land was a gesture of claiming it (Ruth 4:7). Shechem lay west of the Jordan and Succoth east of it, so God claims both sides of the river.",
+  "timelineImmediate": "Psalm 109 is a fierce prayer against false accusers.",
+  "timelineBible": "Paul wrote, “If God is for us, who can be against us?” (Romans 8:31). Jesus taught that apart from Him “you can do nothing” (John 15:5), like v.12.",
+  "translation": [
+   {
+    "english": "steadfast",
+    "greek": "כּוּן (kun)",
+    "verseRef": "v.1",
+    "meaning": "Firm, fixed, established.",
+    "gloss": "Steadfast",
+    "strongs": "H3559",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "washbasin",
+    "greek": "סִיר (sir)",
+    "verseRef": "v.9",
+    "meaning": "Pot, basin.",
+    "gloss": "Basin",
+    "strongs": "H5518",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Edom",
+    "greek": "אֱדוֹם (edom)",
+    "verseRef": "v.9",
+    "meaning": "Edom, “red,” the land of Esau’s descendants.",
+    "gloss": "Edom",
+    "strongs": "H123",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 8:31",
+    "note": "If God is for us."
+   },
+   {
+    "ref": "John 15:5",
+    "note": "Apart from Me you can do nothing."
+   },
+   {
+    "ref": "Ephesians 6:10",
+    "note": "Be strong in the Lord."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 57:7-11",
+    "note": "The first half."
+   },
+   {
+    "ref": "Psalm 60:5-12",
+    "note": "The second half."
+   },
+   {
+    "ref": "2 Samuel 8:13-14",
+    "note": "David subdues Edom."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.213,
+   "lng": 35.282,
+   "zoom": 6,
+   "placeName": "Shechem (Tell Balata)"
+  },
+  "overview": {
+   "summary": "David’s steadfast heart wakes the dawn with praise, and he trusts God’s promise to claim the land and defeat Edom, because the help of man is worthless but with God there is victory.",
+   "settingLine": "Two old songs made into one battle hymn.",
+   "placeName": "Shechem (Tell Balata)",
+   "history": [
+    {
+     "h": "Wars with Edom",
+     "t": "David’s victory in the Valley of Salt."
+    },
+    {
+     "h": "Reused psalms",
+     "t": "Psalms 57 and 60 joined."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Waking the dawn",
+     "t": "Singing before sunrise."
+    },
+    {
+     "h": "Tossing a sandal",
+     "t": "Claiming land."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tell Balata",
+     "t": "The remains of Shechem with its great Middle Bronze Age temple and gate."
+    },
+    {
+     "h": "Tell Deir Alla",
+     "t": "Probably Succoth, in the Jordan Valley, where the Balaam inscription was found."
+    }
+   ],
+   "discussion": "The psalm reuses older prayers for a new moment. Is there a psalm I have prayed before that God is giving me again for something new?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Song of confidence",
+   "audience": "God, before battle",
+   "refNotes": {
+    "Psalm 57:7-11": "My heart is steadfast",
+    "Psalm 60:5-12": "God has spoken",
+    "2 Samuel 8:13-14": "Edom"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Wakes the dawn"
+    },
+    {
+     "n": "Ephraim and Judah",
+     "d": "God’s helmet and scepter"
+    },
+    {
+     "n": "Moab and Edom",
+     "d": "Subdued"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "My heart is steadfast"
+    },
+    {
+     "when": "v.6-9",
+     "label": "God has spoken"
+    },
+    {
+     "when": "v.10-13",
+     "label": "With God we will do valiantly"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Shechem (Tell Balata)",
+    "lat": 32.213,
+    "lng": 35.282,
+    "verses": [
+     7
+    ],
+    "slug": "shechem"
+   },
+   {
+    "name": "Succoth (Tell Deir Alla)",
+    "lat": 32.196,
+    "lng": 35.623,
+    "verses": [
+     7
+    ],
+    "slug": "succoth"
+   },
+   {
+    "name": "Edom (Bozrah, its capital)",
+    "lat": 30.73,
+    "lng": 35.61,
+    "verses": [
+     9,
+     10
+    ],
+    "slug": "edom"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [
+     7
+    ],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "My heart is steadfast, O God; I will sing and make music with all my being. Awake, O harp and lyre! I will awaken the dawn. I will praise You, O LORD, among the nations; I will sing Your praises among the peoples. For Your loving devotion extends beyond the heavens, and Your faithfulness reaches to the clouds. Be exalted, O God, above the heavens; may Your glory cover all the earth. God has spoken from His sanctuary: I will triumph! I will parcel out Shechem and apportion the Valley of Succoth. Give us aid against the enemy, for the help of man is worthless. With God we will perform with valor, and He will trample our enemies.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roman_siege_ramp_seen_from_the_hilltop,_Masada_(15444361849).jpg",
+   "caption": "The fortress rock of Masada above the Dead Sea, on the road toward Edom. “Who will bring me to the fortified city? Who will lead me to Edom?” (Psalm 108:10).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

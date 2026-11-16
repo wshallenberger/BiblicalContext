@@ -1,0 +1,205 @@
+{
+ "book": "Psalms",
+ "chapter": 124,
+ "title": "If the LORD Had Not Been on Our Side",
+ "translation": "BSB",
+ "superscription": "A song of ascents. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "If the LORD had not been on our side— let Israel now declare—"
+  },
+  {
+   "num": 2,
+   "text": "if the LORD had not been on our side when men attacked us,"
+  },
+  {
+   "num": 3,
+   "text": "when their anger flared against us, then they would have swallowed us alive,"
+  },
+  {
+   "num": 4,
+   "text": "then the floods would have engulfed us, then the torrent would have overwhelmed us,"
+  },
+  {
+   "num": 5,
+   "text": "then the raging waters would have swept us away."
+  },
+  {
+   "num": 6,
+   "text": "Blessed be the LORD, who has not given us as prey to their teeth."
+  },
+  {
+   "num": 7,
+   "text": "We have escaped like a bird from the snare of the fowler; the net is torn, and we have slipped away."
+  },
+  {
+   "num": 8,
+   "text": "Our help is in the name of the LORD, the Maker of heaven and earth."
+  }
+ ],
+ "context": {
+  "author": "The title says “A song of ascents. Of David.” They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“If the LORD had not been on our side— let Israel now declare— if the LORD had not been on our side when men attacked us, when their anger flared against us, then they would have swallowed us alive” (vv.1-3). The danger is pictured as a flash flood: “then the floods would have engulfed us, then the torrent would have overwhelmed us, then the raging waters would have swept us away” (vv.4-5). “Blessed be the LORD, who has not given us as prey to their teeth” (v.6). “We have escaped like a bird from the snare of the fowler; the net is torn, and we have slipped away” (v.7). “Our help is in the name of the LORD, the Maker of heaven and earth” (v.8).",
+  "custom": "Dry wadis in Israel can turn into raging torrents in minutes after a storm in the hills, sweeping away anything in their path. Fowlers caught birds with nets and spring traps; a torn net let the bird fly free. Verse 8 has long been used to open worship in Reformed churches.",
+  "timelineImmediate": "Psalm 125: “Those who trust in the LORD are like Mount Zion.”",
+  "timelineBible": "Paul wrote, “If God is for us, who can be against us?” (Romans 8:31). He told the Corinthians that God “delivered us from such a deadly peril, and He will deliver us” (2 Corinthians 1:10).",
+  "translation": [
+   {
+    "english": "snare",
+    "greek": "פַּח (pach)",
+    "verseRef": "v.7",
+    "meaning": "Snare, trap, bird net.",
+    "gloss": "Snare",
+    "strongs": "H6341",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fowler",
+    "greek": "יָקֹשׁ (yaqosh)",
+    "verseRef": "v.7",
+    "meaning": "To lay a snare; fowlers, bird-catchers.",
+    "gloss": "Fowler",
+    "strongs": "H3369",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "torrent",
+    "greek": "נַחַל (nachal)",
+    "verseRef": "v.4",
+    "meaning": "Torrent, wadi, stream that floods.",
+    "gloss": "Torrent",
+    "strongs": "H5158",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 8:31-39",
+    "note": "If God is for us."
+   },
+   {
+    "ref": "2 Corinthians 1:8-11",
+    "note": "Delivered from deadly peril."
+   },
+   {
+    "ref": "2 Timothy 4:17-18",
+    "note": "The Lord stood by me."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 14:26-31",
+    "note": "The waters that covered Israel’s enemies."
+   },
+   {
+    "ref": "Psalm 91:3",
+    "note": "The snare of the fowler."
+   },
+   {
+    "ref": "Isaiah 43:2",
+    "note": "The rivers will not overwhelm you."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Israel declares that if the LORD had not been on its side, enemies and floods would have swallowed it; instead it escaped like a bird from a torn net, for its help is in the LORD’s name.",
+   "settingLine": "Escaped like a bird from the net.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Narrow escapes",
+     "t": "From Egypt, Assyria and others."
+    },
+    {
+     "h": "Reformed worship",
+     "t": "Opens with v.8."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Flash floods",
+     "t": "Wadis that fill in minutes."
+    },
+    {
+     "h": "Bird nets",
+     "t": "Spring traps and clap-nets."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Fowling scenes",
+     "t": "Egyptian tomb paintings show clap-nets full of birds."
+    },
+    {
+     "h": "Wadi channels",
+     "t": "Dry stream beds across the Judean desert show the force of winter floods."
+    }
+   ],
+   "discussion": "“If the LORD had not been on our side” (v.1). What would my story look like without God’s help? Let me name one rescue.",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Song of ascents; community thanksgiving",
+   "audience": "Israel, called to declare it",
+   "refNotes": {
+    "Exodus 14:26-31": "The sea",
+    "Psalm 91:3": "The snare",
+    "Isaiah 43:2": "Through the waters"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Israel",
+     "d": "Called to declare it"
+    },
+    {
+     "n": "The attackers",
+     "d": "Like floods and fowlers"
+    },
+    {
+     "n": "The LORD",
+     "d": "On our side"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "If not for the LORD"
+    },
+    {
+     "when": "v.6-8",
+     "label": "Escaped like a bird"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "If the LORD had not been on our side— let Israel now declare— if the LORD had not been on our side when men attacked us, when their anger flared against us, then they would have swallowed us alive, Blessed be the LORD, who has not given us as prey to their teeth. We have escaped like a bird from the snare of the fowler; the net is torn, and we have slipped away. Our help is in the name of the LORD, the Maker of heaven and earth.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+   "caption": "The Jordan River in flood season. “then the torrent would have overwhelmed us” (Psalm 124:4).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

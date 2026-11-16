@@ -1,0 +1,252 @@
+{
+ "book": "Psalms",
+ "chapter": 116,
+ "title": "I Will Lift the Cup of Salvation",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I love the LORD, for He has heard my voice— my appeal for mercy."
+  },
+  {
+   "num": 2,
+   "text": "Because He has inclined His ear to me, I will call on Him as long as I live."
+  },
+  {
+   "num": 3,
+   "text": "The ropes of death entangled me; the anguish of Sheol overcame me; I was confronted by trouble and sorrow."
+  },
+  {
+   "num": 4,
+   "text": "Then I called on the name of the LORD: \"O LORD, deliver my soul!\""
+  },
+  {
+   "num": 5,
+   "text": "The LORD is gracious and righteous; our God is full of compassion."
+  },
+  {
+   "num": 6,
+   "text": "The LORD preserves the simplehearted; I was helpless, and He saved me."
+  },
+  {
+   "num": 7,
+   "text": "Return to your rest, O my soul, for the LORD has been good to you."
+  },
+  {
+   "num": 8,
+   "text": "For You have delivered my soul from death, my eyes from tears, my feet from stumbling."
+  },
+  {
+   "num": 9,
+   "text": "I will walk before the LORD in the land of the living."
+  },
+  {
+   "num": 10,
+   "text": "I believed, therefore I said, \"I am greatly afflicted.\""
+  },
+  {
+   "num": 11,
+   "text": "In my alarm I said, \"All men are liars!\""
+  },
+  {
+   "num": 12,
+   "text": "How can I repay the LORD for all His goodness to me?"
+  },
+  {
+   "num": 13,
+   "text": "I will lift the cup of salvation and call on the name of the LORD."
+  },
+  {
+   "num": 14,
+   "text": "I will fulfill my vows to the LORD in the presence of all His people."
+  },
+  {
+   "num": 15,
+   "text": "Precious in the sight of the LORD is the death of His saints."
+  },
+  {
+   "num": 16,
+   "text": "Truly, O LORD, I am Your servant; I am Your servant, the son of Your maidservant; You have broken my bonds."
+  },
+  {
+   "num": 17,
+   "text": "I will offer to You a sacrifice of thanksgiving and call on the name of the LORD."
+  },
+  {
+   "num": 18,
+   "text": "I will fulfill my vows to the LORD in the presence of all His people,"
+  },
+  {
+   "num": 19,
+   "text": "in the courts of the LORD's house, in your midst, O Jerusalem. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Part of the Hallel sung after the Passover meal.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I love the LORD, for He has heard my voice— my appeal for mercy” (v.1). The singer had been near death: “The ropes of death entangled me; the anguish of Sheol overcame me” (v.3). He called, “O LORD, deliver my soul!” (v.4), and God saved him. “Return to your rest, O my soul, for the LORD has been good to you. For You have delivered my soul from death, my eyes from tears, my feet from stumbling” (vv.7-8). “I believed, therefore I said” (v.10). Now he asks, “How can I repay the LORD for all His goodness to me? I will lift the cup of salvation and call on the name of the LORD. I will fulfill my vows to the LORD in the presence of all His people” (vv.12-14). “Precious in the sight of the LORD is the death of His saints” (v.15). He will offer a sacrifice of thanksgiving in the Temple courts in Jerusalem (vv.17-19).",
+  "custom": "A worshiper rescued from danger would often vow a thank offering and then bring it to the Temple and eat it with family and friends, telling what God had done (Leviticus 7:11-15; 22:29). A cup was lifted with the drink offering. At the Passover meal several cups of wine were drunk, and the Hallel was sung with the later cups.",
+  "timelineImmediate": "Psalm 117, the shortest psalm, calls all nations to praise.",
+  "timelineBible": "Paul quotes v.10 from the Greek: “I believed, therefore I have spoken” (2 Corinthians 4:13). At the Last Supper Jesus took the cup after supper, saying, “This cup is the new covenant in My blood” (Luke 22:20), and Paul calls it “the cup of blessing” (1 Corinthians 10:16).",
+  "translation": [
+   {
+    "english": "cup",
+    "greek": "כּוֹס (kos)",
+    "verseRef": "v.13",
+    "meaning": "Cup; one’s lot or portion.",
+    "gloss": "Cup",
+    "strongs": "H3563",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "precious",
+    "greek": "יָקָר (yaqar)",
+    "verseRef": "v.15",
+    "meaning": "Precious, costly, weighty.",
+    "gloss": "Precious",
+    "strongs": "H3368",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "vows",
+    "greek": "נֶדֶר (neder)",
+    "verseRef": "v.14",
+    "meaning": "Vow, a promise made to God.",
+    "gloss": "Vow",
+    "strongs": "H5088",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "2 Corinthians 4:13-14",
+    "note": "I believed, therefore I have spoken."
+   },
+   {
+    "ref": "Luke 22:17-20",
+    "note": "The cup of the new covenant."
+   },
+   {
+    "ref": "1 Corinthians 10:16",
+    "note": "The cup of blessing."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Leviticus 7:11-15",
+    "note": "The thank offering."
+   },
+   {
+    "ref": "Jonah 2:9",
+    "note": "What I have vowed I will make good."
+   },
+   {
+    "ref": "Isaiah 38:17-20",
+    "note": "Hezekiah’s thanks for healing."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Rescued from the ropes of death, the psalmist loves the LORD who heard him, tells his soul to rest, and lifts the cup of salvation as he pays his vows in the Temple.",
+   "settingLine": "Thanks paid in the Temple courts.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Passover",
+     "t": "Cups of wine and the Hallel."
+    },
+    {
+     "h": "The Last Supper",
+     "t": "The cup of the new covenant."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Vows",
+     "t": "Promised in trouble, paid in thanks."
+    },
+    {
+     "h": "Thank offerings",
+     "t": "A meal shared with others."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Drinking cups",
+     "t": "Iron Age bowls and chalices found in Judahite homes and shrines."
+    },
+    {
+     "h": "Vow inscriptions",
+     "t": "Phoenician and Punic stelae record vows paid to a god after a prayer was heard."
+    }
+   ],
+   "discussion": "“How can I repay the LORD for all His goodness to me?” (v.12). The answer is to receive more (lift the cup) and to call on Him. What does that say about gratitude?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Personal thanksgiving (Hallel)",
+   "audience": "God, before His people",
+   "refNotes": {
+    "Leviticus 7:11-15": "Thank offering",
+    "Jonah 2:9": "Vows paid",
+    "Isaiah 38:17-20": "Saved from death"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The psalmist",
+     "d": "Saved from death"
+    },
+    {
+     "n": "His people",
+     "d": "Witness his vows"
+    },
+    {
+     "n": "His saints",
+     "d": "Precious in death"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "He heard my voice"
+    },
+    {
+     "when": "v.5-11",
+     "label": "Return to your rest"
+    },
+    {
+     "when": "v.12-19",
+     "label": "The cup of salvation"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I love the LORD, for He has heard my voice— my appeal for mercy. Because He has inclined His ear to me, I will call on Him as long as I live. The ropes of death entangled me; the anguish of Sheol overcame me; I was confronted by trouble and sorrow. Then I called on the name of the LORD: O LORD, deliver my soul! Return to your rest, O my soul, for the LORD has been good to you. For You have delivered my soul from death, my eyes from tears, my feet from stumbling. How can I repay the LORD for all His goodness to me? I will lift the cup of salvation and call on the name of the LORD. Precious in the sight of the LORD is the death of His saints. I will offer to You a sacrifice of thanksgiving and call on the name of the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Última_Cena_-_Da_Vinci_5.jpg",
+   "caption": "The Last Supper, by Leonardo da Vinci (1495-1498). Psalm 116 was sung with the cups of the Passover meal: “I will lift the cup of salvation and call on the name of the LORD” (Psalm 116:13).",
+   "credit": "Leonardo da Vinci (1495-1498), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem, where vows were paid. “I will fulfill my vows to the LORD in the presence of all His people” (Psalm 116:14).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

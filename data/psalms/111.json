@@ -1,0 +1,216 @@
+{
+ "book": "Psalms",
+ "chapter": 111,
+ "title": "Great Are the Works of the LORD",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! I will give thanks to the LORD with all my heart in the council of the upright and in the assembly."
+  },
+  {
+   "num": 2,
+   "text": "Great are the works of the LORD; they are pondered by all who delight in them."
+  },
+  {
+   "num": 3,
+   "text": "Splendid and majestic is His work; His righteousness endures forever."
+  },
+  {
+   "num": 4,
+   "text": "He has caused His wonders to be remembered; the LORD is gracious and compassionate."
+  },
+  {
+   "num": 5,
+   "text": "He provides food for those who fear Him; He remembers His covenant forever."
+  },
+  {
+   "num": 6,
+   "text": "He has shown His people the power of His works by giving them the inheritance of the nations."
+  },
+  {
+   "num": 7,
+   "text": "The works of His hands are truth and justice; all His precepts are trustworthy."
+  },
+  {
+   "num": 8,
+   "text": "They are upheld forever and ever, enacted in truth and uprightness."
+  },
+  {
+   "num": 9,
+   "text": "He has sent redemption to His people; He has ordained His covenant forever; holy and awesome is His name."
+  },
+  {
+   "num": 10,
+   "text": "The fear of the LORD is the beginning of wisdom; all who follow His precepts gain rich understanding. His praise endures forever!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Psalms 111 and 112 are twin alphabet poems: after “Hallelujah,” each of their 22 lines begins with the next letter of the Hebrew alphabet.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hallelujah! I will give thanks to the LORD with all my heart in the council of the upright and in the assembly” (v.1). “Great are the works of the LORD; they are pondered by all who delight in them” (v.2). God has made His wonders memorable, through the feasts that retell them, and “the LORD is gracious and compassionate” (v.4). “He provides food for those who fear Him; He remembers His covenant forever” (v.5). He gave Israel the land (v.6), and His precepts are trustworthy (vv.7-8). “He has sent redemption to His people… holy and awesome is His name” (v.9). The psalm ends where Proverbs begins: “The fear of the LORD is the beginning of wisdom” (v.10).",
+  "custom": "Alphabet poems (acrostics) helped people memorize Scripture and expressed completeness, praise ‘from A to Z.’ The feasts of Passover, Weeks and Tabernacles were set up so that each generation would remember God’s works (Exodus 12:14; Deuteronomy 16:3). The “food” of v.5 recalls the manna in the wilderness.",
+  "timelineImmediate": "Psalm 112, its twin, describes the blessed man who fears the LORD.",
+  "timelineBible": "The same words begin the wisdom of Proverbs: “The fear of the LORD is the beginning of wisdom” (Proverbs 9:10). Zechariah sang that God “has visited and redeemed His people” (Luke 1:68). Jesus told His disciples to remember Him at the Passover meal: “do this in remembrance of Me” (Luke 22:19).",
+  "translation": [
+   {
+    "english": "fear",
+    "greek": "יִרְאָה (yirah)",
+    "verseRef": "v.10",
+    "meaning": "Fear, reverence, awe.",
+    "gloss": "Fear",
+    "strongs": "H3374",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "beginning",
+    "greek": "רֵאשִׁית (reshit)",
+    "verseRef": "v.10",
+    "meaning": "Beginning, first, chief part.",
+    "gloss": "Beginning",
+    "strongs": "H7225",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "redemption",
+    "greek": "פְּדוּת (pedut)",
+    "verseRef": "v.9",
+    "meaning": "Redemption, ransom.",
+    "gloss": "Redemption",
+    "strongs": "H6304",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 1:68-75",
+    "note": "He has redeemed His people."
+   },
+   {
+    "ref": "Luke 22:19",
+    "note": "Do this in remembrance of Me."
+   },
+   {
+    "ref": "Revelation 15:3",
+    "note": "Great and wonderful are Your works."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Proverbs 9:10",
+    "note": "The fear of the LORD is the beginning of wisdom."
+   },
+   {
+    "ref": "Exodus 12:14",
+    "note": "A day to remember."
+   },
+   {
+    "ref": "Psalm 112:1",
+    "note": "Its twin psalm."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "An alphabet hymn praising God’s great works, His covenant faithfulness and His redemption, ending with the fear of the LORD as the beginning of wisdom.",
+   "settingLine": "Praise from A to Z in the assembly.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The feasts",
+     "t": "Set up to remember God’s works."
+    },
+    {
+     "h": "Manna",
+     "t": "Food in the wilderness."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Acrostic poems",
+     "t": "Lines in alphabetical order."
+    },
+    {
+     "h": "Remembering",
+     "t": "Retelling God’s works at the feasts."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Abecedaries",
+     "t": "Practice tablets with the alphabet written out, such as the one from Izbet Sartah, show how letters were learned."
+    },
+    {
+     "h": "Ostraca",
+     "t": "Inscribed potsherds from Arad and Lachish show writing in Judah in the time of the kings."
+    }
+   ],
+   "discussion": "God’s works “are pondered by all who delight in them” (v.2). When did I last take time to ponder something God has done?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Acrostic hymn",
+   "audience": "The assembly of the upright",
+   "refNotes": {
+    "Proverbs 9:10": "The beginning of wisdom",
+    "Exodus 12:14": "Passover remembered",
+    "Psalm 112:1": "The twin"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The upright",
+     "d": "Gathered in assembly"
+    },
+    {
+     "n": "Those who fear Him",
+     "d": "Given food"
+    },
+    {
+     "n": "His people",
+     "d": "Redeemed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "Great are His works"
+    },
+    {
+     "when": "v.5-9",
+     "label": "Covenant and redemption"
+    },
+    {
+     "when": "v.10",
+     "label": "The beginning of wisdom"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! I will give thanks to the LORD with all my heart in the council of the upright and in the assembly. Great are the works of the LORD; they are pondered by all who delight in them. He has caused His wonders to be remembered; the LORD is gracious and compassionate. He provides food for those who fear Him; He remembers His covenant forever. He has sent redemption to His people; He has ordained His covenant forever; holy and awesome is His name. The fear of the LORD is the beginning of wisdom; all who follow His precepts gain rich understanding. His praise endures forever!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives. “He provides food for those who fear Him; He remembers His covenant forever” (Psalm 111:5).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

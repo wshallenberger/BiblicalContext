@@ -1,0 +1,180 @@
+{
+ "book": "Psalms",
+ "chapter": 117,
+ "title": "Praise the LORD, All You Nations",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Praise the LORD, all you nations! Extol Him, all you peoples!"
+  },
+  {
+   "num": 2,
+   "text": "For great is His loving devotion toward us, and the faithfulness of the LORD endures forever. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. The shortest psalm and the shortest chapter in the Bible, sung as part of the Hallel.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "Two verses, and the whole world is invited: “Praise the LORD, all you nations! Extol Him, all you peoples!” (v.1). The reason is what God has done for Israel: “For great is His loving devotion toward us, and the faithfulness of the LORD endures forever. Hallelujah!” (v.2). God’s faithfulness to one people becomes good news for every people.",
+  "custom": "In its two verses the psalm has the two great words of God’s character, chesed (loving devotion) and emet (faithfulness), the pair God proclaimed at Sinai (Exodus 34:6). It was sung after the Passover meal as part of the Hallel.",
+  "timelineImmediate": "Psalm 118 closes the Hallel: the stone the builders rejected has become the cornerstone.",
+  "timelineBible": "Paul quotes v.1 to show that God always meant to save the nations: “Praise the Lord, all you Gentiles, and extol Him, all you peoples” (Romans 15:11). Jesus sent His disciples to “make disciples of all nations” (Matthew 28:19).",
+  "translation": [
+   {
+    "english": "Praise",
+    "greek": "הָלַל (halal)",
+    "verseRef": "v.1",
+    "meaning": "To praise; the root of Hallelujah.",
+    "gloss": "Praise",
+    "strongs": "H1984",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Extol",
+    "greek": "שָׁבַח (shabach)",
+    "verseRef": "v.1",
+    "meaning": "To praise, laud, commend.",
+    "gloss": "Laud",
+    "strongs": "H7623",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "loving devotion",
+    "greek": "חֶסֶד (chesed)",
+    "verseRef": "v.2",
+    "meaning": "Steadfast love, covenant loyalty, kindness.",
+    "gloss": "Steadfast love",
+    "strongs": "H2617",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 15:8-11",
+    "note": "Praise the Lord, all you Gentiles."
+   },
+   {
+    "ref": "Matthew 28:19-20",
+    "note": "Make disciples of all nations."
+   },
+   {
+    "ref": "Revelation 7:9-10",
+    "note": "A multitude from every nation."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 12:3",
+    "note": "All families blessed through Abraham."
+   },
+   {
+    "ref": "Exodus 34:6",
+    "note": "Loving devotion and faithfulness."
+   },
+   {
+    "ref": "Isaiah 49:6",
+    "note": "A light to the nations."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The shortest psalm calls every nation to praise the LORD for His great love and faithfulness to Israel, which endure forever.",
+   "settingLine": "Two verses for the whole world.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "God’s promise to Abraham",
+     "t": "Blessing for all nations."
+    },
+    {
+     "h": "The gospel to the Gentiles",
+     "t": "Romans 15."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Hallel",
+     "t": "Sung at the feasts."
+    },
+    {
+     "h": "Love and faithfulness",
+     "t": "A pair of covenant words."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Great Psalms Scroll",
+     "t": "Copies from Qumran show the Hallel psalms were sung and copied together."
+    },
+    {
+     "h": "Synagogue inscriptions",
+     "t": "Later synagogue mosaics and inscriptions in Israel quote psalms of praise."
+    }
+   ],
+   "discussion": "God’s faithfulness to Israel is a reason for all nations to praise (v.2). How does God’s faithfulness to others give me reason to praise Him?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hymn of praise (Hallel)",
+   "audience": "All nations",
+   "refNotes": {
+    "Genesis 12:3": "Blessing for all",
+    "Exodus 34:6": "Love and faithfulness",
+    "Isaiah 49:6": "Light to the nations"
+   },
+   "peoplePlaces": [
+    {
+     "n": "All nations",
+     "d": "Called to praise"
+    },
+    {
+     "n": "All peoples",
+     "d": "Called to extol"
+    },
+    {
+     "n": "Israel",
+     "d": "Receives His love"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1",
+     "label": "Praise, all nations"
+    },
+    {
+     "when": "v.2",
+     "label": "For His love endures"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Praise the LORD, all you nations! Extol Him, all you peoples! For great is His loving devotion toward us, and the faithfulness of the LORD endures forever. Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives. “For great is His loving devotion toward us, and the faithfulness of the LORD endures forever” (Psalm 117:2).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

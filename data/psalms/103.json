@@ -1,0 +1,269 @@
+{
+ "book": "Psalms",
+ "chapter": 103,
+ "title": "Bless the LORD, O My Soul",
+ "translation": "BSB",
+ "superscription": "Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Bless the LORD, O my soul; all that is within me, bless His holy name."
+  },
+  {
+   "num": 2,
+   "text": "Bless the LORD, O my soul, and do not forget all His kind deeds—"
+  },
+  {
+   "num": 3,
+   "text": "He who forgives all your iniquities and heals all your diseases,"
+  },
+  {
+   "num": 4,
+   "text": "who redeems your life from the Pit and crowns you with loving devotion and compassion,"
+  },
+  {
+   "num": 5,
+   "text": "who satisfies you with good things, so that your youth is renewed like the eagle's."
+  },
+  {
+   "num": 6,
+   "text": "The LORD executes righteousness and justice for all the oppressed."
+  },
+  {
+   "num": 7,
+   "text": "He made known His ways to Moses, His deeds to the people of Israel."
+  },
+  {
+   "num": 8,
+   "text": "The LORD is compassionate and gracious, slow to anger, abounding in loving devotion."
+  },
+  {
+   "num": 9,
+   "text": "He will not always accuse us, nor harbor His anger forever."
+  },
+  {
+   "num": 10,
+   "text": "He has not dealt with us according to our sins or repaid us according to our iniquities."
+  },
+  {
+   "num": 11,
+   "text": "For as high as the heavens are above the earth, so great is His loving devotion for those who fear Him."
+  },
+  {
+   "num": 12,
+   "text": "As far as the east is from the west, so far has He removed our transgressions from us."
+  },
+  {
+   "num": 13,
+   "text": "As a father has compassion on his children, so the LORD has compassion on those who fear Him."
+  },
+  {
+   "num": 14,
+   "text": "For He knows our frame; He is mindful that we are dust."
+  },
+  {
+   "num": 15,
+   "text": "As for man, his days are like grass— he blooms like a flower of the field;"
+  },
+  {
+   "num": 16,
+   "text": "when the wind passes over, it vanishes, and its place remembers it no more."
+  },
+  {
+   "num": 17,
+   "text": "But from everlasting to everlasting the loving devotion of the LORD extends to those who fear Him, and His righteousness to their children's children—"
+  },
+  {
+   "num": 18,
+   "text": "to those who keep His covenant and remember to obey His precepts."
+  },
+  {
+   "num": 19,
+   "text": "The LORD has established His throne in heaven, and His kingdom rules over all."
+  },
+  {
+   "num": 20,
+   "text": "Bless the LORD, all His angels mighty in strength who carry out His word, who hearken to the voice of His command."
+  },
+  {
+   "num": 21,
+   "text": "Bless the LORD, all His hosts, you servants who do His will."
+  },
+  {
+   "num": 22,
+   "text": "Bless the LORD, all His works in all places of His dominion. Bless the LORD, O my soul!"
+  }
+ ],
+ "context": {
+  "author": "The title says “Of David.” With Psalm 101 it is one of two psalms in Book Four that carry his name.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "David speaks to himself: “Bless the LORD, O my soul; all that is within me, bless His holy name… and do not forget all His kind deeds” (vv.1-2). He lists them: God “forgives all your iniquities and heals all your diseases… redeems your life from the Pit and crowns you with loving devotion and compassion” (vv.3-4). He recalls God’s name to Moses: “The LORD is compassionate and gracious, slow to anger, abounding in loving devotion” (v.8). “He has not dealt with us according to our sins” (v.10). “For as high as the heavens are above the earth, so great is His loving devotion for those who fear Him. As far as the east is from the west, so far has He removed our transgressions from us. As a father has compassion on his children, so the LORD has compassion on those who fear Him. For He knows our frame; He is mindful that we are dust” (vv.11-14). Man is like grass, but God’s love is “from everlasting to everlasting” (v.17). The psalm ends calling angels, hosts and all His works to bless Him, and returns to where it began: “Bless the LORD, O my soul!” (v.22).",
+  "custom": "Verse 8 repeats the name God proclaimed to Moses at Sinai (Exodus 34:6). East and west (v.12) are the farthest distances a person could imagine, distances that never meet. A father’s compassion (v.13) was the deepest family love in Israel, where fathers were heads of the household.",
+  "timelineImmediate": "Psalm 104 blesses the LORD as Creator of all the earth.",
+  "timelineBible": "Jesus taught His disciples to pray to God as Father (Matthew 6:9) and told the parable of the father who ran to his returning son (Luke 15:20). John writes, “If we confess our sins, He is faithful and just to forgive us our sins” (1 John 1:9). Henry Lyte’s hymn ‘Praise, My Soul, the King of Heaven’ (1834) is based on this psalm.",
+  "translation": [
+   {
+    "english": "bless",
+    "greek": "בָּרַךְ (barakh)",
+    "verseRef": "v.1",
+    "meaning": "To bless, kneel, praise.",
+    "gloss": "Bless",
+    "strongs": "H1288",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "kind deeds",
+    "greek": "גְּמוּל (gemul)",
+    "verseRef": "v.2",
+    "meaning": "Dealing, benefit, what one has done.",
+    "gloss": "Benefits",
+    "strongs": "H1576",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "frame",
+    "greek": "יֵצֶר (yetser)",
+    "verseRef": "v.14",
+    "meaning": "Form, frame; what was shaped, as a potter shapes clay.",
+    "gloss": "Frame",
+    "strongs": "H3336",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 15:20-24",
+    "note": "The father runs to his son."
+   },
+   {
+    "ref": "1 John 1:9",
+    "note": "Faithful and just to forgive."
+   },
+   {
+    "ref": "Ephesians 2:4-5",
+    "note": "God, rich in mercy."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 34:6-7",
+    "note": "Compassionate and gracious."
+   },
+   {
+    "ref": "Isaiah 40:6-8",
+    "note": "All flesh is grass."
+   },
+   {
+    "ref": "Micah 7:18-19",
+    "note": "You cast our sins into the sea."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "David calls his own soul and then all creation to bless the LORD, who forgives, heals and redeems, removes our sins as far as east from west, and has a father’s compassion for frail people made of dust.",
+   "settingLine": "A soul reminded of every benefit.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Sinai",
+     "t": "God proclaims His name to Moses."
+    },
+    {
+     "h": "David’s forgiveness",
+     "t": "After his sin (2 Samuel 12:13)."
+    }
+   ],
+   "customs": [
+    {
+     "h": "A father’s compassion",
+     "t": "The head of the household."
+    },
+    {
+     "h": "Grass and flowers",
+     "t": "Short-lived after the rains."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Wildflowers of Israel",
+     "t": "Spring flowers cover the hills for a few weeks, then wither in the dry east wind."
+    },
+    {
+     "h": "Clay figurines",
+     "t": "Potters shaped clay by hand, the picture behind our frame (v.14)."
+    }
+   ],
+   "discussion": "“Do not forget all His kind deeds” (v.2). Which of God’s benefits in vv.3-5 do I most easily forget?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Hymn of thanksgiving",
+   "audience": "My own soul, and all creation",
+   "refNotes": {
+    "Exodus 34:6-7": "God’s name",
+    "Isaiah 40:6-8": "Like grass",
+    "Micah 7:18-19": "Sins removed"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "Speaks to his own soul"
+    },
+    {
+     "n": "Moses",
+     "d": "Shown God’s ways"
+    },
+    {
+     "n": "The angels",
+     "d": "Called to bless the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-5",
+     "label": "Bless the LORD, O my soul"
+    },
+    {
+     "when": "v.6-14",
+     "label": "Compassion and forgiveness"
+    },
+    {
+     "when": "v.15-18",
+     "label": "Man is grass; God’s love endures"
+    },
+    {
+     "when": "v.19-22",
+     "label": "Bless the LORD, all His works"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Bless the LORD, O my soul; all that is within me, bless His holy name. Bless the LORD, O my soul, and do not forget all His kind deeds— He who forgives all your iniquities and heals all your diseases, The LORD is compassionate and gracious, slow to anger, abounding in loving devotion. He has not dealt with us according to our sins or repaid us according to our iniquities. For as high as the heavens are above the earth, so great is His loving devotion for those who fear Him. As far as the east is from the west, so far has He removed our transgressions from us. As a father has compassion on his children, so the LORD has compassion on those who fear Him. For He knows our frame; He is mindful that we are dust. The LORD has established His throne in heaven, and His kingdom rules over all. Bless the LORD, all His works in all places of His dominion. Bless the LORD, O my soul!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "The hills of Judea after the winter rains. “As for man, his days are like grass— he blooms like a flower of the field” (Psalm 103:15).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

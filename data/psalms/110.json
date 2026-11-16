@@ -1,0 +1,205 @@
+{
+ "book": "Psalms",
+ "chapter": 110,
+ "title": "Sit at My Right Hand",
+ "translation": "BSB",
+ "superscription": "A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "The LORD said to my Lord: \"Sit at My right hand until I make Your enemies a footstool for Your feet.\""
+  },
+  {
+   "num": 2,
+   "text": "The LORD extends Your mighty scepter from Zion: \"Rule in the midst of Your enemies.\""
+  },
+  {
+   "num": 3,
+   "text": "Your people shall be willing on Your day of battle. Arrayed in holy splendor, from the womb of the dawn, to You belongs the dew of Your youth."
+  },
+  {
+   "num": 4,
+   "text": "The LORD has sworn and will not change His mind: \"You are a priest forever in the order of Melchizedek.\""
+  },
+  {
+   "num": 5,
+   "text": "The Lord is at Your right hand; He will crush kings in the day of His wrath."
+  },
+  {
+   "num": 6,
+   "text": "He will judge the nations, heaping up the dead; He will crush the leaders far and wide."
+  },
+  {
+   "num": 7,
+   "text": "He will drink from the brook by the road; therefore He will lift up His head."
+  }
+ ],
+ "context": {
+  "author": "The title says “A Psalm of David,” and Jesus built His argument on that: “David himself, speaking by the Holy Spirit, declared” (Mark 12:36).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“The LORD said to my Lord: ‘Sit at My right hand until I make Your enemies a footstool for Your feet’” (v.1). David hears God speak to someone David calls “my Lord,” a king greater than himself. The LORD extends His scepter from Zion: “Rule in the midst of Your enemies” (v.2). His people volunteer freely in the day of battle (v.3). Then God makes an oath: “The LORD has sworn and will not change His mind: ‘You are a priest forever in the order of Melchizedek’” (v.4). This King is also a Priest, like the ancient king of Salem who blessed Abraham. “The Lord is at Your right hand; He will crush kings in the day of His wrath” (v.5). He judges the nations (v.6) and, refreshed from the brook by the way, “He will lift up His head” (v.7).",
+  "custom": "The right hand of a king was the place of highest honor and shared authority (1 Kings 2:19). Conquered kings were made a footstool, literally, as in Egyptian art where enemies are carved on the king’s footstool. In Israel kings and priests were separate offices, and King Uzziah was struck with leprosy for burning incense (2 Chronicles 26:16-21); only Melchizedek, king of Salem, was both (Genesis 14:18).",
+  "timelineImmediate": "Psalm 111 praises the works of the LORD in an alphabet poem.",
+  "timelineBible": "This is the psalm most quoted in the New Testament. Jesus asked the Pharisees how the Messiah could be David’s son if David calls Him Lord (Matthew 22:41-45). Peter preached v.1 at Pentecost (Acts 2:34-35), and Hebrews builds its teaching on Jesus as “a priest forever in the order of Melchizedek” (Hebrews 5:6; 7:17). Jesus “sat down at the right hand of the Majesty on high” (Hebrews 1:3).",
+  "translation": [
+   {
+    "english": "Melchizedek",
+    "greek": "מַלְכִּי־צֶדֶק (malki-tsedeq)",
+    "verseRef": "v.4",
+    "meaning": "Melchizedek, “king of righteousness,” king of Salem.",
+    "gloss": "Melchizedek",
+    "strongs": "H4442",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "footstool",
+    "greek": "הֲדֹם (hadom)",
+    "verseRef": "v.1",
+    "meaning": "Footstool.",
+    "gloss": "Footstool",
+    "strongs": "H1916",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "priest",
+    "greek": "כֹּהֵן (kohen)",
+    "verseRef": "v.4",
+    "meaning": "Priest.",
+    "gloss": "Priest",
+    "strongs": "H3548",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 22:41-45",
+    "note": "How can David call Him Lord?"
+   },
+   {
+    "ref": "Acts 2:32-36",
+    "note": "Sit at My right hand."
+   },
+   {
+    "ref": "Hebrews 7:1-28",
+    "note": "A priest forever in the order of Melchizedek."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 14:17-20",
+    "note": "Melchizedek blesses Abraham."
+   },
+   {
+    "ref": "2 Samuel 7:12-16",
+    "note": "The promise of an eternal king."
+   },
+   {
+    "ref": "Zechariah 6:12-13",
+    "note": "A priest on His throne."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "God invites David’s Lord to sit at His right hand until His enemies are defeated, and swears that He is a priest forever in the order of Melchizedek, a King-Priest who rules from Zion.",
+   "settingLine": "A throne at God’s right hand.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Melchizedek",
+     "t": "King of Salem in Abraham’s day."
+    },
+    {
+     "h": "Jesus’ ascension",
+     "t": "Seated at God’s right hand."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The right hand",
+     "t": "The place of honor."
+    },
+    {
+     "h": "Enemies as footstool",
+     "t": "Kings set their feet on conquered foes."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tutankhamun’s footstool",
+     "t": "A footstool from his tomb is carved with bound enemies under the king’s feet."
+    },
+    {
+     "h": "Assyrian reliefs",
+     "t": "Show kings with their feet on the necks of defeated rulers."
+    }
+   ],
+   "discussion": "Jesus is both King and Priest. Do I tend to think of Him more as the One who rules me, or the One who prays for me? What changes when I hold both?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Royal and messianic psalm",
+   "audience": "David’s Lord, the King-Priest",
+   "refNotes": {
+    "Genesis 14:17-20": "Melchizedek",
+    "2 Samuel 7:12-16": "David’s heir",
+    "Zechariah 6:12-13": "Priest and king"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The LORD",
+     "d": "Speaks the oath"
+    },
+    {
+     "n": "My Lord",
+     "d": "The King-Priest"
+    },
+    {
+     "n": "Melchizedek",
+     "d": "King of Salem"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "The King at God’s right hand"
+    },
+    {
+     "when": "v.4",
+     "label": "A priest forever"
+    },
+    {
+     "when": "v.5-7",
+     "label": "Victory over the nations"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "The LORD said to my Lord: Sit at My right hand until I make Your enemies a footstool for Your feet. The LORD extends Your mighty scepter from Zion: Rule in the midst of Your enemies. Your people shall be willing on Your day of battle. Arrayed in holy splendor, from the womb of the dawn, to You belongs the dew of Your youth. The LORD has sworn and will not change His mind: You are a priest forever in the order of Melchizedek. The Lord is at Your right hand; He will crush kings in the day of His wrath. He will drink from the brook by the road; therefore He will lift up His head.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem, ancient Salem. “The LORD extends Your mighty scepter from Zion” (Psalm 110:2).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

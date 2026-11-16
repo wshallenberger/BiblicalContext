@@ -1,0 +1,248 @@
+{
+ "book": "Psalms",
+ "chapter": 115,
+ "title": "Not to Us, O LORD",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Not to us, O LORD, not to us, but to Your name be the glory, because of Your loving devotion, because of Your faithfulness."
+  },
+  {
+   "num": 2,
+   "text": "Why should the nations say, \"Where is their God?\""
+  },
+  {
+   "num": 3,
+   "text": "Our God is in heaven; He does as He pleases."
+  },
+  {
+   "num": 4,
+   "text": "Their idols are silver and gold, made by the hands of men."
+  },
+  {
+   "num": 5,
+   "text": "They have mouths, but cannot speak; they have eyes, but cannot see;"
+  },
+  {
+   "num": 6,
+   "text": "they have ears, but cannot hear; they have noses, but cannot smell;"
+  },
+  {
+   "num": 7,
+   "text": "they have hands, but cannot feel; they have feet, but cannot walk; they cannot even clear their throats."
+  },
+  {
+   "num": 8,
+   "text": "Those who make them become like them, as do all who trust in them."
+  },
+  {
+   "num": 9,
+   "text": "O Israel, trust in the LORD! He is their help and shield."
+  },
+  {
+   "num": 10,
+   "text": "O house of Aaron, trust in the LORD! He is their help and shield."
+  },
+  {
+   "num": 11,
+   "text": "You who fear the LORD, trust in the LORD! He is their help and shield."
+  },
+  {
+   "num": 12,
+   "text": "The LORD is mindful of us; He will bless us. He will bless the house of Israel; He will bless the house of Aaron;"
+  },
+  {
+   "num": 13,
+   "text": "He will bless those who fear the LORD— small and great alike."
+  },
+  {
+   "num": 14,
+   "text": "May the LORD give you increase, both you and your children."
+  },
+  {
+   "num": 15,
+   "text": "May you be blessed by the LORD, the Maker of heaven and earth."
+  },
+  {
+   "num": 16,
+   "text": "The highest heavens belong to the LORD, but the earth He has given to mankind."
+  },
+  {
+   "num": 17,
+   "text": "It is not the dead who praise the LORD, nor any who descend into silence."
+  },
+  {
+   "num": 18,
+   "text": "But it is we who will bless the LORD, both now and forevermore. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Part of the Hallel sung after the Passover meal.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Not to us, O LORD, not to us, but to Your name be the glory, because of Your loving devotion, because of Your faithfulness” (v.1). The nations taunt, “Where is their God?” (v.2). The answer: “Our God is in heaven; He does as He pleases” (v.3). Their idols are only silver and gold: “They have mouths, but cannot speak; they have eyes, but cannot see” (v.5), and “Those who make them become like them” (v.8). Three groups are called to trust: Israel, the house of Aaron, and those who fear the LORD; each time comes the answer, “He is their help and shield” (vv.9-11). “The LORD is mindful of us; He will bless us” (v.12), “small and great alike” (v.13). The dead cannot praise, “But it is we who will bless the LORD, both now and forevermore. Hallelujah!” (vv.17-18).",
+  "custom": "Idols were made of wood overlaid with gold or silver, with carved eyes, ears and mouths, and priests fed and clothed them (Isaiah 44:9-20; Jeremiah 10:3-5). The call and answer in vv.9-11 was probably sung by a leader and choir. “Those who fear the LORD” may include Gentile worshipers.",
+  "timelineImmediate": "Psalm 116 is a thanksgiving for rescue from death: “I love the LORD, for He has heard my voice.”",
+  "timelineBible": "Paul warned that people “exchanged the glory of the immortal God for images” (Romans 1:23), and John ends his letter, “Little children, keep yourselves from idols” (1 John 5:21). Jesus taught His disciples to pray, “hallowed be Your name” (Matthew 6:9). The Latin ‘Non nobis, Domine’ of v.1 became a famous hymn of thanks.",
+  "translation": [
+   {
+    "english": "glory",
+    "greek": "כָּבוֹד (kavod)",
+    "verseRef": "v.1",
+    "meaning": "Glory, weight, honor.",
+    "gloss": "Glory",
+    "strongs": "H3519",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "idols",
+    "greek": "עָצָב (atsab)",
+    "verseRef": "v.4",
+    "meaning": "Idol, image.",
+    "gloss": "Idol",
+    "strongs": "H6091",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "shield",
+    "greek": "מָגֵן (magen)",
+    "verseRef": "v.9",
+    "meaning": "Shield, protector.",
+    "gloss": "Shield",
+    "strongs": "H4043",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Romans 1:22-23",
+    "note": "Exchanged glory for images."
+   },
+   {
+    "ref": "1 John 5:21",
+    "note": "Keep yourselves from idols."
+   },
+   {
+    "ref": "Revelation 19:5",
+    "note": "Praise our God, small and great."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 135:15-18",
+    "note": "The same words about idols."
+   },
+   {
+    "ref": "Isaiah 44:9-20",
+    "note": "The folly of the idol maker."
+   },
+   {
+    "ref": "Jeremiah 10:3-5",
+    "note": "Like a scarecrow in a melon patch."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Glory belongs to God’s name, not ours; idols with mouths and eyes are lifeless, and those who trust them become like them, but Israel, the priests and all who fear the LORD trust Him as help and shield.",
+   "settingLine": "The living God against lifeless idols.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Exile",
+     "t": "The taunt “Where is their God?”"
+    },
+    {
+     "h": "Passover Hallel",
+     "t": "Sung after the meal."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Making idols",
+     "t": "Wood overlaid with metal."
+    },
+    {
+     "h": "Call and response",
+     "t": "Leader and choir."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Gilded statues",
+     "t": "Wooden cult statues covered in gold leaf, such as those from Egyptian temples."
+    },
+    {
+     "h": "The “mouth opening” ritual",
+     "t": "Mesopotamian texts describe a rite to bring a new statue to life by washing and opening its mouth."
+    }
+   ],
+   "discussion": "“Those who make them become like them” (v.8). What do I give my attention and trust to, and how is it shaping me?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Liturgy of trust (Hallel)",
+   "audience": "Israel, the priests, and all who fear the LORD",
+   "refNotes": {
+    "Psalm 135:15-18": "Idols",
+    "Isaiah 44:9-20": "The idol maker",
+    "Jeremiah 10:3-5": "Idols cannot speak"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Israel",
+     "d": "Called to trust"
+    },
+    {
+     "n": "The house of Aaron",
+     "d": "The priests"
+    },
+    {
+     "n": "Those who fear the LORD",
+     "d": "Small and great"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-8",
+     "label": "Our God and their idols"
+    },
+    {
+     "when": "v.9-11",
+     "label": "Trust in the LORD"
+    },
+    {
+     "when": "v.12-18",
+     "label": "He will bless us"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Not to us, O LORD, not to us, but to Your name be the glory, because of Your loving devotion, because of Your faithfulness. Why should the nations say, Where is their God? Our God is in heaven; He does as He pleases. Their idols are silver and gold, made by the hands of men. Those who make them become like them, as do all who trust in them. O Israel, trust in the LORD! He is their help and shield. The LORD is mindful of us; He will bless us. He will bless the house of Israel; He will bless the house of Aaron; The highest heavens belong to the LORD, but the earth He has given to mankind. But it is we who will bless the LORD, both now and forevermore. Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Última_Cena_-_Da_Vinci_5.jpg",
+   "caption": "The Last Supper, by Leonardo da Vinci (1495-1498, Santa Maria delle Grazie, Milan). At Passover, Jews sang the Hallel, Psalms 113-118; after the supper Jesus and His disciples “had sung a hymn” and went out to the Mount of Olives (Matthew 26:30).",
+   "credit": "Leonardo da Vinci (1495-1498), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}

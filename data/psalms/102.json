@@ -1,0 +1,289 @@
+{
+ "book": "Psalms",
+ "chapter": 102,
+ "title": "Hear My Prayer When I Grow Faint",
+ "translation": "BSB",
+ "superscription": "A prayer of one who is afflicted, when he grows faint and pours out his lament before the LORD.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hear my prayer, O LORD; let my cry for help come before You."
+  },
+  {
+   "num": 2,
+   "text": "Do not hide Your face from me in my day of distress. Incline Your ear to me; answer me quickly when I call."
+  },
+  {
+   "num": 3,
+   "text": "For my days vanish like smoke, and my bones burn like glowing embers."
+  },
+  {
+   "num": 4,
+   "text": "My heart is afflicted, and withered like grass; I even forget to eat my bread."
+  },
+  {
+   "num": 5,
+   "text": "Through my loud groaning my flesh clings to my bones."
+  },
+  {
+   "num": 6,
+   "text": "I am like a desert owl, like an owl among the ruins."
+  },
+  {
+   "num": 7,
+   "text": "I lie awake; I am like a lone bird on a housetop."
+  },
+  {
+   "num": 8,
+   "text": "All day long my enemies taunt me; they ridicule me and curse me."
+  },
+  {
+   "num": 9,
+   "text": "For I have eaten ashes like bread and mixed my drink with tears"
+  },
+  {
+   "num": 10,
+   "text": "because of Your indignation and wrath, for You have picked me up and cast me aside."
+  },
+  {
+   "num": 11,
+   "text": "My days are like lengthening shadows, and I wither away like grass."
+  },
+  {
+   "num": 12,
+   "text": "But You, O LORD, sit enthroned forever; Your renown endures to all generations."
+  },
+  {
+   "num": 13,
+   "text": "You will rise up and have compassion on Zion, for it is time to show her favor— the appointed time has come."
+  },
+  {
+   "num": 14,
+   "text": "For Your servants delight in her stones and take pity on her dust."
+  },
+  {
+   "num": 15,
+   "text": "So the nations will fear the name of the LORD, and all the kings of the earth will fear Your glory."
+  },
+  {
+   "num": 16,
+   "text": "For the LORD will rebuild Zion; He has appeared in His glory."
+  },
+  {
+   "num": 17,
+   "text": "He will turn toward the prayer of the destitute; He will not despise their prayer."
+  },
+  {
+   "num": 18,
+   "text": "Let this be written for the generation to come, so that a people not yet created may praise the LORD."
+  },
+  {
+   "num": 19,
+   "text": "For He looked down from the heights of His sanctuary; the LORD gazed out from heaven to earth"
+  },
+  {
+   "num": 20,
+   "text": "to hear a prisoner's groaning, to release those condemned to death,"
+  },
+  {
+   "num": 21,
+   "text": "that they may proclaim the name of the LORD in Zion and praise Him in Jerusalem,"
+  },
+  {
+   "num": 22,
+   "text": "when peoples and kingdoms assemble to serve the LORD."
+  },
+  {
+   "num": 23,
+   "text": "He has broken my strength on the way; He has cut short my days."
+  },
+  {
+   "num": 24,
+   "text": "I say: \"O my God, do not take me in the midst of my days! Your years go on through all generations."
+  },
+  {
+   "num": 25,
+   "text": "In the beginning You laid the foundations of the earth, and the heavens are the work of Your hands."
+  },
+  {
+   "num": 26,
+   "text": "They will perish, but You remain; they will all wear out like a garment. Like clothing You will change them, and they will be passed on."
+  },
+  {
+   "num": 27,
+   "text": "But You remain the same, and Your years will never end."
+  },
+  {
+   "num": 28,
+   "text": "The children of Your servants will dwell securely, and their descendants will be established before You.\""
+  }
+ ],
+ "context": {
+  "author": "The title is unique: “A prayer of one who is afflicted, when he grows faint and pours out his lament before the LORD.” It names no author, so any sufferer can pray it. Verses 13-22 long for Zion to be rebuilt, which fits the exile.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hear my prayer, O LORD; let my cry for help come before You” (v.1). The psalmist is wasting away: “my days vanish like smoke, and my bones burn like glowing embers” (v.3); he forgets to eat (v.4) and is “like a desert owl, like an owl among the ruins… like a lone bird on a housetop” (vv.6-7). “For I have eaten ashes like bread and mixed my drink with tears” (v.9). His days are like evening shadows (v.11). “But You, O LORD, sit enthroned forever” (v.12). God will have compassion on Zion: “the appointed time has come” (v.13), and her servants “delight in her stones and take pity on her dust” (v.14). The story is to be written down for a generation not yet born (v.18). The psalm ends on God’s eternity: “In the beginning You laid the foundations of the earth… They will perish, but You remain… You remain the same, and Your years will never end” (vv.25-27).",
+  "custom": "Owls and lone birds live in ruins and deserts (Isaiah 34:11), a picture of desolation. Mourners sat in ashes (Job 2:8; Jeremiah 6:26). Clothes wore out and were changed (v.26); a garment was a common picture of something that does not last (Isaiah 50:9). This is one of the seven penitential psalms of the church.",
+  "timelineImmediate": "Psalm 103 blesses the LORD for His forgiveness and compassion.",
+  "timelineBible": "Hebrews applies vv.25-27 to the Son: “In the beginning, O Lord, You laid the foundations of the earth… You remain the same, and Your years will never end” (Hebrews 1:10-12). Jesus said, “Heaven and earth will pass away, but My words will never pass away” (Matthew 24:35). James calls God the Father of lights, “with whom there is no change or shifting shadow” (James 1:17).",
+  "translation": [
+   {
+    "english": "owl",
+    "greek": "קָאַת (qaat)",
+    "verseRef": "v.6",
+    "meaning": "A desert bird, perhaps a pelican or owl.",
+    "gloss": "Desert owl",
+    "strongs": "H6893",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "bird",
+    "greek": "צִפּוֹר (tsippor)",
+    "verseRef": "v.7",
+    "meaning": "Bird, sparrow.",
+    "gloss": "Bird",
+    "strongs": "H6833",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "garment",
+    "greek": "בֶּגֶד (beged)",
+    "verseRef": "v.26",
+    "meaning": "Garment, clothing.",
+    "gloss": "Garment",
+    "strongs": "H899",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 1:10-12",
+    "note": "You remain the same."
+   },
+   {
+    "ref": "Matthew 24:35",
+    "note": "My words will never pass away."
+   },
+   {
+    "ref": "James 1:17",
+    "note": "No change or shifting shadow."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Lamentations 1:1-4",
+    "note": "The city sits deserted."
+   },
+   {
+    "ref": "Isaiah 51:6",
+    "note": "The heavens will vanish like smoke."
+   },
+   {
+    "ref": "Nehemiah 1:3-4",
+    "note": "Nehemiah weeps for Jerusalem’s walls."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A sufferer wasting away like smoke and grass turns to the LORD who reigns forever, trusts Him to rebuild Zion, and finds hope in the God whose years never end.",
+   "settingLine": "Ashes for bread, and an eternal King.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Jerusalem in ruins",
+     "t": "After 586 BC."
+    },
+    {
+     "h": "The appointed time",
+     "t": "The return under Cyrus."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Ashes and fasting",
+     "t": "Signs of mourning."
+    },
+    {
+     "h": "Birds of the ruins",
+     "t": "Pictures of desolation."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Babylonian destruction layers",
+     "t": "Burned houses and arrowheads in Jerusalem from 586 BC."
+    },
+    {
+     "h": "The Cyrus Cylinder",
+     "t": "Records Cyrus’ policy of letting peoples return home."
+    }
+   ],
+   "discussion": "The psalmist’s days are “like smoke” (v.3), but God’s years “will never end” (v.27). How does God’s unchanging nature help me when my own life feels fragile?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "An afflicted believer",
+   "genre": "Personal and national lament",
+   "audience": "God, from a sufferer",
+   "refNotes": {
+    "Lamentations 1:1-4": "Zion in ruins",
+    "Isaiah 51:6": "Earth wears out",
+    "Nehemiah 1:3-4": "Weeping for Zion"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The afflicted one",
+     "d": "Pours out his lament"
+    },
+    {
+     "n": "Zion’s servants",
+     "d": "Love her stones"
+    },
+    {
+     "n": "A generation to come",
+     "d": "Will praise the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-11",
+     "label": "My days vanish"
+    },
+    {
+     "when": "v.12-22",
+     "label": "You will rebuild Zion"
+    },
+    {
+     "when": "v.23-28",
+     "label": "Your years never end"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hear my prayer, O LORD; let my cry for help come before You. For my days vanish like smoke, and my bones burn like glowing embers. I lie awake; I am like a lone bird on a housetop. My days are like lengthening shadows, and I wither away like grass. But You, O LORD, sit enthroned forever; Your renown endures to all generations. You will rise up and have compassion on Zion, for it is time to show her favor— the appointed time has come. Let this be written for the generation to come, so that a people not yet created may praise the LORD. In the beginning You laid the foundations of the earth, and the heavens are the work of Your hands. They will perish, but You remain; they will all wear out like a garment. Like clothing You will change them, and they will be passed on. But You remain the same, and Your years will never end.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Hayez_017.jpg",
+   "caption": "The Destruction of the Temple of Jerusalem, by Francesco Hayez (1867). Psalm 102 longs for the day when “the LORD will rebuild Zion” (Psalm 102:16).",
+   "credit": "Francesco Hayez (1867), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "The bare Judean wilderness. “I am like a desert owl, like an owl among the ruins” (Psalm 102:6).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

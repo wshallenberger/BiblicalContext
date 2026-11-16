@@ -1,0 +1,230 @@
+{
+ "book": "Psalms",
+ "chapter": 114,
+ "title": "Tremble, O Earth, at the Presence of the Lord",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "When Israel departed from Egypt, the house of Jacob from a people of foreign tongue,"
+  },
+  {
+   "num": 2,
+   "text": "Judah became God's sanctuary, and Israel His dominion."
+  },
+  {
+   "num": 3,
+   "text": "The sea observed and fled; the Jordan turned back;"
+  },
+  {
+   "num": 4,
+   "text": "the mountains skipped like rams, the hills like lambs."
+  },
+  {
+   "num": 5,
+   "text": "Why was it, O sea, that you fled, O Jordan, that you turned back,"
+  },
+  {
+   "num": 6,
+   "text": "O mountains, that you skipped like rams, O hills, like lambs?"
+  },
+  {
+   "num": 7,
+   "text": "Tremble, O earth, at the presence of the Lord, at the presence of the God of Jacob,"
+  },
+  {
+   "num": 8,
+   "text": "who turned the rock into a pool, the flint into a fountain of water!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Part of the Hallel sung at Passover; it is the psalm of the exodus.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "FROM EGYPT THROUGH THE SEA TO THE JORDAN",
+  "setting": "“When Israel departed from Egypt, the house of Jacob from a people of foreign tongue, Judah became God’s sanctuary, and Israel His dominion” (vv.1-2). Creation reacted: “The sea observed and fled; the Jordan turned back; the mountains skipped like rams, the hills like lambs” (vv.3-4). The poet asks them, playfully, “Why was it, O sea, that you fled, O Jordan, that you turned back?” (v.5). The answer: “Tremble, O earth, at the presence of the Lord, at the presence of the God of Jacob, who turned the rock into a pool, the flint into a fountain of water!” (vv.7-8).",
+  "custom": "The psalm joins the Red Sea crossing at the start of the wilderness years (Exodus 14) with the Jordan crossing at the end (Joshua 3), and the shaking of Sinai (Exodus 19:18). The water from the rock happened twice, at Rephidim and at Kadesh (Exodus 17:6; Numbers 20:11). Flint is the hardest stone of the desert.",
+  "timelineImmediate": "Psalm 115: Not to us, O LORD, but to Your name be the glory.",
+  "timelineBible": "Paul says the rock that followed Israel “was Christ” (1 Corinthians 10:4). Jesus offered “living water” (John 4:10), and on the last day of the feast He cried out, “If anyone is thirsty, let him come to Me and drink” (John 7:37).",
+  "translation": [
+   {
+    "english": "Jordan",
+    "greek": "יַרְדֵּן (yarden)",
+    "verseRef": "v.3",
+    "meaning": "The Jordan, “the descender.”",
+    "gloss": "Jordan",
+    "strongs": "H3383",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "skipped",
+    "greek": "רָקַד (raqad)",
+    "verseRef": "v.4",
+    "meaning": "To skip, leap, dance.",
+    "gloss": "Skip",
+    "strongs": "H7540",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "flint",
+    "greek": "חַלָּמִישׁ (challamish)",
+    "verseRef": "v.8",
+    "meaning": "Flint, hard rock.",
+    "gloss": "Flint",
+    "strongs": "H2496",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Corinthians 10:1-4",
+    "note": "That rock was Christ."
+   },
+   {
+    "ref": "John 7:37-39",
+    "note": "Let him come to Me and drink."
+   },
+   {
+    "ref": "Hebrews 12:26",
+    "note": "Once more I will shake the earth."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 14:21-22",
+    "note": "The sea divided."
+   },
+   {
+    "ref": "Joshua 3:14-17",
+    "note": "The Jordan stopped."
+   },
+   {
+    "ref": "Exodus 17:5-6",
+    "note": "Water from the rock."
+   }
+  ],
+  "mapCoords": {
+   "lat": 30.8,
+   "lng": 31.8,
+   "zoom": 6,
+   "placeName": "Goshen in the Nile Delta (the land of Ham)"
+  },
+  "overview": {
+   "summary": "A short, vivid poem of the exodus: the sea fled, the Jordan turned back, the mountains skipped, because the God of Jacob was present, who turns rock into springs.",
+   "settingLine": "Creation runs from its Maker.",
+   "placeName": "Goshen in the Nile Delta (the land of Ham)",
+   "history": [
+    {
+     "h": "The Red Sea",
+     "t": "The start of the journey."
+    },
+    {
+     "h": "The Jordan",
+     "t": "The end of the journey."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Passover Hallel",
+     "t": "Sung before the meal."
+    },
+    {
+     "h": "Personifying nature",
+     "t": "Mountains dancing like animals."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Jordan at flood",
+     "t": "The river overflows its banks in spring (Joshua 3:15); landslides have blocked it near Adam in recorded history."
+    },
+    {
+     "h": "Desert flint",
+     "t": "Flint tools and nodules are found all over Sinai and the Negev."
+    }
+   ],
+   "discussion": "The poet asks the sea, “Why was it… that you fled?” (v.5). How would I answer that question about God’s presence in my life?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hymn of the exodus (Hallel)",
+   "audience": "The earth, and Israel",
+   "refNotes": {
+    "Exodus 14:21-22": "The Red Sea",
+    "Joshua 3:14-17": "The Jordan",
+    "Exodus 17:5-6": "The rock"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Israel",
+     "d": "Departed from Egypt"
+    },
+    {
+     "n": "The sea and the Jordan",
+     "d": "Fled and turned back"
+    },
+    {
+     "n": "The God of Jacob",
+     "d": "Turns rock to water"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Out of Egypt"
+    },
+    {
+     "when": "v.3-6",
+     "label": "Sea, river and mountains"
+    },
+    {
+     "when": "v.7-8",
+     "label": "Tremble, O earth"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Goshen in the Nile Delta (the land of Ham)",
+    "lat": 30.8,
+    "lng": 31.8,
+    "verses": [
+     1
+    ],
+    "slug": "goshen"
+   },
+   {
+    "name": "The Jordan near Jericho, where Israel crossed",
+    "lat": 31.84,
+    "lng": 35.55,
+    "verses": [
+     3,
+     5
+    ],
+    "slug": "jordan-river"
+   },
+   {
+    "name": "Mount Sinai (traditional site, Jebel Musa)",
+    "lat": 28.539,
+    "lng": 33.975,
+    "verses": [
+     4,
+     8
+    ],
+    "slug": "mount-sinai"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "When Israel departed from Egypt, the house of Jacob from a people of foreign tongue, Judah became God's sanctuary, and Israel His dominion. The sea observed and fled; the Jordan turned back; the mountains skipped like rams, the hills like lambs. Why was it, O sea, that you fled, O Jordan, that you turned back, Tremble, O earth, at the presence of the Lord, at the presence of the God of Jacob, who turned the rock into a pool, the flint into a fountain of water!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Moses_with_the_Ten_Commandments_-_Google_Art_Project.jpg",
+   "caption": "Moses with the Ten Commandments, by Rembrandt (1659). “When Israel departed from Egypt… The sea observed and fled; the Jordan turned back” (Psalm 114:1-3).",
+   "credit": "Rembrandt (1659), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_River_(5418351509).jpg",
+   "caption": "The Jordan River. “The sea observed and fled; the Jordan turned back” (Psalm 114:3).",
+   "credit": "Wikimedia Commons"
+  }
+ }
+}

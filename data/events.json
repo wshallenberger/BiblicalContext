@@ -15928,5 +15928,350 @@
    "ps_templemount",
    "ps_judea"
   ]
+ },
+ {
+  "i": 643,
+  "t": "A king’s vow; a prayer in affliction (Psalms 101-102)",
+  "p": "Jerusalem, the royal court",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    101,
+    1,
+    102,
+    28
+   ]
+  ],
+  "rs": "Ps101:1-102:28",
+  "s": "\"I will walk in my house with integrity of heart.\" \"For my days vanish like smoke, and my bones burn like glowing embers.\" \"But You remain the same, and Your years will never end.\"",
+  "n": "Psalm 101 reads like a king’s vow; Psalm 102 longs for Zion to be rebuilt. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_hayez"
+  ]
+ },
+ {
+  "i": 644,
+  "t": "Bless the LORD, O my soul (Psalm 103)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    103,
+    1,
+    103,
+    22
+   ]
+  ],
+  "rs": "Ps103:1-22",
+  "s": "\"Bless the LORD, O my soul; all that is within me, bless His holy name.\" \"As far as the east is from the west, so far has He removed our transgressions from us.\" \"As a father has compassion on his children, so the LORD has compassion on those who fear Him.\"",
+  "n": "Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_harp",
+   "ps_judea"
+  ]
+ },
+ {
+  "i": 645,
+  "t": "The hymn of creation (Psalm 104)",
+  "p": "En Gedi, home of ibex and rock hyrax",
+  "la": 31.4613,
+  "ln": 35.3917,
+  "r": [
+   [
+    "psalms",
+    104,
+    1,
+    104,
+    35
+   ]
+  ],
+  "rs": "Ps104:1-35",
+  "s": "\"The high mountains are for the wild goats, the cliffs a refuge for the rock badgers.\" \"How many are Your works, O LORD!\" \"When You send Your Spirit, they are created, and You renew the face of the earth.\"",
+  "n": "The psalm names no place; the pin is at En Gedi, whose cliffs still shelter the “wild goats” and “rock badgers” of v.18.",
+  "im": [
+   "ps_engedi",
+   "ps_cedars"
+  ]
+ },
+ {
+  "i": 646,
+  "t": "He remembers His covenant: Joseph and the exodus (Psalm 105)",
+  "p": "Goshen, the land of Ham",
+  "la": 30.8,
+  "ln": 31.8,
+  "r": [
+   [
+    "psalms",
+    105,
+    1,
+    105,
+    45
+   ]
+  ],
+  "rs": "Ps105:1-45",
+  "s": "\"He remembers His covenant forever, the word He ordained for a thousand generations.\" \"He sent a man before them— Joseph, sold as a slave.\" \"Then Israel entered Egypt; Jacob dwelt in the land of Ham.\"",
+  "n": "The psalm follows God’s promise from Abraham to Joseph in Egypt and the exodus. The pin is in the eastern Nile Delta, where Goshen is usually placed.",
+  "im": [
+   "ps_moses",
+   "ps_sinai"
+  ]
+ },
+ {
+  "i": 647,
+  "t": "We have sinned like our fathers; Book Four ends (Psalm 106)",
+  "p": "Horeb (Mount Sinai, traditional site)",
+  "la": 28.539,
+  "ln": 33.975,
+  "r": [
+   [
+    "psalms",
+    106,
+    1,
+    106,
+    48
+   ]
+  ],
+  "rs": "Ps106:1-48",
+  "s": "\"At Horeb they made a calf and worshiped a molten image.\" \"So He said He would destroy them— had not Moses His chosen one stood before Him in the breach.\" \"Save us, O LORD our God, and gather us from the nations.\"",
+  "n": "The psalm retells Israel’s failures from the Red Sea to Canaan. The pin is at the traditional Mount Sinai, where the golden calf was made.",
+  "im": [
+   "ps_moses",
+   "ps_sinai"
+  ]
+ },
+ {
+  "i": 648,
+  "t": "Let the redeemed say so; Book Five begins (Psalm 107)",
+  "p": "Jerusalem",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    107,
+    1,
+    107,
+    43
+   ]
+  ],
+  "rs": "Ps107:1-43",
+  "s": "\"Let the redeemed of the LORD say so.\" \"Then they cried out to the LORD in their trouble, and He delivered them from their distress.\" \"He calmed the storm to a whisper, and the waves of the sea were hushed.\"",
+  "n": "Wanderers, prisoners, the sick and sailors all cry to the LORD and are rescued. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_storm",
+   "ps_judea"
+  ]
+ },
+ {
+  "i": 649,
+  "t": "Shechem and Succoth are Mine (Psalm 108)",
+  "p": "Shechem",
+  "la": 32.213,
+  "ln": 35.282,
+  "r": [
+   [
+    "psalms",
+    108,
+    1,
+    108,
+    13
+   ]
+  ],
+  "rs": "Ps108:1-13",
+  "s": "\"My heart is steadfast, O God.\" \"I will triumph! I will parcel out Shechem and apportion the Valley of Succoth.\" \"With God we will perform with valor, and He will trample our enemies.\"",
+  "n": "Psalm 108 joins Psalms 57:7-11 and 60:5-12. God claims Shechem west of the Jordan and Succoth east of it; the pin is at Shechem.",
+  "im": [
+   "ps_harp",
+   "ps_masada"
+  ]
+ },
+ {
+  "i": 650,
+  "t": "The accuser and the King-Priest (Psalms 109-110)",
+  "p": "Jerusalem (Salem), Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    109,
+    1,
+    110,
+    7
+   ]
+  ],
+  "rs": "Ps109:1-110:7",
+  "s": "\"In return for my love they accuse me, but I am a man of prayer.\" \"The LORD said to my Lord.\" \"You are a priest forever in the order of Melchizedek.\"",
+  "n": "Psalm 110 is the psalm most quoted in the New Testament. Salem, where Melchizedek was king, is usually identified with Jerusalem.",
+  "im": [
+   "ps_supper",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 651,
+  "t": "Twin alphabet hymns (Psalms 111-112)",
+  "p": "Jerusalem, the assembly",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    111,
+    1,
+    112,
+    10
+   ]
+  ],
+  "rs": "Ps111:1-112:10",
+  "s": "\"Great are the works of the LORD.\" \"The fear of the LORD is the beginning of wisdom.\" \"His heart is steadfast, trusting in the LORD.\"",
+  "n": "Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_scroll",
+   "ps_olives"
+  ]
+ },
+ {
+  "i": 652,
+  "t": "The Hallel begins: the sea fled (Psalms 113-114)",
+  "p": "The Jordan crossing near Jericho",
+  "la": 31.84,
+  "ln": 35.55,
+  "r": [
+   [
+    "psalms",
+    113,
+    1,
+    114,
+    8
+   ]
+  ],
+  "rs": "Ps113:1-114:8",
+  "s": "\"Who is like the LORD our God, the One enthroned on high?\" \"He raises the poor from the dust and lifts the needy from the dump to seat them with nobles, with the princes of His people.\" \"The sea observed and fled; the Jordan turned back.\"",
+  "n": "Psalms 113-118 were sung at Passover. Psalm 114 joins the Red Sea and the Jordan; the pin is at the Jordan crossing near Jericho (Joshua 3).",
+  "im": [
+   "ps_supper",
+   "ps_jordan"
+  ]
+ },
+ {
+  "i": 653,
+  "t": "Not to us; the cup of salvation (Psalms 115-117)",
+  "p": "Jerusalem, the Temple courts",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    115,
+    1,
+    117,
+    2
+   ]
+  ],
+  "rs": "Ps115:1-117:2",
+  "s": "\"Not to us, O LORD, not to us, but to Your name be the glory.\" \"I will lift the cup of salvation and call on the name of the LORD.\" \"Praise the LORD, all you nations! Extol Him, all you peoples!\"",
+  "n": "These Hallel psalms were sung after the Passover meal. Psalm 117 is the shortest chapter in the Bible. Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_supper",
+   "ps_templemount"
+  ]
+ },
+ {
+  "i": 654,
+  "t": "The stone the builders rejected (Psalm 118)",
+  "p": "Jerusalem, the Temple gates",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    118,
+    1,
+    118,
+    29
+   ]
+  ],
+  "rs": "Ps118:1-29",
+  "s": "\"Open to me the gates of righteousness.\" \"The stone the builders rejected has become the cornerstone.\" \"Blessed is he who comes in the name of the LORD.\"",
+  "n": "The crowds sang v.26 when Jesus rode into Jerusalem (Matthew 21:9). Most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark (2 Samuel 6:12-17) and Solomon later built the Temple.",
+  "im": [
+   "ps_ps118",
+   "ps_steps"
+  ]
+ },
+ {
+  "i": 655,
+  "t": "The great psalm of God’s word (Psalm 119)",
+  "p": "Qumran, where the Great Psalms Scroll was found",
+  "la": 31.741,
+  "ln": 35.459,
+  "r": [
+   [
+    "psalms",
+    119,
+    1,
+    119,
+    176
+   ]
+  ],
+  "rs": "Ps119:1-176",
+  "s": "\"I have hidden Your word in my heart that I might not sin against You.\" \"Your word is a lamp to my feet and a light to my path.\" \"I have strayed like a lost sheep.\"",
+  "n": "The psalm names no place. The pin is at Qumran, where the Great Psalms Scroll (11Q5), with large parts of Psalm 119, was found in Cave 11.",
+  "im": [
+   "ps_scroll",
+   "ps_qumran"
+  ]
+ },
+ {
+  "i": 656,
+  "t": "Far from Zion, in Meshech and Kedar (Psalm 120)",
+  "p": "Kedar, the Arabian desert (approximate)",
+  "la": 29.8,
+  "ln": 39.9,
+  "r": [
+   [
+    "psalms",
+    120,
+    1,
+    120,
+    7
+   ]
+  ],
+  "rs": "Ps120:1-7",
+  "s": "The title: \"A song of ascents.\" \"Woe to me that I dwell in Meshech, that I live among the tents of Kedar!\" \"I am in favor of peace.\"",
+  "n": "The Songs of Ascents begin far away. Meshech was in Anatolia and Kedar in the Arabian desert, so they stand for any hostile place far from Zion; the pin is only a marker.",
+  "im": [
+   "ps_steps",
+   "ps_scroll"
+  ]
+ },
+ {
+  "i": 657,
+  "t": "Going up to Jerusalem (Psalms 121-125)",
+  "p": "Jerusalem, Mount Zion",
+  "la": 31.778,
+  "ln": 35.2354,
+  "r": [
+   [
+    "psalms",
+    121,
+    1,
+    125,
+    5
+   ]
+  ],
+  "rs": "Ps121:1-125:5",
+  "s": "\"I lift up my eyes to the hills. From where does my help come?\" \"Our feet are standing in your gates, O Jerusalem.\" \"As the mountains surround Jerusalem, so the LORD surrounds His people.\"",
+  "n": "Pilgrims sang the Songs of Ascents on the way up to the feasts. Jerusalem is ringed by higher hills, the picture behind Psalm 125:2.",
+  "im": [
+   "ps_steps",
+   "ps_judea"
+  ]
  }
 ]

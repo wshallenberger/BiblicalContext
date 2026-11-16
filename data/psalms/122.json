@@ -1,0 +1,213 @@
+{
+ "book": "Psalms",
+ "chapter": 122,
+ "title": "Pray for the Peace of Jerusalem",
+ "translation": "BSB",
+ "superscription": "A song of ascents. Of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I was glad when they said to me, \"Let us go to the house of the LORD.\""
+  },
+  {
+   "num": 2,
+   "text": "Our feet are standing in your gates, O Jerusalem."
+  },
+  {
+   "num": 3,
+   "text": "Jerusalem is built up as a city united together,"
+  },
+  {
+   "num": 4,
+   "text": "where the tribes go up, the tribes of the LORD, as a testimony for Israel, to give thanks to the name of the LORD."
+  },
+  {
+   "num": 5,
+   "text": "For there the thrones of judgment stand, the thrones of the house of David."
+  },
+  {
+   "num": 6,
+   "text": "Pray for the peace of Jerusalem: \"May those who love you prosper."
+  },
+  {
+   "num": 7,
+   "text": "May there be peace within your walls, and prosperity inside your fortresses.\""
+  },
+  {
+   "num": 8,
+   "text": "For the sake of my brothers and friends, I will say, \"Peace be within you.\""
+  },
+  {
+   "num": 9,
+   "text": "For the sake of the house of the LORD our God, I will seek your prosperity."
+  }
+ ],
+ "context": {
+  "author": "The title says “A song of ascents. Of David.” They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I was glad when they said to me, ‘Let us go to the house of the LORD.’” The pilgrims have arrived: “Our feet are standing in your gates, O Jerusalem” (v.2). The city is “built up as a city united together, where the tribes go up, the tribes of the LORD… to give thanks to the name of the LORD” (vv.3-4). It is the seat of justice: “the thrones of the house of David” (v.5). Then the call: “Pray for the peace of Jerusalem: ‘May those who love you prosper. May there be peace within your walls’” (vv.6-7). “For the sake of my brothers and friends, I will say, ‘Peace be within you.’ For the sake of the house of the LORD our God, I will seek your prosperity” (vv.8-9).",
+  "custom": "In Hebrew the prayer is full of wordplay: peace is shalom, Jerusalem is Yerushalayim, and “prosper” is shalah, so the words echo the city’s name. Jerusalem united the twelve tribes in worship (Deuteronomy 16:16). The king and his officials heard cases there (2 Samuel 15:2; 1 Kings 7:7).",
+  "timelineImmediate": "Psalm 123: “I lift up my eyes to You, the One enthroned in heaven.”",
+  "timelineBible": "Jesus wept over Jerusalem: “If only you had known on this day what would bring you peace!” (Luke 19:42). Hebrews says believers have come “to Mount Zion, to the city of the living God, the heavenly Jerusalem” (Hebrews 12:22), and Revelation pictures the new Jerusalem coming down from heaven (Revelation 21:2).",
+  "translation": [
+   {
+    "english": "peace",
+    "greek": "שָׁלוֹם (shalom)",
+    "verseRef": "v.6",
+    "meaning": "Peace, wholeness, well-being.",
+    "gloss": "Peace",
+    "strongs": "H7965",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gates",
+    "greek": "שַׁעַר (shaar)",
+    "verseRef": "v.2",
+    "meaning": "Gate, the city gate.",
+    "gloss": "Gate",
+    "strongs": "H8179",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Jerusalem",
+    "greek": "יְרוּשָׁלִַם, יְרוּשְׁלֵם (yerushalayim)",
+    "verseRef": "v.2",
+    "meaning": "Jerusalem; the name sounds like shalom.",
+    "gloss": "Jerusalem",
+    "strongs": "H3389",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 19:41-44",
+    "note": "Jesus weeps over Jerusalem."
+   },
+   {
+    "ref": "Hebrews 12:22-24",
+    "note": "The heavenly Jerusalem."
+   },
+   {
+    "ref": "Revelation 21:2-4",
+    "note": "The new Jerusalem."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Deuteronomy 16:16",
+    "note": "Three feasts a year."
+   },
+   {
+    "ref": "Isaiah 2:2-3",
+    "note": "Let us go up to the mountain of the LORD."
+   },
+   {
+    "ref": "Jeremiah 29:7",
+    "note": "Seek the peace of the city."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The pilgrims rejoice to stand in Jerusalem’s gates, the city where the tribes worship and David’s throne gives justice, and pray for its peace for the sake of their brothers and the house of the LORD.",
+   "settingLine": "Standing in Jerusalem’s gates.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s Jerusalem",
+     "t": "Capital of the united tribes."
+    },
+    {
+     "h": "Pilgrim feasts",
+     "t": "The tribes go up."
+    }
+   ],
+   "customs": [
+    {
+     "h": "City gates",
+     "t": "Where pilgrims entered."
+    },
+    {
+     "h": "Greeting of peace",
+     "t": "Shalom spoken at meeting."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Jerusalem’s walls",
+     "t": "Remains of the Iron Age city wall, such as the Broad Wall built in Hezekiah’s time."
+    },
+    {
+     "h": "The Gihon water system",
+     "t": "The spring that let Jerusalem survive sieges."
+    }
+   ],
+   "discussion": "The pilgrim prays for the city’s peace “For the sake of my brothers and friends” (v.8). Whose peace am I praying for, for the sake of the people I love?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Song of ascents; song of Zion",
+   "audience": "Pilgrims arriving in Jerusalem",
+   "refNotes": {
+    "Deuteronomy 16:16": "Pilgrim feasts",
+    "Isaiah 2:2-3": "Going up",
+    "Jeremiah 29:7": "Seek its peace"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "The singer"
+    },
+    {
+     "n": "The tribes",
+     "d": "Go up to worship"
+    },
+    {
+     "n": "Brothers and friends",
+     "d": "For whose sake he prays"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Let us go"
+    },
+    {
+     "when": "v.3-5",
+     "label": "The city united"
+    },
+    {
+     "when": "v.6-9",
+     "label": "Pray for her peace"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I was glad when they said to me, Let us go to the house of the LORD. Our feet are standing in your gates, O Jerusalem. Jerusalem is built up as a city united together, where the tribes go up, the tribes of the LORD, as a testimony for Israel, to give thanks to the name of the LORD. Pray for the peace of Jerusalem: May those who love you prosper. May there be peace within your walls, and prosperity inside your fortresses. For the sake of my brothers and friends, I will say, Peace be within you. For the sake of the house of the LORD our God, I will seek your prosperity.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+   "caption": "Ancient steps leading up to the Temple Mount. “Our feet are standing in your gates, O Jerusalem” (Psalm 122:2).",
+   "credit": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

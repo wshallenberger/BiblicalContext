@@ -1,0 +1,212 @@
+{
+ "book": "Psalms",
+ "chapter": 113,
+ "title": "Who Is Like the LORD Our God?",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Hallelujah! Give praise, O servants of the LORD; praise the name of the LORD."
+  },
+  {
+   "num": 2,
+   "text": "Blessed be the name of the LORD both now and forevermore."
+  },
+  {
+   "num": 3,
+   "text": "From where the sun rises to where it sets, the name of the LORD is praised."
+  },
+  {
+   "num": 4,
+   "text": "The LORD is exalted over all the nations, His glory above the heavens."
+  },
+  {
+   "num": 5,
+   "text": "Who is like the LORD our God, the One enthroned on high?"
+  },
+  {
+   "num": 6,
+   "text": "He humbles Himself to behold the heavens and the earth."
+  },
+  {
+   "num": 7,
+   "text": "He raises the poor from the dust and lifts the needy from the dump"
+  },
+  {
+   "num": 8,
+   "text": "to seat them with nobles, with the princes of His people."
+  },
+  {
+   "num": 9,
+   "text": "He settles the barren woman in her home as a joyful mother to her children. Hallelujah!"
+  }
+ ],
+ "context": {
+  "author": "Not named. Psalms 113-118 are the Hallel (“praise”), sung at Passover and the other great feasts. The Mishnah says Psalms 113-114 were sung before the Passover meal and 115-118 after it (Pesachim 10:6-7).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Hallelujah! Give praise, O servants of the LORD; praise the name of the LORD” (v.1). His name is praised in every time and every place: “From where the sun rises to where it sets, the name of the LORD is praised” (v.3). He is high above the nations and the heavens: “Who is like the LORD our God, the One enthroned on high? He humbles Himself to behold the heavens and the earth” (vv.5-6). Yet the High One stoops to the lowest: “He raises the poor from the dust and lifts the needy from the dump to seat them with nobles” (vv.7-8). “He settles the barren woman in her home as a joyful mother to her children. Hallelujah!” (v.9).",
+  "custom": "Psalms 113-118 are the Hallel (“praise”), sung at Passover and the other great feasts. The Mishnah says Psalms 113-114 were sung before the Passover meal and 115-118 after it (Pesachim 10:6-7). The “dump” (v.7) was the ash heap outside a town where refuse was burned and beggars and outcasts sat (Job 2:8). A childless wife often suffered shame (1 Samuel 1:6).",
+  "timelineImmediate": "Psalm 114 remembers the exodus, when the sea fled and the mountains skipped.",
+  "timelineBible": "Verses 7-8 repeat Hannah’s song (1 Samuel 2:8), and Mary echoes both: “He has brought down rulers from their thrones, but has exalted the humble” (Luke 1:52). Paul describes Christ, who “humbled Himself and became obedient to death” (Philippians 2:8). After the Last Supper Jesus and His disciples “had sung a hymn” (Matthew 26:30), most likely the Hallel.",
+  "translation": [
+   {
+    "english": "dust",
+    "greek": "עָפָר (aphar)",
+    "verseRef": "v.7",
+    "meaning": "Dust, dry earth.",
+    "gloss": "Dust",
+    "strongs": "H6083",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "dump",
+    "greek": "אַשְׁפֹּת (ashpot)",
+    "verseRef": "v.7",
+    "meaning": "Ash heap, refuse dump.",
+    "gloss": "Ash heap",
+    "strongs": "H830",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "barren",
+    "greek": "עָקָר (aqarah)",
+    "verseRef": "v.9",
+    "meaning": "Barren woman, childless.",
+    "gloss": "Barren",
+    "strongs": "H6135",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 1:46-55",
+    "note": "Mary’s song."
+   },
+   {
+    "ref": "Philippians 2:5-11",
+    "note": "He humbled Himself."
+   },
+   {
+    "ref": "Matthew 26:30",
+    "note": "When they had sung a hymn."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Samuel 2:1-10",
+    "note": "Hannah’s song."
+   },
+   {
+    "ref": "Isaiah 57:15",
+    "note": "The High One dwells with the lowly."
+   },
+   {
+    "ref": "Malachi 1:11",
+    "note": "From the rising of the sun to its setting."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "The first Hallel psalm praises the LORD who is enthroned above all, yet stoops to lift the poor from the ash heap and give the barren woman a home full of children.",
+   "settingLine": "The High One stoops low.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Hannah",
+     "t": "Barren, then mother of Samuel."
+    },
+    {
+     "h": "Passover Hallel",
+     "t": "Sung before the meal."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The ash heap",
+     "t": "Where outcasts sat."
+    },
+    {
+     "h": "Barrenness",
+     "t": "A deep sorrow and shame."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Refuse dumps",
+     "t": "Ash layers outside ancient towns, used today to study diet."
+    },
+    {
+     "h": "The Passover Haggadah",
+     "t": "Medieval manuscripts of the Passover service that include the Hallel."
+    }
+   ],
+   "discussion": "God is “enthroned on high” yet “raises the poor from the dust” (vv.5-7). Who in the dust near me could God be asking me to help lift?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Hymn of praise (Hallel)",
+   "audience": "Servants of the LORD",
+   "refNotes": {
+    "1 Samuel 2:1-10": "Hannah",
+    "Isaiah 57:15": "High and lowly",
+    "Malachi 1:11": "Every place"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The servants of the LORD",
+     "d": "Called to praise"
+    },
+    {
+     "n": "The poor",
+     "d": "Seated with princes"
+    },
+    {
+     "n": "The barren woman",
+     "d": "Made a joyful mother"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-3",
+     "label": "Praise His name always"
+    },
+    {
+     "when": "v.4-6",
+     "label": "Enthroned on high"
+    },
+    {
+     "when": "v.7-9",
+     "label": "Lifting the lowly"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Hallelujah! Give praise, O servants of the LORD; praise the name of the LORD. Blessed be the name of the LORD both now and forevermore. From where the sun rises to where it sets, the name of the LORD is praised. The LORD is exalted over all the nations, His glory above the heavens. Who is like the LORD our God, the One enthroned on high? He humbles Himself to behold the heavens and the earth. He raises the poor from the dust and lifts the needy from the dump to seat them with nobles, with the princes of His people. He settles the barren woman in her home as a joyful mother to her children. Hallelujah!",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Última_Cena_-_Da_Vinci_5.jpg",
+   "caption": "The Last Supper, by Leonardo da Vinci (1495-1498, Santa Maria delle Grazie, Milan). At Passover, Jews sang the Hallel, Psalms 113-118; after the supper Jesus and His disciples “had sung a hymn” and went out to the Mount of Olives (Matthew 26:30).",
+   "credit": "Leonardo da Vinci (1495-1498), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem, where the Hallel was sung at the feasts. “From where the sun rises to where it sets, the name of the LORD is praised” (Psalm 113:3).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

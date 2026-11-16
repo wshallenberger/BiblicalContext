@@ -1,0 +1,197 @@
+{
+ "book": "Psalms",
+ "chapter": 125,
+ "title": "As the Mountains Surround Jerusalem",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Those who trust in the LORD are like Mount Zion. It cannot be moved; it abides forever."
+  },
+  {
+   "num": 2,
+   "text": "As the mountains surround Jerusalem, so the LORD surrounds His people, both now and forevermore."
+  },
+  {
+   "num": 3,
+   "text": "For the scepter of the wicked will not rest upon the land allotted to the righteous, so that the righteous will not put forth their hands to injustice."
+  },
+  {
+   "num": 4,
+   "text": "Do good, O LORD, to those who are good, and to the upright in heart."
+  },
+  {
+   "num": 5,
+   "text": "But those who turn to crooked ways the LORD will banish with the evildoers. Peace be upon Israel."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Those who trust in the LORD are like Mount Zion. It cannot be moved; it abides forever. As the mountains surround Jerusalem, so the LORD surrounds His people, both now and forevermore” (vv.1-2). Foreign rule will not last: “the scepter of the wicked will not rest upon the land allotted to the righteous,” so that the righteous are not tempted to do wrong (v.3). “Do good, O LORD, to those who are good, and to the upright in heart” (v.4), but the crooked will be banished with evildoers. “Peace be upon Israel” (v.5).",
+  "custom": "Jerusalem is ringed by higher hills: the Mount of Olives to the east, Mount Scopus to the north-east, and ridges to the south and west. A pilgrim arriving would see the city sheltered by them. The scepter of the wicked (v.3) may mean foreign rulers over the land, as under Persia after the exile.",
+  "timelineImmediate": "Psalm 126, the next Song of Ascents, remembers when the LORD restored the fortunes of Zion.",
+  "timelineBible": "Jesus said the one who hears and does His words is like a man who built his house on the rock, which did not fall (Matthew 7:24-25). Paul ends Galatians, “Peace and mercy to all who walk by this rule, even to the Israel of God” (Galatians 6:16), like v.5.",
+  "translation": [
+   {
+    "english": "Zion",
+    "greek": "צִיּוֹן (tsiyyon)",
+    "verseRef": "v.1",
+    "meaning": "Zion, the hill of Jerusalem.",
+    "gloss": "Zion",
+    "strongs": "H6726",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "surround",
+    "greek": "סָבִיב (saviv)",
+    "verseRef": "v.2",
+    "meaning": "Around, all around.",
+    "gloss": "Around",
+    "strongs": "H5439",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "scepter",
+    "greek": "שֵׁבֶט (shevet)",
+    "verseRef": "v.3",
+    "meaning": "Rod, scepter, tribe.",
+    "gloss": "Scepter",
+    "strongs": "H7626",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 7:24-27",
+    "note": "The house on the rock."
+   },
+   {
+    "ref": "Galatians 6:16",
+    "note": "Peace to the Israel of God."
+   },
+   {
+    "ref": "Hebrews 12:28",
+    "note": "A kingdom that cannot be shaken."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Zechariah 2:4-5",
+    "note": "I will be a wall of fire around her."
+   },
+   {
+    "ref": "2 Kings 6:17",
+    "note": "Horses and chariots of fire all around."
+   },
+   {
+    "ref": "Isaiah 26:3-4",
+    "note": "Perfect peace for the one who trusts."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Those who trust in the LORD are as unshakable as Mount Zion, and as the mountains surround Jerusalem, the LORD surrounds His people; the rule of the wicked will not last, and peace will be on Israel.",
+   "settingLine": "A city ringed by hills, a people ringed by God.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Persian rule",
+     "t": "The scepter of the wicked over the land."
+    },
+    {
+     "h": "Elisha at Dothan",
+     "t": "Surrounded by God’s army."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Pilgrims’ first view",
+     "t": "The city among the hills."
+    },
+    {
+     "h": "Blessing of peace",
+     "t": "Shalom on Israel."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Mount of Olives",
+     "t": "An ancient Jewish cemetery covers its slopes facing the Temple Mount."
+    },
+    {
+     "h": "Jerusalem’s topography",
+     "t": "The Kidron and Hinnom valleys and the hills around them."
+    }
+   ],
+   "discussion": "“As the mountains surround Jerusalem, so the LORD surrounds His people” (v.2). Where do I need to remember that God is all around me?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; trust",
+   "audience": "Those who trust in the LORD",
+   "refNotes": {
+    "Zechariah 2:4-5": "A wall of fire",
+    "2 Kings 6:17": "Surrounded by God",
+    "Isaiah 26:3-4": "Trust and peace"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Those who trust",
+     "d": "Like Mount Zion"
+    },
+    {
+     "n": "The upright",
+     "d": "Receive good"
+    },
+    {
+     "n": "The crooked",
+     "d": "Banished"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Like Mount Zion"
+    },
+    {
+     "when": "v.3",
+     "label": "The scepter of the wicked"
+    },
+    {
+     "when": "v.4-5",
+     "label": "Peace be upon Israel"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Those who trust in the LORD are like Mount Zion. It cannot be moved; it abides forever. As the mountains surround Jerusalem, so the LORD surrounds His people, both now and forevermore. For the scepter of the wicked will not rest upon the land allotted to the righteous, so that the righteous will not put forth their hands to injustice. Do good, O LORD, to those who are good, and to the upright in heart. But those who turn to crooked ways the LORD will banish with the evildoers. Peace be upon Israel.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+   "caption": "An ancient olive tree on the Mount of Olives, one of the hills that ring Jerusalem. “As the mountains surround Jerusalem, so the LORD surrounds His people” (Psalm 125:2).",
+   "credit": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "book": "Psalms",
+ "chapter": 121,
+ "title": "My Help Comes from the LORD",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I lift up my eyes to the hills. From where does my help come?"
+  },
+  {
+   "num": 2,
+   "text": "My help comes from the LORD, the Maker of heaven and earth."
+  },
+  {
+   "num": 3,
+   "text": "He will not allow your foot to slip; your Protector will not slumber."
+  },
+  {
+   "num": 4,
+   "text": "Behold, the Protector of Israel will neither slumber nor sleep."
+  },
+  {
+   "num": 5,
+   "text": "The LORD is your keeper; the LORD is the shade on your right hand."
+  },
+  {
+   "num": 6,
+   "text": "The sun will not strike you by day, nor the moon by night."
+  },
+  {
+   "num": 7,
+   "text": "The LORD will guard you from all evil; He will preserve your soul."
+  },
+  {
+   "num": 8,
+   "text": "The LORD will watch over your coming and going, both now and forevermore."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I lift up my eyes to the hills. From where does my help come? My help comes from the LORD, the Maker of heaven and earth” (vv.1-2). A second voice, perhaps a fellow pilgrim or a priest, answers with a blessing: “He will not allow your foot to slip; your Protector will not slumber. Behold, the Protector of Israel will neither slumber nor sleep” (vv.3-4). “The LORD is your keeper; the LORD is the shade on your right hand. The sun will not strike you by day, nor the moon by night” (vv.5-6). “The LORD will guard you from all evil; He will preserve your soul. The LORD will watch over your coming and going, both now and forevermore” (vv.7-8).",
+  "custom": "Pilgrims walked through hill country where robbers could hide (Luke 10:30) and where the sun could cause sunstroke (2 Kings 4:18-20; Jonah 4:8). Some think the hills were where pagan shrines stood, and the pilgrim looks past them to the Maker of the hills. The Hebrew word shamar, ‘keep, guard, watch,’ appears six times in eight verses.",
+  "timelineImmediate": "Psalm 122: “I was glad when they said to me, ‘Let us go to the house of the LORD.’”",
+  "timelineBible": "Jesus prayed for His disciples, “I protected and preserved them by Your name” (John 17:12), and asked the Father to “keep them from the evil one” (John 17:15). Peter says believers “are shielded by God’s power” (1 Peter 1:5). In the new creation, “nor will the sun beat down upon them” (Revelation 7:16).",
+  "translation": [
+   {
+    "english": "hills",
+    "greek": "הַר (har)",
+    "verseRef": "v.1",
+    "meaning": "Mountain, hill, hill country.",
+    "gloss": "Mountain",
+    "strongs": "H2022",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "keeper",
+    "greek": "שָׁמַר (shamar)",
+    "verseRef": "v.5",
+    "meaning": "To keep, guard, watch over.",
+    "gloss": "Keep",
+    "strongs": "H8104",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "slumber",
+    "greek": "נוּם (num)",
+    "verseRef": "v.3",
+    "meaning": "To slumber, doze.",
+    "gloss": "Slumber",
+    "strongs": "H5123",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "John 17:11-15",
+    "note": "Protect them from the evil one."
+   },
+   {
+    "ref": "1 Peter 1:3-5",
+    "note": "Shielded by God’s power."
+   },
+   {
+    "ref": "Revelation 7:16-17",
+    "note": "The sun will not beat down on them."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "1 Kings 18:27",
+    "note": "Perhaps Baal is sleeping."
+   },
+   {
+    "ref": "Isaiah 49:10",
+    "note": "Sun and heat will not strike them."
+   },
+   {
+    "ref": "Numbers 6:24-26",
+    "note": "The LORD bless you and keep you."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Looking up at the hills, the pilgrim confesses that help comes from the Maker of heaven and earth, and is blessed with the promise that the LORD, who never sleeps, will keep him day and night, coming and going.",
+   "settingLine": "A blessing for the road.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "Pilgrim roads",
+     "t": "Through the Judean hills."
+    },
+    {
+     "h": "Elijah and Baal",
+     "t": "A god who might be asleep."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Travelers’ blessings",
+     "t": "Spoken at departure."
+    },
+    {
+     "h": "Shade on the road",
+     "t": "Protection from the sun."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Ketef Hinnom amulets",
+     "t": "Silver scrolls from about 600 BC with the priestly blessing, ‘The LORD bless you and keep you.’"
+    },
+    {
+     "h": "Ancient roads",
+     "t": "Stretches of Roman roads in the Judean hills follow older routes to Jerusalem."
+    }
+   ],
+   "discussion": "God “will neither slumber nor sleep” (v.4). How does that change the way I face tonight’s worries?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; trust",
+   "audience": "The pilgrim on the road",
+   "refNotes": {
+    "1 Kings 18:27": "Gods who sleep",
+    "Isaiah 49:10": "Sheltered from the sun",
+    "Numbers 6:24-26": "The LORD keep you"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The pilgrim",
+     "d": "Looks to the hills"
+    },
+    {
+     "n": "The one who blesses",
+     "d": "Answers with promises"
+    },
+    {
+     "n": "The Keeper of Israel",
+     "d": "Never sleeps"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Where does my help come from?"
+    },
+    {
+     "when": "v.3-8",
+     "label": "The LORD is your keeper"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I lift up my eyes to the hills. From where does my help come? My help comes from the LORD, the Maker of heaven and earth. He will not allow your foot to slip; your Protector will not slumber. Behold, the Protector of Israel will neither slumber nor sleep. The LORD is your keeper; the LORD is the shade on your right hand. The LORD will guard you from all evil; He will preserve your soul. The LORD will watch over your coming and going, both now and forevermore.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judea_1_by_David_Shankbone.jpg",
+   "caption": "The Judean hills, the pilgrims’ road to Jerusalem. “I lift up my eyes to the hills. From where does my help come?” (Psalm 121:1).",
+   "credit": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+  }
+ }
+}

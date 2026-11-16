@@ -1,0 +1,189 @@
+{
+ "book": "Psalms",
+ "chapter": 123,
+ "title": "Our Eyes Are on the LORD",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I lift up my eyes to You, the One enthroned in heaven."
+  },
+  {
+   "num": 2,
+   "text": "As the eyes of servants look to the hand of their master, as the eyes of a maidservant look to the hand of her mistress, so our eyes are on the LORD our God until He shows us mercy."
+  },
+  {
+   "num": 3,
+   "text": "Have mercy on us, O LORD, have mercy, for we have endured much contempt."
+  },
+  {
+   "num": 4,
+   "text": "We have endured much scorn from the arrogant, much contempt from the proud."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I lift up my eyes to You, the One enthroned in heaven” (v.1). The pilgrims watch God the way servants watch their master: “As the eyes of servants look to the hand of their master, as the eyes of a maidservant look to the hand of her mistress, so our eyes are on the LORD our God until He shows us mercy” (v.2). They are worn down: “Have mercy on us, O LORD, have mercy, for we have endured much contempt. We have endured much scorn from the arrogant, much contempt from the proud” (vv.3-4).",
+  "custom": "Servants in a household waited silently for their master’s or mistress’s signal, a small motion of the hand, to know what to do. The scorn of v.4 fits the years after the exile, when neighbors mocked the returned Jews as they rebuilt Jerusalem (Nehemiah 2:19; 4:1-4).",
+  "timelineImmediate": "Psalm 124: “If the LORD had not been on our side.”",
+  "timelineBible": "Hebrews says, “Let us fix our eyes on Jesus, the author and perfecter of our faith” (Hebrews 12:2). The blind men cried, “Lord, Son of David, have mercy on us!” (Matthew 20:30).",
+  "translation": [
+   {
+    "english": "eyes",
+    "greek": "עַיִן (ayin)",
+    "verseRef": "v.1",
+    "meaning": "Eye; also a spring of water.",
+    "gloss": "Eye",
+    "strongs": "H5869",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "have mercy",
+    "greek": "חָנַן (chanan)",
+    "verseRef": "v.3",
+    "meaning": "To be gracious, show favor.",
+    "gloss": "Be gracious",
+    "strongs": "H2603",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "contempt",
+    "greek": "בּוּז (buz)",
+    "verseRef": "v.3",
+    "meaning": "Contempt, scorn.",
+    "gloss": "Contempt",
+    "strongs": "H937",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Hebrews 12:1-3",
+    "note": "Fixing our eyes on Jesus."
+   },
+   {
+    "ref": "Matthew 20:29-34",
+    "note": "Lord, have mercy on us."
+   },
+   {
+    "ref": "1 Peter 4:14",
+    "note": "Insulted for the name of Christ."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Nehemiah 4:1-5",
+    "note": "Mocked while rebuilding."
+   },
+   {
+    "ref": "Psalm 121:1",
+    "note": "I lift up my eyes to the hills."
+   },
+   {
+    "ref": "2 Chronicles 20:12",
+    "note": "Our eyes are on You."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "Scorned by the proud, God’s people lift their eyes to Him and watch Him as servants watch their master’s hand, waiting until He shows mercy.",
+   "settingLine": "Servants watching their Master’s hand.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "After the exile",
+     "t": "Mocked by neighbors."
+    },
+    {
+     "h": "Nehemiah’s wall",
+     "t": "Built under scorn."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Household servants",
+     "t": "Watching for a signal."
+    },
+    {
+     "h": "Looking up",
+     "t": "A posture of prayer."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Servant figurines",
+     "t": "Egyptian tomb models show servants at work for their masters."
+    },
+    {
+     "h": "Persian-period Jerusalem",
+     "t": "Excavations show a small city after the return from exile."
+    }
+   ],
+   "discussion": "Servants watch their master’s hand for the smallest signal (v.2). How closely am I watching for God’s direction?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; community lament",
+   "audience": "God, enthroned in heaven",
+   "refNotes": {
+    "Nehemiah 4:1-5": "Scorned",
+    "Psalm 121:1": "Looking up",
+    "2 Chronicles 20:12": "Eyes on God"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The servants",
+     "d": "Watching their master"
+    },
+    {
+     "n": "The maidservant",
+     "d": "Watching her mistress"
+    },
+    {
+     "n": "The proud",
+     "d": "Pour out scorn"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Our eyes on the LORD"
+    },
+    {
+     "when": "v.3-4",
+     "label": "Have mercy on us"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I lift up my eyes to You, the One enthroned in heaven. As the eyes of servants look to the hand of their master, as the eyes of a maidservant look to the hand of her mistress, so our eyes are on the LORD our God until He shows us mercy. Have mercy on us, O LORD, have mercy, for we have endured much contempt. We have endured much scorn from the arrogant, much contempt from the proud.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Mount_(Aerial_view,_2007)_01.jpg",
+   "caption": "The Temple Mount in Jerusalem. “I lift up my eyes to You, the One enthroned in heaven” (Psalm 123:1).",
+   "credit": "Photo: Godot13, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -3001,6 +3001,84 @@
   ],
   "psalms:100": [
    "ps_templemount"
+  ],
+  "psalms:101": [
+   "ps_harp"
+  ],
+  "psalms:102": [
+   "ps_hayez"
+  ],
+  "psalms:103": [
+   "ps_harp"
+  ],
+  "psalms:104": [
+   "ps_engedi",
+   "ps_cedars"
+  ],
+  "psalms:105": [
+   "ps_moses"
+  ],
+  "psalms:106": [
+   "ps_sinai"
+  ],
+  "psalms:107": [
+   "ps_storm"
+  ],
+  "psalms:108": [
+   "ps_masada"
+  ],
+  "psalms:109": [
+   "ps_supper"
+  ],
+  "psalms:110": [
+   "ps_templemount"
+  ],
+  "psalms:111": [
+   "ps_olives"
+  ],
+  "psalms:112": [
+   "ps_scroll"
+  ],
+  "psalms:113": [
+   "ps_supper"
+  ],
+  "psalms:114": [
+   "ps_jordan"
+  ],
+  "psalms:115": [
+   "ps_supper"
+  ],
+  "psalms:116": [
+   "ps_supper"
+  ],
+  "psalms:117": [
+   "ps_olives"
+  ],
+  "psalms:118": [
+   "ps_ps118",
+   "ps_steps"
+  ],
+  "psalms:119": [
+   "ps_scroll",
+   "ps_qumran"
+  ],
+  "psalms:120": [
+   "ps_steps"
+  ],
+  "psalms:121": [
+   "ps_judea"
+  ],
+  "psalms:122": [
+   "ps_steps"
+  ],
+  "psalms:123": [
+   "ps_templemount"
+  ],
+  "psalms:124": [
+   "ps_jordan"
+  ],
+  "psalms:125": [
+   "ps_olives"
   ]
  },
  "ac_ascmat": {
@@ -7552,5 +7630,37 @@
   "n": "Mount Tabor (1912)",
   "d": "Mount Tabor rising from the plain of Jezreel, photographed by Dwight Elmendorf (1912). “Tabor and Hermon shout for joy at Your name” (Psalm 89:12).",
   "a": "Dwight L. Elmendorf (1912), public domain / Wikimedia Commons"
+ },
+ "ps_storm": {
+  "k": "art",
+  "f": "Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg",
+  "c": "Christ in the Storm on the Sea of Galilee, by Rembrandt (1633), his only seascape. It was stolen from the Isabella Stewart Gardner Museum in Boston in 1990 and has never been recovered. When Jesus stilled the sea, the disciples saw what Psalm 107 says of the LORD: “He calmed the storm to a whisper” (Psalm 107:29).",
+  "n": "Rembrandt, Christ in the Storm",
+  "d": "Christ in the Storm on the Sea of Galilee, by Rembrandt (1633), his only seascape. It was stolen from the Isabella Stewart Gardner Museum in Boston in 1990 and has never been recovered. When Jesus stilled the sea, the disciples saw what Psalm 107 says of the LORD: “He calmed the storm to a whisper” (Psalm 107:29).",
+  "a": "Rembrandt (1633), public domain / Wikimedia Commons"
+ },
+ "ps_supper": {
+  "k": "art",
+  "f": "Última_Cena_-_Da_Vinci_5.jpg",
+  "c": "The Last Supper, by Leonardo da Vinci (1495-1498, Santa Maria delle Grazie, Milan). At Passover, Jews sang the Hallel, Psalms 113-118; after the supper Jesus and His disciples “had sung a hymn” and went out to the Mount of Olives (Matthew 26:30).",
+  "n": "Leonardo, The Last Supper",
+  "d": "The Last Supper, by Leonardo da Vinci (1495-1498, Santa Maria delle Grazie, Milan). At Passover, Jews sang the Hallel, Psalms 113-118; after the supper Jesus and His disciples “had sung a hymn” and went out to the Mount of Olives (Matthew 26:30).",
+  "a": "Leonardo da Vinci (1495-1498), public domain / Wikimedia Commons"
+ },
+ "ps_olives": {
+  "k": "now",
+  "f": "One_of_the_oldest_olive_trees_in_the_Garden_of_Gethsemane..jpg",
+  "c": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+  "n": "An olive tree on the Mount of Olives",
+  "d": "An ancient olive tree on the Mount of Olives in Jerusalem. Farming pictures of trees, fields, vineyards and harvests run all through Proverbs.",
+  "a": "Photo: Bogdan Kosar, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "ps_steps": {
+  "k": "dig",
+  "f": "Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+  "c": "Ancient steps on the south side of the Temple Mount, where pilgrims climbed to the Temple at the feasts. Psalms 120-134 are each titled “A song of ascents,” perhaps sung on the way up to Jerusalem.",
+  "n": "The southern steps of the Temple Mount",
+  "d": "Ancient steps on the south side of the Temple Mount, where pilgrims climbed to the Temple at the feasts. Psalms 120-134 are each titled “A song of ascents,” perhaps sung on the way up to Jerusalem.",
+  "a": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
  }
 }

@@ -1,0 +1,223 @@
+{
+ "book": "Psalms",
+ "chapter": 120,
+ "title": "Too Long Among Those Who Hate Peace",
+ "translation": "BSB",
+ "superscription": "A song of ascents.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "In my distress I cried to the LORD, and He answered me."
+  },
+  {
+   "num": 2,
+   "text": "Deliver my soul, O LORD, from lying lips and a deceitful tongue."
+  },
+  {
+   "num": 3,
+   "text": "What will He do to you, and what will be added to you, O deceitful tongue?"
+  },
+  {
+   "num": 4,
+   "text": "Sharp arrows will come from the warrior, with burning coals of the broom tree!"
+  },
+  {
+   "num": 5,
+   "text": "Woe to me that I dwell in Meshech, that I live among the tents of Kedar!"
+  },
+  {
+   "num": 6,
+   "text": "Too long have I dwelt among those who hate peace."
+  },
+  {
+   "num": 7,
+   "text": "I am in favor of peace; but when I speak, they want war."
+  }
+ ],
+ "context": {
+  "author": "The title calls it “A song of ascents,” one of fifteen such psalms (120-134). They may have been sung by pilgrims going up to Jerusalem for the feasts; the Mishnah says the Levites sang them on the fifteen steps inside the Temple courts (Sukkah 5:4).",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "MESHECH AND KEDAR, FAR FROM ZION",
+  "setting": "The pilgrim songs begin far from Jerusalem. “In my distress I cried to the LORD, and He answered me. Deliver my soul, O LORD, from lying lips and a deceitful tongue” (vv.1-2). The liar will be repaid with “Sharp arrows… with burning coals of the broom tree!” (v.4). The singer feels like an exile: “Woe to me that I dwell in Meshech, that I live among the tents of Kedar! Too long have I dwelt among those who hate peace. I am in favor of peace; but when I speak, they want war” (vv.5-7).",
+  "custom": "Meshech was a people in Anatolia, far to the north (Genesis 10:2; Ezekiel 38:2), and Kedar was a tribe of Arabian desert nomads, far to the southeast (Genesis 25:13; Isaiah 21:16-17). No one could live in both, so they are pictures of living among hostile, foreign people. The broom tree’s roots make charcoal that burns long and hot.",
+  "timelineImmediate": "Psalm 121: “I lift up my eyes to the hills.”",
+  "timelineBible": "Jesus said, “Blessed are the peacemakers” (Matthew 5:9). Peter calls believers “foreigners and exiles” (1 Peter 2:11) in this world, and Hebrews says they were looking for a homeland (Hebrews 11:13-16). James describes the tongue as “a fire” (James 3:6).",
+  "translation": [
+   {
+    "english": "Meshech",
+    "greek": "מֶשֶׁךְ (meshekh)",
+    "verseRef": "v.5",
+    "meaning": "Meshech, a people of Anatolia.",
+    "gloss": "Meshech",
+    "strongs": "H4902",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "Kedar",
+    "greek": "קֵדָר (qedar)",
+    "verseRef": "v.5",
+    "meaning": "Kedar, an Arabian desert tribe; “dark.”",
+    "gloss": "Kedar",
+    "strongs": "H6938",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "peace",
+    "greek": "שָׁלוֹם (shalom)",
+    "verseRef": "v.7",
+    "meaning": "Peace, wholeness, well-being.",
+    "gloss": "Peace",
+    "strongs": "H7965",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 5:9",
+    "note": "Blessed are the peacemakers."
+   },
+   {
+    "ref": "1 Peter 2:11-12",
+    "note": "Foreigners and exiles."
+   },
+   {
+    "ref": "James 3:5-8",
+    "note": "The tongue is a fire."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 10:2",
+    "note": "Meshech among the sons of Japheth."
+   },
+   {
+    "ref": "Genesis 25:13",
+    "note": "Kedar among the sons of Ishmael."
+   },
+   {
+    "ref": "Jeremiah 9:3-8",
+    "note": "Tongues like bows for lies."
+   }
+  ],
+  "mapCoords": {
+   "lat": 29.8,
+   "lng": 39.9,
+   "zoom": 6,
+   "placeName": "Kedar, tribes of the north Arabian desert (approximate)"
+  },
+  "overview": {
+   "summary": "The first pilgrim song is a cry from far away: surrounded by liars and people who love war, the singer longs for peace, and so for Zion.",
+   "settingLine": "The journey starts among strangers.",
+   "placeName": "Kedar, tribes of the north Arabian desert (approximate)",
+   "history": [
+    {
+     "h": "Exile and dispersion",
+     "t": "Jews scattered far from Zion."
+    },
+    {
+     "h": "Pilgrimage",
+     "t": "Going up to Jerusalem."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Broom-tree charcoal",
+     "t": "Burned long and hot."
+    },
+    {
+     "h": "Bedouin tents",
+     "t": "Black goat-hair tents of Kedar (Song of Songs 1:5)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Assyrian records of Qedar",
+     "t": "Assyrian annals mention the Arab tribe Qedar and its queens."
+    },
+    {
+     "h": "The Mushki",
+     "t": "Assyrian texts name the Mushki of Anatolia, probably Meshech."
+    }
+   ],
+   "discussion": "“I am in favor of peace; but when I speak, they want war” (v.7). Where do I feel out of place, and how can I be a peacemaker there?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Song of ascents; lament",
+   "audience": "God, from far away",
+   "refNotes": {
+    "Genesis 10:2": "Meshech",
+    "Genesis 25:13": "Kedar",
+    "Jeremiah 9:3-8": "Lying tongues"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The pilgrim",
+     "d": "Far from home"
+    },
+    {
+     "n": "The liars",
+     "d": "Deceitful tongues"
+    },
+    {
+     "n": "Meshech and Kedar",
+     "d": "Hostile neighbors"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-2",
+     "label": "Deliver me from lying lips"
+    },
+    {
+     "when": "v.3-4",
+     "label": "The liar’s reward"
+    },
+    {
+     "when": "v.5-7",
+     "label": "Woe to me in Meshech"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Kedar, tribes of the north Arabian desert (approximate)",
+    "lat": 29.8,
+    "lng": 39.9,
+    "verses": [
+     5
+    ],
+    "slug": "kedar"
+   },
+   {
+    "name": "Meshech in Anatolia (approximate)",
+    "lat": 38.7,
+    "lng": 35.5,
+    "verses": [
+     5
+    ],
+    "slug": "meshech"
+   },
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "In my distress I cried to the LORD, and He answered me. Deliver my soul, O LORD, from lying lips and a deceitful tongue. Woe to me that I dwell in Meshech, that I live among the tents of Kedar! Too long have I dwelt among those who hate peace. I am in favor of peace; but when I speak, they want war.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg",
+   "caption": "Part of the Great Psalms Scroll (11Q5) from Qumran Cave 11, copied in the first half of the first century AD. More copies of the Psalms were found among the Dead Sea Scrolls than of any other book.",
+   "credit": "Israel Antiquities Authority / Library of Congress, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+   "caption": "Ancient steps on the south side of the Temple Mount, where pilgrims climbed to the Temple at the feasts. Psalms 120-134 are each titled “A song of ascents,” perhaps sung on the way up to Jerusalem.",
+   "credit": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "book": "Psalms",
+ "chapter": 118,
+ "title": "The Stone the Builders Rejected",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Give thanks to the LORD, for He is good; His loving devotion endures forever."
+  },
+  {
+   "num": 2,
+   "text": "Let Israel say, \"His loving devotion endures forever.\""
+  },
+  {
+   "num": 3,
+   "text": "Let the house of Aaron say, \"His loving devotion endures forever.\""
+  },
+  {
+   "num": 4,
+   "text": "Let those who fear the LORD say, \"His loving devotion endures forever.\""
+  },
+  {
+   "num": 5,
+   "text": "In my distress I called to the LORD, and He answered and set me free."
+  },
+  {
+   "num": 6,
+   "text": "The LORD is on my side; I will not be afraid. What can man do to me?"
+  },
+  {
+   "num": 7,
+   "text": "The LORD is on my side; He is my helper. Therefore I will look in triumph on those who hate me."
+  },
+  {
+   "num": 8,
+   "text": "It is better to take refuge in the LORD than to trust in man."
+  },
+  {
+   "num": 9,
+   "text": "It is better to take refuge in the LORD than to trust in princes."
+  },
+  {
+   "num": 10,
+   "text": "All the nations surrounded me, but in the name of the LORD I cut them off."
+  },
+  {
+   "num": 11,
+   "text": "They surrounded me on every side, but in the name of the LORD I cut them off."
+  },
+  {
+   "num": 12,
+   "text": "They swarmed around me like bees, but they were extinguished like burning thorns; in the name of the LORD I cut them off."
+  },
+  {
+   "num": 13,
+   "text": "I was pushed so hard I was falling, but the LORD helped me."
+  },
+  {
+   "num": 14,
+   "text": "The LORD is my strength and my song, and He has become my salvation."
+  },
+  {
+   "num": 15,
+   "text": "Shouts of joy and salvation resound in the tents of the righteous: \"The right hand of the LORD performs with valor!"
+  },
+  {
+   "num": 16,
+   "text": "The right hand of the LORD is exalted! The right hand of the LORD performs with valor!\""
+  },
+  {
+   "num": 17,
+   "text": "I will not die, but I will live and proclaim what the LORD has done."
+  },
+  {
+   "num": 18,
+   "text": "The LORD disciplined me severely, but He has not given me over to death."
+  },
+  {
+   "num": 19,
+   "text": "Open to me the gates of righteousness, that I may enter and give thanks to the LORD."
+  },
+  {
+   "num": 20,
+   "text": "This is the gate of the LORD; the righteous shall enter through it."
+  },
+  {
+   "num": 21,
+   "text": "I will give You thanks, for You have answered me, and You have become my salvation."
+  },
+  {
+   "num": 22,
+   "text": "The stone the builders rejected has become the cornerstone."
+  },
+  {
+   "num": 23,
+   "text": "This is from the LORD, and it is marvelous in our eyes."
+  },
+  {
+   "num": 24,
+   "text": "This is the day that the LORD has made; we will rejoice and be glad in it."
+  },
+  {
+   "num": 25,
+   "text": "O LORD, save us, we pray. We beseech You, O LORD, cause us to prosper!"
+  },
+  {
+   "num": 26,
+   "text": "Blessed is he who comes in the name of the LORD. From the house of the LORD we bless you."
+  },
+  {
+   "num": 27,
+   "text": "The LORD is God; He has made His light to shine upon us. Bind the festal sacrifice with cords to the horns of the altar."
+  },
+  {
+   "num": 28,
+   "text": "You are my God, and I will give You thanks. You are my God, and I will exalt You."
+  },
+  {
+   "num": 29,
+   "text": "Give thanks to the LORD, for He is good; His loving devotion endures forever."
+  }
+ ],
+ "context": {
+  "author": "Not named. The last psalm of the Hallel, sung at Passover and Tabernacles. Martin Luther called it his own favorite psalm.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“Give thanks to the LORD, for He is good; His loving devotion endures forever” (v.1), echoed by Israel, the house of Aaron and those who fear the LORD (vv.2-4). The leader, perhaps the king, tells his story: “In my distress I called to the LORD, and He answered and set me free. The LORD is on my side; I will not be afraid. What can man do to me?” (vv.5-6). The nations swarmed like bees, “but in the name of the LORD I cut them off” (v.12). “The LORD is my strength and my song, and He has become my salvation” (v.14). “I will not die, but I will live” (v.17). At the Temple: “Open to me the gates of righteousness” (v.19). Then the great verse: “The stone the builders rejected has become the cornerstone. This is from the LORD, and it is marvelous in our eyes. This is the day that the LORD has made; we will rejoice and be glad in it” (vv.22-24). The crowd cries, “O LORD, save us, we pray” (v.25), and the priests answer, “Blessed is he who comes in the name of the LORD” (v.26).",
+  "custom": "The psalm reads like a procession up to the Temple gates, with voices answering each other. “Save us, we pray” is hoshia na in Hebrew, which became ‘Hosanna.’ At Tabernacles worshipers waved branches and sang vv.25-26 as they circled the altar. A cornerstone was the large stone that set the line for two walls, the most important stone in a building.",
+  "timelineImmediate": "Psalm 119, the longest chapter in the Bible, is an alphabet poem in praise of God’s word.",
+  "timelineBible": "When Jesus rode into Jerusalem the crowds shouted, “Hosanna to the Son of David! Blessed is He who comes in the name of the Lord!” (Matthew 21:9). Jesus applied v.22 to Himself (Matthew 21:42), and Peter preached it to the council: Jesus is “the stone you builders rejected, which has become the cornerstone” (Acts 4:11; 1 Peter 2:7). Hebrews quotes v.6: “The Lord is my helper; I will not be afraid” (Hebrews 13:6).",
+  "translation": [
+   {
+    "english": "cornerstone",
+    "greek": "פִּנָּה (pinnah)",
+    "verseRef": "v.22",
+    "meaning": "Corner; the chief cornerstone.",
+    "gloss": "Corner",
+    "strongs": "H6438",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "save us",
+    "greek": "יָשַׁע (yasha)",
+    "verseRef": "v.25",
+    "meaning": "To save; hoshia na, ‘save, please,’ became ‘Hosanna.’",
+    "gloss": "Save",
+    "strongs": "H3467",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "stone",
+    "greek": "אֶבֶן (even)",
+    "verseRef": "v.22",
+    "meaning": "Stone.",
+    "gloss": "Stone",
+    "strongs": "H68",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Matthew 21:8-11",
+    "note": "Hosanna! Blessed is He who comes."
+   },
+   {
+    "ref": "Acts 4:10-12",
+    "note": "The rejected stone."
+   },
+   {
+    "ref": "1 Peter 2:4-8",
+    "note": "A living stone, rejected by men."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Exodus 15:2",
+    "note": "The LORD is my strength and my song."
+   },
+   {
+    "ref": "Isaiah 28:16",
+    "note": "A tested cornerstone in Zion."
+   },
+   {
+    "ref": "Zechariah 4:7",
+    "note": "He will bring out the capstone."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A procession of thanks: the one who was hard pressed was saved by the LORD, enters the gates of righteousness, and the rejected stone becomes the cornerstone, as the crowd cries “Save us!” and blesses the one who comes in the LORD’s name.",
+   "settingLine": "A procession through the gates of righteousness.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "The Triumphal Entry",
+     "t": "Hosanna and palm branches."
+    },
+    {
+     "h": "Passover and Tabernacles",
+     "t": "The Hallel sung."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Processions",
+     "t": "Pilgrims entering the Temple gates."
+    },
+    {
+     "h": "Waving branches",
+     "t": "At the Feast of Tabernacles."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Corner stones",
+     "t": "Huge Herodian cornerstones survive at the corners of the Temple Mount walls."
+    },
+    {
+     "h": "Psalm 118 at Qumran",
+     "t": "The Great Psalms Scroll writes God’s name in old Hebrew letters in this psalm."
+    }
+   ],
+   "discussion": "“The stone the builders rejected has become the cornerstone” (v.22). When has God used what people rejected, including something in my own life?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "Not named",
+   "genre": "Processional thanksgiving (Hallel)",
+   "audience": "Israel, the priests and the worshipers at the gates",
+   "refNotes": {
+    "Exodus 15:2": "Song of the sea",
+    "Isaiah 28:16": "The cornerstone",
+    "Zechariah 4:7": "The capstone"
+   },
+   "peoplePlaces": [
+    {
+     "n": "The leader",
+     "d": "Saved from death"
+    },
+    {
+     "n": "The house of Aaron",
+     "d": "The priests"
+    },
+    {
+     "n": "He who comes",
+     "d": "In the name of the LORD"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "His love endures forever"
+    },
+    {
+     "when": "v.5-18",
+     "label": "Saved from distress"
+    },
+    {
+     "when": "v.19-24",
+     "label": "The gates and the cornerstone"
+    },
+    {
+     "when": "v.25-29",
+     "label": "Hosanna and blessing"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Give thanks to the LORD, for He is good; His loving devotion endures forever. In my distress I called to the LORD, and He answered and set me free. The LORD is on my side; I will not be afraid. What can man do to me? It is better to take refuge in the LORD than to trust in man. The LORD is my strength and my song, and He has become my salvation. I will not die, but I will live and proclaim what the LORD has done. Open to me the gates of righteousness, that I may enter and give thanks to the LORD. The stone the builders rejected has become the cornerstone. This is the day that the LORD has made; we will rejoice and be glad in it. Blessed is he who comes in the name of the LORD. From the house of the LORD we bless you. Give thanks to the LORD, for He is good; His loving devotion endures forever.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Psalm_118_11Q5.jpg",
+   "caption": "Psalm 118 in the Great Psalms Scroll (11Q5) from Qumran Cave 11. The scroll writes the divine name YHWH in old Paleo-Hebrew letters, set apart from the square script around it.",
+   "credit": "Israel Antiquities Authority, via Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_steps_that_led_to_the_Second_Temple,_and_now_to_The_Dome_of_the_Rock_(10805218213).jpg",
+   "caption": "Ancient steps on the south side of the Temple Mount, where processions climbed to the gates. “Open to me the gates of righteousness, that I may enter and give thanks to the LORD” (Psalm 118:19).",
+   "credit": "Photo: Jorge Láscar, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

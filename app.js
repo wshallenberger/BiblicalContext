@@ -4153,7 +4153,7 @@ const MAP_TST = Bk.map(Bk.testament);
 let EVENTS = null, EV_BY_ID = {};
 let mapMain = null, mapMainReady = false, mapStyleFailed = false;
 let mapF = { tst: 'all', book: 'all', chapter: 'all', from: 1, to: 9999 };
-let mapMaxI = 642;       // number of the last event (set when events load)
+let mapMaxI = 657;       // number of the last event (set when events load)
 let mapStory = '';       // '' or a story id (see MAP_STORIES): draws the path and numbers the stops
 // a story is never carried over from an earlier visit: the map always opens with no filters
 // Stories follow one life through the events, in order. More can be added (Life of Paul comes with Acts).
@@ -4259,10 +4259,10 @@ const MAP_STORIES = [
     key: [528, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 544, 550, 552, 555, 562, 564, 566, 570, 572, 574, 576, 579],
     short: [530, 531, 532, 533, 534, 535, 536, 537, 539, 562, 564, 576],
     blurb: 'The last book of the Bible: a letter, a prophecy and a series of visions given to John on the island of Patmos for seven churches in Roman Asia. Seven pins mark those churches, in the order a messenger would reach them. Most of the visions are set in heaven and have no place on a map, so their pins stand at Patmos, where John saw them. A few stand at places the book names or points to: the Euphrates, Megiddo (Armageddon), Jerusalem, and Rome and Babylon for the great city of chapters 17-18, which is a judgment call. The notes give the main ways Christians read each vision. Numbers show the order.' },
-  { id: 'psalms', name: 'Psalms 1-100', color: '#4f6f8f', ready: true, match: e => typeof e.i === 'number' && e.i > 592 && e.i <= 642 && !e.bg,
-    key: [593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642],
-    short: [593, 594, 597, 600, 602, 604, 607, 610, 611, 615, 617, 619, 621, 623, 625, 628, 630, 632, 636, 637, 640, 642],
-    blurb: 'Songs and prayers, not journeys: most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark and Solomon built the Temple, and his prayers in Jerusalem on the City of David. Many titles name events in David’s life, and those pins follow the story: Mahanaim for the flight from Absalom (Psalm 3), a site that is uncertain; En Gedi for the rescue from Saul and the cave (Psalms 18 and 57), a judgment call; Gath (Psalms 34 and 56); Nob, the city of priests (Psalm 52), whose exact site is unknown; Ziph (Psalm 54); Gibeah (Psalm 59); and Edom (Psalm 60). The Shepherd Psalm is pinned at Bethlehem, the storm of Psalm 29 in Lebanon, and the longing of Psalm 42 at the springs of the Jordan below Hermon. Psalm 68 starts at Mount Sinai (the traditional site), Psalm 78 stands at Shiloh, Psalm 80 at Samaria, and Psalm 77 near the Bitter Lakes, where the sea crossing is only one of several proposals. Psalm 83 remembers the River Kishon, Psalm 89 names Tabor and Hermon, Moses’ prayer in Psalm 90 is pinned in Sinai, and Psalm 95 at Massah, whose site is debated. Psalms 1-100 are in the app so far. Numbers show the order of the book.' },
+  { id: 'psalms', name: 'Psalms 1-125', color: '#4f6f8f', ready: true, match: e => typeof e.i === 'number' && e.i > 592 && e.i <= 657 && !e.bg,
+    key: [593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657],
+    short: [593, 594, 597, 600, 602, 604, 607, 610, 611, 615, 617, 619, 621, 623, 625, 628, 630, 632, 636, 637, 640, 642, 645, 646, 649, 652, 654, 656, 657],
+    blurb: 'Songs and prayers, not journeys: most psalms name no place. Those sung at the sanctuary are pinned on Zion, where David brought the ark and Solomon built the Temple, and his prayers in Jerusalem on the City of David. Many titles name events in David’s life, and those pins follow the story: Mahanaim for the flight from Absalom (Psalm 3), a site that is uncertain; En Gedi for the rescue from Saul and the cave (Psalms 18 and 57), a judgment call; Gath (Psalms 34 and 56); Nob, the city of priests (Psalm 52), whose exact site is unknown; Ziph (Psalm 54); Gibeah (Psalm 59); and Edom (Psalm 60). The Shepherd Psalm is pinned at Bethlehem, the storm of Psalm 29 in Lebanon, and the longing of Psalm 42 at the springs of the Jordan below Hermon. Psalm 68 starts at Mount Sinai (the traditional site), Psalm 78 stands at Shiloh, Psalm 80 at Samaria, and Psalm 77 near the Bitter Lakes, where the sea crossing is only one of several proposals. Psalm 83 remembers the River Kishon, Psalm 89 names Tabor and Hermon, Moses’ prayer in Psalm 90 is pinned in Sinai, and Psalm 95 at Massah, whose site is debated. Psalm 105 goes down to Goshen in Egypt, Psalm 114 to the Jordan crossing, Psalm 119 to Qumran where the Great Psalms Scroll was found, and the Songs of Ascents set out from far-off Kedar for Jerusalem. Psalms 1-125 are in the app so far. Numbers show the order of the book.' },
   { id: 'proverbs', name: 'Proverbs', color: '#9a6b2f', ready: true, match: e => typeof e.i === 'number' && e.i > 579 && e.i <= 587 && !e.bg,
     key: [580, 581, 582, 583, 584, 585, 586, 587],
     short: [580, 582, 584, 587],
@@ -4324,6 +4324,7 @@ const MAP_PERIODS = [
   { n: 'Psalms: 41-60 (into Book Two)', a: 606, b: 617 },
   { n: 'Psalms: 61-80 (into Book Three)', a: 618, b: 630 },
   { n: 'Psalms: 81-100 (into Book Four)', a: 631, b: 642 },
+  { n: 'Psalms: 101-125 (into Book Five)', a: 643, b: 657 },
   { n: 'Proverbs: Solomon’s court and the words of the wise (1-24)', a: 580, b: 583 },
   { n: 'Proverbs: Hezekiah’s men, Agur and Lemuel (25-31)', a: 584, b: 587 },
   { n: 'Ecclesiastes: the Teacher (1-12)', a: 588, b: 592 }

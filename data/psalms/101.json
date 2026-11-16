@@ -1,0 +1,205 @@
+{
+ "book": "Psalms",
+ "chapter": 101,
+ "title": "I Will Walk with Integrity",
+ "translation": "BSB",
+ "superscription": "A Psalm of David.",
+ "verses": [
+  {
+   "num": 1,
+   "text": "I will sing of Your loving devotion and justice; to You, O LORD, I will sing praises."
+  },
+  {
+   "num": 2,
+   "text": "I will ponder the way that is blameless— when will You come to me? I will walk in my house with integrity of heart."
+  },
+  {
+   "num": 3,
+   "text": "I will set no worthless thing before my eyes. I hate the work of those who fall away; it shall not cling to me."
+  },
+  {
+   "num": 4,
+   "text": "A perverse heart shall depart from me; I will know nothing of evil."
+  },
+  {
+   "num": 5,
+   "text": "Whoever slanders his neighbor in secret, I will put to silence; the one with haughty eyes and a proud heart, I will not endure."
+  },
+  {
+   "num": 6,
+   "text": "My eyes favor the faithful of the land, that they may dwell with me; he who walks in the way of integrity shall minister to me."
+  },
+  {
+   "num": 7,
+   "text": "No one who practices deceit shall dwell in my house; no one who tells lies shall stand in my presence."
+  },
+  {
+   "num": 8,
+   "text": "Every morning I will remove all the wicked of the land, that I may cut off every evildoer from the city of the LORD."
+  }
+ ],
+ "context": {
+  "author": "The title says “A Psalm of David,” one of only two psalms in Book Four with his name (101 and 103). It reads like a king’s vow on taking the throne.",
+  "genre": "Psalm: a song or prayer in Hebrew poetry",
+  "audience": "Israel at worship, and the nations called to join",
+  "mapLabel": "JERUSALEM, ZION",
+  "setting": "“I will sing of Your loving devotion and justice; to You, O LORD, I will sing praises” (v.1). The king makes promises about his own life first: “I will ponder the way that is blameless… I will walk in my house with integrity of heart. I will set no worthless thing before my eyes” (vv.2-3). Then about his court: “Whoever slanders his neighbor in secret, I will put to silence; the one with haughty eyes and a proud heart, I will not endure” (v.5). “My eyes favor the faithful of the land, that they may dwell with me” (v.6), but “No one who practices deceit shall dwell in my house” (v.7). “Every morning I will remove all the wicked of the land” (v.8), for Jerusalem is “the city of the LORD.”",
+  "custom": "Kings heard cases in the morning (2 Samuel 15:2; Jeremiah 21:12), so “every morning” (v.8) means daily justice at the palace gate. A king’s officials shaped his whole reign; Proverbs says, “Remove the wicked from the king’s presence, and his throne will be established in righteousness” (Proverbs 25:5).",
+  "timelineImmediate": "Psalm 102 is the prayer of an afflicted man, wasting away while he waits for God to rebuild Zion.",
+  "timelineBible": "David himself failed this vow at home, with Bathsheba and Uriah (2 Samuel 11). Jesus is the King who kept it: He “committed no sin, and no deceit was found in His mouth” (1 Peter 2:22). Paul tells believers, “whatever is true, whatever is honorable… think on these things” (Philippians 4:8).",
+  "translation": [
+   {
+    "english": "blameless",
+    "greek": "תָּמִים (tamim)",
+    "verseRef": "v.2",
+    "meaning": "Complete, whole, blameless.",
+    "gloss": "Blameless",
+    "strongs": "H8549",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "integrity",
+    "greek": "תֹּם (tom)",
+    "verseRef": "v.2",
+    "meaning": "Integrity, completeness, innocence.",
+    "gloss": "Integrity",
+    "strongs": "H8537",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "slanders",
+    "greek": "לָשַׁן (lashan)",
+    "verseRef": "v.5",
+    "meaning": "To slander; from lashon, tongue.",
+    "gloss": "Slander",
+    "strongs": "H3960",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Peter 2:21-23",
+    "note": "No deceit was found in His mouth."
+   },
+   {
+    "ref": "Philippians 4:8",
+    "note": "Think on these things."
+   },
+   {
+    "ref": "1 Timothy 3:4-5",
+    "note": "A leader who manages his own household."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Proverbs 25:4-5",
+    "note": "Remove the wicked from the king."
+   },
+   {
+    "ref": "Deuteronomy 17:18-20",
+    "note": "The king must read God’s law."
+   },
+   {
+    "ref": "2 Samuel 23:3-4",
+    "note": "He who rules in the fear of God."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.7735,
+   "lng": 35.2354,
+   "zoom": 13,
+   "placeName": "Jerusalem"
+  },
+  "overview": {
+   "summary": "A king vows to walk with integrity in his own house, keep slanderers and liars out of his court, and do justice every morning in the city of the LORD.",
+   "settingLine": "A king’s vow for his house and court.",
+   "placeName": "Jerusalem",
+   "history": [
+    {
+     "h": "David’s reign",
+     "t": "He did justice for all his people (2 Samuel 8:15)."
+    },
+    {
+     "h": "David’s failure",
+     "t": "Bathsheba and Uriah."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Morning justice",
+     "t": "Kings judged at the gate each morning."
+    },
+    {
+     "h": "The royal court",
+     "t": "Officials who shaped a reign."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "The Large Stone Structure",
+     "t": "A massive building on the City of David that some identify as David’s palace; its date is debated."
+    },
+    {
+     "h": "Royal seals",
+     "t": "Seal impressions of officials of Judah’s kings found in Jerusalem."
+    }
+   ],
+   "discussion": "The king starts with “I will walk in my house with integrity of heart” (v.2). What would integrity look like in my own home this week?",
+   "book": "The book of Psalms · 150 psalms (1-125 in the app so far). Israel’s songs and prayers: praise, lament, thanks, trust and wisdom, many of them by David.",
+   "author": "David",
+   "genre": "Royal vow",
+   "audience": "God, from a king",
+   "refNotes": {
+    "Proverbs 25:4-5": "A righteous court",
+    "Deuteronomy 17:18-20": "The king and the law",
+    "2 Samuel 23:3-4": "A just ruler"
+   },
+   "peoplePlaces": [
+    {
+     "n": "David",
+     "d": "The king who vows"
+    },
+    {
+     "n": "The faithful of the land",
+     "d": "Welcome at court"
+    },
+    {
+     "n": "The slanderer and the proud",
+     "d": "Shut out"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-4",
+     "label": "My own life"
+    },
+    {
+     "when": "v.5-8",
+     "label": "My court and city"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Jerusalem (Zion)",
+    "lat": 31.7735,
+    "lng": 35.2354,
+    "verses": [],
+    "slug": "jerusalem"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "I will sing of Your loving devotion and justice; to You, O LORD, I will sing praises. I will ponder the way that is blameless— when will You come to me? I will walk in my house with integrity of heart. I will set no worthless thing before my eyes. I hate the work of those who fall away; it shall not cling to me. Whoever slanders his neighbor in secret, I will put to silence; the one with haughty eyes and a proud heart, I will not endure. My eyes favor the faithful of the land, that they may dwell with me; he who walks in the way of integrity shall minister to me. No one who practices deceit shall dwell in my house; no one who tells lies shall stand in my presence. Every morning I will remove all the wicked of the land, that I may cut off every evildoer from the city of the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+   "caption": "King David Playing the Harp, by Gerard van Honthorst (1622, Centraal Museum, Utrecht). Seventy-three psalms carry David’s name in their titles, and 1 Samuel 16:23 remembers him as a skilled player of the lyre.",
+   "credit": "Gerard van Honthorst (1622), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_10th_century_Stepped_Stone_Structure-ViewC_(3782447127).jpg",
+   "caption": "The Stepped Stone Structure on the City of David, the hill David captured and made his capital (2 Samuel 5:6-9). Many archaeologists date it to the 10th or 9th century BC; the dating is debated.",
+   "credit": "Photo: Wikimedia Commons, CC BY-SA 2.0"
+  }
+ }
+}
