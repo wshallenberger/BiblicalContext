@@ -31,7 +31,7 @@
   var GROUPS = [
     { n: 'Law', t: 'Old', b: 'Genesis to Deuteronomy, the books of Moses' },
     { n: 'History', t: 'Old', b: 'Israel in the land, from Joshua to Esther' },
-    { n: 'Poetry', t: 'Old', label: 'Wisdom & Poetry', b: 'Job, Psalms, Proverbs, Ecclesiastes and the Song' },
+    { n: 'Poetry', t: 'Old', label: 'Wisdom & Poetry', b: 'Poems, prayers and lessons for life' },
     { n: 'Prophets', t: 'Old', b: 'Isaiah to Malachi' },
     { n: 'Gospels', t: 'New', b: 'The life of Jesus' },
     { n: 'Acts', t: 'New', b: 'The first church' },

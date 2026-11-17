@@ -496,9 +496,12 @@ async function init() {
   Promise.all([loadLibs(), loadBooks(), loadWC()]).then(() => { try { if (currentChapterData && currentChapterData.context) fillTemplateTabs(currentChapterData.context); } catch (e) {} });
   await loadChapter();
   goToScreen((window.Home && Home.startScreen()) || 'read');
+  readLast = null; // the opening screen is not a place someone was reading
 
   navButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
+      // Read goes back to the place you were reading (this session); tap it again from the reader for the Read page
+      if (btn.dataset.screen === 'booknav' && currentScreen !== 'read' && currentScreen !== 'booknav' && currentScreen !== 'deepdive' && await readResume()) return;
       // Study and Visualize are groups: they open the page you used last inside that group
       if (btn.dataset.screen === 'study' || btn.dataset.screen === 'visualize') { Home.nav(btn.dataset.screen); return; }
       // From a Deep Dive, the Read tab returns to the reader at the chapter being studied.
@@ -704,8 +707,30 @@ function resetScreenPos(name) {
   else if (name === 'homecust') top('hcWrap');
 }
 function resetOn() { try { return !window.ViSettings || ViSettings.get().resetpos !== 'off'; } catch (e) { return true; } }
+// The Read button returns to where you were reading for the rest of the session; after half an hour untouched it opens the Read page again.
+let readLast = null, lastTouch = Date.now();
+const READ_IDLE_MS = 30 * 60 * 1000;
+['pointerdown', 'keydown'].forEach(t => document.addEventListener(t, () => { const n = Date.now(); if (n - lastTouch > READ_IDLE_MS) readLast = null; lastTouch = n; }, true));
+async function readResume() {
+  const L = readLast; if (!L) return false;
+  try { if (typeof tour !== 'undefined' && tour && tour.cur) return false; } catch (e) { /* ignore */ }
+  if (L.b !== currentBook || L.c !== currentChapterNum) { currentBook = L.b; currentChapterNum = L.c; await loadChapter(); }
+  goToScreen('read');
+  const r = document.getElementById('reader'), put = () => { if (r) r.scrollTop = L.y; };
+  put(); requestAnimationFrame(() => { put(); requestAnimationFrame(put); });
+  return true;
+}
+// Leaving a page: note the reading place, and close every list or panel that was opened on it.
+function leaveScreen(prev) {
+  if (prev === 'read') { const r = document.getElementById('reader'); readLast = { b: currentBook, c: currentChapterNum, y: r ? r.scrollTop : 0 }; }
+  if (prev === 'booknav') { navOpen = {}; topicOpen = {}; }
+  if (prev === 'divehome') dhOpen = {};
+  const el = document.getElementById('screen-' + prev);
+  if (el) el.querySelectorAll('details[open]:not([data-def])').forEach(d => { d.open = false; });
+}
 function goToScreen(name) {
   const prevScreen = currentScreen;
+  if (prevScreen && prevScreen !== name) { try { leaveScreen(prevScreen); } catch (e) { /* ignore */ } }
   currentScreen = name;
   tlApplyWide();
   screens.forEach(s => s.classList.toggle('active', s.id === `screen-${name}`));
@@ -2844,7 +2869,7 @@ function cmFit() {
     for (let n = 4; n >= 2 && over(); n--) box.style.setProperty('--cm-lines', String(n - 1 < 2 ? 2 : n - 1));
     if (over()) box.classList.add('cm-tight');
   } else {
-    for (let fs = 11.5; fs >= 10 && over(); fs -= 0.5) box.style.setProperty('--cm-fs', fs + 'px');
+    for (let fs = 12.5; fs >= 10.5 && over(); fs -= 0.5) box.style.setProperty('--cm-fs', fs + 'px');
     if (over()) box.classList.add('cm-tight');
   }
   sxFade();
@@ -3864,7 +3889,7 @@ function notesFallbackCopy(txt) { const ta = document.createElement('textarea');
 window.addEventListener('pagehide', () => { if (notesChapTimer) { const ta = document.getElementById('noteChap'); if (ta) { const r = noteRec(curChKey(), true); r.c = ta.value; if (!r.c.trim() && !(r.v || []).length) delete notesMem[curChKey()]; notesSave(); } } });
 
 // ---------- Book Overview tab (data/books.json) ----------
-function bkSection(title, inner, open) { return inner ? `<details class="acc"${open ? ' open' : ''}><summary>${title}</summary><div class="acc-body">${inner}</div></details>` : ''; }
+function bkSection(title, inner, open) { return inner ? `<details class="acc"${open ? ' open data-def' : ''}><summary>${title}</summary><div class="acc-body">${inner}</div></details>` : ''; }
 function renderBookTab() {
   const panel = document.querySelector('[data-panel="book"]'); if (!panel) return;
   const B = BOOKS && BOOKS.books && BOOKS.books[currentBook];

@@ -4261,6 +4261,29 @@
   .gl-meta{ margin:20px 0 0; padding:14px 16px 16px; border:0; border-left:3px solid var(--k,var(--gold)); border-radius:4px 14px 14px 4px; background:color-mix(in srgb, var(--k,var(--gold)) 11%, var(--ink-raised)); }
   .gl-meta .gl-sec.first{ margin:0 0 6px; color:var(--k,var(--gold)); font-weight:700; }
   .gl-meta .gl-acts{ margin:12px 0 0; }
+  /* r144: book groups each wear their own colour; gold outline on the Read book-and-chapter button; larger text in the verse sheet's lower box */
+  .dh-g{ background:color-mix(in srgb, var(--c) 9%, var(--ink-raised)); border-color:color-mix(in srgb, var(--c) 38%, var(--line)); border-left-color:var(--c); }
+  .dh-g > summary b{ color:color-mix(in srgb, var(--c) 72%, var(--parchment)); }
+  .dh-g > summary em{ background:color-mix(in srgb, var(--c) 16%, transparent); border-radius:999px; padding:2px 7px; }
+  .dh-g[open] > summary{ background:color-mix(in srgb, var(--c) 8%, transparent); }
+  #readPick, #screen-booknav .nav-top-find, #screen-booknav .nav-find{ border:2px solid var(--gold); box-shadow:0 0 0 3px rgba(var(--gold-rgb),.14); }
+  #readPick{ padding:6px 8px 6px 10px; }
+  .sheet.sx{ --sx-h:192px; }
+  @media (max-height:720px){ .sheet.sx{ --sx-h:160px; } }
+  @media (max-height:520px) and (orientation:landscape){ .sheet.sx{ --sx-h:138px; } }
+  html .sheet.sx #cmSheet .cm-tile, html[data-theme="dark"] .sheet.sx #cmSheet .cm-tile{ padding:9px 11px 10px; }
+  .sheet.sx .cm-who{ font-size:13px; } .sheet.sx .cm-work{ font-size:10.5px; }
+  .sheet.sx .cm-prev, .sheet.sx .cm-tile .cm-prev.t{ font-size:12px; line-height:1.4; }
+  .sheet.sx .cm-sub{ font-size:11px; }
+  .sheet.sx .cm-body .cm-detail p{ font-size:var(--cm-fs,13px); }
+  .sheet.sx .wbw-chip{ min-width:34px; padding:3px 8px; }
+  .sheet.sx .wbw-chip .g{ font-size:14.5px; } .sheet.sx .wbw-chip .e{ font-size:10px; }
+  .sheet.sx .wbw-card{ font-size:12px; }
+  .sheet.sx .wbw-card .bg{ font-size:18px; } .sheet.sx .wbw-card .bg i{ font-size:12px; }
+  .sheet.sx .wbw-card .ln{ grid-template-columns:94px 1fr; } .sheet.sx .wbw-card .ln b{ font-size:8.5px; }
+  .sheet.sx .wbw-card .gu-h{ font-size:9px; } .sheet.sx .wbw-card .gu-h span{ font-size:11.5px; } .sheet.sx .wbw-card .gu-row{ font-size:11px; }
+  .sheet.sx .wbw-card .lib-chips .lib-chip, .sheet.sx .wbw-card .lib-chips a, .sheet.sx .wbw-card .lib-chips button{ font-size:11px; }
+  .sheet.sx .cp-row{ grid-template-columns:38px 1fr; font-size:12.5px; } .sheet.sx .cp-ab{ font-size:10px; } .sheet.sx .cp-row i{ font-size:11px; }
 </style>
 </head>
 <body>
