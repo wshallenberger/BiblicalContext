@@ -80,8 +80,8 @@
     // install
     if (isStandalone()) { t.textContent = 'You are using the installed app.'; ins.hidden = true; ios.hidden = true; }
     else if (deferred) { t.textContent = 'Add Daily Butter to your home screen so it opens like any other app, full screen.'; ins.hidden = false; ios.hidden = true; }
-    else if (isIOS()) { t.textContent = 'Add Daily Butter to your home screen so it opens like any other app, full screen.'; ins.hidden = true; ios.hidden = false; }
-    else { t.textContent = 'In your browser menu, choose Install app (or Add to Home screen) to open Daily Butter like any other app.'; ins.hidden = true; ios.hidden = true; }
+    else if (isIOS()) { t.textContent = 'On iPhone and iPad it is added from Safari’s Share menu, as below.'; ins.hidden = true; ios.hidden = false; }
+    else { t.textContent = 'Follow the steps for your device below.'; ins.hidden = true; ios.hidden = true; }
     // offline
     if (!canCache) { ot.textContent = 'This browser cannot save data for offline use.'; go.hidden = true; rm.hidden = true; bar.hidden = true; return; }
     var s = saved();

@@ -2437,7 +2437,7 @@
   .dh-resume i{ font-style:normal; font-size:22px; color:var(--gold); }
   .dh-h{ margin:18px 0 8px; font:600 10.5px 'IBM Plex Mono',monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--parchment-dim); }
   .dh-h span{ font:400 11px 'IBM Plex Sans',sans-serif; letter-spacing:0; text-transform:none; margin-left:6px; opacity:.8; }
-  .dh-tiles{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .dh-tiles{ flex:none; display:grid; grid-template-columns:1fr 1fr; gap:10px; }
   .dh-tile{ position:relative; text-align:left; display:flex; flex-direction:column; gap:3px; min-height:118px; padding:12px 12px 12px 18px; border:1px solid var(--line); border-radius:6px 12px 12px 6px; background:var(--ink-raised); color:var(--parchment); cursor:pointer; box-shadow:0 2px 8px rgba(var(--shadow-rgb),.12); overflow:hidden; }
   .dh-tile::before{ content:''; position:absolute; left:0; top:0; bottom:0; width:9px; background:var(--c); }
   .dh-tile::after{ content:''; position:absolute; left:9px; top:0; bottom:0; width:1px; background:rgba(0,0,0,.12); }
@@ -4284,6 +4284,28 @@
   .sheet.sx .wbw-card .gu-h{ font-size:9px; } .sheet.sx .wbw-card .gu-h span{ font-size:11.5px; } .sheet.sx .wbw-card .gu-row{ font-size:11px; }
   .sheet.sx .wbw-card .lib-chips .lib-chip, .sheet.sx .wbw-card .lib-chips a, .sheet.sx .wbw-card .lib-chips button{ font-size:11px; }
   .sheet.sx .cp-row{ grid-template-columns:38px 1fr; font-size:12.5px; } .sheet.sx .cp-ab{ font-size:10px; } .sheet.sx .cp-row i{ font-size:11px; }
+
+  /* r146: Install & offline page (from More); Study landing centered with one picker and two tiles */
+  .in-how{ display:grid; gap:8px; margin:10px 0 2px; }
+  .in-step{ display:grid; gap:2px; padding:10px 12px; border:1px solid var(--line); border-radius:10px; background:var(--ink); font:13px/1.5 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); }
+  .in-step > b{ font:600 10px 'IBM Plex Mono',monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--gold); }
+  .in-step span b{ color:var(--parchment); font-weight:600; }
+  #stInstIos{ display:none !important; }
+  .dh-center{ min-height:100%; display:flex; flex-direction:column; justify-content:center; text-align:center; padding:8px 4px calc(var(--navh, 76px) * .55); max-width:560px; margin:0 auto; box-sizing:border-box; }
+  .dh-center .dh-intro{ margin:0 auto 22px; max-width:420px; }
+  .dh-center .dh-title{ font-size:28px; }
+  #diveHome .dh-find{ flex:none; height:auto; margin:0 0 14px; padding:18px 18px; font:700 17px 'IBM Plex Sans',sans-serif; border:2px solid var(--gold); border-radius:14px; box-shadow:0 0 0 4px rgba(var(--gold-rgb),.14); }
+  #diveHome .dh-find span{ font-weight:600; }
+  #diveHome .dh-find svg{ width:16px; height:16px; }
+  .dh-cards{ flex:none; display:grid; grid-template-columns:1fr 1fr; gap:10px; text-align:left; }
+  .dh-cards.one{ grid-template-columns:1fr; }
+  .dh-card{ position:relative; display:flex; flex-direction:column; gap:3px; min-width:0; margin:0; padding:11px 12px 12px; border:1px solid var(--line); border-radius:12px; background:var(--ink-raised); color:var(--parchment); cursor:pointer; text-align:left; font-family:'IBM Plex Sans',sans-serif; }
+  .dh-card.dh-cont{ border-color:color-mix(in srgb, var(--gold) 55%, var(--line)); }
+  .dh-card em{ font:600 8.5px/1.3 'IBM Plex Mono',monospace; font-style:normal; letter-spacing:.09em; color:var(--gold); padding-right:18px; }
+  .dh-card b{ font:600 15px/1.25 'Literata',serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin:2px 0 0; }
+  .dh-card span{ flex:none; font:12px/1.35 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .dh-card .dh-dice{ position:absolute; top:9px; right:9px; width:16px; height:16px; color:var(--gold); }
+  .dh-card .dh-dice svg{ width:16px; height:16px; display:block; }
 </style>
 </head>
 <body>
@@ -4643,14 +4665,48 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5"/><path d="M4 18v2h16v-2"/></svg>
             <span class="more-t"><b>Backup and restore</b><i>Download your saved verses to keep them safe, or restore them on another device.</i></span><em>›</em>
           </button>
+          <button type="button" class="more-row" data-screen="install">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M12 7.5v7M9 11.5l3 3 3-3M10.5 18.5h3"/></svg>
+            <span class="more-t"><b>Install the app</b><i>Add Daily Butter to your home screen, and save it to read offline.</i></span><em>›</em>
+          </button>
           <button type="button" class="more-row" data-screen="settings">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-            <span class="more-t"><b>Settings</b><i>Look, commentary voices, offline use.</i></span><em>›</em>
+            <span class="more-t"><b>Settings</b><i>Look, reading and commentary voices.</i></span><em>›</em>
           </button>
          </section>
          <div class="more-brand"><img class="mb-light" src="images/brand/logo.png" width="560" height="346" alt="Daily Butter: to add on to your daily bread"><img class="mb-dark" src="images/brand/logo-dark.png" width="560" height="346" alt="Daily Butter: to add on to your daily bread"></div>
        </div>
      </div>
+
+     <div class="screen" id="screen-install">
+      <div class="st-wrap" id="inWrap">
+        <button type="button" class="mu-back" data-screen="more">‹ More</button>
+        <h2 class="st-title">Install &amp; offline</h2>
+        <p class="st-hint mu-intro">Put Daily Butter on your home screen so it opens full screen like any other app, and save it to read without a connection.</p>
+        <section class="st-card" id="stApp">
+          <h3>Add it to your home screen</h3>
+          <p class="st-hint st-top" id="stInstTxt"></p>
+          <button type="button" class="st-btn" id="stInstall" hidden>Install the app</button>
+          <div class="st-steps" id="stInstIos" hidden><b>On iPhone or iPad:</b> open this page in Safari, tap the <b>Share</b> button (square with an arrow), scroll down, tap <b>Add to Home Screen</b>, then tap <b>Add</b>.</div>
+          <div class="in-how" id="inHow">
+            <div class="in-step"><b>iPhone or iPad</b><span>Open this page in <b>Safari</b>. Tap the <b>Share</b> button (a square with an arrow), scroll down, tap <b>Add to Home Screen</b>, then <b>Add</b>.</span></div>
+            <div class="in-step"><b>Android</b><span>Open this page in <b>Chrome</b>. Tap the <b>⋮</b> menu at the top right, then <b>Install app</b> (or <b>Add to Home screen</b>).</span></div>
+            <div class="in-step"><b>Computer</b><span>In Chrome or Edge, click the <b>install</b> icon at the right end of the address bar, or open the browser menu and choose <b>Install Daily Butter</b>.</span></div>
+          </div>
+        </section>
+        <section class="st-card">
+          <h3>Read without internet</h3>
+          <div class="st-row st-col">
+            <p class="st-hint" id="stOffTxt"></p>
+            <div class="st-bar" id="stOffBar" hidden><i></i></div>
+            <button type="button" class="st-btn" id="stOffGo">Download for offline use</button>
+            <button type="button" class="st-btn st-quiet" id="stOffRm" hidden>Remove downloaded data</button>
+          </div>
+          <p class="st-hint">ESV and NLT always need a connection: their publishers do not allow the text to be saved. The map and some pictures also need a connection.</p>
+          <p class="st-hint" id="stVer"></p>
+        </section>
+      </div>
+    </div>
 
      <div class="screen" id="screen-search">
       <div class="st-wrap" id="seWrap">
@@ -4795,20 +4851,10 @@
           <button type="button" class="st-btn st-quiet" id="stVoicesAll">Show all voices</button>
         </section>
 
-        <section class="st-card" id="stApp">
+        <section class="st-card">
           <h3>Install &amp; offline</h3>
-          <p class="st-hint st-top" id="stInstTxt"></p>
-          <button type="button" class="st-btn" id="stInstall" hidden>Install the app</button>
-          <div class="st-steps" id="stInstIos" hidden><b>On iPhone or iPad:</b> open this page in Safari, tap the <b>Share</b> button (square with an arrow), scroll down, tap <b>Add to Home Screen</b>, then tap <b>Add</b>.</div>
-          <div class="st-row st-col">
-            <span class="st-l">Read without internet</span>
-            <p class="st-hint" id="stOffTxt"></p>
-            <div class="st-bar" id="stOffBar" hidden><i></i></div>
-            <button type="button" class="st-btn" id="stOffGo">Download for offline use</button>
-            <button type="button" class="st-btn st-quiet" id="stOffRm" hidden>Remove downloaded data</button>
-          </div>
-          <p class="st-hint">ESV and NLT always need a connection: their publishers do not allow the text to be saved. The map and some pictures also need a connection.</p>
-          <p class="st-hint" id="stVer"></p>
+          <p class="st-hint st-top">Installing the app and reading without internet are now in <b>More</b>.</p>
+          <button type="button" class="st-btn st-quiet" data-screen="install">Open Install &amp; offline</button>
         </section>
 
         <section class="st-card">

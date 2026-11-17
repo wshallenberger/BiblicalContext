@@ -27,9 +27,9 @@
   var GROUP = { read: 'read', booknav: 'read', plans: 'read', search: 'read',
     divehome: 'study', deepdive: 'study', parallels: 'study', glossary: 'study', commentary: 'study', saved: 'more',
     timeline: 'visualize', map: 'visualize', genealogy: 'visualize',
-    home: 'home', homecust: 'home', more: 'more', settings: 'more', music: 'more' };
+    home: 'home', homecust: 'home', more: 'more', settings: 'more', music: 'more', install: 'more' };
   var LABEL = { read: 'Read', booknav: 'Read', home: 'Home', more: 'More', divehome: 'Study', deepdive: 'Study', parallels: 'Compare',
-    saved: 'Saved', glossary: 'Glossary', commentary: 'Commentary', plans: 'Plans', timeline: 'Timeline', map: 'Map', genealogy: 'Family tree', settings: 'Settings', music: 'Music', homecust: 'Customize Home' };
+    saved: 'Saved', glossary: 'Glossary', commentary: 'Commentary', plans: 'Plans', timeline: 'Timeline', map: 'Map', genealogy: 'Family tree', settings: 'Settings', music: 'Music', install: 'Install', homecust: 'Customize Home' };
   var STUDY = ['divehome', 'parallels', 'glossary', 'commentary'], VISUAL = ['timeline', 'map', 'genealogy'];
   var origin = {};                    // screen -> the screen the reader came from
   var lastStudy = 'divehome', lastVisual = 'timeline';

@@ -660,17 +660,20 @@ function renderDiveHome() {
   if (dhPick && !BOOKS) { loadBooks().then(() => { if (dhPick && currentScreen === 'divehome') renderDiveHome(); }); }
   if (dhPick) { box.innerHTML = dhBookView(dhPick); return; }
   const cur = currentChapterData;
-  const resume = cur ? `<button type="button" class="dh-resume" data-go="resume"><span><em>PICK UP WHERE YOU LEFT OFF</em><b>${escHtml(cur.book)} ${cur.chapter}${cur.title ? ' · ' + escHtml(cur.title) : ''}</b></span><i>›</i></button>` : '';
-  // Round 88: one search button and four short groups instead of 27 tiles and a shelf
-  if (dhOpen === null) dhOpen = {};
-  const groups = bookGroupsHTML(dhOpen, (bs, col) => `<div class="dh-chips">${bs.map(b => `<button type="button" class="dh-chip" data-b="${b.slug}" style="--c:${MAP_BOOK_COLORS[b.slug] || col}"><b>${escHtml(b.name)}</b><span>${b.availableChapters.length} ch.</span></button>`).join('')}</div>`);
-  box.innerHTML = `<p class="panel-eyebrow">DEEP DIVE</p>
+  const ttl = (slug, n) => (chapterIndex && chapterIndex[slug] && chapterIndex[slug][String(n)]) || '';
+  // Dive into something new: a random book and chapter, chosen fresh each time the page is drawn (not the one you are on)
+  const all = []; manifest.books.forEach(b => b.availableChapters.forEach(n => { if (!(cur && b.name === cur.book && n === cur.chapter)) all.push([b, n]); }));
+  const pick = all.length ? all[Math.floor(Math.random() * all.length)] : null;
+  const label = (b, n) => (b.slug === 'psalms' ? 'Psalm' : b.name) + ' ' + n;
+  const resume = cur ? `<button type="button" class="dh-card dh-cont" data-go="resume"><em>PICK UP WHERE YOU LEFT OFF</em><b>${escHtml(cur.book === 'Psalms' ? 'Psalm' : cur.book)} ${cur.chapter}</b>${cur.title ? `<span>${escHtml(cur.title)}</span>` : ''}</button>` : '';
+  const fresh = pick ? `<button type="button" class="dh-card dh-new" data-rb="${pick[0].slug}" data-rc="${pick[1]}"><em>DIVE INTO SOMETHING NEW</em><b>${escHtml(label(pick[0], pick[1]))}</b>${ttl(pick[0].slug, pick[1]) ? `<span>${escHtml(ttl(pick[0].slug, pick[1]))}</span>` : ''}<i class="dh-dice" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1" fill="currentColor"/><circle cx="15" cy="15" r="1" fill="currentColor"/><circle cx="15" cy="9" r="1" fill="currentColor"/><circle cx="9" cy="15" r="1" fill="currentColor"/></svg></i></button>` : '';
+  box.innerHTML = `<div class="dh-center">
+    <p class="panel-eyebrow">DEEP DIVE</p>
     <h2 class="dh-title">Go deeper into the Word</h2>
-    <p class="dh-intro">Explore the history, setting and customs behind any passage. Search for a book and chapter, or browse a book below.</p>
-    <button type="button" class="rd-pass dh-find" id="dhFind" aria-haspopup="dialog" aria-expanded="false"><span>Find a book and chapter</span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
-    ${resume}
-    <h3 class="dh-h">Browse by book <span>tap one for its overview and chapters</span></h3>
-    <div class="dh-groups">${groups}</div>`;
+    <p class="dh-intro">The history, setting, customs, original words and commentary behind any chapter.</p>
+    <button type="button" class="rd-pass dh-find" id="dhFind" aria-haspopup="dialog" aria-expanded="false"><span>Study a book and chapter</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="dh-tiles${resume ? '' : ' one'}">${resume}${fresh}</div>
+    </div>`;
 }
 (function wireDiveHome() {
   const box = document.getElementById('diveHome'); if (!box) return;
@@ -678,6 +681,8 @@ function renderDiveHome() {
   box.addEventListener('click', ev => {
     const f = ev.target.closest('#dhFind');
     if (f) { BCPick.open({ anchor: f, slug: currentBook, chapter: currentChapterNum, onPick: (bk, n) => openPassage(bk, n, 1, true) }); return; }
+    const rnd = ev.target.closest('[data-rb]');
+    if (rnd) { openPassage(rnd.dataset.rb, Number(rnd.dataset.rc), 1, true); return; }
     const c = ev.target.closest('[data-c]'), b = ev.target.closest('[data-b]'), g = ev.target.closest('[data-go]');
     if (g) { if (g.dataset.go === 'home') { dhPick = null; renderDiveHome(); box.scrollTop = 0; } else { goToScreen('deepdive'); ddToTop(); } return; }
     if (c && dhPick) { openPassage(dhPick, Number(c.dataset.c), 1, true); return; }
@@ -696,6 +701,7 @@ function resetScreenPos(name) {
   else if (name === 'settings') top('stWrap');
   else if (name === 'more') top('moreWrap');
   else if (name === 'music') top('muWrap');
+  else if (name === 'install') top('inWrap');
   else if (name === 'saved') top('svWrap');
   else if (name === 'plans') top('plWrap');
   else if (name === 'search') top('seWrap');
@@ -2026,7 +2032,7 @@ const HUB_ICON = {
 let topicOpen = {};        // which groups are open on the A Time for Everything page (all closed at first)
 const TOPIC_COL = { hard: '#8c4646', good: '#b8860b', topic: '#4d5f8f' };
 
-function navSet(title, back) { navHeaderTitle.textContent = title; navBackBtn.style.visibility = back ? 'visible' : 'hidden'; const f = document.getElementById('navFindTop'); if (f) f.hidden = title !== 'Read'; }
+function navSet(title, back) { navHeaderTitle.textContent = title; navBackBtn.style.visibility = back ? 'visible' : 'hidden'; navBackBtn.style.display = back ? '' : 'none'; const f = document.getElementById('navFindTop'); if (f) f.hidden = title !== 'Read'; }
 function navOpenPicker(anchor) { BCPick.open({ full: true, anchor, slug: currentBook, chapter: currentChapterNum, onPick: async (b, n) => { currentBook = b; currentChapterNum = n; await loadChapter(); goToScreen('read'); } }); }
 (function () { const f = document.getElementById('navFindTop'); if (f) f.addEventListener('click', () => navOpenPicker(f)); })();
 function navRef(r) { const b = manifest.books.find(x => x.slug === r[0]); return (b ? b.name : r[0]) + ' ' + r[1] + ':' + r[2] + (r[3] > r[2] ? '–' + r[3] : ''); }
