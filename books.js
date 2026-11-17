@@ -29,7 +29,7 @@
   function testament(slug) { var b = get(slug); return b && b.testament === 'Old' ? 'OT' : 'NT'; }
   // Book groups, in Bible order. The Old Testament groups come first; a group with no books in the manifest is simply not shown.
   var GROUPS = [
-    { n: 'Law', t: 'Old', b: 'Genesis to Deuteronomy, the books of Moses' },
+    { n: 'Law', t: 'Old', b: 'Creation, the first families and the law of Moses' },
     { n: 'History', t: 'Old', b: 'Israel in the land, from Joshua to Esther' },
     { n: 'Poetry', t: 'Old', label: 'Wisdom & Poetry', b: 'Poems, prayers and lessons for life' },
     { n: 'Prophets', t: 'Old', b: 'Isaiah to Malachi' },

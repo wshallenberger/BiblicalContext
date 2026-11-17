@@ -1,0 +1,296 @@
+{
+ "book": "Genesis",
+ "chapter": 12,
+ "title": "The Call of Abram",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Then the LORD said to Abram, \"Leave your country, your kindred, and your father's household, and go to the land I will show you."
+  },
+  {
+   "num": 2,
+   "text": "I will make you into a great nation, and I will bless you; I will make your name great, so that you will be a blessing."
+  },
+  {
+   "num": 3,
+   "text": "I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.\""
+  },
+  {
+   "num": 4,
+   "text": "So Abram departed, as the LORD had directed him, and Lot went with him. Abram was seventy-five years old when he left Haran."
+  },
+  {
+   "num": 5,
+   "text": "And Abram took his wife Sarai, his nephew Lot, and all the possessions and people they had acquired in Haran, and set out for the land of Canaan. When they came to the land of Canaan,"
+  },
+  {
+   "num": 6,
+   "text": "Abram traveled through the land as far as the site of the Oak of Moreh at Shechem. And at that time the Canaanites were in the land."
+  },
+  {
+   "num": 7,
+   "text": "Then the LORD appeared to Abram and said, \"I will give this land to your offspring.\" So Abram built an altar there to the LORD, who had appeared to him."
+  },
+  {
+   "num": 8,
+   "text": "From there Abram moved on to the hill country east of Bethel and pitched his tent, with Bethel to the west and Ai to the east. There he built an altar to the LORD, and he called on the name of the LORD."
+  },
+  {
+   "num": 9,
+   "text": "And Abram journeyed on toward the Negev."
+  },
+  {
+   "num": 10,
+   "text": "Now there was a famine in the land. So Abram went down to Egypt to live there for a while because the famine was severe."
+  },
+  {
+   "num": 11,
+   "text": "As he was about to enter Egypt, he said to his wife Sarai, \"Look, I know that you are a beautiful woman,"
+  },
+  {
+   "num": 12,
+   "text": "and when the Egyptians see you, they will say, 'This is his wife.' Then they will kill me but will let you live."
+  },
+  {
+   "num": 13,
+   "text": "Please say you are my sister, so that I will be treated well for your sake, and on account of you my life will be spared.\""
+  },
+  {
+   "num": 14,
+   "text": "So when Abram entered Egypt, the Egyptians saw that the woman was very beautiful."
+  },
+  {
+   "num": 15,
+   "text": "When Pharaoh's officials saw Sarai, they commended her to him, and she was taken into the palace of Pharaoh."
+  },
+  {
+   "num": 16,
+   "text": "He treated Abram well on her account, and Abram acquired sheep and cattle, male and female donkeys, menservants and maidservants, and camels."
+  },
+  {
+   "num": 17,
+   "text": "The LORD, however, afflicted Pharaoh and his household with severe plagues because of Abram's wife Sarai."
+  },
+  {
+   "num": 18,
+   "text": "So Pharaoh summoned Abram and asked, \"What have you done to me? Why didn't you tell me she was your wife?"
+  },
+  {
+   "num": 19,
+   "text": "Why did you say, 'She is my sister,' so that I took her as my wife? Now then, here is your wife. Take her and go!\""
+  },
+  {
+   "num": 20,
+   "text": "Then Pharaoh gave his men orders concerning Abram, and they sent him away with his wife and all his possessions."
+  }
+ ],
+ "context": {
+  "author": "Genesis names no author. Jewish and Christian tradition, and the New Testament’s way of speaking of “the Law of Moses” (Luke 24:44), credit the five books of the Law to Moses. Many scholars think Genesis was gathered and shaped from older sources over a long time, and a few remarks look back from a later day: “at that time the Canaanites were in the land” (Genesis 12:6).",
+  "genre": "Family narrative: the story of Abraham, Sarah and their family (Genesis 11:27 to 25:11)",
+  "audience": "Israel, the children of Abraham, learning how God’s promise began",
+  "mapLabel": "CANAAN, THE LAND OF PROMISE",
+  "setting": "The LORD says to Abram, “Leave your country, your kindred, and your father’s household, and go to the land I will show you” (v.1). He promises to make him a great nation, to bless him and make his name great, “and all the families of the earth will be blessed through you” (vv.2-3). “So Abram departed, as the LORD had directed him”; he is seventy-five (v.4). He travels with Sarai, Lot and all they have to Canaan, as far as the Oak of Moreh at Shechem, where the LORD appears and says, “I will give this land to your offspring,” and Abram builds an altar (vv.5-7). He moves on to the hills between Bethel and Ai and builds another altar (v.8), then journeys toward the Negev (v.9). In a famine he goes down to Egypt and, afraid for his life, tells Sarai to say she is his sister (vv.10-13). Pharaoh takes her into his house, but the LORD strikes Pharaoh’s household with plagues, and Pharaoh sends Abram away (vv.14-20).",
+  "custom": "Abram lives as a seminomad: moving with tents and flocks between towns and grazing land, building altars rather than houses. Sarai was in fact his half-sister (20:12), so his words were a half-truth. In a famine people from Canaan went down to Egypt, where the Nile’s yearly flood watered the land when rain failed; an Egyptian tomb painting at Beni Hasan (about 1890 BC) shows a group of Semitic travelers coming into Egypt.",
+  "timelineImmediate": "Chapter 13 tells how Abram and Lot separated, Lot choosing the Jordan plain, and God promised Abram the land.",
+  "timelineBible": "Paul calls v.3 the gospel announced in advance: “All nations will be blessed through you” (Galatians 3:8), and says those who have faith are blessed along with Abraham. Hebrews says, “By faith Abraham, when called to go to a place he would later receive as his inheritance, obeyed and went, without knowing where he was going” (Hebrews 11:8). Abram’s journey down to Egypt in famine, plagues on Pharaoh and a rich departure foreshadow Israel’s exodus.",
+  "translation": [
+   {
+    "english": "go",
+    "greek": "הָלַךְ (halakh)",
+    "verseRef": "v.1",
+    "meaning": "To go, walk. God’s first word to Abram is lekh-lekha, ‘go, you!’, ‘go for yourself.’ The same rare phrase comes again when God sends him to Moriah (22:2).",
+    "gloss": "Go",
+    "strongs": "H1980",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "bless",
+    "greek": "בָּרַךְ (barakh)",
+    "verseRef": "v.2",
+    "meaning": "To bless. Five times in vv.2-3: God’s answer to the five curses of chapters 3-11.",
+    "gloss": "To bless",
+    "strongs": "H1288",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "offspring",
+    "greek": "זֶרַע (zera)",
+    "verseRef": "v.7",
+    "meaning": "Seed, offspring. The promise of land is given to Abram’s seed, while Sarai is still barren.",
+    "gloss": "Seed",
+    "strongs": "H2233",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Galatians 3:6-9",
+    "note": "All nations will be blessed through you."
+   },
+   {
+    "ref": "Hebrews 11:8-10",
+    "note": "By faith Abraham obeyed and went, not knowing where."
+   },
+   {
+    "ref": "Acts 7:2-5",
+    "note": "Leave your land and your kindred."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 20:1-2",
+    "note": "Abraham says again, “She is my sister.”"
+   },
+   {
+    "ref": "Isaiah 51:2",
+    "note": "Look to Abraham your father; when I called him he was but one."
+   },
+   {
+    "ref": "Nehemiah 9:7-8",
+    "note": "You chose Abram and brought him out of Ur of the Chaldeans."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.213,
+   "lng": 35.282,
+   "zoom": 6,
+   "placeName": "Shechem, the Oak of Moreh (Tell Balata)"
+  },
+  "overview": {
+   "summary": "God calls Abram to leave his land and family for a land He will show him, promising blessing for all the families of the earth; Abram obeys and builds altars across Canaan, but in Egypt he passes Sarai off as his sister.",
+   "settingLine": "From Haran to Shechem, Bethel, the Negev and Egypt.",
+   "placeName": "Shechem, the Oak of Moreh (Tell Balata)",
+   "history": [
+    {
+     "h": "Seminomads",
+     "t": "Herders moving between towns and pasture."
+    },
+    {
+     "h": "Famine",
+     "t": "Canaan depended on rain; Egypt on the Nile."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Altars",
+     "t": "Abram marks the land with worship."
+    },
+    {
+     "h": "Half-sister",
+     "t": "Sarai was his father’s daughter (20:12)."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Beni Hasan painting",
+     "t": "A tomb painting of about 1890 BC shows Semitic travelers with donkeys arriving in Egypt."
+    },
+    {
+     "h": "Tell Balata",
+     "t": "The mound of ancient Shechem, with Middle Bronze Age walls and a temple."
+    }
+   ],
+   "discussion": "Abram went “without knowing where he was going” (Hebrews 11:8). What step of trust is God asking of me before He shows me the whole path?",
+   "book": "The book of Genesis · 50 chapters (1-25 in the app so far). Beginnings: creation, the fall, the flood and the nations, then God’s promise to Abraham and his family.",
+   "author": "Moses, by tradition",
+   "genre": "Family narrative",
+   "audience": "Israel, children of Abraham",
+   "refNotes": {
+    "Genesis 20:1-2": "The same fear again",
+    "Isaiah 51:2": "When he was but one",
+    "Nehemiah 9:7-8": "You chose Abram"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Abram",
+     "d": "Called and obeys"
+    },
+    {
+     "n": "Sarai",
+     "d": "His wife, taken into Pharaoh’s house"
+    },
+    {
+     "n": "Pharaoh",
+     "d": "King of Egypt"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-9",
+     "label": "The call and the journey"
+    },
+    {
+     "when": "v.10-16",
+     "label": "Down to Egypt"
+    },
+    {
+     "when": "v.17-20",
+     "label": "Plagues on Pharaoh"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Haran (Harran)",
+    "lat": 36.865,
+    "lng": 39.031,
+    "verses": [
+     4,
+     5
+    ],
+    "slug": "haran"
+   },
+   {
+    "name": "Shechem, the Oak of Moreh (Tell Balata)",
+    "lat": 32.213,
+    "lng": 35.282,
+    "verses": [
+     6
+    ],
+    "slug": "shechem"
+   },
+   {
+    "name": "Bethel (probably Beitin)",
+    "lat": 31.927,
+    "lng": 35.239,
+    "verses": [
+     8
+    ],
+    "slug": "bethel"
+   },
+   {
+    "name": "The Negev, the dry south country",
+    "lat": 31.0,
+    "lng": 34.8,
+    "verses": [
+     9
+    ],
+    "slug": "negev"
+   },
+   {
+    "name": "Egypt (the Nile valley near Memphis)",
+    "lat": 29.85,
+    "lng": 31.25,
+    "verses": [
+     10,
+     14
+    ],
+    "slug": "egypt"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Then the LORD said to Abram, Leave your country, your kindred, and your father's household, and go to the land I will show you. I will make you into a great nation, and I will bless you; I will make your name great, so that you will be a blessing. I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you. So Abram departed, as the LORD had directed him, and Lot went with him. Abram was seventy-five years old when he left Haran. Then the LORD appeared to Abram and said, I will give this land to your offspring. So Abram built an altar there to the LORD, who had appeared to him. From there Abram moved on to the hill country east of Bethel and pitched his tent, with Bethel to the west and Ai to the east. There he built an altar to the LORD, and he called on the name of the LORD. Now there was a famine in the land. So Abram went down to Egypt to live there for a while because the famine was severe. Please say you are my sister, so that I will be treated well for your sake, and on account of you my life will be spared.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moln%C3%A1r_%C3%81brah%C3%A1m_kik%C3%B6lt%C3%B6z%C3%A9se_1850.jpg",
+   "caption": "Abraham’s Departure, by József Molnár (1850, Hungarian National Gallery). Abram sets out with Sarai, his household and his flocks: “So Abram departed, as the LORD had directed him” (Genesis 12:4).",
+   "credit": "József Molnár (1850), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shechem_and_Mount_Gerizim_(4879170359).jpg",
+   "caption": "Shechem (Nablus) in the pass below Mount Gerizim, in a lantern slide from about 1915. Abram’s first stop in Canaan was “the site of the Oak of Moreh at Shechem,” where he built his first altar (Genesis 12:6-7).",
+   "credit": "Oregon State University Special Collections, no known copyright restrictions / Wikimedia Commons"
+  }
+ }
+}

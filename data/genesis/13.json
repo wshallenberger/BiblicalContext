@@ -1,0 +1,279 @@
+{
+ "book": "Genesis",
+ "chapter": 13,
+ "title": "Abram and Lot Separate",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "So Abram went up out of Egypt into the Negev—he and his wife and all his possessions—and Lot was with him."
+  },
+  {
+   "num": 2,
+   "text": "And Abram had become extremely wealthy in livestock and silver and gold."
+  },
+  {
+   "num": 3,
+   "text": "From the Negev he journeyed from place to place toward Bethel, until he came to the place between Bethel and Ai where his tent had formerly been pitched,"
+  },
+  {
+   "num": 4,
+   "text": "to the site where he had built the altar. And there Abram called on the name of the LORD."
+  },
+  {
+   "num": 5,
+   "text": "Now Lot, who was traveling with Abram, also had flocks and herds and tents."
+  },
+  {
+   "num": 6,
+   "text": "But the land was unable to support both of them while they stayed together, for they had so many possessions that they were unable to coexist."
+  },
+  {
+   "num": 7,
+   "text": "And there was discord between the herdsmen of Abram and the herdsmen of Lot. At that time the Canaanites and the Perizzites were also living in the land."
+  },
+  {
+   "num": 8,
+   "text": "So Abram said to Lot, \"Please let there be no contention between you and me, or between your herdsmen and my herdsmen. After all, we are brothers."
+  },
+  {
+   "num": 9,
+   "text": "Is not the whole land before you? Now separate yourself from me. If you go to the left, I will go to the right; if you go to the right, I will go to the left.\""
+  },
+  {
+   "num": 10,
+   "text": "And Lot looked out and saw that the whole plain of the Jordan, all the way to Zoar, was well watered like the garden of the LORD, like the land of Egypt. (This was before the LORD destroyed Sodom and Gomorrah.)"
+  },
+  {
+   "num": 11,
+   "text": "So Lot chose the whole plain of the Jordan for himself and set out toward the east. And Abram and Lot parted company."
+  },
+  {
+   "num": 12,
+   "text": "Abram lived in the land of Canaan, but Lot settled in the cities of the plain and pitched his tent toward Sodom."
+  },
+  {
+   "num": 13,
+   "text": "But the men of Sodom were wicked, sinning greatly against the LORD."
+  },
+  {
+   "num": 14,
+   "text": "After Lot had departed, the LORD said to Abram, \"Now lift up your eyes from the place where you are, and look to the north and south and east and west,"
+  },
+  {
+   "num": 15,
+   "text": "for all the land that you see, I will give to you and your offspring forever."
+  },
+  {
+   "num": 16,
+   "text": "I will make your offspring like the dust of the earth, so that if one could count the dust of the earth, then your offspring could be counted."
+  },
+  {
+   "num": 17,
+   "text": "Get up and walk around the land, through its length and breadth, for I will give it to you.\""
+  },
+  {
+   "num": 18,
+   "text": "So Abram moved his tent and went to live near the Oaks of Mamre at Hebron, where he built an altar to the LORD."
+  }
+ ],
+ "context": {
+  "author": "Genesis names no author. Jewish and Christian tradition, and the New Testament’s way of speaking of “the Law of Moses” (Luke 24:44), credit the five books of the Law to Moses. Many scholars think Genesis was gathered and shaped from older sources over a long time, and a few remarks look back from a later day: “at that time the Canaanites were in the land” (Genesis 12:6).",
+  "genre": "Family narrative: the story of Abraham, Sarah and their family (Genesis 11:27 to 25:11)",
+  "audience": "Israel, the children of Abraham, learning how God’s promise began",
+  "mapLabel": "CANAAN, THE LAND OF PROMISE",
+  "setting": "Abram comes back from Egypt to the Negev, very rich in livestock, silver and gold, and returns to his altar near Bethel (vv.1-4). Lot also has flocks and tents, and the land cannot support them both; their herdsmen quarrel (vv.5-7). Abram says, “Please let there be no contention between you and me… After all, we are brothers” (v.8), and gives Lot the first choice (v.9). Lot looks out and sees that the whole plain of the Jordan is “well watered like the garden of the LORD” (v.10), chooses it, and pitches his tent toward Sodom, though “the men of Sodom were wicked, sinning greatly against the LORD” (vv.11-13). Then the LORD tells Abram to look north, south, east and west: “all the land that you see, I will give to you and your offspring forever,” and his offspring will be “like the dust of the earth” (vv.14-16). Abram moves to the Oaks of Mamre at Hebron and builds an altar (v.18).",
+  "custom": "Flocks need grazing and water, and herders’ quarrels over wells and pasture were common (21:25; 26:20). The older man had the right to choose; Abram gives it up. The Jordan valley near the Dead Sea was greener before the cities were destroyed (v.10), and springs still make oases like Jericho and En Gedi. “Oaks of Mamre” may be terebinths; great trees marked holy places and meeting places.",
+  "timelineImmediate": "Chapter 14 tells how four kings captured Lot, Abram rescued him, and Melchizedek blessed Abram.",
+  "timelineBible": "Peter calls Lot “a righteous man distressed by the depraved conduct of the lawless” (2 Peter 2:7) in Sodom. Jesus said, “Blessed are the peacemakers” (Matthew 5:9); Paul told believers to “look not only to your own interests, but also to the interests of others” (Philippians 2:4). Abraham’s descendants as the dust of the earth are echoed in the promise of stars (15:5) and sand (22:17).",
+  "translation": [
+   {
+    "english": "brothers",
+    "greek": "אָח (ach)",
+    "verseRef": "v.8",
+    "meaning": "Brother; also a close relative. Lot was Abram’s nephew, but Abram calls them brothers.",
+    "gloss": "Brother",
+    "strongs": "H251",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "plain",
+    "greek": "כִּכָּר (kikkar)",
+    "verseRef": "v.10",
+    "meaning": "A round thing: a loaf, a talent of silver, or a round plain. ‘The kikkar of the Jordan’ is the valley floor near the Dead Sea.",
+    "gloss": "Round plain",
+    "strongs": "H3603",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "dust",
+    "greek": "עָפָר (afar)",
+    "verseRef": "v.16",
+    "meaning": "Dust, soil. Man was formed from dust (2:7); now Abram’s offspring will be as countless as the dust.",
+    "gloss": "Dust",
+    "strongs": "H6083",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "2 Peter 2:6-8",
+    "note": "Lot, a righteous man, distressed by the lawless."
+   },
+   {
+    "ref": "Philippians 2:3-4",
+    "note": "Look not only to your own interests."
+   },
+   {
+    "ref": "Romans 4:13",
+    "note": "The promise that he would be heir of the world."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 133:1",
+    "note": "How good and pleasant when brothers live together in harmony."
+   },
+   {
+    "ref": "Ezekiel 16:49",
+    "note": "The guilt of Sodom: pride, plenty and ease, and no help for the poor."
+   },
+   {
+    "ref": "Genesis 28:14",
+    "note": "Your offspring will be like the dust of the earth."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.927,
+   "lng": 35.239,
+   "zoom": 6,
+   "placeName": "Bethel (probably Beitin)"
+  },
+  "overview": {
+   "summary": "Abram and Lot have too many flocks to stay together, so Abram lets Lot choose; Lot takes the well-watered Jordan plain toward Sodom, and God promises Abram all the land he can see and offspring like the dust of the earth.",
+   "settingLine": "Bethel, the Jordan plain and Mamre.",
+   "placeName": "Bethel (probably Beitin)",
+   "history": [
+    {
+     "h": "Herders’ quarrels",
+     "t": "Wells and pasture were always contested."
+    },
+    {
+     "h": "The cities of the plain",
+     "t": "Sodom and its neighbors near the Dead Sea."
+    }
+   ],
+   "customs": [
+    {
+     "h": "First choice",
+     "t": "Abram the elder gives up his right."
+    },
+    {
+     "h": "Sacred trees",
+     "t": "Great trees marked meeting places."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Bab edh-Dhra and Numeira",
+     "t": "Early Bronze Age towns by the Dead Sea, burned and abandoned; one proposal for Sodom and Gomorrah."
+    },
+    {
+     "h": "Mamre",
+     "t": "Herod built a walled enclosure at the traditional site near Hebron."
+    }
+   ],
+   "discussion": "Abram gave Lot first choice to keep peace (v.9), and God then showed Abram the whole land (v.14). Where could I give up my right for the sake of peace?",
+   "book": "The book of Genesis · 50 chapters (1-25 in the app so far). Beginnings: creation, the fall, the flood and the nations, then God’s promise to Abraham and his family.",
+   "author": "Moses, by tradition",
+   "genre": "Family narrative",
+   "audience": "Israel, children of Abraham",
+   "refNotes": {
+    "Psalm 133:1": "Brothers in harmony",
+    "Ezekiel 16:49": "Sodom’s sin",
+    "Genesis 28:14": "The promise to Jacob"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Abram",
+     "d": "Gives Lot the choice"
+    },
+    {
+     "n": "Lot",
+     "d": "Chooses the Jordan plain"
+    },
+    {
+     "n": "The men of Sodom",
+     "d": "Wicked and sinful"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "Too many flocks"
+    },
+    {
+     "when": "v.8-13",
+     "label": "Lot chooses"
+    },
+    {
+     "when": "v.14-18",
+     "label": "The land promised"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Bethel (probably Beitin)",
+    "lat": 31.927,
+    "lng": 35.239,
+    "verses": [
+     3
+    ],
+    "slug": "bethel"
+   },
+   {
+    "name": "The plain of the Jordan, toward Sodom",
+    "lat": 31.85,
+    "lng": 35.55,
+    "verses": [
+     10,
+     11
+    ],
+    "slug": "jordan-plain"
+   },
+   {
+    "name": "Sodom and Gomorrah (site debated; south end of the Dead Sea proposed)",
+    "lat": 31.255,
+    "lng": 35.535,
+    "verses": [
+     12,
+     13
+    ],
+    "slug": "sodom"
+   },
+   {
+    "name": "Mamre near Hebron (traditional site)",
+    "lat": 31.5598,
+    "lng": 35.1032,
+    "verses": [
+     18
+    ],
+    "slug": "mamre"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "And Abram had become extremely wealthy in livestock and silver and gold. So Abram said to Lot, Please let there be no contention between you and me, or between your herdsmen and my herdsmen. After all, we are brothers. Is not the whole land before you? Now separate yourself from me. If you go to the left, I will go to the right; if you go to the right, I will go to the left. And Lot looked out and saw that the whole plain of the Jordan, all the way to Zoar, was well watered like the garden of the LORD, like the land of Egypt. (This was before the LORD destroyed Sodom and Gomorrah.) Abram lived in the land of Canaan, but Lot settled in the cities of the plain and pitched his tent toward Sodom. After Lot had departed, the LORD said to Abram, Now lift up your eyes from the place where you are, and look to the north and south and east and west, I will make your offspring like the dust of the earth, so that if one could count the dust of the earth, then your offspring could be counted. So Abram moved his tent and went to live near the Oaks of Mamre at Hebron, where he built an altar to the LORD.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tobias_Verhaecht_-_Mountain_landscape_with_Abraham_and_Lot_separating.jpg",
+   "caption": "Mountain Landscape with Abraham and Lot Separating, by Tobias Verhaecht (1609). Flemish painters set the story in their own wide landscapes: Lot looks out over the well-watered plain (Genesis 13:10-11).",
+   "credit": "Tobias Verhaecht (1609), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Overhead_view_from_Mount_Nebo_of_the_Dead_Sea_and_Jordan_Valley_area.jpg",
+   "caption": "The Jordan valley and the north end of the Dead Sea, seen from Mount Nebo. Lot “saw that the whole plain of the Jordan… was well watered” (Genesis 13:10) and chose it for himself.",
+   "credit": "Photo: Mohammad hajeer, CC BY 4.0 / Wikimedia Commons"
+  }
+ }
+}

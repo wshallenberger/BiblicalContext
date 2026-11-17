@@ -3155,6 +3155,106 @@
   ],
   "psalms:150": [
    "ps_shofar"
+  ],
+  "genesis:1": [
+   "gn_light",
+   "gn_deepfield"
+  ],
+  "genesis:2": [
+   "gn_adam",
+   "gn_euphrates"
+  ],
+  "genesis:3": [
+   "gn_fall",
+   "gn_anastasis"
+  ],
+  "genesis:4": [
+   "gn_cain",
+   "gn_judea"
+  ],
+  "genesis:5": [
+   "gn_enoch",
+   "gn_anastasis"
+  ],
+  "genesis:6": [
+   "gn_hicks",
+   "gn_floodtablet"
+  ],
+  "genesis:7": [
+   "gn_deluge",
+   "gn_euphrates"
+  ],
+  "genesis:8": [
+   "gn_koch",
+   "gn_ararat"
+  ],
+  "genesis:9": [
+   "gn_noahvine",
+   "gn_koch"
+  ],
+  "genesis:10": [
+   "gn_nimrod",
+   "gn_babylon"
+  ],
+  "genesis:11": [
+   "gn_babel",
+   "gn_ziggurat"
+  ],
+  "genesis:12": [
+   "gn_molnar",
+   "gn_shechem"
+  ],
+  "genesis:13": [
+   "gn_lotparts",
+   "gn_nebo"
+  ],
+  "genesis:14": [
+   "gn_melchizedek",
+   "gn_nebo"
+  ],
+  "genesis:15": [
+   "gn_pieces",
+   "gn_deepfield"
+  ],
+  "genesis:16": [
+   "gn_hagarangel",
+   "gn_negev"
+  ],
+  "genesis:17": [
+   "gn_promises",
+   "gn_mamre"
+  ],
+  "genesis:18": [
+   "gn_threeangels",
+   "gn_mamre"
+  ],
+  "genesis:19": [
+   "gn_sodom",
+   "gn_sodomsite"
+  ],
+  "genesis:20": [
+   "gn_abimelech",
+   "gn_negev"
+  ],
+  "genesis:21": [
+   "gn_hagarout",
+   "gn_beersheba"
+  ],
+  "genesis:22": [
+   "gn_isaac",
+   "gn_moriah"
+  ],
+  "genesis:23": [
+   "gn_burial",
+   "gn_machpelah"
+  ],
+  "genesis:24": [
+   "gn_rebekah",
+   "gn_harran"
+  ],
+  "genesis:25": [
+   "gn_esau",
+   "gn_machpelah2"
   ]
  },
  "ac_ascmat": {
@@ -7762,5 +7862,365 @@
   "n": "Ein Avdat in the Negev",
   "d": "The canyon of Ein Avdat, part of Nahal Zin, the largest dry riverbed in the Negev. Winter rains can fill such wadis with sudden torrents: “Restore our captives, O LORD, like streams in the Negev” (Psalm 126:4).",
   "a": "Godot13 / Wikimedia Commons"
+ },
+ "gn_light": {
+  "k": "art",
+  "f": "Michelangelo,_Separation_of_Light_from_Darkness_00.jpg",
+  "c": "The Separation of Light from Darkness, by Michelangelo (about 1511), the panel above the altar in the Sistine Chapel ceiling, with the painted youths and medallions around it. “He separated the light from the darkness” (Genesis 1:4).",
+  "n": "Michelangelo, Separation of Light from Darkness",
+  "d": "The Separation of Light from Darkness, by Michelangelo (about 1511), the panel above the altar in the Sistine Chapel ceiling, with the painted youths and medallions around it. “He separated the light from the darkness” (Genesis 1:4).",
+  "a": "Michelangelo (about 1511), public domain / Wikimedia Commons"
+ },
+ "gn_adam": {
+  "k": "art",
+  "f": "Michelangelo_-_Creation_of_Adam_(cropped).jpg",
+  "c": "The Creation of Adam, by Michelangelo (about 1511), Sistine Chapel. God reaches out to the man He has formed: “The LORD God formed man from the dust of the ground and breathed the breath of life into his nostrils” (Genesis 2:7).",
+  "n": "Michelangelo, The Creation of Adam",
+  "d": "The Creation of Adam, by Michelangelo (about 1511), Sistine Chapel. God reaches out to the man He has formed: “The LORD God formed man from the dust of the ground and breathed the breath of life into his nostrils” (Genesis 2:7).",
+  "a": "Michelangelo (about 1511), public domain / Wikimedia Commons"
+ },
+ "gn_durer": {
+  "k": "art",
+  "f": "Albrecht_Dürer,_Adam_and_Eve,_1504,_NGA_6610.jpg",
+  "c": "Adam and Eve, an engraving by Albrecht Dürer (1504). The serpent offers the fruit while the animals around the couple stand for the four temperaments that, in medieval thought, came with the fall.",
+  "n": "Dürer, Adam and Eve",
+  "d": "Adam and Eve, an engraving by Albrecht Dürer (1504). The serpent offers the fruit while the animals around the couple stand for the four temperaments that, in medieval thought, came with the fall.",
+  "a": "Albrecht Dürer (1504), National Gallery of Art, Washington / Wikimedia Commons"
+ },
+ "gn_fall": {
+  "k": "art",
+  "f": "Michelangelo,_Fall_and_Expulsion_from_Garden_of_Eden_00.jpg",
+  "c": "The Fall and Expulsion from the Garden of Eden, by Michelangelo (1509-10), Sistine Chapel. On the left the serpent, a woman from the waist up, coils round the tree; on the right an angel with a sword drives the man and woman out (Genesis 3:6, 23-24).",
+  "n": "Michelangelo, the Fall",
+  "d": "The Fall and Expulsion from the Garden of Eden, by Michelangelo (1509-10), Sistine Chapel. On the left the serpent, a woman from the waist up, coils round the tree; on the right an angel with a sword drives the man and woman out (Genesis 3:6, 23-24).",
+  "a": "Michelangelo (1509-10), public domain / Wikimedia Commons"
+ },
+ "gn_cain": {
+  "k": "art",
+  "f": "Cain_leadeth_abel_to_death_tissot.jpg",
+  "c": "Cain Leads Abel to Death, by James Tissot (about 1896-1902, Jewish Museum, New York). “Cain said to his brother Abel, ‘Let us go out to the field’” (Genesis 4:8).",
+  "n": "Tissot, Cain Leads Abel",
+  "d": "Cain Leads Abel to Death, by James Tissot (about 1896-1902, Jewish Museum, New York). “Cain said to his brother Abel, ‘Let us go out to the field’” (Genesis 4:8).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_enoch": {
+  "k": "art",
+  "f": "God_took_Enoch_(5752456).jpg",
+  "c": "God Took Enoch, an engraving after Gerard Hoet from a Dutch picture Bible of 1728. “Enoch walked with God, and then he was no more, because God had taken him away” (Genesis 5:24).",
+  "n": "Hoet, God Took Enoch",
+  "d": "God Took Enoch, an engraving after Gerard Hoet from a Dutch picture Bible of 1728. “Enoch walked with God, and then he was no more, because God had taken him away” (Genesis 5:24).",
+  "a": "After Gerard Hoet (1728), public domain / Wikimedia Commons"
+ },
+ "gn_hicks": {
+  "k": "art",
+  "f": "Edward_Hicks,_American_-_Noah's_Ark_-_Google_Art_Project.jpg",
+  "c": "Noah’s Ark, by Edward Hicks (1846, Philadelphia Museum of Art). The animals go in pairs up to the ark under a darkening sky, as God commanded: “two of every kind… will come to you to be kept alive” (Genesis 6:20).",
+  "n": "Hicks, Noah’s Ark",
+  "d": "Noah’s Ark, by Edward Hicks (1846, Philadelphia Museum of Art). The animals go in pairs up to the ark under a darkening sky, as God commanded: “two of every kind… will come to you to be kept alive” (Genesis 6:20).",
+  "a": "Edward Hicks (1846), public domain / Wikimedia Commons"
+ },
+ "gn_deluge": {
+  "k": "art",
+  "f": "Gustave_Doré_-_The_Holy_Bible_-_Plate_I,_The_Deluge.jpg",
+  "c": "The Deluge, the frontispiece of Gustave Doré’s illustrated Bible (1866). People and a tiger cling to the last rocks as the waters rise: “every living thing that moved upon the earth perished” (Genesis 7:21).",
+  "n": "Doré, The Deluge",
+  "d": "The Deluge, the frontispiece of Gustave Doré’s illustrated Bible (1866). People and a tiger cling to the last rocks as the waters rise: “every living thing that moved upon the earth perished” (Genesis 7:21).",
+  "a": "Gustave Doré (1866), public domain / Wikimedia Commons"
+ },
+ "gn_koch": {
+  "k": "art",
+  "f": "Joseph_Anton_Koch_&_Gottlieb_Schick_-_Landschaft_mit_dem_Dankopfer_Noahs_(1803).jpg",
+  "c": "Landscape with Noah’s Thank Offering, by Joseph Anton Koch, with figures by Gottlieb Schick (1803, Städel Museum, Frankfurt). Noah’s family worships at the altar after the flood, under a rainbow (Genesis 8:20; 9:13).",
+  "n": "Koch, Noah’s Thank Offering",
+  "d": "Landscape with Noah’s Thank Offering, by Joseph Anton Koch, with figures by Gottlieb Schick (1803, Städel Museum, Frankfurt). Noah’s family worships at the altar after the flood, under a rainbow (Genesis 8:20; 9:13).",
+  "a": "Joseph Anton Koch and Gottlieb Schick (1803), public domain / Wikimedia Commons"
+ },
+ "gn_noahvine": {
+  "k": "art",
+  "f": "Michelangelo,_Drunkenness_of_Noah_00.jpg",
+  "c": "The Drunkenness of Noah, by Michelangelo (1509), Sistine Chapel, with the painted youths and medallions around it. Noah lies asleep while his sons cover him; at the left he digs in his vineyard (Genesis 9:20-23).",
+  "n": "Michelangelo, Drunkenness of Noah",
+  "d": "The Drunkenness of Noah, by Michelangelo (1509), Sistine Chapel, with the painted youths and medallions around it. Noah lies asleep while his sons cover him; at the left he digs in his vineyard (Genesis 9:20-23).",
+  "a": "Michelangelo (1509), public domain / Wikimedia Commons"
+ },
+ "gn_nimrod": {
+  "k": "art",
+  "f": "Circle_of_Louis_de_Caullery_-_King_Nimrod_ordering_the_construction_of_the_Tower_of_Babel.jpg",
+  "c": "King Nimrod Ordering the Construction of the Tower of Babel, from the circle of Louis de Caullery (17th century). Genesis says Nimrod’s kingdom began in Babel, that is Babylon (10:10); Jewish and Christian tradition later made him the builder of the tower, though Genesis 11 names no leader.",
+  "n": "Nimrod and the Tower of Babel",
+  "d": "King Nimrod Ordering the Construction of the Tower of Babel, from the circle of Louis de Caullery (17th century). Genesis says Nimrod’s kingdom began in Babel, that is Babylon (10:10); Jewish and Christian tradition later made him the builder of the tower, though Genesis 11 names no leader.",
+  "a": "Circle of Louis de Caullery (17th century), public domain / Wikimedia Commons"
+ },
+ "gn_babel": {
+  "k": "art",
+  "f": "Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg",
+  "c": "The Tower of Babel, by Pieter Bruegel the Elder (1563, Kunsthistorisches Museum, Vienna). Bruegel built his tower like the Colosseum in Rome, unfinished and already leaning: “let us build for ourselves a city with a tower that reaches to the heavens” (Genesis 11:4).",
+  "n": "Bruegel, The Tower of Babel",
+  "d": "The Tower of Babel, by Pieter Bruegel the Elder (1563, Kunsthistorisches Museum, Vienna). Bruegel built his tower like the Colosseum in Rome, unfinished and already leaning: “let us build for ourselves a city with a tower that reaches to the heavens” (Genesis 11:4).",
+  "a": "Pieter Bruegel the Elder (1563), public domain / Wikimedia Commons"
+ },
+ "gn_molnar": {
+  "k": "art",
+  "f": "Molnár_Ábrahám_kiköltözése_1850.jpg",
+  "c": "Abraham’s Departure, by József Molnár (1850, Hungarian National Gallery). Abram sets out with Sarai, his household and his flocks: “So Abram departed, as the LORD had directed him” (Genesis 12:4).",
+  "n": "Molnár, Abraham’s Departure",
+  "d": "Abraham’s Departure, by József Molnár (1850, Hungarian National Gallery). Abram sets out with Sarai, his household and his flocks: “So Abram departed, as the LORD had directed him” (Genesis 12:4).",
+  "a": "József Molnár (1850), public domain / Wikimedia Commons"
+ },
+ "gn_lotparts": {
+  "k": "art",
+  "f": "Tobias_Verhaecht_-_Mountain_landscape_with_Abraham_and_Lot_separating.jpg",
+  "c": "Mountain Landscape with Abraham and Lot Separating, by Tobias Verhaecht (1609). Flemish painters set the story in their own wide landscapes: Lot looks out over the well-watered plain (Genesis 13:10-11).",
+  "n": "Verhaecht, Abraham and Lot Separating",
+  "d": "Mountain Landscape with Abraham and Lot Separating, by Tobias Verhaecht (1609). Flemish painters set the story in their own wide landscapes: Lot looks out over the well-watered plain (Genesis 13:10-11).",
+  "a": "Tobias Verhaecht (1609), public domain / Wikimedia Commons"
+ },
+ "gn_melchizedek": {
+  "k": "art",
+  "f": "Dieric_Bouts_-_The_Meeting_of_Abraham_and_Melchizedek_-_WGA03010.jpg",
+  "c": "The Meeting of Abraham and Melchizedek, by Dieric Bouts (about 1464-68), a wing of his Last Supper altarpiece in St Peter’s Church, Leuven. Melchizedek brings out bread and wine (Genesis 14:18), which Christian painters set beside the Lord’s Supper.",
+  "n": "Bouts, Abraham and Melchizedek",
+  "d": "The Meeting of Abraham and Melchizedek, by Dieric Bouts (about 1464-68), a wing of his Last Supper altarpiece in St Peter’s Church, Leuven. Melchizedek brings out bread and wine (Genesis 14:18), which Christian painters set beside the Lord’s Supper.",
+  "a": "Dieric Bouts (about 1464-68), public domain / Wikimedia Commons"
+ },
+ "gn_pieces": {
+  "k": "art",
+  "f": "BOWYER_BIBLE_GENESIS_131._Abraham's_sacrifice._Genesis_cap_15._Hoet.jpg",
+  "c": "Abraham’s Sacrifice, an engraving after Gerard Hoet (about 1728) from the Bowyer Bible. Abram drives off the birds of prey from the halved animals, and a smoking fire pot and flaming torch pass between the pieces (Genesis 15:11, 17).",
+  "n": "Hoet, Abraham’s Sacrifice",
+  "d": "Abraham’s Sacrifice, an engraving after Gerard Hoet (about 1728) from the Bowyer Bible. Abram drives off the birds of prey from the halved animals, and a smoking fire pot and flaming torch pass between the pieces (Genesis 15:11, 17).",
+  "a": "After Gerard Hoet (about 1728); photo Phidev74, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "gn_hagarstom": {
+  "k": "art",
+  "f": "Matthias_Stom_-_Sarah_Leading_Hagar_to_Abraham_-_WGA21803.jpg",
+  "c": "Sarah Leading Hagar to Abraham, by Matthias Stom (17th century). “his wife Sarai took her Egyptian maidservant Hagar and gave her to Abram to be his wife” (Genesis 16:3).",
+  "n": "Stom, Sarah Leading Hagar",
+  "d": "Sarah Leading Hagar to Abraham, by Matthias Stom (17th century). “his wife Sarai took her Egyptian maidservant Hagar and gave her to Abram to be his wife” (Genesis 16:3).",
+  "a": "Matthias Stom (about 1637-39), public domain / Wikimedia Commons"
+ },
+ "gn_hagarangel": {
+  "k": "art",
+  "f": "Tissot_Hagar_and_the_Angel_in_the_Desert.jpg",
+  "c": "Hagar and the Angel in the Desert, by James Tissot (about 1896-1902, Jewish Museum, New York). “The angel of the LORD found Hagar by a spring of water in the desert” (Genesis 16:7).",
+  "n": "Tissot, Hagar and the Angel",
+  "d": "Hagar and the Angel in the Desert, by James Tissot (about 1896-1902, Jewish Museum, New York). “The angel of the LORD found Hagar by a spring of water in the desert” (Genesis 16:7).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_promises": {
+  "k": "art",
+  "f": "Tissot_God_Renews_His_Promises_to_Abraham.jpg",
+  "c": "God Renews His Promises to Abraham, by James Tissot (about 1896-1902, Jewish Museum, New York). Abram bows to the ground inside his tent as light falls on him: “Then Abram fell facedown, and God said to him…” (Genesis 17:3).",
+  "n": "Tissot, God Renews His Promises",
+  "d": "God Renews His Promises to Abraham, by James Tissot (about 1896-1902, Jewish Museum, New York). Abram bows to the ground inside his tent as light falls on him: “Then Abram fell facedown, and God said to him…” (Genesis 17:3).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_threeangels": {
+  "k": "art",
+  "f": "Rembrandt_Abraham_Serving_the_Three_Angels.jpg",
+  "c": "Abraham Serving the Three Angels, by Rembrandt (1646, private collection). The visitors eat under the tree while Sarah listens at the door of the tent (Genesis 18:8-10).",
+  "n": "Rembrandt, Abraham and the Angels",
+  "d": "Abraham Serving the Three Angels, by Rembrandt (1646, private collection). The visitors eat under the tree while Sarah listens at the door of the tent (Genesis 18:8-10).",
+  "a": "Rembrandt (1646), public domain / Wikimedia Commons"
+ },
+ "gn_sodom": {
+  "k": "art",
+  "f": "John_Martin_(1789-1854)_-_The_Destruction_of_Sodom_and_Gomorrah_-_TWCMS_,_C6975_-_Laing_Art_Gallery.jpg",
+  "c": "The Destruction of Sodom and Gomorrah, by John Martin (1852, Laing Art Gallery, Newcastle). Fire falls on the cities while small figures flee; Lot’s wife stands behind them, turned to salt (Genesis 19:24-26).",
+  "n": "Martin, Destruction of Sodom",
+  "d": "The Destruction of Sodom and Gomorrah, by John Martin (1852, Laing Art Gallery, Newcastle). Fire falls on the cities while small figures flee; Lot’s wife stands behind them, turned to salt (Genesis 19:24-26).",
+  "a": "John Martin (1852), public domain / Wikimedia Commons"
+ },
+ "gn_abimelech": {
+  "k": "art",
+  "f": "Wenceslas_Hollar_-_Abimelech_rebuking_Abraham_(State_2).jpg",
+  "c": "Abimelech Rebuking Abraham, an etching by Wenceslaus Hollar (17th century). The king of Gerar confronts Abraham: “How have I sinned against you, that you have brought such tremendous guilt upon me and my kingdom?” (Genesis 20:9).",
+  "n": "Hollar, Abimelech Rebuking Abraham",
+  "d": "Abimelech Rebuking Abraham, an etching by Wenceslaus Hollar (17th century). The king of Gerar confronts Abraham: “How have I sinned against you, that you have brought such tremendous guilt upon me and my kingdom?” (Genesis 20:9).",
+  "a": "Wenceslaus Hollar (1607-1677), public domain / Wikimedia Commons"
+ },
+ "gn_hagarout": {
+  "k": "art",
+  "f": "Guercino_Abramo_ripudia_Agar.jpg",
+  "c": "Abraham Casting Out Hagar and Ishmael, by Guercino (1657, Brera Gallery, Milan). Sarah turns away at the back as Abraham sends Hagar off with her weeping son (Genesis 21:14).",
+  "n": "Guercino, Hagar and Ishmael",
+  "d": "Abraham Casting Out Hagar and Ishmael, by Guercino (1657, Brera Gallery, Milan). Sarah turns away at the back as Abraham sends Hagar off with her weeping son (Genesis 21:14).",
+  "a": "Guercino (1657), Brera Gallery, Milan / Wikimedia Commons"
+ },
+ "gn_isaac": {
+  "k": "art",
+  "f": "Caravaggio_Sacrifice_of_Isaac_I.jpg",
+  "c": "The Sacrifice of Isaac, attributed to Caravaggio (about 1598; the attribution of this version is debated). The angel stops Abraham as the knife is drawn, and the ram waits at the lower left: “Do not lay a hand on the boy” (Genesis 22:12).",
+  "n": "The Sacrifice of Isaac",
+  "d": "The Sacrifice of Isaac, attributed to Caravaggio (about 1598; the attribution of this version is debated). The angel stops Abraham as the knife is drawn, and the ram waits at the lower left: “Do not lay a hand on the boy” (Genesis 22:12).",
+  "a": "Caravaggio (about 1598), public domain / Wikimedia Commons"
+ },
+ "gn_burial": {
+  "k": "art",
+  "f": "John_Martin_-_Burial_of_Sarah_-_B1975.4.637_-_Yale_Center_for_British_Art.jpg",
+  "c": "The Burial of Sarah, by John Martin (1833, Yale Center for British Art). Mourners carry Sarah into a great rock cave, the cave of Machpelah that Abraham bought from Ephron the Hittite (Genesis 23:19).",
+  "n": "Martin, The Burial of Sarah",
+  "d": "The Burial of Sarah, by John Martin (1833, Yale Center for British Art). Mourners carry Sarah into a great rock cave, the cave of Machpelah that Abraham bought from Ephron the Hittite (Genesis 23:19).",
+  "a": "John Martin (1833), Yale Center for British Art, public domain (CC0) / Wikimedia Commons"
+ },
+ "gn_rebekah": {
+  "k": "art",
+  "f": "Bartolomé_Esteban_Perez_Murillo_-_Rebecca_and_Eliezer_-_WGA16355.jpg",
+  "c": "Rebekah and Eliezer, by Bartolomé Esteban Murillo (about 1660, Prado, Madrid). Rebekah offers water from her jar at the well. Genesis 24 calls Abraham’s servant only “the servant”; tradition names him Eliezer from 15:2.",
+  "n": "Murillo, Rebekah and Eliezer",
+  "d": "Rebekah and Eliezer, by Bartolomé Esteban Murillo (about 1660, Prado, Madrid). Rebekah offers water from her jar at the well. Genesis 24 calls Abraham’s servant only “the servant”; tradition names him Eliezer from 15:2.",
+  "a": "Bartolomé Esteban Murillo (about 1660), public domain / Wikimedia Commons"
+ },
+ "gn_esau": {
+  "k": "art",
+  "f": "Hendrick_ter_Brugghen_-_Esau_Selling_His_Birthright_-_WGA22163.jpg",
+  "c": "Esau Selling His Birthright, by Hendrick ter Brugghen (about 1625, Thyssen-Bornemisza Museum, Madrid). “Jacob gave some bread and lentil stew to Esau, who ate and drank and then got up and went away. Thus Esau despised his birthright” (Genesis 25:34).",
+  "n": "ter Brugghen, Esau Selling His Birthright",
+  "d": "Esau Selling His Birthright, by Hendrick ter Brugghen (about 1625, Thyssen-Bornemisza Museum, Madrid). “Jacob gave some bread and lentil stew to Esau, who ate and drank and then got up and went away. Thus Esau despised his birthright” (Genesis 25:34).",
+  "a": "Hendrick ter Brugghen (about 1625) / Wikimedia Commons"
+ },
+ "gn_deepfield": {
+  "k": "now",
+  "f": "Hubble_ultra_deep_field.jpg",
+  "c": "The Hubble Ultra Deep Field (2004): a tiny patch of sky in the constellation Fornax, about a tenth of the width of the full moon, holding about 10,000 galaxies. Genesis gives the stars one short line: “And He made the stars as well” (Genesis 1:16).",
+  "n": "Hubble Ultra Deep Field",
+  "d": "The Hubble Ultra Deep Field (2004): a tiny patch of sky in the constellation Fornax, about a tenth of the width of the full moon, holding about 10,000 galaxies. Genesis gives the stars one short line: “And He made the stars as well” (Genesis 1:16).",
+  "a": "NASA and the European Space Agency, public domain / Wikimedia Commons"
+ },
+ "gn_euphrates": {
+  "k": "now",
+  "f": "Euphrates_River_by_Dura-Europus,_Syria._(V)_(5532991132).jpg",
+  "c": "The Euphrates River below Dura-Europos in Syria. Genesis names the Tigris and the Euphrates among the four rivers that flowed out of Eden (2:14), placing the garden somewhere in the world of Mesopotamia.",
+  "n": "The Euphrates",
+  "d": "The Euphrates River below Dura-Europos in Syria. Genesis names the Tigris and the Euphrates among the four rivers that flowed out of Eden (2:14), placing the garden somewhere in the world of Mesopotamia.",
+  "a": "Photo: Erik Hermans / ISAW, CC BY 2.0 / Wikimedia Commons"
+ },
+ "gn_anastasis": {
+  "k": "art",
+  "f": "Chora_Anastasis1.jpg",
+  "c": "The Anastasis (Resurrection) fresco in the Chora Church, Istanbul (about 1320). Christ, having broken the gates of death, pulls Adam and Eve out of their tombs. Paul: “For as in Adam all die, so in Christ all will be made alive” (1 Corinthians 15:22).",
+  "n": "The Anastasis, Chora Church",
+  "d": "The Anastasis (Resurrection) fresco in the Chora Church, Istanbul (about 1320). Christ, having broken the gates of death, pulls Adam and Eve out of their tombs. Paul: “For as in Adam all die, so in Christ all will be made alive” (1 Corinthians 15:22).",
+  "a": "Unknown artist (about 1320), Chora Church, Istanbul / Wikimedia Commons"
+ },
+ "gn_judea": {
+  "k": "now",
+  "f": "Judea_1_by_David_Shankbone.jpg",
+  "c": "Bare hills of the Judean desert. After Cain killed his brother, God told him, “When you till the ground, it will no longer yield its produce to you. You will be a fugitive and a wanderer on the earth” (Genesis 4:12).",
+  "n": "Judean desert",
+  "d": "Bare hills of the Judean desert. After Cain killed his brother, God told him, “When you till the ground, it will no longer yield its produce to you. You will be a fugitive and a wanderer on the earth” (Genesis 4:12).",
+  "a": "David Shankbone, CC BY-SA 3.0 / Wikimedia Commons"
+ },
+ "gn_floodtablet": {
+  "k": "dig",
+  "f": "British_Museum_Flood_Tablet.jpg",
+  "c": "The ‘Flood Tablet,’ Tablet 11 of the Epic of Gilgamesh, from the library of the Assyrian king Ashurbanipal at Nineveh (7th century BC, British Museum). Its hero Utnapishtim builds a boat, survives a great flood, and sends out birds to find dry land. The story is older than this copy; how it relates to Genesis is debated.",
+  "n": "The Gilgamesh Flood Tablet",
+  "d": "The ‘Flood Tablet,’ Tablet 11 of the Epic of Gilgamesh, from the library of the Assyrian king Ashurbanipal at Nineveh (7th century BC, British Museum). Its hero Utnapishtim builds a boat, survives a great flood, and sends out birds to find dry land. The story is older than this copy; how it relates to Genesis is debated.",
+  "a": "British Museum; photo public domain (CC0) / Wikimedia Commons"
+ },
+ "gn_ararat": {
+  "k": "now",
+  "f": "Mount_Ararat,_Two_volcanic_cones,_Ararat_Plain,_Armenia.jpg",
+  "c": "Mount Ararat, with Great and Little Ararat, seen across the Ararat plain in Armenia. Genesis 8:4 says the ark came to rest on “the mountains of Ararat,” the region the Assyrians called Urartu; the Bible names a range, not this peak.",
+  "n": "Mount Ararat",
+  "d": "Mount Ararat, with Great and Little Ararat, seen across the Ararat plain in Armenia. Genesis 8:4 says the ark came to rest on “the mountains of Ararat,” the region the Assyrians called Urartu; the Bible names a range, not this peak.",
+  "a": "Photo: Vyacheslav Argenberg, CC BY 4.0 / Wikimedia Commons"
+ },
+ "gn_babylon": {
+  "k": "dig",
+  "f": "Ruins_of_Babylon,_Mesopotamia,_Iraq.jpg",
+  "c": "Rebuilt walls among the ruins of Babylon on the Euphrates, south of Baghdad. Babylon (Hebrew Babel), “in the land of Shinar,” is the first city named in Nimrod’s kingdom (Genesis 10:10).",
+  "n": "Ruins of Babylon",
+  "d": "Rebuilt walls among the ruins of Babylon on the Euphrates, south of Baghdad. Babylon (Hebrew Babel), “in the land of Shinar,” is the first city named in Nimrod’s kingdom (Genesis 10:10).",
+  "a": "Photo: Osama Shukir Muhammed Amin, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "gn_ziggurat": {
+  "k": "dig",
+  "f": "Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg",
+  "c": "The ziggurat of Ur in southern Iraq, built about 2100 BC for the moon god Nanna and partly restored in the 1980s. Stepped temple towers of mud brick like this are the likely background of the tower of Babel, built with “brick instead of stone, and tar instead of mortar” (Genesis 11:3).",
+  "n": "Ziggurat of Ur",
+  "d": "The ziggurat of Ur in southern Iraq, built about 2100 BC for the moon god Nanna and partly restored in the 1980s. Stepped temple towers of mud brick like this are the likely background of the tower of Babel, built with “brick instead of stone, and tar instead of mortar” (Genesis 11:3).",
+  "a": "Photo: Hardnfast, CC BY 3.0 / Wikimedia Commons"
+ },
+ "gn_shechem": {
+  "k": "now",
+  "f": "Shechem_and_Mount_Gerizim_(4879170359).jpg",
+  "c": "Shechem (Nablus) in the pass below Mount Gerizim, in a lantern slide from about 1915. Abram’s first stop in Canaan was “the site of the Oak of Moreh at Shechem,” where he built his first altar (Genesis 12:6-7).",
+  "n": "Shechem and Mount Gerizim",
+  "d": "Shechem (Nablus) in the pass below Mount Gerizim, in a lantern slide from about 1915. Abram’s first stop in Canaan was “the site of the Oak of Moreh at Shechem,” where he built his first altar (Genesis 12:6-7).",
+  "a": "Oregon State University Special Collections, no known copyright restrictions / Wikimedia Commons"
+ },
+ "gn_nebo": {
+  "k": "now",
+  "f": "Overhead_view_from_Mount_Nebo_of_the_Dead_Sea_and_Jordan_Valley_area.jpg",
+  "c": "The Jordan valley and the north end of the Dead Sea, seen from Mount Nebo. Lot “saw that the whole plain of the Jordan… was well watered” (Genesis 13:10) and chose it for himself.",
+  "n": "The Jordan valley from Nebo",
+  "d": "The Jordan valley and the north end of the Dead Sea, seen from Mount Nebo. Lot “saw that the whole plain of the Jordan… was well watered” (Genesis 13:10) and chose it for himself.",
+  "a": "Photo: Mohammad hajeer, CC BY 4.0 / Wikimedia Commons"
+ },
+ "gn_mamre": {
+  "k": "dig",
+  "f": "Oak_of_Mamre_1.jpg",
+  "c": "The traditional site of Mamre near Hebron (Ramat el-Khalil), where Herod and later Constantine built walled enclosures to mark the place. Abram “went to live near the Oaks of Mamre at Hebron, where he built an altar to the LORD” (Genesis 13:18).",
+  "n": "Mamre",
+  "d": "The traditional site of Mamre near Hebron (Ramat el-Khalil), where Herod and later Constantine built walled enclosures to mark the place. Abram “went to live near the Oaks of Mamre at Hebron, where he built an altar to the LORD” (Genesis 13:18).",
+  "a": "Photo: Copper Kettle, CC BY-SA 2.0 / Wikimedia Commons"
+ },
+ "gn_negev": {
+  "k": "now",
+  "f": "Israel-2013-Ein_Avdat_02.jpg",
+  "c": "The canyon of Ein Avdat in the Negev, the dry south country where Abraham’s family moved between wells and springs, and where Hagar met the angel by “the spring along the road to Shur” (Genesis 16:7).",
+  "n": "The Negev",
+  "d": "The canyon of Ein Avdat in the Negev, the dry south country where Abraham’s family moved between wells and springs, and where Hagar met the angel by “the spring along the road to Shur” (Genesis 16:7).",
+  "a": "Godot13 / Wikimedia Commons"
+ },
+ "gn_beersheba": {
+  "k": "dig",
+  "f": "PikiWiki_Israel_33680_Well_and_trough_in_Tel_Beer_Sheva.JPG",
+  "c": "A deep well and stone trough at Tel Be’er Sheva. The well found there is usually dated to the Israelite town, centuries after Abraham, but it shows how much wells mattered in the Negev: “Abraham complained to Abimelech about a well that Abimelech’s servants had seized” (Genesis 21:25).",
+  "n": "Tel Be’er Sheva well",
+  "d": "A deep well and stone trough at Tel Be’er Sheva. The well found there is usually dated to the Israelite town, centuries after Abraham, but it shows how much wells mattered in the Negev: “Abraham complained to Abimelech about a well that Abimelech’s servants had seized” (Genesis 21:25).",
+  "a": "Photo: Avishai Teicher, PikiWiki Israel, CC BY 2.5 / Wikimedia Commons"
+ },
+ "gn_moriah": {
+  "k": "now",
+  "f": "601.Mount_Moriah.El-Aqsa_Mosque&Dome_of_the_Rock.Jerusalem.jpg",
+  "c": "The Temple Mount in Jerusalem with the Dome of the Rock. Solomon built the temple “on Mount Moriah” (2 Chronicles 3:1), and Jewish tradition connects it with the mountain in “the land of Moriah” where Abraham was told to offer Isaac (Genesis 22:2).",
+  "n": "The Temple Mount",
+  "d": "The Temple Mount in Jerusalem with the Dome of the Rock. Solomon built the temple “on Mount Moriah” (2 Chronicles 3:1), and Jewish tradition connects it with the mountain in “the land of Moriah” where Abraham was told to offer Isaac (Genesis 22:2).",
+  "a": "Photo: Oleg Moro, CC BY-SA 3.0 / Wikimedia Commons"
+ },
+ "gn_sodomsite": {
+  "k": "dig",
+  "f": "Bab_edh-Dhra_gate_overlooking_south_end_dead_sea_2014.jpg",
+  "c": "The Early Bronze Age town gate at Bab edh-Dhra, looking toward the south end of the Dead Sea. It is one proposed site for Sodom; Tall el-Hammam north of the Dead Sea is another. Genesis does not say exactly where the cities of the plain stood.",
+  "n": "Bab edh-Dhra",
+  "d": "The Early Bronze Age town gate at Bab edh-Dhra, looking toward the south end of the Dead Sea. It is one proposed site for Sodom; Tall el-Hammam north of the Dead Sea is another. Genesis does not say exactly where the cities of the plain stood.",
+  "a": "Photo: Deg777, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "gn_machpelah": {
+  "k": "now",
+  "f": "Cave_of_the_Patriarchs,_Hebron_2007.jpg",
+  "c": "The building over the Cave of the Patriarchs (Machpelah) in Hebron. Its great stone enclosure was built by Herod the Great in the 1st century BC; tradition holds that Abraham, Sarah, Isaac, Rebekah, Jacob and Leah lie in the cave below (Genesis 49:29-32).",
+  "n": "Cave of the Patriarchs",
+  "d": "The building over the Cave of the Patriarchs (Machpelah) in Hebron. Its great stone enclosure was built by Herod the Great in the 1st century BC; tradition holds that Abraham, Sarah, Isaac, Rebekah, Jacob and Leah lie in the cave below (Genesis 49:29-32).",
+  "a": "Photo: eman, public domain / Wikimedia Commons"
+ },
+ "gn_machpelah2": {
+  "k": "now",
+  "f": "Hebron_Cave_of_the_Patriarchs.jpg",
+  "c": "The Cave of the Patriarchs in Hebron from the south. “His sons Isaac and Ishmael buried him in the cave of Machpelah near Mamre” (Genesis 25:9). The Herodian walls stand over the cave; the building on top has been a church and a mosque, and now holds both a mosque and a synagogue.",
+  "n": "Cave of the Patriarchs",
+  "d": "The Cave of the Patriarchs in Hebron from the south. “His sons Isaac and Ishmael buried him in the cave of Machpelah near Mamre” (Genesis 25:9). The Herodian walls stand over the cave; the building on top has been a church and a mosque, and now holds both a mosque and a synagogue.",
+  "a": "Photo: Djampa, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "gn_harran": {
+  "k": "now",
+  "f": "Harran_Beehive_houses_195.jpg",
+  "c": "Beehive houses of mud brick at Harran in southeast Turkey (photographed 1997). Abram’s family settled in Haran on the way from Ur (Genesis 11:31), and his servant went back to this region, Aram-naharaim, to find a wife for Isaac (24:10).",
+  "n": "Harran",
+  "d": "Beehive houses of mud brick at Harran in southeast Turkey (photographed 1997). Abram’s family settled in Haran on the way from Ur (Genesis 11:31), and his servant went back to this region, Aram-naharaim, to find a wife for Isaac (24:10).",
+  "a": "Photo: Dosseman, CC BY-SA 4.0 / Wikimedia Commons"
  }
 }

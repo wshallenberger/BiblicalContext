@@ -4178,7 +4178,7 @@ const MAP_TST = Bk.map(Bk.testament);
 let EVENTS = null, EV_BY_ID = {};
 let mapMain = null, mapMainReady = false, mapStyleFailed = false;
 let mapF = { tst: 'all', book: 'all', chapter: 'all', from: 1, to: 9999 };
-let mapMaxI = 668;       // number of the last event (set when events load)
+let mapMaxI = 697;       // number of the last event (set when events load)
 let mapStory = '';       // '' or a story id (see MAP_STORIES): draws the path and numbers the stops
 // a story is never carried over from an earlier visit: the map always opens with no filters
 // Stories follow one life through the events, in order. More can be added (Life of Paul comes with Acts).
@@ -4284,6 +4284,10 @@ const MAP_STORIES = [
     key: [528, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 544, 550, 552, 555, 562, 564, 566, 570, 572, 574, 576, 579],
     short: [530, 531, 532, 533, 534, 535, 536, 537, 539, 562, 564, 576],
     blurb: 'The last book of the Bible: a letter, a prophecy and a series of visions given to John on the island of Patmos for seven churches in Roman Asia. Seven pins mark those churches, in the order a messenger would reach them. Most of the visions are set in heaven and have no place on a map, so their pins stand at Patmos, where John saw them. A few stand at places the book names or points to: the Euphrates, Megiddo (Armageddon), Jerusalem, and Rome and Babylon for the great city of chapters 17-18, which is a judgment call. The notes give the main ways Christians read each vision. Numbers show the order.' },
+  { id: 'genesis', name: 'Genesis', color: '#7a5c4a', ready: true, match: e => typeof e.i === 'number' && e.i > 668 && e.i <= 697 && !e.bg,
+    key: [669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697],
+    short: [669, 671, 675, 676, 679, 680, 681, 685, 686, 690, 693, 694, 697],
+    blurb: 'Chapters 1-25, from creation to the death of Abraham. Genesis 1-11 names few places that can be found: the rivers of Eden, the mountains of Ararat, Babel in Shinar, and Ur. Those pins are judgment calls, and the notes say why. From chapter 12 the story follows Abraham on the ground: Haran, Shechem, Bethel, Egypt, Mamre and Hebron, Gerar, Beersheba and Moriah. Numbers show the order of the book.' },
   { id: 'psalms', name: 'Psalms', color: '#4f6f8f', ready: true, match: e => typeof e.i === 'number' && e.i > 592 && e.i <= 668 && !e.bg,
     key: [593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668],
     short: [593, 594, 597, 600, 602, 604, 607, 610, 611, 615, 617, 619, 621, 623, 625, 628, 630, 632, 636, 637, 640, 642, 645, 646, 649, 652, 654, 656, 657, 658, 661, 664, 666, 668],
@@ -4344,6 +4348,8 @@ const MAP_PERIODS = [
   { n: 'Revelation: the throne, seals and trumpets (4-11)', a: 538, b: 551 },
   { n: 'Revelation: the dragon, the beasts and Babylon (12-18)', a: 552, b: 568 },
   { n: 'Revelation: the King and the new Jerusalem (19-22)', a: 569, b: 579 },
+  { n: 'Genesis: beginnings (1-11)', a: 669, b: 680 },
+  { n: 'Genesis: Abraham (12-25)', a: 681, b: 697 },
   { n: 'Psalms: Book One, 1-20', a: 593, b: 598 },
   { n: 'Psalms: Book One, 21-40', a: 599, b: 605 },
   { n: 'Psalms: 41-60 (into Book Two)', a: 606, b: 617 },
@@ -4430,8 +4436,8 @@ function renderMapControls() {
   const chips = [`<button type="button" class="map-chip${mapF.book === 'all' ? ' on' : ''}" data-b="all"><i style="background:var(--gold)"></i>All books</button>`]
     .concat(nt.filter(b => (mapF.tst === 'all' || MAP_TST[b] === mapF.tst) && (!EVENTS || EVENTS.some(e => (e.r || []).some(r => r[0] === b)))).map(b => `<button type="button" class="map-chip${mapF.book === b ? ' on' : ''}" data-b="${b}"><i style="background:${MAP_BOOK_COLORS[b]}"></i>${mapBookName(b)}</button>`));
   const box = document.getElementById('mapBooks');
-  box.innerHTML = mapF.tst === 'OT' ? '' : chips.join('');
-  box.style.display = mapF.tst === 'OT' ? 'none' : 'flex';
+  box.innerHTML = chips.join('');
+  box.style.display = 'flex';
   box.querySelectorAll('.map-chip').forEach(btn => btn.addEventListener('click', () => {
     mapF.book = btn.dataset.b; mapF.chapter = 'all'; applyMapFilters(true);
   }));
@@ -4452,7 +4458,6 @@ async function applyMapFilters(fit) {
   mapWalk = null; document.getElementById('mapCard').classList.remove('walking');
   mapExtra = null;
   mapShown = EVENTS.filter(evMatches);
-  if (mapF.tst === 'OT') mapShown = [];
   // A chapter with no curated event still gets a pin for its setting, taken from the chapter's own data.
   if (mapF.book !== 'all' && mapF.chapter !== 'all' && !mapShown.length) {
     try {
@@ -4472,8 +4477,7 @@ async function applyMapFilters(fit) {
   renderMapControls();
   const cnt = document.getElementById('mapCount');
   const msg = document.getElementById('mapMsg');
-  if (mapF.tst === 'OT') { cnt.textContent = '0 events'; msg.textContent = 'Old Testament events are not pinned yet. This filter is ready for them.'; msg.hidden = false; }
-  else if (!mapShown.length) { cnt.textContent = '0 events'; msg.textContent = 'No events are pinned here yet.'; msg.hidden = false; }
+  if (!mapShown.length) { cnt.textContent = '0 events'; msg.textContent = 'No events are pinned here yet.'; msg.hidden = false; }
   else { msg.hidden = true; cnt.textContent = mapExtra ? 'chapter setting only' : (mapShown.length + (mapShown.length === 1 ? ' event' : ' events')); }
   document.getElementById('mapCard').hidden = true; mapSelId = null;
   pushMapData();

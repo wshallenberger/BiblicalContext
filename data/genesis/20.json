@@ -1,0 +1,269 @@
+{
+ "book": "Genesis",
+ "chapter": 20,
+ "title": "Abraham and Abimelech",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Now Abraham journeyed from there to the region of the Negev and settled between Kadesh and Shur. While he was staying in Gerar,"
+  },
+  {
+   "num": 2,
+   "text": "Abraham said of his wife Sarah, \"She is my sister.\" So Abimelech king of Gerar had Sarah brought to him."
+  },
+  {
+   "num": 3,
+   "text": "One night, however, God came to Abimelech in a dream and told him, \"You are as good as dead because of the woman you have taken, for she is a married woman.\""
+  },
+  {
+   "num": 4,
+   "text": "Now Abimelech had not gone near her, so he replied, \"Lord, would You destroy a nation even though it is innocent?"
+  },
+  {
+   "num": 5,
+   "text": "Didn't Abraham tell me, 'She is my sister'? And she herself said, 'He is my brother.' I have done this in the integrity of my heart and the innocence of my hands.\""
+  },
+  {
+   "num": 6,
+   "text": "Then God said to Abimelech in the dream, \"Yes, I know that you did this with a clear conscience, and so I have kept you from sinning against Me. That is why I did not let you touch her."
+  },
+  {
+   "num": 7,
+   "text": "Now return the man's wife, for he is a prophet; he will pray for you and you will live. But if you do not restore her, be aware that you will surely die—you and all who belong to you.\""
+  },
+  {
+   "num": 8,
+   "text": "Early the next morning Abimelech got up and summoned all his servants; and when he described to them all that had happened, the men were terrified."
+  },
+  {
+   "num": 9,
+   "text": "Then Abimelech called Abraham and asked, \"What have you done to us? How have I sinned against you, that you have brought such tremendous guilt upon me and my kingdom? You have done things to me that should not be done.\""
+  },
+  {
+   "num": 10,
+   "text": "Abimelech also asked Abraham, \"What prompted you to do such a thing?\""
+  },
+  {
+   "num": 11,
+   "text": "Abraham replied, \"I thought to myself, 'Surely there is no fear of God in this place. They will kill me on account of my wife.'"
+  },
+  {
+   "num": 12,
+   "text": "Besides, she really is my sister, the daughter of my father—though not the daughter of my mother—and she became my wife."
+  },
+  {
+   "num": 13,
+   "text": "So when God had me journey from my father's house, I said to Sarah, 'This is how you can show your loyalty to me: Wherever we go, say of me, \"He is my brother.\"'\""
+  },
+  {
+   "num": 14,
+   "text": "So Abimelech brought sheep and cattle, menservants and maidservants, and he gave them to Abraham and restored his wife Sarah to him."
+  },
+  {
+   "num": 15,
+   "text": "And Abimelech said, \"Look, my land is before you. Settle wherever you please.\""
+  },
+  {
+   "num": 16,
+   "text": "And he said to Sarah, \"See, I am giving your brother a thousand pieces of silver. It is your vindication before all who are with you; you are completely cleared.\""
+  },
+  {
+   "num": 17,
+   "text": "Then Abraham prayed to God, and God healed Abimelech and his wife and his maidservants, so that they could again bear children—"
+  },
+  {
+   "num": 18,
+   "text": "for on account of Abraham's wife Sarah, the LORD had completely closed all the wombs in Abimelech's household."
+  }
+ ],
+ "context": {
+  "author": "Genesis names no author. Jewish and Christian tradition, and the New Testament’s way of speaking of “the Law of Moses” (Luke 24:44), credit the five books of the Law to Moses. Many scholars think Genesis was gathered and shaped from older sources over a long time, and a few remarks look back from a later day: “at that time the Canaanites were in the land” (Genesis 12:6).",
+  "genre": "Family narrative: the story of Abraham, Sarah and their family (Genesis 11:27 to 25:11)",
+  "audience": "Israel, the children of Abraham, learning how God’s promise began",
+  "mapLabel": "CANAAN, THE LAND OF PROMISE",
+  "setting": "Abraham moves to the Negev and stays in Gerar. Again he says of Sarah, “She is my sister,” and Abimelech king of Gerar takes her (vv.1-2). God comes to Abimelech in a dream: “You are as good as dead because of the woman you have taken, for she is a married woman” (v.3). Abimelech protests that he acted in innocence, and God answers, “I know that you did this with a clear conscience, and so I have kept you from sinning against Me” (vv.4-6). He must return Sarah, “for he is a prophet; he will pray for you and you will live” (v.7). Abimelech confronts Abraham: “What have you done to us?” (v.9). Abraham says he thought “there is no fear of God in this place,” and that Sarah really is his half-sister, his father’s daughter (vv.11-12). Abimelech gives Abraham sheep, cattle and servants, returns Sarah, offers him land, and gives a thousand pieces of silver to clear her honor (vv.14-16). Abraham prays, and God heals Abimelech’s household, for He had closed every womb there (vv.17-18).",
+  "custom": "A king could take an unmarried woman into his harem, but taking another man’s wife was known everywhere as ‘the great sin’; Egyptian and Ugaritic texts use that very phrase for adultery. Marriage to a half-sister was allowed in Abraham’s day; the law of Moses later forbade it (Leviticus 18:9). Gerar lay in the western Negev, toward Gaza; Tel Haror is the likely site.",
+  "timelineImmediate": "Chapter 21 tells of the birth of Isaac, Hagar and Ishmael sent away, and Abraham’s treaty with Abimelech at Beersheba.",
+  "timelineBible": "This is the first time the Bible calls anyone a prophet: one who prays for others and speaks for God. Abraham fails the same way twice (12:10-20), yet God keeps His promise and protects Sarah, just before Isaac is conceived. Psalm 105 remembers how God “rebuked kings on their behalf: ‘Do not touch My anointed ones! Do no harm to My prophets!’” (Psalm 105:14-15).",
+  "translation": [
+   {
+    "english": "sinning",
+    "greek": "חָטָא (chata)",
+    "verseRef": "v.6",
+    "meaning": "To miss the mark, to sin. God says He kept Abimelech from sinning against Him: adultery is a sin against God, not only against a husband.",
+    "gloss": "To sin",
+    "strongs": "H2398",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "prophet",
+    "greek": "נָבִיא (navi)",
+    "verseRef": "v.7",
+    "meaning": "A prophet, one called to speak for God. Its first use in the Bible is for Abraham, as one who prays for others.",
+    "gloss": "Prophet",
+    "strongs": "H5030",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "fear",
+    "greek": "יִרְאָה (yir’ah)",
+    "verseRef": "v.11",
+    "meaning": "Fear, reverence. Abraham assumed there was no fear of God in Gerar; the pagan king showed more of it than he did.",
+    "gloss": "Fear",
+    "strongs": "H3374",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "1 Peter 3:6",
+    "note": "Sarah obeyed Abraham and called him lord."
+   },
+   {
+    "ref": "James 5:16",
+    "note": "The prayer of a righteous man has great power."
+   },
+   {
+    "ref": "Hebrews 13:4",
+    "note": "Let marriage be held in honor by all."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 12:10-20",
+    "note": "The same story in Egypt."
+   },
+   {
+    "ref": "Genesis 26:6-11",
+    "note": "Isaac does the same in Gerar."
+   },
+   {
+    "ref": "Psalm 105:12-15",
+    "note": "Do not touch My anointed ones."
+   }
+  ],
+  "mapCoords": {
+   "lat": 31.381,
+   "lng": 34.607,
+   "zoom": 6,
+   "placeName": "Gerar (probably Tel Haror)"
+  },
+  "overview": {
+   "summary": "In Gerar Abraham again calls Sarah his sister and King Abimelech takes her, but God warns Abimelech in a dream, Sarah is returned with gifts, and Abraham prays for the king’s household, who are healed.",
+   "settingLine": "Gerar, between Kadesh and Shur.",
+   "placeName": "Gerar (probably Tel Haror)",
+   "history": [
+    {
+     "h": "Gerar",
+     "t": "A town in the western Negev."
+    },
+    {
+     "h": "Royal harems",
+     "t": "Kings took women into their households."
+    }
+   ],
+   "customs": [
+    {
+     "h": "The great sin",
+     "t": "Adultery, as ancient texts call it."
+    },
+    {
+     "h": "Silver for honor",
+     "t": "A payment to clear Sarah’s name."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Tel Haror",
+     "t": "A large Middle Bronze Age town in the western Negev, likely Gerar."
+    },
+    {
+     "h": "Ugaritic texts",
+     "t": "Legal texts from Ugarit in Syria call adultery ‘the great sin.’"
+    }
+   ],
+   "discussion": "Abraham feared there was “no fear of God in this place” (v.11), but he was wrong. Where have I assumed the worst about people and acted out of fear?",
+   "book": "The book of Genesis · 50 chapters (1-25 in the app so far). Beginnings: creation, the fall, the flood and the nations, then God’s promise to Abraham and his family.",
+   "author": "Moses, by tradition",
+   "genre": "Family narrative",
+   "audience": "Israel, children of Abraham",
+   "refNotes": {
+    "Genesis 12:10-20": "The first time",
+    "Genesis 26:6-11": "Like father, like son",
+    "Psalm 105:12-15": "God protects them"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Abraham",
+     "d": "Calls Sarah his sister again"
+    },
+    {
+     "n": "Abimelech",
+     "d": "King of Gerar, warned in a dream"
+    },
+    {
+     "n": "Sarah",
+     "d": "Returned unharmed"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-7",
+     "label": "The dream"
+    },
+    {
+     "when": "v.8-13",
+     "label": "Abimelech confronts Abraham"
+    },
+    {
+     "when": "v.14-18",
+     "label": "Gifts and healing"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Gerar (probably Tel Haror)",
+    "lat": 31.381,
+    "lng": 34.607,
+    "verses": [
+     1,
+     2
+    ],
+    "slug": "gerar"
+   },
+   {
+    "name": "Kadesh (location debated)",
+    "lat": 30.687,
+    "lng": 34.494,
+    "verses": [
+     1
+    ],
+    "slug": "kadesh"
+   },
+   {
+    "name": "The Negev, the dry south country",
+    "lat": 31.0,
+    "lng": 34.8,
+    "verses": [
+     1
+    ],
+    "slug": "negev"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Now Abraham journeyed from there to the region of the Negev and settled between Kadesh and Shur. While he was staying in Gerar, Abraham said of his wife Sarah, She is my sister. So Abimelech king of Gerar had Sarah brought to him. One night, however, God came to Abimelech in a dream and told him, You are as good as dead because of the woman you have taken, for she is a married woman. Then God said to Abimelech in the dream, Yes, I know that you did this with a clear conscience, and so I have kept you from sinning against Me. That is why I did not let you touch her. Now return the man's wife, for he is a prophet; he will pray for you and you will live. But if you do not restore her, be aware that you will surely die—you and all who belong to you. Abraham replied, I thought to myself, 'Surely there is no fear of God in this place. They will kill me on account of my wife.' Besides, she really is my sister, the daughter of my father—though not the daughter of my mother—and she became my wife. Then Abraham prayed to God, and God healed Abimelech and his wife and his maidservants, so that they could again bear children—",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wenceslas_Hollar_-_Abimelech_rebuking_Abraham_(State_2).jpg",
+   "caption": "Abimelech Rebuking Abraham, an etching by Wenceslaus Hollar (17th century). The king of Gerar confronts Abraham: “How have I sinned against you, that you have brought such tremendous guilt upon me and my kingdom?” (Genesis 20:9).",
+   "credit": "Wenceslaus Hollar (1607-1677), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Israel-2013-Ein_Avdat_02.jpg",
+   "caption": "The canyon of Ein Avdat in the Negev. “Now Abraham journeyed from there to the region of the Negev and settled between Kadesh and Shur” (Genesis 20:1). Gerar lay in the western Negev toward Gaza.",
+   "credit": "Godot13 / Wikimedia Commons"
+  }
+ }
+}

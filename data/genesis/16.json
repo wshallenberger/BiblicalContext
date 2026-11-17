@@ -1,0 +1,261 @@
+{
+ "book": "Genesis",
+ "chapter": 16,
+ "title": "Hagar and Ishmael",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Now Abram's wife Sarai had borne him no children, but she had an Egyptian maidservant named Hagar."
+  },
+  {
+   "num": 2,
+   "text": "So Sarai said to Abram, \"Look now, the LORD has prevented me from bearing children. Please go to my maidservant; perhaps I can build a family by her.\" And Abram listened to the voice of Sarai."
+  },
+  {
+   "num": 3,
+   "text": "So after he had lived in Canaan for ten years, his wife Sarai took her Egyptian maidservant Hagar and gave her to Abram to be his wife."
+  },
+  {
+   "num": 4,
+   "text": "And he slept with Hagar, and she conceived. But when Hagar realized that she was pregnant, she began to despise her mistress."
+  },
+  {
+   "num": 5,
+   "text": "Then Sarai said to Abram, \"May the wrong done to me be upon you! I delivered my servant into your arms, and ever since she saw that she was pregnant, she has treated me with contempt. May the LORD judge between you and me.\""
+  },
+  {
+   "num": 6,
+   "text": "\"Here,\" said Abram, \"your servant is in your hands. Do whatever you want with her.\" Then Sarai treated Hagar so harshly that she fled from her."
+  },
+  {
+   "num": 7,
+   "text": "Now the angel of the LORD found Hagar by a spring of water in the desert—the spring along the road to Shur."
+  },
+  {
+   "num": 8,
+   "text": "\"Hagar, servant of Sarai,\" he said, \"where have you come from, and where are you going?\" \"I am running away from my mistress Sarai,\" she replied."
+  },
+  {
+   "num": 9,
+   "text": "So the angel of the LORD told her, \"Return to your mistress and submit to her authority.\""
+  },
+  {
+   "num": 10,
+   "text": "Then the angel added, \"I will greatly multiply your offspring so that they will be too numerous to count.\""
+  },
+  {
+   "num": 11,
+   "text": "The angel of the LORD proceeded: \"Behold, you have conceived and will bear a son. And you shall name him Ishmael, for the LORD has heard your cry of affliction."
+  },
+  {
+   "num": 12,
+   "text": "He will be a wild donkey of a man, and his hand will be against everyone, and everyone's hand against him; he will live in hostility toward all his brothers.\""
+  },
+  {
+   "num": 13,
+   "text": "So Hagar gave this name to the LORD who had spoken to her: \"You are the God who sees me,\" for she said, \"Here I have seen the One who sees me!\""
+  },
+  {
+   "num": 14,
+   "text": "Therefore the well was called Beer-lahai-roi. It is located between Kadesh and Bered."
+  },
+  {
+   "num": 15,
+   "text": "And Hagar bore Abram a son, and Abram gave the name Ishmael to the son she had borne."
+  },
+  {
+   "num": 16,
+   "text": "Abram was eighty-six years old when Hagar bore Ishmael to him."
+  }
+ ],
+ "context": {
+  "author": "Genesis names no author. Jewish and Christian tradition, and the New Testament’s way of speaking of “the Law of Moses” (Luke 24:44), credit the five books of the Law to Moses. Many scholars think Genesis was gathered and shaped from older sources over a long time, and a few remarks look back from a later day: “at that time the Canaanites were in the land” (Genesis 12:6).",
+  "genre": "Family narrative: the story of Abraham, Sarah and their family (Genesis 11:27 to 25:11)",
+  "audience": "Israel, the children of Abraham, learning how God’s promise began",
+  "mapLabel": "CANAAN, THE LAND OF PROMISE",
+  "setting": "Ten years after coming to Canaan, Sarai is still childless. She says, “Look now, the LORD has prevented me from bearing children. Please go to my maidservant; perhaps I can build a family by her,” and gives her Egyptian maidservant Hagar to Abram (vv.1-3). Hagar conceives and begins to despise her mistress; Sarai blames Abram, who tells her, “Your servant is in your hands,” and Sarai treats Hagar so harshly that she runs away (vv.4-6). “The angel of the LORD found Hagar by a spring of water in the desert” on the road to Shur (v.7) and asks, “Where have you come from, and where are you going?” (v.8). He tells her to go back, promises her countless offspring, and says she will bear a son named Ishmael, “for the LORD has heard your cry of affliction” (vv.9-11). Hagar names the LORD who spoke to her: “You are the God who sees me” (v.13), and the well is called Beer-lahai-roi (v.14). Abram is eighty-six when Ishmael is born (v.16).",
+  "custom": "Marriage contracts from Nuzi and from Old Assyrian merchants (19th century BC) say that if a wife bore no children, she could give her husband a slave woman, and the children would count as the wife’s. The law of Hammurabi says such a slave who claims equality with her mistress may be marked and put back among the slaves. So Sarai’s plan was normal in her world; Genesis shows the pain it caused. Shur, ‘the wall,’ was the desert on the road from Canaan to Egypt: Hagar was going home.",
+  "timelineImmediate": "Chapter 17 tells how God renewed His covenant, changed Abram’s and Sarai’s names to Abraham and Sarah, and gave circumcision as its sign.",
+  "timelineBible": "Hagar is the only person in the Bible who gives God a name. Paul reads Hagar and Sarah as two covenants, one of slavery and one of freedom (Galatians 4:21-31). The angel’s question, “Where have you come from, and where are you going?” (v.8), is asked of the runaway slave by name; she is seen by God when no one else sees her. The angel of the LORD speaks as the LORD Himself (v.13), and many Christians read these appearances as the Son of God before His birth.",
+  "translation": [
+   {
+    "english": "maidservant",
+    "greek": "שִׁפְחָה (shiphchah)",
+    "verseRef": "v.1",
+    "meaning": "A female servant or slave, a maid belonging to the mistress of the house.",
+    "gloss": "Maidservant",
+    "strongs": "H8198",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "has heard",
+    "greek": "שָׁמַע (shama)",
+    "verseRef": "v.11",
+    "meaning": "To hear, listen. Ishmael means ‘God hears.’",
+    "gloss": "To hear",
+    "strongs": "H8085",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "sees",
+    "greek": "רֳאִי (ro’i)",
+    "verseRef": "v.13",
+    "meaning": "Seeing, sight. El Roi, ‘the God who sees me’: the name Hagar gives the LORD.",
+    "gloss": "Seeing",
+    "strongs": "H7210",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Galatians 4:21-31",
+    "note": "Two women, two covenants."
+   },
+   {
+    "ref": "Luke 1:48",
+    "note": "He has looked on the humble state of His servant."
+   },
+   {
+    "ref": "Hebrews 4:13",
+    "note": "Nothing in all creation is hidden from God’s sight."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 139:1-3",
+    "note": "O LORD, You have searched me and known me."
+   },
+   {
+    "ref": "Genesis 21:17",
+    "note": "God has heard the voice of the boy."
+   },
+   {
+    "ref": "Exodus 3:7",
+    "note": "I have seen the affliction of My people."
+   }
+  ],
+  "mapCoords": {
+   "lat": 30.85,
+   "lng": 34.55,
+   "zoom": 6,
+   "placeName": "Beer-lahai-roi, between Kadesh and Bered (location unknown)"
+  },
+  "overview": {
+   "summary": "Childless Sarai gives her Egyptian servant Hagar to Abram; Hagar conceives, the women turn against each other, and Hagar flees, but the angel of the LORD meets her in the desert, sends her back with a promise, and she calls Him “the God who sees me.”",
+   "settingLine": "Abram’s tents, and a spring on the road to Egypt.",
+   "placeName": "Beer-lahai-roi, between Kadesh and Bered (location unknown)",
+   "history": [
+    {
+     "h": "Surrogate wives",
+     "t": "Ancient contracts allowed a slave to bear a child for the wife."
+    },
+    {
+     "h": "Shur",
+     "t": "The desert road toward Egypt."
+    }
+   ],
+   "customs": [
+    {
+     "h": "A son through a servant",
+     "t": "The child counted as the wife’s."
+    },
+    {
+     "h": "Naming God",
+     "t": "Hagar names the One who saw her."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Code of Hammurabi",
+     "t": "Laws 144-147 (about 1750 BC) deal with a wife who gives her husband a slave woman."
+    },
+    {
+     "h": "Old Assyrian contracts",
+     "t": "Marriage contracts from Kanesh in Turkey (19th century BC) allow a slave woman to bear children if the wife has none."
+    }
+   ],
+   "discussion": "Hagar, a runaway slave, said, “You are the God who sees me” (v.13). Who around me feels unseen, and how might I help them be seen?",
+   "book": "The book of Genesis · 50 chapters (1-25 in the app so far). Beginnings: creation, the fall, the flood and the nations, then God’s promise to Abraham and his family.",
+   "author": "Moses, by tradition",
+   "genre": "Family narrative",
+   "audience": "Israel, children of Abraham",
+   "refNotes": {
+    "Psalm 139:1-3": "Searched and known",
+    "Genesis 21:17": "God hears again",
+    "Exodus 3:7": "God sees affliction"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Sarai",
+     "d": "Gives Hagar to Abram"
+    },
+    {
+     "n": "Hagar",
+     "d": "Egyptian servant, mother of Ishmael"
+    },
+    {
+     "n": "The angel of the LORD",
+     "d": "Finds Hagar in the desert"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-6",
+     "label": "Sarai’s plan"
+    },
+    {
+     "when": "v.7-14",
+     "label": "The God who sees"
+    },
+    {
+     "when": "v.15-16",
+     "label": "Ishmael is born"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Mamre near Hebron (traditional site)",
+    "lat": 31.5598,
+    "lng": 35.1032,
+    "verses": [
+     3
+    ],
+    "slug": "mamre"
+   },
+   {
+    "name": "Beer-lahai-roi, between Kadesh and Bered (location unknown)",
+    "lat": 30.85,
+    "lng": 34.55,
+    "verses": [
+     7,
+     14
+    ],
+    "slug": "beer-lahai-roi"
+   },
+   {
+    "name": "Kadesh (location debated)",
+    "lat": 30.687,
+    "lng": 34.494,
+    "verses": [
+     14
+    ],
+    "slug": "kadesh"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Now Abram's wife Sarai had borne him no children, but she had an Egyptian maidservant named Hagar. So Sarai said to Abram, Look now, the LORD has prevented me from bearing children. Please go to my maidservant; perhaps I can build a family by her. And Abram listened to the voice of Sarai. And he slept with Hagar, and she conceived. But when Hagar realized that she was pregnant, she began to despise her mistress. Here, said Abram, your servant is in your hands. Do whatever you want with her. Then Sarai treated Hagar so harshly that she fled from her. Now the angel of the LORD found Hagar by a spring of water in the desert—the spring along the road to Shur. The angel of the LORD proceeded: Behold, you have conceived and will bear a son. And you shall name him Ishmael, for the LORD has heard your cry of affliction. So Hagar gave this name to the LORD who had spoken to her: You are the God who sees me, for she said, Here I have seen the One who sees me! And Hagar bore Abram a son, and Abram gave the name Ishmael to the son she had borne.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tissot_Hagar_and_the_Angel_in_the_Desert.jpg",
+   "caption": "Hagar and the Angel in the Desert, by James Tissot (about 1896-1902, Jewish Museum, New York). “The angel of the LORD found Hagar by a spring of water in the desert” (Genesis 16:7).",
+   "credit": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Israel-2013-Ein_Avdat_02.jpg",
+   "caption": "The canyon of Ein Avdat in the Negev, the dry south country where Abraham’s family moved between wells and springs, and where Hagar met the angel by “the spring along the road to Shur” (Genesis 16:7).",
+   "credit": "Godot13 / Wikimedia Commons"
+  }
+ }
+}

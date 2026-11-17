@@ -1,0 +1,272 @@
+{
+ "book": "Genesis",
+ "chapter": 7,
+ "title": "The Flood",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Then the LORD said to Noah, \"Go into the ark, you and all your family, because I have found you righteous in this generation."
+  },
+  {
+   "num": 2,
+   "text": "You are to take with you seven pairs of every kind of clean animal, a male and its mate; a pair of every kind of unclean animal, a male and its mate;"
+  },
+  {
+   "num": 3,
+   "text": "and seven pairs of every kind of bird of the air, male and female, to preserve their offspring on the face of all the earth."
+  },
+  {
+   "num": 4,
+   "text": "For seven days from now I will send rain on the earth for forty days and forty nights, and I will wipe from the face of the earth every living thing I have made.\""
+  },
+  {
+   "num": 5,
+   "text": "And Noah did all that the LORD had commanded him."
+  },
+  {
+   "num": 6,
+   "text": "Now Noah was 600 years old when the floodwaters came upon the earth."
+  },
+  {
+   "num": 7,
+   "text": "And Noah and his wife, with his sons and their wives, entered the ark to escape the waters of the flood."
+  },
+  {
+   "num": 8,
+   "text": "The clean and unclean animals, the birds, and everything that crawls along the ground"
+  },
+  {
+   "num": 9,
+   "text": "came to Noah to enter the ark, two by two, male and female, as God had commanded Noah."
+  },
+  {
+   "num": 10,
+   "text": "And after seven days the floodwaters came upon the earth."
+  },
+  {
+   "num": 11,
+   "text": "In the six hundredth year of Noah's life, on the seventeenth day of the second month, all the fountains of the great deep burst forth, and the floodgates of the heavens were opened."
+  },
+  {
+   "num": 12,
+   "text": "And the rain fell upon the earth for forty days and forty nights."
+  },
+  {
+   "num": 13,
+   "text": "On that very day Noah entered the ark, along with his sons Shem, Ham, and Japheth, and his wife, and the three wives of his sons—"
+  },
+  {
+   "num": 14,
+   "text": "they and every kind of wild animal, livestock, crawling creature, bird, and winged creature."
+  },
+  {
+   "num": 15,
+   "text": "They came to Noah to enter the ark, two by two of every creature with the breath of life."
+  },
+  {
+   "num": 16,
+   "text": "And they entered, the male and female of every living thing, as God had commanded Noah. Then the LORD shut him in."
+  },
+  {
+   "num": 17,
+   "text": "For forty days the flood kept coming on the earth, and the waters rose and lifted the ark high above the earth."
+  },
+  {
+   "num": 18,
+   "text": "So the waters continued to surge and rise greatly on the earth, and the ark floated on the surface of the waters."
+  },
+  {
+   "num": 19,
+   "text": "Finally, the waters completely inundated the earth, so that all the high mountains under all the heavens were covered."
+  },
+  {
+   "num": 20,
+   "text": "The waters rose and covered the mountaintops to a depth of fifteen cubits."
+  },
+  {
+   "num": 21,
+   "text": "And every living thing that moved upon the earth perished—birds, livestock, animals, every creature that swarms upon the earth, and all mankind."
+  },
+  {
+   "num": 22,
+   "text": "Of all that was on dry land, everything that had the breath of life in its nostrils died."
+  },
+  {
+   "num": 23,
+   "text": "And every living thing on the face of the earth was destroyed—man and livestock, crawling creatures and birds of the air; they were blotted out from the earth, and only Noah and those with him in the ark remained."
+  },
+  {
+   "num": 24,
+   "text": "And the waters prevailed upon the earth for 150 days."
+  }
+ ],
+ "context": {
+  "author": "Genesis names no author. Jewish and Christian tradition, and the New Testament’s way of speaking of “the Law of Moses” (Luke 24:44), credit the five books of the Law to Moses. Many scholars think Genesis was gathered and shaped from older sources over a long time, and a few remarks look back from a later day: “at that time the Canaanites were in the land” (Genesis 12:6).",
+  "genre": "Narrative of beginnings (Genesis 1-11): creation, the first family, the flood and the nations, with genealogies",
+  "audience": "Israel, God’s covenant people, learning who their God is, where the world came from and what went wrong with it",
+  "mapLabel": "MESOPOTAMIA, THE LAND OF THE FLOOD STORIES",
+  "setting": "“Go into the ark, you and all your family, because I have found you righteous in this generation” (v.1). Noah takes seven pairs of every clean animal and one pair of every unclean animal (vv.2-3), for in seven days God will send rain for forty days and forty nights (v.4). Noah is 600 years old (v.6). On the seventeenth day of the second month “all the fountains of the great deep burst forth, and the floodgates of the heavens were opened” (v.11). Noah, his wife, his three sons and their wives go in with the animals, “Then the LORD shut him in” (v.16). The waters rise until even the high mountains are covered by fifteen cubits (vv.19-20), and every living thing on dry land dies (vv.21-23). “Only Noah and those with him in the ark remained” (v.23). The waters prevail for 150 days (v.24).",
+  "custom": "The picture behind “the fountains of the great deep” and “the floodgates of the heavens” is the world of Genesis 1: waters above the expanse and waters below, held apart by God (1:6-9). In the flood those boundaries break and the world returns toward the watery deep of 1:2. Clean animals (v.2) were those fit for sacrifice and food; Noah needs more of them because he will offer some (8:20).",
+  "timelineImmediate": "Chapter 8 tells how God remembered Noah, the waters went down, the ark rested on the mountains of Ararat, and Noah built an altar.",
+  "timelineBible": "The New Testament treats the flood as a picture of judgment and rescue. Jesus said that people were eating and drinking “up to the day Noah entered the ark. Then the flood came and destroyed them all” (Luke 17:27). Peter says eight souls “were saved through water” (1 Peter 3:20), and “this water symbolizes the baptism that now saves you also” (1 Peter 3:20-21).",
+  "translation": [
+   {
+    "english": "flood",
+    "greek": "מַבּוּל (mabbul)",
+    "verseRef": "v.6",
+    "meaning": "The flood. The word is used only of Noah’s flood, and once more: “The LORD sits enthroned over the flood” (Psalm 29:10).",
+    "gloss": "Flood",
+    "strongs": "H3999",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "deep",
+    "greek": "תְּהוֹם (tehom)",
+    "verseRef": "v.11",
+    "meaning": "The deep, the abyss: the waters of 1:2. Related to the name of Tiamat, the sea monster of the Babylonian creation story, though here it is no god, only water.",
+    "gloss": "The deep",
+    "strongs": "H8415",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "shut",
+    "greek": "סָגַר (sagar)",
+    "verseRef": "v.16",
+    "meaning": "To shut, close. God Himself closes the door of the ark behind Noah.",
+    "gloss": "To shut",
+    "strongs": "H5462",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 17:26-27",
+    "note": "People were eating and drinking until the flood came."
+   },
+   {
+    "ref": "1 Peter 3:20-21",
+    "note": "Eight souls saved through water; a picture of baptism."
+   },
+   {
+    "ref": "2 Peter 3:5-7",
+    "note": "The world of that time perished in the flood."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Psalm 29:10",
+    "note": "The LORD sits enthroned over the flood."
+   },
+   {
+    "ref": "Psalm 104:6-9",
+    "note": "You set a boundary the waters cannot cross."
+   },
+   {
+    "ref": "Job 38:8-11",
+    "note": "Who enclosed the sea behind doors?"
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.536,
+   "lng": 44.421,
+   "zoom": 6,
+   "placeName": "Babel in the land of Shinar (Babylon)"
+  },
+  "overview": {
+   "summary": "Noah, his family and the animals enter the ark, the LORD shuts them in, the waters of the deep and the heavens break out and cover the earth, and every living thing outside the ark perishes.",
+   "settingLine": "The waters cover the earth.",
+   "placeName": "Babel in the land of Shinar (Babylon)",
+   "history": [
+    {
+     "h": "Mesopotamian floods",
+     "t": "River floods were a constant danger in Mesopotamia."
+    },
+    {
+     "h": "Utnapishtim",
+     "t": "The Babylonian flood hero of the Gilgamesh epic."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Clean animals",
+     "t": "Fit for sacrifice and food."
+    },
+    {
+     "h": "Forty days",
+     "t": "A set time of testing in the Bible."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Flood layers",
+     "t": "Leonard Woolley found thick flood deposits at Ur in 1929; they are from a local flood, not dated to one event across the region."
+    },
+    {
+     "h": "The Gilgamesh Flood Tablet",
+     "t": "Tablet 11 of the epic, from the library of Ashurbanipal at Nineveh (7th century BC)."
+    }
+   ],
+   "discussion": "“The LORD shut him in” (v.16). Where do I need to trust that God has closed the door behind me, and that I am safe inside?",
+   "book": "The book of Genesis · 50 chapters (1-25 in the app so far). Beginnings: creation, the fall, the flood and the nations, then God’s promise to Abraham and his family.",
+   "author": "Moses, by tradition",
+   "genre": "Narrative of beginnings",
+   "audience": "Israel, and every reader",
+   "refNotes": {
+    "Psalm 29:10": "King over the flood",
+    "Psalm 104:6-9": "Boundaries for the waters",
+    "Job 38:8-11": "Doors for the sea"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Noah",
+     "d": "Six hundred years old"
+    },
+    {
+     "n": "Noah’s family",
+     "d": "Eight people in the ark"
+    },
+    {
+     "n": "The animals",
+     "d": "Two by two, and seven pairs of the clean"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-10",
+     "label": "Into the ark"
+    },
+    {
+     "when": "v.11-16",
+     "label": "The flood begins"
+    },
+    {
+     "when": "v.17-24",
+     "label": "The waters prevail"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Babel in the land of Shinar (Babylon)",
+    "lat": 32.536,
+    "lng": 44.421,
+    "verses": [],
+    "slug": "babel"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "Then the LORD said to Noah, Go into the ark, you and all your family, because I have found you righteous in this generation. And Noah did all that the LORD had commanded him. In the six hundredth year of Noah's life, on the seventeenth day of the second month, all the fountains of the great deep burst forth, and the floodgates of the heavens were opened. And the rain fell upon the earth for forty days and forty nights. And they entered, the male and female of every living thing, as God had commanded Noah. Then the LORD shut him in. Finally, the waters completely inundated the earth, so that all the high mountains under all the heavens were covered. And every living thing on the face of the earth was destroyed—man and livestock, crawling creatures and birds of the air; they were blotted out from the earth, and only Noah and those with him in the ark remained. And the waters prevailed upon the earth for 150 days.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Dor%C3%A9_-_The_Holy_Bible_-_Plate_I,_The_Deluge.jpg",
+   "caption": "The Deluge, the frontispiece of Gustave Doré’s illustrated Bible (1866). People and a tiger cling to the last rocks as the waters rise: “every living thing that moved upon the earth perished” (Genesis 7:21).",
+   "credit": "Gustave Doré (1866), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Euphrates_River_by_Dura-Europus,_Syria._(V)_(5532991132).jpg",
+   "caption": "The Euphrates River in Syria. In Mesopotamia, the land between the Tigris and Euphrates, river floods could cover the whole flat plain, and the region’s own stories of a great flood are the background against which Genesis 6-9 was first heard.",
+   "credit": "Photo: Erik Hermans / ISAW, CC BY 2.0 / Wikimedia Commons"
+  }
+ }
+}

@@ -16526,5 +16526,670 @@
    "ps_shofar",
    "ps_cedars"
   ]
+ },
+ {
+  "i": 669,
+  "t": "In the beginning: the seven days of creation",
+  "p": "The heavens and the earth",
+  "la": 31.0,
+  "ln": 47.4,
+  "r": [
+   [
+    "genesis",
+    1,
+    1,
+    2,
+    3
+   ]
+  ],
+  "rs": "Gen1:1-2:3",
+  "s": "\"In the beginning God created the heavens and the earth.\" God speaks light, sky, land, lights, creatures and mankind into being, makes mankind in His image, and rests on the seventh day.",
+  "n": "Genesis gives no place for creation. Eden is said to lie “in the east,” where four rivers part, two of them the Tigris and the Euphrates (2:8-14); the pin stands near where those rivers meet in southern Iraq, one old guess among many.",
+  "im": [
+   "gn_light",
+   "gn_deepfield"
+  ]
+ },
+ {
+  "i": 670,
+  "t": "The garden of Eden",
+  "p": "Eden, “in the east”",
+  "la": 31.0,
+  "ln": 47.4,
+  "r": [
+   [
+    "genesis",
+    2,
+    4,
+    2,
+    25
+   ]
+  ],
+  "rs": "Gen2:4-25",
+  "s": "\"Then the LORD God formed man from the dust of the ground and breathed the breath of life into his nostrils, and the man became a living being.\" God plants a garden in Eden and makes the woman from the man’s side.",
+  "n": "Genesis gives no place for creation. Eden is said to lie “in the east,” where four rivers part, two of them the Tigris and the Euphrates (2:8-14); the pin stands near where those rivers meet in southern Iraq, one old guess among many.",
+  "im": [
+   "gn_adam",
+   "gn_euphrates"
+  ]
+ },
+ {
+  "i": 671,
+  "t": "The fall",
+  "p": "The garden of Eden",
+  "la": 31.0,
+  "ln": 47.4,
+  "r": [
+   [
+    "genesis",
+    3,
+    1,
+    3,
+    24
+   ]
+  ],
+  "rs": "Gen3:1-24",
+  "s": "The serpent deceives the woman; the man and woman eat and hide. God promises that the woman’s offspring will crush the serpent’s head, and sends them out of the garden.",
+  "n": "Genesis gives no place for creation. Eden is said to lie “in the east,” where four rivers part, two of them the Tigris and the Euphrates (2:8-14); the pin stands near where those rivers meet in southern Iraq, one old guess among many.",
+  "im": [
+   "gn_fall",
+   "gn_durer"
+  ]
+ },
+ {
+  "i": 672,
+  "t": "Cain and Abel",
+  "p": "The land of Nod, east of Eden",
+  "la": 32.6,
+  "ln": 48.6,
+  "r": [
+   [
+    "genesis",
+    4,
+    1,
+    4,
+    26
+   ]
+  ],
+  "rs": "Gen4:1-26",
+  "s": "Cain kills his brother Abel. \"Am I my brother’s keeper?\" Cain settles in the land of Nod, east of Eden.",
+  "n": "Nod means ‘wandering’ and its place is unknown; the pin is a guess east of the Eden pin.",
+  "im": [
+   "gn_cain",
+   "gn_judea"
+  ]
+ },
+ {
+  "i": 673,
+  "t": "From Adam to Noah; Enoch walks with God",
+  "p": "Before the flood",
+  "la": 31.0,
+  "ln": 47.4,
+  "r": [
+   [
+    "genesis",
+    5,
+    1,
+    5,
+    32
+   ]
+  ],
+  "rs": "Gen5:1-32",
+  "s": "Ten generations, each ending \"and then he died,\" except Enoch: \"Enoch walked with God, and then he was no more, because God had taken him away.\"",
+  "n": "The genealogy names no places. The pin stays with Eden.",
+  "im": [
+   "gn_enoch",
+   "gn_anastasis"
+  ]
+ },
+ {
+  "i": 674,
+  "t": "Noah builds the ark",
+  "p": "Mesopotamia (Shuruppak, home of the Babylonian flood hero)",
+  "la": 31.78,
+  "ln": 45.51,
+  "r": [
+   [
+    "genesis",
+    6,
+    1,
+    6,
+    22
+   ]
+  ],
+  "rs": "Gen6:1-22",
+  "s": "\"Noah, however, found favor in the eyes of the LORD.\" God tells Noah to build an ark of gopher wood, 300 cubits long. \"So Noah did everything precisely as God had commanded him.\"",
+  "n": "Genesis does not say where Noah lived. The pin is at Fara (ancient Shuruppak) in southern Iraq, the city of the flood hero in the Babylonian stories, a judgment call.",
+  "im": [
+   "gn_hicks",
+   "gn_floodtablet"
+  ]
+ },
+ {
+  "i": 675,
+  "t": "The flood",
+  "p": "Mesopotamia",
+  "la": 31.78,
+  "ln": 45.51,
+  "r": [
+   [
+    "genesis",
+    7,
+    1,
+    7,
+    24
+   ]
+  ],
+  "rs": "Gen7:1-24",
+  "s": "\"All the fountains of the great deep burst forth, and the floodgates of the heavens were opened.\" Noah’s family and the animals go in, and the LORD shuts him in.",
+  "n": "The pin stays at Shuruppak, where the Babylonian flood stories are set. Genesis gives no place before the ark lands.",
+  "im": [
+   "gn_deluge",
+   "gn_floodtablet"
+  ]
+ },
+ {
+  "i": 676,
+  "t": "The ark rests on the mountains of Ararat",
+  "p": "The mountains of Ararat (Urartu)",
+  "la": 39.7,
+  "ln": 44.3,
+  "r": [
+   [
+    "genesis",
+    8,
+    1,
+    8,
+    22
+   ]
+  ],
+  "rs": "Gen8:1-22",
+  "s": "\"But God remembered Noah.\" The ark rests on the mountains of Ararat, the dove returns with an olive leaf, and Noah offers sacrifice.",
+  "n": "Ararat is the land of Urartu, around Lake Van in eastern Turkey and Armenia. Genesis names the mountains, not a peak; the pin stands near the volcano now called Mount Ararat.",
+  "im": [
+   "gn_koch",
+   "gn_ararat"
+  ]
+ },
+ {
+  "i": 677,
+  "t": "The rainbow covenant",
+  "p": "The mountains of Ararat",
+  "la": 39.6,
+  "ln": 44.0,
+  "r": [
+   [
+    "genesis",
+    9,
+    1,
+    9,
+    29
+   ]
+  ],
+  "rs": "Gen9:1-29",
+  "s": "\"I have set My rainbow in the clouds, and it will be a sign of the covenant between Me and the earth.\" God promises never again to destroy the earth by a flood.",
+  "n": "Genesis gives no new place for the covenant; the pin stays near Ararat.",
+  "im": [
+   "gn_koch",
+   "gn_noahvine"
+  ]
+ },
+ {
+  "i": 678,
+  "t": "The table of nations; Nimrod’s kingdom",
+  "p": "Babylon and Nineveh",
+  "la": 32.536,
+  "ln": 44.421,
+  "r": [
+   [
+    "genesis",
+    10,
+    1,
+    10,
+    32
+   ]
+  ],
+  "rs": "Gen10:1-32",
+  "s": "The descendants of Shem, Ham and Japheth spread into the nations. Nimrod’s kingdom begins in Babylon, and he builds Nineveh.",
+  "n": "The pin is at Babylon, the first city of Nimrod’s kingdom (10:10). The peoples of the list stretch from the Greek islands to Arabia and Egypt.",
+  "im": [
+   "gn_nimrod",
+   "gn_babylon"
+  ]
+ },
+ {
+  "i": 679,
+  "t": "The tower of Babel",
+  "p": "Babel in the land of Shinar",
+  "la": 32.538,
+  "ln": 44.42,
+  "r": [
+   [
+    "genesis",
+    11,
+    1,
+    11,
+    9
+   ]
+  ],
+  "rs": "Gen11:1-9",
+  "s": "\"Let us build for ourselves a city with a tower that reaches to the heavens.\" The LORD confuses their language and scatters them.",
+  "n": "Babel is Babylon. Its great ziggurat, Etemenanki, was rebuilt many times; only its foundations remain.",
+  "im": [
+   "gn_babel",
+   "gn_ziggurat"
+  ]
+ },
+ {
+  "i": 680,
+  "t": "Terah leaves Ur for Haran",
+  "p": "Ur of the Chaldeans",
+  "la": 30.9626,
+  "ln": 46.1031,
+  "r": [
+   [
+    "genesis",
+    11,
+    27,
+    11,
+    32
+   ]
+  ],
+  "rs": "Gen11:27-32",
+  "s": "\"But Sarai was barren; she had no children.\" Terah sets out from Ur of the Chaldeans with Abram, Sarai and Lot, but they settle in Haran.",
+  "n": "Ur is usually identified with Tell el-Muqayyar in southern Iraq. Some scholars look for a northern Ur nearer Haran.",
+  "im": [
+   "gn_ziggurat",
+   "gn_harran"
+  ]
+ },
+ {
+  "i": 681,
+  "t": "The call of Abram",
+  "p": "Shechem, the Oak of Moreh",
+  "la": 32.213,
+  "ln": 35.282,
+  "r": [
+   [
+    "genesis",
+    12,
+    1,
+    12,
+    9
+   ]
+  ],
+  "rs": "Gen12:1-9",
+  "s": "\"Leave your country, your kindred, and your father’s household, and go to the land I will show you.\" Abram goes from Haran to Shechem, where the LORD appears to him, and builds altars there and near Bethel.",
+  "n": "Abram left Haran at seventy-five (12:4). Shechem is Tell Balata, beside Nablus.",
+  "im": [
+   "gn_molnar",
+   "gn_shechem"
+  ]
+ },
+ {
+  "i": 682,
+  "t": "Abram in Egypt",
+  "p": "Egypt",
+  "la": 29.85,
+  "ln": 31.25,
+  "r": [
+   [
+    "genesis",
+    12,
+    10,
+    12,
+    20
+   ]
+  ],
+  "rs": "Gen12:10-20",
+  "s": "In a famine Abram goes down to Egypt and says Sarai is his sister. The LORD strikes Pharaoh’s household with plagues.",
+  "n": "Genesis does not name the Pharaoh or the city. The pin is near Memphis, the old capital at the head of the Nile delta.",
+  "im": [
+   "gn_molnar"
+  ]
+ },
+ {
+  "i": 683,
+  "t": "Abram and Lot part ways",
+  "p": "Bethel",
+  "la": 31.927,
+  "ln": 35.239,
+  "r": [
+   [
+    "genesis",
+    13,
+    1,
+    13,
+    18
+   ]
+  ],
+  "rs": "Gen13:1-18",
+  "s": "Lot chooses the well-watered plain of the Jordan and pitches his tent toward Sodom. God promises Abram all the land he can see, and Abram moves to Mamre.",
+  "n": "Bethel is probably Beitin, north of Jerusalem; from the hills nearby one can look toward the Jordan valley.",
+  "im": [
+   "gn_lotparts",
+   "gn_nebo"
+  ]
+ },
+ {
+  "i": 684,
+  "t": "Abram rescues Lot",
+  "p": "Dan",
+  "la": 33.2486,
+  "ln": 35.652,
+  "r": [
+   [
+    "genesis",
+    14,
+    1,
+    14,
+    16
+   ]
+  ],
+  "rs": "Gen14:1-16",
+  "s": "Four kings carry off Lot; Abram takes 318 trained men, pursues them as far as Dan, and brings Lot back.",
+  "n": "The town was called Laish until the tribe of Dan took it (Judges 18:29); Genesis uses the later name.",
+  "im": [
+   "gn_nebo"
+  ]
+ },
+ {
+  "i": 685,
+  "t": "Melchizedek blesses Abram",
+  "p": "Salem (Jerusalem)",
+  "la": 31.7735,
+  "ln": 35.2354,
+  "r": [
+   [
+    "genesis",
+    14,
+    17,
+    14,
+    24
+   ]
+  ],
+  "rs": "Gen14:17-24",
+  "s": "\"Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High.\" Abram gives him a tenth of everything.",
+  "n": "Psalm 76:2 sets Salem beside Zion, and tradition identifies it with Jerusalem.",
+  "im": [
+   "gn_melchizedek",
+   "gn_moriah"
+  ]
+ },
+ {
+  "i": 686,
+  "t": "Count the stars: the covenant between the pieces",
+  "p": "Mamre near Hebron",
+  "la": 31.5598,
+  "ln": 35.1032,
+  "r": [
+   [
+    "genesis",
+    15,
+    1,
+    15,
+    21
+   ]
+  ],
+  "rs": "Gen15:1-21",
+  "s": "\"Abram believed the LORD, and it was credited to him as righteousness.\" A smoking firepot and a flaming torch pass between the halves of the animals.",
+  "n": "Genesis gives no place for the vision; Abram was living at Mamre (13:18; 14:13).",
+  "im": [
+   "gn_pieces",
+   "gn_deepfield"
+  ]
+ },
+ {
+  "i": 687,
+  "t": "Hagar and the God who sees",
+  "p": "Beer-lahai-roi, on the road to Shur",
+  "la": 30.85,
+  "ln": 34.55,
+  "r": [
+   [
+    "genesis",
+    16,
+    1,
+    16,
+    16
+   ]
+  ],
+  "rs": "Gen16:1-16",
+  "s": "Hagar runs away from Sarai, and the angel of the LORD finds her by a spring. \"You are the God who sees me.\"",
+  "n": "Beer-lahai-roi lay “between Kadesh and Bered” (16:14), on the desert road toward Egypt; its exact place is unknown.",
+  "im": [
+   "gn_hagarangel",
+   "gn_negev"
+  ]
+ },
+ {
+  "i": 688,
+  "t": "Abraham and Sarah: the sign of the covenant",
+  "p": "Mamre near Hebron",
+  "la": 31.5605,
+  "ln": 35.104,
+  "r": [
+   [
+    "genesis",
+    17,
+    1,
+    17,
+    27
+   ]
+  ],
+  "rs": "Gen17:1-27",
+  "s": "\"No longer will you be called Abram, but your name will be Abraham, for I have made you a father of many nations.\" Circumcision is given as the sign.",
+  "n": "Genesis gives no place; the pin is at Mamre, where Abraham lived.",
+  "im": [
+   "gn_promises",
+   "gn_mamre"
+  ]
+ },
+ {
+  "i": 689,
+  "t": "Three visitors at Mamre",
+  "p": "The Oaks of Mamre",
+  "la": 31.5592,
+  "ln": 35.1025,
+  "r": [
+   [
+    "genesis",
+    18,
+    1,
+    18,
+    33
+   ]
+  ],
+  "rs": "Gen18:1-33",
+  "s": "\"Is anything too difficult for the LORD?\" Sarah laughs at the promise of a son, and Abraham pleads for Sodom.",
+  "n": "The traditional site, Ramat el-Khalil north of Hebron, has a Herodian enclosure and the remains of Constantine’s church.",
+  "im": [
+   "gn_threeangels",
+   "gn_mamre"
+  ]
+ },
+ {
+  "i": 690,
+  "t": "Sodom and Gomorrah destroyed",
+  "p": "The cities of the plain (site debated)",
+  "la": 31.255,
+  "ln": 35.535,
+  "r": [
+   [
+    "genesis",
+    19,
+    1,
+    19,
+    38
+   ]
+  ],
+  "rs": "Gen19:1-38",
+  "s": "\"Then the LORD rained down sulfur and fire on Sodom and Gomorrah.\" Lot is led out by the hand, and his wife looks back.",
+  "n": "The site is debated. The pin is at Bab edh-Dhra by the south end of the Dead Sea; Tall el-Hammam north of the Dead Sea is another proposal.",
+  "im": [
+   "gn_sodom",
+   "gn_sodomsite"
+  ]
+ },
+ {
+  "i": 691,
+  "t": "Abraham and Abimelech at Gerar",
+  "p": "Gerar",
+  "la": 31.381,
+  "ln": 34.607,
+  "r": [
+   [
+    "genesis",
+    20,
+    1,
+    20,
+    18
+   ]
+  ],
+  "rs": "Gen20:1-18",
+  "s": "Abraham again says of Sarah, \"She is my sister.\" God warns King Abimelech in a dream, and Abraham prays for him.",
+  "n": "Gerar is probably Tel Haror in the western Negev.",
+  "im": [
+   "gn_abimelech",
+   "gn_negev"
+  ]
+ },
+ {
+  "i": 692,
+  "t": "Isaac is born; Hagar in the wilderness of Beersheba",
+  "p": "Beersheba",
+  "la": 31.2449,
+  "ln": 34.8405,
+  "r": [
+   [
+    "genesis",
+    21,
+    1,
+    21,
+    34
+   ]
+  ],
+  "rs": "Gen21:1-34",
+  "s": "\"Then Sarah said, 'God has made me laugh, and everyone who hears of this will laugh with me.'\" Hagar and Ishmael are sent away and saved, and Abraham makes a treaty at Beersheba.",
+  "n": "Tel Be’er Sheva east of the modern city; the well there is from a later Israelite town.",
+  "im": [
+   "gn_hagarout",
+   "gn_beersheba"
+  ]
+ },
+ {
+  "i": 693,
+  "t": "The binding of Isaac",
+  "p": "A mountain in the land of Moriah",
+  "la": 31.7781,
+  "ln": 35.2354,
+  "r": [
+   [
+    "genesis",
+    22,
+    1,
+    22,
+    24
+   ]
+  ],
+  "rs": "Gen22:1-24",
+  "s": "\"God Himself will provide the lamb for the burnt offering, my son.\" The angel stops Abraham, and a ram is offered in Isaac’s place.",
+  "n": "Second Chronicles 3:1 puts Mount Moriah in Jerusalem, and tradition places the binding on the Temple Mount; Genesis itself names only “the land of Moriah,” three days from Beersheba.",
+  "im": [
+   "gn_isaac",
+   "gn_moriah"
+  ]
+ },
+ {
+  "i": 694,
+  "t": "Sarah is buried at Machpelah",
+  "p": "Hebron",
+  "la": 31.5246,
+  "ln": 35.1107,
+  "r": [
+   [
+    "genesis",
+    23,
+    1,
+    23,
+    20
+   ]
+  ],
+  "rs": "Gen23:1-20",
+  "s": "Abraham buys the field and cave of Machpelah from Ephron the Hittite for four hundred shekels of silver and buries Sarah there.",
+  "n": "The traditional cave lies under the Herodian building of the Cave of the Patriarchs in Hebron.",
+  "im": [
+   "gn_burial",
+   "gn_machpelah"
+  ]
+ },
+ {
+  "i": 695,
+  "t": "A wife for Isaac",
+  "p": "The town of Nahor in Aram-naharaim",
+  "la": 36.865,
+  "ln": 39.031,
+  "r": [
+   [
+    "genesis",
+    24,
+    1,
+    24,
+    67
+   ]
+  ],
+  "rs": "Gen24:1-67",
+  "s": "Abraham’s servant prays at the spring, and Rebekah waters his camels. \"I will go,\" she says.",
+  "n": "The town of Nahor is in Aram-naharaim, the land of Haran (27:43; 29:4). The pin is at Harran.",
+  "im": [
+   "gn_rebekah",
+   "gn_harran"
+  ]
+ },
+ {
+  "i": 696,
+  "t": "Abraham’s death and burial",
+  "p": "Hebron, the cave of Machpelah",
+  "la": 31.525,
+  "ln": 35.1113,
+  "r": [
+   [
+    "genesis",
+    25,
+    1,
+    25,
+    18
+   ]
+  ],
+  "rs": "Gen25:1-18",
+  "s": "\"His sons Isaac and Ishmael buried him in the cave of Machpelah near Mamre.\" Ishmael’s twelve sons become princes.",
+  "n": "Abraham lived 175 years (25:7).",
+  "im": [
+   "gn_esau",
+   "gn_machpelah2"
+  ]
+ },
+ {
+  "i": 697,
+  "t": "Jacob and Esau; the birthright",
+  "p": "Isaac’s tents near Beer-lahai-roi",
+  "la": 30.9,
+  "ln": 34.6,
+  "r": [
+   [
+    "genesis",
+    25,
+    19,
+    25,
+    34
+   ]
+  ],
+  "rs": "Gen25:19-34",
+  "s": "\"Two nations are in your womb.\" Esau sells his birthright to Jacob for bread and lentil stew.",
+  "n": "Isaac lived near Beer-lahai-roi (25:11), whose place is unknown; the pin is in the Negev.",
+  "im": [
+   "gn_esau",
+   "gn_negev"
+  ]
  }
 ]
