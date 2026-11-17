@@ -84,6 +84,7 @@
     var o = t.closest('[data-genea]'); if (o) { e.preventDefault(); Gen.open(); return; }
     if (!t.closest('#screen-genealogy')) return;
     var b;
+    if ((b = t.closest('.ge-views [data-gv]'))) { goToScreen('timeline'); try { tlSetView(b.dataset.gv); } catch (e) {} return; }
     if ((b = t.closest('#geBack'))) { goToScreen(prev && prev !== 'genealogy' ? prev : 'timeline'); return; }
     if ((b = t.closest('.ge-n'))) { showNode(b.dataset.id); return; }
     if ((b = t.closest('.ge-w'))) { var host = b.parentNode.querySelector('.ge-n'); if (host) showNode(host.dataset.id); return; }

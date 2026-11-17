@@ -4306,6 +4306,77 @@
   .dh-card span{ flex:none; font:12px/1.35 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
   .dh-card .dh-dice{ position:absolute; top:9px; right:9px; width:16px; height:16px; color:var(--gold); }
   .dh-card .dh-dice svg{ width:16px; height:16px; display:block; }
+
+  /* r147: Visualize More, Word Heatmap, Size It Up; Family Tree in the timeline views; Connections without the view buttons; map filter groups */
+  .tl-head.th #tlViews{ display:none !important; }
+  .ge-viewwrap{ display:flex; margin:2px 0 10px; }
+  .ge-viewwrap .tv-seg{ display:flex; flex:1; }
+  #geBack:empty{ display:none; }
+  .mf-sec[hidden]{ display:none !important; }
+  #mapStories{ display:block; }
+  .mf-sub{ border:1px solid var(--line); border-radius:10px; margin:0 0 6px; background:rgba(255,255,255,.3); }
+  html[data-theme="dark"] .mf-sub{ background:rgba(255,255,255,.03); }
+  .mf-sub > summary{ list-style:none; display:flex; align-items:center; gap:8px; padding:8px 10px; cursor:pointer; font:600 12px 'IBM Plex Sans',sans-serif; color:var(--parchment); }
+  .mf-sub > summary::-webkit-details-marker{ display:none; }
+  .mf-sub > summary::before{ content:'›'; color:var(--gold); font-size:15px; line-height:1; transition:transform .15s; }
+  .mf-sub[open] > summary::before{ transform:rotate(90deg); }
+  .mf-sub > summary span{ margin-left:auto; font:500 11px 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); }
+  .mf-sub .mf-stories{ padding:0 10px 10px; }
+  .vz-hform{ display:flex; gap:8px; margin:0 0 10px; }
+  .vz-hform input{ flex:1; min-width:0; padding:11px 13px; border:2px solid var(--gold); border-radius:12px; background:var(--ink-raised); color:var(--parchment); font:16px 'IBM Plex Sans',sans-serif; }
+  .vz-hform button{ padding:0 16px; border:0; border-radius:12px; background:var(--gold); color:#fff; font:700 14px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .vz-sug, .su-chips, .su-cmp{ display:flex; flex-wrap:wrap; gap:6px; margin:0 0 10px; }
+  .vz-chip{ padding:6px 11px; border:1px solid var(--line); border-radius:999px; background:var(--ink-raised); color:var(--parchment); font:600 12px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .vz-chip.sm{ padding:4px 10px; font-size:11.5px; }
+  .vz-chip.on{ background:var(--gold); border-color:var(--gold); color:#fff; }
+  .vz-ctl{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin:0 0 10px; }
+  .vz-seg button{ white-space:nowrap; padding-left:10px; padding-right:10px; }
+  .vz-tog{ padding:6px 11px; border:1px solid var(--line); border-radius:999px; background:none; color:var(--parchment-dim); font:600 12px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .vz-tog.on{ border-color:var(--gold); color:var(--gold); }
+  .vz-tog.on::before{ content:'✓ '; }
+  .vz-sum{ font:13.5px/1.5 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); margin:0 0 10px; }
+  .vz-sum b{ color:var(--parchment); }
+  .vz-note{ font:12px/1.5 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); margin:10px 2px 0; }
+  .vz-load{ font:13px 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); padding:20px 0; text-align:center; }
+  .hx-grid{ display:grid; gap:8px; }
+  .hx-row{ display:grid; gap:3px; }
+  .hx-gl{ font:600 9.5px 'IBM Plex Mono',monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--parchment-dim); }
+  .hx-cells{ display:grid; grid-template-columns:repeat(auto-fill, minmax(50px, 1fr)); gap:4px; }
+  .hx-c{ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1px; min-height:42px; padding:3px 2px; border:1px solid var(--line); border-radius:7px; background:var(--ink-raised); color:var(--parchment); font-family:'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .hx-c b{ font:600 10.5px/1.1 'IBM Plex Sans',sans-serif; white-space:nowrap; }
+  .hx-c i{ font:500 10px/1.1 'IBM Plex Mono',monospace; font-style:normal; opacity:.85; }
+  .hx-c.off{ border-style:dashed; background:none; color:var(--parchment-dim); opacity:.55; cursor:default; }
+  .hx-c.sel{ outline:2px solid var(--parchment); outline-offset:1px; }
+  .hx-det{ border:1px solid var(--gold); border-radius:12px; padding:10px 12px; margin:0 0 12px; background:var(--ink-raised); font:13px/1.45 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); }
+  .hx-det p{ margin:4px 0 8px; }
+  .hx-dh{ display:flex; align-items:center; }
+  .hx-dh b{ font:600 16px 'Literata',serif; color:var(--parchment); }
+  .hx-dx{ margin-left:auto; border:0; background:none; color:var(--parchment-dim); font-size:20px; cursor:pointer; }
+  .hx-chs{ display:flex; flex-wrap:wrap; gap:5px; }
+  .hx-chs button{ padding:4px 9px; border:1px solid var(--line); border-radius:999px; background:var(--ink); color:var(--parchment); font:600 11.5px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .hx-chs button i{ font-style:normal; color:var(--gold); margin-left:3px; }
+  .su-stage{ border:1px solid var(--line); border-radius:14px; background:var(--ink-raised); padding:6px; margin:0 0 10px; }
+  .su-svg{ display:block; width:100%; height:auto; }
+  .su-g{ stroke:var(--parchment-dim); stroke-width:1; opacity:.6; }
+  .su-a{ fill:color-mix(in srgb, var(--gold) 70%, transparent); stroke:var(--gold); stroke-width:1.2; }
+  .su-b{ fill:color-mix(in srgb, var(--parchment-dim) 22%, transparent); stroke:var(--parchment-dim); stroke-width:1.2; }
+  .su-fig{ fill:none; stroke-width:1.6; stroke-linecap:round; }
+  .su-fig circle{ fill:none; }
+  .su-a.su-fig{ stroke:var(--gold); } .su-b.su-fig{ stroke:var(--parchment-dim); }
+  .su-p{ fill:none; stroke:var(--parchment); stroke-width:1.1; stroke-linecap:round; opacity:.8; }
+  .su-la, .su-lb{ font:600 9.5px 'IBM Plex Sans',sans-serif; }
+  .su-la{ fill:var(--gold); } .su-lb{ fill:var(--parchment-dim); }
+  .su-cmp span, .su-cub span{ align-self:center; font:600 9.5px 'IBM Plex Mono',monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--parchment-dim); margin-right:2px; }
+  .su-info{ background:var(--ink-raised); border:1px solid var(--line); border-radius:14px; padding:12px 14px; margin:0 0 10px; font:13.5px/1.55 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); }
+  .su-info h3{ margin:0 0 2px; font:600 18px 'Literata',serif; color:var(--parchment); }
+  .su-dim{ margin:0 0 6px; color:var(--gold); font-weight:600; }
+  .su-x{ margin:0 0 8px; color:var(--parchment); }
+  .su-info blockquote{ margin:8px 0; padding:6px 0 6px 12px; border-left:3px solid var(--gold); font:italic 14px/1.5 'Literata',serif; color:var(--parchment); }
+  .su-info cite{ display:block; margin-top:3px; font:normal 600 11px 'IBM Plex Sans',sans-serif; color:var(--parchment-dim); }
+  .su-read{ margin-top:4px; padding:7px 12px; border:1px solid var(--gold); border-radius:999px; background:none; color:var(--gold); font:700 12.5px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .su-cub{ display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .su-cub button{ padding:5px 10px; border:1px solid var(--line); border-radius:999px; background:none; color:var(--parchment-dim); font:600 11.5px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .su-cub button.on{ border-color:var(--gold); color:var(--gold); }
 </style>
 </head>
 <body>
@@ -4506,7 +4577,7 @@
                 <p class="mf-note" id="mapStoryNote"></p>
                 <div class="mf-walk" id="mapWalkBtns"></div>
               </section>
-              <section class="mf-sec" id="mfTime">
+              <section class="mf-sec" id="mfTime" hidden>
                 <h4>Timeline <span>when it happens</span></h4>
                 <div class="mf-chips" id="mapPeriods"></div>
                 <div class="mf-range" id="mapRange">
@@ -4517,7 +4588,7 @@
                 <p class="mf-rlab" id="mapRLab"></p>
               </section>
               <section class="mf-sec" id="mfBible">
-                <h4>Bible <span>testament, book, chapter</span></h4>
+                <h4>Testament <span>Old, New or both</span></h4>
                 <div class="map-seg" id="mapTst"><button data-t="all" class="on">All</button><button data-t="NT" title="New Testament">NT</button><button data-t="OT" title="Old Testament">OT</button></div>
                 <div class="map-chips mf-books" id="mapBooks"></div>
                 <select id="mapChapter" class="map-sel" aria-label="Chapter" hidden></select>
@@ -4588,7 +4659,7 @@
           <h2 class="timeline-heading">Timeline</h2>
         </div>
         <div class="tl-views" id="tlViews" role="group" aria-label="Timeline or Year by Year view">
-          <div class="tv-seg"><button type="button" data-v="line">Timeline</button><button type="button" data-v="lanes">Year by Year</button></div>
+          <div class="tv-seg"><button type="button" data-v="line">Timeline</button><button type="button" data-v="lanes">Year by Year</button><button type="button" data-v="tree">Family Tree</button></div>
                   </div>
         <div class="tl-zoomwrap">
           <div class="tl-zoom" role="group" aria-label="Zoom">
@@ -4708,6 +4779,35 @@
       </div>
     </div>
 
+     <div class="screen" id="screen-vizmore">
+      <div class="st-wrap" id="vzMoreWrap">
+        <h2 class="st-title">More to see</h2>
+        <p class="st-hint mu-intro">Other ways to see the Bible at a glance.</p>
+        <section class="st-card more-list" id="vzMoreList"></section>
+      </div>
+    </div>
+
+    <div class="screen" id="screen-heatmap">
+      <div class="st-wrap" id="vzHeatWrap">
+        <button type="button" class="mu-back" data-screen="vizmore">‹ More</button>
+        <h2 class="st-title">Word Heatmap</h2>
+        <p class="st-hint mu-intro">Type a word to see where it lives across the Bible. Tap a book for its chapters.</p>
+        <form class="vz-hform" id="vzHform" autocomplete="off"><input type="search" id="vzHq" placeholder="A word, for example: covenant" aria-label="Word"><button type="submit">Show</button></form>
+        <div class="vz-sug" id="vzHsug"></div>
+        <div class="vz-ctl"><div class="map-seg vz-seg" id="vzHmode"><button type="button" data-m="rate" class="on">Per 1,000 words</button><button type="button" data-m="count">Total count</button></div><button type="button" class="vz-tog on" id="vzHforms" title="Count loves, loved, loving with love">Word forms</button></div>
+        <div id="vzHeat"></div>
+      </div>
+    </div>
+
+    <div class="screen" id="screen-sizeup">
+      <div class="st-wrap" id="vzSizeWrap">
+        <button type="button" class="mu-back" data-screen="vizmore">‹ More</button>
+        <h2 class="st-title">Size It Up</h2>
+        <p class="st-hint mu-intro">Things the Bible measures in cubits, drawn to scale beside things you know.</p>
+        <div id="vzSize"></div>
+      </div>
+    </div>
+
      <div class="screen" id="screen-search">
       <div class="st-wrap" id="seWrap">
         <button type="button" class="mu-back" id="seBack" data-screen="read">&lsaquo; Read</button>
@@ -4731,6 +4831,7 @@
     <div class="screen" id="screen-genealogy">
       <div class="st-wrap" id="geWrap">
         <button type="button" class="mu-back" id="geBack">&lsaquo; Timeline</button>
+        <div class="tl-views ge-viewwrap"><div class="tv-seg ge-views" role="group" aria-label="Timeline view"><button type="button" data-gv="line">Timeline</button><button type="button" data-gv="lanes">Year by Year</button><button type="button" class="on" data-gv="tree">Family Tree</button></div></div>
         <h2 class="st-title">The family tree of Jesus</h2>
         <p class="st-hint">Matthew and Luke each list Jesus’ ancestors. Here they are in one tree: where the two lists agree, and where they go their own way. Tap a name for details.</p>
         <div class="ge-main">
@@ -4949,6 +5050,7 @@
 <script src="parallels.js"></script>
 <script src="compare.js"></script>
 <script src="genealogy.js"></script>
+<script src="viz.js"></script>
 <script src="commentary.js"></script>
 <script src="glossary.js"></script>
 <script src="home.js"></script>

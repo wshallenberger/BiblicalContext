@@ -26,11 +26,11 @@
   // ---------- which bar button a screen belongs to ----------
   var GROUP = { read: 'read', booknav: 'read', plans: 'read', search: 'read',
     divehome: 'study', deepdive: 'study', parallels: 'study', glossary: 'study', commentary: 'study', saved: 'more',
-    timeline: 'visualize', map: 'visualize', genealogy: 'visualize',
+    timeline: 'visualize', map: 'visualize', genealogy: 'visualize', vizmore: 'visualize', heatmap: 'visualize', sizeup: 'visualize',
     home: 'home', homecust: 'home', more: 'more', settings: 'more', music: 'more', install: 'more' };
   var LABEL = { read: 'Read', booknav: 'Read', home: 'Home', more: 'More', divehome: 'Study', deepdive: 'Study', parallels: 'Compare',
-    saved: 'Saved', glossary: 'Glossary', commentary: 'Commentary', plans: 'Plans', timeline: 'Timeline', map: 'Map', genealogy: 'Family tree', settings: 'Settings', music: 'Music', install: 'Install', homecust: 'Customize Home' };
-  var STUDY = ['divehome', 'parallels', 'glossary', 'commentary'], VISUAL = ['timeline', 'map', 'genealogy'];
+    saved: 'Saved', glossary: 'Glossary', commentary: 'Commentary', plans: 'Plans', timeline: 'Timeline', map: 'Map', genealogy: 'Family tree', vizmore: 'More', heatmap: 'Word Heatmap', sizeup: 'Size It Up', settings: 'Settings', music: 'Music', install: 'Install', homecust: 'Customize Home' };
+  var STUDY = ['divehome', 'parallels', 'glossary', 'commentary'], VISUAL = ['timeline', 'map', 'genealogy', 'vizmore', 'heatmap', 'sizeup'];
   var origin = {};                    // screen -> the screen the reader came from
   var lastStudy = 'divehome', lastVisual = 'timeline';
 
@@ -111,7 +111,7 @@
   // ---------- tab strips for Study and Visualize ----------
   var TABS = {
     study: [['divehome', 'Deep Dive'], ['commentary', 'Commentary'], ['parallels', 'Compare'], ['glossary', 'Glossary']],
-    visualize: [['timeline', 'Timeline'], ['map', 'Map'], ['connections', 'Connections'], ['genealogy', 'Family tree']]
+    visualize: [['timeline', 'Timeline'], ['map', 'Map'], ['connections', 'Connections'], ['vizmore', 'More']]
   };
   function stripHtml(kind) {
     return TABS[kind].map(function (t) { return '<button type="button" class="hs-tab" data-hs="' + t[0] + '" role="tab">' + t[1] + '</button>'; }).join('') +
@@ -130,6 +130,8 @@
   function curTab(name) {
     if (name === 'deepdive') return 'divehome';
     if (name === 'timeline') { var m = 'line'; try { m = tlViewMode; } catch (e) {} return m === 'threads' ? 'connections' : 'timeline'; }
+    if (name === 'genealogy') return 'timeline';
+    if (name === 'heatmap' || name === 'sizeup') return 'vizmore';
     return name;
   }
   function paintStrips(name) {

@@ -702,6 +702,9 @@ function resetScreenPos(name) {
   else if (name === 'more') top('moreWrap');
   else if (name === 'music') top('muWrap');
   else if (name === 'install') top('inWrap');
+  else if (name === 'vizmore') top('vzMoreWrap');
+  else if (name === 'heatmap') top('vzHeatWrap');
+  else if (name === 'sizeup') top('vzSizeWrap');
   else if (name === 'saved') top('svWrap');
   else if (name === 'plans') top('plWrap');
   else if (name === 'search') top('seWrap');
@@ -742,6 +745,7 @@ function goToScreen(name) {
   screens.forEach(s => s.classList.toggle('active', s.id === `screen-${name}`));
   navReserve(name);
   try { Home.go(prevScreen, name); } catch (e) { /* ignore */ }
+  try { if (window.Viz) Viz.show(name); } catch (e) { /* ignore */ }
 
   document.querySelectorAll('.nav-btn, .nav-btn-center button').forEach(b => {
     b.classList.toggle('active', !!window.Home && b.dataset.nav === Home.group(name));
@@ -1904,7 +1908,7 @@ let wideTimer = null;
 ['resize', 'orientationchange'].forEach(ev => window.addEventListener(ev, () => { clearTimeout(wideTimer); wideTimer = setTimeout(wideSync, 150); }));
 function tlWire() {
   if (tlWire.done) return; tlWire.done = true;
-  document.querySelectorAll('#tlViews button').forEach(b => b.addEventListener('click', () => tlSetView(b.dataset.v)));
+  document.querySelectorAll('#tlViews button').forEach(b => b.addEventListener('click', () => { if (b.dataset.v === 'tree') { try { Gen.open('timeline'); } catch (e) { goToScreen('genealogy'); } return; } tlSetView(b.dataset.v); }));
   document.querySelectorAll('#tlLevels button').forEach(b => b.addEventListener('click', () => tlGoLevel(Number(b.dataset.l))));
   tlEl('tlZoomIn').addEventListener('click', () => tlSetZoom(tlZ[tlZoomKey()] * 1.25));
   tlEl('tlZoomOut').addEventListener('click', () => tlSetZoom(tlZ[tlZoomKey()] / 1.25));
@@ -4439,11 +4443,10 @@ function mapOrderKey(e) {
 
 function renderMapControls() {
   const nt = Bk.slugs();
-  const chips = [`<button type="button" class="map-chip${mapF.book === 'all' ? ' on' : ''}" data-b="all"><i style="background:var(--gold)"></i>All books</button>`]
-    .concat(nt.filter(b => (mapF.tst === 'all' || MAP_TST[b] === mapF.tst) && (!EVENTS || EVENTS.some(e => (e.r || []).some(r => r[0] === b)))).map(b => `<button type="button" class="map-chip${mapF.book === b ? ' on' : ''}" data-b="${b}"><i style="background:${MAP_BOOK_COLORS[b]}"></i>${mapBookName(b)}</button>`));
+  // r147: books are chosen through Stories; a book filter set from a chapter (Deep Dive, the reader) shows here as one chip that clears it
   const box = document.getElementById('mapBooks');
-  box.innerHTML = chips.join('');
-  box.style.display = 'flex';
+  box.innerHTML = mapF.book === 'all' ? '' : `<button type="button" class="map-chip on" data-b="all" title="Show every book"><i style="background:${MAP_BOOK_COLORS[mapF.book] || 'var(--gold)'}"></i>${escHtml(mapBookName(mapF.book))} ✕</button>`;
+  box.style.display = mapF.book === 'all' ? 'none' : 'flex';
   box.querySelectorAll('.map-chip').forEach(btn => btn.addEventListener('click', () => {
     mapF.book = btn.dataset.b; mapF.chapter = 'all'; applyMapFilters(true);
   }));
@@ -4517,10 +4520,26 @@ function mapRangeLabel() {
   const bar = mapEl('mapRBar'), span = Math.max(1, mapMaxI - 1);
   if (bar) { bar.style.left = ((mapF.from - 1) / span * 100) + '%'; bar.style.right = (100 - (Math.min(mapF.to, mapMaxI) - 1) / span * 100) + '%'; }
 }
+const MAP_STORY_GROUPS = [
+  { k: 'ot', n: 'Old Testament', ids: ['genesis', 'psalms', 'proverbs', 'ecclesiastes'] },
+  { k: 'jesus', n: 'Jesus and the early church', ids: ['jesus', 'acts', 'paul'] },
+  { k: 'paul', n: 'Paul’s letters', ids: ['romans', '1cor', '2cor', 'gal', 'eph', 'phil', 'col', 'th1', 'th2', 'tim1', 'tim2', 'titus', 'philemon'] },
+  { k: 'other', n: 'Hebrews to Revelation', ids: ['hebrews', 'james', '1peter', '2peter', '1john', '2john', '3john', 'jude', 'revelation'] }
+];
+const MAP_STORY_SHORT = { acts: 'Acts', romans: 'Romans', '1cor': '1 Corinthians', '2cor': '2 Corinthians', gal: 'Galatians', eph: 'Ephesians', phil: 'Philippians', col: 'Colossians',
+  th1: '1 Thessalonians', th2: '2 Thessalonians', tim1: '1 Timothy', tim2: '2 Timothy', titus: 'Titus', philemon: 'Philemon', hebrews: 'Hebrews', james: 'James',
+  '1peter': '1 Peter', '2peter': '2 Peter', '1john': '1 John', '2john': '2 John', '3john': '3 John', jude: 'Jude' };
 function renderMapFilterUI() {
   const st = mapEl('mapStories'); if (!st) return;
   const cur = mapActiveStory();
-  st.innerHTML = MAP_STORIES.map(x => `<button type="button" class="mf-story${cur && cur.id === x.id ? ' on' : ''}" data-s="${x.id}" style="--c:${x.color}"${x.ready ? '' : ' disabled'}><i></i>${escHtml(x.name)}</button>`).join('');
+  // r147: stories in small groups, each folded until opened; the group holding the story that is on starts open
+  const sBtn = x => `<button type="button" class="mf-story${cur && cur.id === x.id ? ' on' : ''}" data-s="${x.id}" style="--c:${x.color}"${x.ready ? '' : ' disabled'}><i></i>${escHtml(MAP_STORY_SHORT[x.id] || x.name)}</button>`;
+  if (!renderMapFilterUI.open) renderMapFilterUI.open = {};
+  st.innerHTML = MAP_STORY_GROUPS.map(g => {
+    const xs = g.ids.map(id => MAP_STORIES.find(x => x.id === id)).filter(Boolean); if (!xs.length) return '';
+    const has = cur && g.ids.indexOf(cur.id) >= 0, open = has || renderMapFilterUI.open[g.k];
+    return `<details class="mf-sub" data-k="${g.k}"${open ? ' open' : ''}><summary><b>${escHtml(g.n)}</b><span>${has ? escHtml(MAP_STORY_SHORT[cur.id] || cur.name) : xs.length}</span></summary><div class="mf-stories">${xs.map(sBtn).join('')}</div></details>`;
+  }).join('');
   mapEl('mapStoryNote').textContent = cur ? cur.blurb : 'Pick a story to draw its path and number the stops in order.';
   mapEl('mapWalkBtns').innerHTML = cur ? '<button type="button" data-w="full">Walk me through the full story</button><button type="button" data-w="short">Walk me through the short version</button>' : '';
   const full = mapF.from <= 1 && mapF.to >= mapMaxI;
@@ -4574,6 +4593,7 @@ function mapApplyRange(fit) {
 function mapWireFilters() {
   if (mapWireFilters.done) return; mapWireFilters.done = true;
   mapEl('mapFilters').addEventListener('click', ev => { const h = ev.target.closest('.mf-sec > h4'); if (h) h.parentElement.classList.toggle('open'); }); // sections start collapsed
+  mapEl('mapStories').addEventListener('toggle', ev => { const d = ev.target; if (d && d.dataset && d.dataset.k) renderMapFilterUI.open[d.dataset.k] = d.open; }, true);
   mapEl('mapFiltBtn').addEventListener('click', () => mapFiltOpen(mapEl('mapFilters').hidden));
   mapEl('mapFClose').addEventListener('click', () => mapFiltOpen(false));
   mapEl('mapFReset').addEventListener('click', mapResetFilters);
