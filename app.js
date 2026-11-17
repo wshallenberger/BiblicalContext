@@ -784,7 +784,7 @@ function goToScreen(name) {
 }
 
 // ---------- Bottom icons: five glass circles float over the screens; at the top of a screen they are bigger with names, anywhere else they shrink and huddle in the middle ----------
-var NAV_RESERVE = ['map', 'timeline'];      // these screens pan and zoom, so they keep their own space above the bar
+var NAV_RESERVE = ['map', 'timeline', 'heatmap'];      // these screens pan and zoom, so they keep their own space above the bar
 function navReserve(name) {
   const ph = document.querySelector('.phone'); if (!ph) return;
   ph.classList.toggle('nav-reserve', NAV_RESERVE.indexOf(name) >= 0);
@@ -1882,14 +1882,14 @@ const isWideEnv = () => { try { return window.matchMedia(WIDE_MQ).matches; } cat
 let wideWas = isWideEnv(), rotSeen = {}, rotTimer = null;
 function tlApplyWide() {
   const ph = document.querySelector('.phone'); if (!ph) return;
-  const on = isWideEnv() && (currentScreen === 'timeline' || currentScreen === 'map' || currentScreen === 'parallels' || currentScreen === 'genealogy');
+  const on = isWideEnv() && (currentScreen === 'timeline' || currentScreen === 'map' || currentScreen === 'parallels' || currentScreen === 'genealogy' || currentScreen === 'heatmap');
   ph.classList.toggle('wide', on);
   rotHint();
 }
 function rotHint() {
   const el = document.getElementById('rotHint'); if (!el) return;
   const portraitPhone = !isWideEnv() && window.innerWidth < 700;
-  const want = portraitPhone && (currentScreen === 'timeline' || currentScreen === 'parallels') && !rotSeen[currentScreen] && !(tour && tour.cur);
+  const want = portraitPhone && (currentScreen === 'timeline' || currentScreen === 'parallels' || currentScreen === 'heatmap') && !rotSeen[currentScreen] && !(tour && tour.cur);
   if (rotTimer && rotTimer.s === currentScreen && portraitPhone) return; // already showing for this screen
   clearTimeout(rotTimer && rotTimer.t); rotTimer = null;
   if (want) {

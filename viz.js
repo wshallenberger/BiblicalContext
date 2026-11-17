@@ -34,70 +34,202 @@
     return loading;
   }
 
-  // ---------- Word Heatmap ----------
-  var SUGGEST = ['love', 'covenant', 'blessed', 'faith', 'grace', 'wisdom', 'fear', 'light', 'blood', 'kingdom', 'heart', 'mercy'];
-  var hm = { q: 'love', forms: true, mode: 'rate', sel: null, res: null };
+  // ---------- Words: Heatmap (a treemap of books) and Word cloud (r148) ----------
+  var GCOL = { Law: '#7a5c4a', History: '#5c7a4a', 'Wisdom & Poetry': '#7b5a8a', Prophets: '#8c4646', Gospels: '#8a6d0b', Acts: '#2f7f7a', Letters: '#4d5f8f', Revelation: '#6b6b6b' };
+  var OTG = ['Law', 'History', 'Wisdom & Poetry', 'Prophets'];
+  var SUGGEST = ['love', 'covenant', 'blessed', 'faith', 'grace', 'wisdom', 'fear', 'light', 'blood', 'kingdom', 'heart', 'mercy', 'sin', 'peace', 'king', 'spirit'];
+  var hm = { tab: 'heat', q: 'love', forms: true, size: 'count', tst: 'all', book: null, res: null, cb: 'all', cshow: 'all', cn: 100 };
   var ENDS = ['s', 'es', 'ed', 'd', 'ing', 'eth', 'est'];
   function rx(q, forms) {
     var w = q.toLowerCase().replace(/[^a-z' ]/g, '').trim().replace(/\s+/g, ' ');
     if (!w) return null;
-    var e = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    // simple endings only for a single word: love → loves, loved, loving (love minus e + ing), loveth
-    var stem = e.replace(/e$/, '');
+    var e = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), stem = e.replace(/e$/, '');
     var body = forms && w.indexOf(' ') < 0 ? '(?:' + e + '(?:' + ENDS.join('|') + ')?|' + stem + 'ing)' : e;
     return { w: w, re: new RegExp("(^|[^A-Za-z'])(" + body + ")(?![A-Za-z])", 'gi') };
   }
   function count() {
     var r = rx(hm.q, hm.forms); if (!r || !S) { hm.res = null; return; }
-    var by = {}, ch = {}, found = {}, total = 0;
+    var by = {}, ch = {}, first = {}, found = {}, total = 0;
     S.v.forEach(function (x) {
       r.re.lastIndex = 0; var m, n = 0;
-      while ((m = r.re.exec(x[3]))) { n++; found[m[2].toLowerCase()] = (found[m[2].toLowerCase()] || 0) + 1; }
+      while ((m = r.re.exec(x[3]))) { n++; var f = m[2].toLowerCase(); found[f] = (found[f] || 0) + 1; }
       if (!n) return;
-      var b = S.b[x[0]]; by[b] = (by[b] || 0) + n; total += n;
-      var k = b + ':' + x[1]; ch[k] = (ch[k] || 0) + n;
+      var b = S.b[x[0]], k = b + ':' + x[1]; by[b] = (by[b] || 0) + n; total += n; ch[k] = (ch[k] || 0) + n; if (!first[k]) first[k] = x[2];
     });
-    hm.res = { w: r.w, by: by, ch: ch, found: found, total: total };
+    hm.res = { w: r.w, by: by, ch: ch, first: first, found: found, total: total };
   }
-  function shade(t) { return t <= 0 ? '' : 'background:color-mix(in srgb, var(--gold) ' + Math.round(14 + 86 * Math.sqrt(t)) + '%, var(--ink-raised));' + (t > .45 ? 'color:#fff;' : ''); }
-  function renderHeat() {
-    var box = $('vzHeat'); if (!box) return;
-    if (!S) { box.innerHTML = '<p class="vz-load">Loading every verse…</p>'; load().then(function (ok) { if (ok) { count(); renderHeat(); } else box.innerHTML = '<p class="vz-load">The verses could not load. Check your connection.</p>'; }); return; }
-    var R = hm.res, have = {}; (S.b || []).forEach(function (b) { have[b] = 1; });
-    var val = function (b) { if (!R || !R.by[b]) return 0; return hm.mode === 'rate' ? R.by[b] / Math.max(1, N[b]) * 1000 : R.by[b]; };
-    var max = 0; Object.keys(have).forEach(function (b) { max = Math.max(max, val(b)); });
-    var forms = R ? Object.keys(R.found).sort(function (a, b) { return R.found[b] - R.found[a]; }) : [];
-    var nb = R ? Object.keys(R.by).length : 0;
-    var head = R ? (R.total ? '<p class="vz-sum"><b>' + esc(R.w) + '</b> appears <b>' + fmt(R.total) + '</b> time' + (R.total === 1 ? '' : 's') + ' in ' + nb + ' of the ' + S.b.length + ' books in the app (BSB).' + (forms.length > 1 ? ' Forms counted: ' + forms.map(function (f) { return esc(f) + ' ' + R.found[f]; }).join(', ') + '.' : '') + '</p>'
-      : '<p class="vz-sum">No verse in the app uses <b>' + esc(R.w) + '</b>. Try another word, or turn on word forms.</p>') : '';
-    var grid = CANON.map(function (g) {
-      return '<div class="hx-row"><span class="hx-gl">' + esc(g[0]) + '</span><div class="hx-cells">' + g[1].map(function (b) {
-        var s = b[0];
-        if (!have[s]) return '<span class="hx-c off" title="' + esc(bookName(s)) + ': not in the app yet"><b>' + esc(b[1]) + '</b><i>·</i></span>';
-        var v = val(s), t = max ? v / max : 0, n = R && R.by[s] || 0;
-        return '<button type="button" class="hx-c' + (hm.sel === s ? ' sel' : '') + '" data-hb="' + s + '" style="' + shade(t) + '" title="' + esc(bookName(s)) + ': ' + n + '"><b>' + esc(b[1]) + '</b><i>' + (n ? (hm.mode === 'rate' ? (v >= 10 ? Math.round(v) : v < 0.1 ? '<0.1' : v.toFixed(1)) : fmt(n)) : '0') + '</i></button>';
-      }).join('') + '</div></div>';
-    }).join('');
-    var det = '';
-    if (R && hm.sel && have[hm.sel]) {
-      var s = hm.sel, n = R.by[s] || 0, rate = n / Math.max(1, N[s]) * 1000;
-      var chs = Object.keys(R.ch).filter(function (k) { return k.split(':')[0] === s; }).map(function (k) { return [+k.split(':')[1], R.ch[k]]; }).sort(function (a, b) { return b[1] - a[1] || a[0] - b[0]; });
-      var unit = s === 'psalms' ? 'Psalm ' : bookName(s) + ' ';
-      det = '<div class="hx-det"><div class="hx-dh"><b>' + esc(bookName(s)) + '</b><button type="button" class="hx-dx" data-hx aria-label="Close">&times;</button></div>' +
-        (n ? '<p>' + fmt(n) + ' time' + (n === 1 ? '' : 's') + ' · ' + rate.toFixed(1) + ' per 1,000 words · in ' + chs.length + ' chapter' + (chs.length === 1 ? '' : 's') + '</p><div class="hx-chs">' +
-          chs.slice(0, 12).map(function (c) { return '<button type="button" data-hc="' + s + ':' + c[0] + '">' + esc(unit + c[0]) + ' <i>' + c[1] + '</i></button>'; }).join('') + '</div>'
-          : '<p>Not used in this book.</p>') + '</div>';
+  // squarified treemap: items [{v,...}] into the rectangle; returns items with x,y,w,h
+  function squarify(items, x, y, w, h) {
+    items = items.filter(function (it) { return it.v > 0; }).sort(function (a, b) { return b.v - a.v; });
+    var tot = items.reduce(function (s, it) { return s + it.v; }, 0); if (!tot) return [];
+    var scale = w * h / tot, out = [], row = [], rx0 = x, ry0 = y, rw = w, rh = h;
+    function worst(r, side) { var s = 0, mx = 0, mn = Infinity; r.forEach(function (it) { var a = it.v * scale; s += a; mx = Math.max(mx, a); mn = Math.min(mn, a); }); return Math.max(side * side * mx / (s * s), s * s / (side * side * mn)); }
+    function lay(r) {
+      var s = r.reduce(function (a, it) { return a + it.v * scale; }, 0);
+      if (rw >= rh) { var cw = s / rh, cy = ry0; r.forEach(function (it) { var hh = it.v * scale / cw; out.push(Object.assign({}, it, { x: rx0, y: cy, w: cw, h: hh })); cy += hh; }); rx0 += cw; rw -= cw; }
+      else { var chh = s / rw, cx = rx0; r.forEach(function (it) { var ww = it.v * scale / chh; out.push(Object.assign({}, it, { x: cx, y: ry0, w: ww, h: chh })); cx += ww; }); ry0 += chh; rh -= chh; }
     }
-    box.innerHTML = head + det + '<div class="hx-grid">' + grid + '</div>' +
-      '<p class="vz-note">' + (hm.mode === 'rate' ? 'Shaded by how often the word comes up for every 1,000 words of the book, so long and short books compare fairly.' : 'Shaded by the total count in each book.') +
-      ' Dotted squares are books not in the app yet. Counts use the BSB, an English translation, so they follow its wording rather than the Hebrew or Greek.</p>';
+    items.forEach(function (it) {
+      var side = Math.min(rw, rh);
+      if (!row.length || worst(row.concat([it]), side) <= worst(row, side)) row.push(it);
+      else { lay(row); row = [it]; }
+    });
+    if (row.length) lay(row);
+    return out;
   }
-  function heatSearch(q) { hm.q = q; hm.sel = null; var i = $('vzHq'); if (i && i.value !== q) i.value = q; paintHeatCtl(); if (S) { count(); renderHeat(); } else renderHeat(); }
-  function paintHeatCtl() {
-    Array.prototype.forEach.call(document.querySelectorAll('#vzHmode button'), function (b) { b.classList.toggle('on', b.dataset.m === hm.mode); });
+  function stage() { var st = $('vzStage'); return st ? { el: st, w: Math.max(200, st.clientWidth), h: Math.max(180, st.clientHeight) } : null; }
+  function txtOn(pct) { return pct > 52 ? 'color:#fff;' : 'color:var(--parchment);'; }
+  function renderHeat() {
+    var sg = stage(); if (!sg) return;
+    var R = hm.res, have = {}; S.b.forEach(function (b) { have[b] = 1; });
+    var foot = $('vzFoot'), sum = $('vzSum');
+    if (!R) { sg.el.innerHTML = ''; sum.innerHTML = 'Type a word to see where it lives.'; return; }
+    var val = function (b) { var n = R.by[b] || 0; return hm.size === 'rate' ? n / Math.max(1, N[b]) * 1000 : n; };
+    var groups = CANON.filter(function (g) { return hm.tst === 'all' || (hm.tst === 'OT') === (OTG.indexOf(g[0]) >= 0); });
+    var maxRate = 0; Object.keys(R.by).forEach(function (b) { maxRate = Math.max(maxRate, R.by[b] / Math.max(1, N[b]) * 1000); });
+    var totV = 0; groups.forEach(function (g) { g[1].forEach(function (b) { totV += val(b[0]); }); });
+    var minV = Math.max(totV, 1) * 0.0045;   // every book keeps a sliver, so all of them stay on screen
+    var forms = Object.keys(R.found).sort(function (a, b) { return R.found[b] - R.found[a]; });
+    var books = Object.keys(R.by).filter(function (b) { return groups.some(function (g) { return g[1].some(function (x) { return x[0] === b; }); }); });
+    var top = books.sort(function (a, b) { return val(b) - val(a); })[0];
+    if (hm.book) return renderChapters(sg, R);
+    sum.innerHTML = R.total ? '<b>' + esc(R.w) + '</b> · ' + fmt(books.reduce(function (s, b) { return s + R.by[b]; }, 0)) + ' times in ' + books.length + ' books' + (top ? ' · most ' + (hm.size === 'rate' ? 'often' : '') + ' in <b>' + esc(bookName(top)) + '</b>' : '') +
+      (forms.length > 1 ? '<span class="vz-forms">' + forms.slice(0, 6).map(function (f) { return esc(f) + ' ' + R.found[f]; }).join(' · ') + '</span>' : '') : 'No verse in the app uses <b>' + esc(R.w) + '</b>.';
+    var gItems = groups.map(function (g) { var bs = g[1].map(function (b) { return { s: b[0], ab: b[1], g: g[0], v: Math.max(val(b[0]), minV), n: R.by[b[0]] || 0, off: !have[b[0]] }; }); return { g: g[0], bs: bs, v: bs.reduce(function (s, b) { return s + b.v; }, 0) }; });
+    var gap = 2, html = '';
+    squarify(gItems, 0, 0, sg.w, sg.h).forEach(function (G) {
+      var lab = G.w > 70 && G.h > 46 ? 15 : 0, col = GCOL[G.g];
+      html += '<div class="tm-g" style="left:' + G.x + 'px;top:' + G.y + 'px;width:' + G.w + 'px;height:' + G.h + 'px;--c:' + col + '">' + (lab ? '<span class="tm-gl">' + esc(G.g) + '</span>' : '') + '</div>';
+      squarify(G.bs, G.x + gap, G.y + lab + gap, Math.max(1, G.w - 2 * gap), Math.max(1, G.h - lab - 2 * gap)).forEach(function (B) {
+        var rate = B.n / Math.max(1, N[B.s] || 1) * 1000, t = maxRate ? rate / maxRate : 0;
+        var pct = B.off ? 0 : B.n ? Math.round(30 + 70 * Math.sqrt(t)) : 10;
+        var area = B.w * B.h, fs = Math.max(8, Math.min(26, Math.sqrt(area) / 5.2));
+        var nm = B.w > fs * 0.62 * bookName(B.s).length + 8 ? bookName(B.s) : B.ab;
+        var showN = B.h > fs * 2.4 && B.w > 30 && !B.off;
+        var inner = B.w > 18 && B.h > 13 ? '<b style="font-size:' + fs.toFixed(1) + 'px">' + esc(nm) + '</b>' + (showN ? '<i style="font-size:' + Math.max(8, fs * 0.6).toFixed(1) + 'px">' + (hm.size === 'rate' ? (rate < 0.1 && B.n ? '<0.1' : rate.toFixed(1)) + ' / 1k' : fmt(B.n)) + '</i>' : '') : '';
+        html += '<button type="button" class="tm-b' + (B.off ? ' off' : '') + '" ' + (B.off ? 'disabled ' : 'data-tb="' + B.s + '" ') + 'title="' + esc(bookName(B.s) + (B.off ? ': not in the app yet' : ': ' + B.n + ' time' + (B.n === 1 ? '' : 's') + ', ' + rate.toFixed(2) + ' per 1,000 words')) + '" style="left:' + (B.x + 1) + 'px;top:' + (B.y + 1) + 'px;width:' + Math.max(0, B.w - 2) + 'px;height:' + Math.max(0, B.h - 2) + 'px;' + (B.off ? '' : 'background:color-mix(in srgb, ' + col + ' ' + pct + '%, var(--ink-raised));' + txtOn(pct)) + '">' + inner + '</button>';
+      });
+    });
+    sg.el.innerHTML = html;
+    if (foot) foot.textContent = 'Each box is a book: the bigger it is, the more the word is used' + (hm.size === 'rate' ? ' for every 1,000 words of the book' : '') + '; the darker, the more often it comes up for the book’s length. Dashed boxes are books not in the app yet. Tap a book for its chapters. Counts use the BSB’s English wording.';
+  }
+  function renderChapters(sg, R) {
+    var s = hm.book, sum = $('vzSum'), foot = $('vzFoot'), col = '#8a6d0b';
+    CANON.forEach(function (g) { g[1].forEach(function (b) { if (b[0] === s) col = GCOL[g[0]]; }); });
+    var bk = null; try { bk = manifest.books.find(function (b) { return b.slug === s; }); } catch (e) {}
+    var chs = bk ? bk.availableChapters : [];
+    var n = R.by[s] || 0, used = chs.filter(function (c) { return R.ch[s + ':' + c]; });
+    var maxC = 0; used.forEach(function (c) { maxC = Math.max(maxC, R.ch[s + ':' + c]); });
+    var unit = s === 'psalms' ? 'Psalm ' : '';
+    sum.innerHTML = '<button type="button" class="vz-crumb" data-tback>‹ All books</button> <b>' + esc(bookName(s)) + '</b> · ' + esc(R.w) + ' ' + fmt(n) + ' time' + (n === 1 ? '' : 's') + ' in ' + used.length + ' of ' + chs.length + ' chapters';
+    var tot = n || 1, minV = tot * 0.006;
+    var items = chs.map(function (c) { var k = R.ch[s + ':' + c] || 0; return { c: c, n: k, v: Math.max(k, minV) }; });
+    var html = '';
+    squarify(items, 0, 0, sg.w, sg.h).forEach(function (B) {
+      var pct = B.n ? Math.round(30 + 70 * Math.sqrt(B.n / maxC)) : 8, fs = Math.max(8, Math.min(24, Math.sqrt(B.w * B.h) / 4.6));
+      var inner = B.w > 16 && B.h > 12 ? '<b style="font-size:' + fs.toFixed(1) + 'px">' + (B.w > fs * 3.4 && unit ? unit : '') + B.c + '</b>' + (B.n && B.h > fs * 2.3 ? '<i style="font-size:' + Math.max(8, fs * .6).toFixed(1) + 'px">' + B.n + '×</i>' : '') : '';
+      html += '<button type="button" class="tm-b" data-tc="' + B.c + '" title="' + esc((unit || bookName(s) + ' ') + B.c + ': ' + B.n) + '" style="left:' + (B.x + 1) + 'px;top:' + (B.y + 1) + 'px;width:' + Math.max(0, B.w - 2) + 'px;height:' + Math.max(0, B.h - 2) + 'px;background:color-mix(in srgb, ' + col + ' ' + pct + '%, var(--ink-raised));' + txtOn(pct) + '">' + inner + '</button>';
+    });
+    sg.el.innerHTML = html;
+    if (foot) foot.textContent = 'Each box is a chapter, sized by how often ' + R.w + ' comes up. Tap one to read it, opened at the first verse that uses the word.';
+  }
+
+  // ---------- Word cloud ----------
+  var STOP = ('a about above after again against all also am an and any are as at be because been before being below between both but by can could did do does doing down during each even ever every few for from further had has have having he her here hers herself him himself his how i if in into is it its itself just let like may me might more most must my myself no nor not now of off on once one only or other ought our ours ourselves out over own same say says said saying shall she should so some such than that the their theirs them themselves then there therefore these they this those through thus to too under until unto up upon us very was we were what when where which while who whom whose why will with would yet you your yours yourself yourselves ' +
+    'thee thou thy thine ye hath doth art shalt wilt hast didst thereof therein wherefore whither whence hither yea nay lo behold o oh ' +
+    'went go goes going come came comes coming made make makes get got also two three many much things thing put took take give gave given told tell set left done found brought bring began become became may yes away back again among another around because whether neither either within without toward towards indeed rather already still though although across along beside besides cannot whoever whatever whenever wherever everyone everything someone something nothing anyone anything none ').split(/\s+/);
+  var STOPS = {}; STOP.forEach(function (w) { if (w) STOPS[w] = 1; });
+  var NOTNAME = { god: 1, lord: 1, spirit: 1, christ: 1, father: 1, son: 1, holy: 1, most: 1, high: 1, almighty: 1 };
+  var cloudCache = {};
+  function cloudWords() {
+    var key = hm.cb; if (cloudCache[key]) return cloudCache[key];
+    var cnt = {}, cap = {}, low = {}, disp = {};
+    S.v.forEach(function (x) {
+      var b = S.b[x[0]];
+      if (hm.cb !== 'all' && !(hm.cb === 'OT' ? Bk.testament(b) === 'OT' : hm.cb === 'NT' ? Bk.testament(b) !== 'OT' : b === hm.cb)) return;
+      var toks = x[3].match(/[A-Za-z]+(?:['’][A-Za-z]+)?/g) || [], start = true;
+      toks.forEach(function (t, i) {
+        var w = t.replace(/['’]s$/i, ''), k = w.toLowerCase();
+        if (k.length < 3 || STOPS[k]) return;
+        cnt[k] = (cnt[k] || 0) + 1;
+        var d = disp[k] || (disp[k] = {}); d[w] = (d[w] || 0) + 1;
+        if (/^[A-Z]/.test(w)) { if (i > 0) cap[k] = (cap[k] || 0) + 1; } else low[k] = (low[k] || 0) + 1;
+      });
+    });
+    var list = Object.keys(cnt).map(function (k) {
+      var d = disp[k], best = Object.keys(d).sort(function (a, b) { return d[b] - d[a]; })[0];
+      return { k: k, w: best, n: cnt[k], name: !low[k] && cap[k] > 0 && !NOTNAME[k] };
+    }).sort(function (a, b) { return b.n - a.n; });
+    return (cloudCache[key] = list);
+  }
+  var measureCtx = null;
+  function tw(word, fs, bold) { if (!measureCtx) measureCtx = document.createElement('canvas').getContext('2d'); measureCtx.font = (bold ? '600 ' : '500 ') + fs + "px 'Literata', Georgia, serif"; return measureCtx.measureText(word).width; }
+  var PAL = ['#8a6d0b', '#8c4646', '#4d5f8f', '#7b5a8a', '#5c7a4a', '#2f7f7a', '#7a5c4a', '#b5541c'];
+  function hsh(s) { var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return Math.abs(h); }
+  function renderCloud() {
+    var sg = stage(); if (!sg) return;
+    var all = cloudWords().filter(function (x) { return hm.cshow === 'all' ? true : hm.cshow === 'names' ? x.name : !x.name; }).slice(0, hm.cn);
+    var sum = $('vzSum'), foot = $('vzFoot');
+    var where = hm.cb === 'all' ? 'all the books in the app' : hm.cb === 'OT' ? 'the Old Testament books in the app' : hm.cb === 'NT' ? 'the New Testament' : bookName(hm.cb);
+    sum.innerHTML = all.length ? 'The ' + all.length + ' most used ' + (hm.cshow === 'names' ? 'names' : 'words') + ' in <b>' + esc(where) + '</b>' + (all[0] ? ' · top: <b>' + esc(all[0].w) + '</b> ' + fmt(all[0].n) + '×' : '') : 'No words to show.';
+    if (!all.length) { sg.el.innerHTML = ''; return; }
+    var W = sg.w, H = sg.h, mx = all[0].n, mn = all[all.length - 1].n, placed = [], out = [];
+    var base = Math.sqrt(W * H) / 9;
+    for (var tries = 0; tries < 6; tries++) {
+      placed = []; out = []; var miss = 0;
+      var hiF = Math.min(base * Math.pow(0.86, tries), W / Math.max(4, all[0].w.length) * 1.5), loF = Math.max(9, hiF / 6.5);
+      all.forEach(function (x, idx) {
+        var t = mx === mn ? 1 : Math.sqrt((x.n - mn) / (mx - mn)), fs = loF + (hiF - loF) * t, bold = idx < 12;
+        var rot = idx > 8 && hsh(x.k) % 6 === 0;
+        var ww = tw(x.w, fs, bold) + 4, hh = fs * 0.98 + 2, bw = rot ? hh : ww, bh = rot ? ww : hh;
+        var ok = false, a = 0, cx = W / 2, cy = H / 2, asp = W / H;
+        for (var s = 0; s < 1400; s++) {
+          var r = 2.2 * a, px = cx + r * Math.cos(a) * asp - bw / 2, py = cy + r * Math.sin(a) - bh / 2; a += 0.11;
+          if (px < 2 || py < 2 || px + bw > W - 2 || py + bh > H - 2) continue;
+          var hit = false;
+          for (var j = 0; j < placed.length; j++) { var p = placed[j]; if (px < p[0] + p[2] && px + bw > p[0] && py < p[1] + p[3] && py + bh > p[1]) { hit = true; break; } }
+          if (!hit) { placed.push([px, py, bw, bh]); out.push({ x: x, fs: fs, bold: bold, rot: rot, cx: px + bw / 2, cy: py + bh / 2 }); ok = true; break; }
+        }
+        if (!ok) miss++;
+      });
+      if (miss <= Math.max(2, all.length * 0.04)) break;
+    }
+    var svg = '<svg class="wc-svg" viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '">' + out.map(function (o) {
+      var c = PAL[hsh(o.x.k) % PAL.length];
+      return '<text data-wq="' + esc(o.x.k) + '" x="' + o.cx.toFixed(1) + '" y="' + o.cy.toFixed(1) + '" font-size="' + o.fs.toFixed(1) + '" fill="' + c + '" font-weight="' + (o.bold ? 600 : 500) + '"' + (o.rot ? ' transform="rotate(-90 ' + o.cx.toFixed(1) + ' ' + o.cy.toFixed(1) + ')"' : '') + '><title>' + esc(o.x.w + ': ' + fmt(o.x.n) + ' times') + '</title>' + esc(o.x.w) + '</text>';
+    }).join('') + '</svg>';
+    sg.el.innerHTML = svg;
+    if (foot) foot.textContent = 'Bigger words are used more. Common words like “the,” “and” and “unto” are left out. Tap a word to see where it lives across the Bible. Counts use the BSB.';
+  }
+
+  // ---------- the Words screen ----------
+  function bookOptions() {
+    var o = '<option value="all">All books in the app</option><option value="OT">Old Testament</option><option value="NT">New Testament</option>';
+    try { manifest.books.forEach(function (b) { o += '<option value="' + b.slug + '">' + esc(b.name) + '</option>'; }); } catch (e) {}
+    return o;
+  }
+  function paintCtl() {
+    var on = function (sel, attr, v) { Array.prototype.forEach.call(document.querySelectorAll(sel), function (b) { b.classList.toggle('on', b.dataset[attr] === v); }); };
+    on('#vzTabs [data-vt]', 'vt', hm.tab);
+    var hb = $('vzHeatBar'), cb = $('vzCloudBar'); if (hb) hb.hidden = hm.tab !== 'heat'; if (cb) cb.hidden = hm.tab !== 'cloud';
+    on('#vzHsize [data-sz]', 'sz', hm.size); on('#vzHtst [data-ts]', 'ts', hm.tst);
+    on('#vzCshow [data-cs]', 'cs', hm.cshow); on('#vzCn [data-cn]', 'cn', String(hm.cn));
     var f = $('vzHforms'); if (f) f.classList.toggle('on', hm.forms);
-    Array.prototype.forEach.call(document.querySelectorAll('#vzHsug button'), function (b) { b.classList.toggle('on', b.dataset.q === hm.q); });
+    on('#vzHsug [data-q]', 'q', hm.q);
+    var sel = $('vzCbook'); if (sel) { if (!sel.options.length) sel.innerHTML = bookOptions(); sel.value = hm.cb; }
+    var i = $('vzHq'); if (i && document.activeElement !== i) i.value = hm.q;
   }
+  function draw() {
+    var sg = stage(); if (!sg) return;
+    if (!S) { sg.el.innerHTML = '<p class="vz-load">Loading every verse…</p>'; load().then(function (ok) { if (ok) { count(); draw(); } else sg.el.innerHTML = '<p class="vz-load">The verses could not load. Check your connection.</p>'; }); return; }
+    paintCtl();
+    if (hm.tab === 'cloud') renderCloud(); else { if (!hm.res) count(); renderHeat(); }
+  }
+  function heatSearch(q) { hm.q = q; hm.book = null; hm.tab = 'heat'; count(); draw(); }
+  var rsT = 0, lastSz = '';
+  // the frame widens when the screen turns or the wide view switches on: redraw when the stage itself changes size
+  try { new ResizeObserver(function () { var sg = stage(); if (!sg) return; var k = sg.w + 'x' + sg.h; if (k === lastSz) return; lastSz = k; clearTimeout(rsT); rsT = setTimeout(function () { try { if (currentScreen === 'heatmap' && S) draw(); } catch (e) {} }, 120); }).observe($('vzStage') || document.body); } catch (e) {}
+  window.addEventListener('resize', function () { clearTimeout(rsT); rsT = setTimeout(function () { try { if (currentScreen === 'heatmap') draw(); } catch (e) {} }, 180); });
 
   // ---------- Size It Up ----------
   var CUBIT = { common: 1.5, royal: 20.6 / 12 };   // feet
@@ -180,8 +312,7 @@
   function renderMore() {
     var b = $('vzMoreList'); if (!b || b.dataset.done) return; b.dataset.done = '1';
     var row = function (scr, ic, t, d) { return '<button type="button" class="more-row" data-vz="' + scr + '">' + ic + '<span class="more-t"><b>' + t + '</b><i>' + d + '</i></span><em>›</em></button>'; };
-    b.innerHTML = row('heatmap', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="9.5" y="3" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="16" y="3" width="5" height="5" rx="1" fill="currentColor"/><rect x="3" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".6"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><rect x="16" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="3" y="16" width="5" height="5" rx="1"/><rect x="9.5" y="16" width="5" height="5" rx="1" fill="currentColor"/><rect x="16" y="16" width="5" height="5" rx="1"/></svg>', 'Word Heatmap', 'Type a word and see where it lives across the books of the Bible.') +
-      row('sizeup', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><rect x="4" y="11" width="9" height="9" rx="1"/><path d="M17.5 20v-9M17.5 8.2a1.3 1.3 0 1 0 0-.1M15.8 13.5h3.4"/></svg>', 'Size It Up', 'Noah’s ark, Goliath, the temple and more, drawn to scale beside things you know.');
+    b.innerHTML = row('heatmap', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="9.5" y="3" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="16" y="3" width="5" height="5" rx="1" fill="currentColor"/><rect x="3" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".6"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><rect x="16" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="3" y="16" width="5" height="5" rx="1"/><rect x="9.5" y="16" width="5" height="5" rx="1" fill="currentColor"/><rect x="16" y="16" width="5" height="5" rx="1"/></svg>', 'Words: heatmap and word cloud', 'See where a word lives across the books, or the words a book uses most.');
   }
   document.addEventListener('click', function (ev) {
     var t = ev.target;
@@ -189,24 +320,29 @@
     var b;
     if ((b = t.closest('#vzMoreList [data-vz]'))) { try { goToScreen(b.dataset.vz); } catch (e) {} return; }
     if ((b = t.closest('#vzHsug [data-q]'))) { heatSearch(b.dataset.q); return; }
-    if ((b = t.closest('#vzHmode [data-m]'))) { hm.mode = b.dataset.m; paintHeatCtl(); renderHeat(); return; }
-    if ((b = t.closest('#vzHforms'))) { hm.forms = !hm.forms; paintHeatCtl(); count(); renderHeat(); return; }
-    if ((b = t.closest('#vzHeat [data-hb]'))) { hm.sel = hm.sel === b.dataset.hb ? null : b.dataset.hb; renderHeat(); var d = document.querySelector('#vzHeat .hx-det'); if (d) d.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); return; }
-    if ((b = t.closest('#vzHeat [data-hx]'))) { hm.sel = null; renderHeat(); return; }
-    if ((b = t.closest('#vzHeat [data-hc]'))) { var p = b.dataset.hc.split(':'); try { openPassage(p[0], +p[1], 1, false); } catch (e) {} return; }
+    if ((b = t.closest('#vzTabs [data-vt]'))) { hm.tab = b.dataset.vt; draw(); return; }
+    if ((b = t.closest('#vzHsize [data-sz]'))) { hm.size = b.dataset.sz; draw(); return; }
+    if ((b = t.closest('#vzHtst [data-ts]'))) { hm.tst = b.dataset.ts; hm.book = null; draw(); return; }
+    if ((b = t.closest('#vzHforms'))) { hm.forms = !hm.forms; count(); draw(); return; }
+    if ((b = t.closest('#vzStage [data-tb]'))) { hm.book = b.dataset.tb; draw(); return; }
+    if ((b = t.closest('[data-tback]'))) { hm.book = null; draw(); return; }
+    if ((b = t.closest('#vzStage [data-tc]'))) { var c = +b.dataset.tc, v = hm.res && hm.res.first[hm.book + ':' + c] || 1; try { openPassage(hm.book, c, v, false); } catch (e) {} return; }
+    if ((b = t.closest('#vzCshow [data-cs]'))) { hm.cshow = b.dataset.cs; draw(); return; }
+    if ((b = t.closest('#vzCn [data-cn]'))) { hm.cn = +b.dataset.cn; draw(); return; }
+    if ((b = t.closest('#vzStage [data-wq]'))) { heatSearch(b.dataset.wq); return; }
     if ((b = t.closest('#vzSize [data-si]'))) { su.item = b.dataset.si; su.cmp = DEF[su.item]; renderSize(); return; }
     if ((b = t.closest('#vzSize [data-sc]'))) { su.cmp = b.dataset.sc; renderSize(); return; }
     if ((b = t.closest('#vzSize [data-cu]'))) { su.cubit = b.dataset.cu; renderSize(); return; }
     if ((b = t.closest('#vzSize [data-sr]'))) { var q = b.dataset.sr.split(':'); try { openPassage(q[0], +q[1], 1, false); } catch (e) {} return; }
   });
-  document.addEventListener('submit', function (ev) { if (ev.target && ev.target.id === 'vzHform') { ev.preventDefault(); var v = ($('vzHq') || {}).value || ''; if (v.trim()) heatSearch(v.trim()); } });
+  document.addEventListener('submit', function (ev) { if (ev.target && ev.target.id === 'vzHform') { ev.preventDefault(); var v = ($('vzHq') || {}).value || ''; if (v.trim()) { heatSearch(v.trim()); try { document.activeElement.blur(); } catch (e) {} } } });
+  document.addEventListener('change', function (ev) { if (ev.target && ev.target.id === 'vzCbook') { hm.cb = ev.target.value; draw(); } });
   window.Viz = {
     show: function (name) {
       if (name === 'vizmore') renderMore();
       if (name === 'heatmap') {
         var sg = $('vzHsug'); if (sg && !sg.innerHTML) sg.innerHTML = SUGGEST.map(function (w) { return '<button type="button" class="vz-chip sm" data-q="' + w + '">' + w + '</button>'; }).join('');
-        var i = $('vzHq'); if (i && !i.value) i.value = hm.q;
-        paintHeatCtl(); if (S && !hm.res) count(); renderHeat();
+        requestAnimationFrame(function () { requestAnimationFrame(draw); });
       }
       if (name === 'sizeup') renderSize();
     },
