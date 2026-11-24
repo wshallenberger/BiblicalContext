@@ -4429,6 +4429,132 @@
     #screen-heatmap .vz-sum{ margin-bottom:4px; font-size:12px; }
     #screen-heatmap .vz-stage{ min-height:120px; }
   }
+
+  /* r149: Reader's layout and the Hebrew Poetry Guide */
+  :root{ --pg1:#b4472f; --pg2:#3f6aa6; --pg3:#4f8a4b; --pg4:#7d58a8; --pg5:#2f8a8a; --pg6:#b08a1e; }
+  [data-theme="dark"]{ --pg1:#e2826b; --pg2:#86a8e0; --pg3:#8cc389; --pg4:#b89ae0; --pg5:#74c4c4; --pg6:#e3c25e; }
+  .rv-wrap{ position:relative; flex:none; margin-left:auto; }
+  .rv-wrap + .rd-search{ margin-left:0; }
+  .rd-view{ width:32px; height:30px; display:grid; place-items:center; background:none; border:1px solid var(--line); border-radius:7px; color:var(--gold); cursor:pointer; padding:0; }
+  .rd-view svg{ width:16px; height:16px; }
+  body.rd-mode .rd-view, body.pg-on .rd-view{ background:rgba(var(--gold-rgb),.12); border-color:rgba(var(--gold-rgb),.45); }
+  .rv-menu{ position:absolute; right:-38px; top:calc(100% + 6px); z-index:72; width:268px; max-width:calc(100vw - 24px); background:var(--ink-raised); border:1px solid var(--line); border-radius:12px; box-shadow:0 14px 34px rgba(60,50,20,.24); padding:12px; font-family:'IBM Plex Sans',sans-serif; }
+  .rv-row{ display:flex; align-items:center; justify-content:space-between; gap:10px; margin:2px 0 4px; font-size:13px; font-weight:600; color:var(--parchment); }
+  .rv-seg{ display:flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .rv-seg button{ font:500 12px 'IBM Plex Sans',sans-serif; padding:5px 10px; background:none; border:0; color:var(--parchment-dim); cursor:pointer; }
+  .rv-seg button + button{ border-left:1px solid var(--line); }
+  .rv-seg button.on{ background:rgba(var(--gold-rgb),.16); color:var(--gold); font-weight:600; }
+  .rv-hint{ margin:0 0 12px; font-size:11.5px; line-height:1.4; color:var(--parchment-dim); }
+  .pg-list{ display:flex; flex-wrap:wrap; gap:5px; margin:0 0 10px; }
+  .pg-list button{ font:500 11.5px 'IBM Plex Sans',sans-serif; padding:4px 9px; border-radius:999px; border:1px solid var(--line); background:none; color:var(--parchment); cursor:pointer; }
+  .rv-how, .pg-how{ font:600 12px 'IBM Plex Sans',sans-serif; color:var(--gold); background:none; border:0; padding:2px 0; cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
+
+  /* the text as a book: paragraphs and poetry lines, no numbers */
+  #verseList.rd-flow .verse{ display:inline; margin:0; padding:1px 0; border-radius:3px; -webkit-box-decoration-break:clone; box-decoration-break:clone; }
+  #verseList.rd-flow .verse.rd-empty{ display:none; }
+  #verseList.rd-flow .rd-blk{ font-family:var(--read-font,'Literata',serif); font-size:calc(15.5px * var(--read-scale,1)); line-height:var(--read-lh,1.55); color:var(--parchment); margin:0 0 .75em; }
+  #verseList.rd-flow .rd-p{ text-indent:1.4em; }
+  #verseList.rd-flow .rd-p:first-of-type, #verseList.rd-flow .rd-b + .rd-p{ text-indent:0; }
+  #verseList.rd-flow .rd-pi{ padding-left:1.4em; }
+  #verseList.rd-flow .rd-q1, #verseList.rd-flow .rd-q2{ margin:0; padding-left:1.6em; text-indent:-1.2em; }
+  #verseList.rd-flow .rd-q2{ padding-left:2.8em; }
+  #verseList.rd-flow .rd-q1 + .rd-p, #verseList.rd-flow .rd-q2 + .rd-p, #verseList.rd-flow .rd-q2 + .rd-m, #verseList.rd-flow .rd-q1 + .rd-m{ margin-top:.75em; }
+  #verseList.rd-flow .rd-p + .rd-q1, #verseList.rd-flow .rd-m + .rd-q1{ margin-top:-.2em; }
+  #verseList.rd-flow .rd-b{ height:.8em; }
+  #verseList.rd-flow .vmk{ display:none; }
+  .rd-next{ display:flex; align-items:center; gap:8px; margin:26px 0 4px; width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:rgba(var(--gold-rgb),.06); color:var(--parchment); cursor:pointer; font:500 13px 'IBM Plex Sans',sans-serif; text-align:left; }
+  .rd-next span{ color:var(--parchment-dim); }
+  .rd-next b{ font-weight:600; color:var(--gold); }
+  .rd-next svg{ width:16px; height:16px; margin-left:auto; color:var(--gold); }
+
+  /* poetry guide */
+  .pg-card{ margin:2px 0 18px; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:var(--ink-raised); font-family:'IBM Plex Sans',sans-serif; }
+  .pg-hd{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-bottom:4px; }
+  .pg-tag{ font:600 10px 'IBM Plex Mono',monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--gold); }
+  .pg-form{ font-size:13px; font-weight:600; color:var(--parchment); }
+  .pg-sum{ margin:0 0 10px; font-size:13px; line-height:1.45; color:var(--parchment); }
+  .pg-parts{ list-style:none; margin:0 0 8px; padding:0; display:grid; gap:5px; }
+  .pg-parts li{ display:flex; align-items:baseline; gap:8px; font-size:12.5px; line-height:1.35; color:var(--parchment); }
+  .pg-k{ flex:none; min-width:22px; text-align:center; font:700 11px 'IBM Plex Mono',monospace; color:#fff; border-radius:5px; padding:2px 4px; }
+  .pg-t{ flex:1; }
+  .pg-v{ flex:none; font:500 10.5px 'IBM Plex Mono',monospace; color:var(--parchment-dim); }
+  .pg-abc{ display:flex; flex-wrap:wrap; gap:4px; margin:0 0 8px; direction:rtl; justify-content:flex-end; }
+  .pg-l{ width:26px; height:26px; display:grid; place-items:center; border-radius:6px; color:#fff; font:600 15px 'Times New Roman',serif; }
+  .pg-notes{ margin:2px 0 8px; font-size:12.5px; line-height:1.45; color:var(--parchment); }
+  .pg-notes summary{ cursor:pointer; font-weight:600; color:var(--gold); font-size:12px; }
+  .pg-notes ul{ margin:6px 0 0; padding-left:18px; }
+  .pg-notes li{ margin-bottom:5px; }
+  .pg-k.pg-c1, .pg-l.pg-c1, .pg-chip.pg-c1{ background:var(--pg1); } .pg-k.pg-c2, .pg-l.pg-c2, .pg-chip.pg-c2{ background:var(--pg2); }
+  .pg-k.pg-c3, .pg-l.pg-c3, .pg-chip.pg-c3{ background:var(--pg3); } .pg-k.pg-c4, .pg-l.pg-c4, .pg-chip.pg-c4{ background:var(--pg4); }
+  .pg-k.pg-c5, .pg-l.pg-c5, .pg-chip.pg-c5{ background:var(--pg5); } .pg-k.pg-c6, .pg-l.pg-c6, .pg-chip.pg-c6{ background:var(--pg6); }
+  [data-theme="dark"] .pg-k, [data-theme="dark"] .pg-l, [data-theme="dark"] .pg-chip{ color:#1b1712; }
+  .pg-chip{ display:inline-block; min-width:1.5em; text-align:center; font:700 10px/1.5 'IBM Plex Mono',monospace; color:#fff; border-radius:4px; padding:0 3px; margin:0 5px 0 0; vertical-align:2px; text-indent:0; }
+  .pg-chip:not(.pg-c1):not(.pg-c2):not(.pg-c3):not(.pg-c4):not(.pg-c5):not(.pg-c6){ background:var(--parchment-dim); }
+  #verseList.pg-has > .verse.pg-c1{ box-shadow:inset 3px 0 var(--pg1); } #verseList.pg-has > .verse.pg-c2{ box-shadow:inset 3px 0 var(--pg2); }
+  #verseList.pg-has > .verse.pg-c3{ box-shadow:inset 3px 0 var(--pg3); } #verseList.pg-has > .verse.pg-c4{ box-shadow:inset 3px 0 var(--pg4); }
+  #verseList.pg-has > .verse.pg-c5{ box-shadow:inset 3px 0 var(--pg5); } #verseList.pg-has > .verse.pg-c6{ box-shadow:inset 3px 0 var(--pg6); }
+  #verseList.pg-has > .verse[class*="pg-c"]{ padding-left:10px; margin-left:-10px; border-radius:0 6px 6px 0; }
+  #verseList.pg-has .rd-blk[class*="pg-b"]{ border-left:3px solid transparent; margin-left:-11px; padding-left:calc(1.6em + 8px); }
+  #verseList.pg-has .rd-p[class*="pg-b"], #verseList.pg-has .rd-m[class*="pg-b"]{ padding-left:8px; }
+  #verseList.pg-has .rd-q2[class*="pg-b"]{ padding-left:calc(2.8em + 8px); }
+  #verseList.pg-has .rd-blk.pg-b1{ border-left-color:var(--pg1); } #verseList.pg-has .rd-blk.pg-b2{ border-left-color:var(--pg2); }
+  #verseList.pg-has .rd-blk.pg-b3{ border-left-color:var(--pg3); } #verseList.pg-has .rd-blk.pg-b4{ border-left-color:var(--pg4); }
+  #verseList.pg-has .rd-blk.pg-b5{ border-left-color:var(--pg5); } #verseList.pg-has .rd-blk.pg-b6{ border-left-color:var(--pg6); }
+  mark.pg-ref{ background:none; color:inherit; text-decoration:underline; text-decoration-color:var(--pg6); text-decoration-thickness:2px; text-underline-offset:3px; }
+  .pg-how-wrap{ position:fixed; inset:0; z-index:400; background:rgba(20,16,8,.45); display:none; align-items:flex-end; justify-content:center; }
+  .pg-how-wrap.open{ display:flex; }
+  .pg-how-box{ width:min(520px,100%); max-height:82vh; overflow-y:auto; background:var(--ink); border-radius:16px 16px 0 0; padding:16px 18px 22px; font-family:'IBM Plex Sans',sans-serif; }
+  @media (min-width:700px){ .pg-how-wrap{ align-items:center; } .pg-how-box{ border-radius:16px; } }
+  .pg-how-hd{ display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; }
+  .pg-how-hd h3{ margin:0; font:600 17px 'Literata',serif; color:var(--parchment); }
+  .pg-x{ font-size:24px; line-height:1; background:none; border:0; color:var(--parchment-dim); cursor:pointer; }
+  .pg-how-i{ padding:10px 0; border-top:1px solid var(--line); }
+  .pg-how-i b{ font-size:13px; color:var(--gold); }
+  .pg-how-i p{ margin:4px 0 0; font-size:13px; line-height:1.5; color:var(--parchment); }
+
+  /* r149: Connections: starter layers, side by side */
+  .th-starts{ display:flex; flex-wrap:wrap; justify-content:center; gap:6px; margin-top:12px; pointer-events:auto; }
+  .th-empty:has(.th-starts){ opacity:1; }
+  .th-starts b{ width:100%; font:600 10.5px 'IBM Plex Mono',monospace; letter-spacing:.06em; text-transform:uppercase; color:var(--gold); }
+  .th-start{ display:inline-flex; align-items:center; gap:6px; font:500 12.5px 'IBM Plex Sans',sans-serif; padding:6px 11px; border-radius:999px; border:1px solid var(--line); background:var(--ink-raised); color:var(--parchment); cursor:pointer; }
+  .th-start i{ width:9px; height:9px; border-radius:50%; background:var(--c); }
+  .rf-sbs{ display:inline-block; margin:4px 0 0; font:600 11px 'IBM Plex Sans',sans-serif; color:var(--gold); background:rgba(var(--gold-rgb),.1); border:1px solid rgba(var(--gold-rgb),.35); border-radius:999px; padding:3px 9px; cursor:pointer; }
+
+  /* r149: Journeys on the map */
+  .map-jbtn{ flex:none; display:inline-flex; align-items:center; gap:6px; background:none; color:var(--gold); border:1px solid rgba(var(--gold-rgb),.5); border-radius:999px; padding:4px 11px; font:600 11.5px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .map-jbtn svg{ width:14px; height:14px; }
+  .map-jbtn.on, .map-jbtn[aria-expanded="true"]{ background:rgba(var(--gold-rgb),.14); }
+  .jr-panel .mf-body{ padding-top:4px; }
+  .jr-gh{ margin:10px 0 6px; font:600 10px 'IBM Plex Mono',monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--gold); }
+  .jr-item{ display:flex; align-items:center; gap:10px; width:100%; text-align:left; padding:9px 10px; margin:0 0 6px; border:1px solid var(--line); border-radius:10px; background:none; color:var(--parchment); cursor:pointer; font-family:inherit; }
+  .jr-item i{ flex:none; width:6px; align-self:stretch; border-radius:3px; background:var(--c); }
+  .jr-item b{ display:block; font-size:13px; }
+  .jr-item em{ display:block; font-style:normal; font-size:11.5px; color:var(--parchment-dim); }
+  .jr-item.on{ border-color:var(--c); background:rgba(var(--gold-rgb),.08); }
+  .jr-foot{ margin:6px 0 4px; font-size:11px; line-height:1.4; color:var(--parchment-dim); }
+  .jr-bar{ pointer-events:auto; padding:8px 10px; gap:6px; }
+  .jr-bar[hidden]{ display:none; }
+  .jr-top{ display:flex; align-items:center; gap:8px; }
+  .jr-top i{ width:10px; height:10px; border-radius:50%; background:var(--c); flex:none; }
+  .jr-top b{ flex:1; font-size:13px; color:var(--parchment); }
+  .jr-all{ background:none; border:1px solid var(--line); border-radius:999px; padding:3px 9px; font:600 10.5px 'IBM Plex Sans',sans-serif; color:var(--gold); cursor:pointer; }
+  .jr-x{ background:none; border:0; font-size:20px; line-height:1; color:var(--parchment-dim); cursor:pointer; padding:0 4px; }
+  .jr-blurb{ margin:0; font-size:12px; line-height:1.45; color:var(--parchment); }
+  .jr-begin{ align-self:flex-start; background:var(--c); color:#fffaf0; border:0; border-radius:999px; padding:5px 12px; font:600 11.5px 'IBM Plex Sans',sans-serif; cursor:pointer; }
+  .jr-stop{ display:flex; align-items:center; gap:6px; }
+  .jr-step{ flex:none; width:34px; height:44px; border:1px solid var(--line); border-radius:9px; background:none; color:var(--parchment); font-size:22px; line-height:1; cursor:pointer; }
+  .jr-step:disabled{ opacity:.3; cursor:default; }
+  .jr-mid{ flex:1; min-width:0; display:flex; flex-direction:column; gap:1px; font-size:12px; line-height:1.35; color:var(--parchment); }
+  .jr-k{ font:600 10px 'IBM Plex Mono',monospace; letter-spacing:.06em; color:var(--c); text-transform:uppercase; }
+  .jr-mid b{ font-size:13.5px; }
+  .jr-t{ color:var(--parchment); }
+  .jr-note{ color:var(--parchment-dim); font-size:11.5px; }
+  .jr-ref{ align-self:flex-start; margin-top:3px; background:none; border:0; padding:0; color:var(--gold); font:600 11.5px 'IBM Plex Sans',sans-serif; cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
+  .jr-pin{ min-width:22px; height:22px; padding:0 5px; border-radius:11px; border:2px solid #fffaf0; background:var(--c); color:#fffaf0; font:700 10.5px/18px 'IBM Plex Sans',sans-serif; box-shadow:0 1px 5px rgba(0,0,0,.35); cursor:pointer; white-space:nowrap; }
+  .jr-pin.on{ transform:scale(1.35); z-index:3; box-shadow:0 0 0 4px rgba(255,250,240,.6), 0 2px 8px rgba(0,0,0,.4); }
+  .jr-pin.past{ opacity:.6; }
+  .map-wrap.jr-on .maplibregl-marker:not(.jr-pin){ filter:opacity(.2) grayscale(.6); pointer-events:none; }
+  .maplibregl-marker.jr-pin{ z-index:10; }
 </style>
 </head>
 <body>
@@ -4447,6 +4573,7 @@
           <button type="button" class="vt-btn" id="vtOpen" aria-haspopup="listbox" aria-expanded="false" aria-label="Bible version">BSB ▾</button>
           <div class="vt-menu" id="vtMenu" role="listbox" aria-label="Bible version" hidden></div>
         </div>
+        <div class="rv-wrap"><button type="button" class="rd-view" id="rdView" aria-haspopup="true" aria-expanded="false" aria-label="Reading view: layout and poetry guide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 6h16M4 10h16M7 14h13M7 18h10"/></svg></button><div class="rv-menu" id="rdViewMenu" hidden></div></div>
         <button type="button" class="rd-search" data-search aria-label="Search the Bible"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
       </div>
       <div class="reader" id="reader">
@@ -5001,13 +5128,19 @@
           <div class="st-row"><span class="st-l">Line spacing</span>
             <div class="st-seg" data-key="lh" role="group" aria-label="Line spacing"><button type="button" data-v="tight">Tight</button><button type="button" data-v="normal">Normal</button><button type="button" data-v="roomy">Roomy</button></div>
           </div>
+          <div class="st-row"><span class="st-l">Layout</span>
+            <div class="st-seg" data-key="layout" role="group" aria-label="Layout"><button type="button" data-v="verses">Verses</button><button type="button" data-v="reader">Reader&rsquo;s</button></div>
+          </div>
+          <div class="st-row"><span class="st-l">Poetry guide</span>
+            <div class="st-seg" data-key="poetry" role="group" aria-label="Poetry guide"><button type="button" data-v="off">Off</button><button type="button" data-v="on">On</button></div>
+          </div>
           <div class="st-row"><span class="st-l">Verse numbers</span>
             <div class="st-seg" data-key="vnums" role="group" aria-label="Verse numbers"><button type="button" data-v="on">Show</button><button type="button" data-v="off">Hide</button></div>
           </div>
           <div class="st-row"><span class="st-l"><span class="wj">Words of Jesus</span> in red</span>
             <div class="st-seg" data-key="redletter" role="group" aria-label="Words of Jesus in red"><button type="button" data-v="on">On</button><button type="button" data-v="off">Off</button></div>
           </div>
-          <p class="st-hint">Applies to the Bible text in Read and in the verse card. Red letters show in the BSB.</p>
+          <p class="st-hint">Applies to the Bible text in Read and in the verse card. Red letters show in the BSB. Reader&rsquo;s layout drops the verse numbers and sets the text in paragraphs and poetry lines, like a book. The poetry guide colors the structure of selected poems.</p>
         </section>
 
         <section class="st-card">
@@ -5116,6 +5249,8 @@
 <script src="compare.js"></script>
 <script src="genealogy.js"></script>
 <script src="viz.js"></script>
+<script src="rmode.js"></script>
+<script src="journeys.js"></script>
 <script src="commentary.js"></script>
 <script src="glossary.js"></script>
 <script src="home.js"></script>

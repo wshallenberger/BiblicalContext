@@ -4,11 +4,11 @@
  *   - Data (chapters, commentary, timeline, ...) is served from the phone's saved copy first and refreshed in the background.
  *   - ESV and NLT text (/api/...) is NEVER saved: the publishers do not allow it, so those versions need a connection.
  */
-const VER = 'r148';
+const VER = 'r149';
 const SHELL = 'vi-shell-' + VER;
 const DATA = 'vi-data';                     // chapters and pictures; survives updates; this is what "Download for offline use" fills
 const CDN = ['fonts.googleapis.com', 'fonts.gstatic.com', 'unpkg.com'];
-const SHELL_FILES = ['./', 'index.html', 'books.js', 'bcpick.js', 'app.js', 'settings.js', 'music.js', 'saved.js', 'plans.js', 'search.js', 'parallels.js', 'compare.js', 'genealogy.js', 'viz.js', 'commentary.js', 'glossary.js', 'home.js', 'vtrans.js', 'translations.js', 'pwa.js', 'manifest.webmanifest',
+const SHELL_FILES = ['./', 'index.html', 'books.js', 'bcpick.js', 'app.js', 'settings.js', 'music.js', 'saved.js', 'plans.js', 'search.js', 'parallels.js', 'compare.js', 'genealogy.js', 'viz.js', 'rmode.js', 'journeys.js', 'commentary.js', 'glossary.js', 'home.js', 'vtrans.js', 'translations.js', 'pwa.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png', 'images/brand/logo.png', 'images/brand/logo-dark.png',
   'data/translations/registry.json', 'data/manifest.json'];
 

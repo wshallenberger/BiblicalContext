@@ -626,8 +626,9 @@ readChapterSelect.addEventListener('change', () => handleChapterChange(readChapt
 ddBookSelect.addEventListener('change', () => handleBookChange(ddBookSelect.value));
 ddChapterSelect.addEventListener('change', () => handleChapterChange(ddChapterSelect.value));
 
+let harmonyFrom = 'deepdive';      // side by side goes back to where it was opened from (Deep Dive or Connections)
 document.getElementById('harmonyBackBtn').addEventListener('click', () => {
-  goToScreen('deepdive');
+  goToScreen(harmonyFrom || 'deepdive');
 });
 
 // ---------- Deep Dive landing page: pick a book (its overview opens), then a chapter ----------
@@ -1297,7 +1298,14 @@ function tlThreadBarDraw() {
   const n = sel.reduce((s, o) => s + o.arcs.length, 0);
   let blurb;
   const empty = tlEl('tlThEmpty');
-  if (empty) { empty.hidden = sel.length > 0 || tlThOpen.length > 0; empty.textContent = 'Pick one or more layers to draw how the books of the Bible refer to each other. Each arc runs from the book that is quoted to the book that quotes it.'; }
+  if (empty) {
+    empty.hidden = sel.length > 0 || tlThOpen.length > 0;
+    // a first visit should not start with 60 choices: four good layers to start with, one tap each
+    const starts = ['prophecy', 'lamb', 'king', 'creation'].map(id => refs.find(o => o.id === id)).filter(Boolean);
+    empty.innerHTML = 'Pick a layer to draw how the books of the Bible refer to each other. Each arc runs from the passage that is quoted to the one that quotes it.' +
+      (starts.length ? '<span class="th-starts"><b>Start with one</b>' + starts.map(o => `<button type="button" class="th-start" data-ov="${o.id}" style="--c:${o.color}"><i></i>${escHtml(o.name)}</button>`).join('') + '</span>' : '');
+    if (!empty.dataset.bound) { empty.dataset.bound = '1'; empty.addEventListener('click', ev => { const b = ev.target.closest('.th-start'); if (b) tlToggleOv(b.dataset.ov); }); }
+  }
   if (!sel.length) blurb = '';
   else if (sel.length === 1) blurb = `<b>${escHtml(sel[0].name)}.</b> ${escHtml(sel[0].blurb)}`;
   else blurb = `<b>${sel.length} layers on.</b> Tap a book to see its exact references, or tap an arc to see just those two books.`;
@@ -1451,6 +1459,25 @@ function tlOpenRef(bi, ref) {
   if (mb && mb.availableChapters.includes(ch)) openPassage(mb.slug, ch, 1, false);
   else window.open('https://www.biblegateway.com/passage/?search=' + encodeURIComponent(nm + ' ' + ref) + '&version=BSB', '_blank', 'noopener');
 }
+// "13:8" -> chapter 13, verse 8; "5:6-12" -> 5, 6 to 12; "18:13-20:19" -> 18 from 13; "1-16" or "104" -> the whole chapter
+function tlParseRef(r) {
+  const m = String(r || '').match(/^(\d+)(?::(\d+)(?:-(\d+)(?!:))?)?/); if (!m) return null;
+  const ch = Number(m[1]), vs = m[2] ? Number(m[2]) : null, ve = m[3] ? Number(m[3]) : (vs && /^\d+:\d+-\d+:/.test(r) ? 999 : vs);
+  return { ch, vs, ve };
+}
+function tlSlugOf(bi) {
+  const nm = TL_BOOKS[bi][0], mb = typeof manifest !== 'undefined' && manifest && manifest.books.find(b => b.name === nm);
+  return mb ? mb : null;
+}
+// both passages are in the app: they can be read side by side
+function tlSbsOk(a) {
+  const A = tlSlugOf(a[0]), B = tlSlugOf(a[1]), ra = tlParseRef(a[2]), rb = tlParseRef(a[3]);
+  return !!(A && B && ra && rb && A.availableChapters.includes(ra.ch) && B.availableChapters.includes(rb.ch));
+}
+function tlSideBySide(a) {
+  const A = tlSlugOf(a[0]), B = tlSlugOf(a[1]), ra = tlParseRef(a[2]), rb = tlParseRef(a[3]);
+  openHarmony(A.slug, ra.ch, ra.vs, ra.ve, B.slug, rb.ch, rb.vs, rb.ve);
+}
 const tlRefName = (bi, r) => (bi === 18 ? 'Psalm' : TL_BOOKS[bi][0]) + (r ? ' ' + r : '');
 function tlRefsPanel() {
   const box = tlEl('tlDetail'), B = tlRB, P = tlRP;
@@ -1460,7 +1487,7 @@ function tlRefsPanel() {
     if (P ? ((a[0] === P[0] && a[1] === P[1]) || (a[0] === P[1] && a[1] === P[0])) : (a[0] === B || a[1] === B)) rows.push({ o, a });
   }));
   const col = TL_GROUPS[TL_BOOKS[P ? P[0] : B][2]].c;
-  const line = r => `<li><i style="background:${r.o.color}" title="${escHtml(r.o.name)}"></i><span class="rf" data-bi="${r.a[0]}" data-r="${escHtml(r.a[2])}">${escHtml(tlRefName(r.a[0], r.a[2]))}</span> <span class="ar-to">&rarr;</span> <span class="rf" data-bi="${r.a[1]}" data-r="${escHtml(r.a[3])}">${escHtml(tlRefName(r.a[1], r.a[3]))}</span>${r.a[4] ? `<em>${escHtml(r.a[4])}</em>` : ''}</li>`;
+  const line = r => `<li><i style="background:${r.o.color}" title="${escHtml(r.o.name)}"></i><span class="rf" data-bi="${r.a[0]}" data-r="${escHtml(r.a[2])}">${escHtml(tlRefName(r.a[0], r.a[2]))}</span> <span class="ar-to">&rarr;</span> <span class="rf" data-bi="${r.a[1]}" data-r="${escHtml(r.a[3])}">${escHtml(tlRefName(r.a[1], r.a[3]))}</span>${r.a[4] ? `<em>${escHtml(r.a[4])}</em>` : ''}${tlSbsOk(r.a) ? `<button type="button" class="rf-sbs" data-sbs="${rows.indexOf(r)}">Side by side</button>` : ''}</li>`;
   let body = '', head, sub;
   if (P) {
     head = TL_BOOKS[P[0]][0] + ' ↔ ' + TL_BOOKS[P[1]][0];
@@ -1485,6 +1512,7 @@ function tlRefsPanel() {
   box.hidden = false; tlEl('screen-timeline').classList.add('has-detail');
   box.querySelector('.tl-x').addEventListener('click', () => { tlRB = null; tlRP = null; tlThreadsStyle(); tlRefsClose(); });
   box.querySelectorAll('.rf').forEach(s => s.addEventListener('click', () => tlOpenRef(Number(s.dataset.bi), s.dataset.r)));
+  box.querySelectorAll('.rf-sbs').forEach(s => s.addEventListener('click', () => tlSideBySide(rows[Number(s.dataset.sbs)].a)));
   const rd = box.querySelector('[data-a="read"]'); if (rd) rd.addEventListener('click', () => tlOpenRef(B, '1'));
   box.scrollTop = 0;
   tlThreadsFit();
@@ -2204,9 +2232,27 @@ function rlClearText(p) { Array.from(p.childNodes).forEach(n => { if (!(n.nodeTy
 window.paintBsbVerse = function (p) {
   try {
     const num = Number(p.dataset.verse), e = currentChapterData.verses.find(v => v.num === num); if (!e) return;
-    rlClearText(p); p.appendChild(rlFragment(currentBook, currentChapterNum, num, e.text)); delete p.dataset.ver; p.classList.remove('vt-missing');
+    rlClearText(p);
+    if (p.dataset.a != null) {      // a piece of a verse in Reader's layout
+      const a = Number(p.dataset.a), b = Math.min(Number(p.dataset.b), e.text.length);
+      p.appendChild(rlSlice(currentBook, currentChapterNum, num, e.text, a, b)); p.classList.remove('rd-empty');
+    } else p.appendChild(rlFragment(currentBook, currentChapterNum, num, e.text));
+    delete p.dataset.ver; p.classList.remove('vt-missing');
+    if (window.RM) RM.soon();
   } catch (err) {}
 };
+// part of a verse (characters a to b) with the red letters that fall inside it
+function rlSlice(book, ch, num, text, a, b) {
+  const f = document.createDocumentFragment(), sp = rlSpans(book, ch, num) || [];
+  let p = a;
+  sp.forEach(([x0, y0]) => {
+    const x = Math.max(a, x0), y = Math.min(b, y0); if (x >= y) return;
+    if (x > p) f.appendChild(document.createTextNode(text.slice(p, x)));
+    const s = document.createElement('span'); s.className = 'wj'; s.textContent = text.slice(x, y); f.appendChild(s); p = y;
+  });
+  if (p < b) f.appendChild(document.createTextNode(text.slice(p, b)));
+  return f;
+}
 // Red letters in the other versions: the red-letter data is written for the BSB text, so for another version the words are lined up with the BSB's
 // (the words both share are anchors; the words in between are spread evenly) and the red span is moved onto the matching words. It is close, not exact.
 function rlWords(t) { const out = [], re = /[A-Za-z0-9\u00C0-\u024F'\u2019]+/g; let m; while ((m = re.exec(t))) out.push({ a: m.index, b: m.index + m[0].length, k: m[0].toLowerCase().replace(/[\u2019']/g, '') }); return out; }
@@ -2261,9 +2307,14 @@ function rlFragmentSpans(text, sp) {
 function rlSpansFor(book, ch, num, bsbText, text) { const sp = rlSpans(book, ch, num); return sp ? rlAlign(bsbText, sp, text) : []; }
 window.setVerseText = function (p, t, ver) {
   rlClearText(p);
+  if (p.dataset.a != null) {      // Reader's layout: another version's verse can't be split into the BSB's lines, so the whole verse goes in its first piece
+    if (p.dataset.a !== '0') { p.classList.add('rd-empty'); p.dataset.ver = ver || ''; if (window.RM) RM.soon(); return; }
+    t = t + ' ';
+  }
   let sp = [];
   try { const num = Number(p.dataset.verse), e = currentChapterData.verses.find(v => v.num === num); if (e) sp = rlSpansFor(currentBook, currentChapterNum, num, e.text, t); } catch (err) {}
   p.appendChild(rlFragmentSpans(t, sp)); p.dataset.ver = ver || ''; p.classList.remove('vt-missing');
+  if (window.RM) RM.soon();
 };
 // the verse sheet's text in another version, with the red letters moved over
 window.rlHtmlVer = function (book, ch, num, bsbText, text, wrap) {
@@ -2285,6 +2336,7 @@ async function loadChapter() {
     applyPlacesExtra(currentChapterData, await loadPlacesExtra());
     await wwP;
     await loadRedLetter(currentBook);
+    if (window.RM) await RM.prep(currentBook);
   } catch (err) {
     bookLabel.textContent = '';
     chapterTitle.textContent = '';
@@ -2306,6 +2358,7 @@ function renderChapter() {
   chapterTitle.textContent = ch.title;
 
   verseListEl.innerHTML = '';
+  if (!(window.RM && RM.render(ch))) {
   // a psalm's title (superscription): part of the Hebrew text, printed above verse 1 in English Bibles
   if (ch.superscription) { const t = document.createElement('p'); t.className = 'ps-title'; t.textContent = ch.superscription; t.dataset.bsb = ch.superscription; verseListEl.appendChild(t); }
   ch.verses.forEach(({ num, text }) => {
@@ -2320,9 +2373,11 @@ function renderChapter() {
     p.addEventListener('click', () => openSummary(num));
     verseListEl.appendChild(p);
   });
+  }
   try { if (window.Saved) Saved.decorate(); } catch (e) { /* saved verses are optional */ }
   try { if (window.VT) VT.afterRender(currentBook, currentChapterNum); } catch (e) { /* versions are optional */ }
   try { if (window.Plans) Plans.afterRender(currentBook, currentChapterNum); } catch (e) { /* plans are optional */ }
+  try { if (window.RM) RM.after(currentBook, currentChapterNum); } catch (e) { /* the poetry guide is optional */ }
 }
 
 // ---------- Summary sheet ----------
@@ -3412,13 +3467,14 @@ async function openHarmony(bookA, chA, verseStartA, verseEndA, bookB, chB, verse
     fetchJSON(`data/${bookA}/${chA}.json`),
     fetchJSON(`data/${bookB}/${chB}.json`)
   ]);
-  const shortA = getShortName(bookA), shortB = getShortName(bookB);
+  const shortA = getShortName(bookA) + ' ', shortB = getShortName(bookB) + ' ';
+  harmonyFrom = currentScreen === 'harmony' ? harmonyFrom : (currentScreen || 'deepdive');
 
-  document.getElementById('harmonyTitleA').textContent = `${shortA}${chA}` + (verseStartA ? `:${verseStartA}${verseEndA !== verseStartA ? '-' + verseEndA : ''}` : '');
+  document.getElementById('harmonyTitleA').textContent = `${shortA}${chA}` + (verseStartA ? `:${verseStartA}${verseEndA && verseEndA !== verseStartA ? (verseEndA >= 999 ? 'ff' : '-' + verseEndA) : ''}` : '');
   document.getElementById('harmonySubtitleA').textContent = dataA.title;
   renderHarmonyVerses('harmonyVersesA', dataA, verseStartA, verseEndA);
 
-  document.getElementById('harmonyTitleB').textContent = `${shortB}${chB}` + (verseStartB ? `:${verseStartB}${verseEndB !== verseStartB ? '-' + verseEndB : ''}` : '');
+  document.getElementById('harmonyTitleB').textContent = `${shortB}${chB}` + (verseStartB ? `:${verseStartB}${verseEndB && verseEndB !== verseStartB ? (verseEndB >= 999 ? 'ff' : '-' + verseEndB) : ''}` : '');
   document.getElementById('harmonySubtitleB').textContent = dataB.title;
   renderHarmonyVerses('harmonyVersesB', dataB, verseStartB, verseEndB);
 

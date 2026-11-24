@@ -312,13 +312,17 @@
   function renderMore() {
     var b = $('vzMoreList'); if (!b || b.dataset.done) return; b.dataset.done = '1';
     var row = function (scr, ic, t, d) { return '<button type="button" class="more-row" data-vz="' + scr + '">' + ic + '<span class="more-t"><b>' + t + '</b><i>' + d + '</i></span><em>›</em></button>'; };
-    b.innerHTML = row('heatmap', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="9.5" y="3" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="16" y="3" width="5" height="5" rx="1" fill="currentColor"/><rect x="3" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".6"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><rect x="16" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="3" y="16" width="5" height="5" rx="1"/><rect x="9.5" y="16" width="5" height="5" rx="1" fill="currentColor"/><rect x="16" y="16" width="5" height="5" rx="1"/></svg>', 'Words: heatmap and word cloud', 'See where a word lives across the books, or the words a book uses most.');
+    b.innerHTML = row('heatmap', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="9.5" y="3" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="16" y="3" width="5" height="5" rx="1" fill="currentColor"/><rect x="3" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".6"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><rect x="16" y="9.5" width="5" height="5" rx="1" fill="currentColor" opacity=".35"/><rect x="3" y="16" width="5" height="5" rx="1"/><rect x="9.5" y="16" width="5" height="5" rx="1" fill="currentColor"/><rect x="16" y="16" width="5" height="5" rx="1"/></svg>', 'Words: heatmap and word cloud', 'See where a word lives across the books, or the words a book uses most.') +
+      row('journeys', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 19c3-1.5 3-6 8-6s5-4.5 8-7" stroke-dasharray="2.6 2.2"/><circle cx="4" cy="19" r="2" fill="currentColor"/><circle cx="20" cy="6" r="2" fill="currentColor"/></svg>', 'Journeys', 'Follow Abraham, the Exodus, Paul and others stop by stop on the map.');
   }
   document.addEventListener('click', function (ev) {
     var t = ev.target;
     if (!t.closest) return;
     var b;
-    if ((b = t.closest('#vzMoreList [data-vz]'))) { try { goToScreen(b.dataset.vz); } catch (e) {} return; }
+    if ((b = t.closest('#vzMoreList [data-vz]'))) {
+      if (b.dataset.vz === 'journeys') { try { goToScreen('map'); setTimeout(function () { if (window.Journeys) Journeys.open(); }, 120); } catch (e) {} return; }
+      try { goToScreen(b.dataset.vz); } catch (e) {} return;
+    }
     if ((b = t.closest('#vzHsug [data-q]'))) { heatSearch(b.dataset.q); return; }
     if ((b = t.closest('#vzTabs [data-vt]'))) { hm.tab = b.dataset.vt; draw(); return; }
     if ((b = t.closest('#vzHsize [data-sz]'))) { hm.size = b.dataset.sz; draw(); return; }
