@@ -3255,6 +3255,106 @@
   "genesis:25": [
    "gn_esau",
    "gn_machpelah2"
+  ],
+  "genesis:26": [
+   "gn_loggiaisaac",
+   "gn_beersheba"
+  ],
+  "genesis:27": [
+   "gn_flinck",
+   "gn_negev"
+  ],
+  "genesis:28": [
+   "gn_riberadream",
+   "gn_bethel"
+  ],
+  "genesis:29": [
+   "gn_palma",
+   "gn_jacobswell"
+  ],
+  "genesis:30": [
+   "gn_murillorods",
+   "gn_harran"
+  ],
+  "genesis:31": [
+   "gn_tiepoloidols",
+   "gn_harran"
+  ],
+  "genesis:32": [
+   "gn_rembrandtwrestle",
+   "gn_jabbok"
+  ],
+  "genesis:33": [
+   "gn_rubensesau",
+   "gn_deiralla"
+  ],
+  "genesis:34": [
+   "gn_dinah",
+   "gn_shechem"
+  ],
+  "genesis:35": [
+   "gn_furini",
+   "gn_rachelstomb"
+  ],
+  "genesis:36": [
+   "gn_esau",
+   "gn_edomold"
+  ],
+  "genesis:37": [
+   "gn_velazquez",
+   "gn_dothan"
+  ],
+  "genesis:38": [
+   "gn_vernettamar",
+   "gn_seal"
+  ],
+  "genesis:39": [
+   "gn_potiphar",
+   "gn_meketregarden"
+  ],
+  "genesis:40": [
+   "gn_tissotprison",
+   "gn_meketrebakery"
+  ],
+  "genesis:41": [
+   "gn_corneliuspharaoh",
+   "gn_nile"
+  ],
+  "genesis:42": [
+   "gn_bourgeois",
+   "gn_granary"
+  ],
+  "genesis:43": [
+   "gn_tissotsacks",
+   "gn_banquet"
+  ],
+  "genesis:44": [
+   "gn_tissotjudah",
+   "gn_cups"
+  ],
+  "genesis:45": [
+   "gn_corneliusreveal",
+   "gn_nile"
+  ],
+  "genesis:46": [
+   "gn_aamu",
+   "gn_chariot"
+  ],
+  "genesis:47": [
+   "gn_tissotwelcomed",
+   "gn_avaris"
+  ],
+  "genesis:48": [
+   "gn_rembrandtkassel",
+   "gn_shechem"
+  ],
+  "genesis:49": [
+   "gn_tissotlast",
+   "gn_machpelah"
+  ],
+  "genesis:50": [
+   "gn_tissotdwelleth",
+   "gn_josephtomb"
   ]
  },
  "ac_ascmat": {
@@ -8079,6 +8179,190 @@
   "d": "Esau Selling His Birthright, by Hendrick ter Brugghen (about 1625, Thyssen-Bornemisza Museum, Madrid). “Jacob gave some bread and lentil stew to Esau, who ate and drank and then got up and went away. Thus Esau despised his birthright” (Genesis 25:34).",
   "a": "Hendrick ter Brugghen (about 1625) / Wikimedia Commons"
  },
+ "gn_loggiaisaac": {
+  "k": "art",
+  "f": "Loggia_di_raffaello_07.jpg",
+  "c": "Isaac and Rebekah, from the frescoes of the Vatican Loggia designed by Raphael and painted by his workshop (1518-19). Abimelech learned they were husband and wife when he “looked down from the window and was surprised to see Isaac caressing his wife Rebekah” (Genesis 26:8).",
+  "n": "Raphael’s workshop, Isaac and Rebekah",
+  "d": "Isaac and Rebekah, from the frescoes of the Vatican Loggia designed by Raphael and painted by his workshop (1518-19). Abimelech learned they were husband and wife when he “looked down from the window and was surprised to see Isaac caressing his wife Rebekah” (Genesis 26:8).",
+  "a": "Workshop of Raphael (1518-19), Vatican Loggia, public domain / Wikimedia Commons"
+ },
+ "gn_flinck": {
+  "k": "art",
+  "f": "Govert_Flinck_-_Isaac_Blessing_Jacob_-_WGA07930.jpg",
+  "c": "Isaac Blessing Jacob, by Govert Flinck (1638, Rijksmuseum, Amsterdam). The blind old man reaches for his son’s goatskin-covered hands while Rebekah watches from beside the bed: “The voice is the voice of Jacob, but the hands are the hands of Esau” (Genesis 27:22).",
+  "n": "Flinck, Isaac Blessing Jacob",
+  "d": "Isaac Blessing Jacob, by Govert Flinck (1638, Rijksmuseum, Amsterdam). The blind old man reaches for his son’s goatskin-covered hands while Rebekah watches from beside the bed: “The voice is the voice of Jacob, but the hands are the hands of Esau” (Genesis 27:22).",
+  "a": "Govert Flinck (1638), public domain / Wikimedia Commons"
+ },
+ "gn_riberadream": {
+  "k": "art",
+  "f": "José_de_Ribera_-_Jacob's_Dream_-_WGA19383.jpg",
+  "c": "Jacob’s Dream, by Jusepe de Ribera (1639, Prado, Madrid). Ribera paints Jacob asleep in the open with only a faint golden light above him; the ladder is barely there, the dream is all in his face (Genesis 28:12).",
+  "n": "Ribera, Jacob’s Dream",
+  "d": "Jacob’s Dream, by Jusepe de Ribera (1639, Prado, Madrid). Ribera paints Jacob asleep in the open with only a faint golden light above him; the ladder is barely there, the dream is all in his face (Genesis 28:12).",
+  "a": "Jusepe de Ribera (1639), public domain / Wikimedia Commons"
+ },
+ "gn_palma": {
+  "k": "art",
+  "f": "Palma_il_Vecchio_-_Jacob_and_Rachel_-_WGA16935.jpg",
+  "c": "Jacob and Rachel, by Palma Vecchio (about 1520-25, Gemäldegalerie, Dresden). Jacob greets Rachel at the well while the shepherds and flocks wait: “Then Jacob kissed Rachel and wept aloud” (Genesis 29:11).",
+  "n": "Palma Vecchio, Jacob and Rachel",
+  "d": "Jacob and Rachel, by Palma Vecchio (about 1520-25, Gemäldegalerie, Dresden). Jacob greets Rachel at the well while the shepherds and flocks wait: “Then Jacob kissed Rachel and wept aloud” (Genesis 29:11).",
+  "a": "Palma Vecchio (about 1520-25), public domain / Wikimedia Commons"
+ },
+ "gn_murillorods": {
+  "k": "art",
+  "f": "Jacob_Laying_Peeled_Rods_before_the_Flocks_of_Laban,_by_Bartolome_Esteban_Murillo,_Spanish,_c._1665,_oil_on_canvas_-_Meadows_Museum_-_Southern_Methodist_University_-_DSC05364.jpg",
+  "c": "Jacob Laying Peeled Rods before the Flocks of Laban, by Bartolomé Esteban Murillo (about 1665, Meadows Museum, Dallas). Jacob sets the striped branches in the watering troughs (Genesis 30:37-39).",
+  "n": "Murillo, Jacob and Laban’s Flocks",
+  "d": "Jacob Laying Peeled Rods before the Flocks of Laban, by Bartolomé Esteban Murillo (about 1665, Meadows Museum, Dallas). Jacob sets the striped branches in the watering troughs (Genesis 30:37-39).",
+  "a": "Bartolomé Esteban Murillo (about 1665); photo Daderot, public domain / Wikimedia Commons"
+ },
+ "gn_tiepoloidols": {
+  "k": "art",
+  "f": "Giovanni_Battista_Tiepolo_-_Rachel_Hiding_the_Idols_from_her_Father_Laban_-_WGA22245.jpg",
+  "c": "Rachel Hiding the Idols from her Father Laban, by Giovanni Battista Tiepolo (1726-28, Archbishop’s Palace, Udine). Rachel sits on the camel saddle where the household gods are hidden: “Sir, do not be angry that I cannot stand up before you” (Genesis 31:35).",
+  "n": "Tiepolo, Rachel Hiding the Idols",
+  "d": "Rachel Hiding the Idols from her Father Laban, by Giovanni Battista Tiepolo (1726-28, Archbishop’s Palace, Udine). Rachel sits on the camel saddle where the household gods are hidden: “Sir, do not be angry that I cannot stand up before you” (Genesis 31:35).",
+  "a": "Giovanni Battista Tiepolo (1726-28), public domain / Wikimedia Commons"
+ },
+ "gn_rembrandtwrestle": {
+  "k": "art",
+  "f": "Rembrandt_-_Jacob_Wrestling_with_the_Angel_-_Google_Art_Project.jpg",
+  "c": "Jacob Wrestling with the Angel, by Rembrandt (about 1659, Gemäldegalerie, Berlin). The struggle looks almost like an embrace. “I will not let you go unless you bless me” (Genesis 32:26).",
+  "n": "Rembrandt, Jacob Wrestling",
+  "d": "Jacob Wrestling with the Angel, by Rembrandt (about 1659, Gemäldegalerie, Berlin). The struggle looks almost like an embrace. “I will not let you go unless you bless me” (Genesis 32:26).",
+  "a": "Rembrandt (about 1659), public domain / Wikimedia Commons"
+ },
+ "gn_rubensesau": {
+  "k": "art",
+  "f": "Sir_Peter_Paul_Rubens_-_The_Reconciliation_of_Jacob_and_Esau_-_NG_2397_-_National_Galleries_of_Scotland.jpg",
+  "c": "The Reconciliation of Jacob and Esau, by Peter Paul Rubens (1624, Scottish National Gallery, Edinburgh). Esau comes with his armed men, and Jacob’s family bows before him: “Esau, however, ran to him and embraced him” (Genesis 33:4).",
+  "n": "Rubens, Jacob and Esau Reconciled",
+  "d": "The Reconciliation of Jacob and Esau, by Peter Paul Rubens (1624, Scottish National Gallery, Edinburgh). Esau comes with his armed men, and Jacob’s family bows before him: “Esau, however, ran to him and embraced him” (Genesis 33:4).",
+  "a": "Peter Paul Rubens (1624), public domain / Wikimedia Commons"
+ },
+ "gn_dinah": {
+  "k": "art",
+  "f": "Dinah_tissot.jpg",
+  "c": "Dinah, by James Tissot (about 1896-1902, Jewish Museum, New York). Leah’s daughter “went out to visit the daughters of the land” (Genesis 34:1), and the story that follows is one of the darkest in Genesis.",
+  "n": "Tissot, Dinah",
+  "d": "Dinah, by James Tissot (about 1896-1902, Jewish Museum, New York). Leah’s daughter “went out to visit the daughters of the land” (Genesis 34:1), and the story that follows is one of the darkest in Genesis.",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_furini": {
+  "k": "art",
+  "f": "The_birth_of_Benjamin_and_the_death_of_Rachel._Oil_painting_Wellcome_V0017370.jpg",
+  "c": "The Birth of Benjamin and the Death of Rachel, after Francesco Furini (17th century, Wellcome Collection, London). Rachel names her son Ben-oni, son of my sorrow, as she dies; Jacob calls him Benjamin (Genesis 35:18).",
+  "n": "After Furini, Death of Rachel",
+  "d": "The Birth of Benjamin and the Death of Rachel, after Francesco Furini (17th century, Wellcome Collection, London). Rachel names her son Ben-oni, son of my sorrow, as she dies; Jacob calls him Benjamin (Genesis 35:18).",
+  "a": "After Francesco Furini; Wellcome Collection, CC BY 4.0 / Wikimedia Commons"
+ },
+ "gn_velazquez": {
+  "k": "art",
+  "f": "Diego_Velázquez_-_Joseph's_Bloody_Coat_Brought_to_Jacob_-_WGA24378.jpg",
+  "c": "Joseph’s Bloody Coat Brought to Jacob, by Diego Velázquez (1630, El Escorial). The brothers hold up the robe dipped in goat’s blood, and Jacob throws up his hands: “It is my son’s robe! A vicious animal has devoured him” (Genesis 37:33).",
+  "n": "Velázquez, Joseph’s Bloody Coat",
+  "d": "Joseph’s Bloody Coat Brought to Jacob, by Diego Velázquez (1630, El Escorial). The brothers hold up the robe dipped in goat’s blood, and Jacob throws up his hands: “It is my son’s robe! A vicious animal has devoured him” (Genesis 37:33).",
+  "a": "Diego Velázquez (1630), public domain / Wikimedia Commons"
+ },
+ "gn_vernettamar": {
+  "k": "art",
+  "f": "Horace_Vernet_-_Judah_and_Tamar_-_WGA24755.jpg",
+  "c": "Judah and Tamar, by Horace Vernet (1840, Wallace Collection, London). Tamar sits veiled by the road to Timnah, and Judah, not knowing her, stops to bargain (Genesis 38:14-16).",
+  "n": "Vernet, Judah and Tamar",
+  "d": "Judah and Tamar, by Horace Vernet (1840, Wallace Collection, London). Tamar sits veiled by the road to Timnah, and Judah, not knowing her, stops to bargain (Genesis 38:14-16).",
+  "a": "Horace Vernet (1840), public domain / Wikimedia Commons"
+ },
+ "gn_potiphar": {
+  "k": "art",
+  "f": "Rembrandt_Workshop,_Joseph_Accused_by_Potiphar's_Wife,_1655,_NGA_86.jpg",
+  "c": "Joseph Accused by Potiphar’s Wife, by Rembrandt’s workshop (1655, National Gallery of Art, Washington). She points to Joseph’s cloak as her proof while Potiphar listens (Genesis 39:16-19).",
+  "n": "Rembrandt workshop, Potiphar’s Wife",
+  "d": "Joseph Accused by Potiphar’s Wife, by Rembrandt’s workshop (1655, National Gallery of Art, Washington). She points to Joseph’s cloak as her proof while Potiphar listens (Genesis 39:16-19).",
+  "a": "Rembrandt workshop (1655), National Gallery of Art, CC0 / Wikimedia Commons"
+ },
+ "gn_tissotprison": {
+  "k": "art",
+  "f": "Tissot_Joseph_Interprets_the_Dreams_While_in_Prison.jpg",
+  "c": "Joseph Interprets the Dreams While in Prison, by James Tissot (about 1896-1902, Jewish Museum, New York). The cupbearer and the baker tell their dreams: “Don’t interpretations belong to God?” (Genesis 40:8).",
+  "n": "Tissot, Dreams in Prison",
+  "d": "Joseph Interprets the Dreams While in Prison, by James Tissot (about 1896-1902, Jewish Museum, New York). The cupbearer and the baker tell their dreams: “Don’t interpretations belong to God?” (Genesis 40:8).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_corneliuspharaoh": {
+  "k": "art",
+  "f": "Peter_von_Cornelius_-_Joseph_Interpreting_Pharaoh's_Dream_-_WGA05271.jpg",
+  "c": "Joseph Interpreting Pharaoh’s Dream, by Peter von Cornelius (1816-17), a fresco painted for the Casa Bartholdy in Rome, now in the Alte Nationalgalerie, Berlin. Joseph explains the fat and gaunt cows and the full and withered ears of grain (Genesis 41:25-32).",
+  "n": "Cornelius, Pharaoh’s Dream",
+  "d": "Joseph Interpreting Pharaoh’s Dream, by Peter von Cornelius (1816-17), a fresco painted for the Casa Bartholdy in Rome, now in the Alte Nationalgalerie, Berlin. Joseph explains the fat and gaunt cows and the full and withered ears of grain (Genesis 41:25-32).",
+  "a": "Peter von Cornelius (1816-17), public domain / Wikimedia Commons"
+ },
+ "gn_bourgeois": {
+  "k": "art",
+  "f": "Bourgeois_Joseph_recognized_by_his_brothers.jpg",
+  "c": "Joseph Recognized by His Brothers, by Léon Pierre Urbain Bourgeois (1863, Musée Frédéric Blandin, Nevers). In chapter 42 the brothers bow before a governor they do not know: “Although Joseph recognized his brothers, they did not recognize him” (Genesis 42:8).",
+  "n": "Bourgeois, Joseph Recognized",
+  "d": "Joseph Recognized by His Brothers, by Léon Pierre Urbain Bourgeois (1863, Musée Frédéric Blandin, Nevers). In chapter 42 the brothers bow before a governor they do not know: “Although Joseph recognized his brothers, they did not recognize him” (Genesis 42:8).",
+  "a": "Léon Pierre Urbain Bourgeois (1863), public domain / Wikimedia Commons"
+ },
+ "gn_tissotjudah": {
+  "k": "art",
+  "f": "Tissot_Joseph_Converses_With_Judah,_His_Brother.jpg",
+  "c": "Joseph Converses with Judah, His Brother, by James Tissot (about 1896-1902, Jewish Museum, New York). “Then Judah approached Joseph and said, ‘Sir, please let your servant speak personally to my lord’” (Genesis 44:18).",
+  "n": "Tissot, Joseph and Judah",
+  "d": "Joseph Converses with Judah, His Brother, by James Tissot (about 1896-1902, Jewish Museum, New York). “Then Judah approached Joseph and said, ‘Sir, please let your servant speak personally to my lord’” (Genesis 44:18).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_corneliusreveal": {
+  "k": "art",
+  "f": "Peter_von_Cornelius_-_Joseph_gibt_sich_seinen_Brüdern_zu_erkennen_-_Google_Art_Project.jpg",
+  "c": "Joseph Reveals Himself to His Brothers, by Peter von Cornelius (1816-17), from the Casa Bartholdy frescoes, now in the Alte Nationalgalerie, Berlin. “I am Joseph! Is my father still alive?” (Genesis 45:3).",
+  "n": "Cornelius, Joseph Reveals Himself",
+  "d": "Joseph Reveals Himself to His Brothers, by Peter von Cornelius (1816-17), from the Casa Bartholdy frescoes, now in the Alte Nationalgalerie, Berlin. “I am Joseph! Is my father still alive?” (Genesis 45:3).",
+  "a": "Peter von Cornelius (1816-17), public domain / Wikimedia Commons"
+ },
+ "gn_tissotwelcomed": {
+  "k": "art",
+  "f": "Tissot_Joseph_and_His_Brethren_Welcomed_by_Pharaoh.jpg",
+  "c": "Joseph and His Brethren Welcomed by Pharaoh, by James Tissot (about 1896-1902, Jewish Museum, New York). Pharaoh receives Jacob’s sons and gives them the land of Goshen (Genesis 47:5-6).",
+  "n": "Tissot, Welcomed by Pharaoh",
+  "d": "Joseph and His Brethren Welcomed by Pharaoh, by James Tissot (about 1896-1902, Jewish Museum, New York). Pharaoh receives Jacob’s sons and gives them the land of Goshen (Genesis 47:5-6).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_rembrandtkassel": {
+  "k": "art",
+  "f": "Rembrandt_van_Rijn_-_Jacob_blessing_Ephraim_and_Manasseh_(Gemäldegalerie_Alte_Meister_Kassel).jpg",
+  "c": "Jacob Blessing the Sons of Joseph, by Rembrandt (1656, Gemäldegalerie Alte Meister, Kassel). The old man’s right hand rests on the younger boy, Ephraim, while Joseph gently tries to move it (Genesis 48:17-19).",
+  "n": "Rembrandt, Jacob Blessing Joseph’s Sons",
+  "d": "Jacob Blessing the Sons of Joseph, by Rembrandt (1656, Gemäldegalerie Alte Meister, Kassel). The old man’s right hand rests on the younger boy, Ephraim, while Joseph gently tries to move it (Genesis 48:17-19).",
+  "a": "Rembrandt (1656), public domain / Wikimedia Commons"
+ },
+ "gn_tissotlast": {
+  "k": "art",
+  "f": "Tissot_Drawing_085_Jacob's_Last_Moments_(Genesis_49_1)_for_Brunoff_080_Les_derniers_moments_de_Jacob.jpg",
+  "c": "Jacob’s Last Moments, a pen drawing by James Tissot for his Old Testament series (published 1904). “Gather around so that I can tell you what will happen to you in the days to come” (Genesis 49:1).",
+  "n": "Tissot, Jacob’s Last Moments",
+  "d": "Jacob’s Last Moments, a pen drawing by James Tissot for his Old Testament series (published 1904). “Gather around so that I can tell you what will happen to you in the days to come” (Genesis 49:1).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_tissotdwelleth": {
+  "k": "art",
+  "f": "James_Jacques_Joseph_Tissot_-_Joseph_Dwelleth_in_Egypt_-_Google_Art_Project.jpg",
+  "c": "Joseph Dwelleth in Egypt, by James Tissot (about 1896-1902, Jewish Museum, New York). Joseph in old age, a great man of Egypt: “Joseph lived to the age of 110” (Genesis 50:22).",
+  "n": "Tissot, Joseph in Egypt",
+  "d": "Joseph Dwelleth in Egypt, by James Tissot (about 1896-1902, Jewish Museum, New York). Joseph in old age, a great man of Egypt: “Joseph lived to the age of 110” (Genesis 50:22).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
+ "gn_tissotsacks": {
+  "k": "art",
+  "f": "Tissot_Drawing_082_Joseph_sends_his_brothers_away_with_full_sacks_(Genesis_43_29)_for_Brunoff_073_Joseph_renvoie_se_frères_leurs_sacs_plein.jpg",
+  "c": "Joseph and his brothers, a pen drawing by James Tissot for his Old Testament series (published 1904). The brothers come back to Egypt with Benjamin, and Joseph sees his mother’s son for the first time in more than twenty years (Genesis 43:29).",
+  "n": "Tissot, Joseph and His Brothers",
+  "d": "Joseph and his brothers, a pen drawing by James Tissot for his Old Testament series (published 1904). The brothers come back to Egypt with Benjamin, and Joseph sees his mother’s son for the first time in more than twenty years (Genesis 43:29).",
+  "a": "James Tissot (about 1896-1902), public domain / Wikimedia Commons"
+ },
  "gn_deepfield": {
   "k": "now",
   "f": "Hubble_ultra_deep_field.jpg",
@@ -8222,5 +8506,149 @@
   "n": "Harran",
   "d": "Beehive houses of mud brick at Harran in southeast Turkey (photographed 1997). Abram’s family settled in Haran on the way from Ur (Genesis 11:31), and his servant went back to this region, Aram-naharaim, to find a wife for Isaac (24:10).",
   "a": "Photo: Dosseman, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "gn_bethel": {
+  "k": "now",
+  "f": "Bethel_from_the_South_(4879201735).jpg",
+  "c": "Bethel (Beitin) from the south, in a lantern slide from about 1915. Jacob named the place where he dreamed “Bethel,” house of God; “previously the city had been named Luz” (Genesis 28:19).",
+  "n": "Bethel (Beitin)",
+  "d": "Bethel (Beitin) from the south, in a lantern slide from about 1915. Jacob named the place where he dreamed “Bethel,” house of God; “previously the city had been named Luz” (Genesis 28:19).",
+  "a": "Oregon State University Special Collections, no known copyright restrictions / Wikimedia Commons"
+ },
+ "gn_jacobswell": {
+  "k": "now",
+  "f": "Jacob's_well.jpg",
+  "c": "Jacob’s Well in the crypt of the church at Balata, Nablus, near ancient Shechem. Genesis 29 is set at a well near Haran, but John 4:6 places Jesus at Jacob’s well in Samaria, and wells run through the stories of Isaac and Jacob.",
+  "n": "Jacob’s Well",
+  "d": "Jacob’s Well in the crypt of the church at Balata, Nablus, near ancient Shechem. Genesis 29 is set at a well near Haran, but John 4:6 places Jesus at Jacob’s well in Samaria, and wells run through the stories of Isaac and Jacob.",
+  "a": "Photo: Granke, CC0 / Wikimedia Commons"
+ },
+ "gn_jabbok": {
+  "k": "now",
+  "f": "Trans_Jordan._River_Jabbok_near_Zerka._Gen_32-22_LOC_matpc.22908.jpg",
+  "c": "The Jabbok (Zarqa) River near Zarqa in Jordan, in a Matson Collection slide labelled for Genesis 32:22. Jacob sent his family across “the ford of the Jabbok” and stayed behind alone, and there he wrestled until daybreak.",
+  "n": "The Jabbok River",
+  "d": "The Jabbok (Zarqa) River near Zarqa in Jordan, in a Matson Collection slide labelled for Genesis 32:22. Jacob sent his family across “the ford of the Jabbok” and stayed behind alone, and there he wrestled until daybreak.",
+  "a": "Matson Collection, Library of Congress, public domain / Wikimedia Commons"
+ },
+ "gn_deiralla": {
+  "k": "dig",
+  "f": "Tell_Deir_Alla_Archaeological_Site.jpg",
+  "c": "Tell Deir Alla in the Jordan valley, often identified with Succoth, where Jacob built a house and shelters for his livestock (Genesis 33:17).",
+  "n": "Tell Deir Alla (Succoth)",
+  "d": "Tell Deir Alla in the Jordan valley, often identified with Succoth, where Jacob built a house and shelters for his livestock (Genesis 33:17).",
+  "a": "Photo: Mohammad hajeer, CC BY-SA 4.0 / Wikimedia Commons"
+ },
+ "gn_rachelstomb": {
+  "k": "now",
+  "f": "Graf_van_Rachel_bij_Bethlehem_Palestine_-_Tombeau_de_Rachel,_pres_de_Bethléhem_(titel_op_object),_RP-F-F01089-AL.jpg",
+  "c": "Rachel’s Tomb near Bethlehem in a 19th-century photograph (Rijksmuseum, Amsterdam). Genesis says Rachel was buried “on the way to Ephrath (that is, Bethlehem)” and Jacob set up a pillar on her grave (35:19-20).",
+  "n": "Rachel’s Tomb",
+  "d": "Rachel’s Tomb near Bethlehem in a 19th-century photograph (Rijksmuseum, Amsterdam). Genesis says Rachel was buried “on the way to Ephrath (that is, Bethlehem)” and Jacob set up a pillar on her grave (35:19-20).",
+  "a": "Rijksmuseum, Amsterdam, CC0 / Wikimedia Commons"
+ },
+ "gn_dothan": {
+  "k": "now",
+  "f": "Dothan,_where_Joseph_was_sold_by_his_brethren_American_Colony,_Jerusalem.jpg",
+  "c": "Dothan, where Joseph was sold by his brothers, photographed by the American Colony in Jerusalem (early 20th century). Joseph followed his brothers there from Shechem; the caravan road to Egypt ran close by (Genesis 37:17, 25).",
+  "n": "Dothan",
+  "d": "Dothan, where Joseph was sold by his brothers, photographed by the American Colony in Jerusalem (early 20th century). Joseph followed his brothers there from Shechem; the caravan road to Egypt ran close by (Genesis 37:17, 25).",
+  "a": "American Colony, Jerusalem, public domain / Wikimedia Commons"
+ },
+ "gn_seal": {
+  "k": "dig",
+  "f": "Cylinder_seal_MET_1999,325,012.jpg",
+  "c": "An Old Babylonian cylinder seal (early 2nd millennium BC, Metropolitan Museum of Art). Seals like this were worn on a cord and rolled on clay as a signature. Judah left his “seal and your cord, and the staff in your hand” with Tamar as a pledge (Genesis 38:18).",
+  "n": "A cylinder seal",
+  "d": "An Old Babylonian cylinder seal (early 2nd millennium BC, Metropolitan Museum of Art). Seals like this were worn on a cord and rolled on clay as a signature. Judah left his “seal and your cord, and the staff in your hand” with Tamar as a pledge (Genesis 38:18).",
+  "a": "Metropolitan Museum of Art, CC0 / Wikimedia Commons"
+ },
+ "gn_meketregarden": {
+  "k": "dig",
+  "f": "Model_of_a_Porch_and_Garden_MET_DP350592.jpg",
+  "c": "A model of a house porch and garden pool from the tomb of Meketre at Thebes (about 1981-1975 BC, Metropolitan Museum of Art). A wealthy Egyptian household like Potiphar’s, where Joseph was put “in charge of his household” (Genesis 39:4).",
+  "n": "Meketre’s house model",
+  "d": "A model of a house porch and garden pool from the tomb of Meketre at Thebes (about 1981-1975 BC, Metropolitan Museum of Art). A wealthy Egyptian household like Potiphar’s, where Joseph was put “in charge of his household” (Genesis 39:4).",
+  "a": "Metropolitan Museum of Art, CC0 / Wikimedia Commons"
+ },
+ "gn_meketrebakery": {
+  "k": "dig",
+  "f": "Model_Bakery_and_Brewery_from_the_Tomb_of_Meketre_MET_DT208237.jpg",
+  "c": "A model bakery and brewery from the tomb of Meketre (about 1981-1975 BC, Metropolitan Museum of Art). Pharaoh’s chief baker dreamed of three baskets of “all sorts of baked goods for Pharaoh” on his head (Genesis 40:17).",
+  "n": "Meketre’s bakery model",
+  "d": "A model bakery and brewery from the tomb of Meketre (about 1981-1975 BC, Metropolitan Museum of Art). Pharaoh’s chief baker dreamed of three baskets of “all sorts of baked goods for Pharaoh” on his head (Genesis 40:17).",
+  "a": "Metropolitan Museum of Art, CC0 / Wikimedia Commons"
+ },
+ "gn_nile": {
+  "k": "now",
+  "f": "On_the_Nile_River_near_Luxor_Egypt_-_panoramio.jpg",
+  "c": "The Nile near Luxor. Egypt’s harvests rose and fell with the river’s yearly flood, and Pharaoh dreamed he was “standing on the bank of the Nile” when seven cows came up out of it (Genesis 41:17-18).",
+  "n": "The Nile",
+  "d": "The Nile near Luxor. Egypt’s harvests rose and fell with the river’s yearly flood, and Pharaoh dreamed he was “standing on the bank of the Nile” when seven cows came up out of it (Genesis 41:17-18).",
+  "a": "Photo: The Erica Chang, CC BY 3.0 / Wikimedia Commons"
+ },
+ "gn_granary": {
+  "k": "dig",
+  "f": "Model_granary_with_workers_and_a_scribe,_wood_-_Museo_Egizio_Turin_S_8651_p01.jpg",
+  "c": "A wooden model of a granary with workers and a scribe, from an Egyptian tomb (Museo Egizio, Turin). Grain was carried in, measured and written down, the work Joseph oversaw when he “stored up grain in such abundance” (Genesis 41:49).",
+  "n": "Egyptian granary model",
+  "d": "A wooden model of a granary with workers and a scribe, from an Egyptian tomb (Museo Egizio, Turin). Grain was carried in, measured and written down, the work Joseph oversaw when he “stored up grain in such abundance” (Genesis 41:49).",
+  "a": "Museo Egizio, Turin, CC0 / Wikimedia Commons"
+ },
+ "gn_banquet": {
+  "k": "dig",
+  "f": "Banquet_scene,_painting_on_straw_and_mud,_Thebes,_New_Kingdom,_18th_Dynasty,_c._1400_BCE_-_Nelson-Atkins_Museum_of_Art_-_DSC08157.JPG",
+  "c": "A banquet scene painted on mud plaster from a tomb at Thebes (about 1400 BC, Nelson-Atkins Museum of Art). At Joseph’s feast “They separately served Joseph, his brothers, and the Egyptians” (Genesis 43:32).",
+  "n": "Egyptian banquet scene",
+  "d": "A banquet scene painted on mud plaster from a tomb at Thebes (about 1400 BC, Nelson-Atkins Museum of Art). At Joseph’s feast “They separately served Joseph, his brothers, and the Egyptians” (Genesis 43:32).",
+  "a": "Photo: Daderot, public domain / Wikimedia Commons"
+ },
+ "gn_cups": {
+  "k": "dig",
+  "f": "General_Wendjebauendjed's_cups_from_Tanis_by_John_Campana.jpg",
+  "c": "Gold and silver cups of the general Wendjebauendjed from Tanis (about 1000 BC, Egyptian Museum, Cairo), much later than Joseph but showing the kind of fine vessel a great official owned. Joseph’s steward hid “my cup, the silver one” in Benjamin’s sack (Genesis 44:2).",
+  "n": "Cups from Tanis",
+  "d": "Gold and silver cups of the general Wendjebauendjed from Tanis (about 1000 BC, Egyptian Museum, Cairo), much later than Joseph but showing the kind of fine vessel a great official owned. Joseph’s steward hid “my cup, the silver one” in Benjamin’s sack (Genesis 44:2).",
+  "a": "Photo: John Campana, CC BY-SA 2.0 / Wikimedia Commons"
+ },
+ "gn_chariot": {
+  "k": "dig",
+  "f": "Syrians_Bringing_an_Ingot_and_a_Chariot,_tomb_of_Rekhmire_MET_DP161255.jpg",
+  "c": "Syrians bringing a chariot to Egypt, a facsimile by Nina de Garis Davies of a painting in the tomb of the vizier Rekhmire at Thebes (about 1450 BC). “Joseph prepared his chariot and went there to meet his father Israel” (Genesis 46:29).",
+  "n": "A chariot brought to Egypt",
+  "d": "Syrians bringing a chariot to Egypt, a facsimile by Nina de Garis Davies of a painting in the tomb of the vizier Rekhmire at Thebes (about 1450 BC). “Joseph prepared his chariot and went there to meet his father Israel” (Genesis 46:29).",
+  "a": "Nina de Garis Davies, Metropolitan Museum of Art, CC0 / Wikimedia Commons"
+ },
+ "gn_aamu": {
+  "k": "dig",
+  "f": "Procession_of_the_Aamu,_Tomb_of_Khnumhotep_II_(composite).jpg",
+  "c": "The procession of the Aamu, Asiatic visitors from Canaan, painted in the tomb of Khnumhotep II at Beni Hasan (about 1890 BC). Men, women and children in bright woven robes come into Egypt with donkeys, as Jacob’s family did (Genesis 46:5-7).",
+  "n": "Asiatics at Beni Hasan",
+  "d": "The procession of the Aamu, Asiatic visitors from Canaan, painted in the tomb of Khnumhotep II at Beni Hasan (about 1890 BC). Men, women and children in bright woven robes come into Egypt with donkeys, as Jacob’s family did (Genesis 46:5-7).",
+  "a": "Composite by A.D. Riddle, public domain / Wikimedia Commons"
+ },
+ "gn_avaris": {
+  "k": "dig",
+  "f": "Tell_el-Daba.jpg",
+  "c": "Tell el-Dab’a in the eastern Nile delta, ancient Avaris, where Austrian excavations found a large town of people from Canaan and Syria living in Egypt in the Middle Bronze Age. Many place the land of Goshen in this region (Genesis 47:27).",
+  "n": "Tell el-Dab’a (Avaris)",
+  "d": "Tell el-Dab’a in the eastern Nile delta, ancient Avaris, where Austrian excavations found a large town of people from Canaan and Syria living in Egypt in the Middle Bronze Age. Many place the land of Goshen in this region (Genesis 47:27).",
+  "a": "Photo: Didia, CC BY-SA 3.0 / Wikimedia Commons"
+ },
+ "gn_josephtomb": {
+  "k": "art",
+  "f": "Tomb_of_Joseph_at_Shechem_1839,_by_David_Roberts.jpg",
+  "c": "The Tomb of Joseph at Shechem, by David Roberts (1839). Joseph asked to be carried out of Egypt; his bones were later buried “at Shechem, in the plot of land that Jacob had purchased” (Joshua 24:32).",
+  "n": "Roberts, Tomb of Joseph",
+  "d": "The Tomb of Joseph at Shechem, by David Roberts (1839). Joseph asked to be carried out of Egypt; his bones were later buried “at Shechem, in the plot of land that Jacob had purchased” (Joshua 24:32).",
+  "a": "David Roberts (1839), public domain / Wikimedia Commons"
+ },
+ "gn_edomold": {
+  "k": "now",
+  "f": "Petra_in_Transjordan._Mountains_of_Edom_and_the_'Arabah_Plain_LOC_matpc.01688.jpg",
+  "c": "The mountains of Edom above the Arabah plain near Petra, photographed by the American Colony photographers (Matson Collection, early 20th century). “So Esau (that is, Edom) settled in the area of Mount Seir” (Genesis 36:8).",
+  "n": "The mountains of Edom",
+  "d": "The mountains of Edom above the Arabah plain near Petra, photographed by the American Colony photographers (Matson Collection, early 20th century). “So Esau (that is, Edom) settled in the area of Mount Seir” (Genesis 36:8).",
+  "a": "Matson Collection, Library of Congress, public domain / Wikimedia Commons"
  }
 }

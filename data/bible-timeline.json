@@ -698,6 +698,52 @@
    ]
   },
   {
+   "id": "gn_bethel",
+   "s": "patriarchs",
+   "z": 2,
+   "t": "Jacob’s ladder at Bethel",
+   "d": "c. 1900-1800 BC",
+   "c": "d",
+   "r": "Genesis 28",
+   "sum": "Fleeing from Esau, Jacob dreams of a stairway to heaven; God promises, “I am with you, and I will watch over you wherever you go” (Genesis 28:15).",
+   "ev": 700,
+   "go": [
+    "genesis",
+    28,
+    10
+   ],
+   "bk": [
+    [
+     0,
+     28,
+     28
+    ]
+   ]
+  },
+  {
+   "id": "gn_peniel",
+   "s": "patriarchs",
+   "z": 2,
+   "t": "Jacob wrestles with God and is named Israel",
+   "d": "c. 1900-1800 BC",
+   "c": "d",
+   "r": "Genesis 32-33",
+   "sum": "At the Jabbok Jacob wrestles until daybreak and is renamed Israel; the next day Esau runs to meet him and embraces him.",
+   "ev": 704,
+   "go": [
+    "genesis",
+    32,
+    22
+   ],
+   "bk": [
+    [
+     0,
+     32,
+     33
+    ]
+   ]
+  },
+  {
    "id": "joseph",
    "s": "patriarchs",
    "z": 1,
@@ -716,6 +762,59 @@
      18,
      105,
      105
+    ]
+   ],
+   "ev": 710,
+   "go": [
+    "genesis",
+    37,
+    1
+   ]
+  },
+  {
+   "id": "gn_egypt",
+   "s": "patriarchs",
+   "z": 2,
+   "t": "Jacob’s family goes down to Egypt",
+   "d": "c. 1900-1700 BC",
+   "c": "d",
+   "r": "Genesis 45-47",
+   "sum": "Joseph makes himself known to his brothers, and seventy of Jacob’s family settle in Goshen during the famine.",
+   "ev": 719,
+   "go": [
+    "genesis",
+    45,
+    1
+   ],
+   "bk": [
+    [
+     0,
+     45,
+     47
+    ]
+   ],
+   "n": "The dates are debated; they depend on the date of the exodus, about 1446 or about 1260 BC, and on how Exodus 12:40 is read."
+  },
+  {
+   "id": "gn_josephdies",
+   "s": "patriarchs",
+   "z": 2,
+   "t": "Jacob and Joseph die in Egypt",
+   "d": "c. 1900-1600 BC",
+   "c": "d",
+   "r": "Genesis 48-50",
+   "sum": "Jacob blesses his sons and is buried at Machpelah. Joseph tells his brothers, “what you intended against me for evil, God intended for good” (Genesis 50:20), and dies at 110.",
+   "ev": 723,
+   "go": [
+    "genesis",
+    50,
+    15
+   ],
+   "bk": [
+    [
+     0,
+     48,
+     50
     ]
    ]
   },

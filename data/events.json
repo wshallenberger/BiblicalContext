@@ -17191,5 +17191,603 @@
    "gn_esau",
    "gn_negev"
   ]
+ },
+ {
+  "i": 698,
+  "t": "Isaac at Gerar; the wells",
+  "p": "Gerar",
+  "la": 31.381,
+  "ln": 34.607,
+  "r": [
+   [
+    "genesis",
+    26,
+    1,
+    26,
+    35
+   ]
+  ],
+  "rs": "Gen26:1-35",
+  "s": "\"He moved on from there and dug another well, and they did not quarrel over it. He named it Rehoboth and said, 'At last the LORD has made room for us, and we will be fruitful in the land.'\" Isaac stays in the land through a famine, reopens Abraham’s wells and makes a treaty with Abimelech.",
+  "n": "Gerar is probably Tel Haror, northwest of Beersheba.",
+  "im": [
+   "gn_loggiaisaac",
+   "gn_beersheba"
+  ]
+ },
+ {
+  "i": 699,
+  "t": "Jacob takes Esau’s blessing",
+  "p": "Isaac’s tents at Beersheba",
+  "la": 31.25,
+  "ln": 34.8,
+  "r": [
+   [
+    "genesis",
+    27,
+    1,
+    27,
+    46
+   ]
+  ],
+  "rs": "Gen27:1-46",
+  "s": "\"So Jacob came close to his father Isaac, who touched him and said, 'The voice is the voice of Jacob, but the hands are the hands of Esau.'\" Rebekah and Jacob deceive blind Isaac, and Esau vows revenge.",
+  "n": "Isaac had settled at Beersheba (26:23); Jacob sets out from there in 28:10.",
+  "im": [
+   "gn_flinck",
+   "gn_negev"
+  ]
+ },
+ {
+  "i": 700,
+  "t": "Jacob’s ladder at Bethel",
+  "p": "Bethel (Luz)",
+  "la": 31.927,
+  "ln": 35.239,
+  "r": [
+   [
+    "genesis",
+    28,
+    10,
+    28,
+    22
+   ]
+  ],
+  "rs": "Gen28:10-22",
+  "s": "\"When Jacob woke up, he thought, 'Surely the LORD is in this place, and I was unaware of it.'\" Jacob dreams of a stairway to heaven and God promises to be with him.",
+  "n": "Bethel is usually placed at Beitin, about 17 km north of Jerusalem.",
+  "im": [
+   "gn_riberadream",
+   "gn_bethel"
+  ]
+ },
+ {
+  "i": 701,
+  "t": "Jacob, Rachel and Leah",
+  "p": "A well near Haran",
+  "la": 36.865,
+  "ln": 39.031,
+  "r": [
+   [
+    "genesis",
+    29,
+    1,
+    29,
+    35
+   ]
+  ],
+  "rs": "Gen29:1-35",
+  "s": "Jacob meets Rachel at the well, serves seven years for her, and is given Leah first.",
+  "n": "Laban lived in the region of Haran (27:43; 29:4), called Paddan-aram.",
+  "im": [
+   "gn_palma",
+   "gn_jacobswell"
+  ]
+ },
+ {
+  "i": 702,
+  "t": "Eleven sons; Jacob’s flocks",
+  "p": "Laban’s pastures near Haran",
+  "la": 36.8,
+  "ln": 39.1,
+  "r": [
+   [
+    "genesis",
+    30,
+    1,
+    30,
+    43
+   ]
+  ],
+  "rs": "Gen30:1-43",
+  "s": "Rachel and Leah compete for children until God remembers Rachel and she bears Joseph. Jacob grows rich in flocks.",
+  "n": "The pin sits beside Haran.",
+  "im": [
+   "gn_murillorods",
+   "gn_harran"
+  ]
+ },
+ {
+  "i": 703,
+  "t": "Jacob flees; the covenant at Mizpah",
+  "p": "The hill country of Gilead",
+  "la": 32.3,
+  "ln": 35.75,
+  "r": [
+   [
+    "genesis",
+    31,
+    1,
+    31,
+    55
+   ]
+  ],
+  "rs": "Gen31:1-55",
+  "s": "\"It was also called Mizpah, because Laban said, 'May the LORD keep watch between you and me when we are absent from each other.\" Laban overtakes Jacob in Gilead and the two make a boundary covenant.",
+  "n": "Galeed and Mizpah are not located; the pin is in the hills of Gilead east of the Jordan.",
+  "im": [
+   "gn_tiepoloidols",
+   "gn_harran"
+  ]
+ },
+ {
+  "i": 704,
+  "t": "Jacob wrestles at the Jabbok",
+  "p": "Peniel, by the ford of the Jabbok",
+  "la": 32.18,
+  "ln": 35.67,
+  "r": [
+   [
+    "genesis",
+    32,
+    1,
+    32,
+    32
+   ]
+  ],
+  "rs": "Gen32:1-32",
+  "s": "\"Then the man said, 'Your name will no longer be Jacob, but Israel, because you have struggled with God and with men, and you have prevailed.'\" Jacob holds on until he is blessed and renamed Israel.",
+  "n": "Peniel and Mahanaim are often placed at the twin mounds of Tulul adh-Dhahab on the Jabbok; the sites are debated.",
+  "im": [
+   "gn_rembrandtwrestle",
+   "gn_jabbok"
+  ]
+ },
+ {
+  "i": 705,
+  "t": "Esau embraces Jacob; Succoth and Shechem",
+  "p": "Succoth",
+  "la": 32.196,
+  "ln": 35.623,
+  "r": [
+   [
+    "genesis",
+    33,
+    1,
+    33,
+    20
+   ]
+  ],
+  "rs": "Gen33:1-20",
+  "s": "\"Esau, however, ran to him and embraced him, threw his arms around his neck, and kissed him. And they both wept.\" Jacob settles at Succoth, then buys land at Shechem.",
+  "n": "Succoth is probably Tell Deir Alla in the Jordan valley.",
+  "im": [
+   "gn_rubensesau",
+   "gn_deiralla"
+  ]
+ },
+ {
+  "i": 706,
+  "t": "Dinah and the men of Shechem",
+  "p": "Shechem",
+  "la": 32.215,
+  "ln": 35.285,
+  "r": [
+   [
+    "genesis",
+    34,
+    1,
+    34,
+    31
+   ]
+  ],
+  "rs": "Gen34:1-31",
+  "s": "Shechem violates Dinah; Simeon and Levi take bloody revenge on the city.",
+  "n": "Shechem is Tell Balata, beside Nablus.",
+  "im": [
+   "gn_dinah",
+   "gn_shechem"
+  ]
+ },
+ {
+  "i": 707,
+  "t": "Back to Bethel",
+  "p": "Bethel",
+  "la": 31.93,
+  "ln": 35.24,
+  "r": [
+   [
+    "genesis",
+    35,
+    1,
+    35,
+    15
+   ]
+  ],
+  "rs": "Gen35:1-15",
+  "s": "\"So Jacob told his household and all who were with him, 'Get rid of the foreign gods that are among you. Purify yourselves and change your garments.\" At Bethel God confirms the name Israel and the promise.",
+  "n": "Jacob keeps the vow he made at Bethel in 28:20-22.",
+  "im": [
+   "gn_furini",
+   "gn_bethel"
+  ]
+ },
+ {
+  "i": 708,
+  "t": "Rachel dies; Benjamin born; Isaac dies",
+  "p": "On the way to Ephrath (Bethlehem)",
+  "la": 31.719,
+  "ln": 35.202,
+  "r": [
+   [
+    "genesis",
+    35,
+    16,
+    35,
+    29
+   ]
+  ],
+  "rs": "Gen35:16-29",
+  "s": "Rachel dies giving birth to Benjamin and is buried on the way to Bethlehem. Isaac dies at Mamre at 180.",
+  "n": "The traditional Rachel’s Tomb stands at the north edge of Bethlehem; 1 Samuel 10:2 places it in Benjamin, farther north.",
+  "im": [
+   "gn_furini",
+   "gn_rachelstomb"
+  ]
+ },
+ {
+  "i": 709,
+  "t": "Esau settles in Seir",
+  "p": "The hill country of Seir (Edom)",
+  "la": 30.6,
+  "ln": 35.55,
+  "r": [
+   [
+    "genesis",
+    36,
+    1,
+    36,
+    43
+   ]
+  ],
+  "rs": "Gen36:1-43",
+  "s": "Esau moves away to Mount Seir, and his descendants become the chiefs and kings of Edom.",
+  "n": "Seir is the highland east of the Arabah, south of the Dead Sea.",
+  "im": [
+   "gn_esau",
+   "gn_edomold"
+  ]
+ },
+ {
+  "i": 710,
+  "t": "Joseph sold by his brothers",
+  "p": "Dothan",
+  "la": 32.414,
+  "ln": 35.24,
+  "r": [
+   [
+    "genesis",
+    37,
+    1,
+    37,
+    36
+   ]
+  ],
+  "rs": "Gen37:1-36",
+  "s": "\"Now Israel loved Joseph more than his other sons, because Joseph had been born to him in his old age; so he made him a robe of many colors.\" His brothers throw him into a pit at Dothan and sell him to traders bound for Egypt.",
+  "n": "Tel Dothan lies on the route from the hill country to the coast road to Egypt.",
+  "im": [
+   "gn_velazquez",
+   "gn_dothan"
+  ]
+ },
+ {
+  "i": 711,
+  "t": "Judah and Tamar",
+  "p": "Adullam and the road to Timnah",
+  "la": 31.65,
+  "ln": 34.97,
+  "r": [
+   [
+    "genesis",
+    38,
+    1,
+    38,
+    30
+   ]
+  ],
+  "rs": "Gen38:1-30",
+  "s": "\"Judah recognized the items and said, 'She is more righteous than I, since I did not give her to my son Shelah.' And he did not have relations with her again.\" Tamar bears twins, Perez and Zerah.",
+  "n": "Adullam is in the lowland of Judah; this Timnah and Enaim are not certainly located.",
+  "im": [
+   "gn_vernettamar",
+   "gn_seal"
+  ]
+ },
+ {
+  "i": 712,
+  "t": "Joseph in Potiphar’s house",
+  "p": "Egypt",
+  "la": 29.85,
+  "ln": 31.25,
+  "r": [
+   [
+    "genesis",
+    39,
+    1,
+    39,
+    23
+   ]
+  ],
+  "rs": "Gen39:1-23",
+  "s": "\"And the LORD was with Joseph, and he became a successful man, serving in the household of his Egyptian master.\" Falsely accused by Potiphar’s wife, he is put in prison.",
+  "n": "Genesis does not name the city where Joseph served Pharaoh; the pin stands near Memphis, the old capital at the head of the delta.",
+  "im": [
+   "gn_potiphar",
+   "gn_meketregarden"
+  ]
+ },
+ {
+  "i": 713,
+  "t": "Dreams in prison",
+  "p": "The king’s prison in Egypt",
+  "la": 29.86,
+  "ln": 31.24,
+  "r": [
+   [
+    "genesis",
+    40,
+    1,
+    40,
+    23
+   ]
+  ],
+  "rs": "Gen40:1-23",
+  "s": "Joseph interprets the dreams of Pharaoh’s cupbearer and baker. \"The chief cupbearer, however, did not remember Joseph; he forgot all about him.\"",
+  "n": "Genesis does not name the city where Joseph served Pharaoh; the pin stands near Memphis, the old capital at the head of the delta.",
+  "im": [
+   "gn_tissotprison",
+   "gn_meketrebakery"
+  ]
+ },
+ {
+  "i": 714,
+  "t": "Joseph made ruler of Egypt",
+  "p": "Pharaoh’s court",
+  "la": 29.84,
+  "ln": 31.26,
+  "r": [
+   [
+    "genesis",
+    41,
+    1,
+    41,
+    57
+   ]
+  ],
+  "rs": "Gen41:1-57",
+  "s": "Joseph interprets Pharaoh’s dreams of seven good years and seven of famine and is set over all Egypt at thirty.",
+  "n": "Genesis does not name the city where Joseph served Pharaoh; the pin stands near Memphis, the old capital at the head of the delta.",
+  "im": [
+   "gn_corneliuspharaoh",
+   "gn_nile"
+  ]
+ },
+ {
+  "i": 715,
+  "t": "The brothers bow before Joseph",
+  "p": "Egypt",
+  "la": 29.87,
+  "ln": 31.26,
+  "r": [
+   [
+    "genesis",
+    42,
+    1,
+    42,
+    38
+   ]
+  ],
+  "rs": "Gen42:1-38",
+  "s": "\"Although Joseph recognized his brothers, they did not recognize him.\" He accuses them of spying and keeps Simeon.",
+  "n": "Genesis does not name the city where Joseph served Pharaoh; the pin stands near Memphis, the old capital at the head of the delta.",
+  "im": [
+   "gn_bourgeois",
+   "gn_granary"
+  ]
+ },
+ {
+  "i": 716,
+  "t": "Benjamin and the silver cup",
+  "p": "Joseph’s house in Egypt",
+  "la": 29.85,
+  "ln": 31.27,
+  "r": [
+   [
+    "genesis",
+    43,
+    1,
+    44,
+    34
+   ]
+  ],
+  "rs": "Gen43:1-44:34",
+  "s": "The brothers return with Benjamin. Joseph hides his cup in Benjamin’s sack, and Judah offers himself in Benjamin’s place.",
+  "n": "Genesis does not name the city where Joseph served Pharaoh; the pin stands near Memphis, the old capital at the head of the delta.",
+  "im": [
+   "gn_tissotjudah",
+   "gn_cups"
+  ]
+ },
+ {
+  "i": 717,
+  "t": "I am Joseph",
+  "p": "Joseph’s house in Egypt",
+  "la": 29.86,
+  "ln": 31.27,
+  "r": [
+   [
+    "genesis",
+    45,
+    1,
+    45,
+    28
+   ]
+  ],
+  "rs": "Gen45:1-28",
+  "s": "\"Joseph said to his brothers, 'I am Joseph! Is my father still alive?' But they were unable to answer him, because they were terrified in his presence.\" Joseph forgives his brothers and sends for his father.",
+  "n": "Genesis does not name the city where Joseph served Pharaoh; the pin stands near Memphis, the old capital at the head of the delta.",
+  "im": [
+   "gn_corneliusreveal",
+   "gn_banquet"
+  ]
+ },
+ {
+  "i": 718,
+  "t": "God speaks to Jacob at Beersheba",
+  "p": "Beersheba",
+  "la": 31.24,
+  "ln": 34.85,
+  "r": [
+   [
+    "genesis",
+    46,
+    1,
+    46,
+    7
+   ]
+  ],
+  "rs": "Gen46:1-7",
+  "s": "\"Do not be afraid to go down to Egypt, for I will make you into a great nation there.\" Jacob sets out with all his family.",
+  "n": "The last time God speaks in Genesis, at the well where Abraham and Isaac had called on Him.",
+  "im": [
+   "gn_aamu",
+   "gn_beersheba"
+  ]
+ },
+ {
+  "i": 719,
+  "t": "Jacob meets Joseph; Pharaoh welcomes the family",
+  "p": "The land of Goshen",
+  "la": 30.7,
+  "ln": 31.9,
+  "r": [
+   [
+    "genesis",
+    46,
+    28,
+    47,
+    31
+   ]
+  ],
+  "rs": "Gen46:28-47:31",
+  "s": "Joseph meets his father in Goshen, Jacob blesses Pharaoh, and the family settles in the best of the land.",
+  "n": "Goshen lay in the eastern Nile delta; many place it around the Wadi Tumilat and Tell el-Dab’a.",
+  "im": [
+   "gn_tissotwelcomed",
+   "gn_avaris"
+  ]
+ },
+ {
+  "i": 720,
+  "t": "Jacob blesses Ephraim and Manasseh",
+  "p": "Goshen",
+  "la": 30.72,
+  "ln": 31.88,
+  "r": [
+   [
+    "genesis",
+    48,
+    1,
+    48,
+    22
+   ]
+  ],
+  "rs": "Gen48:1-22",
+  "s": "Jacob adopts Joseph’s sons and crosses his hands to put Ephraim, the younger, first.",
+  "n": "Jacob lived seventeen years in Egypt (47:28).",
+  "im": [
+   "gn_rembrandtkassel",
+   "gn_chariot"
+  ]
+ },
+ {
+  "i": 721,
+  "t": "Jacob blesses his twelve sons",
+  "p": "Goshen",
+  "la": 30.68,
+  "ln": 31.92,
+  "r": [
+   [
+    "genesis",
+    49,
+    1,
+    49,
+    33
+   ]
+  ],
+  "rs": "Gen49:1-33",
+  "s": "\"The scepter will not depart from Judah, nor the staff from between his feet, until Shiloh comes and the allegiance of the nations is his.\" Jacob dies.",
+  "n": "Jacob asks to be buried at Machpelah with Abraham and Isaac (49:29-32).",
+  "im": [
+   "gn_tissotlast",
+   "gn_machpelah"
+  ]
+ },
+ {
+  "i": 722,
+  "t": "Jacob buried at Machpelah",
+  "p": "Hebron, the cave of Machpelah",
+  "la": 31.5246,
+  "ln": 35.1107,
+  "r": [
+   [
+    "genesis",
+    50,
+    1,
+    50,
+    14
+   ]
+  ],
+  "rs": "Gen50:1-14",
+  "s": "Joseph leads a great Egyptian procession to Canaan and buries his father in the cave of Machpelah.",
+  "n": "The threshing floor of Atad, “across the Jordan” (50:10), is not located.",
+  "im": [
+   "gn_tissotlast",
+   "gn_machpelah2"
+  ]
+ },
+ {
+  "i": 723,
+  "t": "Meant for good; Joseph dies",
+  "p": "Egypt",
+  "la": 30.66,
+  "ln": 31.95,
+  "r": [
+   [
+    "genesis",
+    50,
+    15,
+    50,
+    26
+   ]
+  ],
+  "rs": "Gen50:15-26",
+  "s": "\"As for you, what you intended against me for evil, God intended for good, in order to accomplish a day like this—to preserve the lives of many people.\" Joseph dies at 110, asking that his bones be carried to the promised land.",
+  "n": "Moses took Joseph’s bones out of Egypt (Exodus 13:19), and they were buried at Shechem (Joshua 24:32).",
+  "im": [
+   "gn_tissotdwelleth",
+   "gn_josephtomb"
+  ]
  }
 ]

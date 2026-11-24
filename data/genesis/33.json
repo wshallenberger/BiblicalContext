@@ -1,0 +1,285 @@
+{
+ "book": "Genesis",
+ "chapter": 33,
+ "title": "Jacob Meets Esau",
+ "translation": "BSB",
+ "verses": [
+  {
+   "num": 1,
+   "text": "Now Jacob looked up and saw Esau coming toward him with four hundred men. So he divided the children among Leah, Rachel, and the two maidservants."
+  },
+  {
+   "num": 2,
+   "text": "He put the maidservants and their children in front, Leah and her children next, and Rachel and Joseph at the rear."
+  },
+  {
+   "num": 3,
+   "text": "But Jacob himself went on ahead and bowed to the ground seven times as he approached his brother."
+  },
+  {
+   "num": 4,
+   "text": "Esau, however, ran to him and embraced him, threw his arms around his neck, and kissed him. And they both wept."
+  },
+  {
+   "num": 5,
+   "text": "When Esau looked up and saw the women and children, he asked, \"Who are these with you?\" Jacob answered, \"These are the children God has graciously given your servant.\""
+  },
+  {
+   "num": 6,
+   "text": "Then the maidservants and their children approached and bowed down."
+  },
+  {
+   "num": 7,
+   "text": "Leah and her children also approached and bowed down, and then Joseph and Rachel approached and bowed down."
+  },
+  {
+   "num": 8,
+   "text": "\"What do you mean by sending this whole company to meet me?\" asked Esau. \"To find favor in your sight, my lord,\" Jacob answered."
+  },
+  {
+   "num": 9,
+   "text": "\"I already have plenty, my brother,\" Esau replied. \"Keep what belongs to you.\""
+  },
+  {
+   "num": 10,
+   "text": "But Jacob insisted, \"No, please! If I have found favor in your sight, then receive this gift from my hand. For indeed, I have seen your face, and it is like seeing the face of God, since you have received me favorably."
+  },
+  {
+   "num": 11,
+   "text": "Please accept my gift that was brought to you, because God has been gracious to me and I have all I need.\" So Jacob pressed him until he accepted."
+  },
+  {
+   "num": 12,
+   "text": "Then Esau said, \"Let us be on our way, and I will go ahead of you.\""
+  },
+  {
+   "num": 13,
+   "text": "But Jacob replied, \"My lord knows that the children are frail, and I must care for sheep and cattle that are nursing their young. If they are driven hard for even a day, all the animals will die."
+  },
+  {
+   "num": 14,
+   "text": "Please let my lord go ahead of his servant. I will continue on slowly, at a comfortable pace for the livestock and children, until I come to my lord at Seir.\""
+  },
+  {
+   "num": 15,
+   "text": "\"Let me leave some of my people with you,\" Esau said. But Jacob replied, \"Why do that? Let me find favor in the sight of my lord.\""
+  },
+  {
+   "num": 16,
+   "text": "So that day Esau started on his way back to Seir,"
+  },
+  {
+   "num": 17,
+   "text": "but Jacob went on to Succoth, where he built a house for himself and shelters for his livestock; that is why the place was called Succoth."
+  },
+  {
+   "num": 18,
+   "text": "After Jacob had come from Paddan-aram, he arrived safely at the city of Shechem in the land of Canaan, and he camped just outside the city."
+  },
+  {
+   "num": 19,
+   "text": "And the plot of ground where he pitched his tent, he purchased from the sons of Hamor, Shechem's father, for a hundred pieces of silver."
+  },
+  {
+   "num": 20,
+   "text": "There he set up an altar and called it El-Elohe-Israel."
+  }
+ ],
+ "context": {
+  "author": "Genesis names no author. Jewish and Christian tradition, and the New Testament’s way of speaking of “the Law of Moses” (Luke 24:44), credit the five books of the Law to Moses. Many scholars think Genesis was gathered and shaped from older sources over a long time, and a few remarks look back from a later day: “at that time the Canaanites were in the land” (Genesis 12:6).",
+  "genre": "Family narrative: the story of Isaac’s sons, Jacob and Esau (Genesis 25:19 to 36:43)",
+  "audience": "Israel, named for Jacob, learning how God kept His promise through a flawed and struggling family",
+  "mapLabel": "CANAAN AND HARAN",
+  "setting": "Jacob sees Esau coming with four hundred men and arranges his family, maidservants first and Rachel and Joseph last (vv.1-2). Then he goes ahead of them all and “bowed to the ground seven times” (v.3). “Esau, however, ran to him and embraced him, threw his arms around his neck, and kissed him. And they both wept” (v.4). Jacob introduces “the children God has graciously given your servant” (v.5). Esau does not want the gifts: “I already have plenty, my brother” (v.9), but Jacob insists, “I have seen your face, and it is like seeing the face of God, since you have received me favorably,” and asks him to take “my gift,” literally my blessing (vv.10-11). Esau offers to travel with him, but Jacob politely puts him off and goes another way (vv.12-16). Jacob builds a house at Succoth, then arrives “safely at the city of Shechem” in Canaan, buys a plot of land for a hundred pieces of silver, and sets up an altar called El-Elohe-Israel, God, the God of Israel (vv.17-20).",
+  "custom": "Bowing seven times was the way a vassal approached a great king; letters from Canaanite rulers to Pharaoh found at Amarna (14th century BC) begin with the writer falling at the king’s feet seven times and seven times. Jacob calls Esau “my lord” and himself “your servant” throughout, reversing the words of the stolen blessing, “May you be the master of your brothers” (27:29). Succoth means shelters or booths. Jacob’s purchase at Shechem is the second piece of land the family owns in Canaan, after the cave of Machpelah.",
+  "timelineImmediate": "Chapter 34 tells of the rape of Dinah at Shechem and the brutal revenge of her brothers Simeon and Levi.",
+  "timelineBible": "Jacob’s gift is called a berakhah, a blessing (v.11): in a sense he hands back to Esau what he took in chapter 27. Joshua 24:32 says Joseph’s bones were later buried in the plot Jacob bought at Shechem, and Jesus met the Samaritan woman near it, at “the plot of ground that Jacob had given to his son Joseph” (John 4:5).",
+  "translation": [
+   {
+    "english": "embraced",
+    "greek": "חָבַק (chavaq)",
+    "verseRef": "v.4",
+    "meaning": "To embrace. Laban embraced Jacob at his coming (29:13), and now the brother he feared does the same.",
+    "gloss": "To embrace",
+    "strongs": "H2263",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "favor",
+    "greek": "חֵן (chen)",
+    "verseRef": "v.8",
+    "meaning": "Grace, favor. Jacob says again and again that he wants to find favor in Esau’s eyes (32:5; 33:8, 10, 15).",
+    "gloss": "Favor",
+    "strongs": "H2580",
+    "lang": "Hebrew"
+   },
+   {
+    "english": "gift",
+    "greek": "בְּרָכָה (berakhah)",
+    "verseRef": "v.11",
+    "meaning": "Blessing; here a gift given as a blessing. The same word as the blessing Jacob took from Esau (27:36).",
+    "gloss": "Blessing",
+    "strongs": "H1293",
+    "lang": "Hebrew"
+   }
+  ],
+  "gospelParallels": [
+   {
+    "ref": "Luke 15:20",
+    "note": "The father ran, embraced and kissed his son."
+   },
+   {
+    "ref": "John 4:5-6",
+    "note": "Near the plot Jacob gave to Joseph, at Jacob’s well."
+   },
+   {
+    "ref": "Matthew 5:23-24",
+    "note": "First be reconciled to your brother."
+   }
+  ],
+  "otBackground": [
+   {
+    "ref": "Genesis 27:29",
+    "note": "May you be the master of your brothers."
+   },
+   {
+    "ref": "Joshua 24:32",
+    "note": "Joseph’s bones buried at Shechem."
+   },
+   {
+    "ref": "Proverbs 18:19",
+    "note": "An offended brother is harder to win than a strong city."
+   }
+  ],
+  "mapCoords": {
+   "lat": 32.213,
+   "lng": 35.282,
+   "zoom": 6,
+   "placeName": "Shechem, the Oak of Moreh (Tell Balata)"
+  },
+  "overview": {
+   "summary": "Esau meets Jacob with an embrace instead of revenge; Jacob gives him gifts, travels on to Succoth and Shechem, buys land and builds an altar to the God of Israel.",
+   "settingLine": "Near the Jabbok, then Succoth and Shechem.",
+   "placeName": "Shechem, the Oak of Moreh (Tell Balata)",
+   "history": [
+    {
+     "h": "Shechem",
+     "t": "A walled city in the pass between Mount Ebal and Mount Gerizim."
+    },
+    {
+     "h": "Edom",
+     "t": "Esau returns to Seir, the land of his descendants."
+    }
+   ],
+   "customs": [
+    {
+     "h": "Sevenfold bow",
+     "t": "The bow of a servant before a great lord."
+    },
+    {
+     "h": "Buying land",
+     "t": "Silver weighed out for a plot made a lasting claim."
+    }
+   ],
+   "archaeology": [
+    {
+     "h": "Amarna letters",
+     "t": "Canaanite rulers wrote that they fell at Pharaoh’s feet seven times and seven times."
+    },
+    {
+     "h": "Tell Balata",
+     "t": "The ruins of Shechem, with its great gate and temple."
+    }
+   ],
+   "discussion": "Jacob expected an army and was met with an embrace (v.4). Is there someone I have been dreading meeting who might be readier to forgive than I think?",
+   "book": "The book of Genesis · 50 chapters. Beginnings: creation, the fall, the flood and the nations, then God’s promise to Abraham, Isaac, Jacob and Joseph.",
+   "author": "Moses, by tradition",
+   "genre": "Family narrative",
+   "audience": "Israel, the sons of Jacob",
+   "refNotes": {
+    "Genesis 27:29": "The blessing reversed",
+    "Joshua 24:32": "The plot at Shechem",
+    "Proverbs 18:19": "An offended brother"
+   },
+   "peoplePlaces": [
+    {
+     "n": "Jacob",
+     "d": "Bows seven times and gives a blessing"
+    },
+    {
+     "n": "Esau",
+     "d": "Runs, embraces and weeps"
+    },
+    {
+     "n": "Hamor",
+     "d": "Sells Jacob land at Shechem"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "v.1-11",
+     "label": "The meeting"
+    },
+    {
+     "when": "v.12-17",
+     "label": "Separate ways"
+    },
+    {
+     "when": "v.18-20",
+     "label": "Shechem and an altar"
+    }
+   ]
+  },
+  "biblePlaces": [
+   {
+    "name": "Peniel and Mahanaim by the Jabbok (sites debated)",
+    "lat": 32.18,
+    "lng": 35.67,
+    "verses": [
+     1
+    ],
+    "slug": "penuel"
+   },
+   {
+    "name": "Succoth (probably Tell Deir Alla)",
+    "lat": 32.196,
+    "lng": 35.623,
+    "verses": [
+     17
+    ],
+    "slug": "succoth"
+   },
+   {
+    "name": "Shechem, the Oak of Moreh (Tell Balata)",
+    "lat": 32.213,
+    "lng": 35.282,
+    "verses": [
+     18
+    ],
+    "slug": "shechem"
+   },
+   {
+    "name": "Seir, the hill country of Edom",
+    "lat": 30.6,
+    "lng": 35.55,
+    "verses": [
+     16
+    ],
+    "slug": "edom"
+   }
+  ],
+  "biblePlacesCredit": "Place positions are approximate.",
+  "biblePlacesRadius": 0.8,
+  "sparkNotes": "But Jacob himself went on ahead and bowed to the ground seven times as he approached his brother. Esau, however, ran to him and embraced him, threw his arms around his neck, and kissed him. And they both wept. When Esau looked up and saw the women and children, he asked, Who are these with you? Jacob answered, These are the children God has graciously given your servant. But Jacob insisted, No, please! If I have found favor in your sight, then receive this gift from my hand. For indeed, I have seen your face, and it is like seeing the face of God, since you have received me favorably. Please accept my gift that was brought to you, because God has been gracious to me and I have all I need. So Jacob pressed him until he accepted. but Jacob went on to Succoth, where he built a house for himself and shelters for his livestock; that is why the place was called Succoth. After Jacob had come from Paddan-aram, he arrived safely at the city of Shechem in the land of Canaan, and he camped just outside the city. There he set up an altar and called it El-Elohe-Israel.",
+  "historicalImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Peter_Paul_Rubens_-_The_Reconciliation_of_Jacob_and_Esau_-_NG_2397_-_National_Galleries_of_Scotland.jpg",
+   "caption": "The Reconciliation of Jacob and Esau, by Peter Paul Rubens (1624, Scottish National Gallery, Edinburgh). Esau comes with his armed men, and Jacob’s family bows before him: “Esau, however, ran to him and embraced him” (Genesis 33:4).",
+   "credit": "Peter Paul Rubens (1624), public domain / Wikimedia Commons"
+  },
+  "currentImage": {
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tell_Deir_Alla_Archaeological_Site.jpg",
+   "caption": "Tell Deir Alla in the Jordan valley, often identified with Succoth, where Jacob built a house and shelters for his livestock (Genesis 33:17).",
+   "credit": "Photo: Mohammad hajeer, CC BY-SA 4.0 / Wikimedia Commons"
+  }
+ }
+}
